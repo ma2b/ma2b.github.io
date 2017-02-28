@@ -1,0 +1,687 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Fabacademy,Week16,Interface and application programming," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Reflect and Processing">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Week16">
+<meta property="og:url" content="http://blog.yufei.ma/2016/05/18/Week16/index.html">
+<meta property="og:site_name" content="Yufei ma's Blog">
+<meta property="og:description" content="Reflect and Processing">
+<meta property="og:image" content="http://i.imgur.com/42EYixi.gif">
+<meta property="og:image" content="http://i.imgur.com/SEVmSzM.jpg">
+<meta property="og:image" content="http://i.imgur.com/aPQJZEC.jpg">
+<meta property="og:image" content="http://i.imgur.com/rOCuHIg.jpg">
+<meta property="og:image" content="http://i.imgur.com/KR70w0I.jpg">
+<meta property="og:image" content="http://i.imgur.com/42EYixi.gif">
+<meta property="og:image" content="http://i.imgur.com/AO9FQlB.png">
+<meta property="og:updated_time" content="2017-02-28T14:53:47.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Week16">
+<meta name="twitter:description" content="Reflect and Processing">
+<meta name="twitter:image" content="http://i.imgur.com/42EYixi.gif">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.yufei.ma/2016/05/18/Week16/"/>
+
+
+
+
+
+  <title> Week16 | Yufei ma's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Yufei ma's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://blog.yufei.ma/2016/05/18/Week16/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yufei ma">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yufei ma's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Week16
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-05-18T23:00:00+08:00">
+                2016-05-18
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Reflect-and-Processing"><a href="#Reflect-and-Processing" class="headerlink" title="Reflect and Processing"></a>Reflect and Processing</h1><p><img src="http://i.imgur.com/42EYixi.gif" alt="1DD750CD03201CF2A54B865D03F68C70"><br><a id="more"></a><br>The board used serial protocol to connect the Computer.<br><img src="http://i.imgur.com/SEVmSzM.jpg" alt=""><br>I use a software called <a href="https://processing.org/" target="_blank" rel="external">Processing</a>,and this is my processing code.</p>
+<h2 id="Processing"><a href="#Processing" class="headerlink" title="Processing"></a>Processing</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div></pre></td><td class="code"><pre><div class="line">import processing.serial.*;</div><div class="line">Serial myPort;</div><div class="line">int lf = 10;</div><div class="line"></div><div class="line">void setup()&#123;</div><div class="line">  size(300,300);</div><div class="line">  //fill(0,255,0);</div><div class="line">  //ellipse(100,100,100,100);</div><div class="line">  //myPort = new Serial(this,&quot;/dev/cu.usbmodem1421&quot;,9600);</div><div class="line">  myPort = new Serial(this,&quot;/dev/tty.usbserial&quot;,9600);</div><div class="line">&#125;</div><div class="line"></div><div class="line">void draw()&#123;</div><div class="line">  while(myPort.available() &gt; 0)&#123;</div><div class="line">    String str = myPort.readStringUntil(lf);</div><div class="line">    //println(str);</div><div class="line">    if(str!=null)&#123;</div><div class="line">      int value = Integer.parseInt(trim(str));</div><div class="line">      int nValue = (value-200)*4;</div><div class="line">      println(nValue);</div><div class="line">      background(nValue);</div><div class="line">    &#125;</div><div class="line"></div><div class="line">  &#125;</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<h3 id="At-dark"><a href="#At-dark" class="headerlink" title="At dark"></a>At dark</h3><p>If the board is in dark,the interface will be white.<br><img src="http://i.imgur.com/aPQJZEC.jpg" alt=""></p>
+<h3 id="At-bright-light"><a href="#At-bright-light" class="headerlink" title="At bright light"></a>At bright light</h3><p>When the board on front of light,the interface will be dark.<br><img src="http://i.imgur.com/rOCuHIg.jpg" alt=""></p>
+<h2 id="Arduino"><a href="#Arduino" class="headerlink" title="Arduino"></a>Arduino</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div></pre></td><td class="code"><pre><div class="line">#include &quot;SoftwareSerial.h&quot;</div><div class="line"></div><div class="line">const int analogInPin =  A2;  // Analog input pin that the potentiometer is attached to</div><div class="line">int sensorValue = 0;        // value read from the pot</div><div class="line">int outputValue = 0;        // value output to the PWM (analog out)</div><div class="line"></div><div class="line">const int Rx = 1; // this is physical pin 7</div><div class="line">const int Tx = 2; // this is physical pin 6</div><div class="line">SoftwareSerial mySerial(Rx, Tx);</div><div class="line"></div><div class="line">void setup() &#123;</div><div class="line">//  pinMode(3, OUTPUT);</div><div class="line">  pinMode(Rx, INPUT);</div><div class="line">  pinMode(Tx, OUTPUT);</div><div class="line">  mySerial.begin(9600); // send serial data at 9600 bits/sec</div><div class="line">&#125;</div><div class="line"></div><div class="line">void loop() &#123;</div><div class="line">  // read the analog in value:</div><div class="line">  sensorValue = analogRead(analogInPin);</div><div class="line">  // map it to the range of the analog out:</div><div class="line">  outputValue = map(sensorValue, 0, 1023, 0, 255);</div><div class="line">  mySerial.println(outputValue);</div><div class="line">  delay(100);</div><div class="line"></div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Serial Output<br><img src="http://i.imgur.com/KR70w0I.jpg" alt=""></p>
+<h2 id="Test-Arduino-and-Processing-together"><a href="#Test-Arduino-and-Processing-together" class="headerlink" title="Test Arduino and Processing together"></a>Test Arduino and Processing together</h2><p><img src="http://i.imgur.com/42EYixi.gif" alt="1DD750CD03201CF2A54B865D03F68C70"></p>
+<h1 id="File-download"><a href="#File-download" class="headerlink" title="File download"></a>File download</h1><p><a href="http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/426/1download/Week16Code.zip" target="_blank" rel="external">Code Download</a></p>
+<p><img src="http://i.imgur.com/AO9FQlB.png" alt=""><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external">Creative Commons Attribution 4.0 International License</a>.</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Fabacademy/" rel="tag"># Fabacademy</a>
+          
+            <a href="/tags/Week16/" rel="tag"># Week16</a>
+          
+            <a href="/tags/Interface-and-application-programming/" rel="tag"># Interface and application programming</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/05/11/Week15/" rel="next" title="Week15">
+                <i class="fa fa-chevron-left"></i> Week15
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/25/Week17/" rel="prev" title="Week17">
+                Week17 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Yufei ma" />
+          <p class="site-author-name" itemprop="name">Yufei ma</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-name">Artikel</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">57</span>
+                <span class="site-state-item-name">Tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Reflect-and-Processing"><span class="nav-number">1.</span> <span class="nav-text">Reflect and Processing</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#Processing"><span class="nav-number">1.1.</span> <span class="nav-text">Processing</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#At-dark"><span class="nav-number">1.1.1.</span> <span class="nav-text">At dark</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#At-bright-light"><span class="nav-number">1.1.2.</span> <span class="nav-text">At bright light</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Arduino"><span class="nav-number">1.2.</span> <span class="nav-text">Arduino</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Test-Arduino-and-Processing-together"><span class="nav-number">1.3.</span> <span class="nav-text">Test Arduino and Processing together</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#File-download"><span class="nav-number">2.</span> <span class="nav-text">File download</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yufei ma</span>
+</div>
+
+
+<div class="powered-by">
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>

@@ -1,0 +1,704 @@
+<!doctype html>
+
+
+
+  
+
+
+<html class="theme-next pisces use-motion" lang="">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/lib/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Fabacademy,Week13,Output devices," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.1.0" />
+
+
+
+
+
+
+<meta name="description" content="Replace the microcontroller of the Toy(Motor and Speaker)Motor driver  L9110 and A4953">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Week13 - Speaker and Motor">
+<meta property="og:url" content="http://blog.yufei.ma/2016/04/27/Week13-Speaker-Motor/index.html">
+<meta property="og:site_name" content="Yufei ma's Blog">
+<meta property="og:description" content="Replace the microcontroller of the Toy(Motor and Speaker)Motor driver  L9110 and A4953">
+<meta property="og:image" content="http://i.imgur.com/4KmZjvd.gif">
+<meta property="og:image" content="http://i.imgur.com/19Z1ruq.jpg">
+<meta property="og:image" content="http://i.imgur.com/iJxQUax.jpg">
+<meta property="og:image" content="http://i.imgur.com/p3QbGnu.png">
+<meta property="og:image" content="http://i.imgur.com/mXOGc0W.png">
+<meta property="og:image" content="http://i.imgur.com/oT09fuG.jpg">
+<meta property="og:image" content="http://i.imgur.com/CCslPS3.jpg">
+<meta property="og:image" content="http://i.imgur.com/PcWWKot.jpg">
+<meta property="og:image" content="http://i.imgur.com/cXNm763.jpg">
+<meta property="og:image" content="http://i.imgur.com/yrnvLoc.jpg">
+<meta property="og:image" content="http://i.imgur.com/0T7gLSm.png">
+<meta property="og:image" content="http://i.imgur.com/K7Kl3NA.png">
+<meta property="og:image" content="http://i.imgur.com/4KmZjvd.gif">
+<meta property="og:image" content="http://i.imgur.com/AO9FQlB.png">
+<meta property="og:updated_time" content="2017-02-28T14:53:22.000Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Week13 - Speaker and Motor">
+<meta name="twitter:description" content="Replace the microcontroller of the Toy(Motor and Speaker)Motor driver  L9110 and A4953">
+<meta name="twitter:image" content="http://i.imgur.com/4KmZjvd.gif">
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post","offset":12,"offset_float":0,"b2t":false,"scrollpercent":false},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: '0',
+      author: 'Author'
+    },
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+
+  <link rel="canonical" href="http://blog.yufei.ma/2016/04/27/Week13-Speaker-Motor/"/>
+
+
+
+
+
+  <title> Week13 - Speaker and Motor | Yufei ma's Blog </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/"  class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Yufei ma's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+      
+        <p class="site-subtitle"></p>
+      
+  </div>
+
+  <div class="site-nav-toggle">
+    <button>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            Startseite
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            Archiv
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            Tags
+          </a>
+        </li>
+      
+
+      
+    </ul>
+  
+
+  
+</nav>
+
+
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://blog.yufei.ma/2016/04/27/Week13-Speaker-Motor/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Yufei ma">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Yufei ma's Blog">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Week13 - Speaker and Motor
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Veröffentlicht am</span>
+              
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-04-27T21:00:00+08:00">
+                2016-04-27
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="Replace-the-microcontroller-of-the-Toy-Motor-and-Speaker"><a href="#Replace-the-microcontroller-of-the-Toy-Motor-and-Speaker" class="headerlink" title="Replace the microcontroller of the Toy(Motor and Speaker)"></a>Replace the microcontroller of the Toy(Motor and Speaker)</h1><p>Motor driver  L9110 and A4953<br><img src="http://i.imgur.com/4KmZjvd.gif" alt="D1274DBF497575EEB34A8C4C324D1575"><br><a id="more"></a></p>
+<h2 id="A4953"><a href="#A4953" class="headerlink" title="A4953"></a>A4953</h2><p>At first,I reference to <a href="http://academy.cba.mit.edu/classes/output_devices/speaker/hello.speaker.45.png" target="_blank" rel="external">Nerl’s H-bridge board</a></p>
+<h3 id="Design-the-Schematic"><a href="#Design-the-Schematic" class="headerlink" title="Design the Schematic"></a>Design the Schematic</h3><p><img src="http://i.imgur.com/19Z1ruq.jpg" alt=""></p>
+<h3 id="Layout-the-PCB"><a href="#Layout-the-PCB" class="headerlink" title="Layout the PCB"></a>Layout the PCB</h3><p><img src="http://i.imgur.com/iJxQUax.jpg" alt=""></p>
+<h3 id="Output-the-traces"><a href="#Output-the-traces" class="headerlink" title="Output the traces"></a>Output the traces</h3><p><img src="http://i.imgur.com/p3QbGnu.png" alt="traces"></p>
+<h3 id="Output-the-interior"><a href="#Output-the-interior" class="headerlink" title="Output the interior"></a>Output the interior</h3><p><img src="http://i.imgur.com/mXOGc0W.png" alt="interior"></p>
+<p>After I milled and soldered the board,I found I use the wrong ic,the right ic is A4953,not the 4953.So I try another motor driver ic I have.</p>
+<h2 id="L9110"><a href="#L9110" class="headerlink" title="L9110"></a>L9110</h2><h3 id="Functional-Block-Diagram"><a href="#Functional-Block-Diagram" class="headerlink" title="Functional Block Diagram"></a>Functional Block Diagram</h3><p><img src="http://i.imgur.com/oT09fuG.jpg" alt=""></p>
+<h3 id="Pin-out-Diagrams"><a href="#Pin-out-Diagrams" class="headerlink" title="Pin-out Diagrams"></a>Pin-out Diagrams</h3><p><img src="http://i.imgur.com/CCslPS3.jpg" alt=""></p>
+<h3 id="Control-Mode"><a href="#Control-Mode" class="headerlink" title="Control Mode"></a>Control Mode</h3><p><img src="http://i.imgur.com/PcWWKot.jpg" alt=""></p>
+<h3 id="Design-the-schematic"><a href="#Design-the-schematic" class="headerlink" title="Design the schematic"></a>Design the schematic</h3><p>I add two motor drivers and speaker driver<br><img src="http://i.imgur.com/cXNm763.jpg" alt=""></p>
+<h3 id="Layout-the-PCB-board"><a href="#Layout-the-PCB-board" class="headerlink" title="Layout the PCB board"></a>Layout the PCB board</h3><p><img src="http://i.imgur.com/yrnvLoc.jpg" alt=""></p>
+<h3 id="Output-the-traces-1"><a href="#Output-the-traces-1" class="headerlink" title="Output the traces"></a>Output the traces</h3><p><img src="http://i.imgur.com/0T7gLSm.png" alt="L9110_audio_Module_traces"></p>
+<h3 id="Output-the-interior-1"><a href="#Output-the-interior-1" class="headerlink" title="Output the interior"></a>Output the interior</h3><p><img src="http://i.imgur.com/K7Kl3NA.png" alt="L9110_audio_Module_interio"></p>
+<h2 id="Moter-test"><a href="#Moter-test" class="headerlink" title="Moter test:"></a>Moter test:</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div></pre></td><td class="code"><pre><div class="line">void setup() &#123;</div><div class="line">  pinMode(5, OUTPUT);</div><div class="line">  pinMode(6, OUTPUT);</div><div class="line">  pinMode(9, OUTPUT);</div><div class="line">  pinMode(10, OUTPUT);</div><div class="line">  digitalWrite(13, LOW);</div><div class="line">&#125;</div><div class="line"></div><div class="line">// the loop function runs over and over again forever</div><div class="line">void loop() &#123;</div><div class="line">  digitalWrite(5, HIGH);</div><div class="line">  digitalWrite(6, LOW);</div><div class="line">  digitalWrite(9, LOW);</div><div class="line">  digitalWrite(10, HIGH);</div><div class="line">  delay(500);</div><div class="line">  digitalWrite(9, HIGH);</div><div class="line">  digitalWrite(10, LOW);</div><div class="line">  digitalWrite(5, LOW);</div><div class="line">  digitalWrite(6, HIGH);</div><div class="line">  delay(500);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
+<p>Yeap!Motor work!<br><img src="http://i.imgur.com/4KmZjvd.gif" alt="D1274DBF497575EEB34A8C4C324D1575"></p>
+<h2 id="Speaker-Test"><a href="#Speaker-Test" class="headerlink" title="Speaker Test"></a>Speaker Test</h2><p>I use the Arduino Example -&gt; 02.Digital -&gt; toneMelody<br><div class="video-container"><iframe src="//player.vimeo.com/video/173576022" frameborder="0" allowfullscreen></iframe></div></p>
+<h2 id="File-Download"><a href="#File-Download" class="headerlink" title="File Download"></a>File Download</h2><p><a href="http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/426/1download/L9110.zip" target="_blank" rel="external">eagle</a><br><a href="http://archive.fabacademy.org/archives/2016/fablabshenzhen/students/426/1download/motorspeaker.zip" target="_blank" rel="external">Arduino Code</a></p>
+<p><img src="http://i.imgur.com/AO9FQlB.png" alt=""><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="external">Creative Commons Attribution 4.0 International License</a>.</p>
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Fabacademy/" rel="tag"># Fabacademy</a>
+          
+            <a href="/tags/Week13/" rel="tag"># Week13</a>
+          
+            <a href="/tags/Output-devices/" rel="tag"># Output devices</a>
+          
+        </div>
+      
+
+      
+        
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2016/04/20/week12/" rel="next" title="Week12 - 3D moulding and casting">
+                <i class="fa fa-chevron-left"></i> Week12 - 3D moulding and casting
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/04/27/Week13-RGB/" rel="prev" title="Week13_RGB">
+                Week13_RGB <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+          
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/images/avatar.gif"
+               alt="Yufei ma" />
+          <p class="site-author-name" itemprop="name">Yufei ma</p>
+           
+              <p class="site-description motion-element" itemprop="description"></p>
+          
+        </div>
+        <nav class="site-state motion-element">
+        
+          
+            <div class="site-state-item site-state-posts">
+              <a href="/archives">
+                <span class="site-state-item-count">50</span>
+                <span class="site-state-item-name">Artikel</span>
+              </a>
+            </div>
+          
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">57</span>
+                <span class="site-state-item-name">Tags</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+        </div>
+
+        
+        
+
+        
+        
+
+        
+
+
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Replace-the-microcontroller-of-the-Toy-Motor-and-Speaker"><span class="nav-number">1.</span> <span class="nav-text">Replace the microcontroller of the Toy(Motor and Speaker)</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#A4953"><span class="nav-number">1.1.</span> <span class="nav-text">A4953</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Design-the-Schematic"><span class="nav-number">1.1.1.</span> <span class="nav-text">Design the Schematic</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Layout-the-PCB"><span class="nav-number">1.1.2.</span> <span class="nav-text">Layout the PCB</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-the-traces"><span class="nav-number">1.1.3.</span> <span class="nav-text">Output the traces</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-the-interior"><span class="nav-number">1.1.4.</span> <span class="nav-text">Output the interior</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#L9110"><span class="nav-number">1.2.</span> <span class="nav-text">L9110</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Functional-Block-Diagram"><span class="nav-number">1.2.1.</span> <span class="nav-text">Functional Block Diagram</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Pin-out-Diagrams"><span class="nav-number">1.2.2.</span> <span class="nav-text">Pin-out Diagrams</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Control-Mode"><span class="nav-number">1.2.3.</span> <span class="nav-text">Control Mode</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Design-the-schematic"><span class="nav-number">1.2.4.</span> <span class="nav-text">Design the schematic</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Layout-the-PCB-board"><span class="nav-number">1.2.5.</span> <span class="nav-text">Layout the PCB board</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-the-traces-1"><span class="nav-number">1.2.6.</span> <span class="nav-text">Output the traces</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Output-the-interior-1"><span class="nav-number">1.2.7.</span> <span class="nav-text">Output the interior</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Moter-test"><span class="nav-number">1.3.</span> <span class="nav-text">Moter test:</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Speaker-Test"><span class="nav-number">1.4.</span> <span class="nav-text">Speaker Test</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#File-Download"><span class="nav-number">1.5.</span> <span class="nav-text">File Download</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright" >
+  
+  &copy; 
+  <span itemprop="copyrightYear">2017</span>
+  <span class="with-love">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">Yufei ma</span>
+</div>
+
+
+<div class="powered-by">
+  Erstellt mit  <a class="theme-link" href="https://hexo.io">Hexo</a>
+</div>
+
+<div class="theme-info">
+  Theme -
+  <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
+    NexT.Pisces
+  </a>
+</div>
+
+
+        
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+  
+  <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/lib/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/lib/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/lib/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.1.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.1.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.1.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.1.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+	
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+
+  
+
+</body>
+</html>
