@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  
+    
+    <entry>
+      <title><![CDATA[BHA Week3 Incubator(简体中文)]]></title>
+      <url>%2F2017%2F03%2F05%2FBHA-week3-incubator%2F</url>
+      <content type="text"><![CDATA[简介：恒温箱 Incubator 用途：将温度控制在一定范围内，用于培养生物(如蜥蜴、鸡蛋)或微生物(如细菌)。 原理：根据“温度传感器”调控“加热器”,当温度高于某一设定值时,加热器停止工作;当温度低于某一设定值时，加热器开始工作，直到温度到达设定值。 Biohack 恒温箱项目地址：https://github.com/BioHackAcademy/BHA_Incubator 控制器外壳制作需要激光切割的文件在Incubator-Cut-Sheet.svg使用激光切割机将外壳切割出来 装风扇的时候可以让螺母卡住风扇，起到固定的作用。 恒温箱外壳制作我们找了个塑料箱，为了提高保温效果，需要给它贴上泡沫板。 根据塑料箱给泡沫板划线 将泡沫板贴在塑料盒上。 Biohack Board 扩展板制作项目地址：https://github.com/BioHackAcademy/BioHackBoardBiohack Board这块板子是Biohack官方设计的Arduino扩展板。想要购买的话，你可以咨询一下Pieter &#112;&#105;&#101;&#116;&#101;&#x72;&#x40;&#119;&#x61;&#x61;&#x67;&#46;&#x6f;&#114;&#x67;.如果你在中国，你可以尝试自己解决，这是我整理的物料购买链接（淘宝链接）https://shimo.im/sheet/Y3EgEc168cgD1POR/「Biohack board BOM」焊接效果如下 电路连接Biohack board连接方式按照课件中的原理图搭建电路即可，但有一点，我们使用了Biohack Board，下面红框内的电路不用连接， 风扇和加热器按如图的方式连接 NTC 温度传感器我们按照课件中的连接方式连接，发现连接后，实际温度越高，显示的温度越低。查询资料得知温度传感器有两种类型： NTC:Negative Temperature Coefficient 负温度系数 PTC:Positive Temperature Coefficient 正温度系数 我们使用的是NTC，使用下面的方式连接即可（来源于：http://computers.tutsplus.com/tutorials/how-to-read-temperatures-with-arduino--mac-53714） 程序调试安装OneWire库文件打开示例，点击编译，发现有错误提示 提示缺少库“OneWire”,我们需要安装这个库 选择OneWire这个库安装 再次编译成功后，点击upload，上传程序到板子里。 修改LCD I2C地址上传程序后，发现LCD没有反应，这是因为我们买的LCD模块的地址是 0x3F,所以必须把地址改成0x3F 最后在组装前测试一下所以功能，温度传感器，加热器，风扇，LCD和按钮，测试通过 组装将风扇悬挂在培养箱里 将加热薄膜和温度传感器也放在盒子里 最后大功告成 测试效果]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[BHA Week2 Electronics (中文翻译)]]></title>
+      <url>%2F2017%2F03%2F02%2FBHA-Week-2-Electronics-chinese%2F</url>
+      <content type="text"><![CDATA[Biohack Week2 电子部分课件]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[BioHack Magnetic Stirrer Notes（简体中文）]]></title>
+      <url>%2F2017%2F03%2F02%2FBHA-Stirrer%2F</url>
+      <content type="text"><![CDATA[Biohack第二周团队作业 - 磁力搅拌器 项目介绍 磁力搅拌器 Magnetic Stirrer用途：用于搅拌或同时加热搅拌低粘稠度的液体或固液混合物原理：利用磁场的同性相斥、异性相吸的原理，使用磁场推动放置在容器中带磁性的搅拌子进行圆周运转，从而达到搅拌液体的目的 我们采用的是第一种方式，用热熔胶将磁铁固定在电脑风扇上 Biohack 磁力搅拌器项目地址：https://github.com/BioHackAcademy/BHA_Stirrer不了解“git clone”的同学可以按照下图的方式下载资料。 材料设备焊锡及电烙铁、激光切割机、热熔胶棒及热熔胶枪、 BOM - 物料清单由于Biohack提供的BOM(物料清单)的链接都是外国电商平台，所以我们重新整理了一下，提供了淘宝链接，你可以通过链接：https://shimo.im/spreadsheet/vlAEMA9zY9w0fnVD/H34tW/ 或者 扫一扫下面二维码 获得BOM 记得还要有足够的3mm椴木层板，M3-10mm螺母和螺丝，这些物料基本每节课都会用到。 制作流程激光切割以下流程适用于我们实验室的激光雕刻机操作，和你所使用的激光切割机可能不同，你也可以把文件“Magnetic Stirrer-Cut-Sheet.svg”交给相关工厂处理（去淘宝找） 打开激光切割文件我们实验室用的是GCC M51137这款激光切割机，它的功率是25W,切割3mm的木板完全没有问题。我们使用Coreldraw这款软件控制激光切割机，所以，第一步是打开 打开“Magnetic Stirrer-Cut-Sheet.svg”文件 调整工作区域的尺寸 将设计文件摆放到工作区域中 选中所有图案,按”F12”,修改线条的”颜色”和”宽度” 点击菜单栏-&gt;文件-&gt;打印-&gt;目标-&gt;名称-&gt;Sprit-3.16-02 修改”属性” 修改Pen NO.2(红色)的“Speed”为“2”和“Power”为“90”，然后选择“OK” 这时候可以打开激光切割机的电源了，然后等会激光切割机初始化（大概一分钟） 点击“打印” 按下激光切割机上面的“Start/Stop”按钮 电路焊接电路原理图电路很简单，按照电路图连接就好了，但是有几点需要说明 1.加热薄膜图中的R3(0ohm)就是加热膜薄，由于在国内找不到一模一样的加热薄膜，所以我们使用下面这一款代替 2.电源接口我们买点电源接口有电奇怪，长的一端是负极，短的一端是正极 3.滑动变阻器端口1连接正极，端口3连接负极（其实端口1和3可以反过来），端口2是滑片 组装组装也不难，下载的文件中有”Stirrer-Assembly.pdf”这个文档，参考这个文档即可。]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Alexa Node-RED & AWS IoT MQTT]]></title>
+      <url>%2F2017%2F01%2F28%2FAlexa-Node-RED-AWS-IoT-MQTT%2F</url>
+      <content type="text"><![CDATA[登录aws.amazon.com，点击右边“创建免费账户”，这个账户创建的是Aamzon Web Services的，和Amazon Developer不同。 使用之前的亚马逊账户登录 登陆后跳转到 Aamzon Web Services的注册界面 输入信用卡 填入手机号等待电话身份认证完成 试用方案选择“基本”即可注册成功到邮箱查收邮件，点击链接激活Amazon Web Services AWS IOT登录aws.amazon.com,选择 AWS IoT 点击 “Get start” 进入控制台选择在侧边栏选择Connect-&gt;Configuring a device-&gt;Get started 选择”linux/OSX”，再选择”Node.js” 点击“Get Started” 输入设备名：我们这里用”wago”点击“Linux/OSX”下载“connection kit”,接着点击”Next Step” 点击Download connection kit下载，下载完成后放到树莓派上将文件上传到树莓派的常用方法： 使用U盘 使用FTP传输软件 现在开始在树莓派安装“connection kit” 把它你需要按照以下步骤进行设置Step 1: 在树莓派中解压connection kit文件 unzip connect_device_package.zip Step 2: 添加权限 chmod +x start.sh Step 3: 运行脚本. 你会获得以下信息 ./start.sh Waiting for messages from your device 回到IOT控制台，点击“Test”功能 在”Subscription topic”输入“/wago”,然后点击”Subscibe to topic” Lambda回到aws.amazon.com，登录控制台选择“Lambda” arn:aws:lambda:us-east-1:597931173770:function:Hello-World-Example-Skill IAM设置 Alexa Skill Kithttps://developer.amazon.com/ 记录下 Skill Information 建立后，这个ASK的ID会自动生成， 用它代替Lambda Code里面的”undefined”然后点击“Save” Interation Model Configuration我们先设这一步 记得刚刚在Lambda拷贝的ARN序列号吗？ 粘贴过来，并“Save” TestAleaxa,tell pump to turn on NodeRed运行Nodered 在浏览器输入你树莓派的地址，加上”:1800”我的树莓派地址是http://192.168.2.7所以输入：http://192.168.2.7:1880/ 设置MQTT选择input里面的MQTT（不要选成output里面的，我第一次不小心选错了） Server地址有点复杂，你需要回到aws.amazon.com 选择AWS IOT -&gt; Thing -&gt; Wago -&gt; Interact 则 “Server” = HTTPS地址+/things/wago/shadow比如我的“Server”是a3uccojwp779uv.iot.us-east-1.amazonaws.com/things/wago/shadow Port为8883 添加这几个文件路径 还记得之前在IOT下载的这几个文件吗?每个人的目录不同，看清楚你的路径 Certificate对应着wago.cert.pem路径是：/home/pi/connect_device_package/wago.cert.pem Private Key对应着wago.private.key路径是：/home/pi/connect_device_package/wago.private.key CA Certificate对应着root-CA.crt路径是：/home/pi/connect_device_package/root-CA.crt 我们取个名叫“AWS”,完成后选择ADD 如图完成所以设置 如图完成所以设置，点击”Done” 检测连接选择debug AWS已经和树莓派成功连接了 GPIO引脚驱动选择引脚 我们选择GPIO.7，既4号引脚,按照如图设置 然后开启树莓派本地的Aleaxa Voice Server,你也可以登录echosim.io进行测试。]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Finial Project]]></title>
+      <url>%2F2016%2F07%2F08%2FSugarFinial%2F</url>
+      <content type="text"><![CDATA[Finial Project introductionI had changed finial project twice for a more funny projectMy Evaluate project is Sugar Timer. Sugar Timeris design for children ,adult can also use it, like meI want make something can encourage me to work hard and study hard.so I try to make a counter which can supervise you studying and working.After you work for a while ,you will get a candy as a reward I also do some research about itI use the Validationboard,and I think it’s useful. Then,I draw some sketch The PlanJune 5~6th - Electronic designJune 7~10th - Electronic test and programmJune 11~18th - Struct design and testJune 19~20 - AssemblingJune 20th - Finial testing and debuggingJune 21th - Slide &amp; video Electronic designDraw the Schematic Layout the PCB Board Output to Roland machine and mill the board Soldering the board and connect with wire Electronic test and programm1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798#include &lt;Servo.h&gt;#include &lt;Ultrasonic.h&gt;#include &lt;Adafruit_NeoPixel.h&gt;#ifdef __AVR__ #include &lt;avr/power.h&gt;#endif//==============NeoPixels=============// Which pin on the Arduino is connected to the NeoPixels?// On a Trinket or Gemma we suggest changing this to 1#define PIN 6// How many NeoPixels are attached to the Arduino?#define NUMPIXELS 24#define BRIGHTNESS 5// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.// Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest// example for more information on possible values.Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);int delayval = 500; // delay for half a secondint ledPoint = 0;//===========================Servo myservo; // create servo object to control a servo// twelve servo objects can be created on most boardsint pos = 0; // variable to store the servo positionUltrasonic ultrasonic(9,8); // (Trig PIN,Echo PIN)int distance;void setup() &#123; myservo.attach(10); // attaches the servo on pin 9 to the servo object Serial.begin(9600); pixels.begin(); // This initializes the NeoPixel library. pixels.setBrightness(BRIGHTNESS); pinMode(13,OUTPUT);&#125;void loop() &#123; distance = ultrasonic.Ranging(CM); Serial.print(distance); // CM or INC Serial.println(&quot; cm&quot; ); if(distance&lt;50)&#123; distance = ultrasonic.Ranging(CM); if(distance&lt;50)&#123; if(ledPoint&lt;=24)&#123; ledPoint++; pixels.setPixelColor(ledPoint,255, 255, 255); &#125;else&#123; ledPoint = 0; sweepOut(); pixels.clear(); &#125; &#125; &#125;else&#123; if(ledPoint&gt;0)&#123; pixels.setPixelColor(ledPoint,0, 0, 0); ledPoint--; &#125;else&#123; ledPoint = -1; pixels.clear(); &#125; &#125; Serial.print(&quot;LedPoint: &quot;); Serial.println(ledPoint); pixels.show(); delay(50);&#125;void sweepOut()&#123; digitalWrite(13,HIGH); myservo.write(30); delay(500); myservo.write(180); delay(1000); digitalWrite(13,LOW);&#125;//no use now// Fill the dots one after the other with a colorvoid colorWipe(uint32_t c, uint8_t wait) &#123; for(uint16_t i=0; i&lt;pixels.numPixels(); i++) &#123; pixels.setPixelColor(i, c); pixels.show(); delay(wait); &#125;&#125; Struct design and test Design process Struct test Assembling Finial testing and debugging Slide &amp; video SummariseBefore I join the fabacademy,I just know how to programm and design PCB board.But now, I can design 2D and 3D files,and make it real,but there is still a long way for me to make almost anything. File Downloadeagle3D.stl This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Fabacademy 2016 Contents]]></title>
+      <url>%2F2016%2F06%2F21%2FContents%2F</url>
+      <content type="text"><![CDATA[Week 1 - principles and practices, project management (Jan 27) About Me Make a website with Hexo Push to the GitLab My Final Project - Sugar Timer My Final Project - MIDI Cube(Delay) My Final Project - MIDI Reactor(Expired) Week 2 - computer-aided design (Feb 3) Sketch a prototype with GIMP Sketch with Sketchup Week 3 - computer-controlled cutting (Feb 10) Cut and assemb an acrylic ornament Paper Cube Vinyl Cutter Week 4 - electronics production (Feb 17) Board Milling and fabisp Use an Arduino to make my first Fabisp Week 5 - 3D scanning and printing (Feb 24) 3D Printer 3D Scanner Week 6 - electronics design (Mar 2) Week 7 - computer-controlled machining (Mar 9) Week 8 - embedded programming (Mar 16) AVR Programming NRF51822 Programming:Blinky System Clock and Delay Key scan Key and Interrupt RTC and Compare Timer UART Temperature PPI Week 9~10 - mechanical design (Mar 30) and machine design (Apr 6) Week 11 - input devices (Apr 13) Week 12 - molding and casting (Apr 20) Week 13 - output devices (Apr 27) RGB Controller Replace the microcontroller of the Toy(Motor and Speaker) Week 14 - composites (May 4) Week 15 - networking and communications (May 11) Tiny45 I2C RTC I2C Module Week 16 - interface and application programming (May 18) Week 17 - applications and implications (May 25) Week 18 - invention, intellectual property, and income (Jun 1)Week 19 - Project Development (Jun 8) Finial Project This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week19 - Project Development]]></title>
+      <url>%2F2016%2F06%2F20%2FWeek19%2F</url>
+      <content type="text"><![CDATA[Answer complete your final project, tracking your progress: what tasks have been completed, and what tasks remain?I have finished the ID design,painting,3D printer,Soldering and Programme I&apos;m still working on Wifi connection. what has worked? what hasn’t?Most of functions has worked,but I still working on Wifi connection what questions need to be resolved?The ID is too bad,I need to find someone to desgin a new model. what will happen when?June 5~6th - Electronic designDraw the Schematic Layout the PCB Board Output to Roland machine and mill the board Soldering the board and connect with wire June 7~10th - Electronic test and programm1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495969798#include &lt;Servo.h&gt;#include &lt;Ultrasonic.h&gt;#include &lt;Adafruit_NeoPixel.h&gt;#ifdef __AVR__ #include &lt;avr/power.h&gt;#endif//==============NeoPixels=============// Which pin on the Arduino is connected to the NeoPixels?// On a Trinket or Gemma we suggest changing this to 1#define PIN 6// How many NeoPixels are attached to the Arduino?#define NUMPIXELS 24#define BRIGHTNESS 5// When we setup the NeoPixel library, we tell it how many pixels, and which pin to use to send signals.// Note that for older NeoPixel strips you might need to change the third parameter--see the strandtest// example for more information on possible values.Adafruit_NeoPixel pixels = Adafruit_NeoPixel(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);int delayval = 500; // delay for half a secondint ledPoint = 0;//===========================Servo myservo; // create servo object to control a servo// twelve servo objects can be created on most boardsint pos = 0; // variable to store the servo positionUltrasonic ultrasonic(9,8); // (Trig PIN,Echo PIN)int distance;void setup() &#123; myservo.attach(10); // attaches the servo on pin 9 to the servo object Serial.begin(9600); pixels.begin(); // This initializes the NeoPixel library. pixels.setBrightness(BRIGHTNESS); pinMode(13,OUTPUT);&#125;void loop() &#123; distance = ultrasonic.Ranging(CM); Serial.print(distance); // CM or INC Serial.println(&quot; cm&quot; ); if(distance&lt;50)&#123; distance = ultrasonic.Ranging(CM); if(distance&lt;50)&#123; if(ledPoint&lt;=24)&#123; ledPoint++; pixels.setPixelColor(ledPoint,255, 255, 255); &#125;else&#123; ledPoint = 0; sweepOut(); pixels.clear(); &#125; &#125; &#125;else&#123; if(ledPoint&gt;0)&#123; pixels.setPixelColor(ledPoint,0, 0, 0); ledPoint--; &#125;else&#123; ledPoint = -1; pixels.clear(); &#125; &#125; Serial.print(&quot;LedPoint: &quot;); Serial.println(ledPoint); pixels.show(); delay(50);&#125;void sweepOut()&#123; digitalWrite(13,HIGH); myservo.write(30); delay(500); myservo.write(180); delay(1000); digitalWrite(13,LOW);&#125;//no use now// Fill the dots one after the other with a colorvoid colorWipe(uint32_t c, uint8_t wait) &#123; for(uint16_t i=0; i&lt;pixels.numPixels(); i++) &#123; pixels.setPixelColor(i, c); pixels.show(); delay(wait); &#125;&#125; June 11~18th - Struct design and test Design process Struct test June 19~20 - assembling June19~21th - Finial testing and debugging what have you learned? Before I join the fabacademy,I just know how to programm and design PCB board.But now, I can design 2D and 3D files,and make it real,but there is still a long way for me to make almost anything. This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week18 - Invention, Intellectual Property, and Income]]></title>
+      <url>%2F2016%2F06%2F02%2FWeek18%2F</url>
+      <content type="text"><![CDATA[Dissemination and IncomeI hope it can become a product and launch on kickstarter or other crowdfunding platform.The finial project is just a beginning,it can just put the candy out now.There will many features in future,such as connect to internet ,you can see how mamy candy you had eat today and recorded it.When the candies almost gave out,it will give a notice to you…I still exploring the features. Intellectual PropertyThere so many property licenses for me to choose,but I was interseted in MIT License and CC,so I do some research about the two licenses This is The MIT License (MIT) introduction,It has a long text to explain the license. This Creative Commons introduction,You can put the license’s logo on you projects,it’s convenience. I choose the CC License because I like the tool to create the License. This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week17]]></title>
+      <url>%2F2016%2F05%2F25%2FWeek17%2F</url>
+      <content type="text"><![CDATA[Applications and Implications propose a final project that integrates the range of units covered, answering: what will it do?This timer is design for children ,adult can also use it, like meI want make something can encourage me to work hard and study hard.so I try to make a counter which can supervise you studying and working.After you work for a while ,you will get a candy as a reward who’s done what beforehand?There was many timers but nothing like that. what materials and components will be required? PLA materials and 3D Printer Sugar,SoartA-clear and SortaB-clear ATMEGA328P-AU,FR1 Board Servo,Speaker,LED where will they come from? Shop，supermarket Nurtrition Store Taobao Kickstarter how much will it cost?Below 10 doller。 what parts and systems will be made? Output Structure MicroController RGB indicator Ultrasonic meter what processes will be used? Computer-aided design 3D printing Electronics production Electronics design Embedded programming Input&amp;Output devices Networking and communications Molding and casting(For candies) what tasks need to be completed? ID design and painting 3D printer Soldering Programme what questions need to be answered?How to design the struct? what is the schedule?June 5~6th - Electronic designJune 7~10th - Electronic test and programmJune 11~18th - Struct design and testJune 19~20 - assemblingJune19~21th - Finial testing and debugging how will it be evaluated?It can monitor if someone is in front of it,after stand in front of it over 25 minutes,it will output a candy to you.This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week16]]></title>
+      <url>%2F2016%2F05%2F18%2FWeek16%2F</url>
+      <content type="text"><![CDATA[Reflect and ProcessingThe board used serial protocol to connect the Computer.I use a software called Processing,and this is my processing code. Processing12345678910111213141516171819202122232425import processing.serial.*;Serial myPort;int lf = 10;void setup()&#123; size(300,300); //fill(0,255,0); //ellipse(100,100,100,100); //myPort = new Serial(this,&quot;/dev/cu.usbmodem1421&quot;,9600); myPort = new Serial(this,&quot;/dev/tty.usbserial&quot;,9600);&#125;void draw()&#123; while(myPort.available() &gt; 0)&#123; String str = myPort.readStringUntil(lf); //println(str); if(str!=null)&#123; int value = Integer.parseInt(trim(str)); int nValue = (value-200)*4; println(nValue); background(nValue); &#125; &#125;&#125; At darkIf the board is in dark,the interface will be white. At bright lightWhen the board on front of light,the interface will be dark. Arduino1234567891011121314151617181920212223242526#include &quot;SoftwareSerial.h&quot;const int analogInPin = A2; // Analog input pin that the potentiometer is attached toint sensorValue = 0; // value read from the potint outputValue = 0; // value output to the PWM (analog out)const int Rx = 1; // this is physical pin 7const int Tx = 2; // this is physical pin 6SoftwareSerial mySerial(Rx, Tx);void setup() &#123;// pinMode(3, OUTPUT); pinMode(Rx, INPUT); pinMode(Tx, OUTPUT); mySerial.begin(9600); // send serial data at 9600 bits/sec&#125;void loop() &#123; // read the analog in value: sensorValue = analogRead(analogInPin); // map it to the range of the analog out: outputValue = map(sensorValue, 0, 1023, 0, 255); mySerial.println(outputValue); delay(100);&#125; Serial Output Test Arduino and Processing together File downloadCode Download This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week15]]></title>
+      <url>%2F2016%2F05%2F11%2FWeek15%2F</url>
+      <content type="text"><![CDATA[Tiny45 I2C RTC I2C Module]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week15_Bridge_node_I2C]]></title>
+      <url>%2F2016%2F05%2F11%2FWeek15-Bridge-node-I2C%2F</url>
+      <content type="text"><![CDATA[I2cThe Bridge is master and the node is slave,both connect with two wire SDA(data line) and SCL(clock line)There is a reference files about ATtiny I2C Install the I2C library Bridgeduino: 123456789101112131415161718192021222324252627282930313233343536373839#include &lt;TinyWireM.h&gt; // I2C Master lib for ATTinys which use USI#define Node_Addr 0x48 byte x = 0x01;int c = 0;boolean state;#include &quot;SoftwareSerial.h&quot;const int Rx = 4; // this is physical pin 7const int Tx = 3; // this is physical pin 6SoftwareSerial mySerial(Rx, Tx);void setup() &#123; // put your setup code here, to run once: TinyWireM.begin(); // initialize I2C lib pinMode(Rx, INPUT); pinMode(Tx, OUTPUT); mySerial.begin(4800); // send serial data at 9600 bits/sec&#125;void loop() &#123; if(mySerial.available())&#123; c = mySerial.read(); delay(100); if(c==97)&#123; TinyWireM.beginTransmission(Node_Addr); x = 0x01; TinyWireM.send(x); // if one-shot, start conversions now TinyWireM.endTransmission(); // Send 1 byte to the slave delay(1000); // if one-shot, must wait ~750 ms for conversion &#125;else if(c==98)&#123; TinyWireM.beginTransmission(Node_Addr); x = 0x00; TinyWireM.send(x); // if one-shot, start conversions now TinyWireM.endTransmission(); // Send 1 byte to the slave delay(1000); // if one-shot, must wait ~750 ms for conversion &#125; &#125;&#125; NodeDuino 1234567891011121314151617181920212223#include &quot;TinyWireS.h&quot; // wrapper class for I2C slave routines#define Node_ADDR 0x48 // 7 bit I2C Address for Node#define LED 4 // ATtiny Pin 3byte byteRcvd = 0x00;void setup() &#123; // put your setup code here, to run once: pinMode(LED,OUTPUT); TinyWireS.begin(Node_ADDR);&#125;void loop() &#123; // put your main code here, to run repeatedly: if (TinyWireS.available())&#123; // got I2C input! byteRcvd = TinyWireS.receive(); // get the byte from master if(byteRcvd == 0x01)&#123; digitalWrite(LED,HIGH); &#125;else&#123; digitalWrite(LED,LOW); &#125; &#125; delay (10);&#125; File DownloadBridge eagleNode eagleBridgeduino.zipNodeDuino.zip This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week15_RTC_I2C]]></title>
+      <url>%2F2016%2F05%2F11%2FWeek15-RTC-I2C%2F</url>
+      <content type="text"><![CDATA[RTC I2C ModuleI want to add a RTC to my finial project,so i decide to make a RTC module to test.I choice the Maxim’s DS3231,it’s easy to use. Install the library of DS3231 Open the Example-“interrupts” and test the module. File DownloadeagleThis work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week14]]></title>
+      <url>%2F2016%2F05%2F04%2FWeek14%2F</url>
+      <content type="text"><![CDATA[Cushion of a chairThis week,I want to composite a cushion.But our CNC Machine was broken,so we have to go to another fablab in a another city to finish our works Q^Q Design a 3D modelI use fusion 360 to design,the model has depth lines,because I afraid there is no effect with light lines. Out put as STL. MillingThe CNC Machine in this lab is Victor CNC Engraver VR1212BFirst,we need software called “Type3”,a leading developer of artistic CAD/CAM software solutions for industrial engraving and 3D jewelry designThen,Input the stl and select top view. Choose CAM Module on the toolbar -&gt; Create a new tool path - Embossment automatic engrave Select the tool we used. Choose Machine Setting - set the original point and end point according to the thickness of the materials we cut, we use 25mm plankSpeeds and Feeds: Chip load: ~ 0.001-0.010” = feed rate (inches per minute) / (RPM x number of flutes) Cut depth: ~ tool diameter Step-over: ~ tool diameter/2 Than we use a software,called “VicPCI”,it will help us to cut according to our files. Milling the Wood It looks like the Big mah-jong CompositesWe don’t have a spray wax and have enough time in other city to buy a spray wax,so we put a layer of thin plastic wrap as a protection of my 3D mould Mix the Compound A(Epoxy) and Compound B(Hardener) in the proportion of 1:1. Cut burlap into pieces,and mix with the mixture,than put it evenly on the face of the mouldUse vaccum to suck out the air. On the next day,open the vaccum bag,take off the composition. Now,you can sit on it. Ah,I find another usage! Thanks for the help of Jay Mok and Prof. Hu from FablabXH to let us using the CNC machine in the lab. File Downloadstl This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week13 - Output devices]]></title>
+      <url>%2F2016%2F04%2F27%2FWeek13%2F</url>
+      <content type="text"><![CDATA[RGB Controller Replace the microcontroller of the Toy(Motor and Speaker)]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week13_RGB]]></title>
+      <url>%2F2016%2F04%2F27%2FWeek13-RGB%2F</url>
+      <content type="text"><![CDATA[RGBI reference Neil PCB Board,and we can’t find the power IC,so we remove the power IC.I also read the datasheet from here,because I want to find out how to use the chip. Draw the Schematic Layout the PCB Output the .rml file Milling the board Soldering Then,I download the Neil code to test File Downloadeagle This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week13 - Speaker and Motor]]></title>
+      <url>%2F2016%2F04%2F27%2FWeek13-Speaker-Motor%2F</url>
+      <content type="text"><![CDATA[Replace the microcontroller of the Toy(Motor and Speaker)Motor driver L9110 and A4953 A4953At first,I reference to Nerl’s H-bridge board Design the Schematic Layout the PCB Output the traces Output the interior After I milled and soldered the board,I found I use the wrong ic,the right ic is A4953,not the 4953.So I try another motor driver ic I have. L9110Functional Block Diagram Pin-out Diagrams Control Mode Design the schematicI add two motor drivers and speaker driver Layout the PCB board Output the traces Output the interior Moter test:123456789101112131415161718192021void setup() &#123; pinMode(5, OUTPUT); pinMode(6, OUTPUT); pinMode(9, OUTPUT); pinMode(10, OUTPUT); digitalWrite(13, LOW);&#125;// the loop function runs over and over again forevervoid loop() &#123; digitalWrite(5, HIGH); digitalWrite(6, LOW); digitalWrite(9, LOW); digitalWrite(10, HIGH); delay(500); digitalWrite(9, HIGH); digitalWrite(10, LOW); digitalWrite(5, LOW); digitalWrite(6, HIGH); delay(500);&#125; Yeap!Motor work! Speaker TestI use the Arduino Example -&gt; 02.Digital -&gt; toneMelody File DownloadeagleArduino Code This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week12 - 3D moulding and casting]]></title>
+      <url>%2F2016%2F04%2F20%2Fweek12%2F</url>
+      <content type="text"><![CDATA[IntroduceAt first,I didn’t realize I should use CNC and design the 3D model by myself.So I found a volcano and printed it.After that I designed a stamper by myself,and used a CNC machine to mill it. VolcanoPrint the volcano - The Mt. St. HelensI found the 3D module here Mt. St. Helens Mixed A(Urethane Mold compound) and B(Rubber Mold compound) Pour over prepared model and let it cure to a soild,flexible rubber mold Waiting for a day,and take out the model Pour the liquid wax into rubber mold cavity and let cure Demold the wax volcano Kindle the wax volcano Use CNC to Milling a stamperDesign the Mold and output as .stl Fabmoudle or Modela PlayerAt First,I try to use Fabmoudles,but the fabmoudles without response while processing the file.And the classmate told me I can use the Modela Player instead of fabmoudles Setting the MaterialWe select the wax as Material,so we choose the “Modeling Wax” Create Process CreationChoose the “Surfacing” at first,and than choose “Roughing” Setting the original pointFind a smooth surface and set an original point Output to the Roland SRM-20 Milling the wax Take off the stamper Light my volcano Put the stamper on it Take off the stamper! File DownloadSt_HelensM This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week11 - Input devices]]></title>
+      <url>%2F2016%2F04%2F13%2Fweek11%2F</url>
+      <content type="text"><![CDATA[Design the ReflectCreate the OP580 DeviceDraw the symbol of OP580 Draw the Package of OP580 Create the Device of OP580 Draw the schematic Draw the PCB board Output the image of traces Output the image of interior Arduino and Reflect with ATtiny45Reference: [Programming an Atiny w/Arduino 1.6(or 1.0)] (http://highlowtech.org/?p=1695) Arduino ATtiny45 Pin Arduino ATiny45 Setting Reflect and Blink with Arduino1234567891011121314151617181920const int analogInPin = A2; // Analog input pin that the potentiometer is attached toint sensorValue = 0; // value read from the potint outputValue = 0; // value output to the PWM (analog out)void setup() &#123; pinMode(3, OUTPUT);&#125;void loop() &#123; // read the analog in value: sensorValue = analogRead(analogInPin); // map it to the range of the analog out: outputValue = map(sensorValue, 0, 1023, 0, 255); if(outputValue &gt; 240)&#123; digitalWrite(3, LOW); &#125;else&#123; digitalWrite(3, HIGH); &#125; delay(10);&#125; Add Serial PortReference: ATtiny85 &amp; ATtiny84 Analog Pins, Serial Communication, etc. 123456789101112131415161718192021222324252627282930313233#include &quot;SoftwareSerial.h&quot;const int analogInPin = A2; // Analog input pin that the potentiometer is attached toint sensorValue = 0; // value read from the potint outputValue = 0; // value output to the PWM (analog out)const int Rx = 1; // this is physical pin 7const int Tx = 2; // this is physical pin 6SoftwareSerial mySerial(Rx, Tx);void setup() &#123; pinMode(3, OUTPUT); pinMode(Rx, INPUT); pinMode(Tx, OUTPUT); mySerial.begin(115200); // send serial data at 9600 bits/sec&#125;void loop() &#123; // read the analog in value: sensorValue = analogRead(analogInPin); // map it to the range of the analog out: outputValue = map(sensorValue, 0, 1023, 0, 255); mySerial.print(&quot;sensorValue = &quot;); mySerial.println(outputValue); if(outputValue &gt; 240)&#123; digitalWrite(3, LOW); &#125;else &#123; digitalWrite(3, HIGH); &#125; delay(10);&#125; Test Results：outputValue: 210~240 outputValue: 160~180 outputValue &gt; 240 Fix the Bug when the outputValue &lt; 180123456789101112131415161718192021222324252627282930313233#include &quot;SoftwareSerial.h&quot;const int analogInPin = A2; // Analog input pin that the potentiometer is attached toint sensorValue = 0; // value read from the potint outputValue = 0; // value output to the PWM (analog out)const int Rx = 1; // this is physical pin 7const int Tx = 2; // this is physical pin 6SoftwareSerial mySerial(Rx, Tx);void setup() &#123; pinMode(3, OUTPUT); pinMode(Rx, INPUT); pinMode(Tx, OUTPUT); mySerial.begin(115200); // send serial data at 9600 bits/sec&#125;void loop() &#123; // read the analog in value: sensorValue = analogRead(analogInPin); // map it to the range of the analog out: outputValue = map(sensorValue, 0, 1023, 0, 255); mySerial.print(&quot;sensorValue = &quot;); mySerial.println(outputValue); if(outputValue &gt; 240 || outputValue &lt; 180)&#123; digitalWrite(3, LOW); &#125;else&#123; digitalWrite(3, HIGH); &#125; delay(10);&#125; File DownloadEagle This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[week9~10 Machanical design and machine design]]></title>
+      <url>%2F2016%2F03%2F30%2Fweek9-10%2F</url>
+      <content type="text"><![CDATA[Introduce1.Getting Started With Gestalt NodesReference URL: http://archive.fabacademy.org/archives/2016/doc/MachineMakingNotes.html 2.FabNetFabnet is a multi-drop network, meaning that multiple modules (a.k.a. nodes) share a single set of communication wires.Reference URL: http://mtm.cba.mit.edu/fabinabox/dev/fabnet/overview.htmlFabNet转接板功能： 连接电脑 Connect to PC with FTDI USB 连接驱动模块 Connect to the Fabnet（Gestalt Node） 接入电源 Provides power at two voltages 12V-24V/7.5V2.1 Create a bridge board that adapts that cable to Fabnet.Download the board files from here:http://mtm.cba.mit.edu/fabinabox/dev/fabnet/files.html 2.2 Download a firmware to Gestalt Node下载固件到驱动模块（出厂时是已经默认下载了）Here is the source and hex file for the node firmware: https://github.com/imoyer/086-005 Process3.制终端软件 wxGestaltwxGestalt is a very, very simple IDE for controlling Gestalt nodes in Pythonhttp://archive.fabacademy.org/archives/2016/doc/projects/wxgestalt.html Machine Setup Identify the nodes IDE Run the machine Problem1.The power wire become hot and melt Solution: Use a better wire Improvements I thought we can redesign the PCB,because they are too much wire to connect. We should put radiator on the PCB board. File downloadCode Download This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week8]]></title>
+      <url>%2F2016%2F03%2F16%2FWeek8%2F</url>
+      <content type="text"><![CDATA[Embedded ProgrammingAssignment Read a microcontroller data sheet Program your board to do something, with as many different programming languages and programming environments as possible AVR AVR Programming nRF51822(STM32 &amp; Bluetooth) nRF51822 Datasheet Example 1 - Blinky Example 2 - System Clock and Delay Example 3 - Key scan Example 4 - Key and Interrupt Example 5 - RTC and Compare Example 6 - Timer Example 7 - UART Example 8 - Temperature (To be contine) Example 9 - PPI This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[AVR Programming]]></title>
+      <url>%2F2016%2F03%2F16%2FAVR-Programming%2F</url>
+      <content type="text"><![CDATA[Check “more” on the right! MakeAt first, I just download the “hello.ftdi.44.echo.c.make” and make,but something was wrong. 12$ make -f hello.ftdi.44.echo.c.makemake: *** No rule to make target `hello.ftdi.44.echo.c&apos;, needed by `hello.ftdi.44.echo.out&apos;. Stop. Then,I realize that I should download “hello.ftdi.44.echo.c” too. 12345678910111213$ make -f hello.ftdi.44.echo.c.makeavr-gcc -mmcu=attiny44 -Wall -Os -DF_CPU=20000000 -I./ -o hello.ftdi.44.echo.out hello.ftdi.44.echo.cavr-objcopy -O ihex hello.ftdi.44.echo.out hello.ftdi.44.echo.c.hex;\ avr-size --mcu=attiny44 --format=avr hello.ftdi.44.echo.outAVR Memory Usage----------------Device: attiny44Program: 758 bytes (18.5% Full)(.text + .data + .bootloader)Data: 64 bytes (25.0% Full)(.data + .bss + .noinit) Make fuses with USBTiny1234567891011121314151617181920212223242526272829303132333435363738394041$ sudo make -f hello.ftdi.44.echo.c.make program-usbtiny-fusesavr-objcopy -O ihex hello.ftdi.44.echo.out hello.ftdi.44.echo.c.hex;\ avr-size --mcu=attiny44 --format=avr hello.ftdi.44.echo.outAVR Memory Usage----------------Device: attiny44Program: 758 bytes (18.5% Full)(.text + .data + .bootloader)Data: 64 bytes (25.0% Full)(.data + .bss + .noinit)avrdude -p t44 -P usb -c usbtiny -U lfuse:w:0x5E:mavrdude: AVR device initialized and ready to accept instructionsReading | ################################################## | 100% 0.00savrdude: Device signature = 0x1e9207avrdude: reading input file &quot;0x5E&quot;avrdude: writing lfuse (1 bytes):Writing | ################################################## | 100% 0.00savrdude: 1 bytes of lfuse writtenavrdude: verifying lfuse memory against 0x5E:avrdude: load data lfuse data from input file 0x5E:avrdude: input file 0x5E contains 1 bytesavrdude: reading on-chip lfuse data:Reading | ################################################## | 100% 0.00savrdude: verifying ...avrdude: 1 bytes of lfuse verifiedavrdude: safemode: Fuses OK (H:FF, E:DF, L:5E)avrdude done. Thank you. Make Program with USBTiny123456789101112131415161718192021222324252627282930313233343536373839404142434445 sudo make -f hello.ftdi.44.echo.c.make program-usbtinyavr-objcopy -O ihex hello.ftdi.44.echo.out hello.ftdi.44.echo.c.hex;\ avr-size --mcu=attiny44 --format=avr hello.ftdi.44.echo.outAVR Memory Usage----------------Device: attiny44Program: 758 bytes (18.5% Full)(.text + .data + .bootloader)Data: 64 bytes (25.0% Full)(.data + .bss + .noinit)avrdude -p t44 -P usb -c usbtiny -U flash:w:hello.ftdi.44.echo.c.hexavrdude: AVR device initialized and ready to accept instructionsReading | ################################################## | 100% 0.00savrdude: Device signature = 0x1e9207avrdude: NOTE: &quot;flash&quot; memory has been specified, an erase cycle will be performed To disable this feature, specify the -D option.avrdude: erasing chipavrdude: reading input file &quot;hello.ftdi.44.echo.c.hex&quot;avrdude: input file hello.ftdi.44.echo.c.hex auto detected as Intel Hexavrdude: writing flash (758 bytes):Writing | ################################################## | 100% 1.02savrdude: 758 bytes of flash writtenavrdude: verifying flash memory against hello.ftdi.44.echo.c.hex:avrdude: load data flash data from input file hello.ftdi.44.echo.c.hex:avrdude: input file hello.ftdi.44.echo.c.hex auto detected as Intel Hexavrdude: input file hello.ftdi.44.echo.c.hex contains 758 bytesavrdude: reading on-chip flash data:Reading | ################################################## | 100% 1.40savrdude: verifying ...avrdude: 758 bytes of flash verifiedavrdude: safemode: Fuses OK (H:FF, E:DF, L:5E)avrdude done. Thank you. This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 1 - Blinky]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a1%2F</url>
+      <content type="text"><![CDATA[Source Demo: Download Link My Demo:Download Link Please click “more” on the right! Tips:1.Configure LED-pins as outputsnrf_gpio_cfg_output(); 2.Open LEDnrf_gpio_pin_set(); 3.Close LEDnrf_gpio_pin_clear(); 4.Toggle LEDnrf_gpio_pin_toggle(); 5.Delay with millisecondnrf_delay_ms(); Part of my source filesmain.c1234567891011121314151617181920212223242526#include &lt;stdbool.h&gt;#include &lt;stdint.h&gt;#include &quot;nrf_delay.h&quot;#include &quot;nrf_gpio.h&quot;#include &quot;led.h&quot;/** * @brief Function for application main entry. */int main(void)&#123; // Configure LED-pins as outputs LED_Init(); while(true) &#123; int i; for(i=17; i&lt;=20; i++) &#123; LED_Loop(i,250); &#125; for(i=19; i&gt;=16; i--) &#123; LED_Loop(i,250); &#125; &#125;&#125; led.h12345678910111213141516171819202122#ifndef __LED_H#define __LED_H#include &quot;nrf51.h&quot;#define LED_START 16#define LED_0 16#define LED_1 17#define LED_2 18#define LED_3 19#define LED_4 20#define LED_5 21#define LED_6 22#define LED_7 23#define LED_STOP 23void LED_Init(void);void LED_Open(int LED_X);void LED_Close(int LED_X);void LED_Toggle(int LED_X);void LED_Loop(int LED_X,int sec);#endif /* __LED_H */ led.c12345678910111213141516171819202122232425262728293031323334353637#include &quot;nrf51.h&quot;#include &quot;nrf_gpio.h&quot;#include &quot;led.h&quot;#include &quot;nrf_delay.h&quot;void LED_Init(void)&#123; int i; for(i=16; i&lt;=20; i++) &#123; // Configure LED-pins as outputs nrf_gpio_cfg_output(i); nrf_gpio_pin_set(i); &#125;&#125;void LED_Open(int LED_X)&#123; nrf_gpio_pin_set(LED_X);&#125;void LED_Close(int LED_X)&#123; nrf_gpio_pin_clear(LED_X);&#125;void LED_Toggle(int LED_X)&#123; nrf_gpio_pin_toggle(LED_X);&#125;void LED_Loop(int LED_X, int sec)&#123; nrf_gpio_pin_clear(LED_X); nrf_delay_ms(sec); nrf_gpio_pin_set(LED_X);&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 2 - System Clock and Delay]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a2%2F</url>
+      <content type="text"><![CDATA[Please click “more” on the right! Notes:system_nrf51.c System Clock Frequency: 1#define __SYSTEM_CLOCK (16000000UL) /*!&lt; nRF51 devices use a fixed System Clock Frequency of 16MHz */ Toolchain:ARM RealView (armcc), IAR EWARM (iccarm), and GNU Compiler Collection (gcc). 1234567#if defined ( __CC_ARM )//ARM RealView uint32_t SystemCoreClock __attribute__((used)) = __SYSTEM_CLOCK; #elif defined ( __ICCARM__ )//IAR EWARM __root uint32_t SystemCoreClock = __SYSTEM_CLOCK;#elif defined ( __GNUC__ )// GNU Compiler Collection(GCC) uint32_t SystemCoreClock __attribute__((used)) = __SYSTEM_CLOCK;#endif My assignmentCreate a function call nrf_delay_s to replace nrf_delay_ms Part of my source filesmain.c123456789int main(void)&#123; LED_Init(); while(1) &#123; LED_Toggle(); nrf_delay_s(1); &#125;&#125; nrf_delay.c1234567891011121314151617void nrf_delay_ms(uint32_t volatile number_of_ms)&#123; while(number_of_ms != 0) &#123; number_of_ms--; nrf_delay_us(999); &#125;&#125;void nrf_delay_s(uint32_t volatile number_of_s)&#123; while(number_of_s != 0) &#123; number_of_s--; nrf_delay_ms(999); &#125;&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 3 - Key scan]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a3%2F</url>
+      <content type="text"><![CDATA[My DemoPlease click “more” on the right! My assignment:Change the Delay(10000) to nrf_delay_ms(20) Part of my source fileskey.c12345678910111213141516171819202122232425262728293031323334353637#include &quot;key.h&quot;#include &quot;nrf_delay.h&quot;void KEY_Init(void)&#123; //Configure GPIO pins as in Pullup input nrf_gpio_cfg_input(21,NRF_GPIO_PIN_PULLUP); nrf_gpio_cfg_input(22,NRF_GPIO_PIN_PULLUP); nrf_gpio_cfg_input(23,NRF_GPIO_PIN_PULLUP); nrf_gpio_cfg_input(30,NRF_GPIO_PIN_PULLUP);&#125;void Delay(uint32_t temp)&#123; for(; temp!= 0; temp--) ;&#125;uint8_t KEY_Down(uint8_t KEY_X)&#123; /*Check the Key */ if( nrf_gpio_pin_read(KEY_X)== 0 ) &#123; /*Delay for a while to prevent unexpected read*/ // Delay(10000); nrf_delay_ms(20); if(nrf_gpio_pin_read(KEY_X)== 0 ) &#123; /*Wait for the Key released */ while(nrf_gpio_pin_read(KEY_X)== 0 ); return 0; &#125; else return 1; &#125; else return 1;&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 4 - Key and Interrupt]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a4%2F</url>
+      <content type="text"><![CDATA[Source workA key and an Interrupt My assignment:And other 3 keys and Interrupts Please click “more” on the right! Part of my source filesexit.c1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768void EXIT_KEY_Init(void)&#123; nrf_gpio_cfg_input(KEY_1,GPIO_PIN_CNF_PULL_Pullup); nrf_gpio_cfg_input(KEY_2,GPIO_PIN_CNF_PULL_Pullup); nrf_gpio_cfg_input(KEY_3,GPIO_PIN_CNF_PULL_Pullup); nrf_gpio_cfg_input(KEY_4,GPIO_PIN_CNF_PULL_Pullup); NVIC_EnableIRQ(GPIOTE_IRQn); NRF_GPIOTE-&gt;CONFIG[0] = (GPIOTE_CONFIG_POLARITY_HiToLo &lt;&lt; GPIOTE_CONFIG_POLARITY_Pos) | (30 &lt;&lt; GPIOTE_CONFIG_PSEL_Pos) | (GPIOTE_CONFIG_MODE_Event &lt;&lt; GPIOTE_CONFIG_MODE_Pos); NRF_GPIOTE-&gt;INTENSET = GPIOTE_INTENSET_IN0_Set &lt;&lt; GPIOTE_INTENSET_IN0_Pos; NRF_GPIOTE-&gt;CONFIG[1] = (GPIOTE_CONFIG_POLARITY_HiToLo &lt;&lt; GPIOTE_CONFIG_POLARITY_Pos) |(21 &lt;&lt; GPIOTE_CONFIG_PSEL_Pos) |(GPIOTE_CONFIG_MODE_Event &lt;&lt; GPIOTE_CONFIG_MODE_Pos); NRF_GPIOTE-&gt;INTENSET = GPIOTE_INTENSET_IN1_Set &lt;&lt; GPIOTE_INTENSET_IN1_Pos; NRF_GPIOTE-&gt;CONFIG[2] = (GPIOTE_CONFIG_POLARITY_HiToLo &lt;&lt; GPIOTE_CONFIG_POLARITY_Pos) |(22 &lt;&lt; GPIOTE_CONFIG_PSEL_Pos) |(GPIOTE_CONFIG_MODE_Event &lt;&lt; GPIOTE_CONFIG_MODE_Pos); NRF_GPIOTE-&gt;INTENSET = GPIOTE_INTENSET_IN2_Set &lt;&lt; GPIOTE_INTENSET_IN2_Pos; NRF_GPIOTE-&gt;CONFIG[3] = (GPIOTE_CONFIG_POLARITY_HiToLo &lt;&lt; GPIOTE_CONFIG_POLARITY_Pos) |(23 &lt;&lt; GPIOTE_CONFIG_PSEL_Pos) |(GPIOTE_CONFIG_MODE_Event &lt;&lt; GPIOTE_CONFIG_MODE_Pos); NRF_GPIOTE-&gt;INTENSET = GPIOTE_INTENSET_IN3_Set &lt;&lt; GPIOTE_INTENSET_IN3_Pos;&#125;void GPIOTE_IRQHandler(void)&#123; if ((NRF_GPIOTE-&gt;EVENTS_IN[0] == 1) &amp;&amp; (NRF_GPIOTE-&gt;INTENSET &amp; GPIOTE_INTENSET_IN0_Msk)) &#123; NRF_GPIOTE-&gt;EVENTS_IN[0] = 0; LED_Toggle(LED_0); &#125; if ((NRF_GPIOTE-&gt;EVENTS_IN[1] == 1)&amp;&amp; (NRF_GPIOTE-&gt;INTENSET &amp; GPIOTE_INTENSET_IN1_Msk)) &#123; NRF_GPIOTE-&gt;EVENTS_IN[1] = 0; LED_Toggle(LED_1); &#125; if ((NRF_GPIOTE-&gt;EVENTS_IN[2] == 1)&amp;&amp; (NRF_GPIOTE-&gt;INTENSET &amp; GPIOTE_INTENSET_IN2_Msk)) &#123; NRF_GPIOTE-&gt;EVENTS_IN[2] = 0; LED_Toggle(LED_2); &#125; if ((NRF_GPIOTE-&gt;EVENTS_IN[3] == 1)&amp;&amp; (NRF_GPIOTE-&gt;INTENSET &amp; GPIOTE_INTENSET_IN3_Msk)) &#123; NRF_GPIOTE-&gt;EVENTS_IN[3] = 0; LED_Toggle(LED_3); &#125;&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 5 - RTC and Compare]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a5%2F</url>
+      <content type="text"><![CDATA[Source Demo: My Demo:Add a RTC and a Compare to control blinking. Please click “more” on the right! Part of my source filesrtc.c1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253545556575859606162636465666768697071727374757677787980818283848586878889909192939495#include &quot;nrf51.h&quot;#include &quot;nrf_gpio.h&quot;#include &quot;rtc.h&quot;#include &quot;led.h&quot;#include &lt;stdbool.h&gt;#define LFCLK_FREQUENCY (32768UL) /**&lt; LFCLK频率为HZ. */#define RTC_FREQUENCY (8UL) /**&lt; 所需的RTC工作时钟 RTC_FREQUENCY 为HZ. */#define COMPARE_COUNTERTIME (1UL) /**&lt; 比较参数值Get Compare event COMPARE_TIME seconds after the counter starts from 0. */#define COUNTER_PRESCALER ((LFCLK_FREQUENCY/RTC_FREQUENCY) - 1) /* f = LFCLK/(prescaler + 1) *//** @brief 启动内部LFCLK晶振功能 */ void lfclk_config(void)&#123; NRF_CLOCK-&gt;LFCLKSRC = (CLOCK_LFCLKSRC_SRC_Xtal &lt;&lt; CLOCK_LFCLKSRC_SRC_Pos);//配置低频时钟为外部低频时钟 // NRF_CLOCK-&gt;EVENTS_LFCLKSTARTED = 0;//关掉低频输出 // NRF_CLOCK-&gt;EVENTS_HFCLKSTARTED = 0;//关掉低频输出 NRF_CLOCK-&gt;TASKS_LFCLKSTART = 1;//开始低频输入 while (NRF_CLOCK-&gt;EVENTS_LFCLKSTARTED == 0) &#123; //Do nothing. &#125; // NRF_CLOCK-&gt;EVENTS_LFCLKSTARTED = 0;//如果有输出立即关掉&#125;/** @brief Function for configuring the RTC with TICK to 100Hz and COMPARE0 to 10 sec. */ void rtc_config(void)&#123; NVIC_EnableIRQ(RTC0_IRQn); // 使能 RTC中断. NRF_RTC0-&gt;PRESCALER = COUNTER_PRESCALER; // 设置预分频值prescaler to a TICK of RTC_FREQUENCY. NRF_RTC0-&gt;CC[0] = COMPARE_COUNTERTIME * RTC_FREQUENCY; //比较器频率 Compare0 after approx COMPARE_COUNTERTIME seconds. // Enable TICK event and TICK interrupt: NRF_RTC0-&gt;EVTENSET = RTC_EVTENSET_TICK_Msk; NRF_RTC0-&gt;INTENSET = RTC_INTENSET_TICK_Msk; // Enable COMPARE0 event and COMPARE0 interrupt: NRF_RTC0-&gt;EVTENSET = RTC_EVTENSET_COMPARE0_Msk; NRF_RTC0-&gt;INTENSET = RTC_INTENSET_COMPARE0_Msk; NVIC_EnableIRQ(RTC1_IRQn); // 使能 RTC中断. NRF_RTC1-&gt;PRESCALER = COUNTER_PRESCALER; // 设置预分频值prescaler to a TICK of RTC_FREQUENCY. NRF_RTC1-&gt;CC[1] = RTC_FREQUENCY; //比较器频率 Compare0 after approx COMPARE_COUNTERTIME seconds. // Enable TICK event and TICK interrupt: NRF_RTC1-&gt;EVTENSET = RTC_EVTENSET_TICK_Msk; NRF_RTC1-&gt;INTENSET = RTC_INTENSET_TICK_Msk; // Enable COMPARE0 event and COMPARE0 interrupt: NRF_RTC1-&gt;EVTENSET = RTC_EVTENSET_COMPARE1_Msk; NRF_RTC1-&gt;INTENSET = RTC_INTENSET_COMPARE1_Msk;&#125;/** @brief: Function for handling the RTC0 interrupts. * Triggered on TICK and COMPARE0 match.触发TICK和比较事件 */void RTC0_IRQHandler()&#123; if ((NRF_RTC0-&gt;EVENTS_TICK != 0) &amp;&amp; ((NRF_RTC0-&gt;INTENSET &amp; RTC_INTENSET_TICK_Msk) != 0)) &#123; NRF_RTC0-&gt;EVENTS_TICK = 0; LED_Toggle(LED_1); &#125; if ((NRF_RTC0-&gt;EVENTS_COMPARE[0] != 0) &amp;&amp; ((NRF_RTC0-&gt;INTENSET &amp; RTC_INTENSET_COMPARE0_Msk) != 0)) &#123; NRF_RTC0-&gt;EVENTS_COMPARE[0] = 0; LED_Toggle(LED_2); &#125;&#125;void RTC1_IRQHandler()&#123; if ((NRF_RTC1-&gt;EVENTS_TICK != 0) &amp;&amp; ((NRF_RTC1-&gt;INTENSET &amp; RTC_INTENSET_TICK_Msk) != 0)) &#123; NRF_RTC1-&gt;EVENTS_TICK = 0; LED_Toggle(LED_3); &#125; if ((NRF_RTC0-&gt;EVENTS_COMPARE[1] != 0) &amp;&amp; ((NRF_RTC0-&gt;INTENSET &amp; RTC_INTENSET_COMPARE0_Msk) != 0)) &#123; NRF_RTC1-&gt;EVENTS_COMPARE[1] = 0; NRF_RTC1-&gt;CC[1] += RTC_FREQUENCY; LED_Toggle(LED_3); &#125;&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 6 - Timer]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a6%2F</url>
+      <content type="text"><![CDATA[Source Demo My DemoAdd 2 LED Please click “more” on the right! Part of my source filesmain.c1234567891011121314151617181920int main(void)&#123; // LED_Init(); while (1) &#123; LED_Toggle(LED_1); //使用定时器0产生1s定时 nrf_timer_delay_ms(TIMER0, TIMER_DELAY_MS); LED_Toggle(LED_2); // 使用定时器1产生1s定时 nrf_timer_delay_ms(TIMER1, TIMER_DELAY_MS); LED_Toggle(LED_3); // 使用定时器2产生1s定时 nrf_timer_delay_ms(TIMER2, TIMER_DELAY_MS); &#125;&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 7 - UART]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a7%2F</url>
+      <content type="text"><![CDATA[My DemoAdd a button to send a message. Please click “more” on the right!Remember to check the “Options for Target -&gt;Code Generation-&gt;Use MicroLIB”. Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 8 - Temperature]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a8%2F</url>
+      <content type="text"><![CDATA[to be contine… This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[nRF51 Example 9 - PPI]]></title>
+      <url>%2F2016%2F03%2F16%2Fnrf51-a9%2F</url>
+      <content type="text"><![CDATA[Source Demo My DemoAdd Serial Port to feedback data. Please click “more” on the right! Part of my source filesmain.c1234567891011121314151617181920212223242526272829303132333435363738394041424344454647484950515253#include &quot;nrf51.h&quot;#include &quot;led.h&quot;#include &quot;time.h&quot;#include &quot;ppi.h&quot;#include &quot;nrf_delay.h&quot;#include &quot;nrf_gpio.h&quot;#include &quot;uart.h&quot;int main(void)&#123; uint8_t lastCC0; bool isStop; timer0_init(); timer1_init(); timer2_init(); ppi_init(); USART_Configuration(); NRF_POWER-&gt;TASKS_CONSTLAT = 1; // Start clock. NRF_TIMER1-&gt;TASKS_START = 1; NRF_TIMER2-&gt;TASKS_START = 1; nrf_gpio_range_cfg_output(LED_START, LED_STOP); printf(&quot;Hi Fabacademy!\r\n&quot;); while (1) &#123; NRF_TIMER0-&gt;TASKS_COUNT = 1; NRF_TIMER0-&gt;TASKS_CAPTURE[0] = 1; if ((uint8_t)NRF_TIMER0-&gt;CC[0] == lastCC0) &#123; //Task was stopped! if (!isStop) &#123; isStop = 1; printf(&quot;Task was stopped! \r\n&quot;); &#125; &#125;else&#123; //Task is Running! isStop = 0; printf(&quot;Task was started! \r\n&quot;); printf(&quot;CC[0] value is %u \r\n&quot;,(uint8_t)NRF_TIMER0-&gt;CC[0]); &#125; lastCC0 = (uint8_t)NRF_TIMER0-&gt;CC[0]; nrf_gpio_port_write(NRF_GPIO_PORT_SELECT_PORT2, (uint8_t)NRF_TIMER0-&gt;CC[0]); nrf_delay_ms(50); &#125;&#125; Download my files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week7]]></title>
+      <url>%2F2016%2F03%2F09%2FWeek7%2F</url>
+      <content type="text"><![CDATA[Computer Controlled MachiningAssignment make something big My Chair This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Chair]]></title>
+      <url>%2F2016%2F03%2F09%2Fchair%2F</url>
+      <content type="text"><![CDATA[Draw Construction Make some holes Design the chair legs Optimize ManufactureThe CNC Machine in Szoil is broken,so we find another CNC machine at other place.This machine is SW1325,I use 20mm medium density fiberboard（MDF)Endmill diameter: 4.00Endmill blade height: 30.00the speed is 5000 millimeter/minSet the original point Polishing Hand Mode Chair Mode Files Download This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week6]]></title>
+      <url>%2F2016%2F03%2F02%2FWeek6%2F</url>
+      <content type="text"><![CDATA[Electronics DesignAssignmentRedraw the echo hello-world board Add (at least) a button and LED (with current-limiting resistor) Check the design rules, and make it Extra credit: simulate its operation IntroductionThis week,I try to redraw a PCB board base on hello-world board.I will add a button and LED,and hope to control the LED by button in future.I see most of people use Eagle PCB Design Software, so I use the software too,and there is a wonderful library about the devices,call Fab.lbr 1 Download EagleYou can download software from here Eagle,but I use the old version. 2 Download Fab.lbrYou can download Library from here Fab.lbr. 3 Use the Fab.lbr‘Library’-&gt;’USE’-&gt;Open”Fab.lbr” 4 Sketch the SchematicThe Schematic is base on Tiago FigueiredoHe add a button,a led and a resistor for LED.The resistor is a passive two-terminal electrical component,it used to reduce current flow,and prevent the LED ruin. 5 Finish the PCB 6 Save as png.At First,I output with 150 dpi,and it looks awful. At I compare the other board,I find my output dpi is to low,so I change it to 2000dpi. Now,it looks better! 7 Use FabMoulde and mill the board. 8 Assembly the board Download my Hello World board (Eagle Files) This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week5]]></title>
+      <url>%2F2016%2F02%2F24%2FWeek5%2F</url>
+      <content type="text"><![CDATA[3D Scanning and PrintingAssignment test the design rules for your printer(s) (group project) design and 3D print an object (small, few cm) that could not be made subtractively 3D scan an object (and optionally print it) (extra credit: make your own scanner) 3D Printer 3D Scanner This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[3D Printer]]></title>
+      <url>%2F2016%2F02%2F24%2F3D-Printer%2F</url>
+      <content type="text"><![CDATA[I want to make a dice to play,so I try to design a dice and print by 3D PrinterI don’t want to make the object subtractively,because it has 6 faces,it complex to subtract 6 faces. Create a cubeThe dice looks like a cube Modify-&gt;FilletIt makes dice smooth. Sketch-&gt;CircleDraw so circle as sign Modify-&gt;Press PullMake some holes Modify-&gt;FilletMake the holes looks smooth 3D printer testfor the printer we used in SZOIL, it has a typical XY moving axis, where the extruder fit in. The z-axis is the platform (or printing base) that goes from top to bottom (form Max to zero position) check 3D printer visually,make sure everything works check printing platform: rise into maximum position(z-axis), go disable all stepper motor (make sure the extruder goes freely), then moving the extruder from X0 to Xmax, then Y0 to Ymax. Leave a gap of business card between the platform and the extruder nozzle. Lubricate the moving rail if necessary. check extruder:heat up extruder to 230C, load filament into extruder and extrude for 2 mins, check the flow status of extruded material to make sure extrution smoothly. check printing platform again to make sure its clean and has necessary surface tape attached. start printing Output to Cura and printWe use the 3D Printer of Unimaker,it looks like Maker Pi M14.The Building Size is 140140140mm,the filament diameter is 1.75 mm and use the PLA materials.We can use the usb or SD card to send the gcode files. This my printer settingIt need 42 minutes to print. Wo! My first 3D design and production. STL Download This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[3D Scanner]]></title>
+      <url>%2F2016%2F02%2F24%2F3D-Scanner%2F</url>
+      <content type="text"><![CDATA[Download software from 3DSYSTEM Sense First, I try to scan a toy But I realized the toy is too small. I can’t scan anything. With a little help from my friends,I scan myself finally. STL Download This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Board Milling and Fabisp]]></title>
+      <url>%2F2016%2F02%2F17%2Fboardmilling%2F</url>
+      <content type="text"><![CDATA[I use Andy’s Board,it looks cool and useful. Open the Fabmoudule and Upload the PCB files. Setting the Output files Set the Origin Point and start to mill. Clean the Board and Soildering Programming 123456789101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899100101102103104105106107108109110111112113114115116117118119120121122123124125126127128129130131132FelixtekiMacBook-Air:~ felix$ cd /Users/felix/Dropbox/Study/Fablab/Week4/Hello_ISP_44/fabISP_mac.0.8.2_firmwareFelixtekiMacBook-Air:fabISP_mac.0.8.2_firmware felix$ make cleanrm -f main.hex main.lst main.obj main.cof main.list main.map main.eep.hex main.elf *.o usbdrv/*.o main.s usbdrv/oddebug.s usbdrv/usbdrv.sFelixtekiMacBook-Air:fabISP_mac.0.8.2_firmware felix$ make hexavr-gcc -Wall -Os -DF_CPU=20000000 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -c usbdrv/usbdrv.c -o usbdrv/usbdrv.oavr-gcc -Wall -Os -DF_CPU=20000000 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -x assembler-with-cpp -c usbdrv/usbdrvasm.S -o usbdrv/usbdrvasm.oavr-gcc -Wall -Os -DF_CPU=20000000 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -c usbdrv/oddebug.c -o usbdrv/oddebug.oavr-gcc -Wall -Os -DF_CPU=20000000 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -c main.c -o main.omain.c:88:13: warning: always_inline function might not be inlinable [-Wattributes] static void delay ( void ) ^avr-gcc -Wall -Os -DF_CPU=20000000 -Iusbdrv -I. -DDEBUG_LEVEL=0 -mmcu=attiny44 -o main.elf usbdrv/usbdrv.o usbdrv/usbdrvasm.o usbdrv/oddebug.o main.orm -f main.hex main.eep.hexavr-objcopy -j .text -j .data -O ihex main.elf main.hexavr-size main.hex text data bss dec hex filename 0 2002 0 2002 7d2 main.hexFelixtekiMacBook-Air:fabISP_mac.0.8.2_firmware felix$ make fuseavrdude -c usbtiny -p attiny44 -U hfuse:w:0xDF:m -U lfuse:w:0xFF:mavrdude: AVR device initialized and ready to accept instructionsReading | ################################################## | 100% 0.00savrdude: Device signature = 0x1e9207avrdude: reading input file &quot;0xDF&quot;avrdude: writing hfuse (1 bytes):Writing | ################################################## | 100% 0.00savrdude: 1 bytes of hfuse writtenavrdude: verifying hfuse memory against 0xDF:avrdude: load data hfuse data from input file 0xDF:avrdude: input file 0xDF contains 1 bytesavrdude: reading on-chip hfuse data:Reading | ################################################## | 100% 0.00savrdude: verifying ...avrdude: 1 bytes of hfuse verifiedavrdude: reading input file &quot;0xFF&quot;avrdude: writing lfuse (1 bytes):Writing | ################################################## | 100% 0.00savrdude: 1 bytes of lfuse writtenavrdude: verifying lfuse memory against 0xFF:avrdude: load data lfuse data from input file 0xFF:avrdude: input file 0xFF contains 1 bytesavrdude: reading on-chip lfuse data:Reading | ################################################## | 100% 0.00savrdude: verifying ...avrdude: 1 bytes of lfuse verifiedavrdude: safemode: Fuses OK (H:FF, E:DF, L:FF)avrdude done. Thank you.FelixtekiMacBook-Air:fabISP_mac.0.8.2_firmware felix$ make programavrdude -c usbtiny -p attiny44 -U flash:w:main.hex:iavrdude: AVR device initialized and ready to accept instructionsReading | ################################################## | 100% 0.00savrdude: Device signature = 0x1e9207avrdude: NOTE: &quot;flash&quot; memory has been specified, an erase cycle will be performed To disable this feature, specify the -D option.avrdude: erasing chipavrdude: reading input file &quot;main.hex&quot;avrdude: writing flash (2002 bytes):Writing | ################################################## | 100% 2.43savrdude: 2002 bytes of flash writtenavrdude: verifying flash memory against main.hex:avrdude: load data flash data from input file main.hex:avrdude: input file main.hex contains 2002 bytesavrdude: reading on-chip flash data:Reading | ################################################## | 100% 3.85savrdude: verifying ...avrdude: 2002 bytes of flash verifiedavrdude: safemode: Fuses OK (H:FF, E:DF, L:FF)avrdude done. Thank you.avrdude -c usbtiny -p attiny44 -U hfuse:w:0xDF:m -U lfuse:w:0xFF:mavrdude: AVR device initialized and ready to accept instructionsReading | ################################################## | 100% 0.00savrdude: Device signature = 0x1e9207avrdude: reading input file &quot;0xDF&quot;avrdude: writing hfuse (1 bytes):Writing | ################################################## | 100% 0.00savrdude: 1 bytes of hfuse writtenavrdude: verifying hfuse memory against 0xDF:avrdude: load data hfuse data from input file 0xDF:avrdude: input file 0xDF contains 1 bytesavrdude: reading on-chip hfuse data:Reading | ################################################## | 100% 0.00savrdude: verifying ...avrdude: 1 bytes of hfuse verifiedavrdude: reading input file &quot;0xFF&quot;avrdude: writing lfuse (1 bytes):Writing | ################################################## | 100% 0.00savrdude: 1 bytes of lfuse writtenavrdude: verifying lfuse memory against 0xFF:avrdude: load data lfuse data from input file 0xFF:avrdude: input file 0xFF contains 1 bytesavrdude: reading on-chip lfuse data:Reading | ################################################## | 100% 0.00savrdude: verifying ...avrdude: 1 bytes of lfuse verifiedavrdude: safemode: Fuses OK (H:FF, E:DF, L:FF)avrdude done. Thank you. After I have programmed the board,I follow the instruction to remove the 0 ohm.Then,we connect it to Computer,you will see it in System information.Now,it can download code to another board. This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week 4]]></title>
+      <url>%2F2016%2F02%2F17%2FWeek4%2F</url>
+      <content type="text"><![CDATA[Electronics ProductionAssignmentmake an in-circuit programmer notes Use an Arduino to make my first Fabisp Board milling This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week 3]]></title>
+      <url>%2F2016%2F02%2F10%2FWeek3%2F</url>
+      <content type="text"><![CDATA[Computer-Controlled CuttingAssignment cut something on the vinylcutter design, make, and document a parametric press-fit construction kit Cut and assemb an acrylic ornament Paper Cube This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Cut and assemb an acrylic ornament]]></title>
+      <url>%2F2016%2F02%2F10%2FCut-and-assemb-an-acrylic-ornament%2F</url>
+      <content type="text"><![CDATA[This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Vinyl Cutter]]></title>
+      <url>%2F2016%2F02%2F10%2Fvinyl%2F</url>
+      <content type="text"><![CDATA[We have a vinyl cutter called GCC RXII60,so I try to design a logo to cut. At first,I want to know how it work,so I just cut an “A”. We should set the line width to “hair” Choose the machine type. My design is on the bottom of the left,it cut on the botton of the right. My Chinese name is Ma yufei(MYF),so I design this logo Now,I can put it on my computer This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Paper Cube]]></title>
+      <url>%2F2016%2F02%2F10%2Fpapercube%2F</url>
+      <content type="text"><![CDATA[This week,I try to use Fusion 360 to design a paper cubeThe paper cube is press-fit kit,you can change the parameter to fit different paper. Set Parameters Draw Construction at the face of XZ Draw the trace and mirror Draw the trace at the face of YZ Extrude the plane Copy the Object and put it toghter. Choose the Sketch and “Save As DXF”. Use Coreldraw to import the DXF file Laser Cutting Setting Use the Laser Cutter Put it toghter It work! But that’s too loose. Download link: http://a360.co/1WUGwZs . This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week 2]]></title>
+      <url>%2F2016%2F02%2F03%2FWeek-2%2F</url>
+      <content type="text"><![CDATA[Computer-Aided DesignAssignmentModel (draw, render, animate, simulate, …) a possible final project, and post it on your class page with original 2D and 3D files. Sketch with GIMP Sketch with Sketchup This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Sketch a prototype with GIMP]]></title>
+      <url>%2F2016%2F02%2F03%2FSketch-a-prototype-with-GIMP%2F</url>
+      <content type="text"><![CDATA[System:OS X EI Capitan Resolution:1440x900 Method1:Sketching just by mouse.1.Open “ File-&gt;New”,create a new image like below, PS: ”300 ppi” can show more detail than the default ppi(72ppi). 2.Create a transparency layer to sketch3.Set the “Paintbrush”4.Begin to sketch the prototype,but it looks bad. Method2: Sketching by tools.1.Open your origin sketch as a background layer.Open “File-&gt;Opens as Layer…”You can use your freehand sketch or mouse sketch(the above image),I use my freehand sketch this time.2.Create a transparency layer to sketch.3.Set the “Background” Layer’s opacity lower.4.Now,It looks darkness,we should create a new white background.5.Open “Ink Tool” and set parameter.6.Ink the “Linear” Layer and remove “Background” Layer after that. Method3:Use “Paths Tool”1.Open “ File-&gt;New”,create a new image like below,2.Create a transparency layer to sketch.3.Use “Paths Tool” ,”Bucket Fill Tool” and “Blend Tool” Download my GIMP Files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Sketch with Sketchup]]></title>
+      <url>%2F2016%2F02%2F03%2Fsketchup%2F</url>
+      <content type="text"><![CDATA[1.Select the temple “3D Printing - Millimeters”2.Lock the “Makerbot Replicator 2X” frameRight click-&gt;Lock3.Tape measureChoose the “Tape measure”,create two reference lines. Download my Sketchup Files This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Week1]]></title>
+      <url>%2F2016%2F01%2F27%2FWeek1%2F</url>
+      <content type="text"><![CDATA[PRINCIPLES AND PRACTICES, PROJECT MANAGEMENTAssignmentBuild a personal site describing you and your final project.Plan and sketch a potential semester project and add it to your website.Upload it to the class archive. Do a git tutorial. Make a website with Hexo About Me My Final Project Push to the GitLab This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Make a website with Hexo]]></title>
+      <url>%2F2016%2F01%2F27%2FMake-a-website-with-Hexo%2F</url>
+      <content type="text"><![CDATA[What is Hexo?Hexo is a fast, simple and powerful blog framework. You write posts in Markdown (or other languages) and Hexo generates static files with a beautiful theme in seconds.Why I Choose Hexo?I used to make websites by web framework(eg. Laravel,Thinkphp,Wordpress),but we can’t use any databases on Gitlab. So I had to find a way to make a static website without databases.After trying HTML(write HTML without any framework),Jekyll and Hexo,I decided to use Hexo.Because I need a blog framwork system to write a simple and beautiful article for the long term. Overview12345$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install$ hexo server Install Hexo on your PCOpen your terminal,run the below code.1$ npm install hexo-cli -g Error1:PermissionBad luck in the beginning~ It’s said “Please try running this command again as root/Administrator”So I add “sudo” at the command, 1$ sudo npm install hexo-cli -gThere is Warning,but it’s succeed to install. Create a Hexo project1$ hexo init blog Open the Hexo project1$ cd blog Install packages for Hexo project1$ npm install Run the Hexo project1$ hexo server Error2Another Error! So I searched the error on github,someone said click here So I try to reinstall the hexo 12$ npm uninstall hexo$ npm install hexo –no-optional –saveIt works! That’s my way to make a website with hexo12345$ npm install hexo-cli -g$ hexo init blog$ cd blog$ npm install hexo --no-optional$ hexo server This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[MIDI Cube]]></title>
+      <url>%2F2016%2F01%2F27%2Fmidicube%2F</url>
+      <content type="text"><![CDATA[What I have done before? You can remix the sound effect by turn the side of the cube. I made it in my spare time and display in MakerFaire ShenZhen 2015 .But after I get a Job, I stop the project for a long time. What I want to do now?At last month, I want to reopen this project,I need more skills and knowledge,so I decided to resign from my Job to take part in the Fab Academy 2016. How to do it?At begin(Week 1),I try to design a cool shape for it like that.After careful consideration,include “product manufacture”,”operate mode” and “User Search”, I decided to give up plan A(Week 1).I will improve my origin Plan, the Midi Cube The new features of Midi Cube RGB inside each side,change by the sound effect. Press-button on each side,it can change the sound effect. 6DOF(MPU-6050),it was 3DOF(BMA250) before. Bluetooth 4.1(nRF51822), it was bluetooth 4.0(Ti CC2541)before. iOS App. MIDI format，it was just remix sound files before. This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[My Final Project(Expired)]]></title>
+      <url>%2F2016%2F01%2F27%2FMy-Final-Project%2F</url>
+      <content type="text"><![CDATA[]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[Push to the GitLab]]></title>
+      <url>%2F2016%2F01%2F27%2FPush-to-the-GitLab%2F</url>
+      <content type="text"><![CDATA[4 step to push my website1234$ git clone http://git.fabacademy.org/fabacademy2016/fablabshenzhen.git$ git checkout -b myfeature$ git commit -am &quot;My feature is ready&quot;$ git push origin myfeature This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[SugarTimerIntro]]></title>
+      <url>%2F2016%2F01%2F27%2FSugarTimerIntro%2F</url>
+      <content type="text"><![CDATA[Finial Project introductionI had changed finial project twice for a more funny projectMy Evaluate project is Sugar Timer. Sugar Timeris design for children ,adult can also use it, like meI want make something can encourage me to work hard and study hard.so I try to make a counter which can supervise you studying and working.After you work for a while ,you will get a candy as a reward I also do some research about itI use the Validationboard,and I think it’s useful. Then,I draw some sketch This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+    </entry>
+
+    
+    <entry>
+      <title><![CDATA[About Me]]></title>
+      <url>%2F2015%2F01%2F27%2FAbout-Me%2F</url>
+      <content type="text"><![CDATA[]]></content>
+    </entry>
+
+    
+  
+  
+</search>
