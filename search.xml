@@ -3,6 +3,13 @@
   
     
     <entry>
+      <title><![CDATA[众筹项目主页设计与网站搭建]]></title>
+      <url>%2F2017%2F03%2F19%2FaboutCF%2F</url>
+      <content type="text"><![CDATA[课程内容主要分为3大部分 众筹项目主页布局分析 众筹素材准备 独立网站搭建 课前说明课程介绍、个人介绍，参与项目介绍 //10min 众筹项目主页布局分析众筹平台介绍：Kickstarter - Kickstarter.comIndiegogo.com - Indiegogo.com京东众筹 - z.jd.com淘宝众筹 - hi.taobao.com 课堂任务：分析Kickstarter,Indiegogo,JD,Taobao众筹项目主页的布局。 需要回答以下问题： 1. 这些众筹项目主页在布局上有哪些是相同的，请列出来 //10min 整体布局分析,让学生们对布局有所了解 2. 哪些布局是需要准备素材，请列出来 //5min 详情分析，找出需要准备的素材，引出课程的第二部分 - 素材准备 素材准备 (60min)各种素材准备的方式及工具 封面及简介封面：一般是宣传视频中的画面，点击封面即可播放视频。简介：一句话介绍你的产品 项目详情1.功能 &amp; 2.用户 3.场景 4.使用方法 5.技术参数 6. 计划及里程碑 7. 团队介绍 7.故事……宣传视频Kickstarter的建议是：独特的宣传视频是让你与众不同的一种方法。事实证明有视频的项目成功筹钱的比率比较高——有视频的项目占50%， 没有视频的项目只占30%，而总体平均的成功率在40%左右。 视频时间控制在5min以内 参考项目ZNAPSFidget cubeUlo 动画制作工具Goanimate goanimate.comPowtoon powtoon.com 独立网站搭建 //60min登录 SXL]]></content>
+    </entry>
+
+    
+    <entry>
       <title><![CDATA[The material Shop in Jindi Industrial Estate]]></title>
       <url>%2F2017%2F03%2F10%2Fabout-Jindi%2F</url>
       <content type="text"><![CDATA[Jindi Industrial Estate is not far from SZOIL，you can buy some here.It is near the Shawei Village,you can take a metro to the Shawei station.If you find some interesting stores,please tell me. The material for Sofa A: Steel TubeOn the First Floor,you can order different size of steel tubes.such as: NO.304 L:6m D:16mm Thickness:1.5mm 685rmb NO.201 L:6m D:16mm Thickness:1.5mm 400rmb B: Steel ProcessIt’s on the next door of shop A C:Foam and textileAll of these are on the second floor. C1 C2 C3Have linen textiles D:Wood Process中贝尓广告公司/中贝尓有机玻璃金地工业区103栋5号]]></content>
@@ -26,7 +33,7 @@
     <entry>
       <title><![CDATA[BHA Week3 Incubator(简体中文)]]></title>
       <url>%2F2017%2F03%2F05%2FBHA-week3-incubator%2F</url>
-      <content type="text"><![CDATA[简介：恒温箱 Incubator 用途：将温度控制在一定范围内，用于培养生物(如蜥蜴、鸡蛋)或微生物(如细菌)。 原理：根据“温度传感器”调控“加热器”,当温度高于某一设定值时,加热器停止工作;当温度低于某一设定值时，加热器开始工作，直到温度到达设定值。 Biohack 恒温箱项目地址：https://github.com/BioHackAcademy/BHA_Incubator 控制器外壳制作需要激光切割的文件在Incubator-Cut-Sheet.svg使用激光切割机将外壳切割出来 装风扇的时候可以让螺母卡住风扇，起到固定的作用。 恒温箱外壳制作我们找了个塑料箱，为了提高保温效果，需要给它贴上泡沫板。 根据塑料箱给泡沫板划线 将泡沫板贴在塑料盒上。 Biohack Board 扩展板制作项目地址：https://github.com/BioHackAcademy/BioHackBoardBiohack Board这块板子是Biohack官方设计的Arduino扩展板。想要购买的话，你可以咨询一下Pieter &#x70;&#x69;&#101;&#116;&#101;&#114;&#x40;&#x77;&#x61;&#x61;&#x67;&#x2e;&#x6f;&#x72;&#103;.如果你在中国，你可以尝试自己解决，这是我整理的物料购买链接（淘宝链接）https://shimo.im/sheet/Y3EgEc168cgD1POR/「Biohack board BOM」焊接效果如下 电路连接Biohack board连接方式按照课件中的原理图搭建电路即可，但有一点，我们使用了Biohack Board，下面红框内的电路不用连接， 风扇和加热器按如图的方式连接 NTC 温度传感器我们按照课件中的连接方式连接，发现连接后，实际温度越高，显示的温度越低。查询资料得知温度传感器有两种类型： NTC:Negative Temperature Coefficient 负温度系数 PTC:Positive Temperature Coefficient 正温度系数 我们使用的是NTC，使用下面的方式连接即可（来源于：http://computers.tutsplus.com/tutorials/how-to-read-temperatures-with-arduino--mac-53714） 程序调试安装OneWire库文件打开示例，点击编译，发现有错误提示 提示缺少库“OneWire”,我们需要安装这个库 选择OneWire这个库安装 再次编译成功后，点击upload，上传程序到板子里。 修改LCD I2C地址上传程序后，发现LCD没有反应，这是因为我们买的LCD模块的地址是 0x3F,所以必须把地址改成0x3F 最后在组装前测试一下所以功能，温度传感器，加热器，风扇，LCD和按钮，测试通过 组装将风扇悬挂在培养箱里 将加热薄膜和温度传感器也放在盒子里 最后大功告成 测试效果]]></content>
+      <content type="text"><![CDATA[简介：恒温箱 Incubator 用途：将温度控制在一定范围内，用于培养生物(如蜥蜴、鸡蛋)或微生物(如细菌)。 原理：根据“温度传感器”调控“加热器”,当温度高于某一设定值时,加热器停止工作;当温度低于某一设定值时，加热器开始工作，直到温度到达设定值。 Biohack 恒温箱项目地址：https://github.com/BioHackAcademy/BHA_Incubator 控制器外壳制作需要激光切割的文件在Incubator-Cut-Sheet.svg使用激光切割机将外壳切割出来 装风扇的时候可以让螺母卡住风扇，起到固定的作用。 恒温箱外壳制作我们找了个塑料箱，为了提高保温效果，需要给它贴上泡沫板。 根据塑料箱给泡沫板划线 将泡沫板贴在塑料盒上。 Biohack Board 扩展板制作项目地址：https://github.com/BioHackAcademy/BioHackBoardBiohack Board这块板子是Biohack官方设计的Arduino扩展板。想要购买的话，你可以咨询一下Pieter &#x70;&#x69;&#101;&#116;&#101;&#x72;&#x40;&#119;&#97;&#x61;&#103;&#46;&#111;&#114;&#103;.如果你在中国，你可以尝试自己解决，这是我整理的物料购买链接（淘宝链接）https://shimo.im/sheet/Y3EgEc168cgD1POR/「Biohack board BOM」焊接效果如下 电路连接Biohack board连接方式按照课件中的原理图搭建电路即可，但有一点，我们使用了Biohack Board，下面红框内的电路不用连接， 风扇和加热器按如图的方式连接 NTC 温度传感器我们按照课件中的连接方式连接，发现连接后，实际温度越高，显示的温度越低。查询资料得知温度传感器有两种类型： NTC:Negative Temperature Coefficient 负温度系数 PTC:Positive Temperature Coefficient 正温度系数 我们使用的是NTC，使用下面的方式连接即可（来源于：http://computers.tutsplus.com/tutorials/how-to-read-temperatures-with-arduino--mac-53714） 程序调试安装OneWire库文件打开示例，点击编译，发现有错误提示 提示缺少库“OneWire”,我们需要安装这个库 选择OneWire这个库安装 再次编译成功后，点击upload，上传程序到板子里。 修改LCD I2C地址上传程序后，发现LCD没有反应，这是因为我们买的LCD模块的地址是 0x3F,所以必须把地址改成0x3F 最后在组装前测试一下所以功能，温度传感器，加热器，风扇，LCD和按钮，测试通过 组装将风扇悬挂在培养箱里 将加热薄膜和温度传感器也放在盒子里 最后大功告成 测试效果]]></content>
     </entry>
 
     
@@ -311,16 +318,16 @@
 
     
     <entry>
-      <title><![CDATA[Vinyl Cutter]]></title>
-      <url>%2F2016%2F02%2F10%2Fvinyl%2F</url>
-      <content type="text"><![CDATA[We have a vinyl cutter called GCC RXII60,so I try to design a logo to cut. At first,I want to know how it work,so I just cut an “A”. We should set the line width to “hair” Choose the machine type. My design is on the bottom of the left,it cut on the botton of the right. My Chinese name is Ma yufei(MYF),so I design this logo Now,I can put it on my computer This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+      <title><![CDATA[Paper Cube]]></title>
+      <url>%2F2016%2F02%2F10%2Fpapercube%2F</url>
+      <content type="text"><![CDATA[This week,I try to use Fusion 360 to design a paper cubeThe paper cube is press-fit kit,you can change the parameter to fit different paper. Set Parameters Draw Construction at the face of XZ Draw the trace and mirror Draw the trace at the face of YZ Extrude the plane Copy the Object and put it toghter. Choose the Sketch and “Save As DXF”. Use Coreldraw to import the DXF file Laser Cutting Setting Use the Laser Cutter Put it toghter It work! But that’s too loose. Download link: http://a360.co/1WUGwZs . This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[Paper Cube]]></title>
-      <url>%2F2016%2F02%2F10%2Fpapercube%2F</url>
-      <content type="text"><![CDATA[This week,I try to use Fusion 360 to design a paper cubeThe paper cube is press-fit kit,you can change the parameter to fit different paper. Set Parameters Draw Construction at the face of XZ Draw the trace and mirror Draw the trace at the face of YZ Extrude the plane Copy the Object and put it toghter. Choose the Sketch and “Save As DXF”. Use Coreldraw to import the DXF file Laser Cutting Setting Use the Laser Cutter Put it toghter It work! But that’s too loose. Download link: http://a360.co/1WUGwZs . This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+      <title><![CDATA[Vinyl Cutter]]></title>
+      <url>%2F2016%2F02%2F10%2Fvinyl%2F</url>
+      <content type="text"><![CDATA[We have a vinyl cutter called GCC RXII60,so I try to design a logo to cut. At first,I want to know how it work,so I just cut an “A”. We should set the line width to “hair” Choose the machine type. My design is on the bottom of the left,it cut on the botton of the right. My Chinese name is Ma yufei(MYF),so I design this logo Now,I can put it on my computer This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
     </entry>
 
     
