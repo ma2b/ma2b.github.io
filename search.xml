@@ -17,13 +17,6 @@
 
     
     <entry>
-      <title><![CDATA[szuedu_week2]]></title>
-      <url>%2F2017%2F04%2F26%2Fszuedu-week2%2F</url>
-      <content type="text"><![CDATA[2D绘图软件CorealDraw激光切割机种类常用衔接设计材料]]></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[Week1 版本控制及博客搭建]]></title>
       <url>%2F2017%2F04%2F26%2Fszuedu-week1%2F</url>
       <content type="text"><![CDATA[1.版本控制软件GIT为什么要用Git 安装官方下载地址 (linux和mac自带Git,不需要安装) 第三方带有界面的客户端 推荐客户端Sourcetree和GitHub Desktop (这两个都需要翻墙在线安装) Gitextensions window 不需要翻墙安装的客户端最新版本下载建议下载SetupComplete.msi结尾的完整版本 Git入门Git基础Try Git 扩展阅读：深入理解学习Git工作流Git官方指南 2.Markdown为什么作家应该用 Markdown 保存自己的文稿 入门资料Markdown 新手指南 软件下载typora 3.Github PageHTML基础知识 W3school 配置Github Page官网 博客系统Hexo官网 4.课后作业 用Markdown记录今天做的内容 搭建个人博客 5.拓展：用Virtualbox搭建Linux系统由于大部分同学使用的都是Windows系统，而Linux系统是创客们经常用的系统，它既可以作为日常工作系统，也可以作为服务器。 Virtualbox我们不建议新手一开始就在自己的电脑装Linux系统，因为不熟悉配置，可能会把原有的系统也搞崩溃。所以建议先安装一个虚拟机。 Virtualbox下载地址 DebianDebian是linux的一个发行版本， [镜像下载地址](https://www.debian.org/distrib/） 另外，安装到下面这个步骤时，记得选多一个选项“Xfce”]]></content>
@@ -61,7 +54,7 @@
     <entry>
       <title><![CDATA[BHA Week3 Incubator(简体中文)]]></title>
       <url>%2F2017%2F03%2F05%2FBHA-week3-incubator%2F</url>
-      <content type="text"><![CDATA[简介：恒温箱 Incubator 用途：将温度控制在一定范围内，用于培养生物(如蜥蜴、鸡蛋)或微生物(如细菌)。 原理：根据“温度传感器”调控“加热器”,当温度高于某一设定值时,加热器停止工作;当温度低于某一设定值时，加热器开始工作，直到温度到达设定值。 Biohack 恒温箱项目地址：https://github.com/BioHackAcademy/BHA_Incubator 控制器外壳制作需要激光切割的文件在Incubator-Cut-Sheet.svg使用激光切割机将外壳切割出来 装风扇的时候可以让螺母卡住风扇，起到固定的作用。 恒温箱外壳制作我们找了个塑料箱，为了提高保温效果，需要给它贴上泡沫板。 根据塑料箱给泡沫板划线 将泡沫板贴在塑料盒上。 Biohack Board 扩展板制作项目地址：https://github.com/BioHackAcademy/BioHackBoardBiohack Board这块板子是Biohack官方设计的Arduino扩展板。想要购买的话，你可以咨询一下Pieter &#112;&#105;&#x65;&#x74;&#101;&#114;&#x40;&#x77;&#97;&#x61;&#103;&#46;&#111;&#x72;&#103;.如果你在中国，你可以尝试自己解决，这是我整理的物料购买链接（淘宝链接）https://shimo.im/sheet/Y3EgEc168cgD1POR/「Biohack board BOM」焊接效果如下 电路连接Biohack board连接方式按照课件中的原理图搭建电路即可，但有一点，我们使用了Biohack Board，下面红框内的电路不用连接， 风扇和加热器按如图的方式连接 NTC 温度传感器我们按照课件中的连接方式连接，发现连接后，实际温度越高，显示的温度越低。查询资料得知温度传感器有两种类型： NTC:Negative Temperature Coefficient 负温度系数 PTC:Positive Temperature Coefficient 正温度系数 我们使用的是NTC，使用下面的方式连接即可（来源于：http://computers.tutsplus.com/tutorials/how-to-read-temperatures-with-arduino--mac-53714） 程序调试安装OneWire库文件打开示例，点击编译，发现有错误提示 提示缺少库“OneWire”,我们需要安装这个库 选择OneWire这个库安装 再次编译成功后，点击upload，上传程序到板子里。 修改LCD I2C地址上传程序后，发现LCD没有反应，这是因为我们买的LCD模块的地址是 0x3F,所以必须把地址改成0x3F 最后在组装前测试一下所以功能，温度传感器，加热器，风扇，LCD和按钮，测试通过 组装将风扇悬挂在培养箱里 将加热薄膜和温度传感器也放在盒子里 最后大功告成 测试效果]]></content>
+      <content type="text"><![CDATA[简介：恒温箱 Incubator 用途：将温度控制在一定范围内，用于培养生物(如蜥蜴、鸡蛋)或微生物(如细菌)。 原理：根据“温度传感器”调控“加热器”,当温度高于某一设定值时,加热器停止工作;当温度低于某一设定值时，加热器开始工作，直到温度到达设定值。 Biohack 恒温箱项目地址：https://github.com/BioHackAcademy/BHA_Incubator 控制器外壳制作需要激光切割的文件在Incubator-Cut-Sheet.svg使用激光切割机将外壳切割出来 装风扇的时候可以让螺母卡住风扇，起到固定的作用。 恒温箱外壳制作我们找了个塑料箱，为了提高保温效果，需要给它贴上泡沫板。 根据塑料箱给泡沫板划线 将泡沫板贴在塑料盒上。 Biohack Board 扩展板制作项目地址：https://github.com/BioHackAcademy/BioHackBoardBiohack Board这块板子是Biohack官方设计的Arduino扩展板。想要购买的话，你可以咨询一下Pieter &#112;&#x69;&#x65;&#116;&#x65;&#x72;&#64;&#119;&#97;&#97;&#103;&#x2e;&#111;&#114;&#x67;.如果你在中国，你可以尝试自己解决，这是我整理的物料购买链接（淘宝链接）https://shimo.im/sheet/Y3EgEc168cgD1POR/「Biohack board BOM」焊接效果如下 电路连接Biohack board连接方式按照课件中的原理图搭建电路即可，但有一点，我们使用了Biohack Board，下面红框内的电路不用连接， 风扇和加热器按如图的方式连接 NTC 温度传感器我们按照课件中的连接方式连接，发现连接后，实际温度越高，显示的温度越低。查询资料得知温度传感器有两种类型： NTC:Negative Temperature Coefficient 负温度系数 PTC:Positive Temperature Coefficient 正温度系数 我们使用的是NTC，使用下面的方式连接即可（来源于：http://computers.tutsplus.com/tutorials/how-to-read-temperatures-with-arduino--mac-53714） 程序调试安装OneWire库文件打开示例，点击编译，发现有错误提示 提示缺少库“OneWire”,我们需要安装这个库 选择OneWire这个库安装 再次编译成功后，点击upload，上传程序到板子里。 修改LCD I2C地址上传程序后，发现LCD没有反应，这是因为我们买的LCD模块的地址是 0x3F,所以必须把地址改成0x3F 最后在组装前测试一下所以功能，温度传感器，加热器，风扇，LCD和按钮，测试通过 组装将风扇悬挂在培养箱里 将加热薄膜和温度传感器也放在盒子里 最后大功告成 测试效果]]></content>
     </entry>
 
     
@@ -346,16 +339,16 @@
 
     
     <entry>
-      <title><![CDATA[Vinyl Cutter]]></title>
-      <url>%2F2016%2F02%2F10%2Fvinyl%2F</url>
-      <content type="text"><![CDATA[We have a vinyl cutter called GCC RXII60,so I try to design a logo to cut. At first,I want to know how it work,so I just cut an “A”. We should set the line width to “hair” Choose the machine type. My design is on the bottom of the left,it cut on the botton of the right. My Chinese name is Ma yufei(MYF),so I design this logo Now,I can put it on my computer This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+      <title><![CDATA[Paper Cube]]></title>
+      <url>%2F2016%2F02%2F10%2Fpapercube%2F</url>
+      <content type="text"><![CDATA[This week,I try to use Fusion 360 to design a paper cubeThe paper cube is press-fit kit,you can change the parameter to fit different paper. Set Parameters Draw Construction at the face of XZ Draw the trace and mirror Draw the trace at the face of YZ Extrude the plane Copy the Object and put it toghter. Choose the Sketch and “Save As DXF”. Use Coreldraw to import the DXF file Laser Cutting Setting Use the Laser Cutter Put it toghter It work! But that’s too loose. Download link: http://a360.co/1WUGwZs . This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
     </entry>
 
     
     <entry>
-      <title><![CDATA[Paper Cube]]></title>
-      <url>%2F2016%2F02%2F10%2Fpapercube%2F</url>
-      <content type="text"><![CDATA[This week,I try to use Fusion 360 to design a paper cubeThe paper cube is press-fit kit,you can change the parameter to fit different paper. Set Parameters Draw Construction at the face of XZ Draw the trace and mirror Draw the trace at the face of YZ Extrude the plane Copy the Object and put it toghter. Choose the Sketch and “Save As DXF”. Use Coreldraw to import the DXF file Laser Cutting Setting Use the Laser Cutter Put it toghter It work! But that’s too loose. Download link: http://a360.co/1WUGwZs . This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
+      <title><![CDATA[Vinyl Cutter]]></title>
+      <url>%2F2016%2F02%2F10%2Fvinyl%2F</url>
+      <content type="text"><![CDATA[We have a vinyl cutter called GCC RXII60,so I try to design a logo to cut. At first,I want to know how it work,so I just cut an “A”. We should set the line width to “hair” Choose the machine type. My design is on the bottom of the left,it cut on the botton of the right. My Chinese name is Ma yufei(MYF),so I design this logo Now,I can put it on my computer This work is licensed under a Creative Commons Attribution 4.0 International License.]]></content>
     </entry>
 
     
