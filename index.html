@@ -404,8 +404,12 @@
 <li>格式化SD卡<br>格式化工具：<a href="https://www.sdcard.org/downloads/formatter_4/index.html" target="_blank" rel="external">SD Memory Card Formatter</a> （已放在U盘）</li>
 <li><p>烧录固件<br>固件烧录程序：<a href="https://etcher.io/" target="_blank" rel="external">Etcher</a><br><a href="https://github.com/kalliope-project/kalliope/releases" target="_blank" rel="external">Kalliope最新固件下载地址</a>(最新固件已放U盘)</p>
 </li>
-<li><p>屏幕文件设置<br><a href="http://www.waveshare.net/wiki/2.8inch_RPi_LCD_(A" target="_blank" rel="external">2.8inch RPi LCD (A)</a>)</p>
+<li><p>屏幕文件设置<br>7INCH HDMI LCD<br>在根目录下config.txt文件后面添加</p>
 </li>
+</ol>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">max_usb_current=1</div><div class="line">hdmi_group=2</div><div class="line">hdmi_mode=87</div><div class="line">hdmi_cvt 1024 600 60 6 0 0 0</div></pre></td></tr></table></figure>
+<p><a href="http://www.waveshare.net/wiki/2.8inch_RPi_LCD_(A" target="_blank" rel="external">2.8inch RPi LCD (A)</a>)</p>
+<ol>
 <li>进入系统<br> 用户名：pi 密码：raspberry</li>
 <li><p>键盘设置<br> sudo raspi-config<br><a href="http://jingyan.baidu.com/article/e6c8503c6b79a1e54f1a18fc.html" target="_blank" rel="external">http://jingyan.baidu.com/article/e6c8503c6b79a1e54f1a18fc.html</a></p>
 </li>

@@ -5,7 +5,7 @@
     <entry>
       <title><![CDATA[Pre-compiled Kalliope Installation]]></title>
       <url>%2F2017%2F07%2F20%2FPre-compiled-Kalliope-Installation%2F</url>
-      <content type="text"><![CDATA[格式化SD卡格式化工具：SD Memory Card Formatter （已放在U盘） 烧录固件固件烧录程序：EtcherKalliope最新固件下载地址(最新固件已放U盘) 屏幕文件设置2.8inch RPi LCD (A)) 进入系统 用户名：pi 密码：raspberry 键盘设置 sudo raspi-confighttp://jingyan.baidu.com/article/e6c8503c6b79a1e54f1a18fc.html Wifi设置 123456789sudo suwpa_passphrase &quot;testing&quot; &quot;testingPassword&quot; &gt;&gt; /etc/wpa_supplicant/wpa_supplicant.confsudo wpa_cli reconfiguresudo wpa_cli statusifconfig wlan0 记录下IP地址 SSH连接电脑终端下，使用SSH命令连接树莓派ssh pi@192.168.x.x]]></content>
+      <content type="text"><![CDATA[格式化SD卡格式化工具：SD Memory Card Formatter （已放在U盘） 烧录固件固件烧录程序：EtcherKalliope最新固件下载地址(最新固件已放U盘) 屏幕文件设置7INCH HDMI LCD在根目录下config.txt文件后面添加 1234max_usb_current=1hdmi_group=2hdmi_mode=87hdmi_cvt 1024 600 60 6 0 0 0 2.8inch RPi LCD (A)) 进入系统 用户名：pi 密码：raspberry 键盘设置 sudo raspi-confighttp://jingyan.baidu.com/article/e6c8503c6b79a1e54f1a18fc.html Wifi设置 123456789sudo suwpa_passphrase &quot;testing&quot; &quot;testingPassword&quot; &gt;&gt; /etc/wpa_supplicant/wpa_supplicant.confsudo wpa_cli reconfiguresudo wpa_cli statusifconfig wlan0 记录下IP地址 SSH连接电脑终端下，使用SSH命令连接树莓派ssh pi@192.168.x.x]]></content>
     </entry>
 
     
