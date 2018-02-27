@@ -3,20 +3,6 @@
   
     
     <entry>
-      <title><![CDATA[aiwa]]></title>
-      <url>%2F2018%2F02%2F28%2Faiwa-2%2F</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
-      <title><![CDATA[aiwa]]></title>
-      <url>%2F2018%2F02%2F28%2Faiwa-1%2F</url>
-      <content type="text"></content>
-    </entry>
-
-    
-    <entry>
       <title><![CDATA[NLG自然语音生成的介绍和资料搜集（未完待续）]]></title>
       <url>%2F2018%2F02%2F27%2Fnlg%2F</url>
       <content type="text"><![CDATA[最近注意到NLG,行业里很多专家都对这个方向很看好，认为NLG技术将成为“工作杀手”，一旦技术成熟，很多工作会被替代掉，比如文章编辑、专利工程师这类高级工种的工作。 什么是NLG?自然语言生成(Natural language generation) 自然语言生成（NLG）是自然语言处理的一部分，从知识库或逻辑形式等等机器表述系统去生成自然语言。 - wiki 简单的来说，就是教小朋友写文章后，小朋友自己写文章的那一部分工作。 国内很多NLP团队只做了NLU（自然语音理解这一部分），NLG这部分基本不存在，即使是国外的大平台，这一部分也不成熟。 图片来源于Natural Language Generation at Google Research 核心技术循环神经网络Recurrent Neural Network（RNN） 图片来源于Natural Language Generation at Google Research 应用人工智能律师顾问ROSS 视频 机器人记者Robot journalism美联社、纽约时代、路透社等媒体巨头已经开始使用人工智能记者去整理简单的报道，比如体育新闻、地震信息、天气预报等。但这并不意味着会取代人类记者，人类记者反而有更多精力放在更有价值的项目上。 相关报道 对联生成 - 腾讯AI Lab非常有创意的应用，NLG效果不错。但我觉得和P图软件结合起来，将“用户形象照片”代替图片里的“机器人照片”，可能会有更好的传播效果。 相关文章 Birds Blogging - 替动物写博客的AI相关视频 图片视频描述根据图片，生成相关的文字描述相关资料 可以用在P图软件中，自动生成配文，可以发布到朋友圈，或者直接P在图片上。 平台Wordsmith目前国外最出名的NLG平台，需要设计模板，感觉工作量不小。官方网站 Arria 跟Wordsmith差不多，都需要设计模板。 官方网站 Texygen上海交通大学最近的项目，有空仔细研究。 Texygen不仅实现了大部分的文本生成模型，而且还覆盖了一系列衡量生成文本的多样性、质量和一致性的评测指标。 项目地址: https://github.com/geek-ai/Texygen 论文：https://arxiv.org/abs/1802.01886 新闻报道 总结 现有NLG平台都是用模板的，直接使用神经网络生成随机性太大。 技术不成熟，虽然是一个很好的前景，但也可能会变成这波人工智能浪潮的发展瓶颈。 国外图片配文的研究的团队非常多，一旦成熟，很可能会成为杀手级应用。 先利用模板应用于垂直场景。]]></content>
