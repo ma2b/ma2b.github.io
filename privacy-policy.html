@@ -12,26 +12,40 @@
   h2 { font-size: 1.3em; margin: 32px 0 12px; color: #222; }
   p, li { font-size: 1em; margin-bottom: 12px; }
   ul { padding-left: 24px; }
-  .lang-switch { text-align: right; margin-bottom: 24px; }
-  .lang-switch a { cursor: pointer; color: #0066cc; text-decoration: none; padding: 4px 12px; border: 1px solid #0066cc; border-radius: 4px; font-size: 0.9em; }
-  .lang-switch a.active { background: #0066cc; color: #fff; }
+  .lang-switch { display: flex; justify-content: flex-end; margin-bottom: 24px; }
+  .lang-switch select { min-width: 180px; color: #111; background: #fff; border: 1px solid #ccc; border-radius: 4px; padding: 7px 32px 7px 10px; font: inherit; font-size: 0.95em; line-height: 1.4; }
+  .visually-hidden { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
   .section { display: none; }
   .section.active { display: block; }
   .date { color: #666; font-size: 0.9em; margin-bottom: 32px; }
-  hr { border: none; border-top: 1px solid #e0e0e0; margin: 40px 0; }
   a { color: #0066cc; }
+  @media (max-width: 520px) {
+    .container { padding: 28px 18px; }
+    .lang-switch { justify-content: flex-start; }
+  }
 </style>
 </head>
 <body>
 <div class="container">
 
 <div class="lang-switch">
-  <a id="btn-en" class="active" onclick="switchLang('en')">English</a>
-  <a id="btn-zh" onclick="switchLang('zh')">中文</a>
+  <label class="visually-hidden" for="language-select">Language</label>
+  <select id="language-select" aria-label="Language">
+    <option value="en">English</option>
+    <option value="zh_CN">简体中文</option>
+    <option value="zh_TW">繁體中文</option>
+    <option value="ja">日本語</option>
+    <option value="ko">한국어</option>
+    <option value="es_MX">Español</option>
+    <option value="pt_BR">Português</option>
+    <option value="de">Deutsch</option>
+    <option value="fr">Français</option>
+    <option value="it">Italiano</option>
+  </select>
 </div>
 
 <!-- English -->
-<div id="en" class="section active">
+<div id="en" class="section active" lang="en">
 <h1>Mindwalker — Privacy Policy</h1>
 <p class="date">Effective Date: April 12, 2026</p>
 
@@ -80,8 +94,8 @@
 <a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
 </div>
 
-<!-- 中文 -->
-<div id="zh" class="section">
+<!-- 简体中文 -->
+<div id="zh_CN" class="section" lang="zh-Hans" hidden>
 <h1>Mindwalker — 隐私政策</h1>
 <p class="date">生效日期：2026 年 4 月 12 日</p>
 
@@ -130,15 +144,528 @@
 <a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
 </div>
 
+<!-- 繁體中文 -->
+<div id="zh_TW" class="section" lang="zh-Hant" hidden>
+<h1>Mindwalker — 隱私權政策</h1>
+<p class="date">生效日期：2026 年 4 月 12 日</p>
+
+<h2>概述</h2>
+<p>Mindwalker 是由 Yufei Ma 開發的沉浸式探索遊戲。本政策說明應用程式如何處理您的資訊。</p>
+
+<h2>資料收集</h2>
+<p>Mindwalker <strong>不會</strong>向開發者或第三方收集、傳輸或分享您的個人資料。應用程式可能僅在您的裝置本機儲存少量設定，以便在不同工作階段之間保留您的偏好。具體而言：</p>
+<ul>
+  <li>無需註冊或登入帳號</li>
+  <li>不收集任何個人資訊（姓名、電子郵件、電話等）</li>
+  <li>不收集位置資料</li>
+  <li>不進行使用情況分析或追蹤</li>
+  <li>無廣告，不使用廣告識別碼</li>
+  <li>應用程式不使用 Cookie 或類似追蹤技術</li>
+  <li>不存取相機、麥克風或相簿</li>
+  <li>語言、音訊、圖形和玩法偏好等設定可能僅儲存在您的裝置本機</li>
+</ul>
+
+<h2>裝置功能</h2>
+<p>應用程式可能使用以下裝置功能，所有資料均在本機處理：</p>
+<ul>
+  <li><strong>加速度計</strong> — 用於傾斜式移動控制</li>
+  <li><strong>觸覺回饋 / 震動</strong> — 在平台支援且您在應用程式設定中啟用時，可用於與步行相關的回饋</li>
+</ul>
+<p>這些感測器資料不會被記錄、儲存或傳輸。</p>
+
+<h2>第三方 SDK</h2>
+<p>Mindwalker 使用以下第三方元件來提供應用程式功能。在目前實作中，它們均在應用程式內本機執行，且未被設定為透過 Mindwalker 收集個人資料：</p>
+<ul>
+  <li><strong>Wwise</strong>（Audiokinetic）— 音訊引擎，完全離線執行</li>
+  <li><strong>zylann.voxel</strong> — 地形生成，開放原始碼（MIT 授權），完全離線執行</li>
+</ul>
+
+<h2>網路存取</h2>
+<p>依目前設定，Mindwalker 不需要網際網路連線，也不會與我們的伺服器通訊。</p>
+
+<h2>兒童隱私</h2>
+<p>Mindwalker 並非為收集兒童個人資訊而設計。如果您認為有兒童透過本應用程式向我們提供了個人資訊，請聯絡我們處理。</p>
+
+<h2>政策變更</h2>
+<p>如本政策有更新，修訂版本將發布在本頁面，並更新生效日期。</p>
+
+<h2>聯絡方式</h2>
+<p>如對本隱私權政策有疑問，請聯絡：<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- 日本語 -->
+<div id="ja" class="section" lang="ja" hidden>
+<h1>Mindwalker — プライバシーポリシー</h1>
+<p class="date">発効日：2026年4月12日</p>
+
+<h2>概要</h2>
+<p>MindwalkerはYufei Maが開発した没入型探索ゲームです。このポリシーでは、本アプリがお客様の情報をどのように扱うかを説明します。</p>
+
+<h2>データ収集</h2>
+<p>Mindwalkerは、開発者または第三者に対してお客様の個人データを収集、送信、共有しません。本アプリは、セッション間でお客様の設定を保持するために、限られた設定をお客様の端末内にのみ保存する場合があります。具体的には:</p>
+<ul>
+  <li>アカウント登録やログインは不要です</li>
+  <li>個人情報（氏名、メールアドレス、電話番号など）は収集しません</li>
+  <li>位置情報は収集しません</li>
+  <li>利用状況分析やトラッキングは行いません</li>
+  <li>広告および広告識別子は使用しません</li>
+  <li>アプリ内でCookieまたは類似の追跡技術は使用しません</li>
+  <li>カメラ、マイク、写真ライブラリにはアクセスしません</li>
+  <li>言語、音声、グラフィック、ゲームプレイの設定などは、お客様の端末内にのみ保存される場合があります</li>
+</ul>
+
+<h2>端末機能</h2>
+<p>本アプリは次の端末機能を使用する場合があります。これらはすべてお客様の端末内で処理されます:</p>
+<ul>
+  <li><strong>加速度センサー</strong> — 傾きによる移動操作に使用します</li>
+  <li><strong>触覚フィードバック / バイブレーション</strong> — プラットフォームが対応し、アプリ設定で有効になっている場合、歩行に関するフィードバックに使用することがあります</li>
+</ul>
+<p>これらのセンサーデータは記録、保存、送信されません。</p>
+
+<h2>第三者SDK</h2>
+<p>Mindwalkerはアプリ機能を提供するため、次の第三者コンポーネントを使用します。現在の実装では、これらはアプリ内でローカルに動作し、Mindwalkerを通じて個人データを収集するようには設定されていません:</p>
+<ul>
+  <li><strong>Wwise</strong>（Audiokinetic）— オーディオエンジン。完全にオフラインで動作します</li>
+  <li><strong>zylann.voxel</strong> — 地形生成。オープンソース（MIT）で、完全にオフラインで動作します</li>
+</ul>
+
+<h2>ネットワークアクセス</h2>
+<p>現在の設定では、Mindwalkerはインターネット接続を必要とせず、当方のサーバーと通信しません。</p>
+
+<h2>お子様のプライバシー</h2>
+<p>Mindwalkerは、お子様から個人情報を収集することを目的として設計されていません。本アプリに関連して個人情報が当方に提供されたと思われる場合は、対応のためお問い合わせください。</p>
+
+<h2>本ポリシーの変更</h2>
+<p>本ポリシーが更新された場合、改定版をこのページに掲載し、発効日を更新します。</p>
+
+<h2>お問い合わせ</h2>
+<p>本プライバシーポリシーに関するご質問は、次の連絡先までお問い合わせください:<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- 한국어 -->
+<div id="ko" class="section" lang="ko" hidden>
+<h1>Mindwalker — 개인정보 처리방침</h1>
+<p class="date">시행일: 2026년 4월 12일</p>
+
+<h2>개요</h2>
+<p>Mindwalker는 Yufei Ma가 개발한 몰입형 탐험 게임입니다. 본 방침은 앱이 사용자의 정보를 어떻게 처리하는지 설명합니다.</p>
+
+<h2>데이터 수집</h2>
+<p>Mindwalker는 개발자 또는 제3자에게 사용자의 개인정보를 수집, 전송 또는 공유하지 않습니다. 앱은 세션 간 사용자의 환경설정을 유지하기 위해 제한된 설정을 사용자의 기기에만 로컬로 저장할 수 있습니다. 구체적으로:</p>
+<ul>
+  <li>계정 등록 또는 로그인이 필요하지 않습니다</li>
+  <li>개인정보(이름, 이메일, 전화번호 등)를 수집하지 않습니다</li>
+  <li>위치 데이터를 수집하지 않습니다</li>
+  <li>사용 분석 또는 추적을 하지 않습니다</li>
+  <li>광고 또는 광고 식별자를 사용하지 않습니다</li>
+  <li>앱에서 쿠키 또는 유사한 추적 기술을 사용하지 않습니다</li>
+  <li>카메라, 마이크 또는 사진 보관함에 접근하지 않습니다</li>
+  <li>언어, 오디오, 그래픽, 게임플레이 환경설정 등은 사용자의 기기에만 로컬로 저장될 수 있습니다</li>
+</ul>
+
+<h2>기기 기능</h2>
+<p>앱은 다음 기기 기능을 사용할 수 있으며, 모든 처리는 사용자의 기기에서 로컬로 이루어집니다:</p>
+<ul>
+  <li><strong>가속도계</strong> — 기울기 기반 이동 조작에 사용됩니다</li>
+  <li><strong>햅틱 피드백 / 진동</strong> — 플랫폼에서 지원하고 앱 설정에서 활성화된 경우 걷기 관련 피드백에 사용될 수 있습니다</li>
+</ul>
+<p>이러한 센서 데이터는 기록, 저장 또는 전송되지 않습니다.</p>
+
+<h2>제3자 SDK</h2>
+<p>Mindwalker는 앱 기능을 제공하기 위해 다음 제3자 구성 요소를 사용합니다. 현재 구현에서는 앱 내부에서 로컬로 실행되며, Mindwalker를 통해 개인정보를 수집하도록 구성되어 있지 않습니다:</p>
+<ul>
+  <li><strong>Wwise</strong>(Audiokinetic) — 오디오 엔진, 완전히 오프라인으로 실행됩니다</li>
+  <li><strong>zylann.voxel</strong> — 지형 생성, 오픈 소스(MIT), 완전히 오프라인으로 실행됩니다</li>
+</ul>
+
+<h2>네트워크 접근</h2>
+<p>현재 구성상 Mindwalker는 인터넷 연결이 필요하지 않으며 당사 서버와 통신하지 않습니다.</p>
+
+<h2>아동 개인정보 보호</h2>
+<p>Mindwalker는 아동의 개인정보를 수집하도록 설계되지 않았습니다. 앱과 관련하여 개인정보가 당사에 제공되었다고 생각하시는 경우, 조치할 수 있도록 연락해 주십시오.</p>
+
+<h2>본 방침의 변경</h2>
+<p>본 방침이 업데이트되는 경우, 개정된 버전은 업데이트된 시행일과 함께 이 페이지에 게시됩니다.</p>
+
+<h2>연락처</h2>
+<p>본 개인정보 처리방침에 대한 질문이 있는 경우 다음으로 연락해 주십시오:<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- Español (México) -->
+<div id="es_MX" class="section" lang="es-MX" hidden>
+<h1>Mindwalker — Política de privacidad</h1>
+<p class="date">Fecha de entrada en vigor: 12 de abril de 2026</p>
+
+<h2>Descripción general</h2>
+<p>Mindwalker es un juego de exploración inmersiva desarrollado por Yufei Ma. Esta política explica cómo la app maneja tu información.</p>
+
+<h2>Recopilación de datos</h2>
+<p>Mindwalker <strong>no</strong> recopila, transmite ni comparte tus datos personales con el desarrollador o con terceros. La app puede guardar configuraciones limitadas localmente en tu dispositivo para conservar tus preferencias entre sesiones. En concreto:</p>
+<ul>
+  <li>No se requiere registro de cuenta ni inicio de sesión</li>
+  <li>No se recopila información personal (nombre, correo electrónico, teléfono, etc.)</li>
+  <li>No se recopilan datos de ubicación</li>
+  <li>No hay análisis de uso ni seguimiento</li>
+  <li>No hay publicidad ni identificadores publicitarios</li>
+  <li>La app no utiliza cookies ni tecnologías de seguimiento similares</li>
+  <li>No hay acceso a la cámara, el micrófono ni la fototeca</li>
+  <li>Configuraciones como idioma, audio, gráficos y preferencias de juego pueden almacenarse solo localmente en tu dispositivo</li>
+</ul>
+
+<h2>Funciones del dispositivo</h2>
+<p>La app puede usar las siguientes funciones del dispositivo, todas procesadas localmente en tu dispositivo:</p>
+<ul>
+  <li><strong>Acelerómetro</strong> — se usa para controles de movimiento basados en inclinación</li>
+  <li><strong>Retroalimentación háptica / vibración</strong> — puede usarse para comentarios relacionados con caminar si la plataforma lo admite y está habilitada en los ajustes de la app</li>
+</ul>
+<p>No se registran, almacenan ni transmiten datos de estos sensores.</p>
+
+<h2>SDK de terceros</h2>
+<p>Mindwalker usa los siguientes componentes de terceros para proporcionar funciones de la app. En la implementación actual, se ejecutan localmente dentro de la app y no están configurados para recopilar datos personales a través de Mindwalker:</p>
+<ul>
+  <li><strong>Wwise</strong> (Audiokinetic) — motor de audio, funciona completamente sin conexión</li>
+  <li><strong>zylann.voxel</strong> — generación de terreno, código abierto (MIT), funciona completamente sin conexión</li>
+</ul>
+
+<h2>Acceso a la red</h2>
+<p>Tal como está configurado actualmente, Mindwalker no requiere conexión a Internet y no se comunica con nuestros servidores.</p>
+
+<h2>Privacidad de menores</h2>
+<p>Mindwalker no está diseñado para recopilar información personal de menores. Si crees que se nos ha proporcionado información personal en relación con la app, contáctanos para que podamos atenderlo.</p>
+
+<h2>Cambios a esta política</h2>
+<p>Si esta política se actualiza, la versión revisada se publicará en esta página con una fecha de entrada en vigor actualizada.</p>
+
+<h2>Contacto</h2>
+<p>Si tienes preguntas sobre esta política de privacidad, contáctanos:<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- Português (Brasil) -->
+<div id="pt_BR" class="section" lang="pt-BR" hidden>
+<h1>Mindwalker — Política de Privacidade</h1>
+<p class="date">Data de vigência: 12 de abril de 2026</p>
+
+<h2>Visão geral</h2>
+<p>Mindwalker é um jogo de exploração imersiva desenvolvido por Yufei Ma. Esta política explica como o app trata suas informações.</p>
+
+<h2>Coleta de dados</h2>
+<p>Mindwalker <strong>não</strong> coleta, transmite nem compartilha seus dados pessoais com o desenvolvedor ou terceiros. O app pode salvar configurações limitadas localmente em seu dispositivo para manter suas preferências entre sessões. Especificamente:</p>
+<ul>
+  <li>Não é necessário registro de conta ou login</li>
+  <li>Nenhuma informação pessoal é coletada (nome, e-mail, telefone etc.)</li>
+  <li>Nenhum dado de localização é coletado</li>
+  <li>Não há análise de uso nem rastreamento</li>
+  <li>Não há publicidade nem identificadores de publicidade</li>
+  <li>O app não usa cookies nem tecnologias de rastreamento semelhantes</li>
+  <li>Não há acesso à câmera, ao microfone ou à biblioteca de fotos</li>
+  <li>Configurações como idioma, áudio, gráficos e preferências de jogabilidade podem ser armazenadas apenas localmente em seu dispositivo</li>
+</ul>
+
+<h2>Recursos do dispositivo</h2>
+<p>O app pode usar os seguintes recursos do dispositivo, todos processados localmente em seu dispositivo:</p>
+<ul>
+  <li><strong>Acelerômetro</strong> — usado para controles de movimento baseados em inclinação</li>
+  <li><strong>Feedback tátil / vibração</strong> — pode ser usado para feedback relacionado à caminhada se houver suporte da plataforma e se estiver ativado nas configurações do app</li>
+</ul>
+<p>Nenhum dado desses sensores é registrado, armazenado ou transmitido.</p>
+
+<h2>SDKs de terceiros</h2>
+<p>Mindwalker usa os seguintes componentes de terceiros para fornecer funcionalidades do app. Na implementação atual, eles são executados localmente dentro do app e não estão configurados para coletar dados pessoais por meio do Mindwalker:</p>
+<ul>
+  <li><strong>Wwise</strong> (Audiokinetic) — motor de áudio, funciona totalmente offline</li>
+  <li><strong>zylann.voxel</strong> — geração de terreno, código aberto (MIT), funciona totalmente offline</li>
+</ul>
+
+<h2>Acesso à rede</h2>
+<p>Na configuração atual, Mindwalker não requer conexão com a Internet e não se comunica com nossos servidores.</p>
+
+<h2>Privacidade de crianças</h2>
+<p>Mindwalker não foi desenvolvido para coletar informações pessoais de crianças. Se você acredita que informações pessoais foram fornecidas a nós em conexão com o app, entre em contato para que possamos tratar a situação.</p>
+
+<h2>Alterações nesta política</h2>
+<p>Se esta política for atualizada, a versão revisada será publicada nesta página com uma data de vigência atualizada.</p>
+
+<h2>Contato</h2>
+<p>Se você tiver dúvidas sobre esta política de privacidade, entre em contato:<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- Deutsch -->
+<div id="de" class="section" lang="de" hidden>
+<h1>Mindwalker — Datenschutzrichtlinie</h1>
+<p class="date">Gültig ab: 12. April 2026</p>
+
+<h2>Überblick</h2>
+<p>Mindwalker ist ein immersives Erkundungsspiel, entwickelt von Yufei Ma. Diese Richtlinie erläutert, wie die App mit Ihren Informationen umgeht.</p>
+
+<h2>Datenerhebung</h2>
+<p>Mindwalker erhebt, übermittelt oder teilt Ihre personenbezogenen Daten <strong>nicht</strong> mit dem Entwickler oder Dritten. Die App kann begrenzte Einstellungen lokal auf Ihrem Gerät speichern, damit Ihre Präferenzen zwischen Sitzungen erhalten bleiben. Konkret:</p>
+<ul>
+  <li>Keine Kontoregistrierung oder Anmeldung erforderlich</li>
+  <li>Keine Erhebung personenbezogener Daten (Name, E-Mail-Adresse, Telefonnummer usw.)</li>
+  <li>Keine Erhebung von Standortdaten</li>
+  <li>Keine Nutzungsanalyse oder Nachverfolgung</li>
+  <li>Keine Werbung oder Werbe-IDs</li>
+  <li>Die App verwendet keine Cookies oder ähnlichen Tracking-Technologien</li>
+  <li>Kein Zugriff auf Kamera, Mikrofon oder Fotomediathek</li>
+  <li>Einstellungen wie Sprache, Audio, Grafik und Gameplay-Präferenzen können nur lokal auf Ihrem Gerät gespeichert werden</li>
+</ul>
+
+<h2>Gerätefunktionen</h2>
+<p>Die App kann die folgenden Gerätefunktionen verwenden. Alle Verarbeitung erfolgt lokal auf Ihrem Gerät:</p>
+<ul>
+  <li><strong>Beschleunigungssensor</strong> — wird für neigungsbasierte Bewegungssteuerung verwendet</li>
+  <li><strong>Haptisches Feedback / Vibration</strong> — kann für gehbezogenes Feedback verwendet werden, sofern von der Plattform unterstützt und in den App-Einstellungen aktiviert</li>
+</ul>
+<p>Daten dieser Sensoren werden nicht aufgezeichnet, gespeichert oder übermittelt.</p>
+
+<h2>Drittanbieter-SDKs</h2>
+<p>Mindwalker verwendet die folgenden Drittanbieter-Komponenten, um App-Funktionen bereitzustellen. In der aktuellen Implementierung laufen sie lokal innerhalb der App und sind nicht dafür konfiguriert, über Mindwalker personenbezogene Daten zu erheben:</p>
+<ul>
+  <li><strong>Wwise</strong> (Audiokinetic) — Audio-Engine, läuft vollständig offline</li>
+  <li><strong>zylann.voxel</strong> — Geländegenerierung, Open Source (MIT), läuft vollständig offline</li>
+</ul>
+
+<h2>Netzwerkzugriff</h2>
+<p>In der aktuellen Konfiguration benötigt Mindwalker keine Internetverbindung und kommuniziert nicht mit unseren Servern.</p>
+
+<h2>Privatsphäre von Kindern</h2>
+<p>Mindwalker ist nicht darauf ausgelegt, personenbezogene Informationen von Kindern zu erheben. Wenn Sie glauben, dass uns im Zusammenhang mit der App personenbezogene Informationen bereitgestellt wurden, kontaktieren Sie uns bitte, damit wir dies bearbeiten können.</p>
+
+<h2>Änderungen dieser Richtlinie</h2>
+<p>Wenn diese Richtlinie aktualisiert wird, wird die überarbeitete Version mit einem aktualisierten Gültigkeitsdatum auf dieser Seite veröffentlicht.</p>
+
+<h2>Kontakt</h2>
+<p>Wenn Sie Fragen zu dieser Datenschutzrichtlinie haben, kontaktieren Sie uns bitte:<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- Français -->
+<div id="fr" class="section" lang="fr" hidden>
+<h1>Mindwalker — Politique de confidentialité</h1>
+<p class="date">Date d’entrée en vigueur : 12 avril 2026</p>
+
+<h2>Présentation</h2>
+<p>Mindwalker est un jeu d’exploration immersif développé par Yufei Ma. Cette politique explique comment l’app traite vos informations.</p>
+
+<h2>Collecte de données</h2>
+<p>Mindwalker ne collecte, ne transmet ni ne partage <strong>aucune</strong> donnée personnelle vous concernant avec le développeur ou des tiers. L’app peut enregistrer localement sur votre appareil un nombre limité de réglages afin de conserver vos préférences d’une session à l’autre. Plus précisément :</p>
+<ul>
+  <li>Aucune inscription de compte ni connexion requise</li>
+  <li>Aucune information personnelle collectée (nom, adresse e-mail, téléphone, etc.)</li>
+  <li>Aucune donnée de localisation collectée</li>
+  <li>Aucune analyse d’utilisation ni aucun suivi</li>
+  <li>Aucune publicité ni aucun identifiant publicitaire</li>
+  <li>L’app n’utilise pas de cookies ni de technologies de suivi similaires</li>
+  <li>Aucun accès à l’appareil photo, au microphone ou à la photothèque</li>
+  <li>Des réglages tels que la langue, l’audio, les graphismes et les préférences de jeu peuvent être stockés uniquement localement sur votre appareil</li>
+</ul>
+
+<h2>Fonctionnalités de l’appareil</h2>
+<p>L’app peut utiliser les fonctionnalités suivantes de l’appareil, toutes traitées localement sur votre appareil :</p>
+<ul>
+  <li><strong>Accéléromètre</strong> — utilisé pour les commandes de déplacement par inclinaison</li>
+  <li><strong>Retour haptique / vibration</strong> — peut être utilisé pour un retour lié à la marche si la plateforme le prend en charge et si l’option est activée dans les réglages de l’app</li>
+</ul>
+<p>Aucune donnée issue de ces capteurs n’est enregistrée, stockée ou transmise.</p>
+
+<h2>SDK tiers</h2>
+<p>Mindwalker utilise les composants tiers suivants pour fournir les fonctionnalités de l’app. Dans l’implémentation actuelle, ils fonctionnent localement dans l’app et ne sont pas configurés pour collecter des données personnelles via Mindwalker :</p>
+<ul>
+  <li><strong>Wwise</strong> (Audiokinetic) — moteur audio, fonctionne entièrement hors ligne</li>
+  <li><strong>zylann.voxel</strong> — génération de terrain, open source (MIT), fonctionne entièrement hors ligne</li>
+</ul>
+
+<h2>Accès au réseau</h2>
+<p>Dans sa configuration actuelle, Mindwalker ne nécessite pas de connexion Internet et ne communique pas avec nos serveurs.</p>
+
+<h2>Confidentialité des enfants</h2>
+<p>Mindwalker n’est pas conçu pour collecter des informations personnelles auprès d’enfants. Si vous pensez que des informations personnelles nous ont été fournies en lien avec l’app, veuillez nous contacter afin que nous puissions traiter la situation.</p>
+
+<h2>Modifications de cette politique</h2>
+<p>Si cette politique est mise à jour, la version révisée sera publiée sur cette page avec une date d’entrée en vigueur mise à jour.</p>
+
+<h2>Contact</h2>
+<p>Si vous avez des questions concernant cette politique de confidentialité, veuillez nous contacter :<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
+<!-- Italiano -->
+<div id="it" class="section" lang="it" hidden>
+<h1>Mindwalker — Informativa sulla privacy</h1>
+<p class="date">Data di entrata in vigore: 12 aprile 2026</p>
+
+<h2>Panoramica</h2>
+<p>Mindwalker è un gioco di esplorazione immersiva sviluppato da Yufei Ma. Questa informativa spiega come l'app gestisce le tue informazioni.</p>
+
+<h2>Raccolta dei dati</h2>
+<p>Mindwalker <strong>non</strong> raccoglie, trasmette né condivide i tuoi dati personali con lo sviluppatore o terze parti. L'app può salvare impostazioni limitate localmente sul tuo dispositivo per mantenere le preferenze tra una sessione e l'altra. In particolare:</p>
+<ul>
+  <li>Non è richiesta la registrazione di un account o l'accesso</li>
+  <li>Non vengono raccolte informazioni personali (nome, email, telefono, ecc.)</li>
+  <li>Non vengono raccolti dati sulla posizione</li>
+  <li>Non vengono effettuate analisi d'uso o tracciamento</li>
+  <li>Nessuna pubblicità o identificatore pubblicitario</li>
+  <li>L'app non utilizza cookie o tecnologie di tracciamento simili</li>
+  <li>Nessun accesso a fotocamera, microfono o libreria fotografica</li>
+  <li>Impostazioni come lingua, audio, grafica e preferenze di gioco possono essere archiviate solo localmente sul tuo dispositivo</li>
+</ul>
+
+<h2>Funzioni del dispositivo</h2>
+<p>L'app può utilizzare le seguenti funzioni del dispositivo, tutte elaborate localmente sul tuo dispositivo:</p>
+<ul>
+  <li><strong>Accelerometro</strong> — usato per i controlli di movimento basati sull'inclinazione</li>
+  <li><strong>Feedback aptico / vibrazione</strong> — può essere usato per feedback legati al cammino se supportato dalla piattaforma e abilitato nelle impostazioni dell'app</li>
+</ul>
+<p>Nessun dato proveniente da questi sensori viene registrato, archiviato o trasmesso.</p>
+
+<h2>SDK di terze parti</h2>
+<p>Mindwalker usa i seguenti componenti di terze parti per fornire funzionalità dell'app. Nell'implementazione attuale, vengono eseguiti localmente all'interno dell'app e non sono configurati per raccogliere dati personali tramite Mindwalker:</p>
+<ul>
+  <li><strong>Wwise</strong> (Audiokinetic) — motore audio, funziona completamente offline</li>
+  <li><strong>zylann.voxel</strong> — generazione del terreno, open source (MIT), funziona completamente offline</li>
+</ul>
+
+<h2>Accesso alla rete</h2>
+<p>Nella configurazione attuale, Mindwalker non richiede una connessione Internet e non comunica con i nostri server.</p>
+
+<h2>Privacy dei minori</h2>
+<p>Mindwalker non è progettato per raccogliere informazioni personali da minori. Se ritieni che ci siano state fornite informazioni personali in relazione all'app, contattaci in modo che possiamo gestire la situazione.</p>
+
+<h2>Modifiche a questa informativa</h2>
+<p>Se questa informativa viene aggiornata, la versione rivista sarà pubblicata su questa pagina con una data di entrata in vigore aggiornata.</p>
+
+<h2>Contatto</h2>
+<p>Per domande su questa informativa sulla privacy, contattaci:<br>
+<a href="mailto:myflytop@gmail.com">myflytop@gmail.com</a></p>
+</div>
+
 </div>
 
 <script>
-function switchLang(lang) {
-  document.querySelectorAll('.section').forEach(s => s.classList.remove('active'));
-  document.querySelectorAll('.lang-switch a').forEach(a => a.classList.remove('active'));
-  document.getElementById(lang).classList.add('active');
-  document.getElementById('btn-' + lang).classList.add('active');
+const FALLBACK_LANG = "en";
+const STORAGE_KEY = "mindwalkerPrivacyPolicyLanguage";
+const TITLES = {
+  en: "Mindwalker - Privacy Policy",
+  zh_CN: "Mindwalker - 隐私政策",
+  zh_TW: "Mindwalker - 隱私權政策",
+  ja: "Mindwalker - プライバシーポリシー",
+  ko: "Mindwalker - 개인정보 처리방침",
+  es_MX: "Mindwalker - Política de privacidad",
+  pt_BR: "Mindwalker - Política de Privacidade",
+  de: "Mindwalker - Datenschutzrichtlinie",
+  fr: "Mindwalker - Politique de confidentialité",
+  it: "Mindwalker - Informativa sulla privacy"
+};
+const LANG_ALIASES = {
+  en: "en",
+  zh: "zh_CN",
+  zh_cn: "zh_CN",
+  zh_sg: "zh_CN",
+  zh_hans: "zh_CN",
+  zh_hans_cn: "zh_CN",
+  zh_tw: "zh_TW",
+  zh_hk: "zh_TW",
+  zh_mo: "zh_TW",
+  zh_hant: "zh_TW",
+  zh_hant_tw: "zh_TW",
+  ja: "ja",
+  ko: "ko",
+  es: "es_MX",
+  es_mx: "es_MX",
+  pt: "pt_BR",
+  pt_br: "pt_BR",
+  de: "de",
+  fr: "fr",
+  it: "it"
+};
+const SUPPORTED_LANGS = Object.keys(TITLES);
+
+function normalizeLang(value) {
+  if (!value) {
+    return FALLBACK_LANG;
+  }
+  const normalized = String(value).trim().replace(/-/g, "_");
+  const lower = normalized.toLowerCase();
+  if (SUPPORTED_LANGS.includes(normalized)) {
+    return normalized;
+  }
+  if (LANG_ALIASES[lower]) {
+    return LANG_ALIASES[lower];
+  }
+  if (lower.startsWith("zh_hant") || lower.startsWith("zh_tw") ||
+      lower.startsWith("zh_hk") || lower.startsWith("zh_mo")) {
+    return "zh_TW";
+  }
+  if (lower.startsWith("zh")) {
+    return "zh_CN";
+  }
+  const primary = lower.split("_")[0];
+  return LANG_ALIASES[primary] || FALLBACK_LANG;
 }
+
+function getRequestedLang() {
+  const params = new URLSearchParams(window.location.search);
+  const queryLang = params.get("lang");
+  if (queryLang) {
+    return queryLang;
+  }
+  if (window.location.hash.length > 1) {
+    return window.location.hash.slice(1);
+  }
+  try {
+    const storedLang = window.localStorage.getItem(STORAGE_KEY);
+    if (storedLang) {
+      return storedLang;
+    }
+  } catch (error) {
+    // Local storage may be unavailable in private browsing or embedded web views.
+  }
+  const browserLangs = navigator.languages && navigator.languages.length
+    ? navigator.languages
+    : [navigator.language];
+  return browserLangs.find(Boolean) || FALLBACK_LANG;
+}
+
+function setLanguageUrl(lang) {
+  const url = new URL(window.location.href);
+  url.searchParams.set("lang", lang);
+  url.hash = "";
+  window.history.replaceState(null, "", url);
+}
+
+function switchLang(lang, updateUrl = true) {
+  const activeLang = normalizeLang(lang);
+  document.querySelectorAll(".section").forEach(section => {
+    const isActive = section.id === activeLang;
+    section.classList.toggle("active", isActive);
+    section.hidden = !isActive;
+  });
+  const languageSelect = document.getElementById("language-select");
+  if (languageSelect && languageSelect.value !== activeLang) {
+    languageSelect.value = activeLang;
+  }
+  document.documentElement.lang = activeLang.replace("_", "-");
+  document.title = TITLES[activeLang] || TITLES[FALLBACK_LANG];
+  try {
+    window.localStorage.setItem(STORAGE_KEY, activeLang);
+  } catch (error) {
+    // Ignore storage failures; language switching should still work.
+  }
+  if (updateUrl) {
+    setLanguageUrl(activeLang);
+  }
+}
+
+document.getElementById("language-select").addEventListener("change", event => {
+  switchLang(event.target.value);
+});
+
+switchLang(getRequestedLang(), false);
 </script>
 </body>
 </html>
