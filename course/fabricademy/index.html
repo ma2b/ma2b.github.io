@@ -1,3 +1,146 @@
 <!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fabricademy 课程笔记</title><style>
 body{margin:0;background:#f5f4f0;color:#24332d;font:16px/1.7 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:48px 24px}h1{font-size:clamp(28px,5vw,44px);line-height:1.25}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px}li{background:white;padding:20px;border:1px solid #dce3dc;border-radius:14px}a{color:#176343;text-decoration:none}a:hover h2{text-decoration:underline}a:focus-visible{outline:3px solid #176343}img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px}h2{font-size:21px;line-height:1.5}p{color:#59665f}footer{margin-top:36px;font-size:14px}
-</style></head><body><main><h1>Fabricademy 课程笔记</h1><p>按课程内容整理的中文学习笔记，包含本章摘要、原文字幕、视频截图和个人笔记。</p><ul><li><a href="01-modular-fashion/notes.html"><img src="01-modular-fashion/source.jpg" alt="" loading="lazy"><h2>模块化时装：从参数化绘图到连接与组装</h2></a><p>15 个主题章节</p><p>Fabricademy Modular Fashion 教程中文笔记，按实际演示整理 Fusion、Rhino、矢量文件输出与模块连接测试。</p></li><li><a href="02-digital-bodies/notes.html"><img src="02-digital-bodies/source.jpg" alt="" loading="lazy"><h2>数字身体：MakeHuman、Blender 与切片制造</h2></a><p>25 个主题章节</p><p>Fabricademy Digital Bodies 教程：从人体网格、Blender 编辑与建模，到切片、排料和装配测试。保留现场失败演示与必要纠错。</p></li><li><a href="03-fabricademy-opening/notes.html"><img src="03-fabricademy-opening/source.jpg" alt="" loading="lazy"><h2>视觉文档化：案例、素材与媒体制作</h2></a><p>16 个主题章节</p><p>Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。</p></li></ul><footer>视频通过原平台观看。个人笔记保存在当前浏览器中，不会自动跨设备同步。</footer></main></body></html>
+</style><style data-reading-theme-assets>
+/* Shared reading appearance: directory + all course templates. */
+:root, :root[data-reading-theme="light"] {
+  color-scheme: light;
+  --bg-0: #f4f6f2; --bg-1: #ffffff; --bg-2: #edf2ea;
+  --border: #c1cdbd; --text-0: #24382e; --text-1: #4c5f51; --text-2: #536557;
+  --heading: #122b1e; --accent: #255e40; --accent-2: #255e40; --accent-3: #255e40;
+  --warn: #765211; --danger: #a52b26; --code-bg: #edf2ea; --on-accent: #ffffff;
+  --shadow: 0 8px 24px rgba(22,44,29,.07);
+}
+:root[data-reading-theme="medium"] {
+  color-scheme: light;
+  --bg-0: #cdcbbf; --bg-1: #e0dfd5; --bg-2: #d2d3c6;
+  --border: #a6ad9d; --text-0: #24382e; --text-1: #425547; --text-2: #425547;
+  --heading: #122b1e; --accent: #204e34; --accent-2: #204e34; --accent-3: #204e34;
+  --warn: #62430c; --danger: #8f251f; --code-bg: #d2d3c6; --on-accent: #ffffff;
+  --shadow: 0 8px 24px rgba(22,44,29,.09);
+}
+:root[data-reading-theme="dark"] {
+  color-scheme: dark;
+  --bg-0: #17201d; --bg-1: #202c26; --bg-2: #2b3931;
+  --border: #53675a; --text-0: #e7eee8; --text-1: #b8c7bc; --text-2: #a1b2a5;
+  --heading: #f1f6f0; --accent: #98d9b0; --accent-2: #98d9b0; --accent-3: #98d9b0;
+  --warn: #e2c47e; --danger: #ffaba4; --code-bg: #2b3931; --on-accent: #17201d;
+  --shadow: 0 8px 24px rgba(0,0,0,.18);
+}
+body {
+  background: var(--bg-0); color: var(--text-0);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px; line-height: 1.8;
+}
+button, input, select, textarea { font-family: inherit; }
+a { color: var(--accent); }
+.reading-toolbar { max-width: 1400px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 8px 12px; font-size: 14px; }
+.reading-label { color: var(--text-1); }
+.reading-options { display: inline-flex; padding: 4px; gap: 4px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-1); }
+.reading-options button { min-width: 66px; min-height: 40px; padding: 6px 14px; font-size: 14px; font-weight: 500; color: var(--text-0); background: transparent; border: 1px solid transparent; border-radius: 7px; cursor: pointer; }
+.reading-options button:hover { border-color: var(--accent); }
+.reading-options button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.reading-status { color: var(--text-1); font-size: 13px; }
+.reading-status:empty { display: none; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.hero, .hero-thumb { background: var(--bg-1); }
+.hero h1, .stat-value, .chapter-title { color: var(--heading); }
+.hero h1 { font-size: clamp(26px, 3vw, 32px); line-height: 1.45; }
+.chapter-title { font-size: 23px; line-height: 1.5; }
+.hero-author, .chapter-map-note, .frame-caption, .footer { font-size: 14px; }
+.sidebar-header h2, .sidebar-header p, .toc a { font-size: 14px; letter-spacing: normal; text-transform: none; }
+.toc-time { font-size: 12px; }
+.toc-text { white-space: normal; line-height: 1.6; }
+.chapter-section-title { color: var(--heading); font-size: 15px; letter-spacing: normal; text-transform: none; }
+.tldr { background: var(--bg-2); color: var(--text-0); border-color: var(--border); border-left-color: var(--accent); font-size: 16px; line-height: 1.85; }
+.tag, .tag.green, .tag.purple, .tag.warn { background: var(--bg-2); color: var(--accent); border-color: var(--border); font-size: 12px; }
+.btn, details.transcript summary, .term, .term-tip, .transcript-body { font-size: 14px; }
+.term strong { font-family: inherit; font-size: inherit; }
+.transcript-body { line-height: 1.85; }
+.transcript-body em { color: var(--text-1); background: var(--bg-1); font: 12px ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+.btn.primary, .btn.primary:hover { background: var(--accent); color: var(--on-accent); }
+.hero-actions { flex-wrap: wrap; }
+.notes-area textarea { font-size: 16px; line-height: 1.8; }
+.notes-area textarea::placeholder { color: var(--text-2); opacity: 1; }
+.notes-status, .stat-label { font-size: 13px; letter-spacing: normal; text-transform: none; }
+.chapter-time:hover { background: var(--bg-2); }
+.carousel-btn, .carousel-counter { color: #ffffff; background: rgba(13,23,17,.9); border-color: #96aa9a; }
+.carousel-btn:hover { color: #ffffff; background: #304c3c; }
+.dot { background: #ffffff; border: 2px solid #24382e !important; }
+.dot.active { background: #98d9b0; box-shadow: 0 0 0 2px #ffffff; }
+/* Directory shares the same palette and type scale. */
+body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px 64px; }
+.course-directory h1, .course-directory h2 { color: var(--heading); }
+.course-directory h1 { font-size: clamp(28px, 5vw, 40px); }
+.course-directory h2 { font-size: 22px; line-height: 1.55; }
+.course-directory li { background: var(--bg-1); border-color: var(--border); }
+.course-directory p { color: var(--text-1); }
+.course-directory a { color: var(--accent); }
+.course-directory a:hover h2 { color: var(--accent); }
+.course-toolbar { position: sticky; top: 0; z-index: 30; background: var(--bg-0); border-bottom: 1px solid var(--border); }
+.course-directory-link { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 10px; margin-right: auto; color: var(--accent); font-size: 15px; font-weight: 600; text-decoration: none; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-1); }
+.course-directory-link:hover { text-decoration: underline; border-color: var(--accent); }
+.course-toolbar .reading-label { display: none; }
+.course-toolbar ~ .app .chapter, .course-toolbar ~ .app .legacy-anchor { scroll-margin-top: 140px; }
+@media (min-width: 901px) {
+  .course-toolbar ~ .app .sidebar { top: 82px; height: calc(100vh - 82px); }
+}
+@media (max-width: 600px) {
+  .reading-toolbar { justify-content: flex-start; padding: 12px; }
+  .chapter-title { font-size: 21px; min-width: 0; }
+  .hero-body { padding: 22px 20px; }
+  .hero-actions .btn { padding: 10px 12px; }
+}
+@media print {
+  :root[data-reading-theme] { --bg-0: #ffffff; --bg-1: #ffffff; --bg-2: #f2f2f2; --text-0: #111111; --text-1: #333333; --text-2: #444444; --heading: #111111; --accent: #234f35; --accent-2: #234f35; --accent-3: #234f35; }
+  .reading-toolbar { display: none; }
+}
+</style>
+<script data-reading-theme-assets>
+(() => {
+  'use strict';
+  const key = 'fabricademy-reading-theme-v1';
+  const choices = ['dark', 'medium', 'light'];
+  let selected = 'light';
+  try {
+    const saved = localStorage.getItem(key);
+    if (choices.includes(saved)) selected = saved;
+  } catch (_) { /* Appearance remains usable without storage. */ }
+  const apply = value => {
+    selected = value;
+    document.documentElement.setAttribute('data-reading-theme', value);
+    document.querySelectorAll('[data-theme-choice]').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.themeChoice === value));
+    });
+  };
+  apply(selected);
+  document.addEventListener('DOMContentLoaded', () => {
+    apply(selected);
+    document.querySelectorAll('[data-theme-choice]').forEach(button => {
+      button.addEventListener('click', () => {
+        const value = button.dataset.themeChoice;
+        if (!choices.includes(value)) return;
+        apply(value);
+        const status = document.getElementById('reading-theme-status');
+        try {
+          localStorage.setItem(key, value);
+          status.textContent = '';
+        } catch (_) {
+          status.textContent = '当前页面已切换，此环境无法记住选择。';
+        }
+      });
+    });
+  });
+  window.addEventListener('storage', event => {
+    if (event.key === key) apply(choices.includes(event.newValue) ? event.newValue : 'light');
+  });
+})();
+</script>
+</head><body class="course-directory">
+<div class="reading-toolbar" aria-label="阅读外观">
+<span class="reading-label">阅读外观</span>
+<div class="reading-options" role="group" aria-label="选择深浅外观">
+<button type="button" data-theme-choice="dark" aria-pressed="false">深色</button>
+<button type="button" data-theme-choice="medium" aria-pressed="false">中间色</button>
+<button type="button" data-theme-choice="light" aria-pressed="true">浅色</button>
+</div><span id="reading-theme-status" class="reading-status" role="status"></span>
+</div><main><h1>Fabricademy 课程笔记</h1><p>按课程内容整理的中文学习笔记，包含本章摘要、原文字幕、视频截图和个人笔记。</p><ul><li><a href="00-documentation-website/notes.html"><img src="00-documentation-website/thumbnail.jpg" alt="" loading="lazy"><h2>Fabricademy 第十期 · 文档化与个人网站</h2></a><p>14 个主题章节</p><p>最早整理的开篇课程：课程平台、Git 版本控制、Markdown、网站配置与发布，以及图片优化。</p></li><li><a href="01-modular-fashion/notes.html"><img src="01-modular-fashion/source.jpg" alt="" loading="lazy"><h2>模块化时装：从参数化绘图到连接与组装</h2></a><p>15 个主题章节</p><p>Fabricademy Modular Fashion 教程中文笔记，按实际演示整理 Fusion、Rhino、矢量文件输出与模块连接测试。</p></li><li><a href="02-digital-bodies/notes.html"><img src="02-digital-bodies/source.jpg" alt="" loading="lazy"><h2>数字身体：MakeHuman、Blender 与切片制造</h2></a><p>25 个主题章节</p><p>Fabricademy Digital Bodies 教程：从人体网格、Blender 编辑与建模，到切片、排料和装配测试。保留现场失败演示与必要纠错。</p></li><li><a href="03-fabricademy-opening/notes.html"><img src="03-fabricademy-opening/source.jpg" alt="" loading="lazy"><h2>视觉文档化：案例、素材与媒体制作</h2></a><p>16 个主题章节</p><p>Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。</p></li></ul><footer>视频通过原平台观看。个人笔记保存在当前浏览器中，不会自动跨设备同步。</footer></main></body></html>

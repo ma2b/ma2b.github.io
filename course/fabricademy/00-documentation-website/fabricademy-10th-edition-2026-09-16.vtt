@@ -1,0 +1,3586 @@
+WEBVTT
+
+00:00:02.190 --> 00:00:02.580
+Okay.
+
+00:00:04.230 --> 00:00:05.160
+Hello, everyone.
+
+00:00:06.360 --> 00:00:12.180
+So I'm here joined to welcome you and introduce you to how you
+
+00:00:12.240 --> 00:00:15.000
+can document your work and build your own website
+
+00:00:16.230 --> 00:00:20.670
+and break the barrier of it's not so scary.
+
+00:00:21.780 --> 00:00:27.210
+So first thing, I'll just quickly talk about our infrastructure.
+
+00:00:27.480 --> 00:00:32.520
+We have a few different tools that we're going to use during this course, and
+
+00:00:33.510 --> 00:00:38.490
+we are hosting all these applications ourselves on our own hardware,
+
+00:00:39.390 --> 00:00:43.860
+which is currently at the new Fab Hub in Kendall, Boston.
+
+00:00:46.770 --> 00:00:52.755
+So we're very proud of this because we control the data, we're private, and then
+
+00:00:52.801 --> 00:00:57.435
+we can make sure that this documentation lives on as long as possible so that your
+
+00:00:57.481 --> 00:01:02.071
+work can be shared for multiple generations, we hope.
+
+00:01:04.321 --> 00:01:05.430
+So the
+
+00:01:06.660 --> 00:01:10.755
+first big platform is the FabLabs.io. It's for the network.
+
+00:01:10.801 --> 00:01:13.620
+It's listing all our Fab Labs around the world.
+
+00:01:14.520 --> 00:01:20.220
+It's been around for a long time. And this is a great place to find other
+
+00:01:20.235 --> 00:01:25.980
+labs as well. And we use this also as a login system because you can have
+
+00:01:26.040 --> 00:01:31.080
+accounts on here, and these accounts can be logged into other platforms that want
+
+00:01:31.140 --> 00:01:36.330
+to share with the Fab Lab network. So we're using this sort of single sign-on entry
+
+00:01:36.420 --> 00:01:40.080
+point. So in a lot of places, when you log into our
+
+00:01:41.370 --> 00:01:45.540
+applications, you'll be going through the FabLabs.io platform.
+
+00:01:47.250 --> 00:01:50.880
+You can also visit it to find other labs, and there's also a forum with a wider
+
+00:01:50.940 --> 00:01:54.211
+network if you want to go there.
+
+00:01:56.700 --> 00:02:02.101
+The other big platform, which you'll be using a lot for your documentation, is the
+
+00:02:02.130 --> 00:02:07.980
+GitLab platform we call. It's a hosted Git repository, so this allows-- Git is a
+
+00:02:08.010 --> 00:02:13.665
+version control system that basically keeps track of all your changes to your
+
+00:02:13.680 --> 00:02:18.195
+website, and then it provides a web interface so that you can do everything through
+
+00:02:18.240 --> 00:02:20.730
+the browser, interact with your website.
+
+00:02:21.000 --> 00:02:26.160
+It also has a code editor, so you can do all your coding within a browser window
+
+00:02:26.310 --> 00:02:26.730
+and
+
+00:02:28.080 --> 00:02:31.980
+also interact with it from your computer, and it's just a big collaboration
+
+00:02:32.040 --> 00:02:36.090
+platform, and we're using it to host all your websites together.
+
+00:02:36.825 --> 00:02:41.115
+And then this GitLab platform is also automatically building your website every
+
+00:02:41.220 --> 00:02:45.391
+time you make changes to it. It's building your website and publishing it.
+
+00:02:45.480 --> 00:02:50.280
+So it's a big tool. We're using a small part of it, and I'll go over it in a bit.
+
+00:02:52.320 --> 00:02:57.750
+The next one is Nouval. This is our evaluation program that we built specifically
+
+00:02:57.780 --> 00:02:59.205
+for the Academy programs,
+
+00:03:00.601 --> 00:03:05.851
+and this allows students and instructors to keep track of each week's
+
+00:03:05.910 --> 00:03:11.370
+work and make comments, and so that you can--
+
+00:03:13.139 --> 00:03:17.190
+sort of a central place for all your assessment evaluations.
+
+00:03:19.531 --> 00:03:23.070
+And then we have Matamos, which you might have already tried to log into.
+
+00:03:23.220 --> 00:03:29.070
+This is our chat platform. It's a very large software that is used a
+
+00:03:29.101 --> 00:03:34.291
+lot in security environments, but they have an open source version, which we took
+
+00:03:34.320 --> 00:03:39.270
+on very early on in its development and we're still using today, and which just
+
+00:03:39.330 --> 00:03:43.875
+basically allows us to have multiple channels and everyone can talk to each other.
+
+00:03:44.010 --> 00:03:49.140
+We get notifications, and there's a phone app, and so this is just our personal
+
+00:03:49.201 --> 00:03:52.770
+platform that we can use to communicate with each other.
+
+00:03:56.610 --> 00:03:58.050
+Oops. So
+
+00:04:00.240 --> 00:04:02.640
+let's first check everyone has access.
+
+00:04:02.820 --> 00:04:04.440
+I saw there was one or two
+
+00:04:05.880 --> 00:04:11.520
+messages in my Matamos. Some people didn't get an email, but nearly all of you
+
+00:04:11.580 --> 00:04:16.201
+should have received a student welcome email with your account details.
+
+00:04:16.231 --> 00:04:18.390
+There's a username and a password.
+
+00:04:18.481 --> 00:04:22.110
+Unless you already had an account, then there will be no password.
+
+00:04:22.800 --> 00:04:26.730
+If you don't know your password, it's not logging in, you can try a password reset.
+
+00:04:26.820 --> 00:04:29.880
+But the first thing is just make sure you find this email.
+
+00:04:30.240 --> 00:04:34.170
+You can see there's the-- If you can't find it, try and search with the email
+
+00:04:34.185 --> 00:04:35.220
+address where it comes from.
+
+00:04:37.050 --> 00:04:39.779
+And basically, let me know.
+
+00:04:41.610 --> 00:04:44.400
+Actually, I'll share my email address, but let me know if you really have problems
+
+00:04:44.490 --> 00:04:50.324
+or just ask me now. And then we're going to first, if you haven't
+
+00:04:50.370 --> 00:04:55.591
+tried already, let's try and log in. So you're going to go to the GitLab.
+
+00:05:00.210 --> 00:05:01.515
+I was going to try and copy this,
+
+00:05:03.510 --> 00:05:03.781
+but
+
+00:05:05.310 --> 00:05:09.510
+I'm going to write in Matamos link in case you want to see it.
+
+00:05:17.520 --> 00:05:22.740
+So please go here and try and log in. And you won't be using the password field.
+
+00:05:22.800 --> 00:05:27.330
+You'll be using the little login button at the bottom that says Fab Labs, and this
+
+00:05:27.390 --> 00:05:32.250
+will take you to the Fab Labs page where you should see a login screen.
+
+00:05:33.480 --> 00:05:36.480
+And then there is where you put in your username and password that you received in
+
+00:05:36.540 --> 00:05:38.701
+the email address in your email inbox.
+
+00:05:41.190 --> 00:05:43.290
+If it doesn't work, you can try and forget password.
+
+00:05:43.560 --> 00:05:47.880
+If you still don't get any email, yeah, let me know.
+
+00:05:47.940 --> 00:05:50.070
+You can interrupt me now also if you like.
+
+00:05:52.170 --> 00:05:57.240
+And if that works, then you get asked a quick question, do you want to allow GitLab
+
+00:05:57.270 --> 00:05:59.400
+to connect to your Fab Labs account?
+
+00:05:59.460 --> 00:06:02.970
+And you can say yes, and then with luck, you're in.
+
+00:06:04.740 --> 00:06:05.820
+And it should look like--
+
+00:06:07.110 --> 00:06:09.240
+So this is the login screen with the Fab Labs.
+
+00:06:09.750 --> 00:06:12.630
+And then once you log in, it should look something like this. You're logged in.
+
+00:06:16.201 --> 00:06:16.560
+But yeah.
+
+00:06:18.240 --> 00:06:18.510
+I'll
+
+00:06:20.040 --> 00:06:23.370
+wait a bit if anyone is crying. Any questions there?
+
+00:06:24.180 --> 00:06:25.800
+Besides maybe not getting email.
+
+00:06:30.300 --> 00:06:32.880
+I'll wait a bit. Five, four.
+
+00:06:39.841 --> 00:06:44.640
+With Matamos, it's a very similar thing, except-- Well, it's not similar, actually.
+
+00:06:44.701 --> 00:06:49.320
+Sorry. There's no FabLabs.io because it doesn't allow us to make that connection.
+
+00:06:49.410 --> 00:06:53.280
+So you just put in the same login and password you would put for FabLabs.io.
+
+00:06:53.790 --> 00:06:58.740
+You just put it on the form for Matamos, for the chat application.
+
+00:06:59.430 --> 00:07:03.600
+And it's the same when you open this in your phone.
+
+00:07:04.920 --> 00:07:08.341
+It's going to ask you what server you want to use, and you're going to have to put
+
+00:07:08.355 --> 00:07:10.201
+the same URL that you put in the browser.
+
+00:07:10.290 --> 00:07:14.130
+So chat.academe.org, and then it will be the same login flow.
+
+00:07:14.490 --> 00:07:14.670
+You
+
+00:07:15.901 --> 00:07:19.081
+have to put in-- Oh, this is wrong. You have to put in your username and password.
+
+00:07:19.920 --> 00:07:21.526
+And the phone is great because then,
+
+00:07:23.265 --> 00:07:25.561
+yeah, you just get the push notifications a bit quicker.
+
+00:07:25.651 --> 00:07:27.570
+So it's a nicer flow for
+
+00:07:29.220 --> 00:07:34.110
+getting your messages on time or having a live conversation.
+
+00:07:34.125 --> 00:07:37.140
+But the website works great as well. You can also just stick to that.
+
+00:07:37.440 --> 00:07:41.460
+You can have it open in your browser all the time, and then you'll get the browser
+
+00:07:41.490 --> 00:07:44.520
+notifications if you have the browser open. So that's quite nice.
+
+00:07:50.280 --> 00:07:54.510
+So what are we doing? What about your website? How does this all work?
+
+00:07:56.730 --> 00:08:01.651
+So for documenting your work, we're providing you a ready-made template with
+
+00:08:01.770 --> 00:08:03.540
+everything you need to get started.
+
+00:08:04.561 --> 00:08:10.395
+And we'll be using a language called
+
+00:08:10.440 --> 00:08:14.865
+Markdown that will automatically-- So it's a bit easier to understand Markdown, and
+
+00:08:14.880 --> 00:08:19.081
+it will convert this into HTML, which is used to make your website.
+
+00:08:19.561 --> 00:08:22.380
+We'll be using a tool called Zenskie.
+
+00:08:23.940 --> 00:08:25.651
+I'll talk about it next slide. And
+
+00:08:27.151 --> 00:08:29.355
+yeah. If you don't know,
+
+00:08:32.010 --> 00:08:36.331
+HTML code is everything that your browser is reading to build your website.
+
+00:08:36.420 --> 00:08:40.591
+So everything your browser is communicating with through the servers around the
+
+00:08:40.620 --> 00:08:44.790
+world, they read HTML. So this looks like on the right.
+
+00:08:45.600 --> 00:08:51.030
+It's basically a markup language that just describes how to display the content.
+
+00:08:51.120 --> 00:08:51.345
+So it's
+
+00:08:52.860 --> 00:08:57.151
+just looking at the image on the right, you say have a title of the page, then you
+
+00:08:57.181 --> 00:09:02.520
+have a body where the content is. H1 is like the heading, the first heading, and P
+
+00:09:02.580 --> 00:09:05.760
+is for paragraph. So you have all these kinds of syntax that describe what the
+
+00:09:05.820 --> 00:09:10.554
+content is. And then the browser reads this HTML and decides how to display it.
+
+00:09:10.974 --> 00:09:13.914
+The browser is the one that decides how it looks like.
+
+00:09:14.694 --> 00:09:20.034
+And then we also have a language called CSS as a cascade style sheet,
+
+00:09:20.664 --> 00:09:21.804
+which is used to
+
+00:09:23.814 --> 00:09:25.795
+adjust the style that the browser makes.
+
+00:09:25.854 --> 00:09:31.733
+So, the browser might decide an H1 has got 10 pixels font
+
+00:09:31.795 --> 00:09:35.513
+size, and they say, "Well, I don't like that," and they use CSS to change that.
+
+00:09:36.264 --> 00:09:40.045
+So these are the layers. You start with HTML. The CSS is sort of the styling.
+
+00:09:41.694 --> 00:09:46.464
+So if you would like to go into the HTML, there's a
+
+00:09:46.674 --> 00:09:49.734
+w3schools.com has a great sort of a tutorial.
+
+00:09:50.484 --> 00:09:55.658
+I would have a quick play there, just go through there, just at least read it like
+
+00:09:55.705 --> 00:10:00.474
+a book, just get familiar with all the different elements, so that later on in
+
+00:10:00.504 --> 00:10:05.455
+working with your website, when you see these things, they won't look so foreign.
+
+00:10:07.045 --> 00:10:11.184
+And the more you do that, the more you sort of understand what each of these, like
+
+00:10:11.214 --> 00:10:15.564
+a P tag is a paragraph. Then it starts to become intuitive, and it won't become
+
+00:10:15.624 --> 00:10:21.205
+scary. And then you'll sort of get excited because there'll be a new error message
+
+00:10:21.264 --> 00:10:26.334
+or a new thing that doesn't work, and you will get sort of an adrenaline rush by
+
+00:10:26.424 --> 00:10:29.545
+figuring it out and getting on to the next error message.
+
+00:10:30.534 --> 00:10:34.674
+So yeah, really enjoy the experimenting and learn to build your own website,
+
+00:10:35.545 --> 00:10:40.614
+because it's fun when you can start making your own things the way you want as you
+
+00:10:40.644 --> 00:10:42.474
+envision them. It's going to be a lot of fun.
+
+00:10:44.214 --> 00:10:49.974
+So we're not going to ask you to make-- making all your HTML is a lot of work when
+
+00:10:50.034 --> 00:10:53.484
+you're writing text, and your documentation, and your notes.
+
+00:10:53.634 --> 00:10:58.433
+So we're using a language called Markdown, which is a very simplified
+
+00:10:59.634 --> 00:11:02.064
+way of just telling text what it looks like.
+
+00:11:02.184 --> 00:11:07.614
+So this is just a plain text way of saying, okay, these are paragraphs, these are
+
+00:11:08.154 --> 00:11:12.580
+titles. So if you see like there's a hash, it's like a title, and then it sort of
+
+00:11:12.594 --> 00:11:16.884
+converts it to, this is what it would interpret those things as.
+
+00:11:17.799 --> 00:11:17.799
+So,
+
+00:11:19.464 --> 00:11:25.314
+for example, you have these code little symbols that you put in front of the words
+
+00:11:25.344 --> 00:11:28.014
+that tell it, okay, this is a title, this is a subtitle.
+
+00:11:28.825 --> 00:11:31.404
+Then we have italics.
+
+00:11:34.494 --> 00:11:39.354
+With asterisks, you can say, "This text is italics," and, "This text is bold." So
+
+00:11:39.804 --> 00:11:45.684
+it's not quite like using a word editor, but it allows you to, with very little
+
+00:11:47.664 --> 00:11:51.024
+characters, describe what your content is and how to display it.
+
+00:11:51.714 --> 00:11:54.295
+So you have on the middle column, we have here lists.
+
+00:11:54.325 --> 00:11:56.814
+So this is how you would show a list and a sub-bullet point.
+
+00:11:58.374 --> 00:12:02.814
+Images, we have this sort of like exclamation mark and square and round brackets.
+
+00:12:03.054 --> 00:12:08.575
+This is going to be very important later, and I'll show you a bit, just
+
+00:12:08.784 --> 00:12:11.394
+a quick overview of what Markdown looks like.
+
+00:12:11.455 --> 00:12:11.814
+And
+
+00:12:17.064 --> 00:12:22.658
+then the final piece of the puzzle is to get the whole Markdown and HTML to work
+
+00:12:22.658 --> 00:12:25.404
+together and to have something that you can publish as a website.
+
+00:12:25.464 --> 00:12:27.144
+We're using a tool called Zentangle.
+
+00:12:28.795 --> 00:12:34.719
+Now, this is a nice tool that someone built in the community.
+
+00:12:34.748 --> 00:12:39.939
+It's an open source tool that's basically converting Markdown into HTML and then
+
+00:12:40.014 --> 00:12:42.864
+making their own opinionated style.
+
+00:12:42.924 --> 00:12:44.828
+So as you see on the right, this is
+
+00:12:46.075 --> 00:12:50.890
+what it looks like out of the box, and it's good for documentation because
+
+00:12:51.624 --> 00:12:54.894
+everything's in a uniform and there's a lot of features that's geared towards
+
+00:12:54.908 --> 00:12:58.974
+documenting. This tool is geared towards documenting.
+
+00:12:59.124 --> 00:13:02.408
+And so in the very basic form, it's just Markdown, HTML, but there's a lot of
+
+00:13:02.454 --> 00:13:07.374
+little options you can turn on and different features, and so there's a lot to look
+
+00:13:07.464 --> 00:13:10.884
+into, and we'll play around with it a bit later.
+
+00:13:11.904 --> 00:13:16.704
+For those maybe previous years and instructors, we used in the previous years a
+
+00:13:16.765 --> 00:13:20.304
+tool called MKDocs, and it was exactly the same.
+
+00:13:20.364 --> 00:13:25.434
+The people behind Zentangle made the theme materials for MKDocs.
+
+00:13:26.214 --> 00:13:29.515
+But unfortunately, MKDocs has sort of become unmaintained.
+
+00:13:29.575 --> 00:13:32.738
+It's an open source project. They had one developer, and they sort of stopped
+
+00:13:32.754 --> 00:13:34.674
+working on it, and the
+
+00:13:35.934 --> 00:13:40.284
+community splintered in different projects, and one of them came out was a
+
+00:13:40.314 --> 00:13:45.835
+Zentangle project that we've decided to use for your
+
+00:13:45.864 --> 00:13:47.619
+documentation this year and the future.
+
+00:13:51.924 --> 00:13:54.879
+Everything's the same. For those of MKDocs, everything's the same.
+
+00:13:55.374 --> 00:13:59.979
+So if you're looking at previous years, you might see the word MKDocs in other
+
+00:13:59.994 --> 00:14:04.390
+students' documentation, if you're looking back at other students, and you can copy
+
+00:14:04.524 --> 00:14:06.384
+those straight. Everything's the same.
+
+00:14:08.394 --> 00:14:11.784
+It copies over. It's just a different name, and then, of course, new functionality.
+
+00:14:12.714 --> 00:14:17.004
+So let's start having a look at your website. You can follow with me.
+
+00:14:18.564 --> 00:14:22.494
+I'm going to go slowly. I suggest if you didn't find your website, a good place to
+
+00:14:22.554 --> 00:14:28.524
+go is to go to the class website, the
+
+00:14:28.614 --> 00:14:30.009
+class at Textile Academy,
+
+00:14:32.064 --> 00:14:34.373
+and then you can go to Participants.
+
+00:14:40.284 --> 00:14:40.765
+Yeah.
+
+00:14:40.884 --> 00:14:46.104
+Somebody asked if you can write the URL server for the phone
+
+00:14:46.224 --> 00:14:47.394
+Mattermost app.
+
+00:14:49.734 --> 00:14:51.714
+The Chat Academy, I think.
+
+00:14:52.015 --> 00:14:55.195
+I think this works, yeah. So you just go to Chat Academy. That should work.
+
+00:14:55.344 --> 00:14:58.195
+Let me know. It's the same one in the browser.
+
+00:15:01.464 --> 00:15:04.854
+But yeah, if you want to look, find your website or your fellow students, there's a
+
+00:15:04.884 --> 00:15:06.488
+nice page of all the participants.
+
+00:15:06.534 --> 00:15:12.445
+So you can go through that and then click your link, and it should take
+
+00:15:12.474 --> 00:15:14.498
+you to your website. I'm going to open my--
+
+00:15:17.094 --> 00:15:18.998
+Yeah. But as an example, I just take someone,
+
+00:15:20.545 --> 00:15:22.704
+and so this is sort of what it looks like.
+
+00:15:22.765 --> 00:15:26.454
+And then at the top, you can click the little Get button, and it should take you to
+
+00:15:26.515 --> 00:15:26.934
+your repo.
+
+00:15:28.765 --> 00:15:32.453
+If you're logged in and you also want to find it through your GitLab.
+
+00:15:32.664 --> 00:15:37.359
+So I'm in GitLab right now. On the left, you can click Projects or Activity,
+
+00:15:38.904 --> 00:15:42.564
+and then you should see your project listed here. I have a lot.
+
+00:15:43.734 --> 00:15:46.195
+So I'm going to open a demo project I made.
+
+00:15:47.964 --> 00:15:50.695
+And so this is sort of the homepage of your Git project.
+
+00:15:50.754 --> 00:15:54.714
+So it should have your name at the top, where I have demo here.
+
+00:15:54.835 --> 00:15:56.244
+So this is the title of the project.
+
+00:15:56.335 --> 00:16:01.404
+There's the URL to the published website if you would like a quick link.
+
+00:16:04.045 --> 00:16:06.534
+Below it is the list of the files in your project.
+
+00:16:07.464 --> 00:16:09.234
+So these are all the files in your project.
+
+00:16:09.654 --> 00:16:12.729
+At the bottom, there's a sort of a Read Me file, which is
+
+00:16:14.424 --> 00:16:17.994
+generic. This is for the project, so it's not really related to your website.
+
+00:16:18.894 --> 00:16:23.064
+This would be for if anyone outside of you comes into your project, they could see
+
+00:16:23.124 --> 00:16:27.295
+what is this about, and how do I run it, and stuff like that.
+
+00:16:31.614 --> 00:16:37.224
+Right here in the middle, you'll see my name, and I'll highlight it here with my
+
+00:16:37.284 --> 00:16:42.774
+mouse. This is sort of the last edit I made, and I have a green
+
+00:16:42.804 --> 00:16:46.734
+checkbox. This is also saying that my website got published, so everything's
+
+00:16:46.765 --> 00:16:49.464
+looking good, and we'll dive into that in a bit.
+
+00:16:52.015 --> 00:16:55.134
+Yeah, I'll open the link to my website. So this is what it looks like.
+
+00:16:56.154 --> 00:17:00.984
+We have the header, different pages, and then sample document.
+
+00:17:02.604 --> 00:17:08.515
+If I want to edit a file, you see there's a big code button on the
+
+00:17:08.575 --> 00:17:08.874
+right.
+
+00:17:10.164 --> 00:17:14.934
+You can click the drop-down, and you should see find a world called Web Editor.
+
+00:17:16.404 --> 00:17:20.274
+And when you click that, it's going to open a
+
+00:17:23.664 --> 00:17:28.584
+code editor in your browser, and so this is where you will be making the changes to
+
+00:17:28.644 --> 00:17:29.304
+your website.
+
+00:17:31.404 --> 00:17:34.194
+I'll just check my notes. Yeah.
+
+00:17:38.574 --> 00:17:44.394
+Sorry, I'll backtrack a bit. I want to also explain a bit, so we use the
+
+00:17:44.454 --> 00:17:47.725
+word Git, and so GitLab is a wrapper around Git.
+
+00:17:47.904 --> 00:17:51.024
+Git is tracking all the changes that we make.
+
+00:17:51.084 --> 00:17:56.994
+So every time, it's basically like if you've ever used the Word document or Google
+
+00:17:57.084 --> 00:18:02.184
+Sheets, every time you make an edit, it's sort of saved, and you sort of see a
+
+00:18:02.214 --> 00:18:05.124
+history of all your changes, and sometimes you can revert back.
+
+00:18:05.574 --> 00:18:06.759
+Git is a bit the same thing,
+
+00:18:08.004 --> 00:18:11.709
+and we call this commits. So on the left, under Code, I see Code Commits.
+
+00:18:11.814 --> 00:18:12.489
+If I click it
+
+00:18:15.138 --> 00:18:18.589
+It's going to load all the changes I made, and it's going to have the date, and
+
+00:18:18.618 --> 00:18:22.308
+it's going to have a piece of text, my name, who changed it, when.
+
+00:18:23.388 --> 00:18:25.518
+And so I can go back and I can see all the changes.
+
+00:18:26.328 --> 00:18:29.418
+I can then open a specific change. So if I open
+
+00:18:31.008 --> 00:18:32.268
+one of these changes,
+
+00:18:34.488 --> 00:18:37.818
+then I'm going to see specifically at that date what changed.
+
+00:18:37.878 --> 00:18:41.388
+And so we sort of have here, there's multiple files.
+
+00:18:41.418 --> 00:18:46.909
+I'm going to just close this for a minute, and I'm going to show you in side by
+
+00:18:46.998 --> 00:18:51.543
+side. So this view is sort of showing you the left is what it was and the right is
+
+00:18:51.558 --> 00:18:54.738
+what it became. And so there's a way to see.
+
+00:18:54.948 --> 00:18:59.478
+You can go back and see what things have changed, whether you forgot or whether
+
+00:18:59.493 --> 00:19:03.048
+someone else made a change. You can then go back and see exactly what changed.
+
+00:19:03.108 --> 00:19:07.473
+So this is the big power of Git and a lot of its users to sort of keep track of
+
+00:19:07.518 --> 00:19:11.943
+changes in an organized way. So those are called commits.
+
+00:19:12.048 --> 00:19:14.149
+They're all sequential,
+
+00:19:15.528 --> 00:19:19.248
+so always the new one is your most recent. That's what's sort of published.
+
+00:19:19.308 --> 00:19:23.328
+That's what's the latest version, and that's when you edit files, you're editing
+
+00:19:23.358 --> 00:19:24.228
+the latest version.
+
+00:19:27.318 --> 00:19:31.518
+You can go back to previous files, so it's called reverting.
+
+00:19:32.089 --> 00:19:37.399
+That's a little rabbit hole. For small things, you can sometimes open the commit
+
+00:19:37.428 --> 00:19:39.438
+and just copy the line that you accidentally deleted.
+
+00:19:40.008 --> 00:19:44.058
+If you made a lot of changes that you want to undo, there's sort of a revert
+
+00:19:44.118 --> 00:19:47.958
+function, and yeah, that's something you can do your research to do.
+
+00:19:52.218 --> 00:19:52.638
+So now,
+
+00:19:54.138 --> 00:19:55.758
+yeah, so this is, as I said, is GitLab.
+
+00:19:56.089 --> 00:19:57.483
+And to answer the question,
+
+00:19:59.508 --> 00:20:04.758
+GitLab is a wraparound Git, which means we can also have a copy of this Git
+
+00:20:05.659 --> 00:20:09.753
+project on our computer. And the great thing about copying this to our-- and it's
+
+00:20:09.768 --> 00:20:13.458
+not really a copy. Yeah, it's a copy to our computer, is that we can then just work
+
+00:20:13.518 --> 00:20:18.018
+on our computer without having the internet or without using the browser.
+
+00:20:18.888 --> 00:20:21.348
+So it can be faster depending on your computer.
+
+00:20:22.083 --> 00:20:27.048
+And then you get to decide every time you want to make those commits and push them.
+
+00:20:27.768 --> 00:20:32.943
+Whereas when you're working in a browser, because your window tab can close or
+
+00:20:32.988 --> 00:20:36.138
+crash or your computer restarts, you're sort of saving every time you make a
+
+00:20:36.198 --> 00:20:40.848
+change, a bit like Google Sheets. When you're working on a computer, you can do a
+
+00:20:40.909 --> 00:20:45.453
+full day of edits, as if you're editing some notes or files on your computer, and
+
+00:20:45.498 --> 00:20:49.683
+then you say, "Okay, I'm ready. I like how it looks." And then we call it push.
+
+00:20:49.758 --> 00:20:54.513
+You push it back up to the server, and then it sort of syncs with this project.
+
+00:20:55.353 --> 00:20:59.388
+And you can even work both with the browser and the local, but then you've got to
+
+00:21:00.468 --> 00:21:02.928
+remember which one's ahead and you've got to keep them in sync.
+
+00:21:03.318 --> 00:21:04.818
+So Git's designed for that. So yes,
+
+00:21:07.008 --> 00:21:12.558
+I'll get into it, but I do suggest trying local and we'll-- Yeah.
+
+00:21:13.938 --> 00:21:17.238
+Okay. So Zinkl is
+
+00:21:20.028 --> 00:21:24.618
+how the project is organized. So we saw in the repo we had a
+
+00:21:25.668 --> 00:21:30.858
+TOML file. This is basically how we sort of configure your
+
+00:21:31.097 --> 00:21:35.839
+personal website. So you can say stuff like the name of the website, the URL it's
+
+00:21:35.928 --> 00:21:41.118
+under, the colors, the fonts. You can add extra features.
+
+00:21:41.208 --> 00:21:43.053
+I don't want a table of contents. You
+
+00:21:44.778 --> 00:21:48.168
+can add extra functionality that's off by default, a lightbox.
+
+00:21:48.198 --> 00:21:54.018
+And so all those sort of general settings for the whole website happen in this
+
+00:21:54.078 --> 00:21:54.738
+TOML file.
+
+00:21:56.808 --> 00:21:59.568
+Then you have the docs folder, and this is where all the content goes.
+
+00:21:59.659 --> 00:22:04.758
+So this is where all your images, your files, this is where all the notes that you
+
+00:22:04.774 --> 00:22:07.159
+write in Markdown all go into the docs folder.
+
+00:22:09.318 --> 00:22:09.678
+And
+
+00:22:10.909 --> 00:22:14.628
+each of these files is ending in an MD, so as in the next line here.
+
+00:22:14.718 --> 00:22:19.308
+So as an example, index.md is one of the files that we have Markdown on.
+
+00:22:19.909 --> 00:22:22.848
+Index is a special word. It means home page.
+
+00:22:23.839 --> 00:22:29.808
+So index is the only one where if you write index in the URL, so for example,
+
+00:22:29.839 --> 00:22:34.818
+if I'm looking at my website, I only have a forward slash. You see I have index.
+
+00:22:36.498 --> 00:22:37.308
+And then
+
+00:22:38.808 --> 00:22:44.238
+your browser is tricking you because actually what's behind there is index.html.
+
+00:22:44.253 --> 00:22:45.409
+This is the actual file.
+
+00:22:47.149 --> 00:22:52.938
+When I have another file, for example, if I open my editor, you'll see there's a
+
+00:22:52.998 --> 00:22:58.173
+folder called Assignments, and then there's a file called Markdown Week 1.
+
+00:23:00.409 --> 00:23:05.868
+If I go to Assignments and then Week 1, I will see in my URL also
+
+00:23:05.958 --> 00:23:09.649
+Assignments and Week 1. But I don't have the HTML.
+
+00:23:12.108 --> 00:23:16.548
+So the file name that you have in the Markdown, it becomes the URL.
+
+00:23:16.758 --> 00:23:20.478
+So that's very important to map in your head, and you'll see that as you work
+
+00:23:20.508 --> 00:23:21.078
+through the weeks.
+
+00:23:23.958 --> 00:23:29.598
+And then we have this .gitlab-ci file, which is a special file for the project.
+
+00:23:29.659 --> 00:23:35.583
+This is basically telling GitLab, "Hey, this project is using Zinkl, and
+
+00:23:35.628 --> 00:23:40.008
+this is how you build the website. This is the command you use and how to upload it
+
+00:23:40.068 --> 00:23:44.013
+to our platform." So it's very specific to your project, and you don't really need
+
+00:23:44.058 --> 00:23:49.608
+to change anything there unless something goes wrong or you decide to do something
+
+00:23:49.638 --> 00:23:52.998
+completely different, use another tool, which is your prerogative.
+
+00:23:53.058 --> 00:23:55.818
+You can do whatever you want. You don't have to stick to Zinkl.
+
+00:23:56.748 --> 00:24:00.888
+You can use plain HTML. You can use another tool if you're very familiar with
+
+00:24:01.458 --> 00:24:05.268
+different tools. We just provide Zinkl because it's very easy out of the box.
+
+00:24:05.568 --> 00:24:09.063
+So .gitlab-ci is basically telling GitLab how to build your project
+
+00:24:10.818 --> 00:24:11.238
+and
+
+00:24:12.528 --> 00:24:18.409
+sort of, yeah. I'll show you. So it's sort of saying, "Okay, we're using Python
+
+00:24:18.468 --> 00:24:23.238
+because this program is built in Python, and then we're going to install the
+
+00:24:23.328 --> 00:24:28.218
+required plugins, and then we're going to build your project." So that's very easy.
+
+00:24:28.233 --> 00:24:32.493
+And then it's just saying everything in the public is we're now in the docs folder,
+
+00:24:32.508 --> 00:24:35.238
+and we need to build HTML into a public folder.
+
+00:24:37.548 --> 00:24:39.977
+All right. So let's talk
+
+00:24:41.448 --> 00:24:44.508
+about the configuration file and try some changes.
+
+00:24:46.098 --> 00:24:50.118
+The configuration is in a language called TOML, and it's just basically, it's got a
+
+00:24:50.178 --> 00:24:51.168
+key and value
+
+00:24:52.428 --> 00:24:58.053
+format. So the first word is always the sort of the setting key, the value you want
+
+00:24:58.098 --> 00:25:02.298
+to change, and then there's the value which goes in the quotes, which is what you
+
+00:25:02.328 --> 00:25:08.298
+want the setting to contain. So for example, site name is telling Zinkl, "Okay,
+
+00:25:08.388 --> 00:25:11.418
+my site name equals," and then whatever you want to call it.
+
+00:25:11.508 --> 00:25:16.457
+So you can put your name, you can put My Fabric Academy Journey. You can choose.
+
+00:25:17.118 --> 00:25:22.428
+This is basically deciding. And these values are sort of the ones I suggest you
+
+00:25:22.488 --> 00:25:24.649
+start with, and you can find them
+
+00:25:26.149 --> 00:25:29.058
+in the project. If you can't find the word, you just do a search.
+
+00:25:29.208 --> 00:25:32.178
+If you can't find it, then you can just write it on a new line somewhere.
+
+00:25:33.768 --> 00:25:36.964
+And basically, you can change your name, your description, and your author, and
+
+00:25:36.978 --> 00:25:38.419
+these apply to all the pages.
+
+00:25:40.068 --> 00:25:44.538
+The site URL, I would leave to whatever is written there, because this is basically
+
+00:25:44.628 --> 00:25:48.858
+the URL you have in the browser. It needs to know what your website URL is, so
+
+00:25:49.548 --> 00:25:55.353
+don't change that one. A key caveat is that these key settings are
+
+00:25:55.399 --> 00:25:59.868
+organized into sections. So if you look at site name, it's under the section called
+
+00:25:59.928 --> 00:26:05.464
+Project in square brackets. And then we have the color, the palette, which is
+
+00:26:05.508 --> 00:26:07.173
+choosing sort of the default color of
+
+00:26:08.688 --> 00:26:08.988
+text,
+
+00:26:10.698 --> 00:26:16.143
+is under project.theme. And then you have the selected font that you want for your
+
+00:26:16.188 --> 00:26:18.678
+whole website is under project.theme.font.
+
+00:26:18.993 --> 00:26:23.868
+And so these square brackets are important, and so you can't put site name under
+
+00:26:23.899 --> 00:26:26.748
+project.theme. It has to go under the correct.
+
+00:26:28.488 --> 00:26:32.658
+So for example, if I'm going to look at docs.
+
+00:26:36.919 --> 00:26:42.738
+If I go to their website, I just want to show you an example of-- So I'm going to
+
+00:26:42.813 --> 00:26:43.743
+their documentation,
+
+00:26:45.468 --> 00:26:49.548
+and I see, okay, fonts, and I'm reading, because this is what I would do.
+
+00:26:49.698 --> 00:26:51.889
+I would say, how do I do something? I want to change the font.
+
+00:26:51.948 --> 00:26:55.698
+And on their documentation, they're showing you, okay, so you need to change
+
+00:26:55.728 --> 00:26:58.158
+font.text to change the font under it.
+
+00:26:58.218 --> 00:27:02.058
+So the first thing I would do is in my configuration, I'm going to find this
+
+00:27:02.598 --> 00:27:06.018
+section in my configuration file if it exists. It might not.
+
+00:27:06.889 --> 00:27:10.308
+And so if I find this one, then I can put this text right under it.
+
+00:27:11.658 --> 00:27:15.139
+So this is showing you what you need to change, and you can match it with what you
+
+00:27:15.198 --> 00:27:18.919
+have. And so it's very important, this sort of structure of square brackets is the
+
+00:27:19.248 --> 00:27:22.488
+sections, and then sort of the setting, and then two quotes.
+
+00:27:22.578 --> 00:27:24.363
+Always close your quotes, open and close.
+
+00:27:25.416 --> 00:27:30.246
+And then you might, if you make a mistake, then your project will fail to build,
+
+00:27:30.306 --> 00:27:31.986
+and you'll get an error about it. And so
+
+00:27:33.516 --> 00:27:37.266
+just be, yeah, mindful of those changes of the TOML.
+
+00:27:38.016 --> 00:27:42.696
+I do link to a little validator that you can do if really you changed something, it
+
+00:27:42.726 --> 00:27:45.576
+didn't work. There's sort of a TOML checker here you can
+
+00:27:48.096 --> 00:27:48.786
+try out.
+
+00:27:59.856 --> 00:28:00.786
+I'm not sure what your--
+
+00:28:02.076 --> 00:28:03.906
+Dina, what was your question? Password?
+
+00:28:07.506 --> 00:28:09.966
+Your password for your accounts is in your email.
+
+00:28:10.207 --> 00:28:11.046
+If you
+
+00:28:12.336 --> 00:28:15.156
+can't find your email, you can always do a password reset.
+
+00:28:16.746 --> 00:28:18.246
+So basically, going back,
+
+00:28:21.606 --> 00:28:23.677
+we run all our accounts on FabLab Zero.
+
+00:28:23.736 --> 00:28:29.016
+So when you're trying to log in here, you can click the forgot password link and
+
+00:28:29.076 --> 00:28:32.377
+put in your email address, the one that you sent to coordination.
+
+00:28:32.437 --> 00:28:37.356
+So that's another way of getting access to your account is to just ask for a, reset
+
+00:28:37.416 --> 00:28:40.177
+your password. So I would suggest trying that.
+
+00:28:41.556 --> 00:28:47.406
+See if you get the email. Otherwise, yeah, I'll contact you.
+
+00:28:53.286 --> 00:28:58.806
+So, if you haven't, while I was talking, tried, you can go to the editor in GitLab,
+
+00:28:58.927 --> 00:29:02.437
+and I'm going to try now edit the TOML file.
+
+00:29:03.216 --> 00:29:09.082
+And so I can go to my TOML file if I hit site name, I'll put my name, and
+
+00:29:09.156 --> 00:29:10.656
+then I can put my...
+
+00:29:13.746 --> 00:29:14.526
+All right.
+
+00:29:23.946 --> 00:29:25.627
+I'm also going to change the copyright.
+
+00:29:29.106 --> 00:29:30.546
+Okay. Well,
+
+00:29:32.046 --> 00:29:32.796
+what do I do now?
+
+00:29:35.556 --> 00:29:41.136
+Because we're in the browser, we actually have to-- It's not automatically saving.
+
+00:29:41.586 --> 00:29:45.516
+We actually have to sort of intentionally commit and push our changes.
+
+00:29:45.606 --> 00:29:49.416
+So even though we're working in the browser in GitLab, we still have to tell
+
+00:29:49.446 --> 00:29:52.536
+GitLab, "Okay, I'm finished working on this file.
+
+00:29:53.496 --> 00:29:59.226
+I'm ready to sort of publish it to my website." And you'll see there's a little one
+
+00:29:59.286 --> 00:30:03.336
+here, which is basically telling me it's detected that one file changed.
+
+00:30:04.326 --> 00:30:07.896
+If I open this sort of sidebar, it's a sort of another view tab.
+
+00:30:10.146 --> 00:30:14.226
+It's listing here this one file is this field TOML.
+
+00:30:14.766 --> 00:30:16.296
+It's got an M, it means it's modified.
+
+00:30:16.536 --> 00:30:20.106
+If I click it, it's going to show me what changed.
+
+00:30:20.166 --> 00:30:25.326
+So you've got a minus and a plus. You've got two lines and showing it sort of the
+
+00:30:25.356 --> 00:30:29.046
+from to. So it's showing you what it was and what it became.
+
+00:30:29.496 --> 00:30:30.366
+And so it's like,
+
+00:30:32.677 --> 00:30:36.486
+I like to just go through, "Okay, yes, I did this." There was no everything looks
+
+00:30:36.516 --> 00:30:40.161
+good. You can compare the quotes match. It's another double checking.
+
+00:30:40.685 --> 00:30:44.677
+Especially when changing a TOML, you want to be really sure you didn't forget a
+
+00:30:44.736 --> 00:30:46.880
+closing tag. And comparing it to the previous
+
+00:30:48.366 --> 00:30:52.446
+line that changed, it's a good way to see if you missed anything.
+
+00:30:55.656 --> 00:31:00.246
+Then we have a commit message. This is sort of every save, every commit you do, you
+
+00:31:00.306 --> 00:31:05.707
+can put a sort of a comment to it, and this is just for you personally.
+
+00:31:05.781 --> 00:31:10.386
+It will be in the history, and it will be permanent, but it's a good way to know
+
+00:31:11.646 --> 00:31:14.856
+what was in these commits. So if you're going back and you have a long list of
+
+00:31:15.216 --> 00:31:19.416
+changes, you don't want to open each one to see, where did I change this file?
+
+00:31:19.567 --> 00:31:22.866
+So a good thing is to write a message that's good for you. So there's two ways.
+
+00:31:23.736 --> 00:31:29.450
+You can say, "I updated the TOML file," or you can say, "I changed my site name."
+
+00:31:29.946 --> 00:31:33.846
+You can be more descriptive, you can just be generic, or you can just say, "One,
+
+00:31:33.877 --> 00:31:39.321
+two, three." It's up to you. So you can say, "Updated a config file,"
+
+00:31:40.506 --> 00:31:41.796
+or you can say, "Updated,"
+
+00:31:43.026 --> 00:31:47.196
+or "Edited my name." You can write what you want.
+
+00:31:47.210 --> 00:31:49.026
+It's just personally for you, it makes no difference.
+
+00:31:49.146 --> 00:31:52.086
+And when we're ready with a message, you say commit and push.
+
+00:31:52.836 --> 00:31:56.826
+But very important, it has to say, "Push to main." Main is sort of,
+
+00:31:58.207 --> 00:32:02.136
+there can be lots of forks in this project. You can have lots of parallel work.
+
+00:32:02.196 --> 00:32:05.766
+You can do lots of things together at the same time, and so they call this
+
+00:32:05.826 --> 00:32:11.796
+branches, but generally 99% of the time, I think you should just work in main.
+
+00:32:11.856 --> 00:32:16.056
+So always be pushing to main because you only really want to work on one thing at a
+
+00:32:16.116 --> 00:32:18.486
+time and not have to deal with merging things together.
+
+00:32:18.817 --> 00:32:20.707
+So always make sure it's committing to main.
+
+00:32:21.666 --> 00:32:26.796
+If it doesn't say main, you can click the drop down and then select something else.
+
+00:32:27.696 --> 00:32:33.306
+Let me know if you don't see main. You can comment me now or raise your hand.
+
+00:32:34.026 --> 00:32:39.156
+So when you click commit and push, it's going to double ask you, are you sure?
+
+00:32:39.187 --> 00:32:39.396
+Because,
+
+00:32:42.096 --> 00:32:43.866
+but we're sure. We always want to connect.
+
+00:32:43.986 --> 00:32:46.446
+I think after this, the first time, it won't ask you again.
+
+00:32:46.716 --> 00:32:49.146
+So you're just like, "Yes, I want to commit to the main branch."
+
+00:32:50.496 --> 00:32:51.666
+And that should go through.
+
+00:32:55.026 --> 00:32:57.306
+And then, so you're thinking, okay,
+
+00:32:59.437 --> 00:33:04.177
+I'm now going to reload my commit list. I'm back on my project.
+
+00:33:04.567 --> 00:33:07.957
+Where's the refresh button? I'm going to refresh this page,
+
+00:33:09.546 --> 00:33:13.716
+and I'm going to see this is the new commit I made 19 seconds ago, update config,
+
+00:33:14.496 --> 00:33:15.937
+and I'm going to have the green check mark.
+
+00:33:16.446 --> 00:33:19.356
+Now let's dive into what this check mark is.
+
+00:33:19.446 --> 00:33:24.111
+It's related to every time you make a commit or you push from locally, we're going
+
+00:33:24.127 --> 00:33:29.571
+to actually build your project. And so, this is called a CI pipeline or
+
+00:33:29.646 --> 00:33:33.396
+pipelines, and it's basically for every commit you make, it's going to run that
+
+00:33:33.486 --> 00:33:37.296
+code that we had in that .CI YAML file in that if you saw in your project.
+
+00:33:37.356 --> 00:33:41.226
+So it's basically building your Zekel project, and you always want it to pass.
+
+00:33:41.286 --> 00:33:45.636
+So if it fails, then you sort of open it, you click-- it's going to have a red
+
+00:33:45.786 --> 00:33:50.346
+error message. And if you click it and go into it, you're going to see this deploy
+
+00:33:50.466 --> 00:33:54.216
+pages. It's called Pages. So we're going to click into it, and then you're just
+
+00:33:54.245 --> 00:33:57.696
+going to see a bunch of logs. This is sort of the server building your project,
+
+00:33:57.756 --> 00:34:03.606
+downloading the Zekel website and installing it, and then downloading your code.
+
+00:34:03.666 --> 00:34:04.131
+And then...
+
+00:34:09.396 --> 00:34:11.317
+So in my scenario, it's just successful.
+
+00:34:11.346 --> 00:34:14.707
+It's going to always be successful, but if it fails, then you will sort of at the
+
+00:34:15.187 --> 00:34:21.036
+bottom of this list of sort of the logs of the server building your project, it
+
+00:34:21.067 --> 00:34:26.586
+might have error. We couldn't find an image, or the TOML file had an error.
+
+00:34:26.616 --> 00:34:30.187
+And so sometimes these errors are a bit cryptic. I go back to that meme.
+
+00:34:31.026 --> 00:34:32.406
+It's like, what's this error mean?
+
+00:34:32.466 --> 00:34:38.106
+And so that might be a good-- That's good to read the error message, try and find
+
+00:34:38.136 --> 00:34:41.586
+the error message, and look at the commits. What did I actually change?
+
+00:34:41.646 --> 00:34:43.417
+Go back to see what you actually changed.
+
+00:34:44.797 --> 00:34:47.346
+Google it or ask AI, what's this error mean?
+
+00:34:47.976 --> 00:34:50.601
+And then not how do I fix it, but what does it mean?
+
+00:34:50.677 --> 00:34:54.276
+So then you can actually try and fix it yourself and sort of have that.
+
+00:34:54.846 --> 00:34:58.866
+So, keep in mind, it's always going to work, but if the pipelines you have to have
+
+00:34:58.896 --> 00:35:02.646
+in the back of your head, every commit is going to be building your project in a
+
+00:35:02.706 --> 00:35:05.615
+pipeline, on a server, and sometimes it may fail.
+
+00:35:05.706 --> 00:35:10.416
+So you'll always make sure that if your website doesn't seem updated, double-check.
+
+00:35:10.476 --> 00:35:13.401
+Did I get the green mark? Was it correct, or did it fail?
+
+00:35:15.366 --> 00:35:17.346
+Sometimes you get an email that it failed as well.
+
+00:35:18.876 --> 00:35:24.381
+Yeah. So, just for fun, I'll check up,
+
+00:35:25.056 --> 00:35:28.086
+and I should have my name. Yeah, I have my name now, so it worked.
+
+00:35:31.656 --> 00:35:36.486
+I think I'll also show you-- So, just double-check my slides where I am.
+
+00:35:39.696 --> 00:35:41.226
+Google Fonts. Yeah. So, I
+
+00:35:43.236 --> 00:35:47.031
+don't know where fonts are, so I can just do a Apple+F. I can do Find.
+
+00:35:47.616 --> 00:35:52.866
+And so I'm searching within this editor. I can do fonts, and there we go.
+
+00:35:52.927 --> 00:35:56.976
+Theme fonts here. So these are Google Fonts.
+
+00:35:57.036 --> 00:35:59.797
+You can go to google.com or
+
+00:36:00.396 --> 00:36:04.056
+fonts.google.com, I think.
+
+00:36:05.556 --> 00:36:08.346
+And basically, you can look through these fonts and find something you like, so you
+
+00:36:08.406 --> 00:36:13.116
+can sort of already have something suited to your style just by changing the font.
+
+00:36:13.206 --> 00:36:16.101
+So that's something easy to do that you can already do today.
+
+00:36:16.101 --> 00:36:20.121
+And then you would put the name of the font in this setting inside the quotes,
+
+00:36:20.317 --> 00:36:22.026
+commit it, and the font should change.
+
+00:36:23.346 --> 00:36:27.906
+You can read the documentation of Zekel if you want to see, how can I use the font
+
+00:36:27.966 --> 00:36:30.516
+that's not in Google? You can
+
+00:36:32.106 --> 00:36:37.626
+import your own fonts, but make sure their sort of licensing is free, not doing
+
+00:36:37.716 --> 00:36:38.226
+paid stuff.
+
+00:36:43.131 --> 00:36:46.851
+Yeah, I see here you can also change the icon.
+
+00:36:46.911 --> 00:36:49.581
+So the icon is this thing next to my name.
+
+00:36:50.302 --> 00:36:53.001
+I've got a little book librarian, an open book.
+
+00:36:54.321 --> 00:36:58.491
+So if you open the Zekiel docs, and actually there's a link here, so you can
+
+00:36:58.521 --> 00:37:02.151
+already open it. They have a full library of icons, and then you can choose an icon
+
+00:37:02.211 --> 00:37:03.651
+you want, and you replace it here.
+
+00:37:05.121 --> 00:37:07.581
+So there's a lot of settings you can go through and change.
+
+00:37:08.181 --> 00:37:11.991
+There's here social media. You can put your own social media links here, and then
+
+00:37:12.021 --> 00:37:15.261
+they will appear at the bottom. So it's something you can already do.
+
+00:37:16.431 --> 00:37:17.751
+You see at the footer, there's the links.
+
+00:37:19.281 --> 00:37:23.361
+You can add your own. So if I want what's not on here,
+
+00:37:25.491 --> 00:37:29.451
+LinkedIn, I don't know. So you make another line, and then you write
+
+00:37:31.161 --> 00:37:35.841
+LinkedIn as a brand. I guess that icon exists, and then you change the URL.
+
+00:37:35.871 --> 00:37:37.401
+And so that's how you would make another one.
+
+00:37:41.466 --> 00:37:44.136
+Let's look at some markdown. If there's no questions,
+
+00:37:45.351 --> 00:37:46.415
+I'm going to open week one.
+
+00:37:48.621 --> 00:37:50.256
+Let's get to some real documentation.
+
+00:37:50.541 --> 00:37:52.116
+I don't know how I am on time, but
+
+00:37:54.381 --> 00:37:59.271
+this is what markdown looks like. So each week, we just give you a template.
+
+00:37:59.331 --> 00:38:01.192
+So we just provide a bunch of
+
+00:38:03.681 --> 00:38:07.192
+useful tips, but this is also an example of how you would do stuff.
+
+00:38:08.091 --> 00:38:13.581
+So if you see here, what this is all text. It's all special to Zekiel.
+
+00:38:14.271 --> 00:38:17.270
+I've got some HTML. If you can see here, this is HTML.
+
+00:38:17.390 --> 00:38:20.601
+So you're mixing HTML and markdown. So this is an image.
+
+00:38:21.681 --> 00:38:23.601
+I'm just going quickly through it now. And I know this.
+
+00:38:24.711 --> 00:38:28.041
+So yeah, it's good, and I'm going to match it to what I see here.
+
+00:38:30.321 --> 00:38:34.581
+So, for example, this weekly assignment was this nice little collapsible box with
+
+00:38:34.641 --> 00:38:39.501
+one objective. So if I go back to the markdown, I see the double hash.
+
+00:38:39.561 --> 00:38:41.241
+So that was the title. So that's a
+
+00:38:42.621 --> 00:38:45.741
+heading or subheading because it's number two.
+
+00:38:45.891 --> 00:38:51.021
+The first hash is the title of the page, and that also becomes the link in the nav
+
+00:38:51.081 --> 00:38:56.361
+bar. So it's a two-in-one. And then these special boxes are these, they're called--
+
+00:38:59.361 --> 00:39:03.172
+I forgot what they were. Ammonitions.
+
+00:39:03.471 --> 00:39:04.672
+So
+
+00:39:06.231 --> 00:39:10.881
+in Zekiel, I won't go through them all, but there's a lot of different extra
+
+00:39:10.971 --> 00:39:12.651
+features that you can add to your website.
+
+00:39:12.681 --> 00:39:15.922
+So, markdown is, let's say, the bare minimum.
+
+00:39:15.981 --> 00:39:19.221
+It's like the headers, the bullet points, the paragraphs.
+
+00:39:20.001 --> 00:39:24.771
+But sometimes Zekiel provides you already-made objects, like the little collapsible
+
+00:39:24.831 --> 00:39:26.302
+things. You have little buttons
+
+00:39:28.071 --> 00:39:29.181
+that you can then,
+
+00:39:30.681 --> 00:39:33.981
+if you enable it, so if you follow their settings, they say, "Okay, you need to
+
+00:39:34.041 --> 00:39:38.811
+make sure this is in your toml file." And then buttons look like this when you do
+
+00:39:38.841 --> 00:39:42.172
+it this way. So this is, for example, a button.
+
+00:39:42.231 --> 00:39:47.302
+I have to copy this whole piece of thing in my markdown, and then if it works, it
+
+00:39:47.331 --> 00:39:53.271
+will look like this. So instead of a link looking like this one
+
+00:39:53.331 --> 00:39:53.661
+up here,
+
+00:39:55.040 --> 00:39:57.231
+it's going to look like this. So they have a lot of things.
+
+00:39:57.471 --> 00:40:02.451
+They have code blocks, diagrams. They have tables which are very useful for you.
+
+00:40:03.891 --> 00:40:05.781
+So you would then just say, "How do I enable it?
+
+00:40:05.841 --> 00:40:08.901
+What they look like?" Their documentation is great, so just go through it all,
+
+00:40:10.552 --> 00:40:10.655
+and
+
+00:40:12.651 --> 00:40:13.461
+then you put it here.
+
+00:40:17.151 --> 00:40:17.510
+Yeah.
+
+00:40:25.851 --> 00:40:28.971
+So Zekiel is reading markdown files.
+
+00:40:29.061 --> 00:40:33.802
+So week one.md is a markdown file. So, the base is markdown.
+
+00:40:34.011 --> 00:40:39.381
+So we're starting with markdown. And then Zekiel is adding their own little extra--
+
+00:40:40.161 --> 00:40:45.891
+So there's markdown. I can add HTML, which is not markdown, but I can add
+
+00:40:46.041 --> 00:40:47.302
+HTML. So if I want my own
+
+00:40:49.192 --> 00:40:54.501
+image, whatever. If I want to write my own
+
+00:40:54.591 --> 00:40:58.881
+paragraph, I can write it in markdown, or I can write it in my own way.
+
+00:40:59.781 --> 00:41:01.161
+And then these things are
+
+00:41:02.361 --> 00:41:08.061
+Zekiel's custom components, custom elements that they've made for you that so
+
+00:41:08.091 --> 00:41:12.681
+instead of having to build the whole HTML and the CSS yourself, we've made it for
+
+00:41:12.741 --> 00:41:15.591
+you already. And all you have to do is they come up with these
+
+00:41:16.942 --> 00:41:21.201
+special symbols like question mark, question mark task is going to open a little
+
+00:41:21.231 --> 00:41:25.131
+blue box, but that's not markdown. That's really specific to Zekiel.
+
+00:41:26.061 --> 00:41:30.561
+So it's this mix, like sprinkling extra cherries on top of the markdown.
+
+00:41:31.851 --> 00:41:36.186
+Because markdown is a very simple language that's interoperable between any
+
+00:41:36.231 --> 00:41:40.401
+tooling. And so it's great here, but because we're really only using it to build a
+
+00:41:40.431 --> 00:41:42.052
+website and only with this tool,
+
+00:41:43.821 --> 00:41:47.451
+we can add this custom. So all these things I showed you in the Zekiel
+
+00:41:47.511 --> 00:41:50.271
+documentation, they're very custom to Zekiel, this part.
+
+00:41:50.331 --> 00:41:52.071
+That's why you have to enable them with these--
+
+00:41:53.631 --> 00:41:55.161
+You see these extensions, they're called.
+
+00:41:55.942 --> 00:41:58.851
+You're extending the markdown with these extra functionalities.
+
+00:41:59.511 --> 00:42:05.211
+And sometimes there's stuff outside of Zekiel, so you may find also a
+
+00:42:05.961 --> 00:42:10.881
+markdown extension on another website, or someone made one on GitHub,
+
+00:42:10.942 --> 00:42:11.991
+and
+
+00:42:13.461 --> 00:42:19.011
+it's not guaranteed to work, but it could work, if it's supporting the markdown
+
+00:42:20.302 --> 00:42:25.206
+to go down. Yes, it's a Python markdown, so it's a specific version, but you can
+
+00:42:25.251 --> 00:42:29.901
+extend it. So there's lots of plug-ins, especially a lot of the markdown extensions
+
+00:42:29.991 --> 00:42:33.172
+from MK Docs should also work if you don't find it here.
+
+00:42:34.881 --> 00:42:35.001
+Yeah.
+
+00:42:38.226 --> 00:42:44.001
+You got it right. Write markdown, then you can add some Zekiel custom elements on
+
+00:42:44.061 --> 00:42:47.121
+top, and then when you push it, it builds your website.
+
+00:42:47.302 --> 00:42:47.511
+And
+
+00:42:51.561 --> 00:42:53.422
+actually, what you're missing is in the mix.
+
+00:42:53.751 --> 00:42:53.931
+So
+
+00:42:55.281 --> 00:43:01.221
+just like in this template, we have markdown, we have some custom, very
+
+00:43:01.281 --> 00:43:03.351
+specific elements that are from Zekiel,
+
+00:43:05.302 --> 00:43:09.172
+and we have at the lower down here, we had-- This is HTML.
+
+00:43:09.261 --> 00:43:12.531
+So, for example, this one is about having a caption on your image.
+
+00:43:13.221 --> 00:43:14.541
+Actually, I should talk about image, though.
+
+00:43:15.771 --> 00:43:17.961
+An image in markdown just looks like this,
+
+00:43:20.151 --> 00:43:23.391
+but there was no support for a caption.
+
+00:43:23.526 --> 00:43:28.821
+And so we're using HTML to basically say, I want to add some caption.
+
+00:43:28.881 --> 00:43:30.981
+If we look at what it looks like here.
+
+00:43:31.071 --> 00:43:33.890
+So you see it's an image, and it has a text underneath.
+
+00:43:34.521 --> 00:43:38.331
+So to do that, there was no way in markdown, there was no way in Zekiel.
+
+00:43:38.811 --> 00:43:43.611
+So this was the way in HTML. And so you can add it, or sometimes you find a
+
+00:43:43.672 --> 00:43:44.961
+nice-looking button
+
+00:43:46.461 --> 00:43:46.672
+on the
+
+00:43:49.942 --> 00:43:53.061
+internet, and you can copy the HTML on and it works.
+
+00:43:53.241 --> 00:43:56.181
+Because HTML is also like markdown. It works everywhere.
+
+00:43:56.451 --> 00:43:59.901
+The only thing that's really specific to Zekiel is these specific
+
+00:44:02.751 --> 00:44:03.231
+elements.
+
+00:44:15.831 --> 00:44:19.251
+Yeah, I think good one is so about images.
+
+00:44:20.241 --> 00:44:26.031
+This is the markdown for an image. So you've got a exclamation mark, two
+
+00:44:26.091 --> 00:44:28.011
+square brackets, and two round brackets.
+
+00:44:28.911 --> 00:44:33.442
+The first part is saying, "I'm an image." The square brackets is actually saying
+
+00:44:33.531 --> 00:44:36.891
+what this image about, and it's called an alternative text.
+
+00:44:37.281 --> 00:44:41.692
+And these are usually predominantly used for screen readers of blind or deaf
+
+00:44:41.751 --> 00:44:47.076
+people. Well, blind people. So that their computer can
+
+00:44:47.121 --> 00:44:49.297
+describe what this image-- Well, read the text.
+
+00:44:49.311 --> 00:44:53.346
+So, for example, if I upload a picture of me or a picture of trees, I can say it's
+
+00:44:53.422 --> 00:44:59.361
+a picture of a pine tree. So then whoever's reading your documentation, they
+
+00:44:59.422 --> 00:45:01.192
+understand, okay, this is a pine tree.
+
+00:45:03.501 --> 00:45:06.621
+So it's nice to put an alternative text, and that goes in the square brackets.
+
+00:45:07.056 --> 00:45:11.751
+And in the round brackets, you put in the location of that image relative to where
+
+00:45:11.811 --> 00:45:17.016
+you are. So you've got to tell, if you think of Zekiel as reading this page and
+
+00:45:17.091 --> 00:45:20.511
+say, "Okay, I'm here. I'm in week one.md.
+
+00:45:20.571 --> 00:45:25.401
+Where is this image?" So you have to tell it, "Okay, well, actually, you're inside
+
+00:45:25.416 --> 00:45:30.111
+the assignments folder now." So you have to go outside the assignments folder, find
+
+00:45:30.141 --> 00:45:35.466
+a folder called Images, which we have down here, and in there, you'll see I have a
+
+00:45:35.481 --> 00:45:38.571
+folder called Avatar Folder. So how do we go back?
+
+00:45:38.841 --> 00:45:44.692
+And actually, the weather is quite nice right now. So back is two dots and a slash.
+
+00:45:45.351 --> 00:45:51.052
+That means go back one folder. And then, so now we write images
+
+00:45:52.335 --> 00:45:55.366
+And then I write a slash, so that's the end of the folder.
+
+00:45:55.395 --> 00:46:00.795
+And inside images, we have avatar, and then I write the name of the photo,
+
+00:46:02.775 --> 00:46:08.235
+JPEG. There. So this is going back one folder, then go inside images, and then the
+
+00:46:08.295 --> 00:46:12.285
+name of my image. So if I put all that together because we're not supposed to have
+
+00:46:12.315 --> 00:46:12.885
+spaces,
+
+00:46:14.145 --> 00:46:15.075
+then that's my image.
+
+00:46:17.295 --> 00:46:22.846
+And how do I know it works? Well, do I have to commit it?
+
+00:46:23.580 --> 00:46:27.375
+Well, you have to commit it, but a quick way of validating your markdown, which
+
+00:46:27.435 --> 00:46:32.025
+really only works for the markdown, is on the right here.
+
+00:46:32.145 --> 00:46:33.585
+On the top right, you see a little
+
+00:46:35.116 --> 00:46:37.815
+two columns in a magnifying glass.
+
+00:46:37.905 --> 00:46:42.255
+If you click it, it's going to show you a preview of your markdown.
+
+00:46:42.285 --> 00:46:47.070
+So the web editor is able to render markdown, only markdown.
+
+00:46:47.205 --> 00:46:50.685
+So you'll notice that the Zekiel stuff doesn't work.
+
+00:46:50.835 --> 00:46:55.035
+The little blue boxes, styled boxes don't work.
+
+00:46:55.065 --> 00:47:00.105
+But it's a great way for verifying the images work, your headings, things look
+
+00:47:00.135 --> 00:47:03.300
+roughly away. So it's a nice way to look. So you see here, I made image.
+
+00:47:04.305 --> 00:47:04.635
+If I
+
+00:47:06.195 --> 00:47:09.705
+misspell my image name, it doesn't work. I get picture of pine tree.
+
+00:47:11.265 --> 00:47:14.055
+Basically, that's saying, "I couldn't find image, so I'm going to show you the alt
+
+00:47:14.145 --> 00:47:14.505
+text,
+
+00:47:16.305 --> 00:47:16.785
+JPEG."
+
+00:47:18.465 --> 00:47:18.616
+Yeah.
+
+00:47:21.465 --> 00:47:23.476
+So having the in-browser, it's a nice one,
+
+00:47:24.825 --> 00:47:26.265
+especially for experimenting now.
+
+00:47:26.715 --> 00:47:29.265
+For the markdown, to play with the markdown, you don't need to commit everything.
+
+00:47:29.355 --> 00:47:31.935
+You can just play with everything here, and you'll see a live preview.
+
+00:47:32.265 --> 00:47:33.495
+So that's on the right side.
+
+00:47:37.755 --> 00:47:41.715
+The good thing about this editor actually is with the images, so exclamation mark,
+
+00:47:41.805 --> 00:47:46.545
+two squares, and then I do the round braces.
+
+00:47:47.295 --> 00:47:51.315
+I'm going to go back two folders, and you'll notice the editor is actually helping
+
+00:47:51.375 --> 00:47:55.425
+me. So it's telling me, "Okay, you want to go back." So it's showing me I can,
+
+00:47:56.085 --> 00:47:58.995
+within the editor, choose a folder. I don't have to write it myself.
+
+00:47:59.055 --> 00:48:01.245
+And then, so I'm going to click Enter on my keyboard.
+
+00:48:01.875 --> 00:48:05.265
+I click Enter, and then I say, "Okay, I'm going to look for the image." I want to
+
+00:48:05.295 --> 00:48:09.465
+go in week two, and then I say, "Yep, that's the file I want." So it's helping me
+
+00:48:09.495 --> 00:48:09.765
+build
+
+00:48:11.715 --> 00:48:15.495
+my path within Markdown. So that's a great way to help you don't make mistakes with
+
+00:48:15.525 --> 00:48:16.275
+the file names.
+
+00:48:18.435 --> 00:48:20.775
+But how do we get an image in there?
+
+00:48:22.755 --> 00:48:26.476
+Well, if we go to the image folder, you find it, you right-click it.
+
+00:48:27.375 --> 00:48:29.355
+You can see there's an Upload button.
+
+00:48:30.105 --> 00:48:31.920
+So you can click Upload, and then you can choose an
+
+00:48:37.815 --> 00:48:39.525
+image.
+
+00:48:47.565 --> 00:48:48.285
+Hang on a bit.
+
+00:48:57.435 --> 00:49:03.075
+Just give me a moment. I don't have an image to upload, but if I go to week one
+
+00:49:04.065 --> 00:49:04.995
+and I say Upload,
+
+00:49:06.705 --> 00:49:07.245
+then I can...
+
+00:49:14.685 --> 00:49:17.955
+There we go. It's the same name. I already had this image, but it's sort of just
+
+00:49:18.015 --> 00:49:20.745
+uploading. It's showing you how to upload an image.
+
+00:49:23.040 --> 00:49:27.015
+And then I can also choose to rename this image, so I can then right-click the new
+
+00:49:27.075 --> 00:49:31.125
+image I just uploaded, click Rename, and say My New Image.
+
+00:49:32.685 --> 00:49:36.630
+It's good to rename images because maybe you took it with your phone or something,
+
+00:49:36.660 --> 00:49:41.700
+it's got a weird name. I would suggest to write a good name, and I also always
+
+00:49:41.715 --> 00:49:46.635
+suggest that it should have no spaces in it because websites don't work well with
+
+00:49:46.695 --> 00:49:51.105
+spaces, so you don't want to write new space like this.
+
+00:49:51.585 --> 00:49:55.305
+I also wouldn't suggest capitals. Keep everything lowercase.
+
+00:49:55.395 --> 00:49:59.505
+It's just very simple, and it's less likely to make mistakes.
+
+00:50:00.241 --> 00:50:03.075
+And websites also don't like capital case. It just gets weird.
+
+00:50:03.675 --> 00:50:07.846
+So if you keep everything lowercase, it's just less likely to make errors later on.
+
+00:50:08.535 --> 00:50:10.755
+There are some questions on the chat.
+
+00:50:12.555 --> 00:50:12.795
+What?
+
+00:50:14.025 --> 00:50:16.995
+You have some questions at the chat.
+
+00:50:17.116 --> 00:50:18.015
+Yeah. Okay.
+
+00:50:21.705 --> 00:50:26.445
+Yeah, so if I got this new image now, actually I can even drag it now. No, I can't.
+
+00:50:27.105 --> 00:50:28.395
+That was too good to be true. Okay.
+
+00:50:31.695 --> 00:50:32.714
+I'm going to go back here.
+
+00:50:34.635 --> 00:50:38.355
+Week one as an example. New image. I've got it selected.
+
+00:50:38.565 --> 00:50:43.185
+And then on my alt text, I can put in the square brackets.
+
+00:50:50.565 --> 00:50:54.015
+There we go. Don't forget to commit. We look on the left.
+
+00:50:54.075 --> 00:50:58.125
+We have three files we need to commit. So we got the week one.
+
+00:50:58.185 --> 00:51:01.544
+I'm going to open it. It's going to show me the changes. Yeah, two new images.
+
+00:51:02.565 --> 00:51:08.550
+I've got the new image I am uploading, and then, yeah, new image uploaded.
+
+00:51:08.866 --> 00:51:11.535
+I write a message, and then I click Commit to push.
+
+00:51:13.726 --> 00:51:14.610
+That's it. That should
+
+00:51:15.106 --> 00:51:20.505
+then
+
+00:51:21.495 --> 00:51:22.995
+now if I go back to my...
+
+00:51:30.495 --> 00:51:32.055
+So there's a question here about right-clicking.
+
+00:51:32.115 --> 00:51:36.900
+We have to make sure we're clicking the folder, and sometimes I notice on some
+
+00:51:36.915 --> 00:51:38.505
+browsers, it's like a right-click
+
+00:51:40.425 --> 00:51:44.865
+and then clicking it again. So if you don't get this pop-up because you get the one
+
+00:51:44.895 --> 00:51:50.145
+of the browser, sometimes just doing a quick click on the link on the week one
+
+00:51:50.175 --> 00:51:54.405
+again can work. If that doesn't work, select week one.
+
+00:51:54.525 --> 00:51:56.835
+So you see I have it highlighted in the left here.
+
+00:51:57.315 --> 00:51:58.995
+Then at the top, you'll see
+
+00:52:01.125 --> 00:52:02.025
+this sort of...
+
+00:52:03.856 --> 00:52:06.435
+Oops. If we go to the top here,
+
+00:52:08.955 --> 00:52:10.096
+I'm pretty sure you can do...
+
+00:52:13.065 --> 00:52:16.545
+No, this is new folder, new file.
+
+00:52:21.165 --> 00:52:21.405
+Hmm.
+
+00:52:34.440 --> 00:52:38.235
+Can you go back to the original settings in the original Zankio file?
+
+00:52:39.705 --> 00:52:41.145
+You mean you want to revert?
+
+00:52:44.266 --> 00:52:48.826
+If you think you've made a mistake in a Zankio file, you can go to your project.
+
+00:52:48.915 --> 00:52:54.555
+So if I go to my main page build project, I can look at the list of files.
+
+00:52:55.485 --> 00:52:56.535
+I can then click
+
+00:52:58.305 --> 00:53:03.585
+the Zankio TOML file, the configuration file, and so I'm looking at the current
+
+00:53:03.645 --> 00:53:07.516
+version of it. If I go to History, I can click here, History.
+
+00:53:09.016 --> 00:53:13.785
+I can see a list of all the changes I've made just to this file.
+
+00:53:14.820 --> 00:53:20.175
+And so by that, I can then, for example, in my case maybe,
+
+00:53:21.405 --> 00:53:27.195
+your case, you will go to the first commit, let's say, creating the
+
+00:53:27.226 --> 00:53:33.180
+template. I have a big history, so I'm just going to go to the one from today.
+
+00:53:33.195 --> 00:53:39.135
+And then if I look at this commit, I can then say, "View this file." View the
+
+00:53:39.165 --> 00:53:43.665
+whole file for this specific commit that I wrote four hours ago.
+
+00:53:43.726 --> 00:53:46.710
+And then I can copy the whole contents.
+
+00:53:46.755 --> 00:53:48.915
+There's a little button here that says Copy Contents.
+
+00:53:49.516 --> 00:53:52.351
+And I can then just paste the whole contents into my
+
+00:53:54.795 --> 00:53:55.201
+editor
+
+00:53:57.076 --> 00:54:00.285
+and overwrite everything. And then I'll see here, okay, it's changed.
+
+00:54:00.346 --> 00:54:04.785
+And I can see, okay, now it's going back from Julian to that generic placeholder
+
+00:54:04.815 --> 00:54:08.851
+name. So that's one way you could go back and undo things.
+
+00:54:10.785 --> 00:54:12.045
+If you really want to go more,
+
+00:54:13.275 --> 00:54:15.735
+if you want to go hardcore, there's revert.
+
+00:54:15.826 --> 00:54:20.115
+I don't know if in Git, there's a lot of powerful tools to just go back in history
+
+00:54:20.175 --> 00:54:25.335
+and just go reverse your commits. And so, for example, I can then click this commit
+
+00:54:25.365 --> 00:54:27.435
+that I looked at previously.
+
+00:54:32.596 --> 00:54:36.495
+And then in the options on the top right, there's sort of an Options Revert.
+
+00:54:37.335 --> 00:54:42.766
+Now, so this is going to basically roll back the whole project back to this commit.
+
+00:54:42.826 --> 00:54:47.430
+So all the previous commits you did, even to other files, they'll get undone, and
+
+00:54:47.445 --> 00:54:51.255
+it'll go to whatever the state of the whole repo was when this commit was made.
+
+00:54:51.915 --> 00:54:55.576
+So basically, if you do a bunch of changes and it's all breaking, you don't know
+
+00:54:55.606 --> 00:54:59.356
+where you are, you can just go back to yesterday was working.
+
+00:54:59.415 --> 00:55:02.235
+So I'm just going to go back to yesterday, and you undo everything you did.
+
+00:55:02.985 --> 00:55:05.205
+So it's a very nuclear reaction
+
+00:55:06.969 --> 00:55:07.914
+Actually, that's not true. That's
+
+00:55:10.179 --> 00:55:15.083
+reset, which you can't do through here. Sorry, I misspoke.
+
+00:55:15.129 --> 00:55:18.459
+There's two ones. There's the rollback, but this is actually revert.
+
+00:55:18.489 --> 00:55:18.954
+So this is
+
+00:55:20.199 --> 00:55:26.019
+going to reverse. So instead of copy and pasting what I just did, I can just
+
+00:55:26.079 --> 00:55:28.509
+click this, and it's going to make a commit
+
+00:55:31.839 --> 00:55:36.309
+for me. So what I was doing where I copy the contents in and make a commit
+
+00:55:36.369 --> 00:55:38.169
+manually, this one's just going to do it for me.
+
+00:55:38.229 --> 00:55:40.509
+So if you see here now it made a new commit saying revert.
+
+00:55:40.569 --> 00:55:42.789
+So this is just reverting a specific commit.
+
+00:55:43.719 --> 00:55:45.369
+And I can see here
+
+00:55:47.500 --> 00:55:47.799
+that
+
+00:55:49.089 --> 00:55:50.559
+all the jobs are failing also.
+
+00:56:00.190 --> 00:56:01.269
+No, I'm just checking my server.
+
+00:56:03.669 --> 00:56:05.019
+So I hope that's explaining something.
+
+00:56:05.079 --> 00:56:10.030
+So, if one commit's making changes of seven files, that's a quick way of reverting
+
+00:56:10.089 --> 00:56:11.019
+a bunch of files.
+
+00:56:15.459 --> 00:56:18.789
+So then the more nuclear option of rolling back your whole commit, you have to do
+
+00:56:18.849 --> 00:56:23.530
+it locally in your computer. And I think if you want to go down, that's very
+
+00:56:23.589 --> 00:56:28.839
+interesting. So the thing with the web editor is every time I make a change, so
+
+00:56:28.900 --> 00:56:30.910
+let's say I'm making a change to a markdown file,
+
+00:56:32.364 --> 00:56:35.739
+even sometimes with these, like this one, I don't know what it looks like.
+
+00:56:35.769 --> 00:56:36.789
+I don't know how it's going to look like.
+
+00:56:36.849 --> 00:56:40.569
+I have to commit it, wait for it to build the project, which is like 10, 20
+
+00:56:40.660 --> 00:56:43.419
+seconds, and then I can see what it looks like on my website.
+
+00:56:48.489 --> 00:56:48.759
+So
+
+00:56:51.069 --> 00:56:54.444
+if I would work locally on my computer, if I would download this project and
+
+00:56:54.489 --> 00:56:59.709
+install it on my computer, then I can install Zikulo on my computer, and I can run
+
+00:56:59.739 --> 00:57:03.190
+it locally in my browser without having to make commits.
+
+00:57:03.250 --> 00:57:08.739
+It's sort of running the website locally.
+
+00:57:08.785 --> 00:57:11.919
+It's going to build the project on your computer, and you can open the HTML files.
+
+00:57:11.949 --> 00:57:15.759
+You'll see the HTML files, and you can open them in your browser and see what it
+
+00:57:15.789 --> 00:57:17.799
+would look like without making any commits.
+
+00:57:17.829 --> 00:57:21.819
+And then once you're very happy with all the changes, maybe it's a full day of
+
+00:57:21.879 --> 00:57:23.829
+work, then you can make one big commit.
+
+00:57:24.519 --> 00:57:29.530
+So that's another way of working, and it's nicer because then you don't have to
+
+00:57:29.559 --> 00:57:31.780
+work in a browser. It depends how fast your computer is.
+
+00:57:31.839 --> 00:57:36.849
+Sometimes, the editor's a bit slow if you're doing all your changes in here.
+
+00:57:36.879 --> 00:57:40.419
+But if you're making one spelling mistake, commit, wait.
+
+00:57:40.900 --> 00:57:45.190
+One upload file, wait, commit, and then it can be quite a slow progress.
+
+00:57:45.219 --> 00:57:45.459
+So
+
+00:57:46.900 --> 00:57:48.954
+I either learn the
+
+00:57:50.229 --> 00:57:54.069
+markdown and try and do all your changes and upload three images and add them,
+
+00:57:54.129 --> 00:57:57.128
+write some text, and then commit because it sort of guess.
+
+00:57:57.429 --> 00:58:01.644
+You'll start to see a pattern. You know that this image is going to look like this,
+
+00:58:02.319 --> 00:58:04.375
+especially after the first and second week.
+
+00:58:04.660 --> 00:58:07.959
+You'll know the kinds of layouts you want to do.
+
+00:58:07.989 --> 00:58:12.174
+If you always like an image on the right or you always like blue buttons, then
+
+00:58:12.219 --> 00:58:14.829
+you're going to copy that blue button every time, and you don't need to commit to
+
+00:58:14.859 --> 00:58:17.589
+see what it looks like. You can do a bunch of work and then commit.
+
+00:58:18.129 --> 00:58:20.229
+So it's just speeding up your time.
+
+00:58:24.219 --> 00:58:29.709
+Yeah. I've also noticed the
+
+00:58:30.160 --> 00:58:35.319
+GitLab is a bit slow. I think it's always that with this class, everyone's trying
+
+00:58:35.379 --> 00:58:39.280
+everything at the same time, and so then the server's just especially busy.
+
+00:58:41.049 --> 00:58:45.549
+So I think if some things are failing, I notice my pipeline has failed.
+
+00:58:45.639 --> 00:58:51.369
+This is a good example. I can go back and I'm going to open this, why did
+
+00:58:51.429 --> 00:58:51.759
+my
+
+00:58:53.109 --> 00:58:56.049
+website not build? And I can see I got an error.
+
+00:58:59.679 --> 00:59:01.690
+Oh, so you see this is a good way. So I'm looking.
+
+00:59:01.719 --> 00:59:04.389
+Okay, so it could not render blah, blah footer.
+
+00:59:04.449 --> 00:59:08.125
+Okay, well, I didn't change anything in the footer, but blah, blah, blah, blah.
+
+00:59:08.559 --> 00:59:10.315
+And then social. Oh, social.
+
+00:59:11.650 --> 00:59:15.759
+Then it's looked in icons, and now I read down the text, LinkedIn.
+
+00:59:15.910 --> 00:59:18.609
+I did do something about a LinkedIn, and it looks like I didn't
+
+00:59:19.839 --> 00:59:21.250
+write LinkedIn correctly or...
+
+00:59:23.619 --> 00:59:26.589
+So this is sort of an example of how I would interpret these errors.
+
+00:59:26.619 --> 00:59:30.819
+They're not going to tell you exactly what's wrong. You sort of have to guess.
+
+00:59:30.910 --> 00:59:35.769
+What's the website trying to do is trying to build the footer, and then it trying
+
+00:59:35.799 --> 00:59:38.500
+to read the configuration file, and it can't find something.
+
+00:59:38.559 --> 00:59:41.109
+And so I remember I did something with the TOML file.
+
+00:59:41.769 --> 00:59:43.929
+So if I go back to my TOML file,
+
+00:59:46.000 --> 00:59:50.559
+I can then find social, yeah, down here.
+
+00:59:52.299 --> 00:59:52.569
+And
+
+00:59:54.069 --> 00:59:55.254
+oh, I already reverted it.
+
+00:59:56.859 --> 00:59:59.799
+Maybe not. I didn't commit it. Commit.
+
+01:00:12.069 --> 01:00:16.449
+This is a good example. Everyone, look, I have this message here that says, "The
+
+01:00:16.509 --> 01:00:22.179
+file has changed while you're editing it." So I had this tab open, and I
+
+01:00:22.209 --> 01:00:26.214
+remember I did the revert. So let's imagine I had another tab, and I edited a file,
+
+01:00:26.289 --> 01:00:29.273
+or I did something locally, and I pushed those commits.
+
+01:00:29.410 --> 01:00:33.054
+Now this tab is telling me, "Actually, you're not on the latest version.
+
+01:00:33.069 --> 01:00:37.405
+There's other stuff has happened to your project while you had this open." So it
+
+01:00:37.719 --> 01:00:43.389
+cannot commit those changes because the place where it's the changing from to is
+
+01:00:43.449 --> 01:00:47.019
+different. It's like, wait a minute, I might override something you already did.
+
+01:00:48.160 --> 01:00:52.030
+So the only thing here is to reload the whole tab, so I will lose my changes.
+
+01:00:53.199 --> 01:00:56.979
+But luckily, it's only one file, so I can copy it, and then I can just reload the
+
+01:00:57.039 --> 01:00:57.549
+whole page.
+
+01:00:58.869 --> 01:01:01.599
+And this is kind of another reason why working locally
+
+01:01:02.829 --> 01:01:08.694
+has advantages because, losing work is less of an issue because they're
+
+01:01:08.739 --> 01:01:14.019
+just files on your computer until you commit and push them. A browser can crash.
+
+01:01:14.440 --> 01:01:15.879
+I get something like this that I have to
+
+01:01:18.039 --> 01:01:19.824
+reload my tab, and I could lose work.
+
+01:01:20.139 --> 01:01:23.139
+So that's sometimes why people commit often when they're in the tab.
+
+01:01:23.979 --> 01:01:25.389
+But if you run locally, it's...
+
+01:01:27.160 --> 01:01:29.440
+I don't know how I am from time, anyone.
+
+01:01:31.509 --> 01:01:34.958
+I wanted to just quickly talk about that there's also CSS.
+
+01:01:35.079 --> 01:01:35.259
+So,
+
+01:01:36.728 --> 01:01:39.309
+Zikulo is going to make...
+
+01:01:40.569 --> 01:01:42.429
+Ah, this is the problem someone was talking about.
+
+01:01:46.989 --> 01:01:47.949
+I'm going to push ahead.
+
+01:01:51.910 --> 01:01:55.989
+If I open my repository, I think the server's quite busy.
+
+01:01:58.750 --> 01:02:00.729
+Yeah. It's very busy.
+
+01:02:09.129 --> 01:02:14.619
+Inside the docs folder, there's a file called stylesheets and extra
+
+01:02:14.650 --> 01:02:20.500
+CSS. In here, you can then customize the
+
+01:02:20.679 --> 01:02:23.979
+styling that the Zikulo template uses.
+
+01:02:24.039 --> 01:02:29.919
+So, they decide to have font sizes of this, or the headings and buttons
+
+01:02:29.949 --> 01:02:35.229
+look like this. And so we can use CSS to sort of change that, so changing the
+
+01:02:35.289 --> 01:02:36.789
+default that Zikulo uses.
+
+01:02:38.079 --> 01:02:42.009
+And so these are the CSS, just very quickly, it sort of has these sort of targets.
+
+01:02:42.099 --> 01:02:47.410
+These are saying, find any element in the HTML that has this sort of
+
+01:02:47.859 --> 01:02:51.625
+tag on it, so that each element you can assign tags called, well, they're called
+
+01:02:51.699 --> 01:02:53.199
+classes. I should call them class.
+
+01:02:54.489 --> 01:03:00.459
+And so it's telling me, find an element on HTML with this class and then change
+
+01:03:00.489 --> 01:03:01.389
+the default color.
+
+01:03:02.650 --> 01:03:07.329
+So these are called CSS variable colors, and in the Zikulo documentation, you can
+
+01:03:07.419 --> 01:03:08.949
+find some
+
+01:03:10.389 --> 01:03:12.684
+of the defaults, so you can change them.
+
+01:03:12.819 --> 01:03:18.084
+A good way, I'm going quick, but you have to sort of go down the rabbit hole of
+
+01:03:18.160 --> 01:03:23.259
+CSS. So if I open my... This is in the browser, so I've got a new developer tool.
+
+01:03:23.349 --> 01:03:26.139
+I right-clicked, and I did inspect.
+
+01:03:26.979 --> 01:03:29.859
+And so I'm actually looking at the HTML for this
+
+01:03:34.089 --> 01:03:37.690
+element. So right, so it's a list. LI is a list.
+
+01:03:38.199 --> 01:03:40.750
+It's got a class called MD nav link item.
+
+01:03:41.799 --> 01:03:46.690
+And then I can also see here all the CSS that's applied to it. It's got no padding.
+
+01:03:46.780 --> 01:03:49.629
+It's got no styling. It's not got much because it's just a list.
+
+01:03:49.750 --> 01:03:51.759
+And it's got a font size of 0.7.
+
+01:03:53.169 --> 01:03:56.139
+So now I can say, "Well, actually, I want the list to have a different styling." So
+
+01:03:56.199 --> 01:04:00.910
+then I can write here at the top, I can write font size, and then I can write,
+
+01:04:00.969 --> 01:04:06.940
+well, make it 0.8 or 0.1. And
+
+01:04:07.179 --> 01:04:10.509
+say, "Yeah, I like this font size." So then you say, "Okay, well, I've got to copy
+
+01:04:10.660 --> 01:04:16.269
+this and then put it in the CSS file." And then you've also got to copy the MD nav,
+
+01:04:16.359 --> 01:04:17.259
+and then you would say, like...
+
+01:04:19.269 --> 01:04:20.619
+Of course, it's not working
+
+01:04:22.254 --> 01:04:23.125
+I shouldn't have reloaded.
+
+01:04:24.804 --> 01:04:29.949
+And so you put it in here, you put in MD nav, and then you put it the second line
+
+01:04:29.964 --> 01:04:31.824
+in the font. So instead of this, you put font size.
+
+01:04:31.884 --> 01:04:34.285
+So what I was experimenting-- This is an experiment, right?
+
+01:04:34.375 --> 01:04:38.004
+I'm doing it live in the browser, so if I reload, I lose this font size seven.
+
+01:04:38.544 --> 01:04:42.084
+But this is a great way to, I can manipulate my website in here, do some
+
+01:04:42.114 --> 01:04:46.254
+experiments with CSS. Your mind will get blown if you get into CSS.
+
+01:04:46.315 --> 01:04:50.949
+It's really straightforward. The wording is font size, padding, margins,
+
+01:04:52.824 --> 01:04:58.044
+background. So it's quite intuitive and I think just sort of finding how you can
+
+01:04:58.104 --> 01:05:02.394
+target it. And that's how you can take your website visually, make it a bit
+
+01:05:02.424 --> 01:05:05.634
+different, sort of get a bit more advanced.
+
+01:05:07.344 --> 01:05:12.804
+And, yeah, I really suggest doing some very simple tutorials on the internet, like
+
+01:05:12.984 --> 01:05:18.264
+W3Schools has great CSS tutorial or ask your AI, "Please explain
+
+01:05:18.354 --> 01:05:23.679
+me CSS. Teach me CSS." Right? "Don't do something for me, just teach it to me." And
+
+01:05:23.694 --> 01:05:27.099
+then try and figure out, okay, now that I know how to change a color in the
+
+01:05:27.204 --> 01:05:32.364
+background, how would I make my own button? Sort of, yeah.
+
+01:05:34.194 --> 01:05:37.584
+Again, I think working locally is really-- I'm going to quickly show you.
+
+01:05:38.514 --> 01:05:41.574
+If you look at the documentation on Zekio, they'll explain you how to install
+
+01:05:41.589 --> 01:05:43.464
+locally. It's very simple. You just need Python.
+
+01:05:43.525 --> 01:05:45.324
+For example, on Mac, we have Python.
+
+01:05:45.834 --> 01:05:50.094
+You just need to run these commands to then sort of initialize Python and then
+
+01:05:50.155 --> 01:05:56.079
+install Zekio. And then when you do Zekio build, you do local host, which is
+
+01:05:56.094 --> 01:05:59.199
+basically opening a website just on your computer. It's not on the internet.
+
+01:05:59.440 --> 01:06:04.914
+And then you can see your website. So every time you edit a file, your website
+
+01:06:04.944 --> 01:06:06.369
+updates. So it's a great way,
+
+01:06:08.275 --> 01:06:10.704
+but you'll have to clone it, and so to clone it...
+
+01:06:13.584 --> 01:06:16.164
+I'm going to look if there's any more questions before I get into that.
+
+01:06:19.674 --> 01:06:22.405
+Yeah, so a commit is the actual saved change.
+
+01:06:22.434 --> 01:06:27.834
+So that's a specific change from old to new, left to right.
+
+01:06:28.494 --> 01:06:32.724
+And the jobs is sort of the work that needs to be done every time you make a
+
+01:06:32.815 --> 01:06:37.315
+commit. So the commit is the change, and the job is actually building your website.
+
+01:06:37.554 --> 01:06:40.523
+So they have to go in together. That's why we want the job is the green light.
+
+01:06:41.065 --> 01:06:44.394
+When you have the green light, then the job completed successfully, and it
+
+01:06:44.424 --> 01:06:45.504
+published your website.
+
+01:06:46.854 --> 01:06:49.464
+Usually, you don't need to know anything about both.
+
+01:06:49.525 --> 01:06:55.434
+The commits is like, if I need to go back and figure out what went wrong or what
+
+01:06:55.464 --> 01:06:58.644
+do I want to change, or what did I accidentally delete, then you would go back into
+
+01:06:58.674 --> 01:07:04.269
+your list of commits, the history, and see what may have gone, find
+
+01:07:04.315 --> 01:07:08.544
+whatever. And the jobs, you only care about the most recent one.
+
+01:07:08.604 --> 01:07:14.394
+So if you make seven commits and six of them fail, but the last
+
+01:07:14.454 --> 01:07:16.854
+one passed, that's all that matters.
+
+01:07:17.484 --> 01:07:17.724
+If
+
+01:07:19.494 --> 01:07:24.639
+you make six commits and all five of them pass, but the last one failed, that's the
+
+01:07:24.684 --> 01:07:28.344
+problem. It's always the last one, the most recent one, because on the website, you
+
+01:07:28.375 --> 01:07:33.414
+can only have one website. So it's always the last job that ran that will sort of
+
+01:07:33.443 --> 01:07:34.884
+publish the website, the truth.
+
+01:07:36.294 --> 01:07:36.504
+So yeah.
+
+01:07:37.824 --> 01:07:41.155
+About cloning, again, yeah, I really suggest cloning.
+
+01:07:42.444 --> 01:07:46.074
+There are some great tutorials on how to clone for yours or whether Mac or Linux.
+
+01:07:46.164 --> 01:07:50.604
+You could look at the documentation of GitLab.
+
+01:07:50.664 --> 01:07:55.254
+So that's the software you would use, so their documentation shows you how you can
+
+01:07:55.854 --> 01:07:59.094
+set up Git on your computer to be able to link
+
+01:08:00.384 --> 01:08:04.044
+GitLab, our server repo, and your computer.
+
+01:08:04.104 --> 01:08:08.364
+You have to use a thing called SSH keys. So that's something you'll get into.
+
+01:08:08.378 --> 01:08:12.354
+And then you can create an SSH key on your computer that then GitLab knows, and
+
+01:08:12.384 --> 01:08:16.315
+then you can talk to each other. So if you look at the GitLab or the GitHub's
+
+01:08:16.344 --> 01:08:19.525
+documentation, it's sort of the same idea.
+
+01:08:20.724 --> 01:08:23.574
+And then what you're doing is you're going to code.
+
+01:08:23.634 --> 01:08:27.684
+You see this big black box that's code, and you say clone.
+
+01:08:27.864 --> 01:08:28.780
+You want to clone with--
+
+01:08:31.315 --> 01:08:36.054
+Well, with SSH, it's a bit hidden now because I'm zoomed out. There.
+
+01:08:36.174 --> 01:08:38.874
+You want to copy this link, and then when you run...
+
+01:08:41.544 --> 01:08:43.525
+I'm in a terminal now. You have to open Terminal.
+
+01:08:45.474 --> 01:08:51.444
+I can go to a folder or something, and I'm going to do Git
+
+01:08:51.565 --> 01:08:56.995
+clone, and I paste the URL, and then it should just clone it to my computer.
+
+01:08:57.054 --> 01:09:00.204
+So it's sort of downloading the whole copy of the whole repository with all the
+
+01:09:00.264 --> 01:09:04.944
+history. So every single change I ever made to this repository is now on my
+
+01:09:04.974 --> 01:09:05.664
+computer as well.
+
+01:09:06.894 --> 01:09:07.208
+And
+
+01:09:09.204 --> 01:09:13.164
+so here's it. So if I look at the file, the file is here, so I can then CD change
+
+01:09:13.194 --> 01:09:17.934
+directory, Fabry Academy. So I'm now inside the repository.
+
+01:09:18.084 --> 01:09:21.294
+I can do a Git status. I'm looking at, okay,
+
+01:09:23.275 --> 01:09:28.764
+what did you change in this file? I can then, as an example, I'm going to just--
+
+01:09:30.084 --> 01:09:34.044
+You will open your own text editor. I'm just opening an editor in this browser.
+
+01:09:34.134 --> 01:09:34.374
+Don't
+
+01:09:36.144 --> 01:09:39.204
+worry about this. I'm just quickly editing a file so
+
+01:09:40.794 --> 01:09:43.044
+I can then save it. So now I saved it.
+
+01:09:43.074 --> 01:09:48.924
+If I do Git status, so now on my computer, it's telling me I have one modified
+
+01:09:48.954 --> 01:09:54.025
+file. This is just on my computer. If I see what changed, show me the difference.
+
+01:09:54.144 --> 01:09:57.324
+It's showing me, okay, in this file index, this file changed,
+
+01:09:58.884 --> 01:10:01.554
+and then I can make a commit. So I can say add.
+
+01:10:04.314 --> 01:10:06.894
+Say, if you want to add this file to be committed, yes.
+
+01:10:07.044 --> 01:10:12.684
+And then I say, "Okay, Git status." These are the files that will be
+
+01:10:12.714 --> 01:10:16.074
+committed. I do commit M, I.
+
+01:10:19.884 --> 01:10:24.114
+And then I can do a Git push, and then I do a Git push.
+
+01:10:25.644 --> 01:10:28.194
+So this is the same bit what I was doing in the browser.
+
+01:10:28.314 --> 01:10:31.404
+So if I can choose the file I want. Well, I couldn't choose in the browser, but I
+
+01:10:31.434 --> 01:10:34.104
+have to choose it here. I commit, and then I push it,
+
+01:10:35.424 --> 01:10:40.074
+and then it's successful. It's successful because I already made an SSH key on my
+
+01:10:40.104 --> 01:10:43.644
+computer, so my computer's already connected with the server.
+
+01:10:44.934 --> 01:10:49.733
+And so, yeah, as you can see, it's not me. I used someone else's computer.
+
+01:10:50.544 --> 01:10:54.264
+So I made a commit. I still have a failed project, it seems.
+
+01:10:55.164 --> 01:10:57.054
+I didn't fix my previous one.
+
+01:11:06.894 --> 01:11:12.504
+Yeah. Kim, and if you're continuing
+
+01:11:12.535 --> 01:11:18.324
+students, you may see MK Docs. That was the project we used
+
+01:11:18.384 --> 01:11:23.664
+last year. Everything's the same, except it's a YAML file and not a TOML file.
+
+01:11:24.714 --> 01:11:27.474
+But the same concept, the same features are there.
+
+01:11:27.535 --> 01:11:31.493
+You just have to look at the documentation for the material MK Docs theme.
+
+01:11:31.554 --> 01:11:32.124
+And then
+
+01:11:36.264 --> 01:11:39.444
+share it. So yeah, I want to show, yeah, how can I run it?
+
+01:11:39.535 --> 01:11:43.884
+I showed you how to commit. So on a Mac, the easiest way to--
+
+01:11:47.544 --> 01:11:50.139
+Your Python's already installed, so you don't need to install it, you just need to
+
+01:11:50.245 --> 01:11:54.144
+activate it. And the best way is to sort of write these commands.
+
+01:11:54.189 --> 01:11:58.704
+So this is telling me I want to activate Python.
+
+01:11:58.824 --> 01:12:04.314
+You do this inside the project that you cloned, and then you need to activate
+
+01:12:04.374 --> 01:12:05.754
+it.
+
+01:12:09.535 --> 01:12:15.414
+You activate it, and then I have to do pipe install Zekico.
+
+01:12:17.454 --> 01:12:25.314
+It's
+
+01:12:25.344 --> 01:12:26.934
+installing Zekio on my computer.
+
+01:12:28.734 --> 01:12:31.164
+I'm going to paste it in the commands if anyone wants to try.
+
+01:12:31.224 --> 01:12:32.514
+So I know this works on Mac.
+
+01:12:39.834 --> 01:12:42.114
+And now if I do Zekico
+
+01:12:43.434 --> 01:12:44.094
+serve,
+
+01:12:46.644 --> 01:12:51.684
+this is basically going to just say, "Make me a website and run it on my computer."
+
+01:12:57.654 --> 01:12:59.154
+Now, I still have that error with the...
+
+01:13:06.954 --> 01:13:09.309
+Sorry, I'm looking for that, what was it? Twitter?
+
+01:13:11.064 --> 01:13:14.245
+I still have these social things. I'm going to delete them.
+
+01:13:14.274 --> 01:13:15.324
+I'm going to save my file.
+
+01:13:18.204 --> 01:13:20.829
+Oh, I don't even need to commit it because I'm locally, so I just need to then now
+
+01:13:21.054 --> 01:13:23.454
+serve again. I click serve. Zekio serve.
+
+01:13:24.954 --> 01:13:27.234
+Great. It's now building me a website.
+
+01:13:27.294 --> 01:13:30.684
+So if I now right-click, and I say open link
+
+01:13:34.296 --> 01:13:36.546
+Yeah. And I'm going to have to copy this.
+
+01:13:40.626 --> 01:13:44.436
+So you see my screen now? I'm on localhost. I'm not on any website. I'm not domain.
+
+01:13:44.496 --> 01:13:49.522
+This is all on my computer. Localhost is just locally, my website's running, I can
+
+01:13:49.566 --> 01:13:54.186
+make a change. Oh, I have to open a new tab.
+
+01:13:55.536 --> 01:13:57.996
+So right now the server's running. I can't write any commands.
+
+01:13:58.057 --> 01:14:01.415
+It's running the server. So I need to open a new tab in the terminal.
+
+01:14:03.426 --> 01:14:07.341
+This won't be an issue if you're using an external browser like
+
+01:14:08.976 --> 01:14:12.786
+VS Code or Sublime or any tech code editor.
+
+01:14:12.846 --> 01:14:15.066
+I'm just doing everything in the browser to be quicker.
+
+01:14:18.546 --> 01:14:24.456
+So if I say, "Hello" now, and I save it, if I go
+
+01:14:24.486 --> 01:14:27.291
+back to the browser... Oh, they're already reloaded. So see?
+
+01:14:27.291 --> 01:14:32.016
+"Hello." It's much quicker to just try stuff out.
+
+01:14:32.826 --> 01:14:37.506
+Putting in the work, the rewards are much better later on.
+
+01:14:37.926 --> 01:14:40.057
+So if you work to set up everything now.
+
+01:14:41.526 --> 01:14:46.986
+The hardest part is the SSH key. So you've got to go to your account.
+
+01:14:47.316 --> 01:14:51.456
+In the top right, you'll see your account preferences,
+
+01:14:55.296 --> 01:14:58.926
+and then you have to go to Access and SSH keys.
+
+01:15:00.696 --> 01:15:05.647
+This is necessary because Git doesn't really work well with a
+
+01:15:05.676 --> 01:15:11.496
+username and password. You can get it to work, but I think SSH keys are
+
+01:15:12.876 --> 01:15:18.801
+my advice because it's sort of a cryptographically secure way of just
+
+01:15:18.846 --> 01:15:21.397
+making a link between your computer and the server.
+
+01:15:21.411 --> 01:15:22.071
+It's not a link, it's
+
+01:15:23.526 --> 01:15:26.241
+sort of a custom password just for your computer.
+
+01:15:27.186 --> 01:15:33.022
+So in this thing, you can click Add New Key, and just
+
+01:15:33.036 --> 01:15:36.966
+click the Learn More. And if you look at the Learn More, it's going to GitLab's
+
+01:15:37.026 --> 01:15:39.471
+website, or actually, the documentation.
+
+01:15:39.486 --> 01:15:43.807
+And if you scroll down, something will say Generate, and there's a command you can
+
+01:15:43.866 --> 01:15:48.726
+use to generate your SSH key. You might already have one from
+
+01:15:49.836 --> 01:15:51.456
+GitHub or something. You can use it.
+
+01:15:52.776 --> 01:15:54.441
+You don't have to make a new one on your computer.
+
+01:15:54.486 --> 01:15:58.356
+If you already have a key, it's even maybe better just to reuse it.
+
+01:15:59.856 --> 01:16:01.807
+The key is you only want to put the
+
+01:16:06.336 --> 01:16:10.686
+private key. So if we look here, so this is where we're creating it, adding your
+
+01:16:10.746 --> 01:16:15.636
+key. You sort of need to find a .pub version of it.
+
+01:16:16.956 --> 01:16:21.756
+And then you paste in here, give it a name, give it a long expiry date, like next
+
+01:16:21.846 --> 01:16:24.546
+year, so it doesn't stop working while you...
+
+01:16:25.281 --> 01:16:26.286
+And then you say Add Key,
+
+01:16:27.546 --> 01:16:31.326
+and then you can test it by doing a Git pull. So when you do the Git clone, sorry.
+
+01:16:35.106 --> 01:16:35.976
+Any more questions?
+
+01:16:37.956 --> 01:16:41.886
+That was very fast with SSH. Yeah.
+
+01:16:43.506 --> 01:16:48.411
+I think, even read this document. Read this sort of explaining what keys are in
+
+01:16:48.456 --> 01:16:49.446
+your time, I think,
+
+01:16:51.397 --> 01:16:52.971
+so you'll understand what's going on.
+
+01:16:55.746 --> 01:16:59.616
+And I'm going to have a look at, so if my pipeline, did it pass?
+
+01:17:22.986 --> 01:17:24.066
+Any more questions?
+
+01:17:28.086 --> 01:17:42.006
+There's
+
+01:17:42.036 --> 01:17:45.576
+a little documentation page that I put in chat.
+
+01:17:46.356 --> 01:17:51.816
+Your documentation already has markdown examples, but this is sort of
+
+01:17:51.876 --> 01:17:57.816
+another way to sort of some how-tos, how to edit a file, what it looks like, some
+
+01:17:57.846 --> 01:18:01.057
+markdown examples, some optimizing, customizing.
+
+01:18:01.386 --> 01:18:06.756
+We went over it, but this is sort of a mini handbook for some Git if you have extra
+
+01:18:06.846 --> 01:18:12.456
+issues. The best place is to just go to Mattermost, and there's a specific
+
+01:18:12.516 --> 01:18:13.581
+channel for
+
+01:18:18.366 --> 01:18:20.886
+this class. I think it's zero zero Git, something like this.
+
+01:18:21.366 --> 01:18:22.596
+You should have been added already.
+
+01:18:23.706 --> 01:18:28.895
+And, yeah, try and break stuff and see.
+
+01:18:38.706 --> 01:18:39.696
+Any questions?
+
+01:18:49.356 --> 01:18:52.656
+I'm also going to add the Zekio documentation link.
+
+01:18:54.936 --> 01:18:58.866
+You can also start by going through their website and seeing all the different
+
+01:18:58.926 --> 01:19:01.626
+things you can do, trying it out in it.
+
+01:19:03.276 --> 01:19:04.776
+So I should put basic on there.
+
+01:19:06.666 --> 01:19:07.807
+There's also like
+
+01:19:09.426 --> 01:19:12.036
+you can change the way the navigation works.
+
+01:19:12.546 --> 01:19:14.241
+You can have a sidebar, and
+
+01:19:16.386 --> 01:19:18.307
+you can have it without the sidebar.
+
+01:19:18.696 --> 01:19:18.741
+You
+
+01:19:20.106 --> 01:19:21.576
+can have multiple levels,
+
+01:19:24.246 --> 01:19:27.440
+and even the documentation is nice because it shows you what it would look like
+
+01:19:27.456 --> 01:19:28.656
+with the setting or without.
+
+01:19:31.326 --> 01:19:33.576
+Okay.
+
+01:19:37.057 --> 01:19:37.386
+Yeah.
+
+01:19:40.206 --> 01:19:40.506
+Shiva?
+
+01:19:43.476 --> 01:19:48.921
+Yes. Hi. So I have been following almost everything else.
+
+01:19:49.356 --> 01:19:55.086
+It's just that upload images or file issue is the thing I'm
+
+01:19:55.147 --> 01:20:00.846
+facing a problem with. I'm clicking on the week
+
+01:20:01.236 --> 01:20:05.106
+zero one or week zero two, but it is just showing me option to paste.
+
+01:20:05.736 --> 01:20:10.176
+I think the drop-down menu is flashing for a moment, but then for some reason, it
+
+01:20:10.236 --> 01:20:15.576
+is going out. I tried it, so I'm using Mozilla Firefox.
+
+01:20:16.176 --> 01:20:19.176
+I tried it in Chrome as well. Same thing is happening.
+
+01:20:20.226 --> 01:20:21.261
+Yeah. I think it's
+
+01:20:22.897 --> 01:20:25.176
+not the browser, it's like the operating system.
+
+01:20:26.526 --> 01:20:29.406
+Have you tried doing a right click and then a click?
+
+01:20:30.756 --> 01:20:36.426
+Like right click and then do one click, a left one. A right click and a, yeah.
+
+01:20:42.546 --> 01:20:43.897
+Yeah, let me just try that again.
+
+01:20:44.526 --> 01:20:48.576
+Because I reproduce it now. See, I also see paste. Yeah.
+
+01:20:58.026 --> 01:21:02.886
+Wait. So you right click once and, yeah, paste. And after that?
+
+01:21:03.966 --> 01:21:09.576
+And then I, again, click not on paste, but on the file, the folder
+
+01:21:09.606 --> 01:21:09.996
+again.
+
+01:21:11.796 --> 01:21:13.626
+Just once.
+
+01:21:14.766 --> 01:21:18.335
+Okay. I'll try that.
+
+01:21:31.626 --> 01:21:36.726
+Okay, so I can see a drop-down for a bit of a moment, and then it
+
+01:21:37.686 --> 01:21:39.366
+goes out.
+
+01:21:39.426 --> 01:21:40.566
+Yeah.
+
+01:21:45.636 --> 01:21:47.676
+Yeah, I'm also looking. There should be a way to...
+
+01:21:56.106 --> 01:21:58.897
+Or is there just an alternate way to upload stuff?
+
+01:21:59.826 --> 01:22:03.156
+There is, yeah. So the alternative way is if you're in your
+
+01:22:04.416 --> 01:22:07.536
+project, you have to go to the folder,
+
+01:22:08.946 --> 01:22:14.211
+navigate to the folder, so for example, Images, and week one, for example, and then
+
+01:22:14.286 --> 01:22:16.057
+on the right here, we'll have...
+
+01:22:18.696 --> 01:22:22.416
+Oh, the plus sign here. There's a plus sign here, and you can say Upload File.
+
+01:22:23.196 --> 01:22:25.746
+It's a manual, so it's one file at a time, but it works. Yeah.
+
+01:22:28.956 --> 01:22:32.106
+Okay. Yeah. Okay. So it's like GitHub one.
+
+01:22:33.096 --> 01:22:33.786
+Yeah.
+
+01:22:34.206 --> 01:22:35.316
+Okay. Sure then. Yeah.
+
+01:22:35.676 --> 01:22:39.996
+Yeah. And otherwise, really the next step, a little bit of work is doing this
+
+01:22:40.057 --> 01:22:43.818
+locally, because then- You don't have to deal with the browser, and you can add
+
+01:22:43.848 --> 01:22:46.818
+files to a folder and commit lots of files at once.
+
+01:22:46.848 --> 01:22:52.549
+So if you feel up to it, the local, and make an SSH key, local
+
+01:22:52.578 --> 01:22:56.674
+cloning, installing Zekil, it's great because then you don't have to, like, yeah,
+
+01:22:57.978 --> 01:22:58.713
+select a file-
+
+01:22:58.773 --> 01:22:58.773
+Yeah
+
+01:22:58.773 --> 01:22:59.808
+... upload it, select, yeah.
+
+01:23:00.918 --> 01:23:03.348
+Okay. Yeah. So I just do locally.
+
+01:23:03.709 --> 01:23:04.728
+This for today, yeah.
+
+01:23:08.299 --> 01:23:11.299
+Upload and then, yeah. Oh, actually, you can upload lots of files.
+
+01:23:12.348 --> 01:23:14.598
+Oh, okay. Right. Yeah. Thanks.
+
+01:23:19.068 --> 01:23:24.558
+All right. Yeah. I don't know. Should we stay longer? Any questions?
+
+01:23:24.588 --> 01:23:26.148
+You want me to show anything again?
+
+01:23:28.518 --> 01:23:30.108
+You want me to...
+
+01:23:37.578 --> 01:23:41.688
+On the left side, yeah, you've got code, which is a repository of all your files,
+
+01:23:41.778 --> 01:23:45.618
+commits is all the commits. Builds, you've got the pipelines and the jobs, so you
+
+01:23:45.648 --> 01:23:47.178
+can see a list of all the jobs.
+
+01:23:49.459 --> 01:23:52.459
+But again, only the last, the most, the top one matters.
+
+01:23:52.518 --> 01:23:55.398
+So as long as that one says passed, then everything works.
+
+01:23:56.508 --> 01:24:00.318
+If you have
+
+01:24:02.209 --> 01:24:03.438
+continually
+
+01:24:05.388 --> 01:24:09.648
+problems with the pipeline and you think, "I don't think it's me, the pipeline, it
+
+01:24:09.678 --> 01:24:15.603
+could be the server," let me know. You ask me, "Mattheos, is there something wrong
+
+01:24:15.648 --> 01:24:18.888
+with the server?" And that sometimes happens.
+
+01:24:20.928 --> 01:24:25.368
+And I'll look into it. Or I can also help you look at your logs. It's not a...
+
+01:24:36.858 --> 01:24:39.288
+Okay, my editor works again, so I can show you Zekil.
+
+01:24:39.408 --> 01:24:45.108
+There was a question about just showing changes.
+
+01:24:47.058 --> 01:24:48.078
+So if I make an edit,
+
+01:24:51.408 --> 01:24:53.028
+let's change
+
+01:24:56.328 --> 01:24:57.378
+the font.
+
+01:24:59.058 --> 01:25:02.148
+Well,
+
+01:25:09.018 --> 01:25:11.268
+I don't know. What's this one called?
+
+01:25:16.368 --> 01:25:19.368
+Robot Condensed. I'm taking it from the URL.
+
+01:25:27.049 --> 01:25:31.128
+So I copy the font name, and I go down to...
+
+01:25:32.418 --> 01:25:33.408
+Where was the font?
+
+01:25:37.308 --> 01:25:42.558
+I'm going to search for font. There it is. So I'm going to put Robot Condensed.
+
+01:25:42.678 --> 01:25:46.278
+I don't want the plus. It's just a space bar. The space is fine.
+
+01:25:47.118 --> 01:25:50.598
+Make sure I've got the open and closing quotes, text equals.
+
+01:25:51.768 --> 01:25:53.988
+I can see there the line changed. Oops.
+
+01:25:55.338 --> 01:25:59.268
+And so then I see on the left side a one, so it's telling me one file has changed.
+
+01:25:59.299 --> 01:26:03.768
+I click on it, and I open the new tab, which shows me the list of files that
+
+01:26:03.799 --> 01:26:04.248
+changed.
+
+01:26:05.959 --> 01:26:11.508
+And then I write and change font, and I commit to main. I click Commit to main.
+
+01:26:12.528 --> 01:26:14.388
+And then it should say successfully.
+
+01:26:14.418 --> 01:26:16.518
+You should see that pop up at the bottom there.
+
+01:26:21.858 --> 01:26:26.118
+Yeah. The change has been committed. I now go back to my jobs.
+
+01:26:26.178 --> 01:26:27.768
+On the other tab, I had the list of jobs.
+
+01:26:27.828 --> 01:26:29.058
+I can refresh this page,
+
+01:26:30.438 --> 01:26:31.278
+reload the page,
+
+01:26:32.868 --> 01:26:38.388
+and it says Commit just now, and it said it's passed.
+
+01:26:38.433 --> 01:26:40.608
+So it says green, so that knows everything's correct.
+
+01:26:40.698 --> 01:26:42.018
+So if I go to my website
+
+01:26:43.878 --> 01:26:44.628
+and I
+
+01:26:46.608 --> 01:26:48.738
+reload my website, it should look different.
+
+01:26:51.948 --> 01:26:53.688
+I think so. Yeah.
+
+01:26:55.578 --> 01:26:58.008
+And that's a bit fast. Okay.
+
+01:27:02.058 --> 01:27:07.668
+Yeah. Helps. So I hope that makes sense. I hope everyone has fun committing.
+
+01:27:10.368 --> 01:27:14.778
+Look at the markdowns that we've provided you. There's a lot of tips there.
+
+01:27:14.868 --> 01:27:15.468
+There's a lot of
+
+01:27:18.108 --> 01:27:22.398
+example markdown you can use. There's the Zekil website. Make commits.
+
+01:27:23.508 --> 01:27:27.738
+Once you get somewhere exciting, you can then try cloning locally.
+
+01:27:29.628 --> 01:27:31.549
+Yeah. As mentioned, maybe with Claudia,
+
+01:27:34.398 --> 01:27:37.488
+especially with uploading images, you have a fixed file storage,
+
+01:27:39.228 --> 01:27:41.148
+which is 500 megabytes for the whole
+
+01:27:42.828 --> 01:27:43.308
+class.
+
+01:27:44.658 --> 01:27:47.058
+So, you've got to make a budget every
+
+01:27:48.768 --> 01:27:52.398
+week. You've got to decide how many images can I upload and how big each image can
+
+01:27:52.459 --> 01:27:56.898
+be before I reach my limit. Because if you get to 100 megabyte already today,
+
+01:27:57.768 --> 01:27:59.358
+you're not going to have space for later on,
+
+01:28:00.799 --> 01:28:04.578
+which is why optimizing your images is very important, because the smaller you get
+
+01:28:04.608 --> 01:28:07.428
+them now, the more space you have later on.
+
+01:28:08.658 --> 01:28:12.468
+And so here, I'll share the slides later, and you can read this in more detail,
+
+01:28:13.278 --> 01:28:19.188
+sort of suggesting some good defaults. Images can be on your phone.
+
+01:28:19.248 --> 01:28:22.428
+You're taking really large pictures that have a lot of information, but for a
+
+01:28:22.459 --> 01:28:25.997
+website, they can be very small. They don't need to be wider than 800 pixels.
+
+01:28:26.209 --> 01:28:31.308
+A hundred kilobytes is more than enough because you're going to have a lot of
+
+01:28:31.338 --> 01:28:36.408
+pictures on your website. The website is already fixed width because of the style.
+
+01:28:37.248 --> 01:28:37.668
+And
+
+01:28:39.168 --> 01:28:42.888
+also think about not everyone's going to have maybe fiber optics cable or a
+
+01:28:42.978 --> 01:28:47.838
+satellite connection. People might be looking at this on their phone with not a
+
+01:28:47.868 --> 01:28:51.018
+good connection. Some countries don't have good connections, and so you have to
+
+01:28:51.078 --> 01:28:55.683
+also think about that, that if you load a website with very large images, they
+
+01:28:55.758 --> 01:29:00.558
+can't even look at your website. So, get a workflow.
+
+01:29:00.858 --> 01:29:05.163
+Claudia sent some suggested apps and things.
+
+01:29:05.209 --> 01:29:08.403
+Once it becomes part of your rhythm, then,
+
+01:29:11.238 --> 01:29:11.448
+yeah.
+
+01:29:15.049 --> 01:29:15.348
+Okay.
+
+01:29:22.368 --> 01:29:23.418
+I'll see you in nine months.
+
+01:29:33.678 --> 01:29:34.218
+Thank you.
+
+01:29:38.328 --> 01:29:39.978
+Thanks a lot. Bye bye.
+
+01:29:41.538 --> 01:29:42.138
+Thank you.
+
+01:29:42.888 --> 01:29:43.758
+Thanks. Bye. Thank you.
+
+01:29:45.198 --> 01:29:47.388
+Thank you very much. Have a nice day

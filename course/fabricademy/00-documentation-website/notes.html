@@ -1,0 +1,2190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Fabricademy 第十期 · 开篇文档化教程 · AI 笔记</title>
+<meta name="description" content="Fabricademy 10th Edition 2026-09-16 开篇视频的 AI 笔记:按课程实际主题整理 GitLab、Zensical、Markdown 与个人网站工作流。" />
+<style>
+  /* ===== Reset & Base ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.7;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :root {
+    --bg-0: #0d1117;
+    --bg-1: #161b22;
+    --bg-2: #1c2128;
+    --border: #30363d;
+    --text-0: #c9d1d9;
+    --text-1: #8b949e;
+    --text-2: #6e7681;
+    --accent: #58a6ff;
+    --accent-2: #7ee787;
+    --accent-3: #d2a8ff;
+    --warn: #d29922;
+    --danger: #f85149;
+    --code-bg: #161b22;
+    --shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+
+  /* ===== Layout ===== */
+  .app {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* ===== Sidebar ===== */
+  .sidebar {
+    background: var(--bg-1);
+    border-right: 1px solid var(--border);
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    padding: 0 20px 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+  .sidebar-header h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-1);
+    font-weight: 600;
+  }
+  .sidebar-header p {
+    font-size: 12px;
+    color: var(--text-2);
+    margin-top: 4px;
+  }
+
+  .toc { list-style: none; }
+  .toc li {
+    margin: 0;
+  }
+  .toc a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    color: var(--text-0);
+    text-decoration: none;
+    font-size: 13px;
+    border-left: 2px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .toc a:hover {
+    background: var(--bg-2);
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+  .toc-time {
+    color: var(--text-2);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px;
+    min-width: 44px;
+  }
+  .toc-text {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* ===== Main ===== */
+  .main {
+    padding: 40px 56px 80px;
+    max-width: 920px;
+  }
+
+  /* ===== Hero ===== */
+  .hero {
+    background: linear-gradient(135deg, var(--bg-1), var(--bg-2));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .hero-thumb {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background: linear-gradient(135deg, #1a1f29, #0d1117);
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-body { padding: 28px 32px 32px; }
+  .hero-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .tag {
+    background: rgba(88,166,255,0.1);
+    color: var(--accent);
+    border: 1px solid rgba(88,166,255,0.3);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .tag.green { background: rgba(126,231,135,0.1); color: var(--accent-2); border-color: rgba(126,231,135,0.3); }
+  .tag.purple { background: rgba(210,168,255,0.1); color: var(--accent-3); border-color: rgba(210,168,255,0.3); }
+  .tag.warn { background: rgba(210,153,34,0.1); color: var(--warn); border-color: rgba(210,153,34,0.3); }
+
+  .hero h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    color: #f0f6fc;
+  }
+  .hero-author {
+    color: var(--text-1);
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .hero-author a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  .stat-value { font-size: 20px; font-weight: 600; color: #f0f6fc; }
+  .stat-label { font-size: 12px; color: var(--text-1); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .hero-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-0);
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .btn:hover { background: var(--bg-0); border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--bg-0); border-color: var(--accent); font-weight: 600; }
+  .btn.primary:hover { background: #79b8ff; color: var(--bg-0); }
+
+  /* ===== Chapter Card ===== */
+  .chapter {
+    background: var(--bg-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 28px;
+    scroll-margin-top: 24px;
+    transition: border-color 0.2s ease;
+  }
+  .chapter:hover { border-color: var(--accent); }
+
+  .chapter-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .chapter-time {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--bg-2);
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .chapter-time:hover {
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.1);
+  }
+  .chapter-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0f6fc;
+    flex: 1;
+    min-width: 200px;
+  }
+  .chapter-num {
+    color: var(--text-2);
+    font-size: 13px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  .chapter-section {
+    margin-top: 18px;
+  }
+  .chapter-section-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-1);
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .chapter-section-title::before {
+    content: "";
+    width: 3px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 2px;
+  }
+
+  /* 本章摘要 box */
+  .tldr {
+    background: linear-gradient(135deg, rgba(88,166,255,0.08), rgba(126,231,135,0.05));
+    border: 1px solid rgba(88,166,255,0.2);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 14px 18px;
+    color: #e6edf3;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .tldr strong { color: var(--accent); font-weight: 600; }
+
+  /* Key points list */
+  .key-points {
+    list-style: none;
+    padding: 0;
+  }
+  .key-points li {
+    position: relative;
+    padding: 6px 0 6px 22px;
+    color: var(--text-0);
+  }
+  .key-points li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+
+  /* Term chips */
+  .terms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .term {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: var(--text-0);
+    position: relative;
+    cursor: help;
+  }
+  .term strong {
+    color: var(--accent-3);
+    font-weight: 600;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px;
+  }
+  .term:hover {
+    border-color: var(--accent);
+  }
+  .term-tip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: var(--text-0);
+    width: 240px;
+    z-index: 10;
+    margin-bottom: 6px;
+    box-shadow: var(--shadow);
+  }
+  .term:hover .term-tip { display: block; }
+
+  /* Action items */
+  .actions {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 18px;
+  }
+  .actions ol { padding-left: 22px; color: var(--text-0); }
+  .actions li { padding: 4px 0; }
+  .actions code {
+    background: var(--bg-0);
+    color: var(--accent-2);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  /* Original transcript */
+  details.transcript {
+    margin-top: 16px;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+  details.transcript summary {
+    padding: 10px 14px;
+    cursor: pointer;
+    color: var(--text-1);
+    font-size: 13px;
+    list-style: none;
+    user-select: none;
+  }
+  details.transcript summary::-webkit-details-marker { display: none; }
+  details.transcript summary::before {
+    content: "▸ ";
+    color: var(--accent);
+    transition: transform 0.15s ease;
+    display: inline-block;
+  }
+  details.transcript[open] summary::before { transform: rotate(90deg); }
+  details.transcript summary:hover { color: var(--accent); }
+  .transcript-body {
+    padding: 0 14px 14px;
+    color: var(--text-1);
+    font-size: 13px;
+    line-height: 1.65;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+  }
+  .transcript-body p { margin-bottom: 8px; }
+  .transcript-body em {
+    color: var(--warn);
+    font-style: normal;
+    font-size: 11px;
+    background: rgba(210,153,34,0.1);
+    padding: 1px 6px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  /* Notes */
+  .notes-area {
+    margin-top: 16px;
+  }
+  .notes-area textarea {
+    width: 100%;
+    min-height: 80px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+    color: var(--text-0);
+    font-family: inherit;
+    font-size: 13px;
+    resize: vertical;
+    transition: border-color 0.15s ease;
+  }
+  .notes-area textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .notes-status {
+    font-size: 11px;
+    color: var(--text-2);
+    margin-top: 4px;
+    text-align: right;
+  }
+
+  /* ===== Image Carousel ===== */
+  .carousel {
+    position: relative;
+    margin: 4px 0 8px;
+    background: #000;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+  }
+  .carousel-viewport { position: relative; width: 100%; height: 100%; }
+  .carousel-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+  .carousel-img.active { opacity: 1; }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: rgba(13,17,23,.7);
+    color: var(--text-0);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 2;
+  }
+  .carousel-btn:hover { background: rgba(88,166,255,.25); }
+  .carousel-btn.prev { left: 8px; }
+  .carousel-btn.next { right: 8px; }
+  .carousel-dots {
+    position: absolute; bottom: 8px; left: 50%;
+    transform: translateX(-50%);
+    display: flex; gap: 6px;
+    z-index: 2;
+  }
+  .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: rgba(201,209,217,.4);
+  }
+  .dot.active { background: var(--accent); }
+
+  /* ===== Footer ===== */
+  .footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-2);
+    font-size: 13px;
+    text-align: center;
+  }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; }
+    .sidebar {
+      position: relative;
+      height: auto;
+      max-height: 50vh;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .main { padding: 24px; }
+    .hero-stats { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 22px; }
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    .sidebar, .notes-area, .hero-actions, details.transcript { display: none; }
+    .main { padding: 0; }
+    .chapter { break-inside: avoid; border: 1px solid #ccc; }
+    body { background: white; color: black; }
+  }
+  .carousel:focus-visible, button:focus-visible, .term:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .carousel-counter { position: absolute; left: 12px; top: 10px; padding: 3px 8px; background: rgba(13,17,23,.85); border-radius: 4px; font-size: 12px; }
+  button.dot { border: 0; padding: 8px; cursor: pointer; }
+  .term:focus .term-tip { opacity: 1; visibility: visible; }
+  .transcript-body { max-height: 420px; overflow: auto; }
+  .main, .chapter { min-width: 0; overflow-wrap: anywhere; }
+  @media (max-width: 480px) { .main { padding: 16px 12px; } .chapter { padding: 20px 16px; } }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+  .chapter-map-note { color: var(--text-1); font-size: 13px; margin: 16px 0; }
+  .chapter-moments { padding-left: 20px; color: var(--text-1); }
+  .chapter-moments li { margin: 5px 0; }
+  .chapter-moments a { color: var(--accent); font-variant-numeric: tabular-nums; text-decoration: none; margin-right: 8px; }
+  .chapter-visual { margin: 16px 0 24px; }
+  .frame-caption { color: var(--text-1); font-size: 13px; line-height: 1.6; margin-top: 8px; }
+  .legacy-anchor { display: block; height: 0; }
+  .legacy-notes { background: var(--bg-1); padding: 24px; border: 1px solid var(--border); border-radius: 12px; }
+  .legacy-notes[hidden] { display: none; }
+  .legacy-note { border-top: 1px solid var(--border); padding: 16px 0; }
+  .legacy-note p { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .legacy-note a { color: var(--accent); }
+</style>
+<style data-reading-theme-assets>
+/* Shared reading appearance: directory + all course templates. */
+:root, :root[data-reading-theme="light"] {
+  color-scheme: light;
+  --bg-0: #f4f6f2; --bg-1: #ffffff; --bg-2: #edf2ea;
+  --border: #c1cdbd; --text-0: #24382e; --text-1: #4c5f51; --text-2: #536557;
+  --heading: #122b1e; --accent: #255e40; --accent-2: #255e40; --accent-3: #255e40;
+  --warn: #765211; --danger: #a52b26; --code-bg: #edf2ea; --on-accent: #ffffff;
+  --shadow: 0 8px 24px rgba(22,44,29,.07);
+}
+:root[data-reading-theme="medium"] {
+  color-scheme: light;
+  --bg-0: #cdcbbf; --bg-1: #e0dfd5; --bg-2: #d2d3c6;
+  --border: #a6ad9d; --text-0: #24382e; --text-1: #425547; --text-2: #425547;
+  --heading: #122b1e; --accent: #204e34; --accent-2: #204e34; --accent-3: #204e34;
+  --warn: #62430c; --danger: #8f251f; --code-bg: #d2d3c6; --on-accent: #ffffff;
+  --shadow: 0 8px 24px rgba(22,44,29,.09);
+}
+:root[data-reading-theme="dark"] {
+  color-scheme: dark;
+  --bg-0: #17201d; --bg-1: #202c26; --bg-2: #2b3931;
+  --border: #53675a; --text-0: #e7eee8; --text-1: #b8c7bc; --text-2: #a1b2a5;
+  --heading: #f1f6f0; --accent: #98d9b0; --accent-2: #98d9b0; --accent-3: #98d9b0;
+  --warn: #e2c47e; --danger: #ffaba4; --code-bg: #2b3931; --on-accent: #17201d;
+  --shadow: 0 8px 24px rgba(0,0,0,.18);
+}
+body {
+  background: var(--bg-0); color: var(--text-0);
+  font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px; line-height: 1.8;
+}
+button, input, select, textarea { font-family: inherit; }
+a { color: var(--accent); }
+.reading-toolbar { max-width: 1400px; margin: 0 auto; padding: 14px 24px; display: flex; align-items: center; justify-content: flex-end; flex-wrap: wrap; gap: 8px 12px; font-size: 14px; }
+.reading-label { color: var(--text-1); }
+.reading-options { display: inline-flex; padding: 4px; gap: 4px; border: 1px solid var(--border); border-radius: 10px; background: var(--bg-1); }
+.reading-options button { min-width: 66px; min-height: 40px; padding: 6px 14px; font-size: 14px; font-weight: 500; color: var(--text-0); background: transparent; border: 1px solid transparent; border-radius: 7px; cursor: pointer; }
+.reading-options button:hover { border-color: var(--accent); }
+.reading-options button[aria-pressed="true"] { background: var(--accent); color: var(--on-accent); font-weight: 600; }
+.reading-status { color: var(--text-1); font-size: 13px; }
+.reading-status:empty { display: none; }
+:focus-visible { outline: 3px solid var(--accent); outline-offset: 3px; }
+.hero, .hero-thumb { background: var(--bg-1); }
+.hero h1, .stat-value, .chapter-title { color: var(--heading); }
+.hero h1 { font-size: clamp(26px, 3vw, 32px); line-height: 1.45; }
+.chapter-title { font-size: 23px; line-height: 1.5; }
+.hero-author, .chapter-map-note, .frame-caption, .footer { font-size: 14px; }
+.sidebar-header h2, .sidebar-header p, .toc a { font-size: 14px; letter-spacing: normal; text-transform: none; }
+.toc-time { font-size: 12px; }
+.toc-text { white-space: normal; line-height: 1.6; }
+.chapter-section-title { color: var(--heading); font-size: 15px; letter-spacing: normal; text-transform: none; }
+.tldr { background: var(--bg-2); color: var(--text-0); border-color: var(--border); border-left-color: var(--accent); font-size: 16px; line-height: 1.85; }
+.tag, .tag.green, .tag.purple, .tag.warn { background: var(--bg-2); color: var(--accent); border-color: var(--border); font-size: 12px; }
+.btn, details.transcript summary, .term, .term-tip, .transcript-body { font-size: 14px; }
+.term strong { font-family: inherit; font-size: inherit; }
+.transcript-body { line-height: 1.85; }
+.transcript-body em { color: var(--text-1); background: var(--bg-1); font: 12px ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+.btn.primary, .btn.primary:hover { background: var(--accent); color: var(--on-accent); }
+.hero-actions { flex-wrap: wrap; }
+.notes-area textarea { font-size: 16px; line-height: 1.8; }
+.notes-area textarea::placeholder { color: var(--text-2); opacity: 1; }
+.notes-status, .stat-label { font-size: 13px; letter-spacing: normal; text-transform: none; }
+.chapter-time:hover { background: var(--bg-2); }
+.carousel-btn, .carousel-counter { color: #ffffff; background: rgba(13,23,17,.9); border-color: #96aa9a; }
+.carousel-btn:hover { color: #ffffff; background: #304c3c; }
+.dot { background: #ffffff; border: 2px solid #24382e !important; }
+.dot.active { background: #98d9b0; box-shadow: 0 0 0 2px #ffffff; }
+/* Directory shares the same palette and type scale. */
+body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px 64px; }
+.course-directory h1, .course-directory h2 { color: var(--heading); }
+.course-directory h1 { font-size: clamp(28px, 5vw, 40px); }
+.course-directory h2 { font-size: 22px; line-height: 1.55; }
+.course-directory li { background: var(--bg-1); border-color: var(--border); }
+.course-directory p { color: var(--text-1); }
+.course-directory a { color: var(--accent); }
+.course-directory a:hover h2 { color: var(--accent); }
+.course-toolbar { position: sticky; top: 0; z-index: 30; background: var(--bg-0); border-bottom: 1px solid var(--border); }
+.course-directory-link { display: inline-flex; align-items: center; min-height: 44px; padding: 6px 10px; margin-right: auto; color: var(--accent); font-size: 15px; font-weight: 600; text-decoration: none; border: 1px solid var(--border); border-radius: 8px; background: var(--bg-1); }
+.course-directory-link:hover { text-decoration: underline; border-color: var(--accent); }
+.course-toolbar .reading-label { display: none; }
+.course-toolbar ~ .app .chapter, .course-toolbar ~ .app .legacy-anchor { scroll-margin-top: 140px; }
+@media (min-width: 901px) {
+  .course-toolbar ~ .app .sidebar { top: 82px; height: calc(100vh - 82px); }
+}
+@media (max-width: 600px) {
+  .reading-toolbar { justify-content: flex-start; padding: 12px; }
+  .chapter-title { font-size: 21px; min-width: 0; }
+  .hero-body { padding: 22px 20px; }
+  .hero-actions .btn { padding: 10px 12px; }
+}
+@media print {
+  :root[data-reading-theme] { --bg-0: #ffffff; --bg-1: #ffffff; --bg-2: #f2f2f2; --text-0: #111111; --text-1: #333333; --text-2: #444444; --heading: #111111; --accent: #234f35; --accent-2: #234f35; --accent-3: #234f35; }
+  .reading-toolbar { display: none; }
+}
+</style>
+<script data-reading-theme-assets>
+(() => {
+  'use strict';
+  const key = 'fabricademy-reading-theme-v1';
+  const choices = ['dark', 'medium', 'light'];
+  let selected = 'light';
+  try {
+    const saved = localStorage.getItem(key);
+    if (choices.includes(saved)) selected = saved;
+  } catch (_) { /* Appearance remains usable without storage. */ }
+  const apply = value => {
+    selected = value;
+    document.documentElement.setAttribute('data-reading-theme', value);
+    document.querySelectorAll('[data-theme-choice]').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.themeChoice === value));
+    });
+  };
+  apply(selected);
+  document.addEventListener('DOMContentLoaded', () => {
+    apply(selected);
+    document.querySelectorAll('[data-theme-choice]').forEach(button => {
+      button.addEventListener('click', () => {
+        const value = button.dataset.themeChoice;
+        if (!choices.includes(value)) return;
+        apply(value);
+        const status = document.getElementById('reading-theme-status');
+        try {
+          localStorage.setItem(key, value);
+          status.textContent = '';
+        } catch (_) {
+          status.textContent = '当前页面已切换，此环境无法记住选择。';
+        }
+      });
+    });
+  });
+  window.addEventListener('storage', event => {
+    if (event.key === key) apply(choices.includes(event.newValue) ? event.newValue : 'light');
+  });
+})();
+</script>
+</head>
+<body>
+<div class="reading-toolbar course-toolbar" aria-label="课程导航与阅读外观"><a class="course-directory-link" href="../index.html">← 返回课程目录</a>
+<span class="reading-label">阅读外观</span>
+<div class="reading-options" role="group" aria-label="选择深浅外观">
+<button type="button" data-theme-choice="dark" aria-pressed="false">深色</button>
+<button type="button" data-theme-choice="medium" aria-pressed="false">中间色</button>
+<button type="button" data-theme-choice="light" aria-pressed="true">浅色</button>
+</div><span id="reading-theme-status" class="reading-status" role="status"></span>
+</div>
+<div class="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2>章节时间轴</h2>
+      <p>共 14 章 · 按实际主题划分</p>
+    </div>
+    <ul class="toc" id="toc">
+<li><a href="#topic-platforms"><span class="toc-time">00:00</span><span class="toc-text">1. 课程平台与账号登录</span></a></li>
+<li><a href="#topic-foundations"><span class="toc-time">07:50</span><span class="toc-text">2. 网页基础与 Zensical 模板</span></a></li>
+<li><a href="#topic-git-project"><span class="toc-time">14:12</span><span class="toc-text">3. 找到个人网站，认识 Git 版本历史</span></a></li>
+<li><a href="#topic-configuration"><span class="toc-time">21:13</span><span class="toc-text">4. 项目文件结构与 TOML 配置</span></a></li>
+<li><a href="#topic-first-publish"><span class="toc-time">29:29</span><span class="toc-text">5. 首次提交与自动发布</span></a></li>
+<li><a href="#topic-theme"><span class="toc-time">35:31</span><span class="toc-text">6. 字体、图标与社交链接</span></a></li>
+<li><a href="#topic-markdown"><span class="toc-time">37:41</span><span class="toc-text">7. Markdown 写作与扩展组件</span></a></li>
+<li><a href="#topic-images"><span class="toc-time">44:15</span><span class="toc-text">8. 图片插入、上传与提交</span></a></li>
+<li><a href="#topic-recovery"><span class="toc-time">52:34</span><span class="toc-text">9. 历史恢复、构建排错与编辑冲突</span></a></li>
+<li><a href="#topic-css"><span class="toc-time">61:31</span><span class="toc-text">10. 用 CSS 定制网站样式</span></a></li>
+<li><a href="#topic-local-workflow"><span class="toc-time">65:34</span><span class="toc-text">11. 本地工作流：克隆、提交、预览与 SSH</span></a></li>
+<li><a href="#topic-questions"><span class="toc-time">77:22</span><span class="toc-text">12. 课程资源与上传问题答疑</span></a></li>
+<li><a href="#topic-publish-demo"><span class="toc-time">84:36</span><span class="toc-text">13. 完整复演：修改字体并发布</span></a></li>
+<li><a href="#topic-image-budget"><span class="toc-time">87:29</span><span class="toc-text">14. 图片优化与课程收尾</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <a href="https://vimeo.com/1227439130/cba3d603e5" target="_blank" rel="noopener">
+        <img class="hero-thumb" src="thumbnail.jpg" alt="Fabricademy 10th Edition 视频封面" />
+      </a>
+      <div class="hero-body">
+        <div class="hero-meta">
+        <span class="tag">教程</span>
+        <span class="tag green">开篇</span>
+        <span class="tag purple">文档化工作流</span>
+        <span class="tag warn">Vimeo 自动字幕 · 有错别字</span>
+      </div>
+      <h1>Fabricademy 10th Edition · 如何文档化你的工作并搭建个人网站</h1>
+      <p class="hero-author">
+        讲师: <a href="https://vimeo.com/fabricademy" target="_blank" rel="noopener">Fabricademy, Textile Academy</a> · 
+        录制日期: 2026-09-16 · 
+        原始视频: <a href="https://vimeo.com/1227439130/cba3d603e5" target="_blank" rel="noopener">vimeo.com/1227439130</a>
+      </p>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-value">1h 29m 48s</div>
+          <div class="stat-label">时长</div>
+        </div>
+        <div>
+          <div class="stat-value">14</div>
+          <div class="stat-label">章节</div>
+        </div>
+        <div>
+          <div class="stat-value">1,195</div>
+          <div class="stat-label">字幕 cues</div>
+        </div>
+        <div>
+          <div class="stat-value">Auto</div>
+          <div class="stat-label">字幕类型</div>
+        </div>
+      </div>
+      <p class="chapter-map-note">按讲解主题划分章节，保留视频顺序。较长章节可通过「本章内容」定位具体操作；原文字幕保留自动识别结果。</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://vimeo.com/1227439130/cba3d603e5" target="_blank" rel="noopener">▶ 打开原视频</a>
+        <a class="btn" href="../index.html">← 全部课程</a>
+        <a class="btn" href="fabricademy-10th-edition-2026-09-16.vtt" download>下载 VTT 字幕</a>
+      </div>
+      </div><!-- /.hero-body -->
+    </section>
+
+<section class="chapter" id="topic-platforms">
+<span id="ch1" class="legacy-anchor" aria-hidden="true"></span><span id="ch2" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=0s" target="_blank" rel="noopener">00:00 → 07:50</a><h2 class="chapter-title">课程平台与账号登录</h2><span class="chapter-num">01 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">先认识课程使用的平台，再完成 GitLab 与 Mattermost 登录，为文档化和课程交流做好准备。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=21s" target="_blank" rel="noopener" aria-label="在原视频查看 00:21 课程平台与自托管基础设施">00:21</a>课程平台与自托管基础设施</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=240s" target="_blank" rel="noopener" aria-label="在原视频查看 04:00 欢迎邮件与账号检查">04:00</a>欢迎邮件与账号检查</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=317s" target="_blank" rel="noopener" aria-label="在原视频查看 05:17 GitLab 登录演示">05:17</a>GitLab 登录演示</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=399s" target="_blank" rel="noopener" aria-label="在原视频查看 06:39 Mattermost 与手机登录">06:39</a>Mattermost 与手机登录</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-platforms"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/platforms-1.jpg" alt="02:30 · 课程平台介绍" data-caption="02:30 · 课程平台介绍" loading="lazy"><img class="carousel-img" src="frames/topics/platforms-2.jpg" alt="06:10 · GitLab 登录演示" data-caption="06:10 · GitLab 登录演示" loading="lazy"><img class="carousel-img" src="frames/topics/platforms-3.jpg" alt="07:10 · Mattermost 登录说明" data-caption="07:10 · Mattermost 登录说明" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">02:30 · 课程平台介绍</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>FabLabs.io 提供网络目录与账号入口；GitLab 管理版本、编辑文件并发布网站。</li><li>课程评估系统记录每周作业与反馈，Mattermost 承担聊天、频道和通知。</li><li>GitLab 演示通过登录页的 Fab Labs 按钮跳转授权；Mattermost 演示直接填写账号密码。</li><li>手机 Mattermost 的服务器地址与网页版一致，以课程欢迎邮件和实际链接为准。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>SSO</strong><span class="term-tip">单点登录，通过统一账号入口登录其他服务。</span></span><span class="term" tabindex="0"><strong>GitLab</strong><span class="term-tip">本课用于管理网站源文件、提交记录和自动发布的平台。</span></span><span class="term" tabindex="0"><strong>Mattermost</strong><span class="term-tip">课程聊天与协作工具。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>找到课程欢迎邮件，核对账号并完成 GitLab 登录。</li><li>打开课程提供的 Mattermost 地址，确认能进入班级频道。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:00:02.190</em> Okay.</p>
+<p><em>00:00:04.230</em> Hello, everyone.</p>
+<p><em>00:00:06.360</em> So I&#x27;m here joined to welcome you and introduce you to how you</p>
+<p><em>00:00:12.240</em> can document your work and build your own website</p>
+<p><em>00:00:16.230</em> and break the barrier of it&#x27;s not so scary.</p>
+<p><em>00:00:21.780</em> So first thing, I&#x27;ll just quickly talk about our infrastructure.</p>
+<p><em>00:00:27.480</em> We have a few different tools that we&#x27;re going to use during this course, and</p>
+<p><em>00:00:33.510</em> we are hosting all these applications ourselves on our own hardware,</p>
+<p><em>00:00:39.390</em> which is currently at the new Fab Hub in Kendall, Boston.</p>
+<p><em>00:00:46.770</em> So we&#x27;re very proud of this because we control the data, we&#x27;re private, and then</p>
+<p><em>00:00:52.801</em> we can make sure that this documentation lives on as long as possible so that your</p>
+<p><em>00:00:57.481</em> work can be shared for multiple generations, we hope.</p>
+<p><em>00:01:04.321</em> So the</p>
+<p><em>00:01:06.660</em> first big platform is the FabLabs.io. It&#x27;s for the network.</p>
+<p><em>00:01:10.801</em> It&#x27;s listing all our Fab Labs around the world.</p>
+<p><em>00:01:14.520</em> It&#x27;s been around for a long time. And this is a great place to find other</p>
+<p><em>00:01:20.235</em> labs as well. And we use this also as a login system because you can have</p>
+<p><em>00:01:26.040</em> accounts on here, and these accounts can be logged into other platforms that want</p>
+<p><em>00:01:31.140</em> to share with the Fab Lab network. So we&#x27;re using this sort of single sign-on entry</p>
+<p><em>00:01:36.420</em> point. So in a lot of places, when you log into our</p>
+<p><em>00:01:41.370</em> applications, you&#x27;ll be going through the FabLabs.io platform.</p>
+<p><em>00:01:47.250</em> You can also visit it to find other labs, and there&#x27;s also a forum with a wider</p>
+<p><em>00:01:50.940</em> network if you want to go there.</p>
+<p><em>00:01:56.700</em> The other big platform, which you&#x27;ll be using a lot for your documentation, is the</p>
+<p><em>00:02:02.130</em> GitLab platform we call. It&#x27;s a hosted Git repository, so this allows-- Git is a</p>
+<p><em>00:02:08.010</em> version control system that basically keeps track of all your changes to your</p>
+<p><em>00:02:13.680</em> website, and then it provides a web interface so that you can do everything through</p>
+<p><em>00:02:18.240</em> the browser, interact with your website.</p>
+<p><em>00:02:21.000</em> It also has a code editor, so you can do all your coding within a browser window</p>
+<p><em>00:02:26.310</em> and</p>
+<p><em>00:02:28.080</em> also interact with it from your computer, and it&#x27;s just a big collaboration</p>
+<p><em>00:02:32.040</em> platform, and we&#x27;re using it to host all your websites together.</p>
+<p><em>00:02:36.825</em> And then this GitLab platform is also automatically building your website every</p>
+<p><em>00:02:41.220</em> time you make changes to it. It&#x27;s building your website and publishing it.</p>
+<p><em>00:02:45.480</em> So it&#x27;s a big tool. We&#x27;re using a small part of it, and I&#x27;ll go over it in a bit.</p>
+<p><em>00:02:52.320</em> The next one is Nouval. This is our evaluation program that we built specifically</p>
+<p><em>00:02:57.780</em> for the Academy programs,</p>
+<p><em>00:03:00.601</em> and this allows students and instructors to keep track of each week&#x27;s</p>
+<p><em>00:03:05.910</em> work and make comments, and so that you can--</p>
+<p><em>00:03:13.139</em> sort of a central place for all your assessment evaluations.</p>
+<p><em>00:03:19.531</em> And then we have Matamos, which you might have already tried to log into.</p>
+<p><em>00:03:23.220</em> This is our chat platform. It&#x27;s a very large software that is used a</p>
+<p><em>00:03:29.101</em> lot in security environments, but they have an open source version, which we took</p>
+<p><em>00:03:34.320</em> on very early on in its development and we&#x27;re still using today, and which just</p>
+<p><em>00:03:39.330</em> basically allows us to have multiple channels and everyone can talk to each other.</p>
+<p><em>00:03:44.010</em> We get notifications, and there&#x27;s a phone app, and so this is just our personal</p>
+<p><em>00:03:49.201</em> platform that we can use to communicate with each other.</p>
+<p><em>00:03:56.610</em> Oops. So</p>
+<p><em>00:04:00.240</em> let&#x27;s first check everyone has access.</p>
+<p><em>00:04:02.820</em> I saw there was one or two</p>
+<p><em>00:04:05.880</em> messages in my Matamos. Some people didn&#x27;t get an email, but nearly all of you</p>
+<p><em>00:04:11.580</em> should have received a student welcome email with your account details.</p>
+<p><em>00:04:16.231</em> There&#x27;s a username and a password.</p>
+<p><em>00:04:18.481</em> Unless you already had an account, then there will be no password.</p>
+<p><em>00:04:22.800</em> If you don&#x27;t know your password, it&#x27;s not logging in, you can try a password reset.</p>
+<p><em>00:04:26.820</em> But the first thing is just make sure you find this email.</p>
+<p><em>00:04:30.240</em> You can see there&#x27;s the-- If you can&#x27;t find it, try and search with the email</p>
+<p><em>00:04:34.185</em> address where it comes from.</p>
+<p><em>00:04:37.050</em> And basically, let me know.</p>
+<p><em>00:04:41.610</em> Actually, I&#x27;ll share my email address, but let me know if you really have problems</p>
+<p><em>00:04:44.490</em> or just ask me now. And then we&#x27;re going to first, if you haven&#x27;t</p>
+<p><em>00:04:50.370</em> tried already, let&#x27;s try and log in. So you&#x27;re going to go to the GitLab.</p>
+<p><em>00:05:00.210</em> I was going to try and copy this,</p>
+<p><em>00:05:03.510</em> but</p>
+<p><em>00:05:05.310</em> I&#x27;m going to write in Matamos link in case you want to see it.</p>
+<p><em>00:05:17.520</em> So please go here and try and log in. And you won&#x27;t be using the password field.</p>
+<p><em>00:05:22.800</em> You&#x27;ll be using the little login button at the bottom that says Fab Labs, and this</p>
+<p><em>00:05:27.390</em> will take you to the Fab Labs page where you should see a login screen.</p>
+<p><em>00:05:33.480</em> And then there is where you put in your username and password that you received in</p>
+<p><em>00:05:36.540</em> the email address in your email inbox.</p>
+<p><em>00:05:41.190</em> If it doesn&#x27;t work, you can try and forget password.</p>
+<p><em>00:05:43.560</em> If you still don&#x27;t get any email, yeah, let me know.</p>
+<p><em>00:05:47.940</em> You can interrupt me now also if you like.</p>
+<p><em>00:05:52.170</em> And if that works, then you get asked a quick question, do you want to allow GitLab</p>
+<p><em>00:05:57.270</em> to connect to your Fab Labs account?</p>
+<p><em>00:05:59.460</em> And you can say yes, and then with luck, you&#x27;re in.</p>
+<p><em>00:06:04.740</em> And it should look like--</p>
+<p><em>00:06:07.110</em> So this is the login screen with the Fab Labs.</p>
+<p><em>00:06:09.750</em> And then once you log in, it should look something like this. You&#x27;re logged in.</p>
+<p><em>00:06:16.201</em> But yeah.</p>
+<p><em>00:06:18.240</em> I&#x27;ll</p>
+<p><em>00:06:20.040</em> wait a bit if anyone is crying. Any questions there?</p>
+<p><em>00:06:24.180</em> Besides maybe not getting email.</p>
+<p><em>00:06:30.300</em> I&#x27;ll wait a bit. Five, four.</p>
+<p><em>00:06:39.841</em> With Matamos, it&#x27;s a very similar thing, except-- Well, it&#x27;s not similar, actually.</p>
+<p><em>00:06:44.701</em> Sorry. There&#x27;s no FabLabs.io because it doesn&#x27;t allow us to make that connection.</p>
+<p><em>00:06:49.410</em> So you just put in the same login and password you would put for FabLabs.io.</p>
+<p><em>00:06:53.790</em> You just put it on the form for Matamos, for the chat application.</p>
+<p><em>00:06:59.430</em> And it&#x27;s the same when you open this in your phone.</p>
+<p><em>00:07:04.920</em> It&#x27;s going to ask you what server you want to use, and you&#x27;re going to have to put</p>
+<p><em>00:07:08.355</em> the same URL that you put in the browser.</p>
+<p><em>00:07:10.290</em> So chat.academe.org, and then it will be the same login flow.</p>
+<p><em>00:07:14.490</em> You</p>
+<p><em>00:07:15.901</em> have to put in-- Oh, this is wrong. You have to put in your username and password.</p>
+<p><em>00:07:19.920</em> And the phone is great because then,</p>
+<p><em>00:07:23.265</em> yeah, you just get the push notifications a bit quicker.</p>
+<p><em>00:07:25.651</em> So it&#x27;s a nicer flow for</p>
+<p><em>00:07:29.220</em> getting your messages on time or having a live conversation.</p>
+<p><em>00:07:34.125</em> But the website works great as well. You can also just stick to that.</p>
+<p><em>00:07:37.440</em> You can have it open in your browser all the time, and then you&#x27;ll get the browser</p>
+<p><em>00:07:41.490</em> notifications if you have the browser open. So that&#x27;s quite nice.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-platforms" aria-label="课程平台与账号登录 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-foundations">
+<span id="ch3" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=470s" target="_blank" rel="noopener">07:50 → 14:12</a><h2 class="chapter-title">网页基础与 Zensical 模板</h2><span class="chapter-num">02 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">理解 HTML、CSS、Markdown 和站点生成器各自的作用，再用课程模板开始写作。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=470s" target="_blank" rel="noopener" aria-label="在原视频查看 07:50 课程模板与网页结构">07:50</a>课程模板与网页结构</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=644s" target="_blank" rel="noopener" aria-label="在原视频查看 10:44 Markdown 基础语法">10:44</a>Markdown 基础语法</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=737s" target="_blank" rel="noopener" aria-label="在原视频查看 12:17 Zensical 与往届 MkDocs 模板">12:17</a>Zensical 与往届 MkDocs 模板</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-foundations"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/foundations-1.jpg" alt="09:10 · HTML 与 CSS 的作用" data-caption="09:10 · HTML 与 CSS 的作用" loading="lazy"><img class="carousel-img" src="frames/topics/foundations-2.jpg" alt="11:40 · Markdown 语法示例" data-caption="11:40 · Markdown 语法示例" loading="lazy"><img class="carousel-img" src="frames/topics/foundations-3.jpg" alt="13:10 · 课程使用的文档工具" data-caption="13:10 · 课程使用的文档工具" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">09:10 · HTML 与 CSS 的作用</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>HTML 描述网页内容结构，CSS 调整这些内容的显示样式。</li><li>Markdown 用标题、列表、强调和图片等简洁语法组织文档。</li><li>本课程使用 Zensical 将文档生成网站，并提供导航与文档组件。</li><li>讲师说明往届使用 MkDocs；复用旧资料时仍应核对当前模板的配置与扩展。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>HTML / CSS</strong><span class="term-tip">分别负责网页内容结构和视觉样式。</span></span><span class="term" tabindex="0"><strong>Markdown</strong><span class="term-tip">以纯文本符号组织文档的标记语言。</span></span><span class="term" tabindex="0"><strong>Zensical</strong><span class="term-tip">本课使用的文档网站生成工具；自动字幕有多种误写。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>在课程模板中辨认标题、列表、图片等 Markdown 写法。</li><li>对照源文件与网页，理解文字如何变成网站内容。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:07:50.280</em> So what are we doing? What about your website? How does this all work?</p>
+<p><em>00:07:56.730</em> So for documenting your work, we&#x27;re providing you a ready-made template with</p>
+<p><em>00:08:01.770</em> everything you need to get started.</p>
+<p><em>00:08:04.561</em> And we&#x27;ll be using a language called</p>
+<p><em>00:08:10.440</em> Markdown that will automatically-- So it&#x27;s a bit easier to understand Markdown, and</p>
+<p><em>00:08:14.880</em> it will convert this into HTML, which is used to make your website.</p>
+<p><em>00:08:19.561</em> We&#x27;ll be using a tool called Zenskie.</p>
+<p><em>00:08:23.940</em> I&#x27;ll talk about it next slide. And</p>
+<p><em>00:08:27.151</em> yeah. If you don&#x27;t know,</p>
+<p><em>00:08:32.010</em> HTML code is everything that your browser is reading to build your website.</p>
+<p><em>00:08:36.420</em> So everything your browser is communicating with through the servers around the</p>
+<p><em>00:08:40.620</em> world, they read HTML. So this looks like on the right.</p>
+<p><em>00:08:45.600</em> It&#x27;s basically a markup language that just describes how to display the content.</p>
+<p><em>00:08:51.120</em> So it&#x27;s</p>
+<p><em>00:08:52.860</em> just looking at the image on the right, you say have a title of the page, then you</p>
+<p><em>00:08:57.181</em> have a body where the content is. H1 is like the heading, the first heading, and P</p>
+<p><em>00:09:02.580</em> is for paragraph. So you have all these kinds of syntax that describe what the</p>
+<p><em>00:09:05.820</em> content is. And then the browser reads this HTML and decides how to display it.</p>
+<p><em>00:09:10.974</em> The browser is the one that decides how it looks like.</p>
+<p><em>00:09:14.694</em> And then we also have a language called CSS as a cascade style sheet,</p>
+<p><em>00:09:20.664</em> which is used to</p>
+<p><em>00:09:23.814</em> adjust the style that the browser makes.</p>
+<p><em>00:09:25.854</em> So, the browser might decide an H1 has got 10 pixels font</p>
+<p><em>00:09:31.795</em> size, and they say, &quot;Well, I don&#x27;t like that,&quot; and they use CSS to change that.</p>
+<p><em>00:09:36.264</em> So these are the layers. You start with HTML. The CSS is sort of the styling.</p>
+<p><em>00:09:41.694</em> So if you would like to go into the HTML, there&#x27;s a</p>
+<p><em>00:09:46.674</em> w3schools.com has a great sort of a tutorial.</p>
+<p><em>00:09:50.484</em> I would have a quick play there, just go through there, just at least read it like</p>
+<p><em>00:09:55.705</em> a book, just get familiar with all the different elements, so that later on in</p>
+<p><em>00:10:00.504</em> working with your website, when you see these things, they won&#x27;t look so foreign.</p>
+<p><em>00:10:07.045</em> And the more you do that, the more you sort of understand what each of these, like</p>
+<p><em>00:10:11.214</em> a P tag is a paragraph. Then it starts to become intuitive, and it won&#x27;t become</p>
+<p><em>00:10:15.624</em> scary. And then you&#x27;ll sort of get excited because there&#x27;ll be a new error message</p>
+<p><em>00:10:21.264</em> or a new thing that doesn&#x27;t work, and you will get sort of an adrenaline rush by</p>
+<p><em>00:10:26.424</em> figuring it out and getting on to the next error message.</p>
+<p><em>00:10:30.534</em> So yeah, really enjoy the experimenting and learn to build your own website,</p>
+<p><em>00:10:35.545</em> because it&#x27;s fun when you can start making your own things the way you want as you</p>
+<p><em>00:10:40.644</em> envision them. It&#x27;s going to be a lot of fun.</p>
+<p><em>00:10:44.214</em> So we&#x27;re not going to ask you to make-- making all your HTML is a lot of work when</p>
+<p><em>00:10:50.034</em> you&#x27;re writing text, and your documentation, and your notes.</p>
+<p><em>00:10:53.634</em> So we&#x27;re using a language called Markdown, which is a very simplified</p>
+<p><em>00:10:59.634</em> way of just telling text what it looks like.</p>
+<p><em>00:11:02.184</em> So this is just a plain text way of saying, okay, these are paragraphs, these are</p>
+<p><em>00:11:08.154</em> titles. So if you see like there&#x27;s a hash, it&#x27;s like a title, and then it sort of</p>
+<p><em>00:11:12.594</em> converts it to, this is what it would interpret those things as.</p>
+<p><em>00:11:17.799</em> So,</p>
+<p><em>00:11:19.464</em> for example, you have these code little symbols that you put in front of the words</p>
+<p><em>00:11:25.344</em> that tell it, okay, this is a title, this is a subtitle.</p>
+<p><em>00:11:28.825</em> Then we have italics.</p>
+<p><em>00:11:34.494</em> With asterisks, you can say, &quot;This text is italics,&quot; and, &quot;This text is bold.&quot; So</p>
+<p><em>00:11:39.804</em> it&#x27;s not quite like using a word editor, but it allows you to, with very little</p>
+<p><em>00:11:47.664</em> characters, describe what your content is and how to display it.</p>
+<p><em>00:11:51.714</em> So you have on the middle column, we have here lists.</p>
+<p><em>00:11:54.325</em> So this is how you would show a list and a sub-bullet point.</p>
+<p><em>00:11:58.374</em> Images, we have this sort of like exclamation mark and square and round brackets.</p>
+<p><em>00:12:03.054</em> This is going to be very important later, and I&#x27;ll show you a bit, just</p>
+<p><em>00:12:08.784</em> a quick overview of what Markdown looks like.</p>
+<p><em>00:12:11.455</em> And</p>
+<p><em>00:12:17.064</em> then the final piece of the puzzle is to get the whole Markdown and HTML to work</p>
+<p><em>00:12:22.658</em> together and to have something that you can publish as a website.</p>
+<p><em>00:12:25.464</em> We&#x27;re using a tool called Zentangle.</p>
+<p><em>00:12:28.795</em> Now, this is a nice tool that someone built in the community.</p>
+<p><em>00:12:34.748</em> It&#x27;s an open source tool that&#x27;s basically converting Markdown into HTML and then</p>
+<p><em>00:12:40.014</em> making their own opinionated style.</p>
+<p><em>00:12:42.924</em> So as you see on the right, this is</p>
+<p><em>00:12:46.075</em> what it looks like out of the box, and it&#x27;s good for documentation because</p>
+<p><em>00:12:51.624</em> everything&#x27;s in a uniform and there&#x27;s a lot of features that&#x27;s geared towards</p>
+<p><em>00:12:54.908</em> documenting. This tool is geared towards documenting.</p>
+<p><em>00:12:59.124</em> And so in the very basic form, it&#x27;s just Markdown, HTML, but there&#x27;s a lot of</p>
+<p><em>00:13:02.454</em> little options you can turn on and different features, and so there&#x27;s a lot to look</p>
+<p><em>00:13:07.464</em> into, and we&#x27;ll play around with it a bit later.</p>
+<p><em>00:13:11.904</em> For those maybe previous years and instructors, we used in the previous years a</p>
+<p><em>00:13:16.765</em> tool called MKDocs, and it was exactly the same.</p>
+<p><em>00:13:20.364</em> The people behind Zentangle made the theme materials for MKDocs.</p>
+<p><em>00:13:26.214</em> But unfortunately, MKDocs has sort of become unmaintained.</p>
+<p><em>00:13:29.575</em> It&#x27;s an open source project. They had one developer, and they sort of stopped</p>
+<p><em>00:13:32.754</em> working on it, and the</p>
+<p><em>00:13:35.934</em> community splintered in different projects, and one of them came out was a</p>
+<p><em>00:13:40.314</em> Zentangle project that we&#x27;ve decided to use for your</p>
+<p><em>00:13:45.864</em> documentation this year and the future.</p>
+<p><em>00:13:51.924</em> Everything&#x27;s the same. For those of MKDocs, everything&#x27;s the same.</p>
+<p><em>00:13:55.374</em> So if you&#x27;re looking at previous years, you might see the word MKDocs in other</p>
+<p><em>00:13:59.994</em> students&#x27; documentation, if you&#x27;re looking back at other students, and you can copy</p>
+<p><em>00:14:04.524</em> those straight. Everything&#x27;s the same.</p>
+<p><em>00:14:08.394</em> It copies over. It&#x27;s just a different name, and then, of course, new functionality.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-foundations" aria-label="网页基础与 Zensical 模板 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-git-project">
+<span id="ch4" class="legacy-anchor" aria-hidden="true"></span><span id="ch5" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=852s" target="_blank" rel="noopener">14:12 → 21:13</a><h2 class="chapter-title">找到个人网站，认识 Git 版本历史</h2><span class="chapter-num">03 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">从学员目录进入个人网站和仓库，用提交历史与差异视图理解 Git，并区分网页编辑与本地工作。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=852s" target="_blank" rel="noopener" aria-label="在原视频查看 14:12 个人网站与仓库入口">14:12</a>个人网站与仓库入口</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1058s" target="_blank" rel="noopener" aria-label="在原视频查看 17:38 Git、提交历史与差异视图">17:38</a>Git、提交历史与差异视图</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1199s" target="_blank" rel="noopener" aria-label="在原视频查看 19:59 网页编辑与本地副本">19:59</a>网页编辑与本地副本</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-git-project"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/git-project-1.jpg" alt="16:10 · GitLab 项目首页" data-caption="16:10 · GitLab 项目首页" loading="lazy"><img class="carousel-img" src="frames/topics/git-project-2.jpg" alt="18:50 · 提交历史与文件差异" data-caption="18:50 · 提交历史与文件差异" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">16:10 · GitLab 项目首页</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>课程 Participants 目录链接到学员网站，网站和 GitLab 仓库承担不同角色。</li><li>项目首页包含文件列表、README、网站链接和最近提交状态。</li><li>Code → Commits 可查作者、时间和说明；差异视图对照修改前后的文件。</li><li>本地副本可以先编辑，再提交和推送；与网页交替编辑时要保持版本同步。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Repository</strong><span class="term-tip">保存项目文件及版本历史的仓库。</span></span><span class="term" tabindex="0"><strong>Commit / Diff</strong><span class="term-tip">提交记录和修改前后的差异。</span></span><span class="term" tabindex="0"><strong>Push</strong><span class="term-tip">把本地提交发送到服务器。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>从学员目录找到自己的网站及仓库，打开 Web Editor。</li><li>查看一次提交的差异，确认改动了哪些文件和内容。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:14:12.714</em> So let&#x27;s start having a look at your website. You can follow with me.</p>
+<p><em>00:14:18.564</em> I&#x27;m going to go slowly. I suggest if you didn&#x27;t find your website, a good place to</p>
+<p><em>00:14:22.554</em> go is to go to the class website, the</p>
+<p><em>00:14:28.614</em> class at Textile Academy,</p>
+<p><em>00:14:32.064</em> and then you can go to Participants.</p>
+<p><em>00:14:40.284</em> Yeah.</p>
+<p><em>00:14:40.884</em> Somebody asked if you can write the URL server for the phone</p>
+<p><em>00:14:46.224</em> Mattermost app.</p>
+<p><em>00:14:49.734</em> The Chat Academy, I think.</p>
+<p><em>00:14:52.015</em> I think this works, yeah. So you just go to Chat Academy. That should work.</p>
+<p><em>00:14:55.344</em> Let me know. It&#x27;s the same one in the browser.</p>
+<p><em>00:15:01.464</em> But yeah, if you want to look, find your website or your fellow students, there&#x27;s a</p>
+<p><em>00:15:04.884</em> nice page of all the participants.</p>
+<p><em>00:15:06.534</em> So you can go through that and then click your link, and it should take</p>
+<p><em>00:15:12.474</em> you to your website. I&#x27;m going to open my--</p>
+<p><em>00:15:17.094</em> Yeah. But as an example, I just take someone,</p>
+<p><em>00:15:20.545</em> and so this is sort of what it looks like.</p>
+<p><em>00:15:22.765</em> And then at the top, you can click the little Get button, and it should take you to</p>
+<p><em>00:15:26.515</em> your repo.</p>
+<p><em>00:15:28.765</em> If you&#x27;re logged in and you also want to find it through your GitLab.</p>
+<p><em>00:15:32.664</em> So I&#x27;m in GitLab right now. On the left, you can click Projects or Activity,</p>
+<p><em>00:15:38.904</em> and then you should see your project listed here. I have a lot.</p>
+<p><em>00:15:43.734</em> So I&#x27;m going to open a demo project I made.</p>
+<p><em>00:15:47.964</em> And so this is sort of the homepage of your Git project.</p>
+<p><em>00:15:50.754</em> So it should have your name at the top, where I have demo here.</p>
+<p><em>00:15:54.835</em> So this is the title of the project.</p>
+<p><em>00:15:56.335</em> There&#x27;s the URL to the published website if you would like a quick link.</p>
+<p><em>00:16:04.045</em> Below it is the list of the files in your project.</p>
+<p><em>00:16:07.464</em> So these are all the files in your project.</p>
+<p><em>00:16:09.654</em> At the bottom, there&#x27;s a sort of a Read Me file, which is</p>
+<p><em>00:16:14.424</em> generic. This is for the project, so it&#x27;s not really related to your website.</p>
+<p><em>00:16:18.894</em> This would be for if anyone outside of you comes into your project, they could see</p>
+<p><em>00:16:23.124</em> what is this about, and how do I run it, and stuff like that.</p>
+<p><em>00:16:31.614</em> Right here in the middle, you&#x27;ll see my name, and I&#x27;ll highlight it here with my</p>
+<p><em>00:16:37.284</em> mouse. This is sort of the last edit I made, and I have a green</p>
+<p><em>00:16:42.804</em> checkbox. This is also saying that my website got published, so everything&#x27;s</p>
+<p><em>00:16:46.765</em> looking good, and we&#x27;ll dive into that in a bit.</p>
+<p><em>00:16:52.015</em> Yeah, I&#x27;ll open the link to my website. So this is what it looks like.</p>
+<p><em>00:16:56.154</em> We have the header, different pages, and then sample document.</p>
+<p><em>00:17:02.604</em> If I want to edit a file, you see there&#x27;s a big code button on the</p>
+<p><em>00:17:08.575</em> right.</p>
+<p><em>00:17:10.164</em> You can click the drop-down, and you should see find a world called Web Editor.</p>
+<p><em>00:17:16.404</em> And when you click that, it&#x27;s going to open a</p>
+<p><em>00:17:23.664</em> code editor in your browser, and so this is where you will be making the changes to</p>
+<p><em>00:17:28.644</em> your website.</p>
+<p><em>00:17:31.404</em> I&#x27;ll just check my notes. Yeah.</p>
+<p><em>00:17:38.574</em> Sorry, I&#x27;ll backtrack a bit. I want to also explain a bit, so we use the</p>
+<p><em>00:17:44.454</em> word Git, and so GitLab is a wrapper around Git.</p>
+<p><em>00:17:47.904</em> Git is tracking all the changes that we make.</p>
+<p><em>00:17:51.084</em> So every time, it&#x27;s basically like if you&#x27;ve ever used the Word document or Google</p>
+<p><em>00:17:57.084</em> Sheets, every time you make an edit, it&#x27;s sort of saved, and you sort of see a</p>
+<p><em>00:18:02.214</em> history of all your changes, and sometimes you can revert back.</p>
+<p><em>00:18:05.574</em> Git is a bit the same thing,</p>
+<p><em>00:18:08.004</em> and we call this commits. So on the left, under Code, I see Code Commits.</p>
+<p><em>00:18:11.814</em> If I click it</p>
+<p><em>00:18:15.138</em> It&#x27;s going to load all the changes I made, and it&#x27;s going to have the date, and</p>
+<p><em>00:18:18.618</em> it&#x27;s going to have a piece of text, my name, who changed it, when.</p>
+<p><em>00:18:23.388</em> And so I can go back and I can see all the changes.</p>
+<p><em>00:18:26.328</em> I can then open a specific change. So if I open</p>
+<p><em>00:18:31.008</em> one of these changes,</p>
+<p><em>00:18:34.488</em> then I&#x27;m going to see specifically at that date what changed.</p>
+<p><em>00:18:37.878</em> And so we sort of have here, there&#x27;s multiple files.</p>
+<p><em>00:18:41.418</em> I&#x27;m going to just close this for a minute, and I&#x27;m going to show you in side by</p>
+<p><em>00:18:46.998</em> side. So this view is sort of showing you the left is what it was and the right is</p>
+<p><em>00:18:51.558</em> what it became. And so there&#x27;s a way to see.</p>
+<p><em>00:18:54.948</em> You can go back and see what things have changed, whether you forgot or whether</p>
+<p><em>00:18:59.493</em> someone else made a change. You can then go back and see exactly what changed.</p>
+<p><em>00:19:03.108</em> So this is the big power of Git and a lot of its users to sort of keep track of</p>
+<p><em>00:19:07.518</em> changes in an organized way. So those are called commits.</p>
+<p><em>00:19:12.048</em> They&#x27;re all sequential,</p>
+<p><em>00:19:15.528</em> so always the new one is your most recent. That&#x27;s what&#x27;s sort of published.</p>
+<p><em>00:19:19.308</em> That&#x27;s what&#x27;s the latest version, and that&#x27;s when you edit files, you&#x27;re editing</p>
+<p><em>00:19:23.358</em> the latest version.</p>
+<p><em>00:19:27.318</em> You can go back to previous files, so it&#x27;s called reverting.</p>
+<p><em>00:19:32.089</em> That&#x27;s a little rabbit hole. For small things, you can sometimes open the commit</p>
+<p><em>00:19:37.428</em> and just copy the line that you accidentally deleted.</p>
+<p><em>00:19:40.008</em> If you made a lot of changes that you want to undo, there&#x27;s sort of a revert</p>
+<p><em>00:19:44.118</em> function, and yeah, that&#x27;s something you can do your research to do.</p>
+<p><em>00:19:52.218</em> So now,</p>
+<p><em>00:19:54.138</em> yeah, so this is, as I said, is GitLab.</p>
+<p><em>00:19:56.089</em> And to answer the question,</p>
+<p><em>00:19:59.508</em> GitLab is a wraparound Git, which means we can also have a copy of this Git</p>
+<p><em>00:20:05.659</em> project on our computer. And the great thing about copying this to our-- and it&#x27;s</p>
+<p><em>00:20:09.768</em> not really a copy. Yeah, it&#x27;s a copy to our computer, is that we can then just work</p>
+<p><em>00:20:13.518</em> on our computer without having the internet or without using the browser.</p>
+<p><em>00:20:18.888</em> So it can be faster depending on your computer.</p>
+<p><em>00:20:22.083</em> And then you get to decide every time you want to make those commits and push them.</p>
+<p><em>00:20:27.768</em> Whereas when you&#x27;re working in a browser, because your window tab can close or</p>
+<p><em>00:20:32.988</em> crash or your computer restarts, you&#x27;re sort of saving every time you make a</p>
+<p><em>00:20:36.198</em> change, a bit like Google Sheets. When you&#x27;re working on a computer, you can do a</p>
+<p><em>00:20:40.909</em> full day of edits, as if you&#x27;re editing some notes or files on your computer, and</p>
+<p><em>00:20:45.498</em> then you say, &quot;Okay, I&#x27;m ready. I like how it looks.&quot; And then we call it push.</p>
+<p><em>00:20:49.758</em> You push it back up to the server, and then it sort of syncs with this project.</p>
+<p><em>00:20:55.353</em> And you can even work both with the browser and the local, but then you&#x27;ve got to</p>
+<p><em>00:21:00.468</em> remember which one&#x27;s ahead and you&#x27;ve got to keep them in sync.</p>
+<p><em>00:21:03.318</em> So Git&#x27;s designed for that. So yes,</p>
+<p><em>00:21:07.008</em> I&#x27;ll get into it, but I do suggest trying local and we&#x27;ll-- Yeah.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-git-project" aria-label="找到个人网站，认识 Git 版本历史 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-configuration">
+<span id="ch6" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=1273s" target="_blank" rel="noopener">21:13 → 29:29</a><h2 class="chapter-title">项目文件结构与 TOML 配置</h2><span class="chapter-num">04 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">先找清配置、内容和构建文件，再修改网站名称等基本设置；本章保留配置讲解与首次编辑的完整过程。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1273s" target="_blank" rel="noopener" aria-label="在原视频查看 21:13 配置、内容与构建文件">21:13</a>配置、内容与构建文件</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1477s" target="_blank" rel="noopener" aria-label="在原视频查看 24:37 TOML 键值与配置节">24:37</a>TOML 键值与配置节</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1682s" target="_blank" rel="noopener" aria-label="在原视频查看 28:02 插入问答：找回账号密码">28:02</a>插入问答：找回账号密码</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1733s" target="_blank" rel="noopener" aria-label="在原视频查看 28:53 编辑站点名称和版权信息">28:53</a>编辑站点名称和版权信息</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-configuration"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/configuration-1.jpg" alt="22:20 · 项目文件与内容目录" data-caption="22:20 · 项目文件与内容目录" loading="lazy"><img class="carousel-img" src="frames/topics/configuration-2.jpg" alt="29:05 · 编辑网站基本配置" data-caption="29:05 · 编辑网站基本配置" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">22:20 · 项目文件与内容目录</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>TOML 配置控制站点名称、字体和其他全局选项；docs/ 存放 Markdown 与图片。</li><li>index.md 对应目录首页，文件与目录结构会影响发布后的地址。</li><li>.gitlab-ci.yml 描述构建与发布流程，本课模板通常已配置好。</li><li>配置字段属于不同的节，例如 [project] 与 [project.theme.font]；注意位置和成对引号。</li><li>先修改名称、描述、作者等字段，保留模板既有的 site_url；中途还回答了密码重置问题。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>TOML</strong><span class="term-tip">用配置节和键值表达网站设置的格式。</span></span><span class="term" tabindex="0"><strong>docs/</strong><span class="term-tip">本课模板中的网站内容目录。</span></span><span class="term" tabindex="0"><strong>CI 配置</strong><span class="term-tip">告诉 GitLab 如何自动构建并发布网站的文件。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>找到 TOML、docs/index.md 和 .gitlab-ci.yml，说明三者各自用途。</li><li>修改站点名称，核对配置节和引号，随后进入下一章提交。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:21:13.938</em> Okay. So Zinkl is</p>
+<p><em>00:21:20.028</em> how the project is organized. So we saw in the repo we had a</p>
+<p><em>00:21:25.668</em> TOML file. This is basically how we sort of configure your</p>
+<p><em>00:21:31.097</em> personal website. So you can say stuff like the name of the website, the URL it&#x27;s</p>
+<p><em>00:21:35.928</em> under, the colors, the fonts. You can add extra features.</p>
+<p><em>00:21:41.208</em> I don&#x27;t want a table of contents. You</p>
+<p><em>00:21:44.778</em> can add extra functionality that&#x27;s off by default, a lightbox.</p>
+<p><em>00:21:48.198</em> And so all those sort of general settings for the whole website happen in this</p>
+<p><em>00:21:54.078</em> TOML file.</p>
+<p><em>00:21:56.808</em> Then you have the docs folder, and this is where all the content goes.</p>
+<p><em>00:21:59.659</em> So this is where all your images, your files, this is where all the notes that you</p>
+<p><em>00:22:04.774</em> write in Markdown all go into the docs folder.</p>
+<p><em>00:22:09.318</em> And</p>
+<p><em>00:22:10.909</em> each of these files is ending in an MD, so as in the next line here.</p>
+<p><em>00:22:14.718</em> So as an example, index.md is one of the files that we have Markdown on.</p>
+<p><em>00:22:19.909</em> Index is a special word. It means home page.</p>
+<p><em>00:22:23.839</em> So index is the only one where if you write index in the URL, so for example,</p>
+<p><em>00:22:29.839</em> if I&#x27;m looking at my website, I only have a forward slash. You see I have index.</p>
+<p><em>00:22:36.498</em> And then</p>
+<p><em>00:22:38.808</em> your browser is tricking you because actually what&#x27;s behind there is index.html.</p>
+<p><em>00:22:44.253</em> This is the actual file.</p>
+<p><em>00:22:47.149</em> When I have another file, for example, if I open my editor, you&#x27;ll see there&#x27;s a</p>
+<p><em>00:22:52.998</em> folder called Assignments, and then there&#x27;s a file called Markdown Week 1.</p>
+<p><em>00:23:00.409</em> If I go to Assignments and then Week 1, I will see in my URL also</p>
+<p><em>00:23:05.958</em> Assignments and Week 1. But I don&#x27;t have the HTML.</p>
+<p><em>00:23:12.108</em> So the file name that you have in the Markdown, it becomes the URL.</p>
+<p><em>00:23:16.758</em> So that&#x27;s very important to map in your head, and you&#x27;ll see that as you work</p>
+<p><em>00:23:20.508</em> through the weeks.</p>
+<p><em>00:23:23.958</em> And then we have this .gitlab-ci file, which is a special file for the project.</p>
+<p><em>00:23:29.659</em> This is basically telling GitLab, &quot;Hey, this project is using Zinkl, and</p>
+<p><em>00:23:35.628</em> this is how you build the website. This is the command you use and how to upload it</p>
+<p><em>00:23:40.068</em> to our platform.&quot; So it&#x27;s very specific to your project, and you don&#x27;t really need</p>
+<p><em>00:23:44.058</em> to change anything there unless something goes wrong or you decide to do something</p>
+<p><em>00:23:49.638</em> completely different, use another tool, which is your prerogative.</p>
+<p><em>00:23:53.058</em> You can do whatever you want. You don&#x27;t have to stick to Zinkl.</p>
+<p><em>00:23:56.748</em> You can use plain HTML. You can use another tool if you&#x27;re very familiar with</p>
+<p><em>00:24:01.458</em> different tools. We just provide Zinkl because it&#x27;s very easy out of the box.</p>
+<p><em>00:24:05.568</em> So .gitlab-ci is basically telling GitLab how to build your project</p>
+<p><em>00:24:10.818</em> and</p>
+<p><em>00:24:12.528</em> sort of, yeah. I&#x27;ll show you. So it&#x27;s sort of saying, &quot;Okay, we&#x27;re using Python</p>
+<p><em>00:24:18.468</em> because this program is built in Python, and then we&#x27;re going to install the</p>
+<p><em>00:24:23.328</em> required plugins, and then we&#x27;re going to build your project.&quot; So that&#x27;s very easy.</p>
+<p><em>00:24:28.233</em> And then it&#x27;s just saying everything in the public is we&#x27;re now in the docs folder,</p>
+<p><em>00:24:32.508</em> and we need to build HTML into a public folder.</p>
+<p><em>00:24:37.548</em> All right. So let&#x27;s talk</p>
+<p><em>00:24:41.448</em> about the configuration file and try some changes.</p>
+<p><em>00:24:46.098</em> The configuration is in a language called TOML, and it&#x27;s just basically, it&#x27;s got a</p>
+<p><em>00:24:50.178</em> key and value</p>
+<p><em>00:24:52.428</em> format. So the first word is always the sort of the setting key, the value you want</p>
+<p><em>00:24:58.098</em> to change, and then there&#x27;s the value which goes in the quotes, which is what you</p>
+<p><em>00:25:02.328</em> want the setting to contain. So for example, site name is telling Zinkl, &quot;Okay,</p>
+<p><em>00:25:08.388</em> my site name equals,&quot; and then whatever you want to call it.</p>
+<p><em>00:25:11.508</em> So you can put your name, you can put My Fabric Academy Journey. You can choose.</p>
+<p><em>00:25:17.118</em> This is basically deciding. And these values are sort of the ones I suggest you</p>
+<p><em>00:25:22.488</em> start with, and you can find them</p>
+<p><em>00:25:26.149</em> in the project. If you can&#x27;t find the word, you just do a search.</p>
+<p><em>00:25:29.208</em> If you can&#x27;t find it, then you can just write it on a new line somewhere.</p>
+<p><em>00:25:33.768</em> And basically, you can change your name, your description, and your author, and</p>
+<p><em>00:25:36.978</em> these apply to all the pages.</p>
+<p><em>00:25:40.068</em> The site URL, I would leave to whatever is written there, because this is basically</p>
+<p><em>00:25:44.628</em> the URL you have in the browser. It needs to know what your website URL is, so</p>
+<p><em>00:25:49.548</em> don&#x27;t change that one. A key caveat is that these key settings are</p>
+<p><em>00:25:55.399</em> organized into sections. So if you look at site name, it&#x27;s under the section called</p>
+<p><em>00:25:59.928</em> Project in square brackets. And then we have the color, the palette, which is</p>
+<p><em>00:26:05.508</em> choosing sort of the default color of</p>
+<p><em>00:26:08.688</em> text,</p>
+<p><em>00:26:10.698</em> is under project.theme. And then you have the selected font that you want for your</p>
+<p><em>00:26:16.188</em> whole website is under project.theme.font.</p>
+<p><em>00:26:18.993</em> And so these square brackets are important, and so you can&#x27;t put site name under</p>
+<p><em>00:26:23.899</em> project.theme. It has to go under the correct.</p>
+<p><em>00:26:28.488</em> So for example, if I&#x27;m going to look at docs.</p>
+<p><em>00:26:36.919</em> If I go to their website, I just want to show you an example of-- So I&#x27;m going to</p>
+<p><em>00:26:42.813</em> their documentation,</p>
+<p><em>00:26:45.468</em> and I see, okay, fonts, and I&#x27;m reading, because this is what I would do.</p>
+<p><em>00:26:49.698</em> I would say, how do I do something? I want to change the font.</p>
+<p><em>00:26:51.948</em> And on their documentation, they&#x27;re showing you, okay, so you need to change</p>
+<p><em>00:26:55.728</em> font.text to change the font under it.</p>
+<p><em>00:26:58.218</em> So the first thing I would do is in my configuration, I&#x27;m going to find this</p>
+<p><em>00:27:02.598</em> section in my configuration file if it exists. It might not.</p>
+<p><em>00:27:06.889</em> And so if I find this one, then I can put this text right under it.</p>
+<p><em>00:27:11.658</em> So this is showing you what you need to change, and you can match it with what you</p>
+<p><em>00:27:15.198</em> have. And so it&#x27;s very important, this sort of structure of square brackets is the</p>
+<p><em>00:27:19.248</em> sections, and then sort of the setting, and then two quotes.</p>
+<p><em>00:27:22.578</em> Always close your quotes, open and close.</p>
+<p><em>00:27:25.416</em> And then you might, if you make a mistake, then your project will fail to build,</p>
+<p><em>00:27:30.306</em> and you&#x27;ll get an error about it. And so</p>
+<p><em>00:27:33.516</em> just be, yeah, mindful of those changes of the TOML.</p>
+<p><em>00:27:38.016</em> I do link to a little validator that you can do if really you changed something, it</p>
+<p><em>00:27:42.726</em> didn&#x27;t work. There&#x27;s sort of a TOML checker here you can</p>
+<p><em>00:27:48.096</em> try out.</p>
+<p><em>00:27:59.856</em> I&#x27;m not sure what your--</p>
+<p><em>00:28:02.076</em> Dina, what was your question? Password?</p>
+<p><em>00:28:07.506</em> Your password for your accounts is in your email.</p>
+<p><em>00:28:10.207</em> If you</p>
+<p><em>00:28:12.336</em> can&#x27;t find your email, you can always do a password reset.</p>
+<p><em>00:28:16.746</em> So basically, going back,</p>
+<p><em>00:28:21.606</em> we run all our accounts on FabLab Zero.</p>
+<p><em>00:28:23.736</em> So when you&#x27;re trying to log in here, you can click the forgot password link and</p>
+<p><em>00:28:29.076</em> put in your email address, the one that you sent to coordination.</p>
+<p><em>00:28:32.437</em> So that&#x27;s another way of getting access to your account is to just ask for a, reset</p>
+<p><em>00:28:37.416</em> your password. So I would suggest trying that.</p>
+<p><em>00:28:41.556</em> See if you get the email. Otherwise, yeah, I&#x27;ll contact you.</p>
+<p><em>00:28:53.286</em> So, if you haven&#x27;t, while I was talking, tried, you can go to the editor in GitLab,</p>
+<p><em>00:28:58.927</em> and I&#x27;m going to try now edit the TOML file.</p>
+<p><em>00:29:03.216</em> And so I can go to my TOML file if I hit site name, I&#x27;ll put my name, and</p>
+<p><em>00:29:09.156</em> then I can put my...</p>
+<p><em>00:29:13.746</em> All right.</p>
+<p><em>00:29:23.946</em> I&#x27;m also going to change the copyright.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-configuration" aria-label="项目文件结构与 TOML 配置 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-first-publish">
+<span id="ch7" class="legacy-anchor" aria-hidden="true"></span><span id="ch8" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=1769s" target="_blank" rel="noopener">29:29 → 35:31</a><h2 class="chapter-title">首次提交与自动发布</h2><span class="chapter-num">05 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">把“编辑 → 检查差异 → 提交 → 查看构建 → 确认网站”作为一个完整流程，而不是分散到多个时间段。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1769s" target="_blank" rel="noopener" aria-label="在原视频查看 29:29 编辑后为何需要提交">29:29</a>编辑后为何需要提交</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1804s" target="_blank" rel="noopener" aria-label="在原视频查看 30:04 检查文件差异">30:04</a>检查文件差异</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1855s" target="_blank" rel="noopener" aria-label="在原视频查看 30:55 提交说明与 main 分支">30:55</a>提交说明与 main 分支</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=1996s" target="_blank" rel="noopener" aria-label="在原视频查看 33:16 流水线和构建日志">33:16</a>流水线和构建日志</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2118s" target="_blank" rel="noopener" aria-label="在原视频查看 35:18 确认网站更新">35:18</a>确认网站更新</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-first-publish"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/first-publish-1.jpg" alt="30:45 · 提交前查看配置差异" data-caption="30:45 · 提交前查看配置差异" loading="lazy"><img class="carousel-img" src="frames/topics/first-publish-2.jpg" alt="32:20 · 提交说明与分支选择" data-caption="32:20 · 提交说明与分支选择" loading="lazy"><img class="carousel-img" src="frames/topics/first-publish-3.jpg" alt="34:15 · 查看网站构建结果" data-caption="34:15 · 查看网站构建结果" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">30:45 · 提交前查看配置差异</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>Web Editor 中的改动需要主动提交；变更数量不代表已经发布。</li><li>先比较新增、删除的行，核对字符串引号与修改范围。</li><li>写清楚提交说明，并确认本课演示使用的 main 分支。</li><li>提交后检查对应流水线和 Pages 作业，失败时把日志错误与最近改动对应。</li><li>演示最后刷新网站，确认新的站点名称已经出现。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Commit message</strong><span class="term-tip">帮助以后查找改动的一段提交说明。</span></span><span class="term" tabindex="0"><strong>Pipeline / Job</strong><span class="term-tip">自动构建流程及其中的具体任务。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>为上一章的配置改动写提交说明，检查差异后提交。</li><li>检查最新构建状态，再刷新网站确认结果。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:29:29.106</em> Okay. Well,</p>
+<p><em>00:29:32.046</em> what do I do now?</p>
+<p><em>00:29:35.556</em> Because we&#x27;re in the browser, we actually have to-- It&#x27;s not automatically saving.</p>
+<p><em>00:29:41.586</em> We actually have to sort of intentionally commit and push our changes.</p>
+<p><em>00:29:45.606</em> So even though we&#x27;re working in the browser in GitLab, we still have to tell</p>
+<p><em>00:29:49.446</em> GitLab, &quot;Okay, I&#x27;m finished working on this file.</p>
+<p><em>00:29:53.496</em> I&#x27;m ready to sort of publish it to my website.&quot; And you&#x27;ll see there&#x27;s a little one</p>
+<p><em>00:29:59.286</em> here, which is basically telling me it&#x27;s detected that one file changed.</p>
+<p><em>00:30:04.326</em> If I open this sort of sidebar, it&#x27;s a sort of another view tab.</p>
+<p><em>00:30:10.146</em> It&#x27;s listing here this one file is this field TOML.</p>
+<p><em>00:30:14.766</em> It&#x27;s got an M, it means it&#x27;s modified.</p>
+<p><em>00:30:16.536</em> If I click it, it&#x27;s going to show me what changed.</p>
+<p><em>00:30:20.166</em> So you&#x27;ve got a minus and a plus. You&#x27;ve got two lines and showing it sort of the</p>
+<p><em>00:30:25.356</em> from to. So it&#x27;s showing you what it was and what it became.</p>
+<p><em>00:30:29.496</em> And so it&#x27;s like,</p>
+<p><em>00:30:32.677</em> I like to just go through, &quot;Okay, yes, I did this.&quot; There was no everything looks</p>
+<p><em>00:30:36.516</em> good. You can compare the quotes match. It&#x27;s another double checking.</p>
+<p><em>00:30:40.685</em> Especially when changing a TOML, you want to be really sure you didn&#x27;t forget a</p>
+<p><em>00:30:44.736</em> closing tag. And comparing it to the previous</p>
+<p><em>00:30:48.366</em> line that changed, it&#x27;s a good way to see if you missed anything.</p>
+<p><em>00:30:55.656</em> Then we have a commit message. This is sort of every save, every commit you do, you</p>
+<p><em>00:31:00.306</em> can put a sort of a comment to it, and this is just for you personally.</p>
+<p><em>00:31:05.781</em> It will be in the history, and it will be permanent, but it&#x27;s a good way to know</p>
+<p><em>00:31:11.646</em> what was in these commits. So if you&#x27;re going back and you have a long list of</p>
+<p><em>00:31:15.216</em> changes, you don&#x27;t want to open each one to see, where did I change this file?</p>
+<p><em>00:31:19.567</em> So a good thing is to write a message that&#x27;s good for you. So there&#x27;s two ways.</p>
+<p><em>00:31:23.736</em> You can say, &quot;I updated the TOML file,&quot; or you can say, &quot;I changed my site name.&quot;</p>
+<p><em>00:31:29.946</em> You can be more descriptive, you can just be generic, or you can just say, &quot;One,</p>
+<p><em>00:31:33.877</em> two, three.&quot; It&#x27;s up to you. So you can say, &quot;Updated a config file,&quot;</p>
+<p><em>00:31:40.506</em> or you can say, &quot;Updated,&quot;</p>
+<p><em>00:31:43.026</em> or &quot;Edited my name.&quot; You can write what you want.</p>
+<p><em>00:31:47.210</em> It&#x27;s just personally for you, it makes no difference.</p>
+<p><em>00:31:49.146</em> And when we&#x27;re ready with a message, you say commit and push.</p>
+<p><em>00:31:52.836</em> But very important, it has to say, &quot;Push to main.&quot; Main is sort of,</p>
+<p><em>00:31:58.207</em> there can be lots of forks in this project. You can have lots of parallel work.</p>
+<p><em>00:32:02.196</em> You can do lots of things together at the same time, and so they call this</p>
+<p><em>00:32:05.826</em> branches, but generally 99% of the time, I think you should just work in main.</p>
+<p><em>00:32:11.856</em> So always be pushing to main because you only really want to work on one thing at a</p>
+<p><em>00:32:16.116</em> time and not have to deal with merging things together.</p>
+<p><em>00:32:18.817</em> So always make sure it&#x27;s committing to main.</p>
+<p><em>00:32:21.666</em> If it doesn&#x27;t say main, you can click the drop down and then select something else.</p>
+<p><em>00:32:27.696</em> Let me know if you don&#x27;t see main. You can comment me now or raise your hand.</p>
+<p><em>00:32:34.026</em> So when you click commit and push, it&#x27;s going to double ask you, are you sure?</p>
+<p><em>00:32:39.187</em> Because,</p>
+<p><em>00:32:42.096</em> but we&#x27;re sure. We always want to connect.</p>
+<p><em>00:32:43.986</em> I think after this, the first time, it won&#x27;t ask you again.</p>
+<p><em>00:32:46.716</em> So you&#x27;re just like, &quot;Yes, I want to commit to the main branch.&quot;</p>
+<p><em>00:32:50.496</em> And that should go through.</p>
+<p><em>00:32:55.026</em> And then, so you&#x27;re thinking, okay,</p>
+<p><em>00:32:59.437</em> I&#x27;m now going to reload my commit list. I&#x27;m back on my project.</p>
+<p><em>00:33:04.567</em> Where&#x27;s the refresh button? I&#x27;m going to refresh this page,</p>
+<p><em>00:33:09.546</em> and I&#x27;m going to see this is the new commit I made 19 seconds ago, update config,</p>
+<p><em>00:33:14.496</em> and I&#x27;m going to have the green check mark.</p>
+<p><em>00:33:16.446</em> Now let&#x27;s dive into what this check mark is.</p>
+<p><em>00:33:19.446</em> It&#x27;s related to every time you make a commit or you push from locally, we&#x27;re going</p>
+<p><em>00:33:24.127</em> to actually build your project. And so, this is called a CI pipeline or</p>
+<p><em>00:33:29.646</em> pipelines, and it&#x27;s basically for every commit you make, it&#x27;s going to run that</p>
+<p><em>00:33:33.486</em> code that we had in that .CI YAML file in that if you saw in your project.</p>
+<p><em>00:33:37.356</em> So it&#x27;s basically building your Zekel project, and you always want it to pass.</p>
+<p><em>00:33:41.286</em> So if it fails, then you sort of open it, you click-- it&#x27;s going to have a red</p>
+<p><em>00:33:45.786</em> error message. And if you click it and go into it, you&#x27;re going to see this deploy</p>
+<p><em>00:33:50.466</em> pages. It&#x27;s called Pages. So we&#x27;re going to click into it, and then you&#x27;re just</p>
+<p><em>00:33:54.245</em> going to see a bunch of logs. This is sort of the server building your project,</p>
+<p><em>00:33:57.756</em> downloading the Zekel website and installing it, and then downloading your code.</p>
+<p><em>00:34:03.666</em> And then...</p>
+<p><em>00:34:09.396</em> So in my scenario, it&#x27;s just successful.</p>
+<p><em>00:34:11.346</em> It&#x27;s going to always be successful, but if it fails, then you will sort of at the</p>
+<p><em>00:34:15.187</em> bottom of this list of sort of the logs of the server building your project, it</p>
+<p><em>00:34:21.067</em> might have error. We couldn&#x27;t find an image, or the TOML file had an error.</p>
+<p><em>00:34:26.616</em> And so sometimes these errors are a bit cryptic. I go back to that meme.</p>
+<p><em>00:34:31.026</em> It&#x27;s like, what&#x27;s this error mean?</p>
+<p><em>00:34:32.466</em> And so that might be a good-- That&#x27;s good to read the error message, try and find</p>
+<p><em>00:34:38.136</em> the error message, and look at the commits. What did I actually change?</p>
+<p><em>00:34:41.646</em> Go back to see what you actually changed.</p>
+<p><em>00:34:44.797</em> Google it or ask AI, what&#x27;s this error mean?</p>
+<p><em>00:34:47.976</em> And then not how do I fix it, but what does it mean?</p>
+<p><em>00:34:50.677</em> So then you can actually try and fix it yourself and sort of have that.</p>
+<p><em>00:34:54.846</em> So, keep in mind, it&#x27;s always going to work, but if the pipelines you have to have</p>
+<p><em>00:34:58.896</em> in the back of your head, every commit is going to be building your project in a</p>
+<p><em>00:35:02.706</em> pipeline, on a server, and sometimes it may fail.</p>
+<p><em>00:35:05.706</em> So you&#x27;ll always make sure that if your website doesn&#x27;t seem updated, double-check.</p>
+<p><em>00:35:10.476</em> Did I get the green mark? Was it correct, or did it fail?</p>
+<p><em>00:35:15.366</em> Sometimes you get an email that it failed as well.</p>
+<p><em>00:35:18.876</em> Yeah. So, just for fun, I&#x27;ll check up,</p>
+<p><em>00:35:25.056</em> and I should have my name. Yeah, I have my name now, so it worked.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-first-publish" aria-label="首次提交与自动发布 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-theme">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=2131s" target="_blank" rel="noopener">35:31 → 37:41</a><h2 class="chapter-title">字体、图标与社交链接</h2><span class="chapter-num">06 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">通过主题配置做第一轮外观定制，分别查看字体、站点图标和页脚社交链接的设置。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2139s" target="_blank" rel="noopener" aria-label="在原视频查看 35:39 选择字体">35:39</a>选择字体</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2203s" target="_blank" rel="noopener" aria-label="在原视频查看 36:43 更换站点图标">36:43</a>更换站点图标</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2228s" target="_blank" rel="noopener" aria-label="在原视频查看 37:08 添加社交链接">37:08</a>添加社交链接</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-theme"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/theme-1.jpg" alt="36:15 · 字体选择与配置" data-caption="36:15 · 字体选择与配置" loading="lazy"><img class="carousel-img" src="frames/topics/theme-2.jpg" alt="37:25 · 社交链接与图标设置" data-caption="37:25 · 社交链接与图标设置" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">36:15 · 字体选择与配置</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>从字体库选定字体后，将字体名称写入配置字符串。</li><li>站点图标使用工具提供的图标库；社交链接包括图标名称和网址。</li><li>演示中猜写的社交图标名称后来导致构建失败，选名称时应对照实际图标库。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Theme</strong><span class="term-tip">定义网站整体外观和导航等选项的主题。</span></span><span class="term" tabindex="0"><strong>Social links</strong><span class="term-tip">页脚等位置展示的社交平台链接。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>找到模板里的字体和图标设置，一次只修改一项。</li><li>检查图标名称与目标网址，提交后确认构建是否成功。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:35:31.656</em> I think I&#x27;ll also show you-- So, just double-check my slides where I am.</p>
+<p><em>00:35:39.696</em> Google Fonts. Yeah. So, I</p>
+<p><em>00:35:43.236</em> don&#x27;t know where fonts are, so I can just do a Apple+F. I can do Find.</p>
+<p><em>00:35:47.616</em> And so I&#x27;m searching within this editor. I can do fonts, and there we go.</p>
+<p><em>00:35:52.927</em> Theme fonts here. So these are Google Fonts.</p>
+<p><em>00:35:57.036</em> You can go to google.com or</p>
+<p><em>00:36:00.396</em> fonts.google.com, I think.</p>
+<p><em>00:36:05.556</em> And basically, you can look through these fonts and find something you like, so you</p>
+<p><em>00:36:08.406</em> can sort of already have something suited to your style just by changing the font.</p>
+<p><em>00:36:13.206</em> So that&#x27;s something easy to do that you can already do today.</p>
+<p><em>00:36:16.101</em> And then you would put the name of the font in this setting inside the quotes,</p>
+<p><em>00:36:20.317</em> commit it, and the font should change.</p>
+<p><em>00:36:23.346</em> You can read the documentation of Zekel if you want to see, how can I use the font</p>
+<p><em>00:36:27.966</em> that&#x27;s not in Google? You can</p>
+<p><em>00:36:32.106</em> import your own fonts, but make sure their sort of licensing is free, not doing</p>
+<p><em>00:36:37.716</em> paid stuff.</p>
+<p><em>00:36:43.131</em> Yeah, I see here you can also change the icon.</p>
+<p><em>00:36:46.911</em> So the icon is this thing next to my name.</p>
+<p><em>00:36:50.302</em> I&#x27;ve got a little book librarian, an open book.</p>
+<p><em>00:36:54.321</em> So if you open the Zekiel docs, and actually there&#x27;s a link here, so you can</p>
+<p><em>00:36:58.521</em> already open it. They have a full library of icons, and then you can choose an icon</p>
+<p><em>00:37:02.211</em> you want, and you replace it here.</p>
+<p><em>00:37:05.121</em> So there&#x27;s a lot of settings you can go through and change.</p>
+<p><em>00:37:08.181</em> There&#x27;s here social media. You can put your own social media links here, and then</p>
+<p><em>00:37:12.021</em> they will appear at the bottom. So it&#x27;s something you can already do.</p>
+<p><em>00:37:16.431</em> You see at the footer, there&#x27;s the links.</p>
+<p><em>00:37:19.281</em> You can add your own. So if I want what&#x27;s not on here,</p>
+<p><em>00:37:25.491</em> LinkedIn, I don&#x27;t know. So you make another line, and then you write</p>
+<p><em>00:37:31.161</em> LinkedIn as a brand. I guess that icon exists, and then you change the URL.</p>
+<p><em>00:37:35.871</em> And so that&#x27;s how you would make another one.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-theme" aria-label="字体、图标与社交链接 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-markdown">
+<span id="ch9" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=2261s" target="_blank" rel="noopener">37:41 → 44:15</a><h2 class="chapter-title">Markdown 写作与扩展组件</h2><span class="chapter-num">07 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">以每周作业模板为例，区分基础 Markdown、HTML 和扩展组件，理解提示框、按钮、表格与图片图注。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2261s" target="_blank" rel="noopener" aria-label="在原视频查看 37:41 阅读每周作业模板">37:41</a>阅读每周作业模板</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2339s" target="_blank" rel="noopener" aria-label="在原视频查看 38:59 提示框、按钮与表格">38:59</a>提示框、按钮与表格</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2425s" target="_blank" rel="noopener" aria-label="在原视频查看 40:25 基础语法与工具扩展的区别">40:25</a>基础语法与工具扩展的区别</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2589s" target="_blank" rel="noopener" aria-label="在原视频查看 43:09 用 HTML 添加图片图注">43:09</a>用 HTML 添加图片图注</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-markdown"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/markdown-1.jpg" alt="38:55 · 模板源码与页面效果" data-caption="38:55 · 模板源码与页面效果" loading="lazy"><img class="carousel-img" src="frames/topics/markdown-2.jpg" alt="43:30 · 图片与图注示例" data-caption="43:30 · 图片与图注示例" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">38:55 · 模板源码与页面效果</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>把模板源码与渲染结果对照起来看，辨认标题、正文和可折叠提示框。</li><li>基础 Markdown 之外的提示框、按钮等可能需要先启用对应扩展。</li><li>扩展语法与工具有关，不能假定所有编辑器都能预览同样的效果。</li><li>模板混用 HTML 实现图片图注；图注与图片替代文本是不同用途。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Admonition</strong><span class="term-tip">用于提示、说明或警告的内容框。</span></span><span class="term" tabindex="0"><strong>Markdown extension</strong><span class="term-tip">为 Markdown 增加组件或语法的扩展。</span></span><span class="term" tabindex="0"><strong>Caption</strong><span class="term-tip">显示在图片附近的图注。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>从模板中选择一个提示框，对照其源码、配置与显示结果。</li><li>找到图注示例，再阅读下一章的图片语法和路径说明。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:37:41.466</em> Let&#x27;s look at some markdown. If there&#x27;s no questions,</p>
+<p><em>00:37:45.351</em> I&#x27;m going to open week one.</p>
+<p><em>00:37:48.621</em> Let&#x27;s get to some real documentation.</p>
+<p><em>00:37:50.541</em> I don&#x27;t know how I am on time, but</p>
+<p><em>00:37:54.381</em> this is what markdown looks like. So each week, we just give you a template.</p>
+<p><em>00:37:59.331</em> So we just provide a bunch of</p>
+<p><em>00:38:03.681</em> useful tips, but this is also an example of how you would do stuff.</p>
+<p><em>00:38:08.091</em> So if you see here, what this is all text. It&#x27;s all special to Zekiel.</p>
+<p><em>00:38:14.271</em> I&#x27;ve got some HTML. If you can see here, this is HTML.</p>
+<p><em>00:38:17.390</em> So you&#x27;re mixing HTML and markdown. So this is an image.</p>
+<p><em>00:38:21.681</em> I&#x27;m just going quickly through it now. And I know this.</p>
+<p><em>00:38:24.711</em> So yeah, it&#x27;s good, and I&#x27;m going to match it to what I see here.</p>
+<p><em>00:38:30.321</em> So, for example, this weekly assignment was this nice little collapsible box with</p>
+<p><em>00:38:34.641</em> one objective. So if I go back to the markdown, I see the double hash.</p>
+<p><em>00:38:39.561</em> So that was the title. So that&#x27;s a</p>
+<p><em>00:38:42.621</em> heading or subheading because it&#x27;s number two.</p>
+<p><em>00:38:45.891</em> The first hash is the title of the page, and that also becomes the link in the nav</p>
+<p><em>00:38:51.081</em> bar. So it&#x27;s a two-in-one. And then these special boxes are these, they&#x27;re called--</p>
+<p><em>00:38:59.361</em> I forgot what they were. Ammonitions.</p>
+<p><em>00:39:03.471</em> So</p>
+<p><em>00:39:06.231</em> in Zekiel, I won&#x27;t go through them all, but there&#x27;s a lot of different extra</p>
+<p><em>00:39:10.971</em> features that you can add to your website.</p>
+<p><em>00:39:12.681</em> So, markdown is, let&#x27;s say, the bare minimum.</p>
+<p><em>00:39:15.981</em> It&#x27;s like the headers, the bullet points, the paragraphs.</p>
+<p><em>00:39:20.001</em> But sometimes Zekiel provides you already-made objects, like the little collapsible</p>
+<p><em>00:39:24.831</em> things. You have little buttons</p>
+<p><em>00:39:28.071</em> that you can then,</p>
+<p><em>00:39:30.681</em> if you enable it, so if you follow their settings, they say, &quot;Okay, you need to</p>
+<p><em>00:39:34.041</em> make sure this is in your toml file.&quot; And then buttons look like this when you do</p>
+<p><em>00:39:38.841</em> it this way. So this is, for example, a button.</p>
+<p><em>00:39:42.231</em> I have to copy this whole piece of thing in my markdown, and then if it works, it</p>
+<p><em>00:39:47.331</em> will look like this. So instead of a link looking like this one</p>
+<p><em>00:39:53.331</em> up here,</p>
+<p><em>00:39:55.040</em> it&#x27;s going to look like this. So they have a lot of things.</p>
+<p><em>00:39:57.471</em> They have code blocks, diagrams. They have tables which are very useful for you.</p>
+<p><em>00:40:03.891</em> So you would then just say, &quot;How do I enable it?</p>
+<p><em>00:40:05.841</em> What they look like?&quot; Their documentation is great, so just go through it all,</p>
+<p><em>00:40:10.552</em> and</p>
+<p><em>00:40:12.651</em> then you put it here.</p>
+<p><em>00:40:17.151</em> Yeah.</p>
+<p><em>00:40:25.851</em> So Zekiel is reading markdown files.</p>
+<p><em>00:40:29.061</em> So week one.md is a markdown file. So, the base is markdown.</p>
+<p><em>00:40:34.011</em> So we&#x27;re starting with markdown. And then Zekiel is adding their own little extra--</p>
+<p><em>00:40:40.161</em> So there&#x27;s markdown. I can add HTML, which is not markdown, but I can add</p>
+<p><em>00:40:46.041</em> HTML. So if I want my own</p>
+<p><em>00:40:49.192</em> image, whatever. If I want to write my own</p>
+<p><em>00:40:54.591</em> paragraph, I can write it in markdown, or I can write it in my own way.</p>
+<p><em>00:40:59.781</em> And then these things are</p>
+<p><em>00:41:02.361</em> Zekiel&#x27;s custom components, custom elements that they&#x27;ve made for you that so</p>
+<p><em>00:41:08.091</em> instead of having to build the whole HTML and the CSS yourself, we&#x27;ve made it for</p>
+<p><em>00:41:12.741</em> you already. And all you have to do is they come up with these</p>
+<p><em>00:41:16.942</em> special symbols like question mark, question mark task is going to open a little</p>
+<p><em>00:41:21.231</em> blue box, but that&#x27;s not markdown. That&#x27;s really specific to Zekiel.</p>
+<p><em>00:41:26.061</em> So it&#x27;s this mix, like sprinkling extra cherries on top of the markdown.</p>
+<p><em>00:41:31.851</em> Because markdown is a very simple language that&#x27;s interoperable between any</p>
+<p><em>00:41:36.231</em> tooling. And so it&#x27;s great here, but because we&#x27;re really only using it to build a</p>
+<p><em>00:41:40.431</em> website and only with this tool,</p>
+<p><em>00:41:43.821</em> we can add this custom. So all these things I showed you in the Zekiel</p>
+<p><em>00:41:47.511</em> documentation, they&#x27;re very custom to Zekiel, this part.</p>
+<p><em>00:41:50.331</em> That&#x27;s why you have to enable them with these--</p>
+<p><em>00:41:53.631</em> You see these extensions, they&#x27;re called.</p>
+<p><em>00:41:55.942</em> You&#x27;re extending the markdown with these extra functionalities.</p>
+<p><em>00:41:59.511</em> And sometimes there&#x27;s stuff outside of Zekiel, so you may find also a</p>
+<p><em>00:42:05.961</em> markdown extension on another website, or someone made one on GitHub,</p>
+<p><em>00:42:10.942</em> and</p>
+<p><em>00:42:13.461</em> it&#x27;s not guaranteed to work, but it could work, if it&#x27;s supporting the markdown</p>
+<p><em>00:42:20.302</em> to go down. Yes, it&#x27;s a Python markdown, so it&#x27;s a specific version, but you can</p>
+<p><em>00:42:25.251</em> extend it. So there&#x27;s lots of plug-ins, especially a lot of the markdown extensions</p>
+<p><em>00:42:29.991</em> from MK Docs should also work if you don&#x27;t find it here.</p>
+<p><em>00:42:34.881</em> Yeah.</p>
+<p><em>00:42:38.226</em> You got it right. Write markdown, then you can add some Zekiel custom elements on</p>
+<p><em>00:42:44.061</em> top, and then when you push it, it builds your website.</p>
+<p><em>00:42:47.302</em> And</p>
+<p><em>00:42:51.561</em> actually, what you&#x27;re missing is in the mix.</p>
+<p><em>00:42:53.751</em> So</p>
+<p><em>00:42:55.281</em> just like in this template, we have markdown, we have some custom, very</p>
+<p><em>00:43:01.281</em> specific elements that are from Zekiel,</p>
+<p><em>00:43:05.302</em> and we have at the lower down here, we had-- This is HTML.</p>
+<p><em>00:43:09.261</em> So, for example, this one is about having a caption on your image.</p>
+<p><em>00:43:13.221</em> Actually, I should talk about image, though.</p>
+<p><em>00:43:15.771</em> An image in markdown just looks like this,</p>
+<p><em>00:43:20.151</em> but there was no support for a caption.</p>
+<p><em>00:43:23.526</em> And so we&#x27;re using HTML to basically say, I want to add some caption.</p>
+<p><em>00:43:28.881</em> If we look at what it looks like here.</p>
+<p><em>00:43:31.071</em> So you see it&#x27;s an image, and it has a text underneath.</p>
+<p><em>00:43:34.521</em> So to do that, there was no way in markdown, there was no way in Zekiel.</p>
+<p><em>00:43:38.811</em> So this was the way in HTML. And so you can add it, or sometimes you find a</p>
+<p><em>00:43:43.672</em> nice-looking button</p>
+<p><em>00:43:46.461</em> on the</p>
+<p><em>00:43:49.942</em> internet, and you can copy the HTML on and it works.</p>
+<p><em>00:43:53.241</em> Because HTML is also like markdown. It works everywhere.</p>
+<p><em>00:43:56.451</em> The only thing that&#x27;s really specific to Zekiel is these specific</p>
+<p><em>00:44:02.751</em> elements.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-markdown" aria-label="Markdown 写作与扩展组件 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-images">
+<span id="ch10" class="legacy-anchor" aria-hidden="true"></span><span id="ch11" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=2655s" target="_blank" rel="noopener">44:15 → 52:34</a><h2 class="chapter-title">图片插入、上传与提交</h2><span class="chapter-num">08 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">把图片替代文本、相对路径、编辑器预览、上传命名和最终提交连成一套操作。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2655s" target="_blank" rel="noopener" aria-label="在原视频查看 44:15 图片语法与替代文本">44:15</a>图片语法与替代文本</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2707s" target="_blank" rel="noopener" aria-label="在原视频查看 45:07 相对路径与目录层级">45:07</a>相对路径与目录层级</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2777s" target="_blank" rel="noopener" aria-label="在原视频查看 46:17 Markdown 预览与路径补全">46:17</a>Markdown 预览与路径补全</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=2898s" target="_blank" rel="noopener" aria-label="在原视频查看 48:18 上传图片与重命名">48:18</a>上传图片与重命名</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3050s" target="_blank" rel="noopener" aria-label="在原视频查看 50:50 提交正文和图片">50:50</a>提交正文和图片</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3090s" target="_blank" rel="noopener" aria-label="在原视频查看 51:30 插入问答：右键菜单异常">51:30</a>插入问答：右键菜单异常</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-images"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/images-1.jpg" alt="46:05 · 图片相对路径" data-caption="46:05 · 图片相对路径" loading="lazy"><img class="carousel-img" src="frames/topics/images-2.jpg" alt="47:10 · 预览与图片路径检查" data-caption="47:10 · 预览与图片路径检查" loading="lazy"><img class="carousel-img" src="frames/topics/images-3.jpg" alt="50:58 · 图片与正文一起提交" data-caption="50:58 · 图片与正文一起提交" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">46:05 · 图片相对路径</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>图片写法是 ![替代文本](路径)，替代文本描述画面而不是简单写“图片”。</li><li>从当前 Markdown 所在目录计算路径，../ 返回一级；可借助编辑器补全减少拼写错误。</li><li>Markdown 预览适合检查图片和基础排版，不一定显示站点扩展组件。</li><li>上传后使用清晰的小写文件名，并让正文中的路径与文件名一致。</li><li>检查图片文件和正文的变更后一起提交；本段末尾尝试排查右键菜单，后续答疑提供了替代入口。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Alt text</strong><span class="term-tip">为看不到图片的人提供内容描述的替代文本。</span></span><span class="term" tabindex="0"><strong>Relative path</strong><span class="term-tip">相对当前文件位置计算的资源路径。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>上传一张优化后的图片，补充替代文本，并在预览中确认路径正确。</li><li>将图片与引用它的 Markdown 一起检查、提交并确认网页显示。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:44:15.831</em> Yeah, I think good one is so about images.</p>
+<p><em>00:44:20.241</em> This is the markdown for an image. So you&#x27;ve got a exclamation mark, two</p>
+<p><em>00:44:26.091</em> square brackets, and two round brackets.</p>
+<p><em>00:44:28.911</em> The first part is saying, &quot;I&#x27;m an image.&quot; The square brackets is actually saying</p>
+<p><em>00:44:33.531</em> what this image about, and it&#x27;s called an alternative text.</p>
+<p><em>00:44:37.281</em> And these are usually predominantly used for screen readers of blind or deaf</p>
+<p><em>00:44:41.751</em> people. Well, blind people. So that their computer can</p>
+<p><em>00:44:47.121</em> describe what this image-- Well, read the text.</p>
+<p><em>00:44:49.311</em> So, for example, if I upload a picture of me or a picture of trees, I can say it&#x27;s</p>
+<p><em>00:44:53.422</em> a picture of a pine tree. So then whoever&#x27;s reading your documentation, they</p>
+<p><em>00:44:59.422</em> understand, okay, this is a pine tree.</p>
+<p><em>00:45:03.501</em> So it&#x27;s nice to put an alternative text, and that goes in the square brackets.</p>
+<p><em>00:45:07.056</em> And in the round brackets, you put in the location of that image relative to where</p>
+<p><em>00:45:11.811</em> you are. So you&#x27;ve got to tell, if you think of Zekiel as reading this page and</p>
+<p><em>00:45:17.091</em> say, &quot;Okay, I&#x27;m here. I&#x27;m in week one.md.</p>
+<p><em>00:45:20.571</em> Where is this image?&quot; So you have to tell it, &quot;Okay, well, actually, you&#x27;re inside</p>
+<p><em>00:45:25.416</em> the assignments folder now.&quot; So you have to go outside the assignments folder, find</p>
+<p><em>00:45:30.141</em> a folder called Images, which we have down here, and in there, you&#x27;ll see I have a</p>
+<p><em>00:45:35.481</em> folder called Avatar Folder. So how do we go back?</p>
+<p><em>00:45:38.841</em> And actually, the weather is quite nice right now. So back is two dots and a slash.</p>
+<p><em>00:45:45.351</em> That means go back one folder. And then, so now we write images</p>
+<p><em>00:45:52.335</em> And then I write a slash, so that&#x27;s the end of the folder.</p>
+<p><em>00:45:55.395</em> And inside images, we have avatar, and then I write the name of the photo,</p>
+<p><em>00:46:02.775</em> JPEG. There. So this is going back one folder, then go inside images, and then the</p>
+<p><em>00:46:08.295</em> name of my image. So if I put all that together because we&#x27;re not supposed to have</p>
+<p><em>00:46:12.315</em> spaces,</p>
+<p><em>00:46:14.145</em> then that&#x27;s my image.</p>
+<p><em>00:46:17.295</em> And how do I know it works? Well, do I have to commit it?</p>
+<p><em>00:46:23.580</em> Well, you have to commit it, but a quick way of validating your markdown, which</p>
+<p><em>00:46:27.435</em> really only works for the markdown, is on the right here.</p>
+<p><em>00:46:32.145</em> On the top right, you see a little</p>
+<p><em>00:46:35.116</em> two columns in a magnifying glass.</p>
+<p><em>00:46:37.905</em> If you click it, it&#x27;s going to show you a preview of your markdown.</p>
+<p><em>00:46:42.285</em> So the web editor is able to render markdown, only markdown.</p>
+<p><em>00:46:47.205</em> So you&#x27;ll notice that the Zekiel stuff doesn&#x27;t work.</p>
+<p><em>00:46:50.835</em> The little blue boxes, styled boxes don&#x27;t work.</p>
+<p><em>00:46:55.065</em> But it&#x27;s a great way for verifying the images work, your headings, things look</p>
+<p><em>00:47:00.135</em> roughly away. So it&#x27;s a nice way to look. So you see here, I made image.</p>
+<p><em>00:47:04.305</em> If I</p>
+<p><em>00:47:06.195</em> misspell my image name, it doesn&#x27;t work. I get picture of pine tree.</p>
+<p><em>00:47:11.265</em> Basically, that&#x27;s saying, &quot;I couldn&#x27;t find image, so I&#x27;m going to show you the alt</p>
+<p><em>00:47:14.145</em> text,</p>
+<p><em>00:47:16.305</em> JPEG.&quot;</p>
+<p><em>00:47:18.465</em> Yeah.</p>
+<p><em>00:47:21.465</em> So having the in-browser, it&#x27;s a nice one,</p>
+<p><em>00:47:24.825</em> especially for experimenting now.</p>
+<p><em>00:47:26.715</em> For the markdown, to play with the markdown, you don&#x27;t need to commit everything.</p>
+<p><em>00:47:29.355</em> You can just play with everything here, and you&#x27;ll see a live preview.</p>
+<p><em>00:47:32.265</em> So that&#x27;s on the right side.</p>
+<p><em>00:47:37.755</em> The good thing about this editor actually is with the images, so exclamation mark,</p>
+<p><em>00:47:41.805</em> two squares, and then I do the round braces.</p>
+<p><em>00:47:47.295</em> I&#x27;m going to go back two folders, and you&#x27;ll notice the editor is actually helping</p>
+<p><em>00:47:51.375</em> me. So it&#x27;s telling me, &quot;Okay, you want to go back.&quot; So it&#x27;s showing me I can,</p>
+<p><em>00:47:56.085</em> within the editor, choose a folder. I don&#x27;t have to write it myself.</p>
+<p><em>00:47:59.055</em> And then, so I&#x27;m going to click Enter on my keyboard.</p>
+<p><em>00:48:01.875</em> I click Enter, and then I say, &quot;Okay, I&#x27;m going to look for the image.&quot; I want to</p>
+<p><em>00:48:05.295</em> go in week two, and then I say, &quot;Yep, that&#x27;s the file I want.&quot; So it&#x27;s helping me</p>
+<p><em>00:48:09.495</em> build</p>
+<p><em>00:48:11.715</em> my path within Markdown. So that&#x27;s a great way to help you don&#x27;t make mistakes with</p>
+<p><em>00:48:15.525</em> the file names.</p>
+<p><em>00:48:18.435</em> But how do we get an image in there?</p>
+<p><em>00:48:22.755</em> Well, if we go to the image folder, you find it, you right-click it.</p>
+<p><em>00:48:27.375</em> You can see there&#x27;s an Upload button.</p>
+<p><em>00:48:30.105</em> So you can click Upload, and then you can choose an</p>
+<p><em>00:48:37.815</em> image.</p>
+<p><em>00:48:47.565</em> Hang on a bit.</p>
+<p><em>00:48:57.435</em> Just give me a moment. I don&#x27;t have an image to upload, but if I go to week one</p>
+<p><em>00:49:04.065</em> and I say Upload,</p>
+<p><em>00:49:06.705</em> then I can...</p>
+<p><em>00:49:14.685</em> There we go. It&#x27;s the same name. I already had this image, but it&#x27;s sort of just</p>
+<p><em>00:49:18.015</em> uploading. It&#x27;s showing you how to upload an image.</p>
+<p><em>00:49:23.040</em> And then I can also choose to rename this image, so I can then right-click the new</p>
+<p><em>00:49:27.075</em> image I just uploaded, click Rename, and say My New Image.</p>
+<p><em>00:49:32.685</em> It&#x27;s good to rename images because maybe you took it with your phone or something,</p>
+<p><em>00:49:36.660</em> it&#x27;s got a weird name. I would suggest to write a good name, and I also always</p>
+<p><em>00:49:41.715</em> suggest that it should have no spaces in it because websites don&#x27;t work well with</p>
+<p><em>00:49:46.695</em> spaces, so you don&#x27;t want to write new space like this.</p>
+<p><em>00:49:51.585</em> I also wouldn&#x27;t suggest capitals. Keep everything lowercase.</p>
+<p><em>00:49:55.395</em> It&#x27;s just very simple, and it&#x27;s less likely to make mistakes.</p>
+<p><em>00:50:00.241</em> And websites also don&#x27;t like capital case. It just gets weird.</p>
+<p><em>00:50:03.675</em> So if you keep everything lowercase, it&#x27;s just less likely to make errors later on.</p>
+<p><em>00:50:08.535</em> There are some questions on the chat.</p>
+<p><em>00:50:12.555</em> What?</p>
+<p><em>00:50:14.025</em> You have some questions at the chat.</p>
+<p><em>00:50:17.116</em> Yeah. Okay.</p>
+<p><em>00:50:21.705</em> Yeah, so if I got this new image now, actually I can even drag it now. No, I can&#x27;t.</p>
+<p><em>00:50:27.105</em> That was too good to be true. Okay.</p>
+<p><em>00:50:31.695</em> I&#x27;m going to go back here.</p>
+<p><em>00:50:34.635</em> Week one as an example. New image. I&#x27;ve got it selected.</p>
+<p><em>00:50:38.565</em> And then on my alt text, I can put in the square brackets.</p>
+<p><em>00:50:50.565</em> There we go. Don&#x27;t forget to commit. We look on the left.</p>
+<p><em>00:50:54.075</em> We have three files we need to commit. So we got the week one.</p>
+<p><em>00:50:58.185</em> I&#x27;m going to open it. It&#x27;s going to show me the changes. Yeah, two new images.</p>
+<p><em>00:51:02.565</em> I&#x27;ve got the new image I am uploading, and then, yeah, new image uploaded.</p>
+<p><em>00:51:08.866</em> I write a message, and then I click Commit to push.</p>
+<p><em>00:51:13.726</em> That&#x27;s it. That should</p>
+<p><em>00:51:15.106</em> then</p>
+<p><em>00:51:21.495</em> now if I go back to my...</p>
+<p><em>00:51:30.495</em> So there&#x27;s a question here about right-clicking.</p>
+<p><em>00:51:32.115</em> We have to make sure we&#x27;re clicking the folder, and sometimes I notice on some</p>
+<p><em>00:51:36.915</em> browsers, it&#x27;s like a right-click</p>
+<p><em>00:51:40.425</em> and then clicking it again. So if you don&#x27;t get this pop-up because you get the one</p>
+<p><em>00:51:44.895</em> of the browser, sometimes just doing a quick click on the link on the week one</p>
+<p><em>00:51:50.175</em> again can work. If that doesn&#x27;t work, select week one.</p>
+<p><em>00:51:54.525</em> So you see I have it highlighted in the left here.</p>
+<p><em>00:51:57.315</em> Then at the top, you&#x27;ll see</p>
+<p><em>00:52:01.125</em> this sort of...</p>
+<p><em>00:52:03.856</em> Oops. If we go to the top here,</p>
+<p><em>00:52:08.955</em> I&#x27;m pretty sure you can do...</p>
+<p><em>00:52:13.065</em> No, this is new folder, new file.</p>
+<p><em>00:52:21.165</em> Hmm.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-images" aria-label="图片插入、上传与提交 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-recovery">
+<span id="ch12" class="legacy-anchor" aria-hidden="true"></span><span id="ch13" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=3154s" target="_blank" rel="noopener">52:34 → 61:31</a><h2 class="chapter-title">历史恢复、构建排错与编辑冲突</h2><span class="chapter-num">09 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">围绕“改错后怎么办”，完整保留历史恢复、revert 的现场纠正、构建日志定位和旧标签页冲突处理。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3154s" target="_blank" rel="noopener" aria-label="在原视频查看 52:34 从文件历史恢复内容">52:34</a>从文件历史恢复内容</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3250s" target="_blank" rel="noopener" aria-label="在原视频查看 54:10 Revert 演示及随后纠正">54:10</a>Revert 演示及随后纠正</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3306s" target="_blank" rel="noopener" aria-label="在原视频查看 55:06 纠正：revert 与 reset 的区别">55:06</a>纠正：revert 与 reset 的区别</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3383s" target="_blank" rel="noopener" aria-label="在原视频查看 56:23 本地预览如何减少等待">56:23</a>本地预览如何减少等待</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3504s" target="_blank" rel="noopener" aria-label="在原视频查看 58:24 用日志定位社交图标错误">58:24</a>用日志定位社交图标错误</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3612s" target="_blank" rel="noopener" aria-label="在原视频查看 60:12 处理旧标签页的提交冲突">60:12</a>处理旧标签页的提交冲突</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-recovery"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/recovery-1.jpg" alt="53:50 · 从历史版本找回文件内容" data-caption="53:50 · 从历史版本找回文件内容" loading="lazy"><img class="carousel-img" src="frames/topics/recovery-2.jpg" alt="59:05 · 查看构建错误日志" data-caption="59:05 · 查看构建错误日志" loading="lazy"><img class="carousel-img" src="frames/topics/recovery-3.jpg" alt="60:35 · 编辑期间文件已改变的提示" data-caption="60:35 · 编辑期间文件已改变的提示" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">53:50 · 从历史版本找回文件内容</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>文件 History 可以找到旧内容，再将需要的部分恢复为一次新修改。</li><li>讲师先把 revert 与 reset 混淆，随后明确纠正：revert 新建反向提交，撤销指定提交。</li><li>本地预览能减少“改一点、提交一次、等待构建”的往返。</li><li>本次日志中的 footer、social 和图标名称帮助定位到此前修改过的社交链接配置。</li><li>旧标签页落后于仓库版本时，先保留未提交文字，刷新后比较与合并，避免丢失或覆盖改动。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Revert</strong><span class="term-tip">通过新提交反向撤销指定提交，保留已有历史。</span></span><span class="term" tabindex="0"><strong>构建日志</strong><span class="term-tip">记录构建步骤与报错的输出。</span></span><span class="term" tabindex="0"><strong>编辑冲突</strong><span class="term-tip">当前编辑版本已落后于仓库，不能直接覆盖提交的情况。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>需要恢复时，先查看对应提交影响了哪些文件；少量内容可从历史中复制回来。</li><li>构建失败先定位日志关键词并核对最近改动；遇到旧标签页先备份未提交内容。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:52:34.440</em> Can you go back to the original settings in the original Zankio file?</p>
+<p><em>00:52:39.705</em> You mean you want to revert?</p>
+<p><em>00:52:44.266</em> If you think you&#x27;ve made a mistake in a Zankio file, you can go to your project.</p>
+<p><em>00:52:48.915</em> So if I go to my main page build project, I can look at the list of files.</p>
+<p><em>00:52:55.485</em> I can then click</p>
+<p><em>00:52:58.305</em> the Zankio TOML file, the configuration file, and so I&#x27;m looking at the current</p>
+<p><em>00:53:03.645</em> version of it. If I go to History, I can click here, History.</p>
+<p><em>00:53:09.016</em> I can see a list of all the changes I&#x27;ve made just to this file.</p>
+<p><em>00:53:14.820</em> And so by that, I can then, for example, in my case maybe,</p>
+<p><em>00:53:21.405</em> your case, you will go to the first commit, let&#x27;s say, creating the</p>
+<p><em>00:53:27.226</em> template. I have a big history, so I&#x27;m just going to go to the one from today.</p>
+<p><em>00:53:33.195</em> And then if I look at this commit, I can then say, &quot;View this file.&quot; View the</p>
+<p><em>00:53:39.165</em> whole file for this specific commit that I wrote four hours ago.</p>
+<p><em>00:53:43.726</em> And then I can copy the whole contents.</p>
+<p><em>00:53:46.755</em> There&#x27;s a little button here that says Copy Contents.</p>
+<p><em>00:53:49.516</em> And I can then just paste the whole contents into my</p>
+<p><em>00:53:54.795</em> editor</p>
+<p><em>00:53:57.076</em> and overwrite everything. And then I&#x27;ll see here, okay, it&#x27;s changed.</p>
+<p><em>00:54:00.346</em> And I can see, okay, now it&#x27;s going back from Julian to that generic placeholder</p>
+<p><em>00:54:04.815</em> name. So that&#x27;s one way you could go back and undo things.</p>
+<p><em>00:54:10.785</em> If you really want to go more,</p>
+<p><em>00:54:13.275</em> if you want to go hardcore, there&#x27;s revert.</p>
+<p><em>00:54:15.826</em> I don&#x27;t know if in Git, there&#x27;s a lot of powerful tools to just go back in history</p>
+<p><em>00:54:20.175</em> and just go reverse your commits. And so, for example, I can then click this commit</p>
+<p><em>00:54:25.365</em> that I looked at previously.</p>
+<p><em>00:54:32.596</em> And then in the options on the top right, there&#x27;s sort of an Options Revert.</p>
+<p><em>00:54:37.335</em> Now, so this is going to basically roll back the whole project back to this commit.</p>
+<p><em>00:54:42.826</em> So all the previous commits you did, even to other files, they&#x27;ll get undone, and</p>
+<p><em>00:54:47.445</em> it&#x27;ll go to whatever the state of the whole repo was when this commit was made.</p>
+<p><em>00:54:51.915</em> So basically, if you do a bunch of changes and it&#x27;s all breaking, you don&#x27;t know</p>
+<p><em>00:54:55.606</em> where you are, you can just go back to yesterday was working.</p>
+<p><em>00:54:59.415</em> So I&#x27;m just going to go back to yesterday, and you undo everything you did.</p>
+<p><em>00:55:02.985</em> So it&#x27;s a very nuclear reaction</p>
+<p><em>00:55:06.969</em> Actually, that&#x27;s not true. That&#x27;s</p>
+<p><em>00:55:10.179</em> reset, which you can&#x27;t do through here. Sorry, I misspoke.</p>
+<p><em>00:55:15.129</em> There&#x27;s two ones. There&#x27;s the rollback, but this is actually revert.</p>
+<p><em>00:55:18.489</em> So this is</p>
+<p><em>00:55:20.199</em> going to reverse. So instead of copy and pasting what I just did, I can just</p>
+<p><em>00:55:26.079</em> click this, and it&#x27;s going to make a commit</p>
+<p><em>00:55:31.839</em> for me. So what I was doing where I copy the contents in and make a commit</p>
+<p><em>00:55:36.369</em> manually, this one&#x27;s just going to do it for me.</p>
+<p><em>00:55:38.229</em> So if you see here now it made a new commit saying revert.</p>
+<p><em>00:55:40.569</em> So this is just reverting a specific commit.</p>
+<p><em>00:55:43.719</em> And I can see here</p>
+<p><em>00:55:47.500</em> that</p>
+<p><em>00:55:49.089</em> all the jobs are failing also.</p>
+<p><em>00:56:00.190</em> No, I&#x27;m just checking my server.</p>
+<p><em>00:56:03.669</em> So I hope that&#x27;s explaining something.</p>
+<p><em>00:56:05.079</em> So, if one commit&#x27;s making changes of seven files, that&#x27;s a quick way of reverting</p>
+<p><em>00:56:10.089</em> a bunch of files.</p>
+<p><em>00:56:15.459</em> So then the more nuclear option of rolling back your whole commit, you have to do</p>
+<p><em>00:56:18.849</em> it locally in your computer. And I think if you want to go down, that&#x27;s very</p>
+<p><em>00:56:23.589</em> interesting. So the thing with the web editor is every time I make a change, so</p>
+<p><em>00:56:28.900</em> let&#x27;s say I&#x27;m making a change to a markdown file,</p>
+<p><em>00:56:32.364</em> even sometimes with these, like this one, I don&#x27;t know what it looks like.</p>
+<p><em>00:56:35.769</em> I don&#x27;t know how it&#x27;s going to look like.</p>
+<p><em>00:56:36.849</em> I have to commit it, wait for it to build the project, which is like 10, 20</p>
+<p><em>00:56:40.660</em> seconds, and then I can see what it looks like on my website.</p>
+<p><em>00:56:48.489</em> So</p>
+<p><em>00:56:51.069</em> if I would work locally on my computer, if I would download this project and</p>
+<p><em>00:56:54.489</em> install it on my computer, then I can install Zikulo on my computer, and I can run</p>
+<p><em>00:56:59.739</em> it locally in my browser without having to make commits.</p>
+<p><em>00:57:03.250</em> It&#x27;s sort of running the website locally.</p>
+<p><em>00:57:08.785</em> It&#x27;s going to build the project on your computer, and you can open the HTML files.</p>
+<p><em>00:57:11.949</em> You&#x27;ll see the HTML files, and you can open them in your browser and see what it</p>
+<p><em>00:57:15.789</em> would look like without making any commits.</p>
+<p><em>00:57:17.829</em> And then once you&#x27;re very happy with all the changes, maybe it&#x27;s a full day of</p>
+<p><em>00:57:21.879</em> work, then you can make one big commit.</p>
+<p><em>00:57:24.519</em> So that&#x27;s another way of working, and it&#x27;s nicer because then you don&#x27;t have to</p>
+<p><em>00:57:29.559</em> work in a browser. It depends how fast your computer is.</p>
+<p><em>00:57:31.839</em> Sometimes, the editor&#x27;s a bit slow if you&#x27;re doing all your changes in here.</p>
+<p><em>00:57:36.879</em> But if you&#x27;re making one spelling mistake, commit, wait.</p>
+<p><em>00:57:40.900</em> One upload file, wait, commit, and then it can be quite a slow progress.</p>
+<p><em>00:57:45.219</em> So</p>
+<p><em>00:57:46.900</em> I either learn the</p>
+<p><em>00:57:50.229</em> markdown and try and do all your changes and upload three images and add them,</p>
+<p><em>00:57:54.129</em> write some text, and then commit because it sort of guess.</p>
+<p><em>00:57:57.429</em> You&#x27;ll start to see a pattern. You know that this image is going to look like this,</p>
+<p><em>00:58:02.319</em> especially after the first and second week.</p>
+<p><em>00:58:04.660</em> You&#x27;ll know the kinds of layouts you want to do.</p>
+<p><em>00:58:07.989</em> If you always like an image on the right or you always like blue buttons, then</p>
+<p><em>00:58:12.219</em> you&#x27;re going to copy that blue button every time, and you don&#x27;t need to commit to</p>
+<p><em>00:58:14.859</em> see what it looks like. You can do a bunch of work and then commit.</p>
+<p><em>00:58:18.129</em> So it&#x27;s just speeding up your time.</p>
+<p><em>00:58:24.219</em> Yeah. I&#x27;ve also noticed the</p>
+<p><em>00:58:30.160</em> GitLab is a bit slow. I think it&#x27;s always that with this class, everyone&#x27;s trying</p>
+<p><em>00:58:35.379</em> everything at the same time, and so then the server&#x27;s just especially busy.</p>
+<p><em>00:58:41.049</em> So I think if some things are failing, I notice my pipeline has failed.</p>
+<p><em>00:58:45.639</em> This is a good example. I can go back and I&#x27;m going to open this, why did</p>
+<p><em>00:58:51.429</em> my</p>
+<p><em>00:58:53.109</em> website not build? And I can see I got an error.</p>
+<p><em>00:58:59.679</em> Oh, so you see this is a good way. So I&#x27;m looking.</p>
+<p><em>00:59:01.719</em> Okay, so it could not render blah, blah footer.</p>
+<p><em>00:59:04.449</em> Okay, well, I didn&#x27;t change anything in the footer, but blah, blah, blah, blah.</p>
+<p><em>00:59:08.559</em> And then social. Oh, social.</p>
+<p><em>00:59:11.650</em> Then it&#x27;s looked in icons, and now I read down the text, LinkedIn.</p>
+<p><em>00:59:15.910</em> I did do something about a LinkedIn, and it looks like I didn&#x27;t</p>
+<p><em>00:59:19.839</em> write LinkedIn correctly or...</p>
+<p><em>00:59:23.619</em> So this is sort of an example of how I would interpret these errors.</p>
+<p><em>00:59:26.619</em> They&#x27;re not going to tell you exactly what&#x27;s wrong. You sort of have to guess.</p>
+<p><em>00:59:30.910</em> What&#x27;s the website trying to do is trying to build the footer, and then it trying</p>
+<p><em>00:59:35.799</em> to read the configuration file, and it can&#x27;t find something.</p>
+<p><em>00:59:38.559</em> And so I remember I did something with the TOML file.</p>
+<p><em>00:59:41.769</em> So if I go back to my TOML file,</p>
+<p><em>00:59:46.000</em> I can then find social, yeah, down here.</p>
+<p><em>00:59:52.299</em> And</p>
+<p><em>00:59:54.069</em> oh, I already reverted it.</p>
+<p><em>00:59:56.859</em> Maybe not. I didn&#x27;t commit it. Commit.</p>
+<p><em>01:00:12.069</em> This is a good example. Everyone, look, I have this message here that says, &quot;The</p>
+<p><em>01:00:16.509</em> file has changed while you&#x27;re editing it.&quot; So I had this tab open, and I</p>
+<p><em>01:00:22.209</em> remember I did the revert. So let&#x27;s imagine I had another tab, and I edited a file,</p>
+<p><em>01:00:26.289</em> or I did something locally, and I pushed those commits.</p>
+<p><em>01:00:29.410</em> Now this tab is telling me, &quot;Actually, you&#x27;re not on the latest version.</p>
+<p><em>01:00:33.069</em> There&#x27;s other stuff has happened to your project while you had this open.&quot; So it</p>
+<p><em>01:00:37.719</em> cannot commit those changes because the place where it&#x27;s the changing from to is</p>
+<p><em>01:00:43.449</em> different. It&#x27;s like, wait a minute, I might override something you already did.</p>
+<p><em>01:00:48.160</em> So the only thing here is to reload the whole tab, so I will lose my changes.</p>
+<p><em>01:00:53.199</em> But luckily, it&#x27;s only one file, so I can copy it, and then I can just reload the</p>
+<p><em>01:00:57.039</em> whole page.</p>
+<p><em>01:00:58.869</em> And this is kind of another reason why working locally</p>
+<p><em>01:01:02.829</em> has advantages because, losing work is less of an issue because they&#x27;re</p>
+<p><em>01:01:08.739</em> just files on your computer until you commit and push them. A browser can crash.</p>
+<p><em>01:01:14.440</em> I get something like this that I have to</p>
+<p><em>01:01:18.039</em> reload my tab, and I could lose work.</p>
+<p><em>01:01:20.139</em> So that&#x27;s sometimes why people commit often when they&#x27;re in the tab.</p>
+<p><em>01:01:23.979</em> But if you run locally, it&#x27;s...</p>
+<p><em>01:01:27.160</em> I don&#x27;t know how I am from time, anyone.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-recovery" aria-label="历史恢复、构建排错与编辑冲突 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-css">
+<span id="ch14" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=3691s" target="_blank" rel="noopener">61:31 → 65:34</a><h2 class="chapter-title">用 CSS 定制网站样式</h2><span class="chapter-num">10 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">通过浏览器检查工具试调样式，再把确认有效的选择器和规则写回 extra.css。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3691s" target="_blank" rel="noopener" aria-label="在原视频查看 61:31 找到自定义样式文件">61:31</a>找到自定义样式文件</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3758s" target="_blank" rel="noopener" aria-label="在原视频查看 62:38 选择器、类名与变量">62:38</a>选择器、类名与变量</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3792s" target="_blank" rel="noopener" aria-label="在原视频查看 63:12 Inspect 试验与保存样式">63:12</a>Inspect 试验与保存样式</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3907s" target="_blank" rel="noopener" aria-label="在原视频查看 65:07 学习 CSS 的练习方法">65:07</a>学习 CSS 的练习方法</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-css"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/css-1.jpg" alt="62:45 · 自定义 CSS 与类名" data-caption="62:45 · 自定义 CSS 与类名" loading="lazy"><img class="carousel-img" src="frames/topics/css-2.jpg" alt="64:05 · 浏览器内试调样式" data-caption="64:05 · 浏览器内试调样式" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">62:45 · 自定义 CSS 与类名</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>docs/stylesheets/extra.css 用于补充模板样式。</li><li>CSS 选择器决定哪些元素受到影响，class 是常见的匹配依据。</li><li>Inspect 可查看元素及其生效样式，并现场试调字体大小等属性。</li><li>检查工具里的试验会在刷新后消失，确认效果后需要写回 CSS 文件。</li><li>讲师建议用小练习学习 CSS，并让 AI 解释原理。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Selector / Class</strong><span class="term-tip">CSS 匹配元素的方式及常用的类名标记。</span></span><span class="term" tabindex="0"><strong>DevTools</strong><span class="term-tip">浏览器的页面检查与调试工具。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>在检查工具中调整一个元素的字号，比较前后效果。</li><li>将有效规则写回 extra.css，重新预览并确认作用范围。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:01:31.509</em> I wanted to just quickly talk about that there&#x27;s also CSS.</p>
+<p><em>01:01:35.079</em> So,</p>
+<p><em>01:01:36.728</em> Zikulo is going to make...</p>
+<p><em>01:01:40.569</em> Ah, this is the problem someone was talking about.</p>
+<p><em>01:01:46.989</em> I&#x27;m going to push ahead.</p>
+<p><em>01:01:51.910</em> If I open my repository, I think the server&#x27;s quite busy.</p>
+<p><em>01:01:58.750</em> Yeah. It&#x27;s very busy.</p>
+<p><em>01:02:09.129</em> Inside the docs folder, there&#x27;s a file called stylesheets and extra</p>
+<p><em>01:02:14.650</em> CSS. In here, you can then customize the</p>
+<p><em>01:02:20.679</em> styling that the Zikulo template uses.</p>
+<p><em>01:02:24.039</em> So, they decide to have font sizes of this, or the headings and buttons</p>
+<p><em>01:02:29.949</em> look like this. And so we can use CSS to sort of change that, so changing the</p>
+<p><em>01:02:35.289</em> default that Zikulo uses.</p>
+<p><em>01:02:38.079</em> And so these are the CSS, just very quickly, it sort of has these sort of targets.</p>
+<p><em>01:02:42.099</em> These are saying, find any element in the HTML that has this sort of</p>
+<p><em>01:02:47.859</em> tag on it, so that each element you can assign tags called, well, they&#x27;re called</p>
+<p><em>01:02:51.699</em> classes. I should call them class.</p>
+<p><em>01:02:54.489</em> And so it&#x27;s telling me, find an element on HTML with this class and then change</p>
+<p><em>01:03:00.489</em> the default color.</p>
+<p><em>01:03:02.650</em> So these are called CSS variable colors, and in the Zikulo documentation, you can</p>
+<p><em>01:03:07.419</em> find some</p>
+<p><em>01:03:10.389</em> of the defaults, so you can change them.</p>
+<p><em>01:03:12.819</em> A good way, I&#x27;m going quick, but you have to sort of go down the rabbit hole of</p>
+<p><em>01:03:18.160</em> CSS. So if I open my... This is in the browser, so I&#x27;ve got a new developer tool.</p>
+<p><em>01:03:23.349</em> I right-clicked, and I did inspect.</p>
+<p><em>01:03:26.979</em> And so I&#x27;m actually looking at the HTML for this</p>
+<p><em>01:03:34.089</em> element. So right, so it&#x27;s a list. LI is a list.</p>
+<p><em>01:03:38.199</em> It&#x27;s got a class called MD nav link item.</p>
+<p><em>01:03:41.799</em> And then I can also see here all the CSS that&#x27;s applied to it. It&#x27;s got no padding.</p>
+<p><em>01:03:46.780</em> It&#x27;s got no styling. It&#x27;s not got much because it&#x27;s just a list.</p>
+<p><em>01:03:49.750</em> And it&#x27;s got a font size of 0.7.</p>
+<p><em>01:03:53.169</em> So now I can say, &quot;Well, actually, I want the list to have a different styling.&quot; So</p>
+<p><em>01:03:56.199</em> then I can write here at the top, I can write font size, and then I can write,</p>
+<p><em>01:04:00.969</em> well, make it 0.8 or 0.1. And</p>
+<p><em>01:04:07.179</em> say, &quot;Yeah, I like this font size.&quot; So then you say, &quot;Okay, well, I&#x27;ve got to copy</p>
+<p><em>01:04:10.660</em> this and then put it in the CSS file.&quot; And then you&#x27;ve also got to copy the MD nav,</p>
+<p><em>01:04:16.359</em> and then you would say, like...</p>
+<p><em>01:04:19.269</em> Of course, it&#x27;s not working</p>
+<p><em>01:04:22.254</em> I shouldn&#x27;t have reloaded.</p>
+<p><em>01:04:24.804</em> And so you put it in here, you put in MD nav, and then you put it the second line</p>
+<p><em>01:04:29.964</em> in the font. So instead of this, you put font size.</p>
+<p><em>01:04:31.884</em> So what I was experimenting-- This is an experiment, right?</p>
+<p><em>01:04:34.375</em> I&#x27;m doing it live in the browser, so if I reload, I lose this font size seven.</p>
+<p><em>01:04:38.544</em> But this is a great way to, I can manipulate my website in here, do some</p>
+<p><em>01:04:42.114</em> experiments with CSS. Your mind will get blown if you get into CSS.</p>
+<p><em>01:04:46.315</em> It&#x27;s really straightforward. The wording is font size, padding, margins,</p>
+<p><em>01:04:52.824</em> background. So it&#x27;s quite intuitive and I think just sort of finding how you can</p>
+<p><em>01:04:58.104</em> target it. And that&#x27;s how you can take your website visually, make it a bit</p>
+<p><em>01:05:02.424</em> different, sort of get a bit more advanced.</p>
+<p><em>01:05:07.344</em> And, yeah, I really suggest doing some very simple tutorials on the internet, like</p>
+<p><em>01:05:12.984</em> W3Schools has great CSS tutorial or ask your AI, &quot;Please explain</p>
+<p><em>01:05:18.354</em> me CSS. Teach me CSS.&quot; Right? &quot;Don&#x27;t do something for me, just teach it to me.&quot; And</p>
+<p><em>01:05:23.694</em> then try and figure out, okay, now that I know how to change a color in the</p>
+<p><em>01:05:27.204</em> background, how would I make my own button? Sort of, yeah.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-css" aria-label="用 CSS 定制网站样式 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-local-workflow">
+<span id="ch15" class="legacy-anchor" aria-hidden="true"></span><span id="ch16" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=3934s" target="_blank" rel="noopener">65:34 → 77:22</a><h2 class="chapter-title">本地工作流：克隆、提交、预览与 SSH</h2><span class="chapter-num">11 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">连贯看完本地工作的完整演示：克隆仓库、检查修改、提交推送、运行预览，最后补充所需的 SSH 配置。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=3934s" target="_blank" rel="noopener" aria-label="在原视频查看 65:34 本地预览概念与 commit / job 问答">65:34</a>本地预览概念与 commit / job 问答</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4057s" target="_blank" rel="noopener" aria-label="在原视频查看 67:37 克隆仓库与 SSH 前提">67:37</a>克隆仓库与 SSH 前提</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4158s" target="_blank" rel="noopener" aria-label="在原视频查看 69:18 检查差异、暂存、提交和推送">69:18</a>检查差异、暂存、提交和推送</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4296s" target="_blank" rel="noopener" aria-label="在原视频查看 71:36 环境准备与 Zensical 本地预览">71:36</a>环境准备与 Zensical 本地预览</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4481s" target="_blank" rel="noopener" aria-label="在原视频查看 74:41 GitLab SSH 公钥设置">74:41</a>GitLab SSH 公钥设置</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-local-workflow"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/local-workflow-1.jpg" alt="69:05 · 克隆仓库到本地" data-caption="69:05 · 克隆仓库到本地" loading="lazy"><img class="carousel-img" src="frames/topics/local-workflow-2.jpg" alt="74:25 · localhost 本地预览" data-caption="74:25 · localhost 本地预览" loading="lazy"><img class="carousel-img" src="frames/topics/local-workflow-3.jpg" alt="76:20 · SSH 公钥设置说明" data-caption="76:20 · SSH 公钥设置说明" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">69:05 · 克隆仓库到本地</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本地保存、Git 提交、推送和网站构建是不同步骤；本地预览本身不会公开发布网站。</li><li>演示从仓库复制 SSH 地址后运行 git clone，再用 status、diff 和 add 检查并选择改动。</li><li>git commit -m 记录变化，git push 将提交送到服务器。</li><li>按项目说明准备 Python 环境并安装工具；zensical serve 在 localhost 提供预览，保存文件后查看更新。</li><li>SSH 账号设置中添加的是 .pub 公钥，私钥保留在本机；字幕中的 private key 与演示矛盾，应纠正。</li><li>视频把 SSH 设置放在演示之后；自行练习时应先完成它。往届 MkDocs 模板应使用相应的环境与配置说明。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Clone / Staging</strong><span class="term-tip">取得仓库副本，以及选择下一次提交包含的修改。</span></span><span class="term" tabindex="0"><strong>localhost</strong><span class="term-tip">本机地址，用于本地预览。</span></span><span class="term" tabindex="0"><strong>SSH 公钥</strong><span class="term-tip">添加到 GitLab 用于识别本机的公钥，通常以 .pub 结尾。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>先配置 GitLab SSH 公钥，再克隆自己的仓库。</li><li>编辑后检查 status / diff，暂存并提交所需文件，再推送。</li><li>按模板说明运行本地预览，确认效果后检查远程构建和网站。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:05:34.194</em> Again, I think working locally is really-- I&#x27;m going to quickly show you.</p>
+<p><em>01:05:38.514</em> If you look at the documentation on Zekio, they&#x27;ll explain you how to install</p>
+<p><em>01:05:41.589</em> locally. It&#x27;s very simple. You just need Python.</p>
+<p><em>01:05:43.525</em> For example, on Mac, we have Python.</p>
+<p><em>01:05:45.834</em> You just need to run these commands to then sort of initialize Python and then</p>
+<p><em>01:05:50.155</em> install Zekio. And then when you do Zekio build, you do local host, which is</p>
+<p><em>01:05:56.094</em> basically opening a website just on your computer. It&#x27;s not on the internet.</p>
+<p><em>01:05:59.440</em> And then you can see your website. So every time you edit a file, your website</p>
+<p><em>01:06:04.944</em> updates. So it&#x27;s a great way,</p>
+<p><em>01:06:08.275</em> but you&#x27;ll have to clone it, and so to clone it...</p>
+<p><em>01:06:13.584</em> I&#x27;m going to look if there&#x27;s any more questions before I get into that.</p>
+<p><em>01:06:19.674</em> Yeah, so a commit is the actual saved change.</p>
+<p><em>01:06:22.434</em> So that&#x27;s a specific change from old to new, left to right.</p>
+<p><em>01:06:28.494</em> And the jobs is sort of the work that needs to be done every time you make a</p>
+<p><em>01:06:32.815</em> commit. So the commit is the change, and the job is actually building your website.</p>
+<p><em>01:06:37.554</em> So they have to go in together. That&#x27;s why we want the job is the green light.</p>
+<p><em>01:06:41.065</em> When you have the green light, then the job completed successfully, and it</p>
+<p><em>01:06:44.424</em> published your website.</p>
+<p><em>01:06:46.854</em> Usually, you don&#x27;t need to know anything about both.</p>
+<p><em>01:06:49.525</em> The commits is like, if I need to go back and figure out what went wrong or what</p>
+<p><em>01:06:55.464</em> do I want to change, or what did I accidentally delete, then you would go back into</p>
+<p><em>01:06:58.674</em> your list of commits, the history, and see what may have gone, find</p>
+<p><em>01:07:04.315</em> whatever. And the jobs, you only care about the most recent one.</p>
+<p><em>01:07:08.604</em> So if you make seven commits and six of them fail, but the last</p>
+<p><em>01:07:14.454</em> one passed, that&#x27;s all that matters.</p>
+<p><em>01:07:17.484</em> If</p>
+<p><em>01:07:19.494</em> you make six commits and all five of them pass, but the last one failed, that&#x27;s the</p>
+<p><em>01:07:24.684</em> problem. It&#x27;s always the last one, the most recent one, because on the website, you</p>
+<p><em>01:07:28.375</em> can only have one website. So it&#x27;s always the last job that ran that will sort of</p>
+<p><em>01:07:33.443</em> publish the website, the truth.</p>
+<p><em>01:07:36.294</em> So yeah.</p>
+<p><em>01:07:37.824</em> About cloning, again, yeah, I really suggest cloning.</p>
+<p><em>01:07:42.444</em> There are some great tutorials on how to clone for yours or whether Mac or Linux.</p>
+<p><em>01:07:46.164</em> You could look at the documentation of GitLab.</p>
+<p><em>01:07:50.664</em> So that&#x27;s the software you would use, so their documentation shows you how you can</p>
+<p><em>01:07:55.854</em> set up Git on your computer to be able to link</p>
+<p><em>01:08:00.384</em> GitLab, our server repo, and your computer.</p>
+<p><em>01:08:04.104</em> You have to use a thing called SSH keys. So that&#x27;s something you&#x27;ll get into.</p>
+<p><em>01:08:08.378</em> And then you can create an SSH key on your computer that then GitLab knows, and</p>
+<p><em>01:08:12.384</em> then you can talk to each other. So if you look at the GitLab or the GitHub&#x27;s</p>
+<p><em>01:08:16.344</em> documentation, it&#x27;s sort of the same idea.</p>
+<p><em>01:08:20.724</em> And then what you&#x27;re doing is you&#x27;re going to code.</p>
+<p><em>01:08:23.634</em> You see this big black box that&#x27;s code, and you say clone.</p>
+<p><em>01:08:27.864</em> You want to clone with--</p>
+<p><em>01:08:31.315</em> Well, with SSH, it&#x27;s a bit hidden now because I&#x27;m zoomed out. There.</p>
+<p><em>01:08:36.174</em> You want to copy this link, and then when you run...</p>
+<p><em>01:08:41.544</em> I&#x27;m in a terminal now. You have to open Terminal.</p>
+<p><em>01:08:45.474</em> I can go to a folder or something, and I&#x27;m going to do Git</p>
+<p><em>01:08:51.565</em> clone, and I paste the URL, and then it should just clone it to my computer.</p>
+<p><em>01:08:57.054</em> So it&#x27;s sort of downloading the whole copy of the whole repository with all the</p>
+<p><em>01:09:00.264</em> history. So every single change I ever made to this repository is now on my</p>
+<p><em>01:09:04.974</em> computer as well.</p>
+<p><em>01:09:06.894</em> And</p>
+<p><em>01:09:09.204</em> so here&#x27;s it. So if I look at the file, the file is here, so I can then CD change</p>
+<p><em>01:09:13.194</em> directory, Fabry Academy. So I&#x27;m now inside the repository.</p>
+<p><em>01:09:18.084</em> I can do a Git status. I&#x27;m looking at, okay,</p>
+<p><em>01:09:23.275</em> what did you change in this file? I can then, as an example, I&#x27;m going to just--</p>
+<p><em>01:09:30.084</em> You will open your own text editor. I&#x27;m just opening an editor in this browser.</p>
+<p><em>01:09:34.134</em> Don&#x27;t</p>
+<p><em>01:09:36.144</em> worry about this. I&#x27;m just quickly editing a file so</p>
+<p><em>01:09:40.794</em> I can then save it. So now I saved it.</p>
+<p><em>01:09:43.074</em> If I do Git status, so now on my computer, it&#x27;s telling me I have one modified</p>
+<p><em>01:09:48.954</em> file. This is just on my computer. If I see what changed, show me the difference.</p>
+<p><em>01:09:54.144</em> It&#x27;s showing me, okay, in this file index, this file changed,</p>
+<p><em>01:09:58.884</em> and then I can make a commit. So I can say add.</p>
+<p><em>01:10:04.314</em> Say, if you want to add this file to be committed, yes.</p>
+<p><em>01:10:07.044</em> And then I say, &quot;Okay, Git status.&quot; These are the files that will be</p>
+<p><em>01:10:12.714</em> committed. I do commit M, I.</p>
+<p><em>01:10:19.884</em> And then I can do a Git push, and then I do a Git push.</p>
+<p><em>01:10:25.644</em> So this is the same bit what I was doing in the browser.</p>
+<p><em>01:10:28.314</em> So if I can choose the file I want. Well, I couldn&#x27;t choose in the browser, but I</p>
+<p><em>01:10:31.434</em> have to choose it here. I commit, and then I push it,</p>
+<p><em>01:10:35.424</em> and then it&#x27;s successful. It&#x27;s successful because I already made an SSH key on my</p>
+<p><em>01:10:40.104</em> computer, so my computer&#x27;s already connected with the server.</p>
+<p><em>01:10:44.934</em> And so, yeah, as you can see, it&#x27;s not me. I used someone else&#x27;s computer.</p>
+<p><em>01:10:50.544</em> So I made a commit. I still have a failed project, it seems.</p>
+<p><em>01:10:55.164</em> I didn&#x27;t fix my previous one.</p>
+<p><em>01:11:06.894</em> Yeah. Kim, and if you&#x27;re continuing</p>
+<p><em>01:11:12.535</em> students, you may see MK Docs. That was the project we used</p>
+<p><em>01:11:18.384</em> last year. Everything&#x27;s the same, except it&#x27;s a YAML file and not a TOML file.</p>
+<p><em>01:11:24.714</em> But the same concept, the same features are there.</p>
+<p><em>01:11:27.535</em> You just have to look at the documentation for the material MK Docs theme.</p>
+<p><em>01:11:31.554</em> And then</p>
+<p><em>01:11:36.264</em> share it. So yeah, I want to show, yeah, how can I run it?</p>
+<p><em>01:11:39.535</em> I showed you how to commit. So on a Mac, the easiest way to--</p>
+<p><em>01:11:47.544</em> Your Python&#x27;s already installed, so you don&#x27;t need to install it, you just need to</p>
+<p><em>01:11:50.245</em> activate it. And the best way is to sort of write these commands.</p>
+<p><em>01:11:54.189</em> So this is telling me I want to activate Python.</p>
+<p><em>01:11:58.824</em> You do this inside the project that you cloned, and then you need to activate</p>
+<p><em>01:12:04.374</em> it.</p>
+<p><em>01:12:09.535</em> You activate it, and then I have to do pipe install Zekico.</p>
+<p><em>01:12:17.454</em> It&#x27;s</p>
+<p><em>01:12:25.344</em> installing Zekio on my computer.</p>
+<p><em>01:12:28.734</em> I&#x27;m going to paste it in the commands if anyone wants to try.</p>
+<p><em>01:12:31.224</em> So I know this works on Mac.</p>
+<p><em>01:12:39.834</em> And now if I do Zekico</p>
+<p><em>01:12:43.434</em> serve,</p>
+<p><em>01:12:46.644</em> this is basically going to just say, &quot;Make me a website and run it on my computer.&quot;</p>
+<p><em>01:12:57.654</em> Now, I still have that error with the...</p>
+<p><em>01:13:06.954</em> Sorry, I&#x27;m looking for that, what was it? Twitter?</p>
+<p><em>01:13:11.064</em> I still have these social things. I&#x27;m going to delete them.</p>
+<p><em>01:13:14.274</em> I&#x27;m going to save my file.</p>
+<p><em>01:13:18.204</em> Oh, I don&#x27;t even need to commit it because I&#x27;m locally, so I just need to then now</p>
+<p><em>01:13:21.054</em> serve again. I click serve. Zekio serve.</p>
+<p><em>01:13:24.954</em> Great. It&#x27;s now building me a website.</p>
+<p><em>01:13:27.294</em> So if I now right-click, and I say open link</p>
+<p><em>01:13:34.296</em> Yeah. And I&#x27;m going to have to copy this.</p>
+<p><em>01:13:40.626</em> So you see my screen now? I&#x27;m on localhost. I&#x27;m not on any website. I&#x27;m not domain.</p>
+<p><em>01:13:44.496</em> This is all on my computer. Localhost is just locally, my website&#x27;s running, I can</p>
+<p><em>01:13:49.566</em> make a change. Oh, I have to open a new tab.</p>
+<p><em>01:13:55.536</em> So right now the server&#x27;s running. I can&#x27;t write any commands.</p>
+<p><em>01:13:58.057</em> It&#x27;s running the server. So I need to open a new tab in the terminal.</p>
+<p><em>01:14:03.426</em> This won&#x27;t be an issue if you&#x27;re using an external browser like</p>
+<p><em>01:14:08.976</em> VS Code or Sublime or any tech code editor.</p>
+<p><em>01:14:12.846</em> I&#x27;m just doing everything in the browser to be quicker.</p>
+<p><em>01:14:18.546</em> So if I say, &quot;Hello&quot; now, and I save it, if I go</p>
+<p><em>01:14:24.486</em> back to the browser... Oh, they&#x27;re already reloaded. So see?</p>
+<p><em>01:14:27.291</em> &quot;Hello.&quot; It&#x27;s much quicker to just try stuff out.</p>
+<p><em>01:14:32.826</em> Putting in the work, the rewards are much better later on.</p>
+<p><em>01:14:37.926</em> So if you work to set up everything now.</p>
+<p><em>01:14:41.526</em> The hardest part is the SSH key. So you&#x27;ve got to go to your account.</p>
+<p><em>01:14:47.316</em> In the top right, you&#x27;ll see your account preferences,</p>
+<p><em>01:14:55.296</em> and then you have to go to Access and SSH keys.</p>
+<p><em>01:15:00.696</em> This is necessary because Git doesn&#x27;t really work well with a</p>
+<p><em>01:15:05.676</em> username and password. You can get it to work, but I think SSH keys are</p>
+<p><em>01:15:12.876</em> my advice because it&#x27;s sort of a cryptographically secure way of just</p>
+<p><em>01:15:18.846</em> making a link between your computer and the server.</p>
+<p><em>01:15:21.411</em> It&#x27;s not a link, it&#x27;s</p>
+<p><em>01:15:23.526</em> sort of a custom password just for your computer.</p>
+<p><em>01:15:27.186</em> So in this thing, you can click Add New Key, and just</p>
+<p><em>01:15:33.036</em> click the Learn More. And if you look at the Learn More, it&#x27;s going to GitLab&#x27;s</p>
+<p><em>01:15:37.026</em> website, or actually, the documentation.</p>
+<p><em>01:15:39.486</em> And if you scroll down, something will say Generate, and there&#x27;s a command you can</p>
+<p><em>01:15:43.866</em> use to generate your SSH key. You might already have one from</p>
+<p><em>01:15:49.836</em> GitHub or something. You can use it.</p>
+<p><em>01:15:52.776</em> You don&#x27;t have to make a new one on your computer.</p>
+<p><em>01:15:54.486</em> If you already have a key, it&#x27;s even maybe better just to reuse it.</p>
+<p><em>01:15:59.856</em> The key is you only want to put the</p>
+<p><em>01:16:06.336</em> private key. So if we look here, so this is where we&#x27;re creating it, adding your</p>
+<p><em>01:16:10.746</em> key. You sort of need to find a .pub version of it.</p>
+<p><em>01:16:16.956</em> And then you paste in here, give it a name, give it a long expiry date, like next</p>
+<p><em>01:16:21.846</em> year, so it doesn&#x27;t stop working while you...</p>
+<p><em>01:16:25.281</em> And then you say Add Key,</p>
+<p><em>01:16:27.546</em> and then you can test it by doing a Git pull. So when you do the Git clone, sorry.</p>
+<p><em>01:16:35.106</em> Any more questions?</p>
+<p><em>01:16:37.956</em> That was very fast with SSH. Yeah.</p>
+<p><em>01:16:43.506</em> I think, even read this document. Read this sort of explaining what keys are in</p>
+<p><em>01:16:48.456</em> your time, I think,</p>
+<p><em>01:16:51.397</em> so you&#x27;ll understand what&#x27;s going on.</p>
+<p><em>01:16:55.746</em> And I&#x27;m going to have a look at, so if my pipeline, did it pass?</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-local-workflow" aria-label="本地工作流：克隆、提交、预览与 SSH · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-questions">
+<span id="ch17" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=4642s" target="_blank" rel="noopener">77:22 → 84:36</a><h2 class="chapter-title">课程资源与上传问题答疑</h2><span class="chapter-num">12 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">集中整理结尾答疑：去哪里查资料、上传菜单异常时怎么办，以及如何反馈持续失败的构建。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4662s" target="_blank" rel="noopener" aria-label="在原视频查看 77:42 课程手册与求助渠道">77:42</a>课程手册与求助渠道</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4780s" target="_blank" rel="noopener" aria-label="在原视频查看 79:40 上传菜单异常问答">79:40</a>上传菜单异常问答</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=4919s" target="_blank" rel="noopener" aria-label="在原视频查看 81:59 仓库页面的替代上传入口">81:59</a>仓库页面的替代上传入口</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5017s" target="_blank" rel="noopener" aria-label="在原视频查看 83:37 查看最新作业与服务器问题求助">83:37</a>查看最新作业与服务器问题求助</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-questions"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/questions-1.jpg" alt="78:25 · 课程文档与功能示例" data-caption="78:25 · 课程文档与功能示例" loading="lazy"><img class="carousel-img" src="frames/topics/questions-2.jpg" alt="82:20 · 仓库页面的上传入口" data-caption="82:20 · 仓库页面的上传入口" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">78:25 · 课程文档与功能示例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>课程手册、每周模板和工具文档提供 Markdown、定制和操作示例。</li><li>问题可发到课程 Mattermost 对应频道，附具体错误信息。</li><li>上传菜单闪退的演示中，替代做法是进入仓库目标目录，使用加号下的 Upload File。</li><li>讲师随后确认该入口可多选文件；本地工作也可直接把文件放入目录统一提交。</li><li>持续构建失败时查看最新作业日志，必要时请课程支持协助判断服务器状态。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Upload File</strong><span class="term-tip">仓库目录页面提供的文件上传入口。</span></span><span class="term" tabindex="0"><strong>最新作业</strong><span class="term-tip">确认本次改动是否成功构建的对应任务。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>收藏课程手册与工具文档，确认能访问课程求助频道。</li><li>如果上传菜单异常，使用仓库目录的 Upload File；构建异常时记录日志。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:17:22.986</em> Any more questions?</p>
+<p><em>01:17:28.086</em> There&#x27;s</p>
+<p><em>01:17:42.036</em> a little documentation page that I put in chat.</p>
+<p><em>01:17:46.356</em> Your documentation already has markdown examples, but this is sort of</p>
+<p><em>01:17:51.876</em> another way to sort of some how-tos, how to edit a file, what it looks like, some</p>
+<p><em>01:17:57.846</em> markdown examples, some optimizing, customizing.</p>
+<p><em>01:18:01.386</em> We went over it, but this is sort of a mini handbook for some Git if you have extra</p>
+<p><em>01:18:06.846</em> issues. The best place is to just go to Mattermost, and there&#x27;s a specific</p>
+<p><em>01:18:12.516</em> channel for</p>
+<p><em>01:18:18.366</em> this class. I think it&#x27;s zero zero Git, something like this.</p>
+<p><em>01:18:21.366</em> You should have been added already.</p>
+<p><em>01:18:23.706</em> And, yeah, try and break stuff and see.</p>
+<p><em>01:18:38.706</em> Any questions?</p>
+<p><em>01:18:49.356</em> I&#x27;m also going to add the Zekio documentation link.</p>
+<p><em>01:18:54.936</em> You can also start by going through their website and seeing all the different</p>
+<p><em>01:18:58.926</em> things you can do, trying it out in it.</p>
+<p><em>01:19:03.276</em> So I should put basic on there.</p>
+<p><em>01:19:06.666</em> There&#x27;s also like</p>
+<p><em>01:19:09.426</em> you can change the way the navigation works.</p>
+<p><em>01:19:12.546</em> You can have a sidebar, and</p>
+<p><em>01:19:16.386</em> you can have it without the sidebar.</p>
+<p><em>01:19:18.696</em> You</p>
+<p><em>01:19:20.106</em> can have multiple levels,</p>
+<p><em>01:19:24.246</em> and even the documentation is nice because it shows you what it would look like</p>
+<p><em>01:19:27.456</em> with the setting or without.</p>
+<p><em>01:19:31.326</em> Okay.</p>
+<p><em>01:19:37.057</em> Yeah.</p>
+<p><em>01:19:40.206</em> Shiva?</p>
+<p><em>01:19:43.476</em> Yes. Hi. So I have been following almost everything else.</p>
+<p><em>01:19:49.356</em> It&#x27;s just that upload images or file issue is the thing I&#x27;m</p>
+<p><em>01:19:55.147</em> facing a problem with. I&#x27;m clicking on the week</p>
+<p><em>01:20:01.236</em> zero one or week zero two, but it is just showing me option to paste.</p>
+<p><em>01:20:05.736</em> I think the drop-down menu is flashing for a moment, but then for some reason, it</p>
+<p><em>01:20:10.236</em> is going out. I tried it, so I&#x27;m using Mozilla Firefox.</p>
+<p><em>01:20:16.176</em> I tried it in Chrome as well. Same thing is happening.</p>
+<p><em>01:20:20.226</em> Yeah. I think it&#x27;s</p>
+<p><em>01:20:22.897</em> not the browser, it&#x27;s like the operating system.</p>
+<p><em>01:20:26.526</em> Have you tried doing a right click and then a click?</p>
+<p><em>01:20:30.756</em> Like right click and then do one click, a left one. A right click and a, yeah.</p>
+<p><em>01:20:42.546</em> Yeah, let me just try that again.</p>
+<p><em>01:20:44.526</em> Because I reproduce it now. See, I also see paste. Yeah.</p>
+<p><em>01:20:58.026</em> Wait. So you right click once and, yeah, paste. And after that?</p>
+<p><em>01:21:03.966</em> And then I, again, click not on paste, but on the file, the folder</p>
+<p><em>01:21:09.606</em> again.</p>
+<p><em>01:21:11.796</em> Just once.</p>
+<p><em>01:21:14.766</em> Okay. I&#x27;ll try that.</p>
+<p><em>01:21:31.626</em> Okay, so I can see a drop-down for a bit of a moment, and then it</p>
+<p><em>01:21:37.686</em> goes out.</p>
+<p><em>01:21:39.426</em> Yeah.</p>
+<p><em>01:21:45.636</em> Yeah, I&#x27;m also looking. There should be a way to...</p>
+<p><em>01:21:56.106</em> Or is there just an alternate way to upload stuff?</p>
+<p><em>01:21:59.826</em> There is, yeah. So the alternative way is if you&#x27;re in your</p>
+<p><em>01:22:04.416</em> project, you have to go to the folder,</p>
+<p><em>01:22:08.946</em> navigate to the folder, so for example, Images, and week one, for example, and then</p>
+<p><em>01:22:14.286</em> on the right here, we&#x27;ll have...</p>
+<p><em>01:22:18.696</em> Oh, the plus sign here. There&#x27;s a plus sign here, and you can say Upload File.</p>
+<p><em>01:22:23.196</em> It&#x27;s a manual, so it&#x27;s one file at a time, but it works. Yeah.</p>
+<p><em>01:22:28.956</em> Okay. Yeah. Okay. So it&#x27;s like GitHub one.</p>
+<p><em>01:22:33.096</em> Yeah.</p>
+<p><em>01:22:34.206</em> Okay. Sure then. Yeah.</p>
+<p><em>01:22:35.676</em> Yeah. And otherwise, really the next step, a little bit of work is doing this</p>
+<p><em>01:22:40.057</em> locally, because then- You don&#x27;t have to deal with the browser, and you can add</p>
+<p><em>01:22:43.848</em> files to a folder and commit lots of files at once.</p>
+<p><em>01:22:46.848</em> So if you feel up to it, the local, and make an SSH key, local</p>
+<p><em>01:22:52.578</em> cloning, installing Zekil, it&#x27;s great because then you don&#x27;t have to, like, yeah,</p>
+<p><em>01:22:57.978</em> select a file-</p>
+<p><em>01:22:58.773</em> Yeah</p>
+<p><em>01:22:58.773</em> ... upload it, select, yeah.</p>
+<p><em>01:23:00.918</em> Okay. Yeah. So I just do locally.</p>
+<p><em>01:23:03.709</em> This for today, yeah.</p>
+<p><em>01:23:08.299</em> Upload and then, yeah. Oh, actually, you can upload lots of files.</p>
+<p><em>01:23:12.348</em> Oh, okay. Right. Yeah. Thanks.</p>
+<p><em>01:23:19.068</em> All right. Yeah. I don&#x27;t know. Should we stay longer? Any questions?</p>
+<p><em>01:23:24.588</em> You want me to show anything again?</p>
+<p><em>01:23:28.518</em> You want me to...</p>
+<p><em>01:23:37.578</em> On the left side, yeah, you&#x27;ve got code, which is a repository of all your files,</p>
+<p><em>01:23:41.778</em> commits is all the commits. Builds, you&#x27;ve got the pipelines and the jobs, so you</p>
+<p><em>01:23:45.648</em> can see a list of all the jobs.</p>
+<p><em>01:23:49.459</em> But again, only the last, the most, the top one matters.</p>
+<p><em>01:23:52.518</em> So as long as that one says passed, then everything works.</p>
+<p><em>01:23:56.508</em> If you have</p>
+<p><em>01:24:02.209</em> continually</p>
+<p><em>01:24:05.388</em> problems with the pipeline and you think, &quot;I don&#x27;t think it&#x27;s me, the pipeline, it</p>
+<p><em>01:24:09.678</em> could be the server,&quot; let me know. You ask me, &quot;Mattheos, is there something wrong</p>
+<p><em>01:24:15.648</em> with the server?&quot; And that sometimes happens.</p>
+<p><em>01:24:20.928</em> And I&#x27;ll look into it. Or I can also help you look at your logs. It&#x27;s not a...</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-questions" aria-label="课程资源与上传问题答疑 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-publish-demo">
+<span id="ch18" class="legacy-anchor" aria-hidden="true"></span><div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=5076s" target="_blank" rel="noopener">84:36 → 87:29</a><h2 class="chapter-title">完整复演：修改字体并发布</h2><span class="chapter-num">13 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">用更换字体再走一遍完整发布流程，将前面的配置、差异检查、提交和构建串起来。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5076s" target="_blank" rel="noopener" aria-label="在原视频查看 84:36 以字体修改重新演示">84:36</a>以字体修改重新演示</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5137s" target="_blank" rel="noopener" aria-label="在原视频查看 85:37 修改字体名称与查看差异">85:37</a>修改字体名称与查看差异</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5165s" target="_blank" rel="noopener" aria-label="在原视频查看 86:05 提交、检查作业并刷新网站">86:05</a>提交、检查作业并刷新网站</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-publish-demo"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/publish-demo-1.jpg" alt="85:45 · 修改字体配置" data-caption="85:45 · 修改字体配置" loading="lazy"><img class="carousel-img" src="frames/topics/publish-demo-2.jpg" alt="86:35 · 核对最新构建结果" data-caption="86:35 · 核对最新构建结果" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">85:45 · 修改字体配置</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>演示将字体名设为 Roboto Condensed，字符串中的空格与成对引号需要正确。</li><li>检查左侧变更列表，填写提交说明并提交到 main。</li><li>回到作业列表确认本次构建通过，再刷新网站检查字体效果。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>发布核对</strong><span class="term-tip">把配置改动、提交、构建和最终页面逐一对应。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>选择一处小改动，练习“编辑 → 检查差异 → 提交 → 构建 → 验证页面”。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:24:36.858</em> Okay, my editor works again, so I can show you Zekil.</p>
+<p><em>01:24:39.408</em> There was a question about just showing changes.</p>
+<p><em>01:24:47.058</em> So if I make an edit,</p>
+<p><em>01:24:51.408</em> let&#x27;s change</p>
+<p><em>01:24:56.328</em> the font.</p>
+<p><em>01:24:59.058</em> Well,</p>
+<p><em>01:25:09.018</em> I don&#x27;t know. What&#x27;s this one called?</p>
+<p><em>01:25:16.368</em> Robot Condensed. I&#x27;m taking it from the URL.</p>
+<p><em>01:25:27.049</em> So I copy the font name, and I go down to...</p>
+<p><em>01:25:32.418</em> Where was the font?</p>
+<p><em>01:25:37.308</em> I&#x27;m going to search for font. There it is. So I&#x27;m going to put Robot Condensed.</p>
+<p><em>01:25:42.678</em> I don&#x27;t want the plus. It&#x27;s just a space bar. The space is fine.</p>
+<p><em>01:25:47.118</em> Make sure I&#x27;ve got the open and closing quotes, text equals.</p>
+<p><em>01:25:51.768</em> I can see there the line changed. Oops.</p>
+<p><em>01:25:55.338</em> And so then I see on the left side a one, so it&#x27;s telling me one file has changed.</p>
+<p><em>01:25:59.299</em> I click on it, and I open the new tab, which shows me the list of files that</p>
+<p><em>01:26:03.799</em> changed.</p>
+<p><em>01:26:05.959</em> And then I write and change font, and I commit to main. I click Commit to main.</p>
+<p><em>01:26:12.528</em> And then it should say successfully.</p>
+<p><em>01:26:14.418</em> You should see that pop up at the bottom there.</p>
+<p><em>01:26:21.858</em> Yeah. The change has been committed. I now go back to my jobs.</p>
+<p><em>01:26:26.178</em> On the other tab, I had the list of jobs.</p>
+<p><em>01:26:27.828</em> I can refresh this page,</p>
+<p><em>01:26:30.438</em> reload the page,</p>
+<p><em>01:26:32.868</em> and it says Commit just now, and it said it&#x27;s passed.</p>
+<p><em>01:26:38.433</em> So it says green, so that knows everything&#x27;s correct.</p>
+<p><em>01:26:40.698</em> So if I go to my website</p>
+<p><em>01:26:43.878</em> and I</p>
+<p><em>01:26:46.608</em> reload my website, it should look different.</p>
+<p><em>01:26:51.948</em> I think so. Yeah.</p>
+<p><em>01:26:55.578</em> And that&#x27;s a bit fast. Okay.</p>
+<p><em>01:27:02.058</em> Yeah. Helps. So I hope that makes sense. I hope everyone has fun committing.</p>
+<p><em>01:27:10.368</em> Look at the markdowns that we&#x27;ve provided you. There&#x27;s a lot of tips there.</p>
+<p><em>01:27:14.868</em> There&#x27;s a lot of</p>
+<p><em>01:27:18.108</em> example markdown you can use. There&#x27;s the Zekil website. Make commits.</p>
+<p><em>01:27:23.508</em> Once you get somewhere exciting, you can then try cloning locally.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-publish-demo" aria-label="完整复演：修改字体并发布 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-image-budget">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439130/cba3d603e5#t=5249s" target="_blank" rel="noopener">87:29 → 89:48</a><h2 class="chapter-title">图片优化与课程收尾</h2><span class="chapter-num">14 / 14</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">为整个课程安排图片体积预算，把压缩与尺寸检查纳入每周文档流程，同时兼顾读者的网络条件。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5249s" target="_blank" rel="noopener" aria-label="在原视频查看 87:29 500 MB 额度与每周预算">87:29</a>500 MB 额度与每周预算</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5288s" target="_blank" rel="noopener" aria-label="在原视频查看 88:08 图片尺寸、体积与网络条件">88:08</a>图片尺寸、体积与网络条件</li><li><a href="https://vimeo.com/1227439130/cba3d603e5#t=5355s" target="_blank" rel="noopener" aria-label="在原视频查看 89:15 结束致谢">89:15</a>结束致谢</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-image-budget"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/topics/image-budget-1.jpg" alt="88:20 · 课程收尾画面；本段图片优化建议为口头讲解，见下方要点与字幕" data-caption="88:20 · 课程收尾画面；本段图片优化建议为口头讲解，见下方要点与字幕" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">88:20 · 课程收尾画面；本段图片优化建议为口头讲解，见下方要点与字幕</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师提到课程仓库存储额度为 500 MB，需要为后续每周内容留空间。</li><li>课堂给出的图片参考是约 800 像素宽、100 KB 量级，具体应以细节可读性和实际要求为准。</li><li>手机原图通常信息量很大，上传前应根据网页展示需求调整尺寸与体积。</li><li>较小的图片能降低加载成本，让手机和较慢网络上的读者更容易访问。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>图片优化</strong><span class="term-tip">在可读性、像素尺寸和文件体积之间选择合适平衡。</span></span><span class="term" tabindex="0"><strong>存储预算</strong><span class="term-tip">按课程周期安排每周的文件空间。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>上传前缩放、压缩并检查工艺细节，记录每周图片总体积。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:27:29.628</em> Yeah. As mentioned, maybe with Claudia,</p>
+<p><em>01:27:34.398</em> especially with uploading images, you have a fixed file storage,</p>
+<p><em>01:27:39.228</em> which is 500 megabytes for the whole</p>
+<p><em>01:27:42.828</em> class.</p>
+<p><em>01:27:44.658</em> So, you&#x27;ve got to make a budget every</p>
+<p><em>01:27:48.768</em> week. You&#x27;ve got to decide how many images can I upload and how big each image can</p>
+<p><em>01:27:52.459</em> be before I reach my limit. Because if you get to 100 megabyte already today,</p>
+<p><em>01:27:57.768</em> you&#x27;re not going to have space for later on,</p>
+<p><em>01:28:00.799</em> which is why optimizing your images is very important, because the smaller you get</p>
+<p><em>01:28:04.608</em> them now, the more space you have later on.</p>
+<p><em>01:28:08.658</em> And so here, I&#x27;ll share the slides later, and you can read this in more detail,</p>
+<p><em>01:28:13.278</em> sort of suggesting some good defaults. Images can be on your phone.</p>
+<p><em>01:28:19.248</em> You&#x27;re taking really large pictures that have a lot of information, but for a</p>
+<p><em>01:28:22.459</em> website, they can be very small. They don&#x27;t need to be wider than 800 pixels.</p>
+<p><em>01:28:26.209</em> A hundred kilobytes is more than enough because you&#x27;re going to have a lot of</p>
+<p><em>01:28:31.338</em> pictures on your website. The website is already fixed width because of the style.</p>
+<p><em>01:28:37.248</em> And</p>
+<p><em>01:28:39.168</em> also think about not everyone&#x27;s going to have maybe fiber optics cable or a</p>
+<p><em>01:28:42.978</em> satellite connection. People might be looking at this on their phone with not a</p>
+<p><em>01:28:47.868</em> good connection. Some countries don&#x27;t have good connections, and so you have to</p>
+<p><em>01:28:51.078</em> also think about that, that if you load a website with very large images, they</p>
+<p><em>01:28:55.758</em> can&#x27;t even look at your website. So, get a workflow.</p>
+<p><em>01:29:00.858</em> Claudia sent some suggested apps and things.</p>
+<p><em>01:29:05.209</em> Once it becomes part of your rhythm, then,</p>
+<p><em>01:29:11.238</em> yeah.</p>
+<p><em>01:29:15.049</em> Okay.</p>
+<p><em>01:29:22.368</em> I&#x27;ll see you in nine months.</p>
+<p><em>01:29:33.678</em> Thank you.</p>
+<p><em>01:29:38.328</em> Thanks a lot. Bye bye.</p>
+<p><em>01:29:41.538</em> Thank you.</p>
+<p><em>01:29:42.888</em> Thanks. Bye. Thank you.</p>
+<p><em>01:29:45.198</em> Thank you very much. Have a nice day</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-image-budget" aria-label="图片优化与课程收尾 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+<section class="legacy-notes" hidden><details><summary>旧版分段笔记</summary><p>重分章前的备注保留在这里，仍按原来的五分钟时间段显示。新章节的备注独立保存。</p><div class="legacy-note" data-legacy-key="ch1" hidden><h3>旧第 1 段 · 00:00–05:00</h3><p></p><a href="#topic-platforms">查看该时段起点所在章节：课程平台与账号登录</a></div>
+<div class="legacy-note" data-legacy-key="ch2" hidden><h3>旧第 2 段 · 05:00–10:00</h3><p></p><a href="#topic-platforms">查看该时段起点所在章节：课程平台与账号登录</a></div>
+<div class="legacy-note" data-legacy-key="ch3" hidden><h3>旧第 3 段 · 10:00–15:00</h3><p></p><a href="#topic-foundations">查看该时段起点所在章节：网页基础与 Zensical 模板</a></div>
+<div class="legacy-note" data-legacy-key="ch4" hidden><h3>旧第 4 段 · 15:00–20:00</h3><p></p><a href="#topic-git-project">查看该时段起点所在章节：找到个人网站，认识 Git 版本历史</a></div>
+<div class="legacy-note" data-legacy-key="ch5" hidden><h3>旧第 5 段 · 20:00–25:00</h3><p></p><a href="#topic-git-project">查看该时段起点所在章节：找到个人网站，认识 Git 版本历史</a></div>
+<div class="legacy-note" data-legacy-key="ch6" hidden><h3>旧第 6 段 · 25:00–30:00</h3><p></p><a href="#topic-configuration">查看该时段起点所在章节：项目文件结构与 TOML 配置</a></div>
+<div class="legacy-note" data-legacy-key="ch7" hidden><h3>旧第 7 段 · 30:00–35:00</h3><p></p><a href="#topic-first-publish">查看该时段起点所在章节：首次提交与自动发布</a></div>
+<div class="legacy-note" data-legacy-key="ch8" hidden><h3>旧第 8 段 · 35:00–40:00</h3><p></p><a href="#topic-first-publish">查看该时段起点所在章节：首次提交与自动发布</a></div>
+<div class="legacy-note" data-legacy-key="ch9" hidden><h3>旧第 9 段 · 40:00–45:00</h3><p></p><a href="#topic-markdown">查看该时段起点所在章节：Markdown 写作与扩展组件</a></div>
+<div class="legacy-note" data-legacy-key="ch10" hidden><h3>旧第 10 段 · 45:00–50:00</h3><p></p><a href="#topic-images">查看该时段起点所在章节：图片插入、上传与提交</a></div>
+<div class="legacy-note" data-legacy-key="ch11" hidden><h3>旧第 11 段 · 50:00–55:00</h3><p></p><a href="#topic-images">查看该时段起点所在章节：图片插入、上传与提交</a></div>
+<div class="legacy-note" data-legacy-key="ch12" hidden><h3>旧第 12 段 · 55:00–60:00</h3><p></p><a href="#topic-recovery">查看该时段起点所在章节：历史恢复、构建排错与编辑冲突</a></div>
+<div class="legacy-note" data-legacy-key="ch13" hidden><h3>旧第 13 段 · 60:00–65:00</h3><p></p><a href="#topic-recovery">查看该时段起点所在章节：历史恢复、构建排错与编辑冲突</a></div>
+<div class="legacy-note" data-legacy-key="ch14" hidden><h3>旧第 14 段 · 65:00–70:00</h3><p></p><a href="#topic-css">查看该时段起点所在章节：用 CSS 定制网站样式</a></div>
+<div class="legacy-note" data-legacy-key="ch15" hidden><h3>旧第 15 段 · 70:00–75:00</h3><p></p><a href="#topic-local-workflow">查看该时段起点所在章节：本地工作流：克隆、提交、预览与 SSH</a></div>
+<div class="legacy-note" data-legacy-key="ch16" hidden><h3>旧第 16 段 · 75:00–80:00</h3><p></p><a href="#topic-local-workflow">查看该时段起点所在章节：本地工作流：克隆、提交、预览与 SSH</a></div>
+<div class="legacy-note" data-legacy-key="ch17" hidden><h3>旧第 17 段 · 80:00–85:00</h3><p></p><a href="#topic-questions">查看该时段起点所在章节：课程资源与上传问题答疑</a></div>
+<div class="legacy-note" data-legacy-key="ch18" hidden><h3>旧第 18 段 · 85:00–89:48</h3><p></p><a href="#topic-publish-demo">查看该时段起点所在章节：完整复演：修改字体并发布</a></div></details></section>
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <p>
+        AI 笔记更新于 <strong>2026-09-20</strong> · 基于 Vimeo 自动字幕 (En-x-autogen) + 内容理解<br>
+        原始视频: <a href="https://vimeo.com/1227439130/cba3d603e5" target="_blank" rel="noopener">Fabricademy 10th Edition 2026-09-16</a> · 
+        字幕文件: <a href="fabricademy-10th-edition-2026-09-16.vtt" download>VTT</a>
+      </p>
+      <p style="margin-top: 8px; font-size: 12px;">
+        整理与续作: Mavis / Kimi / Codex · 字幕提取: DownSub.com · 风格: GitHub Dark Dimmed
+      </p>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  // Both generations keep the existing storage object; semantic IDs avoid reassigning old notes.
+  document.addEventListener('DOMContentLoaded', () => {
+    const STORAGE_KEY = 'fabricademy-10th-notes-v1';
+    let saved = {};
+    let storageAvailable = true;
+    try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (e) { storageAvailable = false; }
+    if (!saved || typeof saved !== 'object' || Array.isArray(saved)) saved = {};
+
+    const legacyEntries = document.querySelectorAll('.legacy-note');
+    let legacyCount = 0;
+    legacyEntries.forEach(entry => {
+      const note = saved[entry.dataset.legacyKey];
+      if (typeof note !== 'string' || !note.trim()) return;
+      entry.querySelector('p').textContent = note;
+      entry.hidden = false;
+      legacyCount++;
+    });
+    document.querySelector('.legacy-notes').hidden = legacyCount === 0;
+
+    document.querySelectorAll('textarea[data-chapter]').forEach(ta => {
+      const key = ta.dataset.chapter;
+      const status = ta.parentElement.querySelector('.notes-status');
+      if (typeof saved[key] === 'string') {
+        ta.value = saved[key];
+        status.textContent = '已读取本地笔记';
+      } else if (!storageAvailable) {
+        status.textContent = '当前预览无法读取本地笔记，请在普通浏览器记录并保存。';
+      }
+      let timer;
+      ta.addEventListener('input', () => {
+        clearTimeout(timer);
+        status.textContent = '保存中...';
+        timer = setTimeout(() => {
+          try {
+            const latest = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+            if (latest && typeof latest === 'object' && !Array.isArray(latest)) saved = latest;
+            saved[key] = ta.value;
+            saved[key + '_ts'] = Date.now();
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+            status.textContent = '已自动保存 · ' + new Date().toLocaleTimeString();
+          } catch (e) { status.textContent = '本地保存失败，请复制笔记备份。'; }
+        }, 400);
+      });
+    });
+  });
+
+  // ===== Smooth scroll & active TOC highlight =====
+  const tocLinks = document.querySelectorAll('.toc a');
+  const sections = document.querySelectorAll('.chapter');
+
+  // srcdoc fragment links inherit the host URL. Keep in-page navigation inside the preview.
+  if (window.location.href.split('#')[0] === 'about:srcdoc') {
+    document.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey ||
+          event.ctrlKey || event.shiftKey || event.altKey) return;
+      const link = event.target.closest('a[href^="#"]');
+      if (!link) return;
+      const target = document.getElementById(link.getAttribute('href').slice(1));
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ block: 'start', behavior: 'auto' });
+    });
+  }
+
+  // Use IntersectionObserver to highlight active section in TOC
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        tocLinks.forEach(l => { l.style.borderLeftColor = 'transparent'; l.style.color = ''; l.removeAttribute('aria-current'); });
+        const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
+        if (link) {
+          link.style.borderLeftColor = 'var(--accent)';
+          link.style.color = 'var(--accent)';
+          link.setAttribute('aria-current', 'location');
+        }
+      }
+    });
+  }, { rootMargin: '-20% 0px -75% 0px' });
+  sections.forEach(s => observer.observe(s));
+
+  document.querySelectorAll('.carousel').forEach((c, chapterIndex) => {
+    const imgs = [...c.querySelectorAll('.carousel-img')];
+    const dots = c.querySelector('.carousel-dots');
+    dots.replaceChildren();
+    c.tabIndex = 0;
+    c.setAttribute('role', 'region');
+    c.setAttribute('aria-label', `第${chapterIndex + 1}章视频截图，左右方向键切换`);
+    const counter = document.createElement('span');
+    counter.className = 'carousel-counter';
+    counter.setAttribute('aria-live', 'polite');
+    c.append(counter);
+    let current = 0;
+    const buttons = imgs.map((img, i) => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = 'dot';
+      button.setAttribute('aria-label', `第${i + 1}张截图`);
+      button.addEventListener('click', () => go(i)); dots.append(button);
+      return button;
+    });
+    function go(n) {
+      current = (n + imgs.length) % imgs.length;
+      imgs.forEach((img, i) => { img.classList.toggle('active', i === current); img.setAttribute('aria-hidden', String(i !== current)); });
+      buttons.forEach((button, i) => { button.classList.toggle('active', i === current); button.setAttribute('aria-pressed', String(i === current)); });
+      counter.textContent = `${current + 1} / ${imgs.length}`;
+      c.closest('figure').querySelector('.frame-caption').textContent = imgs[current].dataset.caption;
+    }
+    c.querySelector('.prev').addEventListener('click', () => go(current - 1));
+    c.querySelector('.next').addEventListener('click', () => go(current + 1));
+    c.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { e.preventDefault(); go(current + (e.key === 'ArrowRight' ? 1 : -1)); }
+    });
+    go(0);
+  });
+</script>
+</body>
+</html>
