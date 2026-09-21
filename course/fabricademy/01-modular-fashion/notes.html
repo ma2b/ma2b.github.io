@@ -1,0 +1,2046 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>模块化时装：从参数化绘图到连接与组装 · AI 笔记</title>
+<meta name="description" content="Fabricademy Modular Fashion 教程中文笔记，按实际演示整理 Fusion、Rhino、矢量文件输出与模块连接测试。" />
+<style>
+  /* ===== Reset & Base ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.7;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :root {
+    --bg-0: #0d1117;
+    --bg-1: #161b22;
+    --bg-2: #1c2128;
+    --border: #30363d;
+    --text-0: #c9d1d9;
+    --text-1: #8b949e;
+    --text-2: #6e7681;
+    --accent: #58a6ff;
+    --accent-2: #7ee787;
+    --accent-3: #d2a8ff;
+    --warn: #d29922;
+    --danger: #f85149;
+    --code-bg: #161b22;
+    --shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+
+  /* ===== Layout ===== */
+  .app {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* ===== Sidebar ===== */
+  .sidebar {
+    background: var(--bg-1);
+    border-right: 1px solid var(--border);
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    padding: 0 20px 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+  .sidebar-header h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-1);
+    font-weight: 600;
+  }
+  .sidebar-header p {
+    font-size: 12px;
+    color: var(--text-2);
+    margin-top: 4px;
+  }
+
+  .toc { list-style: none; }
+  .toc li {
+    margin: 0;
+  }
+  .toc a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    color: var(--text-0);
+    text-decoration: none;
+    font-size: 13px;
+    border-left: 2px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .toc a:hover {
+    background: var(--bg-2);
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+  .toc-time {
+    color: var(--text-2);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px;
+    min-width: 44px;
+  }
+  .toc-text {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* ===== Main ===== */
+  .main {
+    padding: 40px 56px 80px;
+    max-width: 920px;
+  }
+
+  /* ===== Hero ===== */
+  .hero {
+    background: linear-gradient(135deg, var(--bg-1), var(--bg-2));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .hero-thumb {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background: linear-gradient(135deg, #1a1f29, #0d1117);
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-body { padding: 28px 32px 32px; }
+  .hero-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .tag {
+    background: rgba(88,166,255,0.1);
+    color: var(--accent);
+    border: 1px solid rgba(88,166,255,0.3);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .tag.green { background: rgba(126,231,135,0.1); color: var(--accent-2); border-color: rgba(126,231,135,0.3); }
+  .tag.purple { background: rgba(210,168,255,0.1); color: var(--accent-3); border-color: rgba(210,168,255,0.3); }
+  .tag.warn { background: rgba(210,153,34,0.1); color: var(--warn); border-color: rgba(210,153,34,0.3); }
+
+  .hero h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    color: #f0f6fc;
+  }
+  .hero-author {
+    color: var(--text-1);
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .hero-author a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  .stat-value { font-size: 20px; font-weight: 600; color: #f0f6fc; }
+  .stat-label { font-size: 12px; color: var(--text-1); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .hero-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-0);
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .btn:hover { background: var(--bg-0); border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--bg-0); border-color: var(--accent); font-weight: 600; }
+  .btn.primary:hover { background: #79b8ff; color: var(--bg-0); }
+
+  /* ===== Chapter Card ===== */
+  .chapter {
+    background: var(--bg-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 28px;
+    scroll-margin-top: 24px;
+    transition: border-color 0.2s ease;
+  }
+  .chapter:hover { border-color: var(--accent); }
+
+  .chapter-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .chapter-time {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--bg-2);
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .chapter-time:hover {
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.1);
+  }
+  .chapter-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0f6fc;
+    flex: 1;
+    min-width: 200px;
+  }
+  .chapter-num {
+    color: var(--text-2);
+    font-size: 13px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  .chapter-section {
+    margin-top: 18px;
+  }
+  .chapter-section-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-1);
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .chapter-section-title::before {
+    content: "";
+    width: 3px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 2px;
+  }
+
+  /* 本章摘要 box */
+  .tldr {
+    background: linear-gradient(135deg, rgba(88,166,255,0.08), rgba(126,231,135,0.05));
+    border: 1px solid rgba(88,166,255,0.2);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 14px 18px;
+    color: #e6edf3;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .tldr strong { color: var(--accent); font-weight: 600; }
+
+  /* Key points list */
+  .key-points {
+    list-style: none;
+    padding: 0;
+  }
+  .key-points li {
+    position: relative;
+    padding: 6px 0 6px 22px;
+    color: var(--text-0);
+  }
+  .key-points li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+
+  /* Term chips */
+  .terms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .term {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: var(--text-0);
+    position: relative;
+    cursor: help;
+  }
+  .term strong {
+    color: var(--accent-3);
+    font-weight: 600;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px;
+  }
+  .term:hover {
+    border-color: var(--accent);
+  }
+  .term-tip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: var(--text-0);
+    width: 240px;
+    z-index: 10;
+    margin-bottom: 6px;
+    box-shadow: var(--shadow);
+  }
+  .term:hover .term-tip { display: block; }
+
+  /* Action items */
+  .actions {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 18px;
+  }
+  .actions ol { padding-left: 22px; color: var(--text-0); }
+  .actions li { padding: 4px 0; }
+  .actions code {
+    background: var(--bg-0);
+    color: var(--accent-2);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  /* Original transcript */
+  details.transcript {
+    margin-top: 16px;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+  details.transcript summary {
+    padding: 10px 14px;
+    cursor: pointer;
+    color: var(--text-1);
+    font-size: 13px;
+    list-style: none;
+    user-select: none;
+  }
+  details.transcript summary::-webkit-details-marker { display: none; }
+  details.transcript summary::before {
+    content: "▸ ";
+    color: var(--accent);
+    transition: transform 0.15s ease;
+    display: inline-block;
+  }
+  details.transcript[open] summary::before { transform: rotate(90deg); }
+  details.transcript summary:hover { color: var(--accent); }
+  .transcript-body {
+    padding: 0 14px 14px;
+    color: var(--text-1);
+    font-size: 13px;
+    line-height: 1.65;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+  }
+  .transcript-body p { margin-bottom: 8px; }
+  .transcript-body em {
+    color: var(--warn);
+    font-style: normal;
+    font-size: 11px;
+    background: rgba(210,153,34,0.1);
+    padding: 1px 6px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  /* Notes */
+  .notes-area {
+    margin-top: 16px;
+  }
+  .notes-area textarea {
+    width: 100%;
+    min-height: 80px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+    color: var(--text-0);
+    font-family: inherit;
+    font-size: 13px;
+    resize: vertical;
+    transition: border-color 0.15s ease;
+  }
+  .notes-area textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .notes-status {
+    font-size: 11px;
+    color: var(--text-2);
+    margin-top: 4px;
+    text-align: right;
+  }
+
+  /* ===== Image Carousel ===== */
+  .carousel {
+    position: relative;
+    margin: 4px 0 8px;
+    background: #000;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+  }
+  .carousel-viewport { position: relative; width: 100%; height: 100%; }
+  .carousel-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+  .carousel-img.active { opacity: 1; }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: rgba(13,17,23,.7);
+    color: var(--text-0);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 2;
+  }
+  .carousel-btn:hover { background: rgba(88,166,255,.25); }
+  .carousel-btn.prev { left: 8px; }
+  .carousel-btn.next { right: 8px; }
+  .carousel-dots {
+    position: absolute; bottom: 8px; left: 50%;
+    transform: translateX(-50%);
+    display: flex; gap: 6px;
+    z-index: 2;
+  }
+  .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: rgba(201,209,217,.4);
+  }
+  .dot.active { background: var(--accent); }
+
+  /* ===== Footer ===== */
+  .footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-2);
+    font-size: 13px;
+    text-align: center;
+  }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; }
+    .sidebar {
+      position: relative;
+      height: auto;
+      max-height: 50vh;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .main { padding: 24px; }
+    .hero-stats { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 22px; }
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    .sidebar, .notes-area, .hero-actions, details.transcript { display: none; }
+    .main { padding: 0; }
+    .chapter { break-inside: avoid; border: 1px solid #ccc; }
+    body { background: white; color: black; }
+  }
+  .carousel:focus-visible, button:focus-visible, .term:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .carousel-counter { position: absolute; left: 12px; top: 10px; padding: 3px 8px; background: rgba(13,17,23,.85); border-radius: 4px; font-size: 12px; }
+  button.dot { border: 0; padding: 8px; cursor: pointer; }
+  .term:focus .term-tip { opacity: 1; visibility: visible; }
+  .transcript-body { max-height: 420px; overflow: auto; }
+  .main, .chapter { min-width: 0; overflow-wrap: anywhere; }
+  @media (max-width: 480px) { .main { padding: 16px 12px; } .chapter { padding: 20px 16px; } }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+  .chapter-map-note { color: var(--text-1); font-size: 13px; margin: 16px 0; }
+  .chapter-moments { padding-left: 20px; color: var(--text-1); }
+  .chapter-moments li { margin: 5px 0; }
+  .chapter-moments a { color: var(--accent); font-variant-numeric: tabular-nums; text-decoration: none; margin-right: 8px; }
+  .chapter-visual { margin: 16px 0 24px; }
+  .frame-caption { color: var(--text-1); font-size: 13px; line-height: 1.6; margin-top: 8px; }
+  .legacy-anchor { display: block; height: 0; }
+  .legacy-notes { background: var(--bg-1); padding: 24px; border: 1px solid var(--border); border-radius: 12px; }
+  .legacy-notes[hidden] { display: none; }
+  .legacy-note { border-top: 1px solid var(--border); padding: 16px 0; }
+  .legacy-note p { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .legacy-note a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2>章节时间轴</h2>
+      <p>共 15 章 · 按实际主题划分</p>
+    </div>
+    <ul class="toc" id="toc">
+<li><a href="#topic-preparation"><span class="toc-time">00:00</span><span class="toc-text">1. 课程目标与 Fusion 工作环境</span></a></li>
+<li><a href="#topic-fusion-sketch"><span class="toc-time">05:16</span><span class="toc-text">2. Fusion 草图、尺寸与构造线</span></a></li>
+<li><a href="#topic-fusion-female"><span class="toc-time">12:56</span><span class="toc-text">3. Fusion：用镜像与圆周阵列设计插槽</span></a></li>
+<li><a href="#topic-fusion-male"><span class="toc-time">18:47</span><span class="toc-text">4. Fusion：制作配套插接模块</span></a></li>
+<li><a href="#topic-fusion-export"><span class="toc-time">23:41</span><span class="toc-text">5. Fusion 排料与 DXF 输出检查</span></a></li>
+<li><a href="#topic-rhino-setup"><span class="toc-time">31:36</span><span class="toc-text">6. Rhino 工作环境与对象捕捉</span></a></li>
+<li><a href="#topic-rhino-outline"><span class="toc-time">36:01</span><span class="toc-text">7. Rhino：方形轮廓、旋转与圆角</span></a></li>
+<li><a href="#topic-rhino-slots"><span class="toc-time">43:04</span><span class="toc-text">8. Rhino：定位插槽与极轴阵列</span></a></li>
+<li><a href="#topic-rhino-mixed"><span class="toc-time">48:44</span><span class="toc-text">9. Rhino：组合连接件与矩形排料</span></a></li>
+<li><a href="#topic-rhino-export"><span class="toc-time">53:31</span><span class="toc-text">10. Rhino 输出与曲线清理</span></a></li>
+<li><a href="#topic-assembly"><span class="toc-time">60:56</span><span class="toc-text">11. 实物模块的组装与变化</span></a></li>
+<li><a href="#topic-fit"><span class="toc-time">68:33</span><span class="toc-text">12. 厚度、松紧与模块尺寸答疑</span></a></li>
+<li><a href="#topic-thick-slots"><span class="toc-time">74:12</span><span class="toc-text">13. 补充演示：矩形槽与三维延伸</span></a></li>
+<li><a href="#topic-parameters"><span class="toc-time">78:00</span><span class="toc-text">14. Fusion 表达式与用户参数</span></a></li>
+<li><a href="#topic-next-steps"><span class="toc-time">82:12</span><span class="toc-text">15. 参考案例、课程文件与记录</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <a href="https://vimeo.com/1123595692/25e8b5345e" target="_blank" rel="noopener">
+        <img class="hero-thumb" src="source.jpg" alt="模块化时装：从参数化绘图到连接与组装 视频封面" />
+      </a>
+      <div class="hero-body">
+        <div class="hero-meta">
+        <span class="tag">教程</span>
+        <span class="tag green">模块化时装</span>
+        
+        <span class="tag warn">Vimeo 自动字幕 · 有错别字</span>
+      </div>
+      <h1>模块化时装：从参数化绘图到连接与组装</h1>
+      <p class="hero-author">
+        课程发布方: <a href="https://vimeo.com/fabricademy" target="_blank" rel="noopener">Fabricademy, Textile Academy</a> · 
+        Fabricademy 2025–26 · Modular Fashion · 
+        原始视频: <a href="https://vimeo.com/1123595692/25e8b5345e" target="_blank" rel="noopener">Fabricademy 2025–26 · Modular Fashion</a>
+      </p>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-value">1h 24m 20s</div>
+          <div class="stat-label">时长</div>
+        </div>
+        <div>
+          <div class="stat-value">15</div>
+          <div class="stat-label">章节</div>
+        </div>
+        <div>
+          <div class="stat-value">1,203</div>
+          <div class="stat-label">字幕 cues</div>
+        </div>
+        <div>
+          <div class="stat-value">Auto</div>
+          <div class="stat-label">字幕类型</div>
+        </div>
+      </div>
+      <p class="chapter-map-note">按讲解主题划分章节，保留视频顺序。较长章节可通过「本章内容」定位具体操作；原文字幕保留自动识别结果。</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://vimeo.com/1123595692/25e8b5345e" target="_blank" rel="noopener">▶ 打开原视频</a>
+        <a class="btn" href="../index.html">← 全部课程</a>
+        <a class="btn" href="source.en-x-autogen.vtt" download>下载 VTT 字幕</a>
+      </div>
+      </div><!-- /.hero-body -->
+    </section>
+
+<section class="chapter" id="topic-preparation">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=0s" target="_blank" rel="noopener">00:00 → 05:16</a><h2 class="chapter-title">课程目标与 Fusion 工作环境</h2><span class="chapter-num">01 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">明确本课目标：设计可用于激光切割的模块，并准备 Fusion 的单位、网格和设计历史。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=24s" target="_blank" rel="noopener" aria-label="在原视频查看 00:24 本课路线与切割文件目标">00:24</a>本课路线与切割文件目标</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=72s" target="_blank" rel="noopener" aria-label="在原视频查看 01:12 矢量编辑软件的角色">01:12</a>矢量编辑软件的角色</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=208s" target="_blank" rel="noopener" aria-label="在原视频查看 03:28 Fusion 界面、单位与时间线">03:28</a>Fusion 界面、单位与时间线</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-preparation"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/preparation-1.jpg" alt="04:35 · Fusion 工作环境与单位设置演示" data-caption="04:35 · Fusion 工作环境与单位设置演示" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">04:35 · Fusion 工作环境与单位设置演示</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本课演示两组模块：先用 Fusion 绘制圆形连接件，再用 Rhino 绘制另一种模块。</li><li>Illustrator 或 Inkscape 用于后续矢量整理与排料，软件选择服务于完整制作流程。</li><li>演示采用毫米单位，并检查底部时间线；界面位置会随系统和版本变化。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>排料</strong><span class="term-tip">把模块排列到材料幅面中，考虑间距和材料利用率。</span></span><span class="term" tabindex="0"><strong>设计历史</strong><span class="term-tip">记录 Fusion 建模过程，便于回到已有步骤继续编辑。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>准备选用的建模及矢量编辑软件。</li><li>核对文档单位、网格和时间线。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:00:03.105</em> Hello, beautiful people.</p>
+<p><em>00:00:04.845</em> This is, uh, fabric Idemy 20 25, 26, week three,</p>
+<p><em>00:00:08.975</em> circular Fashion, uh, moderate fashion tutorial.</p>
+<p><em>00:00:14.125</em> Um, I just dropped a couple of things in the chat.</p>
+<p><em>00:00:19.125</em> Um, one as links</p>
+<p><em>00:00:22.205</em> if you haven&#x27;t installed a software yet.</p>
+<p><em>00:00:24.925</em> Uh, we&#x27;ll do a up, as I said yesterday.</p>
+<p><em>00:00:27.365</em> So we start, uh, with parametric modeling</p>
+<p><em>00:00:30.445</em> and show a couple of things in Vision 360,</p>
+<p><em>00:00:32.645</em> and then moving into Rhino to create also another module.</p>
+<p><em>00:00:36.845</em> So the aim that we have today is to be able</p>
+<p><em>00:00:41.805</em> to, uh, produce a file that you can actually use</p>
+<p><em>00:00:44.685</em> for laser cutting already.</p>
+<p><em>00:00:47.065</em> I will do two models, uh, you can follow me as well.</p>
+<p><em>00:00:51.405</em> So, uh, if you have an install, fusion is a very good moment</p>
+<p><em>00:00:54.885</em> to launch the software here.</p>
+<p><em>00:00:56.695</em> This is a free version of this version that will allow you</p>
+<p><em>00:01:00.945</em> to have the software installed in your computer for a couple</p>
+<p><em>00:01:03.985</em> of years, or Rhinoceros is also an alternative.</p>
+<p><em>00:01:08.765</em> And here you can find a trial for, uh, three months.</p>
+<p><em>00:01:12.905</em> I usually nest the pieces in, uh, in a vector</p>
+<p><em>00:01:16.465</em> software like Scap or Illustrator.</p>
+<p><em>00:01:18.565</em> So you can also have one of the two installed Illustrator,</p>
+<p><em>00:01:22.185</em> I believe there is a trial for seven days,</p>
+<p><em>00:01:24.325</em> and Inscape is of course, open source.</p>
+<p><em>00:01:28.025</em> I also, uh, drop in the chat, uh, link of the presentation.</p>
+<p><em>00:01:32.205</em> So in case there is time at the end,</p>
+<p><em>00:01:33.765</em> we can also see some example of the escalations.</p>
+<p><em>00:01:38.175</em> And I think I can, um,</p>
+<p><em>00:01:42.725</em> share my screen and you can launch the software with me.</p>
+<p><em>00:01:59.435</em> Okay. So this is the, uh,</p>
+<p><em>00:02:00.965</em> what I will be demonstrating today.</p>
+<p><em>00:02:04.925</em> Okay. Open a new file.</p>
+<p><em>00:02:08.955</em> Uh, if it is your time opening the software,</p>
+<p><em>00:02:12.435</em> you probably have this interface in front of you.</p>
+<p><em>00:02:15.955</em> I&#x27;m using a Mac,</p>
+<p><em>00:02:17.395</em> so the interface will be slightly</p>
+<p><em>00:02:19.375</em> different if you&#x27;re using Windows.</p>
+<p><em>00:02:22.105</em> Uh, I&#x27;m not gonna hit the chat,</p>
+<p><em>00:02:24.105</em> so please interrupt me and unmute yourself. Mm-hmm.</p>
+<p><em>00:02:27.575</em> Sorry, I, I&#x27;m already interrupting,</p>
+<p><em>00:02:29.505</em> but we don&#x27;t see your pull, uh, fusion 360.</p>
+<p><em>00:02:33.745</em> We only see the browser part. Oh,</p>
+<p><em>00:02:36.175</em> Thank you.</p>
+<p><em>00:02:37.625</em> No worries.</p>
+<p><em>00:02:44.145</em> Okay, sorry for this one more time.</p>
+<p><em>00:02:49.045</em> Okay, there will screen. So I think, uh, every now</p>
+<p><em>00:02:54.415</em> it&#x27;s okay.</p>
+<p><em>00:02:57.515</em> Perfect. So, uh,</p>
+<p><em>00:03:01.615</em> the moment you launch the software,</p>
+<p><em>00:03:03.035</em> this is the interface that you&#x27;re gonna have.</p>
+<p><em>00:03:05.235</em> I am on a Mac, so slightly different, uh, for you may be.</p>
+<p><em>00:03:09.375</em> If you&#x27;re on Windows, um,</p>
+<p><em>00:03:14.715</em> let me know whenever I should repeat something</p>
+<p><em>00:03:16.875</em> or if it&#x27;s not clear, because I&#x27;m not gonna read the chat.</p>
+<p><em>00:03:19.555</em> So you can get rid of any, uh, thing that you have in front</p>
+<p><em>00:03:23.925</em> of you and just, uh, launch a software as it is.</p>
+<p><em>00:03:28.425</em> Um, the moment you launch it,</p>
+<p><em>00:03:30.325</em> you might have open like a side pining that you can close</p>
+<p><em>00:03:34.205</em> pressing on this icon with a lot of dots.</p>
+<p><em>00:03:38.705</em> And you should be basically seeing a wide read interface</p>
+<p><em>00:03:43.795</em> with a cube on top, right, that you&#x27;re able to manipulate</p>
+<p><em>00:03:47.795</em> with a track pad or better with a mouse.</p>
+<p><em>00:03:50.845</em> And very important,</p>
+<p><em>00:03:52.285</em> you have all the way at the bottom a timeline.</p>
+<p><em>00:03:56.405</em> If you don&#x27;t have it, please, um,</p>
+<p><em>00:03:58.655</em> have a look at the settings.</p>
+<p><em>00:04:01.735</em> They may be, um, on top, under fusion about fusion</p>
+<p><em>00:04:05.845</em> or under your account.</p>
+<p><em>00:04:09.345</em> It depends if you&#x27;re using Windows or Mac or uh, or a Mac.</p>
+<p><em>00:04:13.995</em> If you don&#x27;t see the grid,</p>
+<p><em>00:04:15.395</em> you can find it here in the basic settings</p>
+<p><em>00:04:17.795</em> or in the general.</p>
+<p><em>00:04:21.435</em> Also, be sure to, to set up in advance the</p>
+<p><em>00:04:24.675</em> unit here.</p>
+<p><em>00:04:26.715</em> This is the last voice.</p>
+<p><em>00:04:28.985</em> So you, um, design units, uh,</p>
+<p><em>00:04:33.305</em> whether you are based in the world, uh,</p>
+<p><em>00:04:35.385</em> I usually use millimeters if you&#x27;re comfortable with inches.</p>
+<p><em>00:04:40.535</em> Also, you can go for that. I recommend you</p>
+<p><em>00:04:43.385</em> to have a small, um, unit.</p>
+<p><em>00:04:46.125</em> So to match also, for example,</p>
+<p><em>00:04:48.085</em> the resolution of the laser cutter.</p>
+<p><em>00:04:51.325</em> So these are the just, um,</p>
+<p><em>00:04:56.785</em> few setups.</p>
+<p><em>00:04:58.245</em> So let&#x27;s say the, uh, we should be able</p>
+<p><em>00:05:01.405</em> to see, uh, this view.</p>
+<p><em>00:05:02.785</em> So at the very bottom, the timeline in order</p>
+<p><em>00:05:05.065</em> to record every action, the millimeter, uh,</p>
+<p><em>00:05:09.965</em> grid that sometimes is useful.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-preparation" aria-label="课程目标与 Fusion 工作环境 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-fusion-sketch">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=316s" target="_blank" rel="noopener">05:16 → 12:56</a><h2 class="chapter-title">Fusion 草图、尺寸与构造线</h2><span class="chapter-num">02 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">在俯视平面建立草图，用直径尺寸约束圆形，并设置只用于定位的构造线。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=344s" target="_blank" rel="noopener" aria-label="在原视频查看 05:44 进入二维草图">05:44</a>进入二维草图</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=508s" target="_blank" rel="noopener" aria-label="在原视频查看 08:28 创建圆形">08:28</a>创建圆形</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=575s" target="_blank" rel="noopener" aria-label="在原视频查看 09:35 使用尺寸约束">09:35</a>使用尺寸约束</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=739s" target="_blank" rel="noopener" aria-label="在原视频查看 12:19 约束与构造线">12:19</a>约束与构造线</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-fusion-sketch"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/fusion-sketch-1.jpg" alt="10:40 · 圆形草图的直径标注" data-caption="10:40 · 圆形草图的直径标注" loading="lazy"><img class="carousel-img" src="frames/fusion-sketch-2.jpg" alt="12:45 · 圆形与辅助轴线" data-caption="12:45 · 圆形与辅助轴线" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">10:40 · 圆形草图的直径标注</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本课以二维草图为主；完成草图后仍可从草图列表或时间线重新进入。</li><li>先绘制圆，再用 Sketch Dimension（D）添加直径；演示采用 40 mm。</li><li>构造线用于建立轴线与几何关系，应与最终切割线区分。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Sketch Dimension</strong><span class="term-tip">草图尺寸约束，用来定义几何尺寸。</span></span><span class="term" tabindex="0"><strong>Construction Line</strong><span class="term-tip">辅助定位的构造线，不是预期的切割轮廓。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>建立俯视草图，画圆并标注直径。</li><li>画经过圆心的轴线，将其设为构造线。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:05:16.005</em> So, uh, to begin with, uh, fusion is, uh,</p>
+<p><em>00:05:19.715</em> parametric software.</p>
+<p><em>00:05:20.835</em> There is a lot you can do with the software.</p>
+<p><em>00:05:24.115</em> You might have already had a peak earlier.</p>
+<p><em>00:05:26.675</em> So, um, there is a design voice here that you can navigate</p>
+<p><em>00:05:30.605</em> with the dropdown menu.</p>
+<p><em>00:05:32.475</em> You have a lot of options for 3D modeling, for rendering,</p>
+<p><em>00:05:36.545</em> animations and simulations, even a space for electronics.</p>
+<p><em>00:05:40.255</em> So there is a lot you can do with just one platform.</p>
+<p><em>00:05:44.135</em> Today, we&#x27;ll focusing on 2D vector design, that means</p>
+<p><em>00:05:47.875</em> that soft, the, the software itself also has a platform</p>
+<p><em>00:05:52.385</em> for creating sketches.</p>
+<p><em>00:05:55.095</em> So, uh, the very first command</p>
+<p><em>00:05:57.225</em> and that we&#x27;re gonna use is the first one icon.</p>
+<p><em>00:06:00.425</em> The first icon here, creating a sketch.</p>
+<p><em>00:06:05.165</em> And we will basically work in 2D.</p>
+<p><em>00:06:10.675</em> So to enter this month is one click on the icon,</p>
+<p><em>00:06:13.395</em> and basically we&#x27;re gonna work, uh,</p>
+<p><em>00:06:15.845</em> from 2D for the laser cutter.</p>
+<p><em>00:06:17.335</em> So one click either on the top face,</p>
+<p><em>00:06:21.685</em> this orange, uh, left side</p>
+<p><em>00:06:24.635</em> or on top of the cube that you find, uh, here.</p>
+<p><em>00:06:32.635</em> If you press the top correctly,</p>
+<p><em>00:06:34.675</em> you should be find yourself on top, uh,</p>
+<p><em>00:06:40.185</em> of the cube inside a sketch mode.</p>
+<p><em>00:06:42.865</em> So then you&#x27;re gonna see one icon appearing all the way at</p>
+<p><em>00:06:47.275</em> the bottom and a big button, uh,</p>
+<p><em>00:06:50.315</em> with a check mark in green that says finished sketch.</p>
+<p><em>00:06:59.115</em> If that&#x27;s happens, the moment you close it,</p>
+<p><em>00:07:02.385</em> you should be able also be able to see a folder</p>
+<p><em>00:07:05.275</em> with one sketch created with nothing inside.</p>
+<p><em>00:07:07.945</em> So we&#x27;re every time able to access back what you had.</p>
+<p><em>00:07:12.145</em> So double click either here or all the way at the bottom.</p>
+<p><em>00:07:16.145</em> So you just created basically an empty sketch.</p>
+<p><em>00:07:24.845</em> I hope we are all here.</p>
+<p><em>00:07:27.325</em> And when we are inside the sketch,</p>
+<p><em>00:07:29.845</em> we basically have in front of our eyes</p>
+<p><em>00:07:32.905</em> a new set of tools.</p>
+<p><em>00:07:36.545</em> We&#x27;ll basically be using only these two panels today.</p>
+<p><em>00:07:40.195</em> So commands under create,</p>
+<p><em>00:07:42.675</em> and a couple of things under modify.</p>
+<p><em>00:07:49.555</em> So let&#x27;s say that we want</p>
+<p><em>00:07:51.735</em> to create a basic module.</p>
+<p><em>00:07:56.255</em> You&#x27;ve seen, uh, many options yesterday from the lecture,</p>
+<p><em>00:08:00.575</em> and I always recommend to start with something like, uh,</p>
+<p><em>00:08:04.835</em> a polygon shape, like a circle like a square at the very</p>
+<p><em>00:08:07.475</em> beginning to understand how we can later on connect</p>
+<p><em>00:08:10.255</em> to models together.</p>
+<p><em>00:08:13.025</em> So I will start, uh, with two circles, one female, one male,</p>
+<p><em>00:08:17.805</em> and I usually begin, uh, designing the female one.</p>
+<p><em>00:08:21.365</em> So the one that has these lines is cuts. There&#x27;s lots.</p>
+<p><em>00:08:28.935</em> And to do so, I am gonna go under create menu.</p>
+<p><em>00:08:34.255</em> I&#x27;m gonna choose the circle.</p>
+<p><em>00:08:38.555</em> And for all of these shapes, you basically have many, uh,</p>
+<p><em>00:08:41.935</em> options to choose from.</p>
+<p><em>00:08:45.045</em> Uh, there is also commands</p>
+<p><em>00:08:47.105</em> that you can use in your, um, keyboard.</p>
+<p><em>00:08:49.125</em> So you can type C for example,</p>
+<p><em>00:08:50.925</em> and access the circle directly in this case, uh,</p>
+<p><em>00:08:55.865</em> this will be linked to the center diameter circle.</p>
+<p><em>00:08:58.485</em> So you can also, uh, click it from here.</p>
+<p><em>00:09:02.115</em> So create circle, diameter circle one,</p>
+<p><em>00:09:06.825</em> click on the command</p>
+<p><em>00:09:07.845</em> and one click on the grid</p>
+<p><em>00:09:17.165</em> You can, um, select with a pointer with your mouse,</p>
+<p><em>00:09:21.045</em> the shape, or you can select it inside the sketch folder.</p>
+<p><em>00:09:25.175</em> Selecting the sketch to remove the selection of, uh,</p>
+<p><em>00:09:28.825</em> every time you can click escape in your keyboard.</p>
+<p><em>00:09:35.085</em> We say that, uh, fusion is a parametric software, so, uh,</p>
+<p><em>00:09:38.615</em> basically works with parameters.</p>
+<p><em>00:09:42.855</em> Um, to do so, there is one,</p>
+<p><em>00:09:47.925</em> a very useful command that is called, uh, there is a,</p>
+<p><em>00:09:51.345</em> the shortcut is D in your keyboard or sketch dimension.</p>
+<p><em>00:09:55.945</em> And this allow you to work, for example, in a scale one</p>
+<p><em>00:09:59.845</em> to one, so to specify in advance the size of your module.</p>
+<p><em>00:10:05.455</em> So at any point in your drawing,</p>
+<p><em>00:10:07.215</em> you can just create any shape.</p>
+<p><em>00:10:09.505</em> I&#x27;ll do this again. Click release.</p>
+<p><em>00:10:14.885</em> We don&#x27;t put since the beginning, the, um, the dimension,</p>
+<p><em>00:10:17.825</em> but we added a moment later.</p>
+<p><em>00:10:21.035</em> Just clicking on the edge on the line</p>
+<p><em>00:10:27.125</em> with this comments catch dimension, click on the edge</p>
+<p><em>00:10:30.395</em> and you can add a value.</p>
+<p><em>00:10:34.575</em> For example, um, I&#x27;m using millimeters, so 40 millimeters</p>
+<p><em>00:10:39.095</em> and this is my diameter.</p>
+<p><em>00:10:42.975</em> You&#x27;re free also to move the quotation dimension wherever</p>
+<p><em>00:10:46.435</em> you want in the space, not going to be part of the design.</p>
+<p><em>00:10:51.895</em> So once we have, um, our circle set, we see</p>
+<p><em>00:10:56.695</em> that now we cannot manipulate the size anymore,</p>
+<p><em>00:10:58.955</em> so this is kind of fixed</p>
+<p><em>00:11:01.835</em> and I usually proceed, um, whatever I do</p>
+<p><em>00:11:06.155</em> to create kind of a grid.</p>
+<p><em>00:11:08.035</em> So I usually make use of axis.</p>
+<p><em>00:11:12.025</em> And to do that, I can use a line either here from one</p>
+<p><em>00:11:15.645</em> of the first icons or down the dropdown</p>
+<p><em>00:11:18.485</em> menu, selecting a line.</p>
+<p><em>00:11:21.715</em> And the nice thing about fusion is that if you&#x27;re over</p>
+<p><em>00:11:24.735</em> with the mouse, with the pointer close to a line, close</p>
+<p><em>00:11:28.735</em> to a shape, it actually, uh, gives you an idea.</p>
+<p><em>00:11:31.675</em> For example, what is the midpoint</p>
+<p><em>00:11:33.515</em> or if you are perpendicular vertical compared</p>
+<p><em>00:11:37.135</em> to a line or to a vertex.</p>
+<p><em>00:11:39.695</em> So I just want to draw an axis where the, whatever it is,</p>
+<p><em>00:11:43.255</em> how long it is, does really matter.</p>
+<p><em>00:11:45.175</em> So I just click from the certain point, uh, the center,</p>
+<p><em>00:11:49.415</em> my circle, uh, all the way up.</p>
+<p><em>00:11:54.465</em> You can see that you don&#x27;t even have to hold shift</p>
+<p><em>00:11:57.675</em> because when you see this icon,</p>
+<p><em>00:12:00.905</em> you&#x27;re basically ready perpendicular.</p>
+<p><em>00:12:07.105</em> You can press the line, then you can press, uh, press this,</p>
+<p><em>00:12:09.665</em> uh, check mark to confirm the line escape at any point</p>
+<p><em>00:12:14.645</em> to, uh, escape this selection.</p>
+<p><em>00:12:19.455</em> Uh, an interesting feature about the software is</p>
+<p><em>00:12:21.955</em> that you can add constraints</p>
+<p><em>00:12:25.425</em> that you can find here on top menu to, uh, add relationships</p>
+<p><em>00:12:29.465</em> between lines, between shapes,</p>
+<p><em>00:12:33.655</em> and you can select the kind</p>
+<p><em>00:12:35.755</em> of line, for example, that you have.</p>
+<p><em>00:12:37.255</em> So if you want to use this as an axis, we can just, uh,</p>
+<p><em>00:12:41.055</em> select the line type</p>
+<p><em>00:12:42.295</em> and say that this is actually construction line.</p>
+<p><em>00:12:44.665</em> It&#x27;s not something that I&#x27;m gonna be needed</p>
+<p><em>00:12:47.495</em> to be part of my design.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-fusion-sketch" aria-label="Fusion 草图、尺寸与构造线 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-fusion-female">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=776s" target="_blank" rel="noopener">12:56 → 18:47</a><h2 class="chapter-title">Fusion：用镜像与圆周阵列设计插槽</h2><span class="chapter-num">03 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">先画半条插槽并定义位置，再通过镜像和圆周阵列复制，形成可联动调整的插槽模块。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=809s" target="_blank" rel="noopener" aria-label="在原视频查看 13:29 绘制并约束半条插槽">13:29</a>绘制并约束半条插槽</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=948s" target="_blank" rel="noopener" aria-label="在原视频查看 15:48 镜像补全">15:48</a>镜像补全</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1003s" target="_blank" rel="noopener" aria-label="在原视频查看 16:43 圆周阵列与联动检查">16:43</a>圆周阵列与联动检查</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-fusion-female"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/fusion-female-1.jpg" alt="16:25 · 镜像形成的插槽" data-caption="16:25 · 镜像形成的插槽" loading="lazy"><img class="carousel-img" src="frames/fusion-female-2.jpg" alt="18:15 · 圆周阵列后的圆形模块" data-caption="18:15 · 圆周阵列后的圆形模块" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">16:25 · 镜像形成的插槽</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>半条线在演示中设为 5 mm，镜像后形成 10 mm 插槽；位置示例为距圆心 14 mm。</li><li>Mirror 需要指定对象和镜像轴，不能只选择其中一项。</li><li>Circular Pattern 围绕圆心复制插槽；调整原始尺寸后检查所有实例的变化。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Mirror</strong><span class="term-tip">沿指定轴生成镜像几何。</span></span><span class="term" tabindex="0"><strong>Circular Pattern</strong><span class="term-tip">围绕中心按数量和角度重复对象。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>绘制半槽，标注长度及其相对圆心的位置。</li><li>镜像补全插槽，再做圆周阵列并试改尺寸。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:12:56.375</em> Uh, let&#x27;s say we want to make this kind of slots, the four.</p>
+<p><em>00:13:00.335</em> So, um, there are many ways of course to do that.</p>
+<p><em>00:13:03.855</em> The way I recommend, uh, at least infusion that you can work</p>
+<p><em>00:13:07.825</em> with constraints, with symmetries,</p>
+<p><em>00:13:09.625</em> with parameters is actually start to think of a shape,</p>
+<p><em>00:13:13.975</em> um, in a modular way.</p>
+<p><em>00:13:17.565</em> For example, I will just do half and I will mirror the rest</p>
+<p><em>00:13:20.325</em> and I will make a pattern so that I don&#x27;t have</p>
+<p><em>00:13:23.845</em> to manually create all this slot,</p>
+<p><em>00:13:25.605</em> but I tell the software to do it for me.</p>
+<p><em>00:13:29.695</em> And to do that, I will just create a line, like we said</p>
+<p><em>00:13:33.115</em> with the circle can be also anywhere</p>
+<p><em>00:13:35.295</em> and we can move it here later,</p>
+<p><em>00:13:37.295</em> or I will just use the axis that just create it</p>
+<p><em>00:13:39.935</em> and we create a point on it</p>
+<p><em>00:13:43.235</em> and a point straight somewhere else without specifying a</p>
+<p><em>00:13:46.865</em> dimension because I&#x27;m gonna add that a moment later</p>
+<p><em>00:13:49.495</em> through the sketch dimension.</p>
+<p><em>00:13:55.705</em> So I can say, for example, there&#x27;s going</p>
+<p><em>00:13:57.725</em> to be five millimeters, which is going to be the half</p>
+<p><em>00:14:01.305</em> of my line escape to skip the selection</p>
+<p><em>00:14:10.875</em> and before actually mirroring the line</p>
+<p><em>00:14:14.215</em> with a mirror command.</p>
+<p><em>00:14:17.955</em> Um, well actually to specify another, uh, dimension</p>
+<p><em>00:14:22.915</em> because lemme see what happens.</p>
+<p><em>00:14:25.575</em> This one, uh, this line</p>
+<p><em>00:14:27.065</em> that I just created is actually linked</p>
+<p><em>00:14:29.245</em> to the axis that I had.</p>
+<p><em>00:14:31.865</em> If I don&#x27;t want them to be linked, I just have</p>
+<p><em>00:14:34.365</em> to remove these zero icons that appear</p>
+<p><em>00:14:40.385</em> with, uh, contra Z.</p>
+<p><em>00:14:41.715</em> Command Z. You can undo</p>
+<p><em>00:14:43.255</em> and you can redo, um,</p>
+<p><em>00:14:45.095</em> in the same way you can have a look at the, uh, top</p>
+<p><em>00:14:48.535</em> and click on the two others.</p>
+<p><em>00:14:58.465</em> So I need to specify basically what is the distance between</p>
+<p><em>00:15:03.275</em> my line and the third center point of my circle.</p>
+<p><em>00:15:06.435</em> So in the same way, sketch dimension</p>
+<p><em>00:15:15.575</em> and from the line to the center can specify for example, 14</p>
+<p><em>00:15:20.845</em> or 10, and you see what happens.</p>
+<p><em>00:15:22.765</em> So my design is basically, uh,</p>
+<p><em>00:15:27.675</em> is getting adjusted accordingly.</p>
+<p><em>00:15:30.325</em> It&#x27;s changing every time I change the dimension.</p>
+<p><em>00:15:37.795</em> Let&#x27;s say we were good, uh, for now it&#x27;s 14</p>
+<p><em>00:15:40.285</em> and this can be five millimeters,</p>
+<p><em>00:15:42.065</em> so it&#x27;s pretty much like that.</p>
+<p><em>00:15:43.445</em> So one centimeter long for the line.</p>
+<p><em>00:15:48.085</em> And once I&#x27;m here, I can just basically go ahead</p>
+<p><em>00:15:52.125</em> and in a couple of commands just recreate my module.</p>
+<p><em>00:15:55.125</em> So I&#x27;m going to select the line, I&#x27;m going to find</p>
+<p><em>00:15:59.955</em> the meter command also under create</p>
+<p><em>00:16:06.295</em> Fusion is asking me, so</p>
+<p><em>00:16:07.575</em> what is the object that I want to mirror?</p>
+<p><em>00:16:09.525</em> Even if I didn&#x27;t select in advance, I can still do it now.</p>
+<p><em>00:16:12.675</em> So the object, the line in this case that I want to mirror,</p>
+<p><em>00:16:17.555</em> and the mirror line, so my axis,</p>
+<p><em>00:16:25.245</em> and this is the result.</p>
+<p><em>00:16:26.925</em> So in the same way,</p>
+<p><em>00:16:31.125</em> if I change the dimension to my original line,</p>
+<p><em>00:16:35.385</em> also the second part gets updated,</p>
+<p><em>00:16:38.115</em> I coe to go back.</p>
+<p><em>00:16:43.315</em> And then the last thing. So if I want to create this, uh,</p>
+<p><em>00:16:46.015</em> female model, I basically, I&#x27;m going to create a pattern.</p>
+<p><em>00:16:51.015</em> So there is a nice option in the software to create,</p>
+<p><em>00:16:53.435</em> for example, a circular pattern, whether you have, uh,</p>
+<p><em>00:16:56.495</em> center points and circle.</p>
+<p><em>00:16:58.695</em> So I&#x27;m going to find circular pattern in the dropdown menu</p>
+<p><em>00:17:03.815</em> and select one again, the object that I want to pattern</p>
+<p><em>00:17:08.415</em> in this case is align.</p>
+<p><em>00:17:09.655</em> And the center point</p>
+<p><em>00:17:14.325</em> and would appreciate very much in the software is already</p>
+<p><em>00:17:17.445</em> the kind of review that appears.</p>
+<p><em>00:17:19.045</em> So there are many ways to, um,</p>
+<p><em>00:17:24.685</em> to specify the numbers in this case of repetition.</p>
+<p><em>00:17:27.565</em> So the numbers of lines, uh, you can add the number, you can</p>
+<p><em>00:17:32.255</em> drag the line that appears,</p>
+<p><em>00:17:36.255</em> for example three if I&#x27;m not happy with that.</p>
+<p><em>00:17:40.135</em> Uh, every time you, uh, create a command,</p>
+<p><em>00:17:44.295</em> create something, fusion adds an icon.</p>
+<p><em>00:17:46.295</em> So if you double click on the icon, you&#x27;re able</p>
+<p><em>00:17:49.220</em> to change also a moment later.</p>
+<p><em>00:17:51.545</em> The number of lines, sub shapes or repetitions of patterns.</p>
+<p><em>00:17:56.675</em> So this is basically the result.</p>
+<p><em>00:17:58.355</em> So the magic part is that if I update now these numbers,</p>
+<p><em>00:18:06.695</em> this a limit case seven, all my design basically</p>
+<p><em>00:18:10.895</em> gets changed and</p>
+<p><em>00:18:12.065</em> updated, right?</p>
+<p><em>00:18:17.605</em> It was 14.</p>
+<p><em>00:18:28.375</em> Are we all here?</p>
+<p><em>00:18:39.605</em> I hope silence means yes.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-fusion-female" aria-label="Fusion：用镜像与圆周阵列设计插槽 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-fusion-male">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=1127s" target="_blank" rel="noopener">18:47 → 23:41</a><h2 class="chapter-title">Fusion：制作配套插接模块</h2><span class="chapter-num">04 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">复制原模块，保留可复用的几何参照，改画伸向外轮廓的切线，再镜像和阵列得到配套连接件。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1146s" target="_blank" rel="noopener" aria-label="在原视频查看 19:06 复制草图并说明独立性">19:06</a>复制草图并说明独立性</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1228s" target="_blank" rel="noopener" aria-label="在原视频查看 20:28 延伸与修剪线段">20:28</a>延伸与修剪线段</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1327s" target="_blank" rel="noopener" aria-label="在原视频查看 22:07 镜像和圆周阵列">22:07</a>镜像和圆周阵列</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-fusion-male"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/fusion-male-1.jpg" alt="22:50 · 配套模块的切线与阵列" data-caption="22:50 · 配套模块的切线与阵列" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">22:50 · 配套模块的切线与阵列</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本次演示中的复制结果独立于原模块，不能假设修改一份会自动同步另一份。</li><li>利用原有轴线和插槽位置建立配套线段，用 Trim 清理多余部分。</li><li>这里的单线连接针对讲师的薄片样品；较厚材料的槽宽在后面另有补充。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Trim</strong><span class="term-tip">裁掉不需要的曲线部分。</span></span><span class="term" tabindex="0"><strong>配套连接</strong><span class="term-tip">插入端与接收槽在位置、尺寸和材料变形上相互匹配。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>复制模块后确认编辑的是副本。</li><li>延伸、修剪线段，完成镜像和圆周阵列。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:18:47.565</em> So how to do the other one, the mail part.</p>
+<p><em>00:18:52.685</em> So of course there are many ways you can also finish the</p>
+<p><em>00:18:55.105</em> sketch, for example, and create a new one.</p>
+<p><em>00:18:59.385</em> If you&#x27;re happy with that.</p>
+<p><em>00:19:00.905</em> Uh, you can export ahead your daf.</p>
+<p><em>00:19:06.135</em> What I usually do is work in the same sketch</p>
+<p><em>00:19:09.425</em> unless there are many shapes that can bother you.</p>
+<p><em>00:19:13.465</em> And you can do, um,</p>
+<p><em>00:19:16.895</em> something like copy pasting your first module.</p>
+<p><em>00:19:20.485</em> So you can select everything</p>
+<p><em>00:19:25.315</em> come through CV</p>
+<p><em>00:19:30.395</em> including the module.</p>
+<p><em>00:19:32.635</em> The moment you make a copy,</p>
+<p><em>00:19:35.235</em> these two are actually not communicating within each other,</p>
+<p><em>00:19:38.005</em> so they&#x27;re independent.</p>
+<p><em>00:19:39.805</em> So if they make a change to this design,</p>
+<p><em>00:19:43.435</em> the second one will not be effect.</p>
+<p><em>00:19:44.995</em> The, the first one will not be affected.</p>
+<p><em>00:19:51.805</em> Uh, to make the male part.</p>
+<p><em>00:19:53.605</em> In this case there is a, there is a trick.</p>
+<p><em>00:19:55.405</em> So you can just use this construction that we have</p>
+<p><em>00:19:58.445</em> and create the other lines that are complimentary</p>
+<p><em>00:20:02.655</em> for this to work.</p>
+<p><em>00:20:04.215</em> So in order to have a stable connection,</p>
+<p><em>00:20:07.455</em> if you have materials, um, or thickness</p>
+<p><em>00:20:10.775</em> or let&#x27;s say, um, one millimeter, so basically, um,</p>
+<p><em>00:20:16.645</em> or less, um, we can ignore</p>
+<p><em>00:20:21.845</em> the width of the line.</p>
+<p><em>00:20:23.685</em> So we can just have one line for cutting, like in this case.</p>
+<p><em>00:20:28.845</em> And to do that here, we can basically</p>
+<p><em>00:20:32.425</em> remove everything except the first</p>
+<p><em>00:20:34.245</em> line that we have created.</p>
+<p><em>00:20:43.715</em> I, We&#x27;re gonna</p>
+<p><em>00:20:48.725</em> try to recreate this other tool here.</p>
+<p><em>00:20:52.485</em> So once again, we can take our line</p>
+<p><em>00:20:58.375</em> until it intersect the circle.</p>
+<p><em>00:21:02.185</em> You can also make it longer confirm</p>
+<p><em>00:21:04.665</em> and use the, the scissors like to trim the parts</p>
+<p><em>00:21:07.835</em> that you don&#x27;t want to be part of your design.</p>
+<p><em>00:21:12.695</em> You can get a kind</p>
+<p><em>00:21:14.035</em> of a review in red and select the party.</p>
+<p><em>00:21:18.055</em> Don&#x27;t want to be part, uh, of the drawing of the sketch.</p>
+<p><em>00:21:24.125</em> So this is my line.</p>
+<p><em>00:21:27.815</em> I also can get read of</p>
+<p><em>00:21:33.555</em> the one I drew before, you can select it</p>
+<p><em>00:21:36.675</em> and then, um, delete in the keyboard</p>
+<p><em>00:21:39.675</em> or again, uh, click the scissors.</p>
+<p><em>00:21:47.895</em> And like we did earlier, you can add a dimension to it.</p>
+<p><em>00:21:52.405</em> So for example, according to this dimension</p>
+<p><em>00:21:56.995</em> and the line that I read earlier, my correct dimension</p>
+<p><em>00:22:01.185</em> for this line is eight point something.</p>
+<p><em>00:22:07.235</em> And then I&#x27;m gonna do what I did earlier.</p>
+<p><em>00:22:09.075</em> So I&#x27;m gonna click the mirror command.</p>
+<p><em>00:22:11.995</em> So I&#x27;m gonna find also here down the dropdown menu,</p>
+<p><em>00:22:15.305</em> click mirror, select the object that I want</p>
+<p><em>00:22:18.555</em> to mirror in this case, this line select the mirror line,</p>
+<p><em>00:22:22.935</em> so the one I already drew earlier and confirm.</p>
+<p><em>00:22:28.095</em> Now these two are basically linked</p>
+<p><em>00:22:30.725</em> and you can see if everything is correct,</p>
+<p><em>00:22:34.115</em> you&#x27;ll see the icon.</p>
+<p><em>00:22:36.695</em> And then basically, once again, it&#x27;s the workflow.</p>
+<p><em>00:22:38.975</em> So under create, I&#x27;m gonna create a circular pattern.</p>
+<p><em>00:22:42.455</em> I&#x27;m gonna select both of the lines that I adjust you</p>
+<p><em>00:22:46.055</em> and my center point.</p>
+<p><em>00:22:59.225</em> If I&#x27;m happy with that, I don&#x27;t need to change dimensions</p>
+<p><em>00:23:02.465</em> or if I want, I can basically, um, change everything</p>
+<p><em>00:23:06.485</em> and update the second one accordingly.</p>
+<p><em>00:23:12.235</em> If I select the shape, I can press m in the keyboard,</p>
+<p><em>00:23:16.395</em> I&#x27;m able to move closer.</p>
+<p><em>00:23:19.855</em> For example, I can use the arrows.</p>
+<p><em>00:23:22.695</em> I can specify a dimension here,</p>
+<p><em>00:23:24.355</em> but actually, uh, drag in the square, I&#x27;m able</p>
+<p><em>00:23:28.075</em> to move the shapes, uh, wherever I want in the canvas,</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-fusion-male" aria-label="Fusion：制作配套插接模块 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-fusion-export">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=1421s" target="_blank" rel="noopener">23:41 → 31:36</a><h2 class="chapter-title">Fusion 排料与 DXF 输出检查</h2><span class="chapter-num">05 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">排列两种模块，导出 DXF，再在矢量软件中检查比例、重复对象和线条设置。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1421s" target="_blank" rel="noopener" aria-label="在原视频查看 23:41 对齐与排料">23:41</a>对齐与排料</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1522s" target="_blank" rel="noopener" aria-label="在原视频查看 25:22 矩形阵列">25:22</a>矩形阵列</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1607s" target="_blank" rel="noopener" aria-label="在原视频查看 26:47 导出 DXF">26:47</a>导出 DXF</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1679s" target="_blank" rel="noopener" aria-label="在原视频查看 27:59 发现副本并修正">27:59</a>发现副本并修正</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1736s" target="_blank" rel="noopener" aria-label="在原视频查看 28:56 矢量软件中的线条与输出">28:56</a>矢量软件中的线条与输出</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-fusion-export"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/fusion-export-1.jpg" alt="26:15 · 圆形模块的矩形排料" data-caption="26:15 · 圆形模块的矩形排料" loading="lazy"><img class="carousel-img" src="frames/fusion-export-2.jpg" alt="29:30 · 导出后的矢量线条设置" data-caption="29:30 · 导出后的矢量线条设置" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">26:15 · 圆形模块的矩形排料</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>对齐圆形时可利用圆心与捕捉，再通过矩形阵列排出行列。</li><li>圆形排料会留下空隙，讲师建议思考余料能否转化为其他模块。</li><li>完成草图后再导出 DXF，并在导入矢量软件时核对毫米与 1:1 比例。</li><li>演示发现隐藏副本后返回修正；红色、0.1 mm 或 hairline 是演示设置，需按实际设备工作流程核对。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>DXF</strong><span class="term-tip">用于交换二维绘图数据的文件格式。</span></span><span class="term" tabindex="0"><strong>1:1 比例</strong><span class="term-tip">输出图形尺寸与设计的实际尺寸一致。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>排料后检查辅助线、重复对象与材料空隙。</li><li>导出并重新打开文件，测量关键尺寸后按本地设备要求整理线条。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:23:41.895</em> Just for the sake of the demonstration.</p>
+<p><em>00:23:43.645</em> For example, you could nest the shapes here,</p>
+<p><em>00:23:51.295</em> you can also align the two of them better.</p>
+<p><em>00:23:56.105</em> The best way to align together to circle is, for example,</p>
+<p><em>00:23:59.095</em> using the center point</p>
+<p><em>00:24:00.595</em> because you&#x27;re not really, um,</p>
+<p><em>00:24:03.505</em> you cannot really get a point along the circumference.</p>
+<p><em>00:24:06.585</em> So if you have an xi, you can just select the shape you want</p>
+<p><em>00:24:10.645</em> to move, click, move,</p>
+<p><em>00:24:13.055</em> and then specify, for</p>
+<p><em>00:24:17.555</em> example, a point.</p>
+<p><em>00:24:19.495</em> No. So select your pivot point</p>
+<p><em>00:24:29.965</em> and the more you zoom in, fusion, um, shows kind of this,</p>
+<p><em>00:24:34.965</em> uh, magnetic lines.</p>
+<p><em>00:24:36.525</em> So there are kind of a snaps</p>
+<p><em>00:24:41.755</em> that help your line lines together.</p>
+<p><em>00:24:44.875</em> So when you&#x27;re happy with that, this is the result.</p>
+<p><em>00:24:47.315</em> You can just go ahead</p>
+<p><em>00:24:48.475</em> and guess what, create, uh, rectangular patterns.</p>
+<p><em>00:24:51.175</em> So for example, um, you like the way they are.</p>
+<p><em>00:24:59.535</em> Well, there&#x27;s actually one thing to mention, um, that,</p>
+<p><em>00:25:06.115</em> um, the construction lines will be</p>
+<p><em>00:25:09.335</em> still visible in the other.</p>
+<p><em>00:25:10.435</em> So for example, you just want to, um, make loans for all</p>
+<p><em>00:25:14.615</em> of them as they are, maybe it&#x27;s recommendable</p>
+<p><em>00:25:17.015</em> to remove this line in case you don&#x27;t want to keep it</p>
+<p><em>00:25:20.475</em> to do more operations.</p>
+<p><em>00:25:22.555</em> So now the shapes, let&#x27;s say are, are cleaner and this one.</p>
+<p><em>00:25:27.645</em> So I select both of them.</p>
+<p><em>00:25:28.985</em> I go ahead and create the rectangular pattern.</p>
+<p><em>00:25:31.725</em> So this way I&#x27;m able to multiply</p>
+<p><em>00:25:34.815</em> with just one command all my circles and rows</p>
+<p><em>00:25:38.845</em> and columns as much as I need, as much as I want.</p>
+<p><em>00:25:41.825</em> So you can put once again the number five</p>
+<p><em>00:25:47.105</em> five</p>
+<p><em>00:26:02.365</em> and see advance the preview.</p>
+<p><em>00:26:09.775</em> So this is basically the result.</p>
+<p><em>00:26:11.295</em> You have, uh, we have our circle.</p>
+<p><em>00:26:13.445</em> There are as much as possible close to each other.</p>
+<p><em>00:26:19.075</em> There are closet loops.</p>
+<p><em>00:26:20.445</em> The way you can see this infusion is</p>
+<p><em>00:26:22.105</em> because you can click inside different areas</p>
+<p><em>00:26:24.525</em> and there are this kind of, uh, uh, bluish.</p>
+<p><em>00:26:30.555</em> And unfortunately in this case, this is the, is a bit</p>
+<p><em>00:26:33.975</em> of leftover of material that you can actually use.</p>
+<p><em>00:26:38.525</em> No. So think of uh, creating other connections here.</p>
+<p><em>00:26:41.385</em> Make use of the shape</p>
+<p><em>00:26:42.525</em> or transform these into another module.</p>
+<p><em>00:26:47.215</em> So this is a way to, um, create a shape</p>
+<p><em>00:26:50.655</em> and also testate inside the same software.</p>
+<p><em>00:26:53.615</em> If you&#x27;re happy with that, you can just do finish sketch</p>
+<p><em>00:26:57.915</em> red, click on the sketch and go ahead and export the d</p>
+<p><em>00:27:01.435</em> and d xf.</p>
+<p><em>00:27:03.935</em> Be sure that the unit matches the unit that you were using.</p>
+<p><em>00:27:07.095</em> So in this case, millimeter</p>
+<p><em>00:27:13.295</em> and uh, fusion, you&#x27;re able to save in the cloud as well.</p>
+<p><em>00:27:17.335</em> The file on your computer locally circles</p>
+<p><em>00:27:27.245</em> You Find on desktop</p>
+<p><em>00:27:31.815</em> and for example,</p>
+<p><em>00:27:36.985</em> you&#x27;re able to import it in an file, uh,</p>
+<p><em>00:27:41.245</em> software like Illustrator or Inscape.</p>
+<p><em>00:27:44.115</em> And every time, uh, you import this into, uh, this kind</p>
+<p><em>00:27:47.655</em> of software, be sure</p>
+<p><em>00:27:48.655</em> that you&#x27;re still working in the original size.</p>
+<p><em>00:27:51.155</em> So one-to-one</p>
+<p><em>00:27:59.015</em> and sometimes to the conversion.</p>
+<p><em>00:28:00.715</em> This, uh, this happens, I actually think that I made,</p>
+<p><em>00:28:05.895</em> um, a copy that is hidden</p>
+<p><em>00:28:12.655</em> the moment I was copying the columns.</p>
+<p><em>00:28:15.225</em> So you can do this once again, you undo wherever, um,</p>
+<p><em>00:28:19.245</em> whenever there is a mistake, and then create again your</p>
+<p><em>00:28:23.675</em> button</p>
+<p><em>00:28:31.105</em> Every time in order to export, you need to get out</p>
+<p><em>00:28:33.775</em> of the sketch mode and then right click export the</p>
+<p><em>00:28:37.255</em> itself millimeters.</p>
+<p><em>00:28:39.575</em> Yes, three plus two.</p>
+<p><em>00:28:50.905</em> Yeah. And here they come pretty good.</p>
+<p><em>00:28:56.185</em> And then, like we said yesterday, in uh, in any</p>
+<p><em>00:28:59.085</em> of these software, you&#x27;re able</p>
+<p><em>00:29:00.505</em> to change the color of the line.</p>
+<p><em>00:29:02.825</em> So be sure they are, for example, red or any of the RG beef.</p>
+<p><em>00:29:08.485</em> So either red green</p>
+<p><em>00:29:09.865</em> or blue, 2 55 0 0 web colors.</p>
+<p><em>00:29:17.215</em> And usually we put the, um, the stroke to be zero,</p>
+<p><em>00:29:22.255</em> uh, 0.1 millimeters</p>
+<p><em>00:29:26.755</em> with comma or hairline wherever it is available.</p>
+<p><em>00:29:32.845</em> And when you&#x27;re done, you can just save uh, the file as PDF.</p>
+<p><em>00:29:36.645</em> Of course, in this case we said better</p>
+<p><em>00:29:38.645</em> to use the leftover material that appears here</p>
+<p><em>00:29:41.635</em> because these shapes are not perfectly isolated.</p>
+<p><em>00:29:47.015</em> Uh, this is also vector files, so of course, so you are able</p>
+<p><em>00:29:50.175</em> to change the size, you can select everything</p>
+<p><em>00:29:53.935</em> and work, uh, at a, for example,</p>
+<p><em>00:29:58.575</em> want them to me to be smaller</p>
+<p><em>00:30:00.925</em> or bigger, which if</p>
+<p><em>00:30:05.855</em> you can keep the selection active</p>
+<p><em>00:30:09.025</em> till they also done the form.</p>
+<p><em>00:30:17.485</em> And of course you can make groups, you can make, uh, copies,</p>
+<p><em>00:30:20.425</em> controversy, conv, you can clone them</p>
+<p><em>00:30:24.315</em> and also illustrator, um, liking scape as this kind of, um,</p>
+<p><em>00:30:28.785</em> snaps that you can enable, uh, from the settings.</p>
+<p><em>00:30:34.465</em> So they allow you not to have gaps in between the lines.</p>
+<p><em>00:30:44.735</em> And if you&#x27;re happy with that, you can just go ahead</p>
+<p><em>00:30:47.215</em> and save a PDF for this software.</p>
+<p><em>00:30:49.395</em> Laser cut, um,</p>
+<p><em>00:30:52.105</em> or any other format,</p>
+<p><em>00:30:56.955</em> any EPS is fine.</p>
+<p><em>00:30:58.575</em> SVG is fine. And just</p>
+<p><em>00:31:03.185</em> go ahead and save it.</p>
+<p><em>00:31:19.215</em> Do you have any, any questions so far?</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-fusion-export" aria-label="Fusion 排料与 DXF 输出检查 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-rhino-setup">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=1896s" target="_blank" rel="noopener">31:36 → 36:01</a><h2 class="chapter-title">Rhino 工作环境与对象捕捉</h2><span class="chapter-num">06 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">转入 Rhino，准备毫米单位、俯视图和对象捕捉，并认识命令行及图层。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1940s" target="_blank" rel="noopener" aria-label="在原视频查看 32:20 与 Fusion 工作方式的区别">32:20</a>与 Fusion 工作方式的区别</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=1986s" target="_blank" rel="noopener" aria-label="在原视频查看 33:06 单位与捕捉设置">33:06</a>单位与捕捉设置</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2079s" target="_blank" rel="noopener" aria-label="在原视频查看 34:39 俯视图、命令行与图层">34:39</a>俯视图、命令行与图层</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-rhino-setup"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/rhino-setup-1.jpg" alt="35:20 · Rhino 俯视工作区与工具面板" data-caption="35:20 · Rhino 俯视工作区与工具面板" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">35:20 · Rhino 俯视工作区与工具面板</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师使用 Mac 上的 Rhino 7，界面位置不应视为所有版本统一。</li><li>当前演示采用直接绘图；与 Fusion 的草图尺寸联动方式不同，Grasshopper 仅作后续课程提示。</li><li>按需要启用端点、中点、中心和交点捕捉；过多捕捉选项可能干扰定位。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Osnap</strong><span class="term-tip">对象捕捉，定位端点、中点、中心或交点等几何特征。</span></span><span class="term" tabindex="0"><strong>图层</strong><span class="term-tip">组织对象并管理显示等属性。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>打开毫米文档并切换至 Top 视图。</li><li>检查所需捕捉选项，定位命令行和图层面板。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:31:36.085</em> If not, uh, we&#x27;ll move to Rhino.</p>
+<p><em>00:31:48.095</em> Okay, so in Rhino,</p>
+<p><em>00:31:52.755</em> this is another model that I wanted to do,</p>
+<p><em>00:31:55.095</em> which is basically the one I just laser cut</p>
+<p><em>00:32:00.665</em> and we can go again.</p>
+<p><em>00:32:03.885</em> So I mac</p>
+<p><em>00:32:07.575</em> the interface will be slightly different than Windows.</p>
+<p><em>00:32:10.585</em> This is the, also the, uh, red, no zero version seven,</p>
+<p><em>00:32:14.605</em> maybe also a little bit different than the eight</p>
+<p><em>00:32:17.535</em> or any previous version.</p>
+<p><em>00:32:20.635</em> Uh, what you need to know about the software.</p>
+<p><em>00:32:24.185</em> So it is not parametric.</p>
+<p><em>00:32:26.275</em> Does it have a timeline like fusion</p>
+<p><em>00:32:28.955</em> that you can record the actions and go back in time, uh,</p>
+<p><em>00:32:33.115</em> but still undo, redo this kind of commands the work.</p>
+<p><em>00:32:39.955</em> Um, it&#x27;s not pattern metric</p>
+<p><em>00:32:42.155</em> unless you use Grasshopper,</p>
+<p><em>00:32:43.745</em> which is the generative environment that probably,</p>
+<p><em>00:32:47.335</em> I&#x27;m gonna have a look at the week of computational couture.</p>
+<p><em>00:32:51.435</em> Uh, the moment you launch the software, um,</p>
+<p><em>00:32:54.875</em> you will be asked also to select a unit,</p>
+<p><em>00:33:00.085</em> um, unless you, you basically skip</p>
+<p><em>00:33:04.055</em> that, uh, that option.</p>
+<p><em>00:33:06.555</em> My advice is like fusion to work in a millimeter</p>
+<p><em>00:33:09.675</em> or any unit that is more</p>
+<p><em>00:33:12.035</em> so you can see also here at the very bottom millimeters.</p>
+<p><em>00:33:16.415</em> And at any point you&#x27;re able to, uh, go back to the settings</p>
+<p><em>00:33:20.375</em> and change, um,</p>
+<p><em>00:33:25.465</em> uh, any of this like the grid</p>
+<p><em>00:33:28.265</em> and any other preference, even the colors, uh, of those, uh,</p>
+<p><em>00:33:33.305</em> my recommendation is to keep active, uh, the grid.</p>
+<p><em>00:33:35.585</em> So, uh, sometimes, uh, these axis are useful</p>
+<p><em>00:33:40.185</em> as well as the panel that you see here on the left</p>
+<p><em>00:33:43.825</em> that basically allows you to, uh, select the kind of snaps</p>
+<p><em>00:33:47.745</em> that you want to, um, to use, um,</p>
+<p><em>00:33:52.945</em> to align, for example, shapes, lines,</p>
+<p><em>00:33:55.385</em> or manipulate</p>
+<p><em>00:33:57.165</em> them, uh, in the design.</p>
+<p><em>00:34:00.595</em> So I usually select end point</p>
+<p><em>00:34:04.895</em> liter center midpoint.</p>
+<p><em>00:34:06.095</em> According to the shape that I&#x27;m using intersection,</p>
+<p><em>00:34:10.015</em> I try not to use near</p>
+<p><em>00:34:11.695</em> because sometimes it can be very confusing and vertex.</p>
+<p><em>00:34:19.155</em> Um, on top you can select auto</p>
+<p><em>00:34:23.285</em> grid snap if you want the pieces</p>
+<p><em>00:34:25.915</em> or the lines to be able</p>
+<p><em>00:34:27.995</em> to align automatically at the axis at the grid.</p>
+<p><em>00:34:31.835</em> Uh, gumball and is three are also useful to be tick.</p>
+<p><em>00:34:39.005</em> And in like fusion</p>
+<p><em>00:34:41.525</em> we will basically working on the top view.</p>
+<p><em>00:34:44.005</em> So to enter this part, we can</p>
+<p><em>00:34:46.225</em> for now forget about the 3D views, the perspective</p>
+<p><em>00:34:49.725</em> and double click on the top.</p>
+<p><em>00:34:58.575</em> Um, on top in the same way, you also have commands</p>
+<p><em>00:35:03.795</em> and we&#x27;ll be using the standard mode</p>
+<p><em>00:35:07.545</em> and basically the commands that you have here on the left</p>
+<p><em>00:35:12.475</em> Rhino is also, uh, an option, like a command line</p>
+<p><em>00:35:16.435</em> where you can just write the name of a command</p>
+<p><em>00:35:19.615</em> in case you don&#x27;t remember the icon or,</p>
+<p><em>00:35:21.695</em> or if that workflow is more comfortable for you.</p>
+<p><em>00:35:28.055</em> Uh, on the other side, on the right,</p>
+<p><em>00:35:30.485</em> there are basically layers.</p>
+<p><em>00:35:32.815</em> That means that you can also create new ones.</p>
+<p><em>00:35:35.085</em> You can, um, address multiple shapes, multiple patterns,</p>
+<p><em>00:35:39.885</em> multiple 3D models at the same time,</p>
+<p><em>00:35:41.425</em> and be able to distribute them for a better organization.</p>
+<p><em>00:35:46.725</em> Uh, for now we can forget about that.</p>
+<p><em>00:35:48.965</em> If you want to change the color of your lines,</p>
+<p><em>00:35:50.885</em> you can just double click, um, on the color</p>
+<p><em>00:35:54.735</em> that you find here and, uh, and choose any other one.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-rhino-setup" aria-label="Rhino 工作环境与对象捕捉 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-rhino-outline">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=2161s" target="_blank" rel="noopener">36:01 → 43:04</a><h2 class="chapter-title">Rhino：方形轮廓、旋转与圆角</h2><span class="chapter-num">07 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">从有明确尺寸的正方形出发，旋转并处理圆角，建立第二组模块的外轮廓。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2248s" target="_blank" rel="noopener" aria-label="在原视频查看 37:28 绘制有明确尺寸的正方形">37:28</a>绘制有明确尺寸的正方形</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2346s" target="_blank" rel="noopener" aria-label="在原视频查看 39:06 距离与尺寸核对">39:06</a>距离与尺寸核对</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2417s" target="_blank" rel="noopener" aria-label="在原视频查看 40:17 旋转轮廓">40:17</a>旋转轮廓</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2498s" target="_blank" rel="noopener" aria-label="在原视频查看 41:38 设置圆角">41:38</a>设置圆角</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-rhino-outline"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/rhino-outline-1.jpg" alt="39:30 · 正方形尺寸检查" data-caption="39:30 · 正方形尺寸检查" loading="lazy"><img class="carousel-img" src="frames/rhino-outline-2.jpg" alt="42:50 · 旋转后的圆角轮廓" data-caption="42:50 · 旋转后的圆角轮廓" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">39:30 · 正方形尺寸检查</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>演示从原点建立 40 × 40 mm 正方形，用 Distance 或 Dim 核对尺寸。</li><li>本次 Rhino 操作在绘制时输入尺寸，Dim 标注用于测量参考，不等同于 Fusion 草图驱动尺寸。</li><li>使用 Rotate 指定中心与 45° 角度，再用 Fillet 逐角处理；空格可重复上一命令。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Rotate</strong><span class="term-tip">围绕指定中心旋转所选对象。</span></span><span class="term" tabindex="0"><strong>Fillet</strong><span class="term-tip">以指定半径在曲线间生成圆角。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>绘制并测量正方形，确认文档单位。</li><li>旋转轮廓并处理各圆角，检查曲线完整性。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:36:01.385</em> Um, let&#x27;s go back to the model</p>
+<p><em>00:36:03.225</em> and let&#x27;s try to create something different than</p>
+<p><em>00:36:05.205</em> a circle, for example.</p>
+<p><em>00:36:06.745</em> Um, a shape like this that</p>
+<p><em>00:36:11.635</em> has at the same time the possibility to connect</p>
+<p><em>00:36:14.095</em> with female male.</p>
+<p><em>00:36:15.235</em> So something a bit iterated from here like that.</p>
+<p><em>00:36:19.275</em> We can also do the other way around.</p>
+<p><em>00:36:20.835</em> So we start again from the female just</p>
+<p><em>00:36:22.875</em> to understand the workflow</p>
+<p><em>00:36:24.795</em> and we transform this into something</p>
+<p><em>00:36:27.095</em> a little bit more advanced.</p>
+<p><em>00:36:30.795</em> Um, there are many ways of course, also I know</p>
+<p><em>00:36:33.455</em> to create the shape, uh,</p>
+<p><em>00:36:37.065</em> we&#x27;ll follow something similar, um, confusion.</p>
+<p><em>00:36:41.305</em> So I can just, uh, for example write rectangle</p>
+<p><em>00:36:47.045</em> or click the icon that I find here</p>
+<p><em>00:36:51.925</em> below my, um, pointer.</p>
+<p><em>00:36:55.005</em> The selection tool. Wherever you find you see this little,</p>
+<p><em>00:36:59.725</em> uh, dropdown arrow, you&#x27;re able to select,</p>
+<p><em>00:37:03.005</em> you have multiple options for the same shape,</p>
+<p><em>00:37:05.245</em> for the same command.</p>
+<p><em>00:37:07.375</em> Some of the, uh, icons here are basically shapes,</p>
+<p><em>00:37:11.885</em> arc lines, and some others reflect more commands like</p>
+<p><em>00:37:15.545</em> bullions, the possibility to make groups to trim,</p>
+<p><em>00:37:19.555</em> to cut objects, uh, to join lines</p>
+<p><em>00:37:23.765</em> or to explode them, add text and so on.</p>
+<p><em>00:37:28.205</em> So let&#x27;s start simple. Let&#x27;s create, um, our polygon.</p>
+<p><em>00:37:32.745</em> We can take a rectangle,</p>
+<p><em>00:37:39.405</em> we can also write it so rectangle.</p>
+<p><em>00:37:41.365</em> And once again, the software is telling me,</p>
+<p><em>00:37:45.445</em> um, documentate.</p>
+<p><em>00:37:47.685</em> So, um, I can just click on the grid</p>
+<p><em>00:37:53.225</em> or specify with the value, my initial point</p>
+<p><em>00:37:59.235</em> and the second one.</p>
+<p><em>00:38:00.755</em> So the opposite corner in Rhino,</p>
+<p><em>00:38:05.065</em> there is no possibility to add at a later moment, um,</p>
+<p><em>00:38:08.845</em> the dimension, you can measure any line, any shape,</p>
+<p><em>00:38:13.255</em> but uh, you don&#x27;t have this possibility like fusion.</p>
+<p><em>00:38:15.735</em> So, uh, one good way to do it is, for example,</p>
+<p><em>00:38:20.025</em> nine click in command.</p>
+<p><em>00:38:23.805</em> Uh, actually I usually, uh, position the shapes to be, uh,</p>
+<p><em>00:38:28.405</em> in the middle of the grid.</p>
+<p><em>00:38:31.895</em> So I can just click the rectangle or my polygon</p>
+<p><em>00:38:35.065</em> and just write, for example, zero comino,</p>
+<p><em>00:38:37.565</em> which is the origin, origin of my grid.</p>
+<p><em>00:38:40.185</em> So in this case, my shape will be perfectly</p>
+<p><em>00:38:42.525</em> aligned to the axis.</p>
+<p><em>00:38:52.375</em> And then you can write, for example,</p>
+<p><em>00:38:53.895</em> the dimension in this case is a square.</p>
+<p><em>00:38:55.735</em> So we can write, uh, 40</p>
+<p><em>00:39:01.505</em> and 40 If you&#x27;re not</p>
+<p><em>00:39:06.485</em> sure what is the dimension, there are two ways you can write</p>
+<p><em>00:39:10.995</em> distance and select one point from one point</p>
+<p><em>00:39:15.665</em> to another on the shape.</p>
+<p><em>00:39:19.905</em> So you can read here either at the bottom or from top.</p>
+<p><em>00:39:22.985</em> It depends if you are on windows.</p>
+<p><em>00:39:24.745</em> So my shape is 40 millimeters,</p>
+<p><em>00:39:28.105</em> or you can write dimension like DIM</p>
+<p><em>00:39:34.455</em> and you have kind of a quotation, like a dimensions</p>
+<p><em>00:39:37.915</em> that are not part of your design</p>
+<p><em>00:39:39.415</em> and you can delete, uh, move at any point.</p>
+<p><em>00:39:45.155</em> This is kind of a reference.</p>
+<p><em>00:39:47.145</em> So if your shape,</p>
+<p><em>00:39:53.625</em> um, is designed correctly, you should be able</p>
+<p><em>00:39:56.605</em> to see a closed loop made of for different</p>
+<p><em>00:40:00.975</em> lines that are yellow.</p>
+<p><em>00:40:03.325</em> The moment you select them,</p>
+<p><em>00:40:10.705</em> let&#x27;s say this, I actually don&#x27;t need it, so I can</p>
+<p><em>00:40:15.435</em> also remove it.</p>
+<p><em>00:40:17.545</em> And let&#x27;s take one step further. So let&#x27;s rotate it.</p>
+<p><em>00:40:23.505</em> So I can design, for example, my line,</p>
+<p><em>00:40:27.425</em> um, this way.</p>
+<p><em>00:40:31.435</em> So in order to rotate it, uh, high multiple options,</p>
+<p><em>00:40:34.055</em> I can select my shape with select all Ctrl o Ctrl A.</p>
+<p><em>00:40:40.045</em> I can just write, for example, rotate if I don&#x27;t know</p>
+<p><em>00:40:42.725</em> where the icon is.</p>
+<p><em>00:40:44.785</em> And then I can specify a center of rotation.</p>
+<p><em>00:40:48.185</em> Uh, in order to locate a center, you need to have these kind</p>
+<p><em>00:40:51.125</em> of snaps activated.</p>
+<p><em>00:40:53.025</em> So you can either click the center, uh, of the grid</p>
+<p><em>00:40:58.185</em> or a center of your rectangle of the square.</p>
+<p><em>00:41:03.005</em> For example, I can use the one of the grid,</p>
+<p><em>00:41:05.855</em> and again, I can write either 0.10 if I want to be specific</p>
+<p><em>00:41:10.655</em> or just click, um, with a mouse.</p>
+<p><em>00:41:14.495</em> And then I can specify an angle of rotation.</p>
+<p><em>00:41:17.385</em> Yeah, in this case we can keep it 45.</p>
+<p><em>00:41:21.235</em> Then you can just confirm your selection</p>
+<p><em>00:41:25.555</em> and magically, uh, your shape will translate 45 degrees.</p>
+<p><em>00:41:38.665</em> We can actually, um, fill it a little bit the edges</p>
+<p><em>00:41:42.585</em> to make them a bit more rounded, like this module.</p>
+<p><em>00:41:46.145</em> So, uh, the reason I command the way it&#x27;s called fill it,</p>
+<p><em>00:41:51.435</em> and I think it is, uh, one of those icons here,</p>
+<p><em>00:41:54.485</em> like this one maybe.</p>
+<p><em>00:41:57.235</em> So fill it. And the software is asking me</p>
+<p><em>00:42:03.025</em> for example, to specify the lines and specify, uh, radios.</p>
+<p><em>00:42:08.125</em> For example, three millimeters, four millimeters.</p>
+<p><em>00:42:18.865</em> Every time you want to, um, replicate the same command,</p>
+<p><em>00:42:21.695</em> you can actually click on space bar</p>
+<p><em>00:42:28.005</em> so you don&#x27;t have to write it again</p>
+<p><em>00:42:30.675</em> or click again on the icon.</p>
+<p><em>00:42:35.515</em> So select the first script to fill it,</p>
+<p><em>00:42:37.595</em> and then the second one to apply.</p>
+<p><em>00:42:41.515</em> And then again, space bar and the two of them.</p>
+<p><em>00:42:44.435</em> And of course you could control the point manually.</p>
+<p><em>00:42:47.595</em> And this case is definitely easier, uh, to do</p>
+<p><em>00:42:50.695</em> with the command and select the lines one by one.</p>
+<p><em>00:42:56.355</em> And similarly to fusion escape every time</p>
+<p><em>00:42:59.675</em> to escape the selection.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-rhino-outline" aria-label="Rhino：方形轮廓、旋转与圆角 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-rhino-slots">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=2584s" target="_blank" rel="noopener">43:04 → 48:44</a><h2 class="chapter-title">Rhino：定位插槽与极轴阵列</h2><span class="chapter-num">08 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">利用辅助轴线、精确移动和极轴阵列，在新轮廓中布置接收槽。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2593s" target="_blank" rel="noopener" aria-label="在原视频查看 43:13 建立定位辅助线">43:13</a>建立定位辅助线</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2712s" target="_blank" rel="noopener" aria-label="在原视频查看 45:12 对齐与按点移动">45:12</a>对齐与按点移动</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2804s" target="_blank" rel="noopener" aria-label="在原视频查看 46:44 极轴阵列">46:44</a>极轴阵列</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-rhino-slots"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/rhino-slots-1.jpg" alt="46:25 · 插槽的定位与长度检查" data-caption="46:25 · 插槽的定位与长度检查" loading="lazy"><img class="carousel-img" src="frames/rhino-slots-2.jpg" alt="48:20 · 极轴阵列形成的插槽模块" data-caption="48:20 · 极轴阵列形成的插槽模块" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">46:25 · 插槽的定位与长度检查</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>用捕捉定位中点或顶点，并通过辅助线控制插槽的位置。</li><li>演示槽线为 10 mm，可用 Align 或 Move 的基点与目标点完成定位。</li><li>Polar Array 需要对象、中心、数量和角度；演示为四个实例分布一周。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Polar Array</strong><span class="term-tip">Rhino 中围绕中心分布对象的极轴阵列。</span></span><span class="term" tabindex="0"><strong>Move 基点</strong><span class="term-tip">移动时作为对齐参照的起始点。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>定位一条插槽并测量其长度。</li><li>围绕中心阵列后检查分布，再对模块分组。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:43:04.945</em> So we are, let&#x27;s say halfway, let&#x27;s design the the joints</p>
+<p><em>00:43:10.905</em> so we can proceed in a similar way.</p>
+<p><em>00:43:13.265</em> Uh, as before we can create, um, access, for example,</p>
+<p><em>00:43:19.545</em> uh, in the similar way of fusion.</p>
+<p><em>00:43:22.025</em> Uh, you can just, for example, having a midpoint selected,</p>
+<p><em>00:43:26.265</em> go closer zone in a little bit</p>
+<p><em>00:43:29.235</em> and find the midpoint of your shape.</p>
+<p><em>00:43:32.635</em> And this is something that is detected automatically.</p>
+<p><em>00:43:35.155</em> The moment you&#x27;re very close to the line.</p>
+<p><em>00:43:38.515</em> So you can just click here</p>
+<p><em>00:43:40.195</em> and click for example to the opposite vertex.</p>
+<p><em>00:43:47.025</em> And then we enter,</p>
+<p><em>00:43:48.305</em> or uh, backspace, you can confirm the selection</p>
+<p><em>00:43:58.685</em> and then we can proceed.</p>
+<p><em>00:43:59.765</em> We can take a line or another ways, for example, is</p>
+<p><em>00:44:04.255</em> that you specify since the beginning the distance</p>
+<p><em>00:44:07.865</em> between the vertex and the line.</p>
+<p><em>00:44:09.645</em> So to do that you can take a polyline</p>
+<p><em>00:44:16.955</em> and from top you can write the dimension.</p>
+<p><em>00:44:20.315</em> So what is the next point of my polyline, for example, uh,</p>
+<p><em>00:44:28.115</em> 10 millimeters, one centimeter, and then confirm.</p>
+<p><em>00:44:37.545</em> And then from here we can have our line,</p>
+<p><em>00:44:43.395</em> let&#x27;s say we can also put, it</p>
+<p><em>00:44:45.835</em> can also draw a 10 millimeters line.</p>
+<p><em>00:44:49.825</em> So it, once again, a select poly line doesn&#x27;t matter</p>
+<p><em>00:44:54.305</em> where I design here because I can always move</p>
+<p><em>00:44:56.345</em> it and align it.</p>
+<p><em>00:45:02.685</em> So one centimeter, I already kind of have a preview</p>
+<p><em>00:45:08.665</em> and then enter to confirm the selection.</p>
+<p><em>00:45:12.845</em> We can move it in many ways</p>
+<p><em>00:45:14.725</em> and we can also align it</p>
+<p><em>00:45:16.145</em> to my previous selection in many ways.</p>
+<p><em>00:45:18.845</em> So one way is, for example, to select both</p>
+<p><em>00:45:22.465</em> of the lines I want to se, to align</p>
+<p><em>00:45:24.885</em> and find this icon</p>
+<p><em>00:45:28.295</em> or just write, align</p>
+<p><em>00:45:31.915</em> and align vertically.</p>
+<p><em>00:45:37.725</em> And then for example, I know I don&#x27;t need this kind</p>
+<p><em>00:45:40.545</em> of access anymore, so I can just remove it.</p>
+<p><em>00:45:47.225</em> Or of course I can have the midpoint selected.</p>
+<p><em>00:45:51.385</em> I can write move and I can move my line</p>
+<p><em>00:45:54.975</em> or my shape from the midpoint to my line</p>
+<p><em>00:45:59.765</em> to the edge, to the end point of my line.</p>
+<p><em>00:46:04.385</em> And in the same way, I already get a</p>
+<p><em>00:46:06.765</em> review before confirming.</p>
+<p><em>00:46:08.025</em> So if I like what I do, yeah, I just go ahead.</p>
+<p><em>00:46:13.875</em> So I drew my first second action point,</p>
+<p><em>00:46:18.895</em> my first slot, and I can also, the bag</p>
+<p><em>00:46:21.515</em> that I write dimension.</p>
+<p><em>00:46:23.975</em> So from one end to another one, I know that this is 10,</p>
+<p><em>00:46:35.325</em> I can also add them here or remove them.</p>
+<p><em>00:46:40.435</em> They will not impact any way in my design at all.</p>
+<p><em>00:46:44.225</em> And let&#x27;s do a pattern.</p>
+<p><em>00:46:46.385</em> So one way, for example, you could mirror this</p>
+<p><em>00:46:51.025</em> and then mirror it again, you can copy paste by hand.</p>
+<p><em>00:46:54.705</em> But since uh, the software allows you to do that,</p>
+<p><em>00:46:58.065</em> you can already for example, write, uh, in rhino,</p>
+<p><em>00:47:02.855</em> it is called differently.</p>
+<p><em>00:47:04.375</em> And you can find the command under this icon.</p>
+<p><em>00:47:08.175</em> So in case we have a center</p>
+<p><em>00:47:10.175</em> or a circle, we can use the polar array.</p>
+<p><em>00:47:12.695</em> So we can click on the icon, click on the command</p>
+<p><em>00:47:17.015</em> and specify the center.</p>
+<p><em>00:47:23.385</em> If we&#x27;re not able to locate it for some reason,</p>
+<p><em>00:47:26.225</em> we can create a circle</p>
+<p><em>00:47:28.465</em> or once again the axis that we can later on remove</p>
+<p><em>00:47:36.635</em> and then or array,</p>
+<p><em>00:47:42.585</em> select my object to pattern, then confirm</p>
+<p><em>00:47:48.575</em> and the center and the number of items</p>
+<p><em>00:47:53.835</em> to clone this case.</p>
+<p><em>00:47:55.285</em> Yeah, we can do four. So, okay, and the angle.</p>
+<p><em>00:47:59.675</em> So we want them to be all around.</p>
+<p><em>00:48:02.155</em> So 360 degrees, yes.</p>
+<p><em>00:48:06.625</em> And confirm.</p>
+<p><em>00:48:14.075</em> So my first shape, uh, is done.</p>
+<p><em>00:48:17.315</em> I can also make a group if I want, I can write group.</p>
+<p><em>00:48:21.135</em> So now the moment I select the shape, um,</p>
+<p><em>00:48:26.575</em> at turning point that are grouped,</p>
+<p><em>00:48:33.195</em> this one and this icon is ungroup.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-rhino-slots" aria-label="Rhino：定位插槽与极轴阵列 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-rhino-mixed">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=2924s" target="_blank" rel="noopener">48:44 → 53:31</a><h2 class="chapter-title">Rhino：组合连接件与矩形排料</h2><span class="chapter-num">09 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">把部分接收槽转换为插入端，建立兼有两类接口的模块，再旋转并排列到片材幅面。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2935s" target="_blank" rel="noopener" aria-label="在原视频查看 48:55 复制及重叠位置说明">48:55</a>复制及重叠位置说明</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=2983s" target="_blank" rel="noopener" aria-label="在原视频查看 49:43 延伸和镜像连接线">49:43</a>延伸和镜像连接线</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3104s" target="_blank" rel="noopener" aria-label="在原视频查看 51:44 旋转与矩形排料">51:44</a>旋转与矩形排料</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-rhino-mixed"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/rhino-mixed-1.jpg" alt="51:20 · 组合连接件的轮廓" data-caption="51:20 · 组合连接件的轮廓" loading="lazy"><img class="carousel-img" src="frames/rhino-mixed-2.jpg" alt="53:25 · 模块的矩形阵列排料" data-caption="53:25 · 模块的矩形阵列排料" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">51:20 · 组合连接件的轮廓</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>复制粘贴可能把副本放在原位置，编辑前需确认对象是否重叠。</li><li>延伸线段至外轮廓、移除不用的线，再镜像形成另一侧连接。</li><li>矩形阵列按 X、Y 指定数量，二维排料的 Z 数量为 1；圆角仍会留下少量余料。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Rectangular Array</strong><span class="term-tip">沿坐标方向重复对象的矩形阵列。</span></span><span class="term" tabindex="0"><strong>混合接口模块</strong><span class="term-tip">在同一模块上同时设计插入端和接收槽。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>完成连接线后清理重叠对象并分组。</li><li>旋转到适合片材的方向，检查阵列数量与间距。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:48:44.205</em> And we can do the next one.</p>
+<p><em>00:48:48.545</em> So we can do, um, the mail part</p>
+<p><em>00:48:52.775</em> or one that has a combination of both.</p>
+<p><em>00:48:55.095</em> So we can, for example, copy paste like we did earlier,</p>
+<p><em>00:49:00.985</em> control a select all</p>
+<p><em>00:49:03.055</em> or just um, select with the mouse.</p>
+<p><em>00:49:08.575</em> So copy paste in moment you copy and paste.</p>
+<p><em>00:49:11.495</em> Uh, rhino will paste the selection exactly</p>
+<p><em>00:49:16.455</em> on top of your shape</p>
+<p><em>00:49:37.985</em> anyway.</p>
+<p><em>00:49:38.705</em> We can also, uh, work on this one actually, uh, to do that.</p>
+<p><em>00:49:43.545</em> So we go ahead in the similar way that we did earlier.</p>
+<p><em>00:49:47.185</em> So we can use a poly polyline, we can extend our lines.</p>
+<p><em>00:49:52.025</em> And the moment we have the intersection</p>
+<p><em>00:49:56.945</em> as nab selected, we are able to extend the line</p>
+<p><em>00:50:01.145</em> until it meets, uh, the line, the edge of my polygon.</p>
+<p><em>00:50:05.475</em> So we can click here, we can confirm</p>
+<p><em>00:50:09.975</em> which space bar, we can repeat the previous command.</p>
+<p><em>00:50:12.865</em> And once again, from end to the intersection point,</p>
+<p><em>00:50:18.195</em> we can remove this one</p>
+<p><em>00:50:21.665</em> because we no longer need it.</p>
+<p><em>00:50:23.415</em> And then we can, for example, make a pattern once again</p>
+<p><em>00:50:26.065</em> with the center or uh, we can do something else.</p>
+<p><em>00:50:29.865</em> For example, here we can select these two lines</p>
+<p><em>00:50:35.415</em> to add the most to the bottom.</p>
+<p><em>00:50:36.975</em> And we can create a mirror.</p>
+<p><em>00:50:41.695</em> And again, For example,</p>
+<p><em>00:50:46.535</em> what is, uh, in this case, I have to select to specify first</p>
+<p><em>00:50:49.335</em> what is the mirror line, like a plane.</p>
+<p><em>00:50:52.325</em> And I can just use, um, the snaps, for example,</p>
+<p><em>00:50:56.305</em> create here since I have a midpoint.</p>
+<p><em>00:50:58.565</em> So I can create a midpoint selecting</p>
+<p><em>00:51:03.195</em> from one location to another</p>
+<p><em>00:51:04.785</em> and basically have a clone of the upper part.</p>
+<p><em>00:51:14.475</em> I can make a group control G, common G or the icon here.</p>
+<p><em>00:51:19.055</em> And I basically made my shape.</p>
+<p><em>00:51:24.995</em> And for example, if I want, I can just,</p>
+<p><em>00:51:27.035</em> uh, distillate it here.</p>
+<p><em>00:51:28.195</em> It is a perfect square, so uh,</p>
+<p><em>00:51:30.425</em> there won&#x27;t be any waste at all.</p>
+<p><em>00:51:32.595</em> And there is a little bit of feel,</p>
+<p><em>00:51:34.515</em> so I&#x27;m gonna lose just a tiny bit of material.</p>
+<p><em>00:51:38.075</em> I can also use the gum to rotate, to manipulate</p>
+<p><em>00:51:40.975</em> or to scale my shape.</p>
+<p><em>00:51:44.225</em> I usually prefer to do it correctly, uh,</p>
+<p><em>00:51:46.585</em> with the value spec, find math</p>
+<p><em>00:51:48.565</em> or a number in this case might be easier</p>
+<p><em>00:51:52.595</em> to rotate it back actually,</p>
+<p><em>00:51:53.855</em> because we are using any way, uh, materials that are sheets.</p>
+<p><em>00:51:57.395</em> So there are already rectangular or squared.</p>
+<p><em>00:52:00.795</em> So we can once again go back and do, rotate</p>
+<p><em>00:52:03.955</em> and specify the central rotation.</p>
+<p><em>00:52:06.335</em> I can use, once again, my grid from M zero from zero</p>
+<p><em>00:52:11.895</em> and specify, um, my degree.</p>
+<p><em>00:52:14.235</em> For example, I can also go minus four, five</p>
+<p><em>00:52:19.555</em> and my shape is black.</p>
+<p><em>00:52:24.535</em> And then I can just do what I did earlier.</p>
+<p><em>00:52:27.375</em> So I can make a pattern.</p>
+<p><em>00:52:29.575</em> And in this case I&#x27;m gonna go for the rectangular array</p>
+<p><em>00:52:33.215</em> and specify ahead the number of the shapes</p>
+<p><em>00:52:36.795</em> that I want in the X direction.</p>
+<p><em>00:52:39.175</em> So in the, um,</p>
+<p><em>00:52:43.145</em> in the red axis, like for example six,</p>
+<p><em>00:52:47.765</em> then the number, uh, for the columns, let&#x27;s say again six.</p>
+<p><em>00:52:52.725</em> And the number in the Z in this case we&#x27;re working flat,</p>
+<p><em>00:52:55.885</em> so it&#x27;s going to be just equal to one.</p>
+<p><em>00:53:01.915</em> And then</p>
+<p><em>00:53:07.955</em> we can space them, uh, once again with the math</p>
+<p><em>00:53:10.475</em> or with our mouse</p>
+<p><em>00:53:20.175</em> And confirming the selection when we are done 40.</p>
+<p><em>00:53:27.605</em> And basically that&#x27;s it.</p>
+<p><em>00:53:28.975</em> This is, uh, what we want to achieve.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-rhino-mixed" aria-label="Rhino：组合连接件与矩形排料 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-rhino-export">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=3211s" target="_blank" rel="noopener">53:31 → 60:56</a><h2 class="chapter-title">Rhino 输出与曲线清理</h2><span class="chapter-num">10 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">设置输出属性，将文件送入 Illustrator 或 Inkscape，检查断开的路径和尺寸。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3216s" target="_blank" rel="noopener" aria-label="在原视频查看 53:36 线条与打印属性">53:36</a>线条与打印属性</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3349s" target="_blank" rel="noopener" aria-label="在原视频查看 55:49 选择导出格式">55:49</a>选择导出格式</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3441s" target="_blank" rel="noopener" aria-label="在原视频查看 57:21 发现未连接路径并清理">57:21</a>发现未连接路径并清理</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3557s" target="_blank" rel="noopener" aria-label="在原视频查看 59:17 在 Inkscape 中复核">59:17</a>在 Inkscape 中复核</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-rhino-export"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/rhino-export-1.jpg" alt="55:40 · Rhino 输出属性检查" data-caption="55:40 · Rhino 输出属性检查" loading="lazy"><img class="carousel-img" src="frames/rhino-export-2.jpg" alt="59:50 · 在矢量软件中检查导出结果" data-caption="59:50 · 在矢量软件中检查导出结果" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">55:40 · Rhino 输出属性检查</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师演示连续线型、图层颜色和 hairline 打印宽度；实际切割要求应向使用的实验室核对。</li><li>可用 Export Selected 只导出所需对象，并在矢量软件里重新检查。</li><li>本次实际遇到的是未连接的轮廓，讲师演示 Join 后再次导出；不能把所有导出问题都归为重复线。</li><li>PDF、SVG、DXF 等交换路径各有细节，导入后保持原始尺寸并检查最终曲线。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Join</strong><span class="term-tip">将符合连接条件的曲线段连接起来；操作后仍要检查结果。</span></span><span class="term" tabindex="0"><strong>Hairline</strong><span class="term-tip">演示使用的极细打印线宽选项，设备识别方式需单独核对。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>清理并连接应连续的轮廓，保留设计需要的独立槽线。</li><li>导出到矢量软件，复核尺寸、断线和重复线后保存最终文件。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:53:31.135</em> Just before, um, laser cutting the old models</p>
+<p><em>00:53:36.405</em> in rhino, you can just, uh, um,</p>
+<p><em>00:53:39.325</em> you can actually specify the color as well.</p>
+<p><em>00:53:43.975</em> Um, you might have this in different locations of,</p>
+<p><em>00:53:48.135</em> of your interface.</p>
+<p><em>00:53:50.175</em> Uh, here on the Mac, on the Rhino seven, you find, um,</p>
+<p><em>00:53:54.725</em> let&#x27;s say printing settings, width of the line</p>
+<p><em>00:53:58.335</em> and the properties under, um, here the gear</p>
+<p><em>00:54:02.395</em> in the properties panel.</p>
+<p><em>00:54:09.455</em> Sometimes you also, uh, find, uh, the properties here.</p>
+<p><em>00:54:13.765</em> So for example, the lines has to be continuous.</p>
+<p><em>00:54:16.885</em> Uh, if it&#x27;s easier, you can already specify the color</p>
+<p><em>00:54:20.365</em> or the layer that has to match the color of your lines.</p>
+<p><em>00:54:23.725</em> So let&#x27;s say to LGB color.</p>
+<p><em>00:54:26.425</em> And so once again, 2 55, 0, 0 for red.</p>
+<p><em>00:54:32.835</em> So you can select everything, make a group,</p>
+<p><em>00:54:35.045</em> make other copies, rotate if it&#x27;s easier,</p>
+<p><em>00:54:42.065</em> move them, export them.</p>
+<p><em>00:54:43.695</em> And again, um, produce the nesting file in another software.</p>
+<p><em>00:54:59.845</em> Uh, this is the history.</p>
+<p><em>00:55:01.495</em> Basically all the commands that I uh, used</p>
+<p><em>00:55:06.085</em> to create this kind of file.</p>
+<p><em>00:55:28.945</em> And you should basically find, uh, be able</p>
+<p><em>00:55:31.765</em> to find here the properties object</p>
+<p><em>00:55:34.745</em> and then select uh, display color by layer</p>
+<p><em>00:55:37.405</em> because we put it red line type has to be continuous.</p>
+<p><em>00:55:42.065</em> And the print width, the most important one</p>
+<p><em>00:55:45.065</em> for the laser cutter has to be headline.</p>
+<p><em>00:55:49.295</em> Once this part is done, you can just go to file</p>
+<p><em>00:55:52.805</em> and site to export or save.</p>
+<p><em>00:55:58.705</em> You can also do export selected if you have multiple objects</p>
+<p><em>00:56:01.465</em> and you only want to export, uh, this file for example.</p>
+<p><em>00:56:08.545</em> And then you have many formats to choose from.</p>
+<p><em>00:56:11.345</em> So it is a vector file.</p>
+<p><em>00:56:13.265</em> We can use uh, daf,</p>
+<p><em>00:56:15.855</em> we can use</p>
+<p><em>00:56:16.555</em> SVGI</p>
+<p><em>00:56:21.585</em> usually work uh, with pdf F.</p>
+<p><em>00:56:23.805</em> Sometimes if you export an SVG or</p>
+<p><em>00:56:26.785</em> or DWG, you might have double lines.</p>
+<p><em>00:56:32.085</em> This is a problem that I have for Mac and with RiNo.</p>
+<p><em>00:56:35.275</em> So we can try, um, we call it modules.</p>
+<p><em>00:56:41.865</em> We can export, yes.</p>
+<p><em>00:56:46.505</em> And if everything is fine, let&#x27;s see,</p>
+<p><em>00:56:50.105</em> we already have one file here.</p>
+<p><em>00:56:51.565</em> We can make another port</p>
+<p><em>00:56:57.305</em> and import.</p>
+<p><em>00:57:03.025</em> We can go the other way around.</p>
+<p><em>00:57:07.705</em> So open this one illustrator</p>
+<p><em>00:57:13.765</em> and be sure to work in the original size.</p>
+<p><em>00:57:21.515</em> Okay, I don&#x27;t have double lines, I just have</p>
+<p><em>00:57:24.285</em> profiles that are not joined.</p>
+<p><em>00:57:31.085</em> So if this happens, you can just, you need</p>
+<p><em>00:57:34.835</em> to clean up a little bit.</p>
+<p><em>00:57:36.035</em> The file, you can select all of them.</p>
+<p><em>00:57:42.125</em> Yeah. And then um, it um,</p>
+<p><em>00:57:46.535</em> control j conman J</p>
+<p><em>00:57:55.865</em> yeah in RiNo you can just be sure, uh,</p>
+<p><em>00:58:00.145</em> to have them joined.</p>
+<p><em>00:58:08.585</em> This icon is for exploding all of them.</p>
+<p><em>00:58:14.955</em> And this one to join them in closed loops.</p>
+<p><em>00:58:18.435</em> And just to be sure, you should um, be able</p>
+<p><em>00:58:20.895</em> to see a popup appearing.</p>
+<p><em>00:58:24.565</em> It&#x27;s a bit hidden in the Mac is all the way down,</p>
+<p><em>00:58:26.835</em> but the windows is um, is on top.</p>
+<p><em>00:58:43.155</em> Then we can try example to the file.</p>
+<p><em>00:58:45.585</em> Um, export.</p>
+<p><em>00:58:49.845</em> Yeah, we can try PDF is better. Um, the stream,</p>
+<p><em>00:59:00.525</em> You already have a preview.</p>
+<p><em>00:59:17.765</em> We can open any skip this time</p>
+<p><em>00:59:27.585</em> every time.</p>
+<p><em>00:59:28.555</em> Be sure that you&#x27;re working on the size one-to-one.</p>
+<p><em>00:59:32.885</em> If it&#x27;s a PDF, you want to embed it as well.</p>
+<p><em>00:59:44.515</em> And then you have all the list of the paths,</p>
+<p><em>00:59:47.095</em> so all the vectors of the lines</p>
+<p><em>00:59:51.145</em> and you&#x27;re able to create any other</p>
+<p><em>00:59:53.645</em> notification that you want.</p>
+<p><em>00:59:54.825</em> So you can enlarge them, you can</p>
+<p><em>00:59:59.715</em> change the color,</p>
+<p><em>01:00:06.545</em> you can create perforations, you can add other modules,</p>
+<p><em>01:00:13.275</em> parts that will be cut out at the end.</p>
+<p><em>01:00:19.635</em> And once again, when you export, be sure</p>
+<p><em>01:00:21.895</em> that you select everything and you specify the stroke paint.</p>
+<p><em>01:00:28.625</em> Red is good, green is good, blue is good.</p>
+<p><em>01:00:34.865</em> 2 55, 0, 0. And the stroke line to be her line.</p>
+<p><em>01:00:44.385</em> And uh, and yeah, and that&#x27;s it.</p>
+<p><em>01:00:46.045</em> Then you can just keep on exporting this as a vector file.</p>
+<p><em>01:00:49.545</em> So P-D-F-S-V-G, DAF or any of those.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-rhino-export" aria-label="Rhino 输出与曲线清理 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-assembly">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=3656s" target="_blank" rel="noopener">60:56 → 68:33</a><h2 class="chapter-title">实物模块的组装与变化</h2><span class="chapter-num">11 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">观察毛毡样品怎样插接、锁定与拆分，并通过颜色、接口和组装方向形成不同结构。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3656s" target="_blank" rel="noopener" aria-label="在原视频查看 60:56 展示切割后的实物">60:56</a>展示切割后的实物</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3721s" target="_blank" rel="noopener" aria-label="在原视频查看 62:01 插接与锁定动作">62:01</a>插接与锁定动作</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3842s" target="_blank" rel="noopener" aria-label="在原视频查看 64:02 双连接与材料样品">64:02</a>双连接与材料样品</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=3962s" target="_blank" rel="noopener" aria-label="在原视频查看 66:02 不同连接形态与用途">66:02</a>不同连接形态与用途</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-assembly"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/assembly-1.jpg" alt="62:15 · 实物插接演示" data-caption="62:15 · 实物插接演示" loading="lazy"><img class="carousel-img" src="frames/assembly-2.jpg" alt="66:55 · 另一种模块与连接件样品" data-caption="66:55 · 另一种模块与连接件样品" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">62:15 · 实物插接演示</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>折起插入端、适度打开接收槽，再拉入位置，检查连接是否稳定。</li><li>双槽、不同连接件和不同组装方向可改变连接强度与二维、三维形态。</li><li>讲师展示羊毛毡和薄合成毡的不同手感；样品描述不能替代具体材料的激光加工适用性确认。</li><li>模块可混搭，但连接尺寸和接合方式需要兼容。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Interlocking</strong><span class="term-tip">通过几何接口互相卡接的连接方式。</span></span><span class="term" tabindex="0"><strong>模块迭代</strong><span class="term-tip">根据装配反馈调整模块形状、接口或数量。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>先少量制作样片，观察插入、锁定和拆卸过程。</li><li>记录材料、接口尺寸及不同组装方向的效果；加工前让实验室确认具体材料。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:00:56.855</em> So if you print them all out on the leather</p>
+<p><em>01:00:59.775</em> cutter, this is the result.</p>
+<p><em>01:01:05.835</em> And if you print them with two colors,</p>
+<p><em>01:01:07.275</em> you can really also play</p>
+<p><em>01:01:10.215</em> and try out different configurations.</p>
+<p><em>01:01:42.865</em> You can put the fingers so where you can see better.</p>
+<p><em>01:01:46.905</em> So this should be the result.</p>
+<p><em>01:01:50.435</em> I take literally, um, couple of minutes to, to laser cut</p>
+<p><em>01:01:55.455</em> all this, file, all these modules.</p>
+<p><em>01:01:57.615</em> And then you just have to do this way.</p>
+<p><em>01:02:01.175</em> So you can fold this kind of arrows</p>
+<p><em>01:02:03.915</em> that we just created a little bit or using the tweezers</p>
+<p><em>01:02:07.565</em> and you just try to open a little bit this uh,</p>
+<p><em>01:02:11.645</em> female slot, then pull</p>
+<p><em>01:02:15.375</em> it the way.</p>
+<p><em>01:02:20.465</em> Uh, for example, I&#x27;m using felt.</p>
+<p><em>01:02:22.385</em> So it&#x27;s something very so easy to, for prototyping,</p>
+<p><em>01:02:26.225</em> I&#x27;m very versatile</p>
+<p><em>01:02:27.585</em> and if you do this kind of test,</p>
+<p><em>01:02:33.535</em> you should be able to get a stable connection.</p>
+<p><em>01:02:38.825</em> This also depends on the material that you&#x27;re using</p>
+<p><em>01:02:41.295</em> and on the thickness, if you have for example,</p>
+<p><em>01:02:44.965</em> another line here, like a double line, this will allow you</p>
+<p><em>01:02:48.205</em> to block much better this kind of joint.</p>
+<p><em>01:02:56.165</em> And you have many possibilities.</p>
+<p><em>01:02:57.405</em> So you can also work on the back</p>
+<p><em>01:03:00.315</em> or you can also uh, assemble them in another way</p>
+<p><em>01:03:03.055</em> so they become more 3D.</p>
+<p><em>01:03:06.125</em> Any shape will be allowing you to create bags</p>
+<p><em>01:03:09.525</em> and three structures.</p>
+<p><em>01:03:11.765</em> It&#x27;s just the way, the way you assemble the models together.</p>
+<p><em>01:03:16.815</em> And you can use them for different applications.</p>
+<p><em>01:03:19.015</em> So this can be an accessory, this can be a glove,</p>
+<p><em>01:03:24.925</em> this can be a holder, this can be a bag.</p>
+<p><em>01:03:29.085</em> And of course you can mix</p>
+<p><em>01:03:30.545</em> and match, especially if you have a design,</p>
+<p><em>01:03:34.965</em> similar connections.</p>
+<p><em>01:03:36.315</em> So same lines, different shapes.</p>
+<p><em>01:03:39.955</em> So you can add this</p>
+<p><em>01:03:43.815</em> and remove the blurring.</p>
+<p><em>01:03:56.585</em> So you can have something like this.</p>
+<p><em>01:04:02.955</em> As I was saying, you can have double</p>
+<p><em>01:04:04.615</em> connection like in this case.</p>
+<p><em>01:04:06.235</em> So we have another module, another shape</p>
+<p><em>01:04:08.525</em> that has double female joints.</p>
+<p><em>01:04:14.085</em> And you can have this kind of um, male part</p>
+<p><em>01:04:17.975</em> that is completely different that allows you, for example,</p>
+<p><em>01:04:20.565</em> to join a different pieces in the back.</p>
+<p><em>01:04:23.245</em> So you can have also</p>
+<p><em>01:04:28.085</em> Something made like that.</p>
+<p><em>01:04:32.625</em> Yes, this one is actually wool felt. It&#x27;s a bit softer.</p>
+<p><em>01:04:36.105</em> And this one is very thin. Synthetic felt.</p>
+<p><em>01:04:42.775</em> The synthetic felt uh, works a bit better</p>
+<p><em>01:04:45.105</em> because it&#x27;s a bit stiff</p>
+<p><em>01:04:48.105</em> and the laser cutter actually seals the edges.</p>
+<p><em>01:04:51.545</em> So there is nothing a trace or tears.</p>
+<p><em>01:04:54.575</em> It&#x27;s very easy to work, uh, with this kind of material.</p>
+<p><em>01:04:58.375</em> It&#x27;s not the best one,</p>
+<p><em>01:04:59.445</em> but it&#x27;s very easy to prototype a couple of connections.</p>
+<p><em>01:05:05.915</em> Yeah, yeah, of course. So you can do fewer.</p>
+<p><em>01:05:08.705</em> I just made four because I think it&#x27;s easier</p>
+<p><em>01:05:11.615</em> and you have just four possibility for interlocking them</p>
+<p><em>01:05:14.855</em> and create something that expands in different directions.</p>
+<p><em>01:05:17.625</em> At the same time,</p>
+<p><em>01:05:23.075</em> you can also have eight different connections.</p>
+<p><em>01:05:25.595</em> You just have more possibilities.</p>
+<p><em>01:05:26.995</em> So for example, you can copy the four</p>
+<p><em>01:05:30.465</em> and nest all of them inside so you have more layering</p>
+<p><em>01:05:34.665</em> and your connection will be more stable like,</p>
+<p><em>01:05:38.855</em> uh, also in this case.</p>
+<p><em>01:05:45.105</em> And of course you can play with the size so they don&#x27;t have</p>
+<p><em>01:05:48.115</em> to be the same size.</p>
+<p><em>01:05:50.585</em> Like the lines can be smaller, can be longer,</p>
+<p><em>01:06:02.455</em> or you can keep on iterating the models that we just made.</p>
+<p><em>01:06:05.695</em> And for example, I showed yesterday&#x27;s example,</p>
+<p><em>01:06:09.825</em> you can also redesign the kind of connection</p>
+<p><em>01:06:12.165</em> that you want to appear in between.</p>
+<p><em>01:06:16.215</em> So this is as is kind of a flower</p>
+<p><em>01:06:23.545</em> instead of being a simple triangle</p>
+<p><em>01:06:29.665</em> or I have another one here to share.</p>
+<p><em>01:06:31.545</em> So you can also have something like this.</p>
+<p><em>01:06:33.435</em> This is a very simple one, it&#x27;s just one polygon.</p>
+<p><em>01:06:36.825</em> So now everyone is able to do something like that.</p>
+<p><em>01:06:39.505</em> So this is just gon</p>
+<p><em>01:06:42.915</em> with different slots,</p>
+<p><em>01:06:47.385</em> like one per edge.</p>
+<p><em>01:06:49.095</em> And then there is this little parts that act like maze</p>
+<p><em>01:06:52.715</em> that lock in place.</p>
+<p><em>01:06:55.015</em> The two shapes, they have like a kind of T-bones.</p>
+<p><em>01:07:00.205</em> So there are completely two different modules per</p>
+<p><em>01:07:02.985</em> size also.</p>
+<p><em>01:07:08.535</em> And this allows you to create this kind of, uh, structure</p>
+<p><em>01:07:11.465</em> that can be used 3D for a lamp</p>
+<p><em>01:07:14.415</em> or can become</p>
+<p><em>01:07:18.685</em> completely 2D like a mat or a carpet</p>
+<p><em>01:07:22.505</em> or can become a hat, a bag or whatever you want.</p>
+<p><em>01:07:29.645</em> Yeah, synthetic felt is not totally okay.</p>
+<p><em>01:07:33.295</em> This is, um, pretty less than one millimeter.</p>
+<p><em>01:07:39.125</em> So it, the laser stays on the modules very little time.</p>
+<p><em>01:07:43.335</em> It&#x27;s pretty fast.</p>
+<p><em>01:07:52.455</em> So it can be done, the wool felt is better,</p>
+<p><em>01:07:56.685</em> just the smell won&#x27;t be good.</p>
+<p><em>01:08:03.735</em> And of course you can have perforations for example,</p>
+<p><em>01:08:06.295</em> if you want to add additional materials, you can add dreads.</p>
+<p><em>01:08:14.455</em> You can have engravings as a way.</p>
+<p><em>01:08:17.605</em> Um, so to decorate your modules,</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-assembly" aria-label="实物模块的组装与变化 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-fit">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=4113s" target="_blank" rel="noopener">68:33 → 74:12</a><h2 class="chapter-title">厚度、松紧与模块尺寸答疑</h2><span class="chapter-num">12 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">把绘图参数与真实材料连接起来，通过小样确定槽宽、接口松紧及便于装配的模块尺度。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4113s" target="_blank" rel="noopener" aria-label="在原视频查看 68:33 软件选择与三维延伸">68:33</a>软件选择与三维延伸</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4158s" target="_blank" rel="noopener" aria-label="在原视频查看 69:18 厚材料的槽宽">69:18</a>厚材料的槽宽</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4226s" target="_blank" rel="noopener" aria-label="在原视频查看 70:26 用测试确定接口配合">70:26</a>用测试确定接口配合</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4366s" target="_blank" rel="noopener" aria-label="在原视频查看 72:46 避免过小的模块">72:46</a>避免过小的模块</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-fit"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/fit-1.jpg" alt="71:10 · 接口松紧与尺寸的实物说明" data-caption="71:10 · 接口松紧与尺寸的实物说明" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">71:10 · 接口松紧与尺寸的实物说明</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师说明也可使用其他矢量软件，选择取决于是否还要继续三维建模等工作。</li><li>较厚材料不能直接照搬单线槽；槽宽还受材料柔性、变形及实际切割影响。</li><li>接收槽过宽且插入端不匹配时会松动，需要测试整组接口。</li><li>过小模块会增加装配难度；讲师常用约 4–5 cm 的样例尺度，这不是固定标准。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>连接小样</strong><span class="term-tip">用少量接口测试实际装配效果，先于批量排料。</span></span><span class="term" tabindex="0"><strong>配合松紧</strong><span class="term-tip">接口插入难度、保持能力与可拆卸性的综合表现。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>比较不同槽宽的小样，记录插入与拉脱表现。</li><li>确认可装配性后再批量复制模块。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:08:33.075</em> Uh, yeah, you can also make everything in Illustrator.</p>
+<p><em>01:08:40.755</em> It&#x27;s a matter of workflow.</p>
+<p><em>01:08:42.635</em> If you want to keep using this uh, module,</p>
+<p><em>01:08:44.755</em> for example in the 3D printing, then you can just uh,</p>
+<p><em>01:08:47.095</em> say the design into future or in our in um, in rhino</p>
+<p><em>01:08:51.155</em> and then keep going and right extrude</p>
+<p><em>01:08:56.435</em> and you have your shape just in that case.</p>
+<p><em>01:08:58.515</em> You may need to make these lines a bit wider</p>
+<p><em>01:09:02.505</em> because you&#x27;re gonna deal with that bit thicker material.</p>
+<p><em>01:09:05.965</em> So in this case, we&#x27;re not considering the thickness,</p>
+<p><em>01:09:08.945</em> that&#x27;s why we&#x27;re just work with lines</p>
+<p><em>01:09:10.585</em> because we&#x27;re assuming that the material is very light,</p>
+<p><em>01:09:15.085</em> like not thick at all.</p>
+<p><em>01:09:18.815</em> If you&#x27;re working with a material</p>
+<p><em>01:09:19.995</em> that is more than one millimeter in thickness, then you need</p>
+<p><em>01:09:22.755</em> to enlarge in engineering also a little bit</p>
+<p><em>01:09:25.775</em> the females lots as well.</p>
+<p><em>01:09:27.805</em> So keep this in mind.</p>
+<p><em>01:09:52.735</em> Do you have any questions on uh, the software on Fusion,</p>
+<p><em>01:09:55.855</em> on Rhino or on the 2D Vector software?</p>
+<p><em>01:10:07.385</em> Also? For example, you can assemble the modules like this</p>
+<p><em>01:10:11.555</em> so you can get some more like uh, three dps.</p>
+<p><em>01:10:26.335</em> Yeah, you should run a couple of tests to specify, uh,</p>
+<p><em>01:10:30.165</em> to understand what&#x27;s the thickness of the lines</p>
+<p><em>01:10:36.605</em> more or less, yes, it should match the thickness,</p>
+<p><em>01:10:38.755</em> but it depends the kind of material that you have</p>
+<p><em>01:10:40.855</em> because some materials, you know, like the cotton,</p>
+<p><em>01:10:44.355</em> so it depends how much this part will</p>
+<p><em>01:10:46.615</em> open, not just the thickness.</p>
+<p><em>01:10:57.325</em> It&#x27;s a good practice to work with. Um, little connection.</p>
+<p><em>01:11:06.215</em> Even this one for example, is just one millimeter,</p>
+<p><em>01:11:08.625</em> but this line is pretty big</p>
+<p><em>01:11:10.485</em> and if I don&#x27;t have something</p>
+<p><em>01:11:12.225</em> that matches this part, this will be loose.</p>
+<p><em>01:11:15.005</em> The moment I connect with another male part,</p>
+<p><em>01:11:50.905</em> it can work.</p>
+<p><em>01:11:51.905</em> So give it a try to both of the software</p>
+<p><em>01:11:56.005</em> if you&#x27;re still undecided,</p>
+<p><em>01:12:01.615</em> I use, um, all of them.</p>
+<p><em>01:12:04.895</em> I&#x27;m still not very comfortable with blender,</p>
+<p><em>01:12:06.915</em> but I also really believe that um, this kind</p>
+<p><em>01:12:10.075</em> of workflow can happen there.</p>
+<p><em>01:12:14.825</em> There&#x27;s a lot of people that also use glass software.</p>
+<p><em>01:12:29.795</em> Anyway, I will be staying with you this file.</p>
+<p><em>01:12:31.915</em> So in case you want to go back to them</p>
+<p><em>01:12:34.155</em> or keep on editing, uh, any</p>
+<p><em>01:12:37.935</em> of these files, you can do that.</p>
+<p><em>01:12:46.705</em> Try not to create models that are very small.</p>
+<p><em>01:12:49.005</em> Sometimes it&#x27;s very hard to assemble them together,</p>
+<p><em>01:12:51.515</em> like in this case&#x27;s kind of little</p>
+<p><em>01:12:56.905</em> T-bones joints</p>
+<p><em>01:13:00.005</em> or you&#x27;re going to need a lot</p>
+<p><em>01:13:03.415</em> of tweezers and a lot of time.</p>
+<p><em>01:13:06.905</em> So usually I stay with this size like four centimeters,</p>
+<p><em>01:13:11.725</em> five centimeters, or you can play uh, with a multiple of it.</p>
+<p><em>01:13:16.685</em> So you can also have variations</p>
+<p><em>01:13:24.235</em> if you&#x27;re using a big thickness instead</p>
+<p><em>01:13:26.255</em> of a line you can already create since the</p>
+<p><em>01:13:28.375</em> beginning, a rectangle here.</p>
+<p><em>01:13:31.225</em> And then pattern it for</p>
+<p><em>01:13:34.995</em> how many times you want or you need.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-fit" aria-label="厚度、松紧与模块尺寸答疑 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-thick-slots">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=4452s" target="_blank" rel="noopener">74:12 → 78:00</a><h2 class="chapter-title">补充演示：矩形槽与三维延伸</h2><span class="chapter-num">13 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">回到 Fusion，用有宽度的矩形替代单线槽，再进行圆周阵列，并展示挤出为三维实体的可能。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4495s" target="_blank" rel="noopener" aria-label="在原视频查看 74:55 建立带尺寸的矩形槽">74:55</a>建立带尺寸的矩形槽</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4532s" target="_blank" rel="noopener" aria-label="在原视频查看 75:32 阵列矩形边线">75:32</a>阵列矩形边线</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4590s" target="_blank" rel="noopener" aria-label="在原视频查看 76:30 挤出与网格输出说明">76:30</a>挤出与网格输出说明</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-thick-slots"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/thick-slots-1.jpg" alt="76:20 · 带宽度的矩形槽阵列" data-caption="76:20 · 带宽度的矩形槽阵列" loading="lazy"><img class="carousel-img" src="frames/thick-slots-2.jpg" alt="76:55 · 挤出后模型的俯视画面" data-caption="76:55 · 挤出后模型的俯视画面" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">76:20 · 带宽度的矩形槽阵列</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>矩形槽同时需要长度和宽度；演示以 10 mm 长度及不同宽度说明厚材料的设计思路。</li><li>阵列时选择矩形的边线和圆心，调整数量后检查形状是否合理。</li><li>挤出后得到实体，可继续网格导出；这一段是后续三维制作的示意，并非已经验证的打印参数。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Extrude</strong><span class="term-tip">把平面轮廓沿方向延伸成三维几何。</span></span><span class="term" tabindex="0"><strong>STL</strong><span class="term-tip">用于表达三角网格的常见文件格式。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>建立带宽度的槽并测试阵列数量。</li><li>需要三维制作时另行验证厚度、间隙和输出要求。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:14:12.705</em> If it&#x27;s useful, I can also share that part.</p>
+<p><em>01:14:18.165</em> So we are here</p>
+<p><em>01:14:25.575</em> and for example, before making this, um,</p>
+<p><em>01:14:29.735</em> well at any point we can actually</p>
+<p><em>01:14:32.325</em> break our links and make it again.</p>
+<p><em>01:14:35.235</em> So we have a line.</p>
+<p><em>01:14:44.495</em> There are many ways again to do that</p>
+<p><em>01:14:46.745</em> or we can just add our circle, our shape,</p>
+<p><em>01:14:51.895</em> whatever it is, anxi, that obviously helps.</p>
+<p><em>01:14:55.195</em> And then create a rectangle for example, um, here</p>
+<p><em>01:15:01.795</em> that I can just add dimensions.</p>
+<p><em>01:15:04.585</em> So let&#x27;s keep our 10 millimeters, one centimeter</p>
+<p><em>01:15:09.595</em> and then the width, like my thickness for example,</p>
+<p><em>01:15:14.615</em> one millimeters is something, uh, that is going</p>
+<p><em>01:15:18.675</em> to be very thick to be inserted inside or uh, 0.8,</p>
+<p><em>01:15:31.275</em> escape the selection.</p>
+<p><em>01:15:32.535</em> You can just select the part the we want to pattern</p>
+<p><em>01:15:37.315</em> and then make a circular pattern.</p>
+<p><em>01:15:39.595</em> So be sure for example here, no need to select the icons,</p>
+<p><em>01:15:42.655</em> just select four the edges of your shape.</p>
+<p><em>01:15:49.885</em> You can uh, clear the selection at any point.</p>
+<p><em>01:15:54.775</em> 1, 2, 3, 4, and then a center point.</p>
+<p><em>01:15:59.495</em> And then for example, you want three or you want five.</p>
+<p><em>01:16:02.135</em> So Five you</p>
+<p><em>01:16:07.025</em> would just add more, um, ways to assemble your piece.</p>
+<p><em>01:16:11.405</em> If you don&#x27;t like five,</p>
+<p><em>01:16:12.865</em> you can definitely put less than four.</p>
+<p><em>01:16:14.605</em> So three and your design will change automatically.</p>
+<p><em>01:16:19.285</em> And now you&#x27;re able to see also the shape, uh,</p>
+<p><em>01:16:21.825</em> a bit more clear because we don&#x27;t have lines, we have slots.</p>
+<p><em>01:16:24.525</em> So this in case you need the bigger thickness,</p>
+<p><em>01:16:30.125</em> you can do finished sketch</p>
+<p><em>01:16:31.885</em> or you can also example extrude it</p>
+<p><em>01:16:34.365</em> for 3D printing next time.</p>
+<p><em>01:16:36.565</em> And for example, um,</p>
+<p><em>01:16:40.445</em> 0.5 millimeters.</p>
+<p><em>01:16:42.295</em> And this is one of the shape that you can create, um,</p>
+<p><em>01:16:51.865</em> in 3D.</p>
+<p><em>01:16:52.755</em> That means that you have a body now and of course a sketch</p>
+<p><em>01:16:56.465</em> and you can also export the body as a mesh, so as STL.</p>
+<p><em>01:17:01.145</em> But this is something that will be, uh,</p>
+<p><em>01:17:03.925</em> probably needed in a couple of weeks or more.</p>
+<p><em>01:17:14.385</em> So this is just uh, uh, for the sake of the demonstration.</p>
+<p><em>01:17:18.515</em> &#x27;cause if you work uh, with a platform like Fusion 360</p>
+<p><em>01:17:22.575</em> or Rhino, you just have many possibility</p>
+<p><em>01:17:24.815</em> to have the software and keep it in use</p>
+<p><em>01:17:27.375</em> for other assignment or other projects.</p>
+<p><em>01:17:30.265</em> Yeah,</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-thick-slots" aria-label="补充演示：矩形槽与三维延伸 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-parameters">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=4680s" target="_blank" rel="noopener">78:00 → 82:12</a><h2 class="chapter-title">Fusion 表达式与用户参数</h2><span class="chapter-num">14 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">在尺寸栏使用关系式，并建立命名参数，让材料厚度等变量驱动草图变化。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4690s" target="_blank" rel="noopener" aria-label="在原视频查看 78:10 尺寸引用与数学表达式">78:10</a>尺寸引用与数学表达式</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4831s" target="_blank" rel="noopener" aria-label="在原视频查看 80:31 建立厚度参数">80:31</a>建立厚度参数</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4865s" target="_blank" rel="noopener" aria-label="在原视频查看 81:05 引用参数并观察更新">81:05</a>引用参数并观察更新</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-parameters"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/parameters-1.jpg" alt="80:55 · 建立用户参数" data-caption="80:55 · 建立用户参数" loading="lazy"><img class="carousel-img" src="frames/parameters-2.jpg" alt="81:25 · 在参数表中修改厚度值" data-caption="81:25 · 在参数表中修改厚度值" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">80:55 · 建立用户参数</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>尺寸输入可以引用其他尺寸或使用数学表达式，但结果仍需检查，演示也出现了碰撞或不合理数值。</li><li>通过 Modify 下的参数功能建立具名变量，再让槽宽引用该变量。</li><li>更改参数后观察几何联动；重复制造前应重新检查槽宽、间距和连接效果。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>用户参数</strong><span class="term-tip">由设计者命名、赋值并供尺寸引用的变量。</span></span><span class="term" tabindex="0"><strong>表达式</strong><span class="term-tip">通过运算或引用建立尺寸之间的关系。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>为材料厚度建立清楚命名的参数，并让槽宽引用它。</li><li>切换几个试验值，检查阵列是否碰撞及接口是否仍可制造。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:18:00.185</em> Yeah.</p>
+<p><em>01:18:00.475</em> Maybe last thing that I can show about, um,</p>
+<p><em>01:18:04.445</em> lemme share the screen,</p>
+<p><em>01:18:05.655</em> but fusion that I forgot to mention is</p>
+<p><em>01:18:10.575</em> that you have the possibility to write, uh,</p>
+<p><em>01:18:13.325</em> values also in here when you have um,</p>
+<p><em>01:18:17.745</em> the dimension values</p>
+<p><em>01:18:18.945</em> or you can write the mathematical expressions.</p>
+<p><em>01:18:21.305</em> So for example, you want this to be, um, as big</p>
+<p><em>01:18:26.225</em> as the distance of this lot.</p>
+<p><em>01:18:28.785</em> So you can just click here for example.</p>
+<p><em>01:18:34.515</em> Now it&#x27;ll be applied to all the patterns.</p>
+<p><em>01:18:36.615</em> So some there&#x27;re so big that will call collide</p>
+<p><em>01:18:39.955</em> or you can write, uh, it&#x27;s going to be 10</p>
+<p><em>01:18:44.805</em> divided by two minus 10.</p>
+<p><em>01:18:48.075</em> So you can also write your own function here.</p>
+<p><em>01:18:51.205</em> Sometimes it doesn&#x27;t make sense</p>
+<p><em>01:18:54.135</em> or the other way around you can have this value</p>
+<p><em>01:19:01.215</em> plus hundred.</p>
+<p><em>01:19:05.485</em> So you don&#x27;t have two to calculate.</p>
+<p><em>01:19:07.445</em> You can let the software to the operation for you,</p>
+<p><em>01:19:10.635</em> or in this case again, doesn&#x27;t have any sense.</p>
+<p><em>01:19:12.555</em> But if there are more parameters</p>
+<p><em>01:19:14.935</em> that you can take into account since the beginning,</p>
+<p><em>01:19:17.285</em> it&#x27;s also good to add a function here.</p>
+<p><em>01:19:23.895</em> And you have kind of a simulation.</p>
+<p><em>01:19:26.345</em> Everything, uh, that you want to adjust needs</p>
+<p><em>01:19:29.775</em> to happen in the, in the sketch</p>
+<p><em>01:19:35.415</em> we design in the sketch, the rest are just, uh, operations</p>
+<p><em>01:19:39.465</em> that can be 3D or animations.</p>
+<p><em>01:19:47.595</em> But the location to specify, uh, dimensions</p>
+<p><em>01:19:50.835</em> and relationships happens here.</p>
+<p><em>01:19:59.545</em> And again, you can do a lot of things.</p>
+<p><em>01:20:01.245</em> You can also do copy paste,</p>
+<p><em>01:20:10.635</em> Do it manually if you prefer.</p>
+<p><em>01:20:11.955</em> It is not recommended because you have a lot</p>
+<p><em>01:20:13.735</em> of possibility in the software to automate things</p>
+<p><em>01:20:18.685</em> and you can go back at any</p>
+<p><em>01:20:20.625</em> point to what you did.</p>
+<p><em>01:20:31.915</em> And for example, if you have since at the beginning a couple</p>
+<p><em>01:20:34.775</em> of tick that you want to try, there is also the possibility,</p>
+<p><em>01:20:38.835</em> uh, to create your own value.</p>
+<p><em>01:20:40.875</em> So this thing is something you find under modify</p>
+<p><em>01:20:44.275</em> and you can add your own parameters here.</p>
+<p><em>01:20:47.425</em> So you have a menu that you can just create a parameter</p>
+<p><em>01:20:52.085</em> where you can have a name like, uh, leather thickness,</p>
+<p><em>01:20:57.105</em> you can write 1.2</p>
+<p><em>01:21:05.035</em> and then instead of 0.8, you can just click um,</p>
+<p><em>01:21:09.075</em> select letter thickness.</p>
+<p><em>01:21:11.205</em> This also, yeah, or the other way around.</p>
+<p><em>01:21:15.335</em> You can write letter thickness here, confirm.</p>
+<p><em>01:21:20.065</em> And then under modify change the value here</p>
+<p><em>01:21:25.505</em> through 0.5 and you see that this got updated</p>
+<p><em>01:21:40.675</em> or any other value,</p>
+<p><em>01:21:51.795</em> but in case it&#x27;s useful it can</p>
+<p><em>01:21:56.025</em> also work, uh, like that.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-parameters" aria-label="Fusion 表达式与用户参数 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-next-steps">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1123595692/25e8b5345e#t=4932s" target="_blank" rel="noopener">82:12 → 84:20</a><h2 class="chapter-title">参考案例、课程文件与记录</h2><span class="chapter-num">15 / 15</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">以基础模块为起点继续迭代，参考已有作品、拆解连接方式，并记录制作过程与问题。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4956s" target="_blank" rel="noopener" aria-label="在原视频查看 82:36 把演示作为设计起点">82:36</a>把演示作为设计起点</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4981s" target="_blank" rel="noopener" aria-label="在原视频查看 83:01 拆解与改进连接">83:01</a>拆解与改进连接</li><li><a href="https://vimeo.com/1123595692/25e8b5345e#t=4997s" target="_blank" rel="noopener" aria-label="在原视频查看 83:17 文件分享与问题反馈">83:17</a>文件分享与问题反馈</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-next-steps"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/next-steps-1.jpg" alt="82:50 · 课程收尾时的视频画面；参考案例与记录要求由讲师口头说明" data-caption="82:50 · 课程收尾时的视频画面；参考案例与记录要求由讲师口头说明" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">82:50 · 课程收尾时的视频画面；参考案例与记录要求由讲师口头说明</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>演示模块是基础练习，鼓励通过参考案例发展自己的连接与造型。</li><li>拆解现有模块可以帮助理解接口如何工作以及哪里可以改进。</li><li>讲师表示会在 Mattermost 分享文件；遇到问题时附截图和具体描述，便于讨论。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>过程文档</strong><span class="term-tip">记录设计、参数、材料、测试结果与修改理由。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>整理本次源文件、输出文件和连接测试照片。</li><li>选一个需要改进的接口，记录下一轮修改计划。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>01:22:12.945</em> And I don&#x27;t know if there is, uh, more questions.</p>
+<p><em>01:22:18.865</em> I hope all of you somehow managed</p>
+<p><em>01:22:20.745</em> to create a module or a couple of those.</p>
+<p><em>01:22:36.745</em> I hope you will do something more creative than</p>
+<p><em>01:22:38.905</em> what I showed you because this is just a starting point</p>
+<p><em>01:22:49.125</em> and you have many references uh,</p>
+<p><em>01:22:50.965</em> out there you can see on os circular fashion.</p>
+<p><em>01:22:53.725</em> So many inspirations,</p>
+<p><em>01:22:54.935</em> many great projects developed in public academy.</p>
+<p><em>01:23:01.055</em> If you have them try to disassemble to understand</p>
+<p><em>01:23:04.455</em> how the things things are made, how the connection can work,</p>
+<p><em>01:23:07.145</em> but also can be improved.</p>
+<p><em>01:23:17.605</em> And I will be sharing this by in math most,</p>
+<p><em>01:23:19.965</em> and I think if nobody has questions, we can just,</p>
+<p><em>01:23:22.565</em> um, close the session.</p>
+<p><em>01:23:32.745</em> Yeah. Okay. And thank you so much.</p>
+<p><em>01:23:36.015</em> Uh, I hope it was clear enough</p>
+<p><em>01:23:37.695</em> to understand at least the fundamentals of the software.</p>
+<p><em>01:23:42.295</em> And uh, please let me know if you need any help.</p>
+<p><em>01:23:45.775</em> You can post in the Matmos channel.</p>
+<p><em>01:23:48.115</em> I can put a screenshot so I can, uh, I also have an idea,</p>
+<p><em>01:23:53.015</em> uh, where is the problem?</p>
+<p><em>01:23:54.345</em> What is the problem? And, uh, have fun.</p>
+<p><em>01:24:00.325</em> Thank you. Bye. Thank you. Bye-bye. Thank you. Thank you.</p>
+<p><em>01:24:06.845</em> Thank you. Thank you Byebye.</p>
+<p><em>01:24:09.585</em> Your collections, document everything. Bye everyone.</p>
+<p><em>01:24:14.165</em> See you in the next, uh, week&#x27;s record, um, review.</p>
+<p><em>01:24:19.165</em> Bye.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-next-steps" aria-label="参考案例、课程文件与记录 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <p>
+        AI 笔记更新于 <strong>2026-09-20</strong> · 基于 Vimeo 自动字幕 (En-x-autogen) + 内容理解<br>
+        原始视频: <a href="https://vimeo.com/1123595692/25e8b5345e" target="_blank" rel="noopener">模块化时装：从参数化绘图到连接与组装</a> · 
+        字幕文件: <a href="source.en-x-autogen.vtt" download>VTT</a>
+      </p>
+      <p style="margin-top: 8px; font-size: 12px;">
+        整理: Codex · 字幕获取: yt-dlp · 风格: GitHub Dark Dimmed
+      </p>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  // Both generations keep the existing storage object; semantic IDs avoid reassigning old notes.
+  document.addEventListener('DOMContentLoaded', () => {
+    const STORAGE_KEY = "fabricademy-1123595692-notes-v1";
+    let saved = {};
+    let storageAvailable = true;
+    try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (e) { storageAvailable = false; }
+    if (!saved || typeof saved !== 'object' || Array.isArray(saved)) saved = {};
+
+    const legacyEntries = document.querySelectorAll('.legacy-note');
+    let legacyCount = 0;
+    legacyEntries.forEach(entry => {
+      const note = saved[entry.dataset.legacyKey];
+      if (typeof note !== 'string' || !note.trim()) return;
+      entry.querySelector('p').textContent = note;
+      entry.hidden = false;
+      legacyCount++;
+    });
+    const legacyPanel = document.querySelector('.legacy-notes');
+    if (legacyPanel) legacyPanel.hidden = legacyCount === 0;
+
+    document.querySelectorAll('textarea[data-chapter]').forEach(ta => {
+      const key = ta.dataset.chapter;
+      const status = ta.parentElement.querySelector('.notes-status');
+      if (typeof saved[key] === 'string') {
+        ta.value = saved[key];
+        status.textContent = '已读取本地笔记';
+      } else if (!storageAvailable) {
+        status.textContent = '当前预览无法读取本地笔记，请在普通浏览器记录并保存。';
+      }
+      let timer;
+      ta.addEventListener('input', () => {
+        clearTimeout(timer);
+        status.textContent = '保存中...';
+        timer = setTimeout(() => {
+          try {
+            const latest = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+            if (latest && typeof latest === 'object' && !Array.isArray(latest)) saved = latest;
+            saved[key] = ta.value;
+            saved[key + '_ts'] = Date.now();
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+            status.textContent = '已自动保存 · ' + new Date().toLocaleTimeString();
+          } catch (e) { status.textContent = '本地保存失败，请复制笔记备份。'; }
+        }, 400);
+      });
+    });
+  });
+
+  // ===== Smooth scroll & active TOC highlight =====
+  const tocLinks = document.querySelectorAll('.toc a');
+  const sections = document.querySelectorAll('.chapter');
+
+  // srcdoc fragment links inherit the host URL. Keep in-page navigation inside the preview.
+  if (window.location.href.split('#')[0] === 'about:srcdoc') {
+    document.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey ||
+          event.ctrlKey || event.shiftKey || event.altKey) return;
+      const link = event.target.closest('a[href^="#"]');
+      if (!link) return;
+      const target = document.getElementById(link.getAttribute('href').slice(1));
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ block: 'start', behavior: 'auto' });
+    });
+  }
+
+  // Use IntersectionObserver to highlight active section in TOC
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        tocLinks.forEach(l => { l.style.borderLeftColor = 'transparent'; l.style.color = ''; l.removeAttribute('aria-current'); });
+        const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
+        if (link) {
+          link.style.borderLeftColor = 'var(--accent)';
+          link.style.color = 'var(--accent)';
+          link.setAttribute('aria-current', 'location');
+        }
+      }
+    });
+  }, { rootMargin: '-20% 0px -75% 0px' });
+  sections.forEach(s => observer.observe(s));
+
+  document.querySelectorAll('.carousel').forEach((c, chapterIndex) => {
+    const imgs = [...c.querySelectorAll('.carousel-img')];
+    const dots = c.querySelector('.carousel-dots');
+    dots.replaceChildren();
+    c.tabIndex = 0;
+    c.setAttribute('role', 'region');
+    c.setAttribute('aria-label', `第${chapterIndex + 1}章视频截图，左右方向键切换`);
+    const counter = document.createElement('span');
+    counter.className = 'carousel-counter';
+    counter.setAttribute('aria-live', 'polite');
+    c.append(counter);
+    let current = 0;
+    const buttons = imgs.map((img, i) => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = 'dot';
+      button.setAttribute('aria-label', `第${i + 1}张截图`);
+      button.addEventListener('click', () => go(i)); dots.append(button);
+      return button;
+    });
+    function go(n) {
+      current = (n + imgs.length) % imgs.length;
+      imgs.forEach((img, i) => { img.classList.toggle('active', i === current); img.setAttribute('aria-hidden', String(i !== current)); });
+      buttons.forEach((button, i) => { button.classList.toggle('active', i === current); button.setAttribute('aria-pressed', String(i === current)); });
+      counter.textContent = `${current + 1} / ${imgs.length}`;
+      c.closest('figure').querySelector('.frame-caption').textContent = imgs[current].dataset.caption;
+    }
+    c.querySelector('.prev').addEventListener('click', () => go(current - 1));
+    c.querySelector('.next').addEventListener('click', () => go(current + 1));
+    c.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { e.preventDefault(); go(current + (e.key === 'ArrowRight' ? 1 : -1)); }
+    });
+    go(0);
+  });
+</script>
+</body>
+</html>

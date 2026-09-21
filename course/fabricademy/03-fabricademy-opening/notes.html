@@ -1,0 +1,1565 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>视觉文档化：案例、素材与媒体制作 · AI 笔记</title>
+<meta name="description" content="Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。" />
+<style>
+  /* ===== Reset & Base ===== */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    background: #0d1117;
+    color: #c9d1d9;
+    line-height: 1.7;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  :root {
+    --bg-0: #0d1117;
+    --bg-1: #161b22;
+    --bg-2: #1c2128;
+    --border: #30363d;
+    --text-0: #c9d1d9;
+    --text-1: #8b949e;
+    --text-2: #6e7681;
+    --accent: #58a6ff;
+    --accent-2: #7ee787;
+    --accent-3: #d2a8ff;
+    --warn: #d29922;
+    --danger: #f85149;
+    --code-bg: #161b22;
+    --shadow: 0 8px 24px rgba(0,0,0,0.4);
+  }
+
+  /* ===== Layout ===== */
+  .app {
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    min-height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* ===== Sidebar ===== */
+  .sidebar {
+    background: var(--bg-1);
+    border-right: 1px solid var(--border);
+    padding: 24px 0;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar-header {
+    padding: 0 20px 16px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 16px;
+  }
+  .sidebar-header h2 {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--text-1);
+    font-weight: 600;
+  }
+  .sidebar-header p {
+    font-size: 12px;
+    color: var(--text-2);
+    margin-top: 4px;
+  }
+
+  .toc { list-style: none; }
+  .toc li {
+    margin: 0;
+  }
+  .toc a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 20px;
+    color: var(--text-0);
+    text-decoration: none;
+    font-size: 13px;
+    border-left: 2px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .toc a:hover {
+    background: var(--bg-2);
+    border-left-color: var(--accent);
+    color: var(--accent);
+  }
+  .toc-time {
+    color: var(--text-2);
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 11px;
+    min-width: 44px;
+  }
+  .toc-text {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* ===== Main ===== */
+  .main {
+    padding: 40px 56px 80px;
+    max-width: 920px;
+  }
+
+  /* ===== Hero ===== */
+  .hero {
+    background: linear-gradient(135deg, var(--bg-1), var(--bg-2));
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 0;
+    margin-bottom: 40px;
+    box-shadow: var(--shadow);
+    overflow: hidden;
+  }
+  .hero-thumb {
+    width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    background: linear-gradient(135deg, #1a1f29, #0d1117);
+    border-bottom: 1px solid var(--border);
+  }
+  .hero-body { padding: 28px 32px 32px; }
+  .hero-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-bottom: 16px;
+  }
+  .tag {
+    background: rgba(88,166,255,0.1);
+    color: var(--accent);
+    border: 1px solid rgba(88,166,255,0.3);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 500;
+  }
+  .tag.green { background: rgba(126,231,135,0.1); color: var(--accent-2); border-color: rgba(126,231,135,0.3); }
+  .tag.purple { background: rgba(210,168,255,0.1); color: var(--accent-3); border-color: rgba(210,168,255,0.3); }
+  .tag.warn { background: rgba(210,153,34,0.1); color: var(--warn); border-color: rgba(210,153,34,0.3); }
+
+  .hero h1 {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    color: #f0f6fc;
+  }
+  .hero-author {
+    color: var(--text-1);
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  .hero-author a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+  }
+  .stat-value { font-size: 20px; font-weight: 600; color: #f0f6fc; }
+  .stat-label { font-size: 12px; color: var(--text-1); margin-top: 2px; text-transform: uppercase; letter-spacing: 0.05em; }
+
+  .hero-actions {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+  }
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 16px;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text-0);
+    text-decoration: none;
+    font-size: 13px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+  .btn:hover { background: var(--bg-0); border-color: var(--accent); color: var(--accent); }
+  .btn.primary { background: var(--accent); color: var(--bg-0); border-color: var(--accent); font-weight: 600; }
+  .btn.primary:hover { background: #79b8ff; color: var(--bg-0); }
+
+  /* ===== Chapter Card ===== */
+  .chapter {
+    background: var(--bg-1);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 28px 32px;
+    margin-bottom: 28px;
+    scroll-margin-top: 24px;
+    transition: border-color 0.2s ease;
+  }
+  .chapter:hover { border-color: var(--accent); }
+
+  .chapter-header {
+    display: flex;
+    align-items: baseline;
+    gap: 14px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+  }
+  .chapter-time {
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    background: var(--bg-2);
+    color: var(--accent);
+    padding: 4px 10px;
+    border-radius: 6px;
+    font-size: 12px;
+    font-weight: 600;
+    text-decoration: none;
+    border: 1px solid transparent;
+    transition: all 0.15s ease;
+  }
+  .chapter-time:hover {
+    border-color: var(--accent);
+    background: rgba(88,166,255,0.1);
+  }
+  .chapter-title {
+    font-size: 22px;
+    font-weight: 600;
+    color: #f0f6fc;
+    flex: 1;
+    min-width: 200px;
+  }
+  .chapter-num {
+    color: var(--text-2);
+    font-size: 13px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  .chapter-section {
+    margin-top: 18px;
+  }
+  .chapter-section-title {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--text-1);
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .chapter-section-title::before {
+    content: "";
+    width: 3px;
+    height: 12px;
+    background: var(--accent);
+    border-radius: 2px;
+  }
+
+  /* 本章摘要 box */
+  .tldr {
+    background: linear-gradient(135deg, rgba(88,166,255,0.08), rgba(126,231,135,0.05));
+    border: 1px solid rgba(88,166,255,0.2);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    padding: 14px 18px;
+    color: #e6edf3;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+  .tldr strong { color: var(--accent); font-weight: 600; }
+
+  /* Key points list */
+  .key-points {
+    list-style: none;
+    padding: 0;
+  }
+  .key-points li {
+    position: relative;
+    padding: 6px 0 6px 22px;
+    color: var(--text-0);
+  }
+  .key-points li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: var(--accent-2);
+    font-weight: 600;
+  }
+
+  /* Term chips */
+  .terms {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+  .term {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    color: var(--text-0);
+    position: relative;
+    cursor: help;
+  }
+  .term strong {
+    color: var(--accent-3);
+    font-weight: 600;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+    font-size: 12px;
+  }
+  .term:hover {
+    border-color: var(--accent);
+  }
+  .term-tip {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    color: var(--text-0);
+    width: 240px;
+    z-index: 10;
+    margin-bottom: 6px;
+    box-shadow: var(--shadow);
+  }
+  .term:hover .term-tip { display: block; }
+
+  /* Action items */
+  .actions {
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 14px 18px;
+  }
+  .actions ol { padding-left: 22px; color: var(--text-0); }
+  .actions li { padding: 4px 0; }
+  .actions code {
+    background: var(--bg-0);
+    color: var(--accent-2);
+    padding: 1px 6px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+
+  /* Original transcript */
+  details.transcript {
+    margin-top: 16px;
+    background: var(--bg-2);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+  }
+  details.transcript summary {
+    padding: 10px 14px;
+    cursor: pointer;
+    color: var(--text-1);
+    font-size: 13px;
+    list-style: none;
+    user-select: none;
+  }
+  details.transcript summary::-webkit-details-marker { display: none; }
+  details.transcript summary::before {
+    content: "▸ ";
+    color: var(--accent);
+    transition: transform 0.15s ease;
+    display: inline-block;
+  }
+  details.transcript[open] summary::before { transform: rotate(90deg); }
+  details.transcript summary:hover { color: var(--accent); }
+  .transcript-body {
+    padding: 0 14px 14px;
+    color: var(--text-1);
+    font-size: 13px;
+    line-height: 1.65;
+    border-top: 1px solid var(--border);
+    padding-top: 12px;
+  }
+  .transcript-body p { margin-bottom: 8px; }
+  .transcript-body em {
+    color: var(--warn);
+    font-style: normal;
+    font-size: 11px;
+    background: rgba(210,153,34,0.1);
+    padding: 1px 6px;
+    border-radius: 3px;
+    display: inline-block;
+    margin-left: 4px;
+  }
+
+  /* Notes */
+  .notes-area {
+    margin-top: 16px;
+  }
+  .notes-area textarea {
+    width: 100%;
+    min-height: 80px;
+    background: var(--bg-0);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    padding: 10px 14px;
+    color: var(--text-0);
+    font-family: inherit;
+    font-size: 13px;
+    resize: vertical;
+    transition: border-color 0.15s ease;
+  }
+  .notes-area textarea:focus {
+    outline: none;
+    border-color: var(--accent);
+  }
+  .notes-status {
+    font-size: 11px;
+    color: var(--text-2);
+    margin-top: 4px;
+    text-align: right;
+  }
+
+  /* ===== Image Carousel ===== */
+  .carousel {
+    position: relative;
+    margin: 4px 0 8px;
+    background: #000;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+  }
+  .carousel-viewport { position: relative; width: 100%; height: 100%; }
+  .carousel-img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+  .carousel-img.active { opacity: 1; }
+  .carousel-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px; height: 36px;
+    border-radius: 50%;
+    background: rgba(13,17,23,.7);
+    color: var(--text-0);
+    border: 1px solid var(--border);
+    cursor: pointer;
+    font-size: 18px;
+    display: flex; align-items: center; justify-content: center;
+    z-index: 2;
+  }
+  .carousel-btn:hover { background: rgba(88,166,255,.25); }
+  .carousel-btn.prev { left: 8px; }
+  .carousel-btn.next { right: 8px; }
+  .carousel-dots {
+    position: absolute; bottom: 8px; left: 50%;
+    transform: translateX(-50%);
+    display: flex; gap: 6px;
+    z-index: 2;
+  }
+  .dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: rgba(201,209,217,.4);
+  }
+  .dot.active { background: var(--accent); }
+
+  /* ===== Footer ===== */
+  .footer {
+    margin-top: 60px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    color: var(--text-2);
+    font-size: 13px;
+    text-align: center;
+  }
+  .footer a { color: var(--accent); text-decoration: none; }
+  .footer a:hover { text-decoration: underline; }
+
+  /* ===== Responsive ===== */
+  @media (max-width: 900px) {
+    .app { grid-template-columns: 1fr; }
+    .sidebar {
+      position: relative;
+      height: auto;
+      max-height: 50vh;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+    }
+    .main { padding: 24px; }
+    .hero-stats { grid-template-columns: repeat(2, 1fr); }
+    .hero h1 { font-size: 22px; }
+  }
+
+  /* ===== Print ===== */
+  @media print {
+    .sidebar, .notes-area, .hero-actions, details.transcript { display: none; }
+    .main { padding: 0; }
+    .chapter { break-inside: avoid; border: 1px solid #ccc; }
+    body { background: white; color: black; }
+  }
+  .carousel:focus-visible, button:focus-visible, .term:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+  .carousel-counter { position: absolute; left: 12px; top: 10px; padding: 3px 8px; background: rgba(13,17,23,.85); border-radius: 4px; font-size: 12px; }
+  button.dot { border: 0; padding: 8px; cursor: pointer; }
+  .term:focus .term-tip { opacity: 1; visibility: visible; }
+  .transcript-body { max-height: 420px; overflow: auto; }
+  .main, .chapter { min-width: 0; overflow-wrap: anywhere; }
+  @media (max-width: 480px) { .main { padding: 16px 12px; } .chapter { padding: 20px 16px; } }
+  @media (prefers-reduced-motion: reduce) { * { scroll-behavior: auto !important; transition: none !important; } }
+  .chapter-map-note { color: var(--text-1); font-size: 13px; margin: 16px 0; }
+  .chapter-moments { padding-left: 20px; color: var(--text-1); }
+  .chapter-moments li { margin: 5px 0; }
+  .chapter-moments a { color: var(--accent); font-variant-numeric: tabular-nums; text-decoration: none; margin-right: 8px; }
+  .chapter-visual { margin: 16px 0 24px; }
+  .frame-caption { color: var(--text-1); font-size: 13px; line-height: 1.6; margin-top: 8px; }
+  .legacy-anchor { display: block; height: 0; }
+  .legacy-notes { background: var(--bg-1); padding: 24px; border: 1px solid var(--border); border-radius: 12px; }
+  .legacy-notes[hidden] { display: none; }
+  .legacy-note { border-top: 1px solid var(--border); padding: 16px 0; }
+  .legacy-note p { white-space: pre-wrap; overflow-wrap: anywhere; }
+  .legacy-note a { color: var(--accent); }
+</style>
+</head>
+<body>
+<div class="app">
+
+  <!-- ============ SIDEBAR ============ -->
+  <aside class="sidebar">
+    <div class="sidebar-header">
+      <h2>章节时间轴</h2>
+      <p>共 16 章 · 按实际主题划分</p>
+    </div>
+    <ul class="toc" id="toc">
+<li><a href="#topic-introduction"><span class="toc-time">00:00</span><span class="toc-text">1. 视觉文档化的目标与课程路线</span></a></li>
+<li><a href="#topic-archive-assignment"><span class="toc-time">02:40</span><span class="toc-text">2. Class Archive、Handbook 与第一周任务</span></a></li>
+<li><a href="#topic-visual-examples"><span class="toc-time">06:50</span><span class="toc-text">3. 从模板到个人表达：案例与信息组织</span></a></li>
+<li><a href="#topic-audio-motion"><span class="toc-time">14:00</span><span class="toc-text">4. 语音记录与轻量动态媒体</span></a></li>
+<li><a href="#topic-image-resources"><span class="toc-time">15:44</span><span class="toc-text">5. 配色、素材、拼贴与图片处理工具</span></a></li>
+<li><a href="#topic-ai-practice"><span class="toc-time">20:45</span><span class="toc-text">6. AI 辅助的边界、披露与事实核对</span></a></li>
+<li><a href="#topic-credit-license"><span class="toc-time">25:02</span><span class="toc-text">7. Creative Commons 与图片署名</span></a></li>
+<li><a href="#topic-pdf-archive"><span class="toc-time">27:34</span><span class="toc-text">8. PDF、手册与作品集：先归档再嵌入</span></a></li>
+<li><a href="#topic-fabrication-files"><span class="toc-time">31:39</span><span class="toc-text">9. 制造文件打包与三维模型预览</span></a></li>
+<li><a href="#topic-video-embed"><span class="toc-time">33:31</span><span class="toc-text">10. 视频托管与嵌入网页</span></a></li>
+<li><a href="#topic-raster-vector"><span class="toc-time">34:48</span><span class="toc-text">11. 位图、矢量与制造路径</span></a></li>
+<li><a href="#topic-image-size"><span class="toc-time">37:33</span><span class="toc-text">12. 缩放、批处理与网页图片大小</span></a></li>
+<li><a href="#topic-photo-story"><span class="toc-time">39:32</span><span class="toc-text">13. 拍摄材料、步骤与使用场景</span></a></li>
+<li><a href="#topic-capture-tools"><span class="toc-time">43:33</span><span class="toc-text">14. 拍摄支架、截图与自制工具</span></a></li>
+<li><a href="#topic-video-production"><span class="toc-time">46:29</span><span class="toc-text">15. 视频剪辑、编码、素材与声音</span></a></li>
+<li><a href="#topic-questions-close"><span class="toc-time">50:44</span><span class="toc-text">16. 答疑：图片尺寸、AI 辅助与课程收尾</span></a></li>
+    </ul>
+  </aside>
+
+  <!-- ============ MAIN ============ -->
+  <main class="main">
+
+    <!-- HERO -->
+    <section class="hero">
+      <a href="https://vimeo.com/1227439129/682b057477" target="_blank" rel="noopener">
+        <img class="hero-thumb" src="source.jpg" alt="视觉文档化：案例、素材与媒体制作 视频封面" />
+      </a>
+      <div class="hero-body">
+        <div class="hero-meta">
+        <span class="tag">教程</span>
+        <span class="tag green">视觉文档化</span>
+        
+        <span class="tag warn">Vimeo 自动字幕 · 有错别字</span>
+      </div>
+      <h1>视觉文档化：案例、素材与媒体制作</h1>
+      <p class="hero-author">
+        课程发布方: <a href="https://vimeo.com/fabricademy" target="_blank" rel="noopener">Fabricademy, Textile Academy</a> · 
+        Fabricademy · 2026-09-16 · 
+        原始视频: <a href="https://vimeo.com/1227439129/682b057477" target="_blank" rel="noopener">Fabricademy · 2026-09-16</a>
+      </p>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-value">0h 56m 48s</div>
+          <div class="stat-label">时长</div>
+        </div>
+        <div>
+          <div class="stat-value">16</div>
+          <div class="stat-label">章节</div>
+        </div>
+        <div>
+          <div class="stat-value">715</div>
+          <div class="stat-label">字幕 cues</div>
+        </div>
+        <div>
+          <div class="stat-value">Auto</div>
+          <div class="stat-label">字幕类型</div>
+        </div>
+      </div>
+      <p class="chapter-map-note">按讲解主题划分章节，保留视频顺序。较长章节可通过「本章内容」定位具体操作；原文字幕保留自动识别结果。</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="https://vimeo.com/1227439129/682b057477" target="_blank" rel="noopener">▶ 打开原视频</a>
+        <a class="btn" href="../index.html">← 全部课程</a>
+        <a class="btn" href="source.en-x-autogen.vtt" download>下载 VTT 字幕</a>
+      </div>
+      </div><!-- /.hero-body -->
+    </section>
+
+<section class="chapter" id="topic-introduction">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=0s" target="_blank" rel="noopener">00:00 → 02:40</a><h2 class="chapter-title">视觉文档化的目标与课程路线</h2><span class="chapter-num">01 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">Claudia Simonelli 介绍自己的设计与教学背景，说明本课将从资料入口、案例和工具走向媒体制作。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=21s" target="_blank" rel="noopener" aria-label="在原视频查看 00:21 讲师背景">00:21</a>讲师背景</li><li><a href="https://vimeo.com/1227439129/682b057477#t=64s" target="_blank" rel="noopener" aria-label="在原视频查看 01:04 课程路线">01:04</a>课程路线</li><li><a href="https://vimeo.com/1227439129/682b057477#t=125s" target="_blank" rel="noopener" aria-label="在原视频查看 02:05 工具准备">02:05</a>工具准备</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-introduction"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/introduction-1.jpg" alt="01:40 · 本次视觉文档化课程的内容路线" data-caption="01:40 · 本次视觉文档化课程的内容路线" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">01:40 · 本次视觉文档化课程的内容路线</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本课关注如何把自己的过程与成果表达清楚，后续 Julian 的课程再深入网站和 Markdown。</li><li>课程包含视觉案例、软件选择、AI 使用、署名许可及媒体制作资源。</li><li>GIMP 和 Inkscape 被介绍为可探索的开源工具；本段不要求所有人更换已熟悉的软件。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>视觉文档化</strong><span class="term-tip">用图像、文字和媒体记录过程、解释结果并帮助他人理解。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>整理自己已有的照片、作品与研究材料，作为本周网站内容的起点。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:00:03.000</em> Okay. Good morning, good afternoon, good evening, everyone.</p>
+<p><em>00:00:06.900</em> I hope you had a very nice Tuesday yesterday.</p>
+<p><em>00:00:10.170</em> Hope you were inspired enough</p>
+<p><em>00:00:13.650</em> to start creating your own documentation this week.</p>
+<p><em>00:00:17.625</em> And we can start with the first tutorial on visual documentation.</p>
+<p><em>00:00:21.870</em> First of all, I think I can introduce better myself.</p>
+<p><em>00:00:25.860</em> My name is Claudia Simonelli. I&#x27;m an Italian designer, actually based now in</p>
+<p><em>00:00:30.420</em> Jordan. I work here in the Crown Prince Foundation Makerspace, where I&#x27;m also the</p>
+<p><em>00:00:35.640</em> local instructor for Fab Academy, and also at the general level in the academy, I</p>
+<p><em>00:00:39.990</em> serve as communication manager.</p>
+<p><em>00:00:43.200</em> I have a background in both project and communication design, so I think the skills</p>
+<p><em>00:00:49.290</em> are very good to show you what I&#x27;ve prepared for you.</p>
+<p><em>00:00:54.540</em> And let me share my screen.</p>
+<p><em>00:00:59.370</em> I hope you can see better. So this presentation will be not very boring.</p>
+<p><em>00:01:04.890</em> It will be full of visuals. We&#x27;re going to talk about different things, starting</p>
+<p><em>00:01:10.680</em> from what will be your best friend during the six months, but especially this week,</p>
+<p><em>00:01:15.090</em> which is the Class Archive.</p>
+<p><em>00:01:18.780</em> I will show you different documentations that have been also created during these</p>
+<p><em>00:01:24.211</em> 10 years of Fab Academy. Different tools, so you have different alternatives in</p>
+<p><em>00:01:29.340</em> terms of processing techniques, and software to explore, especially in this first</p>
+<p><em>00:01:35.040</em> phase of the academy. We&#x27;re going to talk a little bit about AI, but also the</p>
+<p><em>00:01:39.690</em> credits and the license. And I have also prepared at the end of the slides,</p>
+<p><em>00:01:44.521</em> different resources in the list, so you can choose also different platforms that</p>
+<p><em>00:01:50.190</em> are available online for you to browse information, to search open source features,</p>
+<p><em>00:01:55.290</em> and et cetera. If you have questions, maybe it&#x27;s better to tackle all of them at</p>
+<p><em>00:02:00.570</em> once at the end of the session, and for now, you can put them in the chat.</p>
+<p><em>00:02:05.880</em> As I was saying earlier, you can download already the software.</p>
+<p><em>00:02:09.660</em> I prepared something in GIMP, so the workflow will be very much similar</p>
+<p><em>00:02:15.330</em> in other software. In Fab Academy, we strongly promote the open source one.</p>
+<p><em>00:02:20.400</em> So for example, Inkscape is very good also for next week for laser cutting, but</p>
+<p><em>00:02:25.470</em> also to create logo and those kind of things. That&#x27;s something that is vector.</p>
+<p><em>00:02:29.985</em> And GIMP is the best alternative to Photoshop.</p>
+<p><em>00:02:33.690</em> But of course, every year there is a lot of software that are still new and</p>
+<p><em>00:02:38.340</em> released.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-introduction" aria-label="视觉文档化的目标与课程路线 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-archive-assignment">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=160s" target="_blank" rel="noopener">02:40 → 06:50</a><h2 class="chapter-title">Class Archive、Handbook 与第一周任务</h2><span class="chapter-num">02 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">通过课程档案查找参与者、往届案例和工具，再用手册确认第一周作业要求。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=204s" target="_blank" rel="noopener" aria-label="在原视频查看 03:24 定位个人网站">03:24</a>定位个人网站</li><li><a href="https://vimeo.com/1227439129/682b057477#t=242s" target="_blank" rel="noopener" aria-label="在原视频查看 04:02 按周查找工具">04:02</a>按周查找工具</li><li><a href="https://vimeo.com/1227439129/682b057477#t=304s" target="_blank" rel="noopener" aria-label="在原视频查看 05:04 手册与作业">05:04</a>手册与作业</li><li><a href="https://vimeo.com/1227439129/682b057477#t=353s" target="_blank" rel="noopener" aria-label="在原视频查看 05:53 第一周内容要求">05:53</a>第一周内容要求</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-archive-assignment"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/archive-assignment-1.jpg" alt="03:38 · 课程档案中的参与者入口" data-caption="03:38 · 课程档案中的参与者入口" loading="lazy"><img class="carousel-img" src="frames/archive-assignment-2.jpg" alt="05:40 · 第一周学习目标与作业要求" data-caption="05:40 · 第一周学习目标与作业要求" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">03:38 · 课程档案中的参与者入口</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>Class Archive 提供当前与往届参与者入口，网站按实验室组织；工具按周次汇总。</li><li>Handbook 用来核对学习目标和作业要求，不能只凭案例猜测本周交付。</li><li>本次第一周要求包括个人背景、过往作品、研究参考及网站记录，并开始学习 Git 版本控制。</li><li>网站个性化可以逐步完成，先让内容与结构清楚。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Class Archive</strong><span class="term-tip">课程资源、参与者与往届学习记录的入口。</span></span><span class="term" tabindex="0"><strong>Handbook</strong><span class="term-tip">集中说明学习目标及作业要求的课程手册。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>从课程档案定位自己的页面和本周手册。</li><li>列出自我介绍、作品、研究参考和本周学习过程。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:02:40.921</em> Okay, we move forward. So the Class Archive is how we refer to this website,</p>
+<p><em>00:02:45.780</em> class.textile-academy.org. I think all of you yesterday at least had a peek</p>
+<p><em>00:02:51.960</em> of this website that looks like this.</p>
+<p><em>00:02:54.480</em> This is a website that is organized in a similar way of your web pages.</p>
+<p><em>00:03:00.480</em> So it&#x27;s like a platform that is being maintained by myself, Anastasia, Cecile, and</p>
+<p><em>00:03:05.400</em> Julian. So we also work in a very similar way.</p>
+<p><em>00:03:09.750</em> We create content that we commit, and we push to the server of Fabric Network.</p>
+<p><em>00:03:16.410</em> In the session afterwards with Julian, he will be also deep diving more into the</p>
+<p><em>00:03:20.910</em> markdown and your actual website.</p>
+<p><em>00:03:24.480</em> For now, I just want to remind you where you can find yourself, your website, so</p>
+<p><em>00:03:29.041</em> you have different ways to access the resources here.</p>
+<p><em>00:03:32.220</em> One is on the top where you have participants.</p>
+<p><em>00:03:34.830</em> So if you click on that, it&#x27;s a shortcut for finding the current participant list,</p>
+<p><em>00:03:40.050</em> and they are organized under the labs.</p>
+<p><em>00:03:42.150</em> Or if you scroll a little bit down, you can find the participants across the</p>
+<p><em>00:03:46.470</em> different years. So if you&#x27;re also curious about somebody else&#x27;s documentations,</p>
+<p><em>00:03:52.020</em> maybe there&#x27;s something that you want to see specifically, you can go back in time</p>
+<p><em>00:03:57.990</em> and check the different assignments.</p>
+<p><em>00:04:02.101</em> One other thing that I want to mention is that we have different tools.</p>
+<p><em>00:04:07.020</em> On top you can see, click on the tools, and we have different software already</p>
+<p><em>00:04:11.791</em> organized per week. So for example, we have different platform that we suggest for</p>
+<p><em>00:04:16.650</em> you to explore, starting from today.</p>
+<p><em>00:04:19.981</em> So for example, somebody was asking about Canva. Yeah, Canva is a very good one.</p>
+<p><em>00:04:24.451</em> It&#x27;s online, so you don&#x27;t have also</p>
+<p><em>00:04:27.480</em> to use your computer. You can rely on the app on the phone, on the app on the</p>
+<p><em>00:04:31.470</em> tablet,</p>
+<p><em>00:04:33.360</em> as well as the browser here. For the vector, we have our software as well as you</p>
+<p><em>00:04:38.430</em> can see here on the side for the different weeks.</p>
+<p><em>00:04:44.730</em> If you also</p>
+<p><em>00:04:46.680</em> have some suggestion that you want to make, also feel free, and you can also put</p>
+<p><em>00:04:50.640</em> them in the chat. So we will be very happy to add every year the new software,</p>
+<p><em>00:04:55.650</em> especially if they are open source.</p>
+<p><em>00:05:04.980</em> Yeah, so the other very useful resource for you and for these six months is the</p>
+<p><em>00:05:09.420</em> handbook. Also, the handbook you can find in the Class Archive.</p>
+<p><em>00:05:14.460</em> It looks</p>
+<p><em>00:05:17.070</em> very similar also in this platform.</p>
+<p><em>00:05:19.020</em> You can find for all the different selection of the assignments with the learning</p>
+<p><em>00:05:23.310</em> outcomes, the objective. Everything is also here linked in the slides afterwards.</p>
+<p><em>00:05:29.055</em> So everything is here interactive, at hand.</p>
+<p><em>00:05:34.470</em> And of course, in the handbook is also written what you&#x27;re asked to do to develop</p>
+<p><em>00:05:40.080</em> your assignment. So starting from today, you have roughly six days.</p>
+<p><em>00:05:45.285</em> So next Tuesday, we will be seeing already different participants from different</p>
+<p><em>00:05:49.890</em> labs, and we&#x27;re going to go through different documentation.</p>
+<p><em>00:05:53.370</em> So from today onwards, you are asked to build your documentation website, so</p>
+<p><em>00:05:58.470</em> describing yourself, your background, your previous works.</p>
+<p><em>00:06:02.520</em> We are also very curious to see what you can bring to the course.</p>
+<p><em>00:06:06.240</em> What was your background? What was your motivation to join this course?</p>
+<p><em>00:06:11.190</em> We</p>
+<p><em>00:06:12.480</em> expect you to add some reference and research based also on what interests you,</p>
+<p><em>00:06:18.270</em> what you have done before. But also, one very important skill to learn for now is</p>
+<p><em>00:06:23.130</em> to master, at least to get used to these tools, like work with Git, with what is</p>
+<p><em>00:06:28.349</em> called version control, and what you&#x27;re going to start today with Julian.</p>
+<p><em>00:06:33.240</em> An extra point will be customize your website, but I think it will be also</p>
+<p><em>00:06:38.311</em> wonderful. You can combine all these things so we can also see a bit of your</p>
+<p><em>00:06:42.360</em> personality emerging from your content.</p>
+<p><em>00:06:46.110</em> You can also find more</p>
+<p><em>00:06:48.480</em> here in the handbook.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-archive-assignment" aria-label="Class Archive、Handbook 与第一周任务 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-visual-examples">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=410s" target="_blank" rel="noopener">06:50 → 14:00</a><h2 class="chapter-title">从模板到个人表达：案例与信息组织</h2><span class="chapter-num">03 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">比较往届网站如何结合情绪板、手绘、留白、封面和信息图，让同一模板呈现不同内容。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=452s" target="_blank" rel="noopener" aria-label="在原视频查看 07:32 模板与信息层次">07:32</a>模板与信息层次</li><li><a href="https://vimeo.com/1227439129/682b057477#t=516s" target="_blank" rel="noopener" aria-label="在原视频查看 08:36 Markdown 速查">08:36</a>Markdown 速查</li><li><a href="https://vimeo.com/1227439129/682b057477#t=556s" target="_blank" rel="noopener" aria-label="在原视频查看 09:16 情绪板与留白">09:16</a>情绪板与留白</li><li><a href="https://vimeo.com/1227439129/682b057477#t=657s" target="_blank" rel="noopener" aria-label="在原视频查看 10:57 手绘流程与数字化">10:57</a>手绘流程与数字化</li><li><a href="https://vimeo.com/1227439129/682b057477#t=718s" target="_blank" rel="noopener" aria-label="在原视频查看 11:58 作业封面体系">11:58</a>作业封面体系</li><li><a href="https://vimeo.com/1227439129/682b057477#t=779s" target="_blank" rel="noopener" aria-label="在原视频查看 12:59 信息图与材料研究">12:59</a>信息图与材料研究</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-visual-examples"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/visual-examples-1.jpg" alt="09:40 · 情绪板与视觉参考案例" data-caption="09:40 · 情绪板与视觉参考案例" loading="lazy"><img class="carousel-img" src="frames/visual-examples-2.jpg" alt="11:17 · 手绘学习流程案例" data-caption="11:17 · 手绘学习流程案例" loading="lazy"><img class="carousel-img" src="frames/visual-examples-3.jpg" alt="13:45 · 材料研究的信息组织案例" data-caption="13:45 · 材料研究的信息组织案例" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">09:40 · 情绪板与视觉参考案例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>先用模板组织材料参数、机器信息和配方，再逐步加入个人视觉语言。</li><li>情绪板、照片与手绘可以组合使用；留白帮助读者区分信息层次。</li><li>作业封面可形成统一系列或整体拼图，但仍应让每周内容容易辨认。</li><li>流程图和材料研究图应帮助说明操作、变化和结果，不只是装饰。</li><li>原录制展示了多位学员案例；具体姓名与作品链接应以讲师幻灯片为准，不根据自动字幕猜写链接。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Mood Board</strong><span class="term-tip">汇集视觉参考、颜色与材料方向的情绪板。</span></span><span class="term" tabindex="0"><strong>信息图</strong><span class="term-tip">通过图形关系解释流程、数据或材料变化。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>选择与自己内容相符的一种布局，先完成一周示例。</li><li>把一个复杂过程整理成流程图或参数表，并保留来源。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:06:50.880</em> And let&#x27;s start giving you some examples which I think they are very nice</p>
+<p><em>00:06:56.250</em> documentation to have a look at. So here there is a different selection.</p>
+<p><em>00:06:59.940</em> As you can see, we have one similar template for everyone.</p>
+<p><em>00:07:03.660</em> It&#x27;s actually the same, but every person every time customize in a completely</p>
+<p><em>00:07:08.280</em> different way.</p>
+<p><em>00:07:10.470</em> You have a template that is built in on Markdown, which is what Julian will</p>
+<p><em>00:07:16.470</em> tackle mostly in the second part of today.</p>
+<p><em>00:07:20.401</em> But it&#x27;s also nice how sometimes you can add a little bit of HTML or other</p>
+<p><em>00:07:25.260</em> languages to complement and expand the possibility of this language.</p>
+<p><em>00:07:32.880</em> There&#x27;s no great recipe, I think, for really making the best documentation,</p>
+<p><em>00:07:38.820</em> but I think it&#x27;s a combination of things. So I just have some tips.</p>
+<p><em>00:07:43.110</em> Definitely, you have already a template, so you have some guidelines.</p>
+<p><em>00:07:46.920</em> These guidelines for now are helping you to organize the content, because for this</p>
+<p><em>00:07:50.940</em> week is not maybe a lot, but starting from next week, we also have machine, we also</p>
+<p><em>00:07:56.670</em> have something to produce and fabricate.</p>
+<p><em>00:07:59.130</em> You&#x27;re going to have to deal with different information.</p>
+<p><em>00:08:02.311</em> So getting to know already, for example, how to create a table with Markdown, with</p>
+<p><em>00:08:08.341</em> HTML, doesn&#x27;t matter.</p>
+<p><em>00:08:11.850</em> Or how to organize information like specifications about materials, machine, but</p>
+<p><em>00:08:16.561</em> also recipe,</p>
+<p><em>00:08:19.020</em> is also that you have starting to deal with.</p>
+<p><em>00:08:22.110</em> And also a nice way to do that is adding a little bit of yourself.</p>
+<p><em>00:08:27.540</em> So adding a little bit of visuals, maybe, something aesthetic, and really make it</p>
+<p><em>00:08:33.091</em> yours.</p>
+<p><em>00:08:36.360</em> Talking about the markdown scenes we mentioned, I just wanted to tell you that</p>
+<p><em>00:08:40.740</em> there&#x27;s nothing that is that much complicated to learn, given also the short time.</p>
+<p><em>00:08:47.235</em> There are many resources online, and I&#x27;m sure Julian will have definitely more to</p>
+<p><em>00:08:51.600</em> show you. You can just Google Markdown cheatsheet, and you can find different</p>
+<p><em>00:08:57.090</em> PDFs, pictures that really give you this kind of summary, where you can see</p>
+<p><em>00:09:02.970</em> there is not a lot that you need to know. Everything is basically here.</p>
+<p><em>00:09:07.830</em> So these are like the symbol and small syntax that will help you to style your</p>
+<p><em>00:09:12.061</em> text.</p>
+<p><em>00:09:16.785</em> I want to show you different examples, how different people also across these years</p>
+<p><em>00:09:20.686</em> make this documentation really theirs.</p>
+<p><em>00:09:24.675</em> One, say, inspiration is also mood boards that Viviana, for example, we used.</p>
+<p><em>00:09:30.705</em> She was very much inspired by architecture, so you can see different ways also to</p>
+<p><em>00:09:35.625</em> make collage and organize the content.</p>
+<p><em>00:09:38.385</em> All of them, in the end, were also nice because they&#x27;ve been reflected in their</p>
+<p><em>00:09:42.195</em> final outcomes, in the assignments, but also in the final project.</p>
+<p><em>00:09:48.075</em> There&#x27;s, I think, a lot of fashion designers here, and I always appreciate the way</p>
+<p><em>00:09:53.205</em> the visual, the pictures get combined with handwritten text, but also sketches.</p>
+<p><em>00:09:59.415</em> And I also invite you to have a look later at the work of Stephanie Santos.</p>
+<p><em>00:10:07.155</em> There is also very nice documentation of Alberte also dealing with the white space.</p>
+<p><em>00:10:12.585</em> So not focusing on completely</p>
+<p><em>00:10:18.105</em> filling all the gaps in your documentation, but also leave some air in between the</p>
+<p><em>00:10:21.885</em> pictures. This is also where the references she had during the first week.</p>
+<p><em>00:10:26.776</em> And I also like, for example, I think Dinesh probably used Canva to organize,</p>
+<p><em>00:10:30.915</em> create also color palette</p>
+<p><em>00:10:35.265</em> for the projects. I also enjoy very much the work of Alessia Pasquini and also the</p>
+<p><em>00:10:40.605</em> different ways that she were combining colors with textures, materials</p>
+<p><em>00:10:46.485</em> together.</p>
+<p><em>00:10:50.985</em> You don&#x27;t have to remember all these names.</p>
+<p><em>00:10:52.455</em> I&#x27;m going to give you the slides, and all of them are already linked.</p>
+<p><em>00:10:57.855</em> And of course, some people still like to take notes by hand or digitally</p>
+<p><em>00:11:03.765</em> on the tablet, like here. So I also very much enjoy the work of Elsa Gill.</p>
+<p><em>00:11:08.235</em> So for every week, she was sketching the workflow and recipes, for example.</p>
+<p><em>00:11:13.455</em> And here you can see how she broke down all this big chunk of information starting</p>
+<p><em>00:11:18.285</em> from GitLab, and this is all the understanding and the workflow that you will be</p>
+<p><em>00:11:22.365</em> actually learning in these days. A lot</p>
+<p><em>00:11:28.365</em> of people also enjoy very much drawing.</p>
+<p><em>00:11:32.026</em> So this is also the drawings that have been digitalized later on, like in</p>
+<p><em>00:11:37.695</em> applications like Inkscape, Illustrator, et cetera.</p>
+<p><em>00:11:42.015</em> But it&#x27;s worth to have a look at the work of Lucchese DeLeon.</p>
+<p><em>00:11:46.260</em> This was doing this beautiful works during the pandemic with his son, but also the</p>
+<p><em>00:11:50.595</em> work of Isabelle a couple of years ago.</p>
+<p><em>00:11:54.556</em> A completely different approach.</p>
+<p><em>00:11:58.575</em> Here we have... You actually have in the template this kind of a matrix of</p>
+<p><em>00:12:03.165</em> assignments where you have these kinds of blocks, where you have this placeholder,</p>
+<p><em>00:12:07.665</em> a greenish picture. And it would be also nice if you could put some love there</p>
+<p><em>00:12:13.695</em> and make it yours as well. So here are a couple of examples from Ainoa, that she</p>
+<p><em>00:12:19.425</em> was also interested to exploring the</p>
+<p><em>00:12:22.815</em> plant words. And also, I like the work of Aileen, when it was one big picture that</p>
+<p><em>00:12:27.526</em> was split in different parts like a puzzle.</p>
+<p><em>00:12:30.914</em> So every assignment was part of a bigger system.</p>
+<p><em>00:12:36.015</em> Of course, we saw yesterday the work of Svetlana.</p>
+<p><em>00:12:38.985</em> So welcome to the colorful world of Svetlana.</p>
+<p><em>00:12:42.405</em> It was also nice to see the different colors applied per topic, per assignment, and</p>
+<p><em>00:12:47.686</em> also the work</p>
+<p><em>00:12:49.845</em> of Maddy Olsen, who was combining the picture towards kind of the outcome with the</p>
+<p><em>00:12:54.496</em> text.</p>
+<p><em>00:12:59.145</em> Sometimes you may need to create some infographics, and these are also very nice</p>
+<p><em>00:13:02.985</em> references. And when you saw Aliso a couple of years ago, blocks also can be</p>
+<p><em>00:13:07.996</em> generated with vectors and recombined in different ways.</p>
+<p><em>00:13:12.165</em> And also very much enjoy, again, the work of Annabel, who was drawing by</p>
+<p><em>00:13:17.926</em> hand and then digitalized later on</p>
+<p><em>00:13:21.286</em> her</p>
+<p><em>00:13:23.026</em> kind of schematics with a bit of visual that also make very clear the workflow, the</p>
+<p><em>00:13:28.665</em> recipes, and the different information. So very pleasant to see.</p>
+<p><em>00:13:37.185</em> One of my favorite is also the work of Alberte, and you can see...</p>
+<p><em>00:13:41.985</em> You saw yesterday the video about the seaweed, and you can see the whole material</p>
+<p><em>00:13:46.395</em> research also explored as a final project.</p>
+<p><em>00:13:49.395</em> So you can see how the visuals here really make clear the content and all the</p>
+<p><em>00:13:54.375</em> different information variations that she had to document.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-visual-examples" aria-label="从模板到个人表达：案例与信息组织 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-audio-motion">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=840s" target="_blank" rel="noopener">14:00 → 15:44</a><h2 class="chapter-title">语音记录与轻量动态媒体</h2><span class="chapter-num">04 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">音频可以保留个人表达，动态内容则要结合课程的文件体积要求处理。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=849s" target="_blank" rel="noopener" aria-label="在原视频查看 14:09 语音与转录案例">14:09</a>语音与转录案例</li><li><a href="https://vimeo.com/1227439129/682b057477#t=873s" target="_blank" rel="noopener" aria-label="在原视频查看 14:33 GIF 限制">14:33</a>GIF 限制</li><li><a href="https://vimeo.com/1227439129/682b057477#t=911s" target="_blank" rel="noopener" aria-label="在原视频查看 15:11 循环 MP4 替代方式">15:11</a>循环 MP4 替代方式</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-audio-motion"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/audio-motion-1.jpg" alt="14:25 · 语音记录与文字转录案例" data-caption="14:25 · 语音记录与文字转录案例" loading="lazy"><img class="carousel-img" src="frames/audio-motion-2.jpg" alt="15:25 · 以 MP4 替代 GIF 的课程说明" data-caption="15:25 · 以 MP4 替代 GIF 的课程说明" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">14:25 · 语音记录与文字转录案例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>课程展示了语音记录配文字转录的案例，方便不能收听的读者获取内容。</li><li>本次课程明确不接受 GIF，建议用压缩后的循环 MP4 表达必要的短动态内容。</li><li>讲师在这段给出的目标是不超过约 1 MB；这是本次短动态素材的要求，不是所有视频的统一限制。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>转录</strong><span class="term-tip">把语音内容写成可阅读的文字。</span></span><span class="term" tabindex="0"><strong>循环 MP4</strong><span class="term-tip">通过播放器循环播放短视频，形成重复动态。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>需要语音介绍时同时提供文字内容。</li><li>只保留有信息价值的动态过程，并检查压缩后的文件大小。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:14:00.615</em> A lot of people like to talk, and nowadays I think it&#x27;s a very</p>
+<p><em>00:14:06.465</em> common practice that we have with the phone.</p>
+<p><em>00:14:09.045</em> So you can also include, for example, your MP3 file inside your documentation and</p>
+<p><em>00:14:14.655</em> bring it back here, for example, to introduce the assignment yourself.</p>
+<p><em>00:14:20.746</em> So it&#x27;s also a way to make it very personal.</p>
+<p><em>00:14:23.475</em> I like here the example of Sara because she also put it transcription in case you</p>
+<p><em>00:14:28.095</em> cannot hear, and you can also see how she actually did this inside the</p>
+<p><em>00:14:33.915</em> website. There is a big disclaimer here, and you will not like it.</p>
+<p><em>00:14:40.215</em> No GIFs are allowed anymore in Fab Academy.</p>
+<p><em>00:14:44.026</em> We used to have those allowed, and unfortunately, we lost a lot of content.</p>
+<p><em>00:14:48.435</em> GIFs are also something that is very heavy, very heavy to load, and very heavy on</p>
+<p><em>00:14:53.325</em> the server. So, since a couple of years, GIFs are not allowed in Fab Academy, and</p>
+<p><em>00:14:58.725</em> we&#x27;re very strict on this.</p>
+<p><em>00:15:02.325</em> Still, if you really think that it&#x27;s worth to make a GIF and you really want to</p>
+<p><em>00:15:07.276</em> have something moving, something interactive,</p>
+<p><em>00:15:11.145</em> you can explore this website, which is called... It&#x27;s online.</p>
+<p><em>00:15:15.360</em> It&#x27;s called ezgif.com, and allows you to create just an</p>
+<p><em>00:15:20.595</em> MP4 file, just like a video format that you can loop over and over</p>
+<p><em>00:15:26.505</em> like it was a GIF. In this case, you can really control and compress it as much as</p>
+<p><em>00:15:31.185</em> possible. So for example, talking about the size, we don&#x27;t want something that is</p>
+<p><em>00:15:36.255</em> bigger than one megabyte.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-audio-motion" aria-label="语音记录与轻量动态媒体 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-image-resources">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=944s" target="_blank" rel="noopener">15:44 → 20:45</a><h2 class="chapter-title">配色、素材、拼贴与图片处理工具</h2><span class="chapter-num">05 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">按配色、研究参考、拼贴、压缩和去背景等任务认识在线工具，并区分平台授权与课程署名要求。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=948s" target="_blank" rel="noopener" aria-label="在原视频查看 15:48 配色与 Canva">15:48</a>配色与 Canva</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1013s" target="_blank" rel="noopener" aria-label="在原视频查看 16:53 Pinterest 与来源">16:53</a>Pinterest 与来源</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1053s" target="_blank" rel="noopener" aria-label="在原视频查看 17:33 图库素材">17:33</a>图库素材</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1093s" target="_blank" rel="noopener" aria-label="在原视频查看 18:13 拼贴与压缩">18:13</a>拼贴与压缩</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1161s" target="_blank" rel="noopener" aria-label="在原视频查看 19:21 批量处理">19:21</a>批量处理</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1193s" target="_blank" rel="noopener" aria-label="在原视频查看 19:53 去背景工具">19:53</a>去背景工具</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-image-resources"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/image-resources-1.jpg" alt="16:00 · 在线配色资源" data-caption="16:00 · 在线配色资源" loading="lazy"><img class="carousel-img" src="frames/image-resources-2.jpg" alt="18:02 · Pexels 图片素材示例" data-caption="18:02 · Pexels 图片素材示例" loading="lazy"><img class="carousel-img" src="frames/image-resources-3.jpg" alt="19:34 · 批量图片处理资源" data-caption="19:34 · 批量图片处理资源" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">16:00 · 在线配色资源</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>Adobe Color 与 Canva 用于配色和布局，Pinterest 用于寻找真实项目参考；引用应追溯到作品来源。</li><li>Unsplash 和 Pexels 提供各自许可下可用的素材，不等于作品没有版权或用途毫无限制。</li><li>平台可能不强制署名，但本次课程仍强调记录图片来源；免费功能与使用额度需以工具实际页面为准。</li><li>压缩、批量处理和去背景是不同任务；保留原图，检查处理后的小字、边缘和细节。</li><li>课程提到通过 WhatsApp 压缩的便捷方式，但这会影响画质，不应替代原文件归档。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">核对资料</div><ul><li><a href="https://unsplash.com/license" target="_blank" rel="noopener">Unsplash 官方许可</a></li><li><a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels 官方许可</a></li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>素材许可</strong><span class="term-tip">权利人或平台规定的使用条件。</span></span><span class="term" tabindex="0"><strong>批量处理</strong><span class="term-tip">对一组文件应用一致的调整并导出。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>为引用图片保存作者、作品原链接和许可信息。</li><li>选一张代表性图片试压缩，确认清晰度后再批量处理。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:15:44.595</em> Moving to the online resources that you already have at your hand.</p>
+<p><em>00:15:48.075</em> Some people like to personalize the colors for the web pages.</p>
+<p><em>00:15:51.975</em> So a couple of nice resources can be found also in Adobe Color.</p>
+<p><em>00:15:57.286</em> All of these are for free. They&#x27;re there. You can check the codes.</p>
+<p><em>00:16:03.286</em> You can also copy-paste all of them and use in your own way.</p>
+<p><em>00:16:07.455</em> You can produce secondary colors and et cetera. There are so many nowadays.</p>
+<p><em>00:16:12.661</em> And of course, also Canva. The moment you add one picture, you&#x27;re able to extract</p>
+<p><em>00:16:18.286</em> the exact colors of the different elements.</p>
+<p><em>00:16:23.835</em> As we were saying earlier, Canva is very much used also in Fab Academy.</p>
+<p><em>00:16:28.335</em> You can create now booklets, use the templates that are already created by the</p>
+<p><em>00:16:33.375</em> community. There is a lot of free designs for you to use, to save, and to</p>
+<p><em>00:16:39.015</em> customize. So yes, definitely, if you&#x27;re already working with that, you can keep</p>
+<p><em>00:16:44.056</em> it, especially to remove the background and those kind of things.</p>
+<p><em>00:16:47.505</em> Canva is very much useful.</p>
+<p><em>00:16:53.235</em> Of course, if you&#x27;re a fashion designer especially, you may know Pinterest.</p>
+<p><em>00:16:57.375</em> So Pinterest is also very nice platform for doing some research to get inspired</p>
+<p><em>00:17:03.375</em> by different people, different works.</p>
+<p><em>00:17:09.046</em> Everybody can put their content on Pinterest, and there are real projects that</p>
+<p><em>00:17:13.155</em> belong to people. So always remember to credit the pictures that come out of this</p>
+<p><em>00:17:17.296</em> platform,</p>
+<p><em>00:17:19.036</em> unless you have the license that the works belong to you.</p>
+<p><em>00:17:22.755</em> We also have an account on Pinterest, and every year we put a lot of projects, so</p>
+<p><em>00:17:27.255</em> you can also add your own things and tag Fab Academy.</p>
+<p><em>00:17:33.405</em> A couple of alternatives for copyleft.</p>
+<p><em>00:17:36.555</em> I want to say copyright-free pictures are also on Splash.</p>
+<p><em>00:17:40.005</em> This is a very nice resource, and very beautiful pictures available also in</p>
+<p><em>00:17:46.575</em> HD, in the best definition possible.</p>
+<p><em>00:17:49.635</em> So you can just write keyword here and browse all the different possibilities.</p>
+<p><em>00:17:56.325</em> Another one is like Pixels, and it also works for videos, and you can just write</p>
+<p><em>00:18:01.005</em> wood and a lot of things that are related to wood, including the colors will</p>
+<p><em>00:18:05.835</em> appear. And also here, you don&#x27;t need to credit the authors.</p>
+<p><em>00:18:13.665</em> An alternative to Canva, but this is only obviously for making collage online, is</p>
+<p><em>00:18:18.795</em> also called Photo Collage and allows you to create different styles.</p>
+<p><em>00:18:24.945</em> There are different templates for collage, just in a matter of seconds that</p>
+<p><em>00:18:29.121</em> Actually already compressed the moment you download them.</p>
+<p><em>00:18:34.791</em> Yes, because compressing pictures is also mandatory, and there are many software</p>
+<p><em>00:18:39.711</em> that do that. And if you&#x27;re a little bit lazy, of course, you can use WhatsApp.</p>
+<p><em>00:18:45.501</em> So you can WhatsApp yourself with all the heavy pictures that nowadays phone</p>
+<p><em>00:18:50.031</em> create, and then you can download all the pictures at once at a very low</p>
+<p><em>00:18:56.091</em> resolution. So the best platform, for me, is still Online</p>
+<p><em>00:19:01.911</em> PNG Tools. It&#x27;s like an online website.</p>
+<p><em>00:19:05.751</em> It&#x27;s very easy and straightforward, so there are different options that you can</p>
+<p><em>00:19:10.312</em> choose from. And of course, you can remove the background as well, and most</p>
+<p><em>00:19:15.771</em> important, compress the picture in different ways.</p>
+<p><em>00:19:21.201</em> If you would like to work in bulk, so delivering the whole folder and work at the</p>
+<p><em>00:19:26.271</em> same time at the different pictures because you feel like you don&#x27;t have a lot of</p>
+<p><em>00:19:29.631</em> time, there is also this platform that I suggest where you can add</p>
+<p><em>00:19:36.171</em> as many pictures as you want, and the same setting is applied to all.</p>
+<p><em>00:19:40.191</em> So you can export to about seven different file formats.</p>
+<p><em>00:19:45.141</em> It can read from PNG to GIF to WebP and everything all at once.</p>
+<p><em>00:19:53.481</em> Of course, there is a lot of nowadays AI-powered online tools that also help</p>
+<p><em>00:19:59.391</em> you to remove the background, for example.</p>
+<p><em>00:20:04.401</em> They work well. Maybe they just have some limitations in terms of how many pictures</p>
+<p><em>00:20:10.281</em> you can work on here. Remove.bg is a good one, does a good job.</p>
+<p><em>00:20:16.461</em> Or you can do this by yourself, which is also a very good skill to master.</p>
+<p><em>00:20:24.171</em> Of course, in Canva. I don&#x27;t remember if you need Canva Pro to do that, but Canva</p>
+<p><em>00:20:28.956</em> also does a very good job in removing the background, even</p>
+<p><em>00:20:35.572</em> though the picture is challenging.</p>
+<p><em>00:20:37.041</em> For example, you have hair and also Canva is very good at that. AI.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-image-resources" aria-label="配色、素材、拼贴与图片处理工具 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-ai-practice">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=1245s" target="_blank" rel="noopener">20:45 → 25:02</a><h2 class="chapter-title">AI 辅助的边界、披露与事实核对</h2><span class="chapter-num">06 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">本次课程把 AI 定位为辅助探索工具，要求保留自己的构思、判断和表达，并说明使用情况。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=1286s" target="_blank" rel="noopener" aria-label="在原视频查看 21:26 说明 AI 使用">21:26</a>说明 AI 使用</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1327s" target="_blank" rel="noopener" aria-label="在原视频查看 22:07 手绘与生成变体案例">22:07</a>手绘与生成变体案例</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1403s" target="_blank" rel="noopener" aria-label="在原视频查看 23:23 复制与文档表达限制">23:23</a>复制与文档表达限制</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1467s" target="_blank" rel="noopener" aria-label="在原视频查看 24:27 虚构信息与原始来源核对">24:27</a>虚构信息与原始来源核对</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-ai-practice"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/ai-practice-1.jpg" alt="22:40 · 手绘草稿与生成变体案例" data-caption="22:40 · 手绘草稿与生成变体案例" loading="lazy"><img class="carousel-img" src="frames/ai-practice-2.jpg" alt="24:45 · AI 信息与引文核对提醒" data-caption="24:45 · AI 信息与引文核对提醒" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">22:40 · 手绘草稿与生成变体案例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师允许把 AI 用于已有想法的变化探索和辅助优化，并以手绘草稿再生成变体的项目说明。</li><li>本次课程要求注明 AI 使用；不允许直接复制生成内容作为自己的代码、研究或文档表达。</li><li>讲师强调先建立自己的概念与真实参考，不把个人研究和灵感选择全部交给生成工具。</li><li>课程提到语言校对工具，但不能据此把整篇代写或重写当作自己的记录。</li><li>AI 可能生成错误事实和虚构引文，需回到原网站、数据表、论文及作者核查。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>使用披露</strong><span class="term-tip">说明使用了什么工具、在哪个环节参与，以及自己的判断和修改。</span></span><span class="term" tabindex="0"><strong>事实核对</strong><span class="term-tip">通过实际存在的原始来源验证信息与引文。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>先保留自己的草图、实验和思考，再记录辅助工具的使用。</li><li>逐项打开引用来源，确认其确实支持相应内容。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:20:45.471</em> So in Fab Academy, we want to promote the use of AI,</p>
+<p><em>00:20:49.581</em> like a responsible tool. So you need to learn how to use AI</p>
+<p><em>00:20:54.921</em> responsibly. That means that it&#x27;s very good as a tool nowadays, and</p>
+<p><em>00:21:00.861</em> all of us at least once we&#x27;ve made advantage of that.</p>
+<p><em>00:21:04.911</em> So if it&#x27;s used as a supporting tool for, example, creating variations</p>
+<p><em>00:21:10.911</em> of projects, supporting the exploration, it&#x27;s good.</p>
+<p><em>00:21:17.511</em> Definitely help us to prototype faster, to expand in the direction, but also to</p>
+<p><em>00:21:22.611</em> optimize the process and most of the time.</p>
+<p><em>00:21:26.901</em> You must credit and also write whenever you use that in your assignments.</p>
+<p><em>00:21:32.226</em> But we were very strict on this. So, you have to do the thinking first,</p>
+<p><em>00:21:38.241</em> to not delegate this, that I think is also the most beautiful part of creating</p>
+<p><em>00:21:44.271</em> something. So exploring the concept,</p>
+<p><em>00:21:48.831</em> getting back to the different references, and we don&#x27;t want AI to do that for us.</p>
+<p><em>00:21:54.171</em> We don&#x27;t want a machine to do this for us.</p>
+<p><em>00:21:56.421</em> So never use AI for your inspirational references.</p>
+<p><em>00:22:00.891</em> And remember that those things define who you are and what you like.</p>
+<p><em>00:22:07.312</em> I have an example from Dinesh. You saw his final project yesterday in a video, the</p>
+<p><em>00:22:13.251</em> one who was exploring the concept of 3D printing applied to couture.</p>
+<p><em>00:22:19.011</em> This project was many years ago, actually, when AI was still at the very</p>
+<p><em>00:22:24.861</em> beginning.</p>
+<p><em>00:22:26.691</em> And it&#x27;s interesting how Dinesh was actually sketching by hand the different</p>
+<p><em>00:22:32.031</em> variations of this dress that he wanted to make, and then he was creating a prompt</p>
+<p><em>00:22:36.771</em> that was able to take those things to the next level.</p>
+<p><em>00:22:41.481</em> And here you can see, and this was done in Midjourney, how the different variations</p>
+<p><em>00:22:46.101</em> also probably contributed to</p>
+<p><em>00:22:50.361</em> the final garment.</p>
+<p><em>00:22:54.111</em> There is also here some nice reference.</p>
+<p><em>00:22:57.411</em> Hala, you can find this video back because it&#x27;s linked to the documentation.</p>
+<p><em>00:23:03.681</em> She had also, for example, for the code, it will not be allowed to copy-paste</p>
+<p><em>00:23:07.911</em> directly things from any ChatGPT, Claude, or any AI in general.</p>
+<p><em>00:23:14.001</em> So it&#x27;s also nice that</p>
+<p><em>00:23:16.491</em> she created the ChatGPT</p>
+<p><em>00:23:19.491</em> the moment it&#x27;s being used.</p>
+<p><em>00:23:23.511</em> So to recap this part, it&#x27;s very much forbidden to do direct copy-paste,</p>
+<p><em>00:23:30.441</em> to do the research in ChatGPT and any of the AI, to also rephrase the</p>
+<p><em>00:23:35.301</em> documentation, because this is not an English course, so it&#x27;s better to read</p>
+<p><em>00:23:38.751</em> something that comes from yourself than something that is all the same.</p>
+<p><em>00:23:43.072</em> And we really can see nowadays that all the text sound alike but also look alike.</p>
+<p><em>00:23:48.861</em> So the machine-made text is something very obvious, and I really invite you not to</p>
+<p><em>00:23:53.451</em> do that.</p>
+<p><em>00:23:55.191</em> And really, there is a lot of documentation, not just in Fab Academy.</p>
+<p><em>00:23:59.931</em> We can read these things everywhere on the website, blogs, and everything, and</p>
+<p><em>00:24:03.411</em> they&#x27;re all the same.</p>
+<p><em>00:24:06.981</em> If you feel like you need to fix some English, I recommend you Grammarly.</p>
+<p><em>00:24:11.286</em> It&#x27;s also AI-powered, not invasive.</p>
+<p><em>00:24:14.211</em> This has been existing since</p>
+<p><em>00:24:17.271</em> ChatGPT was born, and it doesn&#x27;t restructure completely your content, your</p>
+<p><em>00:24:23.091</em> text.</p>
+<p><em>00:24:27.081</em> Another problem that we have relying on the AI is that</p>
+<p><em>00:24:32.541</em> usually it feeds us with false information.</p>
+<p><em>00:24:36.231</em> Those things are very much misleading, and of course, AI also tends to</p>
+<p><em>00:24:41.991</em> merge different websites together to invent citations and also fabricate</p>
+<p><em>00:24:47.511</em> completely false information. So always double-check the fact and always</p>
+<p><em>00:24:53.001</em> double-check the real website, the real data sheet, the real paper, and the real</p>
+<p><em>00:24:58.911</em> author.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-ai-practice" aria-label="AI 辅助的边界、披露与事实核对 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-credit-license">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=1502s" target="_blank" rel="noopener">25:02 → 27:34</a><h2 class="chapter-title">Creative Commons 与图片署名</h2><span class="chapter-num">07 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">理解课程展示的许可条件，并把作者、作品链接与摄影者等信息写进图注或参考清单。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=1515s" target="_blank" rel="noopener" aria-label="在原视频查看 25:15 页脚许可">25:15</a>页脚许可</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1550s" target="_blank" rel="noopener" aria-label="在原视频查看 25:50 署名与非商业条件">25:50</a>署名与非商业条件</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1577s" target="_blank" rel="noopener" aria-label="在原视频查看 26:17 图注示例">26:17</a>图注示例</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1643s" target="_blank" rel="noopener" aria-label="在原视频查看 27:23 摄影者署名">27:23</a>摄影者署名</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-credit-license"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/credit-license-1.jpg" alt="25:45 · 课程展示的 Creative Commons 许可" data-caption="25:45 · 课程展示的 Creative Commons 许可" loading="lazy"><img class="carousel-img" src="frames/credit-license-2.jpg" alt="26:45 · 照片及拼贴的署名示例" data-caption="26:45 · 照片及拼贴的署名示例" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">25:45 · 课程展示的 Creative Commons 许可</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>画面确认课程展示的是 CC BY-NC 4.0，强调署名与非商业使用；具体范围应看所链接的完整许可。</li><li>CC BY-NC 4.0 要求适当署名、提供许可链接并说明修改；不能把非商业条件理解成放弃版权。</li><li>不要把 BY-NC 自动写成带 ShareAlike 的 BY-NC-SA；共享方式应依据实际许可条款。</li><li>图片署名可包含作品名称、作者、来源链接、日期和摄影者；拼贴中的不同图片也应能追溯。</li><li>页面自身许可不能自动替第三方图片重新授权。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">核对资料</div><ul><li><a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">Creative Commons：CC BY-NC 4.0</a></li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Attribution</strong><span class="term-tip">在使用作品时提供适当的作者与来源信息。</span></span><span class="term" tabindex="0"><strong>NonCommercial</strong><span class="term-tip">许可中的非商业使用条件。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>核对网站页脚许可的名称和链接。</li><li>给图片和拼贴补齐来源，并区分作品作者与摄影者。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:25:02.391</em> Talking about ownership, we move to credit and license.</p>
+<p><em>00:25:05.661</em> So in Fab Academy, as well as in the Fablab Network, we believe in the spirit of</p>
+<p><em>00:25:11.062</em> openness and collaboration where the knowledge is exchanged.</p>
+<p><em>00:25:15.441</em> So I don&#x27;t know if you paid attention to your webpage already and footer.</p>
+<p><em>00:25:20.886</em> At the very bottom, it is written, &quot;Creative Common License, Attribution and</p>
+<p><em>00:25:25.461</em> Commercial, International.&quot; So that means that whatever you produce, as you make,</p>
+<p><em>00:25:31.341</em> is released with this license. That basically allows people, everybody that comes</p>
+<p><em>00:25:36.381</em> to your documentation, wants to get inspired from your work, to share the content,</p>
+<p><em>00:25:41.781</em> also redistribute with the same license, but also they are able to adapt those,</p>
+<p><em>00:25:46.582</em> remix, and build upon.</p>
+<p><em>00:25:50.451</em> So you can see here in detail with attribution, of course.</p>
+<p><em>00:25:53.511</em> So everybody needs to credit the author properly, providing also a link to the</p>
+<p><em>00:25:58.851</em> work. And of course, this is non-commercial.</p>
+<p><em>00:26:03.006</em> So all of these things that you have will not help no one to make a business out of</p>
+<p><em>00:26:08.901</em> those.</p>
+<p><em>00:26:10.911</em> Both the project, the documentation, and whatever it is that you put on the</p>
+<p><em>00:26:14.391</em> website.</p>
+<p><em>00:26:17.692</em> How to credit properly. Pictures and projects done.</p>
+<p><em>00:26:21.861</em> We have here a few examples. I think it&#x27;s</p>
+<p><em>00:26:27.381</em> very nice how Luz Boget here, for example, was crediting a picture of herself that</p>
+<p><em>00:26:32.571</em> was made in collaboration with another person.</p>
+<p><em>00:26:34.671</em> So in the description of the picture, and actually in all the pictures that she</p>
+<p><em>00:26:39.291</em> uploaded to the website, you can see a small tag writing exactly what is the</p>
+<p><em>00:26:45.052</em> picture, sometimes accompanied by the date and the people and the photographer.</p>
+<p><em>00:26:51.201</em> And also here in the mood board next to it, you can see all the different pictures,</p>
+<p><em>00:26:56.451</em> the title with attribution. So this is the right way to do that.</p>
+<p><em>00:27:01.746</em> And a picture that is not accompanied by the author, the ownership will not be also</p>
+<p><em>00:27:06.951</em> allowed to stay on the website alone. There is many ways to do that.</p>
+<p><em>00:27:12.381</em> We talked about collage, so also you&#x27;re free to explore this at a different level</p>
+<p><em>00:27:17.241</em> the way you like. As long as this information is written on the documentation.</p>
+<p><em>00:27:23.271</em> If you really want to do a good job, you also can include the photographer.</p>
+<p><em>00:27:28.582</em> That is also often forgotten</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-credit-license" aria-label="Creative Commons 与图片署名 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-pdf-archive">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=1654s" target="_blank" rel="noopener">27:34 → 31:39</a><h2 class="chapter-title">PDF、手册与作品集：先归档再嵌入</h2><span class="chapter-num">08 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">课程文件需要在仓库保留可下载版本；在线展示可以辅助阅读，但不能替代课程源文件。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=1683s" target="_blank" rel="noopener" aria-label="在原视频查看 28:03 PDF 与外部嵌入限制">28:03</a>PDF 与外部嵌入限制</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1721s" target="_blank" rel="noopener" aria-label="在原视频查看 28:41 模板 PDF 阅读器">28:41</a>模板 PDF 阅读器</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1764s" target="_blank" rel="noopener" aria-label="在原视频查看 29:24 手册案例">29:24</a>手册案例</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1806s" target="_blank" rel="noopener" aria-label="在原视频查看 30:06 压缩工具">30:06</a>压缩工具</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1863s" target="_blank" rel="noopener" aria-label="在原视频查看 31:03 个人作品集展示">31:03</a>个人作品集展示</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-pdf-archive"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/pdf-archive-1.jpg" alt="29:12 · PDF 路径与页面阅读器示例" data-caption="29:12 · PDF 路径与页面阅读器示例" loading="lazy"><img class="carousel-img" src="frames/pdf-archive-2.jpg" alt="30:52 · PDF24 的压缩参数示意" data-caption="30:52 · PDF24 的压缩参数示意" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">29:12 · PDF 路径与页面阅读器示例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本次课程要求 PDF 先压缩后上传 Git 仓库，Google Slides 或 Canva 的在线嵌入不能成为唯一留档。</li><li>模板的 PDF 阅读器通过文件路径引用仓库中的 PDF，上传后要检查链接和实际文件名。</li><li>讲师以研究手册说明：平时统一整理视觉材料，有助于最后汇总成册。</li><li>PDF 压缩需要检查文字和图片质量，录制中的体积变化是示例，不能保证每个文件都有同样压缩率。</li><li>已有外部个人作品集的展示与课程作业归档要求在本段被区分说明。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Repository</strong><span class="term-tip">存放课程文件并追踪版本的仓库。</span></span><span class="term" tabindex="0"><strong>嵌入</strong><span class="term-tip">在网页内呈现另一份文件或外部平台的内容。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>导出压缩 PDF，上传后测试下载链接和阅读器。</li><li>保留清晰的源文件与发布副本，避免只存外部展示链接。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:27:34.047</em> Let&#x27;s move to the media editing. So in your documentations from the next week of</p>
+<p><em>00:27:39.957</em> digital body, you are asked also to upload files.</p>
+<p><em>00:27:43.828</em> Files is a general word. In Fab Academy, it means both PDFs, vector</p>
+<p><em>00:27:49.707</em> files,</p>
+<p><em>00:27:52.167</em> booklets, slides, the Grasshopper definition, and of course, 3D models.</p>
+<p><em>00:27:57.927</em> So we&#x27;ve been talking about compression, and we will be talking about that for a</p>
+<p><em>00:28:03.747</em> long time. So PDFs also must be uploaded first to the Git but must be compressed.</p>
+<p><em>00:28:11.397</em> And again, there is a limitation on the use of Google Slide and Canva</p>
+<p><em>00:28:17.397</em> embed only. That means that you can upload those as long as the real source,</p>
+<p><em>00:28:23.367</em> like the real PDF, is uploaded as well to the repository.</p>
+<p><em>00:28:30.537</em> The PDF you&#x27;re going to see later on probably with Julian is a link</p>
+<p><em>00:28:36.597</em> in Markdown. So the way to add it is pretty straightforward.</p>
+<p><em>00:28:41.938</em> Inside your template, if you have it already navigated a little bit, you might have</p>
+<p><em>00:28:46.617</em> seen something like this, which is already a PDF viewer that helps you</p>
+<p><em>00:28:53.307</em> to visualize the PDF and scroll it in this vertical format.</p>
+<p><em>00:28:57.207</em> You can see here an example of a thesis as a result of the final project.</p>
+<p><em>00:29:01.707</em> That is something that you will be doing next year.</p>
+<p><em>00:29:04.737</em> But also you can see here the code, how this looks like in Markdown.</p>
+<p><em>00:29:09.328</em> So there is a path, there is a files folder, and your PDF that is called</p>
+<p><em>00:29:14.188</em> booklet_compressed is located inside this folder.</p>
+<p><em>00:29:24.207</em> Speaking about the booklet, but this is not something that you have to worry about</p>
+<p><em>00:29:27.567</em> now.</p>
+<p><em>00:29:29.067</em> We have many booklets that we will be also revealing that are made in these</p>
+<p><em>00:29:35.427</em> many years of academy during the next months.</p>
+<p><em>00:29:39.388</em> And one that I want to mention, since we talked about this material research, but</p>
+<p><em>00:29:44.727</em> also the different infographics, is this work from Alberte</p>
+<p><em>00:29:51.237</em> that she developed in Iceland in 2022, and this also was made entirely in Canva.</p>
+<p><em>00:29:56.727</em> So she already had everything in one place, and that made very easy to integrate</p>
+<p><em>00:30:01.677</em> them all together in one document.</p>
+<p><em>00:30:06.117</em> So yes, compressing PDFs is mandatory, and you can use</p>
+<p><em>00:30:11.847</em> different apps to do that literally in 10 seconds.</p>
+<p><em>00:30:16.047</em> We put those in your template as a tip that you can remove.</p>
+<p><em>00:30:20.607</em> So you have already the links over there, but just to clarify this again, you can</p>
+<p><em>00:30:25.947</em> use, for example, ilovepdf.com. You can drag and drop your PDF, and you can</p>
+<p><em>00:30:31.917</em> see that from 60 megabyte, this became something like one in just 20 seconds.</p>
+<p><em>00:30:37.917</em> So there is no excuse on this.</p>
+<p><em>00:30:42.117</em> Another platform is still online, free, no limits, that you can use</p>
+<p><em>00:30:48.147</em> is PDF24 Tools, and it works in the similar way.</p>
+<p><em>00:30:52.438</em> So you can also decide the image quality for the different pages and have</p>
+<p><em>00:30:58.497</em> a great result in term of compression.</p>
+<p><em>00:31:03.807</em> If you feel like</p>
+<p><em>00:31:05.997</em> you want, for example, now to</p>
+<p><em>00:31:09.791</em> include your portfolio, you can also use one of the other software and platform</p>
+<p><em>00:31:14.938</em> that are available online. One of those is Heizeen, and you can</p>
+<p><em>00:31:20.667</em> embed the code. So you click on share, and this will be the same workflow that you</p>
+<p><em>00:31:25.167</em> do for the videos, and you just embed this.</p>
+<p><em>00:31:28.467</em> It&#x27;s your portfolio, so it&#x27;s not part of Fab Academy, and you&#x27;re allowed to include</p>
+<p><em>00:31:33.087</em> it like this.</p>
+<p><em>00:31:37.768</em> Sorry.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-pdf-archive" aria-label="PDF、手册与作品集：先归档再嵌入 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-fabrication-files">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=1899s" target="_blank" rel="noopener">31:39 → 33:31</a><h2 class="chapter-title">制造文件打包与三维模型预览</h2><span class="chapter-num">09 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">把模型和 Grasshopper 等制造文件打包归档，在线三维预览作为补充展示。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=1908s" target="_blank" rel="noopener" aria-label="在原视频查看 31:48 模型和 Grasshopper 文件">31:48</a>模型和 Grasshopper 文件</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1933s" target="_blank" rel="noopener" aria-label="在原视频查看 32:13 压缩文件操作">32:13</a>压缩文件操作</li><li><a href="https://vimeo.com/1227439129/682b057477#t=1970s" target="_blank" rel="noopener" aria-label="在原视频查看 32:50 三维预览与源文件">32:50</a>三维预览与源文件</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-fabrication-files"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/fabrication-files-1.jpg" alt="32:21 · 制造文件压缩归档说明" data-caption="32:21 · 制造文件压缩归档说明" loading="lazy"><img class="carousel-img" src="frames/fabrication-files-2.jpg" alt="33:17 · 三维模型预览资源" data-caption="33:17 · 三维模型预览资源" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">32:21 · 制造文件压缩归档说明</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>课程要求制造文件上传 Git，可将相关文件整理为 ZIP 并在文档中提供链接。</li><li>压缩包应保留可理解的命名和所需文件；压缩效果取决于文件内容，不能假定都会明显变小。</li><li>Sketchfab 或 p3d.in 一类预览服务可以帮助查看模型，但不替代仓库中的可下载模型。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>ZIP</strong><span class="term-tip">用于归档并可压缩一组文件的格式。</span></span><span class="term" tabindex="0"><strong>三维预览</strong><span class="term-tip">在页面中查看模型形态的展示方式。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>整理模型、参数和必要文件，解压检查后上传。</li><li>从网页测试下载，并确认预览与发布文件一致。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:31:39.658</em> So how to upload the fabrication files, whatever they are, and the different</p>
+<p><em>00:31:45.447</em> formats.</p>
+<p><em>00:31:48.057</em> So the 3D models and the Grasshopper definitions also need to be uploaded to the</p>
+<p><em>00:31:53.067</em> Git.</p>
+<p><em>00:31:55.018</em> How to do that? Sometimes we deal with</p>
+<p><em>00:31:58.287</em> files that are very heavy. So the best way and the best practice will be creating a</p>
+<p><em>00:32:04.287</em> zip folder on your computer and uploading this as it is, containing the different</p>
+<p><em>00:32:09.688</em> files to the Git.</p>
+<p><em>00:32:13.047</em> There is also linked in the documentation a tutorial on how to do this on</p>
+<p><em>00:32:18.987</em> the Mac, which is be just selecting the things that you want to compress, and</p>
+<p><em>00:32:23.997</em> right-click and selecting compress.</p>
+<p><em>00:32:26.547</em> In a similar way in Windows, you just have to do send to a compressed folder.</p>
+<p><em>00:32:32.487</em> Very easy, and it literally takes five seconds, and this is what will save a lot of</p>
+<p><em>00:32:37.797</em> space in your website, because there is also a certain space, and you shouldn&#x27;t</p>
+<p><em>00:32:45.627</em> have a very big</p>
+<p><em>00:32:48.688</em> size.</p>
+<p><em>00:32:50.397</em> We also have some examples in the template now for the 3D model viewers, and these</p>
+<p><em>00:32:56.277</em> are also third software that you can use to visualize your 3D</p>
+<p><em>00:33:02.037</em> models.</p>
+<p><em>00:33:03.987</em> Again, your 3D model needs to be first added, example as STL, inside</p>
+<p><em>00:33:09.747</em> your zipped folder and linked to the documentation.</p>
+<p><em>00:33:12.957</em> But this is something extra for your own portfolio.</p>
+<p><em>00:33:16.287</em> So it&#x27;s something that you can include for platforms like Sketchfab and do, again,</p>
+<p><em>00:33:22.047</em> embed the code or, for example, p3d.in.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-fabrication-files" aria-label="制造文件打包与三维模型预览 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-video-embed">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=2011s" target="_blank" rel="noopener">33:31 → 34:48</a><h2 class="chapter-title">视频托管与嵌入网页</h2><span class="chapter-num">10 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">较大的过程视频先上传视频平台，再把播放器嵌入文档中。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=2018s" target="_blank" rel="noopener" aria-label="在原视频查看 33:38 先上传视频平台">33:38</a>先上传视频平台</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2037s" target="_blank" rel="noopener" aria-label="在原视频查看 33:57 嵌入代码区别">33:57</a>嵌入代码区别</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2060s" target="_blank" rel="noopener" aria-label="在原视频查看 34:20 加工与组装视频">34:20</a>加工与组装视频</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-video-embed"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/video-embed-1.jpg" alt="34:05 · 视频平台分享与嵌入示例" data-caption="34:05 · 视频平台分享与嵌入示例" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">34:05 · 视频平台分享与嵌入示例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>本段示范 YouTube 和 Vimeo 的 Share / Embed 流程，强调嵌入代码与浏览器地址栏链接不同。</li><li>视频适合记录加工和装配等时间过程；网页中补充简短说明，帮助读者知道要观察什么。</li><li>上传完成后应检查分享权限和网页内播放是否可用。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Embed Code</strong><span class="term-tip">用于在网页中插入播放器的代码。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>上传过程视频，从分享菜单获取嵌入代码。</li><li>在最终页面检查播放权限、尺寸与说明。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:33:31.408</em> How to include a video? So videos are something that are very, very big normally.</p>
+<p><em>00:33:38.518</em> And the best way to do that, especially if you have a short movie or a work that</p>
+<p><em>00:33:42.927</em> you&#x27;ve done before in a video format and as an interview that you want to include</p>
+<p><em>00:33:47.518</em> in your documentation, the best way is to have them uploaded on YouTube or Vimeo</p>
+<p><em>00:33:53.307</em> and then click on share, copy, paste the embed code.</p>
+<p><em>00:33:57.656</em> It&#x27;s not the link that you see on top.</p>
+<p><em>00:34:00.027</em> It&#x27;s this embed code that allows you to have this kind of window with the video</p>
+<p><em>00:34:05.397</em> playing in the documentation. You already have an example of that, so there is</p>
+<p><em>00:34:10.167</em> nothing to learn here. It will be just direct copy-paste. Same thing on Vimeo.</p>
+<p><em>00:34:20.217</em> That means that if you also have, for example, next week, a very nice</p>
+<p><em>00:34:25.947</em> laser cutting process or you&#x27;re assembling this mannequin, it would be maybe very</p>
+<p><em>00:34:31.287</em> nice to do a video. So you can upload this first either on YouTube, Vimeo, or</p>
+<p><em>00:34:36.237</em> whatever other platforms that you know, and then you can do click</p>
+<p><em>00:34:42.177</em> on share, get the embed code, and copy-paste it back in the documentation.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-video-embed" aria-label="视频托管与嵌入网页 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-raster-vector">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=2088s" target="_blank" rel="noopener">34:48 → 37:33</a><h2 class="chapter-title">位图、矢量与制造路径</h2><span class="chapter-num">11 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">区分像素图像与数学路径，并理解照片编辑和切割图形为什么需要不同处理方式。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=2104s" target="_blank" rel="noopener" aria-label="在原视频查看 35:04 像素与路径">35:04</a>像素与路径</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2149s" target="_blank" rel="noopener" aria-label="在原视频查看 35:49 常见格式">35:49</a>常见格式</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2169s" target="_blank" rel="noopener" aria-label="在原视频查看 36:09 对应编辑工具">36:09</a>对应编辑工具</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2201s" target="_blank" rel="noopener" aria-label="在原视频查看 36:41 制造用途与闭合轮廓">36:41</a>制造用途与闭合轮廓</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-raster-vector"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/raster-vector-1.jpg" alt="35:42 · 位图与矢量放大对比" data-caption="35:42 · 位图与矢量放大对比" loading="lazy"><img class="carousel-img" src="frames/raster-vector-2.jpg" alt="37:13 · 矢量图形用于制造的说明" data-caption="37:13 · 矢量图形用于制造的说明" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">35:42 · 位图与矢量放大对比</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>位图由像素组成，放大会暴露采样限制；矢量用路径和形状描述几何，区别不只是一个分辨率数值。</li><li>JPEG、PNG 常用于图像；SVG 常用于矢量。PDF 可包含矢量和位图，不能仅凭扩展名断定内部全是可切割路径。</li><li>课程把 GIMP / Photoshop 与 Inkscape / Illustrator 分别作为图像和矢量工具举例。</li><li>用于切割轮廓时应检查闭合路径与真实尺寸；照片放进矢量软件并不会自动成为可制造轮廓。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Raster / Bitmap</strong><span class="term-tip">通过像素存储的图像。</span></span><span class="term" tabindex="0"><strong>Vector</strong><span class="term-tip">通过路径、点与形状描述的图形。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>区分待处理素材是照片还是需要制造的轮廓。</li><li>输出切割文件前检查路径、闭合性和尺度。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:34:48.567</em> We&#x27;re moving to photo editing. So this is the basic.</p>
+<p><em>00:34:54.537</em> This is very useful information and something to know as the base for the next</p>
+<p><em>00:34:59.727</em> weeks, especially when we talk about fabrication, digital fabrication.</p>
+<p><em>00:35:04.227</em> So the difference between the raster and the vector is just the resolution.</p>
+<p><em>00:35:09.327</em> So we know pictures. Pictures are also called bitmaps.</p>
+<p><em>00:35:14.877</em> So they are images that are made of different pixels that are these kind of squares</p>
+<p><em>00:35:19.527</em> that are full of colors. So what happens here the moment you zoom?</p>
+<p><em>00:35:23.487</em> You zoom in, keep on zooming, you have open more pixels, you encounter more</p>
+<p><em>00:35:29.337</em> squares, and the picture sometimes is blurry.</p>
+<p><em>00:35:34.737</em> The vector is something opposite.</p>
+<p><em>00:35:36.687</em> So the vectors are actually equations that are mathematically generated points and</p>
+<p><em>00:35:41.367</em> shapes and paths, and they look like this.</p>
+<p><em>00:35:44.427</em> So the more you zoom in, nothing changes.</p>
+<p><em>00:35:47.817</em> That&#x27;s why they also have different formats.</p>
+<p><em>00:35:49.647</em> So when we talk about vector, we talk about, for example,</p>
+<p><em>00:35:54.927</em> SVGs, PDFs,</p>
+<p><em>00:35:58.137</em> EPS, any of these. And when we talk about pictures, of course, we all know JPEG,</p>
+<p><em>00:36:03.507</em> PNG, GIF, HEIF, and so on.</p>
+<p><em>00:36:09.717</em> So we also have different software, right?</p>
+<p><em>00:36:13.077</em> We said earlier we have GIMP as an alternative free and open source to the most</p>
+<p><em>00:36:18.597</em> famous one, which is Photoshop. And we have an alternative for also the very</p>
+<p><em>00:36:24.477</em> famous one, Illustrator, which is Inkscape.</p>
+<p><em>00:36:26.787</em> But of course, there is other countless platform that you can use.</p>
+<p><em>00:36:30.387</em> So these are just two suggestions, but you&#x27;re free to explore those,</p>
+<p><em>00:36:37.437</em> yours, and also many others.</p>
+<p><em>00:36:41.824</em> Just to clarify, because this, as we said, is very important to be applied also</p>
+<p><em>00:36:48.574</em> in general to digital fabrication, and this software will be very much useful,</p>
+<p><em>00:36:54.303</em> especially the vector one, for cutting a machine, for producing things that will be</p>
+<p><em>00:36:59.523</em> 3D-printed later on, especially if you combine this workflow with the 3D modeling</p>
+<p><em>00:37:04.683</em> software or something that definitely will be cut either by a laser or a CNC.</p>
+<p><em>00:37:10.563</em> So for cutting those things, we need vector files, but we also need</p>
+<p><em>00:37:16.293</em> closed loops that are made of vector points, shapes, and so on.</p>
+<p><em>00:37:20.703</em> So also the software will be your best friends for next time.</p>
+<p><em>00:37:26.088</em> We will not be talking today about the laser cutter.</p>
+<p><em>00:37:29.283</em> You also have next week to explore the topic deeper.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-raster-vector" aria-label="位图、矢量与制造路径 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-image-size">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=2253s" target="_blank" rel="noopener">37:33 → 39:32</a><h2 class="chapter-title">缩放、批处理与网页图片大小</h2><span class="chapter-num">12 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">认识图片缩放与压缩的不同作用，修正把网页清晰度统一归为 72 DPI 的说法。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=2266s" target="_blank" rel="noopener" aria-label="在原视频查看 37:46 Scale Image">37:46</a>Scale Image</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2287s" target="_blank" rel="noopener" aria-label="在原视频查看 38:07 批量处理介绍">38:07</a>批量处理介绍</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2322s" target="_blank" rel="noopener" aria-label="在原视频查看 38:42 网页图片实践要求">38:42</a>网页图片实践要求</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-image-size"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/image-size-1.jpg" alt="37:54 · GIMP 图片缩放示意" data-caption="37:54 · GIMP 图片缩放示意" loading="lazy"><img class="carousel-img" src="frames/image-size-2.jpg" alt="39:12 · 课程图片体积建议；72 DPI 说法见正文纠错" data-caption="39:12 · 课程图片体积建议；72 DPI 说法见正文纠错" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">37:54 · GIMP 图片缩放示意</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>课程指出 GIMP 的 Image → Scale Image 可调整图片尺寸，并介绍批量处理的思路。</li><li>本录制只有讲解和示意，结尾没有实际开展 GIMP 操作演示。</li><li>本次课程以单张约 100–150 KB 为参考目标；应同时确认页面实际显示尺寸与细节可读性。</li><li>纠错：仅修改打印分辨率不会改变像素数量；网页图片应核对像素宽高、显示尺寸和导出压缩，不能用统一 72 DPI 判断清晰度。</li><li>等比例缩放可避免变形，原始高质量文件应另行保留。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">核对资料</div><ul><li><a href="https://docs.gimp.org/3.0/en/gimp-image-print-size.html" target="_blank" rel="noopener">GIMP：Print Size 不改变像素数量</a></li><li><a href="https://docs.gimp.org/3.0/en/gimp-image-scale.html" target="_blank" rel="noopener">GIMP：Scale Image 调整像素尺寸</a></li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>像素尺寸</strong><span class="term-tip">图像实际包含的像素宽度与高度。</span></span><span class="term" tabindex="0"><strong>重采样</strong><span class="term-tip">通过增减像素改变图像尺寸。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>按页面用途等比例缩放，再导出压缩副本。</li><li>检查小字与细节是否可读，并记录像素尺寸和文件大小。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:37:33.993</em> So those are</p>
+<p><em>00:37:36.243</em> software as well that can be used for resizing the pictures, so scaling down,</p>
+<p><em>00:37:40.893</em> editing, and also manipulating at a general level.</p>
+<p><em>00:37:46.413</em> You can also optimize your picture if you just go on top of image, scale image.</p>
+<p><em>00:37:52.113</em> We can also do in a demo later on, depends on how many people will be asking</p>
+<p><em>00:37:57.603</em> that. Resize scale and optimize is the basic and also very much useful for you to</p>
+<p><em>00:38:03.574</em> compress the files.</p>
+<p><em>00:38:07.143</em> I also promote GIMP because I know that there is this nice plugin that&#x27;s called</p>
+<p><em>00:38:10.833</em> GIMP, and you can download it from here and you can use.</p>
+<p><em>00:38:14.824</em> So you can apply all the different manipulations, whatever they are, including, for</p>
+<p><em>00:38:19.203</em> example, converting to grayscale and increasing the threshold,</p>
+<p><em>00:38:25.863</em> the brightness to all of them together.</p>
+<p><em>00:38:30.183</em> I think it was one in the tutorials I gave many years ago, so I also don&#x27;t</p>
+<p><em>00:38:36.183</em> want to repeat the same thing, but it&#x27;s something that you can find in the class</p>
+<p><em>00:38:40.188</em> archive.</p>
+<p><em>00:38:42.813</em> So in the end, these are the best practices to conclude this part.</p>
+<p><em>00:38:47.103</em> So</p>
+<p><em>00:38:48.453</em> you need to resize and optimize your pictures for the web.</p>
+<p><em>00:38:51.273</em> And when we talk about computers and web in general, we talk about the resolution</p>
+<p><em>00:38:55.113</em> of the monitor, which is 72 DPI. Doesn&#x27;t matter if it&#x27;s the screen of the phone,</p>
+<p><em>00:39:00.873</em> the computer or the TV. And let&#x27;s say, as a general rule, you can remember</p>
+<p><em>00:39:06.633</em> to compress your pictures so all of them, they are maximum 100,</p>
+<p><em>00:39:12.483</em> 150 KB is also accepted. And of course, most important, remember to</p>
+<p><em>00:39:18.393</em> credit the pictures. It&#x27;s also a good practice to credit your own pictures.</p>
+<p><em>00:39:22.563</em> So next time a person goes to your website, it will be easier for them to credit</p>
+<p><em>00:39:28.068</em> yourself.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-image-size" aria-label="缩放、批处理与网页图片大小 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-photo-story">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=2372s" target="_blank" rel="noopener">39:32 → 43:33</a><h2 class="chapter-title">拍摄材料、步骤与使用场景</h2><span class="chapter-num">13 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">通过学员作品比较光线、角度、背景和人物互动如何帮助解释材料与成果。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=2416s" target="_blank" rel="noopener" aria-label="在原视频查看 40:16 固定拍摄环境">40:16</a>固定拍摄环境</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2453s" target="_blank" rel="noopener" aria-label="在原视频查看 40:53 步骤与俯拍">40:53</a>步骤与俯拍</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2488s" target="_blank" rel="noopener" aria-label="在原视频查看 41:28 材质和人物互动">41:28</a>材质和人物互动</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2510s" target="_blank" rel="noopener" aria-label="在原视频查看 41:50 几何与光线">41:50</a>几何与光线</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2556s" target="_blank" rel="noopener" aria-label="在原视频查看 42:36 实验台与材料">42:36</a>实验台与材料</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-photo-story"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/photo-story-1.jpg" alt="40:22 · 材料拍摄的光线与环境案例" data-caption="40:22 · 材料拍摄的光线与环境案例" loading="lazy"><img class="carousel-img" src="frames/photo-story-2.jpg" alt="41:04 · 统一角度的步骤照片" data-caption="41:04 · 统一角度的步骤照片" loading="lazy"><img class="carousel-img" src="frames/photo-story-3.jpg" alt="42:22 · 光线突出人体模型的形态" data-caption="42:22 · 光线突出人体模型的形态" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">40:22 · 材料拍摄的光线与环境案例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>稳定的拍摄位置和光线让不同周的成果更容易比较，手机也可完成有信息价值的记录。</li><li>步骤说明可保持一致的俯拍角度，突出零件关系与操作细节。</li><li>人物或手部互动可以说明尺度和用途；黑白、透光和背景选择应服务于作品特征。</li><li>拍摄生物材料时整理台面并保留相关工具语境，避免杂乱遮挡内容。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>拍摄语境</strong><span class="term-tip">通过环境、道具和互动解释对象用途与特征。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>为一件作品拍摄整体、细节和使用过程。</li><li>固定一个便于每周复用的角度与背景。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:39:32.253</em> We move to the media production. These are also</p>
+<p><em>00:39:37.563</em> different examples from different alumni.</p>
+<p><em>00:39:40.503</em> And what I want to highlight here is that you can invest a little bit of your time,</p>
+<p><em>00:39:45.663</em> since what you&#x27;re building from today is actually a portfolio.</p>
+<p><em>00:39:49.998</em> A lot of people got many opportunities, like job opportunities, different</p>
+<p><em>00:39:54.949</em> connections.</p>
+<p><em>00:39:57.693</em> And it&#x27;s very good to invest this time that you have to curate also aesthetically</p>
+<p><em>00:40:02.433</em> your page. So this for me is a very nice example to show on how Luz Bogas</p>
+<p><em>00:40:08.523</em> photoshooted the material. The material is also sometimes translucent, so it&#x27;s also</p>
+<p><em>00:40:13.233</em> very hard to picture them correctly.</p>
+<p><em>00:40:16.203</em> So if you have a setup at home where you can benefit from natural light or lab</p>
+<p><em>00:40:21.243</em> lights or the ring that is very much nowadays common,</p>
+<p><em>00:40:26.913</em> you can also bring these things to the lab at your house and create a setup</p>
+<p><em>00:40:32.763</em> that stays for different months. So every week before uploading those things to the</p>
+<p><em>00:40:38.103</em> documentation, you can spend 10 minutes to curate a little bit this part.</p>
+<p><em>00:40:43.053</em> So here are different options, and you can see where you can also have per topic,</p>
+<p><em>00:40:49.083</em> but also</p>
+<p><em>00:40:52.023</em> for the different outcomes and projects.</p>
+<p><em>00:40:53.973</em> So here, for example, if you want to make something like a booklet with</p>
+<p><em>00:40:59.163</em> instructions, it&#x27;s very good to take a picture, for example, every time on the same</p>
+<p><em>00:41:03.513</em> angle from the top to show all the details.</p>
+<p><em>00:41:07.113</em> And also you can find more on this documentation. This is a kit.</p>
+<p><em>00:41:11.223</em> Also everybody can make it. So it&#x27;s very nice how the booklet really helps and</p>
+<p><em>00:41:15.963</em> guides you visually from the pictures.</p>
+<p><em>00:41:17.913</em> So the text is also minimal. This is something that</p>
+<p><em>00:41:23.853</em> is done in the third week, so open source circular fashion.</p>
+<p><em>00:41:28.203</em> It&#x27;s very nice how the pictures can also reflect the kind of materials, the</p>
+<p><em>00:41:32.883</em> texture, the shape, and also, for example, having a simple photoshoot where you</p>
+<p><em>00:41:37.713</em> have a person interacting with the object really communicates what is it for.</p>
+<p><em>00:41:42.333</em> So for example, if you remove the hand here, maybe you wouldn&#x27;t say that it&#x27;s a</p>
+<p><em>00:41:46.233</em> bag.</p>
+<p><em>00:41:50.013</em> This is for next week. So</p>
+<p><em>00:41:54.003</em> you will be seeing different examples of mannequins and other creations in the</p>
+<p><em>00:41:57.723</em> lecture. And this is one picture about one of those that&#x27;s been produced in</p>
+<p><em>00:42:02.343</em> Barcelona in 2021. And I really like also the choice,</p>
+<p><em>00:42:07.803</em> let&#x27;s say black and white, to complement and to really</p>
+<p><em>00:42:12.423</em> highlight the geometries that are created here with the laser.</p>
+<p><em>00:42:17.043</em> And also a completely different mannequin.</p>
+<p><em>00:42:19.053</em> So you can see also a bit how you can contribute with the light to create this kind</p>
+<p><em>00:42:23.763</em> of narrative around the project. And it&#x27;s also a very beautiful</p>
+<p><em>00:42:29.343</em> outcome from the work of Alessia Pasquini.</p>
+<p><em>00:42:36.033</em> If you work with bio materials, you can also create this kind of lab space where</p>
+<p><em>00:42:41.883</em> it&#x27;s more contextualized. You have different tools, you have a clean environment,</p>
+<p><em>00:42:46.713</em> so you can also invest some minutes to clean the stains and remove a little bit the</p>
+<p><em>00:42:52.053</em> mess.</p>
+<p><em>00:42:54.993</em> All of these things, all of these pictures mostly have been taken by the phone, by</p>
+<p><em>00:42:59.373</em> the students without the help of a professional person.</p>
+<p><em>00:43:02.283</em> So you can also see how the results are different</p>
+<p><em>00:43:08.193</em> and also very well made, I would say.</p>
+<p><em>00:43:12.752</em> We have also some students that had the chance to work with some models or people</p>
+<p><em>00:43:18.783</em> that they knew that could model for the different outcomes.</p>
+<p><em>00:43:23.133</em> This is the work of Eduardo Loredo.</p>
+<p><em>00:43:25.788</em> This is our final project collection, but still it&#x27;s worth to get some inspirations</p>
+<p><em>00:43:30.574</em> for these months.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-photo-story" aria-label="拍摄材料、步骤与使用场景 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-capture-tools">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=2613s" target="_blank" rel="noopener">43:33 → 46:29</a><h2 class="chapter-title">拍摄支架、截图与自制工具</h2><span class="chapter-num">14 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">选择清楚且有内容的照片，并区分屏幕截图与拍摄实物的工具。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=2624s" target="_blank" rel="noopener" aria-label="在原视频查看 43:44 光线与内容选择">43:44</a>光线与内容选择</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2673s" target="_blank" rel="noopener" aria-label="在原视频查看 44:33 电脑画面用截图">44:33</a>电脑画面用截图</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2716s" target="_blank" rel="noopener" aria-label="在原视频查看 45:16 自制支架">45:16</a>自制支架</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2736s" target="_blank" rel="noopener" aria-label="在原视频查看 45:36 灯箱与模型资源">45:36</a>灯箱与模型资源</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-capture-tools"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/capture-tools-2.jpg" alt="45:25 · 学员自制拍摄支架案例" data-caption="45:25 · 学员自制拍摄支架案例" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">45:25 · 学员自制拍摄支架案例</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师建议优先利用合适的自然光，删除模糊或不能说明内容的图片。</li><li>记录电脑操作应直接截屏，避免用手机拍显示器造成反光、倾斜和文字模糊。</li><li>可从开源项目中寻找支架与灯箱的设计，按自己的设备调整；自制工具并非本周优先任务。</li><li>课程提到 Thingiverse 等资源中的 STL 文件，下载后仍需核对实际尺寸、适用性和许可。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Screenshot</strong><span class="term-tip">由电脑直接保存屏幕画面的截图。</span></span><span class="term" tabindex="0"><strong>Light Box</strong><span class="term-tip">用于控制背景和照明的拍摄灯箱。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>对软件操作使用截图，对实物使用稳定拍摄。</li><li>确有需要时再制作支架或灯箱，检查设备是否稳固。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:43:33.693</em> And of course, you can nowadays fabricate different tools to support your phone, to</p>
+<p><em>00:43:38.043</em> support your camera. A camera is even better.</p>
+<p><em>00:43:40.533</em> Just remember to compress the pictures at the very end.</p>
+<p><em>00:43:44.133</em> And as a rule of thumb, of course,</p>
+<p><em>00:43:48.213</em> the natural light is always more useful, as well as preferable.</p>
+<p><em>00:43:52.233</em> Try to avoid to upload pictures that really mean nothing, pictures that are blurry</p>
+<p><em>00:43:58.143</em> or they don&#x27;t mean much in term of content.</p>
+<p><em>00:44:04.053</em> In terms of videos, the</p>
+<p><em>00:44:06.963</em> horizontal ones are still preferable.</p>
+<p><em>00:44:09.063</em> Still because our computer, TV are also in the same format.</p>
+<p><em>00:44:14.613</em> And we have also different resources when it comes to create the tools.</p>
+<p><em>00:44:19.413</em> We are makers. We all like to create our own tools in case we have time, because</p>
+<p><em>00:44:23.824</em> this is also not a priority.</p>
+<p><em>00:44:27.183</em> We can use any of the files that have been produced.</p>
+<p><em>00:44:33.363</em> Yeah, somebody raised their hand.</p>
+<p><em>00:44:35.613</em> Yes. I just wanted to mention that if you want to show</p>
+<p><em>00:44:41.463</em> the screen of the computer,</p>
+<p><em>00:44:45.273</em> do not take a picture of the computer with your phone.</p>
+<p><em>00:44:49.473</em> Just make a screenshot of the computer.</p>
+<p><em>00:44:55.173</em> Yeah. Thanks for saying this because sometimes it&#x27;s also not too obvious.</p>
+<p><em>00:44:59.913</em> But there is a shortcut if you don&#x27;t know.</p>
+<p><em>00:45:03.963</em> Every Mac, every Windows has its own keys, and you can just take a screenshot</p>
+<p><em>00:45:08.793</em> within the computer. So what I see here, but yeah.</p>
+<p><em>00:45:12.783</em> I also added two questions in the chat.</p>
+<p><em>00:45:16.473</em> Okay, great. So here, for example, Luz was not satisfied by the different stands</p>
+<p><em>00:45:21.813</em> that she found online, so she made her own and she released this open source.</p>
+<p><em>00:45:25.593</em> So from here you can download it, but you can also remake it because this is</p>
+<p><em>00:45:31.383</em> still done 2018, so many years passed.</p>
+<p><em>00:45:36.783</em> There&#x27;s a couple of platforms that are worth to have a look where you can find not</p>
+<p><em>00:45:41.673</em> just light boxes to take pictures, but also tutorials.</p>
+<p><em>00:45:45.243</em> These are done by, in general, the making community worldwide.</p>
+<p><em>00:45:48.723</em> So you just put a keyword and you get different resources.</p>
+<p><em>00:45:53.445</em> There is a lot of nice light boxes that are easy to replicate in terms of projects</p>
+<p><em>00:45:58.815</em> within 30 minutes, and usually they use very cheap and accessible materials.</p>
+<p><em>00:46:04.726</em> And one other platform is called Thingiverse.</p>
+<p><em>00:46:07.905</em> I think most of you might have known also, it&#x27;s very famous for 3D printing.</p>
+<p><em>00:46:13.035</em> Here you can find SDL files that are ready to 3D print.</p>
+<p><em>00:46:17.596</em> So if you have a lot of 3D printers, maybe it&#x27;s worth to just 3D print a couple of</p>
+<p><em>00:46:21.735</em> the stands and then work in combination with the materials that you have at your</p>
+<p><em>00:46:25.875</em> hand.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-capture-tools" aria-label="拍摄支架、截图与自制工具 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-video-production">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=2789s" target="_blank" rel="noopener">46:29 → 50:44</a><h2 class="chapter-title">视频剪辑、编码、素材与声音</h2><span class="chapter-num">15 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">区分剪辑和压缩，准备合适的素材、音乐与输出规格，再通过视频平台发布。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=2799s" target="_blank" rel="noopener" aria-label="在原视频查看 46:39 剪辑工具">46:39</a>剪辑工具</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2842s" target="_blank" rel="noopener" aria-label="在原视频查看 47:22 HandBrake 转码压缩">47:22</a>HandBrake 转码压缩</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2889s" target="_blank" rel="noopener" aria-label="在原视频查看 48:09 补充画面">48:09</a>补充画面</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2919s" target="_blank" rel="noopener" aria-label="在原视频查看 48:39 音乐和旁白">48:39</a>音乐和旁白</li><li><a href="https://vimeo.com/1227439129/682b057477#t=2968s" target="_blank" rel="noopener" aria-label="在原视频查看 49:28 比例、分辨率与发布">49:28</a>比例、分辨率与发布</li><li><a href="https://vimeo.com/1227439129/682b057477#t=3014s" target="_blank" rel="noopener" aria-label="在原视频查看 50:14 延伸资源">50:14</a>延伸资源</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-video-production"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/video-production-1.jpg" alt="47:45 · HandBrake 视频编码工具介绍" data-caption="47:45 · HandBrake 视频编码工具介绍" loading="lazy"><img class="carousel-img" src="frames/video-production-2.jpg" alt="49:40 · 视频画面比例与发布建议" data-caption="49:40 · 视频画面比例与发布建议" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">47:45 · HandBrake 视频编码工具介绍</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>课程介绍 Lightworks、CapCut 等剪辑工具，以及用于转码压缩的 HandBrake；免费使用与开源是不同概念。</li><li>压缩后的体积取决于时长、画面与编码参数，不能把录制中 1 GB 到 10 MB 的说法当作固定效果。</li><li>外部视频和音乐应按各自许可使用，不把免费素材统一称为无版权；课程仍鼓励记录来源。</li><li>本次讲师偏好横向 16:9，至少达到所述 720p 级别并保持清晰；更高分辨率要结合素材与发布用途。</li><li>旁白可以由自己录制；完成后上传平台，检查嵌入播放和声音。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">核对资料</div><ul><li><a href="https://www.pexels.com/license/" target="_blank" rel="noopener">Pexels 官方素材许可</a></li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>Encoding</strong><span class="term-tip">按所选编码与参数转换视频。</span></span><span class="term" tabindex="0"><strong>16:9</strong><span class="term-tip">常见横向视频画面比例。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>剪出能说明过程的短片，并先检查声音与字幕。</li><li>导出后检查体积和清晰度，记录外部素材及音乐来源。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:46:29.535</em> Going to the video production. So you also have some videos, again, in the</p>
+<p><em>00:46:34.155</em> documentation, and you have some suggestions in terms of software or encoders.</p>
+<p><em>00:46:39.616</em> Again, there are many, many platforms nowadays to make videos, TikToks and et</p>
+<p><em>00:46:44.925</em> cetera. Lightworks is a popular one, which is open source.</p>
+<p><em>00:46:49.726</em> These tools will also be useful for you to create your final project, so it&#x27;s</p>
+<p><em>00:46:54.045</em> better if you</p>
+<p><em>00:46:56.325</em> give it a try during this first phase of the program.</p>
+<p><em>00:47:00.075</em> CapCut is also a famous one, very intuitive and doesn&#x27;t take a lot of time to get</p>
+<p><em>00:47:05.535</em> to know the interface.</p>
+<p><em>00:47:08.745</em> For the people that, of course, also have been knowing Premiere and Rush, of</p>
+<p><em>00:47:14.745</em> course, we can say that Lightworks is the best alternative.</p>
+<p><em>00:47:18.285</em> Also, in terms of interface, it&#x27;s very similar.</p>
+<p><em>00:47:22.155</em> And the most important one here is actually HandBrake.</p>
+<p><em>00:47:26.385</em> This is an open source platform, which is also an application.</p>
+<p><em>00:47:30.464</em> So it&#x27;s a software that you can download for both Mac, Windows, et cetera.</p>
+<p><em>00:47:35.730</em> And this is your compressor. So this is called encoding.</p>
+<p><em>00:47:41.655</em> I&#x27;m talking about the video, and this allows you to convert your video also in</p>
+<p><em>00:47:46.635</em> other formats, but with different settings that are here</p>
+<p><em>00:47:52.065</em> suggested. And in a matter of two clicks, you can really compress your video, so</p>
+<p><em>00:47:57.255</em> you can scale it down from being 1 gigabyte to 10 megabytes.</p>
+<p><em>00:48:02.116</em> It&#x27;s very powerful, very useful, and very easy to use.</p>
+<p><em>00:48:09.315</em> Sometimes you may feel like you don&#x27;t have enough videos you made yourself, so you</p>
+<p><em>00:48:14.385</em> need to add some extra footage. Here on Pexels, as we saw earlier, we also have</p>
+<p><em>00:48:20.205</em> some options to including free videos and clips.</p>
+<p><em>00:48:25.245</em> So again, just put a keyword. You don&#x27;t need to credit the author.</p>
+<p><em>00:48:28.605</em> So these are all copyright-free videos.</p>
+<p><em>00:48:34.065</em> And Pixabay as well.</p>
+<p><em>00:48:39.315</em> Same with the music. The music is something we will be insisting very much next</p>
+<p><em>00:48:43.395</em> year when you have to make your own final project video.</p>
+<p><em>00:48:47.535</em> The music is something that needs to be as well, of course, open source, and there</p>
+<p><em>00:48:52.875</em> is a lot of alternatives.</p>
+<p><em>00:48:55.395</em> Sound libraries, music for every different vibe,</p>
+<p><em>00:49:01.965</em> different</p>
+<p><em>00:49:04.635</em> country. There is really a lot that every day is being generated.</p>
+<p><em>00:49:10.125</em> So have a look at all the different resources that I put at the end of the</p>
+<p><em>00:49:14.625</em> presentation because there is a lot to explore.</p>
+<p><em>00:49:18.226</em> And of course, you can create your own.</p>
+<p><em>00:49:20.715</em> Nowadays, you can also create your own sound, but of course, the voiceover, for</p>
+<p><em>00:49:25.545</em> example, might come from you.</p>
+<p><em>00:49:28.545</em> So for the video, I always say that the horizontal format is still preferable.</p>
+<p><em>00:49:34.965</em> So in this case, the ratio would be 16 by 9, like one of the pictures for the</p>
+<p><em>00:49:40.515</em> computer, full screen.</p>
+<p><em>00:49:43.005</em> The videos, it&#x27;s better if they are uploaded also in high resolution on Vimeo and</p>
+<p><em>00:49:48.675</em> YouTube, I&#x27;m talking, so they also don&#x27;t show up blurry.</p>
+<p><em>00:49:54.255</em> Again, 72, 720 pixel is the minimum considered for the</p>
+<p><em>00:50:00.315</em> resolution. Of course, 4K, 8K, and et cetera is even better.</p>
+<p><em>00:50:06.165</em> Always remember to embed your video first and then copy-paste the embed code in the</p>
+<p><em>00:50:11.955</em> web page.</p>
+<p><em>00:50:14.476</em> Here, I will not go through this. I&#x27;ll just give you the list as it is.</p>
+<p><em>00:50:17.895</em> You can explore the footage. I&#x27;ve included some free</p>
+<p><em>00:50:23.565</em> photography course. They&#x27;re very short. Some, they&#x27;re very good.</p>
+<p><em>00:50:27.765</em> I think this one&#x27;s still here by MoMA. There is some on Udemy.</p>
+<p><em>00:50:31.096</em> There&#x27;s a lot of free things that you can learn from different platforms, but also</p>
+<p><em>00:50:34.995</em> institutions online. And here are the stock videos that you can benefit from for</p>
+<p><em>00:50:40.575</em> free.</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-video-production" aria-label="视频剪辑、编码、素材与声音 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+<section class="chapter" id="topic-questions-close">
+<div class="chapter-header"><a class="chapter-time" href="https://vimeo.com/1227439129/682b057477#t=3044s" target="_blank" rel="noopener">50:44 → 56:48</a><h2 class="chapter-title">答疑：图片尺寸、AI 辅助与课程收尾</h2><span class="chapter-num">16 / 16</span></div>
+<div class="chapter-section"><div class="chapter-section-title">本章摘要</div><div class="tldr">回应图片尺寸和 AI 音乐、图像处理问题，最终决定休息后进入 Julian 的下一段课程。</div></div><div class="chapter-section"><div class="chapter-section-title">本章内容</div><ol class="chapter-moments"><li><a href="https://vimeo.com/1227439129/682b057477#t=3084s" target="_blank" rel="noopener" aria-label="在原视频查看 51:24 图片像素问题">51:24</a>图片像素问题</li><li><a href="https://vimeo.com/1227439129/682b057477#t=3146s" target="_blank" rel="noopener" aria-label="在原视频查看 52:26 等比例缩放示例">52:26</a>等比例缩放示例</li><li><a href="https://vimeo.com/1227439129/682b057477#t=3180s" target="_blank" rel="noopener" aria-label="在原视频查看 53:00 AI 音乐与图像处理">53:00</a>AI 音乐与图像处理</li><li><a href="https://vimeo.com/1227439129/682b057477#t=3319s" target="_blank" rel="noopener" aria-label="在原视频查看 55:19 是否开展实操">55:19</a>是否开展实操</li><li><a href="https://vimeo.com/1227439129/682b057477#t=3381s" target="_blank" rel="noopener" aria-label="在原视频查看 56:21 休息与下一场安排">56:21</a>休息与下一场安排</li></ol></div><figure class="chapter-visual"><div class="carousel" data-chapter="topic-questions-close"><button class="carousel-btn prev" aria-label="上一张">‹</button><div class="carousel-viewport"><img class="carousel-img active" src="frames/questions-close-1.jpg" alt="53:15 · 录制末尾的答疑画面" data-caption="53:15 · 录制末尾的答疑画面" loading="lazy"></div><button class="carousel-btn next" aria-label="下一张">›</button><div class="carousel-dots"></div></div><figcaption class="frame-caption">53:15 · 录制末尾的答疑画面</figcaption></figure>
+<div class="chapter-section"><div class="chapter-section-title">关键观点</div><ul class="key-points"><li>讲师举例用约 300 像素的一边等比例缩小图片；这只是个人示例，不适合直接套用到所有截图和大图。</li><li>AI 音乐和照片增强的答复强调先尝试自己的创作，再考虑辅助，相关顾虑以讲师个人观点呈现。</li><li>图片放大不能保证恢复原来没有记录的真实细节，记录实验成果时应保留原图和处理说明。</li><li>虽然此前提出可做 GIMP 演示，本录制最终选择休息，没有实际演示步骤可整理。</li><li>下一段 Julian 的网站课程与本项目已有开篇文档化笔记相衔接。</li></ul></div><div class="chapter-section"><div class="chapter-section-title">术语速查</div><div class="terms"><span class="term" tabindex="0"><strong>等比例缩放</strong><span class="term-tip">锁定宽高比，只改变一边时另一边同步调整。</span></span></div></div><div class="chapter-section"><div class="chapter-section-title">行动清单</div><div class="actions"><ol><li>按图片在页面中的实际用途决定尺寸，检查文字是否清楚。</li><li>把需要实操练习的问题单独列出，不把未演示的过程视为已完成。</li></ol></div></div><details class="transcript"><summary>查看本章原文字幕（自动识别）</summary><div class="transcript-body"><p><em>00:50:44.866</em> Okay, this is just one hour past. We&#x27;re perfectly on time.</p>
+<p><em>00:50:50.596</em> I don&#x27;t mean to be very long while doing the demo.</p>
+<p><em>00:50:55.515</em> Let me know</p>
+<p><em>00:50:57.375</em> also if there&#x27;s some questions, because I cannot see the chat when I stop screen</p>
+<p><em>00:51:01.755</em> sharing for a bit. And</p>
+<p><em>00:51:09.945</em> okay, there is only two questions. If you have more, you can also unmute yourself.</p>
+<p><em>00:51:24.135</em> Okay, meanwhile, Anastasia has some questions.</p>
+<p><em>00:51:26.625</em> So how many pixels you recommend for images?</p>
+<p><em>00:51:32.445</em> Actually, I&#x27;m going to give you the slide.</p>
+<p><em>00:51:42.885</em> So you can also go back.</p>
+<p><em>00:51:53.385</em> I&#x27;m going to put them literally on the most.</p>
+<p><em>00:52:06.226</em> You should be able to access all of them.</p>
+<p><em>00:52:10.576</em> So to focus on the pixel is not important because you can just have one reference</p>
+<p><em>00:52:16.516</em> or two. One for sure is the resolution.</p>
+<p><em>00:52:19.184</em> So the more you increase the resolution, the bigger</p>
+<p><em>00:52:23.715</em> and heavier also your picture will be.</p>
+<p><em>00:52:26.625</em> And I usually</p>
+<p><em>00:52:30.315</em> resize my pictures like 300 by whatever they are. So you can lock the ratio.</p>
+<p><em>00:52:35.895</em> So you can just adjust one of the measurement, and then the other one will follow</p>
+<p><em>00:52:39.766</em> accordingly.</p>
+<p><em>00:52:44.415</em> Yeah, you can use... Exactly. There is many alternatives nowadays.</p>
+<p><em>00:52:47.895</em> So YouTube audio library for</p>
+<p><em>00:52:51.915</em> free copyright music.</p>
+<p><em>00:53:00.285</em> AI to make my own music. Again, I think it would be nice to explore</p>
+<p><em>00:53:05.535</em> first by yourself. It&#x27;s something...</p>
+<p><em>00:53:08.490</em> Because if you&#x27;re interested in this, then maybe you also want to try first and</p>
+<p><em>00:53:13.425</em> then use the AI not to cut the fun, but to increase the possibilities, maybe</p>
+<p><em>00:53:19.365</em> to play with effect. In this sense, I think I would go more in this direction.</p>
+<p><em>00:53:26.085</em> And a lot of people have been using AI for</p>
+<p><em>00:53:30.255</em> optimizing the pictures like a professional photoshoot.</p>
+<p><em>00:53:35.835</em> I think I stand in between.</p>
+<p><em>00:53:38.925</em> I think it&#x27;s fun. I personally like to get the challenge also to</p>
+<p><em>00:53:44.745</em> try by myself, how can I make this picture as more professional as possible?</p>
+<p><em>00:53:50.326</em> But I think</p>
+<p><em>00:53:52.185</em> if this doesn&#x27;t work, you can also try the AI version.</p>
+<p><em>00:53:55.485</em> For example, if you want to upscale, sometimes the picture is in a very bad</p>
+<p><em>00:53:59.895</em> resolution, and unfortunately, there is no time to repeat an assignment.</p>
+<p><em>00:54:03.735</em> Yeah, I would say you can do upscale with Canva or with any of the platform online.</p>
+<p><em>00:54:09.856</em> But in general, I don&#x27;t feel like myself at least giving my own things that I make,</p>
+<p><em>00:54:15.915</em> and I feed the AI with that because you don&#x27;t control this, and they&#x27;re part of a</p>
+<p><em>00:54:21.615</em> bigger picture that you don&#x27;t know, and we kind of lose ownership at the same</p>
+<p><em>00:54:27.076</em> time. It&#x27;s still not very clear, I think, in general, where all this content will</p>
+<p><em>00:54:31.545</em> be one day. So I would prefer trying myself first, at least with the tools.</p>
+<p><em>00:54:36.976</em> And nowadays, we have a lot of tools. Not like 20 years ago.</p>
+<p><em>00:54:41.205</em> Now,</p>
+<p><em>00:54:42.675</em> we have much to play with. It&#x27;s just the time that is the biggest</p>
+<p><em>00:54:48.615</em> constraint, I think.</p>
+<p><em>00:54:52.905</em> I think there</p>
+<p><em>00:54:54.645</em> was no other question.</p>
+<p><em>00:55:06.705</em> I went a little bit fast because everything is written in the slides, and you can</p>
+<p><em>00:55:10.935</em> just click and go back to the different projects. Also for the sake of time.</p>
+<p><em>00:55:19.275</em> I included at the end of the slides what I was planning to demonstrate with the</p>
+<p><em>00:55:25.005</em> software. If it&#x27;s something that is not needed, also tell me so we can have a</p>
+<p><em>00:55:29.295</em> longer break. But if you feel like, yeah, why not?</p>
+<p><em>00:55:33.675</em> Let&#x27;s do this in 10 minutes or something, we can do that.</p>
+<p><em>00:55:45.675</em> Every year, we try to accommodate the different needs, and I know that in Fabrica</p>
+<p><em>00:55:49.500</em> we always have different skills.</p>
+<p><em>00:55:53.115</em> There&#x27;s people that are very expert in something, and they like other</p>
+<p><em>00:55:58.846</em> knowledge.</p>
+<p><em>00:56:10.395</em> Otherwise, I take a decision. So you tell me.</p>
+<p><em>00:56:21.375</em> Coffee time.</p>
+<p><em>00:56:25.245</em> Okay.</p>
+<p><em>00:56:31.305</em> I agree with that.</p>
+<p><em>00:56:33.465</em> Of course, you do.</p>
+<p><em>00:56:36.255</em> So we will have 15 minutes break, and then we will have the second part with</p>
+<p><em>00:56:41.835</em> Julian. I will stop this recording.</p>
+<p><em>00:56:47.145</em> Yes. You&#x27;re welcome</p></div></details>
+<div class="notes-area"><textarea data-chapter="topic-questions-close" aria-label="答疑：图片尺寸、AI 辅助与课程收尾 · 个人笔记" placeholder="你的备注(自动保存到本地)..."></textarea><div class="notes-status" role="status"></div></div>
+</section>
+
+
+    <!-- ============ FOOTER ============ -->
+    <footer class="footer">
+      <p>
+        AI 笔记更新于 <strong>2026-09-20</strong> · 基于 Vimeo 自动字幕 (En-x-autogen) + 内容理解<br>
+        原始视频: <a href="https://vimeo.com/1227439129/682b057477" target="_blank" rel="noopener">视觉文档化：案例、素材与媒体制作</a> · 
+        字幕文件: <a href="source.en-x-autogen.vtt" download>VTT</a>
+      </p>
+      <p style="margin-top: 8px; font-size: 12px;">
+        整理: Codex · 字幕获取: yt-dlp · 风格: GitHub Dark Dimmed
+      </p>
+    </footer>
+
+  </main>
+</div>
+
+<script>
+  // Both generations keep the existing storage object; semantic IDs avoid reassigning old notes.
+  document.addEventListener('DOMContentLoaded', () => {
+    const STORAGE_KEY = "fabricademy-1227439129-notes-v1";
+    let saved = {};
+    let storageAvailable = true;
+    try { saved = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}'); }
+    catch (e) { storageAvailable = false; }
+    if (!saved || typeof saved !== 'object' || Array.isArray(saved)) saved = {};
+
+    const legacyEntries = document.querySelectorAll('.legacy-note');
+    let legacyCount = 0;
+    legacyEntries.forEach(entry => {
+      const note = saved[entry.dataset.legacyKey];
+      if (typeof note !== 'string' || !note.trim()) return;
+      entry.querySelector('p').textContent = note;
+      entry.hidden = false;
+      legacyCount++;
+    });
+    const legacyPanel = document.querySelector('.legacy-notes');
+    if (legacyPanel) legacyPanel.hidden = legacyCount === 0;
+
+    document.querySelectorAll('textarea[data-chapter]').forEach(ta => {
+      const key = ta.dataset.chapter;
+      const status = ta.parentElement.querySelector('.notes-status');
+      if (typeof saved[key] === 'string') {
+        ta.value = saved[key];
+        status.textContent = '已读取本地笔记';
+      } else if (!storageAvailable) {
+        status.textContent = '当前预览无法读取本地笔记，请在普通浏览器记录并保存。';
+      }
+      let timer;
+      ta.addEventListener('input', () => {
+        clearTimeout(timer);
+        status.textContent = '保存中...';
+        timer = setTimeout(() => {
+          try {
+            const latest = JSON.parse(localStorage.getItem(STORAGE_KEY) || '{}');
+            if (latest && typeof latest === 'object' && !Array.isArray(latest)) saved = latest;
+            saved[key] = ta.value;
+            saved[key + '_ts'] = Date.now();
+            localStorage.setItem(STORAGE_KEY, JSON.stringify(saved));
+            status.textContent = '已自动保存 · ' + new Date().toLocaleTimeString();
+          } catch (e) { status.textContent = '本地保存失败，请复制笔记备份。'; }
+        }, 400);
+      });
+    });
+  });
+
+  // ===== Smooth scroll & active TOC highlight =====
+  const tocLinks = document.querySelectorAll('.toc a');
+  const sections = document.querySelectorAll('.chapter');
+
+  // srcdoc fragment links inherit the host URL. Keep in-page navigation inside the preview.
+  if (window.location.href.split('#')[0] === 'about:srcdoc') {
+    document.addEventListener('click', event => {
+      if (event.defaultPrevented || event.button !== 0 || event.metaKey ||
+          event.ctrlKey || event.shiftKey || event.altKey) return;
+      const link = event.target.closest('a[href^="#"]');
+      if (!link) return;
+      const target = document.getElementById(link.getAttribute('href').slice(1));
+      if (!target) return;
+      event.preventDefault();
+      target.scrollIntoView({ block: 'start', behavior: 'auto' });
+    });
+  }
+
+  // Use IntersectionObserver to highlight active section in TOC
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        tocLinks.forEach(l => { l.style.borderLeftColor = 'transparent'; l.style.color = ''; l.removeAttribute('aria-current'); });
+        const link = document.querySelector('.toc a[href="#' + e.target.id + '"]');
+        if (link) {
+          link.style.borderLeftColor = 'var(--accent)';
+          link.style.color = 'var(--accent)';
+          link.setAttribute('aria-current', 'location');
+        }
+      }
+    });
+  }, { rootMargin: '-20% 0px -75% 0px' });
+  sections.forEach(s => observer.observe(s));
+
+  document.querySelectorAll('.carousel').forEach((c, chapterIndex) => {
+    const imgs = [...c.querySelectorAll('.carousel-img')];
+    const dots = c.querySelector('.carousel-dots');
+    dots.replaceChildren();
+    c.tabIndex = 0;
+    c.setAttribute('role', 'region');
+    c.setAttribute('aria-label', `第${chapterIndex + 1}章视频截图，左右方向键切换`);
+    const counter = document.createElement('span');
+    counter.className = 'carousel-counter';
+    counter.setAttribute('aria-live', 'polite');
+    c.append(counter);
+    let current = 0;
+    const buttons = imgs.map((img, i) => {
+      const button = document.createElement('button');
+      button.type = 'button'; button.className = 'dot';
+      button.setAttribute('aria-label', `第${i + 1}张截图`);
+      button.addEventListener('click', () => go(i)); dots.append(button);
+      return button;
+    });
+    function go(n) {
+      current = (n + imgs.length) % imgs.length;
+      imgs.forEach((img, i) => { img.classList.toggle('active', i === current); img.setAttribute('aria-hidden', String(i !== current)); });
+      buttons.forEach((button, i) => { button.classList.toggle('active', i === current); button.setAttribute('aria-pressed', String(i === current)); });
+      counter.textContent = `${current + 1} / ${imgs.length}`;
+      c.closest('figure').querySelector('.frame-caption').textContent = imgs[current].dataset.caption;
+    }
+    c.querySelector('.prev').addEventListener('click', () => go(current - 1));
+    c.querySelector('.next').addEventListener('click', () => go(current + 1));
+    c.addEventListener('keydown', e => {
+      if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') { e.preventDefault(); go(current + (e.key === 'ArrowRight' ? 1 : -1)); }
+    });
+    go(0);
+  });
+</script>
+</body>
+</html>
