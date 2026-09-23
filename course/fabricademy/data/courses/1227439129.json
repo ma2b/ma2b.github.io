@@ -1,0 +1,966 @@
+{
+  "id": "1227439129",
+  "slug": "03-fabricademy-opening",
+  "title": "视觉文档化：案例、素材与媒体制作",
+  "description": "Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。",
+  "binding_source": "course",
+  "duration": 3407.936,
+  "page_url": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/notes.html",
+  "bilibili": null,
+  "chapters": [
+    {
+      "id": "topic-introduction",
+      "title": "视觉文档化的目标与课程路线",
+      "summary": "Claudia Simonelli 介绍自己的设计与教学背景，说明本课将从资料入口、案例和工具走向媒体制作。",
+      "key_points": [
+        "本课关注如何把自己的过程与成果表达清楚，后续 Julian 的课程再深入网站和 Markdown。",
+        "课程包含视觉案例、软件选择、AI 使用、署名许可及媒体制作资源。",
+        "GIMP 和 Inkscape 被介绍为可探索的开源工具；本段不要求所有人更换已熟悉的软件。"
+      ],
+      "terms": [
+        {
+          "term": "视觉文档化",
+          "definition": "用图像、文字和媒体记录过程、解释结果并帮助他人理解。"
+        }
+      ],
+      "actions": [
+        "整理自己已有的照片、作品与研究材料，作为本周网站内容的起点。"
+      ],
+      "start": 0.0,
+      "end": 160.921,
+      "references": [],
+      "moments": [
+        {
+          "time": 21.87,
+          "title": "讲师背景"
+        },
+        {
+          "time": 64.89,
+          "title": "课程路线"
+        },
+        {
+          "time": 125.88,
+          "title": "工具准备"
+        }
+      ],
+      "frames": [
+        {
+          "time": 100.0,
+          "caption": "本次视觉文档化课程的内容路线",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/introduction-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-archive-assignment",
+      "title": "Class Archive、Handbook 与第一周任务",
+      "summary": "通过课程档案查找参与者、往届案例和工具，再用手册确认第一周作业要求。",
+      "key_points": [
+        "Class Archive 提供当前与往届参与者入口，网站按实验室组织；工具按周次汇总。",
+        "Handbook 用来核对学习目标和作业要求，不能只凭案例猜测本周交付。",
+        "本次第一周要求包括个人背景、过往作品、研究参考及网站记录，并开始学习 Git 版本控制。",
+        "网站个性化可以逐步完成，先让内容与结构清楚。"
+      ],
+      "terms": [
+        {
+          "term": "Class Archive",
+          "definition": "课程资源、参与者与往届学习记录的入口。"
+        },
+        {
+          "term": "Handbook",
+          "definition": "集中说明学习目标及作业要求的课程手册。"
+        }
+      ],
+      "actions": [
+        "从课程档案定位自己的页面和本周手册。",
+        "列出自我介绍、作品、研究参考和本周学习过程。"
+      ],
+      "start": 160.921,
+      "end": 410.88,
+      "references": [],
+      "moments": [
+        {
+          "time": 204.48,
+          "title": "定位个人网站"
+        },
+        {
+          "time": 242.101,
+          "title": "按周查找工具"
+        },
+        {
+          "time": 304.98,
+          "title": "手册与作业"
+        },
+        {
+          "time": 353.37,
+          "title": "第一周内容要求"
+        }
+      ],
+      "frames": [
+        {
+          "time": 218.0,
+          "caption": "课程档案中的参与者入口",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/archive-assignment-1.jpg"
+        },
+        {
+          "time": 340.0,
+          "caption": "第一周学习目标与作业要求",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/archive-assignment-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-visual-examples",
+      "title": "从模板到个人表达：案例与信息组织",
+      "summary": "比较往届网站如何结合情绪板、手绘、留白、封面和信息图，让同一模板呈现不同内容。",
+      "key_points": [
+        "先用模板组织材料参数、机器信息和配方，再逐步加入个人视觉语言。",
+        "情绪板、照片与手绘可以组合使用；留白帮助读者区分信息层次。",
+        "作业封面可形成统一系列或整体拼图，但仍应让每周内容容易辨认。",
+        "流程图和材料研究图应帮助说明操作、变化和结果，不只是装饰。",
+        "原录制展示了多位学员案例；具体姓名与作品链接应以讲师幻灯片为准，不根据自动字幕猜写链接。"
+      ],
+      "terms": [
+        {
+          "term": "Mood Board",
+          "definition": "汇集视觉参考、颜色与材料方向的情绪板。"
+        },
+        {
+          "term": "信息图",
+          "definition": "通过图形关系解释流程、数据或材料变化。"
+        }
+      ],
+      "actions": [
+        "选择与自己内容相符的一种布局，先完成一周示例。",
+        "把一个复杂过程整理成流程图或参数表，并保留来源。"
+      ],
+      "start": 410.88,
+      "end": 840.615,
+      "references": [],
+      "moments": [
+        {
+          "time": 452.88,
+          "title": "模板与信息层次"
+        },
+        {
+          "time": 516.36,
+          "title": "Markdown 速查"
+        },
+        {
+          "time": 556.785,
+          "title": "情绪板与留白"
+        },
+        {
+          "time": 657.855,
+          "title": "手绘流程与数字化"
+        },
+        {
+          "time": 718.575,
+          "title": "作业封面体系"
+        },
+        {
+          "time": 779.145,
+          "title": "信息图与材料研究"
+        }
+      ],
+      "frames": [
+        {
+          "time": 580.0,
+          "caption": "情绪板与视觉参考案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/visual-examples-1.jpg"
+        },
+        {
+          "time": 677.0,
+          "caption": "手绘学习流程案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/visual-examples-2.jpg"
+        },
+        {
+          "time": 825.0,
+          "caption": "材料研究的信息组织案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/visual-examples-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-audio-motion",
+      "title": "语音记录与轻量动态媒体",
+      "summary": "音频可以保留个人表达，动态内容则要结合课程的文件体积要求处理。",
+      "key_points": [
+        "课程展示了语音记录配文字转录的案例，方便不能收听的读者获取内容。",
+        "本次课程明确不接受 GIF，建议用压缩后的循环 MP4 表达必要的短动态内容。",
+        "讲师在这段给出的目标是不超过约 1 MB；这是本次短动态素材的要求，不是所有视频的统一限制。"
+      ],
+      "terms": [
+        {
+          "term": "转录",
+          "definition": "把语音内容写成可阅读的文字。"
+        },
+        {
+          "term": "循环 MP4",
+          "definition": "通过播放器循环播放短视频，形成重复动态。"
+        }
+      ],
+      "actions": [
+        "需要语音介绍时同时提供文字内容。",
+        "只保留有信息价值的动态过程，并检查压缩后的文件大小。"
+      ],
+      "start": 840.615,
+      "end": 944.595,
+      "references": [],
+      "moments": [
+        {
+          "time": 849.045,
+          "title": "语音与转录案例"
+        },
+        {
+          "time": 873.915,
+          "title": "GIF 限制"
+        },
+        {
+          "time": 911.145,
+          "title": "循环 MP4 替代方式"
+        }
+      ],
+      "frames": [
+        {
+          "time": 865.0,
+          "caption": "语音记录与文字转录案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/audio-motion-1.jpg"
+        },
+        {
+          "time": 925.0,
+          "caption": "以 MP4 替代 GIF 的课程说明",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/audio-motion-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-image-resources",
+      "title": "配色、素材、拼贴与图片处理工具",
+      "summary": "按配色、研究参考、拼贴、压缩和去背景等任务认识在线工具，并区分平台授权与课程署名要求。",
+      "key_points": [
+        "Adobe Color 与 Canva 用于配色和布局，Pinterest 用于寻找真实项目参考；引用应追溯到作品来源。",
+        "Unsplash 和 Pexels 提供各自许可下可用的素材，不等于作品没有版权或用途毫无限制。",
+        "平台可能不强制署名，但本次课程仍强调记录图片来源；免费功能与使用额度需以工具实际页面为准。",
+        "压缩、批量处理和去背景是不同任务；保留原图，检查处理后的小字、边缘和细节。",
+        "课程提到通过 WhatsApp 压缩的便捷方式，但这会影响画质，不应替代原文件归档。"
+      ],
+      "terms": [
+        {
+          "term": "素材许可",
+          "definition": "权利人或平台规定的使用条件。"
+        },
+        {
+          "term": "批量处理",
+          "definition": "对一组文件应用一致的调整并导出。"
+        }
+      ],
+      "actions": [
+        "为引用图片保存作者、作品原链接和许可信息。",
+        "选一张代表性图片试压缩，确认清晰度后再批量处理。"
+      ],
+      "start": 944.595,
+      "end": 1245.471,
+      "references": [
+        {
+          "title": "Unsplash 官方许可",
+          "url": "https://unsplash.com/license"
+        },
+        {
+          "title": "Pexels 官方许可",
+          "url": "https://www.pexels.com/license/"
+        }
+      ],
+      "moments": [
+        {
+          "time": 948.075,
+          "title": "配色与 Canva"
+        },
+        {
+          "time": 1013.235,
+          "title": "Pinterest 与来源"
+        },
+        {
+          "time": 1053.405,
+          "title": "图库素材"
+        },
+        {
+          "time": 1093.665,
+          "title": "拼贴与压缩"
+        },
+        {
+          "time": 1161.201,
+          "title": "批量处理"
+        },
+        {
+          "time": 1193.481,
+          "title": "去背景工具"
+        }
+      ],
+      "frames": [
+        {
+          "time": 960.0,
+          "caption": "在线配色资源",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-resources-1.jpg"
+        },
+        {
+          "time": 1082.0,
+          "caption": "Pexels 图片素材示例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-resources-2.jpg"
+        },
+        {
+          "time": 1174.0,
+          "caption": "批量图片处理资源",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-resources-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-ai-practice",
+      "title": "AI 辅助的边界、披露与事实核对",
+      "summary": "本次课程把 AI 定位为辅助探索工具，要求保留自己的构思、判断和表达，并说明使用情况。",
+      "key_points": [
+        "讲师允许把 AI 用于已有想法的变化探索和辅助优化，并以手绘草稿再生成变体的项目说明。",
+        "本次课程要求注明 AI 使用；不允许直接复制生成内容作为自己的代码、研究或文档表达。",
+        "讲师强调先建立自己的概念与真实参考，不把个人研究和灵感选择全部交给生成工具。",
+        "课程提到语言校对工具，但不能据此把整篇代写或重写当作自己的记录。",
+        "AI 可能生成错误事实和虚构引文，需回到原网站、数据表、论文及作者核查。"
+      ],
+      "terms": [
+        {
+          "term": "使用披露",
+          "definition": "说明使用了什么工具、在哪个环节参与，以及自己的判断和修改。"
+        },
+        {
+          "term": "事实核对",
+          "definition": "通过实际存在的原始来源验证信息与引文。"
+        }
+      ],
+      "actions": [
+        "先保留自己的草图、实验和思考，再记录辅助工具的使用。",
+        "逐项打开引用来源，确认其确实支持相应内容。"
+      ],
+      "start": 1245.471,
+      "end": 1502.391,
+      "references": [],
+      "moments": [
+        {
+          "time": 1286.901,
+          "title": "说明 AI 使用"
+        },
+        {
+          "time": 1327.312,
+          "title": "手绘与生成变体案例"
+        },
+        {
+          "time": 1403.511,
+          "title": "复制与文档表达限制"
+        },
+        {
+          "time": 1467.081,
+          "title": "虚构信息与原始来源核对"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1360.0,
+          "caption": "手绘草稿与生成变体案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/ai-practice-1.jpg"
+        },
+        {
+          "time": 1485.0,
+          "caption": "AI 信息与引文核对提醒",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/ai-practice-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-credit-license",
+      "title": "Creative Commons 与图片署名",
+      "summary": "理解课程展示的许可条件，并把作者、作品链接与摄影者等信息写进图注或参考清单。",
+      "key_points": [
+        "画面确认课程展示的是 CC BY-NC 4.0，强调署名与非商业使用；具体范围应看所链接的完整许可。",
+        "CC BY-NC 4.0 要求适当署名、提供许可链接并说明修改；不能把非商业条件理解成放弃版权。",
+        "不要把 BY-NC 自动写成带 ShareAlike 的 BY-NC-SA；共享方式应依据实际许可条款。",
+        "图片署名可包含作品名称、作者、来源链接、日期和摄影者；拼贴中的不同图片也应能追溯。",
+        "页面自身许可不能自动替第三方图片重新授权。"
+      ],
+      "terms": [
+        {
+          "term": "Attribution",
+          "definition": "在使用作品时提供适当的作者与来源信息。"
+        },
+        {
+          "term": "NonCommercial",
+          "definition": "许可中的非商业使用条件。"
+        }
+      ],
+      "actions": [
+        "核对网站页脚许可的名称和链接。",
+        "给图片和拼贴补齐来源，并区分作品作者与摄影者。"
+      ],
+      "start": 1502.391,
+      "end": 1654.047,
+      "references": [
+        {
+          "title": "Creative Commons：CC BY-NC 4.0",
+          "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+        }
+      ],
+      "moments": [
+        {
+          "time": 1515.441,
+          "title": "页脚许可"
+        },
+        {
+          "time": 1550.451,
+          "title": "署名与非商业条件"
+        },
+        {
+          "time": 1577.692,
+          "title": "图注示例"
+        },
+        {
+          "time": 1643.271,
+          "title": "摄影者署名"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1545.0,
+          "caption": "课程展示的 Creative Commons 许可",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/credit-license-1.jpg"
+        },
+        {
+          "time": 1605.0,
+          "caption": "照片及拼贴的署名示例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/credit-license-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-pdf-archive",
+      "title": "PDF、手册与作品集：先归档再嵌入",
+      "summary": "课程文件需要在仓库保留可下载版本；在线展示可以辅助阅读，但不能替代课程源文件。",
+      "key_points": [
+        "本次课程要求 PDF 先压缩后上传 Git 仓库，Google Slides 或 Canva 的在线嵌入不能成为唯一留档。",
+        "模板的 PDF 阅读器通过文件路径引用仓库中的 PDF，上传后要检查链接和实际文件名。",
+        "讲师以研究手册说明：平时统一整理视觉材料，有助于最后汇总成册。",
+        "PDF 压缩需要检查文字和图片质量，录制中的体积变化是示例，不能保证每个文件都有同样压缩率。",
+        "已有外部个人作品集的展示与课程作业归档要求在本段被区分说明。"
+      ],
+      "terms": [
+        {
+          "term": "Repository",
+          "definition": "存放课程文件并追踪版本的仓库。"
+        },
+        {
+          "term": "嵌入",
+          "definition": "在网页内呈现另一份文件或外部平台的内容。"
+        }
+      ],
+      "actions": [
+        "导出压缩 PDF，上传后测试下载链接和阅读器。",
+        "保留清晰的源文件与发布副本，避免只存外部展示链接。"
+      ],
+      "start": 1654.047,
+      "end": 1899.658,
+      "references": [],
+      "moments": [
+        {
+          "time": 1683.747,
+          "title": "PDF 与外部嵌入限制"
+        },
+        {
+          "time": 1721.938,
+          "title": "模板 PDF 阅读器"
+        },
+        {
+          "time": 1764.207,
+          "title": "手册案例"
+        },
+        {
+          "time": 1806.117,
+          "title": "压缩工具"
+        },
+        {
+          "time": 1863.807,
+          "title": "个人作品集展示"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1752.0,
+          "caption": "PDF 路径与页面阅读器示例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/pdf-archive-1.jpg"
+        },
+        {
+          "time": 1852.0,
+          "caption": "PDF24 的压缩参数示意",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/pdf-archive-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fabrication-files",
+      "title": "制造文件打包与三维模型预览",
+      "summary": "把模型和 Grasshopper 等制造文件打包归档，在线三维预览作为补充展示。",
+      "key_points": [
+        "课程要求制造文件上传 Git，可将相关文件整理为 ZIP 并在文档中提供链接。",
+        "压缩包应保留可理解的命名和所需文件；压缩效果取决于文件内容，不能假定都会明显变小。",
+        "Sketchfab 或 p3d.in 一类预览服务可以帮助查看模型，但不替代仓库中的可下载模型。"
+      ],
+      "terms": [
+        {
+          "term": "ZIP",
+          "definition": "用于归档并可压缩一组文件的格式。"
+        },
+        {
+          "term": "三维预览",
+          "definition": "在页面中查看模型形态的展示方式。"
+        }
+      ],
+      "actions": [
+        "整理模型、参数和必要文件，解压检查后上传。",
+        "从网页测试下载，并确认预览与发布文件一致。"
+      ],
+      "start": 1899.658,
+      "end": 2011.408,
+      "references": [],
+      "moments": [
+        {
+          "time": 1908.057,
+          "title": "模型和 Grasshopper 文件"
+        },
+        {
+          "time": 1933.047,
+          "title": "压缩文件操作"
+        },
+        {
+          "time": 1970.397,
+          "title": "三维预览与源文件"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1941.0,
+          "caption": "制造文件压缩归档说明",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/fabrication-files-1.jpg"
+        },
+        {
+          "time": 1997.0,
+          "caption": "三维模型预览资源",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/fabrication-files-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-video-embed",
+      "title": "视频托管与嵌入网页",
+      "summary": "较大的过程视频先上传视频平台，再把播放器嵌入文档中。",
+      "key_points": [
+        "本段示范 YouTube 和 Vimeo 的 Share / Embed 流程，强调嵌入代码与浏览器地址栏链接不同。",
+        "视频适合记录加工和装配等时间过程；网页中补充简短说明，帮助读者知道要观察什么。",
+        "上传完成后应检查分享权限和网页内播放是否可用。"
+      ],
+      "terms": [
+        {
+          "term": "Embed Code",
+          "definition": "用于在网页中插入播放器的代码。"
+        }
+      ],
+      "actions": [
+        "上传过程视频，从分享菜单获取嵌入代码。",
+        "在最终页面检查播放权限、尺寸与说明。"
+      ],
+      "start": 2011.408,
+      "end": 2088.567,
+      "references": [],
+      "moments": [
+        {
+          "time": 2018.518,
+          "title": "先上传视频平台"
+        },
+        {
+          "time": 2037.656,
+          "title": "嵌入代码区别"
+        },
+        {
+          "time": 2060.217,
+          "title": "加工与组装视频"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2045.0,
+          "caption": "视频平台分享与嵌入示例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/video-embed-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-raster-vector",
+      "title": "位图、矢量与制造路径",
+      "summary": "区分像素图像与数学路径，并理解照片编辑和切割图形为什么需要不同处理方式。",
+      "key_points": [
+        "位图由像素组成，放大会暴露采样限制；矢量用路径和形状描述几何，区别不只是一个分辨率数值。",
+        "JPEG、PNG 常用于图像；SVG 常用于矢量。PDF 可包含矢量和位图，不能仅凭扩展名断定内部全是可切割路径。",
+        "课程把 GIMP / Photoshop 与 Inkscape / Illustrator 分别作为图像和矢量工具举例。",
+        "用于切割轮廓时应检查闭合路径与真实尺寸；照片放进矢量软件并不会自动成为可制造轮廓。"
+      ],
+      "terms": [
+        {
+          "term": "Raster / Bitmap",
+          "definition": "通过像素存储的图像。"
+        },
+        {
+          "term": "Vector",
+          "definition": "通过路径、点与形状描述的图形。"
+        }
+      ],
+      "actions": [
+        "区分待处理素材是照片还是需要制造的轮廓。",
+        "输出切割文件前检查路径、闭合性和尺度。"
+      ],
+      "start": 2088.567,
+      "end": 2253.993,
+      "references": [],
+      "moments": [
+        {
+          "time": 2104.227,
+          "title": "像素与路径"
+        },
+        {
+          "time": 2149.647,
+          "title": "常见格式"
+        },
+        {
+          "time": 2169.717,
+          "title": "对应编辑工具"
+        },
+        {
+          "time": 2201.824,
+          "title": "制造用途与闭合轮廓"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2142.0,
+          "caption": "位图与矢量放大对比",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/raster-vector-1.jpg"
+        },
+        {
+          "time": 2233.0,
+          "caption": "矢量图形用于制造的说明",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/raster-vector-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-image-size",
+      "title": "缩放、批处理与网页图片大小",
+      "summary": "认识图片缩放与压缩的不同作用，修正把网页清晰度统一归为 72 DPI 的说法。",
+      "key_points": [
+        "课程指出 GIMP 的 Image → Scale Image 可调整图片尺寸，并介绍批量处理的思路。",
+        "本录制只有讲解和示意，结尾没有实际开展 GIMP 操作演示。",
+        "本次课程以单张约 100–150 KB 为参考目标；应同时确认页面实际显示尺寸与细节可读性。",
+        "纠错：仅修改打印分辨率不会改变像素数量；网页图片应核对像素宽高、显示尺寸和导出压缩，不能用统一 72 DPI 判断清晰度。",
+        "等比例缩放可避免变形，原始高质量文件应另行保留。"
+      ],
+      "terms": [
+        {
+          "term": "像素尺寸",
+          "definition": "图像实际包含的像素宽度与高度。"
+        },
+        {
+          "term": "重采样",
+          "definition": "通过增减像素改变图像尺寸。"
+        }
+      ],
+      "actions": [
+        "按页面用途等比例缩放，再导出压缩副本。",
+        "检查小字与细节是否可读，并记录像素尺寸和文件大小。"
+      ],
+      "start": 2253.993,
+      "end": 2372.253,
+      "references": [
+        {
+          "title": "GIMP：Print Size 不改变像素数量",
+          "url": "https://docs.gimp.org/3.0/en/gimp-image-print-size.html"
+        },
+        {
+          "title": "GIMP：Scale Image 调整像素尺寸",
+          "url": "https://docs.gimp.org/3.0/en/gimp-image-scale.html"
+        }
+      ],
+      "moments": [
+        {
+          "time": 2266.413,
+          "title": "Scale Image"
+        },
+        {
+          "time": 2287.143,
+          "title": "批量处理介绍"
+        },
+        {
+          "time": 2322.813,
+          "title": "网页图片实践要求"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2274.0,
+          "caption": "GIMP 图片缩放示意",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-size-1.jpg"
+        },
+        {
+          "time": 2352.0,
+          "caption": "课程图片体积建议；72 DPI 说法见正文纠错",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-size-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-photo-story",
+      "title": "拍摄材料、步骤与使用场景",
+      "summary": "通过学员作品比较光线、角度、背景和人物互动如何帮助解释材料与成果。",
+      "key_points": [
+        "稳定的拍摄位置和光线让不同周的成果更容易比较，手机也可完成有信息价值的记录。",
+        "步骤说明可保持一致的俯拍角度，突出零件关系与操作细节。",
+        "人物或手部互动可以说明尺度和用途；黑白、透光和背景选择应服务于作品特征。",
+        "拍摄生物材料时整理台面并保留相关工具语境，避免杂乱遮挡内容。"
+      ],
+      "terms": [
+        {
+          "term": "拍摄语境",
+          "definition": "通过环境、道具和互动解释对象用途与特征。"
+        }
+      ],
+      "actions": [
+        "为一件作品拍摄整体、细节和使用过程。",
+        "固定一个便于每周复用的角度与背景。"
+      ],
+      "start": 2372.253,
+      "end": 2613.693,
+      "references": [],
+      "moments": [
+        {
+          "time": 2416.203,
+          "title": "固定拍摄环境"
+        },
+        {
+          "time": 2453.973,
+          "title": "步骤与俯拍"
+        },
+        {
+          "time": 2488.203,
+          "title": "材质和人物互动"
+        },
+        {
+          "time": 2510.013,
+          "title": "几何与光线"
+        },
+        {
+          "time": 2556.033,
+          "title": "实验台与材料"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2422.0,
+          "caption": "材料拍摄的光线与环境案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/photo-story-1.jpg"
+        },
+        {
+          "time": 2464.0,
+          "caption": "统一角度的步骤照片",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/photo-story-2.jpg"
+        },
+        {
+          "time": 2542.0,
+          "caption": "光线突出人体模型的形态",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/photo-story-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-capture-tools",
+      "title": "拍摄支架、截图与自制工具",
+      "summary": "选择清楚且有内容的照片，并区分屏幕截图与拍摄实物的工具。",
+      "key_points": [
+        "讲师建议优先利用合适的自然光，删除模糊或不能说明内容的图片。",
+        "记录电脑操作应直接截屏，避免用手机拍显示器造成反光、倾斜和文字模糊。",
+        "可从开源项目中寻找支架与灯箱的设计，按自己的设备调整；自制工具并非本周优先任务。",
+        "课程提到 Thingiverse 等资源中的 STL 文件，下载后仍需核对实际尺寸、适用性和许可。"
+      ],
+      "terms": [
+        {
+          "term": "Screenshot",
+          "definition": "由电脑直接保存屏幕画面的截图。"
+        },
+        {
+          "term": "Light Box",
+          "definition": "用于控制背景和照明的拍摄灯箱。"
+        }
+      ],
+      "actions": [
+        "对软件操作使用截图，对实物使用稳定拍摄。",
+        "确有需要时再制作支架或灯箱，检查设备是否稳固。"
+      ],
+      "start": 2613.693,
+      "end": 2789.535,
+      "references": [],
+      "moments": [
+        {
+          "time": 2624.133,
+          "title": "光线与内容选择"
+        },
+        {
+          "time": 2673.363,
+          "title": "电脑画面用截图"
+        },
+        {
+          "time": 2716.473,
+          "title": "自制支架"
+        },
+        {
+          "time": 2736.783,
+          "title": "灯箱与模型资源"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2725.0,
+          "caption": "学员自制拍摄支架案例",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/capture-tools-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-video-production",
+      "title": "视频剪辑、编码、素材与声音",
+      "summary": "区分剪辑和压缩，准备合适的素材、音乐与输出规格，再通过视频平台发布。",
+      "key_points": [
+        "课程介绍 Lightworks、CapCut 等剪辑工具，以及用于转码压缩的 HandBrake；免费使用与开源是不同概念。",
+        "压缩后的体积取决于时长、画面与编码参数，不能把录制中 1 GB 到 10 MB 的说法当作固定效果。",
+        "外部视频和音乐应按各自许可使用，不把免费素材统一称为无版权；课程仍鼓励记录来源。",
+        "本次讲师偏好横向 16:9，至少达到所述 720p 级别并保持清晰；更高分辨率要结合素材与发布用途。",
+        "旁白可以由自己录制；完成后上传平台，检查嵌入播放和声音。"
+      ],
+      "terms": [
+        {
+          "term": "Encoding",
+          "definition": "按所选编码与参数转换视频。"
+        },
+        {
+          "term": "16:9",
+          "definition": "常见横向视频画面比例。"
+        }
+      ],
+      "actions": [
+        "剪出能说明过程的短片，并先检查声音与字幕。",
+        "导出后检查体积和清晰度，记录外部素材及音乐来源。"
+      ],
+      "start": 2789.535,
+      "end": 3044.866,
+      "references": [
+        {
+          "title": "Pexels 官方素材许可",
+          "url": "https://www.pexels.com/license/"
+        }
+      ],
+      "moments": [
+        {
+          "time": 2799.616,
+          "title": "剪辑工具"
+        },
+        {
+          "time": 2842.155,
+          "title": "HandBrake 转码压缩"
+        },
+        {
+          "time": 2889.315,
+          "title": "补充画面"
+        },
+        {
+          "time": 2919.315,
+          "title": "音乐和旁白"
+        },
+        {
+          "time": 2968.545,
+          "title": "比例、分辨率与发布"
+        },
+        {
+          "time": 3014.476,
+          "title": "延伸资源"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2865.0,
+          "caption": "HandBrake 视频编码工具介绍",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/video-production-1.jpg"
+        },
+        {
+          "time": 2980.0,
+          "caption": "视频画面比例与发布建议",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/video-production-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-questions-close",
+      "title": "答疑：图片尺寸、AI 辅助与课程收尾",
+      "summary": "回应图片尺寸和 AI 音乐、图像处理问题，最终决定休息后进入 Julian 的下一段课程。",
+      "key_points": [
+        "讲师举例用约 300 像素的一边等比例缩小图片；这只是个人示例，不适合直接套用到所有截图和大图。",
+        "AI 音乐和照片增强的答复强调先尝试自己的创作，再考虑辅助，相关顾虑以讲师个人观点呈现。",
+        "图片放大不能保证恢复原来没有记录的真实细节，记录实验成果时应保留原图和处理说明。",
+        "虽然此前提出可做 GIMP 演示，本录制最终选择休息，没有实际演示步骤可整理。",
+        "下一段 Julian 的网站课程与本项目已有开篇文档化笔记相衔接。"
+      ],
+      "terms": [
+        {
+          "term": "等比例缩放",
+          "definition": "锁定宽高比，只改变一边时另一边同步调整。"
+        }
+      ],
+      "actions": [
+        "按图片在页面中的实际用途决定尺寸，检查文字是否清楚。",
+        "把需要实操练习的问题单独列出，不把未演示的过程视为已完成。"
+      ],
+      "start": 3044.866,
+      "end": 3407.936,
+      "references": [],
+      "moments": [
+        {
+          "time": 3084.135,
+          "title": "图片像素问题"
+        },
+        {
+          "time": 3146.625,
+          "title": "等比例缩放示例"
+        },
+        {
+          "time": 3180.285,
+          "title": "AI 音乐与图像处理"
+        },
+        {
+          "time": 3319.275,
+          "title": "是否开展实操"
+        },
+        {
+          "time": 3381.375,
+          "title": "休息与下一场安排"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3195.0,
+          "caption": "录制末尾的答疑画面",
+          "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/questions-close-1.jpg"
+        }
+      ]
+    }
+  ]
+}

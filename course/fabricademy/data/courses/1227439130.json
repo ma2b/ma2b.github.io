@@ -1,0 +1,882 @@
+{
+  "id": "1227439130",
+  "slug": "00-documentation-website",
+  "title": "Fabricademy 第十期 · 文档化与个人网站",
+  "description": "",
+  "binding_source": "course",
+  "duration": 5387.775,
+  "page_url": "https://ma2b.github.io/course/fabricademy/00-documentation-website/notes.html",
+  "bilibili": null,
+  "chapters": [
+    {
+      "id": "topic-platforms",
+      "title": "课程平台与账号登录",
+      "summary": "先认识课程使用的平台，再完成 GitLab 与 Mattermost 登录，为文档化和课程交流做好准备。",
+      "key_points": [
+        "FabLabs.io 提供网络目录与账号入口；GitLab 管理版本、编辑文件并发布网站。",
+        "课程评估系统记录每周作业与反馈，Mattermost 承担聊天、频道和通知。",
+        "GitLab 演示通过登录页的 Fab Labs 按钮跳转授权；Mattermost 演示直接填写账号密码。",
+        "手机 Mattermost 的服务器地址与网页版一致，以课程欢迎邮件和实际链接为准。"
+      ],
+      "terms": [
+        {
+          "term": "SSO",
+          "definition": "单点登录，通过统一账号入口登录其他服务。"
+        },
+        {
+          "term": "GitLab",
+          "definition": "本课用于管理网站源文件、提交记录和自动发布的平台。"
+        },
+        {
+          "term": "Mattermost",
+          "definition": "课程聊天与协作工具。"
+        }
+      ],
+      "actions": [
+        "找到课程欢迎邮件，核对账号并完成 GitLab 登录。",
+        "打开课程提供的 Mattermost 地址，确认能进入班级频道。"
+      ],
+      "start": 0.0,
+      "end": 470.28,
+      "references": [],
+      "moments": [
+        {
+          "time": 21.78,
+          "title": "课程平台与自托管基础设施"
+        },
+        {
+          "time": 240.24,
+          "title": "欢迎邮件与账号检查"
+        },
+        {
+          "time": 317.52,
+          "title": "GitLab 登录演示"
+        },
+        {
+          "time": 399.841,
+          "title": "Mattermost 与手机登录"
+        }
+      ],
+      "frames": [
+        {
+          "time": 150.0,
+          "caption": "课程平台介绍",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/platforms-1.jpg"
+        },
+        {
+          "time": 370.0,
+          "caption": "GitLab 登录演示",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/platforms-2.jpg"
+        },
+        {
+          "time": 430.0,
+          "caption": "Mattermost 登录说明",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/platforms-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-foundations",
+      "title": "网页基础与 Zensical 模板",
+      "summary": "理解 HTML、CSS、Markdown 和站点生成器各自的作用，再用课程模板开始写作。",
+      "key_points": [
+        "HTML 描述网页内容结构，CSS 调整这些内容的显示样式。",
+        "Markdown 用标题、列表、强调和图片等简洁语法组织文档。",
+        "本课程使用 Zensical 将文档生成网站，并提供导航与文档组件。",
+        "讲师说明往届使用 MkDocs；复用旧资料时仍应核对当前模板的配置与扩展。"
+      ],
+      "terms": [
+        {
+          "term": "HTML / CSS",
+          "definition": "分别负责网页内容结构和视觉样式。"
+        },
+        {
+          "term": "Markdown",
+          "definition": "以纯文本符号组织文档的标记语言。"
+        },
+        {
+          "term": "Zensical",
+          "definition": "本课使用的文档网站生成工具；自动字幕有多种误写。"
+        }
+      ],
+      "actions": [
+        "在课程模板中辨认标题、列表、图片等 Markdown 写法。",
+        "对照源文件与网页，理解文字如何变成网站内容。"
+      ],
+      "start": 470.28,
+      "end": 852.714,
+      "references": [],
+      "moments": [
+        {
+          "time": 470.28,
+          "title": "课程模板与网页结构"
+        },
+        {
+          "time": 644.214,
+          "title": "Markdown 基础语法"
+        },
+        {
+          "time": 737.064,
+          "title": "Zensical 与往届 MkDocs 模板"
+        }
+      ],
+      "frames": [
+        {
+          "time": 550.0,
+          "caption": "HTML 与 CSS 的作用",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/foundations-1.jpg"
+        },
+        {
+          "time": 700.0,
+          "caption": "Markdown 语法示例",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/foundations-2.jpg"
+        },
+        {
+          "time": 790.0,
+          "caption": "课程使用的文档工具",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/foundations-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-git-project",
+      "title": "找到个人网站，认识 Git 版本历史",
+      "summary": "从学员目录进入个人网站和仓库，用提交历史与差异视图理解 Git，并区分网页编辑与本地工作。",
+      "key_points": [
+        "课程 Participants 目录链接到学员网站，网站和 GitLab 仓库承担不同角色。",
+        "项目首页包含文件列表、README、网站链接和最近提交状态。",
+        "Code → Commits 可查作者、时间和说明；差异视图对照修改前后的文件。",
+        "本地副本可以先编辑，再提交和推送；与网页交替编辑时要保持版本同步。"
+      ],
+      "terms": [
+        {
+          "term": "Repository",
+          "definition": "保存项目文件及版本历史的仓库。"
+        },
+        {
+          "term": "Commit / Diff",
+          "definition": "提交记录和修改前后的差异。"
+        },
+        {
+          "term": "Push",
+          "definition": "把本地提交发送到服务器。"
+        }
+      ],
+      "actions": [
+        "从学员目录找到自己的网站及仓库，打开 Web Editor。",
+        "查看一次提交的差异，确认改动了哪些文件和内容。"
+      ],
+      "start": 852.714,
+      "end": 1273.938,
+      "references": [],
+      "moments": [
+        {
+          "time": 852.714,
+          "title": "个人网站与仓库入口"
+        },
+        {
+          "time": 1058.574,
+          "title": "Git、提交历史与差异视图"
+        },
+        {
+          "time": 1199.508,
+          "title": "网页编辑与本地副本"
+        }
+      ],
+      "frames": [
+        {
+          "time": 970.0,
+          "caption": "GitLab 项目首页",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/git-project-1.jpg"
+        },
+        {
+          "time": 1130.0,
+          "caption": "提交历史与文件差异",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/git-project-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-configuration",
+      "title": "项目文件结构与 TOML 配置",
+      "summary": "先找清配置、内容和构建文件，再修改网站名称等基本设置；本章保留配置讲解与首次编辑的完整过程。",
+      "key_points": [
+        "TOML 配置控制站点名称、字体和其他全局选项；docs/ 存放 Markdown 与图片。",
+        "index.md 对应目录首页，文件与目录结构会影响发布后的地址。",
+        ".gitlab-ci.yml 描述构建与发布流程，本课模板通常已配置好。",
+        "配置字段属于不同的节，例如 [project] 与 [project.theme.font]；注意位置和成对引号。",
+        "先修改名称、描述、作者等字段，保留模板既有的 site_url；中途还回答了密码重置问题。"
+      ],
+      "terms": [
+        {
+          "term": "TOML",
+          "definition": "用配置节和键值表达网站设置的格式。"
+        },
+        {
+          "term": "docs/",
+          "definition": "本课模板中的网站内容目录。"
+        },
+        {
+          "term": "CI 配置",
+          "definition": "告诉 GitLab 如何自动构建并发布网站的文件。"
+        }
+      ],
+      "actions": [
+        "找到 TOML、docs/index.md 和 .gitlab-ci.yml，说明三者各自用途。",
+        "修改站点名称，核对配置节和引号，随后进入下一章提交。"
+      ],
+      "start": 1273.938,
+      "end": 1769.106,
+      "references": [],
+      "moments": [
+        {
+          "time": 1273.938,
+          "title": "配置、内容与构建文件"
+        },
+        {
+          "time": 1477.548,
+          "title": "TOML 键值与配置节"
+        },
+        {
+          "time": 1682.076,
+          "title": "插入问答：找回账号密码"
+        },
+        {
+          "time": 1733.286,
+          "title": "编辑站点名称和版权信息"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1340.0,
+          "caption": "项目文件与内容目录",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/configuration-1.jpg"
+        },
+        {
+          "time": 1745.0,
+          "caption": "编辑网站基本配置",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/configuration-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-first-publish",
+      "title": "首次提交与自动发布",
+      "summary": "把“编辑 → 检查差异 → 提交 → 查看构建 → 确认网站”作为一个完整流程，而不是分散到多个时间段。",
+      "key_points": [
+        "Web Editor 中的改动需要主动提交；变更数量不代表已经发布。",
+        "先比较新增、删除的行，核对字符串引号与修改范围。",
+        "写清楚提交说明，并确认本课演示使用的 main 分支。",
+        "提交后检查对应流水线和 Pages 作业，失败时把日志错误与最近改动对应。",
+        "演示最后刷新网站，确认新的站点名称已经出现。"
+      ],
+      "terms": [
+        {
+          "term": "Commit message",
+          "definition": "帮助以后查找改动的一段提交说明。"
+        },
+        {
+          "term": "Pipeline / Job",
+          "definition": "自动构建流程及其中的具体任务。"
+        }
+      ],
+      "actions": [
+        "为上一章的配置改动写提交说明，检查差异后提交。",
+        "检查最新构建状态，再刷新网站确认结果。"
+      ],
+      "start": 1769.106,
+      "end": 2131.656,
+      "references": [],
+      "moments": [
+        {
+          "time": 1769.106,
+          "title": "编辑后为何需要提交"
+        },
+        {
+          "time": 1804.326,
+          "title": "检查文件差异"
+        },
+        {
+          "time": 1855.656,
+          "title": "提交说明与 main 分支"
+        },
+        {
+          "time": 1996.446,
+          "title": "流水线和构建日志"
+        },
+        {
+          "time": 2118.876,
+          "title": "确认网站更新"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1845.0,
+          "caption": "提交前查看配置差异",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/first-publish-1.jpg"
+        },
+        {
+          "time": 1940.0,
+          "caption": "提交说明与分支选择",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/first-publish-2.jpg"
+        },
+        {
+          "time": 2055.0,
+          "caption": "查看网站构建结果",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/first-publish-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-theme",
+      "title": "字体、图标与社交链接",
+      "summary": "通过主题配置做第一轮外观定制，分别查看字体、站点图标和页脚社交链接的设置。",
+      "key_points": [
+        "从字体库选定字体后，将字体名称写入配置字符串。",
+        "站点图标使用工具提供的图标库；社交链接包括图标名称和网址。",
+        "演示中猜写的社交图标名称后来导致构建失败，选名称时应对照实际图标库。"
+      ],
+      "terms": [
+        {
+          "term": "Theme",
+          "definition": "定义网站整体外观和导航等选项的主题。"
+        },
+        {
+          "term": "Social links",
+          "definition": "页脚等位置展示的社交平台链接。"
+        }
+      ],
+      "actions": [
+        "找到模板里的字体和图标设置，一次只修改一项。",
+        "检查图标名称与目标网址，提交后确认构建是否成功。"
+      ],
+      "start": 2131.656,
+      "end": 2261.466,
+      "references": [],
+      "moments": [
+        {
+          "time": 2139.696,
+          "title": "选择字体"
+        },
+        {
+          "time": 2203.131,
+          "title": "更换站点图标"
+        },
+        {
+          "time": 2228.181,
+          "title": "添加社交链接"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2175.0,
+          "caption": "字体选择与配置",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/theme-1.jpg"
+        },
+        {
+          "time": 2245.0,
+          "caption": "社交链接与图标设置",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/theme-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-markdown",
+      "title": "Markdown 写作与扩展组件",
+      "summary": "以每周作业模板为例，区分基础 Markdown、HTML 和扩展组件，理解提示框、按钮、表格与图片图注。",
+      "key_points": [
+        "把模板源码与渲染结果对照起来看，辨认标题、正文和可折叠提示框。",
+        "基础 Markdown 之外的提示框、按钮等可能需要先启用对应扩展。",
+        "扩展语法与工具有关，不能假定所有编辑器都能预览同样的效果。",
+        "模板混用 HTML 实现图片图注；图注与图片替代文本是不同用途。"
+      ],
+      "terms": [
+        {
+          "term": "Admonition",
+          "definition": "用于提示、说明或警告的内容框。"
+        },
+        {
+          "term": "Markdown extension",
+          "definition": "为 Markdown 增加组件或语法的扩展。"
+        },
+        {
+          "term": "Caption",
+          "definition": "显示在图片附近的图注。"
+        }
+      ],
+      "actions": [
+        "从模板中选择一个提示框，对照其源码、配置与显示结果。",
+        "找到图注示例，再阅读下一章的图片语法和路径说明。"
+      ],
+      "start": 2261.466,
+      "end": 2655.831,
+      "references": [],
+      "moments": [
+        {
+          "time": 2261.466,
+          "title": "阅读每周作业模板"
+        },
+        {
+          "time": 2339.361,
+          "title": "提示框、按钮与表格"
+        },
+        {
+          "time": 2425.851,
+          "title": "基础语法与工具扩展的区别"
+        },
+        {
+          "time": 2589.261,
+          "title": "用 HTML 添加图片图注"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2335.0,
+          "caption": "模板源码与页面效果",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/markdown-1.jpg"
+        },
+        {
+          "time": 2610.0,
+          "caption": "图片与图注示例",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/markdown-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-images",
+      "title": "图片插入、上传与提交",
+      "summary": "把图片替代文本、相对路径、编辑器预览、上传命名和最终提交连成一套操作。",
+      "key_points": [
+        "图片写法是 ![替代文本](路径)，替代文本描述画面而不是简单写“图片”。",
+        "从当前 Markdown 所在目录计算路径，../ 返回一级；可借助编辑器补全减少拼写错误。",
+        "Markdown 预览适合检查图片和基础排版，不一定显示站点扩展组件。",
+        "上传后使用清晰的小写文件名，并让正文中的路径与文件名一致。",
+        "检查图片文件和正文的变更后一起提交；本段末尾尝试排查右键菜单，后续答疑提供了替代入口。"
+      ],
+      "terms": [
+        {
+          "term": "Alt text",
+          "definition": "为看不到图片的人提供内容描述的替代文本。"
+        },
+        {
+          "term": "Relative path",
+          "definition": "相对当前文件位置计算的资源路径。"
+        }
+      ],
+      "actions": [
+        "上传一张优化后的图片，补充替代文本，并在预览中确认路径正确。",
+        "将图片与引用它的 Markdown 一起检查、提交并确认网页显示。"
+      ],
+      "start": 2655.831,
+      "end": 3154.44,
+      "references": [],
+      "moments": [
+        {
+          "time": 2655.831,
+          "title": "图片语法与替代文本"
+        },
+        {
+          "time": 2707.056,
+          "title": "相对路径与目录层级"
+        },
+        {
+          "time": 2777.295,
+          "title": "Markdown 预览与路径补全"
+        },
+        {
+          "time": 2898.435,
+          "title": "上传图片与重命名"
+        },
+        {
+          "time": 3050.565,
+          "title": "提交正文和图片"
+        },
+        {
+          "time": 3090.495,
+          "title": "插入问答：右键菜单异常"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2765.0,
+          "caption": "图片相对路径",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/images-1.jpg"
+        },
+        {
+          "time": 2830.0,
+          "caption": "预览与图片路径检查",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/images-2.jpg"
+        },
+        {
+          "time": 3058.0,
+          "caption": "图片与正文一起提交",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/images-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-recovery",
+      "title": "历史恢复、构建排错与编辑冲突",
+      "summary": "围绕“改错后怎么办”，完整保留历史恢复、revert 的现场纠正、构建日志定位和旧标签页冲突处理。",
+      "key_points": [
+        "文件 History 可以找到旧内容，再将需要的部分恢复为一次新修改。",
+        "讲师先把 revert 与 reset 混淆，随后明确纠正：revert 新建反向提交，撤销指定提交。",
+        "本地预览能减少“改一点、提交一次、等待构建”的往返。",
+        "本次日志中的 footer、social 和图标名称帮助定位到此前修改过的社交链接配置。",
+        "旧标签页落后于仓库版本时，先保留未提交文字，刷新后比较与合并，避免丢失或覆盖改动。"
+      ],
+      "terms": [
+        {
+          "term": "Revert",
+          "definition": "通过新提交反向撤销指定提交，保留已有历史。"
+        },
+        {
+          "term": "构建日志",
+          "definition": "记录构建步骤与报错的输出。"
+        },
+        {
+          "term": "编辑冲突",
+          "definition": "当前编辑版本已落后于仓库，不能直接覆盖提交的情况。"
+        }
+      ],
+      "actions": [
+        "需要恢复时，先查看对应提交影响了哪些文件；少量内容可从历史中复制回来。",
+        "构建失败先定位日志关键词并核对最近改动；遇到旧标签页先备份未提交内容。"
+      ],
+      "start": 3154.44,
+      "end": 3691.509,
+      "references": [],
+      "moments": [
+        {
+          "time": 3154.44,
+          "title": "从文件历史恢复内容"
+        },
+        {
+          "time": 3250.785,
+          "title": "Revert 演示及随后纠正"
+        },
+        {
+          "time": 3306.969,
+          "title": "纠正：revert 与 reset 的区别"
+        },
+        {
+          "time": 3383.589,
+          "title": "本地预览如何减少等待"
+        },
+        {
+          "time": 3504.219,
+          "title": "用日志定位社交图标错误"
+        },
+        {
+          "time": 3612.069,
+          "title": "处理旧标签页的提交冲突"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3230.0,
+          "caption": "从历史版本找回文件内容",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/recovery-1.jpg"
+        },
+        {
+          "time": 3545.0,
+          "caption": "查看构建错误日志",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/recovery-2.jpg"
+        },
+        {
+          "time": 3635.0,
+          "caption": "编辑期间文件已改变的提示",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/recovery-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-css",
+      "title": "用 CSS 定制网站样式",
+      "summary": "通过浏览器检查工具试调样式，再把确认有效的选择器和规则写回 extra.css。",
+      "key_points": [
+        "docs/stylesheets/extra.css 用于补充模板样式。",
+        "CSS 选择器决定哪些元素受到影响，class 是常见的匹配依据。",
+        "Inspect 可查看元素及其生效样式，并现场试调字体大小等属性。",
+        "检查工具里的试验会在刷新后消失，确认效果后需要写回 CSS 文件。",
+        "讲师建议用小练习学习 CSS，并让 AI 解释原理。"
+      ],
+      "terms": [
+        {
+          "term": "Selector / Class",
+          "definition": "CSS 匹配元素的方式及常用的类名标记。"
+        },
+        {
+          "term": "DevTools",
+          "definition": "浏览器的页面检查与调试工具。"
+        }
+      ],
+      "actions": [
+        "在检查工具中调整一个元素的字号，比较前后效果。",
+        "将有效规则写回 extra.css，重新预览并确认作用范围。"
+      ],
+      "start": 3691.509,
+      "end": 3934.194,
+      "references": [],
+      "moments": [
+        {
+          "time": 3691.509,
+          "title": "找到自定义样式文件"
+        },
+        {
+          "time": 3758.079,
+          "title": "选择器、类名与变量"
+        },
+        {
+          "time": 3792.819,
+          "title": "Inspect 试验与保存样式"
+        },
+        {
+          "time": 3907.344,
+          "title": "学习 CSS 的练习方法"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3765.0,
+          "caption": "自定义 CSS 与类名",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/css-1.jpg"
+        },
+        {
+          "time": 3845.0,
+          "caption": "浏览器内试调样式",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/css-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-local-workflow",
+      "title": "本地工作流：克隆、提交、预览与 SSH",
+      "summary": "连贯看完本地工作的完整演示：克隆仓库、检查修改、提交推送、运行预览，最后补充所需的 SSH 配置。",
+      "key_points": [
+        "本地保存、Git 提交、推送和网站构建是不同步骤；本地预览本身不会公开发布网站。",
+        "演示从仓库复制 SSH 地址后运行 git clone，再用 status、diff 和 add 检查并选择改动。",
+        "git commit -m 记录变化，git push 将提交送到服务器。",
+        "按项目说明准备 Python 环境并安装工具；zensical serve 在 localhost 提供预览，保存文件后查看更新。",
+        "SSH 账号设置中添加的是 .pub 公钥，私钥保留在本机；字幕中的 private key 与演示矛盾，应纠正。",
+        "视频把 SSH 设置放在演示之后；自行练习时应先完成它。往届 MkDocs 模板应使用相应的环境与配置说明。"
+      ],
+      "terms": [
+        {
+          "term": "Clone / Staging",
+          "definition": "取得仓库副本，以及选择下一次提交包含的修改。"
+        },
+        {
+          "term": "localhost",
+          "definition": "本机地址，用于本地预览。"
+        },
+        {
+          "term": "SSH 公钥",
+          "definition": "添加到 GitLab 用于识别本机的公钥，通常以 .pub 结尾。"
+        }
+      ],
+      "actions": [
+        "先配置 GitLab SSH 公钥，再克隆自己的仓库。",
+        "编辑后检查 status / diff，暂存并提交所需文件，再推送。",
+        "按模板说明运行本地预览，确认效果后检查远程构建和网站。"
+      ],
+      "start": 3934.194,
+      "end": 4642.986,
+      "references": [],
+      "moments": [
+        {
+          "time": 3934.194,
+          "title": "本地预览概念与 commit / job 问答"
+        },
+        {
+          "time": 4057.824,
+          "title": "克隆仓库与 SSH 前提"
+        },
+        {
+          "time": 4158.084,
+          "title": "检查差异、暂存、提交和推送"
+        },
+        {
+          "time": 4296.264,
+          "title": "环境准备与 Zensical 本地预览"
+        },
+        {
+          "time": 4481.526,
+          "title": "GitLab SSH 公钥设置"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4145.0,
+          "caption": "克隆仓库到本地",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/local-workflow-1.jpg"
+        },
+        {
+          "time": 4465.0,
+          "caption": "localhost 本地预览",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/local-workflow-2.jpg"
+        },
+        {
+          "time": 4580.0,
+          "caption": "SSH 公钥设置说明",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/local-workflow-3.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-questions",
+      "title": "课程资源与上传问题答疑",
+      "summary": "集中整理结尾答疑：去哪里查资料、上传菜单异常时怎么办，以及如何反馈持续失败的构建。",
+      "key_points": [
+        "课程手册、每周模板和工具文档提供 Markdown、定制和操作示例。",
+        "问题可发到课程 Mattermost 对应频道，附具体错误信息。",
+        "上传菜单闪退的演示中，替代做法是进入仓库目标目录，使用加号下的 Upload File。",
+        "讲师随后确认该入口可多选文件；本地工作也可直接把文件放入目录统一提交。",
+        "持续构建失败时查看最新作业日志，必要时请课程支持协助判断服务器状态。"
+      ],
+      "terms": [
+        {
+          "term": "Upload File",
+          "definition": "仓库目录页面提供的文件上传入口。"
+        },
+        {
+          "term": "最新作业",
+          "definition": "确认本次改动是否成功构建的对应任务。"
+        }
+      ],
+      "actions": [
+        "收藏课程手册与工具文档，确认能访问课程求助频道。",
+        "如果上传菜单异常，使用仓库目录的 Upload File；构建异常时记录日志。"
+      ],
+      "start": 4642.986,
+      "end": 5076.858,
+      "references": [],
+      "moments": [
+        {
+          "time": 4662.036,
+          "title": "课程手册与求助渠道"
+        },
+        {
+          "time": 4780.206,
+          "title": "上传菜单异常问答"
+        },
+        {
+          "time": 4919.826,
+          "title": "仓库页面的替代上传入口"
+        },
+        {
+          "time": 5017.578,
+          "title": "查看最新作业与服务器问题求助"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4705.0,
+          "caption": "课程文档与功能示例",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/questions-1.jpg"
+        },
+        {
+          "time": 4940.0,
+          "caption": "仓库页面的上传入口",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/questions-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-publish-demo",
+      "title": "完整复演：修改字体并发布",
+      "summary": "用更换字体再走一遍完整发布流程，将前面的配置、差异检查、提交和构建串起来。",
+      "key_points": [
+        "演示将字体名设为 Roboto Condensed，字符串中的空格与成对引号需要正确。",
+        "检查左侧变更列表，填写提交说明并提交到 main。",
+        "回到作业列表确认本次构建通过，再刷新网站检查字体效果。"
+      ],
+      "terms": [
+        {
+          "term": "发布核对",
+          "definition": "把配置改动、提交、构建和最终页面逐一对应。"
+        }
+      ],
+      "actions": [
+        "选择一处小改动，练习“编辑 → 检查差异 → 提交 → 构建 → 验证页面”。"
+      ],
+      "start": 5076.858,
+      "end": 5249.628,
+      "references": [],
+      "moments": [
+        {
+          "time": 5076.858,
+          "title": "以字体修改重新演示"
+        },
+        {
+          "time": 5137.308,
+          "title": "修改字体名称与查看差异"
+        },
+        {
+          "time": 5165.959,
+          "title": "提交、检查作业并刷新网站"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5145.0,
+          "caption": "修改字体配置",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/publish-demo-1.jpg"
+        },
+        {
+          "time": 5195.0,
+          "caption": "核对最新构建结果",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/publish-demo-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-image-budget",
+      "title": "图片优化与课程收尾",
+      "summary": "为整个课程安排图片体积预算，把压缩与尺寸检查纳入每周文档流程，同时兼顾读者的网络条件。",
+      "key_points": [
+        "讲师提到课程仓库存储额度为 500 MB，需要为后续每周内容留空间。",
+        "课堂给出的图片参考是约 800 像素宽、100 KB 量级，具体应以细节可读性和实际要求为准。",
+        "手机原图通常信息量很大，上传前应根据网页展示需求调整尺寸与体积。",
+        "较小的图片能降低加载成本，让手机和较慢网络上的读者更容易访问。"
+      ],
+      "terms": [
+        {
+          "term": "图片优化",
+          "definition": "在可读性、像素尺寸和文件体积之间选择合适平衡。"
+        },
+        {
+          "term": "存储预算",
+          "definition": "按课程周期安排每周的文件空间。"
+        }
+      ],
+      "actions": [
+        "上传前缩放、压缩并检查工艺细节，记录每周图片总体积。"
+      ],
+      "start": 5249.628,
+      "end": 5387.775,
+      "references": [],
+      "moments": [
+        {
+          "time": 5249.628,
+          "title": "500 MB 额度与每周预算"
+        },
+        {
+          "time": 5288.658,
+          "title": "图片尺寸、体积与网络条件"
+        },
+        {
+          "time": 5355.049,
+          "title": "结束致谢"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5300.0,
+          "caption": "课程收尾画面；本段图片优化建议为口头讲解，见下方要点与字幕",
+          "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/image-budget-1.jpg"
+        }
+      ]
+    }
+  ]
+}

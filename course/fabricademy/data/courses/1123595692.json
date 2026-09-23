@@ -1,0 +1,814 @@
+{
+  "id": "1123595692",
+  "slug": "01-modular-fashion",
+  "title": "模块化时装：从参数化绘图到连接与组装",
+  "description": "Fabricademy Modular Fashion 教程中文笔记，按实际演示整理 Fusion、Rhino、矢量文件输出与模块连接测试。",
+  "binding_source": "extension",
+  "duration": 5059.968,
+  "page_url": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/notes.html",
+  "bilibili": {
+    "bvid": "BV1cohn6CEaZ",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-preparation",
+      "title": "课程目标与 Fusion 工作环境",
+      "summary": "明确本课目标：设计可用于激光切割的模块，并准备 Fusion 的单位、网格和设计历史。",
+      "key_points": [
+        "本课演示两组模块：先用 Fusion 绘制圆形连接件，再用 Rhino 绘制另一种模块。",
+        "Illustrator 或 Inkscape 用于后续矢量整理与排料，软件选择服务于完整制作流程。",
+        "演示采用毫米单位，并检查底部时间线；界面位置会随系统和版本变化。"
+      ],
+      "terms": [
+        {
+          "term": "排料",
+          "definition": "把模块排列到材料幅面中，考虑间距和材料利用率。"
+        },
+        {
+          "term": "设计历史",
+          "definition": "记录 Fusion 建模过程，便于回到已有步骤继续编辑。"
+        }
+      ],
+      "actions": [
+        "准备选用的建模及矢量编辑软件。",
+        "核对文档单位、网格和时间线。"
+      ],
+      "start": 0.0,
+      "end": 316.005,
+      "references": [],
+      "moments": [
+        {
+          "time": 24.925,
+          "title": "本课路线与切割文件目标"
+        },
+        {
+          "time": 72.905,
+          "title": "矢量编辑软件的角色"
+        },
+        {
+          "time": 208.425,
+          "title": "Fusion 界面、单位与时间线"
+        }
+      ],
+      "frames": [
+        {
+          "time": 275.0,
+          "caption": "Fusion 工作环境与单位设置演示",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/preparation-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-sketch",
+      "title": "Fusion 草图、尺寸与构造线",
+      "summary": "在俯视平面建立草图，用直径尺寸约束圆形，并设置只用于定位的构造线。",
+      "key_points": [
+        "本课以二维草图为主；完成草图后仍可从草图列表或时间线重新进入。",
+        "先绘制圆，再用 Sketch Dimension（D）添加直径；演示采用 40 mm。",
+        "构造线用于建立轴线与几何关系，应与最终切割线区分。"
+      ],
+      "terms": [
+        {
+          "term": "Sketch Dimension",
+          "definition": "草图尺寸约束，用来定义几何尺寸。"
+        },
+        {
+          "term": "Construction Line",
+          "definition": "辅助定位的构造线，不是预期的切割轮廓。"
+        }
+      ],
+      "actions": [
+        "建立俯视草图，画圆并标注直径。",
+        "画经过圆心的轴线，将其设为构造线。"
+      ],
+      "start": 316.005,
+      "end": 776.375,
+      "references": [],
+      "moments": [
+        {
+          "time": 344.135,
+          "title": "进入二维草图"
+        },
+        {
+          "time": 508.935,
+          "title": "创建圆形"
+        },
+        {
+          "time": 575.085,
+          "title": "使用尺寸约束"
+        },
+        {
+          "time": 739.455,
+          "title": "约束与构造线"
+        }
+      ],
+      "frames": [
+        {
+          "time": 640.0,
+          "caption": "圆形草图的直径标注",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-sketch-1.jpg"
+        },
+        {
+          "time": 765.0,
+          "caption": "圆形与辅助轴线",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-sketch-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-female",
+      "title": "Fusion：用镜像与圆周阵列设计插槽",
+      "summary": "先画半条插槽并定义位置，再通过镜像和圆周阵列复制，形成可联动调整的插槽模块。",
+      "key_points": [
+        "半条线在演示中设为 5 mm，镜像后形成 10 mm 插槽；位置示例为距圆心 14 mm。",
+        "Mirror 需要指定对象和镜像轴，不能只选择其中一项。",
+        "Circular Pattern 围绕圆心复制插槽；调整原始尺寸后检查所有实例的变化。"
+      ],
+      "terms": [
+        {
+          "term": "Mirror",
+          "definition": "沿指定轴生成镜像几何。"
+        },
+        {
+          "term": "Circular Pattern",
+          "definition": "围绕中心按数量和角度重复对象。"
+        }
+      ],
+      "actions": [
+        "绘制半槽，标注长度及其相对圆心的位置。",
+        "镜像补全插槽，再做圆周阵列并试改尺寸。"
+      ],
+      "start": 776.375,
+      "end": 1127.565,
+      "references": [],
+      "moments": [
+        {
+          "time": 809.695,
+          "title": "绘制并约束半条插槽"
+        },
+        {
+          "time": 948.085,
+          "title": "镜像补全"
+        },
+        {
+          "time": 1003.315,
+          "title": "圆周阵列与联动检查"
+        }
+      ],
+      "frames": [
+        {
+          "time": 985.0,
+          "caption": "镜像形成的插槽",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-female-1.jpg"
+        },
+        {
+          "time": 1095.0,
+          "caption": "圆周阵列后的圆形模块",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-female-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-male",
+      "title": "Fusion：制作配套插接模块",
+      "summary": "复制原模块，保留可复用的几何参照，改画伸向外轮廓的切线，再镜像和阵列得到配套连接件。",
+      "key_points": [
+        "本次演示中的复制结果独立于原模块，不能假设修改一份会自动同步另一份。",
+        "利用原有轴线和插槽位置建立配套线段，用 Trim 清理多余部分。",
+        "这里的单线连接针对讲师的薄片样品；较厚材料的槽宽在后面另有补充。"
+      ],
+      "terms": [
+        {
+          "term": "Trim",
+          "definition": "裁掉不需要的曲线部分。"
+        },
+        {
+          "term": "配套连接",
+          "definition": "插入端与接收槽在位置、尺寸和材料变形上相互匹配。"
+        }
+      ],
+      "actions": [
+        "复制模块后确认编辑的是副本。",
+        "延伸、修剪线段，完成镜像和圆周阵列。"
+      ],
+      "start": 1127.565,
+      "end": 1421.895,
+      "references": [],
+      "moments": [
+        {
+          "time": 1146.135,
+          "title": "复制草图并说明独立性"
+        },
+        {
+          "time": 1228.845,
+          "title": "延伸与修剪线段"
+        },
+        {
+          "time": 1327.235,
+          "title": "镜像和圆周阵列"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1370.0,
+          "caption": "配套模块的切线与阵列",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-male-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-export",
+      "title": "Fusion 排料与 DXF 输出检查",
+      "summary": "排列两种模块，导出 DXF，再在矢量软件中检查比例、重复对象和线条设置。",
+      "key_points": [
+        "对齐圆形时可利用圆心与捕捉，再通过矩形阵列排出行列。",
+        "圆形排料会留下空隙，讲师建议思考余料能否转化为其他模块。",
+        "完成草图后再导出 DXF，并在导入矢量软件时核对毫米与 1:1 比例。",
+        "演示发现隐藏副本后返回修正；红色、0.1 mm 或 hairline 是演示设置，需按实际设备工作流程核对。"
+      ],
+      "terms": [
+        {
+          "term": "DXF",
+          "definition": "用于交换二维绘图数据的文件格式。"
+        },
+        {
+          "term": "1:1 比例",
+          "definition": "输出图形尺寸与设计的实际尺寸一致。"
+        }
+      ],
+      "actions": [
+        "排料后检查辅助线、重复对象与材料空隙。",
+        "导出并重新打开文件，测量关键尺寸后按本地设备要求整理线条。"
+      ],
+      "start": 1421.895,
+      "end": 1896.085,
+      "references": [],
+      "moments": [
+        {
+          "time": 1421.895,
+          "title": "对齐与排料"
+        },
+        {
+          "time": 1522.555,
+          "title": "矩形阵列"
+        },
+        {
+          "time": 1607.215,
+          "title": "导出 DXF"
+        },
+        {
+          "time": 1679.015,
+          "title": "发现副本并修正"
+        },
+        {
+          "time": 1736.185,
+          "title": "矢量软件中的线条与输出"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1575.0,
+          "caption": "圆形模块的矩形排料",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-export-1.jpg"
+        },
+        {
+          "time": 1770.0,
+          "caption": "导出后的矢量线条设置",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-export-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-setup",
+      "title": "Rhino 工作环境与对象捕捉",
+      "summary": "转入 Rhino，准备毫米单位、俯视图和对象捕捉，并认识命令行及图层。",
+      "key_points": [
+        "讲师使用 Mac 上的 Rhino 7，界面位置不应视为所有版本统一。",
+        "当前演示采用直接绘图；与 Fusion 的草图尺寸联动方式不同，Grasshopper 仅作后续课程提示。",
+        "按需要启用端点、中点、中心和交点捕捉；过多捕捉选项可能干扰定位。"
+      ],
+      "terms": [
+        {
+          "term": "Osnap",
+          "definition": "对象捕捉，定位端点、中点、中心或交点等几何特征。"
+        },
+        {
+          "term": "图层",
+          "definition": "组织对象并管理显示等属性。"
+        }
+      ],
+      "actions": [
+        "打开毫米文档并切换至 Top 视图。",
+        "检查所需捕捉选项，定位命令行和图层面板。"
+      ],
+      "start": 1896.085,
+      "end": 2161.385,
+      "references": [],
+      "moments": [
+        {
+          "time": 1940.635,
+          "title": "与 Fusion 工作方式的区别"
+        },
+        {
+          "time": 1986.555,
+          "title": "单位与捕捉设置"
+        },
+        {
+          "time": 2079.005,
+          "title": "俯视图、命令行与图层"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2120.0,
+          "caption": "Rhino 俯视工作区与工具面板",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-setup-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-outline",
+      "title": "Rhino：方形轮廓、旋转与圆角",
+      "summary": "从有明确尺寸的正方形出发，旋转并处理圆角，建立第二组模块的外轮廓。",
+      "key_points": [
+        "演示从原点建立 40 × 40 mm 正方形，用 Distance 或 Dim 核对尺寸。",
+        "本次 Rhino 操作在绘制时输入尺寸，Dim 标注用于测量参考，不等同于 Fusion 草图驱动尺寸。",
+        "使用 Rotate 指定中心与 45° 角度，再用 Fillet 逐角处理；空格可重复上一命令。"
+      ],
+      "terms": [
+        {
+          "term": "Rotate",
+          "definition": "围绕指定中心旋转所选对象。"
+        },
+        {
+          "term": "Fillet",
+          "definition": "以指定半径在曲线间生成圆角。"
+        }
+      ],
+      "actions": [
+        "绘制并测量正方形，确认文档单位。",
+        "旋转轮廓并处理各圆角，检查曲线完整性。"
+      ],
+      "start": 2161.385,
+      "end": 2584.945,
+      "references": [],
+      "moments": [
+        {
+          "time": 2248.205,
+          "title": "绘制有明确尺寸的正方形"
+        },
+        {
+          "time": 2346.485,
+          "title": "距离与尺寸核对"
+        },
+        {
+          "time": 2417.545,
+          "title": "旋转轮廓"
+        },
+        {
+          "time": 2498.665,
+          "title": "设置圆角"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2370.0,
+          "caption": "正方形尺寸检查",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-outline-1.jpg"
+        },
+        {
+          "time": 2570.0,
+          "caption": "旋转后的圆角轮廓",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-outline-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-slots",
+      "title": "Rhino：定位插槽与极轴阵列",
+      "summary": "利用辅助轴线、精确移动和极轴阵列，在新轮廓中布置接收槽。",
+      "key_points": [
+        "用捕捉定位中点或顶点，并通过辅助线控制插槽的位置。",
+        "演示槽线为 10 mm，可用 Align 或 Move 的基点与目标点完成定位。",
+        "Polar Array 需要对象、中心、数量和角度；演示为四个实例分布一周。"
+      ],
+      "terms": [
+        {
+          "term": "Polar Array",
+          "definition": "Rhino 中围绕中心分布对象的极轴阵列。"
+        },
+        {
+          "term": "Move 基点",
+          "definition": "移动时作为对齐参照的起始点。"
+        }
+      ],
+      "actions": [
+        "定位一条插槽并测量其长度。",
+        "围绕中心阵列后检查分布，再对模块分组。"
+      ],
+      "start": 2584.945,
+      "end": 2924.205,
+      "references": [],
+      "moments": [
+        {
+          "time": 2593.265,
+          "title": "建立定位辅助线"
+        },
+        {
+          "time": 2712.845,
+          "title": "对齐与按点移动"
+        },
+        {
+          "time": 2804.225,
+          "title": "极轴阵列"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2785.0,
+          "caption": "插槽的定位与长度检查",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-slots-1.jpg"
+        },
+        {
+          "time": 2900.0,
+          "caption": "极轴阵列形成的插槽模块",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-slots-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-mixed",
+      "title": "Rhino：组合连接件与矩形排料",
+      "summary": "把部分接收槽转换为插入端，建立兼有两类接口的模块，再旋转并排列到片材幅面。",
+      "key_points": [
+        "复制粘贴可能把副本放在原位置，编辑前需确认对象是否重叠。",
+        "延伸线段至外轮廓、移除不用的线，再镜像形成另一侧连接。",
+        "矩形阵列按 X、Y 指定数量，二维排料的 Z 数量为 1；圆角仍会留下少量余料。"
+      ],
+      "terms": [
+        {
+          "term": "Rectangular Array",
+          "definition": "沿坐标方向重复对象的矩形阵列。"
+        },
+        {
+          "term": "混合接口模块",
+          "definition": "在同一模块上同时设计插入端和接收槽。"
+        }
+      ],
+      "actions": [
+        "完成连接线后清理重叠对象并分组。",
+        "旋转到适合片材的方向，检查阵列数量与间距。"
+      ],
+      "start": 2924.205,
+      "end": 3211.135,
+      "references": [],
+      "moments": [
+        {
+          "time": 2935.095,
+          "title": "复制及重叠位置说明"
+        },
+        {
+          "time": 2983.545,
+          "title": "延伸和镜像连接线"
+        },
+        {
+          "time": 3104.225,
+          "title": "旋转与矩形排料"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3080.0,
+          "caption": "组合连接件的轮廓",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-mixed-1.jpg"
+        },
+        {
+          "time": 3205.0,
+          "caption": "模块的矩形阵列排料",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-mixed-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-export",
+      "title": "Rhino 输出与曲线清理",
+      "summary": "设置输出属性，将文件送入 Illustrator 或 Inkscape，检查断开的路径和尺寸。",
+      "key_points": [
+        "讲师演示连续线型、图层颜色和 hairline 打印宽度；实际切割要求应向使用的实验室核对。",
+        "可用 Export Selected 只导出所需对象，并在矢量软件里重新检查。",
+        "本次实际遇到的是未连接的轮廓，讲师演示 Join 后再次导出；不能把所有导出问题都归为重复线。",
+        "PDF、SVG、DXF 等交换路径各有细节，导入后保持原始尺寸并检查最终曲线。"
+      ],
+      "terms": [
+        {
+          "term": "Join",
+          "definition": "将符合连接条件的曲线段连接起来；操作后仍要检查结果。"
+        },
+        {
+          "term": "Hairline",
+          "definition": "演示使用的极细打印线宽选项，设备识别方式需单独核对。"
+        }
+      ],
+      "actions": [
+        "清理并连接应连续的轮廓，保留设计需要的独立槽线。",
+        "导出到矢量软件，复核尺寸、断线和重复线后保存最终文件。"
+      ],
+      "start": 3211.135,
+      "end": 3656.855,
+      "references": [],
+      "moments": [
+        {
+          "time": 3216.405,
+          "title": "线条与打印属性"
+        },
+        {
+          "time": 3349.295,
+          "title": "选择导出格式"
+        },
+        {
+          "time": 3441.515,
+          "title": "发现未连接路径并清理"
+        },
+        {
+          "time": 3557.765,
+          "title": "在 Inkscape 中复核"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3340.0,
+          "caption": "Rhino 输出属性检查",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-export-1.jpg"
+        },
+        {
+          "time": 3590.0,
+          "caption": "在矢量软件中检查导出结果",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-export-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-assembly",
+      "title": "实物模块的组装与变化",
+      "summary": "观察毛毡样品怎样插接、锁定与拆分，并通过颜色、接口和组装方向形成不同结构。",
+      "key_points": [
+        "折起插入端、适度打开接收槽，再拉入位置，检查连接是否稳定。",
+        "双槽、不同连接件和不同组装方向可改变连接强度与二维、三维形态。",
+        "讲师展示羊毛毡和薄合成毡的不同手感；样品描述不能替代具体材料的激光加工适用性确认。",
+        "模块可混搭，但连接尺寸和接合方式需要兼容。"
+      ],
+      "terms": [
+        {
+          "term": "Interlocking",
+          "definition": "通过几何接口互相卡接的连接方式。"
+        },
+        {
+          "term": "模块迭代",
+          "definition": "根据装配反馈调整模块形状、接口或数量。"
+        }
+      ],
+      "actions": [
+        "先少量制作样片，观察插入、锁定和拆卸过程。",
+        "记录材料、接口尺寸及不同组装方向的效果；加工前让实验室确认具体材料。"
+      ],
+      "start": 3656.855,
+      "end": 4113.075,
+      "references": [],
+      "moments": [
+        {
+          "time": 3656.855,
+          "title": "展示切割后的实物"
+        },
+        {
+          "time": 3721.175,
+          "title": "插接与锁定动作"
+        },
+        {
+          "time": 3842.955,
+          "title": "双连接与材料样品"
+        },
+        {
+          "time": 3962.455,
+          "title": "不同连接形态与用途"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3735.0,
+          "caption": "实物插接演示",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/assembly-1.jpg"
+        },
+        {
+          "time": 4015.0,
+          "caption": "另一种模块与连接件样品",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/assembly-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fit",
+      "title": "厚度、松紧与模块尺寸答疑",
+      "summary": "把绘图参数与真实材料连接起来，通过小样确定槽宽、接口松紧及便于装配的模块尺度。",
+      "key_points": [
+        "讲师说明也可使用其他矢量软件，选择取决于是否还要继续三维建模等工作。",
+        "较厚材料不能直接照搬单线槽；槽宽还受材料柔性、变形及实际切割影响。",
+        "接收槽过宽且插入端不匹配时会松动，需要测试整组接口。",
+        "过小模块会增加装配难度；讲师常用约 4–5 cm 的样例尺度，这不是固定标准。"
+      ],
+      "terms": [
+        {
+          "term": "连接小样",
+          "definition": "用少量接口测试实际装配效果，先于批量排料。"
+        },
+        {
+          "term": "配合松紧",
+          "definition": "接口插入难度、保持能力与可拆卸性的综合表现。"
+        }
+      ],
+      "actions": [
+        "比较不同槽宽的小样，记录插入与拉脱表现。",
+        "确认可装配性后再批量复制模块。"
+      ],
+      "start": 4113.075,
+      "end": 4452.705,
+      "references": [],
+      "moments": [
+        {
+          "time": 4113.075,
+          "title": "软件选择与三维延伸"
+        },
+        {
+          "time": 4158.815,
+          "title": "厚材料的槽宽"
+        },
+        {
+          "time": 4226.335,
+          "title": "用测试确定接口配合"
+        },
+        {
+          "time": 4366.705,
+          "title": "避免过小的模块"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4270.0,
+          "caption": "接口松紧与尺寸的实物说明",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fit-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-thick-slots",
+      "title": "补充演示：矩形槽与三维延伸",
+      "summary": "回到 Fusion，用有宽度的矩形替代单线槽，再进行圆周阵列，并展示挤出为三维实体的可能。",
+      "key_points": [
+        "矩形槽同时需要长度和宽度；演示以 10 mm 长度及不同宽度说明厚材料的设计思路。",
+        "阵列时选择矩形的边线和圆心，调整数量后检查形状是否合理。",
+        "挤出后得到实体，可继续网格导出；这一段是后续三维制作的示意，并非已经验证的打印参数。"
+      ],
+      "terms": [
+        {
+          "term": "Extrude",
+          "definition": "把平面轮廓沿方向延伸成三维几何。"
+        },
+        {
+          "term": "STL",
+          "definition": "用于表达三角网格的常见文件格式。"
+        }
+      ],
+      "actions": [
+        "建立带宽度的槽并测试阵列数量。",
+        "需要三维制作时另行验证厚度、间隙和输出要求。"
+      ],
+      "start": 4452.705,
+      "end": 4680.185,
+      "references": [],
+      "moments": [
+        {
+          "time": 4495.195,
+          "title": "建立带尺寸的矩形槽"
+        },
+        {
+          "time": 4532.535,
+          "title": "阵列矩形边线"
+        },
+        {
+          "time": 4590.125,
+          "title": "挤出与网格输出说明"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4580.0,
+          "caption": "带宽度的矩形槽阵列",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/thick-slots-1.jpg"
+        },
+        {
+          "time": 4615.0,
+          "caption": "挤出后模型的俯视画面",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/thick-slots-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-parameters",
+      "title": "Fusion 表达式与用户参数",
+      "summary": "在尺寸栏使用关系式，并建立命名参数，让材料厚度等变量驱动草图变化。",
+      "key_points": [
+        "尺寸输入可以引用其他尺寸或使用数学表达式，但结果仍需检查，演示也出现了碰撞或不合理数值。",
+        "通过 Modify 下的参数功能建立具名变量，再让槽宽引用该变量。",
+        "更改参数后观察几何联动；重复制造前应重新检查槽宽、间距和连接效果。"
+      ],
+      "terms": [
+        {
+          "term": "用户参数",
+          "definition": "由设计者命名、赋值并供尺寸引用的变量。"
+        },
+        {
+          "term": "表达式",
+          "definition": "通过运算或引用建立尺寸之间的关系。"
+        }
+      ],
+      "actions": [
+        "为材料厚度建立清楚命名的参数，并让槽宽引用它。",
+        "切换几个试验值，检查阵列是否碰撞及接口是否仍可制造。"
+      ],
+      "start": 4680.185,
+      "end": 4932.945,
+      "references": [],
+      "moments": [
+        {
+          "time": 4690.575,
+          "title": "尺寸引用与数学表达式"
+        },
+        {
+          "time": 4831.915,
+          "title": "建立厚度参数"
+        },
+        {
+          "time": 4865.035,
+          "title": "引用参数并观察更新"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4855.0,
+          "caption": "建立用户参数",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/parameters-1.jpg"
+        },
+        {
+          "time": 4885.0,
+          "caption": "在参数表中修改厚度值",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/parameters-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-next-steps",
+      "title": "参考案例、课程文件与记录",
+      "summary": "以基础模块为起点继续迭代，参考已有作品、拆解连接方式，并记录制作过程与问题。",
+      "key_points": [
+        "演示模块是基础练习，鼓励通过参考案例发展自己的连接与造型。",
+        "拆解现有模块可以帮助理解接口如何工作以及哪里可以改进。",
+        "讲师表示会在 Mattermost 分享文件；遇到问题时附截图和具体描述，便于讨论。"
+      ],
+      "terms": [
+        {
+          "term": "过程文档",
+          "definition": "记录设计、参数、材料、测试结果与修改理由。"
+        }
+      ],
+      "actions": [
+        "整理本次源文件、输出文件和连接测试照片。",
+        "选一个需要改进的接口，记录下一轮修改计划。"
+      ],
+      "start": 4932.945,
+      "end": 5059.968,
+      "references": [],
+      "moments": [
+        {
+          "time": 4956.745,
+          "title": "把演示作为设计起点"
+        },
+        {
+          "time": 4981.055,
+          "title": "拆解与改进连接"
+        },
+        {
+          "time": 4997.605,
+          "title": "文件分享与问题反馈"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4970.0,
+          "caption": "课程收尾时的视频画面；参考案例与记录要求由讲师口头说明",
+          "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/next-steps-1.jpg"
+        }
+      ]
+    }
+  ]
+}
