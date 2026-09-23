@@ -1,0 +1,3574 @@
+1
+00:00:03,000 --> 00:00:06,541
+好，大家早上好、下午好、晚上好。
+Okay. Good morning, good afternoon, good evening, everyone.
+
+2
+00:00:06,900 --> 00:00:10,110
+希望大家昨天度过了愉快的周二，
+I hope you had a very nice Tuesday yesterday.
+
+3
+00:00:10,170 --> 00:00:12,360
+也获得了足够的灵感，
+Hope you were inspired enough
+
+4
+00:00:13,650 --> 00:00:16,260
+本周开始制作自己的文档。
+to start creating your own documentation this week.
+
+5
+00:00:17,625 --> 00:00:21,780
+现在开始第一堂视觉文档化教程。
+And we can start with the first tutorial on visual documentation.
+
+6
+00:00:21,870 --> 00:00:24,569
+首先，我再详细介绍一下自己。
+First of all, I think I can introduce better myself.
+
+7
+00:00:25,860 --> 00:00:30,345
+我叫 Claudia Simonelli，是一名意大利设计师，目前住在
+My name is Claudia Simonelli. I'm an Italian designer, actually based now in
+
+8
+00:00:30,420 --> 00:00:35,610
+约旦。我在王储基金会 Makerspace 工作，也是这里的
+Jordan. I work here in the Crown Prince Foundation Makerspace, where I'm also the
+
+9
+00:00:35,640 --> 00:00:39,810
+Fab Academy 本地导师。在整个 Academy 项目中，
+local instructor for Fab Academy, and also at the general level in the academy, I
+
+10
+00:00:39,990 --> 00:00:41,655
+我还担任传播经理。
+serve as communication manager.
+
+11
+00:00:43,200 --> 00:00:48,840
+我有产品与传播设计的背景，因此这些经验
+I have a background in both project and communication design, so I think the skills
+
+12
+00:00:49,290 --> 00:00:54,270
+很适合用来介绍今天为大家准备的内容。
+are very good to show you what I've prepared for you.
+
+13
+00:00:54,540 --> 00:00:57,270
+我来共享屏幕。
+And let me share my screen.
+
+14
+00:00:59,370 --> 00:01:04,770
+希望大家看得清楚。这份演示不会太枯燥，
+I hope you can see better. So this presentation will be not very boring.
+
+15
+00:01:04,890 --> 00:01:10,650
+会有很多视觉案例。我们会讨论不同内容，首先介绍
+It will be full of visuals. We're going to talk about different things, starting
+
+16
+00:01:10,680 --> 00:01:15,030
+未来六个月，尤其是本周最有用的伙伴，
+from what will be your best friend during the six months, but especially this week,
+
+17
+00:01:15,090 --> 00:01:16,260
+也就是 Class Archive。
+which is the Class Archive.
+
+18
+00:01:18,780 --> 00:01:23,551
+我会展示这十年来学员制作的
+I will show you different documentations that have been also created during these
+
+19
+00:01:24,211 --> 00:01:29,310
+各种文档，以及不同工具，让大家在处理方法
+10 years of Fab Academy. Different tools, so you have different alternatives in
+
+20
+00:01:29,340 --> 00:01:34,980
+和软件方面有更多选择，尤其适合课程
+terms of processing techniques, and software to explore, especially in this first
+
+21
+00:01:35,040 --> 00:01:39,630
+开始阶段探索。也会聊一点 AI，还有
+phase of the academy. We're going to talk a little bit about AI, but also the
+
+22
+00:01:39,690 --> 00:01:44,430
+署名与许可。幻灯片最后还整理了
+credits and the license. And I have also prepared at the end of the slides,
+
+23
+00:01:44,521 --> 00:01:50,160
+资源列表，提供不同的平台，
+different resources in the list, so you can choose also different platforms that
+
+24
+00:01:50,190 --> 00:01:54,855
+方便大家在线查找资料、寻找开源功能，
+are available online for you to browse information, to search open source features,
+
+25
+00:01:55,290 --> 00:02:00,480
+等等。如果有问题，最好在课程结束时
+and et cetera. If you have questions, maybe it's better to tackle all of them at
+
+26
+00:02:00,570 --> 00:02:04,110
+集中解答，目前可以先发在聊天里。
+once at the end of the session, and for now, you can put them in the chat.
+
+27
+00:02:05,880 --> 00:02:08,910
+刚才也提到，大家现在就可以下载软件。
+As I was saying earlier, you can download already the software.
+
+28
+00:02:09,660 --> 00:02:14,085
+我准备了 GIMP 的内容，在其他软件中，工作流程也会很
+I prepared something in GIMP, so the workflow will be very much similar
+
+29
+00:02:15,330 --> 00:02:20,310
+相似。课程大力提倡使用开源工具。
+in other software. In Fab Academy, we strongly promote the open source one.
+
+30
+00:02:20,400 --> 00:02:25,440
+例如，Inkscape 很适合下周的激光切割，也能
+So for example, Inkscape is very good also for next week for laser cutting, but
+
+31
+00:02:25,470 --> 00:02:29,325
+制作标志等矢量内容。
+also to create logo and those kind of things. That's something that is vector.
+
+32
+00:02:29,985 --> 00:02:33,555
+GIMP 则是 Photoshop 的一个很好的替代工具。
+And GIMP is the best alternative to Photoshop.
+
+33
+00:02:33,690 --> 00:02:38,296
+当然，每年也不断有新的软件
+But of course, every year there is a lot of software that are still new and
+
+34
+00:02:38,340 --> 00:02:38,805
+发布。
+released.
+
+35
+00:02:40,921 --> 00:02:45,270
+继续。Class Archive 指的是这个网站，
+Okay, we move forward. So the Class Archive is how we refer to this website,
+
+36
+00:02:45,780 --> 00:02:51,300
+class.textile-academy.org。我想大家昨天至少都看过
+class.textile-academy.org. I think all of you yesterday at least had a peek
+
+37
+00:02:51,960 --> 00:02:53,671
+这个页面。
+of this website that looks like this.
+
+38
+00:02:54,480 --> 00:03:00,421
+它的组织方式与你们的个人网页很相似。
+This is a website that is organized in a similar way of your web pages.
+
+39
+00:03:00,480 --> 00:03:05,355
+这个平台由我、Anastasia、Cecile 和
+So it's like a platform that is being maintained by myself, Anastasia, Cecile, and
+
+40
+00:03:05,400 --> 00:03:08,760
+Julian 共同维护，我们的工作方式也非常类似。
+Julian. So we also work in a very similar way.
+
+41
+00:03:09,750 --> 00:03:15,330
+创建内容，提交，再推送到 Fab Lab 网络的服务器。
+We create content that we commit, and we push to the server of Fabric Network.
+
+42
+00:03:16,410 --> 00:03:20,851
+稍后 Julian 的课程会进一步深入介绍
+In the session afterwards with Julian, he will be also deep diving more into the
+
+43
+00:03:20,910 --> 00:03:23,820
+Markdown 和你们的网站。
+markdown and your actual website.
+
+44
+00:03:24,480 --> 00:03:28,980
+现在先提醒大家在哪里找到自己的网站，
+For now, I just want to remind you where you can find yourself, your website, so
+
+45
+00:03:29,041 --> 00:03:31,740
+这里有几种资源访问方式。
+you have different ways to access the resources here.
+
+46
+00:03:32,220 --> 00:03:34,800
+一种是顶部的 Participants。
+One is on the top where you have participants.
+
+47
+00:03:34,830 --> 00:03:39,330
+点击它，可以快速找到本届参与者列表，
+So if you click on that, it's a shortcut for finding the current participant list,
+
+48
+00:03:40,050 --> 00:03:41,760
+学员按所属实验室分组。
+and they are organized under the labs.
+
+49
+00:03:42,150 --> 00:03:46,440
+也可以稍微向下滚动，查看
+Or if you scroll a little bit down, you can find the participants across the
+
+50
+00:03:46,470 --> 00:03:51,660
+不同年份的参与者。如果对其他人的文档感兴趣，
+different years. So if you're also curious about somebody else's documentations,
+
+51
+00:03:52,020 --> 00:03:57,150
+或者想看某个具体主题，可以查看往届，
+maybe there's something that you want to see specifically, you can go back in time
+
+52
+00:03:57,990 --> 00:03:59,671
+浏览不同作业。
+and check the different assignments.
+
+53
+00:04:02,101 --> 00:04:06,060
+另一个要介绍的是工具资源。
+One other thing that I want to mention is that we have different tools.
+
+54
+00:04:07,020 --> 00:04:11,730
+点击顶部 Tools，里面已经按周整理了
+On top you can see, click on the tools, and we have different software already
+
+55
+00:04:11,791 --> 00:04:16,620
+各种软件。例如，从今天开始，我们建议大家
+organized per week. So for example, we have different platform that we suggest for
+
+56
+00:04:16,650 --> 00:04:19,500
+探索这些平台。
+you to explore, starting from today.
+
+57
+00:04:19,981 --> 00:04:24,390
+比如刚才有人问 Canva，它确实很好用。
+So for example, somebody was asking about Canva. Yeah, Canva is a very good one.
+
+58
+00:04:24,451 --> 00:04:26,220
+它是在线工具，所以不一定
+It's online, so you don't have also
+
+59
+00:04:27,480 --> 00:04:31,455
+非要用电脑，也可以用手机应用、平板上的
+to use your computer. You can rely on the app on the phone, on the app on the
+
+60
+00:04:31,470 --> 00:04:32,025
+应用，
+tablet,
+
+61
+00:04:33,360 --> 00:04:38,370
+或者浏览器。矢量工具也在这里，侧边按
+as well as the browser here. For the vector, we have our software as well as you
+
+62
+00:04:38,430 --> 00:04:41,520
+不同周次列出了其他软件。
+can see here on the side for the different weeks.
+
+63
+00:04:44,730 --> 00:04:45,480
+如果大家
+If you also
+
+64
+00:04:46,680 --> 00:04:50,610
+也有推荐，欢迎提出，可以直接
+have some suggestion that you want to make, also feel free, and you can also put
+
+65
+00:04:50,640 --> 00:04:55,591
+发在聊天中。我们很乐意每年补充新软件，
+them in the chat. So we will be very happy to add every year the new software,
+
+66
+00:04:55,650 --> 00:04:57,150
+尤其是开源软件。
+especially if they are open source.
+
+67
+00:05:04,980 --> 00:05:09,390
+另外一个未来六个月会经常用到的资源，
+Yeah, so the other very useful resource for you and for these six months is the
+
+68
+00:05:09,420 --> 00:05:14,400
+就是 Handbook 手册，也可以在 Class Archive 找到。
+handbook. Also, the handbook you can find in the Class Archive.
+
+69
+00:05:14,460 --> 00:05:14,910
+在这个平台里，
+It looks
+
+70
+00:05:17,070 --> 00:05:18,630
+它的样式也很相似。
+very similar also in this platform.
+
+71
+00:05:19,020 --> 00:05:23,160
+这里按不同作业列出了学习成果和
+You can find for all the different selection of the assignments with the learning
+
+72
+00:05:23,310 --> 00:05:29,010
+目标。之后的幻灯片中也都附有链接。
+outcomes, the objective. Everything is also here linked in the slides afterwards.
+
+73
+00:05:29,055 --> 00:05:32,100
+所有内容都可以点击访问，随时查阅。
+So everything is here interactive, at hand.
+
+74
+00:05:34,470 --> 00:05:40,050
+手册还写明了完成作业
+And of course, in the handbook is also written what you're asked to do to develop
+
+75
+00:05:40,080 --> 00:05:45,210
+需要做什么。从今天开始，大家大约有六天时间。
+your assignment. So starting from today, you have roughly six days.
+
+76
+00:05:45,285 --> 00:05:49,830
+下周二我们会看到不同
+So next Tuesday, we will be seeing already different participants from different
+
+77
+00:05:49,890 --> 00:05:53,310
+实验室学员的进展，并浏览不同的文档。
+labs, and we're going to go through different documentation.
+
+78
+00:05:53,370 --> 00:05:58,440
+从今天起，需要开始搭建文档网站，
+So from today onwards, you are asked to build your documentation website, so
+
+79
+00:05:58,470 --> 00:06:02,370
+介绍自己、个人背景和过去的作品。
+describing yourself, your background, your previous works.
+
+80
+00:06:02,520 --> 00:06:06,060
+我们也很想了解你能给这门课带来什么。
+We are also very curious to see what you can bring to the course.
+
+81
+00:06:06,240 --> 00:06:10,080
+你有什么背景？为什么来参加这门课程？
+What was your background? What was your motivation to join this course?
+
+82
+00:06:11,190 --> 00:06:11,250
+我们
+We
+
+83
+00:06:12,480 --> 00:06:17,460
+希望你根据自己的兴趣和过去的经验，补充
+expect you to add some reference and research based also on what interests you,
+
+84
+00:06:18,270 --> 00:06:23,100
+参考与研究。现阶段另一项重要技能，
+what you have done before. But also, one very important skill to learn for now is
+
+85
+00:06:23,130 --> 00:06:28,320
+是掌握，至少先熟悉 Git 等工具，学习所谓的
+to master, at least to get used to these tools, like work with Git, with what is
+
+86
+00:06:28,349 --> 00:06:32,220
+版本控制，今天 Julian 会带大家开始。
+called version control, and what you're going to start today with Julian.
+
+87
+00:06:33,240 --> 00:06:37,920
+额外可以做的是个性化网站，我想这也会
+An extra point will be customize your website, but I think it will be also
+
+88
+00:06:38,311 --> 00:06:42,300
+很有趣。把这些结合起来，让我们从内容里看到
+wonderful. You can combine all these things so we can also see a bit of your
+
+89
+00:06:42,360 --> 00:06:45,240
+你自己的个性。
+personality emerging from your content.
+
+90
+00:06:46,110 --> 00:06:47,220
+更多要求可以在
+You can also find more
+
+91
+00:06:48,480 --> 00:06:49,350
+手册中查看。
+here in the handbook.
+
+92
+00:06:50,880 --> 00:06:56,220
+接下来介绍一些我认为很值得
+And let's start giving you some examples which I think they are very nice
+
+93
+00:06:56,250 --> 00:06:59,910
+参考的文档案例，这里做了不同的选择。
+documentation to have a look at. So here there is a different selection.
+
+94
+00:06:59,940 --> 00:07:03,630
+可以看到，我们给每个人的模板很相似，
+As you can see, we have one similar template for everyone.
+
+95
+00:07:03,660 --> 00:07:08,250
+其实是同一套，但每个人都会用完全不同的方式
+It's actually the same, but every person every time customize in a completely
+
+96
+00:07:08,280 --> 00:07:09,030
+进行定制。
+different way.
+
+97
+00:07:10,470 --> 00:07:16,050
+模板以 Markdown 为基础，Julian 会在
+You have a template that is built in on Markdown, which is what Julian will
+
+98
+00:07:16,470 --> 00:07:19,350
+今天的第二部分重点介绍。
+tackle mostly in the second part of today.
+
+99
+00:07:20,401 --> 00:07:25,201
+有时也可以加入一点 HTML 或其他
+But it's also nice how sometimes you can add a little bit of HTML or other
+
+100
+00:07:25,260 --> 00:07:29,490
+语言，补充并扩展它的可能性。
+languages to complement and expand the possibility of this language.
+
+101
+00:07:32,880 --> 00:07:38,776
+我觉得优秀文档没有唯一的配方，
+There's no great recipe, I think, for really making the best documentation,
+
+102
+00:07:38,820 --> 00:07:42,270
+而是多种因素的结合，所以我准备了一些建议。
+but I think it's a combination of things. So I just have some tips.
+
+103
+00:07:43,110 --> 00:07:46,470
+首先，大家已经有模板，也就有了基本指导。
+Definitely, you have already a template, so you have some guidelines.
+
+104
+00:07:46,920 --> 00:07:50,880
+这些指导帮助你组织内容。本周可能
+These guidelines for now are helping you to organize the content, because for this
+
+105
+00:07:50,940 --> 00:07:56,640
+材料不多，但下周起就会用到机器，
+week is not maybe a lot, but starting from next week, we also have machine, we also
+
+106
+00:07:56,670 --> 00:07:58,591
+还要生产和制作实物，
+have something to produce and fabricate.
+
+107
+00:07:59,130 --> 00:08:01,440
+需要处理各种不同的信息。
+You're going to have to deal with different information.
+
+108
+00:08:02,311 --> 00:08:08,204
+所以可以开始学习，例如如何用 Markdown 或
+So getting to know already, for example, how to create a table with Markdown, with
+
+109
+00:08:08,341 --> 00:08:10,410
+HTML 制作表格，采用哪种都可以。
+HTML, doesn't matter.
+
+110
+00:08:11,850 --> 00:08:16,530
+或者如何组织材料规格、机器参数，
+Or how to organize information like specifications about materials, machine, but
+
+111
+00:08:16,561 --> 00:08:17,341
+以及配方等信息，
+also recipe,
+
+112
+00:08:19,020 --> 00:08:21,870
+这些都需要逐渐掌握。
+is also that you have starting to deal with.
+
+113
+00:08:22,110 --> 00:08:27,451
+另外，也可以加入一点自己的特点。
+And also a nice way to do that is adding a little bit of yourself.
+
+114
+00:08:27,540 --> 00:08:33,000
+比如视觉元素、美学表达，让它真正
+So adding a little bit of visuals, maybe, something aesthetic, and really make it
+
+115
+00:08:33,091 --> 00:08:33,451
+属于你。
+yours.
+
+116
+00:08:36,360 --> 00:08:40,725
+说到刚才提过的 Markdown，想告诉大家，
+Talking about the markdown scenes we mentioned, I just wanted to tell you that
+
+117
+00:08:40,740 --> 00:08:46,500
+虽然时间不长，但它并不难学。
+there's nothing that is that much complicated to learn, given also the short time.
+
+118
+00:08:47,235 --> 00:08:51,570
+网上资源很多，Julian 也一定会
+There are many resources online, and I'm sure Julian will have definitely more to
+
+119
+00:08:51,600 --> 00:08:57,061
+展示更多。搜索 Markdown cheatsheet，就能找到
+show you. You can just Google Markdown cheatsheet, and you can find different
+
+120
+00:08:57,090 --> 00:09:02,940
+各种 PDF 和图片，把常用写法总结出来。
+PDFs, pictures that really give you this kind of summary, where you can see
+
+121
+00:09:02,970 --> 00:09:07,740
+会发现需要了解的东西不多，基本都在这里。
+there is not a lot that you need to know. Everything is basically here.
+
+122
+00:09:07,830 --> 00:09:12,000
+这些符号和简短语法可以帮助你设置
+So these are like the symbol and small syntax that will help you to style your
+
+123
+00:09:12,061 --> 00:09:12,450
+文字格式。
+text.
+
+124
+00:09:16,785 --> 00:09:20,385
+接下来展示不同学员如何在这些年里，
+I want to show you different examples, how different people also across these years
+
+125
+00:09:20,686 --> 00:09:22,845
+把文档变成自己的表达。
+make this documentation really theirs.
+
+126
+00:09:24,675 --> 00:09:30,556
+例如，Viviana 使用的情绪板就很有启发。
+One, say, inspiration is also mood boards that Viviana, for example, we used.
+
+127
+00:09:30,705 --> 00:09:35,565
+她深受建筑启发，所以可以看到不同的
+She was very much inspired by architecture, so you can see different ways also to
+
+128
+00:09:35,625 --> 00:09:37,875
+拼贴方式和内容组织方法。
+make collage and organize the content.
+
+129
+00:09:38,385 --> 00:09:42,135
+这些案例很有意思，因为它们最终也反映在
+All of them, in the end, were also nice because they've been reflected in their
+
+130
+00:09:42,195 --> 00:09:45,885
+每周作业和最终项目的成果中。
+final outcomes, in the assignments, but also in the final project.
+
+131
+00:09:48,075 --> 00:09:53,056
+这里应该有不少时装设计师。我很欣赏把
+There's, I think, a lot of fashion designers here, and I always appreciate the way
+
+132
+00:09:53,205 --> 00:09:58,515
+视觉素材、照片、手写文字和草图组合起来的方式。
+the visual, the pictures get combined with handwritten text, but also sketches.
+
+133
+00:09:59,415 --> 00:10:03,556
+也邀请大家稍后看看 Stephanie Santos 的作品。
+And I also invite you to have a look later at the work of Stephanie Santos.
+
+134
+00:10:07,155 --> 00:10:12,405
+Alberte 的文档也很好，尤其是留白的处理。
+There is also very nice documentation of Alberte also dealing with the white space.
+
+135
+00:10:12,585 --> 00:10:16,095
+并不是专注于把
+So not focusing on completely
+
+136
+00:10:18,105 --> 00:10:21,825
+页面所有空隙都填满，而是在图片之间
+filling all the gaps in your documentation, but also leave some air in between the
+
+137
+00:10:21,885 --> 00:10:26,745
+留一些呼吸空间。这是她第一周收集的参考。
+pictures. This is also where the references she had during the first week.
+
+138
+00:10:26,776 --> 00:10:30,825
+例如，Dinesh 可能使用 Canva 组织内容，
+And I also like, for example, I think Dinesh probably used Canva to organize,
+
+139
+00:10:30,915 --> 00:10:32,895
+也为项目建立了
+create also color palette
+
+140
+00:10:35,265 --> 00:10:40,545
+配色方案。我也很喜欢 Alessia Pasquini 的作品，
+for the projects. I also enjoy very much the work of Alessia Pasquini and also the
+
+141
+00:10:40,605 --> 00:10:46,455
+她以不同方式把颜色、纹理和材料
+different ways that she were combining colors with textures, materials
+
+142
+00:10:46,485 --> 00:10:46,965
+结合起来。
+together.
+
+143
+00:10:50,985 --> 00:10:52,395
+不用记住所有人的名字，
+You don't have to remember all these names.
+
+144
+00:10:52,455 --> 00:10:55,395
+我会分享幻灯片，里面已经放好全部链接。
+I'm going to give you the slides, and all of them are already linked.
+
+145
+00:10:57,855 --> 00:11:03,735
+当然，有些人仍然喜欢手写笔记，或者像这样在平板上
+And of course, some people still like to take notes by hand or digitally
+
+146
+00:11:03,765 --> 00:11:08,145
+记录。我也很欣赏 Elsa Gill 的作品。
+on the tablet, like here. So I also very much enjoy the work of Elsa Gill.
+
+147
+00:11:08,235 --> 00:11:13,335
+她每周都会画出工作流程，比如制作配方。
+So for every week, she was sketching the workflow and recipes, for example.
+
+148
+00:11:13,455 --> 00:11:18,225
+这里可以看到，她如何把大量信息拆解，从
+And here you can see how she broke down all this big chunk of information starting
+
+149
+00:11:18,285 --> 00:11:22,306
+GitLab 开始，整理自己对流程的理解，而这正是大家
+from GitLab, and this is all the understanding and the workflow that you will be
+
+150
+00:11:22,365 --> 00:11:28,306
+这几天要学习的内容。还有很多
+actually learning in these days. A lot
+
+151
+00:11:28,365 --> 00:11:31,936
+人很喜欢画画。
+of people also enjoy very much drawing.
+
+152
+00:11:32,026 --> 00:11:37,635
+这些绘画后来也可以在
+So this is also the drawings that have been digitalized later on, like in
+
+153
+00:11:37,695 --> 00:11:41,686
+Inkscape、Illustrator 等应用中数字化。
+applications like Inkscape, Illustrator, et cetera.
+
+154
+00:11:42,015 --> 00:11:46,065
+Lucchese DeLeon 的作品很值得看看。
+But it's worth to have a look at the work of Lucchese DeLeon.
+
+155
+00:11:46,260 --> 00:11:50,535
+这些漂亮的作品是他在疫情期间与儿子一起做的，还有
+This was doing this beautiful works during the pandemic with his son, but also the
+
+156
+00:11:50,595 --> 00:11:52,425
+几年前 Isabelle 的作品。
+work of Isabelle a couple of years ago.
+
+157
+00:11:54,556 --> 00:11:57,345
+两者的方式完全不同。
+A completely different approach.
+
+158
+00:11:58,575 --> 00:12:03,105
+这里……大家的模板里有一个作业
+Here we have... You actually have in the template this kind of a matrix of
+
+159
+00:12:03,165 --> 00:12:07,035
+矩阵，由这些方块组成，目前放着
+assignments where you have these kinds of blocks, where you have this placeholder,
+
+160
+00:12:07,665 --> 00:12:13,125
+绿色的占位图。如果能花些心思
+a greenish picture. And it would be also nice if you could put some love there
+
+161
+00:12:13,695 --> 00:12:19,335
+把它也做成自己的风格，会很不错。例如 Ainoa，
+and make it yours as well. So here are a couple of examples from Ainoa, that she
+
+162
+00:12:19,425 --> 00:12:21,450
+她也喜欢探索
+was also interested to exploring the
+
+163
+00:12:22,815 --> 00:12:27,509
+植物世界。我也喜欢 Aileen 的处理：把一张大图
+plant words. And also, I like the work of Aileen, when it was one big picture that
+
+164
+00:12:27,526 --> 00:12:30,119
+分成不同部分，像拼图一样。
+was split in different parts like a puzzle.
+
+165
+00:12:30,914 --> 00:12:33,825
+每一项作业都属于一个更大的整体。
+So every assignment was part of a bigger system.
+
+166
+00:12:36,015 --> 00:12:38,835
+昨天大家也看到了 Svetlana 的作品。
+Of course, we saw yesterday the work of Svetlana.
+
+167
+00:12:38,985 --> 00:12:42,375
+欢迎来到 Svetlana 色彩丰富的世界。
+So welcome to the colorful world of Svetlana.
+
+168
+00:12:42,405 --> 00:12:47,655
+她为不同主题、不同作业应用不同颜色，这很有意思。
+It was also nice to see the different colors applied per topic, per assignment, and
+
+169
+00:12:47,686 --> 00:12:48,585
+还有
+also the work
+
+170
+00:12:49,845 --> 00:12:54,435
+Maddy Olsen，她把成果照片与
+of Maddy Olsen, who was combining the picture towards kind of the outcome with the
+
+171
+00:12:54,496 --> 00:12:56,176
+文字结合起来。
+text.
+
+172
+00:12:59,145 --> 00:13:02,895
+有时需要制作信息图，这些也是很好的
+Sometimes you may need to create some infographics, and these are also very nice
+
+173
+00:13:02,985 --> 00:13:07,965
+参考。几年前 Aliso 的案例中，这些模块也可以
+references. And when you saw Aliso a couple of years ago, blocks also can be
+
+174
+00:13:07,996 --> 00:13:12,075
+用矢量生成，再以不同方式重新组合。
+generated with vectors and recombined in different ways.
+
+175
+00:13:12,165 --> 00:13:17,835
+我也很欣赏 Annabel 的作品，她先
+And also very much enjoy, again, the work of Annabel, who was drawing by
+
+176
+00:13:17,926 --> 00:13:19,725
+手绘，再将
+hand and then digitalized later on
+
+177
+00:13:21,286 --> 00:13:21,496
+这些
+her
+
+178
+00:13:23,026 --> 00:13:28,635
+示意图数字化，配合视觉元素，清楚地说明流程、
+kind of schematics with a bit of visual that also make very clear the workflow, the
+
+179
+00:13:28,665 --> 00:13:34,335
+配方和不同信息，看起来很舒服。
+recipes, and the different information. So very pleasant to see.
+
+180
+00:13:37,185 --> 00:13:41,415
+Alberte 的作品也是我最喜欢的之一，可以看到……
+One of my favorite is also the work of Alberte, and you can see...
+
+181
+00:13:41,985 --> 00:13:46,365
+昨天大家看过关于海藻的视频，这里能看到整套材料
+You saw yesterday the video about the seaweed, and you can see the whole material
+
+182
+00:13:46,395 --> 00:13:49,335
+研究如何发展成最终项目。
+research also explored as a final project.
+
+183
+00:13:49,395 --> 00:13:54,345
+视觉表达清楚地说明了内容，以及她需要记录的
+So you can see how the visuals here really make clear the content and all the
+
+184
+00:13:54,375 --> 00:13:57,705
+不同信息和变化。
+different information variations that she had to document.
+
+185
+00:14:00,615 --> 00:14:06,375
+很多人喜欢说话，如今这也是我们使用
+A lot of people like to talk, and nowadays I think it's a very
+
+186
+00:14:06,465 --> 00:14:08,565
+手机时很常见的习惯。
+common practice that we have with the phone.
+
+187
+00:14:09,045 --> 00:14:14,595
+所以也可以把 MP3 文件放入文档，
+So you can also include, for example, your MP3 file inside your documentation and
+
+188
+00:14:14,655 --> 00:14:19,996
+例如在这里用自己的声音介绍作业。
+bring it back here, for example, to introduce the assignment yourself.
+
+189
+00:14:20,746 --> 00:14:22,786
+这也是让文档更具个人特点的方法。
+So it's also a way to make it very personal.
+
+190
+00:14:23,475 --> 00:14:28,065
+我很喜欢 Sara 这个案例，她同时提供了文字转录，
+I like here the example of Sara because she also put it transcription in case you
+
+191
+00:14:28,095 --> 00:14:33,855
+方便无法收听的人阅读，也可以看到她如何把它加入
+cannot hear, and you can also see how she actually did this inside the
+
+192
+00:14:33,915 --> 00:14:38,205
+网站。这里有一条重要提醒，你们可能不太喜欢。
+website. There is a big disclaimer here, and you will not like it.
+
+193
+00:14:40,215 --> 00:14:42,765
+课程现在不再允许使用 GIF。
+No GIFs are allowed anymore in Fab Academy.
+
+194
+00:14:44,026 --> 00:14:48,286
+以前允许，但很遗憾，我们因此丢失了不少内容。
+We used to have those allowed, and unfortunately, we lost a lot of content.
+
+195
+00:14:48,435 --> 00:14:53,265
+GIF 文件很大，加载负担重，服务器
+GIFs are also something that is very heavy, very heavy to load, and very heavy on
+
+196
+00:14:53,325 --> 00:14:58,679
+负担也大。因此从几年前起，课程就不再允许使用 GIF，
+the server. So, since a couple of years, GIFs are not allowed in Fab Academy, and
+
+197
+00:14:58,725 --> 00:15:00,015
+这一点执行得很严格。
+we're very strict on this.
+
+198
+00:15:02,325 --> 00:15:07,215
+如果确实觉得有必要制作这种动态内容，
+Still, if you really think that it's worth to make a GIF and you really want to
+
+199
+00:15:07,276 --> 00:15:09,705
+希望画面能动起来，带一点互动感，
+have something moving, something interactive,
+
+200
+00:15:11,145 --> 00:15:15,315
+可以探索这个网站，它叫……这是一个在线工具。
+you can explore this website, which is called... It's online.
+
+201
+00:15:15,360 --> 00:15:20,536
+它叫 ezgif.com，可以生成
+It's called ezgif.com, and allows you to create just an
+
+202
+00:15:20,595 --> 00:15:26,445
+MP4 视频文件，然后像 GIF 一样
+MP4 file, just like a video format that you can loop over and over
+
+203
+00:15:26,505 --> 00:15:31,125
+反复循环播放。这样就能控制文件，并尽可能
+like it was a GIF. In this case, you can really control and compress it as much as
+
+204
+00:15:31,185 --> 00:15:36,195
+压缩。例如说到大小，我们不希望这种素材
+possible. So for example, talking about the size, we don't want something that is
+
+205
+00:15:36,255 --> 00:15:38,026
+超过 1 MB。
+bigger than one megabyte.
+
+206
+00:15:44,595 --> 00:15:47,685
+接下来看现在就能使用的在线资源。
+Moving to the online resources that you already have at your hand.
+
+207
+00:15:48,075 --> 00:15:51,915
+有些人喜欢自定义网页配色。
+Some people like to personalize the colors for the web pages.
+
+208
+00:15:51,975 --> 00:15:57,030
+Adobe Color 就提供了很好的资源。
+So a couple of nice resources can be found also in Adobe Color.
+
+209
+00:15:57,286 --> 00:16:03,105
+这些都可以免费使用，也能查看颜色代码，
+All of these are for free. They're there. You can check the codes.
+
+210
+00:16:03,286 --> 00:16:07,395
+复制粘贴后按自己的方式应用。
+You can also copy-paste all of them and use in your own way.
+
+211
+00:16:07,455 --> 00:16:12,556
+还可以生成辅助色等，现在这类工具很多。
+You can produce secondary colors and et cetera. There are so many nowadays.
+
+212
+00:16:12,661 --> 00:16:18,255
+Canva 也可以。放入一张图片后，就能提取
+And of course, also Canva. The moment you add one picture, you're able to extract
+
+213
+00:16:18,286 --> 00:16:20,835
+不同元素的准确颜色。
+the exact colors of the different elements.
+
+214
+00:16:23,835 --> 00:16:28,215
+正如之前所说，课程中也经常使用 Canva。
+As we were saying earlier, Canva is very much used also in Fab Academy.
+
+215
+00:16:28,335 --> 00:16:33,315
+现在可以制作手册，使用社区
+You can create now booklets, use the templates that are already created by the
+
+216
+00:16:33,375 --> 00:16:38,955
+已有的模板。有很多免费设计可以使用、保存和
+community. There is a lot of free designs for you to use, to save, and to
+
+217
+00:16:39,015 --> 00:16:44,026
+定制。所以如果已经熟悉它，完全可以继续
+customize. So yes, definitely, if you're already working with that, you can keep
+
+218
+00:16:44,056 --> 00:16:47,115
+使用，尤其是去除背景等工作。
+it, especially to remove the background and those kind of things.
+
+219
+00:16:47,505 --> 00:16:48,945
+Canva 很实用。
+Canva is very much useful.
+
+220
+00:16:53,235 --> 00:16:57,255
+尤其是时装设计师，可能已经熟悉 Pinterest。
+Of course, if you're a fashion designer especially, you may know Pinterest.
+
+221
+00:16:57,375 --> 00:17:02,475
+它也很适合做研究，从不同的人和
+So Pinterest is also very nice platform for doing some research to get inspired
+
+222
+00:17:03,375 --> 00:17:05,385
+作品中寻找灵感。
+by different people, different works.
+
+223
+00:17:09,046 --> 00:17:13,095
+每个人都能把内容放在 Pinterest 上，但那些是真实的、
+Everybody can put their content on Pinterest, and there are real projects that
+
+224
+00:17:13,155 --> 00:17:17,265
+属于具体创作者的项目。所以要记得注明这个
+belong to people. So always remember to credit the pictures that come out of this
+
+225
+00:17:17,296 --> 00:17:17,746
+平台上图片的来源，
+platform,
+
+226
+00:17:19,036 --> 00:17:21,705
+除非你拥有相应授权，或作品本来就属于自己。
+unless you have the license that the works belong to you.
+
+227
+00:17:22,755 --> 00:17:27,165
+我们也有 Pinterest 账号，每年会发布很多项目，
+We also have an account on Pinterest, and every year we put a lot of projects, so
+
+228
+00:17:27,255 --> 00:17:31,065
+大家也可以加入自己的内容，并标记 Fabricademy。
+you can also add your own things and tag Fab Academy.
+
+229
+00:17:33,405 --> 00:17:36,405
+再介绍一些可自由使用素材的替代资源。
+A couple of alternatives for copyleft.
+
+230
+00:17:36,555 --> 00:17:39,945
+我想说的是，Unsplash 上也有免费使用的图片。
+I want to say copyright-free pictures are also on Splash.
+
+231
+00:17:40,005 --> 00:17:45,645
+这是个很好的资源库，照片很漂亮，而且提供
+This is a very nice resource, and very beautiful pictures available also in
+
+232
+00:17:46,575 --> 00:17:49,545
+高清版本，尽可能保留清晰度。
+HD, in the best definition possible.
+
+233
+00:17:49,635 --> 00:17:55,515
+在这里输入关键词，就能浏览不同选择。
+So you can just write keyword here and browse all the different possibilities.
+
+234
+00:17:56,325 --> 00:18:00,705
+另一个是 Pexels，也提供视频。例如输入
+Another one is like Pixels, and it also works for videos, and you can just write
+
+235
+00:18:01,005 --> 00:18:05,820
+wood，就会出现很多与木材有关的内容，包括相应色调。
+wood and a lot of things that are related to wood, including the colors will
+
+236
+00:18:05,835 --> 00:18:11,415
+这里也不强制要求署名作者。
+appear. And also here, you don't need to credit the authors.
+
+237
+00:18:13,665 --> 00:18:18,736
+除了 Canva，如果只是想在线制作拼贴，
+An alternative to Canva, but this is only obviously for making collage online, is
+
+238
+00:18:18,795 --> 00:18:24,525
+还有 Photo Collage，可以制作不同风格。
+also called Photo Collage and allows you to create different styles.
+
+239
+00:18:24,945 --> 00:18:28,320
+它有各种拼贴模板，几秒钟就能完成，
+There are different templates for collage, just in a matter of seconds that
+
+240
+00:18:29,121 --> 00:18:31,431
+下载时也已经经过压缩。
+Actually already compressed the moment you download them.
+
+241
+00:18:34,791 --> 00:18:39,681
+对，压缩图片也是必做步骤，有很多软件
+Yes, because compressing pictures is also mandatory, and there are many software
+
+242
+00:18:39,711 --> 00:18:44,961
+可以完成。如果想省事，当然也可以用 WhatsApp。
+that do that. And if you're a little bit lazy, of course, you can use WhatsApp.
+
+243
+00:18:45,501 --> 00:18:49,791
+把手机拍摄的大体积图片发给自己，
+So you can WhatsApp yourself with all the heavy pictures that nowadays phone
+
+244
+00:18:50,031 --> 00:18:55,822
+然后一次下载所有图片，得到较低
+create, and then you can download all the pictures at once at a very low
+
+245
+00:18:56,091 --> 00:19:01,851
+分辨率的版本。对我来说，最好用的仍然是 Online
+resolution. So the best platform, for me, is still Online
+
+246
+00:19:01,911 --> 00:19:05,511
+PNG Tools，这是一个在线网站。
+PNG Tools. It's like an online website.
+
+247
+00:19:05,751 --> 00:19:10,281
+操作简单直接，有不同选项
+It's very easy and straightforward, so there are different options that you can
+
+248
+00:19:10,312 --> 00:19:15,711
+可以选择，也能去除背景。最重要的是，
+choose from. And of course, you can remove the background as well, and most
+
+249
+00:19:15,771 --> 00:19:19,101
+可以用不同方式压缩图片。
+important, compress the picture in different ways.
+
+250
+00:19:21,201 --> 00:19:26,241
+如果想批量处理，把整个文件夹交给工具，
+If you would like to work in bulk, so delivering the whole folder and work at the
+
+251
+00:19:26,271 --> 00:19:29,556
+同时处理多张图片，因为不想花太多
+same time at the different pictures because you feel like you don't have a lot of
+
+252
+00:19:29,631 --> 00:19:34,701
+时间，我也推荐这个平台，可以加入
+time, there is also this platform that I suggest where you can add
+
+253
+00:19:36,171 --> 00:19:40,041
+想处理的多张图片，把同样的设置应用到全部图片。
+as many pictures as you want, and the same setting is applied to all.
+
+254
+00:19:40,191 --> 00:19:43,251
+它可以导出大约七种不同格式，
+So you can export to about seven different file formats.
+
+255
+00:19:45,141 --> 00:19:51,021
+也能同时读取 PNG、GIF、WebP 等格式。
+It can read from PNG to GIF to WebP and everything all at once.
+
+256
+00:19:53,481 --> 00:19:59,361
+现在当然还有很多 AI 驱动的在线工具，能帮助
+Of course, there is a lot of nowadays AI-powered online tools that also help
+
+257
+00:19:59,391 --> 00:20:01,881
+去除背景等。
+you to remove the background, for example.
+
+258
+00:20:04,401 --> 00:20:10,221
+效果不错，不过可能会限制可以处理的
+They work well. Maybe they just have some limitations in terms of how many pictures
+
+259
+00:20:10,281 --> 00:20:15,021
+图片数量。Remove.bg 就很好用，效果也不错。
+you can work on here. Remove.bg is a good one, does a good job.
+
+260
+00:20:16,461 --> 00:20:22,041
+也可以自己处理，这也是值得掌握的技能。
+Or you can do this by yourself, which is also a very good skill to master.
+
+261
+00:20:24,171 --> 00:20:28,941
+Canva 当然也可以。我不记得这个功能是否需要 Pro，
+Of course, in Canva. I don't remember if you need Canva Pro to do that, but Canva
+
+262
+00:20:28,956 --> 00:20:34,101
+但 Canva 去背景的效果很好，即使
+also does a very good job in removing the background, even
+
+263
+00:20:35,572 --> 00:20:37,011
+图片比较难处理。
+though the picture is challenging.
+
+264
+00:20:37,041 --> 00:20:42,921
+比如有头发等复杂细节，它也能处理得不错。接下来聊 AI。
+For example, you have hair and also Canva is very good at that. AI.
+
+265
+00:20:45,471 --> 00:20:48,021
+在课程中，我们希望把 AI
+So in Fab Academy, we want to promote the use of AI,
+
+266
+00:20:49,581 --> 00:20:54,891
+作为负责任的工具来使用，所以需要学会
+like a responsible tool. So you need to learn how to use AI
+
+267
+00:20:54,921 --> 00:21:00,021
+负责任地使用它。它确实是一个很有用的工具，
+responsibly. That means that it's very good as a tool nowadays, and
+
+268
+00:21:00,861 --> 00:21:04,822
+我们至少都曾从中获得过帮助。
+all of us at least once we've made advantage of that.
+
+269
+00:21:04,911 --> 00:21:10,881
+如果用它辅助工作，例如探索项目的
+So if it's used as a supporting tool for, example, creating variations
+
+270
+00:21:10,911 --> 00:21:15,501
+不同变体，帮助拓展方向，是可以的。
+of projects, supporting the exploration, it's good.
+
+271
+00:21:17,511 --> 00:21:22,551
+它确实能帮助更快制作原型、探索更多方向，
+Definitely help us to prototype faster, to expand in the direction, but also to
+
+272
+00:21:22,611 --> 00:21:24,891
+也能优化流程和节省时间。
+optimize the process and most of the time.
+
+273
+00:21:26,901 --> 00:21:30,771
+凡是在作业中使用，都必须注明和说明。
+You must credit and also write whenever you use that in your assignments.
+
+274
+00:21:32,226 --> 00:21:38,001
+但这方面我们要求很严格：必须自己先思考，
+But we were very strict on this. So, you have to do the thinking first,
+
+275
+00:21:38,241 --> 00:21:44,210
+不要把思考委托出去，我认为那也是创造过程中
+to not delegate this, that I think is also the most beautiful part of creating
+
+276
+00:21:44,271 --> 00:21:47,241
+最美好的部分。包括探索概念，
+something. So exploring the concept,
+
+277
+00:21:48,831 --> 00:21:53,661
+回看不同参考，我们不希望 AI 替我们完成这些。
+getting back to the different references, and we don't want AI to do that for us.
+
+278
+00:21:54,171 --> 00:21:56,331
+不希望机器代替我们思考。
+We don't want a machine to do this for us.
+
+279
+00:21:56,421 --> 00:21:59,960
+因此，不要让 AI 替你寻找灵感参考。
+So never use AI for your inspirational references.
+
+280
+00:22:00,891 --> 00:22:04,191
+要记得，这些选择体现了你是谁、喜欢什么。
+And remember that those things define who you are and what you like.
+
+281
+00:22:07,312 --> 00:22:13,161
+这里有 Dinesh 的例子。昨天的视频里看过他的最终项目，
+I have an example from Dinesh. You saw his final project yesterday in a video, the
+
+282
+00:22:13,251 --> 00:22:16,851
+探索把 3D 打印用于高级定制时装。
+one who was exploring the concept of 3D printing applied to couture.
+
+283
+00:22:19,011 --> 00:22:24,801
+这个项目其实是几年前做的，当时 AI 还处于非常
+This project was many years ago, actually, when AI was still at the very
+
+284
+00:22:24,861 --> 00:22:25,401
+早期的阶段。
+beginning.
+
+285
+00:22:26,691 --> 00:22:31,971
+有意思的是，Dinesh 先亲手画出想制作的
+And it's interesting how Dinesh was actually sketching by hand the different
+
+286
+00:22:32,031 --> 00:22:36,711
+裙装的不同变化，再编写提示词，
+variations of this dress that he wanted to make, and then he was creating a prompt
+
+287
+00:22:36,771 --> 00:22:40,551
+把这些想法进一步拓展。
+that was able to take those things to the next level.
+
+288
+00:22:41,481 --> 00:22:46,041
+这里展示的是在 Midjourney 中生成的不同变体，
+And here you can see, and this was done in Midjourney, how the different variations
+
+289
+00:22:46,101 --> 00:22:49,011
+它们可能也对
+also probably contributed to
+
+290
+00:22:50,361 --> 00:22:51,471
+最终服装的形成有所帮助。
+the final garment.
+
+291
+00:22:54,111 --> 00:22:57,021
+这里还有一个很好的参考。
+There is also here some nice reference.
+
+292
+00:22:57,411 --> 00:23:02,616
+Hala 的视频已经链接在文档里，可以回头观看。
+Hala, you can find this video back because it's linked to the documentation.
+
+293
+00:23:03,681 --> 00:23:07,881
+她也有说明。例如在代码方面，不允许直接
+She had also, for example, for the code, it will not be allowed to copy-paste
+
+294
+00:23:07,911 --> 00:23:13,191
+从 ChatGPT、Claude 或其他 AI 中复制粘贴内容。
+directly things from any ChatGPT, Claude, or any AI in general.
+
+295
+00:23:14,001 --> 00:23:15,156
+她做得很好的一点是，
+So it's also nice that
+
+296
+00:23:16,491 --> 00:23:18,261
+在使用 ChatGPT 时，
+she created the ChatGPT
+
+297
+00:23:19,491 --> 00:23:21,891
+注明了它的参与。
+the moment it's being used.
+
+298
+00:23:23,511 --> 00:23:28,911
+总结这一部分：明确禁止直接复制粘贴，
+So to recap this part, it's very much forbidden to do direct copy-paste,
+
+299
+00:23:30,441 --> 00:23:35,271
+不应把研究交给 ChatGPT 或其他 AI，也不要让它重写
+to do the research in ChatGPT and any of the AI, to also rephrase the
+
+300
+00:23:35,301 --> 00:23:38,691
+文档。因为这不是英语课，我们更愿意读到
+documentation, because this is not an English course, so it's better to read
+
+301
+00:23:38,751 --> 00:23:41,781
+来自你自己的表达，而不是千篇一律的文字。
+something that comes from yourself than something that is all the same.
+
+302
+00:23:43,072 --> 00:23:48,771
+现在很容易发现，这些文本无论读起来还是看起来都很相似。
+And we really can see nowadays that all the text sound alike but also look alike.
+
+303
+00:23:48,861 --> 00:23:53,421
+机器生成的文字特征很明显，真的希望大家不要
+So the machine-made text is something very obvious, and I really invite you not to
+
+304
+00:23:53,451 --> 00:23:53,931
+这样做。
+do that.
+
+305
+00:23:55,191 --> 00:23:59,241
+这类文本很多，不只在课程文档中，
+And really, there is a lot of documentation, not just in Fab Academy.
+
+306
+00:23:59,931 --> 00:24:03,396
+在网站、博客等各种地方都能看到，
+We can read these things everywhere on the website, blogs, and everything, and
+
+307
+00:24:03,411 --> 00:24:04,281
+而且都一个样。
+they're all the same.
+
+308
+00:24:06,981 --> 00:24:11,165
+如果觉得需要纠正英语，可以使用 Grammarly。
+If you feel like you need to fix some English, I recommend you Grammarly.
+
+309
+00:24:11,286 --> 00:24:14,121
+它也由 AI 驱动，但干预程度不大。
+It's also AI-powered, not invasive.
+
+310
+00:24:14,211 --> 00:24:15,891
+它已经存在
+This has been existing since
+
+311
+00:24:17,271 --> 00:24:23,001
+从 ChatGPT 问世时就已经存在，不会把你的内容和
+ChatGPT was born, and it doesn't restructure completely your content, your
+
+312
+00:24:23,091 --> 00:24:23,721
+文字结构彻底重写。
+text.
+
+313
+00:24:27,081 --> 00:24:32,271
+依赖 AI 的另一个问题是，
+Another problem that we have relying on the AI is that
+
+314
+00:24:32,541 --> 00:24:35,901
+它经常给出错误信息。
+usually it feeds us with false information.
+
+315
+00:24:36,231 --> 00:24:40,941
+这些内容很容易误导人，而且 AI 倾向于
+Those things are very much misleading, and of course, AI also tends to
+
+316
+00:24:41,991 --> 00:24:47,211
+把不同网站混在一起，编造引文，甚至
+merge different websites together to invent citations and also fabricate
+
+317
+00:24:47,511 --> 00:24:52,971
+完全虚构信息。所以一定要核对事实，
+completely false information. So always double-check the fact and always
+
+318
+00:24:53,001 --> 00:24:58,851
+回到真实的网站、实际的数据表、论文和
+double-check the real website, the real data sheet, the real paper, and the real
+
+319
+00:24:58,911 --> 00:24:59,360
+作者信息进行检查。
+author.
+
+320
+00:25:02,391 --> 00:25:05,601
+说到作品归属，接下来看署名和许可。
+Talking about ownership, we move to credit and license.
+
+321
+00:25:05,661 --> 00:25:10,956
+在课程以及整个 Fab Lab 网络中，我们相信
+So in Fab Academy, as well as in the Fablab Network, we believe in the spirit of
+
+322
+00:25:11,062 --> 00:25:14,812
+开放、合作与知识交流的精神。
+openness and collaboration where the knowledge is exchanged.
+
+323
+00:25:15,441 --> 00:25:20,766
+不知道大家是否已经注意到自己网页的页脚。
+So I don't know if you paid attention to your webpage already and footer.
+
+324
+00:25:20,886 --> 00:25:25,386
+最底部写着“知识共享许可，署名、
+At the very bottom, it is written, "Creative Common License, Attribution and
+
+325
+00:25:25,461 --> 00:25:30,666
+非商业性使用，国际版本”。这意味着你创作的内容，
+Commercial, International." So that means that whatever you produce, as you make,
+
+326
+00:25:31,341 --> 00:25:36,351
+会按这份许可发布。基本上，任何访问
+is released with this license. That basically allows people, everybody that comes
+
+327
+00:25:36,381 --> 00:25:41,721
+文档、希望从你的作品获得启发的人，都可以分享内容，
+to your documentation, wants to get inspired from your work, to share the content,
+
+328
+00:25:41,781 --> 00:25:46,431
+也可以按相同许可重新传播，并且可以改编、
+also redistribute with the same license, but also they are able to adapt those,
+
+329
+00:25:46,582 --> 00:25:47,931
+混合和继续创作。
+remix, and build upon.
+
+330
+00:25:50,451 --> 00:25:53,332
+这里可以查看具体说明，当然需要署名。
+So you can see here in detail with attribution, of course.
+
+331
+00:25:53,511 --> 00:25:58,761
+每个人都要正确注明作者，同时提供
+So everybody needs to credit the author properly, providing also a link to the
+
+332
+00:25:58,851 --> 00:26:02,931
+作品链接。另外，它限定非商业用途。
+work. And of course, this is non-commercial.
+
+333
+00:26:03,006 --> 00:26:08,841
+所以不能利用你放在这里的这些内容
+So all of these things that you have will not help no one to make a business out of
+
+334
+00:26:08,901 --> 00:26:09,201
+开展商业活动。
+those.
+
+335
+00:26:10,911 --> 00:26:14,361
+包括项目、文档，以及你放在
+Both the project, the documentation, and whatever it is that you put on the
+
+336
+00:26:14,391 --> 00:26:15,891
+网站上的内容。
+website.
+
+337
+00:26:17,692 --> 00:26:21,802
+如何正确为图片和项目署名？
+How to credit properly. Pictures and projects done.
+
+338
+00:26:21,861 --> 00:26:25,957
+这里有几个例子。我觉得
+We have here a few examples. I think it's
+
+339
+00:26:27,381 --> 00:26:32,406
+Luz Boget 的做法很好，例如这张她本人的照片，
+very nice how Luz Boget here, for example, was crediting a picture of herself that
+
+340
+00:26:32,571 --> 00:26:34,582
+是与另一个人合作拍摄的。
+was made in collaboration with another person.
+
+341
+00:26:34,671 --> 00:26:39,261
+在图片说明中，而且实际上她上传到
+So in the description of the picture, and actually in all the pictures that she
+
+342
+00:26:39,291 --> 00:26:44,976
+网站的每张图片下面，都有小标签，准确说明
+uploaded to the website, you can see a small tag writing exactly what is the
+
+343
+00:26:45,052 --> 00:26:50,871
+图片是什么，有时还附日期、相关人员和摄影者。
+picture, sometimes accompanied by the date and the people and the photographer.
+
+344
+00:26:51,201 --> 00:26:56,421
+旁边的情绪板也一样，不同图片都标明
+And also here in the mood board next to it, you can see all the different pictures,
+
+345
+00:26:56,451 --> 00:27:00,201
+标题和作者。这就是正确的做法。
+the title with attribution. So this is the right way to do that.
+
+346
+00:27:01,746 --> 00:27:06,877
+没有注明作者和归属的图片，也不允许
+And a picture that is not accompanied by the author, the ownership will not be also
+
+347
+00:27:06,951 --> 00:27:12,156
+单独放在网站上。实现署名的方法有很多。
+allowed to stay on the website alone. There is many ways to do that.
+
+348
+00:27:12,381 --> 00:27:17,121
+刚才谈到了拼贴，可以按自己喜欢的方式
+We talked about collage, so also you're free to explore this at a different level
+
+349
+00:27:17,241 --> 00:27:23,181
+进一步探索，只要这些信息写在文档里即可。
+the way you like. As long as this information is written on the documentation.
+
+350
+00:27:23,271 --> 00:27:28,521
+如果想做得更完整，还可以注明摄影者。
+If you really want to do a good job, you also can include the photographer.
+
+351
+00:27:28,582 --> 00:27:30,651
+这一点也经常被忘记。
+That is also often forgotten
+
+352
+00:27:34,047 --> 00:27:39,911
+接下来是媒体编辑。从下周的数字身体
+Let's move to the media editing. So in your documentations from the next week of
+
+353
+00:27:39,957 --> 00:27:42,927
+课程开始，大家也需要上传文件。
+digital body, you are asked also to upload files.
+
+354
+00:27:43,828 --> 00:27:49,617
+“文件”是一个广义说法，课程中包括 PDF、矢量
+Files is a general word. In Fab Academy, it means both PDFs, vector
+
+355
+00:27:49,707 --> 00:27:50,247
+文件、
+files,
+
+356
+00:27:52,167 --> 00:27:56,667
+小册子、幻灯片、Grasshopper 定义文件，以及三维模型。
+booklets, slides, the Grasshopper definition, and of course, 3D models.
+
+357
+00:27:57,927 --> 00:28:03,688
+我们一直在讲压缩，之后还会不断提到。
+So we've been talking about compression, and we will be talking about that for a
+
+358
+00:28:03,747 --> 00:28:09,297
+PDF 也必须先上传到 Git 仓库，但要先压缩。
+long time. So PDFs also must be uploaded first to the Git but must be compressed.
+
+359
+00:28:11,397 --> 00:28:17,337
+另外，不能只嵌入 Google Slides 或 Canva。
+And again, there is a limitation on the use of Google Slide and Canva
+
+360
+00:28:17,397 --> 00:28:23,247
+可以使用在线嵌入，前提是真实的源文件，
+embed only. That means that you can upload those as long as the real source,
+
+361
+00:28:23,367 --> 00:28:27,987
+例如 PDF，也同时上传到了仓库。
+like the real PDF, is uploaded as well to the repository.
+
+362
+00:28:30,537 --> 00:28:35,787
+稍后 Julian 可能会介绍，PDF 在 Markdown 中
+The PDF you're going to see later on probably with Julian is a link
+
+363
+00:28:36,597 --> 00:28:40,617
+通过链接引用，添加方法很直接。
+in Markdown. So the way to add it is pretty straightforward.
+
+364
+00:28:41,938 --> 00:28:46,527
+如果已经浏览过模板，可能见过
+Inside your template, if you have it already navigated a little bit, you might have
+
+365
+00:28:46,617 --> 00:28:51,957
+这样的内容，它是一个现成的 PDF 阅读器，
+seen something like this, which is already a PDF viewer that helps you
+
+366
+00:28:53,307 --> 00:28:57,147
+可以在网页中以纵向滚动方式查看 PDF。
+to visualize the PDF and scroll it in this vertical format.
+
+367
+00:28:57,207 --> 00:29:01,677
+这里是一个最终项目论文的示例。
+You can see here an example of a thesis as a result of the final project.
+
+368
+00:29:01,707 --> 00:29:04,138
+这是大家明年也会做的事情。
+That is something that you will be doing next year.
+
+369
+00:29:04,737 --> 00:29:09,072
+这里还能看到它在 Markdown 中的代码写法。
+But also you can see here the code, how this looks like in Markdown.
+
+370
+00:29:09,328 --> 00:29:14,097
+有一个路径，指向 files 文件夹，名为
+So there is a path, there is a files folder, and your PDF that is called
+
+371
+00:29:14,188 --> 00:29:18,567
+booklet_compressed 的 PDF 就存放在其中。
+booklet_compressed is located inside this folder.
+
+372
+00:29:24,207 --> 00:29:27,507
+说到小册子，不过这不是现在需要担心的
+Speaking about the booklet, but this is not something that you have to worry about
+
+373
+00:29:27,567 --> 00:29:27,837
+事情。
+now.
+
+374
+00:29:29,067 --> 00:29:34,888
+未来几个月，我们还会展示这些年课程中
+We have many booklets that we will be also revealing that are made in these
+
+375
+00:29:35,427 --> 00:29:38,697
+制作过的许多手册。
+many years of academy during the next months.
+
+376
+00:29:39,388 --> 00:29:44,697
+刚才聊到材料研究和
+And one that I want to mention, since we talked about this material research, but
+
+377
+00:29:44,727 --> 00:29:50,578
+信息图，所以特别想介绍 Alberte 的这份作品。
+also the different infographics, is this work from Alberte
+
+378
+00:29:51,237 --> 00:29:56,638
+她于 2022 年在冰岛完成，而且全部使用 Canva 制作。
+that she developed in Iceland in 2022, and this also was made entirely in Canva.
+
+379
+00:29:56,727 --> 00:30:01,647
+因为材料原本都集中在一个地方，所以很容易
+So she already had everything in one place, and that made very easy to integrate
+
+380
+00:30:01,677 --> 00:30:03,462
+整合成一份文档。
+them all together in one document.
+
+381
+00:30:06,117 --> 00:30:11,097
+因此，PDF 压缩是必须的，可以使用
+So yes, compressing PDFs is mandatory, and you can use
+
+382
+00:30:11,847 --> 00:30:15,268
+不同工具，十秒左右就能完成。
+different apps to do that literally in 10 seconds.
+
+383
+00:30:16,047 --> 00:30:19,947
+我们已经把这些工具作为可删除的提示放进模板。
+We put those in your template as a tip that you can remove.
+
+384
+00:30:20,607 --> 00:30:25,888
+那边已有链接，不过再说明一下，例如可以使用
+So you have already the links over there, but just to clarify this again, you can
+
+385
+00:30:25,947 --> 00:30:31,797
+ilovepdf.com，把 PDF 拖进去，
+use, for example, ilovepdf.com. You can drag and drop your PDF, and you can
+
+386
+00:30:31,917 --> 00:30:37,857
+这里的示例在二十秒内就从 60 MB 变成大约 1 MB。
+see that from 60 megabyte, this became something like one in just 20 seconds.
+
+387
+00:30:37,917 --> 00:30:39,477
+所以这一步没有借口不做。
+So there is no excuse on this.
+
+388
+00:30:42,117 --> 00:30:47,817
+另一个可以使用的免费在线平台是
+Another platform is still online, free, no limits, that you can use
+
+389
+00:30:48,147 --> 00:30:52,347
+PDF24 Tools，操作方式类似。
+is PDF24 Tools, and it works in the similar way.
+
+390
+00:30:52,438 --> 00:30:58,107
+也能自行决定各页的图片质量，
+So you can also decide the image quality for the different pages and have
+
+391
+00:30:58,497 --> 00:31:00,357
+获得很好的压缩效果。
+a great result in term of compression.
+
+392
+00:31:03,807 --> 00:31:04,617
+如果你
+If you feel like
+
+393
+00:31:05,997 --> 00:31:07,587
+现在想
+you want, for example, now to
+
+394
+00:31:09,791 --> 00:31:14,638
+放入自己的作品集，也可以使用其他
+include your portfolio, you can also use one of the other software and platform
+
+395
+00:31:14,938 --> 00:31:20,578
+在线软件或平台。其中一个叫 Heizeen [名称待核实]，
+that are available online. One of those is Heizeen, and you can
+
+396
+00:31:20,667 --> 00:31:25,138
+它可以提供嵌入代码。点击 Share，这个流程也和
+embed the code. So you click on share, and this will be the same workflow that you
+
+397
+00:31:25,167 --> 00:31:27,701
+稍后的视频一样，然后把代码嵌入网页。
+do for the videos, and you just embed this.
+
+398
+00:31:28,467 --> 00:31:33,057
+这是你自己的作品集，不属于课程作业，因此可以这样
+It's your portfolio, so it's not part of Fab Academy, and you're allowed to include
+
+399
+00:31:33,087 --> 00:31:33,627
+放入网站。
+it like this.
+
+400
+00:31:37,768 --> 00:31:38,217
+抱歉。
+Sorry.
+
+401
+00:31:39,658 --> 00:31:45,388
+那么，各种制造文件应该如何上传，无论它们采用哪种
+So how to upload the fabrication files, whatever they are, and the different
+
+402
+00:31:45,447 --> 00:31:45,957
+格式？
+formats.
+
+403
+00:31:48,057 --> 00:31:53,037
+三维模型和 Grasshopper 定义文件也需要上传到
+So the 3D models and the Grasshopper definitions also need to be uploaded to the
+
+404
+00:31:53,067 --> 00:31:53,367
+Git 仓库。
+Git.
+
+405
+00:31:55,018 --> 00:31:56,967
+怎么做？有时会遇到
+How to do that? Sometimes we deal with
+
+406
+00:31:58,287 --> 00:32:04,138
+体积很大的文件。比较好的做法是在电脑上创建
+files that are very heavy. So the best way and the best practice will be creating a
+
+407
+00:32:04,287 --> 00:32:09,658
+ZIP 压缩包，把不同文件放进去，再将压缩包
+zip folder on your computer and uploading this as it is, containing the different
+
+408
+00:32:09,688 --> 00:32:11,847
+上传到 Git 仓库。
+files to the Git.
+
+409
+00:32:13,047 --> 00:32:18,927
+文档中也链接了教程，介绍如何在
+There is also linked in the documentation a tutorial on how to do this on
+
+410
+00:32:18,987 --> 00:32:23,922
+Mac 上操作：选中想压缩的内容，
+the Mac, which is be just selecting the things that you want to compress, and
+
+411
+00:32:23,997 --> 00:32:26,037
+右键，再选择压缩。
+right-click and selecting compress.
+
+412
+00:32:26,547 --> 00:32:31,227
+Windows 也类似，选择“发送到压缩文件夹”。
+In a similar way in Windows, you just have to do send to a compressed folder.
+
+413
+00:32:32,487 --> 00:32:37,737
+很简单，几秒钟就能完成，也能为网站节省很多
+Very easy, and it literally takes five seconds, and this is what will save a lot of
+
+414
+00:32:37,797 --> 00:32:43,737
+空间，因为可用空间有限，不应该上传
+space in your website, because there is also a certain space, and you shouldn't
+
+415
+00:32:45,627 --> 00:32:46,857
+体积特别大的
+have a very big
+
+416
+00:32:48,688 --> 00:32:49,047
+文件。
+size.
+
+417
+00:32:50,397 --> 00:32:56,217
+模板中现在还有三维模型查看器的示例，这些是
+We also have some examples in the template now for the 3D model viewers, and these
+
+418
+00:32:56,277 --> 00:33:02,007
+可以用来预览三维
+are also third software that you can use to visualize your 3D
+
+419
+00:33:02,037 --> 00:33:02,442
+模型的第三方软件。
+models.
+
+420
+00:33:03,987 --> 00:33:09,688
+再提醒一次，三维模型首先必须以 STL 等格式放入
+Again, your 3D model needs to be first added, example as STL, inside
+
+421
+00:33:09,747 --> 00:33:12,897
+ZIP 压缩包，并在文档中提供下载链接。
+your zipped folder and linked to the documentation.
+
+422
+00:33:12,957 --> 00:33:16,227
+在线预览是作品集额外的展示方式。
+But this is something extra for your own portfolio.
+
+423
+00:33:16,287 --> 00:33:21,972
+可以使用 Sketchfab 之类的平台，再次通过
+So it's something that you can include for platforms like Sketchfab and do, again,
+
+424
+00:33:22,047 --> 00:33:27,147
+嵌入代码显示，或者使用 p3d.in。
+embed the code or, for example, p3d.in.
+
+425
+00:33:31,408 --> 00:33:37,047
+如何加入视频？视频文件通常非常大。
+How to include a video? So videos are something that are very, very big normally.
+
+426
+00:33:38,518 --> 00:33:42,882
+如果是短片、以前制作的视频作品，
+And the best way to do that, especially if you have a short movie or a work that
+
+427
+00:33:42,927 --> 00:33:47,487
+或者想放进文档的访谈，
+you've done before in a video format and as an interview that you want to include
+
+428
+00:33:47,518 --> 00:33:53,247
+比较好的方法是先上传到 YouTube 或 Vimeo，
+in your documentation, the best way is to have them uploaded on YouTube or Vimeo
+
+429
+00:33:53,307 --> 00:33:57,177
+再点击分享，复制并粘贴嵌入代码。
+and then click on share, copy, paste the embed code.
+
+430
+00:33:57,656 --> 00:33:59,847
+不是顶部地址栏里的链接，
+It's not the link that you see on top.
+
+431
+00:34:00,027 --> 00:34:05,366
+而是嵌入代码，它会在文档中创建这样一个
+It's this embed code that allows you to have this kind of window with the video
+
+432
+00:34:05,397 --> 00:34:10,138
+可以播放视频的窗口。模板里已经有示例，
+playing in the documentation. You already have an example of that, so there is
+
+433
+00:34:10,167 --> 00:34:15,147
+所以这里没有太多新东西，直接复制粘贴即可。Vimeo 也一样。
+nothing to learn here. It will be just direct copy-paste. Same thing on Vimeo.
+
+434
+00:34:20,217 --> 00:34:25,347
+比如下周有一个很好的
+That means that if you also have, for example, next week, a very nice
+
+435
+00:34:25,947 --> 00:34:31,197
+激光切割过程，或者组装人台的过程，拍成视频可能
+laser cutting process or you're assembling this mannequin, it would be maybe very
+
+436
+00:34:31,287 --> 00:34:36,207
+很合适。可以先上传到 YouTube、Vimeo，或者
+nice to do a video. So you can upload this first either on YouTube, Vimeo, or
+
+437
+00:34:36,237 --> 00:34:42,118
+自己熟悉的其他平台，再点击
+whatever other platforms that you know, and then you can do click
+
+438
+00:34:42,177 --> 00:34:45,927
+分享，取得嵌入代码，复制回文档中。
+on share, get the embed code, and copy-paste it back in the documentation.
+
+439
+00:34:48,567 --> 00:34:53,817
+接下来讲图片编辑。这是基础知识，
+We're moving to photo editing. So this is the basic.
+
+440
+00:34:54,537 --> 00:34:59,697
+对接下来几周非常有用，尤其当我们讨论
+This is very useful information and something to know as the base for the next
+
+441
+00:34:59,727 --> 00:35:04,137
+制造和数字制造时。
+weeks, especially when we talk about fabrication, digital fabrication.
+
+442
+00:35:04,227 --> 00:35:09,206
+位图与矢量的区别就是分辨率。
+So the difference between the raster and the vector is just the resolution.
+
+443
+00:35:09,327 --> 00:35:14,277
+我们熟悉的照片，也属于位图。
+So we know pictures. Pictures are also called bitmaps.
+
+444
+00:35:14,877 --> 00:35:19,467
+它们由许多像素组成，也就是这些带有颜色的
+So they are images that are made of different pixels that are these kind of squares
+
+445
+00:35:19,527 --> 00:35:23,337
+小方块。那么放大时会发生什么？
+that are full of colors. So what happens here the moment you zoom?
+
+446
+00:35:23,487 --> 00:35:29,277
+不断放大，就会看到更多像素和
+You zoom in, keep on zooming, you have open more pixels, you encounter more
+
+447
+00:35:29,337 --> 00:35:32,727
+方块，图片有时会变得模糊。
+squares, and the picture sometimes is blurry.
+
+448
+00:35:34,737 --> 00:35:36,597
+矢量则不同。
+The vector is something opposite.
+
+449
+00:35:36,687 --> 00:35:41,292
+矢量是用数学关系生成的点、
+So the vectors are actually equations that are mathematically generated points and
+
+450
+00:35:41,367 --> 00:35:44,337
+形状和路径，看起来是这样。
+shapes and paths, and they look like this.
+
+451
+00:35:44,427 --> 00:35:47,067
+继续放大，也不会因此改变清晰度。
+So the more you zoom in, nothing changes.
+
+452
+00:35:47,817 --> 00:35:49,587
+所以它们使用的格式也不同。
+That's why they also have different formats.
+
+453
+00:35:49,647 --> 00:35:52,902
+说到矢量，例如，
+So when we talk about vector, we talk about, for example,
+
+454
+00:35:54,927 --> 00:35:56,457
+SVG、PDF、
+SVGs, PDFs,
+
+455
+00:35:58,137 --> 00:36:03,327
+EPS 等；说到图片，大家熟悉的有 JPEG、
+EPS, any of these. And when we talk about pictures, of course, we all know JPEG,
+
+456
+00:36:03,507 --> 00:36:06,147
+PNG、GIF、HEIF 等。
+PNG, GIF, HEIF, and so on.
+
+457
+00:36:09,717 --> 00:36:11,847
+对应的软件也不同。
+So we also have different software, right?
+
+458
+00:36:13,077 --> 00:36:18,417
+刚才说过，GIMP 是免费、开源的替代工具，
+We said earlier we have GIMP as an alternative free and open source to the most
+
+459
+00:36:18,597 --> 00:36:24,447
+可以替代大家熟悉的 Photoshop。另一个很著名的
+famous one, which is Photoshop. And we have an alternative for also the very
+
+460
+00:36:24,477 --> 00:36:26,607
+软件 Illustrator，也有替代工具 Inkscape。
+famous one, Illustrator, which is Inkscape.
+
+461
+00:36:26,787 --> 00:36:30,327
+当然，还可以使用无数其他平台。
+But of course, there is other countless platform that you can use.
+
+462
+00:36:30,387 --> 00:36:36,342
+这里只是两个建议，可以自由探索这些、
+So these are just two suggestions, but you're free to explore those,
+
+463
+00:36:37,437 --> 00:36:38,967
+自己熟悉的，以及其他工具。
+yours, and also many others.
+
+464
+00:36:41,824 --> 00:36:47,733
+再次说明，这些知识对数字制造
+Just to clarify, because this, as we said, is very important to be applied also
+
+465
+00:36:48,574 --> 00:36:53,763
+非常重要，软件也会很有用，
+in general to digital fabrication, and this software will be very much useful,
+
+466
+00:36:54,303 --> 00:36:59,103
+尤其是矢量软件，可以用于机器切割、制作
+especially the vector one, for cutting a machine, for producing things that will be
+
+467
+00:36:59,523 --> 00:37:04,593
+之后要 3D 打印的内容，特别是把这套流程与三维建模
+3D-printed later on, especially if you combine this workflow with the 3D modeling
+
+468
+00:37:04,683 --> 00:37:09,213
+软件结合，或者制作需要激光或 CNC 切割的对象。
+software or something that definitely will be cut either by a laser or a CNC.
+
+469
+00:37:10,563 --> 00:37:16,233
+要切割这些形状，需要矢量文件，而且需要
+So for cutting those things, we need vector files, but we also need
+
+470
+00:37:16,293 --> 00:37:20,552
+由矢量点和形状等构成的闭合轮廓。
+closed loops that are made of vector points, shapes, and so on.
+
+471
+00:37:20,703 --> 00:37:25,983
+因此这些软件今后会很常用。
+So also the software will be your best friends for next time.
+
+472
+00:37:26,088 --> 00:37:29,133
+今天不会具体讲激光切割机，
+We will not be talking today about the laser cutter.
+
+473
+00:37:29,283 --> 00:37:32,163
+下周还有时间深入探索。
+You also have next week to explore the topic deeper.
+
+474
+00:37:33,993 --> 00:37:34,713
+这些
+So those are
+
+475
+00:37:36,243 --> 00:37:40,428
+软件也能调整图片大小，也就是缩小、
+software as well that can be used for resizing the pictures, so scaling down,
+
+476
+00:37:40,893 --> 00:37:43,803
+编辑，以及其他常规处理。
+editing, and also manipulating at a general level.
+
+477
+00:37:46,413 --> 00:37:51,453
+还可以通过 Image 菜单中的 Scale Image 优化图片。
+You can also optimize your picture if you just go on top of image, scale image.
+
+478
+00:37:52,113 --> 00:37:57,557
+稍后也可以做一次演示，取决于有多少人
+We can also do in a demo later on, depends on how many people will be asking
+
+479
+00:37:57,603 --> 00:38:03,513
+提出需要。调整大小、缩放和优化都是基础操作，
+that. Resize scale and optimize is the basic and also very much useful for you to
+
+480
+00:38:03,574 --> 00:38:05,824
+对压缩文件也很有帮助。
+compress the files.
+
+481
+00:38:07,143 --> 00:38:10,803
+我推荐 GIMP，也因为它有一个很好用的插件，
+I also promote GIMP because I know that there is this nice plugin that's called
+
+482
+00:38:10,833 --> 00:38:14,763
+可以从这里下载使用。[插件名称原文不清]
+GIMP, and you can download it from here and you can use.
+
+483
+00:38:14,824 --> 00:38:19,158
+它可以批量应用各种调整，例如
+So you can apply all the different manipulations, whatever they are, including, for
+
+484
+00:38:19,203 --> 00:38:25,023
+转换为灰度、提高阈值，
+example, converting to grayscale and increasing the threshold,
+
+485
+00:38:25,863 --> 00:38:28,713
+或者统一调整亮度。
+the brightness to all of them together.
+
+486
+00:38:30,183 --> 00:38:36,168
+我记得几年前的教程中已经讲过一次，
+I think it was one in the tutorials I gave many years ago, so I also don't
+
+487
+00:38:36,183 --> 00:38:40,173
+不想重复同样的内容，不过大家可以在课程
+want to repeat the same thing, but it's something that you can find in the class
+
+488
+00:38:40,188 --> 00:38:40,593
+档案里找到。
+archive.
+
+489
+00:38:42,813 --> 00:38:47,013
+最后，用这些最佳实践结束这一部分。
+So in the end, these are the best practices to conclude this part.
+
+490
+00:38:47,103 --> 00:38:47,193
+首先，
+So
+
+491
+00:38:48,453 --> 00:38:50,943
+需要为网页调整并优化图片大小。
+you need to resize and optimize your pictures for the web.
+
+492
+00:38:51,273 --> 00:38:55,053
+谈到电脑和网页，我们说的显示器
+And when we talk about computers and web in general, we talk about the resolution
+
+493
+00:38:55,113 --> 00:39:00,813
+分辨率是 72 DPI，无论手机、
+of the monitor, which is 72 DPI. Doesn't matter if it's the screen of the phone,
+
+494
+00:39:00,873 --> 00:39:06,483
+电脑还是电视屏幕。作为一个通用参考，可以记住，
+the computer or the TV. And let's say, as a general rule, you can remember
+
+495
+00:39:06,633 --> 00:39:12,363
+把图片压缩到每张最多约 100 KB，
+to compress your pictures so all of them, they are maximum 100,
+
+496
+00:39:12,483 --> 00:39:18,363
+150 KB 也可以接受。最重要的还有，记得
+150 KB is also accepted. And of course, most important, remember to
+
+497
+00:39:18,393 --> 00:39:22,473
+注明图片来源。自己的图片也最好署名。
+credit the pictures. It's also a good practice to credit your own pictures.
+
+498
+00:39:22,563 --> 00:39:28,053
+这样别人下次浏览网站时，也更方便正确注明
+So next time a person goes to your website, it will be easier for them to credit
+
+499
+00:39:28,068 --> 00:39:28,623
+你的名字。
+yourself.
+
+500
+00:39:32,253 --> 00:39:35,943
+接下来是媒体制作。这里也是
+We move to the media production. These are also
+
+501
+00:39:37,563 --> 00:39:39,543
+不同往届学员的案例。
+different examples from different alumni.
+
+502
+00:39:40,503 --> 00:39:45,543
+想强调的是，可以投入一点时间，
+And what I want to highlight here is that you can invest a little bit of your time,
+
+503
+00:39:45,663 --> 00:39:49,983
+因为从今天起搭建的其实也是一份作品集。
+since what you're building from today is actually a portfolio.
+
+504
+00:39:49,998 --> 00:39:54,933
+很多人因此获得了工作机会，或者建立了不同的
+A lot of people got many opportunities, like job opportunities, different
+
+505
+00:39:54,949 --> 00:39:55,654
+联系。
+connections.
+
+506
+00:39:57,693 --> 00:40:02,343
+所以值得花时间，认真打理页面的
+And it's very good to invest this time that you have to curate also aesthetically
+
+507
+00:40:02,433 --> 00:40:08,193
+视觉效果。例如这里，Luz 对材料的
+your page. So this for me is a very nice example to show on how Luz Bogas
+
+508
+00:40:08,523 --> 00:40:13,173
+拍摄就很好。材料有时是半透明的，
+photoshooted the material. The material is also sometimes translucent, so it's also
+
+509
+00:40:13,233 --> 00:40:15,663
+很难准确拍出效果。
+very hard to picture them correctly.
+
+510
+00:40:16,203 --> 00:40:21,154
+如果家里能搭建一个拍摄区域，利用自然光、实验室
+So if you have a setup at home where you can benefit from natural light or lab
+
+511
+00:40:21,243 --> 00:40:25,383
+灯光，或者现在很常见的环形灯，
+lights or the ring that is very much nowadays common,
+
+512
+00:40:26,913 --> 00:40:31,503
+也可以把这些带到实验室，或者在家设置一个
+you can also bring these things to the lab at your house and create a setup
+
+513
+00:40:32,763 --> 00:40:38,074
+持续保留几个月的拍摄位置。每周上传文档之前，
+that stays for different months. So every week before uploading those things to the
+
+514
+00:40:38,103 --> 00:40:42,363
+花十分钟认真处理一下拍摄。
+documentation, you can spend 10 minutes to curate a little bit this part.
+
+515
+00:40:43,053 --> 00:40:48,963
+这里有不同的选择，可以按主题，
+So here are different options, and you can see where you can also have per topic,
+
+516
+00:40:49,083 --> 00:40:49,623
+也可以按
+but also
+
+517
+00:40:52,023 --> 00:40:53,943
+不同成果和项目来安排。
+for the different outcomes and projects.
+
+518
+00:40:53,973 --> 00:40:59,133
+例如，如果想制作一本带有
+So here, for example, if you want to make something like a booklet with
+
+519
+00:40:59,163 --> 00:41:03,453
+操作说明的手册，最好每次都从同一个
+instructions, it's very good to take a picture, for example, every time on the same
+
+520
+00:41:03,513 --> 00:41:06,123
+俯视角度拍照，展示所有细节。
+angle from the top to show all the details.
+
+521
+00:41:07,113 --> 00:41:10,863
+这份文档中还有更多内容。这是一个套件，
+And also you can find more on this documentation. This is a kit.
+
+522
+00:41:11,223 --> 00:41:15,858
+任何人都可以制作。手册通过照片提供清楚的
+Also everybody can make it. So it's very nice how the booklet really helps and
+
+523
+00:41:15,963 --> 00:41:17,793
+视觉引导，做得很好。
+guides you visually from the pictures.
+
+524
+00:41:17,913 --> 00:41:23,793
+文字也很少。这是
+So the text is also minimal. This is something that
+
+525
+00:41:23,853 --> 00:41:27,333
+第三周“开源循环时尚”的作品。
+is done in the third week, so open source circular fashion.
+
+526
+00:41:28,203 --> 00:41:32,824
+图片可以很好地呈现材料、
+It's very nice how the pictures can also reflect the kind of materials, the
+
+527
+00:41:32,883 --> 00:41:37,683
+纹理和形状。例如在一个简单的拍摄场景中，
+texture, the shape, and also, for example, having a simple photoshoot where you
+
+528
+00:41:37,713 --> 00:41:41,733
+让人和物体互动，就能清楚表达它的用途。
+have a person interacting with the object really communicates what is it for.
+
+529
+00:41:42,333 --> 00:41:46,203
+如果去掉这里的手，你可能就看不出它是一个
+So for example, if you remove the hand here, maybe you wouldn't say that it's a
+
+530
+00:41:46,233 --> 00:41:46,533
+包。
+bag.
+
+531
+00:41:50,013 --> 00:41:51,843
+这个例子与下周有关。
+This is for next week. So
+
+532
+00:41:54,003 --> 00:41:57,693
+课堂中会展示不同的人台和其他
+you will be seeing different examples of mannequins and other creations in the
+
+533
+00:41:57,723 --> 00:42:02,313
+创作。这张照片中的作品制作于
+lecture. And this is one picture about one of those that's been produced in
+
+534
+00:42:02,343 --> 00:42:05,853
+2021 年的巴塞罗那。我也很喜欢它的
+Barcelona in 2021. And I really like also the choice,
+
+535
+00:42:07,803 --> 00:42:11,193
+黑白处理，起到补充作用，并突出
+let's say black and white, to complement and to really
+
+536
+00:42:12,423 --> 00:42:15,243
+激光切割形成的几何结构。
+highlight the geometries that are created here with the laser.
+
+537
+00:42:17,043 --> 00:42:18,993
+这里是完全不同的另一个人台。
+And also a completely different mannequin.
+
+538
+00:42:19,053 --> 00:42:23,733
+也可以看到，灯光如何帮助围绕项目
+So you can see also a bit how you can contribute with the light to create this kind
+
+539
+00:42:23,763 --> 00:42:27,783
+形成一种叙事。这同样是一个很漂亮的
+of narrative around the project. And it's also a very beautiful
+
+540
+00:42:29,343 --> 00:42:32,163
+成果，来自 Alessia Pasquini。
+outcome from the work of Alessia Pasquini.
+
+541
+00:42:36,033 --> 00:42:41,868
+如果研究生物材料，也可以设置这种实验台场景，
+If you work with bio materials, you can also create this kind of lab space where
+
+542
+00:42:41,883 --> 00:42:45,574
+让作品更有语境。摆放不同工具，保持环境整洁，
+it's more contextualized. You have different tools, you have a clean environment,
+
+543
+00:42:46,713 --> 00:42:52,023
+花几分钟擦掉污渍，整理一下
+so you can also invest some minutes to clean the stains and remove a little bit the
+
+544
+00:42:52,053 --> 00:42:52,413
+杂乱的东西。
+mess.
+
+545
+00:42:54,993 --> 00:42:59,343
+这些照片大多都是学生自己用手机
+All of these things, all of these pictures mostly have been taken by the phone, by
+
+546
+00:42:59,373 --> 00:43:02,163
+拍摄的，没有专业人员帮助。
+the students without the help of a professional person.
+
+547
+00:43:02,283 --> 00:43:08,163
+可以看到，效果各有不同，
+So you can also see how the results are different
+
+548
+00:43:08,193 --> 00:43:10,983
+我觉得也都做得很好。
+and also very well made, I would say.
+
+549
+00:43:12,752 --> 00:43:18,723
+还有些学生有机会与模特合作，或者请认识的人
+We have also some students that had the chance to work with some models or people
+
+550
+00:43:18,783 --> 00:43:22,338
+为不同成果做展示。
+that they knew that could model for the different outcomes.
+
+551
+00:43:23,133 --> 00:43:24,813
+这是 Eduardo Loredo 的作品。
+This is the work of Eduardo Loredo.
+
+552
+00:43:25,788 --> 00:43:30,513
+这是最终项目的系列作品，但仍值得为未来几个月
+This is our final project collection, but still it's worth to get some inspirations
+
+553
+00:43:30,574 --> 00:43:31,338
+寻找一些灵感。
+for these months.
+
+554
+00:43:33,693 --> 00:43:37,983
+现在也可以自己制作各种工具，支撑手机或
+And of course, you can nowadays fabricate different tools to support your phone, to
+
+555
+00:43:38,043 --> 00:43:40,443
+相机。如果有相机就更好了。
+support your camera. A camera is even better.
+
+556
+00:43:40,533 --> 00:43:43,143
+最后记得压缩图片。
+Just remember to compress the pictures at the very end.
+
+557
+00:43:44,133 --> 00:43:46,893
+一般来说，
+And as a rule of thumb, of course,
+
+558
+00:43:48,213 --> 00:43:51,693
+自然光通常更有帮助，也更值得优先考虑。
+the natural light is always more useful, as well as preferable.
+
+559
+00:43:52,233 --> 00:43:57,813
+尽量不要上传没有明确意义、模糊，
+Try to avoid to upload pictures that really mean nothing, pictures that are blurry
+
+560
+00:43:58,143 --> 00:44:02,793
+或者不能传达多少内容的照片。
+or they don't mean much in term of content.
+
+561
+00:44:04,053 --> 00:44:05,673
+至于视频，
+In terms of videos, the
+
+562
+00:44:06,963 --> 00:44:08,943
+仍然更推荐横向拍摄。
+horizontal ones are still preferable.
+
+563
+00:44:09,063 --> 00:44:13,113
+因为电脑和电视也是这种画面比例。
+Still because our computer, TV are also in the same format.
+
+564
+00:44:14,613 --> 00:44:18,574
+制作辅助工具方面，也有不同资源。
+And we have also different resources when it comes to create the tools.
+
+565
+00:44:19,413 --> 00:44:23,793
+我们都是创客，有时间时喜欢自己做工具，
+We are makers. We all like to create our own tools in case we have time, because
+
+566
+00:44:23,824 --> 00:44:25,713
+但这不是现在的优先任务。
+this is also not a priority.
+
+567
+00:44:27,183 --> 00:44:30,574
+也可以使用别人已经做好的文件。
+We can use any of the files that have been produced.
+
+568
+00:44:33,363 --> 00:44:34,563
+有人举手了。
+Yeah, somebody raised their hand.
+
+569
+00:44:35,613 --> 00:44:41,223
+对，我想提醒一下，如果要展示
+Yes. I just wanted to mention that if you want to show
+
+570
+00:44:41,463 --> 00:44:43,654
+电脑屏幕，
+the screen of the computer,
+
+571
+00:44:45,273 --> 00:44:49,413
+不要用手机给显示器拍照，
+do not take a picture of the computer with your phone.
+
+572
+00:44:49,473 --> 00:44:52,188
+直接在电脑上截图。
+Just make a screenshot of the computer.
+
+573
+00:44:55,173 --> 00:44:58,713
+谢谢提醒，这一点有时确实容易忽略。
+Yeah. Thanks for saying this because sometimes it's also not too obvious.
+
+574
+00:44:59,913 --> 00:45:02,883
+如果还不知道，可以使用快捷键。
+But there is a shortcut if you don't know.
+
+575
+00:45:03,963 --> 00:45:07,833
+Mac 和 Windows 都有各自的快捷键，可以直接
+Every Mac, every Windows has its own keys, and you can just take a screenshot
+
+576
+00:45:08,793 --> 00:45:12,633
+在电脑上保存屏幕截图，也就是当前看到的内容。
+within the computer. So what I see here, but yeah.
+
+577
+00:45:12,783 --> 00:45:15,273
+我也在聊天里加了两个问题。
+I also added two questions in the chat.
+
+578
+00:45:16,473 --> 00:45:21,783
+好。比如这里，Luz 对网上找到的支架
+Okay, great. So here, for example, Luz was not satisfied by the different stands
+
+579
+00:45:21,813 --> 00:45:25,503
+不太满意，于是自己设计，并以开源方式发布。
+that she found online, so she made her own and she released this open source.
+
+580
+00:45:25,593 --> 00:45:31,279
+可以从这里下载，也可以重新设计，因为这还是
+So from here you can download it, but you can also remake it because this is
+
+581
+00:45:31,383 --> 00:45:34,953
+2018 年的作品，已经过去很多年了。
+still done 2018, so many years passed.
+
+582
+00:45:36,783 --> 00:45:41,583
+还有几个值得看的平台，不仅能找到
+There's a couple of platforms that are worth to have a look where you can find not
+
+583
+00:45:41,673 --> 00:45:44,703
+拍照用的灯箱，也能找到教程。
+just light boxes to take pictures, but also tutorials.
+
+584
+00:45:45,243 --> 00:45:48,633
+这些通常由世界各地的创客社区制作。
+These are done by, in general, the making community worldwide.
+
+585
+00:45:48,723 --> 00:45:52,053
+输入关键词，就会出现不同资源。
+So you just put a keyword and you get different resources.
+
+586
+00:45:53,445 --> 00:45:58,425
+很多灯箱设计很好，半小时左右就能
+There is a lot of nice light boxes that are easy to replicate in terms of projects
+
+587
+00:45:58,815 --> 00:46:04,635
+复刻，而且通常使用便宜、容易取得的材料。
+within 30 minutes, and usually they use very cheap and accessible materials.
+
+588
+00:46:04,726 --> 00:46:07,815
+另一个平台叫 Thingiverse。
+And one other platform is called Thingiverse.
+
+589
+00:46:07,905 --> 00:46:13,005
+相信很多人已经知道，它在 3D 打印领域很有名。
+I think most of you might have known also, it's very famous for 3D printing.
+
+590
+00:46:13,035 --> 00:46:17,415
+这里可以找到准备好用于 3D 打印的 STL 文件。
+Here you can find SDL files that are ready to 3D print.
+
+591
+00:46:17,596 --> 00:46:21,346
+如果有多台 3D 打印机，可以考虑先打印几个
+So if you have a lot of 3D printers, maybe it's worth to just 3D print a couple of
+
+592
+00:46:21,735 --> 00:46:25,815
+支架，再结合手边已有的
+the stands and then work in combination with the materials that you have at your
+
+593
+00:46:25,875 --> 00:46:26,145
+材料使用。
+hand.
+
+594
+00:46:29,535 --> 00:46:34,096
+接下来讲视频制作。文档中也已有
+Going to the video production. So you also have some videos, again, in the
+
+595
+00:46:34,155 --> 00:46:38,925
+一些视频，以及软件和编码工具的建议。
+documentation, and you have some suggestions in terms of software or encoders.
+
+596
+00:46:39,616 --> 00:46:44,835
+现在有很多平台可以制作视频、TikTok 等
+Again, there are many, many platforms nowadays to make videos, TikToks and et
+
+597
+00:46:44,925 --> 00:46:48,315
+内容。Lightworks 是一款流行的开源软件。
+cetera. Lightworks is a popular one, which is open source.
+
+598
+00:46:49,726 --> 00:46:54,015
+这些工具对制作最终项目也会有帮助，所以最好
+These tools will also be useful for you to create your final project, so it's
+
+599
+00:46:54,045 --> 00:46:54,645
+现在
+better if you
+
+600
+00:46:56,325 --> 00:46:58,935
+就在课程初期试一试。
+give it a try during this first phase of the program.
+
+601
+00:47:00,075 --> 00:47:05,489
+CapCut 也很有名，操作直观，不需要花很多时间
+CapCut is also a famous one, very intuitive and doesn't take a lot of time to get
+
+602
+00:47:05,535 --> 00:47:07,065
+熟悉界面。
+to know the interface.
+
+603
+00:47:08,745 --> 00:47:14,715
+对于已经熟悉 Premiere 和 Rush 的人，
+For the people that, of course, also have been knowing Premiere and Rush, of
+
+604
+00:47:14,745 --> 00:47:18,226
+Lightworks 可以说是一个很好的替代选择。
+course, we can say that Lightworks is the best alternative.
+
+605
+00:47:18,285 --> 00:47:20,625
+界面也很相似。
+Also, in terms of interface, it's very similar.
+
+606
+00:47:22,155 --> 00:47:26,235
+这里最重要的工具其实是 HandBrake。
+And the most important one here is actually HandBrake.
+
+607
+00:47:26,385 --> 00:47:30,435
+它是开源平台，也是一个应用程序，
+This is an open source platform, which is also an application.
+
+608
+00:47:30,464 --> 00:47:35,055
+可以下载到 Mac、Windows 等系统上。
+So it's a software that you can download for both Mac, Windows, et cetera.
+
+609
+00:47:35,730 --> 00:47:40,755
+它用于压缩，也就是视频编码。
+And this is your compressor. So this is called encoding.
+
+610
+00:47:41,655 --> 00:47:46,605
+可以把视频转换成
+I'm talking about the video, and this allows you to convert your video also in
+
+611
+00:47:46,635 --> 00:47:51,495
+其他格式，并采用这里建议的不同
+other formats, but with different settings that are here
+
+612
+00:47:52,065 --> 00:47:57,165
+设置。简单操作几下，就能压缩视频，
+suggested. And in a matter of two clicks, you can really compress your video, so
+
+613
+00:47:57,255 --> 00:48:01,995
+例如从 1 GB 缩小到 10 MB。
+you can scale it down from being 1 gigabyte to 10 megabytes.
+
+614
+00:48:02,116 --> 00:48:06,135
+它很强大、很实用，也很容易使用。
+It's very powerful, very useful, and very easy to use.
+
+615
+00:48:09,315 --> 00:48:14,175
+有时自己拍摄的视频不够，需要
+Sometimes you may feel like you don't have enough videos you made yourself, so you
+
+616
+00:48:14,385 --> 00:48:20,145
+补充一些素材。刚才看过的 Pexels 也有
+need to add some extra footage. Here on Pexels, as we saw earlier, we also have
+
+617
+00:48:20,205 --> 00:48:24,825
+免费视频和片段可供使用。
+some options to including free videos and clips.
+
+618
+00:48:25,245 --> 00:48:28,455
+同样，输入关键词即可，不要求注明作者。
+So again, just put a keyword. You don't need to credit the author.
+
+619
+00:48:28,605 --> 00:48:30,704
+这些都是可以免费使用的视频素材。
+So these are all copyright-free videos.
+
+620
+00:48:34,065 --> 00:48:35,445
+Pixabay 也一样。
+And Pixabay as well.
+
+621
+00:48:39,315 --> 00:48:43,320
+音乐也是如此。明年大家制作最终项目视频时，
+Same with the music. The music is something we will be insisting very much next
+
+622
+00:48:43,395 --> 00:48:47,145
+我们会特别强调这一点。
+year when you have to make your own final project video.
+
+623
+00:48:47,535 --> 00:48:52,846
+音乐当然也需要是可以开放使用的，
+The music is something that needs to be as well, of course, open source, and there
+
+624
+00:48:52,875 --> 00:48:54,135
+有很多不同选择。
+is a lot of alternatives.
+
+625
+00:48:55,395 --> 00:49:00,555
+各种声音资料库，适合不同氛围、
+Sound libraries, music for every different vibe,
+
+626
+00:49:01,965 --> 00:49:02,445
+不同
+different
+
+627
+00:49:04,635 --> 00:49:10,005
+地区的音乐，每天都在不断增加。
+country. There is really a lot that every day is being generated.
+
+628
+00:49:10,125 --> 00:49:14,596
+所以请看看演示文稿最后整理的
+So have a look at all the different resources that I put at the end of the
+
+629
+00:49:14,625 --> 00:49:18,165
+资源，还有很多值得探索。
+presentation because there is a lot to explore.
+
+630
+00:49:18,226 --> 00:49:20,025
+当然，也可以自己创作。
+And of course, you can create your own.
+
+631
+00:49:20,715 --> 00:49:25,485
+现在可以制作自己的声音，例如旁白，
+Nowadays, you can also create your own sound, but of course, the voiceover, for
+
+632
+00:49:25,545 --> 00:49:27,135
+就可以由自己录制。
+example, might come from you.
+
+633
+00:49:28,545 --> 00:49:33,375
+说到视频，我一直更推荐横向格式。
+So for the video, I always say that the horizontal format is still preferable.
+
+634
+00:49:34,965 --> 00:49:40,500
+也就是 16:9 的比例，类似电脑
+So in this case, the ratio would be 16 by 9, like one of the pictures for the
+
+635
+00:49:40,515 --> 00:49:41,655
+全屏画面的形状。
+computer, full screen.
+
+636
+00:49:43,005 --> 00:49:48,495
+上传到 Vimeo 或 YouTube 时，最好也使用
+The videos, it's better if they are uploaded also in high resolution on Vimeo and
+
+637
+00:49:48,675 --> 00:49:54,105
+较高分辨率，避免显示模糊。
+YouTube, I'm talking, so they also don't show up blurry.
+
+638
+00:49:54,255 --> 00:49:59,596
+再说一次，72……720 像素是这里建议的最低
+Again, 72, 720 pixel is the minimum considered for the
+
+639
+00:50:00,315 --> 00:50:05,565
+分辨率。当然，4K、8K 等也更好。
+resolution. Of course, 4K, 8K, and et cetera is even better.
+
+640
+00:50:06,165 --> 00:50:11,925
+记得先获取视频的嵌入方式，再把嵌入代码复制到
+Always remember to embed your video first and then copy-paste the embed code in the
+
+641
+00:50:11,955 --> 00:50:12,525
+网页中。
+web page.
+
+642
+00:50:14,476 --> 00:50:17,775
+这里就不逐项介绍了，我会把列表直接提供给大家。
+Here, I will not go through this. I'll just give you the list as it is.
+
+643
+00:50:17,895 --> 00:50:23,505
+可以探索这些素材。我也加入了几个免费的
+You can explore the footage. I've included some free
+
+644
+00:50:23,565 --> 00:50:27,210
+摄影课程，课程都很短，有些很不错。
+photography course. They're very short. Some, they're very good.
+
+645
+00:50:27,765 --> 00:50:30,809
+MoMA 的这个应该还在，Udemy 上也有一些。
+I think this one's still here by MoMA. There is some on Udemy.
+
+646
+00:50:31,096 --> 00:50:34,950
+不同平台和机构都有很多可以免费学习的
+There's a lot of free things that you can learn from different platforms, but also
+
+647
+00:50:34,995 --> 00:50:40,485
+在线内容。这里还有可以免费使用的
+institutions online. And here are the stock videos that you can benefit from for
+
+648
+00:50:40,575 --> 00:50:40,846
+视频素材。
+free.
+
+649
+00:50:44,866 --> 00:50:49,726
+好，刚好过了一小时，时间控制得很准。
+Okay, this is just one hour past. We're perfectly on time.
+
+650
+00:50:50,596 --> 00:50:53,925
+演示时我也不想讲得太久。
+I don't mean to be very long while doing the demo.
+
+651
+00:50:55,515 --> 00:50:56,145
+如果有问题，
+Let me know
+
+652
+00:50:57,375 --> 00:51:01,695
+请告诉我。我先暂停一下屏幕共享，
+also if there's some questions, because I cannot see the chat when I stop screen
+
+653
+00:51:01,755 --> 00:51:06,030
+这样才能看到聊天。
+sharing for a bit. And
+
+654
+00:51:09,945 --> 00:51:14,865
+好，目前只有两个问题。还有其他问题也可以打开麦克风。
+okay, there is only two questions. If you have more, you can also unmute yourself.
+
+655
+00:51:24,135 --> 00:51:26,580
+Anastasia 提了几个问题。
+Okay, meanwhile, Anastasia has some questions.
+
+656
+00:51:26,625 --> 00:51:29,940
+图片建议用多少像素？
+So how many pixels you recommend for images?
+
+657
+00:51:32,445 --> 00:51:34,695
+我会把幻灯片分享给大家，
+Actually, I'm going to give you the slide.
+
+658
+00:51:42,885 --> 00:51:44,205
+方便回头查看。
+So you can also go back.
+
+659
+00:51:53,385 --> 00:51:55,395
+我会直接发过去。[平台名称原文不清]
+I'm going to put them literally on the most.
+
+660
+00:52:06,226 --> 00:52:07,965
+大家应该都能访问。
+You should be able to access all of them.
+
+661
+00:52:10,576 --> 00:52:16,455
+不必只盯着像素，可以参考一两个
+So to focus on the pixel is not important because you can just have one reference
+
+662
+00:52:16,516 --> 00:52:19,125
+指标，其中一个当然是分辨率。
+or two. One for sure is the resolution.
+
+663
+00:52:19,184 --> 00:52:21,960
+分辨率越高，图片通常就
+So the more you increase the resolution, the bigger
+
+664
+00:52:23,715 --> 00:52:26,535
+越大，文件也越重。
+and heavier also your picture will be.
+
+665
+00:52:26,625 --> 00:52:28,245
+我一般会
+And I usually
+
+666
+00:52:30,315 --> 00:52:35,805
+把图片的一边缩到约 300，另一边按原比例调整。可以锁定宽高比，
+resize my pictures like 300 by whatever they are. So you can lock the ratio.
+
+667
+00:52:35,895 --> 00:52:39,735
+这样只改一个尺寸，另一个就会
+So you can just adjust one of the measurement, and then the other one will follow
+
+668
+00:52:39,766 --> 00:52:41,295
+相应变化。
+accordingly.
+
+669
+00:52:44,415 --> 00:52:47,804
+是的，可以使用……没错，现在有很多选择。
+Yeah, you can use... Exactly. There is many alternatives nowadays.
+
+670
+00:52:47,895 --> 00:52:50,415
+比如 YouTube Audio Library，提供
+So YouTube audio library for
+
+671
+00:52:51,915 --> 00:52:53,235
+可以免费使用的音乐。
+free copyright music.
+
+672
+00:53:00,285 --> 00:53:05,505
+用 AI 创作自己的音乐？我还是觉得，最好先
+AI to make my own music. Again, I think it would be nice to explore
+
+673
+00:53:05,535 --> 00:53:07,891
+自己探索一下。
+first by yourself. It's something...
+
+674
+00:53:08,490 --> 00:53:13,380
+如果你对这个感兴趣，也许先亲手尝试，
+Because if you're interested in this, then maybe you also want to try first and
+
+675
+00:53:13,425 --> 00:53:19,335
+之后再使用 AI，别让它拿走创作的乐趣，而是拓展可能，
+then use the AI not to cut the fun, but to increase the possibilities, maybe
+
+676
+00:53:19,365 --> 00:53:23,295
+例如尝试音效。我更倾向于这个方向。
+to play with effect. In this sense, I think I would go more in this direction.
+
+677
+00:53:26,085 --> 00:53:29,025
+很多人也在使用 AI，
+And a lot of people have been using AI for
+
+678
+00:53:30,255 --> 00:53:33,135
+把照片优化得像专业拍摄一样。
+optimizing the pictures like a professional photoshoot.
+
+679
+00:53:35,835 --> 00:53:37,710
+对此，我的态度比较居中。
+I think I stand in between.
+
+680
+00:53:38,925 --> 00:53:44,476
+我觉得这很有趣，但我个人也喜欢挑战自己，
+I think it's fun. I personally like to get the challenge also to
+
+681
+00:53:44,745 --> 00:53:49,785
+试试看如何亲手把照片拍得更专业。
+try by myself, how can I make this picture as more professional as possible?
+
+682
+00:53:50,326 --> 00:53:50,865
+不过，
+But I think
+
+683
+00:53:52,185 --> 00:53:55,455
+如果尝试后还是不行，也可以试试 AI 版本。
+if this doesn't work, you can also try the AI version.
+
+684
+00:53:55,485 --> 00:53:58,606
+例如需要放大图片，有时原图分辨率很差，
+For example, if you want to upscale, sometimes the picture is in a very bad
+
+685
+00:53:59,895 --> 00:54:03,555
+又确实没有时间重新完成一次作业。
+resolution, and unfortunately, there is no time to repeat an assignment.
+
+686
+00:54:03,735 --> 00:54:09,106
+可以尝试 Canva 或其他在线平台的放大功能。
+Yeah, I would say you can do upscale with Canva or with any of the platform online.
+
+687
+00:54:09,856 --> 00:54:15,210
+但总体上，我自己不太愿意把亲手制作的东西
+But in general, I don't feel like myself at least giving my own things that I make,
+
+688
+00:54:15,915 --> 00:54:21,601
+交给 AI，因为无法控制后续用途，它会进入一个
+and I feed the AI with that because you don't control this, and they're part of a
+
+689
+00:54:21,615 --> 00:54:27,016
+你并不了解的更大体系，我们也可能在这个过程中失去一些
+bigger picture that you don't know, and we kind of lose ownership at the same
+
+690
+00:54:27,076 --> 00:54:31,485
+控制。目前总体而言，还不清楚这些内容
+time. It's still not very clear, I think, in general, where all this content will
+
+691
+00:54:31,545 --> 00:54:36,945
+将来会去哪里。所以我更愿意先用工具自己尝试。
+be one day. So I would prefer trying myself first, at least with the tools.
+
+692
+00:54:36,976 --> 00:54:40,965
+现在的工具很多，和二十年前不同。
+And nowadays, we have a lot of tools. Not like 20 years ago.
+
+693
+00:54:41,205 --> 00:54:41,385
+如今，
+Now,
+
+694
+00:54:42,675 --> 00:54:48,585
+有很多可以探索的东西，我觉得最大的
+we have much to play with. It's just the time that is the biggest
+
+695
+00:54:48,615 --> 00:54:49,635
+限制是时间。
+constraint, I think.
+
+696
+00:54:52,905 --> 00:54:53,356
+我想，
+I think there
+
+697
+00:54:54,645 --> 00:54:55,785
+应该没有其他问题了。
+was no other question.
+
+698
+00:55:06,705 --> 00:55:10,875
+刚才讲得比较快，因为内容都写在幻灯片里，
+I went a little bit fast because everything is written in the slides, and you can
+
+699
+00:55:10,935 --> 00:55:16,005
+可以点击链接回看不同项目，也考虑到了时间。
+just click and go back to the different projects. Also for the sake of time.
+
+700
+00:55:19,275 --> 00:55:24,976
+幻灯片最后放了原本准备在
+I included at the end of the slides what I was planning to demonstrate with the
+
+701
+00:55:25,005 --> 00:55:29,250
+软件中演示的内容。如果大家不需要，也可以告诉我，
+software. If it's something that is not needed, also tell me so we can have a
+
+702
+00:55:29,295 --> 00:55:33,510
+我们就多休息一会儿。如果想看，
+longer break. But if you feel like, yeah, why not?
+
+703
+00:55:33,675 --> 00:55:38,805
+也可以花十分钟左右演示一下。
+Let's do this in 10 minutes or something, we can do that.
+
+704
+00:55:45,675 --> 00:55:49,485
+每年我们都会尽量适应不同需求，因为 Fabricademy
+Every year, we try to accommodate the different needs, and I know that in Fabrica
+
+705
+00:55:49,500 --> 00:55:51,405
+的学员技能背景一直很多样。
+we always have different skills.
+
+706
+00:55:53,115 --> 00:55:57,915
+有些人很擅长某个领域，但还需要其他
+There's people that are very expert in something, and they like other
+
+707
+00:55:58,846 --> 00:55:59,625
+方面的知识。
+knowledge.
+
+708
+00:56:10,395 --> 00:56:13,275
+否则我就自己决定了，大家说吧。
+Otherwise, I take a decision. So you tell me.
+
+709
+00:56:21,375 --> 00:56:22,215
+喝咖啡时间。
+Coffee time.
+
+710
+00:56:25,245 --> 00:56:25,576
+好。
+Okay.
+
+711
+00:56:31,305 --> 00:56:31,905
+我赞同。
+I agree with that.
+
+712
+00:56:33,465 --> 00:56:34,185
+你当然赞同。
+Of course, you do.
+
+713
+00:56:36,255 --> 00:56:41,790
+那我们休息十五分钟，接下来进行第二部分，
+So we will have 15 minutes break, and then we will have the second part with
+
+714
+00:56:41,835 --> 00:56:45,464
+由 Julian 主讲。我先停止录制。
+Julian. I will stop this recording.
+
+715
+00:56:47,145 --> 00:56:48,030
+好的，不客气。
+Yes. You're welcome

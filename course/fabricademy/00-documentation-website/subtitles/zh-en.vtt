@@ -1,0 +1,5976 @@
+WEBVTT
+
+1
+00:00:02.190 --> 00:00:02.580
+好的。
+Okay.
+
+2
+00:00:04.230 --> 00:00:05.160
+大家好。
+Hello, everyone.
+
+3
+00:00:06.360 --> 00:00:12.180
+我今天来欢迎大家，并介绍如何
+So I'm here joined to welcome you and introduce you to how you
+
+4
+00:00:12.240 --> 00:00:15.000
+记录自己的工作、搭建个人网站，
+can document your work and build your own website
+
+5
+00:00:16.230 --> 00:00:20.670
+帮助大家迈过心理门槛，其实没有那么可怕。
+and break the barrier of it's not so scary.
+
+6
+00:00:21.780 --> 00:00:27.210
+首先，我快速介绍一下我们的基础设施。
+So first thing, I'll just quickly talk about our infrastructure.
+
+7
+00:00:27.480 --> 00:00:32.520
+这门课程会用到几种不同的工具，
+We have a few different tools that we're going to use during this course, and
+
+8
+00:00:33.510 --> 00:00:38.490
+所有这些应用都托管在我们自己的硬件上，
+we are hosting all these applications ourselves on our own hardware,
+
+9
+00:00:39.390 --> 00:00:43.860
+目前设备位于波士顿 Kendall 的新 Fab Hub。
+which is currently at the new Fab Hub in Kendall, Boston.
+
+10
+00:00:46.770 --> 00:00:52.755
+我们对此很自豪，因为我们掌控自己的数据，保障隐私，
+So we're very proud of this because we control the data, we're private, and then
+
+11
+00:00:52.801 --> 00:00:57.435
+也能尽可能长期保存这些文档，
+we can make sure that this documentation lives on as long as possible so that your
+
+12
+00:00:57.481 --> 00:01:02.071
+希望大家的作品能传承给往后的多代学员。
+work can be shared for multiple generations, we hope.
+
+13
+00:01:04.321 --> 00:01:05.430
+那么，
+So the
+
+14
+00:01:06.660 --> 00:01:10.755
+第一个主要平台是 FabLabs.io，它服务于整个网络。
+first big platform is the FabLabs.io. It's for the network.
+
+15
+00:01:10.801 --> 00:01:13.620
+上面列出了世界各地的 Fab Lab。
+It's listing all our Fab Labs around the world.
+
+16
+00:01:14.520 --> 00:01:20.220
+它已经存在很久了，也是寻找其他
+It's been around for a long time. And this is a great place to find other
+
+17
+00:01:20.235 --> 00:01:25.980
+实验室的好地方。我们还把它作为登录系统，
+labs as well. And we use this also as a login system because you can have
+
+18
+00:01:26.040 --> 00:01:31.080
+因为在这里注册的账号，也能登录其他愿意
+accounts on here, and these accounts can be logged into other platforms that want
+
+19
+00:01:31.140 --> 00:01:36.330
+与 Fab Lab 网络互通的平台。所以我们采用这种单点登录
+to share with the Fab Lab network. So we're using this sort of single sign-on entry
+
+20
+00:01:36.420 --> 00:01:40.080
+入口。因此，在很多地方登录我们的
+point. So in a lot of places, when you log into our
+
+21
+00:01:41.370 --> 00:01:45.540
+应用时，都会经过 FabLabs.io。
+applications, you'll be going through the FabLabs.io platform.
+
+22
+00:01:47.250 --> 00:01:50.880
+大家也可以用它寻找其他实验室，那里还有面向整个
+You can also visit it to find other labs, and there's also a forum with a wider
+
+23
+00:01:50.940 --> 00:01:54.211
+网络的论坛，可以去看看。
+network if you want to go there.
+
+24
+00:01:56.700 --> 00:02:02.101
+另一个主要平台，也是文档化工作中经常使用的，
+The other big platform, which you'll be using a lot for your documentation, is the
+
+25
+00:02:02.130 --> 00:02:07.980
+就是 GitLab。这是一个托管 Git 仓库的平台。Git 是一种
+GitLab platform we call. It's a hosted Git repository, so this allows-- Git is a
+
+26
+00:02:08.010 --> 00:02:13.665
+版本控制系统，基本上会记录你对
+version control system that basically keeps track of all your changes to your
+
+27
+00:02:13.680 --> 00:02:18.195
+网站所做的全部修改。GitLab 提供网页界面，让你可以
+website, and then it provides a web interface so that you can do everything through
+
+28
+00:02:18.240 --> 00:02:20.730
+通过浏览器完成操作，管理自己的网站。
+the browser, interact with your website.
+
+29
+00:02:21.000 --> 00:02:26.160
+它还有代码编辑器，所以可以在浏览器窗口里编写全部代码，
+It also has a code editor, so you can do all your coding within a browser window
+
+30
+00:02:26.310 --> 00:02:26.730
+也可以
+and
+
+31
+00:02:28.080 --> 00:02:31.980
+从自己的电脑访问它。它是一个大型协作
+also interact with it from your computer, and it's just a big collaboration
+
+32
+00:02:32.040 --> 00:02:36.090
+平台，我们用它集中托管大家的网站。
+platform, and we're using it to host all your websites together.
+
+33
+00:02:36.825 --> 00:02:41.115
+此外，每次修改网站时，这个 GitLab 平台还会自动
+And then this GitLab platform is also automatically building your website every
+
+34
+00:02:41.220 --> 00:02:45.391
+构建并发布你的网站。
+time you make changes to it. It's building your website and publishing it.
+
+35
+00:02:45.480 --> 00:02:50.280
+它是一个庞大的工具，我们只用其中一小部分，稍后会介绍。
+So it's a big tool. We're using a small part of it, and I'll go over it in a bit.
+
+36
+00:02:52.320 --> 00:02:57.750
+接下来是 Nouval，这是我们专门为
+The next one is Nouval. This is our evaluation program that we built specifically
+
+37
+00:02:57.780 --> 00:02:59.205
+Academy 课程开发的评估系统，
+for the Academy programs,
+
+38
+00:03:00.601 --> 00:03:05.851
+让学员和导师能够跟踪每周的
+and this allows students and instructors to keep track of each week's
+
+39
+00:03:05.910 --> 00:03:11.370
+工作、发表评论，从而
+work and make comments, and so that you can--
+
+40
+00:03:13.139 --> 00:03:17.190
+集中管理所有作业评估。
+sort of a central place for all your assessment evaluations.
+
+41
+00:03:19.531 --> 00:03:23.070
+然后是 Mattermost，大家可能已经尝试登录了。
+And then we have Matamos, which you might have already tried to log into.
+
+42
+00:03:23.220 --> 00:03:29.070
+这是我们的聊天平台。它是一款大型软件，常用于
+This is our chat platform. It's a very large software that is used a
+
+43
+00:03:29.101 --> 00:03:34.291
+对安全有要求的环境，但也提供开源版本。我们在它
+lot in security environments, but they have an open source version, which we took
+
+44
+00:03:34.320 --> 00:03:39.270
+开发早期就开始使用，一直沿用至今，
+on very early on in its development and we're still using today, and which just
+
+45
+00:03:39.330 --> 00:03:43.875
+它主要让我们建立多个频道，方便大家互相交流。
+basically allows us to have multiple channels and everyone can talk to each other.
+
+46
+00:03:44.010 --> 00:03:49.140
+我们会收到通知，也有手机应用，所以这就是我们自己的
+We get notifications, and there's a phone app, and so this is just our personal
+
+47
+00:03:49.201 --> 00:03:52.770
+沟通平台。
+platform that we can use to communicate with each other.
+
+48
+00:03:56.610 --> 00:03:58.050
+哎。那么，
+Oops. So
+
+49
+00:04:00.240 --> 00:04:02.640
+先检查一下大家是否都能访问。
+let's first check everyone has access.
+
+50
+00:04:02.820 --> 00:04:04.440
+我看到有一两条
+I saw there was one or two
+
+51
+00:04:05.880 --> 00:04:11.520
+Mattermost 消息，说有人没有收到邮件。但绝大多数人
+messages in my Matamos. Some people didn't get an email, but nearly all of you
+
+52
+00:04:11.580 --> 00:04:16.201
+应该都收到了包含账号信息的学员欢迎邮件。
+should have received a student welcome email with your account details.
+
+53
+00:04:16.231 --> 00:04:18.390
+里面有用户名和密码。
+There's a username and a password.
+
+54
+00:04:18.481 --> 00:04:22.110
+如果之前已有账号，邮件就不会再提供密码。
+Unless you already had an account, then there will be no password.
+
+55
+00:04:22.800 --> 00:04:26.730
+如果不知道密码或无法登录，可以尝试重置密码。
+If you don't know your password, it's not logging in, you can try a password reset.
+
+56
+00:04:26.820 --> 00:04:29.880
+首先请确认找到这封邮件。
+But the first thing is just make sure you find this email.
+
+57
+00:04:30.240 --> 00:04:34.170
+如果找不到，可以用发件人的
+You can see there's the-- If you can't find it, try and search with the email
+
+58
+00:04:34.185 --> 00:04:35.220
+邮箱地址搜索一下。
+address where it comes from.
+
+59
+00:04:37.050 --> 00:04:39.779
+总之，请告诉我。
+And basically, let me know.
+
+60
+00:04:41.610 --> 00:04:44.400
+我会分享自己的邮箱地址，如果确实遇到问题，
+Actually, I'll share my email address, but let me know if you really have problems
+
+61
+00:04:44.490 --> 00:04:50.324
+请联系我，也可以现在就提问。接下来，如果还没有
+or just ask me now. And then we're going to first, if you haven't
+
+62
+00:04:50.370 --> 00:04:55.591
+试过，我们先尝试登录。请打开 GitLab。
+tried already, let's try and log in. So you're going to go to the GitLab.
+
+63
+00:05:00.210 --> 00:05:01.515
+我本来想复制这个，
+I was going to try and copy this,
+
+64
+00:05:03.510 --> 00:05:03.781
+不过，
+but
+
+65
+00:05:05.310 --> 00:05:09.510
+我会把链接发到 Mattermost，方便大家查看。
+I'm going to write in Matamos link in case you want to see it.
+
+66
+00:05:17.520 --> 00:05:22.740
+请打开这里尝试登录。不要使用这里的密码输入框，
+So please go here and try and log in. And you won't be using the password field.
+
+67
+00:05:22.800 --> 00:05:27.330
+而是点击下方写着 Fab Labs 的小登录按钮，
+You'll be using the little login button at the bottom that says Fab Labs, and this
+
+68
+00:05:27.390 --> 00:05:32.250
+它会带你进入 Fab Labs 页面，那里应该有登录界面。
+will take you to the Fab Labs page where you should see a login screen.
+
+69
+00:05:33.480 --> 00:05:36.480
+然后输入你在
+And then there is where you put in your username and password that you received in
+
+70
+00:05:36.540 --> 00:05:38.701
+邮箱中收到的用户名和密码。
+the email address in your email inbox.
+
+71
+00:05:41.190 --> 00:05:43.290
+如果不成功，可以尝试点击忘记密码。
+If it doesn't work, you can try and forget password.
+
+72
+00:05:43.560 --> 00:05:47.880
+如果仍然收不到邮件，请告诉我。
+If you still don't get any email, yeah, let me know.
+
+73
+00:05:47.940 --> 00:05:50.070
+也可以现在直接打断我。
+You can interrupt me now also if you like.
+
+74
+00:05:52.170 --> 00:05:57.240
+如果登录成功，系统会问一个简单的问题：是否允许 GitLab
+And if that works, then you get asked a quick question, do you want to allow GitLab
+
+75
+00:05:57.270 --> 00:05:59.400
+连接你的 Fab Labs 账号？
+to connect to your Fab Labs account?
+
+76
+00:05:59.460 --> 00:06:02.970
+选择允许，顺利的话就登录进去了。
+And you can say yes, and then with luck, you're in.
+
+77
+00:06:04.740 --> 00:06:05.820
+界面应该是这样的。
+And it should look like--
+
+78
+00:06:07.110 --> 00:06:09.240
+这就是带 Fab Labs 按钮的登录页。
+So this is the login screen with the Fab Labs.
+
+79
+00:06:09.750 --> 00:06:12.630
+登录后应该会看到类似这样的页面。你已经登录了。
+And then once you log in, it should look something like this. You're logged in.
+
+80
+00:06:16.201 --> 00:06:16.560
+好。
+But yeah.
+
+81
+00:06:18.240 --> 00:06:18.510
+我先
+I'll
+
+82
+00:06:20.040 --> 00:06:23.370
+等一下，看看有没有人遇到困难。这里有什么问题吗？
+wait a bit if anyone is crying. Any questions there?
+
+83
+00:06:24.180 --> 00:06:25.800
+除了可能没收到邮件之外。
+Besides maybe not getting email.
+
+84
+00:06:30.300 --> 00:06:32.880
+我等一下，五、四。
+I'll wait a bit. Five, four.
+
+85
+00:06:39.841 --> 00:06:44.640
+Mattermost 的流程很相似，不过……其实不太一样。
+With Matamos, it's a very similar thing, except-- Well, it's not similar, actually.
+
+86
+00:06:44.701 --> 00:06:49.320
+抱歉。它没有 FabLabs.io 按钮，因为不允许我们建立这种连接。
+Sorry. There's no FabLabs.io because it doesn't allow us to make that connection.
+
+87
+00:06:49.410 --> 00:06:53.280
+所以直接使用与 FabLabs.io 相同的用户名和密码，
+So you just put in the same login and password you would put for FabLabs.io.
+
+88
+00:06:53.790 --> 00:06:58.740
+填入 Mattermost 聊天应用的登录表单。
+You just put it on the form for Matamos, for the chat application.
+
+89
+00:06:59.430 --> 00:07:03.600
+在手机上打开时也是一样。
+And it's the same when you open this in your phone.
+
+90
+00:07:04.920 --> 00:07:08.341
+它会询问要使用哪个服务器，需要填写
+It's going to ask you what server you want to use, and you're going to have to put
+
+91
+00:07:08.355 --> 00:07:10.201
+和浏览器中相同的网址。
+the same URL that you put in the browser.
+
+92
+00:07:10.290 --> 00:07:14.130
+也就是 chat.academe.org，然后登录流程一样。
+So chat.academe.org, and then it will be the same login flow.
+
+93
+00:07:14.490 --> 00:07:14.670
+你
+You
+
+94
+00:07:15.901 --> 00:07:19.081
+需要输入……哦，这里不对。需要输入用户名和密码。
+have to put in-- Oh, this is wrong. You have to put in your username and password.
+
+95
+00:07:19.920 --> 00:07:21.526
+手机应用很好用，因为这样
+And the phone is great because then,
+
+96
+00:07:23.265 --> 00:07:25.561
+能更快地收到推送通知。
+yeah, you just get the push notifications a bit quicker.
+
+97
+00:07:25.651 --> 00:07:27.570
+因此，要及时收到消息，
+So it's a nicer flow for
+
+98
+00:07:29.220 --> 00:07:34.110
+或者实时聊天，手机上的体验会更好。
+getting your messages on time or having a live conversation.
+
+99
+00:07:34.125 --> 00:07:37.140
+网页版也很好用，完全可以只用网页版。
+But the website works great as well. You can also just stick to that.
+
+100
+00:07:37.440 --> 00:07:41.460
+可以一直让它在浏览器中开着，只要浏览器打开，
+You can have it open in your browser all the time, and then you'll get the browser
+
+101
+00:07:41.490 --> 00:07:44.520
+就能收到浏览器通知，这也很方便。
+notifications if you have the browser open. So that's quite nice.
+
+102
+00:07:50.280 --> 00:07:54.510
+那么我们具体要做什么？你的网站又是如何运作的？
+So what are we doing? What about your website? How does this all work?
+
+103
+00:07:56.730 --> 00:08:01.651
+为了记录大家的工作，我们提供了现成的模板，
+So for documenting your work, we're providing you a ready-made template with
+
+104
+00:08:01.770 --> 00:08:03.540
+包含入门所需的一切。
+everything you need to get started.
+
+105
+00:08:04.561 --> 00:08:10.395
+我们会使用一种叫
+And we'll be using a language called
+
+106
+00:08:10.440 --> 00:08:14.865
+Markdown 的语言，它相对容易理解，
+Markdown that will automatically-- So it's a bit easier to understand Markdown, and
+
+107
+00:08:14.880 --> 00:08:19.081
+然后自动转换成用于构建网站的 HTML。
+it will convert this into HTML, which is used to make your website.
+
+108
+00:08:19.561 --> 00:08:22.380
+我们会用到一个叫 Zensical 的工具。
+We'll be using a tool called Zenskie.
+
+109
+00:08:23.940 --> 00:08:25.651
+下一张幻灯片会介绍它。
+I'll talk about it next slide. And
+
+110
+00:08:27.151 --> 00:08:29.355
+如果你还不了解，
+yeah. If you don't know,
+
+111
+00:08:32.010 --> 00:08:36.331
+HTML 代码就是浏览器读取并据此构建网页的内容。
+HTML code is everything that your browser is reading to build your website.
+
+112
+00:08:36.420 --> 00:08:40.591
+浏览器与世界各地的服务器通信时，
+So everything your browser is communicating with through the servers around the
+
+113
+00:08:40.620 --> 00:08:44.790
+读取的就是 HTML。它看起来就像右边这样。
+world, they read HTML. So this looks like on the right.
+
+114
+00:08:45.600 --> 00:08:51.030
+它本质上是一种标记语言，用来描述如何呈现内容。
+It's basically a markup language that just describes how to display the content.
+
+115
+00:08:51.120 --> 00:08:51.345
+例如，
+So it's
+
+116
+00:08:52.860 --> 00:08:57.151
+看右边的图片，可以指定页面标题，接着
+just looking at the image on the right, you say have a title of the page, then you
+
+117
+00:08:57.181 --> 00:09:02.520
+在 body 中放内容。H1 是标题，也就是一级标题，P
+have a body where the content is. H1 is like the heading, the first heading, and P
+
+118
+00:09:02.580 --> 00:09:05.760
+代表段落。有各种语法来描述
+is for paragraph. So you have all these kinds of syntax that describe what the
+
+119
+00:09:05.820 --> 00:09:10.554
+内容是什么，浏览器读取 HTML 后决定如何呈现。
+content is. And then the browser reads this HTML and decides how to display it.
+
+120
+00:09:10.974 --> 00:09:13.914
+具体显示成什么样，由浏览器决定。
+The browser is the one that decides how it looks like.
+
+121
+00:09:14.694 --> 00:09:20.034
+另外还有一种语言叫 CSS，也就是层叠样式表，
+And then we also have a language called CSS as a cascade style sheet,
+
+122
+00:09:20.664 --> 00:09:21.804
+它用来
+which is used to
+
+123
+00:09:23.814 --> 00:09:25.795
+调整浏览器所采用的样式。
+adjust the style that the browser makes.
+
+124
+00:09:25.854 --> 00:09:31.733
+例如，浏览器可能把 H1 的字号设为 10 像素，
+So, the browser might decide an H1 has got 10 pixels font
+
+125
+00:09:31.795 --> 00:09:35.513
+你觉得不喜欢，就用 CSS 修改。
+size, and they say, "Well, I don't like that," and they use CSS to change that.
+
+126
+00:09:36.264 --> 00:09:40.045
+这就是几个层次：HTML 是基础，CSS 负责样式。
+So these are the layers. You start with HTML. The CSS is sort of the styling.
+
+127
+00:09:41.694 --> 00:09:46.464
+如果想了解 HTML，
+So if you would like to go into the HTML, there's a
+
+128
+00:09:46.674 --> 00:09:49.734
+w3schools.com 上有很好的教程。
+w3schools.com has a great sort of a tutorial.
+
+129
+00:09:50.484 --> 00:09:55.658
+建议大家简单试试，浏览一下，至少像读书那样读一遍，
+I would have a quick play there, just go through there, just at least read it like
+
+130
+00:09:55.705 --> 00:10:00.474
+熟悉各种元素。这样以后编辑网站时，
+a book, just get familiar with all the different elements, so that later on in
+
+131
+00:10:00.504 --> 00:10:05.455
+看到这些东西就不会觉得陌生。
+working with your website, when you see these things, they won't look so foreign.
+
+132
+00:10:07.045 --> 00:10:11.184
+了解得越多，就越能明白每一种元素，比如
+And the more you do that, the more you sort of understand what each of these, like
+
+133
+00:10:11.214 --> 00:10:15.564
+P 标签就是段落。逐渐就会形成直觉，
+a P tag is a paragraph. Then it starts to become intuitive, and it won't become
+
+134
+00:10:15.624 --> 00:10:21.205
+不再害怕。之后遇到新的报错，
+scary. And then you'll sort of get excited because there'll be a new error message
+
+135
+00:10:21.264 --> 00:10:26.334
+或者某个功能不工作时，反而可能会兴奋，
+or a new thing that doesn't work, and you will get sort of an adrenaline rush by
+
+136
+00:10:26.424 --> 00:10:29.545
+享受解决问题，再去应对下一个报错的过程。
+figuring it out and getting on to the next error message.
+
+137
+00:10:30.534 --> 00:10:34.674
+所以尽情尝试，学习搭建自己的网站吧。
+So yeah, really enjoy the experimenting and learn to build your own website,
+
+138
+00:10:35.545 --> 00:10:40.614
+当你能够按照自己的设想做出东西时，
+because it's fun when you can start making your own things the way you want as you
+
+139
+00:10:40.644 --> 00:10:42.474
+会觉得很有趣。
+envision them. It's going to be a lot of fun.
+
+140
+00:10:44.214 --> 00:10:49.974
+我们不会要求大家把全部内容都写成 HTML，因为写正文、
+So we're not going to ask you to make-- making all your HTML is a lot of work when
+
+141
+00:10:50.034 --> 00:10:53.484
+文档和笔记时，那样工作量很大。
+you're writing text, and your documentation, and your notes.
+
+142
+00:10:53.634 --> 00:10:58.433
+因此我们使用 Markdown，这是一种非常简化的
+So we're using a language called Markdown, which is a very simplified
+
+143
+00:10:59.634 --> 00:11:02.064
+文本格式描述方式。
+way of just telling text what it looks like.
+
+144
+00:11:02.184 --> 00:11:07.614
+它用纯文本说明哪些是段落、哪些是
+So this is just a plain text way of saying, okay, these are paragraphs, these are
+
+145
+00:11:08.154 --> 00:11:12.580
+标题。例如，井号表示标题，之后
+titles. So if you see like there's a hash, it's like a title, and then it sort of
+
+146
+00:11:12.594 --> 00:11:16.884
+这些符号会被转换成相应的格式。
+converts it to, this is what it would interpret those things as.
+
+147
+00:11:17.799 --> 00:11:18.099
+比如，
+So,
+
+148
+00:11:19.464 --> 00:11:25.314
+在文字前面添加这些小符号，
+for example, you have these code little symbols that you put in front of the words
+
+149
+00:11:25.344 --> 00:11:28.014
+就能说明这是标题，那是副标题。
+that tell it, okay, this is a title, this is a subtitle.
+
+150
+00:11:28.825 --> 00:11:31.404
+还可以设置斜体。
+Then we have italics.
+
+151
+00:11:34.494 --> 00:11:39.354
+通过星号，可以表示斜体或粗体。
+With asterisks, you can say, "This text is italics," and, "This text is bold." So
+
+152
+00:11:39.804 --> 00:11:45.684
+它不像直接使用文字处理软件，但只用很少的
+it's not quite like using a word editor, but it allows you to, with very little
+
+153
+00:11:47.664 --> 00:11:51.024
+字符就能描述内容及其显示方式。
+characters, describe what your content is and how to display it.
+
+154
+00:11:51.714 --> 00:11:54.295
+中间这一列是列表。
+So you have on the middle column, we have here lists.
+
+155
+00:11:54.325 --> 00:11:56.814
+这里展示了列表和子级项目符号的写法。
+So this is how you would show a list and a sub-bullet point.
+
+156
+00:11:58.374 --> 00:12:02.814
+图片则使用感叹号、方括号和圆括号。
+Images, we have this sort of like exclamation mark and square and round brackets.
+
+157
+00:12:03.054 --> 00:12:08.575
+后面这会很重要，我也会稍作演示。
+This is going to be very important later, and I'll show you a bit, just
+
+158
+00:12:08.784 --> 00:12:11.394
+这里只是快速介绍一下 Markdown 的样子。
+a quick overview of what Markdown looks like.
+
+159
+00:12:11.455 --> 00:12:11.814
+然后，
+And
+
+160
+00:12:17.064 --> 00:12:22.658
+最后一块拼图，是让 Markdown 与 HTML 配合起来，
+then the final piece of the puzzle is to get the whole Markdown and HTML to work
+
+161
+00:12:22.658 --> 00:12:25.404
+生成可以发布为网站的内容。
+together and to have something that you can publish as a website.
+
+162
+00:12:25.464 --> 00:12:27.144
+我们使用的工具叫 Zensical。
+We're using a tool called Zentangle.
+
+163
+00:12:28.795 --> 00:12:34.719
+这是社区成员开发的一款不错的工具，
+Now, this is a nice tool that someone built in the community.
+
+164
+00:12:34.748 --> 00:12:39.939
+它是开源的，基本作用是将 Markdown 转换成 HTML，
+It's an open source tool that's basically converting Markdown into HTML and then
+
+165
+00:12:40.014 --> 00:12:42.864
+再应用它预先设计的一套样式。
+making their own opinionated style.
+
+166
+00:12:42.924 --> 00:12:44.828
+右边展示的就是
+So as you see on the right, this is
+
+167
+00:12:46.075 --> 00:12:50.890
+默认效果。它很适合文档，因为
+what it looks like out of the box, and it's good for documentation because
+
+168
+00:12:51.624 --> 00:12:54.894
+整体风格统一，而且有很多面向
+everything's in a uniform and there's a lot of features that's geared towards
+
+169
+00:12:54.908 --> 00:12:58.974
+文档编写的功能。它就是专门为文档设计的。
+documenting. This tool is geared towards documenting.
+
+170
+00:12:59.124 --> 00:13:02.408
+最基础的形式只是 Markdown 和 HTML，但还有许多
+And so in the very basic form, it's just Markdown, HTML, but there's a lot of
+
+171
+00:13:02.454 --> 00:13:07.374
+可以启用的选项和功能，值得进一步探索，
+little options you can turn on and different features, and so there's a lot to look
+
+172
+00:13:07.464 --> 00:13:10.884
+稍后我们会尝试一些。
+into, and we'll play around with it a bit later.
+
+173
+00:13:11.904 --> 00:13:16.704
+对于往届学员和导师来说，我们以前使用的是
+For those maybe previous years and instructors, we used in the previous years a
+
+174
+00:13:16.765 --> 00:13:20.304
+MkDocs，使用方式基本相同。
+tool called MKDocs, and it was exactly the same.
+
+175
+00:13:20.364 --> 00:13:25.434
+Zensical 背后的团队也开发了 Material for MkDocs 主题。
+The people behind Zentangle made the theme materials for MKDocs.
+
+176
+00:13:26.214 --> 00:13:29.515
+不过很遗憾，MkDocs 现在有些缺乏维护。
+But unfortunately, MKDocs has sort of become unmaintained.
+
+177
+00:13:29.575 --> 00:13:32.738
+它是一个开源项目，原先有一位开发者，后来逐渐停止
+It's an open source project. They had one developer, and they sort of stopped
+
+178
+00:13:32.754 --> 00:13:34.674
+开发，而
+working on it, and the
+
+179
+00:13:35.934 --> 00:13:40.284
+社区又分化成不同的项目，其中一个就是
+community splintered in different projects, and one of them came out was a
+
+180
+00:13:40.314 --> 00:13:45.835
+Zensical，我们决定今年以及今后用它来制作
+Zentangle project that we've decided to use for your
+
+181
+00:13:45.864 --> 00:13:47.619
+大家的文档。
+documentation this year and the future.
+
+182
+00:13:51.924 --> 00:13:54.879
+对于熟悉 MkDocs 的人来说，使用方法都一样。
+Everything's the same. For those of MKDocs, everything's the same.
+
+183
+00:13:55.374 --> 00:13:59.979
+因此，回看往届学员的文档时，
+So if you're looking at previous years, you might see the word MKDocs in other
+
+184
+00:13:59.994 --> 00:14:04.390
+可能会看到 MkDocs 这个名称；那些内容
+students' documentation, if you're looking back at other students, and you can copy
+
+185
+00:14:04.524 --> 00:14:06.384
+可以直接复制过来，都是一样的。
+those straight. Everything's the same.
+
+186
+00:14:08.394 --> 00:14:11.784
+可以迁移过来，只是换了名字，当然也增加了新功能。
+It copies over. It's just a different name, and then, of course, new functionality.
+
+187
+00:14:12.714 --> 00:14:17.004
+接下来看看你的网站，大家可以跟着操作。
+So let's start having a look at your website. You can follow with me.
+
+188
+00:14:18.564 --> 00:14:22.494
+我会慢一点。如果还没找到自己的网站，建议先
+I'm going to go slowly. I suggest if you didn't find your website, a good place to
+
+189
+00:14:22.554 --> 00:14:28.524
+打开课程网站，
+go is to go to the class website, the
+
+190
+00:14:28.614 --> 00:14:30.009
+也就是 Textile Academy 的课程页面，
+class at Textile Academy,
+
+191
+00:14:32.064 --> 00:14:34.373
+然后进入 Participants。
+and then you can go to Participants.
+
+192
+00:14:40.284 --> 00:14:40.765
+好。
+Yeah.
+
+193
+00:14:40.884 --> 00:14:46.104
+有人问能否写一下手机
+Somebody asked if you can write the URL server for the phone
+
+194
+00:14:46.224 --> 00:14:47.394
+Mattermost 应用的服务器地址。
+Mattermost app.
+
+195
+00:14:49.734 --> 00:14:51.714
+应该是 Chat Academy。
+The Chat Academy, I think.
+
+196
+00:14:52.015 --> 00:14:55.195
+我想这个可以，用 Chat Academy 应该就行。
+I think this works, yeah. So you just go to Chat Academy. That should work.
+
+197
+00:14:55.344 --> 00:14:58.195
+如果不行请告诉我，它和浏览器里用的是同一个地址。
+Let me know. It's the same one in the browser.
+
+198
+00:15:01.464 --> 00:15:04.854
+如果想找自己或其他同学的网站，这里有
+But yeah, if you want to look, find your website or your fellow students, there's a
+
+199
+00:15:04.884 --> 00:15:06.488
+一个列出所有参与者的页面。
+nice page of all the participants.
+
+200
+00:15:06.534 --> 00:15:12.445
+可以在里面找到自己的链接，点击后应该会进入
+So you can go through that and then click your link, and it should take
+
+201
+00:15:12.474 --> 00:15:14.498
+你的网站。我来打开自己的……
+you to your website. I'm going to open my--
+
+202
+00:15:17.094 --> 00:15:18.998
+对。不过先随便选一位同学做例子，
+Yeah. But as an example, I just take someone,
+
+203
+00:15:20.545 --> 00:15:22.704
+页面大致就是这个样子。
+and so this is sort of what it looks like.
+
+204
+00:15:22.765 --> 00:15:26.454
+点击顶部的小 Git 按钮，应该会进入
+And then at the top, you can click the little Get button, and it should take you to
+
+205
+00:15:26.515 --> 00:15:26.934
+你的仓库。
+your repo.
+
+206
+00:15:28.765 --> 00:15:32.453
+如果已经登录，也可以通过 GitLab 查找。
+If you're logged in and you also want to find it through your GitLab.
+
+207
+00:15:32.664 --> 00:15:37.359
+我现在就在 GitLab 中。点击左侧的 Projects 或 Activity，
+So I'm in GitLab right now. On the left, you can click Projects or Activity,
+
+208
+00:15:38.904 --> 00:15:42.564
+这里应该会列出你的项目。我的项目比较多。
+and then you should see your project listed here. I have a lot.
+
+209
+00:15:43.734 --> 00:15:46.195
+所以我打开一个自己建的演示项目。
+So I'm going to open a demo project I made.
+
+210
+00:15:47.964 --> 00:15:50.695
+这就是 Git 项目的首页。
+And so this is sort of the homepage of your Git project.
+
+211
+00:15:50.754 --> 00:15:54.714
+顶部应该显示你的名字，我这里写的是 demo。
+So it should have your name at the top, where I have demo here.
+
+212
+00:15:54.835 --> 00:15:56.244
+这是项目名称。
+So this is the title of the project.
+
+213
+00:15:56.335 --> 00:16:01.404
+这里是已发布网站的网址，可以快速打开。
+There's the URL to the published website if you would like a quick link.
+
+214
+00:16:04.045 --> 00:16:06.534
+下面是项目中的文件列表。
+Below it is the list of the files in your project.
+
+215
+00:16:07.464 --> 00:16:09.234
+这些就是项目里的全部文件。
+So these are all the files in your project.
+
+216
+00:16:09.654 --> 00:16:12.729
+底部有一个比较通用的 README 文件，
+At the bottom, there's a sort of a Read Me file, which is
+
+217
+00:16:14.424 --> 00:16:17.994
+它介绍的是项目本身，与网站内容没有直接关系。
+generic. This is for the project, so it's not really related to your website.
+
+218
+00:16:18.894 --> 00:16:23.064
+其他人进入你的项目时，可以通过它了解
+This would be for if anyone outside of you comes into your project, they could see
+
+219
+00:16:23.124 --> 00:16:27.295
+项目是什么、如何运行等信息。
+what is this about, and how do I run it, and stuff like that.
+
+220
+00:16:31.614 --> 00:16:37.224
+中间这里显示我的名字，我用鼠标
+Right here in the middle, you'll see my name, and I'll highlight it here with my
+
+221
+00:16:37.284 --> 00:16:42.774
+指一下。这是我最近一次修改，旁边有绿色的
+mouse. This is sort of the last edit I made, and I have a green
+
+222
+00:16:42.804 --> 00:16:46.734
+勾号，表示网站已成功发布，所以目前一切
+checkbox. This is also saying that my website got published, so everything's
+
+223
+00:16:46.765 --> 00:16:49.464
+正常，稍后会详细介绍。
+looking good, and we'll dive into that in a bit.
+
+224
+00:16:52.015 --> 00:16:55.134
+我打开自己的网站链接。页面是这样的。
+Yeah, I'll open the link to my website. So this is what it looks like.
+
+225
+00:16:56.154 --> 00:17:00.984
+上方是页头、不同页面，下面是示例文档。
+We have the header, different pages, and then sample document.
+
+226
+00:17:02.604 --> 00:17:08.515
+如果想编辑文件，右边有一个很大的 Code
+If I want to edit a file, you see there's a big code button on the
+
+227
+00:17:08.575 --> 00:17:08.874
+按钮。
+right.
+
+228
+00:17:10.164 --> 00:17:14.934
+点击下拉菜单，找到 Web Editor。
+You can click the drop-down, and you should see find a world called Web Editor.
+
+229
+00:17:16.404 --> 00:17:20.274
+点击之后，会在浏览器中打开
+And when you click that, it's going to open a
+
+230
+00:17:23.664 --> 00:17:28.584
+代码编辑器，之后就在这里修改
+code editor in your browser, and so this is where you will be making the changes to
+
+231
+00:17:28.644 --> 00:17:29.304
+你的网站。
+your website.
+
+232
+00:17:31.404 --> 00:17:34.194
+我看一下笔记。好。
+I'll just check my notes. Yeah.
+
+233
+00:17:38.574 --> 00:17:44.394
+抱歉，我先回头补充说明一下。我们一直在说
+Sorry, I'll backtrack a bit. I want to also explain a bit, so we use the
+
+234
+00:17:44.454 --> 00:17:47.725
+Git，而 GitLab 是在 Git 之上增加了界面和功能的平台。
+word Git, and so GitLab is a wrapper around Git.
+
+235
+00:17:47.904 --> 00:17:51.024
+Git 会跟踪我们做过的所有修改。
+Git is tracking all the changes that we make.
+
+236
+00:17:51.084 --> 00:17:56.994
+基本上就像使用 Word 文档或 Google
+So every time, it's basically like if you've ever used the Word document or Google
+
+237
+00:17:57.084 --> 00:18:02.184
+Sheets，每次编辑都会保存下来，还可以看到
+Sheets, every time you make an edit, it's sort of saved, and you sort of see a
+
+238
+00:18:02.214 --> 00:18:05.124
+修改历史，有时也能恢复旧版本。
+history of all your changes, and sometimes you can revert back.
+
+239
+00:18:05.574 --> 00:18:06.759
+Git 有点类似，
+Git is a bit the same thing,
+
+240
+00:18:08.004 --> 00:18:11.709
+我们把这些记录叫作提交。左侧 Code 下有 Commits。
+and we call this commits. So on the left, under Code, I see Code Commits.
+
+241
+00:18:11.814 --> 00:18:12.489
+点击之后，
+If I click it
+
+242
+00:18:15.138 --> 00:18:18.589
+就会加载我做过的所有修改，显示日期、
+It's going to load all the changes I made, and it's going to have the date, and
+
+243
+00:18:18.618 --> 00:18:22.308
+一段说明、我的名字，也就是谁在什么时候做了修改。
+it's going to have a piece of text, my name, who changed it, when.
+
+244
+00:18:23.388 --> 00:18:25.518
+这样就可以回头查看所有变更。
+And so I can go back and I can see all the changes.
+
+245
+00:18:26.328 --> 00:18:29.418
+还可以打开某一次具体修改。例如打开
+I can then open a specific change. So if I open
+
+246
+00:18:31.008 --> 00:18:32.268
+这里的一条记录，
+one of these changes,
+
+247
+00:18:34.488 --> 00:18:37.818
+就能看到那个日期究竟改了什么。
+then I'm going to see specifically at that date what changed.
+
+248
+00:18:37.878 --> 00:18:41.388
+这里涉及多个文件。
+And so we sort of have here, there's multiple files.
+
+249
+00:18:41.418 --> 00:18:46.909
+我先暂时收起这个，改为左右
+I'm going to just close this for a minute, and I'm going to show you in side by
+
+250
+00:18:46.998 --> 00:18:51.543
+并排显示。左边是修改前，右边是
+side. So this view is sort of showing you the left is what it was and the right is
+
+251
+00:18:51.558 --> 00:18:54.738
+修改后，方便对照。
+what it became. And so there's a way to see.
+
+252
+00:18:54.948 --> 00:18:59.478
+无论是自己忘记改过什么，还是别人做了修改，
+You can go back and see what things have changed, whether you forgot or whether
+
+253
+00:18:59.493 --> 00:19:03.048
+都可以回到这里查看具体变化。
+someone else made a change. You can then go back and see exactly what changed.
+
+254
+00:19:03.108 --> 00:19:07.473
+这就是 Git 很强大的地方，很多人用它来有条理地
+So this is the big power of Git and a lot of its users to sort of keep track of
+
+255
+00:19:07.518 --> 00:19:11.943
+跟踪变化。这些记录叫作提交。
+changes in an organized way. So those are called commits.
+
+256
+00:19:12.048 --> 00:19:14.149
+它们按顺序排列，
+They're all sequential,
+
+257
+00:19:15.528 --> 00:19:19.248
+最新的一条就是最近的版本，也就是发布的内容。
+so always the new one is your most recent. That's what's sort of published.
+
+258
+00:19:19.308 --> 00:19:23.328
+编辑文件时，修改的也是
+That's what's the latest version, and that's when you edit files, you're editing
+
+259
+00:19:23.358 --> 00:19:24.228
+这个最新版本。
+the latest version.
+
+260
+00:19:27.318 --> 00:19:31.518
+可以恢复到之前的内容，这叫撤销，也就是 revert。
+You can go back to previous files, so it's called reverting.
+
+261
+00:19:32.089 --> 00:19:37.399
+这个话题可以深入很多。对于小问题，有时只要打开提交，
+That's a little rabbit hole. For small things, you can sometimes open the commit
+
+262
+00:19:37.428 --> 00:19:39.438
+把误删的那一行复制回来即可。
+and just copy the line that you accidentally deleted.
+
+263
+00:19:40.008 --> 00:19:44.058
+如果有很多修改想撤销，也有 revert
+If you made a lot of changes that you want to undo, there's sort of a revert
+
+264
+00:19:44.118 --> 00:19:47.958
+功能，大家可以自行研究。
+function, and yeah, that's something you can do your research to do.
+
+265
+00:19:52.218 --> 00:19:52.638
+那么，
+So now,
+
+266
+00:19:54.138 --> 00:19:55.758
+这就是刚才说的 GitLab。
+yeah, so this is, as I said, is GitLab.
+
+267
+00:19:56.089 --> 00:19:57.483
+再回答一下刚才的问题，
+And to answer the question,
+
+268
+00:19:59.508 --> 00:20:04.758
+GitLab 是在 Git 外面加了一层功能，因此我们也可以在
+GitLab is a wraparound Git, which means we can also have a copy of this Git
+
+269
+00:20:05.659 --> 00:20:09.753
+电脑上保留这个 Git 项目的副本。把它复制到电脑上，
+project on our computer. And the great thing about copying this to our-- and it's
+
+270
+00:20:09.768 --> 00:20:13.458
+严格说……对，就是一个副本。好处在于之后可以直接
+not really a copy. Yeah, it's a copy to our computer, is that we can then just work
+
+271
+00:20:13.518 --> 00:20:18.018
+在本机工作，不需要联网，也不需要浏览器。
+on our computer without having the internet or without using the browser.
+
+272
+00:20:18.888 --> 00:20:21.348
+根据电脑性能，操作可能更快。
+So it can be faster depending on your computer.
+
+273
+00:20:22.083 --> 00:20:27.048
+而且可以自行决定何时提交并推送。
+And then you get to decide every time you want to make those commits and push them.
+
+274
+00:20:27.768 --> 00:20:32.943
+相比之下，在浏览器中工作时，标签页可能关闭、
+Whereas when you're working in a browser, because your window tab can close or
+
+275
+00:20:32.988 --> 00:20:36.138
+崩溃，或者电脑可能重启，所以通常每做一次修改
+crash or your computer restarts, you're sort of saving every time you make a
+
+276
+00:20:36.198 --> 00:20:40.848
+就保存一次，有点像 Google Sheets。在本机工作时，可以连续
+change, a bit like Google Sheets. When you're working on a computer, you can do a
+
+277
+00:20:40.909 --> 00:20:45.453
+编辑一整天，就像编辑电脑上的笔记或文件，
+full day of edits, as if you're editing some notes or files on your computer, and
+
+278
+00:20:45.498 --> 00:20:49.683
+然后觉得“好了，效果满意了”，再执行我们所说的推送。
+then you say, "Okay, I'm ready. I like how it looks." And then we call it push.
+
+279
+00:20:49.758 --> 00:20:54.513
+把提交推送回服务器，就与这个项目同步了。
+You push it back up to the server, and then it sort of syncs with this project.
+
+280
+00:20:55.353 --> 00:20:59.388
+也可以在浏览器和本机两边交替工作，但要
+And you can even work both with the browser and the local, but then you've got to
+
+281
+00:21:00.468 --> 00:21:02.928
+记得哪边版本更新，并保持同步。
+remember which one's ahead and you've got to keep them in sync.
+
+282
+00:21:03.318 --> 00:21:04.818
+Git 就是为此设计的。
+So Git's designed for that. So yes,
+
+283
+00:21:07.008 --> 00:21:12.558
+稍后会讲到，但我建议尝试本地工作。
+I'll get into it, but I do suggest trying local and we'll-- Yeah.
+
+284
+00:21:13.938 --> 00:21:17.238
+好。关于 Zensical，
+Okay. So Zinkl is
+
+285
+00:21:20.028 --> 00:21:24.618
+先看看项目如何组织。刚才在仓库里看到一个
+how the project is organized. So we saw in the repo we had a
+
+286
+00:21:25.668 --> 00:21:30.858
+TOML 文件，它基本上用于配置
+TOML file. This is basically how we sort of configure your
+
+287
+00:21:31.097 --> 00:21:35.839
+个人网站，例如网站名称、网址、
+personal website. So you can say stuff like the name of the website, the URL it's
+
+288
+00:21:35.928 --> 00:21:41.118
+颜色、字体，还可以添加额外功能。
+under, the colors, the fonts. You can add extra features.
+
+289
+00:21:41.208 --> 00:21:43.053
+比如不想显示目录，或者
+I don't want a table of contents. You
+
+290
+00:21:44.778 --> 00:21:48.168
+启用默认关闭的功能，例如灯箱。
+can add extra functionality that's off by default, a lightbox.
+
+291
+00:21:48.198 --> 00:21:54.018
+整个网站的这些全局设置都写在这个
+And so all those sort of general settings for the whole website happen in this
+
+292
+00:21:54.078 --> 00:21:54.738
+TOML 文件中。
+TOML file.
+
+293
+00:21:56.808 --> 00:21:59.568
+然后是 docs 文件夹，所有内容都放在这里。
+Then you have the docs folder, and this is where all the content goes.
+
+294
+00:21:59.659 --> 00:22:04.758
+图片、文件，以及用 Markdown 编写的
+So this is where all your images, your files, this is where all the notes that you
+
+295
+00:22:04.774 --> 00:22:07.159
+全部笔记，都在 docs 文件夹中。
+write in Markdown all go into the docs folder.
+
+296
+00:22:09.318 --> 00:22:09.678
+并且，
+And
+
+297
+00:22:10.909 --> 00:22:14.628
+这些文件的扩展名都是 .md，就像下面这一行。
+each of these files is ending in an MD, so as in the next line here.
+
+298
+00:22:14.718 --> 00:22:19.308
+例如，index.md 就是一个 Markdown 文件。
+So as an example, index.md is one of the files that we have Markdown on.
+
+299
+00:22:19.909 --> 00:22:22.848
+index 是一个特殊名称，表示首页。
+Index is a special word. It means home page.
+
+300
+00:22:23.839 --> 00:22:29.808
+因此 index 比较特别，网址里可以不写它。例如，
+So index is the only one where if you write index in the URL, so for example,
+
+301
+00:22:29.839 --> 00:22:34.818
+打开我的网站时，地址最后只有一个斜杠，这里对应 index。
+if I'm looking at my website, I only have a forward slash. You see I have index.
+
+302
+00:22:36.498 --> 00:22:37.308
+然后，
+And then
+
+303
+00:22:38.808 --> 00:22:44.238
+浏览器把它隐藏起来了，实际对应的是 index.html。
+your browser is tricking you because actually what's behind there is index.html.
+
+304
+00:22:44.253 --> 00:22:45.409
+这才是真正的文件。
+This is the actual file.
+
+305
+00:22:47.149 --> 00:22:52.938
+其他文件则不同。例如打开编辑器，可以看到
+When I have another file, for example, if I open my editor, you'll see there's a
+
+306
+00:22:52.998 --> 00:22:58.173
+名为 assignments 的文件夹，里面有第一周的 Markdown 文件。
+folder called Assignments, and then there's a file called Markdown Week 1.
+
+307
+00:23:00.409 --> 00:23:05.868
+如果进入 Assignments，再进入 Week 1，网址中也会看到
+If I go to Assignments and then Week 1, I will see in my URL also
+
+308
+00:23:05.958 --> 00:23:09.649
+assignments 和 week1，但不会显示 .html。
+Assignments and Week 1. But I don't have the HTML.
+
+309
+00:23:12.108 --> 00:23:16.548
+所以 Markdown 文件的名称会变成网址的一部分。
+So the file name that you have in the Markdown, it becomes the URL.
+
+310
+00:23:16.758 --> 00:23:20.478
+在脑中建立这种对应关系很重要，之后每周操作时
+So that's very important to map in your head, and you'll see that as you work
+
+311
+00:23:20.508 --> 00:23:21.078
+都会遇到。
+through the weeks.
+
+312
+00:23:23.958 --> 00:23:29.598
+还有这个 .gitlab-ci 文件，它是项目的特殊文件。
+And then we have this .gitlab-ci file, which is a special file for the project.
+
+313
+00:23:29.659 --> 00:23:35.583
+基本作用是告诉 GitLab：“这个项目使用 Zensical，
+This is basically telling GitLab, "Hey, this project is using Zinkl, and
+
+314
+00:23:35.628 --> 00:23:40.008
+这是构建网站的方法，要执行这些命令，再上传到
+this is how you build the website. This is the command you use and how to upload it
+
+315
+00:23:40.068 --> 00:23:44.013
+我们的平台。”它针对项目而配置，一般不需要
+to our platform." So it's very specific to your project, and you don't really need
+
+316
+00:23:44.058 --> 00:23:49.608
+修改，除非出了问题，或者决定采用
+to change anything there unless something goes wrong or you decide to do something
+
+317
+00:23:49.638 --> 00:23:52.998
+完全不同的工具，这是你的自由。
+completely different, use another tool, which is your prerogative.
+
+318
+00:23:53.058 --> 00:23:55.818
+可以按照自己的想法来，不一定非用 Zensical。
+You can do whatever you want. You don't have to stick to Zinkl.
+
+319
+00:23:56.748 --> 00:24:00.888
+可以用纯 HTML，如果很熟悉其他工具，也可以使用
+You can use plain HTML. You can use another tool if you're very familiar with
+
+320
+00:24:01.458 --> 00:24:05.268
+它们。我们提供 Zensical，只是因为开箱即用很方便。
+different tools. We just provide Zinkl because it's very easy out of the box.
+
+321
+00:24:05.568 --> 00:24:09.063
+所以 .gitlab-ci 就是告诉 GitLab 如何构建项目，
+So .gitlab-ci is basically telling GitLab how to build your project
+
+322
+00:24:10.818 --> 00:24:11.238
+以及……
+and
+
+323
+00:24:12.528 --> 00:24:18.409
+我展示一下。这里基本上是在说：“我们使用 Python，
+sort of, yeah. I'll show you. So it's sort of saying, "Okay, we're using Python
+
+324
+00:24:18.468 --> 00:24:23.238
+因为这个程序是用 Python 写的。然后安装
+because this program is built in Python, and then we're going to install the
+
+325
+00:24:23.328 --> 00:24:28.218
+所需插件，再构建项目。”很简单。
+required plugins, and then we're going to build your project." So that's very easy.
+
+326
+00:24:28.233 --> 00:24:32.493
+接着，把 docs 文件夹中的内容
+And then it's just saying everything in the public is we're now in the docs folder,
+
+327
+00:24:32.508 --> 00:24:35.238
+构建成 HTML，输出到 public 文件夹。
+and we need to build HTML into a public folder.
+
+328
+00:24:37.548 --> 00:24:39.977
+好，接下来谈谈
+All right. So let's talk
+
+329
+00:24:41.448 --> 00:24:44.508
+配置文件，并尝试做些修改。
+about the configuration file and try some changes.
+
+330
+00:24:46.098 --> 00:24:50.118
+配置文件使用 TOML 语言，基本采用
+The configuration is in a language called TOML, and it's just basically, it's got a
+
+331
+00:24:50.178 --> 00:24:51.168
+键值对
+key and value
+
+332
+00:24:52.428 --> 00:24:58.053
+格式。前面的名称是设置键，也就是要修改的选项，
+format. So the first word is always the sort of the setting key, the value you want
+
+333
+00:24:58.098 --> 00:25:02.298
+后面引号中的内容是值，表示你希望这个
+to change, and then there's the value which goes in the quotes, which is what you
+
+334
+00:25:02.328 --> 00:25:08.298
+选项是什么。例如，site_name 告诉 Zensical：
+want the setting to contain. So for example, site name is telling Zinkl, "Okay,
+
+335
+00:25:08.388 --> 00:25:11.418
+“我的网站名称等于……”，后面填你想用的名称。
+my site name equals," and then whatever you want to call it.
+
+336
+00:25:11.508 --> 00:25:16.457
+可以写自己的名字，也可以写“我的 Fabricademy 之旅”，由你决定。
+So you can put your name, you can put My Fabric Academy Journey. You can choose.
+
+337
+00:25:17.118 --> 00:25:22.428
+我建议先从这些值开始修改，
+This is basically deciding. And these values are sort of the ones I suggest you
+
+338
+00:25:22.488 --> 00:25:24.649
+可以在项目中找到它们。
+start with, and you can find them
+
+339
+00:25:26.149 --> 00:25:29.058
+如果找不到某个词，就搜索一下。
+in the project. If you can't find the word, you just do a search.
+
+340
+00:25:29.208 --> 00:25:32.178
+确实没有的话，也可以在合适的位置新起一行填写。
+If you can't find it, then you can just write it on a new line somewhere.
+
+341
+00:25:33.768 --> 00:25:36.964
+基本上可以修改网站名称、描述和作者，
+And basically, you can change your name, your description, and your author, and
+
+342
+00:25:36.978 --> 00:25:38.419
+这些会应用到所有页面。
+these apply to all the pages.
+
+343
+00:25:40.068 --> 00:25:44.538
+site_url 建议保留原来的内容，因为它基本上
+The site URL, I would leave to whatever is written there, because this is basically
+
+344
+00:25:44.628 --> 00:25:48.858
+就是浏览器中看到的网址。系统需要知道网站地址，
+the URL you have in the browser. It needs to know what your website URL is, so
+
+345
+00:25:49.548 --> 00:25:55.353
+所以不要改这一项。还要注意，这些设置键
+don't change that one. A key caveat is that these key settings are
+
+346
+00:25:55.399 --> 00:25:59.868
+按配置节组织。例如，site_name 位于
+organized into sections. So if you look at site name, it's under the section called
+
+347
+00:25:59.928 --> 00:26:05.464
+方括号标记的 project 节下。颜色和调色板用于
+Project in square brackets. And then we have the color, the palette, which is
+
+348
+00:26:05.508 --> 00:26:07.173
+选择默认的
+choosing sort of the default color of
+
+349
+00:26:08.688 --> 00:26:08.988
+文字颜色等，
+text,
+
+350
+00:26:10.698 --> 00:26:16.143
+它们在 project.theme 下。而整个网站使用的字体
+is under project.theme. And then you have the selected font that you want for your
+
+351
+00:26:16.188 --> 00:26:18.678
+在 project.theme.font 下。
+whole website is under project.theme.font.
+
+352
+00:26:18.993 --> 00:26:23.868
+所以这些方括号很重要，不能把 site_name 放在
+And so these square brackets are important, and so you can't put site name under
+
+353
+00:26:23.899 --> 00:26:26.748
+project.theme 下面，必须放在正确的配置节。
+project.theme. It has to go under the correct.
+
+354
+00:26:28.488 --> 00:26:32.658
+例如，现在去看文档。
+So for example, if I'm going to look at docs.
+
+355
+00:26:36.919 --> 00:26:42.738
+我打开他们的网站，给大家看一个例子。
+If I go to their website, I just want to show you an example of-- So I'm going to
+
+356
+00:26:42.813 --> 00:26:43.743
+进入他们的文档，
+their documentation,
+
+357
+00:26:45.468 --> 00:26:49.548
+找到字体说明并阅读，因为我平时就是这样操作的。
+and I see, okay, fonts, and I'm reading, because this is what I would do.
+
+358
+00:26:49.698 --> 00:26:51.889
+先问自己：想换字体，应该怎么做？
+I would say, how do I do something? I want to change the font.
+
+359
+00:26:51.948 --> 00:26:55.698
+文档会告诉你需要修改什么，
+And on their documentation, they're showing you, okay, so you need to change
+
+360
+00:26:55.728 --> 00:26:58.158
+例如在相应的字体配置下修改 text。
+font.text to change the font under it.
+
+361
+00:26:58.218 --> 00:27:02.058
+所以我首先会在自己的配置文件中寻找
+So the first thing I would do is in my configuration, I'm going to find this
+
+362
+00:27:02.598 --> 00:27:06.018
+对应的配置节，它也可能还不存在。
+section in my configuration file if it exists. It might not.
+
+363
+00:27:06.889 --> 00:27:10.308
+如果找到了，就把这一项放在下面。
+And so if I find this one, then I can put this text right under it.
+
+364
+00:27:11.658 --> 00:27:15.139
+文档展示了需要修改什么，可以对照自己的
+So this is showing you what you need to change, and you can match it with what you
+
+365
+00:27:15.198 --> 00:27:18.919
+文件来操作。因此，这种方括号结构非常重要，
+have. And so it's very important, this sort of structure of square brackets is the
+
+366
+00:27:19.248 --> 00:27:22.488
+它表示配置节，下面是设置项，以及一对引号。
+sections, and then sort of the setting, and then two quotes.
+
+367
+00:27:22.578 --> 00:27:24.363
+引号一定要成对，有开头也有结尾。
+Always close your quotes, open and close.
+
+368
+00:27:25.416 --> 00:27:30.246
+如果写错了，项目可能无法构建，
+And then you might, if you make a mistake, then your project will fail to build,
+
+369
+00:27:30.306 --> 00:27:31.986
+并给出报错。因此，
+and you'll get an error about it. And so
+
+370
+00:27:33.516 --> 00:27:37.266
+修改 TOML 时要留意这些细节。
+just be, yeah, mindful of those changes of the TOML.
+
+371
+00:27:38.016 --> 00:27:42.696
+我还提供了一个小型校验工具的链接。如果修改之后
+I do link to a little validator that you can do if really you changed something, it
+
+372
+00:27:42.726 --> 00:27:45.576
+无法工作，可以用这里的 TOML 检查器
+didn't work. There's sort of a TOML checker here you can
+
+373
+00:27:48.096 --> 00:27:48.786
+试一下。
+try out.
+
+374
+00:27:59.856 --> 00:28:00.786
+我不太确定你刚才……
+I'm not sure what your--
+
+375
+00:28:02.076 --> 00:28:03.906
+Dina，你的问题是什么？密码吗？
+Dina, what was your question? Password?
+
+376
+00:28:07.506 --> 00:28:09.966
+账号密码在邮件里。
+Your password for your accounts is in your email.
+
+377
+00:28:10.207 --> 00:28:11.046
+如果
+If you
+
+378
+00:28:12.336 --> 00:28:15.156
+找不到邮件，也可以重置密码。
+can't find your email, you can always do a password reset.
+
+379
+00:28:16.746 --> 00:28:18.246
+回到前面来说，
+So basically, going back,
+
+380
+00:28:21.606 --> 00:28:23.677
+所有账号都是通过 FabLabs.io 管理的。
+we run all our accounts on FabLab Zero.
+
+381
+00:28:23.736 --> 00:28:29.016
+在这里登录时，可以点击“忘记密码”，
+So when you're trying to log in here, you can click the forgot password link and
+
+382
+00:28:29.076 --> 00:28:32.377
+填写当时提供给协调团队的邮箱地址。
+put in your email address, the one that you sent to coordination.
+
+383
+00:28:32.437 --> 00:28:37.356
+这也是重新访问账号的一种办法：申请
+So that's another way of getting access to your account is to just ask for a, reset
+
+384
+00:28:37.416 --> 00:28:40.177
+重置密码。建议试一下。
+your password. So I would suggest trying that.
+
+385
+00:28:41.556 --> 00:28:47.406
+看看能否收到邮件，否则我再联系你。
+See if you get the email. Otherwise, yeah, I'll contact you.
+
+386
+00:28:53.286 --> 00:28:58.806
+如果刚才还没跟着尝试，现在可以打开 GitLab 编辑器。
+So, if you haven't, while I was talking, tried, you can go to the editor in GitLab,
+
+387
+00:28:58.927 --> 00:29:02.437
+我现在来修改 TOML 文件。
+and I'm going to try now edit the TOML file.
+
+388
+00:29:03.216 --> 00:29:09.082
+打开 TOML，找到 site_name，填上我的名字，
+And so I can go to my TOML file if I hit site name, I'll put my name, and
+
+389
+00:29:09.156 --> 00:29:10.656
+接着还可以填写……
+then I can put my...
+
+390
+00:29:13.746 --> 00:29:14.526
+好。
+All right.
+
+391
+00:29:23.946 --> 00:29:25.627
+我也会修改版权信息。
+I'm also going to change the copyright.
+
+392
+00:29:29.106 --> 00:29:30.546
+好，那么，
+Okay. Well,
+
+393
+00:29:32.046 --> 00:29:32.796
+下一步怎么做？
+what do I do now?
+
+394
+00:29:35.556 --> 00:29:41.136
+因为我们是在浏览器里，实际上……它不会自动保存。
+Because we're in the browser, we actually have to-- It's not automatically saving.
+
+395
+00:29:41.586 --> 00:29:45.516
+需要主动提交并推送修改。
+We actually have to sort of intentionally commit and push our changes.
+
+396
+00:29:45.606 --> 00:29:49.416
+即使是在 GitLab 浏览器界面中工作，也要告诉
+So even though we're working in the browser in GitLab, we still have to tell
+
+397
+00:29:49.446 --> 00:29:52.536
+GitLab：“这个文件已经编辑完成，
+GitLab, "Okay, I'm finished working on this file.
+
+398
+00:29:53.496 --> 00:29:59.226
+准备发布到网站。”这里有一个小小的数字 1，
+I'm ready to sort of publish it to my website." And you'll see there's a little one
+
+399
+00:29:59.286 --> 00:30:03.336
+表示检测到一个文件发生了变化。
+here, which is basically telling me it's detected that one file changed.
+
+400
+00:30:04.326 --> 00:30:07.896
+打开这个侧栏，就会进入另一个视图。
+If I open this sort of sidebar, it's a sort of another view tab.
+
+401
+00:30:10.146 --> 00:30:14.226
+这里列出了发生变化的 TOML 文件。
+It's listing here this one file is this field TOML.
+
+402
+00:30:14.766 --> 00:30:16.296
+旁边的 M 表示已修改。
+It's got an M, it means it's modified.
+
+403
+00:30:16.536 --> 00:30:20.106
+点击它，就会显示具体改动。
+If I click it, it's going to show me what changed.
+
+404
+00:30:20.166 --> 00:30:25.326
+可以看到减号和加号，用两行内容表示
+So you've got a minus and a plus. You've got two lines and showing it sort of the
+
+405
+00:30:25.356 --> 00:30:29.046
+修改前后，展示原来是什么、后来变成什么。
+from to. So it's showing you what it was and what it became.
+
+406
+00:30:29.496 --> 00:30:30.366
+所以，
+And so it's like,
+
+407
+00:30:32.677 --> 00:30:36.486
+我喜欢逐项检查：“对，这是我改的。”确认没有问题，
+I like to just go through, "Okay, yes, I did this." There was no everything looks
+
+408
+00:30:36.516 --> 00:30:40.161
+一切正常，也可以核对引号是否匹配，相当于再检查一次。
+good. You can compare the quotes match. It's another double checking.
+
+409
+00:30:40.685 --> 00:30:44.677
+尤其是修改 TOML 时，要确保没有漏掉
+Especially when changing a TOML, you want to be really sure you didn't forget a
+
+410
+00:30:44.736 --> 00:30:46.880
+结束标记。与修改前的
+closing tag. And comparing it to the previous
+
+411
+00:30:48.366 --> 00:30:52.446
+那一行对比，可以很好地发现遗漏。
+line that changed, it's a good way to see if you missed anything.
+
+412
+00:30:55.656 --> 00:31:00.246
+然后是提交说明。每次保存，也就是每次提交，
+Then we have a commit message. This is sort of every save, every commit you do, you
+
+413
+00:31:00.306 --> 00:31:05.707
+都可以附上一段说明，主要是方便自己。
+can put a sort of a comment to it, and this is just for you personally.
+
+414
+00:31:05.781 --> 00:31:10.386
+它会永久保留在历史记录中，帮助你了解
+It will be in the history, and it will be permanent, but it's a good way to know
+
+415
+00:31:11.646 --> 00:31:14.856
+每次提交包含什么。如果回头面对一长串
+what was in these commits. So if you're going back and you have a long list of
+
+416
+00:31:15.216 --> 00:31:19.416
+改动，你不会想逐一打开，查找某个文件在哪里改过。
+changes, you don't want to open each one to see, where did I change this file?
+
+417
+00:31:19.567 --> 00:31:22.866
+所以最好写一条对自己有用的说明。有两种写法，
+So a good thing is to write a message that's good for you. So there's two ways.
+
+418
+00:31:23.736 --> 00:31:29.450
+比如“更新 TOML 文件”，或者“修改网站名称”。
+You can say, "I updated the TOML file," or you can say, "I changed my site name."
+
+419
+00:31:29.946 --> 00:31:33.846
+可以写得详细，也可以很笼统，甚至只写“一、
+You can be more descriptive, you can just be generic, or you can just say, "One,
+
+420
+00:31:33.877 --> 00:31:39.321
+二、三”，由你决定。例如“更新配置文件”，
+two, three." It's up to you. So you can say, "Updated a config file,"
+
+421
+00:31:40.506 --> 00:31:41.796
+或者“已更新”，
+or you can say, "Updated,"
+
+422
+00:31:43.026 --> 00:31:47.196
+或者“修改了我的名字”，想写什么都可以。
+or "Edited my name." You can write what you want.
+
+423
+00:31:47.210 --> 00:31:49.026
+它只是方便你自己，不影响操作结果。
+It's just personally for you, it makes no difference.
+
+424
+00:31:49.146 --> 00:31:52.086
+准备好说明后，点击 Commit and Push。
+And when we're ready with a message, you say commit and push.
+
+425
+00:31:52.836 --> 00:31:56.826
+非常重要的是，按钮上必须写着 Push to main。main 是……
+But very important, it has to say, "Push to main." Main is sort of,
+
+426
+00:31:58.207 --> 00:32:02.136
+项目可以分成许多不同的路线，并行开展工作。
+there can be lots of forks in this project. You can have lots of parallel work.
+
+427
+00:32:02.196 --> 00:32:05.766
+可以同时处理多件事，这些路线叫作
+You can do lots of things together at the same time, and so they call this
+
+428
+00:32:05.826 --> 00:32:11.796
+分支。但一般来说，我觉得你们 99% 的情况下只需在 main 上工作。
+branches, but generally 99% of the time, I think you should just work in main.
+
+429
+00:32:11.856 --> 00:32:16.056
+所以始终推送到 main，因为通常只需要一次处理一件事，
+So always be pushing to main because you only really want to work on one thing at a
+
+430
+00:32:16.116 --> 00:32:18.486
+不必再解决不同分支的合并。
+time and not have to deal with merging things together.
+
+431
+00:32:18.817 --> 00:32:20.707
+要确认提交目标始终是 main。
+So always make sure it's committing to main.
+
+432
+00:32:21.666 --> 00:32:26.796
+如果不是 main，可以点击下拉菜单修改。
+If it doesn't say main, you can click the drop down and then select something else.
+
+433
+00:32:27.696 --> 00:32:33.306
+如果看不到 main，请现在告诉我，或举手。
+Let me know if you don't see main. You can comment me now or raise your hand.
+
+434
+00:32:34.026 --> 00:32:39.156
+点击 Commit and Push 后，会再次询问是否确定。
+So when you click commit and push, it's going to double ask you, are you sure?
+
+435
+00:32:39.187 --> 00:32:39.396
+因为……
+Because,
+
+436
+00:32:42.096 --> 00:32:43.866
+但我们确定，就是要提交。
+but we're sure. We always want to connect.
+
+437
+00:32:43.986 --> 00:32:46.446
+我想确认过第一次之后，就不会再问了。
+I think after this, the first time, it won't ask you again.
+
+438
+00:32:46.716 --> 00:32:49.146
+选择“是，我要提交到 main 分支”。
+So you're just like, "Yes, I want to commit to the main branch."
+
+439
+00:32:50.496 --> 00:32:51.666
+这样应该就提交成功了。
+And that should go through.
+
+440
+00:32:55.026 --> 00:32:57.306
+然后你可能会想，接下来呢？
+And then, so you're thinking, okay,
+
+441
+00:32:59.437 --> 00:33:04.177
+我回到项目，重新加载提交列表。
+I'm now going to reload my commit list. I'm back on my project.
+
+442
+00:33:04.567 --> 00:33:07.957
+刷新按钮在哪里？我刷新这个页面，
+Where's the refresh button? I'm going to refresh this page,
+
+443
+00:33:09.546 --> 00:33:13.716
+就能看到 19 秒前新建的提交，说明是 update config，
+and I'm going to see this is the new commit I made 19 seconds ago, update config,
+
+444
+00:33:14.496 --> 00:33:15.937
+旁边会有绿色勾号。
+and I'm going to have the green check mark.
+
+445
+00:33:16.446 --> 00:33:19.356
+现在详细说说这个勾号代表什么。
+Now let's dive into what this check mark is.
+
+446
+00:33:19.446 --> 00:33:24.111
+每次提交，或者从本地推送时，都会实际
+It's related to every time you make a commit or you push from locally, we're going
+
+447
+00:33:24.127 --> 00:33:29.571
+构建项目。这叫 CI 流水线，
+to actually build your project. And so, this is called a CI pipeline or
+
+448
+00:33:29.646 --> 00:33:33.396
+或者简称流水线。每次提交都会运行
+pipelines, and it's basically for every commit you make, it's going to run that
+
+449
+00:33:33.486 --> 00:33:37.296
+项目中那个 CI YAML 文件里的代码。
+code that we had in that .CI YAML file in that if you saw in your project.
+
+450
+00:33:37.356 --> 00:33:41.226
+基本上就是构建 Zensical 项目，我们希望它始终成功。
+So it's basically building your Zekel project, and you always want it to pass.
+
+451
+00:33:41.286 --> 00:33:45.636
+如果失败，打开时会看到红色的
+So if it fails, then you sort of open it, you click-- it's going to have a red
+
+452
+00:33:45.786 --> 00:33:50.346
+错误提示。点击进去，会看到部署
+error message. And if you click it and go into it, you're going to see this deploy
+
+453
+00:33:50.466 --> 00:33:54.216
+Pages 的任务，名称是 Pages。再点击进入，
+pages. It's called Pages. So we're going to click into it, and then you're just
+
+454
+00:33:54.245 --> 00:33:57.696
+就会看到许多日志，记录服务器构建项目的过程，
+going to see a bunch of logs. This is sort of the server building your project,
+
+455
+00:33:57.756 --> 00:34:03.606
+包括下载并安装 Zensical，再下载你的代码。
+downloading the Zekel website and installing it, and then downloading your code.
+
+456
+00:34:03.666 --> 00:34:04.131
+然后……
+And then...
+
+457
+00:34:09.396 --> 00:34:11.317
+我这里显示成功。
+So in my scenario, it's just successful.
+
+458
+00:34:11.346 --> 00:34:14.707
+正常情况下会成功，但如果失败，在服务器
+It's going to always be successful, but if it fails, then you will sort of at the
+
+459
+00:34:15.187 --> 00:34:21.036
+构建日志列表的底部，
+bottom of this list of sort of the logs of the server building your project, it
+
+460
+00:34:21.067 --> 00:34:26.586
+可能会出现错误，比如找不到图片，或者 TOML 文件有误。
+might have error. We couldn't find an image, or the TOML file had an error.
+
+461
+00:34:26.616 --> 00:34:30.187
+有些报错看起来很晦涩，又回到刚才那个表情包，
+And so sometimes these errors are a bit cryptic. I go back to that meme.
+
+462
+00:34:31.026 --> 00:34:32.406
+“这个报错到底是什么意思？”
+It's like, what's this error mean?
+
+463
+00:34:32.466 --> 00:34:38.106
+这时应该阅读错误信息，找出具体报错，
+And so that might be a good-- That's good to read the error message, try and find
+
+464
+00:34:38.136 --> 00:34:41.586
+再查看提交：我究竟改了什么？
+the error message, and look at the commits. What did I actually change?
+
+465
+00:34:41.646 --> 00:34:43.417
+回头核对自己实际修改的内容。
+Go back to see what you actually changed.
+
+466
+00:34:44.797 --> 00:34:47.346
+可以用 Google 搜索，或问 AI：“这个报错是什么意思？”
+Google it or ask AI, what's this error mean?
+
+467
+00:34:47.976 --> 00:34:50.601
+先问它是什么意思，而不是直接问怎么修复。
+And then not how do I fix it, but what does it mean?
+
+468
+00:34:50.677 --> 00:34:54.276
+这样才能自己尝试解决，积累理解。
+So then you can actually try and fix it yourself and sort of have that.
+
+469
+00:34:54.846 --> 00:34:58.866
+所以请记住，虽然一般能正常工作，但始终要知道，
+So, keep in mind, it's always going to work, but if the pipelines you have to have
+
+470
+00:34:58.896 --> 00:35:02.646
+每次提交都会在服务器上通过流水线
+in the back of your head, every commit is going to be building your project in a
+
+471
+00:35:02.706 --> 00:35:05.615
+构建项目，有时可能失败。
+pipeline, on a server, and sometimes it may fail.
+
+472
+00:35:05.706 --> 00:35:10.416
+如果网站看起来没有更新，一定要检查。
+So you'll always make sure that if your website doesn't seem updated, double-check.
+
+473
+00:35:10.476 --> 00:35:13.401
+是否出现绿色勾号？构建正常还是失败了？
+Did I get the green mark? Was it correct, or did it fail?
+
+474
+00:35:15.366 --> 00:35:17.346
+有时也会收到构建失败的邮件。
+Sometimes you get an email that it failed as well.
+
+475
+00:35:18.876 --> 00:35:24.381
+好，我们随手检查一下，
+Yeah. So, just for fun, I'll check up,
+
+476
+00:35:25.056 --> 00:35:28.086
+应该显示我的名字了。对，名字更新了，说明成功了。
+and I should have my name. Yeah, I have my name now, so it worked.
+
+477
+00:35:31.656 --> 00:35:36.486
+我还想展示一下……先看看幻灯片讲到哪里了。
+I think I'll also show you-- So, just double-check my slides where I am.
+
+478
+00:35:39.696 --> 00:35:41.226
+Google Fonts。好。
+Google Fonts. Yeah. So, I
+
+479
+00:35:43.236 --> 00:35:47.031
+如果不知道字体设置在哪，可以按 Command+F，使用查找。
+don't know where fonts are, so I can just do a Apple+F. I can do Find.
+
+480
+00:35:47.616 --> 00:35:52.866
+在编辑器中搜索 fonts，就找到了。
+And so I'm searching within this editor. I can do fonts, and there we go.
+
+481
+00:35:52.927 --> 00:35:56.976
+这里是主题字体设置，使用 Google Fonts。
+Theme fonts here. So these are Google Fonts.
+
+482
+00:35:57.036 --> 00:35:59.797
+可以打开 google.com，或者
+You can go to google.com or
+
+483
+00:36:00.396 --> 00:36:04.056
+应该是 fonts.google.com。
+fonts.google.com, I think.
+
+484
+00:36:05.556 --> 00:36:08.346
+浏览这些字体，找一个喜欢的。只需更换字体，
+And basically, you can look through these fonts and find something you like, so you
+
+485
+00:36:08.406 --> 00:36:13.116
+就能让网站更符合自己的风格。
+can sort of already have something suited to your style just by changing the font.
+
+486
+00:36:13.206 --> 00:36:16.101
+这很容易，今天就可以开始做。
+So that's something easy to do that you can already do today.
+
+487
+00:36:16.101 --> 00:36:20.121
+把字体名称填入设置项的引号中，
+And then you would put the name of the font in this setting inside the quotes,
+
+488
+00:36:20.317 --> 00:36:22.026
+提交后，字体应该就会改变。
+commit it, and the font should change.
+
+489
+00:36:23.346 --> 00:36:27.906
+如果想使用 Google Fonts 之外的字体，可以阅读
+You can read the documentation of Zekel if you want to see, how can I use the font
+
+490
+00:36:27.966 --> 00:36:30.516
+Zensical 文档。
+that's not in Google? You can
+
+491
+00:36:32.106 --> 00:36:37.626
+也能导入自己的字体，但要确保许可允许免费使用，
+import your own fonts, but make sure their sort of licensing is free, not doing
+
+492
+00:36:37.716 --> 00:36:38.226
+不要用需要付费授权的字体。
+paid stuff.
+
+493
+00:36:43.131 --> 00:36:46.851
+这里还可以更换图标。
+Yeah, I see here you can also change the icon.
+
+494
+00:36:46.911 --> 00:36:49.581
+图标就是名字旁边的这个小东西。
+So the icon is this thing next to my name.
+
+495
+00:36:50.302 --> 00:36:53.001
+我这里是一个像图书馆标志的打开的书本。
+I've got a little book librarian, an open book.
+
+496
+00:36:54.321 --> 00:36:58.491
+打开 Zensical 文档，这里其实已经有链接，
+So if you open the Zekiel docs, and actually there's a link here, so you can
+
+497
+00:36:58.521 --> 00:37:02.151
+可以直接打开。它提供完整的图标库，选择
+already open it. They have a full library of icons, and then you can choose an icon
+
+498
+00:37:02.211 --> 00:37:03.651
+喜欢的图标，再替换到这里。
+you want, and you replace it here.
+
+499
+00:37:05.121 --> 00:37:07.581
+有很多设置都可以浏览和调整。
+So there's a lot of settings you can go through and change.
+
+500
+00:37:08.181 --> 00:37:11.991
+这里是社交媒体，可以填写自己的社交媒体链接，
+There's here social media. You can put your own social media links here, and then
+
+501
+00:37:12.021 --> 00:37:15.261
+它们会显示在页面底部。这也是现在就能做的事情。
+they will appear at the bottom. So it's something you can already do.
+
+502
+00:37:16.431 --> 00:37:17.751
+可以看到页脚里的链接。
+You see at the footer, there's the links.
+
+503
+00:37:19.281 --> 00:37:23.361
+也可以添加自己的。例如想添加这里没有的，
+You can add your own. So if I want what's not on here,
+
+504
+00:37:25.491 --> 00:37:29.451
+比如 LinkedIn。新加一行，然后填写
+LinkedIn, I don't know. So you make another line, and then you write
+
+505
+00:37:31.161 --> 00:37:35.841
+LinkedIn 的品牌图标名称。我猜这个图标存在，再修改网址。
+LinkedIn as a brand. I guess that icon exists, and then you change the URL.
+
+506
+00:37:35.871 --> 00:37:37.401
+这样就增加了一条。
+And so that's how you would make another one.
+
+507
+00:37:41.466 --> 00:37:44.136
+如果没有问题，接下来看看 Markdown。
+Let's look at some markdown. If there's no questions,
+
+508
+00:37:45.351 --> 00:37:46.415
+我打开第一周的文件。
+I'm going to open week one.
+
+509
+00:37:48.621 --> 00:37:50.256
+开始看实际的文档编写。
+Let's get to some real documentation.
+
+510
+00:37:50.541 --> 00:37:52.116
+不知道时间进度怎么样，不过，
+I don't know how I am on time, but
+
+511
+00:37:54.381 --> 00:37:59.271
+Markdown 就是这个样子。每周我们都会提供一个模板。
+this is what markdown looks like. So each week, we just give you a template.
+
+512
+00:37:59.331 --> 00:38:01.192
+其中有许多
+So we just provide a bunch of
+
+513
+00:38:03.681 --> 00:38:07.192
+实用提示，同时也是各种操作的示例。
+useful tips, but this is also an example of how you would do stuff.
+
+514
+00:38:08.091 --> 00:38:13.581
+这里看到的都是文本，其中有些写法是 Zensical 特有的。
+So if you see here, what this is all text. It's all special to Zekiel.
+
+515
+00:38:14.271 --> 00:38:17.270
+还混有 HTML，这里就是 HTML。
+I've got some HTML. If you can see here, this is HTML.
+
+516
+00:38:17.390 --> 00:38:20.601
+所以它混合使用 HTML 与 Markdown。这里是一张图片。
+So you're mixing HTML and markdown. So this is an image.
+
+517
+00:38:21.681 --> 00:38:23.601
+我现在快速浏览一下，这些我都很熟悉。
+I'm just going quickly through it now. And I know this.
+
+518
+00:38:24.711 --> 00:38:28.041
+接下来把源码与这里看到的页面对应起来。
+So yeah, it's good, and I'm going to match it to what I see here.
+
+519
+00:38:30.321 --> 00:38:34.581
+例如，这个每周作业区域是一个可折叠的框，
+So, for example, this weekly assignment was this nice little collapsible box with
+
+520
+00:38:34.641 --> 00:38:39.501
+里面有一项目标。回到 Markdown，可以看到两个井号。
+one objective. So if I go back to the markdown, I see the double hash.
+
+521
+00:38:39.561 --> 00:38:41.241
+这表示标题，具体来说，
+So that was the title. So that's a
+
+522
+00:38:42.621 --> 00:38:45.741
+是二级标题，也可以说是副标题。
+heading or subheading because it's number two.
+
+523
+00:38:45.891 --> 00:38:51.021
+一个井号表示页面标题，也会成为导航栏中的链接，
+The first hash is the title of the page, and that also becomes the link in the nav
+
+524
+00:38:51.081 --> 00:38:56.361
+一处内容兼具两种作用。这些特殊框叫作……
+bar. So it's a two-in-one. And then these special boxes are these, they're called--
+
+525
+00:38:59.361 --> 00:39:03.172
+我忘了名称。叫 Admonitions，也就是提示框。
+I forgot what they were. Ammonitions.
+
+526
+00:39:03.471 --> 00:39:04.672
+那么，
+So
+
+527
+00:39:06.231 --> 00:39:10.881
+Zensical 中还有很多不同的额外
+in Zekiel, I won't go through them all, but there's a lot of different extra
+
+528
+00:39:10.971 --> 00:39:12.651
+功能可以添加到网站，我不会逐一介绍。
+features that you can add to your website.
+
+529
+00:39:12.681 --> 00:39:15.922
+Markdown 可以理解为最基础的一层，
+So, markdown is, let's say, the bare minimum.
+
+530
+00:39:15.981 --> 00:39:19.221
+包括标题、项目符号和段落。
+It's like the headers, the bullet points, the paragraphs.
+
+531
+00:39:20.001 --> 00:39:24.771
+Zensical 还提供现成的组件，例如这些小型可折叠
+But sometimes Zekiel provides you already-made objects, like the little collapsible
+
+532
+00:39:24.831 --> 00:39:26.302
+区域，以及按钮。
+things. You have little buttons
+
+533
+00:39:28.071 --> 00:39:29.181
+只要
+that you can then,
+
+534
+00:39:30.681 --> 00:39:33.981
+按照说明启用，例如确认 TOML 文件中
+if you enable it, so if you follow their settings, they say, "Okay, you need to
+
+535
+00:39:34.041 --> 00:39:38.811
+包含对应设置，再按这种写法输入，按钮就会显示成这样。
+make sure this is in your toml file." And then buttons look like this when you do
+
+536
+00:39:38.841 --> 00:39:42.172
+这就是一个按钮的例子。
+it this way. So this is, for example, a button.
+
+537
+00:39:42.231 --> 00:39:47.302
+需要把整段内容复制进 Markdown，正常的话
+I have to copy this whole piece of thing in my markdown, and then if it works, it
+
+538
+00:39:47.331 --> 00:39:53.271
+就会显示成这样。链接原本可能像
+will look like this. So instead of a link looking like this one
+
+539
+00:39:53.331 --> 00:39:53.661
+上面这个一样，
+up here,
+
+540
+00:39:55.040 --> 00:39:57.231
+现在会变成按钮。它提供了很多这样的功能。
+it's going to look like this. So they have a lot of things.
+
+541
+00:39:57.471 --> 00:40:02.451
+还有代码块、图表，以及对大家很有用的表格。
+They have code blocks, diagrams. They have tables which are very useful for you.
+
+542
+00:40:03.891 --> 00:40:05.781
+只需要查看：“如何启用？
+So you would then just say, "How do I enable it?
+
+543
+00:40:05.841 --> 00:40:08.901
+显示效果是什么？”它的文档写得很好，可以完整浏览，
+What they look like?" Their documentation is great, so just go through it all,
+
+544
+00:40:10.552 --> 00:40:10.655
+然后
+and
+
+545
+00:40:12.651 --> 00:40:13.461
+把需要的内容放进这里。
+then you put it here.
+
+546
+00:40:17.151 --> 00:40:17.510
+好。
+Yeah.
+
+547
+00:40:25.851 --> 00:40:28.971
+Zensical 会读取 Markdown 文件。
+So Zekiel is reading markdown files.
+
+548
+00:40:29.061 --> 00:40:33.802
+所以 week1.md 是 Markdown 文件，基础是 Markdown。
+So week one.md is a markdown file. So, the base is markdown.
+
+549
+00:40:34.011 --> 00:40:39.381
+我们从 Markdown 开始，再加入 Zensical 的额外功能。
+So we're starting with markdown. And then Zekiel is adding their own little extra--
+
+550
+00:40:40.161 --> 00:40:45.891
+这里是 Markdown，也可以加入 HTML。HTML 不是 Markdown，但
+So there's markdown. I can add HTML, which is not markdown, but I can add
+
+551
+00:40:46.041 --> 00:40:47.302
+仍然可以混合使用。例如想自己写一个
+HTML. So if I want my own
+
+552
+00:40:49.192 --> 00:40:54.501
+图片元素，或者想自己写
+image, whatever. If I want to write my own
+
+553
+00:40:54.591 --> 00:40:58.881
+段落，既能用 Markdown，也可以按自己的方式写。
+paragraph, I can write it in markdown, or I can write it in my own way.
+
+554
+00:40:59.781 --> 00:41:01.161
+然后这些是
+And then these things are
+
+555
+00:41:02.361 --> 00:41:08.061
+Zensical 提供的自定义组件和元素，
+Zekiel's custom components, custom elements that they've made for you that so
+
+556
+00:41:08.091 --> 00:41:12.681
+让你不必从头编写全部 HTML 和 CSS，
+instead of having to build the whole HTML and the CSS yourself, we've made it for
+
+557
+00:41:12.741 --> 00:41:15.591
+因为它已经替你做好了。只需要使用它设计的
+you already. And all you have to do is they come up with these
+
+558
+00:41:16.942 --> 00:41:21.201
+特殊符号，例如问号加 task，就能打开一个
+special symbols like question mark, question mark task is going to open a little
+
+559
+00:41:21.231 --> 00:41:25.131
+蓝色小框。但这不是 Markdown，而是 Zensical 特有的写法。
+blue box, but that's not markdown. That's really specific to Zekiel.
+
+560
+00:41:26.061 --> 00:41:30.561
+所以这是混合使用，就像在 Markdown 上加一点装饰。
+So it's this mix, like sprinkling extra cherries on top of the markdown.
+
+561
+00:41:31.851 --> 00:41:36.186
+Markdown 本身是一种很简单的语言，可以在不同
+Because markdown is a very simple language that's interoperable between any
+
+562
+00:41:36.231 --> 00:41:40.401
+工具之间通用。这里很好用，但因为我们只是用它搭建
+tooling. And so it's great here, but because we're really only using it to build a
+
+563
+00:41:40.431 --> 00:41:42.052
+网站，而且只使用这一种工具，
+website and only with this tool,
+
+564
+00:41:43.821 --> 00:41:47.451
+所以可以加入这些自定义功能。我在 Zensical
+we can add this custom. So all these things I showed you in the Zekiel
+
+565
+00:41:47.511 --> 00:41:50.271
+文档中展示的这部分写法，都与 Zensical 有关。
+documentation, they're very custom to Zekiel, this part.
+
+566
+00:41:50.331 --> 00:41:52.071
+因此需要先启用这些……
+That's why you have to enable them with these--
+
+567
+00:41:53.631 --> 00:41:55.161
+看，它们叫作扩展。
+You see these extensions, they're called.
+
+568
+00:41:55.942 --> 00:41:58.851
+也就是用额外功能扩展 Markdown。
+You're extending the markdown with these extra functionalities.
+
+569
+00:41:59.511 --> 00:42:05.211
+有些扩展不属于 Zensical，可能在其他网站上找到，
+And sometimes there's stuff outside of Zekiel, so you may find also a
+
+570
+00:42:05.961 --> 00:42:10.881
+也可能是某人在 GitHub 上写的 Markdown 扩展。
+markdown extension on another website, or someone made one on GitHub,
+
+571
+00:42:10.942 --> 00:42:11.991
+这种情况下，
+and
+
+572
+00:42:13.461 --> 00:42:19.011
+不能保证一定能用，但如果支持相应的 Markdown，
+it's not guaranteed to work, but it could work, if it's supporting the markdown
+
+573
+00:42:20.302 --> 00:42:25.206
+就有可能。这里用的是 Python Markdown，是特定的实现，
+to go down. Yes, it's a Python markdown, so it's a specific version, but you can
+
+574
+00:42:25.251 --> 00:42:29.901
+但可以扩展。插件很多，尤其是许多 MkDocs 的 Markdown 扩展，
+extend it. So there's lots of plug-ins, especially a lot of the markdown extensions
+
+575
+00:42:29.991 --> 00:42:33.172
+如果这里没有，也应该能尝试使用。
+from MK Docs should also work if you don't find it here.
+
+576
+00:42:34.881 --> 00:42:35.001
+好。
+Yeah.
+
+577
+00:42:38.226 --> 00:42:44.001
+理解得没错：先写 Markdown，再添加一些 Zensical 的自定义元素，
+You got it right. Write markdown, then you can add some Zekiel custom elements on
+
+578
+00:42:44.061 --> 00:42:47.121
+推送之后就会构建网站。
+top, and then when you push it, it builds your website.
+
+579
+00:42:47.302 --> 00:42:47.511
+而且，
+And
+
+580
+00:42:51.561 --> 00:42:53.422
+你可能漏掉的是其中混合使用的部分。
+actually, what you're missing is in the mix.
+
+581
+00:42:53.751 --> 00:42:53.931
+也就是说，
+So
+
+582
+00:42:55.281 --> 00:43:01.221
+这个模板既有 Markdown，也有一些非常
+just like in this template, we have markdown, we have some custom, very
+
+583
+00:43:01.281 --> 00:43:03.351
+专门的 Zensical 元素，
+specific elements that are from Zekiel,
+
+584
+00:43:05.302 --> 00:43:09.172
+再往下，这里还有 HTML。
+and we have at the lower down here, we had-- This is HTML.
+
+585
+00:43:09.261 --> 00:43:12.531
+例如，这一段是在图片下面添加图注。
+So, for example, this one is about having a caption on your image.
+
+586
+00:43:13.221 --> 00:43:14.541
+不过应该先讲一下图片。
+Actually, I should talk about image, though.
+
+587
+00:43:15.771 --> 00:43:17.961
+Markdown 图片语法就是这样，
+An image in markdown just looks like this,
+
+588
+00:43:20.151 --> 00:43:23.391
+但它不支持图注。
+but there was no support for a caption.
+
+589
+00:43:23.526 --> 00:43:28.821
+所以我们用 HTML 来表示：“我想添加一段图注。”
+And so we're using HTML to basically say, I want to add some caption.
+
+590
+00:43:28.881 --> 00:43:30.981
+看看实际显示效果，
+If we look at what it looks like here.
+
+591
+00:43:31.071 --> 00:43:33.890
+可以看到图片下方有一段文字。
+So you see it's an image, and it has a text underneath.
+
+592
+00:43:34.521 --> 00:43:38.331
+为了实现它，Markdown 和 Zensical 都没有现成的写法，
+So to do that, there was no way in markdown, there was no way in Zekiel.
+
+593
+00:43:38.811 --> 00:43:43.611
+所以使用 HTML。你也可以这样添加，或者有时在
+So this was the way in HTML. And so you can add it, or sometimes you find a
+
+594
+00:43:43.672 --> 00:43:44.961
+网上看到一个
+nice-looking button
+
+595
+00:43:46.461 --> 00:43:46.672
+好看的
+on the
+
+596
+00:43:49.942 --> 00:43:53.061
+按钮，也可以复制它的 HTML 来使用。
+internet, and you can copy the HTML on and it works.
+
+597
+00:43:53.241 --> 00:43:56.181
+因为 HTML 和 Markdown 一样，可以广泛使用。
+Because HTML is also like markdown. It works everywhere.
+
+598
+00:43:56.451 --> 00:43:59.901
+真正与 Zensical 绑定的，只有这些特定的
+The only thing that's really specific to Zekiel is these specific
+
+599
+00:44:02.751 --> 00:44:03.231
+元素。
+elements.
+
+600
+00:44:15.831 --> 00:44:19.251
+接下来重点讲讲图片。
+Yeah, I think good one is so about images.
+
+601
+00:44:20.241 --> 00:44:26.031
+这就是 Markdown 插入图片的写法：一个感叹号、一对
+This is the markdown for an image. So you've got a exclamation mark, two
+
+602
+00:44:26.091 --> 00:44:28.011
+方括号，再加一对圆括号。
+square brackets, and two round brackets.
+
+603
+00:44:28.911 --> 00:44:33.442
+前面的符号表示“这是一张图片”。方括号内描述
+The first part is saying, "I'm an image." The square brackets is actually saying
+
+604
+00:44:33.531 --> 00:44:36.891
+图片的内容，称为替代文本。
+what this image about, and it's called an alternative text.
+
+605
+00:44:37.281 --> 00:44:41.692
+它主要供盲人或听障人士使用的屏幕阅读器读取，
+And these are usually predominantly used for screen readers of blind or deaf
+
+606
+00:44:41.751 --> 00:44:47.076
+准确说是盲人，让电脑能够
+people. Well, blind people. So that their computer can
+
+607
+00:44:47.121 --> 00:44:49.297
+描述这张图片，也就是读出这段文字。
+describe what this image-- Well, read the text.
+
+608
+00:44:49.311 --> 00:44:53.346
+例如上传自己的照片，或者树木照片，可以写
+So, for example, if I upload a picture of me or a picture of trees, I can say it's
+
+609
+00:44:53.422 --> 00:44:59.361
+“这是一棵松树”。这样阅读文档的人
+a picture of a pine tree. So then whoever's reading your documentation, they
+
+610
+00:44:59.422 --> 00:45:01.192
+就能知道，图片中是一棵松树。
+understand, okay, this is a pine tree.
+
+611
+00:45:03.501 --> 00:45:06.621
+所以最好填写替代文本，放在方括号内。
+So it's nice to put an alternative text, and that goes in the square brackets.
+
+612
+00:45:07.056 --> 00:45:11.751
+圆括号内填写图片相对于当前
+And in the round brackets, you put in the location of that image relative to where
+
+613
+00:45:11.811 --> 00:45:17.016
+文件的位置。可以想象 Zensical 正在读这个页面，
+you are. So you've got to tell, if you think of Zekiel as reading this page and
+
+614
+00:45:17.091 --> 00:45:20.511
+心想：“我现在位于 week1.md，
+say, "Okay, I'm here. I'm in week one.md.
+
+615
+00:45:20.571 --> 00:45:25.401
+这张图片在哪里？”因此需要告诉它：“你现在在
+Where is this image?" So you have to tell it, "Okay, well, actually, you're inside
+
+616
+00:45:25.416 --> 00:45:30.111
+assignments 文件夹里，先退出这个文件夹，再找到
+the assignments folder now." So you have to go outside the assignments folder, find
+
+617
+00:45:30.141 --> 00:45:35.466
+下面的 images 文件夹，里面有一个
+a folder called Images, which we have down here, and in there, you'll see I have a
+
+618
+00:45:35.481 --> 00:45:38.571
+avatar 文件。”那么怎么返回上一级？
+folder called Avatar Folder. So how do we go back?
+
+619
+00:45:38.841 --> 00:45:44.692
+[原文不清]。返回上一级用两个点加一个斜杠。
+And actually, the weather is quite nice right now. So back is two dots and a slash.
+
+620
+00:45:45.351 --> 00:45:51.052
+意思是返回上一级文件夹。然后写 images，
+That means go back one folder. And then, so now we write images
+
+621
+00:45:52.335 --> 00:45:55.366
+再写一个斜杠，表示进入该文件夹。
+And then I write a slash, so that's the end of the folder.
+
+622
+00:45:55.395 --> 00:46:00.795
+images 里面有 avatar，然后写上照片文件名，
+And inside images, we have avatar, and then I write the name of the photo,
+
+623
+00:46:02.775 --> 00:46:08.235
+以及 .jpg。这样就是先返回上一级，再进入 images，最后找到
+JPEG. There. So this is going back one folder, then go inside images, and then the
+
+624
+00:46:08.295 --> 00:46:12.285
+图片文件名。把这些连起来，因为这里不应该有
+name of my image. So if I put all that together because we're not supposed to have
+
+625
+00:46:12.315 --> 00:46:12.885
+空格，
+spaces,
+
+626
+00:46:14.145 --> 00:46:15.075
+这就是图片路径。
+then that's my image.
+
+627
+00:46:17.295 --> 00:46:22.846
+如何知道它能用？必须先提交吗？
+And how do I know it works? Well, do I have to commit it?
+
+628
+00:46:23.580 --> 00:46:27.375
+最终需要提交，但有一种快速检查 Markdown 的方法，
+Well, you have to commit it, but a quick way of validating your markdown, which
+
+629
+00:46:27.435 --> 00:46:32.025
+它确实只适用于 Markdown，就在右侧。
+really only works for the markdown, is on the right here.
+
+630
+00:46:32.145 --> 00:46:33.585
+右上角有一个小图标，
+On the top right, you see a little
+
+631
+00:46:35.116 --> 00:46:37.815
+看起来像两栏加一个放大镜。
+two columns in a magnifying glass.
+
+632
+00:46:37.905 --> 00:46:42.255
+点击后，会显示 Markdown 预览。
+If you click it, it's going to show you a preview of your markdown.
+
+633
+00:46:42.285 --> 00:46:47.070
+Web Editor 能渲染 Markdown，但只支持 Markdown。
+So the web editor is able to render markdown, only markdown.
+
+634
+00:46:47.205 --> 00:46:50.685
+所以会发现 Zensical 特有的内容不能显示。
+So you'll notice that the Zekiel stuff doesn't work.
+
+635
+00:46:50.835 --> 00:46:55.035
+那些蓝色小框和带样式的框无法正常预览。
+The little blue boxes, styled boxes don't work.
+
+636
+00:46:55.065 --> 00:47:00.105
+不过，这很适合检查图片、标题，以及整体
+But it's a great way for verifying the images work, your headings, things look
+
+637
+00:47:00.135 --> 00:47:03.300
+结构是否大致正确。可以看到这里已经插入了图片。
+roughly away. So it's a nice way to look. So you see here, I made image.
+
+638
+00:47:04.305 --> 00:47:04.635
+如果我
+If I
+
+639
+00:47:06.195 --> 00:47:09.705
+把图片文件名拼错，就显示不出来，而是出现“松树照片”。
+misspell my image name, it doesn't work. I get picture of pine tree.
+
+640
+00:47:11.265 --> 00:47:14.055
+意思是：“找不到图片，所以显示替代
+Basically, that's saying, "I couldn't find image, so I'm going to show you the alt
+
+641
+00:47:14.145 --> 00:47:14.505
+文本。”
+text,
+
+642
+00:47:16.305 --> 00:47:16.785
+这里补回 .jpg。
+JPEG."
+
+643
+00:47:18.465 --> 00:47:18.616
+好。
+Yeah.
+
+644
+00:47:21.465 --> 00:47:23.476
+浏览器内置预览很方便，
+So having the in-browser, it's a nice one,
+
+645
+00:47:24.825 --> 00:47:26.265
+尤其适合现在做实验。
+especially for experimenting now.
+
+646
+00:47:26.715 --> 00:47:29.265
+尝试 Markdown 时，不必每次都提交。
+For the markdown, to play with the markdown, you don't need to commit everything.
+
+647
+00:47:29.355 --> 00:47:31.935
+可以直接在这里修改，实时查看预览。
+You can just play with everything here, and you'll see a live preview.
+
+648
+00:47:32.265 --> 00:47:33.495
+就在右侧。
+So that's on the right side.
+
+649
+00:47:37.755 --> 00:47:41.715
+这个编辑器对于图片还有一个优点：先输入感叹号、
+The good thing about this editor actually is with the images, so exclamation mark,
+
+650
+00:47:41.805 --> 00:47:46.545
+一对方括号，然后圆括号。
+two squares, and then I do the round braces.
+
+651
+00:47:47.295 --> 00:47:51.315
+我返回两级文件夹，可以看到编辑器正在帮我，
+I'm going to go back two folders, and you'll notice the editor is actually helping
+
+652
+00:47:51.375 --> 00:47:55.425
+它知道我要返回上级，会显示选项，
+me. So it's telling me, "Okay, you want to go back." So it's showing me I can,
+
+653
+00:47:56.085 --> 00:47:58.995
+让我直接在编辑器中选择文件夹，不用自己输入。
+within the editor, choose a folder. I don't have to write it myself.
+
+654
+00:47:59.055 --> 00:48:01.245
+然后按键盘上的 Enter。
+And then, so I'm going to click Enter on my keyboard.
+
+655
+00:48:01.875 --> 00:48:05.265
+按下 Enter 后，继续寻找图片，比如
+I click Enter, and then I say, "Okay, I'm going to look for the image." I want to
+
+656
+00:48:05.295 --> 00:48:09.465
+进入 week2，再选择想要的文件。它会帮助我构建
+go in week two, and then I say, "Yep, that's the file I want." So it's helping me
+
+657
+00:48:09.495 --> 00:48:09.765
+这个
+build
+
+658
+00:48:11.715 --> 00:48:15.495
+Markdown 路径，这样就能减少
+my path within Markdown. So that's a great way to help you don't make mistakes with
+
+659
+00:48:15.525 --> 00:48:16.275
+文件名拼写错误。
+the file names.
+
+660
+00:48:18.435 --> 00:48:20.775
+那么如何把图片放进去？
+But how do we get an image in there?
+
+661
+00:48:22.755 --> 00:48:26.476
+找到图片文件夹，右键点击。
+Well, if we go to the image folder, you find it, you right-click it.
+
+662
+00:48:27.375 --> 00:48:29.355
+可以看到 Upload 按钮。
+You can see there's an Upload button.
+
+663
+00:48:30.105 --> 00:48:31.920
+点击 Upload，然后选择一张
+So you can click Upload, and then you can choose an
+
+664
+00:48:37.815 --> 00:48:39.525
+图片。
+image.
+
+665
+00:48:47.565 --> 00:48:48.285
+稍等一下。
+Hang on a bit.
+
+666
+00:48:57.435 --> 00:49:03.075
+给我一点时间，我手边没有图片可以上传。如果进入 week1，
+Just give me a moment. I don't have an image to upload, but if I go to week one
+
+667
+00:49:04.065 --> 00:49:04.995
+选择 Upload，
+and I say Upload,
+
+668
+00:49:06.705 --> 00:49:07.245
+然后就可以……
+then I can...
+
+669
+00:49:14.685 --> 00:49:17.955
+好了，名字一样，我之前已经有这张图片，这里只是
+There we go. It's the same name. I already had this image, but it's sort of just
+
+670
+00:49:18.015 --> 00:49:20.745
+演示上传图片的过程。
+uploading. It's showing you how to upload an image.
+
+671
+00:49:23.040 --> 00:49:27.015
+也可以重命名图片：右键点击刚刚上传的
+And then I can also choose to rename this image, so I can then right-click the new
+
+672
+00:49:27.075 --> 00:49:31.125
+图片，选择 Rename，改成 my-new-image。
+image I just uploaded, click Rename, and say My New Image.
+
+673
+00:49:32.685 --> 00:49:36.630
+最好重命名一下，因为手机拍的照片等文件
+It's good to rename images because maybe you took it with your phone or something,
+
+674
+00:49:36.660 --> 00:49:41.700
+可能带着很奇怪的名字。建议起一个清楚的名称，而且
+it's got a weird name. I would suggest to write a good name, and I also always
+
+675
+00:49:41.715 --> 00:49:46.635
+不要包含空格，因为网站不太适合处理
+suggest that it should have no spaces in it because websites don't work well with
+
+676
+00:49:46.695 --> 00:49:51.105
+空格，所以不要像这样在 new 后面加空格。
+spaces, so you don't want to write new space like this.
+
+677
+00:49:51.585 --> 00:49:55.305
+也不建议使用大写，全部保持小写。
+I also wouldn't suggest capitals. Keep everything lowercase.
+
+678
+00:49:55.395 --> 00:49:59.505
+这样简单，也更不容易出错。
+It's just very simple, and it's less likely to make mistakes.
+
+679
+00:50:00.241 --> 00:50:03.075
+网站遇到大小写混用时，有时会出现奇怪的问题。
+And websites also don't like capital case. It just gets weird.
+
+680
+00:50:03.675 --> 00:50:07.846
+所以统一小写，可以减少以后的错误。
+So if you keep everything lowercase, it's just less likely to make errors later on.
+
+681
+00:50:08.535 --> 00:50:10.755
+聊天里有几个问题。
+There are some questions on the chat.
+
+682
+00:50:12.555 --> 00:50:12.795
+什么？
+What?
+
+683
+00:50:14.025 --> 00:50:16.995
+聊天里有几个问题。
+You have some questions at the chat.
+
+684
+00:50:17.116 --> 00:50:18.015
+好，知道了。
+Yeah. Okay.
+
+685
+00:50:21.705 --> 00:50:26.445
+新图片已经有了，似乎还可以直接拖进去。不行。
+Yeah, so if I got this new image now, actually I can even drag it now. No, I can't.
+
+686
+00:50:27.105 --> 00:50:28.395
+想得太美了。好。
+That was too good to be true. Okay.
+
+687
+00:50:31.695 --> 00:50:32.714
+我回到这里。
+I'm going to go back here.
+
+688
+00:50:34.635 --> 00:50:38.355
+以 week1 为例，选择新图片。
+Week one as an example. New image. I've got it selected.
+
+689
+00:50:38.565 --> 00:50:43.185
+然后在方括号中填写替代文本。
+And then on my alt text, I can put in the square brackets.
+
+690
+00:50:50.565 --> 00:50:54.015
+好了。别忘记提交。看左侧，
+There we go. Don't forget to commit. We look on the left.
+
+691
+00:50:54.075 --> 00:50:58.125
+有三个文件需要提交，包括 week1。
+We have three files we need to commit. So we got the week one.
+
+692
+00:50:58.185 --> 00:51:01.544
+打开后可以看到改动。对，新加了两张图片。
+I'm going to open it. It's going to show me the changes. Yeah, two new images.
+
+693
+00:51:02.565 --> 00:51:08.550
+还有正在上传的新图片。可以写“上传新图片”。
+I've got the new image I am uploading, and then, yeah, new image uploaded.
+
+694
+00:51:08.866 --> 00:51:11.535
+填好说明，再点击 Commit and Push。
+I write a message, and then I click Commit to push.
+
+695
+00:51:13.726 --> 00:51:14.610
+就这样，应该
+That's it. That should
+
+696
+00:51:15.106 --> 00:51:20.505
+就能
+then
+
+697
+00:51:21.495 --> 00:51:22.995
+现在回到我的……
+now if I go back to my...
+
+698
+00:51:30.495 --> 00:51:32.055
+这里有人问右键点击的问题。
+So there's a question here about right-clicking.
+
+699
+00:51:32.115 --> 00:51:36.900
+要确认点击的是文件夹。有些
+We have to make sure we're clicking the folder, and sometimes I notice on some
+
+700
+00:51:36.915 --> 00:51:38.505
+浏览器中，我发现可能需要先右键点击，
+browsers, it's like a right-click
+
+701
+00:51:40.425 --> 00:51:44.865
+再点一次。如果没有出现这个菜单，而是出现
+and then clicking it again. So if you don't get this pop-up because you get the one
+
+702
+00:51:44.895 --> 00:51:50.145
+浏览器自带菜单，有时快速再点一下 week1
+of the browser, sometimes just doing a quick click on the link on the week one
+
+703
+00:51:50.175 --> 00:51:54.405
+就可以。如果还不行，先选中 week1。
+again can work. If that doesn't work, select week one.
+
+704
+00:51:54.525 --> 00:51:56.835
+可以看到左侧已经高亮选中。
+So you see I have it highlighted in the left here.
+
+705
+00:51:57.315 --> 00:51:58.995
+然后顶部应该有
+Then at the top, you'll see
+
+706
+00:52:01.125 --> 00:52:02.025
+这种……
+this sort of...
+
+707
+00:52:03.856 --> 00:52:06.435
+哎，看看上面这里，
+Oops. If we go to the top here,
+
+708
+00:52:08.955 --> 00:52:10.096
+我记得应该可以……
+I'm pretty sure you can do...
+
+709
+00:52:13.065 --> 00:52:16.545
+不，这里是新建文件夹和新建文件。
+No, this is new folder, new file.
+
+710
+00:52:21.165 --> 00:52:21.405
+嗯。
+Hmm.
+
+711
+00:52:34.440 --> 00:52:38.235
+能恢复 Zensical 文件最初的设置吗？
+Can you go back to the original settings in the original Zankio file?
+
+712
+00:52:39.705 --> 00:52:41.145
+你的意思是撤销修改吗？
+You mean you want to revert?
+
+713
+00:52:44.266 --> 00:52:48.826
+如果觉得 Zensical 文件改错了，可以进入项目。
+If you think you've made a mistake in a Zankio file, you can go to your project.
+
+714
+00:52:48.915 --> 00:52:54.555
+我回到项目首页，查看文件列表，
+So if I go to my main page build project, I can look at the list of files.
+
+715
+00:52:55.485 --> 00:52:56.535
+然后点击
+I can then click
+
+716
+00:52:58.305 --> 00:53:03.585
+Zensical 的 TOML 配置文件，这里显示的是当前
+the Zankio TOML file, the configuration file, and so I'm looking at the current
+
+717
+00:53:03.645 --> 00:53:07.516
+版本。点击 History，也就是历史记录，
+version of it. If I go to History, I can click here, History.
+
+718
+00:53:09.016 --> 00:53:13.785
+就能看到针对这个文件的全部修改。
+I can see a list of all the changes I've made just to this file.
+
+719
+00:53:14.820 --> 00:53:20.175
+通过这些记录，例如我这里，或者
+And so by that, I can then, for example, in my case maybe,
+
+720
+00:53:21.405 --> 00:53:27.195
+你们可以找到第一次提交，也就是创建
+your case, you will go to the first commit, let's say, creating the
+
+721
+00:53:27.226 --> 00:53:33.180
+模板的那一次。我的历史很多，就看今天的一次。
+template. I have a big history, so I'm just going to go to the one from today.
+
+722
+00:53:33.195 --> 00:53:39.135
+打开提交后，选择 View this file，查看
+And then if I look at this commit, I can then say, "View this file." View the
+
+723
+00:53:39.165 --> 00:53:43.665
+四小时前这次提交时的完整文件。
+whole file for this specific commit that I wrote four hours ago.
+
+724
+00:53:43.726 --> 00:53:46.710
+然后可以复制全部内容。
+And then I can copy the whole contents.
+
+725
+00:53:46.755 --> 00:53:48.915
+这里有一个 Copy Contents 按钮。
+There's a little button here that says Copy Contents.
+
+726
+00:53:49.516 --> 00:53:52.351
+再把全部内容粘贴进
+And I can then just paste the whole contents into my
+
+727
+00:53:54.795 --> 00:53:55.201
+编辑器，
+editor
+
+728
+00:53:57.076 --> 00:54:00.285
+覆盖现有内容。这里就能看到文件发生了变化。
+and overwrite everything. And then I'll see here, okay, it's changed.
+
+729
+00:54:00.346 --> 00:54:04.785
+可以看到，它从 Julian 又变回了通用的占位
+And I can see, okay, now it's going back from Julian to that generic placeholder
+
+730
+00:54:04.815 --> 00:54:08.851
+名称。这是一种恢复和撤销修改的办法。
+name. So that's one way you could go back and undo things.
+
+731
+00:54:10.785 --> 00:54:12.045
+如果想更进一步，
+If you really want to go more,
+
+732
+00:54:13.275 --> 00:54:15.735
+更深入地操作，也可以使用 revert。
+if you want to go hardcore, there's revert.
+
+733
+00:54:15.826 --> 00:54:20.115
+Git 有很多强大的工具，可以回溯历史，
+I don't know if in Git, there's a lot of powerful tools to just go back in history
+
+734
+00:54:20.175 --> 00:54:25.335
+撤销提交。例如我可以点击之前看过的
+and just go reverse your commits. And so, for example, I can then click this commit
+
+735
+00:54:25.365 --> 00:54:27.435
+这一次提交。
+that I looked at previously.
+
+736
+00:54:32.596 --> 00:54:36.495
+右上角的选项里有 Revert。
+And then in the options on the top right, there's sort of an Options Revert.
+
+737
+00:54:37.335 --> 00:54:42.766
+它基本上会把整个项目回退到这次提交时的状态。
+Now, so this is going to basically roll back the whole project back to this commit.
+
+738
+00:54:42.826 --> 00:54:47.430
+之后做的所有提交，包括对其他文件的改动，都会被撤销，
+So all the previous commits you did, even to other files, they'll get undone, and
+
+739
+00:54:47.445 --> 00:54:51.255
+恢复成这次提交时整个仓库的状态。
+it'll go to whatever the state of the whole repo was when this commit was made.
+
+740
+00:54:51.915 --> 00:54:55.576
+也就是说，如果做了很多修改，全部出问题，自己也搞不清，
+So basically, if you do a bunch of changes and it's all breaking, you don't know
+
+741
+00:54:55.606 --> 00:54:59.356
+可以回到昨天还正常工作的状态。
+where you are, you can just go back to yesterday was working.
+
+742
+00:54:59.415 --> 00:55:02.235
+直接回到昨天，撤销今天做过的一切。
+So I'm just going to go back to yesterday, and you undo everything you did.
+
+743
+00:55:02.985 --> 00:55:05.205
+所以这是一个很彻底的操作。
+So it's a very nuclear reaction
+
+744
+00:55:06.969 --> 00:55:07.914
+其实刚才说得不对，那是
+Actually, that's not true. That's
+
+745
+00:55:10.179 --> 00:55:15.083
+reset，这里不能执行。抱歉，我说错了。
+reset, which you can't do through here. Sorry, I misspoke.
+
+746
+00:55:15.129 --> 00:55:18.459
+它们是两种操作，有一种是回退，但这里实际上是 revert。
+There's two ones. There's the rollback, but this is actually revert.
+
+747
+00:55:18.489 --> 00:55:18.954
+所以这里是
+So this is
+
+748
+00:55:20.199 --> 00:55:26.019
+反向撤销。刚才我手动复制粘贴，现在只要
+going to reverse. So instead of copy and pasting what I just did, I can just
+
+749
+00:55:26.079 --> 00:55:28.509
+点击这里，它就会替我新建一个提交。
+click this, and it's going to make a commit
+
+750
+00:55:31.839 --> 00:55:36.309
+我刚才复制旧内容、手动创建提交的操作，
+for me. So what I was doing where I copy the contents in and make a commit
+
+751
+00:55:36.369 --> 00:55:38.169
+这个功能会自动完成。
+manually, this one's just going to do it for me.
+
+752
+00:55:38.229 --> 00:55:40.509
+可以看到，它现在新增了一次名为 revert 的提交。
+So if you see here now it made a new commit saying revert.
+
+753
+00:55:40.569 --> 00:55:42.789
+因此，它只撤销某一次特定提交。
+So this is just reverting a specific commit.
+
+754
+00:55:43.719 --> 00:55:45.369
+我还看到这里
+And I can see here
+
+755
+00:55:47.500 --> 00:55:47.799
+似乎
+that
+
+756
+00:55:49.089 --> 00:55:50.559
+所有任务也都失败了。
+all the jobs are failing also.
+
+757
+00:56:00.190 --> 00:56:01.269
+没事，我只是在检查服务器。
+No, I'm just checking my server.
+
+758
+00:56:03.669 --> 00:56:05.019
+希望这样解释清楚了一些。
+So I hope that's explaining something.
+
+759
+00:56:05.079 --> 00:56:10.030
+如果某次提交修改了七个文件，这就是快速撤销
+So, if one commit's making changes of seven files, that's a quick way of reverting
+
+760
+00:56:10.089 --> 00:56:11.019
+一批文件改动的方式。
+a bunch of files.
+
+761
+00:56:15.459 --> 00:56:18.789
+更彻底地回退整个提交历史，则需要
+So then the more nuclear option of rolling back your whole commit, you have to do
+
+762
+00:56:18.849 --> 00:56:23.530
+在自己电脑上操作。如果感兴趣，可以深入了解。
+it locally in your computer. And I think if you want to go down, that's very
+
+763
+00:56:23.589 --> 00:56:28.839
+Web Editor 的特点是，每次修改，例如
+interesting. So the thing with the web editor is every time I make a change, so
+
+764
+00:56:28.900 --> 00:56:30.910
+修改 Markdown 文件时，
+let's say I'm making a change to a markdown file,
+
+765
+00:56:32.364 --> 00:56:35.739
+尤其是这些特殊组件，有时并不知道
+even sometimes with these, like this one, I don't know what it looks like.
+
+766
+00:56:35.769 --> 00:56:36.789
+最终会显示成什么样。
+I don't know how it's going to look like.
+
+767
+00:56:36.849 --> 00:56:40.569
+必须先提交，等待项目构建，大概十到二十
+I have to commit it, wait for it to build the project, which is like 10, 20
+
+768
+00:56:40.660 --> 00:56:43.419
+秒，然后才能在网站上看到效果。
+seconds, and then I can see what it looks like on my website.
+
+769
+00:56:48.489 --> 00:56:48.759
+所以，
+So
+
+770
+00:56:51.069 --> 00:56:54.444
+如果在自己电脑上工作，把这个项目下载并
+if I would work locally on my computer, if I would download this project and
+
+771
+00:56:54.489 --> 00:56:59.709
+安装到本机，再安装 Zensical，就可以
+install it on my computer, then I can install Zikulo on my computer, and I can run
+
+772
+00:56:59.739 --> 00:57:03.190
+在本地浏览器运行，不必每次提交。
+it locally in my browser without having to make commits.
+
+773
+00:57:03.250 --> 00:57:08.739
+也就是在本地运行网站。
+It's sort of running the website locally.
+
+774
+00:57:08.785 --> 00:57:11.919
+它会在电脑上构建项目，生成可以打开的 HTML 文件。
+It's going to build the project on your computer, and you can open the HTML files.
+
+775
+00:57:11.949 --> 00:57:15.759
+能看到这些 HTML 文件，在浏览器中打开，查看
+You'll see the HTML files, and you can open them in your browser and see what it
+
+776
+00:57:15.789 --> 00:57:17.799
+最终效果，而不需要提交。
+would look like without making any commits.
+
+777
+00:57:17.829 --> 00:57:21.819
+等全部改动都满意了，也许已经工作了一整天，
+And then once you're very happy with all the changes, maybe it's a full day of
+
+778
+00:57:21.879 --> 00:57:23.829
+再统一做一次较大的提交。
+work, then you can make one big commit.
+
+779
+00:57:24.519 --> 00:57:29.530
+这是另一种工作方式，也更方便，因为不必始终
+So that's another way of working, and it's nicer because then you don't have to
+
+780
+00:57:29.559 --> 00:57:31.780
+在浏览器里编辑，具体还取决于电脑速度。
+work in a browser. It depends how fast your computer is.
+
+781
+00:57:31.839 --> 00:57:36.849
+如果所有修改都在这里完成，编辑器有时会比较慢。
+Sometimes, the editor's a bit slow if you're doing all your changes in here.
+
+782
+00:57:36.879 --> 00:57:40.419
+改一个拼写错误，提交，然后等待；
+But if you're making one spelling mistake, commit, wait.
+
+783
+00:57:40.900 --> 00:57:45.190
+上传一个文件，又等待、提交，整个过程可能很慢。
+One upload file, wait, commit, and then it can be quite a slow progress.
+
+784
+00:57:45.219 --> 00:57:45.459
+因此，
+So
+
+785
+00:57:46.900 --> 00:57:48.954
+可以先学会
+I either learn the
+
+786
+00:57:50.229 --> 00:57:54.069
+Markdown，把修改集中起来，比如上传并插入三张图片，
+markdown and try and do all your changes and upload three images and add them,
+
+787
+00:57:54.129 --> 00:57:57.128
+写一些文字，然后一起提交。
+write some text, and then commit because it sort of guess.
+
+788
+00:57:57.429 --> 00:58:01.644
+逐渐会掌握规律，知道图片大概会显示成什么样，
+You'll start to see a pattern. You know that this image is going to look like this,
+
+789
+00:58:02.319 --> 00:58:04.375
+尤其经过第一周、第二周之后，
+especially after the first and second week.
+
+790
+00:58:04.660 --> 00:58:07.959
+你会熟悉自己想用的布局。
+You'll know the kinds of layouts you want to do.
+
+791
+00:58:07.989 --> 00:58:12.174
+如果总喜欢把图片放右边，或者使用蓝色按钮，
+If you always like an image on the right or you always like blue buttons, then
+
+792
+00:58:12.219 --> 00:58:14.829
+就可以每次复制同样的按钮，无需每次提交
+you're going to copy that blue button every time, and you don't need to commit to
+
+793
+00:58:14.859 --> 00:58:17.589
+才能知道效果。可以先做一批修改，再提交。
+see what it looks like. You can do a bunch of work and then commit.
+
+794
+00:58:18.129 --> 00:58:20.229
+这样能节省时间。
+So it's just speeding up your time.
+
+795
+00:58:24.219 --> 00:58:29.709
+我也注意到
+Yeah. I've also noticed the
+
+796
+00:58:30.160 --> 00:58:35.319
+GitLab 有点慢。这门课上常会这样，因为大家同时
+GitLab is a bit slow. I think it's always that with this class, everyone's trying
+
+797
+00:58:35.379 --> 00:58:39.280
+尝试各种操作，服务器会特别忙。
+everything at the same time, and so then the server's just especially busy.
+
+798
+00:58:41.049 --> 00:58:45.549
+如果有些操作失败……我看到自己的流水线失败了。
+So I think if some things are failing, I notice my pipeline has failed.
+
+799
+00:58:45.639 --> 00:58:51.369
+这正好可以作为例子。我回去打开，看看为什么
+This is a good example. I can go back and I'm going to open this, why did
+
+800
+00:58:51.429 --> 00:58:51.759
+我的
+my
+
+801
+00:58:53.109 --> 00:58:56.049
+网站没有构建成功？这里有一条错误。
+website not build? And I can see I got an error.
+
+802
+00:58:59.679 --> 00:59:01.690
+看，这正好可以示范。我来读一下。
+Oh, so you see this is a good way. So I'm looking.
+
+803
+00:59:01.719 --> 00:59:04.389
+它说无法渲染……页脚。
+Okay, so it could not render blah, blah footer.
+
+804
+00:59:04.449 --> 00:59:08.125
+我没有直接修改页脚，再往下看……
+Okay, well, I didn't change anything in the footer, but blah, blah, blah, blah.
+
+805
+00:59:08.559 --> 00:59:10.315
+出现了 social。哦，社交链接。
+And then social. Oh, social.
+
+806
+00:59:11.650 --> 00:59:15.759
+接着查找图标，再读下去看到了 LinkedIn。
+Then it's looked in icons, and now I read down the text, LinkedIn.
+
+807
+00:59:15.910 --> 00:59:18.609
+我确实改过 LinkedIn，看来可能没有
+I did do something about a LinkedIn, and it looks like I didn't
+
+808
+00:59:19.839 --> 00:59:21.250
+正确填写 LinkedIn 的名称，或者……
+write LinkedIn correctly or...
+
+809
+00:59:23.619 --> 00:59:26.589
+这就是我解读错误信息的方式。
+So this is sort of an example of how I would interpret these errors.
+
+810
+00:59:26.619 --> 00:59:30.819
+它未必直接告诉你哪里错了，需要推断一下。
+They're not going to tell you exactly what's wrong. You sort of have to guess.
+
+811
+00:59:30.910 --> 00:59:35.769
+网站正在尝试构建页脚，然后
+What's the website trying to do is trying to build the footer, and then it trying
+
+812
+00:59:35.799 --> 00:59:38.500
+读取配置文件，却找不到某个东西。
+to read the configuration file, and it can't find something.
+
+813
+00:59:38.559 --> 00:59:41.109
+这时我想起自己改过 TOML 文件。
+And so I remember I did something with the TOML file.
+
+814
+00:59:41.769 --> 00:59:43.929
+所以回到 TOML 文件，
+So if I go back to my TOML file,
+
+815
+00:59:46.000 --> 00:59:50.559
+找到 social，就在下面这里。
+I can then find social, yeah, down here.
+
+816
+00:59:52.299 --> 00:59:52.569
+然后，
+And
+
+817
+00:59:54.069 --> 00:59:55.254
+哦，我已经撤销了。
+oh, I already reverted it.
+
+818
+00:59:56.859 --> 00:59:59.799
+也可能没有，我还没提交。提交一下。
+Maybe not. I didn't commit it. Commit.
+
+819
+01:00:12.069 --> 01:00:16.449
+这又是个好例子。大家看，这里提示：
+This is a good example. Everyone, look, I have this message here that says, "The
+
+820
+01:00:16.509 --> 01:00:22.179
+“你编辑期间，文件已经发生变化。”我一直开着这个标签页，
+file has changed while you're editing it." So I had this tab open, and I
+
+821
+01:00:22.209 --> 01:00:26.214
+但记得刚才执行了 revert。也可以想象，我在另一个标签页编辑了文件，
+remember I did the revert. So let's imagine I had another tab, and I edited a file,
+
+822
+01:00:26.289 --> 01:00:29.273
+或者在本地改动后推送了提交。
+or I did something locally, and I pushed those commits.
+
+823
+01:00:29.410 --> 01:00:33.054
+现在这个标签页告诉我：“你看的已经不是最新版本。
+Now this tab is telling me, "Actually, you're not on the latest version.
+
+824
+01:00:33.069 --> 01:00:37.405
+在它打开期间，项目又发生了其他变化。”因此，
+There's other stuff has happened to your project while you had this open." So it
+
+825
+01:00:37.719 --> 01:00:43.389
+无法直接提交这些修改，因为修改前后的基准
+cannot commit those changes because the place where it's the changing from to is
+
+826
+01:00:43.449 --> 01:00:47.019
+已经不同，系统担心覆盖你刚做过的其他工作。
+different. It's like, wait a minute, I might override something you already did.
+
+827
+01:00:48.160 --> 01:00:52.030
+这时只能重新加载整个标签页，但会丢掉未提交的修改。
+So the only thing here is to reload the whole tab, so I will lose my changes.
+
+828
+01:00:53.199 --> 01:00:56.979
+幸好这里只改了一个文件，可以先复制内容，再刷新
+But luckily, it's only one file, so I can copy it, and then I can just reload the
+
+829
+01:00:57.039 --> 01:00:57.549
+整个页面。
+whole page.
+
+830
+01:00:58.869 --> 01:01:01.599
+这也是本地工作
+And this is kind of another reason why working locally
+
+831
+01:01:02.829 --> 01:01:08.694
+更有优势的原因之一：不太容易丢失工作，因为提交和推送前，
+has advantages because, losing work is less of an issue because they're
+
+832
+01:01:08.739 --> 01:01:14.019
+内容只是电脑上的普通文件。而浏览器可能崩溃，
+just files on your computer until you commit and push them. A browser can crash.
+
+833
+01:01:14.440 --> 01:01:15.879
+或者遇到这种必须
+I get something like this that I have to
+
+834
+01:01:18.039 --> 01:01:19.824
+重新加载标签页的情况，导致内容丢失。
+reload my tab, and I could lose work.
+
+835
+01:01:20.139 --> 01:01:23.139
+所以在浏览器里工作时，人们有时会频繁提交。
+So that's sometimes why people commit often when they're in the tab.
+
+836
+01:01:23.979 --> 01:01:25.389
+如果在本地运行，就……
+But if you run locally, it's...
+
+837
+01:01:27.160 --> 01:01:29.440
+不知道我的时间还剩多少，有人能提醒吗？
+I don't know how I am from time, anyone.
+
+838
+01:01:31.509 --> 01:01:34.958
+我还想快速介绍一下 CSS。
+I wanted to just quickly talk about that there's also CSS.
+
+839
+01:01:35.079 --> 01:01:35.259
+那么，
+So,
+
+840
+01:01:36.728 --> 01:01:39.309
+Zensical 会生成……
+Zikulo is going to make...
+
+841
+01:01:40.569 --> 01:01:42.429
+啊，这就是刚才有人提到的问题。
+Ah, this is the problem someone was talking about.
+
+842
+01:01:46.989 --> 01:01:47.949
+我继续往下讲。
+I'm going to push ahead.
+
+843
+01:01:51.910 --> 01:01:55.989
+打开仓库，看来服务器相当忙。
+If I open my repository, I think the server's quite busy.
+
+844
+01:01:58.750 --> 01:02:00.729
+是的，非常忙。
+Yeah. It's very busy.
+
+845
+01:02:09.129 --> 01:02:14.619
+在 docs 文件夹中，有 stylesheets 文件夹和 extra.css
+Inside the docs folder, there's a file called stylesheets and extra
+
+846
+01:02:14.650 --> 01:02:20.500
+文件。在这里可以自定义
+CSS. In here, you can then customize the
+
+847
+01:02:20.679 --> 01:02:23.979
+Zensical 模板所使用的样式。
+styling that the Zikulo template uses.
+
+848
+01:02:24.039 --> 01:02:29.919
+例如，它规定了某种字号，或者标题、按钮
+So, they decide to have font sizes of this, or the headings and buttons
+
+849
+01:02:29.949 --> 01:02:35.229
+是某种样式。我们可以用 CSS 修改，
+look like this. And so we can use CSS to sort of change that, so changing the
+
+850
+01:02:35.289 --> 01:02:36.789
+覆盖 Zensical 的默认设置。
+default that Zikulo uses.
+
+851
+01:02:38.079 --> 01:02:42.009
+简单来说，这些 CSS 会指定目标。
+And so these are the CSS, just very quickly, it sort of has these sort of targets.
+
+852
+01:02:42.099 --> 01:02:47.410
+意思是找到 HTML 中带有某种
+These are saying, find any element in the HTML that has this sort of
+
+853
+01:02:47.859 --> 01:02:51.625
+标记的元素。每个元素都可以加标记，准确名称
+tag on it, so that each element you can assign tags called, well, they're called
+
+854
+01:02:51.699 --> 01:02:53.199
+是 class，也就是类。
+classes. I should call them class.
+
+855
+01:02:54.489 --> 01:03:00.459
+因此，这段是在说：找到具有这个 class 的 HTML 元素，
+And so it's telling me, find an element on HTML with this class and then change
+
+856
+01:03:00.489 --> 01:03:01.389
+然后修改默认颜色。
+the default color.
+
+857
+01:03:02.650 --> 01:03:07.329
+这些叫 CSS 颜色变量。Zensical 文档中可以找到
+So these are called CSS variable colors, and in the Zikulo documentation, you can
+
+858
+01:03:07.419 --> 01:03:08.949
+一些
+find some
+
+859
+01:03:10.389 --> 01:03:12.684
+默认值，再进行修改。
+of the defaults, so you can change them.
+
+860
+01:03:12.819 --> 01:03:18.084
+我讲得比较快，但建议深入探索一下
+A good way, I'm going quick, but you have to sort of go down the rabbit hole of
+
+861
+01:03:18.160 --> 01:03:23.259
+CSS。我打开……这里是在浏览器中，打开了开发者工具。
+CSS. So if I open my... This is in the browser, so I've got a new developer tool.
+
+862
+01:03:23.349 --> 01:03:26.139
+刚才右键点击，再选择 Inspect。
+I right-clicked, and I did inspect.
+
+863
+01:03:26.979 --> 01:03:29.859
+现在看到的是这个
+And so I'm actually looking at the HTML for this
+
+864
+01:03:34.089 --> 01:03:37.690
+元素的 HTML。它是一个列表项，LI 表示列表项。
+element. So right, so it's a list. LI is a list.
+
+865
+01:03:38.199 --> 01:03:40.750
+它有一个名为 MD nav link item 的 class。
+It's got a class called MD nav link item.
+
+866
+01:03:41.799 --> 01:03:46.690
+这里还能看到作用于它的全部 CSS。没有内边距，
+And then I can also see here all the CSS that's applied to it. It's got no padding.
+
+867
+01:03:46.780 --> 01:03:49.629
+也没多少其他样式，因为它只是一个列表项。
+It's got no styling. It's not got much because it's just a list.
+
+868
+01:03:49.750 --> 01:03:51.759
+字号是 0.7。
+And it's got a font size of 0.7.
+
+869
+01:03:53.169 --> 01:03:56.139
+现在可以说：“我希望这个列表使用不同的样式。”
+So now I can say, "Well, actually, I want the list to have a different styling." So
+
+870
+01:03:56.199 --> 01:04:00.910
+于是可以在上面输入 font-size，然后设成
+then I can write here at the top, I can write font size, and then I can write,
+
+871
+01:04:00.969 --> 01:04:06.940
+0.8，或者 0.1。
+well, make it 0.8 or 0.1. And
+
+872
+01:04:07.179 --> 01:04:10.509
+如果觉得这个字号不错，就需要复制
+say, "Yeah, I like this font size." So then you say, "Okay, well, I've got to copy
+
+873
+01:04:10.660 --> 01:04:16.269
+这条规则，放进 CSS 文件。同时还要复制 MD nav
+this and then put it in the CSS file." And then you've also got to copy the MD nav,
+
+874
+01:04:16.359 --> 01:04:17.259
+这个选择器，然后写成……
+and then you would say, like...
+
+875
+01:04:19.269 --> 01:04:20.619
+果然又不能用了。
+Of course, it's not working
+
+876
+01:04:22.254 --> 01:04:23.125
+刚才不该刷新。
+I shouldn't have reloaded.
+
+877
+01:04:24.804 --> 01:04:29.949
+把它放在这里，填入 MD nav，再在第二行
+And so you put it in here, you put in MD nav, and then you put it the second line
+
+878
+01:04:29.964 --> 01:04:31.824
+写字号。也就是把这里的属性换成 font-size。
+in the font. So instead of this, you put font size.
+
+879
+01:04:31.884 --> 01:04:34.285
+刚才做的是临时实验，对吧？
+So what I was experimenting-- This is an experiment, right?
+
+880
+01:04:34.375 --> 01:04:38.004
+我直接在浏览器里调整，所以刷新后，刚改的字号就没了。
+I'm doing it live in the browser, so if I reload, I lose this font size seven.
+
+881
+01:04:38.544 --> 01:04:42.084
+但这种方法非常适合直接调整网站，
+But this is a great way to, I can manipulate my website in here, do some
+
+882
+01:04:42.114 --> 01:04:46.254
+做些 CSS 实验。深入了解后，会发现 CSS 很有意思。
+experiments with CSS. Your mind will get blown if you get into CSS.
+
+883
+01:04:46.315 --> 01:04:50.949
+它的词汇很直观：字号、内边距、外边距、
+It's really straightforward. The wording is font size, padding, margins,
+
+884
+01:04:52.824 --> 01:04:58.044
+背景。所以理解起来不难，关键是找到如何
+background. So it's quite intuitive and I think just sort of finding how you can
+
+885
+01:04:58.104 --> 01:05:02.394
+选中目标元素。这样就能调整网站的视觉效果，
+target it. And that's how you can take your website visually, make it a bit
+
+886
+01:05:02.424 --> 01:05:05.634
+做出一点自己的风格，进一步进阶。
+different, sort of get a bit more advanced.
+
+887
+01:05:07.344 --> 01:05:12.804
+我很建议做一些网上的简单教程，例如
+And, yeah, I really suggest doing some very simple tutorials on the internet, like
+
+888
+01:05:12.984 --> 01:05:18.264
+W3Schools 的 CSS 教程，或者问 AI：“请解释
+W3Schools has great CSS tutorial or ask your AI, "Please explain
+
+889
+01:05:18.354 --> 01:05:23.679
+CSS，教我 CSS。”不要让它代做，而是请它教你。
+me CSS. Teach me CSS." Right? "Don't do something for me, just teach it to me." And
+
+890
+01:05:23.694 --> 01:05:27.099
+然后自己尝试：既然已经知道如何修改
+then try and figure out, okay, now that I know how to change a color in the
+
+891
+01:05:27.204 --> 01:05:32.364
+背景颜色，那该怎样做一个自己的按钮？
+background, how would I make my own button? Sort of, yeah.
+
+892
+01:05:34.194 --> 01:05:37.584
+再说一次，本地工作很有用，我快速展示一下。
+Again, I think working locally is really-- I'm going to quickly show you.
+
+893
+01:05:38.514 --> 01:05:41.574
+Zensical 文档会说明如何在
+If you look at the documentation on Zekio, they'll explain you how to install
+
+894
+01:05:41.589 --> 01:05:43.464
+本机安装，非常简单，只需要 Python。
+locally. It's very simple. You just need Python.
+
+895
+01:05:43.525 --> 01:05:45.324
+例如在 Mac 上，我们这里有 Python。
+For example, on Mac, we have Python.
+
+896
+01:05:45.834 --> 01:05:50.094
+运行这些命令来初始化 Python 环境，
+You just need to run these commands to then sort of initialize Python and then
+
+897
+01:05:50.155 --> 01:05:56.079
+然后安装 Zensical。接着构建并启动本地服务，访问 localhost，
+install Zekio. And then when you do Zekio build, you do local host, which is
+
+898
+01:05:56.094 --> 01:05:59.199
+也就是只在自己电脑上打开网站，不在互联网上。
+basically opening a website just on your computer. It's not on the internet.
+
+899
+01:05:59.440 --> 01:06:04.914
+这样就能看到网站，每次编辑文件，网站都会
+And then you can see your website. So every time you edit a file, your website
+
+900
+01:06:04.944 --> 01:06:06.369
+更新。所以这个方法很好，
+updates. So it's a great way,
+
+901
+01:06:08.275 --> 01:06:10.704
+但需要先克隆项目。关于如何克隆，
+but you'll have to clone it, and so to clone it...
+
+902
+01:06:13.584 --> 01:06:16.164
+我先看看还有没有其他问题。
+I'm going to look if there's any more questions before I get into that.
+
+903
+01:06:19.674 --> 01:06:22.405
+对，提交就是实际保存下来的一次修改，
+Yeah, so a commit is the actual saved change.
+
+904
+01:06:22.434 --> 01:06:27.834
+也就是从旧内容到新内容、从左边到右边的具体变化。
+So that's a specific change from old to new, left to right.
+
+905
+01:06:28.494 --> 01:06:32.724
+Job 是每次提交后需要执行的
+And the jobs is sort of the work that needs to be done every time you make a
+
+906
+01:06:32.815 --> 01:06:37.315
+工作。提交记录变化，任务则实际构建网站。
+commit. So the commit is the change, and the job is actually building your website.
+
+907
+01:06:37.554 --> 01:06:40.523
+它们相互关联，所以我们希望任务显示绿灯。
+So they have to go in together. That's why we want the job is the green light.
+
+908
+01:06:41.065 --> 01:06:44.394
+绿灯表示任务成功完成，
+When you have the green light, then the job completed successfully, and it
+
+909
+01:06:44.424 --> 01:06:45.504
+网站也已发布。
+published your website.
+
+910
+01:06:46.854 --> 01:06:49.464
+通常不需要一直关注这两者。
+Usually, you don't need to know anything about both.
+
+911
+01:06:49.525 --> 01:06:55.434
+如果想回头查哪里出了问题，想改什么，或者
+The commits is like, if I need to go back and figure out what went wrong or what
+
+912
+01:06:55.464 --> 01:06:58.644
+不小心删掉了什么，才需要打开
+do I want to change, or what did I accidentally delete, then you would go back into
+
+913
+01:06:58.674 --> 01:07:04.269
+提交列表，也就是历史记录，寻找相关变化。
+your list of commits, the history, and see what may have gone, find
+
+914
+01:07:04.315 --> 01:07:08.544
+至于任务，只需关心最新的一次。
+whatever. And the jobs, you only care about the most recent one.
+
+915
+01:07:08.604 --> 01:07:14.394
+如果提交了七次，前六次都失败，但最后一次
+So if you make seven commits and six of them fail, but the last
+
+916
+01:07:14.454 --> 01:07:16.854
+成功了，那就没问题。
+one passed, that's all that matters.
+
+917
+01:07:17.484 --> 01:07:17.724
+如果
+If
+
+918
+01:07:19.494 --> 01:07:24.639
+提交了六次，前五次成功，最后一次失败，
+you make six commits and all five of them pass, but the last one failed, that's the
+
+919
+01:07:24.684 --> 01:07:28.344
+就需要处理。关键总是最新一次，因为网站
+problem. It's always the last one, the most recent one, because on the website, you
+
+920
+01:07:28.375 --> 01:07:33.414
+只会呈现一个版本，最近执行成功的任务决定
+can only have one website. So it's always the last job that ran that will sort of
+
+921
+01:07:33.443 --> 01:07:34.884
+发布出来的实际内容。
+publish the website, the truth.
+
+922
+01:07:36.294 --> 01:07:36.504
+好。
+So yeah.
+
+923
+01:07:37.824 --> 01:07:41.155
+关于克隆，我确实很推荐。
+About cloning, again, yeah, I really suggest cloning.
+
+924
+01:07:42.444 --> 01:07:46.074
+网上有很多适用于 Mac 或 Linux 等系统的克隆教程。
+There are some great tutorials on how to clone for yours or whether Mac or Linux.
+
+925
+01:07:46.164 --> 01:07:50.604
+也可以查看 GitLab 文档。
+You could look at the documentation of GitLab.
+
+926
+01:07:50.664 --> 01:07:55.254
+因为使用的是这个平台，所以它的文档会说明
+So that's the software you would use, so their documentation shows you how you can
+
+927
+01:07:55.854 --> 01:07:59.094
+如何在电脑上设置 Git，连接
+set up Git on your computer to be able to link
+
+928
+01:08:00.384 --> 01:08:04.044
+GitLab，也就是服务器上的仓库，与自己的电脑。
+GitLab, our server repo, and your computer.
+
+929
+01:08:04.104 --> 01:08:08.364
+需要使用 SSH 密钥，这也是要学习的一部分。
+You have to use a thing called SSH keys. So that's something you'll get into.
+
+930
+01:08:08.378 --> 01:08:12.354
+在电脑上生成 SSH 密钥，让 GitLab 识别，
+And then you can create an SSH key on your computer that then GitLab knows, and
+
+931
+01:08:12.384 --> 01:08:16.315
+两边就能通信。GitLab 或 GitHub 的文档
+then you can talk to each other. So if you look at the GitLab or the GitHub's
+
+932
+01:08:16.344 --> 01:08:19.525
+介绍的基本思路是一样的。
+documentation, it's sort of the same idea.
+
+933
+01:08:20.724 --> 01:08:23.574
+然后打开 Code。
+And then what you're doing is you're going to code.
+
+934
+01:08:23.634 --> 01:08:27.684
+看到这个黑色大按钮 Code，里面有克隆选项。
+You see this big black box that's code, and you say clone.
+
+935
+01:08:27.864 --> 01:08:28.780
+选择通过……
+You want to clone with--
+
+936
+01:08:31.315 --> 01:08:36.054
+通过 SSH 克隆。因为我缩放了页面，现在有些不明显。这里。
+Well, with SSH, it's a bit hidden now because I'm zoomed out. There.
+
+937
+01:08:36.174 --> 01:08:38.874
+复制这个链接，之后运行……
+You want to copy this link, and then when you run...
+
+938
+01:08:41.544 --> 01:08:43.525
+我现在打开了终端。需要打开 Terminal。
+I'm in a terminal now. You have to open Terminal.
+
+939
+01:08:45.474 --> 01:08:51.444
+进入一个文件夹，然后输入 git
+I can go to a folder or something, and I'm going to do Git
+
+940
+01:08:51.565 --> 01:08:56.995
+clone，粘贴网址，就会把项目克隆到电脑。
+clone, and I paste the URL, and then it should just clone it to my computer.
+
+941
+01:08:57.054 --> 01:09:00.204
+相当于下载整个仓库的完整副本，包括全部
+So it's sort of downloading the whole copy of the whole repository with all the
+
+942
+01:09:00.264 --> 01:09:04.944
+历史记录。这个仓库中我做过的每一次修改，现在也都在
+history. So every single change I ever made to this repository is now on my
+
+943
+01:09:04.974 --> 01:09:05.664
+电脑上了。
+computer as well.
+
+944
+01:09:06.894 --> 01:09:07.208
+接着，
+And
+
+945
+01:09:09.204 --> 01:09:13.164
+文件已经在这里，可以用 cd 切换
+so here's it. So if I look at the file, the file is here, so I can then CD change
+
+946
+01:09:13.194 --> 01:09:17.934
+目录，进入 Fabricademy 项目。现在位于仓库内部。
+directory, Fabry Academy. So I'm now inside the repository.
+
+947
+01:09:18.084 --> 01:09:21.294
+可以运行 git status，查看
+I can do a Git status. I'm looking at, okay,
+
+948
+01:09:23.275 --> 01:09:28.764
+哪些内容发生变化。举个例子，我现在……
+what did you change in this file? I can then, as an example, I'm going to just--
+
+949
+01:09:30.084 --> 01:09:34.044
+大家可以打开自己的文本编辑器，我这里只是在这个窗口打开一个编辑器。
+You will open your own text editor. I'm just opening an editor in this browser.
+
+950
+01:09:34.134 --> 01:09:34.374
+不用
+Don't
+
+951
+01:09:36.144 --> 01:09:39.204
+在意这个工具，我只是快速修改一个文件，
+worry about this. I'm just quickly editing a file so
+
+952
+01:09:40.794 --> 01:09:43.044
+然后保存。现在已保存。
+I can then save it. So now I saved it.
+
+953
+01:09:43.074 --> 01:09:48.924
+运行 git status，电脑会告诉我有一个已修改的
+If I do Git status, so now on my computer, it's telling me I have one modified
+
+954
+01:09:48.954 --> 01:09:54.025
+文件。它目前只在本地。如果查看具体改动，显示差异，
+file. This is just on my computer. If I see what changed, show me the difference.
+
+955
+01:09:54.144 --> 01:09:57.324
+就能看到 index 文件中改了什么。
+It's showing me, okay, in this file index, this file changed,
+
+956
+01:09:58.884 --> 01:10:01.554
+然后可以准备提交，先运行 add。
+and then I can make a commit. So I can say add.
+
+957
+01:10:04.314 --> 01:10:06.894
+也就是选择把这个文件加入待提交范围。
+Say, if you want to add this file to be committed, yes.
+
+958
+01:10:07.044 --> 01:10:12.684
+再运行 git status，就会看到这些文件将被
+And then I say, "Okay, Git status." These are the files that will be
+
+959
+01:10:12.714 --> 01:10:16.074
+提交。接着运行 git commit -m，填写说明。
+committed. I do commit M, I.
+
+960
+01:10:19.884 --> 01:10:24.114
+然后运行 git push，进行推送。
+And then I can do a Git push, and then I do a Git push.
+
+961
+01:10:25.644 --> 01:10:28.194
+这与刚才在浏览器里做的是同一套操作。
+So this is the same bit what I was doing in the browser.
+
+962
+01:10:28.314 --> 01:10:31.404
+这里可以选择需要提交的文件。浏览器中刚才没有选择，
+So if I can choose the file I want. Well, I couldn't choose in the browser, but I
+
+963
+01:10:31.434 --> 01:10:34.104
+但本地需要先选择，再提交、推送。
+have to choose it here. I commit, and then I push it,
+
+964
+01:10:35.424 --> 01:10:40.074
+操作成功了，因为电脑上已经配置过 SSH 密钥，
+and then it's successful. It's successful because I already made an SSH key on my
+
+965
+01:10:40.104 --> 01:10:43.644
+所以电脑已经能够连接服务器。
+computer, so my computer's already connected with the server.
+
+966
+01:10:44.934 --> 01:10:49.733
+可以看到作者不是我，因为我用了别人的电脑。
+And so, yeah, as you can see, it's not me. I used someone else's computer.
+
+967
+01:10:50.544 --> 01:10:54.264
+提交已经完成，但项目似乎仍然失败。
+So I made a commit. I still have a failed project, it seems.
+
+968
+01:10:55.164 --> 01:10:57.054
+刚才那个问题还没有修复。
+I didn't fix my previous one.
+
+969
+01:11:06.894 --> 01:11:12.504
+对，Kim，如果你是续读的
+Yeah. Kim, and if you're continuing
+
+970
+01:11:12.535 --> 01:11:18.324
+学员，可能会看到 MkDocs，这是我们
+students, you may see MK Docs. That was the project we used
+
+971
+01:11:18.384 --> 01:11:23.664
+去年使用的项目。基本一样，只是配置文件用 YAML，而不是 TOML。
+last year. Everything's the same, except it's a YAML file and not a TOML file.
+
+972
+01:11:24.714 --> 01:11:27.474
+概念和功能是相同的。
+But the same concept, the same features are there.
+
+973
+01:11:27.535 --> 01:11:31.493
+只需要查阅 Material for MkDocs 主题的文档。
+You just have to look at the documentation for the material MK Docs theme.
+
+974
+01:11:31.554 --> 01:11:32.124
+然后，
+And then
+
+975
+01:11:36.264 --> 01:11:39.444
+分享一下。接着演示如何运行。
+share it. So yeah, I want to show, yeah, how can I run it?
+
+976
+01:11:39.535 --> 01:11:43.884
+刚才介绍了提交。在 Mac 上，最简单的方法是……
+I showed you how to commit. So on a Mac, the easiest way to--
+
+977
+01:11:47.544 --> 01:11:50.139
+这里的 Python 已经安装，所以不用重新安装，只需
+Your Python's already installed, so you don't need to install it, you just need to
+
+978
+01:11:50.245 --> 01:11:54.144
+启用环境。可以输入这些命令。
+activate it. And the best way is to sort of write these commands.
+
+979
+01:11:54.189 --> 01:11:58.704
+这条命令用于准备 Python 环境。
+So this is telling me I want to activate Python.
+
+980
+01:11:58.824 --> 01:12:04.314
+在刚克隆的项目中执行，然后需要激活
+You do this inside the project that you cloned, and then you need to activate
+
+981
+01:12:04.374 --> 01:12:05.754
+这个环境。
+it.
+
+982
+01:12:09.535 --> 01:12:15.414
+激活后，再运行 pip install zensical。
+You activate it, and then I have to do pipe install Zekico.
+
+983
+01:12:17.454 --> 01:12:25.314
+这会
+It's
+
+984
+01:12:25.344 --> 01:12:26.934
+把 Zensical 安装到我的电脑上。
+installing Zekio on my computer.
+
+985
+01:12:28.734 --> 01:12:31.164
+我会把命令贴出来，有兴趣的可以尝试。
+I'm going to paste it in the commands if anyone wants to try.
+
+986
+01:12:31.224 --> 01:12:32.514
+我知道这套方法在 Mac 上能运行。
+So I know this works on Mac.
+
+987
+01:12:39.834 --> 01:12:42.114
+现在执行 zensical
+And now if I do Zekico
+
+988
+01:12:43.434 --> 01:12:44.094
+serve，
+serve,
+
+989
+01:12:46.644 --> 01:12:51.684
+就是告诉它：“生成网站，并在本机运行。”
+this is basically going to just say, "Make me a website and run it on my computer."
+
+990
+01:12:57.654 --> 01:12:59.154
+不过刚才那个错误还在……
+Now, I still have that error with the...
+
+991
+01:13:06.954 --> 01:13:09.309
+抱歉，我在找刚才那个设置，是 Twitter 吗？
+Sorry, I'm looking for that, what was it? Twitter?
+
+992
+01:13:11.064 --> 01:13:14.245
+这些社交链接还在，我把它们删掉。
+I still have these social things. I'm going to delete them.
+
+993
+01:13:14.274 --> 01:13:15.324
+保存文件。
+I'm going to save my file.
+
+994
+01:13:18.204 --> 01:13:20.829
+因为是在本地，甚至不需要提交，只要再次
+Oh, I don't even need to commit it because I'm locally, so I just need to then now
+
+995
+01:13:21.054 --> 01:13:23.454
+启动服务，执行 zensical serve。
+serve again. I click serve. Zekio serve.
+
+996
+01:13:24.954 --> 01:13:27.234
+很好，现在正在构建网站。
+Great. It's now building me a website.
+
+997
+01:13:27.294 --> 01:13:30.684
+接着右键，选择打开链接。
+So if I now right-click, and I say open link
+
+998
+01:13:34.296 --> 01:13:36.546
+对，我得先复制它。
+Yeah. And I'm going to have to copy this.
+
+999
+01:13:40.626 --> 01:13:44.436
+大家能看到屏幕吗？现在是 localhost，没有访问外部网站或域名。
+So you see my screen now? I'm on localhost. I'm not on any website. I'm not domain.
+
+1000
+01:13:44.496 --> 01:13:49.522
+这些都在我的电脑上。localhost 表示本地运行，可以
+This is all on my computer. Localhost is just locally, my website's running, I can
+
+1001
+01:13:49.566 --> 01:13:54.186
+做个修改。哦，要另开一个标签页。
+make a change. Oh, I have to open a new tab.
+
+1002
+01:13:55.536 --> 01:13:57.996
+服务器现在正在运行，所以不能继续输入其他命令。
+So right now the server's running. I can't write any commands.
+
+1003
+01:13:58.057 --> 01:14:01.415
+这个终端在运行服务器，需要再开一个终端标签页。
+It's running the server. So I need to open a new tab in the terminal.
+
+1004
+01:14:03.426 --> 01:14:07.341
+如果使用独立的编辑器，例如
+This won't be an issue if you're using an external browser like
+
+1005
+01:14:08.976 --> 01:14:12.786
+VS Code、Sublime 或其他代码编辑器，就没有这个问题。
+VS Code or Sublime or any tech code editor.
+
+1006
+01:14:12.846 --> 01:14:15.066
+我只是为了快一点，把操作集中在这个窗口里。
+I'm just doing everything in the browser to be quicker.
+
+1007
+01:14:18.546 --> 01:14:24.456
+现在输入“Hello”并保存，再回到
+So if I say, "Hello" now, and I save it, if I go
+
+1008
+01:14:24.486 --> 01:14:27.291
+浏览器……哦，已经自动刷新了。看到了吗？
+back to the browser... Oh, they're already reloaded. So see?
+
+1009
+01:14:27.291 --> 01:14:32.016
+“Hello”。这样尝试各种修改快多了。
+"Hello." It's much quicker to just try stuff out.
+
+1010
+01:14:32.826 --> 01:14:37.506
+前期投入一点功夫，之后的回报会更好。
+Putting in the work, the rewards are much better later on.
+
+1011
+01:14:37.926 --> 01:14:40.057
+所以现在值得花时间把环境搭好。
+So if you work to set up everything now.
+
+1012
+01:14:41.526 --> 01:14:46.986
+最难的部分是 SSH 密钥。需要进入账号设置。
+The hardest part is the SSH key. So you've got to go to your account.
+
+1013
+01:14:47.316 --> 01:14:51.456
+右上角有账号偏好设置，
+In the top right, you'll see your account preferences,
+
+1014
+01:14:55.296 --> 01:14:58.926
+然后进入 Access，再进入 SSH keys。
+and then you have to go to Access and SSH keys.
+
+1015
+01:15:00.696 --> 01:15:05.647
+这是必要的，因为 Git 通过
+This is necessary because Git doesn't really work well with a
+
+1016
+01:15:05.676 --> 01:15:11.496
+用户名和密码登录不太方便。虽然也能设置，但我建议使用 SSH 密钥，
+username and password. You can get it to work, but I think SSH keys are
+
+1017
+01:15:12.876 --> 01:15:18.801
+它通过密码学提供安全的方式，
+my advice because it's sort of a cryptographically secure way of just
+
+1018
+01:15:18.846 --> 01:15:21.397
+让电脑与服务器互相识别。
+making a link between your computer and the server.
+
+1019
+01:15:21.411 --> 01:15:22.071
+与其说是建立连接，
+It's not a link, it's
+
+1020
+01:15:23.526 --> 01:15:26.241
+不如说是只属于这台电脑的专用密码。
+sort of a custom password just for your computer.
+
+1021
+01:15:27.186 --> 01:15:33.022
+这里可以点击 Add New Key，再
+So in this thing, you can click Add New Key, and just
+
+1022
+01:15:33.036 --> 01:15:36.966
+点击 Learn More，就会打开 GitLab
+click the Learn More. And if you look at the Learn More, it's going to GitLab's
+
+1023
+01:15:37.026 --> 01:15:39.471
+网站，更准确说是它的文档。
+website, or actually, the documentation.
+
+1024
+01:15:39.486 --> 01:15:43.807
+向下滚动，找到 Generate，会提供一条命令，
+And if you scroll down, something will say Generate, and there's a command you can
+
+1025
+01:15:43.866 --> 01:15:48.726
+用于生成 SSH 密钥。也许你之前为了
+use to generate your SSH key. You might already have one from
+
+1026
+01:15:49.836 --> 01:15:51.456
+GitHub 等服务已经生成过，就可以使用已有密钥。
+GitHub or something. You can use it.
+
+1027
+01:15:52.776 --> 01:15:54.441
+不必在电脑上重新生成。
+You don't have to make a new one on your computer.
+
+1028
+01:15:54.486 --> 01:15:58.356
+如果已经有密钥，也许直接复用更方便。
+If you already have a key, it's even maybe better just to reuse it.
+
+1029
+01:15:59.856 --> 01:16:01.807
+关键是，这里只应填写
+The key is you only want to put the
+
+1030
+01:16:06.336 --> 01:16:10.686
+公钥。看这里，生成后添加密钥，
+private key. So if we look here, so this is where we're creating it, adding your
+
+1031
+01:16:10.746 --> 01:16:15.636
+要找到以 .pub 结尾的那个文件。
+key. You sort of need to find a .pub version of it.
+
+1032
+01:16:16.956 --> 01:16:21.756
+把它粘贴在这里，填写名称，并把过期日期设远一些，例如
+And then you paste in here, give it a name, give it a long expiry date, like next
+
+1033
+01:16:21.846 --> 01:16:24.546
+明年，避免课程进行中突然失效。
+year, so it doesn't stop working while you...
+
+1034
+01:16:25.281 --> 01:16:26.286
+然后点击 Add Key，
+And then you say Add Key,
+
+1035
+01:16:27.546 --> 01:16:31.326
+再通过 git pull 测试，抱歉，我是说执行 git clone。
+and then you can test it by doing a Git pull. So when you do the Git clone, sorry.
+
+1036
+01:16:35.106 --> 01:16:35.976
+还有问题吗？
+Any more questions?
+
+1037
+01:16:37.956 --> 01:16:41.886
+SSH 这部分讲得很快。
+That was very fast with SSH. Yeah.
+
+1038
+01:16:43.506 --> 01:16:48.411
+建议大家抽空阅读这个文档，了解密钥
+I think, even read this document. Read this sort of explaining what keys are in
+
+1039
+01:16:48.456 --> 01:16:49.446
+到底是什么，
+your time, I think,
+
+1040
+01:16:51.397 --> 01:16:52.971
+这样就能理解整个过程。
+so you'll understand what's going on.
+
+1041
+01:16:55.746 --> 01:16:59.616
+我来看看自己的流水线是否通过了。
+And I'm going to have a look at, so if my pipeline, did it pass?
+
+1042
+01:17:22.986 --> 01:17:24.066
+还有其他问题吗？
+Any more questions?
+
+1043
+01:17:28.086 --> 01:17:42.006
+我在聊天里
+There's
+
+1044
+01:17:42.036 --> 01:17:45.576
+发了一个简短的文档页面。
+a little documentation page that I put in chat.
+
+1045
+01:17:46.356 --> 01:17:51.816
+大家的模板中已经有 Markdown 示例，这里则是
+Your documentation already has markdown examples, but this is sort of
+
+1046
+01:17:51.876 --> 01:17:57.816
+另一份操作指南，包括如何编辑文件、界面是什么样、
+another way to sort of some how-tos, how to edit a file, what it looks like, some
+
+1047
+01:17:57.846 --> 01:18:01.057
+Markdown 示例，以及优化和定制。
+markdown examples, some optimizing, customizing.
+
+1048
+01:18:01.386 --> 01:18:06.756
+这些刚才讲过，但如果还有问题，这也是一本 Git 小手册。
+We went over it, but this is sort of a mini handbook for some Git if you have extra
+
+1049
+01:18:06.846 --> 01:18:12.456
+有疑问最好去 Mattermost，那里有一个专门的
+issues. The best place is to just go to Mattermost, and there's a specific
+
+1050
+01:18:12.516 --> 01:18:13.581
+课程
+channel for
+
+1051
+01:18:18.366 --> 01:18:20.886
+频道，好像叫 00 Git 之类的。
+this class. I think it's zero zero Git, something like this.
+
+1052
+01:18:21.366 --> 01:18:22.596
+大家应该已经被加入了。
+You should have been added already.
+
+1053
+01:18:23.706 --> 01:18:28.895
+多尝试，哪怕弄坏一些东西，看看会怎样。
+And, yeah, try and break stuff and see.
+
+1054
+01:18:38.706 --> 01:18:39.696
+有什么问题吗？
+Any questions?
+
+1055
+01:18:49.356 --> 01:18:52.656
+我也把 Zensical 文档链接发出来。
+I'm also going to add the Zekio documentation link.
+
+1056
+01:18:54.936 --> 01:18:58.866
+可以先浏览它的网站，看看有哪些
+You can also start by going through their website and seeing all the different
+
+1057
+01:18:58.926 --> 01:19:01.626
+功能，然后动手尝试。
+things you can do, trying it out in it.
+
+1058
+01:19:03.276 --> 01:19:04.776
+我应该也把基础部分放在这里。
+So I should put basic on there.
+
+1059
+01:19:06.666 --> 01:19:07.807
+还有，
+There's also like
+
+1060
+01:19:09.426 --> 01:19:12.036
+可以改变导航的工作方式。
+you can change the way the navigation works.
+
+1061
+01:19:12.546 --> 01:19:14.241
+可以显示侧栏，
+You can have a sidebar, and
+
+1062
+01:19:16.386 --> 01:19:18.307
+也可以不显示侧栏。
+you can have it without the sidebar.
+
+1063
+01:19:18.696 --> 01:19:18.741
+还
+You
+
+1064
+01:19:20.106 --> 01:19:21.576
+可以有多级导航。
+can have multiple levels,
+
+1065
+01:19:24.246 --> 01:19:27.440
+文档做得很好，会展示启用某个设置和
+and even the documentation is nice because it shows you what it would look like
+
+1066
+01:19:27.456 --> 01:19:28.656
+未启用时分别是什么效果。
+with the setting or without.
+
+1067
+01:19:31.326 --> 01:19:33.576
+好。
+Okay.
+
+1068
+01:19:37.057 --> 01:19:37.386
+对。
+Yeah.
+
+1069
+01:19:40.206 --> 01:19:40.506
+Shiva？
+Shiva?
+
+1070
+01:19:43.476 --> 01:19:48.921
+是的，你好。我基本跟上了其他所有操作，
+Yes. Hi. So I have been following almost everything else.
+
+1071
+01:19:49.356 --> 01:19:55.086
+但上传图片或文件这一步
+It's just that upload images or file issue is the thing I'm
+
+1072
+01:19:55.147 --> 01:20:00.846
+遇到了问题。我点击 week
+facing a problem with. I'm clicking on the week
+
+1073
+01:20:01.236 --> 01:20:05.106
+01 或 week02，只看到粘贴选项。
+zero one or week zero two, but it is just showing me option to paste.
+
+1074
+01:20:05.736 --> 01:20:10.176
+下拉菜单似乎闪了一下，随后不知为什么
+I think the drop-down menu is flashing for a moment, but then for some reason, it
+
+1075
+01:20:10.236 --> 01:20:15.576
+消失了。我用的是 Mozilla Firefox，
+is going out. I tried it, so I'm using Mozilla Firefox.
+
+1076
+01:20:16.176 --> 01:20:19.176
+也在 Chrome 中试过，情况一样。
+I tried it in Chrome as well. Same thing is happening.
+
+1077
+01:20:20.226 --> 01:20:21.261
+是的，我想可能
+Yeah. I think it's
+
+1078
+01:20:22.897 --> 01:20:25.176
+不是浏览器，而是操作系统的原因。
+not the browser, it's like the operating system.
+
+1079
+01:20:26.526 --> 01:20:29.406
+有没有试过先右键，再单击一次？
+Have you tried doing a right click and then a click?
+
+1080
+01:20:30.756 --> 01:20:36.426
+先右键，再左键单击一下。右键，然后，对。
+Like right click and then do one click, a left one. A right click and a, yeah.
+
+1081
+01:20:42.546 --> 01:20:43.897
+好，我再试一次。
+Yeah, let me just try that again.
+
+1082
+01:20:44.526 --> 01:20:48.576
+我现在也复现了，看，我也看到了粘贴。
+Because I reproduce it now. See, I also see paste. Yeah.
+
+1083
+01:20:58.026 --> 01:21:02.886
+等等，先右键一次，看到了粘贴，然后呢？
+Wait. So you right click once and, yeah, paste. And after that?
+
+1084
+01:21:03.966 --> 01:21:09.576
+然后再点一次，但不要点粘贴，而是再点文件或文件夹
+And then I, again, click not on paste, but on the file, the folder
+
+1085
+01:21:09.606 --> 01:21:09.996
+本身。
+again.
+
+1086
+01:21:11.796 --> 01:21:13.626
+单击一次。
+Just once.
+
+1087
+01:21:14.766 --> 01:21:18.335
+好，我试试。
+Okay. I'll try that.
+
+1088
+01:21:31.626 --> 01:21:36.726
+现在能短暂看到下拉菜单，但随后它又
+Okay, so I can see a drop-down for a bit of a moment, and then it
+
+1089
+01:21:37.686 --> 01:21:39.366
+消失了。
+goes out.
+
+1090
+01:21:39.426 --> 01:21:40.566
+是的。
+Yeah.
+
+1091
+01:21:45.636 --> 01:21:47.676
+我也在找，应该还有办法……
+Yeah, I'm also looking. There should be a way to...
+
+1092
+01:21:56.106 --> 01:21:58.897
+有没有其他上传文件的方法？
+Or is there just an alternate way to upload stuff?
+
+1093
+01:21:59.826 --> 01:22:03.156
+有。另一种方法是在
+There is, yeah. So the alternative way is if you're in your
+
+1094
+01:22:04.416 --> 01:22:07.536
+项目中进入文件夹，
+project, you have to go to the folder,
+
+1095
+01:22:08.946 --> 01:22:14.211
+例如 images，再进入 week1，
+navigate to the folder, so for example, Images, and week one, for example, and then
+
+1096
+01:22:14.286 --> 01:22:16.057
+右侧这里会有……
+on the right here, we'll have...
+
+1097
+01:22:18.696 --> 01:22:22.416
+哦，是这里的加号。点击加号，选择 Upload File。
+Oh, the plus sign here. There's a plus sign here, and you can say Upload File.
+
+1098
+01:22:23.196 --> 01:22:25.746
+这是手动上传，一次一个文件，但可以用。
+It's a manual, so it's one file at a time, but it works. Yeah.
+
+1099
+01:22:28.956 --> 01:22:32.106
+好，类似 GitHub 的方式。
+Okay. Yeah. Okay. So it's like GitHub one.
+
+1100
+01:22:33.096 --> 01:22:33.786
+对。
+Yeah.
+
+1101
+01:22:34.206 --> 01:22:35.316
+好的，明白了。
+Okay. Sure then. Yeah.
+
+1102
+01:22:35.676 --> 01:22:39.996
+另外，下一步可以花一点功夫，改用
+Yeah. And otherwise, really the next step, a little bit of work is doing this
+
+1103
+01:22:40.057 --> 01:22:43.818
+本地工作。这样不需要处理浏览器的问题，只要把
+locally, because then- You don't have to deal with the browser, and you can add
+
+1104
+01:22:43.848 --> 01:22:46.818
+文件放进文件夹，再一次提交多个文件。
+files to a folder and commit lots of files at once.
+
+1105
+01:22:46.848 --> 01:22:52.549
+如果愿意尝试，可以建立 SSH 密钥、在本地
+So if you feel up to it, the local, and make an SSH key, local
+
+1106
+01:22:52.578 --> 01:22:56.674
+克隆项目、安装 Zensical，这样很方便，不必反复
+cloning, installing Zekil, it's great because then you don't have to, like, yeah,
+
+1107
+01:22:57.978 --> 01:22:58.713
+选择文件……
+select a file-
+
+1108
+01:22:58.773 --> 01:22:59.073
+对。
+Yeah
+
+1109
+01:22:58.773 --> 01:22:59.808
+再上传，再选择。
+... upload it, select, yeah.
+
+1110
+01:23:00.918 --> 01:23:03.348
+好，那我就用本地方式。
+Okay. Yeah. So I just do locally.
+
+1111
+01:23:03.709 --> 01:23:04.728
+今天先用这个也可以。
+This for today, yeah.
+
+1112
+01:23:08.299 --> 01:23:11.299
+上传，然后……哦，其实这里可以一次上传多个文件。
+Upload and then, yeah. Oh, actually, you can upload lots of files.
+
+1113
+01:23:12.348 --> 01:23:14.598
+哦，好，明白了，谢谢。
+Oh, okay. Right. Yeah. Thanks.
+
+1114
+01:23:19.068 --> 01:23:24.558
+好。还需要多留一点时间吗？还有问题吗？
+All right. Yeah. I don't know. Should we stay longer? Any questions?
+
+1115
+01:23:24.588 --> 01:23:26.148
+有没有哪一步想让我再演示一次？
+You want me to show anything again?
+
+1116
+01:23:28.518 --> 01:23:30.108
+希望我再……
+You want me to...
+
+1117
+01:23:37.578 --> 01:23:41.688
+左侧的 Code 是包含所有文件的仓库，
+On the left side, yeah, you've got code, which is a repository of all your files,
+
+1118
+01:23:41.778 --> 01:23:45.618
+Commits 是全部提交。Build 下有 Pipelines 和 Jobs，
+commits is all the commits. Builds, you've got the pipelines and the jobs, so you
+
+1119
+01:23:45.648 --> 01:23:47.178
+可以查看所有任务的列表。
+can see a list of all the jobs.
+
+1120
+01:23:49.459 --> 01:23:52.459
+但再强调一次，关键是最新、最上面那一项。
+But again, only the last, the most, the top one matters.
+
+1121
+01:23:52.518 --> 01:23:55.398
+只要它显示 passed，就说明当前构建正常。
+So as long as that one says passed, then everything works.
+
+1122
+01:23:56.508 --> 01:24:00.318
+如果你
+If you have
+
+1123
+01:24:02.209 --> 01:24:03.438
+持续
+continually
+
+1124
+01:24:05.388 --> 01:24:09.648
+遇到流水线问题，而且觉得“应该不是我的修改，也许是
+problems with the pipeline and you think, "I don't think it's me, the pipeline, it
+
+1125
+01:24:09.678 --> 01:24:15.603
+服务器问题”，请告诉我。你可以问我：
+could be the server," let me know. You ask me, "Mattheos, is there something wrong
+
+1126
+01:24:15.648 --> 01:24:18.888
+“服务器是不是出了问题？”这种情况有时会发生。
+with the server?" And that sometimes happens.
+
+1127
+01:24:20.928 --> 01:24:25.368
+我会检查，也可以帮忙看日志，没关系。
+And I'll look into it. Or I can also help you look at your logs. It's not a...
+
+1128
+01:24:36.858 --> 01:24:39.288
+好，编辑器又能用了，可以继续展示 Zensical。
+Okay, my editor works again, so I can show you Zekil.
+
+1129
+01:24:39.408 --> 01:24:45.108
+刚才有人希望再演示一下修改流程。
+There was a question about just showing changes.
+
+1130
+01:24:47.058 --> 01:24:48.078
+如果现在做一个修改，
+So if I make an edit,
+
+1131
+01:24:51.408 --> 01:24:53.028
+就来更换
+let's change
+
+1132
+01:24:56.328 --> 01:24:57.378
+字体吧。
+the font.
+
+1133
+01:24:59.058 --> 01:25:02.148
+嗯，
+Well,
+
+1134
+01:25:09.018 --> 01:25:11.268
+这个字体叫什么？
+I don't know. What's this one called?
+
+1135
+01:25:16.368 --> 01:25:19.368
+Roboto Condensed，我从网址里找到名称。
+Robot Condensed. I'm taking it from the URL.
+
+1136
+01:25:27.049 --> 01:25:31.128
+复制字体名称，再向下找到……
+So I copy the font name, and I go down to...
+
+1137
+01:25:32.418 --> 01:25:33.408
+字体设置在哪里？
+Where was the font?
+
+1138
+01:25:37.308 --> 01:25:42.558
+搜索 font，就在这里。填入 Roboto Condensed。
+I'm going to search for font. There it is. So I'm going to put Robot Condensed.
+
+1139
+01:25:42.678 --> 01:25:46.278
+不要加号，应该是空格。字符串中的空格没问题。
+I don't want the plus. It's just a space bar. The space is fine.
+
+1140
+01:25:47.118 --> 01:25:50.598
+确认有成对的引号，以及 text 等号。
+Make sure I've got the open and closing quotes, text equals.
+
+1141
+01:25:51.768 --> 01:25:53.988
+这里可以看到这一行改了。哎。
+I can see there the line changed. Oops.
+
+1142
+01:25:55.338 --> 01:25:59.268
+左侧出现数字 1，说明一个文件发生了变化。
+And so then I see on the left side a one, so it's telling me one file has changed.
+
+1143
+01:25:59.299 --> 01:26:03.768
+点击它，会打开另一个面板，列出发生
+I click on it, and I open the new tab, which shows me the list of files that
+
+1144
+01:26:03.799 --> 01:26:04.248
+变化的文件。
+changed.
+
+1145
+01:26:05.959 --> 01:26:11.508
+填写“修改字体”，然后点击 Commit to main，提交到 main。
+And then I write and change font, and I commit to main. I click Commit to main.
+
+1146
+01:26:12.528 --> 01:26:14.388
+接着应该显示成功。
+And then it should say successfully.
+
+1147
+01:26:14.418 --> 01:26:16.518
+底部应该会弹出通知。
+You should see that pop up at the bottom there.
+
+1148
+01:26:21.858 --> 01:26:26.118
+对，修改已提交。现在回到任务列表。
+Yeah. The change has been committed. I now go back to my jobs.
+
+1149
+01:26:26.178 --> 01:26:27.768
+另一个标签页里有任务列表。
+On the other tab, I had the list of jobs.
+
+1150
+01:26:27.828 --> 01:26:29.058
+刷新这个页面，
+I can refresh this page,
+
+1151
+01:26:30.438 --> 01:26:31.278
+重新加载，
+reload the page,
+
+1152
+01:26:32.868 --> 01:26:38.388
+就能看到刚刚的提交，状态为 passed。
+and it says Commit just now, and it said it's passed.
+
+1153
+01:26:38.433 --> 01:26:40.608
+显示绿色，说明一切正常。
+So it says green, so that knows everything's correct.
+
+1154
+01:26:40.698 --> 01:26:42.018
+如果回到自己的网站，
+So if I go to my website
+
+1155
+01:26:43.878 --> 01:26:44.628
+然后
+and I
+
+1156
+01:26:46.608 --> 01:26:48.738
+刷新，应该就能看到变化。
+reload my website, it should look different.
+
+1157
+01:26:51.948 --> 01:26:53.688
+应该是变了，对。
+I think so. Yeah.
+
+1158
+01:26:55.578 --> 01:26:58.008
+这一步演示得有点快。好。
+And that's a bit fast. Okay.
+
+1159
+01:27:02.058 --> 01:27:07.668
+希望有帮助，也希望大家理解了，享受提交和尝试的过程。
+Yeah. Helps. So I hope that makes sense. I hope everyone has fun committing.
+
+1160
+01:27:10.368 --> 01:27:14.778
+看看我们提供的 Markdown，里面有很多提示，
+Look at the markdowns that we've provided you. There's a lot of tips there.
+
+1161
+01:27:14.868 --> 01:27:15.468
+还有许多
+There's a lot of
+
+1162
+01:27:18.108 --> 01:27:22.398
+可以复用的示例。也可以参考 Zensical 网站，动手提交。
+example markdown you can use. There's the Zekil website. Make commits.
+
+1163
+01:27:23.508 --> 01:27:27.738
+做到比较熟练之后，再尝试克隆到本地。
+Once you get somewhere exciting, you can then try cloning locally.
+
+1164
+01:27:29.628 --> 01:27:31.549
+正如之前可能和 Claudia 提到的，
+Yeah. As mentioned, maybe with Claudia,
+
+1165
+01:27:34.398 --> 01:27:37.488
+尤其上传图片时要注意，文件存储空间是固定的，
+especially with uploading images, you have a fixed file storage,
+
+1166
+01:27:39.228 --> 01:27:41.148
+整个课程一共有 500 MB
+which is 500 megabytes for the whole
+
+1167
+01:27:42.828 --> 01:27:43.308
+额度。
+class.
+
+1168
+01:27:44.658 --> 01:27:47.058
+因此每周都要做好预算，
+So, you've got to make a budget every
+
+1169
+01:27:48.768 --> 01:27:52.398
+考虑可以上传多少图片、每张图片多大，
+week. You've got to decide how many images can I upload and how big each image can
+
+1170
+01:27:52.459 --> 01:27:56.898
+才不会超出限制。如果今天就用了 100 MB，
+be before I reach my limit. Because if you get to 100 megabyte already today,
+
+1171
+01:27:57.768 --> 01:27:59.358
+后面可能没有足够空间。
+you're not going to have space for later on,
+
+1172
+01:28:00.799 --> 01:28:04.578
+所以优化图片非常重要，现在把文件做得越小，
+which is why optimizing your images is very important, because the smaller you get
+
+1173
+01:28:04.608 --> 01:28:07.428
+之后可用空间就越多。
+them now, the more space you have later on.
+
+1174
+01:28:08.658 --> 01:28:12.468
+我之后会分享幻灯片，大家可以详细阅读，
+And so here, I'll share the slides later, and you can read this in more detail,
+
+1175
+01:28:13.278 --> 01:28:19.188
+里面建议了一些默认设置。比如手机拍摄的图片，
+sort of suggesting some good defaults. Images can be on your phone.
+
+1176
+01:28:19.248 --> 01:28:22.428
+通常尺寸很大、包含很多信息，但用于
+You're taking really large pictures that have a lot of information, but for a
+
+1177
+01:28:22.459 --> 01:28:25.997
+网站时可以很小，不必超过 800 像素宽。
+website, they can be very small. They don't need to be wider than 800 pixels.
+
+1178
+01:28:26.209 --> 01:28:31.308
+100 KB 已经很够用，因为网站上会有很多
+A hundred kilobytes is more than enough because you're going to have a lot of
+
+1179
+01:28:31.338 --> 01:28:36.408
+图片，而且样式已经限定了网站宽度。
+pictures on your website. The website is already fixed width because of the style.
+
+1180
+01:28:37.248 --> 01:28:37.668
+另外，
+And
+
+1181
+01:28:39.168 --> 01:28:42.888
+也要考虑并非所有人都有光纤或
+also think about not everyone's going to have maybe fiber optics cable or a
+
+1182
+01:28:42.978 --> 01:28:47.838
+卫星网络。有些人可能用手机访问，网络
+satellite connection. People might be looking at this on their phone with not a
+
+1183
+01:28:47.868 --> 01:28:51.018
+并不好；一些地区连接速度有限。因此要
+good connection. Some countries don't have good connections, and so you have to
+
+1184
+01:28:51.078 --> 01:28:55.683
+考虑，如果网页中的图片特别大，他们
+also think about that, that if you load a website with very large images, they
+
+1185
+01:28:55.758 --> 01:29:00.558
+甚至可能无法浏览网站。所以要建立一套处理流程。
+can't even look at your website. So, get a workflow.
+
+1186
+01:29:00.858 --> 01:29:05.163
+Claudia 已经推荐了一些应用和工具。
+Claudia sent some suggested apps and things.
+
+1187
+01:29:05.209 --> 01:29:08.403
+等这些操作成为习惯之后，
+Once it becomes part of your rhythm, then,
+
+1188
+01:29:11.238 --> 01:29:11.448
+就方便了。
+yeah.
+
+1189
+01:29:15.049 --> 01:29:15.348
+好。
+Okay.
+
+1190
+01:29:22.368 --> 01:29:23.418
+九个月后再见。
+I'll see you in nine months.
+
+1191
+01:29:33.678 --> 01:29:34.218
+谢谢。
+Thank you.
+
+1192
+01:29:38.328 --> 01:29:39.978
+非常感谢，再见。
+Thanks a lot. Bye bye.
+
+1193
+01:29:41.538 --> 01:29:42.138
+谢谢。
+Thank you.
+
+1194
+01:29:42.888 --> 01:29:43.758
+谢谢，再见，谢谢。
+Thanks. Bye. Thank you.
+
+1195
+01:29:45.198 --> 01:29:47.388
+非常感谢，祝大家今天愉快。
+Thank you very much. Have a nice day

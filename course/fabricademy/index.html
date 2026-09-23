@@ -1,6 +1,152 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Fabricademy 课程笔记</title><style>
-body{margin:0;background:#f5f4f0;color:#24332d;font:16px/1.7 system-ui,sans-serif}main{max-width:1120px;margin:auto;padding:48px 24px}h1{font-size:clamp(28px,5vw,44px);line-height:1.25}ul{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:24px}li{background:white;padding:20px;border:1px solid #dce3dc;border-radius:14px}a{color:#176343;text-decoration:none}a:hover h2{text-decoration:underline}a:focus-visible{outline:3px solid #176343}img{width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:8px}h2{font-size:21px;line-height:1.5}p{color:#59665f}footer{margin-top:36px;font-size:14px}
-</style><style data-reading-theme-assets>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="按官方年份整理的 Fabricademy 中文学习资料：B站课程视频、AI 章节笔记，以及 Chrome 学习面板插件的下载与使用说明。">
+<title>Fabricademy 教程与学习笔记</title>
+<style>/* Homepage only. Course-reading layouts keep their existing shared styles. */
+.homepage { margin: 0; }
+.homepage *, .homepage *::before, .homepage *::after { box-sizing: border-box; }
+.homepage a { text-underline-offset: 4px; }
+.homepage a:not(:hover) { text-decoration: none; }
+.homepage p { margin: 0; }
+.homepage h1, .homepage h2, .homepage h3 { margin: 0; font-weight: 650; }
+.homepage .skip-link { position: absolute; left: 16px; top: -100px; padding: 12px; background: var(--bg-1); z-index: 10; }
+.homepage .skip-link:focus { top: 12px; }
+.homepage .site-header { max-width: 1280px; margin: auto; padding: 22px 32px; display: flex; align-items: center; gap: 28px; border-bottom: 1px solid var(--border); }
+.homepage .site-brand { display: flex; align-items: center; gap: 12px; color: var(--heading); font-size: 14px; font-weight: 700; letter-spacing: .07em; line-height: 1.5; }
+.homepage .brand-mark { display: grid; place-items: center; height: 42px; width: 42px; border-radius: 10px; background: var(--accent); color: var(--on-accent); font: italic 700 34px Georgia, serif; }
+.homepage .site-brand small { display: block; font-size: 12px; font-weight: 400; letter-spacing: .12em; color: var(--text-1); }
+.homepage .site-header > nav { display: flex; gap: 24px; margin-left: auto; font-size: 14px; }
+.homepage .site-header > nav a { padding: 8px 0; white-space: nowrap; }
+.homepage .reading-toolbar { margin: 0; padding: 0; gap: 0; max-width: 220px; font-size: 12px; }
+.homepage .reading-label { display: none; }
+.homepage .reading-options { padding: 3px; gap: 2px; border-radius: 9px; }
+.homepage .reading-options button { min-width: 46px; min-height: 38px; padding: 4px 8px; font-size: 12px; }
+.homepage .reading-status { max-width: 200px; }
+body.course-directory.homepage main { max-width: 1280px; margin: auto; padding: 0 32px 32px; }
+.homepage section[id] { scroll-margin-top: 24px; }
+.homepage .home-hero { display: grid; grid-template-columns: 1.25fr 1fr; gap: 64px; align-items: center; padding: 60px 0 56px; }
+.homepage .eyebrow { color: var(--accent); font-size: 12px; letter-spacing: .12em; font-weight: 650; margin-bottom: 16px; }
+.homepage .hero-copy h1 { font-size: clamp(32px, 3.9vw, 48px); line-height: 1.3; letter-spacing: -.03em; max-width: 12em; text-wrap: balance; }
+.homepage .hero-description { margin-top: 20px; max-width: 34em; font-size: 17px; line-height: 1.9; }
+.homepage .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0 24px; }
+.homepage .home-button { display: inline-flex; justify-content: center; align-items: center; gap: 14px; min-height: 44px; padding: 10px 17px; border-radius: 8px; border: 1px solid var(--border); font-size: 14px; font-weight: 600; line-height: 1.5; text-decoration: none; }
+.homepage .home-button.primary { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.homepage .home-button.secondary { background: var(--bg-1); color: var(--text-0); }
+.homepage .home-button:hover { box-shadow: var(--shadow); text-decoration: underline; }
+.homepage .collection-stats { font-size: 13px; }
+.homepage .collection-stats strong { color: var(--text-0); font-weight: 650; }
+.homepage .collection-stats span { padding: 0 9px; }
+.homepage .quick-start { background: var(--bg-2); border: 1px solid var(--border); border-radius: 16px; padding: 28px 30px; }
+.homepage .quick-start ol { list-style: none; padding: 0; margin: 20px 0; display: grid; gap: 20px; }
+.homepage .quick-start li { display: flex; gap: 16px; background: transparent; }
+.homepage .step-number { color: var(--accent); font: 500 14px/1.8 ui-monospace, monospace; }
+.homepage .quick-start strong { font-size: 15px; }
+.homepage .quick-start li p { font-size: 13px; margin-top: 3px; }
+.homepage .text-link { font-size: 14px; }
+.homepage .section-heading { display: flex; justify-content: space-between; align-items: flex-end; gap: 20px; }
+.homepage .section-heading .eyebrow { margin-bottom: 8px; }
+.homepage .section-heading h2, .homepage .extension-intro h2 { font-size: 28px; line-height: 1.5; letter-spacing: -.02em; }
+.homepage .course-collection { border-top: 1px solid var(--border); padding-top: 36px; }
+.homepage .collection-tools { display: flex; justify-content: space-between; align-items: center; gap: 16px; margin: 14px 0 30px; }
+.homepage .collection-tools > p { font-size: 14px; }
+.homepage .year-links { display: flex; gap: 8px; }
+.homepage .year-links a { padding: 4px 14px; border: 1px solid var(--border); border-radius: 20px; font-size: 13px; min-height: 34px; }
+.homepage .year-links a:hover { background: var(--bg-2); }
+.homepage .year-section { margin-bottom: 36px; }
+.homepage .year-heading { display: flex; align-items: baseline; gap: 16px; margin-bottom: 16px; }
+.homepage .year-heading h2 { font-size: 25px; font-weight: 700; }
+.homepage .year-heading h2 span { color: var(--text-1); font-size: 14px; font-weight: 400; padding-left: 4px; }
+.homepage .year-heading > span { font-size: 12px; color: var(--text-1); }
+.homepage .course-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px; list-style: none; margin: 0; padding: 0; }
+.homepage .course-card { background: var(--bg-1); border: 1px solid var(--border); border-radius: 14px; overflow: hidden; display: flex; flex-direction: column; min-width: 0; }
+.homepage .course-cover { display: block; overflow: hidden; border-bottom: 1px solid var(--border); background: var(--bg-2); }
+.homepage .course-cover img { width: 100%; height: auto; aspect-ratio: 16/9; object-fit: cover; display: block; }
+.homepage .course-copy { padding: 24px; display: flex; flex-direction: column; flex: 1; min-width: 0; }
+.homepage .course-meta { display: flex; justify-content: space-between; flex-wrap: wrap; gap: 8px; font-size: 12px; color: var(--text-1); margin-bottom: 14px; }
+.homepage .availability.ready { color: var(--accent); font-weight: 650; }
+.homepage .availability.ready span { font-size: 9px; padding-right: 4px; }
+.homepage .course-card h3 { font-size: 22px; line-height: 1.5; }
+.homepage .course-card h3 a { color: var(--heading); }
+.homepage .official-title { margin-top: 5px; font-size: 13px; line-height: 1.7; overflow-wrap: anywhere; }
+.homepage .course-description { margin: 16px 0 22px; font-size: 15px; line-height: 1.8; }
+.homepage .course-actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: auto; }
+.homepage .course-source { display: flex; flex-wrap: wrap; gap: 12px 20px; margin-top: 18px; font-size: 12px; }
+.homepage .year-note { flex-basis: 100%; }
+.homepage .year-note summary { color: var(--text-1); cursor: pointer; }
+.homepage .year-note p { padding: 8px 0; max-width: 38em; }
+.homepage .single-course { grid-template-columns: 1fr; }
+.homepage .single-course .course-card { display: grid; grid-template-columns: .85fr 1.15fr; }
+.homepage .single-course .course-cover { border-bottom: 0; border-right: 1px solid var(--border); }
+.homepage .single-course .course-cover img { height: 100%; min-height: 260px; object-fit: cover; }
+.homepage .extension-section { margin-top: 56px; padding: 36px; background: var(--bg-2); border: 1px solid var(--border); border-radius: 16px; display: grid; grid-template-columns: 1.3fr 1fr; gap: 48px; align-items: center; }
+.homepage .extension-intro > p:not(.eyebrow) { font-size: 15px; line-height: 1.9; margin-top: 16px; }
+.homepage .feature-list { padding-left: 20px; margin: 20px 0; font-size: 14px; display: grid; gap: 8px; }
+.homepage .feature-list li { background: transparent; }
+.homepage .extension-intro .extension-scope { font-size: 13px; }
+.homepage .download-card { background: var(--bg-1); border: 1px solid var(--border); border-radius: 12px; padding: 28px; }
+.homepage .version-label { display: inline-block; color: var(--accent); background: var(--bg-2); padding: 4px 10px; border-radius: 5px; font-size: 12px; margin-bottom: 14px; }
+.homepage .download-card h3 { font-size: 20px; margin-bottom: 6px; }
+.homepage .download-card > p { font-size: 13px; }
+.homepage .download-link { width: 100%; margin-top: 22px; }
+.homepage .download-meta { margin-top: 10px; text-align: center; }
+.homepage .download-tip { margin: 20px 0 10px; }
+.homepage .guide-section { padding-top: 52px; }
+.homepage .optional-note { font-size: 13px; color: var(--text-1); }
+.homepage .install-steps { list-style: none; padding: 0; margin: 28px 0 36px; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 24px; }
+.homepage .install-steps li { background: transparent; border-top: 1px solid var(--border); padding-top: 16px; }
+.homepage .install-steps h3 { margin: 8px 0; font-size: 16px; }
+.homepage .install-steps p { font-size: 14px; }
+.homepage code { overflow-wrap: anywhere; font-size: .9em; }
+.homepage .faq { border-top: 1px solid var(--border); padding-top: 24px; }
+.homepage .faq h3 { font-size: 18px; margin-bottom: 12px; }
+.homepage .faq details { border-bottom: 1px solid var(--border); }
+.homepage .faq summary { padding: 16px 4px; cursor: pointer; font-size: 15px; }
+.homepage .faq details p { max-width: 65em; padding: 0 24px 20px; font-size: 14px; }
+.homepage .home-footer { display: flex; justify-content: space-between; gap: 24px; margin-top: 48px; padding-top: 24px; border-top: 1px solid var(--border); font-size: 12px; }
+.homepage .home-footer > p:last-child { text-align: right; }
+@media (max-width: 1000px) {
+  .homepage .home-hero { gap: 28px; }
+  .homepage .site-header { flex-wrap: wrap; gap: 16px; }
+  .homepage .site-header > nav { gap: 18px; }
+  .homepage .extension-section { gap: 24px; padding: 28px; }
+  .homepage .install-steps { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 700px) {
+  .homepage .site-header { padding: 16px; }
+  .homepage .site-header > nav { order: 3; flex-basis: 100%; margin-left: 0; justify-content: space-between; }
+  .homepage .reading-toolbar { margin-left: auto; }
+  .homepage .site-brand { font-size: 12px; gap: 8px; }
+  .homepage .brand-mark { width: 36px; height: 36px; font-size: 29px; }
+  body.course-directory.homepage main { padding: 0 16px 24px; }
+  .homepage .home-hero { grid-template-columns: 1fr; padding: 32px 0; gap: 28px; }
+  .homepage .hero-copy h1 { font-size: 34px; }
+  .homepage .hero-description { font-size: 16px; }
+  .homepage .quick-start { padding: 22px; }
+  .homepage .section-heading { align-items: flex-start; flex-wrap: wrap; gap: 10px; }
+  .homepage .section-heading h2, .homepage .extension-intro h2 { font-size: 24px; }
+  .homepage .collection-tools { flex-direction: column; align-items: flex-start; }
+  .homepage .course-grid { grid-template-columns: 1fr; gap: 20px; }
+  .homepage .single-course .course-card { display: flex; }
+  .homepage .single-course .course-cover { border-right: 0; border-bottom: 1px solid var(--border); }
+  .homepage .single-course .course-cover img { height: auto; min-height: 0; }
+  .homepage .course-copy { padding: 20px; }
+  .homepage .course-card h3 { font-size: 20px; }
+  .homepage .extension-section { grid-template-columns: 1fr; padding: 22px; margin-top: 32px; }
+  .homepage .download-card { padding: 22px; }
+  .homepage .home-footer { flex-direction: column; gap: 12px; }
+  .homepage .home-footer > p:last-child { text-align: left; }
+}
+@media (max-width: 380px) {
+  .homepage .site-brand small { letter-spacing: 0; }
+  .homepage .reading-options button { min-width: 40px; padding-inline: 5px; }
+  .homepage .install-steps { grid-template-columns: 1fr; }
+  .homepage .course-actions .home-button { flex: 1; }
+}
+</style>
+<style data-reading-theme-assets>
 /* Shared reading appearance: directory + all course templates. */
 :root, :root[data-reading-theme="light"] {
   color-scheme: light;
@@ -135,12 +281,104 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
   });
 })();
 </script>
-</head><body class="course-directory">
-<div class="reading-toolbar" aria-label="阅读外观">
+</head>
+<body class="course-directory homepage">
+<a class="skip-link" href="#courses">跳到课程目录</a>
+<header class="site-header">
+  <a class="site-brand" href="#top" aria-label="Fabricademy 教程主页"><span class="brand-mark" aria-hidden="true">F</span><span>FABRICADEMY<small>中文学习资料</small></span></a>
+  <nav aria-label="主页导航"><a href="#courses">课程目录</a><a href="#guide">使用说明</a><a href="#extension">插件下载</a></nav>
+  <div class="reading-toolbar" aria-label="阅读外观">
 <span class="reading-label">阅读外观</span>
 <div class="reading-options" role="group" aria-label="选择深浅外观">
 <button type="button" data-theme-choice="dark" aria-pressed="false">深色</button>
 <button type="button" data-theme-choice="medium" aria-pressed="false">中间色</button>
 <button type="button" data-theme-choice="light" aria-pressed="true">浅色</button>
 </div><span id="reading-theme-status" class="reading-status" role="status"></span>
-</div><main><h1>Fabricademy 课程笔记</h1><p>按课程内容整理的中文学习笔记，包含本章摘要、原文字幕、视频截图和个人笔记。</p><ul><li><a href="00-documentation-website/notes.html"><img src="00-documentation-website/thumbnail.jpg" alt="" loading="lazy"><h2>Fabricademy 第十期 · 文档化与个人网站</h2></a><p>14 个主题章节</p><p>最早整理的开篇课程：课程平台、Git 版本控制、Markdown、网站配置与发布，以及图片优化。</p></li><li><a href="01-modular-fashion/notes.html"><img src="01-modular-fashion/source.jpg" alt="" loading="lazy"><h2>模块化时装：从参数化绘图到连接与组装</h2></a><p>15 个主题章节</p><p>Fabricademy Modular Fashion 教程中文笔记，按实际演示整理 Fusion、Rhino、矢量文件输出与模块连接测试。</p></li><li><a href="02-digital-bodies/notes.html"><img src="02-digital-bodies/source.jpg" alt="" loading="lazy"><h2>数字身体：MakeHuman、Blender 与切片制造</h2></a><p>25 个主题章节</p><p>Fabricademy Digital Bodies 教程：从人体网格、Blender 编辑与建模，到切片、排料和装配测试。保留现场失败演示与必要纠错。</p></li><li><a href="03-fabricademy-opening/notes.html"><img src="03-fabricademy-opening/source.jpg" alt="" loading="lazy"><h2>视觉文档化：案例、素材与媒体制作</h2></a><p>16 个主题章节</p><p>Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。</p></li></ul><footer>视频通过原平台观看。个人笔记保存在当前浏览器中，不会自动跨设备同步。</footer></main></body></html>
+</div>
+</header>
+<main id="top">
+  <section class="home-hero" aria-labelledby="home-title">
+    <div class="hero-copy"><p class="eyebrow">课程视频 · AI 笔记 · 学习插件</p>
+      <h1 id="home-title">Fabricademy<br>教程与学习笔记</h1>
+      <p class="hero-description">按官方教程年份整理，对照视频与中文笔记，按自己的节奏逐章学习。</p>
+      <div class="hero-actions"><a class="home-button primary" href="#courses">浏览课程 <span aria-hidden="true">↓</span></a><a class="home-button secondary" href="#extension">下载学习插件</a></div>
+      <p class="collection-stats"><strong>4</strong> 门课程 <span>·</span> <strong>70</strong> 个章节 <span>·</span> <strong>1</strong> 门已接入 B站</p>
+    </div>
+    <aside class="quick-start" aria-label="快速开始">
+      <p class="eyebrow">第一次来？从这里开始</p>
+      <ol><li><span class="step-number" aria-hidden="true">01</span><div><strong>选择一门课程</strong><p>打开 B站视频，或先阅读课程笔记。</p></div></li>
+      <li><span class="step-number" aria-hidden="true">02</span><div><strong>手动打开学习插件</strong><p>安装后，在对应视频页点击插件图标。</p></div></li>
+      <li><span class="step-number" aria-hidden="true">03</span><div><strong>对照章节与时间点学习</strong><p>点标题阅读，点时间定位视频。</p></div></li></ol>
+      <a class="text-link" href="#guide">查看完整安装与使用说明 →</a>
+    </aside>
+  </section>
+
+  <section class="course-collection" id="courses" aria-labelledby="courses-title">
+    <div class="section-heading"><div><p class="eyebrow">COURSE COLLECTION</p><h2 id="courses-title">找到你的下一门课</h2></div><a class="text-link" href="https://class.textile-academy.org/tutorials/" target="_blank" rel="noopener noreferrer">官方教程目录 ↗</a></div>
+    <div class="collection-tools"><p>年份与英文原名依官方目录标注，中文名称便于查找。</p><nav class="year-links" aria-label="按年份浏览"><a href="#year-2026">2026</a><a href="#year-2025">2025</a></nav></div>
+    <section class="year-section" id="year-2026" aria-labelledby="heading-2026">
+<div class="year-heading"><h2 id="heading-2026">2026 <span>年教程</span></h2><span>1 门课程</span></div>
+<ul class="course-grid single-course"><li class="course-card" data-course-id="1227439130" data-year="2026">
+<a class="course-cover" href="00-documentation-website/notes.html" aria-label="阅读：GitLab 与 MkDocs：文档化与个人网站"><img src="00-documentation-website/thumbnail.jpg" alt="" loading="lazy" width="640" height="360"></a>
+<div class="course-copy"><div class="course-meta"><span>1 小时 29 分钟 · 14 章</span><span class="availability pending">B站链接待补充</span></div>
+<h3><a href="00-documentation-website/notes.html">2026 · GitLab 与 MkDocs：文档化与个人网站</a></h3>
+<p class="official-title" lang="en">Gitlab &amp; Mkdocs</p>
+<p class="course-description">从课程平台与 Git 版本控制开始，学习 Markdown、个人网站配置与发布，以及图片优化。</p>
+<div class="course-actions"><a class="home-button primary" href="00-documentation-website/notes.html">阅读课程笔记</a></div>
+<div class="course-source"><a href="https://class.textile-academy.org/tutorials/#project-management-gitlab-nueval-documentation" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
+</div></li></ul></section>
+<section class="year-section" id="year-2025" aria-labelledby="heading-2025">
+<div class="year-heading"><h2 id="heading-2025">2025 <span>年教程</span></h2><span>3 门课程</span></div>
+<ul class="course-grid"><li class="course-card" data-course-id="1123595692" data-year="2025">
+<a class="course-cover" href="01-modular-fashion/notes.html" aria-label="阅读：开源循环时装教程"><img src="01-modular-fashion/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
+<div class="course-copy"><div class="course-meta"><span>1 小时 24 分钟 · 15 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站视频已就绪</span></div>
+<h3><a href="01-modular-fashion/notes.html">2025 · 开源循环时装教程</a></h3>
+<p class="official-title" lang="en">Os Circular Fashion Tutorial</p>
+<p class="course-description">从 Fusion、Rhino 参数化绘图，到模块连接、排料与组装，学习模块化时装的制作流程。</p>
+<div class="course-actions"><a class="home-button primary bili-link" href="https://www.bilibili.com/video/BV1cohn6CEaZ/?p=1" target="_blank" rel="noopener noreferrer">在 B站观看 <span aria-hidden="true">↗</span></a><a class="home-button secondary" href="01-modular-fashion/notes.html">阅读课程笔记</a></div>
+<div class="course-source"><a href="https://class.textile-academy.org/tutorials/#2d-vector-design-modular-fashion" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
+</div></li><li class="course-card" data-course-id="1121623691" data-year="2025">
+<a class="course-cover" href="02-digital-bodies/notes.html" aria-label="阅读：人体建模与切片制作"><img src="02-digital-bodies/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
+<div class="course-copy"><div class="course-meta"><span>2 小时 59 分钟 · 25 章</span><span class="availability pending">B站链接待补充</span></div>
+<h3><a href="02-digital-bodies/notes.html">2025 · 人体建模与切片制作</a></h3>
+<p class="official-title" lang="en">MakeHuman to Rhino to Blender to Fusion Slicer</p>
+<p class="course-description">从人体模型与网格编辑，到 Blender 建模、切片、排料和装配，按操作步骤对照学习。</p>
+<div class="course-actions"><a class="home-button primary" href="02-digital-bodies/notes.html">阅读课程笔记</a></div>
+<div class="course-source"><a href="https://class.textile-academy.org/tutorials/#3d-modeling-makehuman" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
+</div></li><li class="course-card" data-course-id="1227439129" data-year="2025">
+<a class="course-cover" href="03-fabricademy-opening/notes.html" aria-label="阅读：视觉文档化"><img src="03-fabricademy-opening/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
+<div class="course-copy"><div class="course-meta"><span>56 分钟 · 16 章</span><span class="availability pending">B站链接待补充</span></div>
+<h3><a href="03-fabricademy-opening/notes.html">2025 · 视觉文档化</a></h3>
+<p class="official-title" lang="en">Visual Documentation</p>
+<p class="course-description">学习如何记录和呈现作品：案例、图文表达、素材归档、图片优化与拍摄方法。</p>
+<div class="course-actions"><a class="home-button primary" href="03-fabricademy-opening/notes.html">阅读课程笔记</a></div>
+<div class="course-source"><a href="https://class.textile-academy.org/tutorials/#documentation-best-practices" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a><details class="year-note"><summary>年份说明</summary><p>官方教程目录标注为 2025；本地课程资料记录为 2026-09-16，首页依官方目录展示。</p></details></div>
+</div></li></ul></section>
+  </section>
+
+  <section class="extension-section" id="extension" aria-labelledby="extension-title">
+    <div class="extension-intro"><p class="eyebrow">CHROME 学习插件</p><h2 id="extension-title">视频旁边，就是课程笔记</h2><p>在 B站原站播放视频，在侧栏查看固定 AI 笔记、真实截图和章节时间点。保留 B站播放器的清晰度、字幕与全屏功能。</p>
+      <ul class="feature-list"><li>章节与时间点，一眼找到学习位置</li><li>点击时间定位，暂停后继续精读</li><li>只在匹配课程的视频页手动打开</li></ul>
+      <p class="extension-scope">当前下载包：4 门课的笔记，1 门已接入 B站。后续视频上传后会同步更新下载包。</p>
+    </div>
+    <div class="download-card"><span class="version-label">插件版本 v0.3.0</span><h3>Fabricademy 学习面板</h3><p>适用于桌面 Chrome 浏览器</p><a class="home-button primary download-link" href="downloads/fabricademy-learning-panel-v0.3.0.zip" download="fabricademy-learning-panel-v0.3.0.zip">下载插件 ZIP <span aria-hidden="true">↓</span></a><p class="download-meta">17.7 MB · 更新于 2026-09-23</p><p class="download-tip">下载后先解压，再加载插件文件夹。无需运行本地服务。</p><a class="text-link" href="#guide">安装步骤与更新方法 →</a></div>
+  </section>
+
+  <section class="guide-section" id="guide" aria-labelledby="guide-title">
+    <div class="section-heading"><div><p class="eyebrow">GET STARTED</p><h2 id="guide-title">四步开始对照学习</h2></div><span class="optional-note">也可以直接阅读网页笔记</span></div>
+    <ol class="install-steps"><li><span class="step-number" aria-hidden="true">01</span><h3>下载并解压</h3><p>下载上方 ZIP，解压得到 <code>fabricademy-learning-panel</code> 文件夹，保存到固定位置。</p></li>
+    <li><span class="step-number" aria-hidden="true">02</span><h3>加载 Chrome 插件</h3><p>在地址栏输入 <code>chrome://extensions/</code>，启用「开发者模式」，选择「加载已解压的扩展程序」，选中刚解压的文件夹。</p></li>
+    <li><span class="step-number" aria-hidden="true">03</span><h3>打开对应的视频</h3><p>从课程卡片点击「在 B站观看」。安装后刷新视频页，再点击浏览器工具栏中的插件图标。</p></li>
+    <li><span class="step-number" aria-hidden="true">04</span><h3>按章节和时间学习</h3><p>在侧栏点章节标题查看笔记，点时间戳定位视频。播放跨章时，正在阅读的内容不会自动跳走。</p></li></ol>
+    <div class="faq"><h3>使用时可能遇到的问题</h3>
+      <details><summary>已经安装过，如何更新插件？</summary><p>下载新版并解压，将内容覆盖到原来加载的插件文件夹。先关闭旧侧栏，再到 Chrome 扩展管理页点击重新加载，确认版本号，然后刷新 B站视频页，重新点击插件图标。</p></details>
+      <details><summary>为什么点击插件，没有打开学习面板？</summary><p>插件只识别已经绑定的课程视频和分 P。请使用课程卡片里的 B站入口；显示「B站链接待补充」的课程还不能连接视频。刚安装或更新后需要刷新 B站页；若图标提示尚未就绪，请再点击一次。切到其他网页时，本插件侧栏会隐藏。</p></details>
+      <details><summary>新视频已经上传，旧插件也能直接使用吗？</summary><p>需要使用包含对应视频绑定的版本。主页补充新视频时会同时更新插件下载包；请按上面的更新步骤安装新版。</p></details>
+      <details><summary>没有插件，或者使用手机，也能学习吗？</summary><p>可以。点击「阅读课程笔记」即可浏览中文摘要、章节内容与配图，也可单独打开 B站视频。学习面板插件目前面向桌面 Chrome，手机可使用网页笔记和 B站。</p></details>
+      <details><summary>插件里的 AI 笔记可以更新吗？</summary><p>可在面板中点击「更新课程内容」，获取网站已发布的固定 AI 笔记。新增课程或视频绑定请使用新版插件；课程内容更新与插件程序更新是两个不同操作。</p></details>
+    </div>
+  </section>
+  <footer class="home-footer"><p>课程来源：<a href="https://class.textile-academy.org/tutorials/" target="_blank" rel="noopener noreferrer">Fabricademy 官方教程目录 ↗</a><br>中文学习笔记由 AI 辅助整理，建议结合原视频核对。</p><p>目录更新于 2026-09-23<br><a href="#top">返回顶部 ↑</a></p></footer>
+</main>
+</body>
+</html>
