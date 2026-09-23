@@ -3,10 +3,14 @@
   "slug": "03-fabricademy-opening",
   "title": "视觉文档化：案例、素材与媒体制作",
   "description": "Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。",
-  "binding_source": "course",
+  "binding_source": "extension",
   "duration": 3407.936,
   "page_url": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/notes.html",
-  "bilibili": null,
+  "bilibili": {
+    "bvid": "BV1w5h86PEPU",
+    "p": 1,
+    "offset_seconds": 0
+  },
   "chapters": [
     {
       "id": "topic-introduction",

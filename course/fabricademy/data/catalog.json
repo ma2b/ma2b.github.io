@@ -1,15 +1,19 @@
 {
   "schema_version": 1,
-  "revision": "e4710caeaa9eca1ea60b2fa5f353d10f478550d962ba42f736044f6f7033d4f3",
+  "revision": "15952e3eb5ebc261456b35da40593215caab6018bb83d1c8afaf62c447948cf1",
   "courses": [
     {
       "id": "1227439130",
       "title": "Fabricademy 第十期 · 文档化与个人网站",
       "duration": 5387.775,
       "page_url": "https://ma2b.github.io/course/fabricademy/00-documentation-website/notes.html",
-      "bilibili": null,
+      "bilibili": {
+        "bvid": "BV14Ehb6rEmT",
+        "p": 1,
+        "offset_seconds": 0
+      },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1227439130.json",
-      "sha256": "15f773b6510f6806a25fbe934b92b53b30d4d7517502c4dc4834f52634be8d72"
+      "sha256": "114b461e939891a5566d339ecc2e5c59a2c86c0fe3f36053ce04cd93d4f55848"
     },
     {
       "id": "1123595692",
@@ -29,18 +33,26 @@
       "title": "数字身体：MakeHuman、Blender 与切片制造",
       "duration": 10772.8,
       "page_url": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/notes.html",
-      "bilibili": null,
+      "bilibili": {
+        "bvid": "BV156h46UE9B",
+        "p": 1,
+        "offset_seconds": 0
+      },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1121623691.json",
-      "sha256": "a7e3717202ed9e471ee56b68b4319a115952d2468931d39dfd5ff82c8ad6cc4f"
+      "sha256": "9fc36fd2c51718d5aaf9d2ecaa8ee6a55ea4570e7b953d5d032e1d909fae1139"
     },
     {
       "id": "1227439129",
       "title": "视觉文档化：案例、素材与媒体制作",
       "duration": 3407.936,
       "page_url": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/notes.html",
-      "bilibili": null,
+      "bilibili": {
+        "bvid": "BV1w5h86PEPU",
+        "p": 1,
+        "offset_seconds": 0
+      },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1227439129.json",
-      "sha256": "b9571e3b3972f96d6a81b1415681454f761cf21bab6f517cc4c5a0ee2f72a843"
+      "sha256": "e50ae8a944ae29d7d0fb31971f97095bac7509d01eab19ca64a2ff90d0b291ef"
     }
   ]
 }

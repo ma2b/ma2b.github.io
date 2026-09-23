@@ -164,12 +164,12 @@
     "03-fabricademy-opening/subtitles/zh-CN.vtt": "aecc71c0af7030d02882320756c87e97402867061be514dd6530e663142a463b",
     "03-fabricademy-opening/subtitles/zh-en.srt": "fec80c619516f67d05aed9c136245c41df0412f8c1e4a6756eedaf561ab0ec1d",
     "03-fabricademy-opening/subtitles/zh-en.vtt": "0ef100a6a3dd02be14a456f60574dd03edeabe323a451a91ad937fd5bea625b3",
-    "data/catalog.json": "c6c84e049e00cc67c4cabc988d11ecc1ec983a62cd914e3db79e2528cc31728e",
-    "data/courses/1121623691.json": "a7e3717202ed9e471ee56b68b4319a115952d2468931d39dfd5ff82c8ad6cc4f",
+    "data/catalog.json": "f574edf5b9af90482d4eda671dff6e7e023cb24247212eb41a8f58ed9ec17fa8",
+    "data/courses/1121623691.json": "9fc36fd2c51718d5aaf9d2ecaa8ee6a55ea4570e7b953d5d032e1d909fae1139",
     "data/courses/1123595692.json": "1cad04a68c9c6111260ba6738ff4b37fcc552e237bf709eeab882c5bb2e8e974",
-    "data/courses/1227439129.json": "b9571e3b3972f96d6a81b1415681454f761cf21bab6f517cc4c5a0ee2f72a843",
-    "data/courses/1227439130.json": "15f773b6510f6806a25fbe934b92b53b30d4d7517502c4dc4834f52634be8d72",
+    "data/courses/1227439129.json": "e50ae8a944ae29d7d0fb31971f97095bac7509d01eab19ca64a2ff90d0b291ef",
+    "data/courses/1227439130.json": "114b461e939891a5566d339ecc2e5c59a2c86c0fe3f36053ce04cd93d4f55848",
     "downloads/fabricademy-learning-panel-v0.4.0.zip": "a40d5ef1d13227d29bac0bc4942591ec06b19a5e74328183675eef5caa74b12a",
-    "index.html": "040f475a9d1af6a5db35dc89773df2999f8d09c78a5b785e17b74f16b21d3dcf"
+    "index.html": "4b96dc1b5d0d6a6a6d504ca5d8871f666f2d6b00beb58f10d03a3c4ad131ad0d"
   }
 }

@@ -3,10 +3,14 @@
   "slug": "00-documentation-website",
   "title": "Fabricademy 第十期 · 文档化与个人网站",
   "description": "",
-  "binding_source": "course",
+  "binding_source": "extension",
   "duration": 5387.775,
   "page_url": "https://ma2b.github.io/course/fabricademy/00-documentation-website/notes.html",
-  "bilibili": null,
+  "bilibili": {
+    "bvid": "BV14Ehb6rEmT",
+    "p": 1,
+    "offset_seconds": 0
+  },
   "chapters": [
     {
       "id": "topic-platforms",

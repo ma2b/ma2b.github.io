@@ -3,10 +3,14 @@
   "slug": "02-digital-bodies",
   "title": "数字身体：MakeHuman、Blender 与切片制造",
   "description": "Fabricademy Digital Bodies 教程：从人体网格、Blender 编辑与建模，到切片、排料和装配测试。保留现场失败演示与必要纠错。",
-  "binding_source": "course",
+  "binding_source": "extension",
   "duration": 10772.8,
   "page_url": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/notes.html",
-  "bilibili": null,
+  "bilibili": {
+    "bvid": "BV156h46UE9B",
+    "p": 1,
+    "offset_seconds": 0
+  },
   "chapters": [
     {
       "id": "topic-scope",
