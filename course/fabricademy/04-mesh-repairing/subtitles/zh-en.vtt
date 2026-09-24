@@ -1,0 +1,1701 @@
+WEBVTT
+
+1
+00:00:00.000 --> 00:00:09.520
+我们已经做了我们的扫描,我们也运行了算法 使它不透水。
+We have done our scan and we have also run the algorithm that makes it watertight.
+
+2
+00:00:09.520 --> 00:00:17.680
+然后,我们想做的是,我们想要 切割和操纵网状,
+And then after what we want to do is that we want to cut and manipulate the mesh,
+
+3
+00:00:17.680 --> 00:00:22.240
+取出我们不希望的部分, 而这个我们可以做到这一点 在犀牛。
+take out the parts that we don't want, and this we can do it in Rhino.
+
+4
+00:00:22.960 --> 00:00:32.800
+如果你想只 滑出你的模型 就像在那些地方 它是粗糙的,
+If you want to just smooth out your model only like in the places that it is rough,
+
+5
+00:00:32.800 --> 00:00:43.680
+我建议你使用这个雕塑程序 因为它就像一个刷子 你可以实际上
+I recommend that you do use this Sculptris program because it's like a brush and you can actually
+
+6
+00:00:43.760 --> 00:01:05.760
+在此导入 OBJ。 您可以在这里取一个。 因此导入 Lara , 并且不要在新场景中调整大小 。
+import here OBJ. You can take one here. So import Lara and do not resize in a new scene.
+
+7
+00:01:06.160 --> 00:01:15.040
+这会有点重,因为这个程序 通常工作非常简单
+It will be a little bit heavy because this program normally is working with very simple
+
+8
+00:01:17.200 --> 00:01:26.960
+但好事是你有这把刷子 这样它就能平滑了
+very simple things. But the good thing is that here you have this brush so it can smooth.
+
+9
+00:01:27.440 --> 00:01:29.840
+汝能平定众生.
+You can flatten.
+
+10
+00:01:32.560 --> 00:01:39.200
+这样你就能让它变得非常柔软。你可以看到你想要的力量。
+No? So you can make it very soft. You can see the strength that you want.
+
+11
+00:01:40.080 --> 00:01:48.640
+所以这里,但在这里,我们想 充气一点点,这样我们就可以充气。
+So here, but here we want to inflate a little bit so we can inflate. But you don't want to inflate so
+
+12
+00:01:48.640 --> 00:01:56.720
+不要让这一部分穿进另一部分。这样会形成有问题的网格，最好避免。
+that this goes one into the other like that. This is bed. This is a bed mesh. It's better if it's
+
+13
+00:01:56.720 --> 00:02:01.920
+像更颠簸,不是那样的 因为这意味着 这两块甲壳虫是一边的
+like more bumpy and it's not like that because this means that the two meshes are one side the other
+
+14
+00:02:02.480 --> 00:02:08.400
+如果您想要直接打印3D程序, 这将给您带来问题。 因此在此情况下
+and this will give you problems if you want to directly 3D print your program. So in this case
+
+15
+00:02:08.400 --> 00:02:17.920
+你会做一些像 平滑它出来这样。
+you would do like something like smoothen it out like this. So you can actually smooth out the
+
+16
+00:02:18.000 --> 00:02:32.960
+想要的地方,你可以 让它像完美 在那些地方,如果你
+places that you want and you can make it like perfect with this in the places that if your
+
+17
+00:02:32.960 --> 00:02:39.200
+比如说,我们甚至没有运行算法 来清除这些小的
+scan is quite good. This one for example, we didn't even run the algorithm to take out these small
+
+18
+00:02:39.200 --> 00:02:47.200
+棋子,因为在扫描内,您可以选择像删除小于x数字的棋子。
+pieces because inside the scannec you can choose like delete pieces that are smaller than x number.
+
+19
+00:02:47.200 --> 00:02:55.360
+因此,它会删除它。所以,不管怎样,在你输出它sstl或者你保存它和这个。
+So it would have deleted that. So anyway, then after you export it sstl or you save it and this
+
+20
+00:02:55.360 --> 00:03:04.320
+刚开始,我们只用平滑的网状, 然后,好吧,我们去犀牛和
+would be only for smoothening out in the beginning the mesh. Then after, okay, we go to rhino and
+
+21
+00:03:04.400 --> 00:03:15.040
+为了去犀牛,我们需要导入网状物,所以我输入,是的,
+for going to rhino we need to import the mesh. So I import the, yes,
+
+22
+00:03:19.920 --> 00:03:29.600
+所以输入组或者其实没什么,没关系,我输入会很重。
+so import groups or is nothing actually, it doesn't matter. I import that. It will be heavy.
+
+23
+00:03:29.920 --> 00:03:42.240
+好吧,然后我做缩放 选择的是Zs 这样实际上 它缩放到我想要的地方。
+Okay, then I do zoom selected which is zs so that actually it zooms out to where I want.
+
+24
+00:03:42.880 --> 00:03:49.440
+然后这里我看到一切黑色 因为我右击这里是一个线框 所以基本上
+Then here I see everything black because I right click and here it's a wireframe so basically
+
+25
+00:03:49.440 --> 00:04:04.480
+我想看看它被遮蔽了,它需要一定的渲染
+I want to see it's shaded. It will take a render. So here rendered, rendered, rendered with right
+
+26
+00:04:04.480 --> 00:04:16.400
+点击这个或者鬼魂,我有一个网状的,我有一个网状的,我有一个网状的
+click on this or ghost it whatever. So here I have a mesh. Oh, it moved undo. I have a mesh.
+
+27
+00:04:16.720 --> 00:04:23.680
+第一件事是,我需要了解这是什么尺度。如果是较小的。所以我需要了解。
+The first thing is that I need to understand what scale this is. If it is smaller big. So I do
+
+28
+00:04:23.680 --> 00:04:35.040
+距离,我用眼睛来测量, 但是在它上做一个项目是一瞬间。
+distance and I measure with the eye but having project on this thing on it is one of the snaps.
+
+29
+00:04:35.760 --> 00:04:42.800
+这不考虑第三个维度。所以它只能从这里计算到这里。
+This doesn't take into account the third dimension. So it only will calculate from here to here in a
+
+30
+00:04:42.800 --> 00:04:50.400
+垂直方式,它不会回到第三个维度。所以如果你在这里测量
+perpendicular way and it will not go like back in the third dimension. So if you measure here
+
+31
+00:04:50.400 --> 00:04:58.720
+从这里到这里,你会从这个角度看到 这是横向的,但如果你没有
+from here to here you see in the perspective that this is horizontal but if you don't have
+
+32
+00:04:58.720 --> 00:05:05.360
+工程有时会看到第三个空间, 它不是直的。 因此, 您需要使用工程
+project sometimes it sees the third space and it is not straight. So you need to use project
+
+33
+00:05:05.360 --> 00:05:12.240
+如果您只想要计算两个维度。 因此,这是我从这里到这里测量的工程
+if you want to only calculate two dimensions. So this is project I measure from here to here
+
+34
+00:05:12.240 --> 00:05:20.160
+上面写着它就像一个米5,1,5,5,8,5,5百万
+down it says it's like one meter five one thousand five hundred eight five million. So the scale is
+
+35
+00:05:20.160 --> 00:05:28.960
+没错,这是真正的尺度,如果点击它,我就会看到它是一个网状的。所以实际上,
+correct. It is the real scale and this if I click on it down I see that this is a mesh. So actually
+
+36
+00:05:28.960 --> 00:05:37.200
+我点击这里,它说奶奶现在是一个网格。所以如果我想看看这是什么样的网格,
+I click here and it says Nana now it's a mesh. So if I want to see what kind of mesh this is
+
+37
+00:05:37.840 --> 00:05:50.800
+我将在这里选择,我将在这里朝着这个方向走。
+I will go here I will select that I will go here in this direction. So I will do show
+
+38
+00:05:50.800 --> 00:06:11.600
+裸体放大 裸体放大 裸体放大 裸体放大 裸体
+so zoom naked zoom naked. So I select object with naked edges and down it will say the object
+
+39
+00:06:11.600 --> 00:06:18.080
+物体没有任何裸体的胶片 这意味着它是紧水 意味着有
+object doesn't have any naked meshes which means that it is watertight which means that there is
+
+40
+00:06:18.080 --> 00:06:27.200
+没有像一个洞,因为我们以前做了这个 在松口,我们关闭了它。
+no like a hole because we did this before in sconect we closed it. So now this mesh I don't
+
+41
+00:06:27.200 --> 00:06:32.160
+喜欢操控犀牛的混血儿 但犀牛不是操控混血儿的程序
+like to manipulate meshes in Rhino but Rhino is not a program for manipulation of mesh.
+
+42
+00:06:32.160 --> 00:06:39.280
+所以,我会做网点 内脏实际上 合并到内脏,实际上
+So I will do mesh to nerbs which is actually merged to nerb which is actually
+
+43
+00:06:48.080 --> 00:07:11.280
+因此,它保存了。所以我做网状的内脏。
+so it's saved saved. So I do mesh to nerbs.
+
+44
+00:07:18.800 --> 00:07:28.240
+它会说,你太多的面孔 你会耗尽记忆。
+It will say that you have too many faces you will run out of memory. Let's try.
+
+45
+00:07:33.120 --> 00:07:46.400
+如果它不起作用,它就会有所作为。
+And then it doesn't do anything. So yeah good. Yeah it will do something. If it doesn't if it
+
+46
+00:07:46.400 --> 00:07:59.280
+如果像太高的分辨率 我们就能操纵网格 但最好总是这样
+cannot if it's like too high resolution we will manipulate the mesh but it's better always to
+
+47
+00:07:59.280 --> 00:08:08.960
+将其转换成多面体,是另一种几何学,基本上在犀牛工作.
+convert it into poly surface. It's a different kind of geometry basically to work in Rhino.
+
+48
+00:08:16.480 --> 00:08:20.240
+但有时,也许在你的计算机中,你需要像耐心一样。
+But sometimes maybe in your computers you need to have like patience.
+
+49
+00:08:21.440 --> 00:08:28.320
+它可能会像它一样发生 我想它会做到这一点,它最终会改变它
+It will it may happen like it I think it will do it. It will finally convert it.
+
+50
+00:08:33.360 --> 00:08:40.000
+就像我们这里有纹理 也帮不上什么忙
+Also like the fact that we have the the texture here is not helping so much with the
+
+51
+00:08:40.240 --> 00:08:41.600
+对
+yeah.
+
+52
+00:08:44.960 --> 00:08:50.160
+事实上,这是 部分的渲染。
+Actually it's part of the render.
+
+53
+00:08:50.320 --> 00:08:52.320
+还有
+And
+
+54
+00:09:04.480 --> 00:09:11.360
+另一个程序,而它正在做, 你可以使用的另一个程序是Meshmixer。
+the other program while it's doing that the other program that you can use is the mesh mixer.
+
+55
+00:09:11.520 --> 00:09:22.480
+因此, Meshmixer 也像一个雕刻程序。 您可以看到您可以导入您的
+So the mesh mixer also is like a sculpting program. You can see that you can import your
+
+56
+00:09:22.480 --> 00:09:31.920
+不,然后在这里你可以分析它的力量。
+or you can do like the bunny. No and then here you can analyze for example its strength.
+
+57
+00:09:32.800 --> 00:09:38.640
+你可以看到它更喜欢打破的地方 你可以分析一下
+You can see where it is more like keen to break. You can analyze the
+
+58
+00:09:40.560 --> 00:09:45.360
+您可以按方向测量它。您可以编辑
+you can measure it inspected like orient it. You can edit
+
+59
+00:09:47.760 --> 00:09:54.080
+喜欢不复制 现在,但你可以 雕刻它,所以你知道 像你可以做到这一点。
+like not duplicate now but you can sculpt it so you know like you can do.
+
+60
+00:09:54.800 --> 00:10:03.200
+所以,这是非常好的。
+So that's very nice.
+
+61
+00:10:06.080 --> 00:10:12.000
+我的意思是这种模型 你实际上不能喜欢你 你会打印这种东西。
+I mean this kind of model you cannot actually like you you would print this kind of stuff.
+
+62
+00:10:12.000 --> 00:10:19.520
+不,你不能用这种技术做,最好用3d打印
+No you cannot do it with any other kind of technology like this. It's better for 3d printing
+
+63
+00:10:20.400 --> 00:10:25.760
+但是,是的,你可以在这里用音量的强度来演奏。
+but yes you can play with the strength of volume here. You have different brushes that they
+
+64
+00:10:25.760 --> 00:10:33.280
+他们画画,所以它有点像雕刻, 但它更像 meshes
+draw and they draw so it's like a little bit like sculptories but it's more for like meshes
+
+65
+00:10:33.840 --> 00:10:43.840
+也有一些原始人可以使用。所以这是免费的。
+and you have some primitives also that you can use. So it's free. This is free
+
+66
+00:10:44.160 --> 00:10:49.680
+这样你就可以像分析一样分析了。好吧,这不是真的反应。
+and then you can have like the analysis. Okay this is not really responding.
+
+67
+00:10:55.440 --> 00:10:56.880
+这样你就可以盖章了
+So you can stamp it.
+
+68
+00:11:04.720 --> 00:11:11.680
+我不知道我从这个里面听到什么,有两个有副本,不管怎样,你可以玩这个。
+I don't know how I hear in this one. There are two there is a copy. Anyway this one you can play.
+
+69
+00:11:11.680 --> 00:11:19.280
+他们很好,就像简单的程序, 然后另一个你可以使用的是MeshLab。
+They are very nice like easy programs and then another one that you can use is the mesh lab
+
+70
+00:11:21.760 --> 00:11:30.400
+在那里,MeshLab其实是相当不错的,因为它有这些过滤器。
+where the mesh lab actually is quite nice because it has these filters.
+
+71
+00:11:41.920 --> 00:11:52.800
+因此,这里的MeshLab有一些过滤器,这样你就可以简化网格.
+So the mesh lab here it has some filters so you can simplify the mesh.
+
+72
+00:11:53.680 --> 00:12:02.240
+所以,你可以做一个制服的网状复印 所以它非常烦人。所以在这里。
+So you can make like you can make a uniform mesh resampling so it's very annoying. So here
+
+73
+00:12:03.120 --> 00:12:16.800
+你可以做... 对不起,上面说。
+you can do... oh sorry it says here.
+
+74
+00:12:17.680 --> 00:12:30.000
+因此,它使像... 这是一个过滤器。
+So here it makes like... it is a filter.
+
+75
+00:12:36.320 --> 00:12:41.440
+有趣的是,我放置了非常小的多边形,所以它就像一个大的多边形。
+The fun thing is that I put very little polygons so it makes like a big polygon.
+
+76
+00:12:41.440 --> 00:12:48.480
+它的重塑像一些不正确的东西。
+It remeshed like something that is not correct.
+
+77
+00:12:53.760 --> 00:13:00.560
+它使用不同的算法和库,然后你可以三角化,例如
+It's using different algorithms and libraries and then you can triangulate for example
+
+78
+00:13:01.200 --> 00:13:06.080
+因为现在的网状像更光滑 但你可以做更大的三角形。
+because now the mesh is like more smooth but you can make like more bigger triangles.
+
+79
+00:13:07.040 --> 00:13:14.240
+你可以用滤波器来改变它,总之,这个我会把它干掉的
+You can like change it with filters. Anyway so this one I will kill it.
+
+80
+00:13:21.360 --> 00:13:32.400
+所以它不想进入NERM 而我会直接喜欢操纵它 当作网状,在这里
+So it doesn't want to get to NERM and I will directly like manipulate it as a mesh and here
+
+81
+00:13:32.400 --> 00:13:39.280
+你可以找到所有你能找到的命令... 哦,你看不到,你能看见吗?
+you can find all the commands that you can... oh you cannot see there. Can you see them there?
+
+82
+00:13:47.360 --> 00:13:53.040
+所以你不能在这里看到,事情是... 哦,是的,你可以看到。所以这是所有的命令 一个网。
+So you cannot see here that the thing is... oh yes you can see. So here are all the commands for a mesh.
+
+83
+00:13:55.200 --> 00:14:01.440
+在这里,你像所有命令 对于固体或 命令对于表面。
+And here you have like all the commands for solids or the command for surfaces.
+
+84
+00:14:01.520 --> 00:14:11.840
+就像表面2D一样,关心, 它们是线条,度量,转换的维度。这样你就可以做任何事情。
+Like surfaces 2D, cares, which are lines, dimension for measuring, transforming. So you can do everything
+
+85
+00:14:11.840 --> 00:14:19.840
+在犀牛从顶端的栏杆上,但是你也可以用图标从侧边栏做一切事情,或者你
+in Rhino from the top bar but you can also do everything from the sidebar with icons or you
+
+86
+00:14:19.840 --> 00:14:26.640
+因此,有三种方法可以做同样的事情。
+can also write everything. So there are three ways to do the same thing. So in this case what I want
+
+87
+00:14:26.640 --> 00:14:38.320
+要做的是,我想做一个盒子, 我想把这个盒子在这里, 这个盒子需要像
+to do is that I want to make a box and I want to put this box here and this box needs to be like
+
+88
+00:14:38.320 --> 00:14:48.240
+我用这个图标做了,但如果你愿意,也可以写盒子
+bigger. And then I will... I did it with here with this icon but if you want you can also write box
+
+89
+00:14:48.240 --> 00:14:55.280
+举例来说,如果你想的话,你可以去坚固的盒子。有三种方法也是一样的。
+for example and if you want you can go solid box. It's the same thing with three ways. So then after
+
+90
+00:14:55.280 --> 00:15:08.960
+我会把盒子移到这里,基本上,这是... 如果你看到这个是...
+I will move the box here and basically this is... if you see this one is... if you see down it says
+
+91
+00:15:08.960 --> 00:15:17.440
+所以这两个人不是朋友,他们什么都做不了。
+it is an extrusion and this one is a mesh. So these two people are not friends. They cannot do anything
+
+92
+00:15:17.440 --> 00:15:22.960
+就像你无法加入他们一样,你不能割断他们,不能...
+together. Like you cannot join them, you cannot cut them, you cannot... because they are different
+
+93
+00:15:22.960 --> 00:15:31.280
+一种是几何类型,另一种是另一种几何类型。
+families. One is one kind of type of geometry and the other is one other kind of type of geometry.
+
+94
+00:15:31.280 --> 00:15:40.320
+因此,基本上, meshes 可以被操纵与 meshes, 固体与固体, 表面与表面 和所有
+So basically meshes can be manipulated with meshes, solids with solids, surfaces with surfaces and all
+
+95
+00:15:40.320 --> 00:15:47.680
+你无法在网状和网状之间做任何事情。
+the families all... all together. You cannot do anything between a solid and a mesh. So what you
+
+96
+00:15:47.680 --> 00:15:55.360
+需要做的就是把这个盒子转换成网状。所以我会把它编成网状,然后它问我如何
+need to do is that to do this box convert it into a mesh. So I will mesh it and then it asks me how
+
+97
+00:15:55.360 --> 00:16:03.200
+您想要的许多多边形。我默认。所以我基本上转换了固体的几何形状。
+many polygons you want. I do it default. So basically I convert the geometry of the solids
+
+98
+00:16:04.880 --> 00:16:10.240
+我把拉伸实体的几何转换成网格；其他网格也可以这样处理。
+to... of the extrusion to the geometry of a mesh and I could have done the same for the mesh
+
+99
+00:16:10.960 --> 00:16:16.480
+我之前告诉你的这个命令 是网状神经 但是多边形太多了
+with this command that I showed you before which is mesh to nerves but it's too many polygons so
+
+100
+00:16:16.480 --> 00:16:25.040
+基本上我不会。所以现在,如果我点击我有两个东西,一个是挤压,一个是网状。
+basically I will not. So now here if I click I have two things one extrusion and one mesh.
+
+101
+00:16:25.040 --> 00:16:32.160
+其中一个在同一个地方。所以我选择了挤压,然后删除它。所以现在这个是。
+One inside the other at the same spot. So I choose the extrusion and I delete it. So now this one is
+
+102
+00:16:32.160 --> 00:16:42.080
+这个和那个现在都是网格。先保存，记得经常保存。
+a mesh and this one is a mesh. So let's see... so now I will save that first always try to save.
+
+103
+00:16:42.080 --> 00:16:48.080
+好吧,现在我会尝试 做一个布尔行动。
+Okay and then now what I will try to do is that I will try to make a Boolean operation.
+
+104
+00:16:48.800 --> 00:16:56.400
+布尔操作是您有两个对象 A 和 B 的操作, 然后您可以进行布尔操作
+Boolean operations are the operations that you have two objects A and B and then you can do Boolean
+
+105
+00:16:56.400 --> 00:17:06.400
+结合。 这样您就可以做一个对象 C , 或者您可以进行布尔分割。 因此您有 A 。
+union. So you can do one object the object C or you can do a Boolean split. So you have the A
+
+106
+00:17:06.400 --> 00:17:13.680
+没有这部分,没有这部分的B 和作为两者交汇点的小对象
+without this part the B without this part and the small object which is the intersection of the two
+
+107
+00:17:13.680 --> 00:17:22.720
+所以说A减B,所以只有这个
+as a C or you can make the difference of them. So you say A minus B so it's only this one. So there
+
+108
+00:17:22.720 --> 00:17:28.720
+是不同的操作,我们叫布林 操作在这里,你可以看到你有
+are different operations as we call Boolean operations and here as you can see you have
+
+109
+00:17:28.720 --> 00:17:35.600
+布尔差异 布尔分裂 布尔结合 一般来说我个人更喜欢这样做
+Boolean difference, Boolean split, Boolean union. In general personally I prefer to do
+
+110
+00:17:36.400 --> 00:17:43.120
+布尔分裂。所以我拥有我所有的开始,但分裂,然后我删除我拥有的
+Boolean split. So I have everything that I had in the beginning but split and then I delete what I have
+
+111
+00:17:44.320 --> 00:17:51.840
+所以,在这种情况下,我想做一个布尔分裂,但为网状。
+but you can try all of them. So in this case I want to do a Boolean split but for mesh
+
+112
+00:17:52.720 --> 00:17:58.000
+我需要选择boolean的网状分裂,它只为网状分裂。
+I need to choose mesh Boolean split which is there. It's only for the meshes.
+
+113
+00:17:58.000 --> 00:18:09.440
+我想用盒子分给珍妮,请输入,现在它会
+So what do I want to split? I want to split Jenny with the box. Enter. So now it will
+
+114
+00:18:09.440 --> 00:18:17.680
+计算一下,你可以看到网状布林分裂在进展中,希望它能分裂出来。
+calculate for a moment down you can see mesh Boolean split in progress and hopefully it will split it.
+
+115
+00:18:18.480 --> 00:18:25.600
+所以你可以把Jenny转换成NERB 你不需要做网格盒 你可以做的
+So you have been able to convert Jenny into NERBs you don't need to do the mesh box you can just do
+
+116
+00:18:25.600 --> 00:18:35.520
+框中。是的,最好用普通命令拆分布尔。是的,所以它这样做似乎是因为
+boxes. Yes and best Boolean split with the normal command. Yeah so it seems that it did it because
+
+117
+00:18:35.520 --> 00:18:42.000
+现在它不再计算了,让我们来看看珍妮。
+now it's not calculating anymore so let's see Jenny. So Jenny is without the base that's cool.
+
+118
+00:18:42.000 --> 00:18:47.280
+另一件事是,我们现在可以删除它。
+The other thing is that so now we can delete that. The cool thing with the Boolean which is a
+
+119
+00:18:47.280 --> 00:18:53.840
+修剪之间的区别,因为你也可以修剪,这是命令修剪。
+difference between trim because you can also cut trim it's the command trim. The cool thing with the
+
+120
+00:18:53.840 --> 00:19:02.800
+布尔是它会使它坚固 所以它会关闭它。你会有一个表面是封闭的。
+Boolean is that it will make it solid so it will close this. You will have a surface that is closed
+
+121
+00:19:02.800 --> 00:19:10.640
+也就是说,你的模型仍然紧缺。如果你做了修剪,你就会被剪除,但是...
+which means that your model is still watertight. If you did a trim you would be cutting but then
+
+122
+00:19:10.720 --> 00:19:18.640
+它会打开,你下面没有地表,你要我修剪一下,这样你就可以
+it will be open and you would have no surface under you. You want me to do a one trim so that you
+
+123
+00:19:18.640 --> 00:19:27.680
+是的,它保持空洞,所以你只会看到 就像你拥有
+can see the difference? Yes it stays hollow so you will only see like as if you had the
+
+124
+00:19:27.680 --> 00:19:34.480
+彼得没有想念这个身体的表面 但里面什么都没有,这不合适
+peter miss no the one surface of this body but inside there was nothing and this is not appropriate
+
+125
+00:19:34.480 --> 00:19:42.720
+用于操作 c3d 打印或任何东西, 基本上有您可以完成的命令
+for manipulation c3d printing or anything and basically there are commands that you can do
+
+126
+00:19:42.720 --> 00:19:51.760
+类似命令的盖子,它把盖子放在打开的物体上,但这只针对那些物体
+like the command the cap which puts like caps on the open objects but this is only for objects that
+
+127
+00:19:51.760 --> 00:20:01.120
+如果它像一个弯曲的表面,你可以 关闭盖子是行不通的。
+they are flat. If it's like a curved surface that you can you need to close cap will not work.
+
+128
+00:20:01.840 --> 00:20:10.240
+现在,我会做同样 在这里和这里 也许因为我不想这样
+Now I will do the same here and here maybe because I don't want this
+
+129
+00:20:12.240 --> 00:20:15.440
+举个例子,我不想要这只手。
+I don't want this hand for example.
+
+130
+00:20:16.240 --> 00:20:29.680
+所以,让我们做这个缩放 选定的输入,所以我可以 一点点旋转她
+So yes so let's do this zoom selected enter so I can a little bit rotate her
+
+131
+00:20:31.600 --> 00:20:36.560
+这样她就直了或者喜欢
+so that it she's straight or like
+
+132
+00:20:36.720 --> 00:20:49.760
+碞钩ê 礛и碞硂暗 ⁇  琌иぃи材维
+like there and then I can make a box here but then you see I cannot see the third dimension I go
+
+133
+00:20:49.760 --> 00:21:01.200
+我在这里设计,这样你就可以有一个这样的一个 我设计一个盒子在这个侧 一个维度,所以
+and I design here so you can have like a this one I design a box in this side for one dimension so
+
+134
+00:21:02.080 --> 00:21:08.480
+然后在这个屏幕的前屏幕上显示另一个维度
+and then in this screen front screen for the other dimension basically
+
+135
+00:21:12.000 --> 00:21:22.320
+盒子必须从网状物上放出来
+it's mandatory that the box it is bigger goes out from the thing from the mesh
+
+136
+00:21:23.040 --> 00:21:29.440
+因为布林比较容易计算 所以好,我这样做
+because the Boolean is easier calculated so okay I do that
+
+137
+00:21:31.920 --> 00:21:39.040
+然后,我把它们粘好,然后我真正选择
+and then I will mesh them okay and then I will actually select
+
+138
+00:21:40.320 --> 00:21:46.560
+挤压和删除挤压,因为在犀牛,我可以选择可以选择的对象的家族
+extrusions and delete the extrusions because in Rhino I can select families of objects I can
+
+139
+00:21:46.560 --> 00:21:54.000
+选择 meshes 然后它会选择一切 或者我可以选择点 然后它会说
+select meshes and it will select everything or I can select points and then it will say
+
+140
+00:21:54.000 --> 00:21:59.680
+这件事情没有分数,没有分数,反正好,然后我会网起来
+there are no points there are no points in this thing okay anyway and then I will mesh
+
+141
+00:22:01.520 --> 00:22:08.880
+Boolean又分了 我想分了 因为它总是问犀牛会问你你怎么做的
+Boolean split again I want to split this because it asks always Rhino will ask you what do you
+
+142
+00:22:08.880 --> 00:22:14.800
+想要做,你必须读到,你不必读它 说选择 meshes 所有的多孔的表面
+want to do and you have to read that no you have to read it says select meshes all porous surfaces
+
+143
+00:22:14.800 --> 00:22:20.160
+,然后按下输入,您想要用它拆分什么
+to split and then press enter enter with what do you want to split it with this
+
+144
+00:22:21.600 --> 00:22:32.160
+所以我会再次等待 最后在这里我得到了这个 这样我就可以删除它,然后我会
+so then I will wait again and then finally here I have this so I can delete that and then I will
+
+145
+00:22:32.160 --> 00:22:40.640
+做同样的事情,我想分这个 与那个输入,现在它有点切
+do the same with I want to split this with that enter so now that it's a little bit more cut
+
+146
+00:22:41.280 --> 00:22:44.080
+好吧,我会保存它
+okay I will save it
+
+147
+00:22:46.480 --> 00:22:55.120
+然后,我会再次尝试做它 网状神经,或也许没有 它不重要,没有
+and then I will try again to do it mesh to nerves or maybe no it doesn't matter no no
+
+148
+00:22:56.320 --> 00:23:03.360
+所以没关系,所以如果我现在想放这个模型
+so it's okay so if I want now to put this model in
+
+149
+00:23:04.240 --> 00:23:15.600
+切片器 我将提交所选导出文件 。 我选择要进行导出的东西, 我总是要进行导出
+a slicer I will file export selected I select what I want to do export and I always do export
+
+150
+00:23:15.600 --> 00:23:22.320
+选择只是不要问,为什么只是这样做 因为有很多问题 如果你只是导出
+selected just don't ask why just do it like that because there are many problems if you just export
+
+151
+00:23:22.320 --> 00:23:28.560
+因为现场还有别的东西, 然后它就像一个大烂摊子 对于3d打印机和
+because there are other things in the scene and then it's like a big mess for the 3d printer and
+
+152
+00:23:28.560 --> 00:23:38.080
+总是被选中导出, 我选择您想要导出的东西, 然后我可以导出为 obg
+just always export selected and I select what you want to export and then I can export it as obg
+
+153
+00:23:39.200 --> 00:23:40.880
+所以这是珍妮切
+so this is Jenny cut
+
+154
+00:23:45.280 --> 00:23:49.600
+在这里,你只是离开它,因为它不是
+and here you just leave it as it is don't
+
+155
+00:23:50.480 --> 00:23:57.040
+嗯,是的,你可以输出它 作为神经 同时,现在
+uh yeah you can export it as nerves also in any case now
+
+156
+00:23:58.880 --> 00:24:05.520
+是啊,我们要做它作为物体 所以我现在去切片机 核聚变360
+yeah we we are going to do it as object so now I go to slicer for fusion 360
+
+157
+00:24:07.200 --> 00:24:10.080
+基本上说
+and um basically
+
+158
+00:24:11.040 --> 00:24:20.960
+最好能用雕塑来打开 也看看它是否平滑
+yeah it would be nice for example this model to open it in sculptures and see also smooth it out
+
+159
+00:24:22.080 --> 00:24:27.920
+喜欢什么 喜欢它有凸起或喜欢 一点点与托什喜欢触摸它,因为
+like whatever like it has bumps or like a little bit with a tush like to touch it because
+
+160
+00:24:29.120 --> 00:24:39.440
+伤疤上方的伤痕 听起来更难受 所以珍妮不要紧水
+we from the scar need to come sound like more bumpy so Jenny no water tight
+
+161
+00:24:40.080 --> 00:24:50.080
+珍妮切开,然后这里会发生什么是
+Jenny cut open and then here what will happen is that
+
+162
+00:24:53.120 --> 00:25:00.480
+如果你想做珍妮的所有身体 我们应该拆开它 并有两个文件 因为激光
+if you want to do all the body of Jenny we should split it and have two files because the laser
+
+163
+00:25:00.480 --> 00:25:08.240
+切割器是600米的1米 所以,你不能做高于1米的 基本上,当你想要
+cutter is one meter by 600 so you cannot do higher than one meter so basically when you want to
+
+164
+00:25:09.120 --> 00:25:18.080
+做你的钱团队,你必须做一个盒子 一个米 完全放你想要的部分
+do your money team you have to make a box that is one meter exactly put the part that you want to
+
+165
+00:25:18.080 --> 00:25:27.760
+进去切掉其余的 因为激光切割器是一米多 如果你想做
+do inside and cut the rest because the laser cutter is one meter and if you want to do the
+
+166
+00:25:28.320 --> 00:25:32.720
+分两部分,然后分两部分,然后分两部分,然后加入
+two parts then you have to split them and do them separately and then join them
+
+167
+00:25:33.680 --> 00:25:36.720
+当你在激光切割机里组装的时候
+when you assemble it in this laser cutter
+
+168
+00:25:48.400 --> 00:25:57.680
+是啊,所以我用OBG,但如果你可以导入 STL在犀牛,也许它没有纹理 所以,
+yeah so I use the OBG but if you can import the STL in Rhino maybe it doesn't have the texture so
+
+169
+00:25:57.680 --> 00:26:10.480
+也许它比较轻,但部落 并不那么确定 微小的物体会更多
+maybe it's lighter but tribal that's not so for sure the scant object will be more
+
+170
+00:26:11.760 --> 00:26:19.120
+重过人的身体,你知道,因为 微小的物体从...
+heavy than the make human body you know because the scant object became out from the
+
+171
+00:26:20.400 --> 00:26:27.280
+点云是三角化的,然后有一个算法 运行和关闭了洞,
+point cloud that was triangulated and then there was an algorithm that ran and closed the holes and
+
+172
+00:26:27.360 --> 00:26:32.400
+你不知道它是否正确关闭了它们
+you don't know if it closed them correctly so
+
+173
+00:26:36.400 --> 00:26:39.840
+你可以现在做它,也许
+can you do it now yeah maybe
+
+174
+00:26:43.280 --> 00:26:44.800
+我将说的方式
+the way I will say
+
+175
+00:26:45.760 --> 00:26:56.480
+所以如果我们想让珍妮做正确的尺寸 我们就会砍掉她的头
+so if we want to do Jenny the correct size we would cut her head
+
+176
+00:27:03.040 --> 00:27:10.880
+所以为了切掉她的头 我们最好不要像切成直线 不切成直线
+so in order to cut her head it's better if we cut it not like straight no if we cut it for example
+
+177
+00:27:11.840 --> 00:27:12.240
+喜欢
+like
+
+178
+00:27:14.720 --> 00:27:17.760
+像这样,不
+like this no
+
+179
+00:27:19.760 --> 00:27:24.720
+不,这很成问题,其实是个很好的例子
+no this will be very problematic is a good example actually to see
+
+180
+00:27:26.880 --> 00:27:32.400
+所以如果我想这样砍她的头 或者也许有点像
+so if I want to cut her head like that or maybe a little bit like
+
+181
+00:27:33.200 --> 00:27:41.680
+我旋转它,我移动它 有点像那样 是的,所以这个我会挤出它。
+I rotate it and I move it a little bit like that yeah so this one I will extrude it
+
+182
+00:27:45.040 --> 00:27:52.000
+像这样,然后我把水面挤出来
+like this and then I will extrude the surface like that
+
+183
+00:27:52.560 --> 00:28:03.840
+哦,是的,然后我就把它压碎 好删除挤压多层表面
+oh yeah and then I will just mash it okay delete the extrusion the poly surface
+
+184
+00:28:04.400 --> 00:28:10.480
+然后把这个和这个分开
+and then mesh boolean split this one with this one
+
+185
+00:28:10.800 --> 00:28:12.800
+然后，
+and
+
+186
+00:28:17.280 --> 00:28:17.680
+那样吧
+then
+
+187
+00:28:20.880 --> 00:28:27.760
+是的,然后你看这里有点不妙 所以我需要继续打扫,但是...
+yes and then you see here is a little bit not good so I need to continue cleaning but
+
+188
+00:28:28.400 --> 00:28:37.840
+我会去前视线,然后从这里排出一条线,我就会排出一条线
+I will go to the front view and I will make a line from here and it will be I will make a line
+
+189
+00:28:37.840 --> 00:28:50.320
+这里有一个曲线 从这里多线 从这里,它会是1000, 这是一个米的哇
+here a curve from here polyline from here and it will be 1000 which is one meter wow
+
+190
+00:28:52.240 --> 00:28:56.960
+所以,现在你需要告诉我们 你的身高之前,我砍你的头
+so now you need to tell us your height before I cut your head
+
+191
+00:28:57.360 --> 00:28:57.840
+然后，
+and
+
+192
+00:29:04.800 --> 00:29:10.240
+珍妮在哪里,你需要告诉我们 你的身高之前,我切。
+where is Jenny you need to tell us your height before I cut
+
+193
+00:29:15.280 --> 00:29:15.520
+对
+yes
+
+194
+00:29:19.200 --> 00:29:20.240
+喜欢从这里
+like from here
+
+195
+00:29:20.960 --> 00:29:21.440
+到这里
+to here
+
+196
+00:29:25.840 --> 00:29:26.480
+到这里
+to here
+
+197
+00:29:29.520 --> 00:29:32.400
+155 155 0 (韩语)
+155 155 0
+
+198
+00:29:36.640 --> 00:29:45.520
+啊,不,我没有做正确 对不起,我会再做一次 所以我做了一个多线 从这里
+ah no I didn't do correctly sorry I will do it again so I make a polyline from here
+
+199
+00:29:50.480 --> 00:30:02.560
+到这里,我会写155 0 点击和完成好 所以我不看到多线 原因我
+to here and I will write 155 0 enter click and done okay so I don't see the polyline the reason I
+
+200
+00:30:02.560 --> 00:30:10.960
+没有看到多线是因为我有它 被渲染,线是不能 渲染,如果我有
+don't see the polyline is because I have it in rendered and lines cannot be rendered if I have
+
+201
+00:30:10.960 --> 00:30:23.600
+在钢丝框里,我可以看到它 这样遮荫,我可以看到它幽灵,我可以看到它,但做了线条
+it in wireframe I can see it so shade it I can see it ghosted I can see it but rendered lines
+
+202
+00:30:23.600 --> 00:30:30.880
+反正是无法制造的 所以这个是你的高度 所以基本上我会给你放大一点
+cannot be rendered anyway so this one is your height so basically I will scale you a little bit
+
+203
+00:30:31.680 --> 00:30:32.160
+缩放
+scale
+
+204
+00:30:32.160 --> 00:30:45.680
+我会把像 从这里到这里和这里 好,所以我做了一条线 正确大小
+and I will put like from here to here and here okay so I made a line in the correct size
+
+205
+00:30:46.880 --> 00:30:55.360
+然后,我抓住它,我缩放 它的参考线,所以现在我可以删除
+and then I grabbed it and I scale it with a reference of the line so now I can delete that
+
+206
+00:30:55.440 --> 00:31:00.080
+现在我可以做这条线 从这里。
+and now I can make this line which will be from here
+
+207
+00:31:02.480 --> 00:31:09.440
+在这里,一个米是激光切割器的大小,好吗?
+to here one meter which is the size of the laser cutter okay
+
+208
+00:31:11.760 --> 00:31:12.400
+并随后
+and then
+
+209
+00:31:15.680 --> 00:31:24.000
+然后,实际上,我需要做一个盒子 这将是这个盒子, 对于第三个维度,我刚刚去
+and then actually I need to make a box which will be this box and for the third dimension I just go
+
+210
+00:31:24.000 --> 00:31:32.080
+从角度来说,我确实喜欢, 也许我只是不需要做 像完全一个米表,因为它是
+to perspective and I do like that maybe I just don't need to do like exactly one meter because it's
+
+211
+00:31:32.080 --> 00:31:38.960
+正好一个米的激光切割器 所以它就像留下一些边距 这样我就可以移动这个
+exactly one meter the laser cutter so it's good like to leave some margin so I can move this
+
+212
+00:31:41.120 --> 00:31:53.920
+前面我可以移动这个移动50毫米 所以它就像我有一些空间,然后我
+front I can move this move this by 50 millimeters so it's like I have like some space and then I
+
+213
+00:31:54.000 --> 00:31:56.640
+将匹配框,然后
+will match the box and then
+
+214
+00:32:07.760 --> 00:32:15.360
+哦,是的,如果你想做 整个身体,那么你只得 分开它
+oh yeah if you want to do the whole body then you would have to separate it only
+
+215
+00:32:16.160 --> 00:32:22.240
+然后把切片机装好 然后组装起来 就像激光切割一样
+and you put the slicer but then you will assemble it they will be like laser cutting
+
+216
+00:32:22.240 --> 00:32:26.560
+一半和激光切掉另一半 然后你必须想办法加入他们
+half and laser cutting the other half and then you have to try to find a way to join them
+
+217
+00:32:27.680 --> 00:32:32.160
+更复杂 所以这是网状的
+which is more complicated and anyway so this is the mesh
+
+218
+00:32:36.000 --> 00:32:43.280
+在这里,我删除了挤压,所以不要担心 如果你第一次没有得到它
+and then here I delete the extrusion so don't worry if you don't get it for the first time
+
+219
+00:32:43.280 --> 00:32:50.560
+因为我们会做很多次,你会学到的 我想我正在录制会议
+because we will do it so many times that you will learn it and I think that I'm recording the session
+
+220
+00:32:50.560 --> 00:33:01.600
+所以我今晚会寄给你 所以用我想要的来分我想要的
+so I will send it to you tonight and so mesh boolean split what I want to split this with what I want
+
+221
+00:33:01.600 --> 00:33:18.560
+把它和那个分开,然后我还 采取,所以实际上我还得在这里打扫
+to split it with that and then I also take that so actually I have to still clean here
+
+222
+00:33:18.960 --> 00:33:23.520
+为了能够在这里看到一个错误
+and in order to be able to so here you see that there is an error
+
+223
+00:33:27.760 --> 00:33:34.240
+这是不好的,因为这个会出来 在切片机这样基本上
+this is bad because this will come out in the slicer so basically
+
+224
+00:33:36.160 --> 00:33:46.320
+我会告诉你怎么做 所以这里最好切掉这个
+I will tell you how to do it so here it would be good to cut this
+
+225
+00:33:46.880 --> 00:33:57.520
+所以为了切开这个,我会去正确的视野 是的,现在我会切开这个这样。
+so in order to cut this I will go to the right view yes and now I will cut this so
+
+226
+00:33:57.520 --> 00:34:08.720
+这么说吧
+so
+
+227
+00:34:14.880 --> 00:34:23.520
+不是这个拉伸方向；当前方向不符合我的需要。
+extrude no no an extrude but it's a it's extruding in a direction that I don't want
+
+228
+00:34:24.000 --> 00:34:29.840
+所以,我要做的是 我会在这里说方向
+so what I will do is that I will say here direction
+
+229
+00:34:32.080 --> 00:34:41.760
+我会告诉你,方向是 从这里到那里
+and I will tell that the direction is from here and then to there
+
+230
+00:34:42.160 --> 00:34:56.080
+所以在这里对不起,所以在这里的问题 是,这一个非常小 在后面这里
+so here sorry so here the problem is that this one is very small in the backside here
+
+231
+00:34:56.800 --> 00:35:03.600
+它不会有点像出去,它会失败 所以我需要移动它一点点
+it doesn't go a little bit like out and it will fail so I need to move it a little bit
+
+232
+00:35:04.080 --> 00:35:19.040
+然后,我将不得不挤压这个表面 因为每次我想挤出的东西
+and then I will have to extrude this surface because every time I want to extrude something
+
+233
+00:35:19.040 --> 00:35:24.960
+这就像选择什么样的几何 我拥有,然后我再做一个网状
+it's like selecting what kind of geometry I have and then I will do a mesh again
+
+234
+00:35:25.520 --> 00:35:40.720
+然后我就把布利恩分了 不许把布利恩分了
+and then I will Boolean split this one no mesh Boolean split this one with this one
+
+235
+00:35:40.960 --> 00:35:51.840
+是啊,所以让我们把这个拿出来,现在在这里
+yeah so let's take this out and now here
+
+236
+00:35:51.840 --> 00:35:58.960
+这儿
+here
+
+237
+00:36:01.840 --> 00:36:07.600
+好吧,它不是完美的,所以我会喜欢
+well it's not perfect so I will do like
+
+238
+00:36:07.840 --> 00:36:23.520
+是啊,我会做另一行 不,没关系,它也没关系 所以它离开了,因为我
+yeah I will do another line no no it's okay and it's also okay so it left so because my
+
+239
+00:36:23.520 --> 00:36:31.840
+我的音量,我做的盒子没有那么大 它留下了这个,这是不好的
+my volume that I the box that I made was not so big it left this and this is bad
+
+240
+00:36:32.000 --> 00:36:39.840
+所以基本上我会再做一次 你知道 做一个大的不,因为
+so basically I will I will have to do it again you know like make a big no because
+
+241
+00:36:39.840 --> 00:36:50.960
+你看,你在这里看到, 重做删除重做,哦,不重做 这些他们在一起
+they you see that you see here redo delete redo redo oh no redo redo these ones they are together
+
+242
+00:36:50.960 --> 00:36:59.280
+我要是想拆开他们,就想拼命组队
+it's one thing if I want to split them I would do like I would try and group
+
+243
+00:37:03.680 --> 00:37:11.200
+最好把这个盒子放大一个维度的1d
+no it's better it's better actually to make this box bigger scale 1d in one dimension
+
+244
+00:37:11.440 --> 00:37:21.840
+所以基本上从这里到这里, 使它更大 现在,我会网布林分裂
+so basically from here to here and make it bigger and now I will mesh Boolean split
+
+245
+00:37:23.200 --> 00:37:34.400
+这个有我不知道,但对不起 伙计们,它在这里,我再次在一起 编辑重制版的表面
+this one with I don't know but sorry guys it's here I it's together again edit redo extrude surface
+
+246
+00:37:34.960 --> 00:37:42.080
+重做网格重做删除此事项, 现在只缩放一个维度
+redo mesh redo delete the thing and now scale only in one dimension
+
+247
+00:37:43.600 --> 00:37:51.520
+因为我只想从这里到这里 再把布林的网格放大
+because I only want to scale in this dimension from here to here and there and then mesh Boolean
+
+248
+00:37:51.520 --> 00:37:54.240
+把这个和这个分开
+split this one with this one
+
+249
+00:37:54.400 --> 00:38:08.880
+所以它没有看到它不做 它有一个错误 它使像 发生在这里
+so it doesn't you see it doesn't do it it has an error it makes like so what happens is that here
+
+250
+00:38:10.080 --> 00:38:16.400
+基本上,我太低了,我需要把这个多一点。
+I basically am too much down and I need to put this a little bit more up
+
+251
+00:38:16.960 --> 00:38:24.240
+所以,让我们看看更好的
+so let's see better
+
+252
+00:38:27.200 --> 00:38:34.880
+在正确的视野中,发生了什么,所以没关系,这应该很好
+here in the right view what is happening so okay this should be fine
+
+253
+00:38:35.760 --> 00:38:50.000
+我实际上可以移动它 直到在这里 是的,所以, mesh Boolean 分裂 mesh Boolean 分裂
+I actually can move it until here yeah so mesh Boolean split mesh Boolean split
+
+254
+00:38:52.080 --> 00:38:54.320
+这个和这个一起
+this one with this one
+
+255
+00:38:54.320 --> 00:39:01.920
+好,让我看看
+okay so let's see
+
+256
+00:39:07.680 --> 00:39:11.360
+好吧,所以下次头发应该更紧
+okay so next time the hair should be tighter
+
+257
+00:39:12.800 --> 00:39:18.320
+不,没关系,反正我现在要选择文件导出
+no it's it's okay anyway now I will file export selected
+
+258
+00:39:18.880 --> 00:39:24.400
+和珍妮更多的剪辑SNBG
+and Jenny more cut SNBG
+
+259
+00:39:33.040 --> 00:39:42.320
+好吧,你在这里看到它说输出网状纹理坐标 我们不希望的纹理
+okay so here you see it says export mesh texture coordinates we don't want the texture
+
+260
+00:39:42.560 --> 00:39:47.600
+所以我就把这个拿出来
+so I just take this out
+
+261
+00:39:52.560 --> 00:39:55.520
+现在我们可以回到这里,这样
+and now we can go back to here so
+
+262
+00:39:59.920 --> 00:40:08.800
+所以这里我们有珍妮 当你打开它
+so here we have Jenny and the thing is that when you open that
+
+263
+00:40:08.880 --> 00:40:16.720
+首先,你看到,这是两个 它就像它把它像水平 这就像
+program first of all you see that it's the both it's like it put it like horizontal this is like
+
+264
+00:40:17.280 --> 00:40:23.040
+你看,它把它像另一个方向 当你打开软件的时候你选择它。
+you see it's put it like in the other direction this you choose it when you open the software
+
+265
+00:40:23.840 --> 00:40:31.920
+但我选择了喜欢的Y 就像我选择的这个物体的长边是Y,所以它
+but I chose like the the Y like I chose like the the long side of this object is the Y so it
+
+266
+00:40:32.000 --> 00:40:41.040
+不管怎么说,打开它,所以我们基本上需要 在这里说,我们是在工作。
+opened it like down anyway so basically we need to go here and say that we are we were working in
+
+267
+00:40:41.040 --> 00:40:50.640
+10毫米,然后我们就得到这里 把这个装在原来的尺寸
+millimeters and then we need to go here and put that we want this in this original size
+
+268
+00:40:53.360 --> 00:40:57.600
+因为它自动打开 并有它逃跑
+because it automatically open and have it to escape
+
+269
+00:41:02.800 --> 00:41:14.000
+所以现在我们可以看到,这是高度 它实际上说宽度,因为它是水平的。
+so now we can see that this is the height actually it says width because it's horizontal
+
+270
+00:41:15.600 --> 00:41:21.280
+所以这是完美的,那么接下来我们需要做的是 我们需要按这个设置的事情
+so that's perfect then the next thing we need to do is that we need to press this setting thing
+
+271
+00:41:21.280 --> 00:41:29.360
+制造环境,这是非常重要的,因为我们需要 定义什么是大小
+manufacturing settings and it is very important because we need to define what is the size of
+
+272
+00:41:29.360 --> 00:41:38.480
+我们要用的材料 上面的纸牌有多大?
+the material that we're going to use so what is the size of the boards the card on the so here
+
+273
+00:41:38.480 --> 00:41:46.160
+点击这里的设置时, 下到这里就可以工作了
+down when you click here up in the settings then if you go down here you can put that you work
+
+274
+00:41:46.160 --> 00:41:56.240
+10毫米,你可以说纸板的尺寸是1米,就是1千米
+millimeters and you can put that the size of the cardboard is one meter which is one thousand
+
+275
+00:41:57.120 --> 00:42:06.160
+以六百计 板子的厚度是四 基本上就是激光切割器的大小
+by six hundred and the thickness of the board is four so basically the size of the laser cutter
+
+276
+00:42:06.880 --> 00:42:13.760
+我们将要购买的板子的大小 是六百公分之一的
+is the size of the boards that we are going to buy which is one meter by six hundred and the
+
+277
+00:42:13.760 --> 00:42:22.720
+我们将要购买的板子的厚度是四,比如说,这里会发生什么?
+thickness of the boards that we are going to buy will be four for example so what will happen here
+
+278
+00:42:22.720 --> 00:42:30.480
+现在这是好的,所以这是 习惯,你必须在这里 选择的习惯,你
+and now it's this is okay so this is the custom you have to go here and select the custom that you
+
+279
+00:42:30.480 --> 00:42:39.280
+放下,在这里你可以选择构造技术 所以这里有堆叠的切片
+put down and here you can choose the construction techniques so here you have the stacked slices
+
+280
+00:42:39.360 --> 00:42:52.560
+比如说,在这里它会做所有堆叠的切片 然后你可以得到组装计划
+for example so here it will make all the stacked slices and then you can get the assembly plans
+
+281
+00:42:52.560 --> 00:43:01.600
+它可以想象你需要怎样组装它 你看见了
+and it will visualize how you need to assemble it you see
+
+282
+00:43:10.000 --> 00:43:14.320
+嗯,这个是超容易的,但你看,它需要像
+well this one is super easy but you see that it needs like
+
+283
+00:43:16.320 --> 00:43:25.040
+这些板子都不好,所以我们不这样做 然后你有插合的切片
+all these boards and it's not good so we will not do that and then you have the interlocked slices
+
+284
+00:43:26.000 --> 00:43:30.720
+所以,你在这里看到,这是所有红色的原因
+so you see here that is all red why
+
+285
+00:43:34.800 --> 00:43:35.920
+为什么都是红的?
+why is it all red
+
+286
+00:43:40.240 --> 00:43:42.000
+是空的吗?
+is it empty
+
+287
+00:43:47.760 --> 00:43:52.880
+基本的问题是 当它是红色的, 它就像它意味着 它不是你做它
+basically the problem is that when it's red it's like it means that it doesn't you cannot make it
+
+288
+00:43:52.880 --> 00:44:01.680
+这是因为这个精灵是一米五十, 我的板是一米,所以它不适合
+and the reason here is because this genie is one meter fifty and my boards are one meter so it doesn't fit
+
+289
+00:44:02.640 --> 00:44:04.960
+笵
+you know so
+
+290
+00:44:08.320 --> 00:44:13.680
+我可以在这里做精灵一米,但这就像一个缩放版
+I could do the genie one meter here but this is like a scaled version
+
+291
+00:44:14.800 --> 00:44:22.720
+不,我可以在那里放大, 但我不想在那里放大,因为它意味着所有的东西
+no I can scale it there but I don't want to scale it there because it means that everything that
+
+292
+00:44:22.720 --> 00:44:30.000
+我之前算过,是错的 所以基本上,如果我放大它 它非常好在干燥的土地上
+I had calculated before is wrong so basically I if I scale it it's very good in dry land
+
+293
+00:44:30.000 --> 00:44:37.200
+当你在制造的最后一步 像你去激光切割前的一刻
+when you are in the last step of the fabrication that like one moment before you go to laser cut
+
+294
+00:44:37.200 --> 00:44:42.960
+最好不要像一般的大小一样 设计它和在设计时的大小
+it's better not to scale in general like if you design it and you scale it when you're designing
+
+295
+00:44:42.960 --> 00:44:51.360
+要知道,如果它不适合上周 所以我会在这里把它像更小
+you know but if it doesn't fit for last week so here I will make it like even smaller
+
+296
+00:44:53.280 --> 00:44:57.280
+所以这是像小精灵一样的密尼翁
+so this is a mignon like a small genie
+
+297
+00:45:00.720 --> 00:45:08.320
+因此,您可以在此选择
+so here you can actually select
+
+298
+00:45:11.040 --> 00:45:16.960
+仍然有不合适 因为它把它放在这个方向,所以
+there's still doesn't fit because it puts it in this direction so
+
+299
+00:45:22.080 --> 00:45:29.440
+是的,它把它放在600,因为它有点问题 软件
+yeah it puts it in the 600 because it's a little bit problematic the software
+
+300
+00:45:29.520 --> 00:45:40.240
+因为它会随着我横向导入它 并且它想做横向,所以它无法理解
+because it will as I imported it horizontal and it wants to do horizontal so it cannot understand
+
+301
+00:45:40.240 --> 00:45:50.480
+它可以旋转它 在程序 但我可以做的是 我可以在这里,我可以放
+that it can rotate it in the program but what I could do is that I could go here and I can put
+
+302
+00:45:50.480 --> 00:45:58.560
+这是600,这是1000,你看
+that this is 600 and this is 1000 you see
+
+303
+00:46:01.600 --> 00:46:16.560
+好吧,现在我们可以放 多少,如果我们想在这里,然后我们也可以
+okay so now we we can put like more or less if we want here and then we can also
+
+304
+00:46:20.880 --> 00:46:27.920
+因此,我们也可以改变 切片方向,如果你想让它喜欢
+so we can also change the slice direction if you want to make it like
+
+305
+00:46:31.920 --> 00:46:33.760
+在此更改学位
+change the degree here
+
+306
+00:46:37.680 --> 00:46:40.560
+你可以玩 方向的切片
+and you can play with the direction of the slices
+
+307
+00:46:44.640 --> 00:46:46.400
+在不同的轴上
+in the different axis
+
+308
+00:46:51.440 --> 00:46:51.920
+这么说吧
+so
+
+309
+00:46:55.200 --> 00:47:02.560
+因为某种原因,你也可以修改表格 如果你使用这个技术
+for some reason modify form and you can also I mean if you're using this technique
+
+310
+00:47:06.400 --> 00:47:09.920
+在这里你得到 组装步骤,所以
+here you get the assembly steps so
+
+311
+00:47:10.640 --> 00:47:11.120
+这么说吧
+so
+
+312
+00:47:16.880 --> 00:47:24.000
+你可以选择塑料游戏 只用于视觉 所以我想在这里发生什么
+you can choose plastic play would only for visualization so what happens here I want
+
+313
+00:47:24.000 --> 00:47:26.640
+告诉你一些非常重要的事 我完成
+to tell you something very very important and I finish
+
+314
+00:47:32.080 --> 00:47:39.520
+这个,你看,它有两个插槽 一个在这里,一个在这里,但这个是
+this one you see that it has two slots one here and one here but this one is
+
+315
+00:47:39.680 --> 00:47:48.160
+小的,所以没关系的 这一个进入很好,这一个进入很好
+small so it's okay doesn't matter this one enters nicely this one enters nicely
+
+316
+00:47:49.840 --> 00:47:56.720
+这个进好,这个进好,这个进好,这个进好,这个进好,这个进好
+this one enters okay this one enters but this one that has this hole here
+
+317
+00:47:57.840 --> 00:48:06.480
+我的意思是实际上它不能输入 它是错误的 程序基本上有一个bug是没有的
+I mean actually it cannot enter it's wrong the program basically has a bug that is not
+
+318
+00:48:06.480 --> 00:48:11.920
+完美编程,所以有时候,如果你有 喜欢的东西是上下
+perfect the program so sometimes it's if you have like something that is up and down it makes
+
+319
+00:48:11.920 --> 00:48:17.760
+喜欢两个插槽,但实际上 你不能把它 因为你需要你 需要
+like two slots but actually in reality you cannot put it because you would need you would need to
+
+320
+00:48:17.760 --> 00:48:27.920
+有个连续的插槽 用来从下到上传出去 好好照顾好这个
+have like one continuous slot for passing it from down all up so just take care that this
+
+321
+00:48:29.200 --> 00:48:35.680
+如果发生这种事 因为如果发生这种事 我们就在犀牛打开它
+if this thing happens because if this happens this happens we just open it in Rhino
+
+322
+00:48:36.400 --> 00:48:45.040
+我们删除你所知道的路径 因为这里不能进入三个插槽
+and we delete that path you know like because here it cannot enter in the three slots it's if
+
+323
+00:48:45.920 --> 00:48:53.360
+我是说,如果是三块的话,就会像一块大块,如果是三块的话
+I mean it will be like one big piece if it's if it's three if it is three pieces it enters
+
+324
+00:48:54.000 --> 00:48:59.440
+但是,如果这是一个大片 有时程序认为 你可以把它这样,但你
+but if it is one big piece sometimes the program thinks that you can put it like that but it you
+
+325
+00:48:59.440 --> 00:49:07.600
+不能只顾着这两个档子的事,当它发生的时候,我的意思是,我不知道是不是
+cannot so just beware of these two slots thing when it happens I mean here I don't know if it's
+
+326
+00:49:07.600 --> 00:49:15.200
+只有一小块或大块,但有时 如果它有问题,所以它是小块
+only a small piece or big but sometimes and if it is if it has problems so it's small piece
+
+327
+00:49:15.200 --> 00:49:25.520
+如果它有问题,所以这个 是的,你可以把它 你可以看到它读 就像我们以前一样
+if it has problems so this one yeah you can put it you can see it read like as we did before
+
+328
+00:49:25.760 --> 00:49:27.760
+就是这样
+that's it
+
+329
+00:49:32.160 --> 00:49:40.720
+在这里的账户里,你可以选择 通过距离,你把每一个距离,或者你可以只是
+here in the account so you can choose by distance and you put every the distance or you can just
+
+330
+00:49:40.720 --> 00:49:46.560
+说好,我要10个朝这个方向,两个朝这个方向,你看
+and say okay I want 10 in this direction and two in this direction you see
+
+331
+00:49:47.280 --> 00:49:56.400
+然后,你也可以做 光圈切片,这是如此
+and then you can also do the radial slices which is so
+
+332
+00:50:02.880 --> 00:50:10.480
+有点困难,但有一次我做了,你也可以做
+but it's a little bit difficult but it's nice one time I did ah and you can also
+
+333
+00:50:11.040 --> 00:50:20.480
+在此选择此孔的大小 。
+choose this size of this hole here modify form you can make it hollow you see
+
+334
+00:50:22.640 --> 00:50:28.400
+所以,但你不想 使这个空洞 因为这将是非常困难 组装
+so but you don't want to make this hollow because it will be very difficult to assemble
+
+335
+00:50:31.840 --> 00:50:37.120
+但是如果你在做堆叠的切片 你想把像灯在里面
+but if you were doing stacks stacked slices and you want to put like a light inside
+
+336
+00:50:37.200 --> 00:50:39.200
+然后你会把它变成空洞
+then you would make it hollow
+
+337
+00:50:43.120 --> 00:50:53.440
+然后得到植物 然后得到红色的一层 即雕刻
+and then you get the plants and then you you get one layer in red that is the engraving
+
+338
+00:50:53.440 --> 00:51:01.120
+用于激光切割器的层 和蓝色的层 用于切割,然后你
+layer for the laser cutter and one layer that is the blue one that is for cutting and then you
+
+339
+00:51:01.680 --> 00:51:07.040
+定义用于雕刻的激光切割器中的功率和速度以及功率和速度。
+define the power and the speed in the laser cutter for engraving and the power and the
+
+340
+00:51:07.040 --> 00:51:13.120
+激光切割的速度,我想就这样
+speed for laser cutting I think that's it

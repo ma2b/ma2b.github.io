@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "15952e3eb5ebc261456b35da40593215caab6018bb83d1c8afaf62c447948cf1",
+  "revision": "f9a6fe3e87be383476aaef83e97c40c8994090da5813da11fc1e95084fe61f2d",
   "courses": [
     {
       "id": "1227439130",
@@ -53,6 +53,32 @@
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1227439129.json",
       "sha256": "e50ae8a944ae29d7d0fb31971f97095bac7509d01eab19ca64a2ff90d0b291ef"
+    },
+    {
+      "id": "755151733",
+      "title": "3D 扫描演示：Kinect、Sense 与专业扫描仪",
+      "duration": 2918.72,
+      "page_url": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/notes.html",
+      "bilibili": {
+        "bvid": "BV1jUaN6oEDp",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/755151733.json",
+      "sha256": "2a154c53587033ddc2f4de854ac4c6b624eddd64cb38a7a0e44a195e8ab605dd"
+    },
+    {
+      "id": "293230583",
+      "title": "网格修复：Rhino、Meshmixer、Sculptris 与 Fusion 360",
+      "duration": 3076.352,
+      "page_url": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/notes.html",
+      "bilibili": {
+        "bvid": "BV1qUaN6oE4b",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/293230583.json",
+      "sha256": "7a4806b811c56d19f270172bf8f9988af362c7367e875081774584f8350f86ff"
     }
   ]
 }

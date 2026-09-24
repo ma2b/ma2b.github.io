@@ -1,0 +1,3046 @@
+WEBVTT
+
+1
+00:00:00.200 --> 00:00:00.900
+听得见吗?
+Can hear me well.
+
+2
+00:00:04.700 --> 00:00:07.600
+大家好,欢迎,这是辅导课
+Hello everyone. Welcome. This is the tutorial session
+
+3
+00:00:07.600 --> 00:00:07.900
+关于
+for
+
+4
+00:00:09.800 --> 00:00:12.000
+3D扫描仪,我在这里 纺织实验室,我们是
+3D scanners, I'm here the textile lab and we're
+
+5
+00:00:12.200 --> 00:00:15.300
+将展示我们现有的两种技术
+going to show the two technologies we have available
+
+6
+00:00:15.300 --> 00:00:18.000
+这里,其中一个是Kinect
+here. One of them is the connect.
+
+7
+00:00:19.200 --> 00:00:22.700
+Kinect实际上是从Xbox到
+And the connect is actually the device from Xbox to
+
+8
+00:00:22.700 --> 00:00:26.500
+画出一个房间。
+map out a room. So on those buddy
+
+9
+00:00:25.500 --> 00:00:28.400
+游戏,你可以做一些事情
+games that you can do things
+
+10
+00:00:28.400 --> 00:00:31.200
+这是用过的,但你可以
+with your arms. It's the one used but you can
+
+11
+00:00:31.200 --> 00:00:34.100
+也可以用在今天的扫描上,你可以
+also use it for today's scanning and you can
+
+12
+00:00:34.100 --> 00:00:34.900
+只是玩好吗?
+just play okay?
+
+13
+00:00:36.700 --> 00:00:41.400
+我有多个摄像头 正在做压倒性,但
+I have multiple cameras going on overwhelming, but
+
+14
+00:00:40.400 --> 00:00:42.100
+我会试试的。
+I'll try.
+
+15
+00:00:43.400 --> 00:00:46.300
+你可能在另一台摄像机上看到它的位置
+Probably you can see on the other camera there where it's at
+
+16
+00:00:46.300 --> 00:00:49.200
+Excel在阿姆斯特丹 我有的模特
+Excel at Amsterdam. The mannequin I have
+
+17
+00:00:49.200 --> 00:00:52.900
+以及我在这里的Kinect的设置 在它的前面,
+and the setup that I have to connect here in front of it and
+
+18
+00:00:52.900 --> 00:00:53.900
+我们有一个惊人的。
+we have an amazing.
+
+19
+00:00:55.800 --> 00:00:59.500
+做在实验室旋转表。
+Do it in the lab rotation table.
+
+20
+00:00:58.500 --> 00:01:01.100
+所以,基本上用一点点
+So basically with a little
+
+21
+00:01:01.100 --> 00:01:04.700
+绳子在那,底部是旋转的椅子。
+cord there and the bottom is a rotating chair.
+
+22
+00:01:04.700 --> 00:01:07.900
+我们的身体可以稳定地旋转
+We can rotate our body steadily enough
+
+23
+00:01:07.900 --> 00:01:10.200
+用于激光切割
+to for the laser cut to
+
+24
+00:01:10.200 --> 00:01:10.300
+工作时间。
+work.
+
+25
+00:01:10.800 --> 00:01:11.600
+所以,让我们
+so let's
+
+26
+00:01:13.400 --> 00:01:16.500
+参见下一个
+see next
+
+27
+00:01:19.500 --> 00:01:22.300
+有人能说点什么让我知道 我的演讲者是不是...
+Can someone say something just for me to know if my speakers are
+
+28
+00:01:22.300 --> 00:01:25.800
+工作,因为我不得不哑巴 是的,谢谢
+working because I had to mute I yes, thank
+
+29
+00:01:25.800 --> 00:01:26.100
+谢谢。
+you.
+
+30
+00:01:27.800 --> 00:01:30.000
+所以我要分享我的屏幕。
+So I'm gonna share my screen.
+
+31
+00:01:34.800 --> 00:01:35.600
+稍等。
+Moment.
+
+32
+00:01:41.900 --> 00:01:44.600
+您可以看到 Kinect 的界面 。
+For you to see the interface of the connect.
+
+33
+00:01:44.600 --> 00:01:49.400
+我用的是Skanect软件
+So here I'm using skill net software. This
+
+34
+00:01:49.400 --> 00:01:52.400
+这是一个免费的版本。我认为它有一些限制,但
+is a free version. I think it has some limitations but
+
+35
+00:01:52.400 --> 00:01:55.600
+这是您可以下载的,然后您可以使用 Kinect
+it's one that you can download and then you can use the connect
+
+36
+00:01:55.600 --> 00:01:58.200
+自己没有Xbox。所以你不会
+itself without the Xbox. So then you don't
+
+37
+00:01:58.200 --> 00:02:00.300
+需要Xbox来使用它。
+need to have the Xbox to use it.
+
+38
+00:02:01.500 --> 00:02:04.200
+我把它用在Mac上 我试图在窗户上设置
+I'm using it on a Mac. I try to set up on the windows that
+
+39
+00:02:04.200 --> 00:02:07.100
+我们在这里,但对于Windows来说,没有那么插和播放
+we have here, but then for Windows is not so Plug and Play
+
+40
+00:02:07.100 --> 00:02:10.100
+您需要下载 Kinect 的驱动器。
+you need to download the drives as well for the kinet. And then later to
+
+41
+00:02:10.100 --> 00:02:13.900
+功能无法工作。但我也有更旧的窗口。所以
+function I couldn't have it working. But I also have older windows. So
+
+42
+00:02:13.900 --> 00:02:16.400
+我不知道Mac身上有什么问题
+I'm not sure what was the problem there on the Mac was
+
+43
+00:02:16.400 --> 00:02:19.500
+直截了当的 刚刚插进Kinect上
+quite straightforward. Just plugging in the connect with
+
+44
+00:02:19.500 --> 00:02:22.300
+在 Skanect 下载的 USB 已经
+the USB downloaded in scan it and was already
+
+45
+00:02:22.300 --> 00:02:22.900
+认识。
+recognizing.
+
+46
+00:02:23.700 --> 00:02:26.200
+所以,第一件事 你想在这里做
+So the first thing you want to do here on the
+
+47
+00:02:26.200 --> 00:02:29.300
+软件只是按新的,然后你
+software is just to press new and then you
+
+48
+00:02:29.300 --> 00:02:32.400
+重置一些 身体物体室有
+have some resetting so body object room have
+
+49
+00:02:32.400 --> 00:02:35.700
+房间通常 Kinect 因为它是
+room usually the connect as it's
+
+50
+00:02:35.700 --> 00:02:38.300
+用来追踪房间,效果更好
+meant for tracking room. It works better
+
+51
+00:02:38.300 --> 00:02:39.900
+在更大的和
+in bigger and
+
+52
+00:02:41.100 --> 00:02:44.600
+空间或者更大的物体 如果你想做一些非常详细的事情。
+Spaces or bigger objects if you're trying to do something very detailed.
+
+53
+00:02:44.600 --> 00:02:47.100
+效果不太好,但是我们想...
+It doesn't work that well, but here we want to
+
+54
+00:02:47.100 --> 00:02:50.300
+然后扫描身体 我们的模特儿都结束了
+then scan body. So we have our mannequin over
+
+55
+00:02:50.300 --> 00:02:53.900
+在那里。然后它就形成了一个边框。这是它的东西。
+there. So then it creates a bounding box. This is something that it
+
+56
+00:02:53.900 --> 00:02:56.200
+当您更改此预设设置时更改, 但是
+changes as you change this preset settings, but
+
+57
+00:02:56.200 --> 00:03:00.000
+您也可以覆盖它,并选择更多一点。所以
+you can also override it and just select a bit more. So for
+
+58
+00:02:59.300 --> 00:03:02.000
+举个例子,我在这里做两个二个
+instance, I'm going to do here two by two
+
+59
+00:03:02.300 --> 00:03:02.400
+由两个。
+by two.
+
+60
+00:03:04.300 --> 00:03:06.700
+在不同的方面工作 无线电,你可以
+work in different aspects radios and you can
+
+61
+00:03:08.900 --> 00:03:12.000
+在那里,这是要去保存, 但我离开的一切作为
+where this is going to be saved, but I leave everything as
+
+62
+00:03:11.400 --> 00:03:14.200
+默认和我只是
+default and I just
+
+63
+00:03:14.200 --> 00:03:17.400
+点击开始,然后我到菜单的第二部分 这里的顶部。
+press start then I go to the second part of the menu here on top.
+
+64
+00:03:18.100 --> 00:03:22.300
+在这里,你可以 如果你连接是正常工作。
+And here you can if you're connected is working properly.
+
+65
+00:03:21.300 --> 00:03:25.500
+您已经可以看到一个身体图
+You can already see a body figure
+
+66
+00:03:24.500 --> 00:03:27.700
+在顶部,否则,如果
+there on the top. Otherwise, if
+
+67
+00:03:27.700 --> 00:03:30.000
+你什么都不说,那你需要解决一些问题
+you don't say anything then there is some problem you need to
+
+68
+00:03:30.200 --> 00:03:33.000
+在开始之前就解决了,让我...
+to solve that before starting. Let me just
+
+69
+00:03:33.100 --> 00:03:36.300
+看看我们的,可以推迟
+see if ours. Yeah, you can delay the
+
+70
+00:03:37.300 --> 00:03:40.200
+从这里开始,如果你需要的话
+Start by certain seconds here. If you need
+
+71
+00:03:40.200 --> 00:03:43.500
+还是做一些调整,或者你可以只是离开
+still to do something to adjust or you can just leave to
+
+72
+00:03:43.500 --> 00:03:46.300
+没有什么,你可以加一个限制。
+nothing and you can add a limit. This is until when it's
+
+73
+00:03:46.300 --> 00:03:49.500
+继续录音,然后记录你的形状。
+going to keep recording and then you're going to record your shape.
+
+74
+00:03:50.500 --> 00:03:53.200
+因为我们有一个稳定的身体,不是
+Since we have it a steady body that is not
+
+75
+00:03:53.200 --> 00:03:56.300
+一个人,它不会移动,但如果你这样做与某人
+a person it won't move. But if you're doing this with someone
+
+76
+00:03:56.300 --> 00:03:59.300
+然后,这是你真正 保持静静的时刻,
+then this is the moment that you really hold still and
+
+77
+00:03:59.300 --> 00:04:02.200
+然后按下开始,你尝试有一个中性
+then you press start and you try to have a neutral
+
+78
+00:04:02.200 --> 00:04:05.600
+脸或者笑脸,如果你能拿着那张长长的
+face or a laughing face. If you can hold that one for long and in
+
+79
+00:04:05.600 --> 00:04:08.700
+我们的案子,因为我们有一个旋转的桌子, 我要开始旋转
+our case since we have a rotating table, I'm going to start rotating
+
+80
+00:04:08.700 --> 00:04:11.000
+慢慢来 另一种方式
+it very slowly. Another way to
+
+81
+00:04:11.200 --> 00:04:14.500
+做它有一个人坐在椅子上 非常缓慢
+do it is to have someone sitting on a chair and very slowly
+
+82
+00:04:14.500 --> 00:04:16.000
+还轮流这把椅子。
+also rotating this chair.
+
+83
+00:04:16.600 --> 00:04:19.200
+另一种方法是旋转设备
+Another way is to rotate the device
+
+84
+00:04:19.200 --> 00:04:22.000
+但对于Kinect,我们通常不这样做。
+on the person but for The Connect usually we don't do that.
+
+85
+00:04:22.300 --> 00:04:25.100
+我们用感官做更多的,这是第二个,我要展示。
+We do that more with the sense, which is the second one. I'm going to show.
+
+86
+00:04:25.700 --> 00:04:28.700
+那么我们开始吧 我要放三个
+So then let's start I'm going to put just three
+
+87
+00:04:28.700 --> 00:04:30.700
+延迟几秒钟,我按这里的记录。
+seconds delay. I press here record.
+
+88
+00:04:31.700 --> 00:04:34.700
+它会数起树和
+It's going to count the tree and the
+
+89
+00:04:34.700 --> 00:04:37.100
+绿色的部分是它识别的地方,所以它是
+green part is where it's recognizing. So it's
+
+90
+00:04:37.100 --> 00:04:38.200
+也不承认
+also not recognizing the
+
+91
+00:04:39.400 --> 00:04:42.600
+后墙作为我的目标,我希望
+the back wall as my object. I hope that as
+
+92
+00:04:42.600 --> 00:04:45.600
+我移动它会让回去的
+I move it's gonna let go back
+
+93
+00:04:45.600 --> 00:04:46.700
+不错
+well.
+
+94
+00:04:50.900 --> 00:04:56.600
+瞷眔ǐ
+You do need to go right now.
+
+95
+00:05:03.600 --> 00:05:06.400
+它取决于 一点点的阴影,
+It depends a bit on the Shadows of
+
+96
+00:05:06.400 --> 00:05:09.200
+我重新开始的谣言,因为
+the of the rumors where I'm starting again because
+
+97
+00:05:09.200 --> 00:05:12.300
+我们站得太远了 墙后面。
+we're standing too much of the of the wall back there.
+
+98
+00:05:13.500 --> 00:05:13.700
+这么说吧
+So
+
+99
+00:05:15.600 --> 00:05:17.200
+确实是
+indeed
+
+100
+00:05:20.300 --> 00:05:23.000
+好吧,现在,让我们来看看。
+Okay now, let's see.
+
+101
+00:05:27.500 --> 00:05:29.700
+是啊,还是通知。
+Yeah still notifications.
+
+102
+00:05:38.400 --> 00:05:40.700
+稍后的编辑进程。您也可以删除
+Later on the edit process. You can also remove
+
+103
+00:05:42.400 --> 00:05:43.300
+最终
+eventual
+
+104
+00:05:44.300 --> 00:05:46.900
+需要的对象
+objects that are unwanted
+
+105
+00:05:51.500 --> 00:05:52.700
+我觉得像钓鱼。
+I feel like fishing.
+
+106
+00:05:55.300 --> 00:05:56.800
+嗯,它正在输。
+Well, it's losing.
+
+107
+00:06:02.600 --> 00:06:02.900
+何谓?
+What's
+
+108
+00:06:17.600 --> 00:06:24.100
+还有雅各
+And Jacob
+
+109
+00:06:22.100 --> 00:06:24.900
+被读取。
+is read.
+
+110
+00:06:25.800 --> 00:06:28.200
+签了字,让我回到前面去
+Signing in let me go back all the way to the front.
+
+111
+00:06:29.300 --> 00:06:32.300
+但是现在,这是非常糟糕的皮肤 展示给你的
+But now this is a very bad skin showed your
+
+112
+00:06:32.300 --> 00:06:35.000
+整个形式不是你想要的。
+whole form is not as you want.
+
+113
+00:06:41.100 --> 00:06:44.700
+所以,只是让你看看 如果我前进什么是即将到来
+So just for you to see if I move forward what was coming
+
+114
+00:06:44.700 --> 00:06:46.000
+从这个皮肤。
+out of this skin.
+
+115
+00:06:49.200 --> 00:06:50.700
+但是,你看,这不是。
+But you see that it's not.
+
+116
+00:06:51.800 --> 00:06:52.700
+这个想法
+the idea
+
+117
+00:06:53.500 --> 00:06:56.700
+因此,我们有一个非常模糊的物体与一个
+so we have a very blurred object with a
+
+118
+00:06:56.700 --> 00:06:57.100
+墙后面。
+wall behind.
+
+119
+00:06:59.300 --> 00:07:02.100
+玩一玩总是个好主意
+It's always a good idea also to play a bit with the
+
+120
+00:07:02.100 --> 00:07:07.700
+灯光,这里有上层女神的台词
+lights. So here we have some lines from the top Lady. It's their
+
+121
+00:07:07.700 --> 00:07:10.300
+社区或让我们看看 是否自然
+Community or let's see if the natural
+
+122
+00:07:10.300 --> 00:07:12.100
+光线,如果它工作得更好。
+light if it works a bit better.
+
+123
+00:07:18.500 --> 00:07:18.700
+改为:
+to
+
+124
+00:07:22.000 --> 00:07:22.300
+说吧
+you
+
+125
+00:07:34.500 --> 00:07:35.200
+礛琌
+then you
+
+126
+00:08:05.200 --> 00:08:07.400
+是的,好吧,让我看看
+Yes, okay. Let's see.
+
+127
+00:08:20.200 --> 00:08:22.700
+说
+say
+
+128
+00:08:26.900 --> 00:08:34.700
+对,我...
+yeah, I'm
+
+129
+00:08:34.700 --> 00:08:35.800
+将重新开始。
+gonna start again.
+
+130
+00:08:36.600 --> 00:08:39.100
+所以,这是一个有趣的部分 生活辅导 因为我只是
+So, this is a fun part of life tutorials because I just
+
+131
+00:08:39.100 --> 00:08:42.100
+我们开始之前就做了,现在当然了
+did it before we started and then now of course
+
+132
+00:08:42.100 --> 00:08:45.600
+但让我们看看它是否有效,它抓住了...
+it's not working. But let's see if it works. It's grabbing a
+
+133
+00:08:45.600 --> 00:08:48.500
+有点头,但我觉得现在更中央了
+little bit of the head, but I think it's more Central now
+
+134
+00:08:48.500 --> 00:08:51.000
+头部更居中了，背景墙也少了一些。希望扫描顺利。
+and getting less walls. Let's hope
+
+135
+00:08:53.200 --> 00:08:55.000
+是啊,很多积极的。
+Yeah, a lot of positive.
+
+136
+00:09:25.400 --> 00:09:25.700
+说吧
+you
+
+137
+00:09:32.700 --> 00:09:34.000
+是啊,它已经失去了它。
+yeah, it's lost it already.
+
+138
+00:09:37.800 --> 00:09:39.000
+犹如虚空.
+Like it's not really.
+
+139
+00:09:54.500 --> 00:09:59.200
+再说一遍,
+so again,
+
+140
+00:09:59.200 --> 00:10:01.400
+等着看里面有什么,但是...
+just wait to see what came out of it, but
+
+141
+00:10:02.400 --> 00:10:04.500
+因为我们的皮肤不好
+Because we did not a good skin.
+
+142
+00:11:16.600 --> 00:11:17.900
+再试一次
+Let's try again.
+
+143
+00:12:02.400 --> 00:12:05.700
+我们正在尝试一些不同的设置 不要得到墙
+We are trying some different settings not to get the wall
+
+144
+00:12:05.700 --> 00:12:10.200
+如果有人也有小费是因为我
+into it. If someone has also a tip because I
+
+145
+00:12:08.200 --> 00:12:10.600
+放在这。
+put here.
+
+146
+00:12:12.600 --> 00:12:15.700
+在白色的墙上,因为 也帮助
+Against the white wall because also that helps the
+
+147
+00:12:15.700 --> 00:12:19.300
+在它认识它之前,
+contrast and before it was recognizing it
+
+148
+00:12:19.300 --> 00:12:22.600
+很好,不过我会再试一次
+quite well, but I'll keep trying again and then
+
+149
+00:12:22.600 --> 00:12:25.400
+我只是继续前进 无论我们得到什么 以后
+I just move forward with whatever we get and later
+
+150
+00:12:25.400 --> 00:12:28.400
+关于第二个备选方案的问题,以便我们
+on issue on the second option so that we
+
+151
+00:12:28.400 --> 00:12:30.200
+不要被困在失败。
+don't get stuck into failing.
+
+152
+00:12:30.800 --> 00:12:33.400
+但三维扫描也是这样
+But that's also been how it goes with 3D scanning. Like I usually
+
+153
+00:12:33.400 --> 00:12:35.700
+得花点时间安排一下
+have to take quite a while setting up.
+
+154
+00:12:41.900 --> 00:12:47.300
+他的电话
+he
+
+155
+00:13:37.900 --> 00:13:40.200
+好吧,我换了约束箱
+Okay, I change the bounding box to
+
+156
+00:13:40.200 --> 00:13:43.900
+一对一,所以它不是 获得背景
+one to one so then it is not getting the background
+
+157
+00:13:43.900 --> 00:13:46.200
+现在,让我们看看这有没有用
+now. So let's see if this helps a bit
+
+158
+00:13:46.200 --> 00:13:47.800
+对象。
+object.
+
+159
+00:13:48.600 --> 00:13:51.100
+它已经被选为身体 但我有
+It was already selected as body but I had
+
+160
+00:13:51.100 --> 00:13:54.400
+边框大一点,因为这个比一个大一点,然后
+a bounding box a bit bigger because this is bigger than one to one but then
+
+161
+00:13:54.400 --> 00:13:57.500
+通过这样做,它也得到了墙
+by doing so it was also getting the wall
+
+162
+00:13:57.500 --> 00:14:00.700
+背后,不知为什么,但现在看来
+behind it. Not sure why but then now appears to
+
+163
+00:14:00.700 --> 00:14:02.500
+身体会变好
+be getting the body better.
+
+164
+00:14:03.600 --> 00:14:05.800
+那你得慢慢来
+Then you need to go very very slow.
+
+165
+00:14:35.100 --> 00:14:38.700
+后面有麻烦了 相当多影子
+It's getting some trouble on the back. There's quite some Shadow. There's
+
+166
+00:14:38.700 --> 00:14:39.100
+没有。
+no.
+
+167
+00:14:54.500 --> 00:14:55.500
+我安全了 拦住你
+I'm safe. Stop you.
+
+168
+00:15:00.100 --> 00:15:02.500
+高级技术
+Advanced Techniques
+
+169
+00:15:05.600 --> 00:15:08.200
+没有,只是得到了一些更多,
+no, just got some more and
+
+170
+00:15:16.100 --> 00:15:21.900
+哦,是的,还有,
+oh, yeah, and
+
+171
+00:15:19.900 --> 00:15:24.800
+差一点了
+it's almost
+
+172
+00:15:24.800 --> 00:15:26.700
+回到我们的开始。
+back to our started.
+
+173
+00:15:27.800 --> 00:15:29.300
+然后回到这里。
+And I get back there.
+
+174
+00:15:30.300 --> 00:15:31.400
+我可以直接张贴。
+I can just post.
+
+175
+00:15:32.500 --> 00:15:35.300
+所以,这一定是一个体面的。
+So this must be a decent one. So
+
+176
+00:15:35.300 --> 00:15:38.600
+我只是暂停录制,会处理掉的
+I just pause recording here. It's gonna process down
+
+177
+00:15:38.600 --> 00:15:38.900
+这里。
+there.
+
+178
+00:15:43.300 --> 00:15:46.000
+那你就去重建吧 对不起
+Then you oh, no, you need to go to reconstruct. Sorry.
+
+179
+00:15:51.700 --> 00:15:55.600
+最终完成比赛
+Finalizing match then
+
+180
+00:15:54.600 --> 00:15:57.300
+这真的取决于它有多大
+it really depends on how big it's
+
+181
+00:15:57.300 --> 00:16:00.500
+。如何定义此选项
+watching. How also Define this
+
+182
+00:16:00.500 --> 00:16:01.800
+你可以花更长的时间。
+you can take longer.
+
+183
+00:16:03.600 --> 00:16:06.300
+是的,在这里,我们还有一些
+Yeah, here it is. We have some more
+
+184
+00:16:06.300 --> 00:16:09.500
+但我们可以清理,但我们的身体相当遥远
+but we can clean that but our body is quite distant
+
+185
+00:16:09.500 --> 00:16:11.400
+我希望这个...
+and this I hope on the
+
+186
+00:16:12.100 --> 00:16:15.500
+封闭网格后效果大致可以，但我们稍后还能再试。
+Closing the mesh we get sort of okay back, but
+
+187
+00:16:15.500 --> 00:16:18.900
+我们以后可以再做一次
+we could do it again later on trying to
+
+188
+00:16:18.900 --> 00:16:20.100
+少一点影子。
+have some less shadow.
+
+189
+00:16:21.800 --> 00:16:24.100
+如果你要用的话
+If you're using if you want to use a
+
+190
+00:16:24.100 --> 00:16:27.400
+非常详细的模块,你可以在这里
+very detailed module, you can at this
+
+191
+00:16:27.400 --> 00:16:30.300
+步骤点击Fusion, 但对我们来说,它并不需要
+step click on Fusion, but for us it's not needed
+
+192
+00:16:30.300 --> 00:16:33.400
+并需要一段时间来处理它。所以您可以稍后尝试。
+and also takes a while to process it. So you can try later on when
+
+193
+00:16:33.400 --> 00:16:36.300
+你正在扫描,然后在这里 过程中,这是一些
+you're scanning and then here in process, it's some of
+
+194
+00:16:36.300 --> 00:16:39.800
+用于此 3D 的进程
+the of the process that you can do with this 3D
+
+195
+00:16:39.800 --> 00:16:42.200
+模型,所以其中一个是防水的
+model. So one of them is watertight. So
+
+196
+00:16:42.200 --> 00:16:45.800
+你只是基本上 要关闭它作为一个
+you're just basically gonna close it as one
+
+197
+00:16:45.800 --> 00:16:47.800
+关闭表面。
+close surface.
+
+198
+00:16:49.400 --> 00:16:51.300
+所以现在它填满了洞
+so now it's filling in the holes and
+
+199
+00:16:54.600 --> 00:16:57.700
+我希望这堵墙能从这里消失
+And I hope this wall is going to go away just by
+
+200
+00:16:57.700 --> 00:16:59.700
+否则,你还需要打扫。
+doing it. Otherwise, you also need to clean.
+
+201
+00:17:01.800 --> 00:17:02.500
+墙壁
+the wall
+
+202
+00:17:17.500 --> 00:17:20.500
+是啊,所以现在它做了
+Yeah, so now it's done
+
+203
+00:17:20.500 --> 00:17:23.300
+还有颜色,我的背
+it also colored. My back
+
+204
+00:17:23.300 --> 00:17:26.400
+有点怪,不过有点怪
+is a bit weird, but it's sort of
+
+205
+00:17:26.400 --> 00:17:29.200
+前面还不错
+the front is quite
+
+206
+00:17:29.200 --> 00:17:32.200
+好吧,这取决于你在做什么,这也许足够好,或者你
+okay and depending on what you're doing. This could be good enough or you
+
+207
+00:17:32.200 --> 00:17:33.200
+可能改天再运行。
+could run another time.
+
+208
+00:17:33.900 --> 00:17:36.400
+那你还可以做一些其他的编辑
+Then you can do some other edits you
+
+209
+00:17:36.400 --> 00:17:39.600
+可以发送它来编辑外部编辑,
+can send it to edit external edit,
+
+210
+00:17:39.600 --> 00:17:42.900
+但你也可以听到简化的网格
+but you can also hear simplify the mesh
+
+211
+00:17:42.900 --> 00:17:45.300
+减少可以显示的面孔数
+reducing the number of faces you could
+
+212
+00:17:45.300 --> 00:17:48.200
+填入洞穴,对不起
+fill in holes holes. Sorry,
+
+213
+00:17:48.200 --> 00:17:51.100
+你可以裁剪,然后这是
+you can crop and then this is
+
+214
+00:17:51.100 --> 00:17:51.600
+一个。
+one.
+
+215
+00:17:53.100 --> 00:17:56.400
+耕到地上,看看有没有
+Crop to ground. Let's see if oh, I
+
+216
+00:17:56.400 --> 00:17:56.500
+应该有。
+should have.
+
+217
+00:17:58.600 --> 00:17:59.400
+先移动
+moved first
+
+218
+00:18:07.600 --> 00:18:08.100
+有点
+it's a bit.
+
+219
+00:18:11.300 --> 00:18:14.600
+是啊,所以在这里通过设置
+Yeah, so here by putting
+
+220
+00:18:14.600 --> 00:18:17.800
+你上下下都把物体沉没了
+it up and down you're sinking your object into
+
+221
+00:18:17.800 --> 00:18:20.000
+所以,如果你想有一个非常
+the ground. So if you want to have a very
+
+222
+00:18:20.800 --> 00:18:23.100
+直线,就我而言,有些用它。
+straight base and in my case in some using that.
+
+223
+00:18:26.100 --> 00:18:29.100
+这个木头,我不想把它放在我身上
+This this wood. I don't want it to have it on my
+
+224
+00:18:29.100 --> 00:18:30.800
+物体,这样我就可以把它切到那边去。
+object so I can crop it over there.
+
+225
+00:18:31.700 --> 00:18:35.000
+看到这个有点烦人 因为命令
+It is a bit annoying to see because the command
+
+226
+00:18:34.100 --> 00:18:35.600
+是在顶部
+is on top of
+
+227
+00:18:36.800 --> 00:18:37.800
+你的未来
+your future
+
+228
+00:18:38.800 --> 00:18:42.300
+也可以倾斜
+and you can also tilt
+
+229
+00:18:41.300 --> 00:18:42.600
+有点。
+it a bit.
+
+230
+00:18:44.500 --> 00:18:46.200
+是啊,所以我很高兴这一点。
+Yeah, so I'm happy with this.
+
+231
+00:18:47.400 --> 00:18:48.400
+涂抹过的地面
+rubbed ground
+
+232
+00:18:54.300 --> 00:18:54.500
+对
+Yeah.
+
+233
+00:18:56.900 --> 00:19:04.300
+他们也可以去除零件
+And they can also remove Parts
+
+234
+00:19:04.300 --> 00:19:07.100
+最大的模型部分的百分比要小一些
+smaller in the percentage of the biggest model part this one.
+
+235
+00:19:07.100 --> 00:19:07.600
+我不确定,我还不知道呢
+I'm not sure.
+
+236
+00:19:09.100 --> 00:19:11.000
+没错,它成功了。
+That's yes, it worked.
+
+237
+00:19:14.100 --> 00:19:17.200
+你要么把颜色穿好,要么你穿好
+You can either live the colors on or you
+
+238
+00:19:17.200 --> 00:19:19.800
+颜色可以去除,所以你可以保持你的
+can remove the colors so you can just keep your
+
+239
+00:19:20.900 --> 00:19:23.700
+处理没有颜色的对象和此
+Treat object without colors and this
+
+240
+00:19:23.700 --> 00:19:26.600
+已经可以出口了,所以你
+would be good already to be exported. So you
+
+241
+00:19:26.600 --> 00:19:29.700
+可以像这样导出 。
+can export it like this and on the
+
+242
+00:19:29.700 --> 00:19:32.600
+导出进程,您可以支持它
+export process you can support it
+
+243
+00:19:32.600 --> 00:19:35.900
+保存为 OBJ 或 STL
+and save it as an OBG or as a St L
+
+244
+00:19:35.900 --> 00:19:37.000
+作为
+as
+
+245
+00:19:37.700 --> 00:19:38.200
+刚刚
+just
+
+246
+00:19:43.100 --> 00:19:45.800
+因此,这里的运动对象, 你有不同的。
+So here sport object, you have the different.
+
+247
+00:19:47.700 --> 00:19:52.300
+您可以支持扩展, 也可以支持不同的
+extensions you can support and also the different
+
+248
+00:19:50.300 --> 00:19:53.800
+缩放表和
+scale and
+
+249
+00:19:53.800 --> 00:19:54.600
+颜色和
+color and
+
+250
+00:20:07.600 --> 00:20:09.800
+狦
+if you
+
+251
+00:20:13.700 --> 00:20:17.600
+它在出口 我会的
+And it's exporting. I will
+
+252
+00:20:17.600 --> 00:20:20.700
+停止分享 这样我就可以改变感官。
+stop sharing so I can change to the sense.
+
+253
+00:20:21.800 --> 00:20:24.000
+不过,我有
+But I have
+
+254
+00:20:24.400 --> 00:20:27.400
+我和Windows电脑没有联系
+the sense in a Windows computer that I don't I'm not connected to
+
+255
+00:20:27.400 --> 00:20:29.900
+互联网让我无法分享屏幕。
+the internet so I won't be able to share screen.
+
+256
+00:20:32.200 --> 00:20:36.000
+所以,它只是解释和降级 Via
+So it's just explaining and demoing Via
+
+257
+00:20:35.300 --> 00:20:36.800
+这另一台电脑。
+this other computer.
+
+258
+00:20:56.500 --> 00:20:58.700
+感性是这种工具.
+The sense is a tool like this one.
+
+259
+00:20:59.700 --> 00:21:02.500
+基本是插座,所以你有一个USB
+It's basically plug in play. So you have a USB
+
+260
+00:21:02.500 --> 00:21:05.800
+连接,你把它放在电脑上
+connection. You put it on your computer and
+
+261
+00:21:05.800 --> 00:21:08.500
+那你需要感官软件
+then you need the sense software to
+
+262
+00:21:08.500 --> 00:21:11.500
+运行它,但这个你也可以做
+run it. But this one you can either do
+
+263
+00:21:11.500 --> 00:21:14.600
+它对它进行稳定编码和物体运行。
+it coding it steady and object running.
+
+264
+00:21:15.800 --> 00:21:18.600
+像我们一样搬进月台,或者你
+Moving in the platform like we did or you
+
+265
+00:21:18.600 --> 00:21:21.400
+也可以用这个来到处走走,它不会
+can also use this one to walk around. It doesn't
+
+266
+00:21:21.400 --> 00:21:26.000
+有这么长的电缆,所以它不允许你走。
+have such a long cable. So it doesn't allow you to go. So yeah
+
+267
+00:21:24.300 --> 00:21:27.200
+太疯狂了,
+so wild with it,
+
+268
+00:21:27.200 --> 00:21:30.400
+但它运行良好 与不这么稳定
+but it works well with not so steady
+
+269
+00:21:30.400 --> 00:21:33.300
+然后你去识别物体 当你移动,所以我
+and then you go recognizing the object As you move so I'm
+
+270
+00:21:33.300 --> 00:21:34.100
+我会连接这台设备。
+going to connect this one.
+
+271
+00:23:32.500 --> 00:23:36.200
+好吧,我们有一些非常高级的屏幕
+Okay, we have some very Advanced screen
+
+272
+00:23:35.200 --> 00:23:36.900
+雪利来.
+Sherry here.
+
+273
+00:23:38.600 --> 00:23:39.700
+前两台电脑,但这是...
+first two computers, but this is the
+
+274
+00:23:40.700 --> 00:23:44.100
+感官软件 哦 我需要
+sense software. Oops. I need
+
+275
+00:23:43.100 --> 00:23:44.600
+另一个老鼠。
+the other Mouse.
+
+276
+00:23:47.600 --> 00:23:50.700
+很简单,很直观
+It is quite simple and intuitive
+
+277
+00:23:50.700 --> 00:23:53.300
+假设我把头,我
+setting I'm going to put head and I'm
+
+278
+00:23:53.300 --> 00:23:56.400
+试着做我物体的头 结束了
+going to try just to do the head of my object which is over
+
+279
+00:23:56.400 --> 00:23:59.300
+在这里,你也可以做身体,因为它会
+here. You could also do body because it would
+
+280
+00:23:59.300 --> 00:24:02.500
+更认得一点,我先别管了,小子
+recognize bit more. I'll leave it boy on and then
+
+281
+00:24:02.500 --> 00:24:05.300
+你基本上开始扫描 这样你就不会有太多的设置
+you basically start scanning so you don't have a lot of settings to
+
+282
+00:24:05.300 --> 00:24:09.000
+稍后再重新开始,你也可以做同样的事情,就像我们刚刚看到的接近一样
+restart later on you can do the same as we just saw close
+
+283
+00:24:08.400 --> 00:24:11.600
+对象并做一些额外的
+the object and do some extra
+
+284
+00:24:11.600 --> 00:24:14.700
+我开始瘦了
+manipulation. So I'll start skinny,
+
+285
+00:24:14.700 --> 00:24:17.300
+我不知道你有没有看到我的另一只手,但是...
+and I don't know if you see with my other hand, but
+
+286
+00:24:17.300 --> 00:24:20.400
+我指向那里,也许吧
+I'm pointing it to there so probably
+
+287
+00:24:23.100 --> 00:24:23.600
+摆
+Okay.
+
+288
+00:24:26.900 --> 00:24:30.000
+那么这里的挑战是 继续跟随
+Then the challenge here is to keep following a
+
+289
+00:24:29.300 --> 00:24:32.500
+屏幕同时您必须同时显示
+screen while you have to either
+
+290
+00:24:32.500 --> 00:24:35.100
+四处转转,但这样的话,我会试着
+move around. But in this case, I'm going to try to
+
+291
+00:24:35.100 --> 00:24:38.800
+保持它的基地和玛丽卡。
+keep it the base and Marika. My
+
+292
+00:24:38.800 --> 00:24:41.400
+助理会打开平台。
+assistant is gonna turn the platform.
+
+293
+00:24:41.400 --> 00:24:42.900
+是的,你可以开始。
+Yeah, you can start.
+
+294
+00:24:43.500 --> 00:24:46.900
+慢慢来,然后它告诉你不要动
+Go slow and then it tells you to hold still when
+
+295
+00:24:46.900 --> 00:24:49.400
+它仍然捕捉,所以它不是说
+it still capturing. So it's not saying
+
+296
+00:24:49.400 --> 00:24:51.300
+请继续走,然后你可以继续前进。
+please go still then you can keep moving.
+
+297
+00:24:52.900 --> 00:24:53.100
+什麽?
+What?
+
+298
+00:24:54.900 --> 00:24:57.500
+你停下来吗?
+Do you stop?
+
+299
+00:24:57.900 --> 00:25:00.200
+有时有点分散注意力,然后你就得回去
+Sometimes it's a little distract and then you need to go back
+
+300
+00:25:00.200 --> 00:25:02.500
+一点点他输了,但还是不错。
+a little bit where he lost but it's still good.
+
+301
+00:25:05.100 --> 00:25:06.000
+你继续走。
+You keep going.
+
+302
+00:25:13.000 --> 00:25:13.200
+对
+Yeah.
+
+303
+00:25:15.000 --> 00:25:15.200
+然后，
+and
+
+304
+00:25:17.600 --> 00:25:19.200
+哦,法庭结束了。
+oh, it's the court finished.
+
+305
+00:25:31.500 --> 00:25:34.800
+这个可以更灵活地指出:
+This this one gives more flexibility to point from
+
+306
+00:25:34.800 --> 00:25:37.800
+上面和下面,所以你真的得到
+the top and the bottom and so you really get the
+
+307
+00:25:37.800 --> 00:25:40.000
+整个警徽,比如说,得到头发的细节。
+whole badge for instance get hair details.
+
+308
+00:25:44.200 --> 00:25:45.700
+停下来一点。
+Stop a bit.
+
+309
+00:25:49.200 --> 00:25:50.500
+我们会用这个穿。
+We'll use this on.
+
+310
+00:25:53.900 --> 00:25:56.300
+摆
+Okay.
+
+311
+00:26:00.900 --> 00:26:03.400
+你可以继续了,看看有没有回来
+You can continue. Let's see if it gets back
+
+312
+00:26:03.400 --> 00:26:03.800
+给它。
+to it.
+
+313
+00:26:06.900 --> 00:26:10.100
+对
+Yeah.
+
+314
+00:26:21.600 --> 00:26:22.300
+是的,你可以离开。
+Yeah, you can go.
+
+315
+00:26:31.600 --> 00:26:34.700
+好了,我们走 All right,
+All right,
+
+316
+00:26:34.700 --> 00:26:37.900
+我会说总是从某个地方开始的
+I would say it's always started somewhere
+
+317
+00:26:37.900 --> 00:26:40.500
+在这里,你就可以去
+here so you can then go and
+
+318
+00:26:43.200 --> 00:26:43.800
+哦,错的。
+Oh false.
+
+319
+00:26:44.500 --> 00:26:47.700
+现在,我可以用这个了
+Let's now I can with this
+
+320
+00:26:47.700 --> 00:26:51.000
+一,你也可以暂停重启,好,对不起
+one. You can also pause and restart. Okay, sorry.
+
+321
+00:26:52.300 --> 00:26:55.600
+但如你所说,这是好的,我们可以
+But as you say that this is good and we could
+
+322
+00:26:55.600 --> 00:26:57.900
+结束看它是如何完成模型。
+finish to see how it finished up the model.
+
+323
+00:27:03.600 --> 00:27:06.100
+也许你可以展示一下我的年度净身世
+Maybe you can show yearly net how I was
+
+324
+00:27:06.100 --> 00:27:09.100
+做这些事情,所以我得到了这个
+doing it with the things. So I had this
+
+325
+00:27:09.100 --> 00:27:12.700
+我脑子里有一根,然后我就一直握着它
+one in my head and then I was just this holding it steady
+
+326
+00:27:12.700 --> 00:27:15.100
+而我们旋转这一个, 但你可以
+and we were rotating this one, but you can
+
+327
+00:27:15.100 --> 00:27:18.400
+换个角度转转,如果旋转的话
+also do the other way around that you rotate if you're rotating
+
+328
+00:27:18.400 --> 00:27:21.200
+确定那是那个圆 显示
+making sure that that's that Circle that was showing
+
+329
+00:27:21.200 --> 00:27:24.700
+在中间 它总是指向同一个高度
+in the middle. It's always pointing to the same height of
+
+330
+00:27:24.700 --> 00:27:26.200
+所以,这是真正的东西
+your object. So this is really something that
+
+331
+00:27:29.300 --> 00:27:33.100
+是的,这是真正 使它保持
+And yes that this is something that really makes it keep in
+
+332
+00:27:32.100 --> 00:27:35.000
+位置。如果你失去了轨道尝试去
+place. If you lose track try to go
+
+333
+00:27:35.200 --> 00:27:38.200
+回到你开始的地方 或一些地点
+back to where you started or some some of the spot that
+
+334
+00:27:38.200 --> 00:27:41.600
+你已经是真实的 所以它会再次发现,这就是
+you've been already true so that it finds again and that's
+
+335
+00:27:41.600 --> 00:27:42.400
+基本上是这样的。
+basically it.
+
+336
+00:27:43.400 --> 00:27:44.400
+仍在处理中.
+It's still processing.
+
+337
+00:27:47.600 --> 00:27:48.000
+然后，
+and
+
+338
+00:27:54.100 --> 00:27:55.100
+对
+yes.
+
+339
+00:28:02.800 --> 00:28:05.200
+所以,当它需要很长时间 要么太好或
+So when it takes long either is too good or
+
+340
+00:28:05.200 --> 00:28:06.000
+太遗憾了。
+too bad.
+
+341
+00:28:08.900 --> 00:28:09.200
+那个
+that
+
+342
+00:28:10.200 --> 00:28:14.400
+好吧,所以我们有它 像另一个,还有一些墙
+okay, so we have it like the other one also some wall
+
+343
+00:28:13.400 --> 00:28:15.500
+在这里,但
+over here, but
+
+344
+00:28:17.300 --> 00:28:21.400
+看起来还不错,我不是故意指的
+it looks sort of okay. I was not really aimed pointing
+
+345
+00:28:20.400 --> 00:28:24.300
+扫描时我没有对准双手。
+to the hands. So it's we
+
+346
+00:28:23.300 --> 00:28:26.800
+所以我们会把其余部分裁掉。
+would crop it from the rest up
+
+347
+00:28:26.800 --> 00:28:29.200
+然后这个,你可以的
+and then this one yeah you can
+
+348
+00:28:29.200 --> 00:28:29.500
+说吧
+do.
+
+349
+00:28:31.500 --> 00:28:32.100
+这么说吧
+so
+
+350
+00:28:34.400 --> 00:28:37.600
+现在的修剪,但这是一个 一种待办的梦想。
+now the trim but this is a sort of a to-do dream.
+
+351
+00:28:58.400 --> 00:29:01.300
+然后你也可以固化你的模型。
+Then you can also solidify your model.
+
+352
+00:29:04.400 --> 00:29:08.600
+你会得到一个封闭 砸的东西
+And you would get a closed smash something that
+
+353
+00:29:08.600 --> 00:29:11.400
+这儿够好的了 动手吧
+it's a good enough here. Do the
+
+354
+00:29:11.400 --> 00:29:14.400
+一样,你也可以剪下底部,然后做
+same. You can also crop the bottom doing it and then you
+
+355
+00:29:14.400 --> 00:29:18.200
+有颜色或无颜色增加a
+have also color or no color increase a
+
+356
+00:29:17.200 --> 00:29:20.500
+位亮度对比和做
+bit brightness contrast and do
+
+357
+00:29:20.500 --> 00:29:21.300
+一些基本设置。
+some basic settings.
+
+358
+00:29:22.100 --> 00:29:23.500
+然则如是喜乐.
+And then if you're happy with it.
+
+359
+00:29:25.300 --> 00:29:25.700
+欧普
+oops
+
+360
+00:29:29.700 --> 00:29:30.100
+结束
+finish
+
+361
+00:29:31.500 --> 00:29:34.400
+然后你知道导出,然后
+and then you know export and then
+
+362
+00:29:34.400 --> 00:29:38.000
+在这里,你也有这个选项 所以OBJ STL
+here you have also the option so OBG STL
+
+363
+00:29:37.500 --> 00:29:40.100
+文件然后导出或只是
+files and then you export or you just
+
+364
+00:29:40.100 --> 00:29:41.900
+保存此模型供稍后导出 。
+saved this model to export later on.
+
+365
+00:29:42.700 --> 00:29:45.600
+就这样,谢谢
+So that's basically it. Thank you.
+
+366
+00:29:49.800 --> 00:29:52.200
+我觉得有什么疑问吗?
+Is there any doubts I think
+
+367
+00:29:52.200 --> 00:29:55.400
+更像是用这个设备
+it's more also a bit of a using this devices to
+
+368
+00:29:55.400 --> 00:29:57.100
+也理解他们是如何工作的。
+understand how they work as well.
+
+369
+00:29:57.900 --> 00:30:00.500
+我只要你来
+I'll just you can
+
+370
+00:30:00.500 --> 00:30:01.200
+把摄像机转过来
+turn this camera.
+
+371
+00:30:17.300 --> 00:30:20.700
+我不知道克劳迪娅和阿纳斯塔西亚在那里。
+I don't know if Claudia or Anastasia right there. Oh you're
+
+372
+00:30:20.700 --> 00:30:20.800
+这里。
+there.
+
+373
+00:30:36.900 --> 00:30:39.200
+你在说大话,我没在听
+Larger are you talking I'm not listening.
+
+374
+00:30:51.100 --> 00:30:52.100
+亦无功用.
+It's not working.
+
+375
+00:30:53.700 --> 00:30:54.600
+对,对。
+Yes, yes.
+
+376
+00:31:00.900 --> 00:31:01.700
+作为工作
+as work
+
+377
+00:31:12.000 --> 00:31:12.400
+摆
+Okay.
+
+378
+00:31:13.800 --> 00:31:14.400
+听到了吗?
+You hear me?
+
+379
+00:31:18.700 --> 00:31:21.600
+好的,好的,谢谢,我们来
+Yep. Yep. Okay. Thank you. So here we
+
+380
+00:31:21.600 --> 00:31:24.200
+拥有更古老的感官版本。
+have the older version of the sense.
+
+381
+00:31:25.700 --> 00:31:28.200
+而我只是分享从
+And I'm just sharing from
+
+382
+00:31:28.200 --> 00:31:31.700
+因此,你只能看到接口是
+that works. So you can only see the interface is
+
+383
+00:31:31.700 --> 00:31:34.300
+有点像一个更好的它是什么
+slightly similar to the one that better it was
+
+384
+00:31:34.300 --> 00:31:34.600
+使用 。
+using.
+
+385
+00:31:35.800 --> 00:31:36.300
+我们
+and we
+
+386
+00:31:38.100 --> 00:31:41.200
+我们基本上有相同的特征,我们要去尝试
+we have the same features basically and we're gonna try
+
+387
+00:31:41.200 --> 00:31:44.700
+来扫描此管理
+to make a scan of this managing
+
+388
+00:31:44.700 --> 00:31:47.300
+这以前不是削减
+that was previously less a cuts
+
+389
+00:31:47.300 --> 00:31:50.300
+并集合起来 像一周的任务是必须的。
+and assembled like the assignment of the week is required.
+
+390
+00:31:52.400 --> 00:31:54.400
+我们要试着看看会发生什么
+And we're gonna try to see what happens.
+
+391
+00:31:56.300 --> 00:31:57.300
+有点像
+It was kind of.
+
+392
+00:31:58.700 --> 00:32:01.700
+所以,从屏幕上你可以看到,你有
+So as you can see from the screen, you have
+
+393
+00:32:01.700 --> 00:32:05.600
+来决定你是否要扫描
+the option to decide if you're gonna scan a
+
+394
+00:32:05.600 --> 00:32:09.000
+小型物体 中型物体或大型物体。
+small object a medium object or a large object. We're gonna
+
+395
+00:32:08.500 --> 00:32:10.500
+向媒介前进。
+go for the medium.
+
+396
+00:32:12.700 --> 00:32:14.000
+以同样的方式
+and in the same way
+
+397
+00:32:15.300 --> 00:32:18.600
+在通过颜色缝合之前,如果
+before you sew through the color you can recognize if
+
+398
+00:32:18.600 --> 00:32:19.600
+你太亲近了
+you are too close.
+
+399
+00:32:20.500 --> 00:32:23.200
+或离物体太远,这是...
+Or too far from the object. It's a
+
+400
+00:32:23.200 --> 00:32:26.200
+例如,保持45度的好做法。
+good practice to keep 45 degrees. For example.
+
+401
+00:32:27.300 --> 00:32:30.700
+从激光到一个点 你正在尝试
+From the laser towards a point you're trying
+
+402
+00:32:30.700 --> 00:32:31.000
+要扫描。
+to scan.
+
+403
+00:32:31.800 --> 00:32:35.300
+如果你有一个旋转的桌子,
+And also if you have a turning table,
+
+404
+00:32:35.300 --> 00:32:38.700
+比如说,我们用的是一家商店。
+so for example, we're using a store. It's something
+
+405
+00:32:38.700 --> 00:32:41.900
+如果你想要保持自己的话,非常有用
+very useful if you want to keep yourself
+
+406
+00:32:41.900 --> 00:32:42.800
+在同一个位置。
+in the same position.
+
+407
+00:32:44.800 --> 00:32:47.700
+所以我们想做点什么
+So we trying to do something really
+
+408
+00:32:47.700 --> 00:32:48.900
+快速不动。
+quick without moving.
+
+409
+00:32:53.300 --> 00:32:54.400
+我们可以开始了。
+And we can start.
+
+410
+00:33:02.400 --> 00:33:03.600
+所以按下开始。
+So press the start.
+
+411
+00:33:10.100 --> 00:33:13.800
+当然,还有隐藏按钮之类的设置
+Of course. Also, there are settings like hidden buttons
+
+412
+00:33:13.800 --> 00:33:14.300
+你可以调整。
+that you can adjust.
+
+413
+00:33:15.400 --> 00:33:16.200
+例如,决议
+for example the resolution
+
+414
+00:33:17.200 --> 00:33:20.200
+所以,你不会结束 一个真正的重网。
+so you're not gonna end up with a really heavy mesh.
+
+415
+00:33:26.600 --> 00:33:30.900
+好,我们正式开始,我开始
+Okay, we are officially starting and I'm
+
+416
+00:33:30.900 --> 00:33:32.800
+试图慢慢旋转。
+trying to slowly rotate.
+
+417
+00:33:35.100 --> 00:33:35.600
+一、导 言
+the table
+
+418
+00:33:37.300 --> 00:33:42.400
+摆
+Okay.
+
+419
+00:33:44.100 --> 00:33:46.100
+太恶心了 我们已经失去追踪了
+That's sick. We already lost tracking.
+
+420
+00:33:46.900 --> 00:33:49.300
+总是会快速的,也许
+always going to fast Maybe
+
+421
+00:33:51.500 --> 00:33:52.400
+我重新开始。
+I start over.
+
+422
+00:34:00.800 --> 00:34:03.400
+开始
+start
+
+423
+00:34:15.400 --> 00:34:17.200
+并尝试上下移动。
+also try to move up and down.
+
+424
+00:34:19.100 --> 00:34:22.600
+要抓住这个模型有点复杂
+To catch this model is a bit complex
+
+425
+00:34:22.600 --> 00:34:25.800
+挑战性强,但我们以前做过,所以我们
+and challenging but we have done it before so we're
+
+426
+00:34:25.800 --> 00:34:28.600
+确定结果可能来得及
+sure that the result might come and a
+
+427
+00:34:28.600 --> 00:34:28.900
+不错的方式。
+nice way.
+
+428
+00:34:30.500 --> 00:34:33.700
+如果你试图扫描例如空格 而不是尝试
+If you're trying to scan for example spaces Instead try
+
+429
+00:34:33.700 --> 00:34:33.900
+离开。
+to go.
+
+430
+00:34:35.900 --> 00:34:36.100
+向上移动
+up
+
+431
+00:34:36.800 --> 00:34:39.200
+所以有时很棘手的一点是
+So sometimes tricky point is to
+
+432
+00:34:39.200 --> 00:34:42.200
+掩蔽并关闭洞穴。
+cover and to close the holes. That
+
+433
+00:34:42.200 --> 00:34:45.300
+可能当你从顶部来头。
+might come when you come the head from Top.
+
+434
+00:34:47.900 --> 00:34:50.100
+我们只是展示一个小
+We're just demonstrating a small
+
+435
+00:34:50.100 --> 00:34:53.900
+对象。到目前为止,所有的一切。你看起来
+object. So so far everything. You looks
+
+436
+00:34:53.900 --> 00:34:54.200
+不错。
+good.
+
+437
+00:34:56.900 --> 00:35:00.100
+当然,你花更多的时间扫描
+Of course the more time you spend scanning the
+
+438
+00:35:00.100 --> 00:35:03.300
+对象的网格最精确的部分是尾部,但
+object the more precise your mesh would be at the end, but
+
+439
+00:35:03.300 --> 00:35:05.400
+我觉得我们该走了
+I think more or less we're good to go.
+
+440
+00:35:07.100 --> 00:35:10.200
+好吧,那么,让我们来看看我们得到了什么。
+Okay, so, let's see what we got.
+
+441
+00:35:14.300 --> 00:35:15.300
+我们可以去下一个。
+We can go next.
+
+442
+00:35:16.600 --> 00:35:19.600
+简单的按钮和我们的扫描
+Just simple buttons and our scan
+
+443
+00:35:19.600 --> 00:35:20.300
+将会与我们一起。
+will get with us.
+
+444
+00:35:34.200 --> 00:35:37.400
+好吧,它满是洞,但它是
+Okay, it's full of holes, but it's
+
+445
+00:35:37.400 --> 00:35:41.600
+之前也已经考虑过了
+something that's also wait so previously into account and
+
+446
+00:35:40.600 --> 00:35:43.300
+我们可以试试看
+we can just try to see
+
+447
+00:35:43.300 --> 00:35:46.200
+与
+with the
+
+448
+00:35:46.200 --> 00:35:49.100
+基本选项如固化。例如,什么样的效果。
+basic options like solidify. For example, what kind of effect.
+
+449
+00:35:50.700 --> 00:35:53.700
+为了把机器关到
+With that in order to close the machine to
+
+450
+00:35:53.700 --> 00:35:54.200
+一个固体。
+a solid.
+
+451
+00:36:05.400 --> 00:36:08.300
+因此,这样我们就可以得到一个STL和一个
+So this way we will get an STL and an
+
+452
+00:36:08.300 --> 00:36:11.600
+如果我们想保持 纹理和
+obj if we want to keep the texture and the
+
+453
+00:36:11.600 --> 00:36:12.500
+材料的颜色。
+color of the materials.
+
+454
+00:36:22.400 --> 00:36:23.300
+应该准备好了。
+Should be ready.
+
+455
+00:36:43.100 --> 00:36:43.400
+摆
+Okay.
+
+456
+00:36:46.400 --> 00:36:48.200
+这不关你的事
+This is not about right.
+
+457
+00:36:55.700 --> 00:36:58.500
+当然你也可以 如果你发现任何
+And of course you can also if you spot any
+
+458
+00:36:58.500 --> 00:37:01.600
+更多的话,但这应该是
+more words, but this should be should be
+
+459
+00:37:01.600 --> 00:37:04.800
+几乎一个紧水的固体,所以你
+a pretty much a watertight solid so you
+
+460
+00:37:04.800 --> 00:37:07.200
+能够实际开始导出此选项
+can actually start exporting this
+
+461
+00:37:07.200 --> 00:37:10.400
+网格和玩弄其他软件
+mesh and play around with another software for
+
+462
+00:37:10.400 --> 00:37:11.600
+示例网格混音器。
+example mesh mixer.
+
+463
+00:37:12.300 --> 00:37:15.100
+犀牛聚变等
+Rhino fusion and so on so
+
+464
+00:37:15.100 --> 00:37:16.400
+接下来你就可以了。
+you can just do next.
+
+465
+00:37:23.300 --> 00:37:23.700
+保存
+and Save
+
+466
+00:37:27.700 --> 00:37:30.400
+以目前为例,
+as still for example of obj in
+
+467
+00:37:30.400 --> 00:37:33.300
+如我们所说 如果你想保持颜色和纹理
+case as we said if you want to keep the colors and the textures.
+
+468
+00:37:40.100 --> 00:37:43.600
+现在我们有了另一个西班牙人
+now we have another Spanish
+
+469
+00:37:43.600 --> 00:37:44.700
+我们想
+we want to
+
+470
+00:37:46.300 --> 00:37:47.000
+显示
+to show
+
+471
+00:37:47.800 --> 00:37:49.600
+你可以在这里停止截图。
+you can stop screenshot in here.
+
+472
+00:37:51.200 --> 00:37:52.000
+我们能得到
+and we can get
+
+473
+00:38:03.100 --> 00:38:04.500
+已连接
+connected
+
+474
+00:38:40.800 --> 00:38:44.000
+и琌
+I'm just
+
+475
+00:38:43.100 --> 00:38:44.600
+来展示一下
+going to show just
+
+476
+00:38:49.900 --> 00:38:53.000
+好吧,那么在试图使用的地方
+okay. So where trying to use
+
+477
+00:38:52.400 --> 00:38:53.800
+Artec 扫描仪？
+the Arctic?
+
+478
+00:38:55.100 --> 00:38:58.600
+职业战略折扣
+It's a professional strategy discount
+
+479
+00:38:58.600 --> 00:38:58.800
+这里。
+there.
+
+480
+00:38:59.800 --> 00:39:02.400
+使用与感知相同的技术
+That uses the same technology as the sense this
+
+481
+00:39:02.400 --> 00:39:05.100
+结构是这样的,所以它要去 投射出来
+structured like so it's going to project them up
+
+482
+00:39:05.100 --> 00:39:06.100
+光线。
+of light.
+
+483
+00:39:08.400 --> 00:39:10.700
+这一点应该如此。
+This should be connected so.
+
+484
+00:39:11.600 --> 00:39:14.300
+扫描仪这个,我们想让你显示。
+The scanner this and we want you to show.
+
+485
+00:39:17.600 --> 00:39:19.100
+今天早上我们做的非常令人惊叹
+A really stunning we did this morning.
+
+486
+00:39:21.900 --> 00:39:24.300
+现在你可以了
+Now you can
+
+487
+00:39:24.300 --> 00:39:25.100
+见屏幕.
+see the screen.
+
+488
+00:39:26.900 --> 00:39:29.400
+所以,如果你想 比较这个可以
+So if you want to compare this can
+
+489
+00:39:29.400 --> 00:39:31.200
+和我们之前见过的一样
+with the one we saw before.
+
+490
+00:39:32.200 --> 00:39:34.400
+这个比较专业
+This one is more professional.
+
+491
+00:39:35.200 --> 00:39:38.400
+这个课程你可以从3D模型本身中发现.
+This course you can spot from the 3D model itself.
+
+492
+00:39:38.400 --> 00:39:42.500
+所以在这里,我们设法得到了所有
+So here we managed to got all
+
+493
+00:39:41.500 --> 00:39:43.100
+这些细节。
+these details.
+
+494
+00:39:44.800 --> 00:39:45.300
+我知道,我记得。
+I know.
+
+495
+00:39:46.900 --> 00:39:49.500
+从物理物体上可以看到3个.
+You can see three from the physical objects.
+
+496
+00:39:53.700 --> 00:39:55.100
+连标签
+and even the label
+
+497
+00:39:56.800 --> 00:39:57.800
+以肥皂为单位
+of the soap
+
+498
+00:40:04.900 --> 00:40:07.400
+这是专业的扫描仪 比如说
+This is a professional scanner for for example
+
+499
+00:40:07.400 --> 00:40:12.000
+保健应用
+Healthcare applications Orthopedics City
+
+500
+00:40:10.900 --> 00:40:13.300
+辅助科技.
+assistive Technologies.
+
+501
+00:40:15.100 --> 00:40:18.400
+通常你不会在实验室里找到这个 而是为了那些东西
+Usually you're not find this in the lab, but for the things
+
+502
+00:40:18.400 --> 00:40:21.600
+你扫描的东西 类似感官是
+that you are scanning something like sense is
+
+503
+00:40:21.600 --> 00:40:24.300
+瞒秨 Τ届
+very good to separate. It works
+
+504
+00:40:24.300 --> 00:40:27.200
+类似的方式,但您可以看到界面
+in a similar way, but as you can see the interface of the
+
+505
+00:40:27.200 --> 00:40:30.300
+这里的软件您还有许多要玩的设置。
+software here you have many more settings to play with.
+
+506
+00:40:30.300 --> 00:40:33.100
+所以,举例来说,如果你想
+So for example, if you want to
+
+507
+00:40:33.100 --> 00:40:36.400
+尝试演示,实际上去
+try a demo and actually went to
+
+508
+00:40:36.400 --> 00:40:36.600
+给你看
+show you
+
+509
+00:40:37.900 --> 00:40:40.400
+嗯,这个工作流程
+um the workflow of this
+
+510
+00:40:40.400 --> 00:40:41.200
+例如这里
+so for example here
+
+511
+00:40:42.400 --> 00:40:45.100
+这是你在这里看到的结果
+This is the result that you are showing seeing here
+
+512
+00:40:45.100 --> 00:40:49.400
+不同种类的天空,我们可以分开做。
+of different kind of Skies that we can do separately. So
+
+513
+00:40:48.400 --> 00:40:51.700
+一切都没有记录下来,
+everything is not recorded and
+
+514
+00:40:51.700 --> 00:40:54.400
+全部扫描一次,但步数不同
+scanned all at once but in different steps
+
+515
+00:40:54.400 --> 00:40:57.300
+因此,你可以决定 例如扫描顶部
+so you can decide for example to scan the top
+
+516
+00:40:57.300 --> 00:40:57.400
+编。
+part.
+
+517
+00:40:59.700 --> 00:41:01.500
+本身还是正面还是侧面?
+Itself or the front or the side?
+
+518
+00:41:02.300 --> 00:41:03.300
+在这里,你看到了
+and here you see
+
+519
+00:41:05.400 --> 00:41:08.500
+以表面为例,
+the amount for example of surfaces that
+
+520
+00:41:08.500 --> 00:41:09.300
+被称作
+were called that
+
+521
+00:41:11.400 --> 00:41:14.400
+大约 500［原文不清，需对照视频复核］。
+something like 500 recession
+
+522
+00:41:17.400 --> 00:41:18.400
+这样你就可以继续了。
+so you can resume.
+
+523
+00:41:19.800 --> 00:41:22.500
+每当你需要时,你可以暂停
+And you can pause every time you need to get
+
+524
+00:41:22.500 --> 00:41:25.000
+您的 3D 对象的最佳网站 。
+the best site of your 3D object.
+
+525
+00:41:27.600 --> 00:41:30.200
+到最后,你可以运行
+And at the end you can run the
+
+526
+00:41:30.200 --> 00:41:33.000
+自动驾驶,你可以告诉,你可以问这个软件。
+autopilot you can tell and you can ask this software.
+
+527
+00:41:33.700 --> 00:41:36.400
+这一切合起来太过分了
+Too much all this coming together into an
+
+528
+00:41:36.400 --> 00:41:39.600
+对象。当然还有其他工具可以修正
+object. And of course there are other tools to fix
+
+529
+00:41:39.600 --> 00:41:41.800
+孔以加于清净.
+holes to add it to clean.
+
+530
+00:41:43.800 --> 00:41:46.500
+这些都是非常复杂的网状网状,例如,让我
+These are very complex mesh. For example, let me
+
+531
+00:41:46.500 --> 00:41:49.100
+需要一段时间来扫描。
+take a while to scan. So also in terms of for example
+
+532
+00:41:49.100 --> 00:41:52.200
+它会比它重得多
+of the sides. It will be much heavier than
+
+533
+00:41:52.200 --> 00:41:53.200
+曾经如此的一次
+one so before
+
+534
+00:41:54.600 --> 00:41:57.600
+我想我们可以试试
+I think we can just try to
+
+535
+00:41:57.600 --> 00:41:58.700
+停止屏幕共享 。
+stop screen share.
+
+536
+00:42:01.500 --> 00:42:02.500
+做点什么吧
+and do something like
+
+537
+00:42:15.600 --> 00:42:16.600
+礛
+and so then
+
+538
+00:42:18.900 --> 00:42:19.300
+你知道吗?
+You know.
+
+539
+00:42:25.200 --> 00:42:25.400
+刚刚
+just
+
+540
+00:42:27.300 --> 00:42:30.100
+所以,还好。
+So, okay.
+
+541
+00:42:33.600 --> 00:42:35.100
+所以我们可以做一个新的。
+So we can make a new one.
+
+542
+00:42:44.900 --> 00:42:47.800
+总是好的东西
+What's something always good
+
+543
+00:42:47.800 --> 00:42:50.200
+记住,就是尝试
+to keep in mind is to try
+
+544
+00:42:50.200 --> 00:42:53.600
+以扫描不反射的对象
+to scan objects not reflective
+
+545
+00:42:53.600 --> 00:42:55.900
+或者像瓶子一样透明
+or transparent like for example bottles.
+
+546
+00:42:57.500 --> 00:43:00.600
+以防这个空间有点挑战性,因为它真的
+In case this space is a bit challenging because it's really
+
+547
+00:43:00.600 --> 00:43:03.500
+闪亮的白色 所以其实有点
+shiny white. So it's actually a bit
+
+548
+00:43:03.500 --> 00:43:03.800
+反射。 反射。
+reflective.
+
+549
+00:43:04.700 --> 00:43:07.100
+但对于这个扫描仪来说是件好事
+But for this scanner was was a good
+
+550
+00:43:07.100 --> 00:43:09.100
+演示。
+demonstration.
+
+551
+00:43:10.200 --> 00:43:13.000
+是的,我们可以试着扫描 相同的模特儿。
+Yeah, we can try to scan the same mannequin.
+
+552
+00:43:13.700 --> 00:43:14.900
+而过程也是一样的。
+And the process is the same.
+
+553
+00:43:21.600 --> 00:43:24.700
+是的,我们可以开始 仅仅展示一个
+Yeah, we can start just to demonstrate a
+
+554
+00:43:24.700 --> 00:43:25.000
+位数。
+bit.
+
+555
+00:43:25.900 --> 00:43:26.100
+何时
+when
+
+556
+00:43:27.700 --> 00:43:30.400
+当然,它扫描了一个物体。
+It's of course and it scans an object. Of course
+
+557
+00:43:30.400 --> 00:43:34.900
+例如,这里的分辨率是0.05毫米。
+the resolution here for example is something like 0.05 millimeters.
+
+558
+00:43:36.600 --> 00:43:40.100
+所以有时候也非常狡猾
+So sometimes is also very tricky
+
+559
+00:43:39.100 --> 00:43:42.100
+保持稳定,保持同一位置。
+to be stable and to keep the same position.
+
+560
+00:43:45.900 --> 00:43:48.200
+也有温度等特征.
+There are also features like the temperature.
+
+561
+00:43:50.300 --> 00:43:51.300
+扫描仪
+scanner
+
+562
+00:43:54.300 --> 00:43:56.600
+你可以说照片每秒。
+and you can say that the photographs per second.
+
+563
+00:43:57.900 --> 00:44:00.200
+速度比这要快得多
+The speed of it is much faster compared to
+
+564
+00:44:00.200 --> 00:44:01.200
+之前的恩爱。
+the previous kindness.
+
+565
+00:44:08.400 --> 00:44:11.200
+举个例子,我们可以抓住一面,我们可以
+Okay. So for example, we can catch one side and we can
+
+566
+00:44:11.200 --> 00:44:11.900
+别闹了
+stop it.
+
+567
+00:44:19.300 --> 00:44:20.800
+而且,这场比赛真的很困难。
+Also, this match is really hard.
+
+568
+00:44:25.500 --> 00:44:28.700
+举个例子 开始吧
+What we can just show for example and start.
+
+569
+00:44:30.500 --> 00:44:33.600
+我们上周做的另一次扫描是
+Another scanning we did last week that was
+
+570
+00:44:33.600 --> 00:44:36.000
+这个圣母安德烈
+this Makita Andre.
+
+571
+00:44:41.400 --> 00:44:44.400
+这是三维模型的结果
+And this is the result of the 3D model in the
+
+572
+00:44:44.400 --> 00:44:47.100
+计算机的3D查看器。这就是对象。
+3D viewer of the computer. So this is the object.
+
+573
+00:44:48.700 --> 00:44:51.400
+物理的,同时你可以看到,
+The physical and at the same time you can see that the
+
+574
+00:44:51.400 --> 00:44:54.400
+相同的纹理按钮。
+same amount of textures buttons.
+
+575
+00:44:56.600 --> 00:44:57.800
+和一些细节
+and little details
+
+576
+00:45:00.500 --> 00:45:01.500
+亦有记载.
+There's been also recorded.
+
+577
+00:45:02.400 --> 00:45:04.700
+这里的物理模型和数字模型
+here in the physical and the Digital model
+
+578
+00:45:08.100 --> 00:45:09.200
+花了多长时间?
+How long did it take?
+
+579
+00:45:11.100 --> 00:45:11.700
+20分钟
+20 minutes
+
+580
+00:45:29.800 --> 00:45:32.400
+是啊,当然,这是STL,但是,
+yeah, and also of course, this is the STL but
+
+581
+00:45:33.500 --> 00:45:36.500
+狦Τ you
+If you have the obj you
+
+582
+00:45:36.500 --> 00:45:39.500
+将查找所有标志或标签
+will spot all the logos or the labels all the
+
+583
+00:45:39.500 --> 00:45:41.200
+按钮和不同颜色。
+buttons and the colors of different.
+
+584
+00:45:45.500 --> 00:45:48.600
+好吧,我想就这样了。
+Okay, I guess that's all.
+
+585
+00:45:52.500 --> 00:45:53.800
+我不知道你有没有问题
+I don't know if you have questions.
+
+586
+00:45:57.600 --> 00:45:57.800
+或 时 间
+or
+
+587
+00:46:00.400 --> 00:46:01.500
+好奇心,我们可以
+Curiosities we can
+
+588
+00:46:36.300 --> 00:46:37.100
+是啊,我们刚刚结束。
+Yeah, we just ended.
+
+589
+00:46:37.900 --> 00:46:40.700
+我不知道在别人中是否有疑问或
+I don't know if in anybody else questions or
+
+590
+00:46:40.700 --> 00:46:41.800
+好奇心我们可以回答。
+Curiosities we can answer.
+
+591
+00:46:44.200 --> 00:46:47.500
+有时候用电脑和电脑很困难
+Sometimes it's very tricky to use to computers and to
+
+592
+00:46:47.500 --> 00:46:50.500
+同时向实验室里的人展示
+show at the same time to the people in the lab with the
+
+593
+00:46:50.500 --> 00:46:52.900
+学生的一切,这就是发生。
+students everything. That's that's happening.
+
+594
+00:47:29.800 --> 00:47:30.900
+好吧,我觉得。
+Okay, I think.
+
+595
+00:47:32.100 --> 00:47:33.000
+吾等今为好.
+We're good for today.
+
+596
+00:47:39.700 --> 00:47:41.500
+对,棒极了
+Yes, awesome.
+
+597
+00:47:44.800 --> 00:47:47.400
+所以,如果你没有
+So if if you don't have
+
+598
+00:47:47.400 --> 00:47:50.100
+扫描仪和确保
+a scanner and make sure
+
+599
+00:47:50.100 --> 00:47:54.700
+可以下载不同的应用程序
+that you can download different applications on
+
+600
+00:47:53.700 --> 00:47:57.600
+电话和高度
+the phone and also highly
+
+601
+00:47:56.600 --> 00:48:00.100
+鼓励您尝试摄影
+encourage you to try photography with
+
+602
+00:48:00.100 --> 00:48:04.500
+照片上的照片,这真的有用
+the pictures with the photos. That's really working.
+
+603
+00:48:04.500 --> 00:48:08.800
+这一切都非常有力。
+It is all very very robust.
+
+604
+00:48:07.800 --> 00:48:10.900
+这么说吧,科技就是如此
+Let's say technology so
+
+605
+00:48:10.900 --> 00:48:12.500
+你也可以试试看。
+you can also try that.
+
+606
+00:48:15.500 --> 00:48:18.600
+是啊,你发现很多 已经和我们
+Yeah, and you find a lot of already and our
+
+607
+00:48:18.600 --> 00:48:21.900
+网站和典型的五种不同资源
+website and a classic five different resources in terms
+
+608
+00:48:21.900 --> 00:48:24.100
+某些网站,您可以查看和测试。
+of some website that you can check and try out.
+
+609
+00:48:31.200 --> 00:48:32.300
+好的,谢谢大家
+Okay. Thank you everyone.

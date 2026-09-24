@@ -1,0 +1,482 @@
+{
+  "id": "755151733",
+  "slug": "05-3d-scanning-demo",
+  "title": "3D 扫描演示：Kinect、Sense 与专业扫描仪",
+  "description": "Fabricademy 2022 3D Scanning Demo：对照不同扫描设备的采集、网格清理与导出流程。",
+  "binding_source": "extension",
+  "duration": 2918.72,
+  "page_url": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/notes.html",
+  "bilibili": {
+    "bvid": "BV1jUaN6oEDp",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-scan-overview",
+      "title": "两类扫描设备与现场布置",
+      "summary": "讲师介绍用 Kinect 和另一台手持设备演示人体扫描，并展示实验室的旋转台与模特。",
+      "key_points": [
+        "Kinect 原本面向 Xbox 的动作捕捉，也可用于较粗略的三维扫描。",
+        "让被扫描物缓慢旋转可保持相机位置稳定；现场采用旋转椅改造的转台。"
+      ],
+      "terms": [
+        {
+          "term": "Kinect",
+          "definition": "微软 Xbox 的深度感知设备，在此用作三维扫描输入。"
+        }
+      ],
+      "actions": [
+        "检查被扫描对象、转台与相机的相对位置，留出完整转动空间。"
+      ],
+      "start": 0.0,
+      "end": 101.9,
+      "references": [],
+      "moments": [
+        {
+          "time": 9.8,
+          "title": "课程范围"
+        },
+        {
+          "time": 49.2,
+          "title": "转台与模特"
+        }
+      ],
+      "frames": [
+        {
+          "time": 49.0,
+          "caption": "讲师在实验室说明扫描设备与转台",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/overview.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-skanect-setup",
+      "title": "Skanect 连接、预设与扫描范围",
+      "summary": "在 Skanect 中确认 Kinect 被识别，选择 Body 预设、调整包围盒并设定录制延时。",
+      "key_points": [
+        "讲师在 Mac 上接入 Kinect；Windows 旧机器的驱动问题是本次环境经历，不能当作所有 Windows 设备的结论。",
+        "包围盒太大易把后墙纳入模型，范围应覆盖对象并尽量排除背景。"
+      ],
+      "terms": [
+        {
+          "term": "Skanect",
+          "definition": "利用深度相机捕获并处理三维模型的软件。"
+        },
+        {
+          "term": "包围盒",
+          "definition": "定义扫描对象所处空间范围的三维边界。"
+        }
+      ],
+      "actions": [
+        "确认软件实时预览出现深度影像，再选择 Body 预设并调整扫描范围。",
+        "录制前检查姿态、背景距离和延时设置。"
+      ],
+      "start": 101.9,
+      "end": 265.7,
+      "references": [],
+      "moments": [
+        {
+          "time": 104.6,
+          "title": "Skanect 与 Kinect"
+        },
+        {
+          "time": 142.0,
+          "title": "预设与范围"
+        },
+        {
+          "time": 230.5,
+          "title": "保持姿态"
+        }
+      ],
+      "frames": [
+        {
+          "time": 190.0,
+          "caption": "Skanect 的 Prepare 界面显示 Body 预设和扫描范围设置",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/kinect-settings.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-skanect-failures",
+      "title": "首次采集失去跟踪：背景、光线与重试",
+      "summary": "首次旋转采集不断吸入后墙并丢失人体轮廓；讲师调整光线、角度和范围，多次重试而不把失败结果当成成品。",
+      "key_points": [
+        "转动过快、阴影和背景进入扫描范围都会影响跟踪；视频展示了失败排查过程。",
+        "即使软件能重建出模糊形体，也应先检查轮廓是否满足用途。"
+      ],
+      "terms": [
+        {
+          "term": "跟踪丢失",
+          "definition": "软件无法持续把新采集帧与已有三维对象对齐。"
+        }
+      ],
+      "actions": [
+        "观察实时预览是否仍锁定目标；丢失时停下并回到可识别的角度。",
+        "记录影响结果的光线、背景和包围盒设置，再决定是否重扫。"
+      ],
+      "start": 265.7,
+      "end": 817.9,
+      "references": [],
+      "moments": [
+        {
+          "time": 268.7,
+          "title": "开始录制"
+        },
+        {
+          "time": 360.0,
+          "title": "模糊且含后墙的结果"
+        },
+        {
+          "time": 750.8,
+          "title": "讲师说明反复调试"
+        }
+      ],
+      "frames": [
+        {
+          "time": 600.0,
+          "caption": "Skanect 重建界面几乎没有有效人体几何，显示此次尝试失败",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/failed-skanect.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-skanect-capture",
+      "title": "缩小包围盒后完成一圈扫描",
+      "summary": "讲师缩小包围盒，缓慢旋转模特，使绿色预览持续覆盖人体，暂停录制并准备重建。",
+      "key_points": [
+        "缩小范围后背景干扰减少，但仍需留意背面阴影与未扫描区域。",
+        "采集完成后先暂停，再进入重建步骤。"
+      ],
+      "terms": [
+        {
+          "term": "实时预览",
+          "definition": "采集时显示深度数据和当前跟踪状态的画面。"
+        }
+      ],
+      "actions": [
+        "以慢而稳定的速度转动一圈，持续检查预览的颜色与人体轮廓。",
+        "确认返回起点附近并保留足够覆盖后再暂停。"
+      ],
+      "start": 817.9,
+      "end": 943.3,
+      "references": [],
+      "moments": [
+        {
+          "time": 817.9,
+          "title": "缩小包围盒"
+        },
+        {
+          "time": 843.6,
+          "title": "慢速旋转"
+        },
+        {
+          "time": 920.0,
+          "title": "结束采集"
+        }
+      ],
+      "frames": [
+        {
+          "time": 855.0,
+          "caption": "Skanect 实时预览中，绿色的人体轮廓正在成形",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/working-scan.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-skanect-process",
+      "title": "重建、封闭网格、裁剪与导出",
+      "summary": "对采集结果重建并做 watertight 封闭，裁掉底座或背景碎片，必要时简化网格，最后讨论 OBJ 与 STL 导出。",
+      "key_points": [
+        "封闭网格会补洞，但不会自动保证所有误采背景都消失。",
+        "可以裁切底面、去除较小独立部件并选择保留或移除颜色。",
+        "OBJ 可包含颜色与纹理相关信息；STL 主要保存几何，导出时还须检查单位和比例。"
+      ],
+      "terms": [
+        {
+          "term": "Watertight",
+          "definition": "没有开放边界、可用于后续制造检查的封闭网格。"
+        },
+        {
+          "term": "OBJ / STL",
+          "definition": "常见三维网格格式；本课借此比较外观信息与几何导出。"
+        }
+      ],
+      "actions": [
+        "重建后旋转查看背部、底面与背景碎片。",
+        "先保留原始扫描，再导出经过裁剪的版本并核对格式与尺度。"
+      ],
+      "start": 943.3,
+      "end": 1217.6,
+      "references": [],
+      "moments": [
+        {
+          "time": 943.3,
+          "title": "重建"
+        },
+        {
+          "time": 990.0,
+          "title": "Watertight 与补洞"
+        },
+        {
+          "time": 1080.0,
+          "title": "裁剪底面"
+        },
+        {
+          "time": 1160.0,
+          "title": "格式与尺度"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1040.0,
+          "caption": "Skanect 的 Process 页面显示扫描对象及仍需清理的底座碎片",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/cleanup.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-sense-handheld",
+      "title": "Sense 手持扫描：保持目标与视角",
+      "summary": "讲师展示 Sense 设备及 Windows 上的软件，围绕模特进行手持扫描，并说明画面跟踪、上下角度、暂停与恢复。",
+      "key_points": [
+        "Sense 可以移动设备绕对象，也可以固定设备并缓慢转动对象。",
+        "软件提示停住时要等待采集；丢失跟踪后回到之前识别过的位置。",
+        "结果可做裁剪、实体化及 OBJ/STL 导出，细节质量以实际预览判断。"
+      ],
+      "terms": [
+        {
+          "term": "Sense",
+          "definition": "课程使用的手持三维扫描设备。"
+        },
+        {
+          "term": "实体化",
+          "definition": "把开放或稀疏扫描结果补成更封闭的形体。"
+        }
+      ],
+      "actions": [
+        "扫描时让目标持续位于预览中心，逐步补足顶部、底部和背面。",
+        "完成后检查缺失区域，再决定是否裁剪、实体化或重新采集。"
+      ],
+      "start": 1217.6,
+      "end": 1878.7,
+      "references": [],
+      "moments": [
+        {
+          "time": 1235.3,
+          "title": "设备与软件"
+        },
+        {
+          "time": 1440.0,
+          "title": "开始手持扫描"
+        },
+        {
+          "time": 1620.0,
+          "title": "跟踪恢复"
+        },
+        {
+          "time": 1710.0,
+          "title": "裁剪与导出"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1500.0,
+          "caption": "Sense 软件屏幕显示正在采集的人体模型",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/sense-method.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-sense-second-demo",
+      "title": "旧版 Sense 再演示：尺度、跟踪与封闭",
+      "summary": "另一位讲者使用旧版 Sense 扫描先前激光切割装配的模型，比较对象大小选择、距离提示、跟踪丢失及补洞导出。",
+      "key_points": [
+        "扫描前选择小、中、大对象会影响采集范围；实时颜色与距离提示可帮助保持合适位置。",
+        "课程示范遇到跟踪丢失，重启后慢速覆盖模型不同角度。",
+        "Solidify 后仍须检查孔洞和孤立几何，不能仅凭按钮名称断定网格可制造。"
+      ],
+      "terms": [
+        {
+          "term": "Solidify",
+          "definition": "本次 Sense 界面中的封闭处理操作。"
+        },
+        {
+          "term": "纹理",
+          "definition": "附着在网格表面的颜色或图像信息。"
+        }
+      ],
+      "actions": [
+        "按对象尺寸选择扫描模式，逐步覆盖易遗漏的顶部和背部。",
+        "导出 STL 或 OBJ 前查看网格完整性及是否需要颜色纹理。"
+      ],
+      "start": 1878.7,
+      "end": 2329.9,
+      "references": [],
+      "moments": [
+        {
+          "time": 1881.6,
+          "title": "旧版 Sense"
+        },
+        {
+          "time": 1920.0,
+          "title": "选择对象大小"
+        },
+        {
+          "time": 2010.0,
+          "title": "跟踪丢失"
+        },
+        {
+          "time": 2130.0,
+          "title": "Solidify"
+        },
+        {
+          "time": 2243.3,
+          "title": "导出"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2010.0,
+          "caption": "旧版 Sense 的扫描界面出现红色跟踪丢失提示",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/second-sense.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-professional-scanner",
+      "title": "专业结构光扫描：细节、分段与合并",
+      "summary": "讲者介绍 Artec 类专业结构光设备，对照较高细节的扫描示例，并说明分多次采集、暂停和自动合并。",
+      "key_points": [
+        "专业设备可捕获更细小的表面细节，但通常产生更大的网格文件。",
+        "不同角度可分段扫描，再通过软件对齐与合并；仍可能需要补洞和清理。",
+        "本段直播共享画面与讲解有短暂不同步，设备品牌和参数以实际画面及官方资料复核。"
+      ],
+      "terms": [
+        {
+          "term": "结构光",
+          "definition": "投射光图案并从变形中估计表面三维形状的扫描方法。"
+        },
+        {
+          "term": "点云/网格合并",
+          "definition": "把多次采集的局部几何对齐为一个对象。"
+        }
+      ],
+      "actions": [
+        "比较扫描预览的细节与文件体量，确定是否真的需要高分辨率。",
+        "多角度采集后检查自动合并处是否有接缝或孔洞。"
+      ],
+      "start": 2329.9,
+      "end": 2553.6,
+      "references": [],
+      "moments": [
+        {
+          "time": 2332.4,
+          "title": "专业设备介绍"
+        },
+        {
+          "time": 2366.9,
+          "title": "细节比较"
+        },
+        {
+          "time": 2487.6,
+          "title": "自动合并"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2380.0,
+          "caption": "共享画面展示罐状对象的扫描软件视图；讲解正比较专业设备的细节",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/professional-comparison.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-professional-live",
+      "title": "现场再扫：反光表面与细节展示",
+      "summary": "讲者提醒透明或反光物体较难扫描，现场短暂采集并展示物理对象与数字模型的细节差异。",
+      "key_points": [
+        "白色高光和透明表面可能使结构光扫描更难稳定。",
+        "高分辨率设备也需稳定动作、合适距离和足够覆盖角度。",
+        "直播画面在部分时段仍停留于先前的软件预览，不能用它证明当前讲解的扫描结果。"
+      ],
+      "terms": [
+        {
+          "term": "反光表面",
+          "definition": "可能改变投射光的返回形态，影响几何测量的表面。"
+        }
+      ],
+      "actions": [
+        "选择表面较容易识别的对象做测试，再比较物体与模型细节。",
+        "对讲解与画面不同步处保留疑点，不把旧画面当成新扫描结果。"
+      ],
+      "start": 2553.6,
+      "end": 2745.5,
+      "references": [],
+      "moments": [
+        {
+          "time": 2564.9,
+          "title": "避免反光和透明"
+        },
+        {
+          "time": 2600.0,
+          "title": "现场采集"
+        },
+        {
+          "time": 2700.0,
+          "title": "物体与模型比较"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2700.0,
+          "caption": "直播共享画面仍显示先前扫描软件的人体预览，与此处专业设备讲解并不同步",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/artec-detail.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-alternatives-wrap",
+      "title": "问答与替代方案：手机扫描和摄影测量",
+      "summary": "讲者回应提问，建议没有扫描仪时尝试手机应用或照片摄影测量，并提示官方资源可继续查询。",
+      "key_points": [
+        "手机扫描与多照片摄影测量是课程提出的替代尝试，并非本视频已完整演示的同等流程。",
+        "终段直播共享画面仍停在旧的软件界面，不能将其当作手机扫描操作画面。"
+      ],
+      "terms": [
+        {
+          "term": "摄影测量",
+          "definition": "用多张重叠照片估计物体三维几何的方法。"
+        }
+      ],
+      "actions": [
+        "没有专用设备时先试手机扫描或多角度照片，并比较模型完整性。",
+        "查阅课程资源后记录所用工具、原始照片或扫描数据及导出格式。"
+      ],
+      "start": 2745.5,
+      "end": 2918.72,
+      "references": [],
+      "moments": [
+        {
+          "time": 2752.5,
+          "title": "提问"
+        },
+        {
+          "time": 2855.0,
+          "title": "手机与照片"
+        },
+        {
+          "time": 2911.2,
+          "title": "结束"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2865.0,
+          "caption": "结束问答时共享画面仍停在早前的扫描软件，不是手机扫描操作",
+          "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/alternatives.jpg"
+        }
+      ]
+    }
+  ]
+}
