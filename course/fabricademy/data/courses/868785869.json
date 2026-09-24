@@ -3,10 +3,14 @@
   "slug": "06-makehuman-slicer-2023",
   "title": "MakeHuman、Rhino 与 Fusion Slicer：数字身体制作",
   "description": "Fabricademy 2023–24 Week 2 教程：从 MakeHuman 人体建模，经 Rhino 网格处理、Slicer 切片和二维图纸，准备激光切割与组装。",
-  "binding_source": "course",
+  "binding_source": "extension",
   "duration": 4899.36,
   "page_url": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/notes.html",
-  "bilibili": null,
+  "bilibili": {
+    "bvid": "BV1txaN6kEsS",
+    "p": 1,
+    "offset_seconds": 0
+  },
   "chapters": [
     {
       "id": "topic-week2-workflow",
