@@ -365,7 +365,7 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
       <ul class="feature-list"><li>章节与时间点，一眼找到学习位置</li><li>点击时间定位，暂停后继续精读</li><li>只在匹配课程的视频页手动打开</li></ul>
       <p class="extension-scope">课程网站现有 4 门课的笔记，4 门可在 B站观看，其中 4 门已支持插件联动。插件联网加载 GitHub 上的课程数据，安装包不包含课程内容。</p>
     </div>
-    <div class="download-card"><span class="version-label">插件版本 v0.4.0</span><h3>Fabricademy 学习面板</h3><p>适用于桌面 Chrome 浏览器</p><a class="home-button primary download-link" href="downloads/fabricademy-learning-panel-v0.4.0.zip" download="fabricademy-learning-panel-v0.4.0.zip">下载插件 ZIP <span aria-hidden="true">↓</span></a><p class="download-meta">23.6 KB · 更新于 2026-09-23</p><p class="download-tip">下载后先解压，再加载插件文件夹。首次使用需要联网获取课程，无需运行本地服务。</p><a class="text-link" href="#guide">安装步骤与更新方法 →</a></div>
+    <div class="download-card"><span class="version-label">插件版本 v0.5.0</span><h3>Fabricademy 学习面板</h3><p>适用于桌面 Chrome 浏览器</p><a class="home-button primary download-link" href="downloads/fabricademy-learning-panel-v0.5.0.zip" download="fabricademy-learning-panel-v0.5.0.zip">下载插件 ZIP <span aria-hidden="true">↓</span></a><p class="download-meta">27.9 KB · 更新于 2026-09-24</p><p class="download-tip">下载后先解压，再加载插件文件夹。首次使用需要联网获取课程，无需运行本地服务。</p><a class="text-link" href="#guide">安装步骤与更新方法 →</a></div>
   </section>
 
   <section class="guide-section" id="guide" aria-labelledby="guide-title">
@@ -375,8 +375,8 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
     <li><span class="step-number" aria-hidden="true">03</span><h3>打开对应的视频</h3><p>从课程卡片点击「在 B站观看」。安装后刷新视频页，再点击浏览器工具栏中的插件图标。</p></li>
     <li><span class="step-number" aria-hidden="true">04</span><h3>按章节和时间学习</h3><p>在侧栏点章节标题查看笔记，点时间戳定位视频。播放跨章时，正在阅读的内容不会自动跳走。</p></li></ol>
     <div class="faq"><h3>使用时可能遇到的问题</h3>
-      <details><summary>已经安装过，如何更新插件？</summary><p>从 v0.3 升级时，先关闭侧栏，删除原插件文件夹中的 data 和 assets 两个旧课程资源目录，再用新版程序覆盖原文件夹；到 Chrome 扩展管理页点击重新加载，确认 v0.4.0，然后刷新视频页。首次联网加载完成后，再点击插件图标。以后仅更新课程内容无需重装。</p></details>
-      <details><summary>为什么点击插件，没有打开学习面板？</summary><p>插件只识别已经绑定的课程视频和分 P。请使用课程卡片里的 B站入口；显示「插件联动待确认」的课程目前只能观看视频或阅读网页笔记，尚未支持插件联动。刚安装或更新后需要刷新 B站页；若图标提示尚未就绪，请再点击一次。切到其他网页时，本插件侧栏会隐藏。</p></details>
+      <details><summary>已经安装过，如何更新插件？</summary><p>下载并解压新版 ZIP，将程序文件覆盖到原来加载的插件文件夹；到 Chrome 扩展管理页点击「重新加载」，确认 v0.5.0，然后刷新视频页。从 v0.3 升级还需先清除旧 data 和 assets 课程资源目录。v0.5.0 新增页面不匹配时的提示弹窗；仅点击「更新课程内容」不会更新插件程序。</p></details>
+      <details><summary>为什么点击插件，没有打开学习面板？</summary><p>已匹配课程会打开学习面板；其他页面会显示提示弹窗，附课程主页地址和「重新检查课程」。新识别的课程可以点「打开学习面板」。若提示无法加载，请检查网络后重试。刚安装或更新程序后先刷新 B站页面。切到其他网页时，本插件侧栏会隐藏。</p></details>
       <details><summary>新视频已经上传，旧插件也能直接使用吗？</summary><p>v0.4.0 起，课程与视频绑定从 GitHub 加载。网站发布新课程后，点击面板中的「更新课程内容」即可；程序功能升级时才需安装新版插件。旧版用户需要先升级一次。</p></details>
       <details><summary>没有插件，或者使用手机，也能学习吗？</summary><p>可以。点击「阅读课程笔记」即可浏览中文摘要、章节内容与配图，也可单独打开 B站视频。学习面板插件目前面向桌面 Chrome，手机可使用网页笔记和 B站。</p></details>
       <details><summary>插件里的 AI 笔记可以更新吗？</summary><p>可在面板中点击「更新课程内容」，获取 GitHub 已发布的课程目录和固定 AI 笔记，无需重装插件。首次使用需要联网；读取成功后会缓存文字和时间轴，更新失败保留上次成功内容。图片仍从网站加载，离线时不保证可见。</p></details>
