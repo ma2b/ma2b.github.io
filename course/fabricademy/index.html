@@ -365,7 +365,13 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
       <ul class="feature-list"><li>章节与时间点，一眼找到学习位置</li><li>点击时间定位，暂停后继续精读</li><li>只在匹配课程的视频页手动打开</li></ul>
       <p class="extension-scope">课程网站现有 4 门课的笔记，4 门可在 B站观看，其中 4 门已支持插件联动。插件联网加载 GitHub 上的课程数据，安装包不包含课程内容。</p>
     </div>
-    <div class="download-card"><span class="version-label">插件版本 v0.5.0</span><h3>Fabricademy 学习面板</h3><p>适用于桌面 Chrome 浏览器</p><a class="home-button primary download-link" href="downloads/fabricademy-learning-panel-v0.5.0.zip" download="fabricademy-learning-panel-v0.5.0.zip">下载插件 ZIP <span aria-hidden="true">↓</span></a><p class="download-meta">27.9 KB · 更新于 2026-09-24</p><p class="download-tip">下载后先解压，再加载插件文件夹。首次使用需要联网获取课程，无需运行本地服务。</p><a class="text-link" href="#guide">安装步骤与更新方法 →</a></div>
+    <div class="download-card"><span class="version-label">插件版本 v0.6.0</span><h3>Fabricademy 学习面板</h3><p>适用于桌面 Chrome 浏览器</p><a class="home-button primary download-link" href="downloads/fabricademy-learning-panel-v0.6.0.zip" download="fabricademy-learning-panel-v0.6.0.zip">下载插件 ZIP <span aria-hidden="true">↓</span></a><p class="download-meta">33.0 KB · 更新于 2026-09-24</p><p class="download-tip">下载后先解压，再加载插件文件夹。首次使用需要联网获取课程，无需运行本地服务。</p><a class="text-link" href="#guide">安装步骤与更新方法 →</a><br><a class="text-link" href="#extension-changelog">查看更新记录 →</a></div>
+  </section>
+
+  <section class="guide-section" id="extension-changelog" aria-labelledby="changelog-title">
+    <div class="section-heading"><div><p class="eyebrow">RELEASE NOTES</p><h2 id="changelog-title">插件更新记录</h2></div><span class="optional-note">最新版本 v0.6.0</span></div>
+    <p>从 v0.6.0 起，插件顶部会显示当前版本并自动检查更新，也可点击「检查更新」。发现新版后，通过下载入口来到本页，下载并覆盖原插件文件夹，在 Chrome 扩展管理页重新加载，再刷新视频页。更新课程内容与更新插件程序分别进行。</p>
+    <div class="faq"><details open><summary>v0.6.0 · 2026-09-24</summary><ul><li>侧栏和提示弹窗显示当前插件版本，打开时自动检查新版，也可手动检查。</li><li>发现新版本后提供下载入口及升级步骤；可在插件内展开更新记录。</li><li>版本检查结果缓存 24 小时，网络失败保留上次记录，不影响课程阅读与视频操作。</li></ul></details><details><summary>v0.5.0 · 2026-09-24</summary><ul><li>非对应课程页面点击插件时显示提示弹窗，提供课程主页链接和重新检查入口。</li><li>匹配课程保留一键打开侧栏，网络失败与未收录分别提示。</li></ul></details><details><summary>v0.4.0 · 2026-09-23</summary><ul><li>课程内容改为从 GitHub Pages 加载，安装包只包含插件程序。</li><li>新增课程和修改 AI 笔记无需重装插件；读取失败保留上次成功的课程缓存。</li></ul></details><details><summary>v0.3.0 · 2026-09-23</summary><ul><li>建立独立源码版本管理，学习侧栏按对应视频标签页隔离。</li><li>右侧章节目录提供二级时间点，标题切换阅读，时间戳控制视频。</li></ul></details></div>
   </section>
 
   <section class="guide-section" id="guide" aria-labelledby="guide-title">
@@ -375,7 +381,7 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
     <li><span class="step-number" aria-hidden="true">03</span><h3>打开对应的视频</h3><p>从课程卡片点击「在 B站观看」。安装后刷新视频页，再点击浏览器工具栏中的插件图标。</p></li>
     <li><span class="step-number" aria-hidden="true">04</span><h3>按章节和时间学习</h3><p>在侧栏点章节标题查看笔记，点时间戳定位视频。播放跨章时，正在阅读的内容不会自动跳走。</p></li></ol>
     <div class="faq"><h3>使用时可能遇到的问题</h3>
-      <details><summary>已经安装过，如何更新插件？</summary><p>下载并解压新版 ZIP，将程序文件覆盖到原来加载的插件文件夹；到 Chrome 扩展管理页点击「重新加载」，确认 v0.5.0，然后刷新视频页。从 v0.3 升级还需先清除旧 data 和 assets 课程资源目录。v0.5.0 新增页面不匹配时的提示弹窗；仅点击「更新课程内容」不会更新插件程序。</p></details>
+      <details><summary>已经安装过，如何更新插件？</summary><p>下载并解压新版 ZIP，将程序文件覆盖到原来加载的插件文件夹；到 Chrome 扩展管理页点击「重新加载」，确认 v0.6.0，然后刷新视频页。从 v0.3 升级还需先清除旧 data 和 assets 课程资源目录。v0.6.0 起可在侧栏和提示弹窗顶部查看版本、检查新版及展开更新记录。旧版需先手动升级一次才能获得更新提示；仅点击「更新课程内容」不会更新插件程序。</p></details>
       <details><summary>为什么点击插件，没有打开学习面板？</summary><p>已匹配课程会打开学习面板；其他页面会显示提示弹窗，附课程主页地址和「重新检查课程」。新识别的课程可以点「打开学习面板」。若提示无法加载，请检查网络后重试。刚安装或更新程序后先刷新 B站页面。切到其他网页时，本插件侧栏会隐藏。</p></details>
       <details><summary>新视频已经上传，旧插件也能直接使用吗？</summary><p>v0.4.0 起，课程与视频绑定从 GitHub 加载。网站发布新课程后，点击面板中的「更新课程内容」即可；程序功能升级时才需安装新版插件。旧版用户需要先升级一次。</p></details>
       <details><summary>没有插件，或者使用手机，也能学习吗？</summary><p>可以。点击「阅读课程笔记」即可浏览中文摘要、章节内容与配图，也可单独打开 B站视频。学习面板插件目前面向桌面 Chrome，手机可使用网页笔记和 B站。</p></details>
