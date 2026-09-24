@@ -1,0 +1,658 @@
+{
+  "id": "868785869",
+  "slug": "06-makehuman-slicer-2023",
+  "title": "MakeHuman、Rhino 与 Fusion Slicer：数字身体制作",
+  "description": "Fabricademy 2023–24 Week 2 教程：从 MakeHuman 人体建模，经 Rhino 网格处理、Slicer 切片和二维图纸，准备激光切割与组装。",
+  "binding_source": "course",
+  "duration": 4899.36,
+  "page_url": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/notes.html",
+  "bilibili": null,
+  "chapters": [
+    {
+      "id": "topic-week2-workflow",
+      "title": "Week 2 作业路线：从三维人体到激光切割",
+      "summary": "讲师从 Week 2 的数字身体作业出发，串起获得三维模型、修改人体、将三维转成二维切片、激光切割与组装的路线。",
+      "key_points": [
+        "三维模型可以来自 MakeHuman、扫描或自行建模。",
+        "最终制造路线要从三维模型落到可切割的二维零件。"
+      ],
+      "terms": [
+        {
+          "term": "三维到二维",
+          "definition": "将三维几何转换为可在平板材料上切割、再装配回三维形体的制造步骤。"
+        }
+      ],
+      "actions": [
+        "画出三维建模、网格编辑、切片、切割和组装的个人流程。"
+      ],
+      "start": 0.0,
+      "end": 237.96,
+      "references": [],
+      "moments": [
+        {
+          "time": 10.69,
+          "title": "完整制作路线"
+        },
+        {
+          "time": 121.95,
+          "title": "三维转二维"
+        }
+      ],
+      "frames": [
+        {
+          "time": 125.0,
+          "caption": "幻灯片列出三维建模、网格清理、二维切片、材料切割与文档化的流程",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/workflow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-makehuman-body",
+      "title": "MakeHuman：创建与调整人体参数",
+      "summary": "在 MakeHuman 中浏览人体预设与参数，通过体型、脸部和测量选项建立初始人体模型。",
+      "key_points": [
+        "MakeHuman 的滑块可快速改变人体比例，但它不替代后续的网格编辑。",
+        "重置或随机化会改变已有设定，操作前先保存版本。"
+      ],
+      "terms": [
+        {
+          "term": "MakeHuman",
+          "definition": "通过参数快速创建和调整人体模型的软件。"
+        }
+      ],
+      "actions": [
+        "保存初始人体，再调整体型与测量参数并记录关键设定。"
+      ],
+      "start": 237.96,
+      "end": 719.25,
+      "references": [],
+      "moments": [
+        {
+          "time": 259.59,
+          "title": "参数与比例"
+        },
+        {
+          "time": 420.15,
+          "title": "人体细节"
+        }
+      ],
+      "frames": [
+        {
+          "time": 425.0,
+          "caption": "MakeHuman 界面显示人体参数与当前三维人像",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/makehuman.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-makehuman-appearance",
+      "title": "姿态、外观和模型细节",
+      "summary": "演示姿态、骨架和衣发等外观选项，说明本周不以动画骨架为重点，应按制造目标选择模型细节。",
+      "key_points": [
+        "Pose/Animate 提供姿态与骨架选项；本周示例主要使用静态模型。",
+        "外观选项服务于目标模型，制造前仍需确认几何与网格。"
+      ],
+      "terms": [
+        {
+          "term": "Pose/Animate",
+          "definition": "MakeHuman 中配置姿态与动画骨架的功能区。"
+        }
+      ],
+      "actions": [
+        "测试姿态和外观选项，确认模型与本周制造目标一致。"
+      ],
+      "start": 719.25,
+      "end": 1077.4,
+      "references": [],
+      "moments": [
+        {
+          "time": 859.29,
+          "title": "姿态设置"
+        },
+        {
+          "time": 960.89,
+          "title": "外观选项"
+        }
+      ],
+      "frames": [
+        {
+          "time": 905.0,
+          "caption": "MakeHuman 姿态选项将人体摆成展开的动作",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/pose.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-makehuman-export",
+      "title": "保存 MakeHuman 项目并导出模型",
+      "summary": "通过 Files 页签保存可编辑项目，再导出用于后续三维软件的模型，并检查导出格式。",
+      "key_points": [
+        "保存可编辑项目与导出交换格式是两步。",
+        "文件名、目录和格式应与后续软件的导入要求匹配。"
+      ],
+      "terms": [
+        {
+          "term": "导出格式",
+          "definition": "供不同软件交换三维模型的文件类型，须核对几何和单位。"
+        }
+      ],
+      "actions": [
+        "分别保存 MakeHuman 项目和可交换模型，核对导出文件。"
+      ],
+      "start": 1077.4,
+      "end": 1257.53,
+      "references": [],
+      "moments": [
+        {
+          "time": 1093.18,
+          "title": "保存项目"
+        },
+        {
+          "time": 1187.2,
+          "title": "导出模型"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1150.0,
+          "caption": "MakeHuman 的文件页显示待保存或导出的人体模型",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/makehuman-export.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-mesh-split",
+      "title": "Rhino：导入、拆分与封闭网格",
+      "summary": "在 Rhino 中导入人体网格、调整朝向，用 MeshSplit 切掉不需要的部位，并用 Cap 封闭平面切口。",
+      "key_points": [
+        "MeshSplit 用切割对象分开网格；选中人体和切割线的次序要核对命令提示。",
+        "平面切口可用 Cap 封闭；复杂曲面切口不能简单套用。"
+      ],
+      "terms": [
+        {
+          "term": "MeshSplit",
+          "definition": "Rhino 中用切割对象把网格分成多部分的命令。"
+        }
+      ],
+      "actions": [
+        "在 Rhino 中导入网格，试做 MeshSplit 并检查 Cap 后是否闭合。"
+      ],
+      "start": 1257.53,
+      "end": 1618.41,
+      "references": [],
+      "moments": [
+        {
+          "time": 1318.99,
+          "title": "导入人体"
+        },
+        {
+          "time": 1452.8,
+          "title": "拆分网格"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1452.0,
+          "caption": "Rhino 中的人体网格与切割对象位于多视图工作区",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/mesh-split.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-boolean",
+      "title": "布尔减法、网格检查与 STL 导出",
+      "summary": "用 MeshBooleanDifference 从人体网格减去几何体，检查闭合状态，再导出适合 Slicer 处理的 STL。",
+      "key_points": [
+        "布尔减法可从人体去掉几何区域，结果需检查是否为闭合网格。",
+        "导出时避免把开放对象当作可制造实体。"
+      ],
+      "terms": [
+        {
+          "term": "MeshBooleanDifference",
+          "definition": "Rhino 中从网格减去另一几何体的布尔命令。"
+        }
+      ],
+      "actions": [
+        "用简单几何体试做 MeshBooleanDifference，检查结果再导出 STL。"
+      ],
+      "start": 1618.41,
+      "end": 1915.97,
+      "references": [],
+      "moments": [
+        {
+          "time": 1633.5,
+          "title": "布尔减法"
+        },
+        {
+          "time": 1783.05,
+          "title": "导出 STL"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1650.0,
+          "caption": "Rhino 网格与贯穿躯干的布尔减法几何体",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/mesh-boolean.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-meshmixer-sculpt",
+      "title": "Meshmixer：雕刻式网格修改",
+      "summary": "简要展示 Meshmixer 的雕刻式编辑思路，作为 Rhino 之外修改人体网格的可选工具。",
+      "key_points": [
+        "Meshmixer 偏向笔刷式雕刻，适合探索不同于参数化拆分的形态。",
+        "这是可选工具，示例没有要求必须使用。"
+      ],
+      "terms": [
+        {
+          "term": "Meshmixer",
+          "definition": "用于雕刻式编辑和修整三维网格的软件。"
+        }
+      ],
+      "actions": [
+        "需要雕刻式形变时用副本在 Meshmixer 测试笔刷，不覆盖原模型。"
+      ],
+      "start": 1915.97,
+      "end": 2041.26,
+      "references": [],
+      "moments": [
+        {
+          "time": 1920.91,
+          "title": "Meshmixer 笔刷"
+        },
+        {
+          "time": 1981.82,
+          "title": "可选修改"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1950.0,
+          "caption": "Meshmixer 的雕刻工具面板与导入的人体躯干网格",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/meshmixer.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-slicer-import",
+      "title": "Slicer：导入、朝向、单位与尺寸",
+      "summary": "转入 Slicer for Fusion 360，说明软件维护状态，并在导入时校正 Z 轴朝上、模型单位和实体尺寸。",
+      "key_points": [
+        "Slicer 曾是 Fusion 360 附加工具，视频录制时已停止维护。",
+        "导入时 Z 轴、单位和缩放都可能影响切片结果。"
+      ],
+      "terms": [
+        {
+          "term": "Slicer for Fusion 360",
+          "definition": "将三维模型转为激光切割零件与装配图纸的工具，视频指出其已停止维护。"
+        }
+      ],
+      "actions": [
+        "导入 Slicer 时选择正确朝上轴，量测实体尺寸并核对单位。"
+      ],
+      "start": 2041.26,
+      "end": 2339.3,
+      "references": [],
+      "moments": [
+        {
+          "time": 2062.13,
+          "title": "软件状态"
+        },
+        {
+          "time": 2237.27,
+          "title": "导入轴向"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2245.0,
+          "caption": "Slicer 导入后的人体模型朝向错误，需重新指定向上轴",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/slicer-import.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-manufacturing-settings",
+      "title": "设置板材、厚度与切缝参数",
+      "summary": "按真实激光机和板材填写材料长宽、厚度及槽口补偿；制造参数应对应实际板材而非仅对应机器工作幅面。",
+      "key_points": [
+        "板材尺寸、厚度和槽口补偿共同决定零件能否切出及装配。",
+        "设置应以实验室实际材料为准。"
+      ],
+      "terms": [
+        {
+          "term": "slot offset",
+          "definition": "切片结构槽口的尺寸补偿，应通过实际材料试切确定。"
+        }
+      ],
+      "actions": [
+        "按手边板材填写长宽、厚度与槽口参数，保存制造预设。"
+      ],
+      "start": 2339.3,
+      "end": 2517.97,
+      "references": [],
+      "moments": [
+        {
+          "time": 2351.51,
+          "title": "尺寸与单位"
+        },
+        {
+          "time": 2428.79,
+          "title": "板材设置"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2445.0,
+          "caption": "Slicer 制造设置对话框包含板材与槽口相关参数",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/material-settings.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-stacked-slices",
+      "title": "堆叠切片与装配顺序",
+      "summary": "选择 Stacked Slices，观察右侧二维图纸、零件与三维位置的对应，以及定位销孔和装配过程。",
+      "key_points": [
+        "堆叠切片会生成多层轮廓，二维图纸可反查三维位置。",
+        "定位销孔和装配顺序需与材料及结构相配。"
+      ],
+      "terms": [
+        {
+          "term": "Stacked Slices",
+          "definition": "按层堆叠二维切片形成体积的结构。"
+        }
+      ],
+      "actions": [
+        "查看每层轮廓对应的二维图纸和装配步骤，评估定位方式。"
+      ],
+      "start": 2517.97,
+      "end": 2699.61,
+      "references": [],
+      "moments": [
+        {
+          "time": 2539.34,
+          "title": "堆叠结构"
+        },
+        {
+          "time": 2663.15,
+          "title": "装配预览"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2585.0,
+          "caption": "Slicer 堆叠切片预览与右侧生成的二维图纸",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/stacked.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-interlocked-slices",
+      "title": "交错切片：数量、方向和红色警告",
+      "summary": "切换 Interlocked Slices，调整切片数量、位置和方向；红色零件提示要重新审查材料范围或模型形状。",
+      "key_points": [
+        "交错切片的切片数量与方向影响形状精度和装配难度。",
+        "出现红色越界零件时应调整切片或回到网格修改。"
+      ],
+      "terms": [
+        {
+          "term": "Interlocked Slices",
+          "definition": "两组切片以卡槽互相穿插的结构。"
+        }
+      ],
+      "actions": [
+        "调整切片数量及方向，逐一处理红色越界部件。"
+      ],
+      "start": 2699.61,
+      "end": 3062.92,
+      "references": [],
+      "moments": [
+        {
+          "time": 2728.43,
+          "title": "交错切片"
+        },
+        {
+          "time": 2908.34,
+          "title": "红色越界提示"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2850.0,
+          "caption": "交错切片预览出现红色越界零件，提示应调整方案",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/interlocked.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-radial-folded",
+      "title": "径向切片、折叠面板与可装配性",
+      "summary": "比较径向切片与折叠面板结构，用装配预览判断连接是否可行，而非只看三维外形。",
+      "key_points": [
+        "径向结构围绕中心轴布置；折叠面板依赖可折材料。",
+        "结构预览需检查小零件与装配步骤。"
+      ],
+      "terms": [
+        {
+          "term": "Radial Slices",
+          "definition": "围绕中心轴布置切片的结构。"
+        }
+      ],
+      "actions": [
+        "分别预览径向与折叠结构，检查材料和装配是否可行。"
+      ],
+      "start": 3062.92,
+      "end": 3362.03,
+      "references": [],
+      "moments": [
+        {
+          "time": 3077.76,
+          "title": "径向结构"
+        },
+        {
+          "time": 3271.72,
+          "title": "折叠面板"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3150.0,
+          "caption": "径向切片人体模型与对应的二维排料图纸",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/radial.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-hollow-optimization",
+      "title": "空心处理与排料优化",
+      "summary": "讲师演示空心处理减少用料，提醒 Slicer 自动排料并不充分，需另行优化二维图纸。",
+      "key_points": [
+        "空心化可减少材料消耗。",
+        "自动排料可能留下大量空白，需要人工再整理。"
+      ],
+      "terms": [
+        {
+          "term": "Hollow",
+          "definition": "使实体内部留空以减少材料或调整构造的操作。"
+        }
+      ],
+      "actions": [
+        "测试空心化，并在二维工具中重新排料以减少废料。"
+      ],
+      "start": 3362.03,
+      "end": 3601.62,
+      "references": [],
+      "moments": [
+        {
+          "time": 3375.61,
+          "title": "空心化"
+        },
+        {
+          "time": 3448.83,
+          "title": "排料优化"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3450.0,
+          "caption": "空心化后的切片轮廓与右侧二维图纸",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/hollow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-save-export",
+      "title": "保存切片项目并导出图纸",
+      "summary": "先保存 Slicer 项目以保留装配步骤，再导出适合后续编辑的二维图纸；红色越界图纸不应直接送去切割。",
+      "key_points": [
+        "保存原生项目才能再看装配步骤。",
+        "导出前先处理越界零件，不将红色警告忽略。"
+      ],
+      "terms": [
+        {
+          "term": "原生项目",
+          "definition": "保留软件可编辑设置和装配预览的工程文件。"
+        }
+      ],
+      "actions": [
+        "保存 Slicer 原生项目，再导出无越界警告的二维图纸。"
+      ],
+      "start": 3601.62,
+      "end": 3727.84,
+      "references": [],
+      "moments": [
+        {
+          "time": 3619.41,
+          "title": "保存工程"
+        },
+        {
+          "time": 3679.37,
+          "title": "导出图纸"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3690.0,
+          "caption": "切片图纸仍显示红色越界零件，导出前应先处理",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/plan-export.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-vector-plans",
+      "title": "在二维绘图软件中整理切割线",
+      "summary": "在 Illustrator 或 Inkscape 一类二维工具中整理图纸，可增加雕刻细节并按本地激光机要求分配切割与雕刻线色。",
+      "key_points": [
+        "切割与雕刻线颜色依本地机器工作流设置，视频中的颜色只是实例。",
+        "二维排料、线条清理和局部雕刻在制造前完成。"
+      ],
+      "terms": [
+        {
+          "term": "矢量图纸",
+          "definition": "由二维路径构成、供排料及激光切割的图纸。"
+        }
+      ],
+      "actions": [
+        "清理图纸线条，并按本地机器约定区分切割与雕刻。"
+      ],
+      "start": 3727.84,
+      "end": 4139.52,
+      "references": [],
+      "moments": [
+        {
+          "time": 3807.91,
+          "title": "二维图纸"
+        },
+        {
+          "time": 3959.15,
+          "title": "雕刻与切割线"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3990.0,
+          "caption": "Rhino 中的二维切割路径等待整理与分配线色",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/vector-plan.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-laser-test",
+      "title": "先试切卡槽并核算材料",
+      "summary": "在正式批量切割前试切卡槽并确认材料厚度、切缝及机器参数，同时考虑实验室的板材配额。",
+      "key_points": [
+        "先用小样测试卡槽，再决定 slot offset 等补偿。",
+        "材料配额和机器参数要向所在实验室确认。"
+      ],
+      "terms": [
+        {
+          "term": "试切",
+          "definition": "先切小样验证卡槽、材料和机器参数的步骤。"
+        }
+      ],
+      "actions": [
+        "先试切一组卡槽，测量配合后再切完整作品。"
+      ],
+      "start": 4139.52,
+      "end": 4501.78,
+      "references": [],
+      "moments": [
+        {
+          "time": 4154.8,
+          "title": "卡槽试切"
+        },
+        {
+          "time": 4244.32,
+          "title": "材料配额"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4200.0,
+          "caption": "Rhino 中的待切割图纸；讲师提醒先用实际材料试切卡槽",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/laser-test.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-examples-documentation",
+      "title": "往届案例、替代输入与作业文档",
+      "summary": "通过往届模型回顾堆叠、交错、径向与折叠结构；答疑涉及三维扫描输入、材料表现、Sketchfab 和作业文件归档。",
+      "key_points": [
+        "扫描所得三维模型也可进入同一切片路线。",
+        "文档中保留制造文件；三维模型可通过合适平台嵌入展示。"
+      ],
+      "terms": [
+        {
+          "term": "Sketchfab",
+          "definition": "可上传并嵌入展示三维模型的平台。"
+        }
+      ],
+      "actions": [
+        "对照往届案例选择结构，整理二维制造文件和三维展示链接。"
+      ],
+      "start": 4501.78,
+      "end": 4899.36,
+      "references": [],
+      "moments": [
+        {
+          "time": 4525.37,
+          "title": "往届结构示例"
+        },
+        {
+          "time": 4796.7,
+          "title": "制造文件文档"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4530.0,
+          "caption": "幻灯片展示往届学生不同切片结构的作品案例",
+          "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/examples.jpg"
+        }
+      ]
+    }
+  ]
+}

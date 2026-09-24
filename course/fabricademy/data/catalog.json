@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "f9a6fe3e87be383476aaef83e97c40c8994090da5813da11fc1e95084fe61f2d",
+  "revision": "fa1514fda938ba05d7ac99ea3eb8460ec1b9e17985a4547d5467d83801d0b268",
   "courses": [
     {
       "id": "1227439130",
@@ -53,6 +53,15 @@
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1227439129.json",
       "sha256": "e50ae8a944ae29d7d0fb31971f97095bac7509d01eab19ca64a2ff90d0b291ef"
+    },
+    {
+      "id": "868785869",
+      "title": "MakeHuman、Rhino 与 Fusion Slicer：数字身体制作",
+      "duration": 4899.36,
+      "page_url": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/notes.html",
+      "bilibili": null,
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/868785869.json",
+      "sha256": "cd9cf3f37214613c6c9e460da5886a4b85dca40e5e68a441e8ecf97030e7673e"
     },
     {
       "id": "755151733",
