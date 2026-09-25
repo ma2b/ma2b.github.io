@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "75ca538894649ebfd1ec31d0c8ffe3fc841b6df9250f1c04dfd4051c0b2240e6",
+  "revision": "af276c41c3f945f81f5c9d09e39ad2344fc7ecf2fa77618f412a32f0a793510c",
   "courses": [
     {
       "id": "1227439130",
@@ -98,9 +98,13 @@
       "title": "AI 辅助从图像到数字制造",
       "duration": 9872.28,
       "page_url": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/notes.html",
-      "bilibili": null,
+      "bilibili": {
+        "bvid": "BV1rphm6DEoH",
+        "p": 1,
+        "offset_seconds": 0
+      },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1230021516.json",
-      "sha256": "1646b244f3bf8338406a56d5eaa541daaf4c771748d67af6959ef98ae8827b7a"
+      "sha256": "be21ec7b360c1764a83c940d3d43a8a6c018c5fe88214b9856d2b7afdd11164a"
     },
     {
       "id": "1229506193",

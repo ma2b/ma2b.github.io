@@ -3,10 +3,14 @@
   "slug": "07-ai-to-fabrication-2026",
   "title": "AI 辅助从图像到数字制造",
   "description": "从图像生成三维模型，检查网格，再准备切片、排版和激光切割文件。",
-  "binding_source": "course",
+  "binding_source": "extension",
   "duration": 9872.28,
   "page_url": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/notes.html",
-  "bilibili": null,
+  "bilibili": {
+    "bvid": "BV1rphm6DEoH",
+    "p": 1,
+    "offset_seconds": 0
+  },
   "chapters": [
     {
       "id": "topic-slicer-recap",
