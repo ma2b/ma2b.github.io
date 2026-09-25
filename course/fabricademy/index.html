@@ -55,6 +55,16 @@ body.course-directory.homepage main { max-width: 1280px; margin: auto; padding: 
 .homepage .year-links { display: flex; gap: 8px; }
 .homepage .year-links a { padding: 4px 14px; border: 1px solid var(--border); border-radius: 20px; font-size: 13px; min-height: 34px; }
 .homepage .year-links a:hover { background: var(--bg-2); }
+.homepage .week-filter-bar { display: flex; align-items: center; flex-wrap: wrap; gap: 10px 16px; margin: -10px 0 24px; }
+.homepage .week-filter-bar[hidden], .homepage .year-section[hidden], .homepage .course-card[hidden], .homepage .year-links a[hidden] { display: none; }
+.homepage .week-filter-label { color: var(--text-1); font-size: 13px; font-weight: 650; }
+.homepage .week-filters { display: flex; flex-wrap: wrap; gap: 8px; }
+.homepage .week-filters button { min-height: 36px; padding: 6px 13px; border: 1px solid var(--border); border-radius: 999px; background: var(--bg-1); color: var(--text-0); font: inherit; font-size: 13px; cursor: pointer; }
+.homepage .week-filters button span { margin-left: 5px; opacity: .75; }
+.homepage .week-filters button:hover { background: var(--bg-2); }
+.homepage .week-filters button[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: var(--on-accent); }
+.homepage .week-filters button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.homepage #week-filter-status { margin-left: auto; color: var(--text-1); font-size: 13px; }
 .homepage .year-section { margin-bottom: 36px; }
 .homepage .year-heading { display: flex; align-items: baseline; gap: 16px; margin-bottom: 16px; }
 .homepage .year-heading h2 { font-size: 25px; font-weight: 700; }
@@ -129,6 +139,7 @@ body.course-directory.homepage main { max-width: 1280px; margin: auto; padding: 
   .homepage .section-heading { align-items: flex-start; flex-wrap: wrap; gap: 10px; }
   .homepage .section-heading h2, .homepage .extension-intro h2 { font-size: 24px; }
   .homepage .collection-tools { flex-direction: column; align-items: flex-start; }
+  .homepage #week-filter-status { flex-basis: 100%; margin-left: 0; }
   .homepage .course-grid { grid-template-columns: 1fr; gap: 20px; }
   .homepage .single-course .course-card { display: flex; }
   .homepage .single-course .course-cover { border-right: 0; border-bottom: 1px solid var(--border); }
@@ -317,9 +328,10 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
   <section class="course-collection" id="courses" aria-labelledby="courses-title">
     <div class="section-heading"><div><p class="eyebrow">COURSE COLLECTION</p><h2 id="courses-title">找到你的下一门课</h2></div><a class="text-link" href="https://class.textile-academy.org/tutorials/" target="_blank" rel="noopener noreferrer">官方教程目录 ↗</a></div>
     <div class="collection-tools"><p>年份与英文原名依官方目录标注，中文名称便于查找。</p><nav class="year-links" aria-label="按年份浏览"><a href="#year-2026">2026</a><a href="#year-2025">2025</a><a href="#year-2023">2023</a><a href="#year-2022">2022</a><a href="#year-2018">2018</a></nav></div>
+    <div class="week-filter-bar" hidden><span class="week-filter-label">按 Week 筛选</span><div class="week-filters" role="group" aria-label="按 Week 筛选"><button type="button" data-week-filter="all" aria-pressed="true">全部 <span>7</span></button><button type="button" data-week-filter="2" aria-pressed="false">Week 2 <span>4</span></button><button type="button" data-week-filter="unassigned" aria-pressed="false">未标周次 <span>3</span></button></div><p id="week-filter-status" role="status" aria-live="polite"></p></div>
     <section class="year-section" id="year-2026" aria-labelledby="heading-2026">
-<div class="year-heading"><h2 id="heading-2026">2026 <span>年教程</span></h2><span>1 门课程</span></div>
-<ul class="course-grid single-course"><li class="course-card" data-course-id="1227439130" data-year="2026">
+<div class="year-heading"><h2 id="heading-2026">2026 <span>年教程</span></h2><span class="year-count">1 门课程</span></div>
+<ul class="course-grid single-course"><li class="course-card" data-course-id="1227439130" data-year="2026" data-week="">
 <a class="course-cover" href="00-documentation-website/notes.html" aria-label="阅读：GitLab 与 MkDocs：文档化与个人网站"><img src="00-documentation-website/thumbnail.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>1 小时 29 分钟 · 14 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 
@@ -331,8 +343,8 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
 <div class="course-source"><a href="https://class.textile-academy.org/tutorials/#project-management-gitlab-nueval-documentation" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
 </div></li></ul></section>
 <section class="year-section" id="year-2025" aria-labelledby="heading-2025">
-<div class="year-heading"><h2 id="heading-2025">2025 <span>年教程</span></h2><span>3 门课程</span></div>
-<ul class="course-grid"><li class="course-card" data-course-id="1123595692" data-year="2025">
+<div class="year-heading"><h2 id="heading-2025">2025 <span>年教程</span></h2><span class="year-count">3 门课程</span></div>
+<ul class="course-grid"><li class="course-card" data-course-id="1123595692" data-year="2025" data-week="">
 <a class="course-cover" href="01-modular-fashion/notes.html" aria-label="阅读：开源循环时装教程"><img src="01-modular-fashion/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>1 小时 24 分钟 · 15 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 
@@ -342,7 +354,7 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
 
 <div class="course-actions"><a class="home-button primary bili-link" href="https://www.bilibili.com/video/BV1cohn6CEaZ/?p=1" target="_blank" rel="noopener noreferrer">在 B站观看 <span aria-hidden="true">↗</span></a><a class="home-button secondary" href="01-modular-fashion/notes.html">阅读课程笔记</a></div>
 <div class="course-source"><a href="https://class.textile-academy.org/tutorials/#2d-vector-design-modular-fashion" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
-</div></li><li class="course-card" data-course-id="1121623691" data-year="2025">
+</div></li><li class="course-card" data-course-id="1121623691" data-year="2025" data-week="2">
 <a class="course-cover" href="02-digital-bodies/notes.html" aria-label="阅读：人体建模与切片制作"><img src="02-digital-bodies/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>2 小时 59 分钟 · 25 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 <span class="course-week">Week 2 · 数字身体</span>
@@ -352,7 +364,7 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
 
 <div class="course-actions"><a class="home-button primary bili-link" href="https://www.bilibili.com/video/BV156h46UE9B/?p=1" target="_blank" rel="noopener noreferrer">在 B站观看 <span aria-hidden="true">↗</span></a><a class="home-button secondary" href="02-digital-bodies/notes.html">阅读课程笔记</a></div>
 <div class="course-source"><a href="https://class.textile-academy.org/tutorials/#3d-modeling-makehuman" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
-</div></li><li class="course-card" data-course-id="1227439129" data-year="2025">
+</div></li><li class="course-card" data-course-id="1227439129" data-year="2025" data-week="">
 <a class="course-cover" href="03-fabricademy-opening/notes.html" aria-label="阅读：视觉文档化"><img src="03-fabricademy-opening/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>56 分钟 · 16 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 
@@ -364,8 +376,8 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
 <div class="course-source"><a href="https://class.textile-academy.org/tutorials/#documentation-best-practices" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a><details class="year-note"><summary>年份说明</summary><p>官方教程目录标注为 2025；本地课程资料记录为 2026-09-16，首页依官方目录展示。</p></details></div>
 </div></li></ul></section>
 <section class="year-section" id="year-2023" aria-labelledby="heading-2023">
-<div class="year-heading"><h2 id="heading-2023">2023 <span>年教程</span></h2><span>1 门课程</span></div>
-<ul class="course-grid single-course"><li class="course-card" data-course-id="868785869" data-year="2023">
+<div class="year-heading"><h2 id="heading-2023">2023 <span>年教程</span></h2><span class="year-count">1 门课程</span></div>
+<ul class="course-grid single-course"><li class="course-card" data-course-id="868785869" data-year="2023" data-week="2">
 <a class="course-cover" href="06-makehuman-slicer-2023/notes.html" aria-label="阅读：MakeHuman、Rhino 与 Fusion Slicer：数字身体制作"><img src="06-makehuman-slicer-2023/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>1 小时 21 分钟 · 17 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 <span class="course-week">Week 2 · 数字身体</span>
@@ -377,8 +389,8 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
 <div class="course-source"><a href="https://vimeo.com/868785869/c28dc4d196" target="_blank" rel="noopener noreferrer">课程原视频 ↗</a><details class="year-note"><summary>年份说明</summary><p>Fabricademy 2023–24 Week 2 官方课程页收录本教程；年份以该学年起始的 2023 展示。</p></details></div>
 </div></li></ul></section>
 <section class="year-section" id="year-2022" aria-labelledby="heading-2022">
-<div class="year-heading"><h2 id="heading-2022">2022 <span>年教程</span></h2><span>1 门课程</span></div>
-<ul class="course-grid single-course"><li class="course-card" data-course-id="755151733" data-year="2022">
+<div class="year-heading"><h2 id="heading-2022">2022 <span>年教程</span></h2><span class="year-count">1 门课程</span></div>
+<ul class="course-grid single-course"><li class="course-card" data-course-id="755151733" data-year="2022" data-week="2">
 <a class="course-cover" href="05-3d-scanning-demo/notes.html" aria-label="阅读：3D 扫描演示"><img src="05-3d-scanning-demo/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>48 分钟 · 10 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 <span class="course-week">Week 2 · 数字身体</span>
@@ -390,8 +402,8 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
 <div class="course-source"><a href="https://class.textile-academy.org/tutorials/#3d-scanning" target="_blank" rel="noopener noreferrer">官方教程来源 ↗</a></div>
 </div></li></ul></section>
 <section class="year-section" id="year-2018" aria-labelledby="heading-2018">
-<div class="year-heading"><h2 id="heading-2018">2018 <span>年教程</span></h2><span>1 门课程</span></div>
-<ul class="course-grid single-course"><li class="course-card" data-course-id="293230583" data-year="2018">
+<div class="year-heading"><h2 id="heading-2018">2018 <span>年教程</span></h2><span class="year-count">1 门课程</span></div>
+<ul class="course-grid single-course"><li class="course-card" data-course-id="293230583" data-year="2018" data-week="2">
 <a class="course-cover" href="04-mesh-repairing/notes.html" aria-label="阅读：网格修复：Rhino、Meshmixer、Sculptris 与 Fusion 360"><img src="04-mesh-repairing/source.jpg" alt="" loading="lazy" width="640" height="360"></a>
 <div class="course-copy"><div class="course-meta"><span>51 分钟 · 12 章</span><span class="availability ready"><span aria-hidden="true">●</span> B站审核通过</span></div>
 <span class="course-week">Week 2 · 数字身体</span>
@@ -432,7 +444,60 @@ body.course-directory main { max-width: 1120px; margin: auto; padding: 32px 24px
       <details><summary>插件里的 AI 笔记可以更新吗？</summary><p>可在面板中点击「更新课程内容」，获取 GitHub 已发布的课程目录和固定 AI 笔记，无需重装插件。首次使用需要联网；读取成功后会缓存文字和时间轴，更新失败保留上次成功内容。图片仍从网站加载，离线时不保证可见。</p></details>
     </div>
   </section>
-  <footer class="home-footer"><p>课程来源：<a href="https://class.textile-academy.org/tutorials/" target="_blank" rel="noopener noreferrer">Fabricademy 官方教程目录 ↗</a><br>中文学习笔记由 AI 辅助整理，建议结合原视频核对。</p><p>目录更新于 2026-09-24<br><a href="#top">返回顶部 ↑</a></p></footer>
+  <footer class="home-footer"><p>课程来源：<a href="https://class.textile-academy.org/tutorials/" target="_blank" rel="noopener noreferrer">Fabricademy 官方教程目录 ↗</a><br>中文学习笔记由 AI 辅助整理，建议结合原视频核对。</p><p>目录更新于 2026-09-25<br><a href="#top">返回顶部 ↑</a></p></footer>
 </main>
+<script>(() => {
+  const bar = document.querySelector('.week-filter-bar');
+  if (!bar) return;
+  const buttons = [...bar.querySelectorAll('[data-week-filter]')];
+  const cards = [...document.querySelectorAll('.course-card[data-week]')];
+  const sections = [...document.querySelectorAll('.year-section')];
+  const yearLinks = [...document.querySelectorAll('.year-links a')];
+  const status = document.getElementById('week-filter-status');
+  const allowed = new Set(buttons.map(button => button.dataset.weekFilter));
+
+  function selectedFromUrl() {
+    const value = new URL(window.location.href).searchParams.get('week');
+    return allowed.has(value) ? value : 'all';
+  }
+
+  function apply(value) {
+    const chosen = allowed.has(value) ? value : 'all';
+    let visible = 0;
+    for (const card of cards) {
+      const match = chosen === 'all' || (chosen === 'unassigned' ? !card.dataset.week : card.dataset.week === chosen);
+      card.hidden = !match;
+      if (match) visible += 1;
+    }
+    for (const section of sections) {
+      const count = section.querySelectorAll('.course-card:not([hidden])').length;
+      section.hidden = count === 0;
+      section.querySelector('.year-count').textContent = `${count} 门课程`;
+      section.querySelector('.course-grid').classList.toggle('single-course', count === 1);
+    }
+    for (const link of yearLinks) {
+      const section = document.getElementById(link.getAttribute('href').slice(1));
+      link.hidden = !section || section.hidden;
+    }
+    for (const button of buttons) button.setAttribute('aria-pressed', String(button.dataset.weekFilter === chosen));
+    const label = chosen === 'all' ? '全部' : chosen === 'unassigned' ? '未标周次' : `Week ${chosen}`;
+    status.textContent = label === '全部' ? `显示 ${visible} 门课程` : `显示 ${visible} 门 ${label} 课程`;
+  }
+
+  bar.hidden = false;
+  apply(selectedFromUrl());
+  bar.addEventListener('click', event => {
+    const button = event.target.closest('[data-week-filter]');
+    if (!button || !bar.contains(button)) return;
+    const chosen = button.dataset.weekFilter;
+    const url = new URL(window.location.href);
+    if (chosen === 'all') url.searchParams.delete('week');
+    else url.searchParams.set('week', chosen);
+    window.history.pushState(null, '', url);
+    apply(chosen);
+  });
+  window.addEventListener('popstate', () => apply(selectedFromUrl()));
+})();
+</script>
 </body>
 </html>
