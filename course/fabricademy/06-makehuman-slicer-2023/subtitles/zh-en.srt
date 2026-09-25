@@ -5,7 +5,7 @@ And we will proceed for the tutorial of week two, uh,
 
 2
 00:00:07,080 --> 00:00:10,080
-讲者是 Diane Wakim，来自里昂。
+接下来请来自里昂 Le Textile Lab 的 Diane Wakim 讲解。
 with Diane Wakim from Latex Labon.
 
 3
@@ -3960,7 +3960,7 @@ And then for the export part, we want to get the plans.
 
 793
 01:00:49,350 --> 01:00:53,490
-如果图纸上有红色越界零件，就先别导出。
+如果图纸像这样显示为红色，就不要导出。
 So these plans are like, of course, if your plans are read, read like this,
 
 794
@@ -3975,7 +3975,7 @@ I heard someone. Um, so yeah,
 
 796
 01:01:03,540 --> 01:01:06,540
-如果图纸仍是红色警告状态，就不要导出。
+如果图纸仍像这样显示红色，就不要导出。
 if your plans are read like this, don't export them, of course. Uh,
 
 797
