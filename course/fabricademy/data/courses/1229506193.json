@@ -1,0 +1,380 @@
+{
+  "id": "1229506193",
+  "slug": "08-blender-2026",
+  "title": "Blender 基础建模与 MakeHuman",
+  "description": "学习 Blender 的界面、网格编辑、材质和渲染，并在 MPFB 中创建与修改人体模型。",
+  "binding_source": "extension",
+  "duration": 7193.84,
+  "page_url": "https://ma2b.github.io/course/fabricademy/08-blender-2026/notes.html",
+  "bilibili": {
+    "bvid": "BV1yHhm6HE5x",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-interface",
+      "title": "Blender 界面、属性与视图",
+      "summary": "讲师介绍屏幕按键提示、属性面板、单位设置、视图模式和基础导航。",
+      "key_points": [
+        "属性面板分别控制渲染、输出、场景和修改器等功能。",
+        "线框与实体视图适合建模，完整渲染对电脑要求更高。"
+      ],
+      "terms": [
+        {
+          "term": "对象模式",
+          "definition": "对整个对象进行选择和变换的工作模式。"
+        }
+      ],
+      "actions": [
+        "在建模时选择合适视图，记下课程演示的界面和快捷键。"
+      ],
+      "start": 0.0,
+      "end": 722.61,
+      "references": [],
+      "moments": [
+        {
+          "time": 511.74,
+          "title": "Blender 界面、属性与视图"
+        }
+      ],
+      "frames": [
+        {
+          "time": 511.74,
+          "caption": "Blender 属性面板与视图模式",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/interface.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-object-transform",
+      "title": "对象模式：选择、移动、旋转与缩放",
+      "summary": "用默认立方体演示对象选择和整体变换，以及轴向约束与视角切换。",
+      "key_points": [
+        "对象模式下的 G、R、S 分别对应移动、旋转和缩放。",
+        "可沿指定坐标轴约束变换方向。"
+      ],
+      "terms": [
+        {
+          "term": "轴向约束",
+          "definition": "把变换限制到 X、Y 或 Z 方向。"
+        }
+      ],
+      "actions": [
+        "先确认当前是对象模式，再对整体几何执行变换。"
+      ],
+      "start": 722.61,
+      "end": 1173.606,
+      "references": [],
+      "moments": [
+        {
+          "time": 1054.23,
+          "title": "对象模式：选择、移动、旋转与缩放"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1054.23,
+          "caption": "立方体的对象级变换",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/object-transform.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-edit-mode",
+      "title": "编辑模式：顶点、面与增量保存",
+      "summary": "切换到编辑模式调整局部几何，增加可编辑结构，并通过增量保存保留阶段版本。",
+      "key_points": [
+        "编辑模式用于调整顶点、边和面等局部结构。",
+        "在关键修改前增量保存，方便返回之前的形态。"
+      ],
+      "terms": [
+        {
+          "term": "编辑模式",
+          "definition": "编辑当前对象网格局部几何的模式。"
+        }
+      ],
+      "actions": [
+        "用顶点与面编辑形状；复杂修改前保存可回退的版本。"
+      ],
+      "start": 1173.606,
+      "end": 1620.636,
+      "references": [],
+      "moments": [
+        {
+          "time": 1412.316,
+          "title": "编辑模式：顶点、面与增量保存"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1412.316,
+          "caption": "编辑模式中的网格调整",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/edit-mode.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-materials-render",
+      "title": "材质、灯光与渲染输出",
+      "summary": "快速示范材质属性、透明效果、灯光、场景平面和渲染图片的保存。",
+      "key_points": [
+        "材质和灯光影响最终画面，不会替代几何建模。",
+        "渲染后需另行保存图像文件。"
+      ],
+      "terms": [
+        {
+          "term": "渲染",
+          "definition": "根据场景、材质和灯光生成最终图像。"
+        }
+      ],
+      "actions": [
+        "区分建模视图与最终渲染，保存输出文件时检查路径和格式。"
+      ],
+      "start": 1620.636,
+      "end": 2163.861,
+      "references": [],
+      "moments": [
+        {
+          "time": 1893.621,
+          "title": "材质、灯光与渲染输出"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1893.621,
+          "caption": "材质和渲染设置",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/materials-render.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-character-blockout",
+      "title": "从低面数立方体建立角色",
+      "summary": "以 Among Us 风格角色为例，先建立粗轮廓，再逐步细化网格，避免过早增加面数。",
+      "key_points": [
+        "角色先从低面数立方体塑造轮廓。",
+        "过早细分会增加计算负担，让后续编辑更慢。"
+      ],
+      "terms": [
+        {
+          "term": "细分曲面",
+          "definition": "通过增加表面细节使模型更平滑的修改器。"
+        }
+      ],
+      "actions": [
+        "从少量面开始塑形，观察细分对模型和电脑性能的影响。"
+      ],
+      "start": 2163.861,
+      "end": 2641.749,
+      "references": [],
+      "moments": [
+        {
+          "time": 2432.379,
+          "title": "从低面数立方体建立角色"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2432.379,
+          "caption": "角色的低面数基础形体",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/character-blockout.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-character-details",
+      "title": "镜像、挤出与比例编辑",
+      "summary": "示范镜像修改、选择面并挤出面罩和背包，再用比例编辑调整角色轮廓。",
+      "key_points": [
+        "镜像可让一侧修改同步到另一侧。",
+        "挤出选中的面形成面罩、背包等局部结构。"
+      ],
+      "terms": [
+        {
+          "term": "挤出",
+          "definition": "沿指定方向从选中面生成新的几何。"
+        }
+      ],
+      "actions": [
+        "先核对镜像方向和选区，再挤出局部结构。"
+      ],
+      "start": 2641.749,
+      "end": 3181.606,
+      "references": [],
+      "moments": [
+        {
+          "time": 2850.795,
+          "title": "镜像、挤出与比例编辑"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2850.795,
+          "caption": "角色面罩与背包建模",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/character-details.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-character-finish",
+      "title": "细分、平滑和角色材质",
+      "summary": "通过平滑与细分曲面改善外形，为不同部件指定颜色；随后安排短暂休息。",
+      "key_points": [
+        "平滑阴影和细分曲面的效果不同。",
+        "角色不同区域可指定不同材质。"
+      ],
+      "terms": [],
+      "actions": [
+        "先检查拓扑，再增加细分层级和材质。"
+      ],
+      "start": 3181.606,
+      "end": 3901.204,
+      "references": [],
+      "moments": [
+        {
+          "time": 3210.826,
+          "title": "细分、平滑和角色材质"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3210.826,
+          "caption": "角色的细分与材质分配",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/character-finish.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-mpfb-install",
+      "title": "安装并配置 MPFB",
+      "summary": "讲师说明 MakeHuman 应用和 Blender 扩展的区别，带领学员安装 MPFB、设置数据目录及资源包。",
+      "key_points": [
+        "独立 MakeHuman 应用与 Blender 内的 MPFB 扩展不是同一安装项。",
+        "资源目录和资产包需要按当前版本界面逐项核对。"
+      ],
+      "terms": [
+        {
+          "term": "MPFB",
+          "definition": "Blender 中使用 MakeHuman 人体与资产的扩展。"
+        }
+      ],
+      "actions": [
+        "按实际 Blender 与 MPFB 版本核对菜单位置，保存偏好设置。"
+      ],
+      "start": 3901.204,
+      "end": 5524.473,
+      "references": [],
+      "moments": [
+        {
+          "time": 4593.555,
+          "title": "安装并配置 MPFB"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4593.555,
+          "caption": "MPFB 扩展与资源目录",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/mpfb-install.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-human-assets",
+      "title": "创建人体并应用资源",
+      "summary": "在 Blender 中生成人体，处理场景中原有立方体，并应用皮肤等资源，观察人体网格。",
+      "key_points": [
+        "场景中的原始立方体可能遮住新建人体。",
+        "皮肤网格和骨架是不同对象，属性面板会随选中对象变化。"
+      ],
+      "terms": [
+        {
+          "term": "骨架",
+          "definition": "驱动或组织角色姿态的结构对象。"
+        }
+      ],
+      "actions": [
+        "先确认选中人体网格或骨架，再使用与该对象相符的属性。"
+      ],
+      "start": 5524.473,
+      "end": 6000.573,
+      "references": [],
+      "moments": [
+        {
+          "time": 5795.613,
+          "title": "创建人体并应用资源"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5795.613,
+          "caption": "Blender 中的 MPFB 人体",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/human-assets.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-clothing",
+      "title": "从人体网格尝试制作衣物",
+      "summary": "讲师选取人体网格区域，示范衣物构思和修改器操作，并回答学员对象选择问题。",
+      "key_points": [
+        "衣物构思从人体网格的局部选区开始。",
+        "应用修改器前先确认作用对象，并保留原人体。"
+      ],
+      "terms": [],
+      "actions": [
+        "制作衣物前保留人体原件，避免直接破坏基础模型。"
+      ],
+      "start": 6000.573,
+      "end": 6661.347,
+      "references": [],
+      "moments": [
+        {
+          "time": 6153.718,
+          "title": "从人体网格尝试制作衣物"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6153.718,
+          "caption": "人体网格的局部选区",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/clothing.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-mesh-convert",
+      "title": "转换网格与排查修改器问题",
+      "summary": "排查骨架与皮肤对象的选择差异，将可编辑副本转换为网格，并回顾课程关键操作。",
+      "key_points": [
+        "某些 MPFB 对象在课中需要复制并转换为普通网格才能继续编辑。",
+        "删除面或使用修改器之前，要确认选中的是目标网格而非骨架。"
+      ],
+      "terms": [
+        {
+          "term": "转换为网格",
+          "definition": "把对象转为可在编辑模式直接修改的普通网格。"
+        }
+      ],
+      "actions": [
+        "在副本上验证转换结果，确保后续面删除和修改针对正确对象。"
+      ],
+      "start": 6661.347,
+      "end": 7193.84,
+      "references": [],
+      "moments": [
+        {
+          "time": 6992.607,
+          "title": "转换网格与排查修改器问题"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6992.607,
+          "caption": "Blender 中显示人体与单独选中的衣物网格",
+          "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/mesh-convert.jpg"
+        }
+      ]
+    }
+  ]
+}

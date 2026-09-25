@@ -1,0 +1,404 @@
+{
+  "id": "1230021516",
+  "slug": "07-ai-to-fabrication-2026",
+  "title": "AI 辅助从图像到数字制造",
+  "description": "从图像生成三维模型，检查网格，再准备切片、排版和激光切割文件。",
+  "binding_source": "course",
+  "duration": 9872.28,
+  "page_url": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/notes.html",
+  "bilibili": null,
+  "chapters": [
+    {
+      "id": "topic-slicer-recap",
+      "title": "Slicer for Fusion 360：三维模型到切割图纸",
+      "summary": "回顾导入三维模型、调整切片方向和数量、检查装配，再导出 DXF 图纸的流程。",
+      "key_points": [
+        "Slicer 通过切片方案把 STL 或 OBJ 模型转换为可切割零件。",
+        "DXF 输出前还要查看装配过程和错误提示。"
+      ],
+      "terms": [
+        {
+          "term": "DXF",
+          "definition": "二维 CAD 图纸格式，可用于后续切割准备。"
+        }
+      ],
+      "actions": [
+        "检查模型是否封闭，并在导出前看装配顺序与材料厚度。"
+      ],
+      "start": 0.0,
+      "end": 392.82,
+      "references": [],
+      "moments": [
+        {
+          "time": 215.64,
+          "title": "Slicer for Fusion 360：三维模型到切割图纸"
+        }
+      ],
+      "frames": [
+        {
+          "time": 215.64,
+          "caption": "Slicer 的切片与图纸设置",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/slicer-recap.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-workflow",
+      "title": "从二维构思到可制造的三维模型",
+      "summary": "讲师引出图像设计、AI 三维生成、网格清理及实际制造之间的完整路线。",
+      "key_points": [
+        "课程路线包括二维构思、三维生成、网格检查和实体制造。",
+        "数字模型看起来成立，仍需核对结构能否用真实材料制作。"
+      ],
+      "terms": [],
+      "actions": [
+        "区分屏幕上的效果与材料、设备能够实现的结构。"
+      ],
+      "start": 392.82,
+      "end": 693.708,
+      "references": [],
+      "moments": [
+        {
+          "time": 510.331,
+          "title": "从二维构思到可制造的三维模型"
+        }
+      ],
+      "frames": [
+        {
+          "time": 510.331,
+          "caption": "课程展示数字设计到制造的步骤",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/workflow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-gemini-image",
+      "title": "用 Gemini 迭代二维形象",
+      "summary": "示范用文字、参考图和局部涂画修改人物形象，观察姿态、背景与表面细节的变化。",
+      "key_points": [
+        "Gemini 在本课中用于生成和迭代二维参考图。",
+        "局部涂画与文字提示可改变形象，但生成图片不是三维网格。"
+      ],
+      "terms": [
+        {
+          "term": "参考图",
+          "definition": "提供外形、姿态与细节方向的二维输入。"
+        }
+      ],
+      "actions": [
+        "保存设计版本；把视觉草图视为后续建模输入，而非可打印网格。"
+      ],
+      "start": 693.708,
+      "end": 1503.954,
+      "references": [],
+      "moments": [
+        {
+          "time": 1050.498,
+          "title": "用 Gemini 迭代二维形象"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1110.0,
+          "caption": "Miro 中展示的图像修改提示与人体参考图",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/gemini-image.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-image-limits",
+      "title": "提示词、参考图与二维图像的限制",
+      "summary": "讨论图像生成的姿态和比例控制、平台限制，以及二维效果和真实三维几何的区别。",
+      "key_points": [
+        "提示词对比例或局部形体的控制可能不精确。",
+        "干净背景与明确主体有助于后续图像转三维。"
+      ],
+      "terms": [],
+      "actions": [
+        "使用背景简洁、主体清楚的参考图，并核对生成结果的局部结构。"
+      ],
+      "start": 1503.954,
+      "end": 2462.322,
+      "references": [],
+      "moments": [
+        {
+          "time": 1770.402,
+          "title": "提示词、参考图与二维图像的限制"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1770.402,
+          "caption": "学员讨论图像生成的比例、网格和平台限制",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/image-limits.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-tripo-generation",
+      "title": "Tripo：图像生成三维网格",
+      "summary": "介绍从图片生成三维模型、设置纹理和拓扑、控制多边形数量并准备 STL 导出。",
+      "key_points": [
+        "Tripo 把二维参考图转换成可查看的三维网格。",
+        "纹理和网格拓扑分别控制表面外观与几何结构。"
+      ],
+      "terms": [
+        {
+          "term": "拓扑",
+          "definition": "网格顶点、边和面的连接结构。"
+        },
+        {
+          "term": "多边形数量",
+          "definition": "组成模型的面的数量，影响细节和文件大小。"
+        }
+      ],
+      "actions": [
+        "按目标制造方式选择拓扑与精度；不要把贴图纹理当作几何起伏。"
+      ],
+      "start": 2462.322,
+      "end": 3301.512,
+      "references": [],
+      "moments": [
+        {
+          "time": 2731.362,
+          "title": "Tripo：图像生成三维网格"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2731.362,
+          "caption": "Tripo 的模型生成参数",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/tripo-generation.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-tripo-troubleshooting",
+      "title": "Tripo 导出与课堂排错",
+      "summary": "学员尝试生成和下载 STL，讲师排查拓扑模式、免费额度、图片背景及形体失真。",
+      "key_points": [
+        "课中演示的免费版导出流程依赖当时的平台选项。",
+        "改变拓扑模式后需要重新生成模型，再核对 STL 是否可下载。"
+      ],
+      "terms": [
+        {
+          "term": "STL",
+          "definition": "常用的三维网格文件格式。"
+        }
+      ],
+      "actions": [
+        "按当时界面核对导出选项；平台套餐与按钮会变化。"
+      ],
+      "start": 3301.512,
+      "end": 5450.454,
+      "references": [],
+      "moments": [
+        {
+          "time": 4170.147,
+          "title": "Tripo 导出与课堂排错"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4230.0,
+          "caption": "Tripo 的生成模型与界面选项",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/tripo-troubleshooting.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-blender-entry",
+      "title": "转入 Blender：导入与准备网格",
+      "summary": "休息后确认 STL 文件，并在 Blender 中查找 3D Print 与布尔工具，为模型修整做准备。",
+      "key_points": [
+        "Blender 接收前一步导出的网格文件。",
+        "3D Print 和布尔工具用于后续几何检查与切割。"
+      ],
+      "terms": [
+        {
+          "term": "3D Print 工具",
+          "definition": "Blender 用于网格可打印性检查的一组功能。"
+        }
+      ],
+      "actions": [
+        "确认导入尺寸、模型对象和所需工具实际可用。"
+      ],
+      "start": 5450.454,
+      "end": 5701.459,
+      "references": [],
+      "moments": [
+        {
+          "time": 5674.128,
+          "title": "转入 Blender：导入与准备网格"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5674.128,
+          "caption": "Blender 的导入模型与插件界面",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/blender-entry.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-blender-boolean",
+      "title": "用平面与布尔运算修整底部",
+      "summary": "示范给切割平面增加厚度、执行布尔差集，并分离、删除多余几何。",
+      "key_points": [
+        "Solidify 可给切割平面增加厚度。",
+        "布尔差集后仍需删除松散部件并检查切面。"
+      ],
+      "terms": [
+        {
+          "term": "布尔差集",
+          "definition": "用一个几何体从另一个几何体中扣除体积。"
+        }
+      ],
+      "actions": [
+        "布尔操作后检查切面与残留的松散部件。"
+      ],
+      "start": 5701.459,
+      "end": 6482.191,
+      "references": [],
+      "moments": [
+        {
+          "time": 6215.31,
+          "title": "用平面与布尔运算修整底部"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6215.31,
+          "caption": "Blender 的切面和布尔处理",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/blender-boolean.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-manifold",
+      "title": "3D Print 检查与非流形修复",
+      "summary": "使用 3D Print 工具检查非流形边和相交面，讨论 Make Manifold 等清理方法。",
+      "key_points": [
+        "非流形边与相交面会妨碍打印或后续制造。",
+        "Make Manifold 是清理手段，结果仍要重新检查。"
+      ],
+      "terms": [
+        {
+          "term": "非流形",
+          "definition": "网格连接不满足封闭实体要求的情况。"
+        }
+      ],
+      "actions": [
+        "修复后重新检查闭合性，不能只看模型外观。"
+      ],
+      "start": 6482.191,
+      "end": 7147.032,
+      "references": [],
+      "moments": [
+        {
+          "time": 6754.152,
+          "title": "3D Print 检查与非流形修复"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6930.0,
+          "caption": "Blender 中的网格检查与修复面板",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/manifold.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-formslice-project",
+      "title": "FormSlice：自制切片工具的构思",
+      "summary": "讲师介绍从快速网页原型到代码仓库的过程，说明工具要解决的切片和制造问题。",
+      "key_points": [
+        "FormSlice 是讲师展示的自制网页切片工具。",
+        "本课说明了从快速原型到可检查代码的迭代过程。"
+      ],
+      "terms": [],
+      "actions": [
+        "把目标功能、输入模型和输出文件分别记录，便于测试。"
+      ],
+      "start": 7147.032,
+      "end": 7802.22,
+      "references": [],
+      "moments": [
+        {
+          "time": 7470.63,
+          "title": "FormSlice：自制切片工具的构思"
+        }
+      ],
+      "frames": [
+        {
+          "time": 7470.63,
+          "caption": "FormSlice 的网页原型",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/formslice-project.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-formslice-use",
+      "title": "FormSlice 的尺寸、排版与文件导出",
+      "summary": "演示设置模型尺寸和材料、调整切片排版，导出 DXF 或 SVG，并解释小零件警告。",
+      "key_points": [
+        "切片厚度、比例和排版影响实际制造尺寸。",
+        "导出的 SVG 或 DXF 要结合小零件警告和切割设备检查。"
+      ],
+      "terms": [
+        {
+          "term": "SVG",
+          "definition": "可缩放的二维矢量图格式。"
+        }
+      ],
+      "actions": [
+        "核对实际尺寸、零件间距与切割设备要求，再使用导出文件。"
+      ],
+      "start": 7802.22,
+      "end": 8764.381,
+      "references": [],
+      "moments": [
+        {
+          "time": 8076.81,
+          "title": "FormSlice 的尺寸、排版与文件导出"
+        }
+      ],
+      "frames": [
+        {
+          "time": 8076.81,
+          "caption": "FormSlice 的排版与导出界面",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/formslice-use.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-reflection",
+      "title": "反馈与 AI 制造流程的边界",
+      "summary": "课程末尾讨论生成式 AI 的便利、资源消耗和设计控制，也回顾从图像到实体制作的学习经验。",
+      "key_points": [
+        "生成式 AI 缩短探索时间，也引出资源消耗和设计控制问题。",
+        "最终模型与切割文件需通过人工判断和实体测试。"
+      ],
+      "terms": [],
+      "actions": [
+        "把生成结果当作需要验证的草案，保留人工判断和制造测试。"
+      ],
+      "start": 8764.381,
+      "end": 9872.28,
+      "references": [],
+      "moments": [
+        {
+          "time": 8973.99,
+          "title": "反馈与 AI 制造流程的边界"
+        }
+      ],
+      "frames": [
+        {
+          "time": 8973.99,
+          "caption": "课堂总结与反馈",
+          "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/reflection.jpg"
+        }
+      ]
+    }
+  ]
+}

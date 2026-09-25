@@ -1,0 +1,8409 @@
+1
+00:00:00,780 --> 00:00:02,340
+这次会议正在录制之中。
+This meeting is being recorded.
+
+2
+00:00:03,870 --> 00:00:08,670
+好吧,我们走。 摆 所以我有大约两个小时的时间来经历一吨的东西。
+All right. Okay. So I have about two hours to go through a ton of stuff.
+
+3
+00:00:10,351 --> 00:00:14,070
+这不会是后继的事情 因为我要动作很快
+This is not going to be a follow-along thing because I'm going to move pretty fast
+
+4
+00:00:14,220 --> 00:00:15,990
+有很多东西我需要覆盖。
+with a lot of stuff that I need to cover.
+
+5
+00:00:17,340 --> 00:00:22,170
+但愿录音能让你了解我所做的一切
+But hopefully the recording will give you insights into everything that I'm doing.
+
+6
+00:00:22,800 --> 00:00:26,401
+我要做的第一件事就是开播
+The first thing I'm going to do here is turn on screencast.
+
+7
+00:00:29,940 --> 00:00:34,590
+摆 在我的屏幕左侧,你会看到什么老鼠按钮
+Okay. So here on the left side of my screen, you'll see what mouse buttons I'm
+
+8
+00:00:34,651 --> 00:00:40,140
+点击时,我点击他们, 以及我按什么键, 所以以后当你
+clicking as I click them, and also what keys I'm pressing, so that later when you
+
+9
+00:00:40,170 --> 00:00:44,940
+看视频,你就会知道 我用什么命令来做所有的事情
+watch the video, you'll know exactly what commands I'm using to do everything that
+
+10
+00:00:45,000 --> 00:00:50,910
+当然 希望这样会有所帮助 我现在就告诉你 Blender需要...
+I do. Hopefully, that will help. I will tell you right now that Blender requires a
+
+11
+00:00:50,970 --> 00:00:55,440
+许多键盘快捷键, 这些东西不会是直观的
+lot of keyboard shortcuts, and these things are not going to be intuitive to you at
+
+12
+00:00:55,500 --> 00:01:01,350
+所有,但你会学习他们, 并最终它会成为第二自然。 好吧,我们走。
+all, but you'll learn them, and eventually it will become second nature. All right.
+
+13
+00:01:01,410 --> 00:01:05,430
+因此,让我开始。 如果你不知道我是谁,我叫瑞哥
+So with that, let me get started. If you don't know who I am, my name is Rico
+
+14
+00:01:05,490 --> 00:01:10,200
+康图 我想是2022年毕业的
+Contim. I graduated from the Fab Academy program, I think in 2022.
+
+15
+00:01:10,290 --> 00:01:15,120
+我不记得了 从此教化. 我住在日本镰仓
+I don't remember anymore. I've been teaching ever since. I live in Kamakura, Japan.
+
+16
+00:01:15,211 --> 00:01:20,130
+我有自己的实验室 我刚刚完成一个孩子的课, 他们离开了一个灾区
+I run my own lab. I just got done with a kids' class, and they left a disaster area
+
+17
+00:01:20,220 --> 00:01:24,270
+在那里,我会 清理之后。 但我喜欢和孩子一起工作
+over there that I'll have to clean up after this. But I love working with kids.
+
+18
+00:01:24,330 --> 00:01:25,350
+他们是惊人的。
+They are amazing.
+
+19
+00:01:26,670 --> 00:01:29,790
+我教Blender给四岁半的孩子
+I've taught Blender to kids as young as four and a half years old.
+
+20
+00:01:29,970 --> 00:01:34,051
+有个孩子是恐龙的粉丝 他已经做模特了
+There's one kid here who's a huge fan of dinosaurs, and he's already been modeling
+
+21
+00:01:34,110 --> 00:01:38,880
+Blender身上的恐龙 从他6岁起。 所以,如果他能做到这一点,你可以做到这一点。
+dinosaurs on Blender since he was six years old. So if he can do it, you can do it.
+
+22
+00:01:39,330 --> 00:01:42,660
+这需要一点点的工作来理解它,但
+It will require a little bit of work to understand it, but
+
+23
+00:01:44,610 --> 00:01:45,990
+这不是不可能的。 摆
+it's not impossible. Okay.
+
+24
+00:01:47,430 --> 00:01:51,271
+我首先要给您介绍一下用户界面
+With that, I'm going to start off by giving you a tour of the user interface for
+
+25
+00:01:51,330 --> 00:01:56,010
+布莱德 大多数时候你打开Blender, 它应该看起来什么 -- 是吗?
+Blender. Most of the time when you turn on Blender, it should look something-- Am I
+
+26
+00:01:56,040 --> 00:01:57,301
+共享屏幕? 我不分享屏幕。
+sharing screen? I'm not sharing screen.
+
+27
+00:01:57,330 --> 00:01:57,780
+让我 -- 不
+Let me- No
+
+28
+00:01:59,220 --> 00:02:00,660
+开始做吧
+... go ahead and start doing that.
+
+29
+00:02:03,330 --> 00:02:05,190
+好吧,我们走。 我想我现在分享屏幕。
+All right. I think I'm sharing screen now.
+
+30
+00:02:05,970 --> 00:02:09,810
+当你开始Blender时,你经常看到一个界面,它看起来
+Most of the time when you start Blender, you'd see an interface that looks
+
+31
+00:02:09,870 --> 00:02:14,730
+像这样 让我用我的新工具 来告诉你
+something like this. And let me walk you through it using my new fancy tool here
+
+32
+00:02:14,760 --> 00:02:18,090
+在那里我可以做笔记。 所以我要你们注意的是...
+where I can annotate. So what I want you to pay attention to is that there are
+
+33
+00:02:18,150 --> 00:02:24,090
+其实只是几扇窗户 好吧,这样吧
+actually just a few windows. Okay, so
+
+34
+00:02:24,090 --> 00:02:26,550
+这里有个巨大的窗户 摆
+you've got this giant window here. Okay.
+
+35
+00:02:27,360 --> 00:02:28,650
+我要叫这个,
+I'm going to call this one,
+
+36
+00:02:29,940 --> 00:02:35,760
+一个,你有一个侧窗。 让我看看。 哦,孩子,这行不通的。
+one, and you've got a side window. Let me see. Oh, boy, this is not going to work.
+
+37
+00:02:36,450 --> 00:02:40,110
+我的注解是行不通的。 好吧,所以让我离开这里。
+My annotation is not going to work. Okay, so let me get out of this.
+
+38
+00:02:40,590 --> 00:02:44,671
+你有一个巨大的窗口, 它的名字是3D Viewport。
+You've got this big giant window, and its name is the 3D Viewport.
+
+39
+00:02:44,940 --> 00:02:47,671
+这就是你所有模特的出现地点
+And this is where all of your modeling will occur.
+
+40
+00:02:48,480 --> 00:02:50,760
+每次你操纵某个东西,它就会在这里出现.
+Every time you manipulate something, this is where it's going to show up.
+
+41
+00:02:51,330 --> 00:02:55,680
+右上角是另一扇窗户,叫做"轮廓"
+On the upper right-hand corner is another window here called the Outliner.
+
+42
+00:02:56,280 --> 00:03:00,090
+提纲就像... 如果使用Windows,则是一个Windows Explorer.
+And the Outliner is like the-- If you use Windows, it's a Windows Explorer.
+
+43
+00:03:00,150 --> 00:03:02,520
+如果你用Mac,那它叫什么来着?
+If you use a Mac, what is it called on a Mac?
+
+44
+00:03:02,610 --> 00:03:04,710
+我不知道,文件经理,什么的
+I don't know, File Manager or whatever it is.
+
+45
+00:03:05,070 --> 00:03:10,470
+它基本上列出了你当前文件中的所有内容
+It basically lists absolutely everything that is in your current file.
+
+46
+00:03:11,010 --> 00:03:15,870
+所以,你可能不能读它, 但上面写着相机,立方体,和光。
+So you probably can't read it, but it says here Camera, Cube, and Light.
+
+47
+00:03:16,020 --> 00:03:19,860
+因此,在我的场景 现在,有三个物体。
+So in my scene right now, there are three objects.
+
+48
+00:03:19,921 --> 00:03:24,180
+我有立方体,你注意到 当我点击它, 它突出它过在
+I've got the cube, and you notice when I click on it, it highlights it over on the
+
+49
+00:03:24,210 --> 00:03:29,130
+右手边也一样。 我这里有一个灯光,这是一个灯泡,然后
+right-hand side as well. I've got a light here, which is a light bulb, and then
+
+50
+00:03:29,190 --> 00:03:34,020
+这里有台摄像机 好吗? 所以这绝对列出了你拥有的一切
+over here I have a camera. Okay? So this lists absolutely everything that you have
+
+51
+00:03:34,500 --> 00:03:39,090
+在你的场景。 例如,如果我添加另一个对象, 如果我在此复制此对象
+in your scene. If I add another object, for instance, if I copy this object here
+
+52
+00:03:39,990 --> 00:03:43,800
+我把它放在那里, 现在我有两个立方体。 我有魔方和魔方一号 好吗?
+and I put it over there, now I have two cubes. I have Cube and Cube 1. All right?
+
+53
+00:03:43,890 --> 00:03:48,180
+所以,如果你需要知道,是的, 这将拥有你需要的一切。
+So if you need to know, yeah, this will have everything that you need.
+
+54
+00:03:50,070 --> 00:03:55,140
+好吧,我们走。 然后右下方是属性菜单。
+All right. And then over on the lower right-hand side is the Properties menu.
+
+55
+00:03:55,230 --> 00:04:00,451
+这是Blender最强大的窗口
+And this is the most powerful window within Blender here.
+
+56
+00:04:00,870 --> 00:04:05,520
+如果我点击立方体,你就会看到,有几个图标,也许12个,12个
+If I click on the cube, you see that there are several icons, maybe 12, a dozen
+
+57
+00:04:05,610 --> 00:04:11,190
+图标,每个图标都是Blender某些方面的属性设置。
+icons here, and each one of them are property settings for some aspect of Blender.
+
+58
+00:04:11,820 --> 00:04:12,090
+还有
+And there
+
+59
+00:04:13,410 --> 00:04:18,690
+你记不得太多 但我要你注意的是
+are too many for you to remember, but the ones I want you to pay attention to are,
+
+60
+00:04:18,750 --> 00:04:23,880
+这里有一个看起来像 DSLR摄像机的背面, 我要尝试
+there's one here that looks like the back of a DSLR camera, and I'm going to try to
+
+61
+00:04:23,910 --> 00:04:24,660
+画在这里。
+draw it here.
+
+62
+00:04:26,040 --> 00:04:30,570
+摆 它看起来像一个德国航天中心。
+Okay. And it looks like this, a DSLR.
+
+63
+00:04:33,360 --> 00:04:38,400
+类似这样的东西, oops, 按钮像这样。 好吗? DSLR相机的后部.
+Something like this with, oops, buttons like this. Okay? The back of a DSLR camera.
+
+64
+00:04:38,880 --> 00:04:43,531
+这是您的 Render 属性菜单 。 好吗? 所以请注意这一点。
+This is your Render Properties menu. Okay? So please pay attention to that.
+
+65
+00:04:45,540 --> 00:04:48,300
+下面是一台看起来像打印机的。
+And then below that is one that looks like a printer.
+
+66
+00:04:54,120 --> 00:04:57,930
+摆 我不知道你们有没有Blender开着 但看起来像是
+Okay. I don't know if any of you have Blender open, but it looks something like
+
+67
+00:04:57,990 --> 00:04:58,230
+这个
+this.
+
+68
+00:05:00,120 --> 00:05:03,031
+好吧,这是你的输出属性菜单。
+Okay, and this is your Output Properties menu.
+
+69
+00:05:03,240 --> 00:05:06,270
+我们最终会处理的
+We'll be eventually working with that.
+
+70
+00:05:07,531 --> 00:05:10,951
+然后跳过几个,你看到一个看起来像水滴。
+And then you skip a few down, you see one that looks like a water droplet.
+
+71
+00:05:11,520 --> 00:05:14,040
+那个是你的场景。 好,再来一次
+That one is your scene. So, okay, one more again.
+
+72
+00:05:14,100 --> 00:05:20,070
+DSLR是您的渲染菜单,打印机是您的输出菜单,
+DSLR is your Render menu, the printer is your Output menu, the
+
+73
+00:05:20,130 --> 00:05:24,990
+水滴是你的场景菜单。 我参加场景菜单的唯一原因是
+water droplet is your Scene menu. The only reason I ever go to the Scene menu is to
+
+74
+00:05:25,020 --> 00:05:27,180
+设置我的单位, 像我想工作什么?
+set my units, like what do I want to work on?
+
+75
+00:05:27,210 --> 00:05:31,380
+你会看到这里有一个小分队叫单位, 这就是我定义的地方
+You'll see here there's a subsection called Units, and here's where I define
+
+76
+00:05:31,500 --> 00:05:34,951
+无论我想工作 在米或厘米或什么。
+whether I want to be working in meters or centimeters or whatever.
+
+77
+00:05:35,010 --> 00:05:39,091
+默认为米. 就今天而言,我打算就这样离开
+The default is meters. And for today, I'm just going to leave it as is.
+
+78
+00:05:39,960 --> 00:05:45,210
+再跳下来几下。 到目前为止 Blender的魔法就是这个工具 就是那个
+Skip down a couple more. By far, the magic of Blender is this tool, the one that
+
+79
+00:05:45,240 --> 00:05:50,850
+看起来像蓝色扳手 蓝色扳手图标是修饰者图标,我们将
+looks like a blue wrench. Blue wrench icon is the Modifier icon, and we'll be
+
+80
+00:05:51,330 --> 00:05:57,240
+回到这一个。 因此,这是一种方法 取几何 在Blender并给予它
+going back to this one. So this is a way to take geometry in Blender and give it
+
+81
+00:05:57,330 --> 00:06:00,990
+按钮按下时的额外特殊功能。
+extra special features at the push of a button.
+
+82
+00:06:01,531 --> 00:06:07,410
+所以,例如,我要去 添加修改器,生成子分区
+So, for instance, I'm going to go to Add Modifier, Generate Subdivision
+
+83
+00:06:07,500 --> 00:06:10,201
+表面,我的立方体会变成这样
+Surface, and my cube is going to change into this.
+
+84
+00:06:10,680 --> 00:06:16,140
+所以我把立方体的六面体 分成四面体
+So I took each one of the six faces of the cube, and I subdivided it into four
+
+85
+00:06:16,201 --> 00:06:20,940
+6个面孔 现在我在这个立方体上有12个面孔。
+faces per the original six faces. So I now have 12 faces on this cube.
+
+86
+00:06:21,510 --> 00:06:26,160
+你需要知道 修饰剂是无损的,意思是
+And what you need to know about modifiers is that it's non-destructive, meaning
+
+87
+00:06:26,701 --> 00:06:30,599
+这是一个预览 如果我应用这个修饰符 它会是什么样子。
+it's a preview of what it would look like if I applied this modifier.
+
+88
+00:06:31,140 --> 00:06:36,390
+但如果我决定用这个X标记删除这个修饰符
+But if I decide to delete this modifier with this X mark here, the
+
+89
+00:06:37,890 --> 00:06:41,070
+操纵,几何的修改消失.
+manipulations, the modification to the geometry disappears.
+
+90
+00:06:41,520 --> 00:06:46,591
+因此,这是一个预览 它会对你的物体做什么 直到你真正锁定它
+So it's a way to preview what it will do to your object until you actually lock it
+
+91
+00:06:46,651 --> 00:06:51,331
+进去 跳过一堆,一路到底,你看到一个红色的检查球。
+in. Skip a bunch more, all the way to the bottom, you see a red checker ball.
+
+92
+00:06:51,690 --> 00:06:54,030
+红色检查球是应用材料的地方.
+Red checker ball is where you apply the materials.
+
+93
+00:06:54,120 --> 00:06:55,260
+现在,这个立方体
+Right now, this cube has
+
+94
+00:06:56,760 --> 00:07:01,201
+得到了默认的白色颜色。 所以在这里,如果你想将颜色改为红色,如果
+got the default white color. So here, if you want to change the color to red, if
+
+95
+00:07:01,230 --> 00:07:02,701
+你想让它变成金属
+you want to make it metallic
+
+96
+00:07:04,740 --> 00:07:06,570
+或类似的东西, 这就是你会做到这一点。
+or something like that, that's where you would do it.
+
+97
+00:07:06,630 --> 00:07:08,730
+这就是材料方面。 好吗?
+So this is the materials aspect. Okay?
+
+98
+00:07:09,960 --> 00:07:13,831
+我以后会更详细地描述这一切
+I'll cover all of that in greater detail later on.
+
+99
+00:07:15,360 --> 00:07:15,720
+摆
+Okay.
+
+100
+00:07:18,030 --> 00:07:20,880
+屏幕广播的字母有点太大了
+Screencast letters are a little bit too big.
+
+101
+00:07:20,970 --> 00:07:24,120
+让我稍微换一下
+Let me change that down a bit.
+
+102
+00:07:26,430 --> 00:07:30,600
+你想开始录音吗? 我以为我做到了。 是吗?
+Would you like to start the recording? I thought I did. Did I not?
+
+103
+00:07:32,100 --> 00:07:33,420
+我不知道. 对
+I don't know. I am
+
+104
+00:07:34,800 --> 00:07:35,130
+没有...
+not...
+
+105
+00:07:36,841 --> 00:07:40,140
+对 我以为我做到了。 摆 我看得出来
+Yeah. I thought I did. Okay. I can see it.
+
+106
+00:07:41,341 --> 00:07:41,581
+好吧,我们走。
+All right.
+
+107
+00:07:42,901 --> 00:07:47,250
+最后,这里最下面的那个, 我要把这个叫做辅助
+And then lastly, the one at the bottom here, I'm going to call this the auxiliary
+
+108
+00:07:47,311 --> 00:07:47,730
+窗口
+window
+
+109
+00:07:49,081 --> 00:07:50,520
+因为你可以把它变成任何东西。
+because you can change it to anything.
+
+110
+00:07:50,581 --> 00:07:55,740
+目前,它是时间轴功能,这意味着它被用于动画.
+Currently, it is the timeline functionality, which means it's used for animation.
+
+111
+00:07:56,250 --> 00:07:59,760
+只是想告诉你,这四个窗口中的每一个都可以改为
+And just to let you know, every single one of these four windows can be changed to
+
+112
+00:07:59,820 --> 00:08:03,300
+随便你 在左上角有点
+anything you want. On the upper left-hand corner is a little
+
+113
+00:08:04,530 --> 00:08:09,180
+图标。 如果你点击它, 它会给你选择 绝对的一切
+icon. If you click on that, it'll give you options of absolutely everything that
+
+114
+00:08:09,210 --> 00:08:14,250
+你可以把窗户打开 例如,如果我想要第二个3D视图端口,我可以
+you could turn that window into. For example, if I want a second 3D viewport, I can
+
+115
+00:08:14,311 --> 00:08:18,990
+去那里选择3D Viewport, 现在我有了第二个窗口,可以给我看
+go there and select 3D Viewport, and now I have a second window that will show me
+
+116
+00:08:19,800 --> 00:08:21,270
+我和哪个模特儿一起工作,好吗?
+what model I'm working with, okay?
+
+117
+00:08:21,811 --> 00:08:26,190
+暂时,我要把它留在时间线上,我会做到的
+For the time being, I'm going to leave it on timeline, and I'm going to make it
+
+118
+00:08:26,250 --> 00:08:27,480
+小一点,让我看得见
+smaller so that I can see
+
+119
+00:08:28,951 --> 00:08:31,651
+我这里的大窗户。 有问题吗?
+my big window here. Any questions so far?
+
+120
+00:08:31,740 --> 00:08:37,201
+因此,四个大的主窗口: 3D Viewport, 大纲, 属性,
+So four big main windows: 3D Viewport, Outliner, Properties,
+
+121
+00:08:37,620 --> 00:08:43,230
+和辅佐。 在属性菜单中,您想要聚焦于
+and Auxiliary. And in the Properties menu, you want to focus on the back of
+
+122
+00:08:43,290 --> 00:08:49,170
+DSLR,即Render,打印机,即输出,
+DSLR, which is Render, the printer, which is Output,
+
+123
+00:08:49,740 --> 00:08:55,681
+水滴,即单位,蓝色扳手图标,即修改器,以及
+the water droplet, which is Units, the blue wrench icon, which is Modifier, and
+
+124
+00:08:55,740 --> 00:08:59,100
+红色检查球,即材料。 好吗?
+the red checker ball, which is Materials. All right?
+
+125
+00:09:01,320 --> 00:09:04,290
+犹如驾车. 你车上有很多事情可以做
+It's like driving a car. There are lots and lots of things you can do in your car,
+
+126
+00:09:04,380 --> 00:09:07,740
+但首先你需要学习的是方向盘, 气体和刹车,然后转
+but the first thing you need to learn is steering wheel, gas and brake, and turn
+
+127
+00:09:07,800 --> 00:09:12,151
+信号 除此之外,你以后能想出的一切。 好吗? 摆
+signal. Beyond that, everything else you can figure out later. Okay? Okay.
+
+128
+00:09:12,240 --> 00:09:16,681
+因此,让我们回到 3D 属性窗口,这里的视图窗口。
+So with that, let's go back to the 3D properties window, the viewport window here.
+
+129
+00:09:17,610 --> 00:09:19,170
+还有几件事你需要看看
+A couple of other things you need to see.
+
+130
+00:09:19,681 --> 00:09:24,151
+右上角,你可以看到四个不同的球
+Upper right-hand corner, you see four balls of different
+
+131
+00:09:25,710 --> 00:09:30,870
+设计。 左边最远的那个会转弯的是
+designs. The farthest one on the left will turn is the
+
+132
+00:09:31,140 --> 00:09:34,380
+线框视图. 这是您的视图模式
+wireframe view. These are the view modes for your
+
+133
+00:09:35,670 --> 00:09:41,401
+几何经. 从钢丝架到坚固的视野
+geometry. And it goes from wireframe to solid view, to
+
+134
+00:09:41,460 --> 00:09:47,100
+完成预览 完成预览 。 大部分时间,当你
+render preview, to full render. And for the most part, when you're
+
+135
+00:09:47,880 --> 00:09:52,620
+建模对象时,您想要保持线框模式或固态视图。
+modeling your objects, you want to stay in either wireframe mode or solid view.
+
+136
+00:09:53,160 --> 00:09:57,660
+这是你电脑上最不需要的
+These are the least computationally demanding on your computer.
+
+137
+00:09:58,140 --> 00:10:02,880
+当你移动到预览 或完全渲染的东西, 它会要求
+As you move to render preview or the fully rendered thing, it's going to demand
+
+138
+00:10:03,061 --> 00:10:08,490
+更多来自你的电脑,你的GPU, 如果你碰巧有一个薄弱的计算机,这个
+more from your PC, from your GPU, and if you happen to have a weak computer, this
+
+139
+00:10:08,550 --> 00:10:09,990
+就是你的电脑会崩溃
+is what's going to crash your computer.
+
+140
+00:10:10,200 --> 00:10:15,000
+所以,留在钢丝架上或坚固的视野上做你的模型。
+So stay on the wireframe or the solid view to do your modeling.
+
+141
+00:10:15,870 --> 00:10:20,040
+还有一件事我要你注意 在左边,你看
+Another thing I want you to pay attention to is over here on the left, you see a
+
+142
+00:10:20,070 --> 00:10:23,130
+窗口名为对象模式。 这是
+window called Object Mode. This is the
+
+143
+00:10:24,390 --> 00:10:25,530
+小学
+primary
+
+144
+00:10:28,050 --> 00:10:32,910
+几何操纵模式是对象模式.
+geometry manipulation mode is Object Mode.
+
+145
+00:10:32,970 --> 00:10:37,561
+在"对象模式"中,你会 与,我要说,
+And in Object Mode, you're going to be working with the, I'm going to say, the
+
+146
+00:10:37,651 --> 00:10:41,820
+你的几何学的宏观转变, 意思是大的东西。
+macro transformations of your geometry, meaning the big things.
+
+147
+00:10:41,880 --> 00:10:45,300
+你会让它变大或变小, 你会移动它,或者
+You're going to make it bigger or smaller, you're going to move it around, or
+
+148
+00:10:45,330 --> 00:10:49,020
+你将旋转它。 你不会调整好的
+you're going to rotate it. You're not going to be adjusting fine features.
+
+149
+00:10:49,110 --> 00:10:53,040
+所以大局操纵你的模式。
+So the big picture manipulations of your mode.
+
+150
+00:10:53,100 --> 00:10:57,390
+而且,我们现在在对象模式, 我们将改变这个以后, 但我只是
+Also, we're in Object Mode now, and we're going to change that later, but I just
+
+151
+00:10:57,420 --> 00:11:01,020
+想要您知道模式调整在哪里 。
+want you to be aware where the mode adjustments are.
+
+152
+00:11:02,340 --> 00:11:03,120
+除此之外,
+Other than that,
+
+153
+00:11:05,130 --> 00:11:08,250
+我们要开始在这个窗口进行导航。
+we're going to start doing some navigation in this window.
+
+154
+00:11:08,850 --> 00:11:12,540
+所以,这是我要求你有一个三键鼠标, 因为你可以做到这一点。
+So this is where I ask you to have a three-button mouse, because you can do this
+
+155
+00:11:12,570 --> 00:11:15,390
+有轨迹垫 我不太晓得
+with a track pad. I don't quite know.
+
+156
+00:11:15,420 --> 00:11:19,710
+我认为这就像一个手指,两个手指, 所有这些其他操纵,我
+I think it's like one finger, two fingers, all these other manipulations, which I
+
+157
+00:11:19,740 --> 00:11:22,170
+不太清楚,但是如果你谷歌,你也许可以做到这一点。
+don't quite know, but if you Google it, you can probably do it.
+
+158
+00:11:22,620 --> 00:11:26,880
+就个人而言,因为我想让事情得到很好的控制,我用一个
+Personally, because I want things to be able to be finely controlled, I use a
+
+159
+00:11:26,910 --> 00:11:27,750
+三扣鼠标.
+three-button mouse.
+
+160
+00:11:29,550 --> 00:11:33,570
+用三键鼠标,一些事情你需要能够做到.
+With a three-button mouse, some things you need to be able to do.
+
+161
+00:11:33,690 --> 00:11:39,270
+所以,如果你按鼠标中键,将鼠标左右移动,你可以
+So if you press the middle mouse button and move your mouse left and right, you can
+
+162
+00:11:39,360 --> 00:11:41,940
+使用此工具绕您的天体运行。
+use this to orbit around your object.
+
+163
+00:11:42,450 --> 00:11:47,880
+所以当你在3D软件中做任何事情时, 能够运行和确保
+So as you do anything in a 3D software, the ability to orbit and make sure that
+
+164
+00:11:47,910 --> 00:11:50,880
+事情发生在你物体的前面,你的物体的后面,侧面
+things are happening in the front of your object, the back of your object, the side
+
+165
+00:11:50,910 --> 00:11:53,550
+你的目标,你想要的方式,是关键。
+of your object, the way you want it to be, is critical.
+
+166
+00:11:53,700 --> 00:11:57,420
+因此,鼠标中键旋转就是轨道.
+So middle mouse button rotate is orbit.
+
+167
+00:11:58,740 --> 00:12:02,460
+如果你摇动鼠标中键, 我认为这应该是直观的,是
+If you roll the middle mouse button, I think that should be intuitive to you, is
+
+168
+00:12:02,610 --> 00:12:08,160
+放大进退. 如果您在键盘上握有控制键, 或者命令于 a
+zooming in and out. If you hold the control key on your keyboard, or command on a
+
+169
+00:12:08,220 --> 00:12:11,970
+Mac,然后按鼠标中键. 哦,对不起,不是命令,换班
+Mac, and then press the middle mouse button. Oops, sorry, not command, shift.
+
+170
+00:12:13,050 --> 00:12:18,690
+变换按钮,然后鼠标中键,然后拖动它,你可以绕圈
+The shift button, and then middle mouse button, and you drag it, you can pan around
+
+171
+00:12:19,110 --> 00:12:22,020
+你的工作空间。 好吧,所以如果你需要移动它的方式。
+your working space. Okay, so if you need to move it that way.
+
+172
+00:12:22,470 --> 00:12:25,380
+所以再次,鼠标中键 本身,轨道。
+So once again, middle mouse button by itself, orbit.
+
+173
+00:12:26,760 --> 00:12:29,010
+鼠标中间卷入和流出是缩放.
+Middle mouse roll in and out is zoom.
+
+174
+00:12:29,311 --> 00:12:34,320
+然后转动和鼠标中键可以让你绕过屏幕。
+And then shift and middle mouse button will allow you to pan around your screen.
+
+175
+00:12:35,070 --> 00:12:39,360
+如果你记不得了,这里有真的图标 你可以用
+And if that's too much for you to remember, there are actual icons here you can use
+
+176
+00:12:39,390 --> 00:12:43,320
+做同样的事情。 所以,一个看起来像一个放大玻璃, 如果你离开
+to do the same thing. So the one that looks like a magnifying glass, if you left
+
+177
+00:12:43,380 --> 00:12:46,920
+鼠标点击这个,然后拖上拖下,就可以放大.
+mouse click on that, and then you drag it up and down, you can zoom.
+
+178
+00:12:47,490 --> 00:12:52,020
+手是锅。 所以,如果你离开鼠标点击, 你移动你的鼠标周围,
+The hand is pan. So if you left mouse click on that and you move your mouse around,
+
+179
+00:12:52,380 --> 00:12:57,901
+你会跳下去的。 轨道需要使用这个,口香糖丸。
+you'll pan. Orbit will require the use of this, the gumball.
+
+180
+00:12:58,260 --> 00:13:01,950
+如果你用鼠标左键点击口香糖灰色区域
+So if you click in the gray area of the gumball with your left mouse button and
+
+181
+00:13:01,980 --> 00:13:07,470
+然后移动它周围,你可以旋转,抬头看,在你的物体上,因为那是
+then move it around, you can rotate, look up, down on your object, because that's
+
+182
+00:13:07,500 --> 00:13:12,630
+跟轨道运行一样 摆 所以,现在关于口香糖球,你会
+the same thing as orbiting. Okay. So now on the subject of the gumball, you'll
+
+183
+00:13:12,661 --> 00:13:17,551
+注意它以红、绿、蓝等多种友好颜色出现。
+notice that it comes in multiple friendly colors like red, green, and blue.
+
+184
+00:13:17,970 --> 00:13:23,911
+那些东西和你们在Blender上看到的斧头相符
+Those things correspond to the axes that you see here on Blender in
+
+185
+00:13:23,940 --> 00:13:29,280
+观景台 所以我们错过蓝色, 所以我可以继续去 覆盖和点击
+the viewport. So we're missing blue, so I can go ahead and go to overlay and click
+
+186
+00:13:29,520 --> 00:13:32,700
+Z在这里显示蓝线。 好吧,我们走。
+Z here to show the blue line as well. All right.
+
+187
+00:13:32,790 --> 00:13:37,290
+所以我希望你从现在开始做什么 或者想想 每当你在Blender工作的时候
+So what I want you to do or think about from now on, whenever you work on Blender,
+
+188
+00:13:37,530 --> 00:13:37,980
+这是
+is that
+
+189
+00:13:39,600 --> 00:13:45,360
+减Y,绿轴应该总是从左下角到
+minus Y, the green axis should be always going from the lower left-hand corner to
+
+190
+00:13:45,450 --> 00:13:49,170
+右上角那个 这是Y轴。
+the upper right-hand corner. That's the Y-axis.
+
+191
+00:13:49,621 --> 00:13:53,730
+X轴应该一直从左上角往下
+The X-axis should always go from the upper left-hand corner down to the lower
+
+192
+00:13:53,760 --> 00:13:56,790
+右手边 然后是Z轴 从上到下 好吗
+right-hand side, and then Z-axis, top to bottom, okay?
+
+193
+00:13:57,181 --> 00:14:01,681
+如果你用这种方式定位,那么你知道, 当我看着我的立方体在这里,这是
+If you orient in this way, then you know that when I look at my cube here, this is
+
+194
+00:14:01,710 --> 00:14:06,990
+我对象的前脸 这是左边,当然是右边
+the front face of my object. This is the left side, of course, the right side on
+
+195
+00:14:07,051 --> 00:14:09,661
+反面,背面,上,下。
+the opposite side, the back, top, and bottom.
+
+196
+00:14:10,080 --> 00:14:15,030
+所以,每当你感到困惑 你所看到的,调整到这个
+So whenever you get confused about what you're looking at, reorient to this
+
+197
+00:14:15,151 --> 00:14:20,220
+这个位置的定向是Y减,你知道你在看
+orientation with minus Y in this location, and you know that you're looking at the
+
+198
+00:14:20,280 --> 00:14:24,121
+前脸你的东西,好吗? 我会告诉你为什么这很重要。
+front face of your object, okay? And I'll tell you why that matters later.
+
+199
+00:14:24,960 --> 00:14:29,640
+所以,如果你想看看你物体的前脸, 你会点击负Y,
+So if you want to look at the front face of your object, you'll click on minus Y,
+
+200
+00:14:30,030 --> 00:14:32,940
+它会撞到你物体的前面
+and it will snap to the front of your object.
+
+201
+00:14:33,840 --> 00:14:37,140
+如果你想,或者, 如果你想看看你的物体的顶部,你可以
+If you want, alternatively, if you want to look at the top of your object, you can
+
+202
+00:14:37,200 --> 00:14:40,051
+点击正Z, 它会向顶部跳动。
+click on positive Z, and it will snap to the top.
+
+203
+00:14:40,110 --> 00:14:43,890
+现在很难理解 因为我们看着一个立方体和所有的脸
+It's hard to understand right now because we're looking at a cube and all the faces
+
+204
+00:14:43,950 --> 00:14:48,780
+看上去是一样的,但只是一般的, 这就是你如何崩溃到不同的
+look the same, but just generally, that's how you would snap to different
+
+205
+00:14:48,840 --> 00:14:52,350
+您对象的视图 。 好吧,我们走。
+viewpoints of your object. All right.
+
+206
+00:14:52,350 --> 00:14:55,500
+我真的不想看到我的相机, 这是这个黑色三角形现在。
+I really don't want to see my camera, which is this black triangle right now.
+
+207
+00:14:55,560 --> 00:15:00,720
+所以我可以到我的轮廓 点击相机旁边的眼球图标,
+So I can go over to my outliner and click on the eyeball icon next to camera, and
+
+208
+00:15:00,750 --> 00:15:04,350
+这将会隐藏我的相机, 我将点击 做同样的事情
+that's going to hide my camera, and I'm going to click to do the same thing to
+
+209
+00:15:04,440 --> 00:15:08,310
+轻 这样的话,那它就完全不参与我的模特工作了.
+light. That way, then it's not involved in my modeling at all.
+
+210
+00:15:09,720 --> 00:15:12,510
+有问题吗? 导航技术好吗?
+Any questions so far? Are we good with navigation?
+
+211
+00:15:15,121 --> 00:15:17,340
+你可以用拇指按键帮我
+You can help me out by doing the thumbs up key,
+
+212
+00:15:18,810 --> 00:15:22,860
+或者给我一把拇指 让我知道 我说话的方式你可以
+or just give me a thumbs up to let me know that I'm speaking in a way that you can
+
+213
+00:15:22,920 --> 00:15:27,240
+其实明白。 好吧,我们走。 有了这个,让我们开始玩这个立方体。
+actually understand. All right. With that, let's start playing with this cube.
+
+214
+00:15:27,299 --> 00:15:32,640
+所以我们要从用户界面到操纵到查看模式
+So we're going from user interface to manipulation to view mode,
+
+215
+00:15:33,029 --> 00:15:36,720
+对象模式, 用于当前立方体本身的工作 。
+object mode, to now working on the cube itself.
+
+216
+00:15:37,290 --> 00:15:41,340
+所以要操纵任何对象,首先需要点击它来选择它.
+So to manipulate any object, first you need to click on it to select it.
+
+217
+00:15:41,970 --> 00:15:46,080
+一旦选定了对象,你就会看到黄色的轮廓表明你
+Once you've selected the object, you'll see a yellow outline indicating that you
+
+218
+00:15:46,110 --> 00:15:51,720
+已选择对象。 好吧,所以第一个键盘快捷键命令是
+have selected the object. All right, so the first keyboard shortcut command is
+
+219
+00:15:52,110 --> 00:15:52,140
+按 G 键。
+G.
+
+220
+00:15:55,230 --> 00:15:57,720
+G允许您移动对象.
+G allows you to move the object.
+
+221
+00:15:58,950 --> 00:16:02,911
+现在,你问我 为什么它不是M移动? 为什么是G移动?
+Now, you're asking me why is it not M for move? Why is it G for move?
+
+222
+00:16:03,540 --> 00:16:09,000
+因为M是Blender中别的东西使用的键盘快捷键,所以
+It's because M is a keyboard shortcut used for something else in Blender, and so
+
+223
+00:16:09,060 --> 00:16:12,871
+他们用G来抓 所以,你抓住和移动物体。
+they use G for grab. So you're grabbing and moving the object.
+
+224
+00:16:12,901 --> 00:16:17,850
+G就是这个意思,好吗? 所以,一旦你抓住它, 你可以移动它在哪里
+That's what G stands for, okay? And so once you grab it, you can move it wherever
+
+225
+00:16:17,911 --> 00:16:19,440
+您想要在 3D 空间。
+you want in 3D space.
+
+226
+00:16:21,090 --> 00:16:24,570
+如果你在命令的中间,你想取消它, 你击中逃跑
+If you're in the middle of a command and you want to cancel it, you hit the escape
+
+227
+00:16:24,661 --> 00:16:29,760
+钥匙,它又回到你移动之前的位置。
+key, and that brings it back to where it was before you moved it around.
+
+228
+00:16:30,720 --> 00:16:36,600
+如果你移动它,G,我离开鼠标点击 并把它留在一个
+And if you move it, G, and I left mouse click and leave it at a
+
+229
+00:16:36,661 --> 00:16:41,010
+新的位置,你想回去,Z控制或Z指挥会带你回来
+new position, and you want to go back, Control Z or Command Z will bring you back
+
+230
+00:16:41,040 --> 00:16:45,600
+将取消命令。 好吗? 这和很多其它软件一样
+to, will undo the command. Okay? This is the same as many other software out there.
+
+231
+00:16:46,651 --> 00:16:50,490
+好吗? 现在,什么是很酷的, 和为什么我花了这么多时间
+All right? Now, what's cool about it is, and the reason why I spent so much time on
+
+232
+00:16:50,760 --> 00:16:56,401
+X,Y,和Z 更早的时候,你可以限制立方体的运动或
+X, Y, and Z earlier is you can constrain the motion of the cube or the
+
+233
+00:16:56,520 --> 00:17:02,280
+对象,在输入 G 键后添加一个轴修改符。
+object by adding an axis modifier after you type the G key.
+
+234
+00:17:02,520 --> 00:17:08,460
+所以,如果我想在X轴上移动, 你会打G后面的X,现在
+So if I want only to move in the X-axis, you would type G followed by X, and now
+
+235
+00:17:08,580 --> 00:17:14,460
+我只能用X轴移动 好吗? 逃而脱之.
+I'm constrained to moving only on the X-axis. Okay? Escape to get out of that.
+
+236
+00:17:14,911 --> 00:17:18,630
+如果我想在Y轴上移动,它就是G和Y,然后我只移动在Y.
+If I want to move on the Y-axis, it's G and Y, and then I move only in the Y.
+
+237
+00:17:19,020 --> 00:17:23,640
+如果我想只移动在Z轴, 它的G和Z, 然后上下移动
+If I want to move only in the Z-axis, it's G and Z, and then moving up and down
+
+238
+00:17:23,700 --> 00:17:26,040
+仅此而已。 好吗? 因此,有这种限制是好的。
+only. Okay? So it's good to have that constraint.
+
+239
+00:17:28,290 --> 00:17:34,080
+好吧,所以这是移动。 下一个转换命令是规模.
+All right, so that's moving. The next transformation command is scale.
+
+240
+00:17:34,230 --> 00:17:36,361
+好吗? 让我们使立方体大小。
+Okay? Let's make the cube bigger or smaller.
+
+241
+00:17:37,111 --> 00:17:41,310
+幸运的是,快捷键更容易记住。 这是S的尺度。
+Luckily, the shortcut key is easier to remember. It's S for scale.
+
+242
+00:17:41,460 --> 00:17:47,190
+所以如果我打S,一行会... 我建议你使用
+So if I type S, a line will-- Let me make a suggestion when you use the
+
+243
+00:17:47,280 --> 00:17:50,460
+缩放。 不要把你的光标直接放在物体上.
+scale. Don't have your cursor directly on your object.
+
+244
+00:17:50,520 --> 00:17:52,560
+让它在你物体外一点
+Have it be slightly outside your object.
+
+245
+00:17:53,040 --> 00:17:58,080
+按下S键,当你把鼠标拖离物体时,就会变大.
+Hit the S key, and as you drag your mouse away from the object, it'll get bigger.
+
+246
+00:17:58,650 --> 00:18:03,301
+如果移动到物体的中心,就会变小. 好吗? 所以S键。
+If you move it towards the center of the object, it'll get smaller. Okay? So S key.
+
+247
+00:18:06,006 --> 00:18:11,556
+则逃而脱之. 就像G一样,你可以添加轴修饰器
+And Escape to get out of that. And just like G, you can add axis modifiers to
+
+248
+00:18:12,187 --> 00:18:16,716
+您的命令限制其规模。 所以我想让这个东西更高。
+your command to constrain its scale. So I want to make this thing taller.
+
+249
+00:18:17,106 --> 00:18:22,176
+我会做S和Z,并把它限制在Z轴, 所以当我放大它,它只
+I would do S and Z and constrain it to the Z-axis, so when I scale it, it only
+
+250
+00:18:22,266 --> 00:18:28,056
+缩放在一个方向上。 同样的,如果我想把它扩大,S和X,我可以做
+scales in one direction. Similarly, if I want to make it wider, S and X, I can do
+
+251
+00:18:28,116 --> 00:18:32,736
+将其限制在X轴、S轴和Y轴上,使其从前到后更长或缩短
+constrain it to the X-axis, S and Y to make it longer or shorter from front to
+
+252
+00:18:32,766 --> 00:18:33,786
+回来 摆
+back. Okay.
+
+253
+00:18:36,276 --> 00:18:41,646
+最后但并非最不重要的是,转换键的第三个是旋转.
+Last but not least, the third of the transformation keys is rotation.
+
+254
+00:18:42,216 --> 00:18:48,126
+快捷键R. 好吗? 和其他一样,如果你用
+Shortcut key R. Okay? And similar to the other ones, if you modify that with
+
+255
+00:18:48,246 --> 00:18:53,526
+例如,当修改为 Z 轴时,它会随轴旋转
+a axis, like for instance, when modified to the Z-axis, it will rotate with the
+
+256
+00:18:53,586 --> 00:18:55,806
+蓝线作为它的旋转中心.
+blue line as its center of rotation.
+
+257
+00:18:57,066 --> 00:18:58,116
+同样,R,
+Similarly, R,
+
+258
+00:19:01,206 --> 00:19:04,956
+X将使用红线作为其旋转中心,以及
+X will use the red line as its center of rotation, and
+
+259
+00:19:07,206 --> 00:19:10,926
+R,Y将使用绿线作为旋转中心.
+R, Y will use the green line as the center of rotation.
+
+260
+00:19:11,676 --> 00:19:17,526
+如果不使用任何修改键,则旋转轴
+If you do not use any of the modifier keys and you do rotation, the axis
+
+261
+00:19:17,586 --> 00:19:22,926
+它会用来旋转 将是你的脸和
+that it will use for the rotation will be the imaginary axis between your face and
+
+262
+00:19:22,956 --> 00:19:27,966
+屏幕。 所以,如果我现在做R 旋转它, 它使用这个想象的线
+the screen. So if I do R right now and rotate it, it uses this imaginary line
+
+263
+00:19:28,056 --> 00:19:30,697
+介于面部和屏幕之间,作为旋转的中心。
+between face and screen as the center of rotation.
+
+264
+00:19:33,606 --> 00:19:34,656
+摆 目前情况如何?
+Okay. Good so far?
+
+265
+00:19:36,876 --> 00:19:39,066
+不错 好吧,我们走。 谢谢你,蒂娜,你的拇指。
+Good. All right. Thank you, Tina, for the thumbs up.
+
+266
+00:19:39,126 --> 00:19:42,066
+让我觉得我知道自己在做什么
+Makes me feel infinitely better that I know what I'm doing.
+
+267
+00:19:42,516 --> 00:19:47,916
+好吧,所以在这之后, 让我们去操纵 这个立方体的细微方面。
+All right, so after this, let's go on and manipulate the fine aspects of this cube.
+
+268
+00:19:47,976 --> 00:19:51,126
+这是一个非常无聊的立方体 现在。 让我们做一些有趣的事情。
+It's a really boring cube right now. Let's do something fun.
+
+269
+00:19:51,486 --> 00:19:53,826
+我提到,我们目前处于物体模式。
+I mentioned that we are currently in object mode.
+
+270
+00:19:53,886 --> 00:19:58,506
+为了得到微观调整,我们需要进入编辑模式.
+In order to get to micro adjustments, we need to go into edit mode.
+
+271
+00:19:58,986 --> 00:20:04,656
+在对象切换之间、对象模式和编辑模式之间的快捷键
+The shortcut key to get between object to toggle, between object mode and edit mode
+
+272
+00:20:04,776 --> 00:20:10,326
+是键盘上的 Tab 键。 所以,如果你打塔布, 你会看到顶端左
+is the Tab key on your keyboard. So if you hit Tab, you'll see that the top left
+
+273
+00:20:11,437 --> 00:20:12,906
+窗口从这里更改
+window here changes from
+
+274
+00:20:14,136 --> 00:20:18,816
+对象编辑,您注意到您的立方体现在具有额外的特性。
+object to edit, and you notice that your cube has extra features now.
+
+275
+00:20:18,876 --> 00:20:23,556
+它有这些小点, 好吧,在角落,例如。
+It has these little dots, okay, on the corners, for instance.
+
+276
+00:20:24,937 --> 00:20:30,246
+因此,如果我选择外 取消任何选择, 我选择这个特别
+And so if I select outside to deselect anything, and I select this particular
+
+277
+00:20:30,336 --> 00:20:34,416
+转角,然后现在我可以 应用任何我的转换键,对不对?
+corner, and then now I can apply any of my transformation keys, right?
+
+278
+00:20:34,506 --> 00:20:39,546
+如果我打G的移动或抓, 现在我可以移动那个角落,我可以开始
+If I hit G for move or grab, now I can just move that corner, and I can start
+
+279
+00:20:39,636 --> 00:20:42,156
+到处玩它的形状。 摆
+playing around with its shape. Okay.
+
+280
+00:20:43,176 --> 00:20:47,256
+我可以走这个拐角,我可以像以前一样把它限制在轴上。
+I can take this corner, and I can constrain it to axis just like before.
+
+281
+00:20:47,316 --> 00:20:52,687
+例如,G和Z,我可以移动这个角落, 我可以拿这个,
+For instance, G and then Z, I can move this corner up, and I can take this one and
+
+282
+00:20:52,716 --> 00:20:55,596
+我可以说G和X,我可以把它移动到X方向。
+can say G and X, I can move it in the X direction.
+
+283
+00:20:56,076 --> 00:20:58,926
+现在我有一个比立方体更有趣的东西。
+And now I have a much more interesting object than a cube.
+
+284
+00:21:01,447 --> 00:21:06,876
+类似地,你可以缩放事物。 哦,我忘了提了,有三个选择
+Similarly, you can scale things. Oh, I forgot to mention, there are three selection
+
+285
+00:21:06,937 --> 00:21:09,187
+在编辑模式中可以使用的模式。
+modes that are possible in edit mode.
+
+286
+00:21:09,516 --> 00:21:14,076
+目前,我们处于顶点选择模式,这意味着你可以选择其中之一。
+Currently, we're in the vertex select mode, which means you can select one of the
+
+287
+00:21:14,526 --> 00:21:20,105
+在角落的点。 这里的中间,首先,顶点选择模式,
+dots at the corner. The middle one here, first of all, the vertex select mode, the
+
+288
+00:21:20,166 --> 00:21:22,506
+快捷键是键盘上的第一。
+shortcut key for that is the number one on your keyboard.
+
+289
+00:21:23,076 --> 00:21:27,187
+第二个选择模式是边缘选择模式,这在键盘上是两个.
+The second selection mode is edge select mode, and that's two on your keyboard.
+
+290
+00:21:27,636 --> 00:21:31,116
+如果你处于边缘选择模式,而不是选择角,你会选择
+If you're in edge select mode, instead of selecting corners, you'll be selecting
+
+291
+00:21:31,236 --> 00:21:33,846
+定义您所在的许多边缘之一
+one of the many edges that defines your
+
+292
+00:21:35,226 --> 00:21:40,986
+对象。 就像以前一样 你可以使用任何转换命令 移动
+object. And just like before, you can use any of the transformation commands, move,
+
+293
+00:21:41,106 --> 00:21:45,336
+缩放,在选择时旋转。 所以我要去G,我可以移动它。
+scale, rotate on your selection. So I'm going to G and I can move it.
+
+294
+00:21:46,356 --> 00:21:52,266
+我可以缩放它。 我可以旋转它,选中的
+I can S to scale it. I can R to rotate it, the selected
+
+295
+00:21:52,386 --> 00:21:57,156
+边缘。 摆 现在,就像我说的,我有一个更有趣的东西。
+edge. Okay. And now, like I said, I have a much more interesting object now.
+
+296
+00:21:58,026 --> 00:22:02,706
+最后但并非最不重要的是,如果你在键盘上放三个,你就可以选择面部
+Last but not least, if you put three on your keyboard, you get to the face select
+
+297
+00:22:02,796 --> 00:22:06,396
+模式,然后选择对象的面部。
+mode, and you'll select one of the faces of the object that you have.
+
+298
+00:22:06,906 --> 00:22:10,687
+再说一次 你可以操纵它 所以,G,我可以移动它在这里,
+And again, you can manipulate it. So G, I can move it out here,
+
+299
+00:22:12,636 --> 00:22:14,916
+R来旋转,随便你
+R to rotate it, whatever you want to do.
+
+300
+00:22:16,206 --> 00:22:16,416
+好吗?
+Okay?
+
+301
+00:22:18,336 --> 00:22:24,096
+到目前为止,这样好吗? 所以编辑模式,微调整,所有转换
+So far, so good? So edit mode, micro adjustments, all of the transformation
+
+302
+00:22:24,126 --> 00:22:29,766
+您早先使用的指令, 包括轴限制, 将在
+commands that you used earlier, including the axis constraints, will work on the
+
+303
+00:22:29,826 --> 00:22:31,986
+对象。 我要还给你
+object. I'm going to return it to
+
+304
+00:22:33,216 --> 00:22:35,616
+此处的立方体形式通过撤消
+the cube form here by doing undo
+
+305
+00:22:38,076 --> 00:22:43,447
+许多,很多次。 还有一件事,你注意到我做了26次
+many, many times. And one thing, you notice that I've done 26 undos to get
+
+306
+00:22:43,926 --> 00:22:45,576
+我的操控器回到立方体。
+my manipulations back to the cube.
+
+307
+00:22:45,966 --> 00:22:50,316
+当你进入Blender时 我要做的第一件事就是增加人数
+The first thing I would do whenever you get into Blender is to increase the number
+
+308
+00:22:50,376 --> 00:22:52,776
+你有能力使用的东西
+of undos that you're capable of using.
+
+309
+00:22:52,836 --> 00:22:55,986
+所以,你这样做 通过去编辑,首选,
+So you do that by going to Edit, Preferences,
+
+310
+00:22:57,336 --> 00:23:02,947
+系统 这里的记忆极限,有
+System. And here under Memory Limits, there's
+
+311
+00:23:03,036 --> 00:23:08,947
+a 分类称为 Undo 步骤。 默认是16步或32步之类的.
+a category called Undo Steps. The default is something like 16 steps or 32 steps.
+
+312
+00:23:09,396 --> 00:23:14,706
+我做了150 因为我总是犯错误 我想能够
+I made mine 150 because I make mistakes all the time, and I want to be able to
+
+313
+00:23:15,096 --> 00:23:17,766
+重做,撤销,撤销,撤销, 得到一个点,我很高兴。
+redo, undo, undo, undo, and get to a point where I'm happy with.
+
+314
+00:23:18,276 --> 00:23:19,806
+这是一种方式 排序,
+That's one way to sort of,
+
+315
+00:23:21,036 --> 00:23:25,596
+来控制历史,修改对象的历史。
+to control the history, the modification history to your object.
+
+316
+00:23:26,406 --> 00:23:32,256
+另一个非常有用的方法,我还没有这样做, 为了拯救我的物体或
+Another very useful way, and I haven't done this yet, to save my object or
+
+317
+00:23:32,316 --> 00:23:38,106
+我的文件,你不应该惊讶, 这是控制+S或命令+S,
+my file, you shouldn't be surprised, it's Control + S or Command + S, and this
+
+318
+00:23:38,166 --> 00:23:40,386
+保存它, 你可以保存它 无论你想在哪里。
+saves it, and you can save it wherever you want.
+
+319
+00:23:40,447 --> 00:23:43,356
+今以教名存此经.
+I'm going to save it here under the name Tutorial.
+
+320
+00:23:45,576 --> 00:23:48,246
+摆 像这样 救赎.
+Okay. Like that. Save.
+
+321
+00:23:49,896 --> 00:23:54,816
+现在我要对这里的物体 进行一系列的操纵
+And now I'm going to make a bunch of manipulations to my object here.
+
+322
+00:23:55,986 --> 00:23:57,876
+其实,你知道吗? 没关系
+Well, actually, you know what? No, it's okay.
+
+323
+00:23:57,966 --> 00:24:03,906
+然后,我不知道,移动这个像这样, 拿着这张脸,
+And then, I don't know, move this like this, take this face,
+
+324
+00:24:04,056 --> 00:24:06,426
+旋转一下,走这边
+rotate it, take this corner
+
+325
+00:24:08,346 --> 00:24:11,676
+向上移动 好吧,这就是我的新对象。
+and move it up. Okay, so that's my new object.
+
+326
+00:24:12,456 --> 00:24:17,076
+现在,我不百分之百确定我喜欢这个物体, 也许我想回到立方体。
+Now, I'm not 100% sure I like this object, and maybe I want to go back to the cube.
+
+327
+00:24:17,226 --> 00:24:22,806
+因此,一个保存不同版本同一文件的方法是在File下,
+So one way to save different versions of the same file is under File,
+
+328
+00:24:22,896 --> 00:24:28,086
+这里有"保存","保存","保存副本",最后一张在这里,"保存递增".
+there's Save, Save As, Save Copy, and the last one here, Save Incremental.
+
+329
+00:24:28,716 --> 00:24:32,526
+所以如果我选择增量保存,我告诉你,我的文件名称是现在
+So if I choose Save Incremental, I told you that my file name is currently
+
+330
+00:24:32,586 --> 00:24:38,465
+教书,但如果我节省增量, 我的档案现在的名字是教书
+Tutorial, but if I do save incremental, my name of my file is now Tutorial
+
+331
+00:24:38,735 --> 00:24:41,826
+1. 现在我有两个形状相同的文件。
+1. So now I have two files that have the same shape.
+
+332
+00:24:41,886 --> 00:24:46,356
+我有教书和教书一。 如果因为什么原因我不喜欢我拥有的东西
+I have Tutorial and Tutorial 1. And if for whatever reason I don't like what I've
+
+333
+00:24:46,416 --> 00:24:51,846
+刚刚完成的,我可以返回 回到文件,打开最近,教学,
+just done here, I can revert back by going to File, Open Recent, Tutorial,
+
+334
+00:24:52,447 --> 00:24:54,366
+我可以回到我的立方体形状。 好吗?
+and I can go back to my cube shape. Okay?
+
+335
+00:24:54,756 --> 00:24:59,406
+所以如果你做了一个非常复杂的模型, 而且你不是1000 %确定
+So if you're doing an incredibly complex model, and you're not 1,000% sure that
+
+336
+00:24:59,466 --> 00:25:03,937
+你接下来要做的是 毁掉你创造的所有优秀作品
+what you do next is going to destroy all of the wonderful work you've created so
+
+337
+00:25:03,996 --> 00:25:08,796
+远处,您可以节省增量来保存不同的
+far, you can do save incremental to save different
+
+338
+00:25:09,966 --> 00:25:13,986
+在你的文件中的里程碑点, 所以你不会弄乱 一些精彩的工作,
+milestone points within your file so you don't mess up some wonderful work that
+
+339
+00:25:14,016 --> 00:25:16,416
+你以前做过,你还得回去
+you've done before, and you have a point to return to.
+
+340
+00:25:17,886 --> 00:25:22,986
+你听到了吗? 可以吗? 拇指起来,蒂娜? 好吧,我们走。 真不错
+Did you catch that? Is that okay? Thumbs up, Tina? All right. Wonderful.
+
+341
+00:25:23,076 --> 00:25:23,947
+谢谢
+Thank you very much.
+
+342
+00:25:25,506 --> 00:25:29,556
+好吧,所以,一个新的命令给你 现在,我们正在编辑模式。
+All right, so, a new command for you now that we're in edit mode.
+
+343
+00:25:29,616 --> 00:25:32,916
+我提到你可以拿这些顶点来操纵它。
+I mentioned that you can take these vertices and manipulate it.
+
+344
+00:25:32,976 --> 00:25:37,416
+如果你想玩更多的顶点呢? 让我们改变这个东西的形状。
+What if you want more vertices to play with? Let's change the shape of this thing.
+
+345
+00:25:37,506 --> 00:25:42,937
+我要从这个可爱的立方体里快速做个香水瓶,好吗?
+I'm going to quickly make a perfume bottle out of this lovely cube, okay?
+
+346
+00:25:43,476 --> 00:25:46,326
+所以,我要做的是 我要打A为所有人,
+So what I'm going to do is I'm going to hit A for all,
+
+347
+00:25:47,736 --> 00:25:51,366
+我要把它放大到Y方向 把它压碎
+and I'm going to scale it in the Y direction to squash it.
+
+348
+00:25:51,546 --> 00:25:53,646
+然后我要做一个香奈儿瓶子 比如说,对不对?
+Then I'm going to make a Chanel bottle, for instance, right?
+
+349
+00:25:54,096 --> 00:25:57,846
+因此,在Y方向的尺度。 我要把它挤进一点点 给它
+So scale in the Y direction. I'm going to squeeze it in a little bit to give it
+
+350
+00:25:57,906 --> 00:26:00,516
+其实,我不知道香奈儿瓶子是什么样子
+more of a-- Actually, I don't know what a Chanel bottle looks like.
+
+351
+00:26:01,056 --> 00:26:02,677
+这将会是我的版本 香奈尔瓶。
+This is going to be my version of a Chanel bottle.
+
+352
+00:26:02,976 --> 00:26:06,396
+但是,好吧,所以我们需要某种
+But, all right, so we're going to need some kind of
+
+353
+00:26:09,306 --> 00:26:11,226
+脖子给我的瓶子 然后
+neck for my bottle and then
+
+354
+00:26:12,696 --> 00:26:17,346
+我瓶子的顶盖 因此,我并没有增加一堆几何, 我只是去
+a top cap for my bottle. So instead of adding a bunch of geometry, I'm just going
+
+355
+00:26:17,377 --> 00:26:20,046
+用我现有的几何学来操纵它
+to take my existing geometry and manipulate it.
+
+356
+00:26:20,556 --> 00:26:25,806
+将三击进入面部选择模式,我将选择顶部表面.
+Hitting three to go into face select mode, I'm going to select the top surface.
+
+357
+00:26:26,496 --> 00:26:29,496
+我用我的命令来做一个陷害,
+I use the I command to do an inset,
+
+358
+00:26:31,416 --> 00:26:34,177
+好吧,创建一个新的子面。
+okay, to create a new kind of sub-face.
+
+359
+00:26:34,656 --> 00:26:38,946
+我将放大这个小面 通过缩放在X使其更加平坦
+I'm going to scale this sub-face to make it more square by scaling it in the X
+
+360
+00:26:38,976 --> 00:26:40,896
+要让它更加平坦
+direction to make it more square.
+
+361
+00:26:42,516 --> 00:26:46,416
+好吗? 我要敲E键 以放大形状。
+All right? I'm going to hit the E key to extrude the shape up.
+
+362
+00:26:48,576 --> 00:26:53,406
+好吧,所以这是我的脖子 我的香水瓶。 现在我要做这个盖子。
+Okay, so that's my neck of my perfume bottle. Now I'm going to make the cap.
+
+363
+00:26:53,526 --> 00:26:56,466
+所以,我可以做的是 我将再次挤压它。
+So what I can do is I'm going to extrude it one more time.
+
+364
+00:26:57,006 --> 00:27:00,576
+但首先我想大一点, 所以我要做E,然后S。
+But first I want to go bigger, so I'm going to do E and followed by S.
+
+365
+00:27:00,636 --> 00:27:05,736
+因此,挤压和规模 同时做相反的 内置和去
+So extrude and scale at the same time to do the opposite of inset and go on the
+
+366
+00:27:05,826 --> 00:27:11,677
+外面像这样。 摆 然后从这架平板飞机上,我要上去,
+outside like this. Okay. And then from this flat plane, I'm going to go up,
+
+367
+00:27:11,976 --> 00:27:14,826
+E要上去了,这是我的香水瓶帽子
+E to go up, this is going to be my perfume bottle hat.
+
+368
+00:27:15,486 --> 00:27:18,696
+更有意思的是,我要把顶部放大一点
+And to make it more interesting, I'm going to scale the top a little bit to give it
+
+369
+00:27:18,726 --> 00:27:19,476
+略显形体.
+a little bit of shape.
+
+370
+00:27:20,752 --> 00:27:24,201
+然后再次挤压它,再次缩放,
+And then extrude it again, scale it again,
+
+371
+00:27:25,521 --> 00:27:30,442
+并再次挤压它。 好吧,这就是我可爱的香水瓶
+and extrude it one more time. All right, so this is my lovely perfume bottle made
+
+372
+00:27:30,502 --> 00:27:35,481
+刚刚被挤出 和一点点的缩放。 摆
+out of just inset extrusion and a little bit of scaling. Okay.
+
+373
+00:27:37,942 --> 00:27:43,281
+我要击打Tab,回到物体模式 击打G,Z,把这个移到上面
+I'm going to hit Tab to go back into object mode and hit G, Z to move this up above
+
+374
+00:27:43,341 --> 00:27:44,271
+工作飞机。
+the work plane.
+
+375
+00:27:45,891 --> 00:27:47,661
+好吧,现在我们要去
+All right, now we're going to
+
+376
+00:27:49,041 --> 00:27:53,151
+给它一些材料。 有了这个物体,我要去红色
+give it some materials. With this object selected, I'm going to go to the red
+
+377
+00:27:53,211 --> 00:27:58,101
+在此属性窗口上的 checker ball,单击 New 创建新材料。
+checker ball on the properties window here, click New to create a new material.
+
+378
+00:27:59,511 --> 00:28:03,531
+故香水瓶底应净玻璃.
+So the bottom of the perfume bottle should be clear glass.
+
+379
+00:28:04,101 --> 00:28:09,560
+所以,我要做的是, 首先,我叫这个事情清楚
+So what I'm going to do is, first I'm going to call this thing clear
+
+380
+00:28:10,371 --> 00:28:13,761
+杯子。 。 。 。 实际上,我要把它弄成蓝色,以便有一点颜色。
+glass. Actually, I'm going to make it blue so that there's a little bit of color.
+
+381
+00:28:13,821 --> 00:28:15,321
+蓝玻璃.
+Blue glass.
+
+382
+00:28:18,471 --> 00:28:23,391
+目前,这里的表面类型叫做Princed BSDF.
+And currently, the surface type here is called Principled BSDF.
+
+383
+00:28:24,291 --> 00:28:25,521
+我不想那样 我想这样
+I don't want that. I want it to be
+
+384
+00:28:26,721 --> 00:28:32,541
+杯子。 。 。 。 所以我要点击这个原则BSDF, 而不是选择格拉斯BSDF。
+glass. So I'm going to click this Principled BSDF, and instead choose Glass BSDF.
+
+385
+00:28:33,291 --> 00:28:37,041
+我将点击"彩色"并修改为略为蓝色.
+I'm going to click on Color and change it to be slightly blue.
+
+386
+00:28:38,181 --> 00:28:41,841
+如果你想看看是什么样子, 你可以去预览,你可以看到
+And if you want to see what that looks like, you can go to Preview and you can see
+
+387
+00:28:41,901 --> 00:28:47,661
+这就是它的样子。 我要拿粗糙的值来做
+this is what it would look like. I'm going to take the roughness value and make it
+
+388
+00:28:47,752 --> 00:28:50,721
+至零,使它变得非常,非常闪亮和清晰。
+to zero so that it becomes very, very shiny and clear.
+
+389
+00:28:51,471 --> 00:28:56,271
+现在,如果我去伦德预览, 这里的第三个视图模式, 你可以看到我的
+And now if I go to Render Preview, the third view mode here, you can see that my
+
+390
+00:28:56,391 --> 00:28:56,720
+对象,
+object,
+
+391
+00:28:58,550 --> 00:29:00,951
+还没有通过 因为我没有进入完全渲染模式
+it's not see-through yet because I'm not in full render mode.
+
+392
+00:29:00,981 --> 00:29:02,332
+如果我去完全渲染模式,
+If I go to full render mode,
+
+393
+00:29:04,641 --> 00:29:06,381
+好吧,我打开灯。
+okay, and I turn on my light.
+
+394
+00:29:08,391 --> 00:29:13,221
+我的灯呢? 在这里。 控制G,X,我们移到这里
+Where's my light? Over here. Control G, X. Let's move it here.
+
+395
+00:29:13,791 --> 00:29:19,011
+需要让我的光变强一点,我想。 为什么它不出现?
+Need to make my light a little bit stronger, I guess. Why is it not showing up?
+
+396
+00:29:20,812 --> 00:29:21,052
+瓳
+Huh.
+
+397
+00:29:22,821 --> 00:29:23,931
+好吧 我不喜欢这个光
+All right, I don't like this light.
+
+398
+00:29:23,991 --> 00:29:27,201
+我要通过点击键盘上的删除键来删除这个光线.
+I'm going to delete this light by hitting the delete key on my keyboard.
+
+399
+00:29:27,861 --> 00:29:30,591
+我准备去A班 所以换A
+I'm going to Shift A to add. So Shift A.
+
+400
+00:29:30,651 --> 00:29:36,351
+在对象模式建模窗口中,Shift A允许您添加任何东西.
+When you're in the object mode modeling window, Shift A allows you to add anything.
+
+401
+00:29:36,442 --> 00:29:40,011
+它允许您添加一个新的几何. 它允许你添加一个新的光。
+It allows you to add a new geometry. It allows you to add a new light.
+
+402
+00:29:40,281 --> 00:29:43,582
+所以这里我要增加一个区域光线。 我喜欢区灯
+So here I'm going to add an area light. I like area lights.
+
+403
+00:29:44,241 --> 00:29:49,192
+G,Z来移动区域光线,S来放大它,所以它有点大.
+G, Z to move the area light up, S to scale it so it's a little bit bigger.
+
+404
+00:29:49,971 --> 00:29:51,261
+然后我会去 -
+Then I'm going to go to--
+
+405
+00:29:52,821 --> 00:29:57,442
+当我选择灯光,属性菜单 改变一点点,我有在
+When I select the light, the properties menu changes a little bit and I have at the
+
+406
+00:29:57,502 --> 00:30:02,511
+绿色的灯泡图标,现在光的力量就是
+very bottom a light bulb icon in green, and right now the power of that light is
+
+407
+00:30:02,601 --> 00:30:06,891
+10,我会做1000, 看看我是否得到更多的光在我的物体。
+10. I'm going to make that 1,000 and see if I get more light on my object.
+
+408
+00:30:08,302 --> 00:30:12,351
+为什么不告诉我清楚? 也许我需要再加一点
+Why is it not showing me clear? Maybe I need to add one more thing.
+
+409
+00:30:12,381 --> 00:30:18,201
+我要在这个场景的底部增加一架飞机. 飞机
+I'm going to add a plane at the bottom of this scene. Mesh, plane.
+
+410
+00:30:19,221 --> 00:30:19,911
+放大一点
+Scale it up
+
+411
+00:30:21,531 --> 00:30:23,721
+所以它有东西看。
+so that it has something to look at.
+
+412
+00:30:24,502 --> 00:30:30,231
+我要点击红色检查板图标 让飞机颜色变黑
+I'm going to click on the red checkerboard icon and make the plane black color
+
+413
+00:30:31,371 --> 00:30:34,370
+或者灰色这样... 单单
+or gray so that-- Oh, wait a minute.
+
+414
+00:30:34,431 --> 00:30:37,641
+我不太清楚为什么我不... 嗯,不,这是透明的。
+I'm not quite sure why I'm not-- Well, no, it is transparent.
+
+415
+00:30:37,942 --> 00:30:42,321
+你可以看到黄线正在穿过这里的后面。
+You can kind of see that the yellow line is crossing through the back of this.
+
+416
+00:30:42,681 --> 00:30:46,101
+我觉得我必须把它弄明白
+I think I have to render this in order to get it to be clear.
+
+417
+00:30:46,611 --> 00:30:51,861
+总之,你必须接受我的话 这瓶酒现在有杯子
+Anyway, you'll have to take my word for it that currently this bottle has a glass
+
+418
+00:30:52,341 --> 00:30:56,871
+特性。 现在,你对我说:"我不想让这东西的顶部是玻璃.
+feature. Now you're saying to me, "I don't want the top of this thing to be glass.
+
+419
+00:30:56,991 --> 00:30:59,841
+我希望它是,说, 黑色塑料或类似的东西。
+I want it to be, say, black plastic or something like that.
+
+420
+00:31:00,261 --> 00:31:05,781
+我怎样才能把物资分配本地化呢?" 您输入了编辑模式。
+How can I localize material assignment?" You do that by entering into edit mode.
+
+421
+00:31:06,082 --> 00:31:10,911
+所以 Tab 可以进入编辑模式. 我要打到三个人 做面部选择,我
+So Tab to get into edit mode. I'm going to hit three to do face select, and I'm
+
+422
+00:31:10,942 --> 00:31:14,211
+首先,我需要增加一个新的材料。
+going to select the-- First of all, I need to add a new material.
+
+423
+00:31:14,271 --> 00:31:17,901
+所以,我要去这里,点击的加, 确保你是在红色
+So I'm going to go over here, click on the plus, make sure you're in the red
+
+424
+00:31:17,991 --> 00:31:21,531
+复选板图标。 点击加号以添加第二个材料 。
+checkerboard icon. Click plus to add a second material.
+
+425
+00:31:21,741 --> 00:31:27,052
+点击 New, 让我们把顶部的亮度做成红色 。 我不知道.
+Click New, and let's make the top bright red. I don't know.
+
+426
+00:31:27,651 --> 00:31:33,562
+我知道Coco Chanel会用这么恐怖的颜色对我大喊大叫 但是
+I know Coco Chanel would be screaming at me for using such horrific colors, but
+
+427
+00:31:33,621 --> 00:31:36,411
+我要说红塑料
+I'll say red plastic
+
+428
+00:31:37,971 --> 00:31:42,562
+作为名字。 你可以玩的粗糙 让它少或更闪亮,上
+as the name. And you can play with the roughness to make it less or more shiny, up
+
+429
+00:31:42,591 --> 00:31:47,332
+给你的。 我要通过减少粗糙度来使它变得非常闪亮.
+to you. I'm going to make it very shiny by reducing the roughness.
+
+430
+00:31:48,052 --> 00:31:53,931
+现在,为了把这个应用到上面, 我要点击的脸
+And now, to apply that to the top part here, I'm going to click on the face that
+
+431
+00:31:54,021 --> 00:31:58,521
+我想这么做 I want. 如果按住转向键,可以继续选择其他面孔.
+I want. If you hold down the shift key, you can continue to select other faces.
+
+432
+00:32:00,442 --> 00:32:05,661
+好吧,我要去旋转这个周围, 确保我得到的一切旋转周围。
+Okay, I'm going to rotate this around, make sure I get everything rotated around.
+
+433
+00:32:08,511 --> 00:32:10,971
+好吧,这就是我想要的红色塑料部分。
+All right, so this is the part I want to be red plastic.
+
+434
+00:32:12,201 --> 00:32:15,591
+确保你选择红色塑料, 和下面有一个叫"指定"的按钮。
+Make sure you select red plastic, and underneath there's a button called Assign.
+
+435
+00:32:15,681 --> 00:32:19,582
+当我点击 Assign 时, 这个对象的顶部将会是不同的
+When I click Assign, the top of this object is now going to be a different
+
+436
+00:32:19,641 --> 00:32:25,431
+物质。 这就是你如何完成本地化的物质任务。 好吗?
+material. So that's how you do localized material assignment. Okay?
+
+437
+00:32:27,562 --> 00:32:32,991
+好吧,所以现在你有一个不这么漂亮的物体, 想看看它是什么样子
+All right, so now you have a not so beautiful object, and want to see what it looks
+
+438
+00:32:33,052 --> 00:32:37,671
+就像你做它,好吗? 这里我们回到属性菜单,
+like if you render it, okay? Here's where we go back to the properties menu, the
+
+439
+00:32:37,761 --> 00:32:42,711
+非常顶级的图标,第二到顶级的图标,它看起来像DSLR的背面.
+very top icon, the second to top icon, which looks like the back of the DSLR.
+
+440
+00:32:45,111 --> 00:32:49,942
+好吧,现在我们是在EV模式。 也许这就是为什么,你叫它什么?
+Okay, right now we are in EV mode. That's probably why the, what do you call it?
+
+441
+00:32:50,002 --> 00:32:52,701
+透明度表现得不太好。
+The transparency is not showing up very well.
+
+442
+00:32:53,361 --> 00:32:59,181
+顺便说一句,EV是电影"流"中用来 做它的全部
+By the way, EV was what was used in the movie Flow to do the entirety of its
+
+443
+00:32:59,451 --> 00:33:05,151
+动画渲染. 我有一个相当好的计算机 与图形卡,所以我
+animation rendering. I have a reasonably good computer with a graphics card, so I'm
+
+444
+00:33:05,181 --> 00:33:09,861
+将去使用循环,这是一个更先进,更现实的渲染
+going to go and use Cycles, which is a more advanced, more realistic rendering
+
+445
+00:33:09,921 --> 00:33:15,502
+模式。 事实上,我会确保我的GPU 参与渲染
+mode. And in fact, I'm going to make sure that my GPU is involved in the rendering
+
+446
+00:33:15,562 --> 00:33:20,961
+进程。 我会给你做个样本
+process. And I'm going to just do a sample render here for you.
+
+447
+00:33:21,082 --> 00:33:25,401
+所以,最多样本,我只是要 减少为32 现在使这个去
+So max samples, I'm just going to reduce this to 32 for now to make this go a
+
+448
+00:33:25,431 --> 00:33:28,582
+有点快。 为了展现出这个形象
+little bit faster. And to render out this image,
+
+449
+00:33:30,111 --> 00:33:33,291
+您需要设置相机来查看这个图像 。
+you need to set the camera to look at this image.
+
+450
+00:33:33,711 --> 00:33:35,752
+这会很快的,我很抱歉。
+This is going to go fast, my apologies.
+
+451
+00:33:36,141 --> 00:33:36,771
+所以,视图,
+So View,
+
+452
+00:33:38,211 --> 00:33:42,981
+对齐视图,将活动相机对齐到视图,像这样.
+Align View, Align Active Camera to View, like so.
+
+453
+00:33:43,821 --> 00:33:48,291
+然后,我需要敲N键 弹出这边,去Video,
+And then I need to hit the N key to pop out the side here, go to View,
+
+454
+00:33:49,552 --> 00:33:53,391
+并点击锁定到3D光标和相机查看。
+and hit Lock to 3D Cursor and Camera to View.
+
+455
+00:33:53,420 --> 00:33:59,391
+然后,我可以放大 进出 使我的物体 在我的视野端口,当我
+And then I can zoom in and out to position my object nicely into my view port as I
+
+456
+00:33:59,451 --> 00:34:03,832
+想要这个 好吧,我们就这样算了 N 键以隐藏侧面板 。
+want it. Okay, we'll leave it like that. N key to hide the side panel.
+
+457
+00:34:04,312 --> 00:34:07,101
+然后你去伦德,伦德图像,
+And then you go to Render, Render Image,
+
+458
+00:34:08,391 --> 00:34:09,681
+它会揭示你的形象。
+and it will render out your image.
+
+459
+00:34:13,401 --> 00:34:18,741
+好吧,现在你可以看到,它是玻璃和塑料, 好吧,因为我们试图制造
+Okay, and you can see now that it's glass and plastic, okay, as we tried to make
+
+460
+00:34:18,802 --> 00:34:22,641
+这个 当然,你可以花更多的时间 照明和物质调整
+it. Of course, you could spend a lot more time on lighting and material adjustments
+
+461
+00:34:22,672 --> 00:34:25,521
+让这更美丽 但这是开始
+to get this to be more beautiful, but this is the beginning of it.
+
+462
+00:34:25,881 --> 00:34:31,042
+一旦你有你喜欢的渲染, 如果你想真正下载它
+Once you have a rendering that you like, if you want to actually download it for
+
+463
+00:34:31,192 --> 00:34:36,411
+在文档中使用什么的,你可以去图像,保存,然后
+use in your documentation or whatever, you can go to Image, Save, and then
+
+464
+00:34:36,621 --> 00:34:40,461
+显然,选择一个地方。 我会把它保存到下载,我会把它叫做
+obviously choose a place. I'm going to save it into downloads, and I'll call it
+
+465
+00:34:40,521 --> 00:34:42,471
+教程渲染。
+tutorial render.
+
+466
+00:34:45,172 --> 00:34:49,911
+好吧,所以现在如果我去 我的视窗探索器,
+Okay, so now if I go to my Windows Explorer,
+
+467
+00:34:51,651 --> 00:34:56,361
+去下载,我这里有一个文件,叫做教程,我可以... 是你吗?
+go to Downloads, I have a file here called tutorial render that I can-- Are you
+
+468
+00:34:56,422 --> 00:35:00,052
+看着它? 我希望你能看见 你看到我的Windows探索器了吗? 是的,你是这样。
+looking at it? I'm hoping you see it. You seeing my Windows Explorer? Yes, you are.
+
+469
+00:35:00,442 --> 00:35:03,861
+好吧,所以我双击 教学图像。
+Okay, so I double-click on tutorial image.
+
+470
+00:35:03,922 --> 00:35:05,001
+你会明白的
+You'll see that
+
+471
+00:35:08,601 --> 00:35:10,221
+我有一个我展示出来的形象。
+I have this image that I rendered out.
+
+472
+00:35:13,071 --> 00:35:18,531
+好吧,所以这是一个荒谬的快速巡演 通过基本
+All right, so that was a ridiculously fast tour through the fundamentals of
+
+473
+00:35:18,591 --> 00:35:19,071
+布莱德
+Blender.
+
+474
+00:35:20,811 --> 00:35:25,911
+你们中有多少人在惊慌失措 对你决定加入本届会议感到后悔
+How many of you are panicking that you regret your decision to join this session
+
+475
+00:35:25,942 --> 00:35:26,361
+今天吗?
+today?
+
+476
+00:35:29,661 --> 00:35:30,951
+好吧,到目前为止好吗?
+All right, so far so good?
+
+477
+00:35:33,141 --> 00:35:33,381
+摆
+Okay.
+
+478
+00:35:36,501 --> 00:35:42,442
+好,我要把可爱的飞机和香水藏起来
+All right, I'm going to hide my lovely plane and perfume
+
+479
+00:35:42,501 --> 00:35:44,511
+瓶子,我要去 模拟别的东西。
+bottle, and I'm going to model up something else.
+
+480
+00:35:44,571 --> 00:35:49,521
+我要模拟一个非常简单的卡通人物 给你看一些其他的
+I'm going to model up a very simple cartoon character and to show you some other
+
+481
+00:35:49,552 --> 00:35:51,922
+如果您想要模拟, 您需要的技术
+techniques that you will need if you want to model up
+
+482
+00:35:53,841 --> 00:35:59,631
+衣服还是什么的 摆 本周的关键内容之一是网格
+clothing or whatever. Okay. One of the key aspects of this week is mesh
+
+483
+00:35:59,661 --> 00:36:03,531
+Blender是一个网络操作软件。
+manipulation, and Blender is a mesh manipulation software.
+
+484
+00:36:03,861 --> 00:36:09,561
+让我举个例子。 我们曾经的飞机 是背景或
+So let me give you an example. The plane that we used to be the background or the
+
+485
+00:36:09,621 --> 00:36:11,361
+我们现场的地板
+floor of our scene
+
+486
+00:36:12,771 --> 00:36:13,521
+刚刚
+is just
+
+487
+00:36:14,781 --> 00:36:16,821
+如所示。 这只是一个公寓
+as it is indicated. It's just a flat
+
+488
+00:36:18,201 --> 00:36:19,672
+平面图。 如果我打中的话
+square plane. If I hit
+
+489
+00:36:20,991 --> 00:36:23,961
+要进入编辑模式,我看到它有四个角。
+Tab to go into edit mode, I see that it has four corners.
+
+490
+00:36:24,381 --> 00:36:27,711
+这是零分层的网状网状网,好吗?
+So this is a mesh with zero subdivisions, okay?
+
+491
+00:36:28,461 --> 00:36:32,091
+现在我要用鼠标点击和撞击 把它变成真正的网状
+Now I'm going to turn it into a real mesh by right mouse clicking and hitting
+
+492
+00:36:32,151 --> 00:36:34,942
+潜化. 所以现在,而不是作为一个
+Subdivide. So now instead of being one
+
+493
+00:36:36,172 --> 00:36:39,501
+里面有一个形状的飞机 有四架飞机
+plane with one shape inside, it's got four planes.
+
+494
+00:36:39,891 --> 00:36:44,811
+我将再次这样做,再细分一次,再细分一次,再细分一次.
+I'm going to do that again, subdivide one more time, one more time, one more time.
+
+495
+00:36:45,459 --> 00:36:50,650
+这是网状的 它是一个表面,上面有许多控制点。
+So this is a mesh. It is a surface with lots of control points on top of it.
+
+496
+00:36:50,769 --> 00:36:56,469
+所以,如果我回去,打一个进入顶点模式, 这个表面现在有很多很多
+So if I go back, hit one to go into vertex mode, this surface now has lots and lots
+
+497
+00:36:56,499 --> 00:37:00,549
+我可以操纵的要点 所以,想象这是手帕 我想
+of points that I can manipulate. So imagine this is a handkerchief and I want to
+
+498
+00:37:00,609 --> 00:37:03,400
+让它看起来很流畅 之类的东西。
+make it look all flowy and stuff like that.
+
+499
+00:37:03,819 --> 00:37:08,139
+我可以进去 选择其中的几个点, 转动键和选择几个
+I can go in here and select a couple of these points, shift key and select a few of
+
+500
+00:37:08,230 --> 00:37:13,689
+这些顶点,并做GZ移动它上去。 好吗?
+these vertices and do GZ to move it up. Okay?
+
+501
+00:37:14,289 --> 00:37:18,129
+但这并不令人满意,因为只有这些点正在上升。
+But that's not very satisfying because only those points are moving up.
+
+502
+00:37:18,699 --> 00:37:23,199
+所以,你可以做的是有一个按钮 在这里的顶部, 这是一个圆形的,
+So what you can do is there's a button up in the top here, which is a circle shape,
+
+503
+00:37:23,739 --> 00:37:28,989
+或快捷键 O,将允许您进行名为比例编辑的工作。
+or the shortcut key O, will allow you to do something called proportional editing.
+
+504
+00:37:29,469 --> 00:37:33,519
+比例编辑不仅允许您操纵
+Proportional editing will allow you to not only manipulate the
+
+505
+00:37:35,139 --> 00:37:39,159
+你刚刚选择的顶点, 但它周围的邻居也一样
+vertices that you just selected, but its surrounding neighbors as well to the
+
+506
+00:37:39,219 --> 00:37:44,349
+程度你控制。 好吗? 所以,现在如果我做GZ, 你会看到有一个灰色
+degree that you control. Okay? So now if I do GZ, you'll see that there's a gray
+
+507
+00:37:44,439 --> 00:37:49,569
+转圈,如果我滚开我的鼠标按钮, 它会越来越小。
+circle there that if I roll my mouse button, it gets bigger and smaller.
+
+508
+00:37:49,989 --> 00:37:52,419
+这个灰色的圆圈是影响范围.
+This gray circle is the area of influence.
+
+509
+00:37:52,900 --> 00:37:54,879
+所以之前的动作... 所以我要关机了
+So the move before-- So I'm going to turn off
+
+510
+00:37:56,379 --> 00:38:01,119
+比例编辑. 再说一次,如果我用GZ来把这些点向上移动,它只会
+proportional editing. And once again, if I do GZ to move these dots upward, it only
+
+511
+00:38:01,179 --> 00:38:05,499
+把那些点拉起来 周围的每一个点 都没有受到影响
+pulls up those dots, and every other dot around it doesn't get affected at all.
+
+512
+00:38:05,859 --> 00:38:11,199
+然而,如果我打开比例编辑与O 或者点击这个按钮在这里,
+However, if I turn on proportional editing with O or click this button up here and
+
+513
+00:38:11,230 --> 00:38:15,939
+做GZ,视我的势力范围大小, 它会提出它的
+do GZ, depending on the size of my area of influence, it will bring up its
+
+514
+00:38:15,999 --> 00:38:16,869
+邻居也一样。
+neighbors as well.
+
+515
+00:38:18,279 --> 00:38:22,329
+好吗? 所以,如果我把圆圈变小,影响就会变小。
+Okay? So if I make the circle smaller, the influence is smaller.
+
+516
+00:38:22,418 --> 00:38:27,909
+如果我把圆圈变大, 它影响更多的表面,
+If I make the circle bigger, it influences more of the surface, the
+
+517
+00:38:27,999 --> 00:38:29,769
+我在玩游戏
+mesh that I'm playing with.
+
+518
+00:38:31,749 --> 00:38:35,109
+酷,对不对? 我想这对你们来说应该是一个精彩的时刻。
+Cool, right? I think that this should be a wow moment for some of you.
+
+519
+00:38:35,379 --> 00:38:40,989
+好吧,所以一个顶点。 现在我要再操控一次这个GZ
+Okay, so one vertex. Now I'm going to try to manipulate this GZ one more time and
+
+520
+00:38:41,049 --> 00:38:44,199
+缩小影响范围,并拖动它。
+reduce the area of influence and drag this up.
+
+521
+00:38:45,459 --> 00:38:49,839
+你可以动态地做。 当你拉起来,你可以改变什么
+And you can do it dynamically. As you pull it up, you can change what gets
+
+522
+00:38:49,869 --> 00:38:50,529
+被操纵。
+manipulated.
+
+523
+00:38:53,679 --> 00:38:58,419
+这么酷。 所以比例编辑,快捷键 O. 好吗?
+So very cool. So proportional editing, shortcut key O. Okay?
+
+524
+00:39:00,879 --> 00:39:05,049
+网格模特 好了,现在让我们去 - 我要返回控制+Z返回
+Mesh modeling. Okay, so now let's go-- I'm going to return to Control + Z to return
+
+525
+00:39:05,109 --> 00:39:06,789
+所有这些事情都恢复正常了
+all of these things back to normal.
+
+526
+00:39:08,049 --> 00:39:09,369
+返回标签
+Tab to go back into
+
+527
+00:39:11,650 --> 00:39:15,369
+对象模式。 我要把我的飞机藏起来,现在我们要模拟。
+object mode. I'm going to hide my plane, and now we're going to model up.
+
+528
+00:39:15,879 --> 00:39:20,589
+你们中有多少人知道我们的游戏?
+How many of you know the game Among Us?
+
+529
+00:39:20,679 --> 00:39:24,309
+你知道我们之间的游戏吗? 你们谁带孩子都笑 因为你
+Do you know this game Among Us? Any of you with children are smiling because you
+
+530
+00:39:24,369 --> 00:39:25,959
+非常清楚我在说什么。
+know very well what I'm talking about.
+
+531
+00:39:26,409 --> 00:39:31,119
+好吧,你知道我要为你们这些显然不是
+Okay, you know what I'm going to bring up for the rest of you who are obviously not
+
+532
+00:39:31,209 --> 00:39:34,869
+非常酷,我需要教你们我们之间是什么。 让我告诉你。
+very cool, I need to teach you what Among Us is. Let me show you.
+
+533
+00:39:35,650 --> 00:39:39,609
+它是一个豆状的人物 它看起来像这样。 好吗?
+It is a bean-shaped character that looks something like this. Okay?
+
+534
+00:39:40,329 --> 00:39:43,389
+我用这个教孩子们 如何在Blender上做3D模特
+I use this to teach my kids how to do 3D modeling on Blender.
+
+535
+00:39:43,689 --> 00:39:45,999
+所以我们现在要演一个《我们中的人物》。
+So we're going to do an Among Us character right now.
+
+536
+00:39:47,349 --> 00:39:52,599
+好吧,我们走。 因此,令人惊讶的是,我要去 Shift + A,加一个立方体。 你会说:"什么?
+All right. So surprisingly, I'm going to Shift + A, add a cube. You're like, "What?
+
+537
+00:39:52,869 --> 00:39:56,650
+It豆形. 为什么你要用立方体开始呢?" 我为什么
+It's a bean shape. Why the heck are you starting off with a cube?" The reason I
+
+538
+00:39:56,679 --> 00:39:59,139
+从立方体开始是因为...
+start off with a cube is because the few--
+
+539
+00:40:00,998 --> 00:40:04,449
+想在Blender上做模特 就像你在雕塑一样
+Think of modeling on Blender like you're sculpting.
+
+540
+00:40:04,869 --> 00:40:08,169
+你要从块材料开始, 你将创建一个
+You're going to start off with a block of material, and you're going to create a
+
+541
+00:40:08,259 --> 00:40:13,119
+先是粗糙的形状 然后慢慢地细化成它的光滑
+rough shape of it first and then slowly refine it into its smooth,
+
+542
+00:40:13,269 --> 00:40:17,049
+你最终会想做的事
+curvaceous face that you'll end up wanting to do.
+
+543
+00:40:17,439 --> 00:40:21,819
+所以,如果你看 人们雕塑的照片, 开始的形状,
+So if you look at pictures of people sculpting sculptures, the beginning shape of
+
+544
+00:40:21,879 --> 00:40:26,379
+是非常,非常粗糙。 我们之所以想这样做,是因为
+it is very, very rough. And the reason we want to do that is the fewer number of
+
+545
+00:40:26,469 --> 00:40:32,319
+Blender模式中存在的面孔,需求越少
+faces that are present in a Blender modeling situation, the less demand
+
+546
+00:40:32,379 --> 00:40:37,089
+它会在你的电脑上。 如果你马上把一千个小区放进去
+it will be on your computer. If you immediately put 1,000 subdivisions onto this
+
+547
+00:40:37,179 --> 00:40:41,079
+立方体,然后你试图移动 它会让你的计算机非常,
+cube and then you try to move it around, it's going to make your computer very,
+
+548
+00:40:41,139 --> 00:40:43,419
+慢慢地,它会发热而发热。
+very slow, and it's going to heat up and get hot.
+
+549
+00:40:43,689 --> 00:40:48,759
+所以我们要用最少的形状来创造它。
+So we're going to create this by using the least amount of shapes that we can.
+
+550
+00:40:49,299 --> 00:40:51,459
+然而,我要在这里使用一个修饰符.
+However, I'm going to use a modifier here.
+
+551
+00:40:51,759 --> 00:40:56,799
+因为它是豆形,我要去 添加修饰剂,生成子
+Because it's a bean shape, I'm going to go add modifier, generate subdivision
+
+552
+00:40:56,859 --> 00:41:00,819
+把它变成一个一般像豆子的东西 好吗?
+surface to turn it into something that generally looks like a bean. Okay?
+
+553
+00:41:01,689 --> 00:41:03,129
+这将成为我的起点。
+And this is going to be my starting point.
+
+554
+00:41:04,449 --> 00:41:08,559
+我要把一级改为二级 给它一个
+I'm going to change the level viewport from level one to level two to give it a
+
+555
+00:41:08,619 --> 00:41:11,169
+稍微多一点的分支, 但不会太多。
+little bit more subdivisions, but not too many.
+
+556
+00:41:11,859 --> 00:41:15,849
+然后我要应用这个修饰符。 我很高兴。
+And then I'm going to apply this modifier. I'm happy.
+
+557
+00:41:16,209 --> 00:41:20,349
+我希望它是圆的,所以不要让它 无损和预览,我可以
+I want it to be round, so instead of leaving it non-destructive and preview, I can
+
+558
+00:41:20,409 --> 00:41:22,539
+点击此向下箭头, 点击应用 。
+click on this down arrow, click Apply.
+
+559
+00:41:22,989 --> 00:41:24,999
+让我告诉你,当你不应用它会发生什么。
+Let me show you what happens when you don't apply it.
+
+560
+00:41:25,419 --> 00:41:31,359
+因此,从对象模式,如果我点击Tab 进入编辑模式,它仍然认为
+So from object mode, if I hit Tab to go into edit mode, it still thinks of this
+
+561
+00:41:31,480 --> 00:41:35,529
+对象为立方体。 对吧? 我们可以用这种方式来操纵它。
+object as a cube. Right? And we can actually manipulate it in this way.
+
+562
+00:41:35,889 --> 00:41:40,719
+举例来说,如果我把它放大到Z方向, 我可以把这个伸展到更多
+For instance, if I scale it in the Z direction, I can stretch this out to be more
+
+563
+00:41:40,749 --> 00:41:43,749
+譬如在保持立方体的同时,
+like the Among Us character while maintaining a cube.
+
+564
+00:41:43,809 --> 00:41:48,579
+而且它仍然是,因为它认为它是一个立方体,对计算机的要求较低.
+And it's still, because it thinks it's a cube, it's less demanding on the computer.
+
+565
+00:41:48,969 --> 00:41:53,349
+对吧? "我们中"这个角色比较平坦,所以我要在Y里放大
+Right? The Among Us character is more flat, so I'm going to scale it in the Y
+
+566
+00:41:53,379 --> 00:41:57,429
+方向,S -Y来放大, 平整它一点点像这样。
+direction, S-Y to scale it, to flatten it a little bit like this.
+
+567
+00:41:58,659 --> 00:42:04,629
+好吗? 而G -Z移动它上 工作飞机上 因为他的腿,
+Okay? And G-Z to move it up above the work plane because he's going to have legs,
+
+568
+00:42:05,409 --> 00:42:08,919
+和要返回的对象模式。 好吧,这就是我的开始
+and object mode to go back. All right, so that's the beginning of my Among Us
+
+569
+00:42:08,949 --> 00:42:13,239
+字符键。 但从这一点,我想 能够进入所有这些小
+character. But from this point, I want to be able to access all of these little
+
+570
+00:42:13,299 --> 00:42:14,499
+内部分区
+subdivisions within
+
+571
+00:42:15,849 --> 00:42:20,650
+我刚刚做的几何 所以我必须应用这个修饰符。
+the geometry I just made. So I'm going to have to apply this modifier.
+
+572
+00:42:20,739 --> 00:42:25,569
+所以,去与下箭,打应用, 现在当我打塔布,我回去。
+So go with the down arrow, hit Apply, and now when I hit Tab, I go back in.
+
+573
+00:42:25,629 --> 00:42:29,319
+其下各分所烧入. 好吗?
+It's got all of the subdivisions baked into it. Okay?
+
+574
+00:42:30,309 --> 00:42:35,829
+所以,如你所见,我想,让我看看。 如果我再回我身边一次
+So as you saw, I think, let me see. If I go back to Among Us one more time.
+
+575
+00:42:40,659 --> 00:42:44,319
+这个角色非常,非常简单. 其特征仅有少数.
+This character is very, very simple. It's got only a few features.
+
+576
+00:42:44,379 --> 00:42:48,159
+其面有 face,背有 backpack,两条腿.
+It's got a face, it's got a backpack, and it's got two legs.
+
+577
+00:42:48,579 --> 00:42:50,049
+所以这就是我们要做的模型。
+So that's what we're going to do to model.
+
+578
+00:42:50,589 --> 00:42:55,389
+并且因为它的对称性, 我不想要模型 两条手臂,两条腿,和
+And because it's symmetrical, I don't want to have to model two arms, two legs, and
+
+579
+00:42:55,449 --> 00:42:59,619
+诸如此类. 我能做的是模拟这个物体的一半。
+so on and so forth. What I can do is to model only half of this object.
+
+580
+00:43:00,519 --> 00:43:02,019
+我在这里
+So here I am in
+
+581
+00:43:03,939 --> 00:43:09,009
+以负 Y 编辑模式。 好,我想确定负 Y 正在面对这个模式
+edit mode with minus Y. Okay, I want to make sure minus Y is facing in this
+
+582
+00:43:09,039 --> 00:43:13,058
+方向,我知道这里,减去Y。 所以这是我的人的正面。
+direction, and I know here, minus Y. So this is the front of my guy.
+
+583
+00:43:16,299 --> 00:43:20,559
+这里有一个按钮,这是两个方块相互重叠.
+There's a button here, which is two squares overlapping one another.
+
+584
+00:43:20,919 --> 00:43:26,049
+这是X光模式。 所以,如果我点击这个, 我可以看到我的物体上的点, 两个在
+This is X-ray mode. So if I click on that, I can see the dots on my object, both in
+
+585
+00:43:26,079 --> 00:43:28,959
+前面和后面 我会告诉你为什么这很重要
+the front and the back, and I'll show you why this is important.
+
+586
+00:43:29,289 --> 00:43:33,789
+如果我没有打开X射线模式... ...我直接从...
+If I don't have X-ray mode turned on and I look at this object directly from the
+
+587
+00:43:33,849 --> 00:43:39,669
+前面我用鼠标左键拖动来进行这样的选择,
+front and I do a selection like this with a left mouse click drag,
+
+588
+00:43:40,209 --> 00:43:45,219
+它会选择它能看见的所有顶点 但后面的所有顶点
+it selects all of the vertices that it can see, but all the vertices in the back
+
+589
+00:43:45,249 --> 00:43:49,119
+未选择无法看到。 好吗? 我不想那样
+that it cannot see is not selected. Okay? I don't want that.
+
+590
+00:43:49,179 --> 00:43:53,230
+现在,我想能够同时选择前后, 所以我打开
+Right now, I want to be able to select front and back simultaneously, so I turn on
+
+591
+00:43:53,409 --> 00:43:56,199
+X射线模式,所以我可以看到前后两面.
+X-ray mode, so I can see both front and back.
+
+592
+00:43:56,529 --> 00:44:01,719
+当我选择一半的物体时 它从前面选择一切
+And now when I do selection of half of the object, it selects everything from front
+
+593
+00:44:01,749 --> 00:44:04,089
+到后面来。 这是一个非常有用的工具,好吗?
+to back. It's a very useful tool, okay?
+
+594
+00:44:04,629 --> 00:44:09,579
+我要删除一半这些东西 通过点击X删除和选择
+I'm going to delete half all of these things by hitting X for delete and choosing
+
+595
+00:44:09,639 --> 00:44:13,959
+要删除面孔, 而我留下半个豆。 好吗?
+to delete faces, and I'm left with a half of a bean. Okay?
+
+596
+00:44:15,219 --> 00:44:16,959
+现在我要用另一种修饰剂
+And now I'm going to use another modifier.
+
+597
+00:44:16,959 --> 00:44:22,929
+我将选择A来选择所有, 去添加修改器,生成镜像,
+I'm going to select A to select all, go to add modifier, generate mirror, and
+
+598
+00:44:22,959 --> 00:44:24,699
+这会为我创造另一半。
+it's going to create the other half for me.
+
+599
+00:44:25,179 --> 00:44:29,019
+并确保当您使用镜像修饰器时,您也选择剪辑。
+And make sure that when you use the mirror modifier, that you also select clipping.
+
+600
+00:44:29,409 --> 00:44:32,949
+好吗? 这很重要。 很多人会忘记做这个,它创造了一个
+Okay? This is very important. A lot of you will forget to do this, and it creates a
+
+601
+00:44:33,009 --> 00:44:36,639
+乱七八糟的 在使用镜像修饰器时, 请选择剪辑 。
+mess. Make sure you select clipping when you use the mirror modifier.
+
+602
+00:44:37,119 --> 00:44:42,999
+好吧,那我为什么要这么做? 因为现在我改变这一面
+Okay, so why am I doing this? Is because now when I make changes on this side, it
+
+603
+00:44:43,059 --> 00:44:46,599
+自动反射到另一边 这让我省了很多时间。
+automatically gets reflected on the other side as well. It saves me a lot of time.
+
+604
+00:44:48,939 --> 00:44:49,779
+好极了,不错
+Okay, wonderful.
+
+605
+00:44:51,009 --> 00:44:54,369
+让我们创造一张脸。 我该怎么做?
+Let's create a face. So how do I do that?
+
+606
+00:44:54,429 --> 00:44:57,400
+击三下... 首先,我要关机
+Hit three to-- First of all, I'm going to turn off
+
+607
+00:44:58,900 --> 00:45:02,499
+X射线模式只是为了不意外地在物体的后面选择一些东西.
+X-ray mode just so I don't accidentally select something in the back of the object.
+
+608
+00:45:03,189 --> 00:45:05,499
+按三键进行面部选择 。 我会
+Hit three to do face select. I'm going to
+
+609
+00:45:07,029 --> 00:45:09,400
+单击并选择这四个面孔。
+click and select these four faces.
+
+610
+00:45:09,639 --> 00:45:12,819
+我可以做到这一点,通过握住 转动键,只是做到这一点。
+I can do that by holding down the shift key and just doing this.
+
+611
+00:45:13,209 --> 00:45:19,179
+或者更快的方法就是让鼠标点击并拖动并交叉
+Or a faster way to do it is to left mouse click and drag and kind of intersect
+
+612
+00:45:19,239 --> 00:45:23,650
+这四件事是可取的。 这是你的脸,好吗?
+those four desirable things. And this is going to be your face, okay?
+
+613
+00:45:24,369 --> 00:45:28,659
+有了这四张面孔,你就会在键盘上打E
+With these four faces selected, you're going to hit E on your keyboard for extrude,
+
+614
+00:45:28,719 --> 00:45:31,299
+你会给脸打一拳
+and you're going to punch it out a little bit for the face.
+
+615
+00:45:32,109 --> 00:45:35,919
+将如是观. 现在我要回到物体的后面
+It's going to look like that. Now I'm going to go back to the back of the object,
+
+616
+00:45:36,009 --> 00:45:37,839
+我要做一个背包。 好吗?
+and I'm going to do a backpack. Okay?
+
+617
+00:45:37,959 --> 00:45:41,049
+所以再次选择我想要的
+So once again, selecting the ones I want,
+
+618
+00:45:42,339 --> 00:45:45,279
+我觉得 是啊,这是很好的。 然后做一个E。
+I think. Yeah, that's good. And then do an E.
+
+619
+00:45:45,909 --> 00:45:51,129
+实际上,你可以控制它 通过做E -Y 确保它直接挤压
+And actually, you can control it by doing E-Y to make sure it extrudes directly
+
+620
+00:45:51,189 --> 00:45:51,730
+倒着
+backwards.
+
+621
+00:45:52,959 --> 00:45:54,159
+好吧,这就是我的背包。
+Okay, so that's my backpack.
+
+622
+00:45:57,375 --> 00:46:02,715
+还有一件事,到目前为止,我没有做 任何储蓄,这是超级,超级
+And one thing, so far I've not done any saving whatsoever, and that's super, super
+
+623
+00:46:02,805 --> 00:46:07,755
+因为你会做很多,很多,很多事情, 然后你会尝试
+dangerous because you will have done many, many, many things, and then you will try
+
+624
+00:46:07,815 --> 00:46:10,635
+做一个渲染, 你的电脑会崩溃, 你会失去一切。
+to do a render, and your computer will crash, and you'll lose everything.
+
+625
+00:46:10,726 --> 00:46:15,255
+故别忘救. 所以控制 + S 要保存。 开始了
+So don't forget to save. So Control + S to save. And here we go.
+
+626
+00:46:15,315 --> 00:46:18,915
+接下来,我们约70%在那里。 我们要创造一些腿。
+Next, we're about 70% there. We're going to create some legs.
+
+627
+00:46:19,605 --> 00:46:24,585
+我将回到顶点选择模式 选择一个顶点, 通常在哪里
+I'm going to go back to vertex select mode, select a vertex here, generally where
+
+628
+00:46:24,616 --> 00:46:29,145
+腿会是。 击X删除并击出面孔. 对不起
+the legs are going to be. Hit X to delete and hit faces. Oops, sorry.
+
+629
+00:46:30,705 --> 00:46:33,735
+不,我必须... 对不起,让我们做三个。
+No, I need to... Sorry, let's do three.
+
+630
+00:46:34,185 --> 00:46:36,795
+对于面部选择,请选择这四个方块。
+For face select, select these four squares.
+
+631
+00:46:37,455 --> 00:46:41,145
+我要击打X删除和面孔, 我得到一个洞的腿去
+I'm going to hit X to delete and faces, and I get a hole where the legs are going
+
+632
+00:46:41,205 --> 00:46:41,565
+成为。
+to be.
+
+633
+00:46:43,605 --> 00:46:47,565
+点击 2 进行边缘选择 。 这里有一个新特点。
+Hit two to do edge select. And here's a new feature.
+
+634
+00:46:48,045 --> 00:46:53,476
+我可以去,我可以选择一个边 一次,持有S,Shift键
+I can go, and I can select one edge at a time, holding the S, the Shift key to
+
+635
+00:46:53,565 --> 00:46:57,525
+选择此腿周围产生环绕的所有边缘。
+select all of the edges that generates the loop around this leg.
+
+636
+00:46:58,005 --> 00:47:00,435
+或者快捷键是击中阿尔特键.
+Or the shortcut key is to hit the Alt key.
+
+637
+00:47:00,915 --> 00:47:03,765
+我相信一个Mac, 这是选择的关键,我想。
+I believe on a Mac, that's the Option key, I think.
+
+638
+00:47:03,915 --> 00:47:05,445
+你们没有阿尔特 你们有选择
+You guys don't have Alt, you have Option.
+
+639
+00:47:06,015 --> 00:47:09,675
+如果我按下阿尔特键 然后选择一个边缘,它就会自动
+If I hold down the Alt key and then select one of the edges, it automatically
+
+640
+00:47:09,735 --> 00:47:13,815
+为您选择整个循环。 所以,这是一个真正, 真的非常好的时间保护
+selects the entire loop for you. So this is a really, really good time-saver for
+
+641
+00:47:13,875 --> 00:47:17,565
+你们 他的腿有点...
+you. And the guy's legs are a little bit...
+
+642
+00:47:20,325 --> 00:47:21,976
+圆融.
+It's round.
+
+643
+00:47:24,825 --> 00:47:26,145
+我是不是该这么做?
+Should I do this or should I not?
+
+644
+00:47:27,525 --> 00:47:29,145
+对 这是一点点
+Yeah. This is a little bit of
+
+645
+00:47:30,795 --> 00:47:32,596
+高级技术,但我还是会告诉你。
+advanced technique, but I will show you anyway.
+
+646
+00:47:32,685 --> 00:47:38,596
+在顶部,你有一些菜单, Mesh, Transform, To Sphere。
+Up at the top here, you have a selection of menus, Mesh, Transform, To Sphere.
+
+647
+00:47:39,645 --> 00:47:42,255
+哦,孩子,为什么我得到了一切?
+And ooh, boy, why am I getting everything?
+
+648
+00:47:42,315 --> 00:47:45,195
+好吧,比例编辑还在, 所以它影响了一切。
+Okay, proportional editing is still on, so it's affecting everything.
+
+649
+00:47:45,735 --> 00:47:50,295
+我想做的是 我们中间的腿是圆的
+What I want to do is the legs of the Among Us character is round.
+
+650
+00:47:50,655 --> 00:47:54,915
+现在,如果我把这个挤出来, 它会创造一个非常平方的腿, 但我
+And right now, if I extrude this, it's going to create a very square leg, but I
+
+651
+00:47:54,945 --> 00:47:58,485
+要一条圆腿。 因此,梅什,变形,球。
+want a round leg. So Mesh, Transform, To Sphere.
+
+652
+00:47:58,785 --> 00:48:03,645
+当我左右移动我的老鼠, 它使这个洞多一点
+And when I move my mouse left and right, it makes that hole a little bit more
+
+653
+00:48:03,705 --> 00:48:07,965
+圆. 好吗? 现在你可以看到它从长方形变成圆形
+round. Okay? So now you can see it's gone from a rectangular shape to a round
+
+654
+00:48:07,995 --> 00:48:08,295
+形状。
+shape.
+
+655
+00:48:09,855 --> 00:48:13,545
+好吗? 现在我们要再向下进行一次挤压。
+Okay? And now we're going to do another extrusion straight downwards.
+
+656
+00:48:13,605 --> 00:48:19,545
+所以,E,Z,去直下, 使它相当长,像这样,
+So E, Z, to go straight down, make it pretty long, like that, and
+
+657
+00:48:19,575 --> 00:48:25,515
+你会明白为什么以后。 现在我要这个选定的区域,这个选定的边缘
+you'll understand why later. Now I want this selected zone, this selected edge
+
+658
+00:48:25,575 --> 00:48:31,245
+与Z飞机平行 与我工作的表面平行
+to be parallel to the Z plane, to the surface of my work
+
+659
+00:48:31,335 --> 00:48:37,305
+飞机 一个快捷键是按Z方向,零,
+plane. A shortcut key for that is to scale in the Z direction, zero,
+
+660
+00:48:37,455 --> 00:48:40,455
+它会平整一切 再来一次
+and it flattens out everything. One more time.
+
+661
+00:48:40,785 --> 00:48:46,605
+S,Z,0将采取对角集
+S, Z, zero will take a diagonal set of
+
+662
+00:48:46,875 --> 00:48:49,935
+点和扁平它。 好吗? 不错的快捷键。
+points and flatten it out. Okay? Nice shortcut key.
+
+663
+00:48:50,415 --> 00:48:52,875
+所以现在这里地势平坦
+So now it's nice and flat to the bottom here.
+
+664
+00:48:53,415 --> 00:48:57,135
+你有一个洞, 如果你想填满这个洞, 你打F换脸,它
+And you've got a hole, and if you want to fill the hole, you hit F for face, and it
+
+665
+00:48:57,165 --> 00:48:57,945
+补入洞中.
+fills in the hole.
+
+666
+00:48:59,775 --> 00:49:04,515
+腿太长了,所以我要和G,Z一起把事情搞大
+The legs are a little bit too long, so I'm going to move this up with G, Z, bring
+
+667
+00:49:04,545 --> 00:49:09,285
+像这样 现在,我的角色 已经创造了。
+it up to like this. And now my Among Us character has now been created.
+
+668
+00:49:11,925 --> 00:49:16,366
+其实,他看起来太像豆子了 我想让这个部分一点点
+Actually, he looks too much like a bean, and I want to make this part a little bit
+
+669
+00:49:16,395 --> 00:49:21,885
+更直,所以我可以增加一些额外的, 另一层循环在这里。
+more straight, so I can add some extra, another loop at this level here.
+
+670
+00:49:22,425 --> 00:49:27,915
+为了在Blender中添加循环或循环剪切,您要进行控制+R,您可以添加
+And to add loops or a loop cut in Blender, you do Control + R, and you can add
+
+671
+00:49:28,005 --> 00:49:31,875
+此位置的另一个循环 。 如果滚动鼠标,可以添加额外的循环.
+another loop in this position. If you roll your mouse, you can add extra loops.
+
+672
+00:49:31,995 --> 00:49:36,495
+我只需要一个, 所以我要做这个点击, 现在我有一个额外的循环。
+I only need one, so I'm going to do this click, and now I have an extra loop.
+
+673
+00:49:37,366 --> 00:49:40,065
+随着比例编辑的开启,
+And with proportional editing turned on,
+
+674
+00:49:41,415 --> 00:49:45,735
+将移其下. G, Z. 我的圆圈很大
+I'm going to move it down. G, Z. And my circle is very big.
+
+675
+00:49:45,855 --> 00:49:47,895
+我想改变影响到这么多。
+I want to change the influence to about that much.
+
+676
+00:49:48,405 --> 00:49:52,096
+现在我可以把它移动下来, 它有一点点 -- 我可以改变形状
+And now I can move it down, and it has a little bit-- I can change the shape a
+
+677
+00:49:52,125 --> 00:49:55,695
+一点点。 好吧,像这样。 这对我来说更...
+little bit. Okay, like that. That to me looks a lot more...
+
+678
+00:49:56,265 --> 00:49:58,455
+你觉得怎么样,蒂娜? 这对我们来说是美丽的吗?
+What do you think, Tina? Is that pretty Among Us to you?
+
+679
+00:49:59,835 --> 00:50:01,726
+是啊,你擅长吗? 好吧,回来
+Yeah, you're good with that? Okay, back to
+
+680
+00:50:03,945 --> 00:50:08,535
+对象模式。 今又想道:"天,真难看. 它是如此的块。
+object mode. Now you're thinking, "Oh my God, it's so ugly. It's so blocky.
+
+681
+00:50:08,565 --> 00:50:12,765
+这不好玩". 这就是修饰者的魔力再次出现的地方.
+It's not interesting." So here's where the magic of modifiers comes in again.
+
+682
+00:50:13,215 --> 00:50:16,755
+第一件事,你可以只是 右鼠点击和去Shade,
+The first thing you can do is you can just simply right mouse click and go Shade,
+
+683
+00:50:16,995 --> 00:50:20,805
+顺畅. 它比以前好一点。
+Smooth. And it sort of makes it a little bit better than it was before.
+
+684
+00:50:21,226 --> 00:50:24,495
+却不善. 情况不妙,我要撤销它
+But it's not good. It's not good, and I'm going to undo that.
+
+685
+00:50:24,555 --> 00:50:30,495
+不好 因为没有足够几何来创造光滑
+It's not good because there's not enough geometry for this thing to create smooth
+
+686
+00:50:30,555 --> 00:50:35,355
+表面。 所以,现在我们要做 子分区表面一次 加一些
+surfaces. So now we're going to do subdivision surface one more time to add some
+
+687
+00:50:35,415 --> 00:50:40,695
+额外的几何。 因此添加修改器,生成子分区表面,以及
+extra geometry. So Add Modifier, Generate Subdivision Surface, and
+
+688
+00:50:41,355 --> 00:50:44,025
+看,看起来好多了
+it's, see, already looking a lot better.
+
+689
+00:50:44,445 --> 00:50:47,175
+我要让这个二级 让它变得非常光滑
+I'm going to make this level two to make it super smooth.
+
+690
+00:50:47,655 --> 00:50:50,835
+现在当我... 你仍然能看到这里的方块
+And now when I-- you can still see squares here.
+
+691
+00:50:51,195 --> 00:50:54,375
+如果我是对的... 实际上,在我这样做之前, 我需要添加颜色。
+If I right-- Actually, before I do that, I need to add colors.
+
+692
+00:50:55,275 --> 00:50:58,305
+现在,用更少的东西来选择, 我要在这件事情上添加颜色。
+Now with fewer things to select, I'm going to add colors to this thing.
+
+693
+00:50:59,055 --> 00:51:04,995
+好吧,让我们去颜色预览模式。 红球. 我时间如何?
+All right, so let's go to color preview mode. Red ball. How am I doing on time?
+
+694
+00:51:05,085 --> 00:51:06,885
+好吧,我仍然在一小时之内,我想。
+Okay, I'm still within the hour, I think.
+
+695
+00:51:08,715 --> 00:51:12,945
+好吧,所以我们去纽。 我要叫这个物质的身体。
+Okay, so we go to New. I'm going to call this material body.
+
+696
+00:51:14,356 --> 00:51:16,755
+蒂娜,你最喜欢什么颜色?
+And Tina, what's your favorite color?
+
+697
+00:51:19,485 --> 00:51:21,106
+你最喜欢什么角色?
+What's your favorite Among Us character?
+
+698
+00:51:21,675 --> 00:51:22,305
+红的
+The red one.
+
+699
+00:51:22,935 --> 00:51:25,905
+红一. 好,我要把它弄红了 好吧,我们走。
+Red one. Okay, so I'm going to make it red. All right.
+
+700
+00:51:26,565 --> 00:51:28,846
+但是,他的脸板是不同的颜色。
+But then, his face plate is a different color.
+
+701
+00:51:28,905 --> 00:51:32,775
+因此,我们必须增加一个新的材料, 我们要叫这个面板。
+So we have to add a new material, and we're going to call this one face plate.
+
+702
+00:51:33,106 --> 00:51:33,555
+脸
+Face.
+
+703
+00:51:35,715 --> 00:51:38,775
+好吧,我觉得它有点白, 但我要让它有点粗鲁
+Okay, and I think it's kind of white, but I'm going to make it a little bit bluish
+
+704
+00:51:38,835 --> 00:51:42,795
+因为这是我想做的。 好吧,有点粗糙。
+because that's what I want to do. Okay, a little bit bluish.
+
+705
+00:51:43,485 --> 00:51:43,995
+还有
+And
+
+706
+00:51:47,055 --> 00:51:52,335
+像那样,蓝白色。 好吧,所以如果你记得, 我们只需要进入编辑
+like that, blue-white. All right, so if you remember, we just have to get into edit
+
+707
+00:51:52,395 --> 00:51:52,726
+模式。
+mode.
+
+708
+00:51:54,226 --> 00:51:59,745
+脸部选择, 我会选择这些表面, 按住Shift键,
+Face select, and I'm going to select these surfaces, hold down the Shift key,
+
+709
+00:52:00,315 --> 00:52:02,985
+在此选择所有其他表面。
+select all of the other surfaces here.
+
+710
+00:52:04,846 --> 00:52:09,795
+现在去选择一张脸色并指定它。 现在我有一个白色的面板。
+And now go select a face color and assign it. And now I got a white face plate.
+
+711
+00:52:10,425 --> 00:52:16,155
+好了,现在完成了,对象模式, 回到子分区表面,
+Okay, now with that's done, object mode, go back to subdivision surface,
+
+712
+00:52:17,055 --> 00:52:21,645
+生成子分区表面,进行二级视图。
+generate subdivision surface, do a viewport level two.
+
+713
+00:52:23,024 --> 00:52:25,544
+摆 你还是能看到里面的小广场
+Okay. You can still see little squares inside here.
+
+714
+00:52:26,625 --> 00:52:28,815
+您可以点击鼠标右键选择阴影平滑 。
+You can right mouse click and choose Shade Smooth.
+
+715
+00:52:28,875 --> 00:52:32,205
+而现在他完全性格平滑.
+And now he's completely sexily smooth.
+
+716
+00:52:33,525 --> 00:52:37,576
+好吧,所以另一个事情 个性化它, 让它一点点你自己,我们
+Okay, so another thing to personalize it, to make it a little bit more your own, we
+
+717
+00:52:37,606 --> 00:52:41,535
+甚至可以进去做点装饰,对不对?
+can even go in there and do a little bit more decoration on this, right?
+
+718
+00:52:42,285 --> 00:52:45,976
+一旦你对一个人这样做,我们会得到, 我向你保证,你是
+Once you do this on a human being, which we'll get to, I promise you that you're
+
+719
+00:52:45,976 --> 00:52:48,976
+我们今天要做一个人类的阿凡达, 我们将在第二小时完成。
+going to make a human avatar today, and we'll do that in the second hour.
+
+720
+00:52:49,815 --> 00:52:52,245
+但让我教你怎么做
+But let me show you how to do some
+
+721
+00:52:53,505 --> 00:52:58,455
+这东西上的微装饰。 这和我们以前加颜色的一样
+micro decorations on this thing. It's the same technique as we used to add colors
+
+722
+00:52:58,545 --> 00:53:01,005
+对事物。 ┮и璶秈
+to things. So we're going to go in here.
+
+723
+00:53:01,606 --> 00:53:05,385
+让我们创造第三个颜色, 我们要叫这个
+Let's create a third color, and we're going to call this
+
+724
+00:53:07,245 --> 00:53:07,965
+装饰。
+decoration.
+
+725
+00:53:09,976 --> 00:53:12,285
+我要让它变暗灰色
+And I'm going to make it dark gray
+
+726
+00:53:15,315 --> 00:53:20,476
+为了我的装饰,好吗? 比如,我想把眼睛和嘴放在我身上
+for my decoration, okay? And for instance, I want to put eyes and a mouth onto my
+
+727
+00:53:20,535 --> 00:53:24,976
+这家伙。 所以按下Tab键 我需要应用我的分支
+guy. So hitting the Tab key, I need to apply my subdivision.
+
+728
+00:53:25,065 --> 00:53:30,795
+所以我需要回到修饰器 应用我的分支 回到Tab键
+So I need to go back to modifier, apply my subdivisions, go back to the Tab key to
+
+729
+00:53:30,826 --> 00:53:33,465
+进来 现在,我可以选择,
+get in here. Now I can select,
+
+730
+00:53:35,925 --> 00:53:41,385
+脸部选择3,脸部选择增加这两个, 也许,是的。
+face select three, face select add these two, and maybe, yeah.
+
+731
+00:53:41,415 --> 00:53:45,945
+然后回到我的颜色,分配。 现在我有眼睛了
+And then go back to my color, assign. Now I have eyes.
+
+732
+00:53:46,035 --> 00:53:49,576
+不 我不喜欢这样 让我们走近。 这里怎么样?
+Nope, I don't like the position of that. Let's go closer. How about here?
+
+733
+00:53:50,865 --> 00:53:54,615
+指派 好吧,现在我有眼睛了。 砛и赣弧羘
+Assign. Okay, now I have eyes. Maybe let's give it a mouth, too.
+
+734
+00:53:57,795 --> 00:54:01,935
+摆 然后为了更好玩,我们可以到后面去。
+Okay. And then to make it even more fun, we can go to the back here.
+
+735
+00:54:02,535 --> 00:54:05,865
+我要用脸色,因为
+I'm going to use a face color because it's
+
+736
+00:54:08,055 --> 00:54:11,505
+简单点 颜色不错 我要把一些符号放在后面。
+easier. It's a nice color. And I'm going to put some symbol on the back.
+
+737
+00:54:12,585 --> 00:54:16,755
+实际上 回到我的修饰者那里 也应用镜子修饰者
+Actually, and go back to my modifier and apply the mirror modifier as well.
+
+738
+00:54:19,576 --> 00:54:23,115
+既然我不再改变物体了 回到塔布那里
+Since I'm not going to change the object anymore, go back to Tab,
+
+739
+00:54:24,465 --> 00:54:26,715
+我要在这里放个设计 开始吧
+and I'm going to put a design here. Let's do
+
+740
+00:54:28,275 --> 00:54:28,875
+这个
+this.
+
+741
+00:54:33,076 --> 00:54:33,585
+移动。
+Shift.
+
+742
+00:54:44,175 --> 00:54:45,555
+那应该是一颗心。
+That was supposed to be a heart.
+
+743
+00:54:46,995 --> 00:54:51,766
+我对艺术作品很不好 摆 这看起来像心脏吗?
+I'm terrible at this bit art stuff. Okay. Does that look like a heart?
+
+744
+00:54:51,856 --> 00:54:53,565
+有点像一颗心脏 我要称之为心脏。
+It kind of looks like a heart. I'm going to call that a heart.
+
+745
+00:54:54,076 --> 00:54:58,545
+好吧,然后到我的材料,脸,分配。 好吧,然后塔布。
+All right, and then go to my materials, face, assign. All right, and then Tab.
+
+746
+00:54:58,665 --> 00:55:03,976
+所以现在你的人有一个脸, 背面有一个心脏符号, 你可以装饰它
+So now your guy has a face, has a heart symbol on the back, and you can decorate it
+
+747
+00:55:04,035 --> 00:55:04,875
+让你心满意足
+to your heart's content
+
+748
+00:55:06,543 --> 00:55:08,313
+好吧,我会做增量储蓄,
+Okay, I'm going to do incremental save,
+
+749
+00:55:10,353 --> 00:55:11,193
+并添加我的目标。
+and add my object.
+
+750
+00:55:12,873 --> 00:55:18,243
+摆 所以,这是一个小时了。 我在时间管理上表现不错
+Okay. So that's one hour gone. I did pretty good on time management.
+
+751
+00:55:19,713 --> 00:55:22,804
+目前情况如何? 有什么问题我能回答吗?
+How are we so far? Any questions that I can answer at the moment?
+
+752
+00:55:26,223 --> 00:55:28,413
+谢谢你,以斯拉,谢谢你
+Thank you, Ezra, for the
+
+753
+00:55:30,063 --> 00:55:30,843
+审定。
+validation.
+
+754
+00:55:32,373 --> 00:55:33,753
+有时候我觉得自己在自言自语
+Sometimes I feel like I'm talking to myself.
+
+755
+00:55:34,114 --> 00:55:39,963
+好吧,这样的话,请继续休息5分钟或10分钟,然后
+Okay, so with that, go ahead and take a 5-minute break or 10-minute break, and then
+
+756
+00:55:39,993 --> 00:55:42,273
+我们会回来的, 和我们的工作 制MakeHuman类。
+we'll come back, and we'll work on Make Human.
+
+757
+00:55:42,603 --> 00:55:46,324
+因此,在中间,让我们做 10分钟, 以及从现在到那时, 我其实
+So in between, let's make it 10 minutes, and between now and then, I would actually
+
+758
+00:55:46,383 --> 00:55:51,123
+比如,如果可能的话,让你打开你的Blender 因为很多我要去
+like, if possible, for you to open your Blender because a lot of what I'm going to
+
+759
+00:55:51,153 --> 00:55:56,614
+显示一个设置 。 如何在Blender内部安装人,然后
+show you is a settings thing. How to install Make Human inside of Blender, so then
+
+760
+00:55:56,673 --> 00:55:59,883
+你可以做你自己的东西。 而这个你可以随从 非常,非常容易,
+you can make your own thing. And this one you can follow along very, very easily,
+
+761
+00:56:00,003 --> 00:56:05,614
+好吗? 因此,10分钟,请安装 Blender,最新版本, 我们将
+okay? So 10 minutes, please install Blender, the latest version, and we will
+
+762
+00:56:05,913 --> 00:56:08,853
+之后继续,好吗? 好吧,冷静。
+resume afterwards, okay? All right, cool.
+
+763
+00:56:09,633 --> 00:56:10,473
+林戈,对不起
+Ringo, sorry,
+
+764
+00:56:11,793 --> 00:56:13,353
+能问个问题吗?
+is it possible to ask a question?
+
+765
+00:56:14,493 --> 00:56:17,283
+5块,请说
+$5. Yes, go ahead.
+
+766
+00:56:18,454 --> 00:56:23,913
+我有Mac 但我试着安装最新版本 它没有允许我。
+I have Mac, but I tried to install the latest version. It didn't allow me.
+
+767
+00:56:24,273 --> 00:56:26,853
+所以我安装了第三次最新。
+So I installed the third latest.
+
+768
+00:56:28,143 --> 00:56:29,283
+摆 什么样的版本?
+Okay. What version is it?
+
+769
+00:56:30,423 --> 00:56:30,483
+4.3 (中文(简体) ).
+4.3.
+
+770
+00:56:30,543 --> 00:56:31,143
+是吗?
+Oh, really?
+
+771
+00:56:31,954 --> 00:56:33,753
+对 它不允许。
+Yeah. It didn't allow.
+
+772
+00:56:34,324 --> 00:56:36,364
+真让人惊讶 好吧,让我看看发生了什么。
+That's surprising. Okay, let me see what's going on.
+
+773
+00:56:36,423 --> 00:56:38,523
+这是Mac问题还是Blender问题?
+Is that a Mac problem or a Blender problem?
+
+774
+00:56:39,033 --> 00:56:42,843
+让我分享一个屏幕,我们可以一起研究这个问题。
+Let me share screen, and we can take a look at this issue together.
+
+775
+00:56:52,084 --> 00:56:57,873
+你看到我的下载屏幕了吗? 对 摆 下载 Blender 。 摆
+Are you seeing my download screen? Yes. Okay. Download Blender. Okay.
+
+776
+00:56:59,223 --> 00:57:00,843
+麦克OS.
+Mac OS.
+
+777
+00:57:03,753 --> 00:57:04,293
+你绝对...
+You definitely-
+
+778
+00:57:05,163 --> 00:57:07,084
+对 我的麦克是文图拉
+Yeah. My Mac is Ventura
+
+779
+00:57:08,973 --> 00:57:10,204
+应该是1.3
+1.3, I think.
+
+780
+00:57:10,263 --> 00:57:10,383
+摆
+Okay.
+
+781
+00:57:10,383 --> 00:57:15,454
+对 文图拉 硅酮对我的iMac不起作用
+Yeah, Ventura, and the silicone doesn't work on my iMac.
+
+782
+00:57:16,443 --> 00:57:17,614
+摆
+Okay.
+
+783
+00:57:19,173 --> 00:57:19,293
+对
+Yeah.
+
+784
+00:57:19,503 --> 00:57:21,393
+但这是个大问题吗? 对
+But is it a big problem? Yeah.
+
+785
+00:57:21,903 --> 00:57:26,584
+不,这不应该是一个问题,但我不知道。 问题是这个。
+No, it should not be a problem, but I don't know. The issue is this.
+
+786
+00:57:28,114 --> 00:57:34,023
+Blender 经常更新,每次更新时,都会更新一些功能:
+Blender updates all the time, and every time it updates, some functionality of
+
+787
+00:57:34,084 --> 00:57:38,584
+它在之前的版本中被使用过,在新版本中已不再以同样的方式工作
+it, which was used in a previous version, no longer works the same way in the new
+
+788
+00:57:38,614 --> 00:57:43,443
+版本。 所以,我只是不想 在一个情况,你喜欢, "为什么
+version. So I just don't want to be in a situation where you're like, "How come it
+
+789
+00:57:43,473 --> 00:57:48,813
+难道我的Blender不起作用?" 所以,我只是不知道什么会 和不会工作,但
+doesn't work on my Blender?" So I just don't know what will and will not work, but
+
+790
+00:57:48,873 --> 00:57:52,204
+让我们用我们所能做的。 好吗?
+let's just work with what we can work with. Okay?
+
+791
+00:57:52,713 --> 00:57:54,213
+摆 非常感谢 对
+Okay. Thank you so much. Yes.
+
+792
+00:57:54,334 --> 00:57:55,114
+试问如何是道.
+Let's see what we can do.
+
+793
+00:57:55,923 --> 00:57:56,013
+对
+Mm-hmm.
+
+794
+00:57:56,133 --> 00:58:00,543
+我不是麦克人 所以我会尽力回答麦克的问题
+I'm not a Mac guy at all, so I will do my best to answer Mac questions, but I'm a
+
+795
+00:58:00,603 --> 00:58:00,693
+编码 -
+coding-
+
+796
+00:58:00,753 --> 00:58:03,574
+是的,我是如此陌生 编码或任何东西,所以
+Yes, and I'm so alien to coding or anything, so
+
+797
+00:58:04,233 --> 00:58:04,743
+没关系
+That's okay.
+
+798
+00:58:05,043 --> 00:58:05,433
+对
+So, yeah.
+
+799
+00:58:05,853 --> 00:58:09,963
+别着急 跟着我,在法布学院结束时,你永远不会
+Don't worry about it. You stick with me, by the end of Fab Academy, you're never
+
+800
+00:58:09,993 --> 00:58:12,003
+永远不会再说一遍。 你会感觉像超级。
+going to ever say that again. You're going to be feeling like super.
+
+801
+00:58:12,033 --> 00:58:14,133
+摆 非常感谢 摆 再见
+Okay. Thank you so much. Okay. See you.
+
+802
+00:58:14,253 --> 00:58:15,454
+好吧,休息十分钟
+Okay. 10-minute break.
+
+803
+01:04:03,273 --> 01:04:03,903
+摆
+Okay.
+
+804
+01:04:05,103 --> 01:04:06,963
+已经10分钟了吗? 我不知道,我还不知道
+Has it been 10 minutes? I have no idea.
+
+805
+01:04:13,173 --> 01:04:15,633
+摆 大家都回来了吗?
+Okay. Is everybody back?
+
+806
+01:04:24,933 --> 01:04:28,653
+大部分吗? 让我看看。 我看看能不能看见每个人的脸
+Mostly? Let me see. Let me see if I can see everybody's faces.
+
+807
+01:04:36,423 --> 01:04:40,293
+好吧,我们走。 运行,运行,运行到你的座位。 该走了
+All right. Run, run, run to your seat. It's time to get going.
+
+808
+01:04:44,433 --> 01:04:45,304
+谢谢你,丽贝卡。
+Thank you, Rebecca.
+
+809
+01:04:48,783 --> 01:04:51,213
+你从哪里来,丽贝卡? 我喜欢你的形象
+Where are you from, Rebecca? I love your image.
+
+810
+01:04:53,883 --> 01:04:54,933
+丽贝卡·FL.
+Rebecca FL.
+
+811
+01:04:58,623 --> 01:04:59,283
+你从哪里来?
+Where are you from?
+
+812
+01:04:59,973 --> 01:05:01,204
+顿 我来自西班牙
+Hi. I'm from Spain-
+
+813
+01:05:01,204 --> 01:05:01,263
+西班牙语。
+Spain.
+
+814
+01:05:01,893 --> 01:05:03,693
+但我住在布鲁塞尔 对
+But I live in Brussels. Yes.
+
+815
+01:05:03,753 --> 01:05:05,614
+但你住在布鲁塞尔? 摆
+But you live in Brussels? Okay.
+
+816
+01:05:05,763 --> 01:05:06,093
+对
+Yes.
+
+817
+01:05:06,843 --> 01:05:07,383
+在西班牙的哪个地方?
+Where in Spain?
+
+818
+01:05:07,443 --> 01:05:09,003
+我没有相机,对不起。
+And I don't have a camera, I'm sorry.
+
+819
+01:05:09,693 --> 01:05:10,084
+没关系
+That's okay.
+
+820
+01:05:10,084 --> 01:05:11,463
+我把我的笔记本电脑关了
+I had put my laptop closed.
+
+821
+01:05:13,983 --> 01:05:14,973
+你从西班牙来?
+Where in Spain are you from?
+
+822
+01:05:15,783 --> 01:05:17,193
+我来自北部,来自加利西亚。
+I'm from the north, from Galicia.
+
+823
+01:05:18,213 --> 01:05:21,243
+加利西亚. 一定是在莱昂附近吗,努里亚?
+Galicia. That must be somewhere near Leon, Nuria?
+
+824
+01:05:22,473 --> 01:05:24,574
+是的,它就在大西洋旁边
+Yes, it's next to the Atlantic Ocean.
+
+825
+01:05:25,383 --> 01:05:29,433
+摆 摆 我女儿现在在塞戈维亚上学
+Okay. Okay. My daughter is going to school in Segovia right now.
+
+826
+01:05:30,123 --> 01:05:31,324
+珃 她喜欢吗?
+Wow. Is she liking it?
+
+827
+01:05:32,163 --> 01:05:34,743
+我觉得她太喜欢了
+She loves it a little bit too much, I think.
+
+828
+01:05:35,643 --> 01:05:36,093
+是吗?
+Oh, yeah?
+
+829
+01:05:37,353 --> 01:05:42,393
+我期待一个西班牙男友 很快会在日本出现
+I'm expecting a Spanish boyfriend to show up in Japan one of these days soon.
+
+830
+01:05:42,783 --> 01:05:43,683
+这么说吧
+Let's put it that way.
+
+831
+01:05:45,543 --> 01:05:49,563
+摆 很不错 好吧,伟大的。 让我看看。 我们在看什么?
+Okay. Very nice. Okay, great. Let's see. What are we looking at?
+
+832
+01:05:50,223 --> 01:05:53,853
+一个空白的谷歌屏幕。 MakeHuman。 让我们去那里。
+A blank Google screen. MakeHuman. Let's go there.
+
+833
+01:05:58,293 --> 01:06:00,213
+你们中有多少人曾经使用过MakeHuman?
+How many of you have used MakeHuman before?
+
+834
+01:06:02,163 --> 01:06:02,463
+一个
+One.
+
+835
+01:06:03,903 --> 01:06:06,753
+好吧,所以MakeHuman是惊人的
+Okay, so MakeHuman is an amazing
+
+836
+01:06:08,253 --> 01:06:12,183
+应用程序,它允许您制作这样的外观 。
+application that allows you to make avatars like this.
+
+837
+01:06:12,663 --> 01:06:17,554
+所以,它有一个... 我不知道这是互联网还是应用程序
+So, it has a... I don't know if this is internet-based or it's an app.
+
+838
+01:06:17,614 --> 01:06:19,563
+我不确定,我还不知道 我认为这是一个安装的应用程序。
+I'm not sure. I think it's an installed app.
+
+839
+01:06:19,983 --> 01:06:23,133
+但你可以进去 你可以做改变性别 年龄之类的事
+But you can get in there, and you can do things like change the gender, age,
+
+840
+01:06:23,223 --> 01:06:26,704
+肌肉,等等 来获得你想要的角色。
+muscle, so on and so forth to get the character that you want.
+
+841
+01:06:26,883 --> 01:06:30,423
+所以,正如我承诺的, 你将能够生成自己的阿凡达。
+So, as I promised, you're going to be able to generate your own avatar.
+
+842
+01:06:30,723 --> 01:06:35,643
+然后用所有的Blender模型技术 我刚刚给你看,你可以
+And then with all of those blender modeling techniques I just showed you, you can
+
+843
+01:06:35,704 --> 01:06:36,843
+添加各种不同的特性。
+add all kinds of different features.
+
+844
+01:06:37,173 --> 01:06:41,463
+例如,如果你想添加一个额外的手臂,或者你想有一个机器人
+For instance, if you want to add an extra arm or if you want to have a cyborg
+
+845
+01:06:41,523 --> 01:06:44,253
+挤出头部,你也可以这样做。
+extrusion pop out of the head, you can do that as well.
+
+846
+01:06:44,614 --> 01:06:49,054
+这就是为什么我们花时间 制造香水瓶和我们之中
+So that's why we spent that time making the perfume bottle and the Among Us
+
+847
+01:06:49,114 --> 01:06:53,733
+性格,因为我要你明白 如何操纵事物。
+character, because I want you to understand how to manipulate things.
+
+848
+01:06:54,213 --> 01:06:57,903
+我刚刚意识到我们上厕所的时候 我没有停止录音
+I just realized I didn't stop the recording while we went to the bathroom.
+
+849
+01:06:59,103 --> 01:07:01,834
+好吧,好吧,我会确保 切断这一点。
+Okay, well, I'll make sure to cut that out.
+
+850
+01:07:02,343 --> 01:07:07,683
+总之,这里的奇妙之处是 这个很棒的软件有一个
+Anyway, the wonderful thing here is that this awesome software has a
+
+851
+01:07:07,743 --> 01:07:12,813
+直接的Blender整合, 这意味着你可以做所有这些美妙的 MakeHuman
+direct blender integration, which means you can do all of these wonderful MakeHuman
+
+852
+01:07:12,873 --> 01:07:17,733
+直接在Blender中,而不使用两个不同的软件。
+things directly in Blender and without using two different softwares.
+
+853
+01:07:18,063 --> 01:07:21,663
+你通过到这里的MPFB。
+And you do that by going here to MPFB.
+
+854
+01:07:21,963 --> 01:07:27,334
+我认为这代表了MakeHuman为Blender做点什么。 这代表什么?
+And I think it stands for MakeHuman something for Blender. What does it stand for?
+
+855
+01:07:27,392 --> 01:07:29,133
+MakeHuman。 总之,你点击这个,
+MakeHuman. Anyway, you go click on this,
+
+856
+01:07:30,393 --> 01:07:31,143
+MPFB (英语).
+MPFB.
+
+857
+01:07:34,954 --> 01:07:38,253
+是啊,还好。 你可以去MPFB下载。
+Yeah, okay. And you can go to MPFB download.
+
+858
+01:07:41,223 --> 01:07:47,193
+且向甚么处得. 好吧,所以是啊,不是一个伟大的网站。
+And where you go to get it. Okay, so yeah, not a great website.
+
+859
+01:07:47,283 --> 01:07:49,054
+初明镜即随所求处.
+Primary Mirror is where you want to go.
+
+860
+01:07:49,593 --> 01:07:53,584
+这里写着,你通常在这里下载MPFB2.
+So it says here, this is where you usually download MPFB2.
+
+861
+01:07:53,704 --> 01:07:57,873
+我想这是最新版本了 所以,我想,你点击 某处在这里?
+I guess that's the newest version. So I think, do you click somewhere here?
+
+862
+01:07:58,893 --> 01:07:59,913
+你从哪里得到这个?
+Where can you get this?
+
+863
+01:08:01,593 --> 01:08:03,783
+也许在这里? 我不知道. 对不起
+Maybe here? I don't know. I'm sorry.
+
+864
+01:08:05,433 --> 01:08:06,063
+下载。
+Downloads.
+
+865
+01:08:07,623 --> 01:08:12,933
+CMP下载. 在甚么处. 这里。 好吧,一旦我找到它, 我会送你
+CMP downloads. Where is it? Here. Okay, once I find it, I'm going to send you
+
+866
+01:08:13,893 --> 01:08:14,373
+链接。
+the link.
+
+867
+01:08:16,593 --> 01:08:19,773
+哪里? 哪里来的? MPFB下载. 我在这里。
+Where? MPFB downloads. I'm here.
+
+868
+01:08:20,223 --> 01:08:24,873
+我在Blender做过 我直接从Blender那里放的
+I did it in Blender. I just put it from Blender directly.
+
+869
+01:08:25,623 --> 01:08:30,483
+摆 但我要这样做 因为你要下载更多
+Okay. But I want to do it this way because you're going to have to download more
+
+870
+01:08:30,843 --> 01:08:33,904
+不仅仅是程序本身。 摆
+than just the program itself. Okay.
+
+871
+01:08:34,084 --> 01:08:37,114
+是啊,让我们在Blender做, 然后我们回来这里做其他的事情。
+Yeah, let's do it in Blender, and then we'll come back here for other things.
+
+872
+01:08:37,503 --> 01:08:38,433
+好吧,所以回到Blender。
+Okay, so back to Blender.
+
+873
+01:08:40,324 --> 01:08:42,003
+我要把我的小朋友藏在这里
+I'm going to hide my little friend here.
+
+874
+01:08:44,253 --> 01:08:45,213
+好,所以闪亮
+Okay, so Blender
+
+875
+01:08:46,593 --> 01:08:51,843
+作为它自己的软件是强大的, 但你可以增加额外的功能,
+is powerful as its own software, but you can add extra functionalities to it,
+
+876
+01:08:52,053 --> 01:08:56,164
+加进会给它更多它能...
+add-ons that will give it additional things that it can...
+
+877
+01:08:57,424 --> 01:09:01,983
+因为它是一个开源软件,其他开发者也创造了额外的功能
+Because it's an open-source software, other developers have created extra features
+
+878
+01:09:02,013 --> 01:09:05,643
+你可以选择下载 并添加到您的东西, 你这样做
+to it that you can choose to download and add to your thing, and you do that by
+
+879
+01:09:05,674 --> 01:09:10,864
+去编辑菜单,首选项,好吗? 在首选项中,你可以看到添加。
+going to the Edit menu, Preferences, okay? And in Preferences, you see Add-ons.
+
+880
+01:09:11,853 --> 01:09:17,674
+好吗? 如果你去加注 和你去在这里和打 MPFB,它应该
+Okay? If you go to add-ons and you go up here and type MPFB, it should
+
+881
+01:09:17,733 --> 01:09:22,743
+出现. 如果它不出现,去Get Extensions,它高于加农,和
+show up. If it doesn't show up, go to Get Extensions, which is above Add-ons, and
+
+882
+01:09:22,803 --> 01:09:23,824
+类型 MPFB。
+type MPFB.
+
+883
+01:09:25,353 --> 01:09:28,293
+好吧,所以你们现在这样做 告诉我,如果你能找到它,
+All right, so you guys do that right now and tell me if you're able to find it,
+
+884
+01:09:28,743 --> 01:09:30,243
+因为我的车已经安装好了
+because mine is already installed.
+
+885
+01:09:32,763 --> 01:09:34,593
+谁说你直接安装在Blender?
+Who was it that said you installed directly in Blender?
+
+886
+01:09:37,443 --> 01:09:40,713
+蒂娜 蒂娜 蒂娜 蒂娜 蒂娜 好吧,你这样做 通过扩展或添加?
+Tina. Okay, did you do it through Extensions or Add-ons?
+
+887
+01:09:45,873 --> 01:09:47,973
+我得到了它通过Get扩展。
+I got it through Get Extensions.
+
+888
+01:09:48,454 --> 01:09:49,263
+扩展 摆
+Extensions. Okay.
+
+889
+01:09:51,843 --> 01:09:55,323
+我有Blender2.1版,我想是的。
+I have Blender version 2.1, I think it was.
+
+890
+01:09:55,773 --> 01:10:00,843
+如果你无法在扩展中找到它, 这可能是因为你不是
+If you're not able to find it in Extensions, it might be because you are not
+
+891
+01:10:00,933 --> 01:10:05,493
+允许Blender搜索互联网, 你允许通过去系统,
+allowing Blender to search the internet, and you allow that by going to System,
+
+892
+01:10:07,113 --> 01:10:12,903
+还有这里 设有网络,内容为"Allow在线访问". 你想让
+and here. There's a network, and it says, "Allow online access." You want to make
+
+893
+01:10:12,933 --> 01:10:17,463
+肯定查过了 如果选中的话, 当你去扩展和
+sure that's checked. If that's checked, then whenever you go to Extensions and
+
+894
+01:10:17,523 --> 01:10:20,163
+它应该能找到它 好吗?
+search for anything, it should be able to find it, okay?
+
+895
+01:10:23,283 --> 01:10:26,343
+亲爱的Rico 你能再展示一次吗?
+Dear Rico, can you please show one more time?
+
+896
+01:10:26,584 --> 01:10:28,174
+我打开了优惠,但是
+I opened the Preferences, but
+
+897
+01:10:29,613 --> 01:10:30,783
+我不知道我该...
+I'm not sure what I should-
+
+898
+01:10:31,683 --> 01:10:36,033
+摆 所以在中间,你应该看到Add -ons, 而就在上面...
+Okay. So in the middle, you should see Add-ons, and right above that-
+
+899
+01:10:36,693 --> 01:10:36,993
+补上. 对
+Add-ons. Mm-hmm
+
+900
+01:10:36,693 --> 01:10:38,403
+...你应该看看《获得扩展》
+... you should see Get Extensions.
+
+901
+01:10:39,633 --> 01:10:43,143
+而在"Get扩展"(Get Extensions)中,最上面的中心有一个搜索菜单.
+And in Get Extensions, there's a search menu at the very top center.
+
+902
+01:10:43,653 --> 01:10:43,712
+对
+Mm-hmm.
+
+903
+01:10:43,712 --> 01:10:46,924
+如果您输入了 MPFB , 您应该能找到
+If you type MPFB there, you should be able to find
+
+904
+01:10:48,303 --> 01:10:49,383
+MakeHuman
+the MakeHuman
+
+905
+01:10:50,763 --> 01:10:55,053
+加号 我想它一到就应该有一个安装按钮
+add-on. And I think there should be an Install button next to it once it arrives.
+
+906
+01:10:56,343 --> 01:11:00,213
+有没有人无法通过Blender找到MPFB?
+Is anyone having trouble finding MPFB via Blender?
+
+907
+01:11:00,603 --> 01:11:04,203
+如果你是,举起手来,还是不动,告诉我。 哦,不错。
+If you are, raise your hand or unmute and let me know. Oh, good.
+
+908
+01:11:04,293 --> 01:11:06,573
+每个人都很好。 好吧,我们走。
+Everybody's good on that. All right.
+
+909
+01:11:06,693 --> 01:11:10,503
+所以一旦MPFB安装在你的电脑上
+So once MPFB is installed on your computer,
+
+910
+01:11:12,183 --> 01:11:15,813
+检查旁边的复选框。
+in my case, make sure that the checkbox next to it is checked.
+
+911
+01:11:16,383 --> 01:11:18,543
+如果是这样,它不会被激活.
+If it's like this, it's not being activated.
+
+912
+01:11:18,753 --> 01:11:21,063
+务必检查好才能激活
+Make sure that it's checked so that it's activated.
+
+913
+01:11:21,633 --> 01:11:24,693
+因为一旦它被激活 你就回到...
+Because once it's activated, you come back to the...
+
+914
+01:11:26,043 --> 01:11:28,383
+顺便说一句,大家都赶上了吗? 大家都追上来了? 对 摆
+By the way, is everybody caught up? Everybody's caught up? Yeah. Okay.
+
+915
+01:11:28,893 --> 01:11:34,623
+如果你击中了N键, 边菜单就会出现, 你会看到, MPFB 2. 0 是一个
+If you hit the N key, the side menu comes up, and you'll see that MPFB 2.0 is one
+
+916
+01:11:34,683 --> 01:11:38,373
+以特性显示的选项。
+of the options that shows up as a feature.
+
+917
+01:11:42,993 --> 01:11:48,273
+不错 好吧,我们走。 但在我们使用它之前 我们确实需要下载一些额外的东西
+Good. All right. But before we use it, we do need to download some extra things,
+
+918
+01:11:48,334 --> 01:11:53,103
+回到MakeHuman网站
+and here's where we need to go back to the MakeHuman website into
+
+919
+01:11:54,303 --> 01:11:57,933
+下载文件夹。 我们需要下载一些资产,对不对?
+the Downloads folder. We need to download some assets, right?
+
+920
+01:11:58,053 --> 01:12:03,783
+因此,Blender MPFB 将允许您生成一个
+So the Blender MPFB as it is will allow you to generate a
+
+921
+01:12:03,843 --> 01:12:08,674
+人,但你将无法增加 眼睛,头发,衣服或任何东西
+human being, but you will not be able to add eyes or hair or clothing or anything
+
+922
+01:12:08,703 --> 01:12:13,563
+像这样 所以,这将是一个裸体的,没有眼球的人, 这是美丽的
+like that. So it'll be a naked, eyeball-less human being, which is pretty
+
+923
+01:12:13,593 --> 01:12:14,883
+恐怖,你不希望这样。
+terrifying, and you don't want that.
+
+924
+01:12:14,973 --> 01:12:18,783
+所以,让我们回到这里 确保我们得到一些额外的东西,以确保我们能
+So, let's go back here and make sure we get some extra stuff to make sure we can
+
+925
+01:12:18,813 --> 01:12:22,174
+得到头发和类似的东西。 这是通过资产包完成的。
+get hair and things like that. And that's done through asset packs here.
+
+926
+01:12:22,323 --> 01:12:25,893
+所以你点击资产包。 我要把连接在这里
+So you click Asset Packs. I'm going to put the link to this here
+
+927
+01:12:27,213 --> 01:12:31,834
+进入聊天,如果我能找到聊天。 我的谈话呢? 这里。
+into the chat if I can find the chat. Where's my chat? Here.
+
+928
+01:12:33,453 --> 01:12:35,493
+有人说你没看到我的电视机
+Uh-oh, somebody said that you don't see my screencast.
+
+929
+01:12:36,603 --> 01:12:38,463
+对不起,我还没有看 聊天。
+I'm sorry, I haven't been looking at the chat at all.
+
+930
+01:12:38,973 --> 01:12:42,663
+斯蒂芬妮,爱你的性格。 天啊,我本该在休息时这么做的
+Stephanie, love your character. My God, I should have done this during the break.
+
+931
+01:12:43,233 --> 01:12:45,273
+这些命令是否有书面来源? 对
+Is there written sources with these commands? Yes.
+
+932
+01:12:45,693 --> 01:12:49,683
+如果你谷歌Blender的捷径, 有很多很多这样的东西。
+If you Google Blender shortcuts, there are lots and lots of these things.
+
+933
+01:12:49,743 --> 01:12:50,703
+我知道你已经找到了
+I know you found it already.
+
+934
+01:12:52,713 --> 01:12:52,953
+摆
+Okay.
+
+935
+01:12:54,993 --> 01:12:56,584
+好吧,这里是资产包。
+All right, so here is the asset pack.
+
+936
+01:12:56,643 --> 01:13:01,084
+你真正需要的就是这里 创MakeHuman类系统的资产
+The one that you really need is right here, MakeHuman System Asset.
+
+937
+01:13:02,223 --> 01:13:05,433
+请下载。 创MakeHuman类系统资产。
+Please download that. MakeHuman System Assets.
+
+938
+01:13:07,953 --> 01:13:12,363
+好吧,所以如果我点击, 它会显示所有可爱的东西你得到
+Okay, so if I click on that, it will show you all of the lovely things you get in
+
+939
+01:13:12,393 --> 01:13:15,903
+这批资产。 头发,耶。 眼睛,对了。
+this asset pack. Hair, yay. Eyes, yay.
+
+940
+01:13:17,793 --> 01:13:21,933
+还有什么? 眉毛,对了。 这么多美好的事
+What else do we have? Eyebrows, yay. So many wonderful things.
+
+941
+01:13:21,993 --> 01:13:24,153
+帽子,一些普通服装。
+Hats, some generic clothing.
+
+942
+01:13:25,365 --> 01:13:26,835
+这些东西都会随之而来
+All these things will come with this
+
+943
+01:13:28,395 --> 01:13:31,455
+MakeHuman系统成为资产。 摆 你知道吗?
+Make Human system asset. Okay. You know what?
+
+944
+01:13:31,545 --> 01:13:33,765
+我可以在聊天时把这个链接发给你
+I can send you this link as well in the chat.
+
+945
+01:13:42,675 --> 01:13:47,685
+摆 目前,我需要你 下载到您的下载文件夹和
+Okay. For the time being, I need you to download this into your download folder and
+
+946
+01:13:47,715 --> 01:13:50,625
+不要取出来。 不要解开它,就放在那里。
+do not extract it. Do not unzip it, just leave it there.
+
+947
+01:13:51,495 --> 01:13:55,665
+只要有一次你表现得更好, 那你可能会想要一些其他的东西。
+And just for once you get better at this, then you might want some other things.
+
+948
+01:13:55,725 --> 01:13:58,665
+比如说你们可能想要姿势
+Like for you guys, you might want poses, for instance.
+
+949
+01:13:59,205 --> 01:14:04,695
+这里有一些通用的姿势, 您可以下载您可能想要的
+There are some generic poses here that you can download that you might want to be
+
+950
+01:14:04,725 --> 01:14:07,606
+能够使用。 所以,请继续,如果你想,你可以下载姿势。
+able to use. So go ahead and if you want, you can download poses.
+
+951
+01:14:10,185 --> 01:14:15,045
+如果你对一般的发型不满意的话,这里还有一些额外的发型.
+There's some extra hair here if you are dissatisfied with the generic hairstyles.
+
+952
+01:14:15,525 --> 01:14:17,985
+这个给你更多的发型,发色.
+This one gives you more hairstyles, hair color.
+
+953
+01:14:18,645 --> 01:14:23,265
+总之,所有这些资产都可以给你 随便玩玩
+Anyway, all these assets are available to you. Poke around and play with it.
+
+954
+01:14:23,655 --> 01:14:26,295
+现在,让我们回到Blender继续。
+For now, let's go back to Blender and continue.
+
+955
+01:14:30,316 --> 01:14:36,045
+好吧,我们走。 所以,在我们做任何有趣的事情之前, 我们必须做一个
+All right. So before we do any fun things, we have to do one
+
+956
+01:14:36,106 --> 01:14:37,125
+还有一件事是...
+more other thing is-
+
+957
+01:14:37,215 --> 01:14:37,935
+对不起,快点...
+Sorry, a quick-
+
+958
+01:14:38,985 --> 01:14:39,106
+对
+Yeah
+
+959
+01:14:39,106 --> 01:14:40,995
+...关于下载的快速问题。
+... a quick question about downloading.
+
+960
+01:14:41,085 --> 01:14:44,115
+它给我两个选项,镜子一或镜子二。 都好吗?
+It gives me two options, mirror one or mirror two. Is both okay?
+
+961
+01:14:45,165 --> 01:14:48,856
+任何一个都很好 基本上,它是一个服务器在一个位置 相对于服务器在
+Either one is fine. Basically, it's a server in one location versus a server in
+
+962
+01:14:48,915 --> 01:14:51,255
+另一个地点。 没关系
+another location. Doesn't matter.
+
+963
+01:14:51,705 --> 01:14:51,856
+摆
+Okay.
+
+964
+01:14:51,856 --> 01:14:53,655
+对 问得好
+Yeah. Good question.
+
+965
+01:14:54,945 --> 01:14:55,935
+你从哪里来,伊兹?
+Where are you from, Izzy?
+
+966
+01:14:56,685 --> 01:14:58,035
+我其实是英国人
+I'm from England, actually.
+
+967
+01:14:58,665 --> 01:15:00,705
+摆 你现在在英国?
+Okay. And you're in England right now?
+
+968
+01:15:01,154 --> 01:15:02,715
+不,其实我现在在阿姆斯特丹
+No, actually I'm in Amsterdam right now.
+
+969
+01:15:03,255 --> 01:15:07,545
+哦,没关系。 你是阿姆斯特丹的英国人 阿姆斯特丹的英国人
+Oh, okay. You're an Englishman in Amsterdam. English person in Amsterdam.
+
+970
+01:15:07,576 --> 01:15:08,085
+是的,非常喜欢。
+Yes, very much.
+
+971
+01:15:08,715 --> 01:15:09,285
+很不错。
+Very good.
+
+972
+01:15:12,405 --> 01:15:13,335
+好吧,我们走。 所以请
+All right. So please,
+
+973
+01:15:15,795 --> 01:15:16,725
+再来一次,打N
+one more time, hit N
+
+974
+01:15:18,015 --> 01:15:23,326
+在 Blender 中打开侧面板,您应该将 MPFB 作为标签。
+in Blender to open up the side panel, and you should see MPFB as a tab.
+
+975
+01:15:23,655 --> 01:15:27,555
+点击那个标签,好吗? 你会看到一堆不同的
+Click on that tab, okay? And you'll see a bunch of different
+
+976
+01:15:28,875 --> 01:15:33,555
+板在那个。 点击系统和资源。 不,不是系统和资源。
+panels in that. Click on system and resource. No, not system and resources.
+
+977
+01:15:36,345 --> 01:15:37,606
+等一下,给我一秒钟。
+Hold on, give me a second.
+
+978
+01:15:41,625 --> 01:15:46,215
+哦,不,它不在这里。 我们需要回去编辑首选项
+Oh no, it's not here. We need to go back to edit preferences
+
+979
+01:15:47,566 --> 01:15:51,735
+并加入到你的MPFB这里。
+and add-ons and go to your MPFB here.
+
+980
+01:15:54,495 --> 01:15:57,255
+在MPFB旁边,你可以看到一个右指箭头.
+And next to MPFB, you see a right-pointing arrow.
+
+981
+01:15:57,316 --> 01:16:01,665
+点击它来扩展 MPFB, 这样你就可以看到更多的它。
+Click on that to expand MPFB, so you can see more of it.
+
+982
+01:16:04,455 --> 01:16:07,725
+关键是我们需要创造一条通往...
+What's critical here is we need to create a path to...
+
+983
+01:16:08,655 --> 01:16:13,395
+你无法真正看到它, 但在这里它说,路径 MPFB 用户数据。
+You can't really see it, but here it says, path to MPFB user data.
+
+984
+01:16:13,965 --> 01:16:18,255
+这个文件夹是用来安装和保存所有资产和东西的
+This folder is where you're going to install and keep all of your assets and stuff
+
+985
+01:16:18,285 --> 01:16:23,865
+像这样,让MPFB的Blend知道 在那里寻找头发和衣服,
+like that, so that MPFB for Blend will know to look there for hair and clothing and
+
+986
+01:16:23,895 --> 01:16:28,125
+你下载的那些东西 好吗? 所以你需要创造出来。
+things like that that you've downloaded. Okay? So you need to create that.
+
+987
+01:16:28,635 --> 01:16:33,495
+我不知道怎么用Mac来做 所以,在Windows, 我会说,我会去我的
+I'm not sure how to do it on a Mac. So on Windows, I would say I would go to my
+
+988
+01:16:33,555 --> 01:16:37,245
+Windows 探索器. 我会去像文件一样的地方 对吧?
+Windows Explorer. I would go somewhere like Documents, right?
+
+989
+01:16:39,435 --> 01:16:45,015
+我会创建一个名为MPFB的文件夹. 所以我创造了一个已经叫MPF...
+I would create a folder called MPFB. So I created one already called MPF...
+
+990
+01:16:45,076 --> 01:16:49,755
+对不起 我创造了一个叫做MPFB的数据。 好吗?
+Oops, sorry. I created one already called MPFB data. Okay?
+
+991
+01:16:51,285 --> 01:16:57,106
+在 Windows 中,我会把鼠标点击这里并复制为路径以获取路径
+In Windows, I would right mouse click here and copy as path to get the path
+
+992
+01:16:57,195 --> 01:17:03,106
+到那个文件夹,然后我会回到喜好,添加,
+to that folder, and then I would go back to preferences, add-ons,
+
+993
+01:17:03,285 --> 01:17:09,076
+MPFB,MPFB用户数据的路径,并粘贴我的路径
+MPFB, path to MPFB user data, and paste the path to my
+
+994
+01:17:09,135 --> 01:17:11,566
+文件夹在那个位置。
+folder into that spot.
+
+995
+01:17:14,235 --> 01:17:17,595
+有人能帮我理解怎么用Mac做吗?
+Anybody can help me to understand how to do that on Mac?
+
+996
+01:17:20,715 --> 01:17:20,745
+我……
+I
+
+997
+01:17:22,185 --> 01:17:27,106
+认为您可以右键点击并说复制路径到文件夹 。
+think you could make a right click and say copy path to a folder.
+
+998
+01:17:27,795 --> 01:17:29,415
+对 我不记得了
+Mm. I don't remember.
+
+999
+01:17:32,025 --> 01:17:32,115
+垛
+Um.
+
+1000
+01:17:32,115 --> 01:17:36,435
+我认为,你必须正确点击该信息, 然后你可以看到路径和
+I think that you have to right click that info, and then you can see the path and
+
+1001
+01:17:36,465 --> 01:17:37,755
+然后复制粘贴。
+then copy paste.
+
+1002
+01:17:38,775 --> 01:17:40,155
+对不起,再来一次,艾琳
+Sorry, one more time, Erin.
+
+1003
+01:17:40,755 --> 01:17:46,695
+右键点击你的文件夹,然后得到信息, 然后它说在哪里,你
+So right click on your folder and then get info, and then it says where, and you
+
+1004
+01:17:46,755 --> 01:17:49,545
+有路径, 我认为你必须复制粘贴。
+have the path, and this I think you have to copy paste.
+
+1005
+01:17:50,265 --> 01:17:55,965
+好吧,完美无缺。 所以,当我在Windows上做的时候, 我的路径就会有引用
+Okay, perfect. So, when I do it on Windows, my path comes with quotes on either
+
+1006
+01:17:56,025 --> 01:17:59,505
+边 你需要删除引号,这样就
+side. That you need to delete the quote marks so that it's just
+
+1007
+01:18:00,975 --> 01:18:06,225
+我的驱动器C,用户,等等 和MPFB数据作为最后的事情。
+my drive C, user, so on and so forth, and MPFB data as the final thing.
+
+1008
+01:18:06,826 --> 01:18:10,875
+当它被设定在那里, 你需要去的左下侧
+And when that's set in there, you need to go on the lower left-hand side of the
+
+1009
+01:18:10,935 --> 01:18:16,005
+偏好窗口。 有一个汉堡图标。 确保你省省偏好。
+preferences window. There's a hamburger icon. And make sure you save preferences.
+
+1010
+01:18:18,555 --> 01:18:19,875
+这是关键,好吗?
+This is critical, okay?
+
+1011
+01:18:21,106 --> 01:18:25,785
+保存首选项 。 现在MPFB会知道这个文件夹在这里。
+Save preferences. And now MPFB will know that this folder's here.
+
+1012
+01:18:26,685 --> 01:18:32,055
+事实上,我认为我们需要关闭 Blender 并回来,为了这个
+Actually, I think we need to shut down Blender and come back in, for this to be
+
+1013
+01:18:34,485 --> 01:18:37,305
+理解得够清楚的 所以我现在就去做
+well understood. So I'm going to go ahead and do that right now.
+
+1014
+01:18:37,335 --> 01:18:42,405
+我要杀死Blender 并保存我的档案 并重新启动它。
+I'm going to kill Blender and save my file and restart it again.
+
+1015
+01:18:43,935 --> 01:18:46,606
+也许在Mac上是不需要的 因为你们...
+Maybe on a Mac that's not required because you guys are...
+
+1016
+01:18:47,625 --> 01:18:52,275
+这是一个更开明的PC. 好吧,我会回到辅导。
+It's a more enlightened PC. Okay, and I'll go back to tutorial.
+
+1017
+01:18:52,695 --> 01:18:55,305
+哦,不是这个文件。 哦,这不重要。
+Oops, not this one file. Oh, it doesn't matter.
+
+1018
+01:18:57,316 --> 01:19:02,415
+对不起,只有一个问题。 您必须输出文件夹中的拉链吗 ?
+Sorry, just one question. Do you have to export the zip in the folder once it's in?
+
+1019
+01:19:02,535 --> 01:19:06,045
+啊,还好。 接下来我教你怎么做 别做任何...
+Ah, okay. So I'll show you how to do that next. Do not do any of...
+
+1020
+01:19:06,106 --> 01:19:09,555
+你这样做在Blender。 我们现在就这么做 好吗?
+You do that within Blender. So we'll do that exactly right now, okay?
+
+1021
+01:19:10,695 --> 01:19:15,435
+好吧,如果你回到Blender, 再次,N键打开侧面板,
+Okay, so if you're back in Blender, one more time, N key to open up the side panel,
+
+1022
+01:19:15,585 --> 01:19:18,915
+点击MPFB, 现在我们要去...
+click MPFB, and now we're going to...
+
+1023
+01:19:20,265 --> 01:19:22,425
+有一个名为应用资产。
+There's a panel called Apply Assets.
+
+1024
+01:19:24,826 --> 01:19:26,025
+应用资产。
+Apply Assets.
+
+1025
+01:19:27,615 --> 01:19:31,185
+在"应用资产"(Application Deposits)中,有一个名为库设置的类别.
+In Apply Assets, there's a category called Library Settings.
+
+1026
+01:19:32,356 --> 01:19:33,465
+你要打开它。
+You're going to open that.
+
+1027
+01:19:37,066 --> 01:19:42,945
+在库设置的底部,它表示从zip文件中装入包.
+At the bottom of library settings, it says load pack from zip file.
+
+1028
+01:19:43,155 --> 01:19:47,865
+哦,首先,移动所有的东西 在您的 MPFB 数据文件夹。
+Oh, first of all, move everything into your MPFB data folder.
+
+1029
+01:19:48,555 --> 01:19:52,485
+如果您还没有这样做, 移动所有的东西到您的 MPFB 数据文件夹中去
+If you haven't done that already, move everything into your MPFB data folder so
+
+1030
+01:19:52,514 --> 01:19:54,764
+它知道如何去那里寻找东西。
+that it knows how to go there to look for things.
+
+1031
+01:19:56,145 --> 01:20:01,785
+里科,你说N键打开... N键是什么意思?
+Rico, you said N key to open the... What does N key mean?
+
+1032
+01:20:02,326 --> 01:20:02,445
+额...
+Uh-
+
+1033
+01:20:02,566 --> 01:20:07,965
+对不起 您键盘上的字母 N 。 所以这个侧面板消失了,好吗?
+Sorry. The letter N on your keyboard. So this side panel here disappears, okay?
+
+1034
+01:20:08,356 --> 01:20:13,005
+但如果我输入N,那封信... 哦,对不起,我的播音员 不再显示
+But if I type the N, the letter... Oh, sorry, my screencast is not showing anymore
+
+1035
+01:20:13,305 --> 01:20:16,035
+因为我关闭。 好吧,让我再做一次。
+because I shut down. Okay, let me do that one more time.
+
+1036
+01:20:17,085 --> 01:20:17,295
+对
+Mm-hmm.
+
+1037
+01:20:17,985 --> 01:20:20,145
+你看到了吗? 这些是我碰过的钥匙
+You see here? These are the keys that I'm touching.
+
+1038
+01:20:20,175 --> 01:20:23,625
+所以我打了N,侧面板打开了。 谓此义.
+So I hit N and the side panel pops open. That's what that means.
+
+1039
+01:20:25,095 --> 01:20:26,595
+对 当...
+Uh-huh. When-
+
+1040
+01:20:30,915 --> 01:20:36,045
+好吗? 在你右手边的标签中 应该有一个说
+Okay? And amongst the tabs you have on the right-hand side, one of them should say
+
+1041
+01:20:36,195 --> 01:20:36,915
+MPFB (英语).
+MPFB.
+
+1042
+01:20:37,725 --> 01:20:40,545
+对 摆 非常感谢 对
+Yes. Okay. Thank you so much. Yes.
+
+1043
+01:20:40,665 --> 01:20:45,015
+摆 当你选择它时, 有一个名为应用资产。
+Okay. And when you select that, there's a panel called Apply Assets.
+
+1044
+01:20:45,826 --> 01:20:46,725
+对 摆
+Yes. Okay.
+
+1045
+01:20:46,816 --> 01:20:49,935
+在“应用资产”中,您想要访问库设置。
+In Apply Assets, you want to go to Library Settings.
+
+1046
+01:20:50,835 --> 01:20:51,195
+对
+Mm-hmm.
+
+1047
+01:20:51,795 --> 01:20:55,635
+在库设置的底部,有一个来自zip文件的负载包.
+In the bottom of library settings, there is a load pack from zip file.
+
+1048
+01:20:55,995 --> 01:21:01,816
+所以,你将点击这个 然后去你的"制MakeHuman类"数据
+So you're going to click on that and then go to your Make Human data
+
+1049
+01:21:01,875 --> 01:21:04,335
+您所有的东西所在的文件夹 。
+folder where all of your stuff is located.
+
+1050
+01:21:10,275 --> 01:21:11,566
+MakeHuman数据文件夹
+Make Human data folder
+
+1051
+01:21:13,095 --> 01:21:13,335
+在这里,
+here,
+
+1052
+01:21:15,225 --> 01:21:18,885
+然后单击您刚刚选择的资产文件。 好吗?
+and then click on that asset file that you just selected. Okay?
+
+1053
+01:21:18,975 --> 01:21:21,645
+说MakeHuman系统 资产或什么的。
+The one that says Make Human system assets or whatnot.
+
+1054
+01:21:22,695 --> 01:21:27,015
+一旦你这样做, 所有的眼球和... 是的,伊兹。
+Once you've done that, all of those eyeballs and... Yes, Izzy.
+
+1055
+01:21:27,495 --> 01:21:29,595
+顿 对不起,我真的找不到它。
+Hi. I'm sorry I really cannot find it.
+
+1056
+01:21:29,985 --> 01:21:30,345
+啊,还好。
+Ah, okay.
+
+1057
+01:21:30,405 --> 01:21:31,395
+我可以按N键和...
+I can press the N and the-
+
+1058
+01:21:31,425 --> 01:21:33,705
+你为什么不分享屏幕?
+Why don't you share screen?
+
+1059
+01:21:33,885 --> 01:21:35,025
+一秒钟就好
+One second will do.
+
+1060
+01:21:35,745 --> 01:21:37,935
+继续分享屏幕 这样我就能看看你有什么
+Go ahead and share screen so I can take a look at what you have.
+
+1061
+01:21:38,356 --> 01:21:39,675
+对 一秒钟。
+Yeah. One second.
+
+1062
+01:21:44,055 --> 01:21:46,245
+摆 所以我在这里。 我按了N键
+Okay. So I'm here. I pressed the N.
+
+1063
+01:21:47,145 --> 01:21:48,675
+给我一秒钟。 还在装货
+Give me a second. It's still loading for me.
+
+1064
+01:21:48,765 --> 01:21:48,915
+瓳
+Oh.
+
+1065
+01:21:50,955 --> 01:21:51,165
+对
+Yep.
+
+1066
+01:21:51,826 --> 01:21:53,295
+这是与 N 点击。
+This is with N clicked.
+
+1067
+01:21:53,535 --> 01:21:56,835
+对 因为MPFB还没有被选中,所以没有出现.
+Yep. It's not showing up because MPFB has not been selected.
+
+1068
+01:21:56,865 --> 01:21:58,875
+您需要编辑 。 转到编辑菜单。
+You need to go to edit. Go to the edit menu.
+
+1069
+01:21:58,875 --> 01:21:59,025
+对
+Uh-huh.
+
+1070
+01:21:59,595 --> 01:22:00,316
+首选项。
+Preferences.
+
+1071
+01:22:01,905 --> 01:22:02,655
+一秒钟。
+One second.
+
+1072
+01:22:04,365 --> 01:22:04,515
+是吗?
+Hmm.
+
+1073
+01:22:05,445 --> 01:22:06,555
+摆 补上.
+Okay. Add-ons.
+
+1074
+01:22:07,215 --> 01:22:08,595
+补上. 对
+Add-ons. Mm-hmm.
+
+1075
+01:22:08,715 --> 01:22:12,285
+(原始内容存档于2018-09-26). MPF. 进入顶端搜索并输入 MPFB 。
+MPF. Go to the search at the top and type MPFB.
+
+1076
+01:22:14,655 --> 01:22:17,775
+好的，你还没有……MPFB。B 就是字母 B。
+Okay, you haven't... MPFB. B like boy.
+
+1077
+01:22:20,745 --> 01:22:23,895
+好吧,你还没有安装它。 故说. 现在去得到扩展。
+Okay, you haven't installed it. That's why. Now go to get extensions.
+
+1078
+01:22:27,045 --> 01:22:27,316
+摆
+Okay.
+
+1079
+01:22:27,675 --> 01:22:29,805
+然后点击允许在线访问。
+Ah, and then click allow online access.
+
+1080
+01:22:33,723 --> 01:22:36,424
+摆 然后在这里, 类型 MPFB。
+Okay. And then in here, type MPFB.
+
+1081
+01:22:39,873 --> 01:22:40,623
+就像男孩一样
+B like boy,
+
+1082
+01:22:42,933 --> 01:22:43,773
+点击 Enter。
+and hit Enter.
+
+1083
+01:22:47,103 --> 01:22:51,033
+没有远程数据 。 远程仓库 。 这可能是你的系统。
+Remote data unavailable. Remote repository. It might be your system.
+
+1084
+01:22:51,093 --> 01:22:52,743
+好吧,我们可以去系统?
+Okay, can we go to System?
+
+1085
+01:22:53,883 --> 01:22:54,153
+摆
+Okay.
+
+1086
+01:22:55,323 --> 01:23:00,933
+好吧,允许在线访问开始。 获取扩展。 是吗?
+And okay, Allow Online Access is on. Get Extensions. Hmm.
+
+1087
+01:23:04,383 --> 01:23:09,723
+摆 我们要从现场直接安装到这里
+Okay. This is where we're going to need to install it directly from the site
+
+1088
+01:23:09,783 --> 01:23:10,924
+它本身。 你能...
+itself. Can you-
+
+1089
+01:23:11,013 --> 01:23:13,713
+我已经做了。 你是说《MakeHuman》? 我已经做了。
+I already did that. You mean about the MakeHuman? I already did this.
+
+1090
+01:23:14,674 --> 01:23:16,773
+你下载了资产包,对吧?
+You downloaded the asset pack, right?
+
+1091
+01:23:17,343 --> 01:23:17,973
+对 还有...
+Yes. And also,
+
+1092
+01:23:19,293 --> 01:23:22,503
+我下载了资产包 还有这个应用程序 应用软件.
+I downloaded the asset pack and also this app. The app.
+
+1093
+01:23:23,103 --> 01:23:23,674
+是吗?
+You did?
+
+1094
+01:23:25,053 --> 01:23:26,133
+(原始内容存档于2017-03-27). The MPFB. 摆
+The MPFB. Okay.
+
+1095
+01:23:26,133 --> 01:23:26,163
+对
+Right.
+
+1096
+01:23:26,193 --> 01:23:28,233
+你能去网站 展示你下载的东西吗?
+Can you go to the website and show me what you downloaded?
+
+1097
+01:23:29,073 --> 01:23:32,163
+单 所以我下载了资产包。
+One sec. So I downloaded the asset pack.
+
+1098
+01:23:32,733 --> 01:23:32,883
+对
+Uh-huh.
+
+1099
+01:23:32,913 --> 01:23:36,543
+后来我还下载了最新的一个。
+And then I also downloaded the most recent one here.
+
+1100
+01:23:36,933 --> 01:23:39,153
+哦,伟大的。 不错 好吧,完美无缺。
+Oh, great. Perfect. Okay, perfect.
+
+1101
+01:23:39,183 --> 01:23:40,084
+但我有这个分开的...
+But I have this separate-
+
+1102
+01:23:41,163 --> 01:23:42,573
+好吧,让我们安装它。 让我们去 -
+Okay, so let's install it. Let's go to-
+
+1103
+01:23:42,633 --> 01:23:43,563
+比如申请?
+Like an application?
+
+1104
+01:23:43,713 --> 01:23:44,523
+是的,让我们去...
+Yeah, let's go to...
+
+1105
+01:23:46,413 --> 01:23:46,713
+加点?
+Add-ons?
+
+1106
+01:23:47,043 --> 01:23:50,793
+MPFB为Blender版本. 故曰加进. 你能在这里补充吗?
+MPFB is the Blender version. So let's go to add-ons. Can you go to add-ons here?
+
+1107
+01:23:51,093 --> 01:23:51,213
+对
+Yeah.
+
+1108
+01:23:52,113 --> 01:23:52,323
+好的，
+Okay,
+
+1109
+01:23:53,763 --> 01:23:56,943
+伟大的。 而去此降点箭.
+great. And go this down-pointing arrow.
+
+1110
+01:23:57,003 --> 01:24:00,663
+我要你去右侧的箭头
+I want you to go to down-pointing arrow over here on the right side.
+
+1111
+01:24:00,903 --> 01:24:01,323
+摆 对
+Okay. Yep.
+
+1112
+01:24:02,403 --> 01:24:03,813
+从磁盘上安装。
+And install from disk.
+
+1113
+01:24:06,693 --> 01:24:08,163
+好吧,完美无缺。 MakeHuman?
+Okay, perfect. MakeHuman?
+
+1114
+01:24:09,813 --> 01:24:09,992
+额...
+Uh-
+
+1115
+01:24:10,084 --> 01:24:10,862
+所以,我安装在那里?
+So I install from there?
+
+1116
+01:24:12,003 --> 01:24:14,523
+您能查看下载文件夹吗 ?
+Can you look in your downloads folder?
+
+1117
+01:24:16,773 --> 01:24:18,723
+是否有Make Human社区?
+Is there a MakeHuman community?
+
+1118
+01:24:19,953 --> 01:24:21,063
+我怀疑是不是这样
+I wonder if that's it.
+
+1119
+01:24:22,023 --> 01:24:24,213
+那是我作为第一页下载的 因为我...
+That was what I downloaded as that first page, because I-
+
+1120
+01:24:24,303 --> 01:24:27,843
+试试看 试试看,然后从磁盘上安装,看看它是否有效。
+Try that. Try that one, and hit install from disk and see if it works.
+
+1121
+01:24:28,834 --> 01:24:29,103
+摆
+Okay.
+
+1122
+01:24:29,133 --> 01:24:30,183
+没有。 摆
+Nope. Okay.
+
+1123
+01:24:30,334 --> 01:24:30,453
+是吗?
+No?
+
+1124
+01:24:32,793 --> 01:24:37,593
+等我一下 我试着找出你该写什么档案
+Give me a second here while I try to figure out what file you're supposed to
+
+1125
+01:24:37,743 --> 01:24:38,343
+下载。
+download.
+
+1126
+01:24:41,613 --> 01:24:42,123
+摆
+Okay.
+
+1127
+01:24:44,973 --> 01:24:45,453
+视窗.
+Windows.
+
+1128
+01:24:47,793 --> 01:24:51,243
+对,MPFB 如我所说,有两件事。
+Yeah, MPFB. There are two things, as I mentioned.
+
+1129
+01:24:51,273 --> 01:24:56,253
+有Make Human的应用软件,你运行在你的桌面上,还有Make Human
+There's the MakeHuman app, which you run on your desktop, and there's a MakeHuman
+
+1130
+01:24:56,403 --> 01:24:59,674
+Blender的加载。 我们想要的是下载加载,
+add-on for Blender. What we want is to download the add-on,
+
+1131
+01:25:02,943 --> 01:25:05,973
+但我很难找到它在哪里。
+but I'm struggling to find where that is.
+
+1132
+01:25:08,703 --> 01:25:13,263
+资产包。 给我一点时间 对不起,这需要很长时间。
+Asset packs. Give me a second here. I'm sorry, it's taking a long time.
+
+1133
+01:25:20,193 --> 01:25:22,803
+是吗? 乃劝汝作么生. 好吧,这样吧
+Hmm. It's telling you to do it. Okay, so
+
+1134
+01:25:24,693 --> 01:25:28,413
+其他人,我想,已经成功地安装了Make Human,对不对?
+everybody else, I'm assuming, has successfully installed MakeHuman, right?
+
+1135
+01:25:30,243 --> 01:25:31,353
+哪里是我的... ... 是谁?
+Where is my...
+
+1136
+01:25:32,703 --> 01:25:35,073
+哦,这里。 闲聊 摆
+Oh, here. Chat. Okay.
+
+1137
+01:25:35,133 --> 01:25:41,103
+对不起,只有一个问题。 我安装了Make Human, 但我不知道是什么
+Sorry, just one question. I installed MakeHuman, but I don't know which
+
+1138
+01:25:41,223 --> 01:25:42,153
+资产,我们应该
+assets we should
+
+1139
+01:25:44,193 --> 01:25:48,453
+或者我们应该从Blender开始 我不知道.
+transfer, or if we should just start with Blender. I don't know.
+
+1140
+01:25:49,263 --> 01:25:51,543
+摆 接下来让我来处理你的问题
+Okay. So let me handle your question next.
+
+1141
+01:25:52,053 --> 01:25:53,133
+伊兹,在链接中...
+Izzy, in the link-
+
+1142
+01:25:53,493 --> 01:25:53,883
+当然
+Sure
+
+1143
+01:25:53,883 --> 01:25:57,993
+...有一个网站,你需要去, 有一个按钮叫Get
+... there's a website that you need to go to, and there's a button called Get
+
+1144
+01:25:58,113 --> 01:26:00,063
+在那页上添加 你为什么不去那里?
+Add-On on that page. Why don't you go there?
+
+1145
+01:26:02,823 --> 01:26:06,453
+向下滚. 右侧, 获得 Add -On, 点击。
+Scroll down. Right side, Get Add-On, click that.
+
+1146
+01:26:08,073 --> 01:26:09,213
+然后拖进Blender?
+And then drag and drop into Blender?
+
+1147
+01:26:09,273 --> 01:26:10,443
+拖到Blender那里去
+Drag and drop into Blender.
+
+1148
+01:26:12,543 --> 01:26:13,533
+这应该可行。
+That should work.
+
+1149
+01:26:15,183 --> 01:26:15,393
+瓳
+Oh.
+
+1150
+01:26:18,243 --> 01:26:18,753
+它不见了。
+It disappeared.
+
+1151
+01:26:18,813 --> 01:26:19,263
+再试一次
+Try it again.
+
+1152
+01:26:20,553 --> 01:26:20,793
+对
+Yeah.
+
+1153
+01:26:22,113 --> 01:26:22,323
+如果你们...
+If you-
+
+1154
+01:26:22,863 --> 01:26:25,924
+拖到3D视图窗口。
+Drag it and drop it into the 3D viewport window.
+
+1155
+01:26:26,373 --> 01:26:28,953
+对 单 摆
+Yeah. One sec. Ah.
+
+1156
+01:26:33,663 --> 01:26:34,473
+开始了
+There we go.
+
+1157
+01:26:38,343 --> 01:26:39,424
+对不起,等一下。
+Sorry, one second.
+
+1158
+01:26:39,813 --> 01:26:42,663
+别担心 我知道,我记得 做这个真是噩梦
+No worries. I know. It's a nightmare trying to do this-
+
+1159
+01:26:42,723 --> 01:26:43,503
+有个...
+There's a-
+
+1160
+01:26:43,503 --> 01:26:44,313
+...在实时。
+... in real-time.
+
+1161
+01:26:45,093 --> 01:26:45,843
+开始了
+There we go.
+
+1162
+01:26:49,473 --> 01:26:50,073
+摆
+Okay.
+
+1163
+01:26:50,073 --> 01:26:52,743
+"发现仓库. 这个扩展..." 摆
+"Repository found. This extension..." Okay.
+
+1164
+01:26:52,773 --> 01:26:58,053
+一秒钟。 它说,"发现的仓库没有在远程
+One second. It said, "Repository found was not found in a remote
+
+1165
+01:26:58,084 --> 01:27:00,123
+仓库". 对
+repository." Yeah.
+
+1166
+01:27:04,413 --> 01:27:09,123
+这部分的寄存器和比对... 检查这部分... 是吗?
+This part of the repository and compat... Check that this part... Hmm.
+
+1167
+01:27:11,584 --> 01:27:15,393
+不是百分之百的肯定。 让我们确保它没有成功安装。
+Not 100% sure. Let's just make sure that it didn't successfully install.
+
+1168
+01:27:16,953 --> 01:27:20,523
+之后我们可能会调试这个 我得去调查一下
+And we might have to debug this afterwards. I'm going to have to look into this.
+
+1169
+01:27:21,003 --> 01:27:21,153
+对
+Mm-hmm.
+
+1170
+01:27:21,243 --> 01:27:23,643
+好吧,所以继续 继续你的喜好。
+Okay, so go ahead and go into your preferences again.
+
+1171
+01:27:23,973 --> 01:27:25,773
+编辑、 首选项、 添加内容, 让我们看看
+Edit, Preferences, Add-ons, and let's see if
+
+1172
+01:27:27,003 --> 01:27:28,893
+MPFB已经在里面了
+MPFB is already in there.
+
+1173
+01:27:31,203 --> 01:27:32,493
+这是... 没有
+It's... Yeah. No.
+
+1174
+01:27:32,823 --> 01:27:34,353
+您可以在顶端输入 MPFB 吗 ?
+Can you type MPFB at the top?
+
+1175
+01:27:38,703 --> 01:27:39,334
+没有 瓳
+No. Huh.
+
+1176
+01:27:41,103 --> 01:27:44,313
+摆 伊兹,我待会再找你
+Okay. Izzy, I'm going to have to come back to you later on.
+
+1177
+01:27:44,523 --> 01:27:45,753
+我有点好奇...
+I'm a little bit curious-
+
+1178
+01:27:45,753 --> 01:27:46,053
+对
+Yeah
+
+1179
+01:27:45,753 --> 01:27:47,103
+...关于为什么会这样 好吧,我们走。
+... as to why this is happening. All right.
+
+1180
+01:27:47,223 --> 01:27:50,163
+那么另一个问题来自谁?
+So then the other question came from who?
+
+1181
+01:27:52,803 --> 01:27:53,733
+对不起 它来自我。
+Sorry. It came from me.
+
+1182
+01:27:54,693 --> 01:27:55,473
+嗨,维达 摆
+Hi, Vida. Okay.
+
+1183
+01:27:55,863 --> 01:27:56,073
+顿
+Hi.
+
+1184
+01:27:56,343 --> 01:27:59,433
+你需要的宝藏... 我将分享屏幕。
+The asset pack that you need to... I'm going to share screen.
+
+1185
+01:28:04,893 --> 01:28:06,183
+好吧,我们走。 我们在这里看什么?
+All right. What are we looking at here?
+
+1186
+01:28:07,443 --> 01:28:13,023
+摆 所以,在MPFB的下载下,你想要去资产包,这就是
+Okay. So under MPFB downloads, you want to go to Asset Packs, which is
+
+1187
+01:28:13,053 --> 01:28:13,473
+在这里。
+here.
+
+1188
+01:28:14,793 --> 01:28:19,593
+现在唯一需要安装的是这个
+And out of Asset Packs, the only one right now that you need to install is this one
+
+1189
+01:28:19,623 --> 01:28:22,143
+在这里,MakeHuman系统资产。
+here, MakeHuman System Assets.
+
+1190
+01:28:24,543 --> 01:28:24,993
+对
+Mm-hmm.
+
+1191
+01:28:27,993 --> 01:28:32,313
+所以,对,我在资产部分, 然后MakeHuman -
+So, right, I'm in the assets part, and then MakeHuman-
+
+1192
+01:28:32,373 --> 01:28:33,603
+什么资产的一部分? 布莱德?
+Assets part of what? Blender?
+
+1193
+01:28:35,103 --> 01:28:38,163
+点击你共享的链接
+Yeah, just click on the link that you shared.
+
+1194
+01:28:39,933 --> 01:28:41,433
+哦,没关系。
+Oh, okay.
+
+1195
+01:28:42,213 --> 01:28:43,413
+不过,所以...
+But, so-
+
+1196
+01:28:44,433 --> 01:28:47,193
+你为什么不分享你的屏幕? 让我们这样做,所以我至少可以看到
+Why don't you share your screen? Let's do it this way, so I can at least see what
+
+1197
+01:28:47,253 --> 01:28:47,584
+你这样做。
+you're doing.
+
+1198
+01:28:49,053 --> 01:28:53,253
+摆 但我不知道怎样... 等等,对不起。 对不起
+Okay. But I don't know how to... Wait, sorry. I'm sorry.
+
+1199
+01:28:55,623 --> 01:28:55,834
+顿
+Hi.
+
+1200
+01:28:59,674 --> 01:29:00,542
+我能说点什么吗?
+Can I say something?
+
+1201
+01:29:01,473 --> 01:29:01,682
+对
+Yeah.
+
+1202
+01:29:02,313 --> 01:29:06,813
+也许是因为我也很困惑 但有米罗和米罗
+Maybe it's because, I was confused too, but that there is the Miro one and the Miro
+
+1203
+01:29:06,873 --> 01:29:09,933
+您必须下载两个链接。 也许这就是问题所在?
+two link you have to download from. Maybe that's the problem?
+
+1204
+01:29:11,223 --> 01:29:11,463
+对
+Mm.
+
+1205
+01:29:12,273 --> 01:29:17,073
+亦不见. Izzy收到的错误信息似乎表明
+I don't think so. The error message that Izzy got seems to indicate that it's a
+
+1206
+01:29:17,793 --> 01:29:21,633
+版本不兼容问题。
+version incompatibility issue.
+
+1207
+01:29:22,203 --> 01:29:23,883
+我在想丽塔的问题
+I was thinking of Rita's problem.
+
+1208
+01:29:25,383 --> 01:29:26,493
+哦,丽塔的问题。 摆
+Oh, Rita's problem. Okay.
+
+1209
+01:29:31,263 --> 01:29:31,653
+单单
+Wait.
+
+1210
+01:29:33,993 --> 01:29:35,343
+你能分享屏幕吗?
+Are you able to share screen?
+
+1211
+01:29:36,813 --> 01:29:40,983
+对 也许吧 对 摆 所以我就在这里。
+Yeah. Probably. Yeah. Okay. So I just go here.
+
+1212
+01:29:42,813 --> 01:29:45,273
+这是法布学院的基本技能.
+This is a fundamental Fab Academy skill.
+
+1213
+01:29:46,683 --> 01:29:48,753
+你得好好干这个
+You're going to need to be really good at this.
+
+1214
+01:29:50,013 --> 01:29:52,924
+我怎么分享屏幕? 我从来没有共享过屏幕。
+How do I share screens? I never shared a screen before.
+
+1215
+01:29:53,733 --> 01:29:59,043
+下方工具栏有一个共享按钮 。 以升箭为矩.
+At the bottom toolbar, there is a share button. It's a rectangle with an up arrow.
+
+1216
+01:30:00,123 --> 01:30:01,023
+哦,没关系。 对
+Oh, okay. Yeah.
+
+1217
+01:30:01,473 --> 01:30:04,953
+对 如果你点击它, 它会给你选择 你想要分享的东西。
+Yeah. If you click that, and it'll give you options of what you want to share.
+
+1218
+01:30:05,253 --> 01:30:05,313
+对
+Yeah.
+
+1219
+01:30:05,313 --> 01:30:09,723
+所以我建议你分享一个 说整个屏幕或所有的东西或什么的
+So I suggest you share the one that says whole screen or everything or something
+
+1220
+01:30:09,753 --> 01:30:10,203
+像这样
+like that.
+
+1221
+01:30:11,523 --> 01:30:11,943
+摆
+Okay.
+
+1222
+01:30:12,633 --> 01:30:12,843
+摆
+Okay.
+
+1223
+01:30:12,903 --> 01:30:13,113
+摆
+Okay.
+
+1224
+01:30:21,603 --> 01:30:24,603
+上面说我不能分享 为什么?
+It says that I'm not allowed to share. Why?
+
+1225
+01:30:26,043 --> 01:30:26,523
+垛
+Um.
+
+1226
+01:30:28,773 --> 01:30:29,133
+我不知道.
+I don't know.
+
+1227
+01:30:29,913 --> 01:30:32,133
+上面说现在任何人都可以分享
+It says that anybody can share right now.
+
+1228
+01:30:32,193 --> 01:30:36,273
+上面写着,我想点击分享,但它没有给我这个选择。
+It says, I want to click on share, but it doesn't give me that option.
+
+1229
+01:30:36,393 --> 01:30:40,323
+它不允许我点击它。
+It doesn't allow me to click it.
+
+1230
+01:30:41,913 --> 01:30:44,643
+每个人都可以分享,对不对? 伊兹,你只是分享,所以...
+Everybody else can share, right? Izzy, you just shared, so-
+
+1231
+01:30:45,243 --> 01:30:45,424
+对
+Yeah
+
+1232
+01:30:45,453 --> 01:30:49,174
+维达,我不知道你那边怎么了
+... Vida, I don't know what's going on on your side.
+
+1233
+01:30:50,913 --> 01:30:55,803
+摆 但是,我可以只是... 好吧,我以后再学,但我不想慢一点
+Okay. But can I just... Okay, I will learn this after, but I don't want to slow
+
+1234
+01:30:55,863 --> 01:30:56,073
+你们
+you.
+
+1235
+01:30:56,733 --> 01:30:56,763
+摆
+Okay.
+
+1236
+01:30:56,853 --> 01:30:57,063
+这么说
+So,
+
+1237
+01:30:58,353 --> 01:31:03,003
+我的问题是 我在资产方面 然后...
+just my question was, I was on the assets part, and then-
+
+1238
+01:31:04,113 --> 01:31:04,834
+你是说在Blender?
+In Blender, you mean?
+
+1239
+01:31:05,733 --> 01:31:07,924
+对 我是在加钱。
+Yeah. I was on the add-ons.
+
+1240
+01:31:10,053 --> 01:31:14,043
+摆 让我回到我的... 让我分享我的Blender屏幕,
+Okay. Let me go back to my... Let me share my Blender screen,
+
+1241
+01:31:15,393 --> 01:31:16,023
+这样
+so that
+
+1242
+01:31:18,543 --> 01:31:20,013
+也许你可以让我通过它。
+maybe you can walk me through it.
+
+1243
+01:31:20,073 --> 01:31:20,103
+对 带我穿过它。
+Yes. Walk me through it.
+
+1244
+01:31:20,103 --> 01:31:21,663
+所以,你在这里,编辑 -
+So you're here, Edit-
+
+1245
+01:31:22,383 --> 01:31:22,443
+对
+Yeah.
+
+1246
+01:31:22,503 --> 01:31:24,003
+参考文献,添加,对不对?
+References, Add-ons, right?
+
+1247
+01:31:25,443 --> 01:31:25,653
+对
+Yeah.
+
+1248
+01:31:26,373 --> 01:31:27,543
+接着是MPFB.
+And then MPFB.
+
+1249
+01:31:29,283 --> 01:31:30,183
+单单 摆
+Wait. Okay.
+
+1250
+01:31:30,483 --> 01:31:30,663
+对吧?
+Right?
+
+1251
+01:31:39,243 --> 01:31:41,913
+还有所有 这就是你说的吗? 对
+And all Is this what you're talking about? Yeah.
+
+1252
+01:31:43,683 --> 01:31:45,993
+但我从哪里看到MPFB?
+But where do I see MPFB?
+
+1253
+01:31:48,183 --> 01:31:52,503
+喜欢... 你必须安装它。 如果你没有安装,它就不会出现
+Like... You have to install it. If you haven't installed it, it won't show up
+
+1254
+01:31:52,563 --> 01:31:55,263
+这里 哦,没关系。 所以我还是要安装它。 摆
+there. Oh, okay. So I still have to install that. Okay.
+
+1255
+01:31:57,153 --> 01:31:57,363
+对
+Yeah.
+
+1256
+01:31:59,643 --> 01:31:59,913
+摆
+Okay.
+
+1257
+01:32:04,473 --> 01:32:08,973
+Make Human有一个YouTube频道 介绍如何安装所有这些东西。
+MakeHuman has a YouTube channel that shows you how to install all of these things.
+
+1258
+01:32:09,033 --> 01:32:13,263
+所以,我们将离开你。 摆 如果你还在挣扎 请告诉我
+So we'll leave you to that. Okay. And if you still struggle with it, do let me know
+
+1259
+01:32:13,323 --> 01:32:17,643
+在Matimest, 我会帮你。 但与此同时,我要继续前进,好吗?
+in Mattermost, I'll help you. But in the meantime, I'm going to move forward, okay?
+
+1260
+01:32:18,213 --> 01:32:18,723
+对 摆 好吧,我们走。
+Mm-hmm. Okay. All right.
+
+1261
+01:32:21,424 --> 01:32:26,132
+所以,我们做的最后一件事,我们正在做 应用资产,库设置,装入
+So the last thing we were doing, we were doing Apply Assets, Library Settings, Load
+
+1262
+01:32:26,253 --> 01:32:31,353
+从 Zip 文件包装, 您应该选择 Make Human System 资产 zip
+Pack from Zip File, and you should have selected the MakeHuman System Assets zip
+
+1263
+01:32:31,413 --> 01:32:34,743
+要打开的文件,它应该安装在您的
+file to open, which should have been installed in your
+
+1264
+01:32:36,723 --> 01:32:38,823
+您创建的 MPFB 数据文件夹 。
+MPFB data folder that you created.
+
+1265
+01:32:39,453 --> 01:32:43,203
+这样我们就能把一个人变成人了 好吗?
+With that done, we can now make somebody a human being. Okay?
+
+1266
+01:32:44,253 --> 01:32:48,123
+所以,你要做的是让一个人去, 有一个叫做新人类的面板。
+So what you do to make a human being is you go, there's a panel called New Human.
+
+1267
+01:32:48,183 --> 01:32:51,063
+你点击它, 你会从头开始。
+You click on that, and you're going to do it from scratch.
+
+1268
+01:32:52,174 --> 01:32:56,584
+在这里你做了你的调整。 好吧,我要让这个互动。
+And here you make your adjustments. All right, I'm going to make this interactive.
+
+1269
+01:32:56,703 --> 01:33:02,493
+所以伊兹 告诉我 性别 中立 男性 还是女性
+So Izzy, tell me, gender, neutral, male, or female?
+
+1270
+01:33:03,183 --> 01:33:08,943
+中立. 中立. 摆 年龄,年幼,孩子,宝贝。
+Neutral. Neutral. Okay. Age, young, child, baby.
+
+1271
+01:33:09,393 --> 01:33:14,582
+单单 老,幼,孩子,还是婴儿? 宝贝 宝贝 摆
+Wait. Old, young, child, or baby? Baby. Baby. Okay.
+
+1272
+01:33:15,063 --> 01:33:17,763
+肌肉,最小,平均,最大吗?
+Muscles, minimum, average, maximum?
+
+1273
+01:33:19,203 --> 01:33:24,753
+最大一个。 最大肌肉宝贝。 摆 这会很有趣。
+Maximum. Maximum muscle baby. Okay. This is going to be fun.
+
+1274
+01:33:25,443 --> 01:33:27,783
+体重,最小,平均,最高?
+Weight, minimum, average, maximum?
+
+1275
+01:33:29,343 --> 01:33:29,793
+又是我吗?
+Me again?
+
+1276
+01:33:31,233 --> 01:33:36,243
+你说什么? 最少是别人 我尽量... 尽量 и琌程
+What? Minimum- Someone else. I'll go maximum ... maximum. I'm maximum.
+
+1277
+01:33:36,303 --> 01:33:37,924
+这将会是你的性格。 对
+This is going to be your character. Yeah.
+
+1278
+01:33:37,953 --> 01:33:40,383
+这是你的阿凡达 我们实时创作
+This is your avatar right here we're creating in real time.
+
+1279
+01:33:40,803 --> 01:33:42,723
+身高,矮,平均,高?
+Height, short, average, tall?
+
+1280
+01:33:44,584 --> 01:33:50,403
+平均数。 平均数。 摆 比例、反向V形状、平均值或
+Average. Average. Okay. Proportion, inverted V shape, average, or
+
+1281
+01:33:51,003 --> 01:33:55,143
+V形状? 颠倒V形. 颠倒V形.
+V shape? Inverted V shape. Inverted V shape.
+
+1282
+01:33:55,233 --> 01:34:00,723
+种族,世界,非洲,亚洲,高加索? 万国网. 万国网. 这是我的宝贝。
+Race, universal, African, Asian, Caucasian? Universal. Universal. It's my baby.
+
+1283
+01:34:01,743 --> 01:34:07,233
+好吧,我们走。 这里有乳房,大还是小? 小一点
+All right. And here we have breasts, larger or smaller? Smaller.
+
+1284
+01:34:08,193 --> 01:34:13,174
+小一点? 摆 乳房坚固,更坚固,更不坚固? 不太坚定。
+Smaller? Okay. Breast firmness, more firm, less firm? Less firm.
+
+1285
+01:34:13,983 --> 01:34:17,703
+我有点不舒服 问你这些问题, 但让我们前进。
+I'm a little bit uncomfortable asking you these questions, but let's move forward.
+
+1286
+01:34:17,763 --> 01:34:19,563
+摆 因此,这基本上就是一切。
+Okay. So with that, that's basically everything.
+
+1287
+01:34:19,773 --> 01:34:23,763
+顺便说一句 如果你出于什么原因 不喜欢你所做的选择
+And by the way, if you for whatever reason didn't like the choices you made, there
+
+1288
+01:34:23,793 --> 01:34:29,133
+是日后调整的方法。 因此,你只是做Create Human,和Voila,
+are ways to adjust this later. So with that, you simply do Create Human, and voila,
+
+1289
+01:34:29,643 --> 01:34:32,043
+你创造了一个,是什么?
+you've created a, what was it again?
+
+1290
+01:34:32,133 --> 01:34:37,174
+中性宝贝,最大肌肉... 这孩子对我来说太正常了 . . ....
+Neutral baby, maximum muscle- The baby looks way too normal for me. ...
+
+1291
+01:34:37,174 --> 01:34:40,023
+最大体重,平均身高。 对 所以这是... 对我来说太正常了
+maximum weight, average height. Yeah. So this is- Looks way too normal for me.
+
+1292
+01:34:41,043 --> 01:34:43,113
+我以为这些设置会很怪异
+I thought it was going to be real freaky with those settings.
+
+1293
+01:34:43,683 --> 01:34:46,203
+正如你注意到的 没有眼球 非常恐怖
+And as you noticed, no eyeballs, very creepy.
+
+1294
+01:34:47,493 --> 01:34:49,383
+但是,嘿,我们可以玩 这一点以后,好吗?
+But hey, we can play with this some more later, okay?
+
+1295
+01:34:49,953 --> 01:34:54,993
+因此,让我们给它一些眼球, 这就是资产变得非常
+So with this, let's give it some eyeballs, and this is where the assets become very
+
+1296
+01:34:55,053 --> 01:35:00,093
+帮助。 因此应用资产。 这次不是图书馆的设置,我们要去
+helpful. So Apply Assets. This time, instead of Library Settings, we're going to go
+
+1297
+01:35:00,183 --> 01:35:03,573
+先去皮肤 让我们给它一些皮肤。
+to Skin first. Let's give it some skin.
+
+1298
+01:35:07,473 --> 01:35:10,713
+抱歉,现在问问题可以吗?
+Sorry, is that possible to ask a question now or not?
+
+1299
+01:35:10,863 --> 01:35:11,674
+当然 来吧。
+Yeah, sure. Go ahead.
+
+1300
+01:35:13,053 --> 01:35:16,743
+我做了"Create Human" 但我还有魔方
+I made a Create Human, but I still have the cube.
+
+1301
+01:35:18,783 --> 01:35:22,293
+你想把立方体藏起来? 我也一样 我没有看到宝宝。
+Oh, so you want to hide the cube? Same here. I don't see the baby.
+
+1302
+01:35:23,133 --> 01:35:23,943
+怎么办?
+How to do that?
+
+1303
+01:35:24,753 --> 01:35:28,593
+单单 MakeHuman创造了一个立方体而不是婴儿?
+Oh, wait. The Make Human created a cube instead of a baby?
+
+1304
+01:35:29,913 --> 01:35:29,943
+我……
+I
+
+1305
+01:35:32,283 --> 01:35:37,713
+创造了一个你表现的人类 但我仍然有立方体
+created a human just how you showed, but I still had the cube.
+
+1306
+01:35:37,924 --> 01:35:40,023
+所以现在我看不到孩子了
+So now I don't see the baby.
+
+1307
+01:35:40,053 --> 01:35:44,703
+你想隐藏立方体。 你到右上角,然后...
+You want to hide the cube. You go to the upper right-hand corner, and in the
+
+1308
+01:35:44,763 --> 01:35:50,043
+然后点击眼球图标,它会
+Outliner section, and find Cube, and then click on the eyeball icon, and it will
+
+1309
+01:35:50,103 --> 01:35:50,493
+藏起来
+hide it.
+
+1310
+01:35:52,293 --> 01:35:52,683
+对
+Mm-hmm.
+
+1311
+01:35:53,403 --> 01:35:56,403
+在这里。 我的立方体还在
+Up here. So, my cube is still there.
+
+1312
+01:35:56,493 --> 01:35:59,163
+所以,如果我点击这里的眼睛, 我隐藏了立方体。
+So if I click on eyeball here, I hide the cube.
+
+1313
+01:35:59,193 --> 01:36:01,713
+摆 不错 我有宝宝。 对 非常感谢
+Okay. Perfect. I have the baby. Yes. Thank you so much.
+
+1314
+01:36:01,743 --> 01:36:05,343
+你在立方体里有个孩子 婴儿在盒子里。
+You have a baby inside the cube. Baby in a box.
+
+1315
+01:36:06,003 --> 01:36:06,303
+没错
+It was.
+
+1316
+01:36:07,623 --> 01:36:07,713
+对
+Yeah.
+
+1317
+01:36:07,803 --> 01:36:12,513
+我不知道为什么我的资产也没有装货 我以为我什么都有
+I don't know why my assets are also not loading, and I thought I had everything
+
+1318
+01:36:12,603 --> 01:36:13,653
+想到这里。
+figured out here.
+
+1319
+01:36:15,753 --> 01:36:20,613
+我有颜色吗? 哦,这可能是我的事情。 哦,我们走了。 好吧,我们走。
+Am I getting color? Oh, it might be my thing. Oh, there we go. All right.
+
+1320
+01:36:20,703 --> 01:36:25,983
+所以我就选了第一位非洲中年女性做配色
+So I just picked the first one, middle-aged African female as the coloration, okay?
+
+1321
+01:36:27,123 --> 01:36:29,313
+现在让我们做一些眼球。 摆
+And now let's do some eyeballs. Okay.
+
+1322
+01:36:29,584 --> 01:36:35,523
+在你增加眼睛之前,你需要加一个钻机,一个姿势
+Before you can add eyes, you need to add a rig, a posing
+
+1323
+01:36:35,613 --> 01:36:40,623
+内部机制。 因此,我们这样做之前, 我们去瑞金,我们去标准
+mechanism inside. So before we do that, we go to Rigging, and we go to Standard
+
+1324
+01:36:40,713 --> 01:36:44,283
+瑞格,我们只是说添加标准瑞格。
+Rig, and we're going to just say Add Standard Rig.
+
+1325
+01:36:44,584 --> 01:36:48,903
+你会看到这些线 出现在婴儿体内, 稍后,我会告诉你
+And you'll see these lines appear inside the baby, and later on, I'll show you that
+
+1326
+01:36:48,933 --> 01:36:52,323
+你可以用这个来移动孩子的姿势,好吗?
+you can use this to move the baby's pose around, okay?
+
+1327
+01:36:53,433 --> 01:36:56,373
+加上这台钻机,现在你可以回去加眼睛了.
+With this rig added, now you can go back and add eyes.
+
+1328
+01:36:56,643 --> 01:37:01,174
+原因是,眼睛需要去某处, 它需要去的结尾
+The reason being, the eyes need to go somewhere, and it needs to go at the end of
+
+1329
+01:37:01,233 --> 01:37:06,483
+这个拉杆,好吗? 所以,你要去应用资产,
+this rigging stalk, okay? So you're going to go to Apply Assets,
+
+1330
+01:37:07,203 --> 01:37:11,523
+眼睛图书馆,我不知道为什么 我的不出现, 但我要去做一个
+Eye Library, and I don't know why mine is not showing up, but I'm going to do Add a
+
+1331
+01:37:11,613 --> 01:37:14,043
+低保利眼,我点击这个。
+Low Poly Eye, and I click that.
+
+1332
+01:37:15,633 --> 01:37:18,123
+你看,现在他有眼球。 摆
+And you see now he has eyeballs. Okay.
+
+1333
+01:37:18,633 --> 01:37:23,853
+而现在她,他,我不确定, 但现在我们要去眉毛,我
+And now she, he, I'm not sure, but then now we're going to go to Eyebrows, and I'm
+
+1334
+01:37:23,883 --> 01:37:25,413
+要去添加眉毛一号。
+going to add eyebrow number one.
+
+1335
+01:37:27,903 --> 01:37:30,603
+摆 而子现在有眉毛. 好吗?
+Okay. And the child now has eyebrows. Okay?
+
+1336
+01:37:31,863 --> 01:37:34,683
+好吧,我们走。 如果你想操纵,
+All right. And if you want to manipulate,
+
+1337
+01:37:36,093 --> 01:37:41,433
+我想伊兹说这对她来说还不够激进 所以我们可以去
+I think Izzy said that this is not radical enough for her, so we can go to the
+
+1338
+01:37:41,493 --> 01:37:43,143
+在这儿建个小板块
+Modeling subpanel here,
+
+1339
+01:37:44,674 --> 01:37:46,143
+转到
+and go to
+
+1340
+01:37:48,093 --> 01:37:53,133
+外观型. 在Phenotype下,你可以在这里真正开始玩东西。
+Phenotype. Under Phenotype, this is where you can start really playing with things.
+
+1341
+01:37:54,303 --> 01:37:59,913
+所以,你可以玩 肌肉和体重 和所有其他的东西 你的心脏
+So you can play with muscle and weight and all that other stuff to your heart's
+
+1342
+01:37:59,973 --> 01:38:00,483
+内容。
+content.
+
+1343
+01:38:01,892 --> 01:38:02,103
+摆
+Okay.
+
+1344
+01:38:05,133 --> 01:38:08,103
+好吧,我们走。 所以我要离开它 这样,我要去回Solid
+All right. So I'm going to leave it like that, and I'm going to go back to Solid
+
+1345
+01:38:08,162 --> 01:38:09,572
+查看除色.
+View and get rid of the colors.
+
+1346
+01:38:10,834 --> 01:38:14,973
+在这里,我要告诉你为什么 我们花了第一个小时做我们所做的。
+And here, I'm going to show you why we spent the first hour doing what we did.
+
+1347
+01:38:15,123 --> 01:38:17,163
+摆 藏那些东西的钥匙
+Okay. N key to hide all of that stuff.
+
+1348
+01:38:18,393 --> 01:38:21,303
+这个婴儿是网状的,就像立方体一样
+This baby is a mesh, just like the cube or the
+
+1349
+01:38:23,403 --> 01:38:26,403
+其中 我们的性格或者我们刚做的香水瓶
+Among Us character or the perfume bottle we just made.
+
+1350
+01:38:26,793 --> 01:38:32,553
+所以,如果我点击Tab键进入编辑模式, 我得到我的顶点,好吗?
+So if I hit the Tab key to go into edit mode, I get my vertex points, okay?
+
+1351
+01:38:33,243 --> 01:38:33,513
+这么说
+So,
+
+1352
+01:38:35,193 --> 01:38:37,353
+比如,我不知道,让我们
+for instance, I don't know, let's
+
+1353
+01:38:39,093 --> 01:38:42,243
+给这个孩子一些刺。 我不知道我们为什么要这么做 但我要这么做
+give this baby some spikes. I don't know why we would do that, but I'm going to do
+
+1354
+01:38:42,273 --> 01:38:47,553
+无论如何 所以我要选那个顶点,按下Shift键,这个顶点,做这个
+it anyway. So I'm going to select that vertex, hit Shift key, this vertex, do this
+
+1355
+01:38:47,613 --> 01:38:50,223
+顶点,我会做G,Z。
+vertex, and I'm going to do G, Z.
+
+1356
+01:38:52,924 --> 01:38:55,653
+哦,我的计算机崩溃了,这就是原因。
+Ooh, my computer is crashing, that's why.
+
+1357
+01:38:59,913 --> 01:39:00,753
+按 G、Z 键。
+G, Z.
+
+1358
+01:39:02,043 --> 01:39:05,913
+好吧,所以我加 钉我的宝贝。 G, Z.
+Okay, so I'm adding spikes to my baby. G, Z.
+
+1359
+01:39:08,343 --> 01:39:08,584
+好吗?
+Okay?
+
+1360
+01:39:10,863 --> 01:39:12,153
+所以,现在婴儿与尖刺。
+So now baby with spikes.
+
+1361
+01:39:13,593 --> 01:39:16,773
+所以它可以被操纵, 例如,你想有一个更大的鼻子。
+So it can be manipulated, and for instance, you want a bigger nose.
+
+1362
+01:39:17,584 --> 01:39:23,403
+你可以进入编辑模式,可以尽量选择方块.
+You can go into edit mode, and you can try your best to select the squares.
+
+1363
+01:39:24,843 --> 01:39:27,153
+我们保留组成鼻子的方块。
+We keep the squares that make up the nose.
+
+1364
+01:39:31,383 --> 01:39:33,393
+这是网络操纵
+This is mesh manipulation right here.
+
+1365
+01:39:34,053 --> 01:39:37,443
+我们在玩这个角色的网格
+We're playing with the mesh of this character.
+
+1366
+01:39:40,413 --> 01:39:42,783
+我时间如何? 我还有20分钟
+How am I doing on time? I still have 20 minutes.
+
+1367
+01:39:45,273 --> 01:39:48,933
+好吧,我有一个鼻子, 我想把这家伙变成皮诺曹。
+All right, so I've got a nose, and I want to turn this guy into Pinocchio.
+
+1368
+01:39:49,113 --> 01:39:55,084
+我要做G移动,Y移动的方向, 我得到了皮诺曹。
+I'm going to do G to move, and Y the direction to move, and I got Pinocchio.
+
+1369
+01:40:00,573 --> 01:40:00,753
+摆
+Okay.
+
+1370
+01:40:05,343 --> 01:40:10,563
+因此,Make Blender Human是一个网格,可以像其他网格一样被操纵.
+So the Make Blender Human is a mesh that can be manipulated like any other mesh.
+
+1371
+01:40:13,174 --> 01:40:15,123
+好了,我现在就把那些东西都拆掉
+Okay, I'm going to undo all of that stuff for now.
+
+1372
+01:40:24,903 --> 01:40:29,913
+我要告诉你如何为这个孩子 快速做一件运动服,好吗?
+And I'm going to show you how to make a bodysuit for this baby very quickly, okay?
+
+1373
+01:40:30,453 --> 01:40:36,183
+所以,也许裸体宝宝不是那么好。 所以,我们要做的是,首先,我
+So maybe naked baby is not so nice. So what we're going to do is, first of all, I'm
+
+1374
+01:40:36,183 --> 01:40:38,703
+转弯... 回去这里
+going to turn the... Go back here
+
+1375
+01:40:41,817 --> 01:40:45,237
+转到Edit. 首先,我要把手臂藏起来
+And go to Edit. First of all, I'm going to hide the armature.
+
+1376
+01:40:45,867 --> 01:40:48,927
+所以在提纲里,我有个叫Human Rig的
+So in Outliner, I have something called Human Rig.
+
+1377
+01:40:48,987 --> 01:40:52,767
+我要打到眼球图标 来清除那些分散注意力的线条
+I'm going to hit the eyeball icon to get rid of all those distracting lines.
+
+1378
+01:40:53,397 --> 01:40:56,728
+编辑模式。 所以,让我们给这个孩子一件衬衫。 好吗?
+Edit Mode. So let's give this baby a shirt. Okay?
+
+1379
+01:40:57,237 --> 01:41:01,947
+所以,我要做的,像我以前一样, 是做X光模式,我要
+So what I'm going to do, like I did before, is to do X-ray mode, and I'm going to
+
+1380
+01:41:02,008 --> 01:41:02,487
+选择
+select
+
+1381
+01:41:04,917 --> 01:41:08,877
+婴儿的网状部分,像这样。 好吗?
+some portion of the baby's mesh, like that. Okay?
+
+1382
+01:41:08,907 --> 01:41:11,187
+所以我选择了网状的前后部分。
+And so I select the front and back of the mesh.
+
+1383
+01:41:14,067 --> 01:41:19,017
+我要做Shift+D, 就是重复我刚刚选择的。
+And I'm going to do Shift+D, which is to duplicate that thing that I just selected.
+
+1384
+01:41:20,937 --> 01:41:21,897
+哎哟
+Oopsies.
+
+1385
+01:41:23,637 --> 01:41:25,228
+哦,我只是做了一些可怕的事情。
+Oops, I just did something horrible.
+
+1386
+01:41:26,367 --> 01:41:31,557
+好吧,首先我想我需要锁定 这个婴儿的尺寸,控制+A,并应用
+Okay, first I think I need to lock in the scale of this baby, Control+A, and apply
+
+1387
+01:41:31,617 --> 01:41:37,527
+旋转和大小对婴儿。 返回这里并 Shift+D 到
+rotation and scale to the baby. Go back to here and Shift+D to
+
+1388
+01:41:37,587 --> 01:41:40,258
+重复 。 为什么它做疯狂的事情?
+duplicate. Why is it doing crazy things?
+
+1389
+01:41:44,127 --> 01:41:47,847
+对不起,我在想 到底什么是错在这里 我的宝贝。
+Sorry, I'm trying to figure out what is messed up here with my baby.
+
+1390
+01:41:51,478 --> 01:41:52,047
+应用?
+Apply?
+
+1391
+01:41:53,877 --> 01:41:55,587
+我现在要应用所有这些东西。
+I'm going to apply all these things now.
+
+1392
+01:41:58,167 --> 01:42:01,287
+应用手臂? 不,先躲起来 是吗?
+Apply the armature? No, hide out first. Hmm.
+
+1393
+01:42:04,737 --> 01:42:06,387
+让我们先复制整个婴儿。
+Let's duplicate the whole baby first.
+
+1394
+01:42:09,267 --> 01:42:14,097
+两个孩子 关闭X光模式 。 好吧,我要玩这个。
+Two babies. Turn off X-ray mode. Okay, I'm going to play with this.
+
+1395
+01:42:18,567 --> 01:42:23,127
+我觉得... 哦,这里。 这个宝贝撞上了Tab键.
+I think... Oh, there. This baby and hit the Tab key.
+
+1396
+01:42:26,037 --> 01:42:26,697
+前视,
+Front view,
+
+1397
+01:42:28,228 --> 01:42:31,048
+X射线 选择他身体的一部分。
+X-ray. Select a portion of his body.
+
+1398
+01:42:33,718 --> 01:42:37,228
+复制, Shift+D 要复制 。 哦,它做了这个奇怪的事情。
+Duplicate, Shift+D to duplicate. Oh, it's doing this weird thing.
+
+1399
+01:42:42,327 --> 01:42:42,537
+是吗?
+Hmm.
+
+1400
+01:42:43,857 --> 01:42:46,468
+摆 Blender正在做一些非常,非常奇怪的事情,我理解。
+Okay. Blender's doing something very, very strange, I understand.
+
+1401
+01:42:46,527 --> 01:42:50,187
+但无论如何,我会找出 发生了什么事,回到你身边
+But anyway, I'm going to figure out what's going on here and come back to you
+
+1402
+01:42:50,218 --> 01:42:54,417
+等会 但这里的要点是,我在选择 身体的区域是,
+later. But the point here is that I'm selecting the area of the body that is
+
+1403
+01:42:54,478 --> 01:42:59,457
+基本上什么是衬衫。 我会... 对不起 艾琳 来吧。
+basically what would be a shirt. And I'm going to... Ah, sorry, Erin. Go ahead.
+
+1404
+01:43:00,837 --> 01:43:06,627
+是的,我有一个问题。 当我尝试选择事物, 我仍然在眉毛,所以
+Yeah, I have a question. When I try to select things, I'm still in the eyebrows, so
+
+1405
+01:43:06,747 --> 01:43:07,617
+我只能选择
+I can only select
+
+1406
+01:43:08,937 --> 01:43:10,557
+和眉毛有关的东西
+something which is related to the eyebrows.
+
+1407
+01:43:10,617 --> 01:43:13,527
+我不知道如何取消选择 回到我的...
+I don't know how to unselect to go back to my-
+
+1408
+01:43:13,527 --> 01:43:13,707
+哦,没关系。
+Oh, okay.
+
+1409
+01:43:15,087 --> 01:43:19,437
+我猜你的眉毛和婴儿的身体不一样
+So I guess the eyebrow for you is a different object than the body of the baby.
+
+1410
+01:43:19,527 --> 01:43:21,507
+所以你只需要选择婴儿的身体。
+So all you have to do is select the body of the baby.
+
+1411
+01:43:22,497 --> 01:43:22,647
+对
+Yes.
+
+1412
+01:43:22,707 --> 01:43:22,947
+还是你...
+Or you-
+
+1413
+01:43:22,947 --> 01:43:25,527
+我不知道.
+I don't know.
+
+1414
+01:43:27,837 --> 01:43:33,718
+对 我不知道. 左边写着"用户视角"
+Yeah. I don't know. On the left where it says User Perspective, for me, it says
+
+1415
+01:43:33,777 --> 01:43:35,787
+人类的眉毛, 我不知道如何...
+Human Eyebrow, and I don't know how to...
+
+1416
+01:43:36,507 --> 01:43:37,287
+如果我试着选择...
+If I try to select the-
+
+1417
+01:43:37,317 --> 01:43:38,697
+对 我会...
+Yeah. I'm going to...
+
+1418
+01:43:40,257 --> 01:43:43,017
+还有14分钟 你共享屏幕。 见汝作么生.
+14 minutes to go. You share screen. Let's see what you're doing.
+
+1419
+01:43:50,247 --> 01:43:51,267
+你能看到我的屏幕吗?
+Can you see my screen?
+
+1420
+01:43:51,897 --> 01:43:53,037
+我能看到你的屏幕,是的。
+I can see your screen, yes.
+
+1421
+01:43:54,327 --> 01:43:57,687
+是啊,所以如果我尝试选择, 它只是停留在...
+Yeah, so if I try to select, it just stays on-
+
+1422
+01:43:57,718 --> 01:44:02,337
+啊,因为你选择了眉毛作为一个东西之后,就处于编辑模式了.
+Ah, because you're in edit mode after having selected the eyebrow as a thing.
+
+1423
+01:44:02,367 --> 01:44:04,617
+所以回去吧,Tab回到对象模式
+So go back, Tab to go back to Object mode.
+
+1424
+01:44:06,957 --> 01:44:07,767
+摆 对
+Okay. Yep.
+
+1425
+01:44:07,827 --> 01:44:09,897
+现在选择身体,而不是眉毛。
+And now select the body, not the eyebrow.
+
+1426
+01:44:10,587 --> 01:44:11,757
+是啊,现在它很好。
+Yeah, now it's good.
+
+1427
+01:44:11,817 --> 01:44:15,897
+不,不是臂部, 身体,网状是身体。 摆
+No, not the armature, the body, the mesh that is the body. Okay.
+
+1428
+01:44:15,928 --> 01:44:15,988
+对
+Yeah.
+
+1429
+01:44:16,017 --> 01:44:17,277
+现在再打Tab.
+Now hit Tab again.
+
+1430
+01:44:18,117 --> 01:44:18,238
+对
+Yeah.
+
+1431
+01:44:18,777 --> 01:44:20,577
+现在你可以选择身体。
+And now you can select the body.
+
+1432
+01:44:21,027 --> 01:44:22,017
+不错 谢谢
+Perfect. Thank you.
+
+1433
+01:44:22,077 --> 01:44:27,718
+摆 所以这里的关键是,谢谢你的做, 但这里的关键是什么
+Okay. So the key here is, thank you for doing this, but the key here is whatever
+
+1434
+01:44:27,867 --> 01:44:33,178
+在按下 Tab 键前选择的对象将进入编辑模式
+object you select before you hit the Tab key to go into Edit mode will be the thing
+
+1435
+01:44:33,238 --> 01:44:38,367
+在编辑模式中编辑。 其他的都无法编辑
+that gets edited in Edit mode. And everything else is going to be non-editable and
+
+1436
+01:44:38,397 --> 01:44:40,497
+不可选择。 好吗?
+non-selectable. Okay?
+
+1437
+01:44:41,277 --> 01:44:42,027
+对 谢谢
+Yep. Thanks.
+
+1438
+01:44:42,057 --> 01:44:43,557
+对 不用谢
+Yeah. You're welcome.
+
+1439
+01:44:47,517 --> 01:44:50,817
+你知道吗? 我要把操控和衬衫交给别人
+You know what? I'm going to leave the manipulation and the shirt making to another
+
+1440
+01:44:50,877 --> 01:44:52,767
+无论如何,会话。 所以还有谁想分享?
+session anyway. So anybody else want to share?
+
+1441
+01:44:52,857 --> 01:44:56,067
+蒂娜,你能给我看看你的生物吗,人类?
+Tina, can you show me your creature, human?
+
+1442
+01:44:56,728 --> 01:44:57,147
+这个嘛,我...
+Well, I-
+
+1443
+01:44:57,657 --> 01:44:58,197
+虚拟你
+Virtual you.
+
+1444
+01:44:58,197 --> 01:45:01,137
+谢谢你,让我们来看看。
+Thank you so much, so let's see.
+
+1445
+01:45:02,937 --> 01:45:05,307
+我刚刚开始,但我想我...
+I just started, but I think I had...
+
+1446
+01:45:05,607 --> 01:45:08,877
+因为你提到一些你必须拯救的东西,对不对?
+Because you mentioned something about you have to save, right?
+
+1447
+01:45:09,627 --> 01:45:11,218
+什么时候你把 资产包?
+When you put in the asset pack?
+
+1448
+01:45:12,537 --> 01:45:15,478
+或者下次我进去的时候 就会是... 瓳
+Or next time I'll go in, it will be a... Oh.
+
+1449
+01:45:15,537 --> 01:45:17,187
+不,不,不,你没事。 你很不错。
+No, no, no, you're good. You're good.
+
+1450
+01:45:17,488 --> 01:45:18,537
+我很好吗?
+I'm good?
+
+1451
+01:45:18,567 --> 01:45:20,787
+你唯一需要保存的就是偏好
+The only thing that you needed to save was preferences.
+
+1452
+01:45:21,238 --> 01:45:24,478
+所以,如果你去,帮我一个忙, 去编辑,优惠。
+So if you go, do me a favor, go to Edit, Preferences.
+
+1453
+01:45:26,127 --> 01:45:26,277
+对
+Yeah.
+
+1454
+01:45:28,527 --> 01:45:33,897
+而造众生. 摆 而你现在没有一条路 在那里它说路径
+And Make Human. Okay. And you don't have a path right now where it says Path to
+
+1455
+01:45:34,107 --> 01:45:39,117
+MPFB 用户数据. 中右侧. 对,继续往下走,往下走,往下走
+MPFB User Data. Middle right side. Yeah, keep going down, down, down, down.
+
+1456
+01:45:39,567 --> 01:45:41,247
+您没有定义文件夹 。
+You don't have a folder defined there.
+
+1457
+01:45:41,757 --> 01:45:42,027
+对
+Yeah.
+
+1458
+01:45:43,137 --> 01:45:45,238
+您需要设置一个路径到文件夹 。
+You need to put a path to a folder there.
+
+1459
+01:45:45,777 --> 01:45:46,017
+对
+Yeah.
+
+1460
+01:45:46,527 --> 01:45:48,747
+好吗? 在你把那个... 这是什么?
+Okay? After you've put the... What's that?
+
+1461
+01:45:48,807 --> 01:45:50,488
+路吗? 路径 --
+Path here? Path to-
+
+1462
+01:45:51,147 --> 01:45:51,178
+对
+Yeah.
+
+1463
+01:45:51,238 --> 01:45:51,687
+好吧,没错。
+Okay, yeah.
+
+1464
+01:45:52,347 --> 01:45:55,317
+到一个文件夹,在那里你收集你的所有资产和其他一切。
+To a folder where you collect all your assets and everything else.
+
+1465
+01:45:55,617 --> 01:46:00,207
+你需要这个在这里, 否则一切都会消失之后。
+You need this to be here, or else everything will disappear after.
+
+1466
+01:46:00,718 --> 01:46:00,747
+对
+Yeah.
+
+1467
+01:46:00,747 --> 01:46:05,728
+一旦你踏上你的路 在左下角
+And then once you've set your path, on the lower left-hand corner, there are the
+
+1468
+01:46:05,787 --> 01:46:11,097
+汉堡三刀图标,左下角 左下角头.
+hamburger three-stripe icon, lower left-hand corner. Lower left-hand corner.
+
+1469
+01:46:11,127 --> 01:46:15,537
+继续下去 是啊,点击这个, 然后你可以保存你的喜好。
+Keep going down. Yeah, click on that, and then you can save your preferences.
+
+1470
+01:46:16,137 --> 01:46:16,738
+好吧,超级。
+Okay, super.
+
+1471
+01:46:16,947 --> 01:46:21,657
+必须在您定义了您的用户数据文件夹后进行 。
+That must be done after you've defined your user data folder.
+
+1472
+01:46:22,407 --> 01:46:25,857
+对 我迷路了 当你早些时候说。
+Yes. I got lost in that when you said that earlier.
+
+1473
+01:46:25,917 --> 01:46:27,357
+别担心 这是...
+No worries. This is-
+
+1474
+01:46:27,417 --> 01:46:27,807
+对 当然
+Yeah. Sure
+
+1475
+01:46:27,837 --> 01:46:29,488
+...正是为什么我们要举行这个会议。
+... precisely why we're having this session.
+
+1476
+01:46:29,847 --> 01:46:30,147
+对
+Mm-hmm.
+
+1477
+01:46:32,067 --> 01:46:35,037
+好吧,不错。 所以你成功地创造了一个人类。
+Okay, good. So you've successfully generated a human.
+
+1478
+01:46:35,397 --> 01:46:38,907
+茱莉亚,你一直很安静 你对你的人类怎么样?
+Julia, you've been very quiet. How are you doing with your human?
+
+1479
+01:46:40,647 --> 01:46:45,657
+我觉得不错。 如果你想,我可以分享我的屏幕。
+I think okay. I can share my screen, if you want to.
+
+1480
+01:46:56,488 --> 01:46:56,667
+对
+Yeah.
+
+1481
+01:46:56,757 --> 01:46:58,587
+看起来像现在。
+Looks like this right now.
+
+1482
+01:47:01,048 --> 01:47:04,407
+哇,看看那个。 什么都是球吗? 是你吗?
+Whoa, look at that. What are all the balls? Is that you?
+
+1483
+01:47:04,407 --> 01:47:07,526
+我不知道. 对不起,这是德语。
+I don't know. I'm sorry, it's in German.
+
+1484
+01:47:07,647 --> 01:47:10,738
+所以我进入了编辑模式
+So I went into Edit mode, and
+
+1485
+01:47:12,567 --> 01:47:13,317
+我不知道他们为什么...
+I don't know why they're-
+
+1486
+01:47:13,407 --> 01:47:18,507
+啊,我想你选择了手臂。 所以这是武装操纵。
+Ah, I think you selected the armature. So this is armature manipulation.
+
+1487
+01:47:18,897 --> 01:47:19,077
+对
+Right.
+
+1488
+01:47:19,137 --> 01:47:21,267
+所以,继续打塔布回来。
+So go ahead and hit Tab to go back out.
+
+1489
+01:47:21,537 --> 01:47:21,567
+对
+Yes.
+
+1490
+01:47:21,567 --> 01:47:24,147
+或者回到Object模式 不管是德语还是德语
+Or go back to Object mode, whatever that is in German.
+
+1491
+01:47:25,468 --> 01:47:25,678
+对
+Yeah.
+
+1492
+01:47:26,037 --> 01:47:30,867
+对象模式 。 没错 选择皮肤而非内骨.
+Object mode. Exactly. Select the skin, not the internal bones.
+
+1493
+01:47:30,928 --> 01:47:33,928
+但选择您角色的皮肤 。
+But select the skin of your character.
+
+1494
+01:47:35,817 --> 01:47:36,087
+哪里? 哪里来的?
+Where?
+
+1495
+01:47:36,147 --> 01:47:36,178
+瓳
+Oh,
+
+1496
+01:47:37,557 --> 01:47:40,137
+不,说吧。 你做得对 选择
+no, go ahead. You were doing it right. Select.
+
+1497
+01:47:40,647 --> 01:47:41,517
+对 选择
+Yeah. Select that.
+
+1498
+01:47:41,577 --> 01:47:43,257
+开始了 这就是你的皮肤
+There we go. So that's your skin.
+
+1499
+01:47:43,617 --> 01:47:43,647
+对
+Yeah.
+
+1500
+01:47:43,647 --> 01:47:45,687
+现在点击 Tab 进入编辑模式 。
+Now hit Tab to go into Edit mode.
+
+1501
+01:47:46,707 --> 01:47:47,127
+摆
+Okay.
+
+1502
+01:47:48,087 --> 01:47:48,387
+摆
+Okay.
+
+1503
+01:47:49,767 --> 01:47:51,928
+现在你可以操纵...
+And now you're able to manipulate...
+
+1504
+01:47:53,757 --> 01:47:54,447
+帮我个忙
+Do me a favor.
+
+1505
+01:47:55,978 --> 01:47:58,017
+现在,点击身体外。 点击
+Right now, click outside the body. Click.
+
+1506
+01:47:58,738 --> 01:47:58,827
+对
+Yeah.
+
+1507
+01:47:59,667 --> 01:48:05,067
+摆 使用拖曳选择, 我要你选择这个
+Okay. Using a drag select, I want you to select this
+
+1508
+01:48:05,157 --> 01:48:10,647
+手的一部分。 拖动左侧的手部。
+portion of the hand. Drag select this portion of the hand on the left side there.
+
+1509
+01:48:13,527 --> 01:48:17,337
+凉爽。 好吧,我们走。 现在我要你输入G键盘
+Cool. All right. Now I want you to type G into your keyboard.
+
+1510
+01:48:18,478 --> 01:48:18,597
+对
+Yes.
+
+1511
+01:48:19,587 --> 01:48:21,087
+摆 然后把你的手臂转过来。
+Okay. And then move your arm around.
+
+1512
+01:48:21,147 --> 01:48:25,017
+现在你可以重新定位,拉长,做各种事情。
+Now you can reposition, lengthen, do all kinds of stuff.
+
+1513
+01:48:25,377 --> 01:48:30,807
+所以这里的要点是 不要把你的人造物当作一个人物,而是想
+So the point here is to not think of your human creation as a figure, but think of
+
+1514
+01:48:30,867 --> 01:48:34,767
+它是一个网,你可以玩一整天。 好吗?
+it as a mesh that you can play with all day long. Okay?
+
+1515
+01:48:35,877 --> 01:48:35,997
+摆
+Okay.
+
+1516
+01:48:36,567 --> 01:48:38,337
+现在像这样点击,然后...
+So now click that like that, and...
+
+1517
+01:48:40,377 --> 01:48:42,988
+实际上,取消。 Control+Z 要撤销。
+Actually, undo. Control+Z to undo.
+
+1518
+01:48:43,437 --> 01:48:44,457
+对 当然
+Yeah. Of course.
+
+1519
+01:48:44,877 --> 01:48:48,507
+让我们确保你能... 你可以看到这一点。 我想选择一切。
+Let's make sure you can... You can see that. I want to select everything.
+
+1520
+01:48:48,687 --> 01:48:52,437
+你错过了后面的几个点 所以再选一次
+You missed a few dots in the back. So do a selection one more time.
+
+1521
+01:48:56,097 --> 01:48:59,367
+摆 让我们绕着你的身影旋转 确保一切都被选中了
+Okay. Let's rotate around your figure to make sure everything was selected.
+
+1522
+01:48:59,428 --> 01:49:04,857
+好吧,看起来不错。 现在,让我们做一个G, 伸长手臂给我。 或者让我们做...
+Okay, that looks good. Now let's do a G, lengthen that arm for me. Or let's do...
+
+1523
+01:49:05,457 --> 01:49:08,847
+对 哦,这就是骨头。 没关系 摆 手臂伸长并点击那里。
+Yeah. Oh, that's the bones. That's fine. Okay. Lengthen the arm and click there.
+
+1524
+01:49:12,087 --> 01:49:14,667
+好吧,不错。 然后点击Tab以返回对象模式.
+Okay, good. And then hit Tab to go back to Object mode.
+
+1525
+01:49:17,247 --> 01:49:22,738
+摆 然后,是的,所以现在你的人 有荒谬的长臂。 好吗?
+Okay. And then, yeah, so now your person has ridiculously long arms. Okay?
+
+1526
+01:49:23,367 --> 01:49:23,697
+摆
+Okay.
+
+1527
+01:49:23,728 --> 01:49:23,997
+很不错。
+Very good.
+
+1528
+01:49:24,027 --> 01:49:26,457
+但是骨头会正常的
+But the bones will stay normal.
+
+1529
+01:49:27,207 --> 01:49:29,277
+骨头暂时会正常的
+The bones will stay normal for now.
+
+1530
+01:49:30,298 --> 01:49:30,327
+摆
+Okay.
+
+1531
+01:49:30,327 --> 01:49:34,798
+对 好吧,所以如果你Control+Z, 你可以撤销 我们刚刚所做的可笑的事情
+Yes. Okay, so if you Control+Z, you can undo the ridiculous thing that we just did
+
+1532
+01:49:35,457 --> 01:49:37,917
+回到正常状态
+to get back to normal.
+
+1533
+01:49:38,007 --> 01:49:38,337
+谢谢
+Thank you.
+
+1534
+01:49:39,178 --> 01:49:39,657
+不用谢
+You're welcome.
+
+1535
+01:49:41,127 --> 01:49:41,968
+艾琳 是的 问题
+Erin, yes, question.
+
+1536
+01:49:45,988 --> 01:49:47,548
+不,对不起,那还是从前的。
+No, sorry, that was still from before.
+
+1537
+01:49:48,507 --> 01:49:49,017
+啊,还好。
+Ah, okay.
+
+1538
+01:49:50,307 --> 01:49:55,767
+好吧,我们走。 我想我会... 其实,让我再给你看一件事
+All right. I think I'm going to... Actually, let me just show you one more thing
+
+1539
+01:49:55,798 --> 01:49:56,218
+在 -- -- 之前,
+before-
+
+1540
+01:49:56,397 --> 01:49:57,597
+我有个问题
+I have a question.
+
+1541
+01:49:58,287 --> 01:49:59,037
+对 说吧
+Yeah. Yes, go ahead.
+
+1542
+01:49:59,127 --> 01:50:04,857
+对 我是梅兰妮 我看不出属性上的修饰符
+Yeah. Melanie speaking. I don't see the modifier in properties
+
+1543
+01:50:04,917 --> 01:50:05,218
+选项卡。
+tab.
+
+1544
+01:50:06,537 --> 01:50:07,017
+正常吗?
+Is it normal?
+
+1545
+01:50:07,077 --> 01:50:09,537
+修改属性标签 。 好吧,你能分享你的屏幕吗?
+Modifier properties tab. Okay, can you please share your screen?
+
+1546
+01:50:11,997 --> 01:50:15,298
+所以我有两个屏幕 所以我尽力了
+So I have two screens, so I do my best.
+
+1547
+01:50:36,207 --> 01:50:36,507
+摆
+Okay.
+
+1548
+01:50:39,178 --> 01:50:39,447
+这里。
+Here.
+
+1549
+01:50:40,707 --> 01:50:42,867
+我不见修饰工具.
+I don't see the modifier tool.
+
+1550
+01:50:44,757 --> 01:50:47,697
+摆 你的屏幕是... 嗯,我没有,我可能看起来有点...
+Ah. Your screen is... Well, I don't, I might seem a little...
+
+1551
+01:50:48,957 --> 01:50:52,077
+哦,因为,好吧,这是非常好的。 这是一个伟大的问题。
+Oh, because, okay, that's very good. This is a great question.
+
+1552
+01:50:52,617 --> 01:50:53,637
+修改者
+The modifier
+
+1553
+01:50:55,287 --> 01:50:59,997
+工具,它的背景。 所以,现在,呃, 刚刚发生了什么?
+tool, it's contextual. So right now, uh-uh, what just happened?
+
+1554
+01:51:01,347 --> 01:51:06,147
+所以,现在,我认为你的骨头是被选中的, 所以你看到一个绿色的骨头
+So currently, I think your bones are selected, so that's why you see a green bone
+
+1555
+01:51:06,537 --> 01:51:09,897
+以及一个解除功能的字符,因为它认为你想为您的
+and an armature character because it thinks you want to do settings for your
+
+1556
+01:51:09,928 --> 01:51:14,667
+武装。 所以,继续点击你的人,就像我说的皮肤一样
+armature. So go ahead and click on your human person, like a skin like I said
+
+1557
+01:51:14,728 --> 01:51:15,117
+之前,我刚说
+before.
+
+1558
+01:51:16,527 --> 01:51:16,557
+这是我的屏幕。
+This is my screen.
+
+1559
+01:51:16,617 --> 01:51:17,667
+选择皮肤
+Select the skin
+
+1560
+01:51:18,928 --> 01:51:19,437
+就在这里。
+right there.
+
+1561
+01:51:22,317 --> 01:51:27,327
+你能看见我的标记吗? 对 人类,点击你的提纲中的人类一词.
+Can you see my mark there? Yeah. Human, click on the word human in your outliner.
+
+1562
+01:51:28,497 --> 01:51:30,057
+我是人类。 人类?
+I'm on the human. Human?
+
+1563
+01:51:30,897 --> 01:51:32,817
+不是人类的钻机,而是人类的下面。
+Not human rig, but human below that.
+
+1564
+01:51:33,298 --> 01:51:36,357
+抱歉,我有一个小屏幕和一个大屏幕,所以。
+Sorry, I have a small screen and a big screen, so.
+
+1565
+01:51:39,777 --> 01:51:41,247
+哇,真恶心
+Whoa, funky.
+
+1566
+01:51:43,857 --> 01:51:44,847
+哈罗,哈罗,哈罗。
+Hello, hello, hello.
+
+1567
+01:51:44,907 --> 01:51:46,647
+摆 所以我看不太清楚。
+Okay. So I don't see really well.
+
+1568
+01:51:53,337 --> 01:51:59,127
+不是这个屏幕 现身十亿遍. 坚持住。
+Not this screen. We're seeing ourselves a billion times. Hold on.
+
+1569
+01:51:59,277 --> 01:52:00,178
+我本来要跳支舞的
+I was going to do a dance.
+
+1570
+01:52:00,178 --> 01:52:01,947
+好吧,给我看看。 我停止分享。
+Okay, show me. I stop sharing.
+
+1571
+01:52:02,548 --> 01:52:04,647
+好吧,没事。 我会分享我的屏幕。
+Okay, fine. I will share my screen.
+
+1572
+01:52:05,067 --> 01:52:06,087
+所以我打开……
+So I go to the
+
+1573
+01:52:07,317 --> 01:52:07,347
+列表 -
+list-
+
+1574
+01:52:07,468 --> 01:52:10,257
+没有,没有。 坚持住。 坚持住。 请给我一点时间 给我一秒钟。
+No, no. Hold on. Hold on. Just give me a second, please. Give me a second.
+
+1575
+01:52:10,317 --> 01:52:14,007
+我给你看,这样你就不用猜了
+I'm going to show you so that you don't have to guess.
+
+1576
+01:52:14,937 --> 01:52:15,057
+谢谢
+Thank you.
+
+1577
+01:52:15,087 --> 01:52:16,617
+好吧,我们走。 让我分享屏幕。
+All right. Let me share screen.
+
+1578
+01:52:18,957 --> 01:52:22,678
+好吧,我们回到婴儿, 我会确保我的人类钻机是能够
+Okay, we're back on the baby, and I'm going to make sure my human rig is able to be
+
+1579
+01:52:22,738 --> 01:52:28,287
+看见了 好吧,如果我选择钻机, 好吧,所以如果我选择钻机,你看
+seen. Okay, and if I select the rig, okay, so if I select the rig, you see that
+
+1580
+01:52:28,377 --> 01:52:31,887
+我的地产菜单跟你完全一样 对吧?
+my properties menu looks exactly like yours, right?
+
+1581
+01:52:32,157 --> 01:52:32,968
+对 对
+Yes. Yes.
+
+1582
+01:52:33,027 --> 01:52:33,238
+摆
+Okay.
+
+1583
+01:52:36,567 --> 01:52:41,127
+在 Human Rig 下方，有一个带黄色三角形图标、名为 Human 的类别。
+Underneath human rig, there's a category called human with a yellow triangle.
+
+1584
+01:52:41,127 --> 01:52:46,798
+如果您点击此选项, 属性菜单会更改为上下文
+If you click on that, then the properties menu changes to be contextual to that
+
+1585
+01:52:46,917 --> 01:52:49,377
+对象,现在有修改符。
+object, and now you have modifier.
+
+1586
+01:52:50,517 --> 01:52:50,757
+摆
+Okay.
+
+1587
+01:52:51,298 --> 01:52:54,057
+好吗? 所以这是很好的。 让我们玩这个。
+Okay? So that's good. Let's play with that.
+
+1588
+01:52:54,178 --> 01:52:59,697
+所以,如果我有修饰剂, 好吧,让我们做一些真正有趣的事情。 现在生成。
+So if I have modifier, okay, let's do something really fun. Now generate.
+
+1589
+01:53:00,686 --> 01:53:03,837
+我们该怎么办? 让我们做螺旋桨。
+What should we do? Let's do corkscrew.
+
+1590
+01:53:04,048 --> 01:53:07,017
+好吧,这会做可怕的事情 我的宝贝。
+Okay, this is going to do horrible things to my baby.
+
+1591
+01:53:07,407 --> 01:53:09,957
+好了,这里是修饰者的力量。
+Okay, so here's where the power of modifiers.
+
+1592
+01:53:10,437 --> 01:53:16,347
+我现在把我的孩子 编成艺术作品
+I've now corkscrewed my baby into something like an artistic
+
+1593
+01:53:16,407 --> 01:53:16,827
+雕塑,
+sculpture,
+
+1594
+01:53:19,167 --> 01:53:21,207
+或者我不知道这是不是艺术了。
+or I don't know if this is art anymore.
+
+1595
+01:53:23,007 --> 01:53:28,107
+好吧,我有一个奇怪的... 我现在对孩子做了可怕的事 好吗?
+Okay, so I've got this weird... I've done horrible things to the baby now. Okay?
+
+1596
+01:53:28,678 --> 01:53:31,257
+这是无损的。 就像我说的 如果我点击
+And it is non-destructive. Like I said, if I click
+
+1597
+01:53:32,697 --> 01:53:36,027
+X去掉那个修饰剂 他又回到了正常的婴儿状态
+X to just delete that modifier, he goes back to being a normal baby.
+
+1598
+01:53:36,837 --> 01:53:42,298
+但是修饰者是乐趣。 所以你可以进去,我们还能做什么? 三角ulate.
+But modifiers are fun. So you can go in here and what else can we do? Triangulate.
+
+1599
+01:53:42,957 --> 01:53:48,597
+哦,好吧,毁灭者。 所以,阿纳斯塔西已经显示 像一个低poly版本
+Oh, okay, decimate. So, Anastasi had shown like a low-poly version
+
+1600
+01:53:49,167 --> 01:53:52,437
+我不记得他的名字了
+of figures by some artist, I can't remember the guy's name.
+
+1601
+01:53:52,917 --> 01:53:57,657
+你可以去生成,毁灭, 然后比例现在是一个。
+You could go generate, decimate, and then the ratio right now is one.
+
+1602
+01:53:57,718 --> 01:54:03,207
+所以,如果我把这个非常低, 你可以看到婴儿变成一个几何形状。
+So if I take this really low, you see the baby becomes like a geometric shape.
+
+1603
+01:54:05,847 --> 01:54:10,887
+好吗? 这样你就可以玩了。 现在你有了外星宝贝
+Okay? So you can play with that. So now you got alien baby,
+
+1604
+01:54:11,517 --> 01:54:12,837
+几何异形婴儿.
+geometric alien baby.
+
+1605
+01:54:15,447 --> 01:54:15,657
+摆
+Okay.
+
+1606
+01:54:17,247 --> 01:54:18,387
+我还有一个问题
+I have another question.
+
+1607
+01:54:18,988 --> 01:54:19,287
+对
+Yeah.
+
+1608
+01:54:20,637 --> 01:54:22,317
+如果我想保持头部
+If I want just to keep the head
+
+1609
+01:54:23,937 --> 01:54:25,827
+使颈部平缓。
+and to make the neck flat.
+
+1610
+01:54:25,887 --> 01:54:26,577
+保持头部。 摆 好吧,我们走。
+Just keep the head. Okay. All right.
+
+1611
+01:54:26,697 --> 01:54:31,077
+所以,随着孩子的皮肤被选中,我打塔布去
+So with the skin of the baby selected, I hit Tab to go to
+
+1612
+01:54:32,488 --> 01:54:37,228
+编辑模式。 我要这样选择脑下的一切
+edit mode. I'm going to select everything underneath the head like this.
+
+1613
+01:54:37,317 --> 01:54:41,907
+确定全部选中. 哦,我没有X光视觉,所以它
+Make sure it's all selected. Oh, I didn't have X-ray vision on, so that's why it
+
+1614
+01:54:41,968 --> 01:54:46,048
+做了那个可怕的事情。 所以,打开X光, 我会选择所有下面
+did that horrible thing. So turning on X-ray, I'm going to select everything below
+
+1615
+01:54:46,077 --> 01:54:51,597
+颈部。 我要打X删除和面孔。 哎哟
+the neck. I'm going to hit X to delete and faces. Oops.
+
+1616
+01:54:52,437 --> 01:54:56,847
+它不会做到这一点。 为什么? 这对我来说太疯狂了
+It won't do it. Why? This is doing very crazy things for me.
+
+1617
+01:54:59,968 --> 01:55:01,827
+这是Blender Pro的新版本吗? 摆
+Is this a new version of Blender Pro? Okay.
+
+1618
+01:55:03,298 --> 01:55:06,837
+我认为现在的问题正在发生 我需要找出答案
+The problem right now that I think is going on, and I need to figure out the answer
+
+1619
+01:55:06,897 --> 01:55:11,307
+现在的这个"MakeHuman网"不是真的
+to this, is that right now this MakeHuman mesh is not a true
+
+1620
+01:55:12,897 --> 01:55:13,317
+网点。
+mesh.
+
+1621
+01:55:15,087 --> 01:55:16,707
+好吧,让我看看。 让我试试看
+Okay, let me see. Let me try something.
+
+1622
+01:55:18,207 --> 01:55:21,567
+是啊,你应该可以删除它的一部分, 但它没有工作。
+Yeah, you should have been able to just delete a part of it, but it's not working.
+
+1623
+01:55:21,627 --> 01:55:24,117
+我想我需要控制D,
+And I think I need to Control D,
+
+1624
+01:55:26,157 --> 01:55:30,928
+做第二个复制, 我想让我们尝试把这个转换成网状。
+make a second copy, and I think let's try converting this to mesh.
+
+1625
+01:55:31,587 --> 01:55:32,667
+转换成网状
+Convert to mesh.
+
+1626
+01:55:37,738 --> 01:55:43,287
+摆 摆 所以现在这不再是MakeHuman的物体了, 我希望是纯粹的网状。
+Okay. Okay. So now this is no longer a MakeHuman object, but a pure mesh, I hope.
+
+1627
+01:55:43,437 --> 01:55:45,627
+标签和删除
+Tab and delete
+
+1628
+01:55:47,337 --> 01:55:49,887
+脸 对 现在,我可以操纵它。 摆
+faces. Yes. Now I can manipulate it. Okay.
+
+1629
+01:55:50,187 --> 01:55:51,327
+我刚刚做的事
+So what I just did there,
+
+1630
+01:55:55,437 --> 01:55:58,947
+再来一次 首先,我给孩子做了一份拷贝
+one more time. First, I made a copy of the baby,
+
+1631
+01:56:00,507 --> 01:56:02,157
+这里的皮肤通过D班
+the skin here by doing Shift D.
+
+1632
+01:56:04,437 --> 01:56:09,777
+第二,我做了正确的鼠标点击 选择转换成网状。
+The second thing I did was do right mouse click and choose convert to mesh.
+
+1633
+01:56:13,886 --> 01:56:17,037
+我刚刚想做什么? 网络操纵。
+What was I trying to do earlier? Mesh manipulation.
+
+1634
+01:56:17,906 --> 01:56:22,137
+所以,现在如果我去标签,我可以... 我想做件衬衫
+So now if I go to tab, I'm able to... I wanted to make a shirt.
+
+1635
+01:56:22,197 --> 01:56:27,117
+这就是我之前想做的 所以,让我们为这个孩子做一件运动服。
+That's what I was trying to do earlier. So let's make a bodysuit for this baby.
+
+1636
+01:56:28,228 --> 01:56:31,437
+现在应该可以了 我要做这样的事情
+That should work now. I'm going to do something like this.
+
+1637
+01:56:32,607 --> 01:56:35,607
+好吧,我会做D班的复制,
+Okay, I'm going to do Shift D to duplicate,
+
+1638
+01:56:37,407 --> 01:56:41,097
+我会像这个那样放大一点
+and I'm going to scale it slightly a little bit bigger like this.
+
+1639
+01:56:44,728 --> 01:56:48,597
+哎哟 在取消选举之前,我要打P
+Oops. Before deselecting it, I'm going to hit P
+
+1640
+01:56:50,397 --> 01:56:54,507
+我要用松散的零件把它分开
+to separate it, and I'm going to separate it by loose parts.
+
+1641
+01:56:55,767 --> 01:56:57,597
+但是,这是非常先进的,我们在这里这样做。
+But it's very advanced that we're doing here.
+
+1642
+01:56:58,317 --> 01:56:59,997
+关机
+Turning off the
+
+1643
+01:57:01,347 --> 01:57:05,218
+放大然后回去 好吧,现在我有两个东西
+zoom and going back. Okay, so now I actually have two objects.
+
+1644
+01:57:05,277 --> 01:57:06,147
+宝宝在我手上
+I have the baby
+
+1645
+01:57:08,548 --> 01:57:13,137
+和婴儿的衬衫,你可以变成衣服。 好吗?
+and a shirt of the baby that you can turn into clothing. Okay?
+
+1646
+01:57:13,678 --> 01:57:17,337
+因此,举例来说,我可以给它一种不同的颜色。
+So with this, for instance, I can give it a different color.
+
+1647
+01:57:19,317 --> 01:57:24,417
+杀了这个,做个黑色潜水衣
+Kill this, make this a black scuba diving suit,
+
+1648
+01:57:26,067 --> 01:57:27,928
+放大一点
+and scale it up a little bit.
+
+1649
+01:57:32,997 --> 01:57:35,877
+好吧,所以我有一个皮肤紧紧的西装 现在,一个橡胶西装。
+Okay, so I have a skin-tight suit now, a rubber suit.
+
+1650
+01:57:36,687 --> 01:57:36,747
+G, (英语).
+G,
+
+1651
+01:57:37,947 --> 01:57:40,257
+十,我可以把它放在婴儿上面。
+X. I can put it on top of the baby.
+
+1652
+01:57:52,707 --> 01:57:53,637
+G, Y. G, Z (英语).
+G, Y. G, Z.
+
+1653
+01:57:55,167 --> 01:57:59,428
+好吧,还是太近了。 我要把它放大一点 使它成为一个
+Okay, it's still too close. I'm going to scale it up a little bit more to make it a
+
+1654
+01:57:59,488 --> 01:58:03,387
+有点大。 或者我们可以做的另外一件事是 增加一个修饰器 给它一些
+little bit bigger. Or another thing we can do is add a modifier to give it some
+
+1655
+01:58:03,417 --> 01:58:08,517
+厚度 。 。 所以去修饰者,添加修饰者,生成,
+thickness. So go to modifier, add modifier, generate,
+
+1656
+01:58:08,877 --> 01:58:14,787
+固化,通过操纵厚度,我可以给这件衬衫
+solidify, and by manipulating thickness, I can give this shirt
+
+1657
+01:58:15,807 --> 01:58:16,407
+厚度 。 。
+thickness.
+
+1658
+01:58:20,637 --> 01:58:23,877
+我有一件运动服 我不知道. 你看过电影《沙丘》吗?
+And I have a bodysuit. I don't know. Did you see the movie Dune?
+
+1659
+01:58:23,937 --> 01:58:24,478
+这看起来像
+This looks like
+
+1660
+01:58:26,037 --> 01:58:27,988
+哈科宁男爵和他的西装
+Baron Harkonnen and his suit.
+
+1661
+01:58:29,997 --> 01:58:35,488
+摆 总之,我八点了 无论时间如何 已经两个小时了
+Okay. Anyway, it's 8:00 for me. Whatever it is time for you. It's been two hours.
+
+1662
+01:58:36,747 --> 01:58:39,928
+怎么样? 希望不会太糟
+How was that? Hopefully, it wasn't too bad.
+
+1663
+01:58:42,178 --> 01:58:43,077
+非常感谢
+Thank you so much.
+
+1664
+01:58:44,907 --> 01:58:50,757
+摆 如果你迷路,迷惑,有问题 超越今天,请放进去
+Okay. If you are lost, confused, have questions beyond today, please drop them in
+
+1665
+01:58:50,787 --> 01:58:54,657
+我将尽力回答他们
+the Blender channel of Mattermost and I'll do my best to answer them.
+
+1666
+01:58:55,107 --> 01:59:00,747
+如果我没记错的话 下载有问题
+If I remember correctly, there was an issue with downloading
+
+1667
+01:59:01,377 --> 01:59:07,257
+麦克的Blender。 安装MPFB加载有问题
+Blender for Mac. There was an issue with installing the MPFB add-on
+
+1668
+01:59:07,317 --> 01:59:12,057
+因为某种版本不兼容 和某人在一起
+at all, with somebody due to some sort of version incompatibility.
+
+1669
+01:59:12,928 --> 01:59:15,178
+第三个问题是什么? 还有第三个我不记得了
+What was the third issue? There was a third one that I couldn't remember.
+
+1670
+01:59:15,327 --> 01:59:20,907
+但无论如何,请体谅, 如果你不能前进 与MakeHuman为Blender,
+But anyway, please kindly, if you cannot move forward with MakeHuman for Blender,
+
+1671
+01:59:21,357 --> 01:59:25,407
+把Blender频道的问题给我 我尽量回答
+drop me the questions in Blender, the Blender channel, and I'll try to answer.
+
+1672
+01:59:26,428 --> 01:59:26,697
+摆
+Okay.
+
+1673
+01:59:28,738 --> 01:59:34,167
+这是很多。 我们做了很多两个小时, 但希望,你有点明白
+That was a lot. We did a lot two hours in, but hopefully, you kind of understand
+
+1674
+01:59:34,197 --> 01:59:38,937
+还有Blender软件的力量 我迫不及待想看看什么很酷
+the power of the Blender software, and I can't wait to see what kinds of cool
+
+1675
+01:59:38,968 --> 01:59:40,167
+你做的东西。 好吗?
+things you make. All right?
+
+1676
+01:59:41,247 --> 01:59:42,267
+谢谢
+Thank you very much.
+
+1677
+01:59:42,687 --> 01:59:45,147
+不用谢 好吧,我们走。 再见 边
+You're welcome. All right. Bye bye. Good night.
+
+1678
+01:59:45,327 --> 01:59:47,067
+再见。 谢谢
+Bye. Thank you.
+
+1679
+01:59:47,067 --> 01:59:48,027
+再见。
+Ciao.
+
+1680
+01:59:48,087 --> 01:59:49,377
+再见。 谢谢
+Bye. Thank you very much.
+
+1681
+01:59:50,007 --> 01:59:50,787
+再见。 谢谢
+Bye. Thanks.
+
+1682
+01:59:51,387 --> 01:59:51,928
+对
+Yeah.

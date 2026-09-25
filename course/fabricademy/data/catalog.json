@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "86126ee875b0f3c6c7d047b4b069480a299f28ac516375e8f33be64e6c30500f",
+  "revision": "75ca538894649ebfd1ec31d0c8ffe3fc841b6df9250f1c04dfd4051c0b2240e6",
   "courses": [
     {
       "id": "1227439130",
@@ -92,6 +92,28 @@
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/293230583.json",
       "sha256": "7a4806b811c56d19f270172bf8f9988af362c7367e875081774584f8350f86ff"
+    },
+    {
+      "id": "1230021516",
+      "title": "AI 辅助从图像到数字制造",
+      "duration": 9872.28,
+      "page_url": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/notes.html",
+      "bilibili": null,
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/1230021516.json",
+      "sha256": "1646b244f3bf8338406a56d5eaa541daaf4c771748d67af6959ef98ae8827b7a"
+    },
+    {
+      "id": "1229506193",
+      "title": "Blender 基础建模与 MakeHuman",
+      "duration": 7193.84,
+      "page_url": "https://ma2b.github.io/course/fabricademy/08-blender-2026/notes.html",
+      "bilibili": {
+        "bvid": "BV1yHhm6HE5x",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/1229506193.json",
+      "sha256": "94732ff179b73b7b46327ec996769dd1cfe4b506ae6bf0061af7867c0d412752"
     }
   ]
 }

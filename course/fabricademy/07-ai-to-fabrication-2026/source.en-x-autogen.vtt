@@ -1,0 +1,8513 @@
+WEBVTT
+
+1
+00:00:00.090 --> 00:00:00.630
+I think we got it.
+
+2
+00:00:02.401 --> 00:00:02.700
+Okay.
+
+3
+00:00:04.680 --> 00:00:10.380
+Before Asli will start, I will just take five minutes to take you
+
+4
+00:00:10.440 --> 00:00:15.480
+through this workflow that we have been using until now in
+
+5
+00:00:16.081 --> 00:00:21.991
+Slicer for Fusion 360. And then Asli will take you through
+
+6
+00:00:22.050 --> 00:00:26.370
+the workflow of 2D to 3D generation, and then fabrication.
+
+7
+00:00:26.491 --> 00:00:30.210
+So we will jump directly in
+
+8
+00:00:32.250 --> 00:00:33.120
+the tutorial,
+
+9
+00:00:34.680 --> 00:00:36.330
+and I will share my screen.
+
+10
+00:00:38.010 --> 00:00:38.460
+And
+
+11
+00:00:39.661 --> 00:00:43.981
+so Slicer for Fusion 360 is a very easy and intuitive
+
+12
+00:00:45.120 --> 00:00:50.970
+program. That's why also we have been using it faithfully,
+
+13
+00:00:51.180 --> 00:00:51.870
+I can say.
+
+14
+00:00:53.340 --> 00:00:58.981
+It is a very easy interface. I just want to tell you, it accepts 3D
+
+15
+00:00:59.100 --> 00:01:04.860
+files like STL and OBJ. Of course, they need to be watertight.
+
+16
+00:01:05.670 --> 00:01:10.080
+And it has four steps. So
+
+17
+00:01:11.310 --> 00:01:16.380
+here you can see my model opens and the head is lying down.
+
+18
+00:01:16.860 --> 00:01:22.380
+So I will open it again, and I will choose Z as an
+
+19
+00:01:22.470 --> 00:01:28.080
+axis to open it correctly in the correct axis. Yes.
+
+20
+00:01:28.770 --> 00:01:34.200
+And it has four steps. The first step is to define
+
+21
+00:01:34.740 --> 00:01:39.601
+your laser cutter. So you define your laser cutter
+
+22
+00:01:40.740 --> 00:01:45.840
+by creating a new manufacturing setting in millimeter or inches.
+
+23
+00:01:46.351 --> 00:01:52.260
+You put the size, the thickness, and those ones, you can leave them zero.
+
+24
+00:01:52.380 --> 00:01:53.490
+This is the margin.
+
+25
+00:01:55.801 --> 00:02:00.900
+And then once you have set up your laser cutting area,
+
+26
+00:02:01.950 --> 00:02:05.101
+you can save it. You can select it.
+
+27
+00:02:06.840 --> 00:02:11.730
+So you can see down here that it has updated. These are my boards.
+
+28
+00:02:11.880 --> 00:02:13.710
+This is the thickness of my material.
+
+29
+00:02:14.760 --> 00:02:19.351
+And then you can choose between stack slices,
+
+30
+00:02:21.150 --> 00:02:24.391
+you can choose interlock slices,
+
+31
+00:02:25.770 --> 00:02:26.851
+you can choose
+
+32
+00:02:29.101 --> 00:02:31.050
+radial slices,
+
+33
+00:02:33.180 --> 00:02:33.570
+and
+
+34
+00:02:34.800 --> 00:02:35.940
+folded panels.
+
+35
+00:02:37.830 --> 00:02:43.620
+So now in each of the strategies, you
+
+36
+00:02:43.680 --> 00:02:49.200
+can customize them. If you choose stack slices, for example, you
+
+37
+00:02:49.290 --> 00:02:53.940
+can see here the manufacturing settings, so you can directly go to laser cut.
+
+38
+00:02:54.870 --> 00:03:00.000
+So if you choose stack slices, you can
+
+39
+00:03:00.810 --> 00:03:03.391
+change the slice direction,
+
+40
+00:03:07.740 --> 00:03:10.171
+and it will automatically update.
+
+41
+00:03:11.820 --> 00:03:15.270
+You can modify the form and make it hollow.
+
+42
+00:03:18.601 --> 00:03:20.760
+Sorry. And you can see
+
+43
+00:03:22.110 --> 00:03:22.710
+how much,
+
+44
+00:03:25.260 --> 00:03:28.291
+and apply. So it will update
+
+45
+00:03:35.640 --> 00:03:36.421
+the boards.
+
+46
+00:03:39.390 --> 00:03:39.690
+Hmm.
+
+47
+00:03:42.300 --> 00:03:45.870
+It didn't like so hollow, I think, because I went with the nose.
+
+48
+00:03:48.000 --> 00:03:48.330
+Okay.
+
+49
+00:04:02.580 --> 00:04:03.930
+Okay, there is something wrong.
+
+50
+00:04:07.351 --> 00:04:12.660
+Oh. And also, I don't know why it doesn't do it hollow, but also it will show you.
+
+51
+00:04:12.781 --> 00:04:15.421
+It did it, but it doesn't visualize it. It has some bugs.
+
+52
+00:04:16.050 --> 00:04:21.960
+It will show you the assembly steps, so you can go one
+
+53
+00:04:21.990 --> 00:04:23.250
+by one and
+
+54
+00:04:24.510 --> 00:04:25.290
+assemble it.
+
+55
+00:04:26.760 --> 00:04:27.120
+So
+
+56
+00:04:29.490 --> 00:04:33.360
+here. It will visualize it in cardboard.
+
+57
+00:04:33.781 --> 00:04:39.690
+You can change, if you want, the type of slices, and if there are errors,
+
+58
+00:04:39.870 --> 00:04:45.630
+it will give you red. And for this one, for example, you can as well
+
+59
+00:04:45.781 --> 00:04:47.670
+change the slice direction.
+
+60
+00:04:49.560 --> 00:04:52.800
+But you can also add
+
+61
+00:04:54.690 --> 00:05:00.600
+more by clicking add more slices. You can move your
+
+62
+00:05:00.690 --> 00:05:02.490
+slices wherever you want.
+
+63
+00:05:08.430 --> 00:05:13.800
+And you can reset and equalize again, or you can delete some if you want.
+
+64
+00:05:15.841 --> 00:05:19.050
+That one will export. You can get the plans here.
+
+65
+00:05:19.500 --> 00:05:23.640
+Now it's red, but many times it is red, but it makes sense.
+
+66
+00:05:23.670 --> 00:05:27.300
+You need to see the assembly process to understand if it will work or not.
+
+67
+00:05:27.330 --> 00:05:30.600
+Sometimes it makes it red because it's hollow.
+
+68
+00:05:31.470 --> 00:05:36.990
+And you can choose here DXF in millimeters, and you're ready to laser cut.
+
+69
+00:05:37.951 --> 00:05:43.260
+So this is very nice and very easy process
+
+70
+00:05:44.040 --> 00:05:49.980
+using the Slicer for Fusion 360 to translate from a 3D STL
+
+71
+00:05:50.010 --> 00:05:55.560
+or OBJ, three-dimensional model, watertight, to fabricatable files
+
+72
+00:05:56.490 --> 00:06:02.310
+directly for the laser cutter. And that was from my part,
+
+73
+00:06:02.430 --> 00:06:04.080
+the first part of the tutorial.
+
+74
+00:06:08.790 --> 00:06:10.140
+Now Asli can start.
+
+75
+00:06:10.740 --> 00:06:12.990
+Hello, everybody. This is Asli.
+
+76
+00:06:14.370 --> 00:06:18.120
+Thank you, Anastasia, for the introduction to Slicer for Fusion.
+
+77
+00:06:18.210 --> 00:06:19.951
+I think it will be a good
+
+78
+00:06:21.841 --> 00:06:26.040
+start, and also we'll come back to it at the end of the workshop.
+
+79
+00:06:26.759 --> 00:06:32.250
+So as Anastasia introduced me, I am from VAAG
+
+80
+00:06:32.820 --> 00:06:33.540
+in Amsterdam,
+
+81
+00:06:35.040 --> 00:06:40.530
+from Textile Lab Amsterdam node. And at VAAG, we are
+
+82
+00:06:41.820 --> 00:06:46.860
+executing a project called Renaissance, which is an Erasmus Plus project.
+
+83
+00:06:46.951 --> 00:06:50.250
+If you're in Europe, you know Erasmus Plus projects.
+
+84
+00:06:50.730 --> 00:06:54.660
+That it is a Europe-wide
+
+85
+00:06:56.940 --> 00:06:58.410
+project for education,
+
+86
+00:06:59.940 --> 00:07:05.640
+where we look into developing AI-driven curriculums for manufacturing, art, design,
+
+87
+00:07:05.701 --> 00:07:06.570
+and architecture
+
+88
+00:07:07.980 --> 00:07:13.831
+educations. And this is just the first year of the project, and we're looking
+
+89
+00:07:13.920 --> 00:07:15.630
+into ways where we can implement
+
+90
+00:07:16.860 --> 00:07:22.770
+AI-supported workflows in our processes as designers, artists,
+
+91
+00:07:22.890 --> 00:07:28.081
+architects. And I am myself an architect, and I have a background in
+
+92
+00:07:28.591 --> 00:07:32.820
+computational design, digital design, and fabrication for many years.
+
+93
+00:07:32.910 --> 00:07:36.000
+And I also teach at universities
+
+94
+00:07:37.710 --> 00:07:40.920
+in the first years mostly, but also in fabrication studios.
+
+95
+00:07:41.640 --> 00:07:47.250
+So this is a brief introduction to the course. Let's start. Jump in directly.
+
+96
+00:07:47.880 --> 00:07:48.091
+First,
+
+97
+00:07:49.680 --> 00:07:50.280
+I did the
+
+98
+00:07:54.390 --> 00:07:58.410
+presentation in the Miro board so that afterwards I can share the link with you,
+
+99
+00:07:58.470 --> 00:08:02.820
+and then you can go through it easily yourself, and the links will be easier for
+
+100
+00:08:02.880 --> 00:08:07.290
+you to follow. And then we will do the tutorials together.
+
+101
+00:08:08.280 --> 00:08:13.831
+And let me start with this. So we will look
+
+102
+00:08:13.951 --> 00:08:14.610
+into, as
+
+103
+00:08:16.320 --> 00:08:21.390
+Anastasia said, we are in the second week of Fab Academy, so this
+
+104
+00:08:22.620 --> 00:08:28.170
+workflow was designed thinking about the second week of Fab Academy, but it can be
+
+105
+00:08:28.260 --> 00:08:28.951
+applied to
+
+106
+00:08:30.331 --> 00:08:33.091
+other situations and contexts, obviously.
+
+107
+00:08:33.451 --> 00:08:38.640
+But since we are doing the digital bodies, so we are looking into bodies and how we
+
+108
+00:08:38.701 --> 00:08:44.520
+can create 2D images out of them, how we can create 3D models out of them, and then
+
+109
+00:08:44.940 --> 00:08:49.140
+turn them into fabrication files for laser cutting.
+
+110
+00:08:51.750 --> 00:08:57.151
+So it follows an ideation to design to fabrication workflow, and in the
+
+111
+00:08:57.270 --> 00:09:02.520
+ideation, we will look into preparing 2D visuals, and we will use multimodal image
+
+112
+00:09:02.550 --> 00:09:06.630
+generation. So you'll use image to image generation in
+
+113
+00:09:08.988 --> 00:09:14.448
+Using AI. And we will use text prompts as well to further explain what we want.
+
+114
+00:09:15.168 --> 00:09:17.808
+And then we will move on to preparing 3D models.
+
+115
+00:09:17.868 --> 00:09:23.448
+There we will have image to 3D generation using AI again,
+
+116
+00:09:23.808 --> 00:09:27.558
+but we are humans, and human in the loop is really important.
+
+117
+00:09:27.948 --> 00:09:33.469
+Before we can move on to fabrication where we deal with real world consequences, we
+
+118
+00:09:33.528 --> 00:09:39.318
+need to check our models, and we need to make sure that it is actually what we want
+
+119
+00:09:39.378 --> 00:09:45.138
+to make because digital makes everything possible in the
+
+120
+00:09:45.168 --> 00:09:49.638
+digital world, but they are not possible sometimes in the real world.
+
+121
+00:09:50.118 --> 00:09:54.438
+And then we will move on to preparation for fabrication.
+
+122
+00:09:54.858 --> 00:10:00.078
+And there is, Anastasiia said one option is the slicer, but the other one is
+
+123
+00:10:01.758 --> 00:10:07.158
+I will introduce a workflow that I followed where I looked into making my own tool,
+
+124
+00:10:08.688 --> 00:10:09.558
+like a slicer,
+
+125
+00:10:11.688 --> 00:10:16.788
+and I will show you how to use that one and the process of getting to that
+
+126
+00:10:17.628 --> 00:10:18.288
+using AI.
+
+127
+00:10:19.698 --> 00:10:21.858
+So let's get back to the beginning.
+
+128
+00:10:22.608 --> 00:10:28.518
+So first, before we start, I hope everyone had a chance to fill in
+
+129
+00:10:28.578 --> 00:10:32.568
+the pre-training survey. It is important for my project, Renaissance project.
+
+130
+00:10:33.168 --> 00:10:35.418
+If you were able to fill in, I'm really grateful.
+
+131
+00:10:37.458 --> 00:10:42.108
+And I would like to give a shout-out to Laura Muth's project from last year from
+
+132
+00:10:42.168 --> 00:10:47.748
+the computational couture week. And she did a very nice project, so
+
+133
+00:10:48.078 --> 00:10:52.278
+when I share the link with you, you can have a look at how she combined
+
+134
+00:10:54.408 --> 00:10:55.219
+image and
+
+135
+00:10:59.178 --> 00:11:04.068
+text to image workflows and also image to 3D
+
+136
+00:11:04.668 --> 00:11:09.798
+workflows using AI for design.
+
+137
+00:11:11.118 --> 00:11:12.378
+So let's start.
+
+138
+00:11:15.228 --> 00:11:20.599
+As Anastasiia said, we will use today Gemini and Tripo.
+
+139
+00:11:21.618 --> 00:11:25.278
+So if you were not able to
+
+140
+00:11:33.708 --> 00:11:36.918
+download it or, sorry, create a...
+
+141
+00:11:40.998 --> 00:11:43.099
+Sorry, I'm trying to find my chat here. Yeah.
+
+142
+00:11:45.378 --> 00:11:51.228
+Create a linkit. You can do it here for Gemini. I shared it in the chat.
+
+143
+00:11:52.099 --> 00:11:57.708
+And also for Tripo, you can go to studio.tripo.ai
+
+144
+00:11:58.158 --> 00:12:03.288
+and create an account there. We will use the free versions, and
+
+145
+00:12:06.438 --> 00:12:08.448
+so please don't start using them yet.
+
+146
+00:12:09.108 --> 00:12:13.608
+But if you want to go more open source and
+
+147
+00:12:15.288 --> 00:12:19.758
+models that you can run locally, obviously, given the fact that if you had a
+
+148
+00:12:19.788 --> 00:12:23.537
+powerful computer and graphics card, you can go to Hugging Face,
+
+149
+00:12:25.458 --> 00:12:25.698
+which
+
+150
+00:12:26.958 --> 00:12:29.838
+is like a platform where you can find different
+
+151
+00:12:36.168 --> 00:12:40.908
+models for making text generation, language translation, image generation, video
+
+152
+00:12:40.969 --> 00:12:46.608
+generation, 3D modeling. So for image generation, you can use
+
+153
+00:12:46.668 --> 00:12:52.368
+instead of Gemini or ChatGPT, you can use Flux.2, for
+
+154
+00:12:52.428 --> 00:12:56.089
+example, or for 3D modeling, you can use...
+
+155
+00:12:59.778 --> 00:13:05.058
+Where is it? Tradus.2, sorry, or Hunyuan
+
+156
+00:13:05.689 --> 00:13:05.928
+3D.
+
+157
+00:13:08.958 --> 00:13:13.518
+You can use them. They have very limited credits online, so you cannot use them
+
+158
+00:13:13.578 --> 00:13:18.979
+fully when you use them online. But if you download them and use them locally, then
+
+159
+00:13:19.038 --> 00:13:20.418
+you can use them however you like.
+
+160
+00:13:21.678 --> 00:13:24.138
+So let's move in, in
+
+161
+00:13:25.339 --> 00:13:25.818
+Gemini.
+
+162
+00:13:27.708 --> 00:13:29.089
+So we have a
+
+163
+00:13:33.318 --> 00:13:39.198
+sort of interface like this where we can import images and as well as we can
+
+164
+00:13:39.229 --> 00:13:43.848
+write text there. So what is important here is that I always,
+
+165
+00:13:45.048 --> 00:13:47.898
+in my example, started with a very basic
+
+166
+00:13:50.659 --> 00:13:56.328
+make human model and gave some prompts to it and
+
+167
+00:13:56.628 --> 00:13:58.939
+see what kind of outputs I can get out of it.
+
+168
+00:13:59.568 --> 00:14:03.469
+So I will walk you through the general prompt structure that I use.
+
+169
+00:14:03.798 --> 00:14:07.638
+Here, the prompting unfortunately becomes a little bit important.
+
+170
+00:14:08.808 --> 00:14:10.998
+So here you can use, for example,
+
+171
+00:14:12.708 --> 00:14:16.128
+with your image, transform this human figure into material.
+
+172
+00:14:16.189 --> 00:14:16.368
+So
+
+173
+00:14:17.659 --> 00:14:18.138
+wooden
+
+174
+00:14:21.528 --> 00:14:27.348
+blocks, keep the pose same, unchanged, the camera angle
+
+175
+00:14:27.439 --> 00:14:32.268
+unchanged, or you can say also change the pose to this and that, emphasize surface
+
+176
+00:14:32.328 --> 00:14:37.128
+quality. So you can say that it will be textured or it could have joints or
+
+177
+00:14:39.439 --> 00:14:45.288
+smooth or transparent, et cetera. And you can also say if you want more background.
+
+178
+00:14:46.159 --> 00:14:49.038
+So let's go through some examples.
+
+179
+00:14:50.418 --> 00:14:50.628
+So
+
+180
+00:14:53.508 --> 00:14:58.818
+you can also draw on top of your drawings in Gemini.
+
+181
+00:14:58.969 --> 00:15:01.848
+So when I bring in
+
+182
+00:15:04.068 --> 00:15:08.659
+an image like this and I say... Sorry,
+
+183
+00:15:12.439 --> 00:15:13.038
+just use this.
+
+184
+00:15:17.778 --> 00:15:21.498
+You can also click on your model and then sketch on it.
+
+185
+00:15:22.698 --> 00:15:23.898
+So this is what I used.
+
+186
+00:15:26.659 --> 00:15:27.948
+I'm going to save it for now
+
+187
+00:15:29.868 --> 00:15:35.777
+and get back to this, and then you hit obviously submit, and then it
+
+188
+00:15:35.808 --> 00:15:40.878
+will start creating. The reason that I use Gemini for this is that you have more
+
+189
+00:15:41.628 --> 00:15:45.498
+free credits, daily credits with Gemini for image generation.
+
+190
+00:15:45.858 --> 00:15:51.738
+But also, ChatGPT does not like nude people, although
+
+191
+00:15:51.798 --> 00:15:52.068
+they are
+
+192
+00:15:54.558 --> 00:15:57.078
+3D digital. And
+
+193
+00:15:58.638 --> 00:16:02.928
+so it cannot go beyond its guardrails, and
+
+194
+00:16:05.238 --> 00:16:09.558
+even though you try to convince it, it doesn't allow you to create alterations,
+
+195
+00:16:09.618 --> 00:16:11.958
+modifications on nude bodies.
+
+196
+00:16:16.098 --> 00:16:17.298
+So as you see,
+
+197
+00:16:20.659 --> 00:16:21.618
+it generated
+
+198
+00:16:23.328 --> 00:16:27.828
+an image to the image that I can then download and use.
+
+199
+00:16:29.958 --> 00:16:35.298
+But as I said, you can also look into different kind of material
+
+200
+00:16:35.418 --> 00:16:36.708
+qualities or
+
+201
+00:16:39.589 --> 00:16:44.988
+defragmentations of the body and also include more important
+
+202
+00:16:45.708 --> 00:16:50.598
+information about its construction, like joints and dowels and whatnot, or
+
+203
+00:16:51.888 --> 00:16:57.498
+create different kind of structures and more natural structures around it and
+
+204
+00:16:59.448 --> 00:17:02.208
+extend it a little bit beyond the body itself.
+
+205
+00:17:07.368 --> 00:17:12.798
+Or like this example, you can also voxelate it
+
+206
+00:17:13.038 --> 00:17:17.328
+and to be able to voxelate it in the scale that I want, I
+
+207
+00:17:18.589 --> 00:17:23.959
+gave the human height and then gave the number of
+
+208
+00:17:24.168 --> 00:17:24.918
+voxelation,
+
+209
+00:17:26.328 --> 00:17:30.438
+the size of the voxelation cubes. Voxelation is like pixels but in
+
+210
+00:17:30.498 --> 00:17:36.048
+three-dimensional. So pixels work in two dimensions, and
+
+211
+00:17:36.468 --> 00:17:41.089
+voxels work in three dimensions. But before giving this, for example,
+
+212
+00:17:42.318 --> 00:17:46.848
+it gave me a Python code where I could do this on my computer.
+
+213
+00:17:48.678 --> 00:17:52.458
+But then I had to say that I want the appearance of voxelation, so I
+
+214
+00:17:54.258 --> 00:18:00.198
+do not want to actually compute the voxelation and understand how many voxels there
+
+215
+00:18:00.228 --> 00:18:03.738
+will be. So then it was able to give me this output.
+
+216
+00:18:06.438 --> 00:18:11.688
+You can also modify the body with the pose itself
+
+217
+00:18:11.808 --> 00:18:17.634
+and copy and paste parts of the body Again, it needs a little bit
+
+218
+00:18:17.814 --> 00:18:19.015
+further definition of
+
+219
+00:18:21.744 --> 00:18:26.274
+what you want to do. And for example, if you do not say, "Make them morph with the
+
+220
+00:18:26.304 --> 00:18:29.964
+body," then it just copies it and leaves it there, and sometimes it's in front of
+
+221
+00:18:30.024 --> 00:18:34.194
+it, or sometimes it's next to it, but it never morphs with the body.
+
+222
+00:18:39.384 --> 00:18:41.964
+Or you can do other kinds of
+
+223
+00:18:45.084 --> 00:18:48.954
+modifications or give different prompts,
+
+224
+00:18:50.694 --> 00:18:56.274
+where you can create different textures on the body and also different finishes.
+
+225
+00:18:57.265 --> 00:19:02.604
+So here, from this point onwards, I wanted to not only
+
+226
+00:19:03.714 --> 00:19:04.614
+do the first
+
+227
+00:19:05.874 --> 00:19:09.654
+image generation but also do some further modifications on it.
+
+228
+00:19:10.794 --> 00:19:16.434
+So you can also say, "Increase negative bump in golden colors," which means is that
+
+229
+00:19:16.584 --> 00:19:22.284
+bump is a little bit of a technical term for rendering on computers.
+
+230
+00:19:22.914 --> 00:19:27.234
+It is for the textures that they apply on the 3D models.
+
+231
+00:19:27.654 --> 00:19:33.384
+It creates sort of an extension and
+
+232
+00:19:35.784 --> 00:19:41.544
+extrusion on parts. But if you have the bump negative, which means that it goes
+
+233
+00:19:41.634 --> 00:19:47.064
+inwards. So here, when I create the negative bump, it goes
+
+234
+00:19:48.084 --> 00:19:50.694
+down, or it gives the appearance of going down.
+
+235
+00:19:50.784 --> 00:19:54.684
+So because this is a 2D image, it will not be able to do that.
+
+236
+00:19:56.304 --> 00:20:01.674
+So you see, when you say increase negative bump from this smoother version, it
+
+237
+00:20:01.734 --> 00:20:04.674
+moves on to a little bit deep
+
+238
+00:20:06.954 --> 00:20:07.344
+cracks.
+
+239
+00:20:10.884 --> 00:20:13.194
+You can also change the pose, as I said.
+
+240
+00:20:13.704 --> 00:20:16.884
+"Give the human rodents the thinker pose."
+
+241
+00:20:21.324 --> 00:20:25.644
+And then you can say, "Remove the background and the blocks under the human.
+
+242
+00:20:25.975 --> 00:20:28.104
+Just keep the human." So you have the human.
+
+243
+00:20:28.614 --> 00:20:33.414
+And then you can also incorporate transformations, ask to make some
+
+244
+00:20:34.554 --> 00:20:40.524
+transformations. So I said, "Scale the left foot by half."
+
+245
+00:20:41.094 --> 00:20:45.744
+And then you see the foot is slightly scaled, but it's not
+
+246
+00:20:46.524 --> 00:20:49.284
+exactly half of the original size.
+
+247
+00:20:49.704 --> 00:20:55.225
+So what it means is that you can ask for transformation commands because it does
+
+248
+00:20:55.344 --> 00:21:00.265
+semantic evaluation of what you said. It cannot do precise transformations.
+
+249
+00:21:00.324 --> 00:21:05.544
+So if you want to do precise transformations, like cuts, trims, selections, and
+
+250
+00:21:05.604 --> 00:21:07.704
+exact boundaries, you need to go back to your
+
+251
+00:21:10.674 --> 00:21:16.644
+good old tools of Photoshop or GIMP or any other image alteration, image
+
+252
+00:21:16.704 --> 00:21:21.684
+modification software you use, and then use it and then bring it to AI for more
+
+253
+00:21:21.774 --> 00:21:27.414
+interpretive transformations. So this is another example of where it fails.
+
+254
+00:21:27.594 --> 00:21:30.954
+So I said I put these points on it, and then
+
+255
+00:21:33.024 --> 00:21:37.314
+I asked to create holes using these as center points, but
+
+256
+00:21:39.114 --> 00:21:40.824
+I asked the holes to
+
+257
+00:21:42.084 --> 00:21:47.454
+be same and uniform, but it was not able to create them in
+
+258
+00:21:48.294 --> 00:21:54.144
+the same size. And you also see that it gave me a little bit more than what I
+
+259
+00:21:54.234 --> 00:22:00.144
+asked for. I think it decided that the belly button also needed to be
+
+260
+00:22:00.204 --> 00:22:00.864
+hollowed out.
+
+261
+00:22:03.504 --> 00:22:09.174
+Or slicing the model from where it is indicated with red and
+
+262
+00:22:09.234 --> 00:22:13.584
+deleting the arms, legs, and head, keep the texture of the body, make the
+
+263
+00:22:13.614 --> 00:22:17.934
+background white. So you see that that is also very interpretive, and it's not
+
+264
+00:22:18.024 --> 00:22:18.475
+exact.
+
+265
+00:22:20.244 --> 00:22:23.484
+So going back, you can
+
+266
+00:22:24.894 --> 00:22:27.384
+also think about adding some
+
+267
+00:22:29.304 --> 00:22:30.714
+texture yourself by
+
+268
+00:22:31.975 --> 00:22:32.694
+overlapping,
+
+269
+00:22:33.924 --> 00:22:38.184
+juxtaposing a texture image and the human,
+
+270
+00:22:43.374 --> 00:22:49.074
+as you see, and then ask to
+
+271
+00:22:49.194 --> 00:22:53.664
+scale the texture, but it does not show it, but the bump is
+
+272
+00:22:55.434 --> 00:22:56.124
+scaled here,
+
+273
+00:22:57.954 --> 00:22:58.554
+as you see.
+
+274
+00:23:02.874 --> 00:23:03.174
+Again,
+
+275
+00:23:04.434 --> 00:23:09.954
+the background is removed. The optical illusion is applied as a bump layer.
+
+276
+00:23:10.314 --> 00:23:14.844
+These textures and bump layers are quite important because then they give the
+
+277
+00:23:14.904 --> 00:23:15.714
+appearance of
+
+278
+00:23:17.064 --> 00:23:21.354
+non-smooth surfaces. So when you go to 3D model generation,
+
+279
+00:23:22.884 --> 00:23:26.124
+then they will be more apparent in the
+
+280
+00:23:27.354 --> 00:23:29.544
+3D model that you create.
+
+281
+00:23:34.404 --> 00:23:39.774
+Or this was a little bit of a sleep trial to see if I could do this.
+
+282
+00:23:40.644 --> 00:23:42.234
+And, yeah.
+
+283
+00:23:45.414 --> 00:23:51.114
+Applying the ruffle as a texture. Again, scaling the texture three times.
+
+284
+00:23:51.204 --> 00:23:55.134
+Again, it's interpretive. It tries to scale it three times, but it's not exactly
+
+285
+00:23:55.344 --> 00:23:58.734
+three times bigger. It's just bigger.
+
+286
+00:24:00.774 --> 00:24:01.824
+So yeah.
+
+287
+00:24:05.574 --> 00:24:07.044
+This part is for the
+
+288
+00:24:08.844 --> 00:24:14.784
+2D visuals, and I will just stop now sharing and ask
+
+289
+00:24:14.964 --> 00:24:16.164
+if you have any questions or if
+
+290
+00:24:18.714 --> 00:24:21.684
+we should start making our own
+
+291
+00:24:23.034 --> 00:24:28.074
+models now. Sorry, 2D visuals. For that, yeah.
+
+292
+00:24:28.434 --> 00:24:29.394
+Do you have any questions?
+
+293
+00:24:30.024 --> 00:24:33.234
+Yeah. Hi. So first, thanks for introduction.
+
+294
+00:24:33.354 --> 00:24:33.774
+And
+
+295
+00:24:35.094 --> 00:24:38.304
+what was the alternative to Gemini? Could you please remind?
+
+296
+00:24:39.564 --> 00:24:40.225
+It's Flux.
+
+297
+00:24:40.884 --> 00:24:41.694
+Flux. Mm-hmm.
+
+298
+00:24:41.933 --> 00:24:43.254
+Flux on Hugging Face.
+
+299
+00:24:45.084 --> 00:24:47.363
+There are many more alternatives.
+
+300
+00:24:47.843 --> 00:24:51.624
+If you want a paid version, you can also use ChatGPT.
+
+301
+00:24:51.714 --> 00:24:56.934
+As I said, it has its own guardrail, so it doesn't allow you to even modify a
+
+302
+00:24:57.024 --> 00:24:57.804
+simple
+
+303
+00:24:59.184 --> 00:25:01.494
+Make Human model, but yeah.
+
+304
+00:25:03.954 --> 00:25:09.834
+For this tutorial, you would like that we work with Human, or we can work also with
+
+305
+00:25:10.015 --> 00:25:10.464
+other-
+
+306
+00:25:11.064 --> 00:25:13.284
+You can work with anything. You can work with
+
+307
+00:25:14.964 --> 00:25:18.594
+what you have started working with, or if you have a photo of yourself, you can
+
+308
+00:25:18.684 --> 00:25:19.674
+also ask it to
+
+309
+00:25:20.964 --> 00:25:22.644
+give them appearance of a
+
+310
+00:25:25.164 --> 00:25:28.524
+digitally designed body without any textures on it.
+
+311
+00:25:30.054 --> 00:25:32.515
+But I will work on the Make Human again.
+
+312
+00:25:33.024 --> 00:25:35.034
+Or you think like a photo of a cat.
+
+313
+00:25:36.234 --> 00:25:37.165
+Could be, yeah.
+
+314
+00:25:37.614 --> 00:25:37.944
+Okay.
+
+315
+00:25:38.394 --> 00:25:39.355
+That's a body as well.
+
+316
+00:25:41.995 --> 00:25:47.844
+And there is a question. Yes, I will share the link to the Miro board with you.
+
+317
+00:25:52.254 --> 00:25:55.134
+Oh, yes. There were a few more.
+
+318
+00:25:59.064 --> 00:26:02.064
+I will just share this Make Human model with you,
+
+319
+00:26:06.114 --> 00:26:11.304
+so that if you want to start with it, you can already download this and use it.
+
+320
+00:26:14.634 --> 00:26:18.774
+And I will give you maybe five minutes for you to explore the
+
+321
+00:26:22.374 --> 00:26:25.884
+generation yourself. And if you have questions, we can look into it together
+
+322
+00:26:27.534 --> 00:26:32.725
+so that we don't go to the next step before we look into explore it ourselves.
+
+323
+00:26:33.804 --> 00:26:36.564
+So you would like us to go to the Gemini and-
+
+324
+00:26:36.624 --> 00:26:36.745
+Yes
+
+325
+00:26:37.165 --> 00:26:38.995
+... try to put a prompt.
+
+326
+00:26:39.774 --> 00:26:40.314
+Exactly.
+
+327
+00:26:40.944 --> 00:26:45.024
+And to, yeah, to transform something.
+
+328
+00:26:45.114 --> 00:26:50.784
+Yeah, to transform. You can generate a few things, one thing, and
+
+329
+00:26:51.384 --> 00:26:51.804
+I will
+
+330
+00:26:53.814 --> 00:26:59.754
+maybe share the Miro link now so that you can look at the examples
+
+331
+00:26:59.814 --> 00:27:00.684
+there, and then
+
+332
+00:27:02.965 --> 00:27:03.834
+they will help you.
+
+333
+00:27:13.284 --> 00:27:14.154
+There you go.
+
+334
+00:27:14.184 --> 00:27:14.454
+Sorry, quick question.
+
+335
+00:27:15.294 --> 00:27:15.294
+Yep.
+
+336
+00:27:15.324 --> 00:27:18.654
+By the sound of you. Make sure I wait 10 seconds. Yeah.
+
+337
+00:27:19.134 --> 00:27:19.975
+Hello, Frederick.
+
+338
+00:27:20.454 --> 00:27:20.814
+Hello.
+
+339
+00:27:22.284 --> 00:27:27.204
+Is there any figure that is a bit more easy for beginners than a human? So a human.
+
+340
+00:27:29.052 --> 00:27:29.292
+Or
+
+341
+00:27:30.912 --> 00:27:34.751
+I'm a complete beginner. I'm not a designer, but I want to try to learn the
+
+342
+00:27:35.352 --> 00:27:40.572
+steps of generating the models with the AI.
+
+343
+00:27:41.862 --> 00:27:47.442
+Well, as I said, I already put the human figure in the chat here, so you can
+
+344
+00:27:47.472 --> 00:27:52.692
+already download it and upload it on Gemini. And we are using Gemini right now.
+
+345
+00:27:52.781 --> 00:27:55.272
+So I will share my screen, and we will
+
+346
+00:27:56.712 --> 00:28:00.972
+insert our figure there, this figure that I shared in the chat with you, and then
+
+347
+00:28:01.033 --> 00:28:06.432
+we will write some prompts. You can use the prompts from the Miro board easily,
+
+348
+00:28:07.513 --> 00:28:11.592
+and then we will generate it. So does that answer your question, Alessandro?
+
+349
+00:28:13.063 --> 00:28:17.591
+Yes. I will try with a human then. So I feel a bit more supported with the prompts
+
+350
+00:28:17.651 --> 00:28:18.643
+of the Miro board.
+
+351
+00:28:18.942 --> 00:28:18.972
+Okay.
+
+352
+00:28:18.972 --> 00:28:19.813
+I will try that.
+
+353
+00:28:20.082 --> 00:28:20.232
+Okay.
+
+354
+00:28:20.322 --> 00:28:20.622
+Thank you.
+
+355
+00:28:21.222 --> 00:28:26.682
+Yeah, you're welcome. Because that is really difficult the first time to get Gemini
+
+356
+00:28:26.832 --> 00:28:29.862
+or any other language model to do what you want.
+
+357
+00:28:30.402 --> 00:28:34.033
+And always the results are a little bit different than what you want,
+
+358
+00:28:37.212 --> 00:28:39.042
+so that is very understandable.
+
+359
+00:28:40.242 --> 00:28:41.472
+Can I ask a question?
+
+360
+00:28:42.732 --> 00:28:43.932
+Sorry, yes.
+
+361
+00:28:47.682 --> 00:28:49.272
+Did someone say that they have a question?
+
+362
+00:28:49.842 --> 00:28:55.632
+Yeah. I'd like to ask a question. When you talked about the damping, when you were
+
+363
+00:28:55.692 --> 00:29:00.612
+describing the image and you told the damping, the bumping, can we generate an
+
+364
+00:29:00.703 --> 00:29:05.742
+image, can we generate a human model without not having the damping like this?
+
+365
+00:29:06.311 --> 00:29:11.832
+Because you told that after we generate and we 3D print, we will find a bumping, a
+
+366
+00:29:13.033 --> 00:29:18.912
+negative bumping. Can we generate on the Gemini and then don't get any
+
+367
+00:29:19.002 --> 00:29:22.362
+damping, like a perfectly rough surface?
+
+368
+00:29:22.362 --> 00:29:26.592
+Of course. Yeah. So if you can say that I want a smooth surface, then it will give
+
+369
+00:29:26.652 --> 00:29:27.763
+you a smooth surface.
+
+370
+00:29:28.422 --> 00:29:28.572
+Oh, yeah.
+
+371
+00:29:28.572 --> 00:29:29.052
+Hopefully.
+
+372
+00:29:30.402 --> 00:29:30.552
+Okay.
+
+373
+00:29:30.552 --> 00:29:35.322
+It's not always true, but sometimes these things, these bumps that you create on
+
+374
+00:29:35.382 --> 00:29:40.063
+the texture helps you with generating a more three-dimensional effect, a texture
+
+375
+00:29:40.092 --> 00:29:43.542
+effect when you go to image to 3D modeling.
+
+376
+00:29:44.442 --> 00:29:44.652
+Oh.
+
+377
+00:29:45.042 --> 00:29:49.813
+That's why I wanted to introduce it, but if you don't want to have any kind of
+
+378
+00:29:54.102 --> 00:29:57.432
+extras on the body, you can also make it very smooth.
+
+379
+00:29:58.302 --> 00:29:59.442
+Oh, yeah. Thanks.
+
+380
+00:29:59.953 --> 00:30:01.063
+Yeah. You're welcome.
+
+381
+00:30:06.612 --> 00:30:11.472
+So the question is, if the models generated on Gemini are type of fully manifold
+
+382
+00:30:11.592 --> 00:30:13.033
+objects usually. So,
+
+383
+00:30:14.712 --> 00:30:19.332
+the models that we create on Gemini are not actually models, they are 2D images, so
+
+384
+00:30:19.393 --> 00:30:24.792
+they are not manifold yet. And the ones that we generate on Tripod, Tripod is
+
+385
+00:30:25.182 --> 00:30:30.852
+usually really good. So manifold means that if it is watertight or not.
+
+386
+00:30:30.942 --> 00:30:31.092
+So
+
+387
+00:30:32.652 --> 00:30:37.902
+if the geometry is manifold, then it means that it's watertight, then it's 3D
+
+388
+00:30:37.962 --> 00:30:43.932
+printable. So I'm trying to interpret your question text so that other people
+
+389
+00:30:43.961 --> 00:30:47.953
+can understand. And usually it is quite good.
+
+390
+00:30:48.763 --> 00:30:54.402
+But we will also go to Blender, and I'll show you two ways where you can
+
+391
+00:30:54.462 --> 00:30:57.313
+check if an object is manifold or
+
+392
+00:30:59.112 --> 00:31:02.563
+how Blender can help you make it manifold.
+
+393
+00:31:03.672 --> 00:31:03.912
+Sorry.
+
+394
+00:31:05.292 --> 00:31:10.752
+My Gemini said, "Sorry, I cannot generate unsafe images." I wonder if other people
+
+395
+00:31:10.813 --> 00:31:14.563
+managed. The screenshot that you shared, I-
+
+396
+00:31:16.332 --> 00:31:16.542
+Sorry?
+
+397
+00:31:17.412 --> 00:31:17.742
+Couldn't.
+
+398
+00:31:19.872 --> 00:31:21.372
+Can you ask again, Luisa?
+
+399
+00:31:22.152 --> 00:31:27.672
+Yeah. I sent the image, the screenshot that you shared, into Gemini,
+
+400
+00:31:28.302 --> 00:31:33.732
+and I wrote some prompt, and it said, "Sorry, I can't generate unsafe images."
+
+401
+00:31:34.302 --> 00:31:35.712
+Oh, also.
+
+402
+00:31:39.192 --> 00:31:40.572
+Did anybody manage?
+
+403
+00:31:41.442 --> 00:31:42.822
+Oh, interesting.
+
+404
+00:31:44.862 --> 00:31:48.372
+Let me find a human that does not look nude, because usually-
+
+405
+00:31:48.672 --> 00:31:50.322
+It worked for me. Sorry.
+
+406
+00:31:50.862 --> 00:31:50.862
+Hmm?
+
+407
+00:31:50.922 --> 00:31:51.822
+It worked for me.
+
+408
+00:31:52.722 --> 00:31:52.962
+Okay.
+
+409
+00:31:55.632 --> 00:31:57.852
+But they show an image of a
+
+410
+00:31:59.082 --> 00:32:02.263
+human with the clothes, and I say, "Take off the clothes."
+
+411
+00:32:03.042 --> 00:32:03.252
+Mm-hmm.
+
+412
+00:32:03.792 --> 00:32:07.453
+And I want to look like a doll, like, too.
+
+413
+00:32:07.482 --> 00:32:07.662
+Mm-hmm.
+
+414
+00:32:08.592 --> 00:32:11.322
+And told why I was using it.
+
+415
+00:32:14.682 --> 00:32:18.222
+There is a question in the chat. How do you upload the image to Gemini?
+
+416
+00:32:18.792 --> 00:32:22.212
+Okay. I am going there now, hopefully.
+
+417
+00:32:31.572 --> 00:32:35.502
+Okay, now we are here. So when you go to Gemini,
+
+418
+00:32:38.802 --> 00:32:44.682
+you can either click on this and upload files and select your
+
+419
+00:32:49.422 --> 00:32:55.152
+image from the menu that opens up, or there is another way
+
+420
+00:32:55.813 --> 00:32:58.692
+where you drag and drop it into Gemini.
+
+421
+00:32:59.022 --> 00:33:00.582
+And then here you write your own
+
+422
+00:33:04.002 --> 00:33:06.042
+prompts. And for example,
+
+423
+00:33:07.302 --> 00:33:09.162
+I can bring another
+
+424
+00:33:10.453 --> 00:33:11.022
+prompt.
+
+425
+00:33:28.453 --> 00:33:28.813
+Whoop.
+
+426
+00:33:34.002 --> 00:33:38.772
+So turn the figure into a soft, inflatable body made from semi-transparent plastic.
+
+427
+00:33:39.942 --> 00:33:42.192
+I don't want to see the interiors.
+
+428
+00:33:54.732 --> 00:33:54.912
+So
+
+429
+00:33:57.072 --> 00:34:02.322
+then we can further say, "Remove the
+
+430
+00:34:02.682 --> 00:34:03.763
+background
+
+431
+00:34:05.382 --> 00:34:09.493
+and make the right hand
+
+432
+00:34:11.922 --> 00:34:15.462
+bigger than the left hand."
+
+433
+00:34:41.592 --> 00:34:46.513
+So you need further modifications because now it shows the hand.
+
+434
+00:34:46.632 --> 00:34:51.972
+You can go back here and then click on Edit Prompt, make the right hand bigger than
+
+435
+00:34:52.033 --> 00:34:52.783
+the left hand,
+
+436
+00:34:54.192 --> 00:34:54.972
+remove the
+
+437
+00:34:57.492 --> 00:34:58.482
+original
+
+438
+00:35:00.192 --> 00:35:03.373
+right hand. Let's see if this works.
+
+439
+00:35:09.912 --> 00:35:10.182
+Whoa.
+
+440
+00:35:25.842 --> 00:35:26.742
+Yes, Siva?
+
+441
+00:35:29.292 --> 00:35:35.172
+Yes. Hi. It also told me that it can't generate unsafe images,
+
+442
+00:35:36.522 --> 00:35:38.832
+so I'm just trying to search for
+
+443
+00:35:40.422 --> 00:35:42.462
+another image to try.
+
+444
+00:35:46.752 --> 00:35:48.492
+Okay. I will also search for...
+
+445
+00:35:54.012 --> 00:35:55.422
+I have a question, sorry.
+
+446
+00:35:55.662 --> 00:35:55.812
+Yeah.
+
+447
+00:35:56.532 --> 00:36:01.362
+I'm here trying to upload the screenshot of the model to Gemini.
+
+448
+00:36:01.752 --> 00:36:06.552
+But I don't know why I can't do it because it says that it only allows me to
+
+449
+00:36:06.582 --> 00:36:09.822
+download it if I have the pro version of Gemini.
+
+450
+00:36:09.942 --> 00:36:11.562
+So I don't know how to do it again.
+
+451
+00:36:19.932 --> 00:36:22.272
+So you need to download the
+
+452
+00:36:23.802 --> 00:36:24.492
+pro version?
+
+453
+00:36:25.092 --> 00:36:27.643
+Okay. I don't know. I'm on the Gemini.
+
+454
+00:36:28.992 --> 00:36:29.172
+Mm-hmm.
+
+455
+00:36:30.432 --> 00:36:30.672
+Okay.
+
+456
+00:36:30.762 --> 00:36:33.132
+Every time I try to upload a picture...
+
+457
+00:36:33.252 --> 00:36:37.182
+Can you show me again so I know if I'm doing the right thing?
+
+458
+00:36:39.162 --> 00:36:40.362
+Please. Thank you.
+
+459
+00:36:40.782 --> 00:36:42.042
+Yeah, no problem.
+
+460
+00:36:47.082 --> 00:36:48.732
+So maybe
+
+461
+00:36:57.162 --> 00:36:57.792
+we go to
+
+462
+00:36:59.922 --> 00:37:00.672
+the Gemini.
+
+463
+00:37:01.662 --> 00:37:01.812
+Mm-hmm.
+
+464
+00:37:01.842 --> 00:37:05.592
+Are you here in gemini.google.com/app?
+
+465
+00:37:07.242 --> 00:37:07.362
+Mm-hmm.
+
+466
+00:37:08.592 --> 00:37:09.042
+Are you there?
+
+467
+00:37:11.502 --> 00:37:16.482
+I was on Gemini. I don't know if there's a different version of Gemini.
+
+468
+00:37:18.192 --> 00:37:18.612
+Okay.
+
+469
+00:37:22.062 --> 00:37:26.802
+So if you go to gemini.google.com/app-
+
+470
+00:37:27.643 --> 00:37:27.941
+Mm-hmm
+
+471
+00:37:27.941 --> 00:37:29.052
+... then
+
+472
+00:37:31.242 --> 00:37:37.002
+here, click on the plus sign and upload files, and then select your
+
+473
+00:37:37.123 --> 00:37:42.732
+file that you want to work on, and then upload it here.
+
+474
+00:37:48.792 --> 00:37:54.643
+And then you can either add a few things that you want to do here, or
+
+475
+00:37:58.242 --> 00:38:01.782
+you can write your prompt here to modify it.
+
+476
+00:38:03.042 --> 00:38:06.342
+Or you can also start with nothing.
+
+477
+00:38:10.362 --> 00:38:11.802
+And let's see if I
+
+478
+00:38:18.282 --> 00:38:18.972
+make a
+
+479
+00:38:20.623 --> 00:38:21.222
+standing
+
+480
+00:38:22.512 --> 00:38:23.052
+human
+
+481
+00:38:25.182 --> 00:38:25.692
+figure
+
+482
+00:38:29.832 --> 00:38:32.922
+with a soft inflatable body.
+
+483
+00:38:42.492 --> 00:38:48.282
+The interesting part in this is that when you write
+
+484
+00:38:48.552 --> 00:38:49.482
+a text,
+
+485
+00:38:51.192 --> 00:38:56.982
+what the model will do behind, what the LLM will do,
+
+486
+00:38:57.702 --> 00:39:01.332
+is that it will create an image.
+
+487
+00:39:01.782 --> 00:39:02.862
+Mm-hmm.
+
+488
+00:39:03.072 --> 00:39:08.922
+So if you already start with giving to the model an image,
+
+489
+00:39:09.762 --> 00:39:11.623
+you're already one step ahead.
+
+490
+00:39:12.012 --> 00:39:12.402
+Mm-hmm.
+
+491
+00:39:16.092 --> 00:39:17.742
+So that is why, for example, I
+
+492
+00:39:19.752 --> 00:39:25.632
+don't have much control over the proportions of this human, but if I give an
+
+493
+00:39:25.692 --> 00:39:31.362
+image input, then I have a little bit more control over the proportions,
+
+494
+00:39:31.602 --> 00:39:35.082
+the pose, a little bit about the texture as well.
+
+495
+00:39:37.602 --> 00:39:37.752
+Yeah.
+
+496
+00:39:38.952 --> 00:39:44.652
+And I'm going to paste on the chat the two slides that we've seen
+
+497
+00:39:45.252 --> 00:39:47.652
+in the digital bodies
+
+498
+00:39:49.062 --> 00:39:52.062
+PPT, the presentation, the class-
+
+499
+00:39:52.661 --> 00:39:52.902
+Mm-hmm
+
+500
+00:39:52.902 --> 00:39:57.102
+... of how the model actually works.
+
+501
+00:40:07.812 --> 00:40:13.272
+I am seeing very interesting examples from the chat here.
+
+502
+00:40:14.952 --> 00:40:19.362
+I haven't had a chance to look at them. They're quite interesting.
+
+503
+00:40:20.472 --> 00:40:20.952
+Wow.
+
+504
+00:40:22.272 --> 00:40:26.982
+Should we say that we are all good to move to the next step?
+
+505
+00:40:27.373 --> 00:40:29.832
+Yeah. Are there any other questions?
+
+506
+00:40:36.252 --> 00:40:39.852
+No. Then we can definitely move to the next
+
+507
+00:40:43.602 --> 00:40:46.632
+step, which is... Wait, I will just look at that.
+
+508
+00:40:48.582 --> 00:40:48.822
+Sorry.
+
+509
+00:40:50.292 --> 00:40:51.132
+Which is to-
+
+510
+00:40:53.472 --> 00:40:54.402
+There's a question.
+
+511
+00:40:55.002 --> 00:40:55.662
+There's a question?
+
+512
+00:40:56.232 --> 00:40:56.772
+Yeah. Sora?
+
+513
+00:41:02.322 --> 00:41:02.742
+Sora?
+
+514
+00:41:07.002 --> 00:41:08.382
+Somebody raised their hand, yeah.
+
+515
+00:41:10.393 --> 00:41:10.632
+Hey.
+
+516
+00:41:19.632 --> 00:41:20.442
+Okay, no question.
+
+517
+00:41:21.012 --> 00:41:24.912
+Okay. But you can stop me anytime. I prefer it like that.
+
+518
+00:41:24.972 --> 00:41:28.452
+Otherwise, it feels like I'm talking to the void when I'm looking at the screen.
+
+519
+00:41:28.873 --> 00:41:33.222
+So if you feel like you want an answer now, just stop me.
+
+520
+00:41:36.042 --> 00:41:41.712
+And yeah. So the next part is looking into Tripod 3D.
+
+521
+00:41:42.282 --> 00:41:47.442
+You have the link here. Did I share this link? I will share the link again. Whoop.
+
+522
+00:41:49.152 --> 00:41:49.482
+Sorry.
+
+523
+00:41:55.182 --> 00:42:00.852
+So please, please, please, do not use it now because if you use it now with this,
+
+524
+00:42:01.032 --> 00:42:03.672
+it will use a lot of credits.
+
+525
+00:42:09.132 --> 00:42:09.402
+Okay.
+
+526
+00:42:11.202 --> 00:42:16.422
+So here we will use Tripod. Tripod turns image to
+
+527
+00:42:18.432 --> 00:42:21.552
+3D models. You can download them. Usually,
+
+528
+00:42:23.292 --> 00:42:24.792
+game designers use these,
+
+529
+00:42:26.292 --> 00:42:32.143
+but people like us also use it. And Tripod is the sort of the best that gives you,
+
+530
+00:42:32.623 --> 00:42:35.172
+as was it Tex who asked it?
+
+531
+00:42:36.792 --> 00:42:38.262
+The best solutions for
+
+532
+00:42:43.272 --> 00:42:49.182
+3D printing or fabrication. For example, Trellis, also this free
+
+533
+00:42:49.242 --> 00:42:54.342
+Hugging Face model that I suggested at the beginning,
+
+534
+00:42:55.302 --> 00:42:58.512
+also can create 3D models, but it does not
+
+535
+00:43:00.402 --> 00:43:03.522
+immediately let you download an SCR file.
+
+536
+00:43:04.272 --> 00:43:08.112
+It lets you download a GLB file, which is mostly used for
+
+537
+00:43:09.551 --> 00:43:15.132
+game design, not fabrication. So this is for you
+
+538
+00:43:15.252 --> 00:43:15.552
+to
+
+539
+00:43:16.782 --> 00:43:21.942
+make sure that you remember what we need to do, but I will go through them now on
+
+540
+00:43:22.032 --> 00:43:27.912
+Tripod Studio. So here, we click on 3D workspace, and then we
+
+541
+00:43:27.972 --> 00:43:29.742
+have a screen like this.
+
+542
+00:43:31.002 --> 00:43:33.643
+There you can use
+
+543
+00:43:42.942 --> 00:43:43.752
+an image
+
+544
+00:43:44.982 --> 00:43:50.623
+to begin with. So any photo that you have, you can also use it, but you can
+
+545
+00:43:50.712 --> 00:43:56.352
+use one of the photos or the models that you have made to
+
+546
+00:43:56.442 --> 00:44:02.352
+start exploring it. And you upload the photo here in
+
+547
+00:44:02.412 --> 00:44:03.192
+this corner.
+
+548
+00:44:04.482 --> 00:44:06.342
+We can select it together.
+
+549
+00:44:13.962 --> 00:44:14.832
+And since
+
+550
+00:44:14.922 --> 00:44:20.952
+yours
+
+551
+00:44:21.012 --> 00:44:25.332
+will have the default settings, it will be slightly different than mine.
+
+552
+00:44:25.722 --> 00:44:30.012
+So make sure that you turn the texture off, because when you turn the texture on,
+
+553
+00:44:30.582 --> 00:44:35.382
+as you see, we use a lot of credits. But for
+
+554
+00:44:35.893 --> 00:44:38.532
+fabrication, we don't need a texture.
+
+555
+00:44:38.802 --> 00:44:41.772
+Texture is the image that is
+
+556
+00:44:43.332 --> 00:44:46.722
+applied to the body or a 3D model after
+
+557
+00:44:47.982 --> 00:44:53.893
+the topology geometry is created, such as in the
+
+558
+00:44:54.582 --> 00:45:00.042
+small boy model that I showed you. But we don't need the texture for fabrication,
+
+559
+00:45:00.102 --> 00:45:03.702
+so we can turn it off and save on credits.
+
+560
+00:45:04.302 --> 00:45:09.792
+And in terms of topology, triangle topology is the most suitable for,
+
+561
+00:45:11.802 --> 00:45:15.792
+again, fabrication. So use triangulation rather than quad mesh.
+
+562
+00:45:16.662 --> 00:45:22.482
+And for the poly count, as you know, or as you might know, it is quite
+
+563
+00:45:22.572 --> 00:45:28.482
+important. Obviously, the bigger the poly count is, usually the greater
+
+564
+00:45:28.542 --> 00:45:31.002
+the resolution is. But it also means that
+
+565
+00:45:31.362 --> 00:45:37.092
+the file sizes get really big, and
+
+566
+00:45:37.212 --> 00:45:38.922
+also it makes
+
+567
+00:45:41.094 --> 00:45:46.374
+The computer lag a little bit when you want to go to fabrication afterwards,
+
+568
+00:45:46.944 --> 00:45:52.344
+because it means that there are a lot of points on the model that it needs to
+
+569
+00:45:52.404 --> 00:45:54.234
+account for to make the
+
+570
+00:45:55.525 --> 00:45:56.484
+watertight shape.
+
+571
+00:45:57.894 --> 00:46:03.414
+But low poly means that then you have a little bit less resolution, but maybe at
+
+572
+00:46:03.504 --> 00:46:05.814
+this scale, we are not 3D printing.
+
+573
+00:46:06.234 --> 00:46:07.494
+We are not using this for
+
+574
+00:46:10.914 --> 00:46:11.844
+game design.
+
+575
+00:46:13.224 --> 00:46:16.374
+We are not going to use it as a digital asset, which means that we are going to
+
+576
+00:46:16.434 --> 00:46:19.434
+fabricate it with laser cutting, so we can go for
+
+577
+00:46:20.664 --> 00:46:24.324
+low poly count and decrease our file size.
+
+578
+00:46:26.454 --> 00:46:32.304
+I will just show you a few things. So for example, this has a little bit close
+
+579
+00:46:32.394 --> 00:46:35.334
+to 500,000 vertices,
+
+580
+00:46:37.704 --> 00:46:38.934
+which is quite nice.
+
+581
+00:46:40.194 --> 00:46:40.824
+But maybe
+
+582
+00:46:42.864 --> 00:46:48.744
+this has around 220,000 vertices,
+
+583
+00:46:51.025 --> 00:46:56.724
+which is obviously a little bit less defined than the previous
+
+584
+00:46:56.814 --> 00:47:02.694
+one. But also, it does not matter if we're making this
+
+585
+00:47:02.754 --> 00:47:07.824
+out of cardboard or fabricating it with laser-cut pieces.
+
+586
+00:47:08.724 --> 00:47:10.704
+So I would suggest you to go for
+
+587
+00:47:12.744 --> 00:47:18.355
+maybe 200,000, 300,000, and if you feel like you cannot
+
+588
+00:47:18.414 --> 00:47:18.894
+capture
+
+589
+00:47:20.844 --> 00:47:23.964
+all the details, then you can increase it.
+
+590
+00:47:24.684 --> 00:47:30.264
+But obviously, when you generate one model, then you lose 15
+
+591
+00:47:30.324 --> 00:47:35.004
+tokens. So anyway, and I think you start with 200.
+
+592
+00:47:36.775 --> 00:47:42.504
+And, okay, how Tripod works is that it gets an
+
+593
+00:47:42.594 --> 00:47:42.924
+image,
+
+594
+00:47:44.244 --> 00:47:50.094
+and it's diffusion modeling, so it sends in light and then imagines what the back
+
+595
+00:47:50.214 --> 00:47:54.054
+of the model would look like. So it doesn't know it, but it imagines it.
+
+596
+00:47:54.204 --> 00:47:58.614
+If you go for, obviously, paid versions, then you can add more views into it,
+
+597
+00:47:59.964 --> 00:48:05.664
+left, right, and back. But with the non-paid version, you don't have that
+
+598
+00:48:05.754 --> 00:48:10.644
+option. But as you see, it does not do a really bad job
+
+599
+00:48:11.634 --> 00:48:14.605
+while imagining what's happening at the back.
+
+600
+00:48:16.105 --> 00:48:17.814
+Or here, if you look at this,
+
+601
+00:48:20.484 --> 00:48:24.414
+only having this view, it was able to interpret
+
+602
+00:48:26.514 --> 00:48:29.034
+what it would look like, and it's not that bad.
+
+603
+00:48:31.014 --> 00:48:36.624
+And here, when we come down, again, it comes with the best
+
+604
+00:48:36.684 --> 00:48:42.564
+quality AI model, but to be able to download an STL file, you
+
+605
+00:48:42.624 --> 00:48:45.984
+need to go with in the legacy
+
+606
+00:48:48.355 --> 00:48:49.074
+AI model.
+
+607
+00:48:50.544 --> 00:48:56.183
+Then you hit Generate, and then your file or your 3D model will start
+
+608
+00:48:58.855 --> 00:49:00.984
+its generation. And then when it's done,
+
+609
+00:49:02.994 --> 00:49:04.134
+it will appear here,
+
+610
+00:49:05.394 --> 00:49:07.314
+and then you can rotate around it
+
+611
+00:49:08.964 --> 00:49:11.544
+and check it. For example, this is not a good one.
+
+612
+00:49:12.114 --> 00:49:17.364
+Maybe with 50 vertices, it did not do a good job.
+
+613
+00:49:18.084 --> 00:49:20.004
+But around 200,000,
+
+614
+00:49:21.264 --> 00:49:26.574
+it's not really that bad. And then once you're done, you hit
+
+615
+00:49:26.664 --> 00:49:32.484
+Export, you select STL from this list, and
+
+616
+00:49:32.574 --> 00:49:36.414
+then export the model. This will download your
+
+617
+00:49:38.664 --> 00:49:40.314
+STL file to your computer.
+
+618
+00:49:42.594 --> 00:49:43.944
+So now
+
+619
+00:49:45.894 --> 00:49:48.204
+we can start trying it out ourselves.
+
+620
+00:49:48.384 --> 00:49:53.694
+So if you go to studio.tripod.3d.ai, you can
+
+621
+00:49:56.214 --> 00:49:59.244
+start your own 3D generations from your images.
+
+622
+00:49:59.964 --> 00:50:05.334
+And if you need
+
+623
+00:50:05.844 --> 00:50:11.574
+an image to begin with, I will again share this image that I was using here.
+
+624
+00:50:13.855 --> 00:50:15.624
+And to be able to remember what
+
+625
+00:50:19.134 --> 00:50:23.934
+settings I used, you can go to the Miro board and look at the settings there.
+
+626
+00:50:29.124 --> 00:50:33.444
+And meanwhile, I can answer some questions if you have any questions.
+
+627
+00:50:49.644 --> 00:50:53.694
+Could you do it again in Tripod with one of the images of the chat?
+
+628
+00:50:54.654 --> 00:50:55.734
+Okay, let's see.
+
+629
+00:50:57.534 --> 00:50:58.554
+And share the screen.
+
+630
+00:51:06.984 --> 00:51:07.254
+Okay.
+
+631
+00:51:21.984 --> 00:51:22.434
+Now,
+
+632
+00:51:25.674 --> 00:51:26.634
+I have downloaded
+
+633
+00:51:29.634 --> 00:51:29.964
+this
+
+634
+00:51:31.674 --> 00:51:32.004
+model,
+
+635
+00:51:36.864 --> 00:51:37.315
+this one,
+
+636
+00:51:39.565 --> 00:51:42.504
+from the chat.
+
+637
+00:51:43.824 --> 00:51:49.704
+And as I said, we go to general settings first, make sure that the texture is off.
+
+638
+00:51:50.484 --> 00:51:56.454
+We have the triangle topology, which means that it creates triangular faces between
+
+639
+00:51:56.875 --> 00:52:02.754
+three vertices, not pod mesh, which is four
+
+640
+00:52:02.785 --> 00:52:07.913
+vertices form a face. And then I have, let's go with
+
+641
+00:52:08.424 --> 00:52:14.125
+300,000 poly count, and then
+
+642
+00:52:15.174 --> 00:52:17.484
+go down, make sure that our
+
+643
+00:52:18.744 --> 00:52:22.375
+AI model is legacy. And then
+
+644
+00:52:23.844 --> 00:52:24.294
+let's see.
+
+645
+00:53:22.884 --> 00:53:26.785
+Are there any questions while it is generating my content here?
+
+646
+00:53:30.444 --> 00:53:32.155
+Actually, yes. Ah, sorry.
+
+647
+00:53:33.954 --> 00:53:39.924
+Sorry. Is there a reason you're using the legacy model as
+
+648
+00:53:39.954 --> 00:53:43.554
+opposed to the best quality or the fastest and balanced, number three?
+
+649
+00:53:44.394 --> 00:53:45.684
+Yes, because
+
+650
+00:53:47.815 --> 00:53:52.884
+I have the free version. If I use the best quality version, it doesn't allow me to
+
+651
+00:53:52.944 --> 00:53:54.924
+download an STL model-
+
+652
+00:53:55.854 --> 00:53:56.125
+Okay
+
+653
+00:53:56.125 --> 00:53:57.535
+... with the free version.
+
+654
+00:53:58.344 --> 00:53:58.764
+Thank you.
+
+655
+00:53:59.994 --> 00:54:03.354
+So this is what I have. Maybe increasing
+
+656
+00:54:04.764 --> 00:54:08.514
+the poly count would have given me better definition.
+
+657
+00:54:16.464 --> 00:54:19.285
+So maybe let's try that one as well.
+
+658
+00:54:25.375 --> 00:54:27.894
+When you export it, where do you export it to?
+
+659
+00:54:28.164 --> 00:54:30.804
+There's different ways you can export it, I can see.
+
+660
+00:54:40.704 --> 00:54:45.144
+So this here, you select the STL, and then
+
+661
+00:54:49.932 --> 00:54:53.442
+Sorry. This was a quad model, so it doesn't allow me to download that one.
+
+662
+00:54:55.123 --> 00:54:57.642
+So you export it,
+
+663
+00:55:01.512 --> 00:55:03.253
+and then it just downloads the STL.
+
+664
+00:55:07.182 --> 00:55:11.592
+Do you see a different behavior, Tina? Was it you who asked the question?
+
+665
+00:55:16.692 --> 00:55:18.822
+Sorry. Yeah, no, it's fine. It works.
+
+666
+00:55:18.942 --> 00:55:19.603
+It was just the-
+
+667
+00:55:19.722 --> 00:55:19.902
+It works
+
+668
+00:55:19.902 --> 00:55:24.492
+... next part that was sent to Blender, et cetera. So just wondering.
+
+669
+00:55:24.762 --> 00:55:25.482
+But yeah, I see.
+
+670
+00:55:26.922 --> 00:55:26.922
+Yeah.
+
+671
+00:55:26.952 --> 00:55:27.282
+Thanks.
+
+672
+00:55:27.972 --> 00:55:28.362
+You're welcome.
+
+673
+00:55:36.732 --> 00:55:38.831
+So yeah. Now this has
+
+674
+00:55:42.462 --> 00:55:43.362
+more definition
+
+675
+00:55:46.092 --> 00:55:48.342
+to it than the previous one.
+
+676
+00:56:06.222 --> 00:56:08.592
+But I must say that the scales on
+
+677
+00:56:11.802 --> 00:56:12.012
+the
+
+678
+00:56:13.242 --> 00:56:17.322
+fish part is a little bit lost, that scale effect.
+
+679
+00:56:27.131 --> 00:56:28.633
+Are there any other questions?
+
+680
+00:56:29.022 --> 00:56:32.922
+Yes, I have a question. When I have uploaded my
+
+681
+00:56:35.383 --> 00:56:39.582
+model to the workspace, it is now dimmed out.
+
+682
+00:56:40.152 --> 00:56:41.353
+The whole left panel
+
+683
+00:56:42.582 --> 00:56:46.962
+is now sort of dimmed out. I can see the model that I've uploaded onto the
+
+684
+00:56:47.022 --> 00:56:52.422
+workspace, but I can't access anything, any settings or anything further.
+
+685
+00:56:54.702 --> 00:56:55.332
+On the left?
+
+686
+00:56:56.532 --> 00:57:00.103
+Yes. You know when you upload your image-
+
+687
+00:57:00.582 --> 00:57:00.853
+Mm-hmm
+
+688
+00:57:00.853 --> 00:57:04.332
+... it's gone into a panel on the left-hand side of the screen.
+
+689
+00:57:04.812 --> 00:57:04.992
+Yep.
+
+690
+00:57:06.103 --> 00:57:09.522
+So now that entire panel has become dimmed or grayed out,
+
+691
+00:57:11.472 --> 00:57:14.562
+so I can't use it. Have I done something wrong?
+
+692
+00:57:15.012 --> 00:57:17.652
+I brought in a JPEG, maybe it had to be a PNG?
+
+693
+00:57:19.572 --> 00:57:23.472
+No, it supports JPEG as well, so it should not be the problem.
+
+694
+00:57:24.042 --> 00:57:24.253
+Okay.
+
+695
+00:57:24.762 --> 00:57:27.282
+But shall I walk you through it? Maybe you-
+
+696
+00:57:27.822 --> 00:57:28.092
+Sure.
+
+697
+00:57:28.873 --> 00:57:33.853
+Yeah, so here, you can also, instead of dropping it here, you can
+
+698
+00:57:33.913 --> 00:57:38.952
+select this box or click on this box
+
+699
+00:57:40.663 --> 00:57:41.052
+and then
+
+700
+00:57:42.462 --> 00:57:43.962
+select an image.
+
+701
+00:57:45.552 --> 00:57:47.322
+Let me select a JPEG.
+
+702
+00:57:49.633 --> 00:57:51.612
+Other quite... Okay.
+
+703
+00:57:56.982 --> 00:57:58.663
+As you see, it's a JPEG.
+
+704
+00:57:59.413 --> 00:57:59.682
+Yeah.
+
+705
+00:58:00.432 --> 00:58:03.462
+And it uploads without a problem.
+
+706
+00:58:04.151 --> 00:58:06.792
+Maybe it's the image I selected. I'll try a different image.
+
+707
+00:58:07.182 --> 00:58:07.482
+Okay.
+
+708
+00:58:13.182 --> 00:58:16.633
+Also, sorry, I need some help, I think.
+
+709
+00:58:16.873 --> 00:58:16.873
+Yeah.
+
+710
+00:58:16.932 --> 00:58:22.123
+Is that okay if I share my screen, because I cannot export my model?
+
+711
+00:58:24.342 --> 00:58:27.373
+Yes. Mm-hmm.
+
+712
+00:58:28.182 --> 00:58:28.873
+So I
+
+713
+00:58:31.152 --> 00:58:32.802
+created a HD model.
+
+714
+00:58:37.633 --> 00:58:37.962
+Mm-hmm.
+
+715
+00:58:38.172 --> 00:58:43.992
+I removed the texture, so to reduce, and the poly count is
+
+716
+00:58:44.052 --> 00:58:45.012
+okay right here.
+
+717
+00:58:46.422 --> 00:58:46.753
+Mm-hmm.
+
+718
+00:58:47.202 --> 00:58:49.182
+Or should I make it less?
+
+719
+00:58:50.202 --> 00:58:56.172
+No, but I see that you have a quad topology, not a mesh
+
+720
+00:58:57.312 --> 00:58:58.482
+triangular topology.
+
+721
+00:58:59.922 --> 00:59:00.942
+Sorry, what should I do?
+
+722
+00:59:01.663 --> 00:59:06.342
+Now you have the triangle selected, but in this model, you did not have the...
+
+723
+00:59:06.732 --> 00:59:07.812
+Can I show you my screen,
+
+724
+00:59:09.222 --> 00:59:09.702
+Luiza?
+
+725
+00:59:10.392 --> 00:59:10.633
+Mm-hmm.
+
+726
+00:59:11.623 --> 00:59:11.832
+Okay.
+
+727
+00:59:18.192 --> 00:59:23.292
+So this, as you see, says quad here. It is a quad topology.
+
+728
+00:59:25.452 --> 00:59:29.532
+Oh, not triangle. Okay. Not really the same, but I will try to find it. Uh-huh.
+
+729
+00:59:29.623 --> 00:59:32.472
+Okay, so with quad, it's possible to export, right?
+
+730
+00:59:32.652 --> 00:59:37.242
+It's not possible to export STL. As you see, it doesn't allow me to export
+
+731
+00:59:41.862 --> 00:59:42.762
+STL with quad.
+
+732
+00:59:43.512 --> 00:59:43.692
+Mm-hmm.
+
+733
+00:59:44.682 --> 00:59:50.142
+So what you need to do is you need to regenerate your model, but using the triangle
+
+734
+00:59:50.202 --> 00:59:52.692
+topology rather than the quad topology.
+
+735
+00:59:53.262 --> 00:59:53.592
+Okay.
+
+736
+00:59:55.962 --> 01:00:01.902
+Do that, and after you select quad or triangle, you need to
+
+737
+01:00:02.172 --> 01:00:04.003
+hit Generate again.
+
+738
+01:00:05.082 --> 01:00:08.322
+And is there a way to export it?
+
+739
+01:00:10.422 --> 01:00:12.822
+After you generate the model-
+
+740
+01:00:13.572 --> 01:00:13.782
+Mm-hmm
+
+741
+01:00:13.782 --> 01:00:19.542
+... with triangle topology, then it will allow you to export it as an
+
+742
+01:00:19.722 --> 01:00:20.082
+STL.
+
+743
+01:00:24.133 --> 01:00:24.702
+Mm-hmm.
+
+744
+01:00:28.482 --> 01:00:31.482
+Share your screen again so that I can follow along.
+
+745
+01:00:32.292 --> 01:00:37.812
+Yes. Mine actually was a triangle, and it was already in a
+
+746
+01:00:37.842 --> 01:00:38.892
+triangle in Cura,
+
+747
+01:00:40.242 --> 01:00:40.873
+and
+
+748
+01:00:42.672 --> 01:00:47.262
+H 2.5, as you said. And I removed the texture.
+
+749
+01:00:49.722 --> 01:00:52.482
+And poly count is very low now. Is it okay?
+
+750
+01:00:52.692 --> 01:00:53.442
+Or, I mean-
+
+751
+01:00:53.682 --> 01:00:56.472
+Let's see. I don't think that that would have an effect on the-
+
+752
+01:00:57.402 --> 01:00:57.792
+Okay.
+
+753
+01:01:21.253 --> 01:01:25.302
+Maybe I can stop share. I mean, it's just because I don't want to take a lot of
+
+754
+01:01:25.392 --> 01:01:29.952
+time. I mean, at the beginning, it was already triangular, so
+
+755
+01:01:31.152 --> 01:01:35.442
+I don't know why it didn't allow. So maybe I can stop now, you can continue, and
+
+756
+01:01:35.472 --> 01:01:35.892
+then it's
+
+757
+01:01:37.362 --> 01:01:39.282
+generated. I can share again.
+
+758
+01:01:41.742 --> 01:01:43.542
+Okay. Because you want to-
+
+759
+01:01:45.432 --> 01:01:48.492
+Oh. Now try to export it. It's here now.
+
+760
+01:01:50.503 --> 01:01:53.652
+Mm-hmm. Wait, I don't like things.
+
+761
+01:01:55.663 --> 01:02:01.332
+Export is the purple button here.
+
+762
+01:02:02.353 --> 01:02:03.012
+Oh, sorry.
+
+763
+01:02:03.133 --> 01:02:04.062
+Here.
+
+764
+01:02:04.603 --> 01:02:06.192
+Now I see. Mm-hmm.
+
+765
+01:02:14.052 --> 01:02:17.142
+Oh, it's good. So probably it was because it had
+
+766
+01:02:18.492 --> 01:02:20.022
+grids. Yeah, that's why. Okay.
+
+767
+01:02:20.982 --> 01:02:24.913
+It was a quad model probably. Can you go back to the previous one?
+
+768
+01:02:25.482 --> 01:02:26.862
+The one that you showed me that was a-
+
+769
+01:02:28.722 --> 01:02:30.163
+It's probably this one.
+
+770
+01:02:32.562 --> 01:02:32.862
+This. Mm-hmm.
+
+771
+01:02:32.892 --> 01:02:35.952
+Yes. Look here. Do you
+
+772
+01:02:37.332 --> 01:02:39.432
+see? It says the topology was quad.
+
+773
+01:02:40.542 --> 01:02:41.592
+Oh, okay.
+
+774
+01:02:42.042 --> 01:02:42.853
+Okay?
+
+775
+01:02:42.942 --> 01:02:44.442
+Okay. Thank you so much.
+
+776
+01:02:45.253 --> 01:02:45.792
+No problem.
+
+777
+01:02:50.112 --> 01:02:51.552
+Okay, any more questions?
+
+778
+01:03:02.413 --> 01:03:04.362
+So now we can 3D print it directly?
+
+779
+01:03:08.292 --> 01:03:13.753
+I mean, yes, maybe. You need to take it to your slicer software.
+
+780
+01:03:14.383 --> 01:03:19.512
+Fusion... Sorry. PrusaSlicers are quite good at mending the
+
+781
+01:03:21.462 --> 01:03:27.312
+gaps, so it should not be a problem, but for our
+
+782
+01:03:27.402 --> 01:03:29.262
+own sake, I don't know.
+
+783
+01:03:29.322 --> 01:03:34.242
+It's also that if it is very heavy, you can make it very light in Blender.
+
+784
+01:03:35.082 --> 01:03:35.383
+Yes.
+
+785
+01:03:36.883 --> 01:03:37.003
+Mm.
+
+786
+01:03:41.472 --> 01:03:42.762
+So for now...
+
+787
+01:03:44.562 --> 01:03:44.892
+Oh.
+
+788
+01:03:46.422 --> 01:03:48.792
+Singer, your model came out quite nice.
+
+789
+01:03:51.163 --> 01:03:51.462
+Okay.
+
+790
+01:03:52.152 --> 01:03:53.952
+Yeah. So anyway.
+
+791
+01:03:55.362 --> 01:04:01.302
+Janek, do you want to share your screen so that we can go over it together
+
+792
+01:04:01.362 --> 01:04:01.663
+maybe?
+
+793
+01:04:04.767 --> 01:04:05.788
+Okay, I'll try it.
+
+794
+01:04:07.197 --> 01:04:07.467
+I'm
+
+795
+01:04:08.907 --> 01:04:11.427
+just working across two screens. Bear with me.
+
+796
+01:04:12.447 --> 01:04:12.867
+No problem.
+
+797
+01:04:35.277 --> 01:04:37.347
+Can you see my screen now?
+
+798
+01:04:41.128 --> 01:04:45.777
+Yes, but I don't see the... Oh, I see the image.
+
+799
+01:04:45.837 --> 01:04:48.987
+And it's dim light. That's the second image I've tried.
+
+800
+01:04:52.137 --> 01:04:54.027
+Which image is it? The
+
+801
+01:04:57.057 --> 01:04:57.687
+running woman?
+
+802
+01:04:58.167 --> 01:05:02.248
+Yeah, it's the running woman. The previous one was just a Spanish dancer in a red
+
+803
+01:05:02.337 --> 01:05:02.817
+outfit.
+
+804
+01:05:04.288 --> 01:05:08.457
+I thought maybe there were too many flounces of material, so I just tried a running
+
+805
+01:05:08.517 --> 01:05:08.907
+image.
+
+806
+01:05:09.237 --> 01:05:10.347
+Well, still, I
+
+807
+01:05:12.297 --> 01:05:14.817
+think a masked image which has a
+
+808
+01:05:16.197 --> 01:05:17.998
+simple background would work better.
+
+809
+01:05:18.597 --> 01:05:18.807
+Okay.
+
+810
+01:05:18.957 --> 01:05:24.597
+I think here it is having a hard time differentiating what is in the
+
+811
+01:05:24.657 --> 01:05:27.897
+front and what's in the back. That could be the reason.
+
+812
+01:05:28.557 --> 01:05:28.797
+Okay.
+
+813
+01:05:29.457 --> 01:05:31.917
+Yeah, so simple backgrounds work better.
+
+814
+01:05:32.758 --> 01:05:34.527
+Okay. I'll give it another go. Thank you.
+
+815
+01:05:34.647 --> 01:05:35.517
+Yeah, you're welcome.
+
+816
+01:05:45.597 --> 01:05:47.817
+I also wanted to... Noel, yeah?
+
+817
+01:05:48.297 --> 01:05:48.357
+Yep.
+
+818
+01:05:50.607 --> 01:05:51.207
+Yeah. Hi.
+
+819
+01:05:51.837 --> 01:05:52.258
+Hi.
+
+820
+01:05:52.978 --> 01:05:55.827
+I generated the .STL file,
+
+821
+01:05:57.237 --> 01:06:03.177
+and I opened it in other software called Free CAD, and I could see
+
+822
+01:06:03.237 --> 01:06:08.577
+the 3D model. So just a question, can I
+
+823
+01:06:09.478 --> 01:06:11.187
+use this model for a 3D printing?
+
+824
+01:06:12.597 --> 01:06:12.807
+Yeah.
+
+825
+01:06:14.667 --> 01:06:14.907
+Okay.
+
+826
+01:06:17.337 --> 01:06:21.807
+Check the sizes, though, because they are quite tiny.
+
+827
+01:06:21.867 --> 01:06:25.407
+It uses one unit as height, and one unit in
+
+828
+01:06:30.538 --> 01:06:35.248
+3D printing software usually uses millimeters as units in this side of the world,
+
+829
+01:06:35.637 --> 01:06:38.277
+which means that it comes as one millimeter high.
+
+830
+01:06:38.667 --> 01:06:40.707
+So you need to resize your models.
+
+831
+01:06:42.117 --> 01:06:46.498
+Okay. I'm new to the 3D model and 3D printing.
+
+832
+01:06:46.947 --> 01:06:48.597
+So I'm just figuring out.
+
+833
+01:06:48.897 --> 01:06:49.557
+Yeah.
+
+834
+01:06:50.878 --> 01:06:51.117
+Thank you.
+
+835
+01:06:51.177 --> 01:06:54.508
+Yes, no problem. Just sizing will be an issue.
+
+836
+01:06:55.797 --> 01:06:56.667
+Sure. Yeah.
+
+837
+01:06:58.047 --> 01:07:03.927
+Yes. I would also like to share that currently
+
+838
+01:07:04.378 --> 01:07:09.927
+there is a competition on Tripo. I
+
+839
+01:07:11.487 --> 01:07:15.567
+have put it in the chat. It is called the Tripathon.
+
+840
+01:07:16.917 --> 01:07:22.197
+And it is open already, and until the
+
+841
+01:07:22.437 --> 01:07:23.607
+October 5th,
+
+842
+01:07:24.807 --> 01:07:30.777
+you can submit your projects. And it is
+
+843
+01:07:30.927 --> 01:07:36.508
+also having some tour open demo days,
+
+844
+01:07:36.807 --> 01:07:42.567
+and I will put the locations. I think in Barcelona,
+
+845
+01:07:43.467 --> 01:07:44.998
+it's on the
+
+846
+01:07:46.467 --> 01:07:48.147
+17th of October
+
+847
+01:07:49.467 --> 01:07:50.457
+in Barcelona.
+
+848
+01:07:52.767 --> 01:07:54.687
+So if you are
+
+849
+01:07:56.038 --> 01:08:01.378
+fascinated now with Tripo, you can
+
+850
+01:08:01.407 --> 01:08:07.288
+participate in the competition. And I will be jury, so
+
+851
+01:08:07.797 --> 01:08:09.027
+I can vote for you.
+
+852
+01:08:11.788 --> 01:08:12.147
+Yes.
+
+853
+01:08:13.437 --> 01:08:19.228
+So there is this Discord community, and the events, you can find them on the
+
+854
+01:08:19.288 --> 01:08:19.557
+link.
+
+855
+01:08:35.487 --> 01:08:36.748
+Online participation.
+
+856
+01:08:44.667 --> 01:08:47.847
+Sorry, can I ask a question about the competition?
+
+857
+01:08:49.468 --> 01:08:54.508
+I don't really understand. I saw the link, but I don't really understand what's the
+
+858
+01:08:54.538 --> 01:08:56.968
+project about. What do we have to submit?
+
+859
+01:08:58.288 --> 01:09:00.508
+Your creations. Anything.
+
+860
+01:09:01.498 --> 01:09:01.857
+Anything?
+
+861
+01:09:02.487 --> 01:09:04.737
+The craziest things. You don't have a brief.
+
+862
+01:09:04.857 --> 01:09:10.767
+It's the use of the tool for being able to make an
+
+863
+01:09:10.917 --> 01:09:13.017
+STL 3D mesh model, no?
+
+864
+01:09:14.517 --> 01:09:16.587
+I think if you look at the
+
+865
+01:09:18.117 --> 01:09:23.487
+Tripo landing page, the homepage, there's a lot of examples there
+
+866
+01:09:23.878 --> 01:09:28.197
+to sort of fuel your imagination. But people are doing a lot of different things
+
+867
+01:09:28.258 --> 01:09:28.527
+with it.
+
+868
+01:09:30.147 --> 01:09:32.038
+But that's on the landing page?
+
+869
+01:09:32.847 --> 01:09:34.167
+Yeah, on the webpage.
+
+870
+01:09:34.978 --> 01:09:35.248
+Okay.
+
+871
+01:09:35.697 --> 01:09:39.508
+Just scroll down. There's tons of examples that people have done.
+
+872
+01:09:42.417 --> 01:09:42.807
+Okay.
+
+873
+01:09:48.208 --> 01:09:52.258
+I also have a question regarding the generated model.
+
+874
+01:09:53.458 --> 01:09:53.788
+Yeah.
+
+875
+01:09:54.297 --> 01:10:00.027
+I tried to download it, but I don't know which
+
+876
+01:10:00.057 --> 01:10:05.787
+format should I download it with, because the downloaded normal version is
+
+877
+01:10:05.968 --> 01:10:08.787
+paid, so I don't know how you guys are downloading it.
+
+878
+01:10:09.897 --> 01:10:10.107
+So
+
+879
+01:10:12.567 --> 01:10:12.927
+while
+
+880
+01:10:15.297 --> 01:10:16.347
+generating the model-
+
+881
+01:10:17.277 --> 01:10:18.807
+Mm-hmm
+
+882
+01:10:18.807 --> 01:10:18.807
+...
+
+883
+01:10:21.357 --> 01:10:27.327
+while generating the model, you need to go down here on the left-hand side and
+
+884
+01:10:27.417 --> 01:10:27.927
+select
+
+885
+01:10:29.877 --> 01:10:32.218
+H 2.5 Legacy.
+
+886
+01:10:32.937 --> 01:10:35.397
+Oh, let me see if I find it.
+
+887
+01:10:35.427 --> 01:10:35.758
+Yeah.
+
+888
+01:10:46.077 --> 01:10:52.047
+Because by default, it comes with H 3.1, and with the free version,
+
+889
+01:10:52.258 --> 01:10:55.137
+you're not allowed to download an STL file.
+
+890
+01:10:56.337 --> 01:10:56.817
+Okay.
+
+891
+01:10:57.687 --> 01:11:01.258
+So you need to select the legacy model.
+
+892
+01:11:19.647 --> 01:11:24.478
+I think I lost my generated model. I don't know where it is now.
+
+893
+01:11:25.077 --> 01:11:29.218
+Well, you're going to regenerate the model again, so it doesn't matter.
+
+894
+01:11:30.147 --> 01:11:30.567
+Okay.
+
+895
+01:11:31.047 --> 01:11:36.867
+Because you need to regenerate it from an image again using this model, this AI
+
+896
+01:11:36.897 --> 01:11:40.317
+model. Not this 3D model. I'm talking about this AI model.
+
+897
+01:11:43.017 --> 01:11:43.407
+So I...
+
+898
+01:11:47.997 --> 01:11:52.317
+So upload an image again. Make sure that you have the texture of
+
+899
+01:11:53.637 --> 01:11:58.107
+triangle topology and any polygons that you want.
+
+900
+01:11:59.218 --> 01:11:59.218
+Okay.
+
+901
+01:11:59.247 --> 01:12:01.107
+And then scroll down
+
+902
+01:12:02.758 --> 01:12:06.387
+and select H 2.5 Legacy
+
+903
+01:12:08.487 --> 01:12:09.478
+under AI model,
+
+904
+01:12:11.218 --> 01:12:12.537
+and then hit Generate.
+
+905
+01:12:14.758 --> 01:12:15.687
+So I click...
+
+906
+01:12:20.667 --> 01:12:22.228
+Could you share your screen again?
+
+907
+01:12:22.228 --> 01:12:28.077
+Yeah. Okay. Because I think I lost the other model that I created, or
+
+908
+01:12:28.137 --> 01:12:29.037
+no. Okay.
+
+909
+01:12:29.367 --> 01:12:30.267
+Yeah. You know why?
+
+910
+01:12:32.008 --> 01:12:37.197
+Because the model was generated with a 3.0.
+
+911
+01:12:37.228 --> 01:12:37.647
+Yeah.
+
+912
+01:12:38.157 --> 01:12:42.447
+So when you choose the 2.5, it needs to regenerate again.
+
+913
+01:12:42.867 --> 01:12:43.107
+Mm-hmm.
+
+914
+01:12:46.437 --> 01:12:47.337
+Can you share it? Yeah.
+
+915
+01:12:48.177 --> 01:12:48.837
+It's shared.
+
+916
+01:12:50.487 --> 01:12:51.718
+Are we seeing this? I don't know.
+
+917
+01:12:56.397 --> 01:12:57.447
+Can you see the-
+
+918
+01:12:57.627 --> 01:12:58.287
+Yes, we can see.
+
+919
+01:12:59.008 --> 01:13:03.027
+Okay. So, okay, I think I was going here.
+
+920
+01:13:03.987 --> 01:13:04.887
+Yeah, upload.
+
+921
+01:13:05.997 --> 01:13:06.207
+Here?
+
+922
+01:13:06.747 --> 01:13:06.897
+Yeah.
+
+923
+01:13:06.957 --> 01:13:07.557
+But are you using-
+
+924
+01:13:07.557 --> 01:13:10.647
+But before you upload, choose the 2.5
+
+925
+01:13:14.109 --> 01:13:17.620
+Or as soon as you upload, choose the 2.5.
+
+926
+01:13:19.269 --> 01:13:20.559
+So I have to upload it first?
+
+927
+01:13:22.569 --> 01:13:23.889
+Upload the image first.
+
+928
+01:13:24.219 --> 01:13:24.549
+Okay.
+
+929
+01:13:26.109 --> 01:13:27.339
+Are you using Tripo?
+
+930
+01:13:29.079 --> 01:13:29.679
+Uh...
+
+931
+01:13:29.829 --> 01:13:31.599
+You're using Prism 3.1.
+
+932
+01:13:32.289 --> 01:13:35.469
+Yeah, it's the other one. Tripo is here, you see?
+
+933
+01:13:35.679 --> 01:13:35.979
+Mm-hmm.
+
+934
+01:13:36.729 --> 01:13:36.910
+Here.
+
+935
+01:13:37.179 --> 01:13:38.709
+No, wait. Sorry.
+
+936
+01:13:42.309 --> 01:13:48.160
+Oh, Tripo, guys. Sorry. Tripo here. Okay. Upload? Right.
+
+937
+01:13:48.429 --> 01:13:48.699
+Okay.
+
+938
+01:13:53.679 --> 01:13:55.120
+I'm just going to try this one.
+
+939
+01:14:03.999 --> 01:14:04.389
+So
+
+940
+01:14:09.039 --> 01:14:13.389
+where do I click it now? I just generate it first, or do I have to click somewhere?
+
+941
+01:14:17.229 --> 01:14:17.379
+Well,
+
+942
+01:14:19.599 --> 01:14:22.989
+I don't know. I've never used this interface, so-
+
+943
+01:14:23.439 --> 01:14:23.919
+Go up.
+
+944
+01:14:24.039 --> 01:14:24.639
+I'll just-
+
+945
+01:14:25.599 --> 01:14:26.919
+Go a little bit. Scroll up.
+
+946
+01:14:29.499 --> 01:14:33.009
+It's like P2. Can you click All Models or
+
+947
+01:14:35.229 --> 01:14:37.660
+what it says there, yeah, Game Ready?
+
+948
+01:14:43.629 --> 01:14:44.319
+Yeah. No.
+
+949
+01:14:45.579 --> 01:14:45.759
+Which?
+
+950
+01:14:45.789 --> 01:14:48.129
+No, it's the correct one.
+
+951
+01:14:49.599 --> 01:14:49.839
+Yeah.
+
+952
+01:14:50.978 --> 01:14:51.608
+It's this one?
+
+953
+01:14:52.539 --> 01:14:55.449
+But it says Native Quad Output, so it's not this one.
+
+954
+01:14:55.449 --> 01:14:55.509
+No. Go to-
+
+955
+01:14:55.509 --> 01:15:00.279
+You're using from the studio.tripo.3d.
+
+956
+01:15:00.699 --> 01:15:00.729
+Okay.
+
+957
+01:15:00.759 --> 01:15:05.169
+I think you're using Git linked to another LLM model.
+
+958
+01:15:05.979 --> 01:15:07.149
+Oh, I'm using the wrong link?
+
+959
+01:15:09.879 --> 01:15:12.189
+It is your account in Tripo?
+
+960
+01:15:12.999 --> 01:15:13.479
+Hmm.
+
+961
+01:15:15.039 --> 01:15:19.269
+I don't know, I just clicked the link from the conversation here. I just...
+
+962
+01:15:20.529 --> 01:15:20.739
+I don't know.
+
+963
+01:15:20.739 --> 01:15:21.160
+Weird.
+
+964
+01:15:22.149 --> 01:15:25.989
+No. I don't know. So it's just a different Tripo?
+
+965
+01:15:27.429 --> 01:15:27.939
+I don't know.
+
+966
+01:15:32.289 --> 01:15:34.749
+Did you click this link?
+
+967
+01:15:35.769 --> 01:15:37.989
+Can you send the link again so I-
+
+968
+01:15:38.079 --> 01:15:38.169
+Yeah
+
+969
+01:15:38.439 --> 01:15:40.149
+... make sure it's the right one?
+
+970
+01:15:41.259 --> 01:15:45.339
+Because it seems that you downloaded something that has many different models.
+
+971
+01:15:45.729 --> 01:15:45.879
+Yeah.
+
+972
+01:15:47.169 --> 01:15:48.489
+Oh, I don't know.
+
+973
+01:15:48.549 --> 01:15:50.799
+We would like actually to know what it is.
+
+974
+01:15:52.389 --> 01:15:52.660
+I don't know.
+
+975
+01:15:55.959 --> 01:15:56.620
+What is the name?
+
+976
+01:15:57.639 --> 01:15:59.979
+It's the website.
+
+977
+01:16:00.519 --> 01:16:01.689
+Oh, I don't know. It's this one.
+
+978
+01:16:02.919 --> 01:16:03.459
+I don't know.
+
+979
+01:16:05.889 --> 01:16:08.709
+But okay, I'm going here now. Okay.
+
+980
+01:16:10.089 --> 01:16:10.509
+Mm-hmm.
+
+981
+01:16:12.459 --> 01:16:14.109
+So I have to log in first, right?
+
+982
+01:16:16.029 --> 01:16:16.269
+Yes.
+
+983
+01:16:17.019 --> 01:16:17.199
+Okay.
+
+984
+01:16:20.229 --> 01:16:22.839
+Well, we don't see your screen, but we don't need to see it.
+
+985
+01:16:23.229 --> 01:16:24.939
+We see the previous screen.
+
+986
+01:16:25.479 --> 01:16:26.769
+Oh, you see the previous screen?
+
+987
+01:16:26.919 --> 01:16:30.729
+Yeah. We don't need to see your screen while you're making it.
+
+988
+01:16:31.689 --> 01:16:33.609
+Yes, you can explore STL.
+
+989
+01:16:34.299 --> 01:16:34.629
+Mm-hmm.
+
+990
+01:16:34.929 --> 01:16:40.899
+Okay. This gives me a lot of options to do. I click in the 3D impression, right?
+
+991
+01:16:45.039 --> 01:16:45.219
+No.
+
+992
+01:16:46.149 --> 01:16:46.929
+3D impression?
+
+993
+01:16:50.799 --> 01:16:54.189
+Yeah. Let me see if I can
+
+994
+01:16:56.169 --> 01:16:56.469
+share
+
+995
+01:16:59.529 --> 01:17:00.519
+what I'm doing.
+
+996
+01:17:10.539 --> 01:17:12.579
+Are you seeing this? I'm here.
+
+997
+01:17:14.529 --> 01:17:15.579
+Yeah, you need to-
+
+998
+01:17:17.079 --> 01:17:17.949
+I'm still here
+
+999
+01:17:17.949 --> 01:17:21.999
+... click out of this box, somewhere outside of this box.
+
+1000
+01:17:22.959 --> 01:17:25.719
+But it just went here. I don't know.
+
+1001
+01:17:26.829 --> 01:17:27.729
+Okay. Click on
+
+1002
+01:17:28.929 --> 01:17:29.949
+3D printer.
+
+1003
+01:17:30.309 --> 01:17:33.489
+I think it... Yeah, there you go. At this stage, it's asking you what kind of
+
+1004
+01:17:33.549 --> 01:17:34.479
+designing you want to do.
+
+1005
+01:17:34.629 --> 01:17:34.839
+Yeah.
+
+1006
+01:17:35.439 --> 01:17:35.679
+And
+
+1007
+01:17:37.599 --> 01:17:39.819
+functional objects. Yeah, functional objects.
+
+1008
+01:17:39.849 --> 01:17:41.049
+Like this or no?
+
+1009
+01:17:42.939 --> 01:17:44.589
+Select anything. It doesn't matter.
+
+1010
+01:17:45.189 --> 01:17:46.120
+Okay. It doesn't matter.
+
+1011
+01:17:49.479 --> 01:17:49.719
+Yes.
+
+1012
+01:17:52.539 --> 01:17:54.639
+So I'm just going to click Create a Start.
+
+1013
+01:17:55.779 --> 01:18:01.719
+And then Espacio 3D. Select that one on the left upper corner.
+
+1014
+01:18:01.809 --> 01:18:01.929
+Oh.
+
+1015
+01:18:02.229 --> 01:18:04.029
+Next to Tripo. Yeah. No.
+
+1016
+01:18:04.299 --> 01:18:04.749
+Model?
+
+1017
+01:18:06.879 --> 01:18:09.219
+Yeah. Now you're in the same screen as us.
+
+1018
+01:18:09.669 --> 01:18:09.849
+Oh.
+
+1019
+01:18:12.339 --> 01:18:12.910
+Great.
+
+1020
+01:18:13.029 --> 01:18:16.839
+Okay. Now I just generate it, or I click somewhere first?
+
+1021
+01:18:18.279 --> 01:18:22.269
+First, you need to upload your image, and then, yes.
+
+1022
+01:18:23.379 --> 01:18:25.509
+You see, now you have the legacy model.
+
+1023
+01:18:25.569 --> 01:18:25.809
+Okay.
+
+1024
+01:18:26.169 --> 01:18:26.979
+You were able to.
+
+1025
+01:18:27.519 --> 01:18:29.259
+Gemini.
+
+1026
+01:18:29.349 --> 01:18:32.319
+But shall we continue while you're trying this out?
+
+1027
+01:18:32.349 --> 01:18:34.089
+Yeah. Thank you. Sorry. Thank you.
+
+1028
+01:18:34.599 --> 01:18:35.620
+You're welcome. No problem.
+
+1029
+01:18:36.969 --> 01:18:40.359
+I don't mind if I'm still sharing the screen if it's okay.
+
+1030
+01:18:40.749 --> 01:18:41.139
+It's okay.
+
+1031
+01:18:42.879 --> 01:18:47.709
+I just wanted to also say something regarding the images.
+
+1032
+01:18:49.809 --> 01:18:55.449
+I shared in the chat at some point how the model works, how the LLM
+
+1033
+01:18:55.839 --> 01:19:00.609
+generates the file, and you will see that there are two ways.
+
+1034
+01:19:01.479 --> 01:19:07.389
+That the one, basically it creates different views
+
+1035
+01:19:08.829 --> 01:19:14.410
+of the picture, and then it composes them to a 3D model or the
+
+1036
+01:19:14.439 --> 01:19:17.410
+diffusion. There are two different algorithms, basically.
+
+1037
+01:19:17.679 --> 01:19:21.429
+Or the other one is that it makes noise and then it de-noises.
+
+1038
+01:19:22.089 --> 01:19:27.819
+So this means that if you want to make something more precise, it
+
+1039
+01:19:27.999 --> 01:19:33.099
+is better if you have input more pictures.
+
+1040
+01:19:33.339 --> 01:19:38.889
+Like if you put the top, the side, the front, and the back.
+
+1041
+01:19:40.179 --> 01:19:42.039
+But this kind of
+
+1042
+01:19:43.749 --> 01:19:48.699
+calculation, it has this problem that you see many times that you have many
+
+1043
+01:19:48.789 --> 01:19:50.019
+fingers, for example.
+
+1044
+01:19:51.819 --> 01:19:53.289
+This is called the Janus problem.
+
+1045
+01:19:54.910 --> 01:20:00.789
+But it's always better because the LLM works like that, that if you already want to
+
+1046
+01:20:00.819 --> 01:20:05.559
+do a technical design, you provide the different views. That's a parenthesis.
+
+1047
+01:20:05.649 --> 01:20:06.549
+Sorry, Asli.
+
+1048
+01:20:07.149 --> 01:20:12.549
+No problem. But it's also not allowed in the free tier that you cannot input
+
+1049
+01:20:12.639 --> 01:20:15.489
+multi-view. So at this point, it's not
+
+1050
+01:20:16.809 --> 01:20:22.149
+possible for us, but it's good to know that if you want more precision and you
+
+1051
+01:20:22.749 --> 01:20:23.229
+want to
+
+1052
+01:20:24.429 --> 01:20:30.249
+give the input of what's happening at the back and on the sides precisely, and not
+
+1053
+01:20:30.339 --> 01:20:36.219
+let the Tripo or any other 3D model generator imagine it
+
+1054
+01:20:36.309 --> 01:20:40.299
+itself, then you need to give different views so that you are more in control of
+
+1055
+01:20:40.359 --> 01:20:44.799
+what's happening all around the object, 360. That's true.
+
+1056
+01:20:45.669 --> 01:20:47.889
+So let's continue with
+
+1057
+01:20:50.709 --> 01:20:53.049
+Blender a little bit. So
+
+1058
+01:20:55.299 --> 01:21:00.099
+do all of you have a sort of STL file that they can work with?
+
+1059
+01:21:02.109 --> 01:21:02.589
+Great.
+
+1060
+01:21:04.149 --> 01:21:06.219
+Shall we take a break first, bio break first?
+
+1061
+01:21:07.569 --> 01:21:08.559
+I think, and then-
+
+1062
+01:21:09.129 --> 01:21:11.499
+Musical bio break, five minutes.
+
+1063
+01:30:50.454 --> 01:30:56.004
+Before we start again, Maki has a question again about STL file
+
+1064
+01:30:56.035 --> 01:30:56.574
+export.
+
+1065
+01:30:59.064 --> 01:31:04.974
+You need to choose legacy, as Anastasiia put there, before you generate your
+
+1066
+01:31:05.035 --> 01:31:09.174
+model. And if you go to the Miro board, you can see
+
+1067
+01:31:12.354 --> 01:31:17.995
+how you can do it. So you need to do this before you generate the model again.
+
+1068
+01:31:18.114 --> 01:31:23.364
+So you upload your image, and then you choose the Legacy 2.5,
+
+1069
+01:31:24.054 --> 01:31:25.554
+and then generate the model.
+
+1070
+01:31:26.634 --> 01:31:27.594
+Yes. Hello.
+
+1071
+01:31:28.224 --> 01:31:28.554
+Yeah.
+
+1072
+01:31:28.704 --> 01:31:32.245
+I chose Legacy 2.5 and it made it.
+
+1073
+01:31:33.144 --> 01:31:33.414
+Mm-hmm.
+
+1074
+01:31:33.444 --> 01:31:35.664
+And then I tried to export
+
+1075
+01:31:36.864 --> 01:31:37.074
+it.
+
+1076
+01:31:37.674 --> 01:31:37.944
+Mm-hmm.
+
+1077
+01:31:38.424 --> 01:31:41.754
+And I tried to choose send to Blender.
+
+1078
+01:31:43.038 --> 01:31:44.898
+Not send to Blender. You need to-
+
+1079
+01:31:44.988 --> 01:31:46.008
+Oh, okay. Just export?
+
+1080
+01:31:46.728 --> 01:31:47.478
+Yeah, export.
+
+1081
+01:31:48.049 --> 01:31:48.378
+Oh, okay.
+
+1082
+01:31:48.647 --> 01:31:50.148
+Choose STL and export.
+
+1083
+01:31:50.959 --> 01:31:53.868
+And the texture resolution is 4K is fine?
+
+1084
+01:31:56.808 --> 01:31:57.888
+Right. The-
+
+1085
+01:31:58.758 --> 01:31:58.938
+4K.
+
+1086
+01:31:58.998 --> 01:32:00.078
+There is several-
+
+1087
+01:32:00.078 --> 01:32:00.168
+Texture.
+
+1088
+01:32:00.228 --> 01:32:01.549
+Yeah, there is several
+
+1089
+01:32:03.558 --> 01:32:06.108
+selections for texture resolution.
+
+1090
+01:32:06.498 --> 01:32:06.588
+So-
+
+1091
+01:32:06.647 --> 01:32:08.959
+But we are not using texture because-
+
+1092
+01:32:08.988 --> 01:32:09.049
+Okay
+
+1093
+01:32:09.049 --> 01:32:12.528
+... we're going to fabricate it. Well, if you want to use texture, then you use
+
+1094
+01:32:12.588 --> 01:32:15.498
+more tokens, then you have the image-
+
+1095
+01:32:15.618 --> 01:32:15.948
+Okay. So just-
+
+1096
+01:32:15.948 --> 01:32:16.818
+... wrapped around
+
+1097
+01:32:17.178 --> 01:32:18.198
+... push the import.
+
+1098
+01:32:19.338 --> 01:32:23.358
+Yeah, but if you download STL, the texture information will not come with it.
+
+1099
+01:32:24.378 --> 01:32:27.768
+Okay. Yeah, it's okay. So it doesn't matter.
+
+1100
+01:32:28.398 --> 01:32:28.488
+No.
+
+1101
+01:32:30.078 --> 01:32:32.358
+Okay. Thank you. I can try it.
+
+1102
+01:32:32.928 --> 01:32:33.018
+Yeah.
+
+1103
+01:32:34.698 --> 01:32:34.968
+Okay.
+
+1104
+01:32:36.408 --> 01:32:36.709
+So
+
+1105
+01:32:40.728 --> 01:32:41.598
+shall we start again?
+
+1106
+01:32:45.108 --> 01:32:46.188
+Then we will get
+
+1107
+01:32:47.628 --> 01:32:52.368
+back... Now we will go to Blender, because
+
+1108
+01:32:53.688 --> 01:32:56.538
+if you have a model, then we will see how we can
+
+1109
+01:32:58.818 --> 01:33:02.418
+prepare it and further modify it for
+
+1110
+01:33:07.158 --> 01:33:12.738
+fabrication. So here we have the Blender screen.
+
+1111
+01:33:14.988 --> 01:33:15.768
+I will first
+
+1112
+01:33:18.917 --> 01:33:20.058
+import one model.
+
+1113
+01:33:23.628 --> 01:33:29.598
+As I started with saying, the import model is one unit and it's in meters,
+
+1114
+01:33:29.868 --> 01:33:33.588
+so it will have an effect when we send it to the slicer
+
+1115
+01:33:36.258 --> 01:33:39.588
+for laser cutting. But for now, I will leave it as it is.
+
+1116
+01:33:44.478 --> 01:33:45.078
+And
+
+1117
+01:33:47.718 --> 01:33:52.428
+then we have our person in the center here.
+
+1118
+01:33:57.588 --> 01:34:03.318
+We need to have two add-ons to be able to prepare
+
+1119
+01:34:03.378 --> 01:34:03.678
+this
+
+1120
+01:34:05.178 --> 01:34:06.318
+model for
+
+1121
+01:34:07.728 --> 01:34:08.538
+fabrication.
+
+1122
+01:34:09.738 --> 01:34:14.058
+To be able to do that, we need to be able to add them, if we don't have them.
+
+1123
+01:34:14.718 --> 01:34:18.049
+We need to go to Preferences. I'm using a Mac.
+
+1124
+01:34:18.858 --> 01:34:19.608
+I don't know if
+
+1125
+01:34:24.138 --> 01:34:27.768
+places of the menus are different for Mac or Windows,
+
+1126
+01:34:29.328 --> 01:34:34.068
+but I have Mac only. And if you have used them, if you have downloaded the
+
+1127
+01:34:34.128 --> 01:34:37.549
+extensions before, you can go to Add-ons and select them.
+
+1128
+01:34:38.178 --> 01:34:44.118
+But if you haven't had them before, go to Get Extensions under Preferences and
+
+1129
+01:34:44.448 --> 01:34:46.098
+install these two
+
+1130
+01:34:48.558 --> 01:34:52.818
+extensions, add-ons. You can find them by
+
+1131
+01:34:54.049 --> 01:34:57.197
+searching here. One is 3D Print, blah, blah, blah.
+
+1132
+01:34:58.459 --> 01:35:00.288
+If you search it, you can install it.
+
+1133
+01:35:01.459 --> 01:35:07.128
+Since I have it, it doesn't show the install box here, install button here, but
+
+1134
+01:35:09.348 --> 01:35:14.748
+you need to install it by clicking on it or, and also the Bool Tool,
+
+1135
+01:35:15.228 --> 01:35:18.558
+which will allow us to make boolean operations on the object.
+
+1136
+01:35:18.948 --> 01:35:23.358
+And the third one will make sure that we have manifold geometry, which means a
+
+1137
+01:35:23.418 --> 01:35:25.218
+watertight geometry for-
+
+1138
+01:35:25.459 --> 01:35:25.758
+Sorry.
+
+1139
+01:35:26.448 --> 01:35:26.688
+Yep.
+
+1140
+01:35:27.018 --> 01:35:30.049
+We can't see your preferences screen there.
+
+1141
+01:35:30.888 --> 01:35:32.508
+You don't? Oh, thank you for-
+
+1142
+01:35:33.108 --> 01:35:33.108
+No.
+
+1143
+01:35:33.138 --> 01:35:34.938
+Okay. Then I will share my full screen.
+
+1144
+01:35:39.468 --> 01:35:43.038
+Okay. Yeah. Thank you for letting me know.
+
+1145
+01:35:43.549 --> 01:35:44.268
+As I said, it's
+
+1146
+01:35:45.498 --> 01:35:50.628
+really hard when you don't see what others see. I will share my entire screen.
+
+1147
+01:35:50.778 --> 01:35:53.418
+Bear with me for a second. Now we are in the right screen.
+
+1148
+01:35:53.718 --> 01:35:59.358
+So we will go to Preferences. Now do you see my preferences screen?
+
+1149
+01:36:01.549 --> 01:36:01.698
+Yeah.
+
+1150
+01:36:02.478 --> 01:36:05.628
+Okay, cool. You go to Get Extensions,
+
+1151
+01:36:09.018 --> 01:36:13.968
+and then under Get Extensions, you can type the name of the extensions that you
+
+1152
+01:36:13.998 --> 01:36:19.908
+want, and the extensions that we want are 3D Print Toolbox and Bool Tool.
+
+1153
+01:36:20.418 --> 01:36:22.368
+So if you start typing here, Bool Tool,
+
+1154
+01:36:23.778 --> 01:36:28.459
+they will appear under the available extensions, and you need to
+
+1155
+01:36:30.108 --> 01:36:33.768
+install them by clicking the install button next to Bool Tool,
+
+1156
+01:36:35.178 --> 01:36:38.568
+and then they will appear on the installed area
+
+1157
+01:36:39.978 --> 01:36:44.778
+or move to the installed area, and you need to do the same for 3D Print Toolbox.
+
+1158
+01:36:53.028 --> 01:36:57.648
+And after they are installed, you can go to
+
+1159
+01:36:59.238 --> 01:37:03.738
+Add-ons and make sure that they are clicked, which means that they are available as
+
+1160
+01:37:03.799 --> 01:37:05.478
+an add-on inside Blender.
+
+1161
+01:37:09.768 --> 01:37:10.128
+Then,
+
+1162
+01:37:17.538 --> 01:37:22.338
+we have our human here. Since we generated this guy
+
+1163
+01:37:23.808 --> 01:37:24.738
+or this person,
+
+1164
+01:37:26.448 --> 01:37:31.098
+you see that it does not have a flat base, and I might also want to...
+
+1165
+01:37:31.608 --> 01:37:34.878
+But I would like a flat base so that it stays a little bit
+
+1166
+01:37:37.518 --> 01:37:41.898
+vertical and I put it on the table after I fabricate it.
+
+1167
+01:37:42.018 --> 01:37:46.248
+So I would like to create a cut there. How do I do it?
+
+1168
+01:37:51.408 --> 01:37:51.438
+I
+
+1169
+01:37:52.848 --> 01:37:58.218
+add a mesh plane. Before I add it, maybe you can move the
+
+1170
+01:37:58.818 --> 01:38:03.858
+cursor to a location that you want to make a plane,
+
+1171
+01:38:04.788 --> 01:38:05.268
+and
+
+1172
+01:38:06.768 --> 01:38:11.628
+you can also change this location afterwards. But for now, I will put it here.
+
+1173
+01:38:12.078 --> 01:38:15.648
+It's actually where it is. Add Mesh and Plane Mesh.
+
+1174
+01:38:16.338 --> 01:38:17.778
+And after I generate it,
+
+1175
+01:38:20.328 --> 01:38:25.128
+you see that it is a little bit below, so I need to move it a little bit up so that
+
+1176
+01:38:25.188 --> 01:38:30.888
+it cuts through my object. These are the modifier tools here, so you can move,
+
+1177
+01:38:31.158 --> 01:38:32.478
+rotate, scale
+
+1178
+01:38:35.058 --> 01:38:40.818
+any kind of geometry you have. And we move it a little bit up so that
+
+1179
+01:38:41.358 --> 01:38:43.308
+I know that cuts through my object.
+
+1180
+01:38:45.858 --> 01:38:49.908
+And after I'm done with this... Now this is a plane.
+
+1181
+01:38:50.238 --> 01:38:52.218
+So a plane geometry is not solid,
+
+1182
+01:38:53.568 --> 01:38:59.209
+which means that I cannot do boolean operations with it, so that I cannot subtract
+
+1183
+01:38:59.299 --> 01:39:00.468
+or slice my model
+
+1184
+01:39:02.268 --> 01:39:08.209
+with this plane. So I need to make this a solid object, like my plane, like my
+
+1185
+01:39:10.338 --> 01:39:15.348
+model, human model. So here on the right-hand side,
+
+1186
+01:39:17.418 --> 01:39:18.018
+you will
+
+1187
+01:39:20.658 --> 01:39:20.988
+add...
+
+1188
+01:39:24.138 --> 01:39:24.588
+Sorry.
+
+1189
+01:39:26.358 --> 01:39:29.688
+Add Modifier, Generate, and Solidify.
+
+1190
+01:39:35.299 --> 01:39:36.528
+So when I add this,
+
+1191
+01:39:37.998 --> 01:39:38.928
+you will see that
+
+1192
+01:39:40.459 --> 01:39:41.148
+it is
+
+1193
+01:39:43.488 --> 01:39:44.778
+a little bit thicker now.
+
+1194
+01:39:46.728 --> 01:39:47.238
+And then
+
+1195
+01:39:49.308 --> 01:39:49.938
+I will hit
+
+1196
+01:39:51.738 --> 01:39:55.788
+Apply under this. So now I have this object.
+
+1197
+01:40:00.918 --> 01:40:01.188
+Okay.
+
+1198
+01:40:03.288 --> 01:40:08.898
+So this part, I know this could be a little bit too complicated,
+
+1199
+01:40:09.228 --> 01:40:14.628
+intricate, but this part, I also attached a YouTube tutorial
+
+1200
+01:40:15.888 --> 01:40:20.088
+in the Miro board. So if you cannot follow along right now, you can also do it
+
+1201
+01:40:20.178 --> 01:40:22.428
+afterwards, after this workshop.
+
+1202
+01:40:25.459 --> 01:40:31.098
+So we have this guy now and this solidified plane, which is a 3D
+
+1203
+01:40:31.158 --> 01:40:36.288
+box at the moment, and we are going to split this guy
+
+1204
+01:40:37.248 --> 01:40:39.588
+with this plane so that we have a flat base.
+
+1205
+01:40:40.218 --> 01:40:45.858
+We are going to click on the guy and then add another modifier.
+
+1206
+01:40:47.028 --> 01:40:52.518
+Because we added the boolean Bool Tool, now we are able to add a boolean
+
+1207
+01:40:53.209 --> 01:40:56.028
+operator on it, modifier
+
+1208
+01:40:57.360 --> 01:41:01.890
+So we add the Boolean modifier. You see the difference.
+
+1209
+01:41:02.010 --> 01:41:03.540
+We're going to take the difference of it.
+
+1210
+01:41:03.630 --> 01:41:03.810
+So
+
+1211
+01:41:07.140 --> 01:41:12.691
+and then the operant is my object, which is selected, and
+
+1212
+01:41:12.750 --> 01:41:18.120
+then now I'm going to click on the eyedropper tool and select this
+
+1213
+01:41:18.180 --> 01:41:18.780
+plane.
+
+1214
+01:41:23.160 --> 01:41:27.000
+And then you see the plane becomes the object now.
+
+1215
+01:41:28.080 --> 01:41:29.100
+And once I'm done,
+
+1216
+01:41:31.201 --> 01:41:33.330
+I will apply this.
+
+1217
+01:41:34.620 --> 01:41:37.500
+So it appears like nothing has happened
+
+1218
+01:41:38.760 --> 01:41:40.981
+because we still have this plane here.
+
+1219
+01:41:41.370 --> 01:41:46.800
+But if I delete this plane, and you can delete objects in Blender, if you select
+
+1220
+01:41:46.830 --> 01:41:52.800
+the object and hit X on your keyboard, you will have this pop-up open.
+
+1221
+01:41:53.370 --> 01:41:56.701
+Delete selected objects. Delete it, and it's deleted now.
+
+1222
+01:42:00.481 --> 01:42:04.170
+So you see there is a split now between the top and the bottom.
+
+1223
+01:42:08.160 --> 01:42:11.820
+But when I select the object, they are still together.
+
+1224
+01:42:14.010 --> 01:42:16.920
+So to be able to separate them, split them,
+
+1225
+01:42:19.650 --> 01:42:23.040
+after selecting my object, I will go to edit mode.
+
+1226
+01:42:24.930 --> 01:42:26.760
+You'll see something is happening here.
+
+1227
+01:42:27.300 --> 01:42:27.600
+When I
+
+1228
+01:42:29.250 --> 01:42:31.410
+press A on my keyboard,
+
+1229
+01:42:31.830 --> 01:42:37.531
+everything
+
+1230
+01:42:38.310 --> 01:42:42.691
+within the object is selected. And if I hit P,
+
+1231
+01:42:44.520 --> 01:42:50.340
+then it will separate by loose parts,
+
+1232
+01:42:50.850 --> 01:42:52.951
+which means that it will separate the two parts
+
+1233
+01:42:54.390 --> 01:42:55.140
+of the object.
+
+1234
+01:42:56.670 --> 01:42:58.560
+Now you see that they are separated.
+
+1235
+01:43:00.570 --> 01:43:05.401
+And I can leave the object mode. Now I have two different objects.
+
+1236
+01:43:08.100 --> 01:43:12.840
+One is this and the other is this. And I don't need this part, so I can delete it
+
+1237
+01:43:12.930 --> 01:43:16.770
+by pressing X on my keyboard and deleting.
+
+1238
+01:43:19.380 --> 01:43:25.050
+And now my object has a flat base. You can also do these kind of
+
+1239
+01:43:25.080 --> 01:43:28.830
+variations if you want to delete the arms.
+
+1240
+01:43:28.920 --> 01:43:34.590
+As I said, if you want to delete some parts of the model, it's not easy to do it
+
+1241
+01:43:35.310 --> 01:43:41.281
+by asking AI image generation to cut it exactly from
+
+1242
+01:43:41.310 --> 01:43:47.250
+where you want. But you can do it here by, you don't need to follow along with this
+
+1243
+01:43:47.340 --> 01:43:50.701
+one, by adding a mesh and then
+
+1244
+01:43:52.020 --> 01:43:54.120
+moving it up here a little bit,
+
+1245
+01:43:55.470 --> 01:43:58.500
+and let's scale it a little bit,
+
+1246
+01:44:00.151 --> 01:44:01.350
+scale it further,
+
+1247
+01:44:03.031 --> 01:44:05.910
+and move it here.
+
+1248
+01:44:07.290 --> 01:44:11.520
+Oops, sorry. And then rotate it,
+
+1249
+01:44:14.670 --> 01:44:16.470
+and I move it slightly.
+
+1250
+01:44:20.790 --> 01:44:25.951
+So if I wanted it cut exactly here, I would not be able to do it in
+
+1251
+01:44:26.130 --> 01:44:31.920
+AI generation mode, but
+
+1252
+01:44:32.070 --> 01:44:32.640
+I can do it
+
+1253
+01:44:34.441 --> 01:44:39.930
+here in Blender. Or, I could also do it before sending my image to
+
+1254
+01:44:42.810 --> 01:44:44.910
+Gemini or another LLM.
+
+1255
+01:44:47.070 --> 01:44:51.451
+Here again, we need to do the same thing. I will add a modifier.
+
+1256
+01:44:52.860 --> 01:44:53.160
+Oops.
+
+1257
+01:44:55.740 --> 01:45:01.560
+Solidify a little bit of thickness, which is nice, and then I apply it.
+
+1258
+01:45:02.820 --> 01:45:05.880
+I have it now, and then I will add
+
+1259
+01:45:07.230 --> 01:45:13.020
+a Boolean here, difference, select this plane object,
+
+1260
+01:45:13.830 --> 01:45:16.770
+apply. Now again, I have this
+
+1261
+01:45:19.590 --> 01:45:20.340
+separated.
+
+1262
+01:45:21.750 --> 01:45:22.770
+I can go to this,
+
+1263
+01:45:24.270 --> 01:45:30.000
+select this object, open it in edit mode, select all by pressing
+
+1264
+01:45:30.151 --> 01:45:31.320
+A on my keyboard.
+
+1265
+01:45:32.520 --> 01:45:38.100
+I can separate them by pressing P on my keyboard and separate it by loose
+
+1266
+01:45:38.191 --> 01:45:40.680
+parts. You'll see that this is separated now.
+
+1267
+01:45:41.191 --> 01:45:44.910
+And then I can exit the object edit mode, and then
+
+1268
+01:45:46.380 --> 01:45:51.810
+delete this loose part. Yeah. So once I'm done, I have this model.
+
+1269
+01:45:52.770 --> 01:45:58.740
+Now I need to check if I can 3D print it, or if it's a manifold
+
+1270
+01:45:58.830 --> 01:46:01.201
+object or a watertight object. So
+
+1271
+01:46:03.060 --> 01:46:06.570
+you can open this 3D print tab
+
+1272
+01:46:09.000 --> 01:46:10.711
+by clicking here.
+
+1273
+01:46:13.080 --> 01:46:18.360
+Do you see it? Sometimes you don't see it, but if you click on this side, you can
+
+1274
+01:46:18.451 --> 01:46:23.010
+see it. And then I am going to select my object and then
+
+1275
+01:46:24.480 --> 01:46:30.390
+say, "Make manifold." You'll see that it modified a few vertices,
+
+1276
+01:46:30.510 --> 01:46:34.740
+a few edges, and surfaces to make it manifold.
+
+1277
+01:46:35.340 --> 01:46:37.740
+And you need to press manifold
+
+1278
+01:46:39.270 --> 01:46:39.870
+as
+
+1279
+01:46:44.910 --> 01:46:47.760
+you reach zero vertices, zero edges, and zero faces.
+
+1280
+01:46:47.850 --> 01:46:49.470
+Then it means that your model is
+
+1281
+01:46:50.941 --> 01:46:51.451
+closed.
+
+1282
+01:46:54.901 --> 01:46:57.720
+Sorry, manifold and watertight is the same?
+
+1283
+01:46:58.290 --> 01:46:58.470
+Yeah.
+
+1284
+01:46:59.250 --> 01:47:00.360
+Okay. Thank you.
+
+1285
+01:47:01.410 --> 01:47:01.770
+You're welcome.
+
+1286
+01:47:03.270 --> 01:47:08.191
+Sorry, if we don't have this 3D print option on the side,
+
+1287
+01:47:09.750 --> 01:47:11.340
+where can we find
+
+1288
+01:47:14.790 --> 01:47:16.170
+make manifold option?
+
+1289
+01:47:17.370 --> 01:47:20.640
+You cannot find it if you don't have the 3D print here.
+
+1290
+01:47:21.989 --> 01:47:23.550
+Yeah, I don't have, so how to add it?
+
+1291
+01:47:24.390 --> 01:47:26.580
+You need to go to preferences.
+
+1292
+01:47:27.510 --> 01:47:27.719
+Mm-hmm.
+
+1293
+01:47:28.050 --> 01:47:30.451
+Did you add the 3D print extension?
+
+1294
+01:47:32.910 --> 01:47:38.490
+I downloaded Blender, and I edit with Rico
+
+1295
+01:47:38.850 --> 01:47:42.810
+Make Human extension, but apart from that, no.
+
+1296
+01:47:42.810 --> 01:47:48.000
+Okay, so go to get extensions and add 3D print
+
+1297
+01:47:48.540 --> 01:47:49.140
+toolbox.
+
+1298
+01:47:51.451 --> 01:47:55.410
+I would like to make a small clarification.
+
+1299
+01:47:56.340 --> 01:48:02.130
+Watertight is when there are no holes, meaning that if you
+
+1300
+01:48:02.191 --> 01:48:07.560
+submerge the object in a bottle of water, no water goes inside,
+
+1301
+01:48:08.160 --> 01:48:09.600
+meaning that it's closed.
+
+1302
+01:48:11.490 --> 01:48:16.050
+Manifold and non-manifold is not necessarily exactly that.
+
+1303
+01:48:16.441 --> 01:48:21.720
+It also means that there are no faces that they are not attached.
+
+1304
+01:48:21.750 --> 01:48:27.180
+For example, you made something, and suddenly a triangle was going inside your full
+
+1305
+01:48:27.990 --> 01:48:31.380
+object, and it is not attaching at all.
+
+1306
+01:48:31.500 --> 01:48:37.380
+There are no edges that they're open, internal walls, and it's
+
+1307
+01:48:37.470 --> 01:48:39.330
+a little bit different. But just-
+
+1308
+01:48:40.140 --> 01:48:40.410
+Yeah.
+
+1309
+01:48:40.860 --> 01:48:41.010
+Yeah.
+
+1310
+01:48:41.701 --> 01:48:45.781
+If you go into that, there are no self-intersecting parts in your model.
+
+1311
+01:48:45.810 --> 01:48:46.320
+Exactly.
+
+1312
+01:48:46.711 --> 01:48:49.560
+Yeah. I don't want to make it a little bit-
+
+1313
+01:48:49.830 --> 01:48:49.951
+Yeah
+
+1314
+01:48:50.130 --> 01:48:55.350
+... more complicated. That's why for the sake of this, I said that they are the
+
+1315
+01:48:55.380 --> 01:48:59.430
+same, but they are not. So there should be no openings and no self-intersecting
+
+1316
+01:48:59.490 --> 01:49:04.290
+parts to be able to call it a manifold geometry, but watertight is only when it is
+
+1317
+01:49:04.380 --> 01:49:05.220
+a closed object.
+
+1318
+01:49:06.570 --> 01:49:06.781
+Yes.
+
+1319
+01:49:09.840 --> 01:49:09.990
+So,
+
+1320
+01:49:11.580 --> 01:49:13.290
+I don't know who asked the question,
+
+1321
+01:49:16.260 --> 01:49:18.151
+but were you able to find the-
+
+1322
+01:49:20.340 --> 01:49:24.240
+No. Probably I need to first download, and then-
+
+1323
+01:49:26.401 --> 01:49:32.281
+Yeah, you can do it very quickly. It's under preferences, under get
+
+1324
+01:49:32.340 --> 01:49:34.890
+extensions. Do you see my screen now?
+
+1325
+01:49:35.610 --> 01:49:37.201
+I can see. However-
+
+1326
+01:49:37.560 --> 01:49:37.560
+Yeah.
+
+1327
+01:49:37.590 --> 01:49:37.830
+Mm-hmm.
+
+1328
+01:49:38.520 --> 01:49:44.340
+So you type here 3D print toolbox, the name that you see here, and then click
+
+1329
+01:49:44.401 --> 01:49:45.990
+install, and then it will appear.
+
+1330
+01:49:47.010 --> 01:49:51.240
+Yes. I cannot find it. I searched 3D.
+
+1331
+01:49:53.220 --> 01:49:54.480
+Yeah, I cannot find it.
+
+1332
+01:49:55.531 --> 01:49:59.130
+Did you write print? Maybe that will help.
+
+1333
+01:49:59.701 --> 01:50:05.160
+Print. I wrote 3D. Oh, yes, you are right. Okay, perfect.
+
+1334
+01:50:05.250 --> 01:50:06.211
+Thank you so much.
+
+1335
+01:50:06.540 --> 01:50:07.080
+You're welcome.
+
+1336
+01:50:09.792 --> 01:50:10.782
+Yes, Shivam
+
+1337
+01:50:13.932 --> 01:50:14.952
+Yes. Hi.
+
+1338
+01:50:15.222 --> 01:50:15.372
+Hi
+
+1339
+01:50:15.372 --> 01:50:20.562
+I have some non-manifold edges and intersecting faces.
+
+1340
+01:50:21.673 --> 01:50:22.152
+Mm-hmm.
+
+1341
+01:50:22.992 --> 01:50:27.042
+How do we solve that? Or is that the next part?
+
+1342
+01:50:28.182 --> 01:50:28.452
+Sorry?
+
+1343
+01:50:29.772 --> 01:50:35.502
+How do we resolve those issues? I have 19 non-manifold edges and 11 intersecting
+
+1344
+01:50:35.593 --> 01:50:36.132
+faces.
+
+1345
+01:50:38.652 --> 01:50:43.332
+So you click on the Make Manifold on the Cleanup in 3D Print.
+
+1346
+01:50:45.372 --> 01:50:49.632
+So you need to go to this 3D Print tab-
+
+1347
+01:50:50.652 --> 01:50:50.923
+Mm-hmm
+
+1348
+01:50:50.923 --> 01:50:52.363
+... and go to Cleanup.
+
+1349
+01:50:53.532 --> 01:50:54.942
+Yeah. Yeah, I did that.
+
+1350
+01:50:55.363 --> 01:50:55.812
+And then... Mm-hmm.
+
+1351
+01:50:55.902 --> 01:50:57.761
+And then it said,
+
+1352
+01:51:00.162 --> 01:51:04.212
+at the bottom, plus zero vertices, plus zero edges, plus zero faces.
+
+1353
+01:51:04.692 --> 01:51:06.462
+Okay. Then it's fine now.
+
+1354
+01:51:07.572 --> 01:51:07.872
+Okay.
+
+1355
+01:51:08.382 --> 01:51:08.562
+Yeah.
+
+1356
+01:51:09.132 --> 01:51:13.062
+So maybe that is the nature of my 3D model, maybe? Is that the reason?
+
+1357
+01:51:15.103 --> 01:51:19.512
+I don't know, but I also had that. When I Check All, I also had some problems.
+
+1358
+01:51:19.872 --> 01:51:25.122
+It said non-manifold, but I was able to import it to a slicer software afterwards
+
+1359
+01:51:25.572 --> 01:51:25.843
+when I-
+
+1360
+01:51:26.262 --> 01:51:26.292
+Okay
+
+1361
+01:51:26.292 --> 01:51:30.853
+... did the Make Manifold. So hopefully it will resolve the issues.
+
+1362
+01:51:31.902 --> 01:51:32.712
+Okay, awesome. Okay.
+
+1363
+01:51:33.222 --> 01:51:35.202
+Okay. Any more questions?
+
+1364
+01:51:43.062 --> 01:51:43.812
+Shall I continue?
+
+1365
+01:51:46.421 --> 01:51:51.312
+And something else that we can do, if we think that this is too big of a
+
+1366
+01:51:52.272 --> 01:51:57.613
+poly count, we can also go Add Modifier and go to Decimate, which will
+
+1367
+01:51:58.152 --> 01:52:01.542
+decrease our poly count. So you see we have now
+
+1368
+01:52:03.853 --> 01:52:05.262
+94,000
+
+1369
+01:52:06.912 --> 01:52:10.423
+face count, but we can decrease it
+
+1370
+01:52:11.772 --> 01:52:15.972
+if we want to decrease it. So it will obviously
+
+1371
+01:52:17.382 --> 01:52:19.303
+decrease the resolution of our model,
+
+1372
+01:52:22.002 --> 01:52:26.502
+but at the same time, make it lighter for slicing software.
+
+1373
+01:52:27.162 --> 01:52:31.212
+So again, we need to go to this down arrow, click Apply,
+
+1374
+01:52:34.152 --> 01:52:39.582
+and that should be it. And then let's do another manifold again, and then we can go
+
+1375
+01:52:39.642 --> 01:52:44.262
+to, by selecting the object, we can export it as STL.
+
+1376
+01:52:45.343 --> 01:52:47.622
+Sorry. Where did you find Decimate?
+
+1377
+01:52:50.742 --> 01:52:56.292
+Here. Select the object, and then here under the Properties,
+
+1378
+01:52:57.132 --> 01:53:00.343
+Add Modifier, Generate, and Decimate.
+
+1379
+01:53:03.972 --> 01:53:04.303
+Thank you.
+
+1380
+01:53:06.853 --> 01:53:11.142
+You need to have the human figure selected so that the modify-
+
+1381
+01:53:11.262 --> 01:53:11.262
+Yeah.
+
+1382
+01:53:11.742 --> 01:53:14.142
+Can you show it again? Excuse me.
+
+1383
+01:53:14.173 --> 01:53:14.502
+Okay.
+
+1384
+01:53:14.863 --> 01:53:14.982
+Yeah.
+
+1385
+01:53:15.942 --> 01:53:19.662
+So if you do not have the modif- Oh, now I have it, but
+
+1386
+01:53:22.272 --> 01:53:27.882
+select the object, your human figure, and then go to Add Modifier,
+
+1387
+01:53:28.692 --> 01:53:30.792
+Generate, and Decimate.
+
+1388
+01:53:31.752 --> 01:53:33.162
+Oh, we don't see it now.
+
+1389
+01:53:34.692 --> 01:53:35.353
+You don't see it?
+
+1390
+01:53:35.382 --> 01:53:38.682
+Ah, wait, wait. Yeah, wait a second. Yeah.
+
+1391
+01:53:40.482 --> 01:53:40.722
+Okay.
+
+1392
+01:53:42.853 --> 01:53:43.093
+Okay.
+
+1393
+01:53:43.722 --> 01:53:49.662
+Yeah. Under Decimate, now because I already done this, my face
+
+1394
+01:53:49.722 --> 01:53:52.332
+count is at 67,000.
+
+1395
+01:53:54.072 --> 01:53:56.262
+But if I want, I can, again, change this.
+
+1396
+01:53:58.872 --> 01:53:59.803
+Okay. Now,
+
+1397
+01:54:01.093 --> 01:54:02.232
+we will export this.
+
+1398
+01:54:05.562 --> 01:54:07.992
+Select the object, and then Export,
+
+1399
+01:54:09.492 --> 01:54:14.682
+and then you choose a location, and then write the name of your
+
+1400
+01:54:15.222 --> 01:54:15.673
+model,
+
+1401
+01:54:17.532 --> 01:54:18.222
+Workshop
+
+1402
+01:54:19.423 --> 01:54:20.053
+Human.
+
+1403
+01:54:21.792 --> 01:54:26.652
+Asli, I'm sorry. Can you show the Export button again? Yep.
+
+1404
+01:54:27.312 --> 01:54:32.022
+So where we were under 3D Print- Mm-hmm ...
+
+1405
+01:54:33.072 --> 01:54:36.732
+we had the Cleanup- Oh, okay ... Make Manifold, and then we have the Export.
+
+1406
+01:54:37.212 --> 01:54:42.012
+Mm-hmm. So you need to click this, and then it will open it up. Okay. Thank you.
+
+1407
+01:54:42.072 --> 01:54:44.442
+Mm-hmm. And then you will export it.
+
+1408
+01:54:46.212 --> 01:54:46.542
+And there-
+
+1409
+01:54:46.902 --> 01:54:48.882
+Sorry to interrupt, I'm a bit back.
+
+1410
+01:54:49.332 --> 01:54:49.332
+Yes.
+
+1411
+01:54:50.502 --> 01:54:56.142
+I installed the 3D Print extension, but I don't see that 3D
+
+1412
+01:54:56.173 --> 01:54:56.682
+Print
+
+1413
+01:54:58.032 --> 01:55:01.482
+kind of thing on the side that you have, that one. Okay.
+
+1414
+01:55:03.372 --> 01:55:08.982
+So sometimes it happens that you don't see these here, but there is a small tab
+
+1415
+01:55:10.122 --> 01:55:13.692
+that you can see. If you click this tab, it will open up right away.
+
+1416
+01:55:13.752 --> 01:55:15.613
+Oh, right. Yeah. It's in there.
+
+1417
+01:55:15.642 --> 01:55:15.762
+Good?
+
+1418
+01:55:15.822 --> 01:55:16.363
+Yes.
+
+1419
+01:55:16.423 --> 01:55:16.752
+Yeah.
+
+1420
+01:55:16.812 --> 01:55:19.843
+And sorry, so the setting that I need to have here?
+
+1421
+01:55:20.742 --> 01:55:22.572
+You select your object, and this-
+
+1422
+01:55:22.932 --> 01:55:23.053
+Yes
+
+1423
+01:55:23.053 --> 01:55:24.972
+... this should be closed like this.
+
+1424
+01:55:25.242 --> 01:55:30.822
+When you have it open first, you click on the dropdown menu under, next to Cleanup.
+
+1425
+01:55:30.853 --> 01:55:31.632
+Cleanup, yeah.
+
+1426
+01:55:31.662 --> 01:55:33.042
+And then Make Manifold.
+
+1427
+01:55:33.792 --> 01:55:35.173
+Okay. Just that?
+
+1428
+01:55:35.832 --> 01:55:36.103
+Yeah.
+
+1429
+01:55:36.402 --> 01:55:36.402
+Okay.
+
+1430
+01:55:36.432 --> 01:55:41.412
+And then make sure... You need to do it maybe several times until you see no
+
+1431
+01:55:41.472 --> 01:55:42.312
+vertices,
+
+1432
+01:55:44.923 --> 01:55:45.252
+and
+
+1433
+01:55:46.482 --> 01:55:52.423
+edges and faces are at the bottom, you see how many are modified, until you
+
+1434
+01:55:52.482 --> 01:55:53.622
+see 000.
+
+1435
+01:55:55.093 --> 01:55:57.553
+Sorry, where? Can you show me where I should see 000?
+
+1436
+01:55:57.582 --> 01:56:00.462
+So when you... It just disappears very quickly.
+
+1437
+01:56:01.272 --> 01:56:01.452
+Make, yeah. Manifold.
+
+1438
+01:56:01.482 --> 01:56:05.832
+But when you click Make Manifold, it should appear under the screen here-
+
+1439
+01:56:06.582 --> 01:56:06.582
+Yeah
+
+1440
+01:56:06.582 --> 01:56:07.692
+... with an information.
+
+1441
+01:56:08.232 --> 01:56:08.832
+Oh, okay.
+
+1442
+01:56:09.553 --> 01:56:09.642
+Yeah.
+
+1443
+01:56:11.113 --> 01:56:11.113
+Okay.
+
+1444
+01:56:11.142 --> 01:56:11.923
+And then we do-
+
+1445
+01:56:12.103 --> 01:56:13.032
+Okay, all zero. Okay
+
+1446
+01:56:13.032 --> 01:56:13.632
+... Export.
+
+1447
+01:56:15.702 --> 01:56:18.792
+I see that there has been a lot happening in the
+
+1448
+01:56:22.272 --> 01:56:22.692
+chat.
+
+1449
+01:56:25.062 --> 01:56:25.392
+Oh, yeah.
+
+1450
+01:56:32.322 --> 01:56:35.652
+Mm-hmm. I'm just reading through the chat.
+
+1451
+01:56:50.053 --> 01:56:52.002
+Okay. I think all are answered now.
+
+1452
+01:56:53.322 --> 01:56:58.722
+We can move on. Now we have our model STL downloaded.
+
+1453
+01:56:59.292 --> 01:57:01.512
+Obviously, I need to first select it, and then
+
+1454
+01:57:03.192 --> 01:57:03.882
+Desktop.
+
+1455
+01:57:12.282 --> 01:57:13.902
+Workshop Human,
+
+1456
+01:57:15.492 --> 01:57:16.332
+and Export.
+
+1457
+01:57:17.772 --> 01:57:20.262
+Okay. Now I will go back to
+
+1458
+01:57:21.553 --> 01:57:25.392
+the Miro board again to show you where we are in the process.
+
+1459
+01:57:25.542 --> 01:57:31.032
+As you see, we have done the 2D image generation, image to 3D
+
+1460
+01:57:31.093 --> 01:57:36.972
+generation, 3D model modification and verification for fabrication, and now in the
+
+1461
+01:57:37.032 --> 01:57:39.402
+fabrication preparation process.
+
+1462
+01:57:40.843 --> 01:57:41.232
+Oops.
+
+1463
+01:57:44.832 --> 01:57:45.103
+Sorry.
+
+1464
+01:57:46.843 --> 01:57:50.803
+And now we can either do it with the slicer that
+
+1465
+01:57:52.603 --> 01:57:58.423
+Anastasia showed at the beginning of the workshop, but I was thinking, I started
+
+1466
+01:57:58.452 --> 01:58:04.392
+thinking about this maybe a few months ago, that how, because Slicer
+
+1467
+01:58:04.423 --> 01:58:10.303
+for Fusion is discontinued and it can give bugs now, or it can
+
+1468
+01:58:10.392 --> 01:58:15.942
+shut down, and it's not very reliable now, how can we
+
+1469
+01:58:16.843 --> 01:58:22.512
+make our own version of it? Or how can we use AI to be able to generate our
+
+1470
+01:58:22.632 --> 01:58:25.572
+own fabrication tools with it?
+
+1471
+01:58:26.863 --> 01:58:29.622
+And here I
+
+1472
+01:58:30.942 --> 01:58:36.882
+first asked ChatGPT, "Can you slice a 3D model
+
+1473
+01:58:37.062 --> 01:58:41.742
+STL for laser cutting and give me the XL file?" The DXF file, sorry.
+
+1474
+01:58:41.772 --> 01:58:42.822
+DXF is a
+
+1475
+01:58:44.142 --> 01:58:46.722
+file format that is an interchangeable
+
+1476
+01:58:48.252 --> 01:58:54.132
+Autodesk file format that is used for 2D vectors that
+
+1477
+01:58:54.192 --> 01:58:59.772
+is very reliable, or you can use also SVG, of course, but I find DXF more
+
+1478
+01:58:59.803 --> 01:59:05.742
+reliable. And ChatGPT says, "Yes, I can do that, but you need to
+
+1479
+01:59:07.032 --> 01:59:11.232
+select this and this, or choose this and this and that." And then when I looked at
+
+1480
+01:59:11.292 --> 01:59:16.542
+the possibilities, I said, "We can maybe work with those, but then I think an
+
+1481
+01:59:16.603 --> 01:59:21.582
+interface to be able to choose those would be more ideal, like a Slicer for
+
+1482
+01:59:21.673 --> 01:59:26.760
+Fusion." So I said I want to create a small web app to do that and visualize it
+
+1483
+01:59:26.820 --> 01:59:31.651
+rather than selecting it through here or writing or talking to a model like this
+
+1484
+01:59:31.770 --> 01:59:32.010
+here.
+
+1485
+01:59:33.660 --> 01:59:33.840
+So
+
+1486
+01:59:35.160 --> 01:59:39.420
+I started making a small web app with Lovable.
+
+1487
+01:59:39.660 --> 01:59:45.540
+If you don't know Lovable, Lovable, it allows you to create quick
+
+1488
+01:59:45.600 --> 01:59:48.240
+websites using, again,
+
+1489
+01:59:50.220 --> 01:59:50.701
+language
+
+1490
+01:59:52.201 --> 01:59:52.890
+like English.
+
+1491
+01:59:55.590 --> 02:00:00.060
+You don't need to know coding. You can use semantic languages to generate models,
+
+1492
+02:00:00.720 --> 02:00:02.701
+sorry, websites. And
+
+1493
+02:00:04.320 --> 02:00:09.840
+we started making a rapid first web prototype, but there were a lot of
+
+1494
+02:00:10.651 --> 02:00:16.470
+problems with it. And also it was a good first
+
+1495
+02:00:17.010 --> 02:00:22.770
+quick prototype, but also did not have most of the functions that I wanted it.
+
+1496
+02:00:23.970 --> 02:00:29.701
+And yeah, a lot of bugs in general. And then I wanted to continue working with
+
+1497
+02:00:30.151 --> 02:00:34.500
+Lovable, but then I ran out of free credits very quickly, and I did not want to pay
+
+1498
+02:00:34.560 --> 02:00:38.340
+for it, obviously, and I want to be able to be more in control of it,
+
+1499
+02:00:39.660 --> 02:00:45.300
+and also make it open source. So I said, "Let's move to GitHub." So that we have
+
+1500
+02:00:45.360 --> 02:00:48.901
+this first interface,
+
+1501
+02:00:51.330 --> 02:00:57.000
+the code of the website hosted on GitHub where the code is
+
+1502
+02:00:57.090 --> 02:00:59.130
+stored, and we can track the changes.
+
+1503
+02:00:59.250 --> 02:01:01.019
+And I also made a local
+
+1504
+02:01:02.701 --> 02:01:08.401
+repository or a clone of it so that I can debug and see
+
+1505
+02:01:08.461 --> 02:01:09.750
+transformations easily.
+
+1506
+02:01:11.970 --> 02:01:17.730
+Obviously, I'm not a coder, I'm not an engineer, so I would not be able to do this
+
+1507
+02:01:17.790 --> 02:01:23.250
+without ChatGPT, but I have been fabricating and
+
+1508
+02:01:23.701 --> 02:01:29.191
+designing on computers for so long that I can be able to give the input of what I
+
+1509
+02:01:29.250 --> 02:01:34.920
+want, how I want it, what kind of features this thing needs, or I can
+
+1510
+02:01:34.980 --> 02:01:39.720
+also debug it when necessary. And we needed to do a lot of debugging.
+
+1511
+02:01:41.520 --> 02:01:42.840
+So from this first model
+
+1512
+02:01:44.250 --> 02:01:46.560
+to the final one, so you see that first
+
+1513
+02:01:48.120 --> 02:01:49.260
+I had to look into
+
+1514
+02:01:50.970 --> 02:01:54.240
+uploading different geometries. So it starts with a vase.
+
+1515
+02:01:54.630 --> 02:01:55.680
+It's easier to
+
+1516
+02:01:57.570 --> 02:02:01.680
+slice it. You see the contours here. It slices.
+
+1517
+02:02:01.740 --> 02:02:05.461
+It's one object per slice, and it's not a problem.
+
+1518
+02:02:05.550 --> 02:02:11.310
+It doesn't give you the fabrication order or number of the parts, which is very
+
+1519
+02:02:11.401 --> 02:02:16.230
+important for fabrication, because imagine that you have objects that are really
+
+1520
+02:02:16.290 --> 02:02:17.970
+similar in size. If you don't know the
+
+1521
+02:02:19.680 --> 02:02:22.620
+parts number, you cannot put them together.
+
+1522
+02:02:22.951 --> 02:02:26.701
+So we started looking into that, and I added that, but then
+
+1523
+02:02:26.820 --> 02:02:32.490
+slices with multiple parts did not generate part
+
+1524
+02:02:32.550 --> 02:02:36.600
+numbers on the other side. So we looked into that. So a lot of debugging.
+
+1525
+02:02:36.629 --> 02:02:41.370
+And then the nesting was another problem, again, with multiple parts on one slice.
+
+1526
+02:02:42.151 --> 02:02:48.090
+How do you solve this? And then looking into waffle structures,
+
+1527
+02:02:48.480 --> 02:02:54.151
+that's another possibility that Anastasi also showed in the beginning with the
+
+1528
+02:02:54.240 --> 02:02:57.180
+slicer profusion that you can also do waffle slices.
+
+1529
+02:02:58.350 --> 02:03:03.540
+Initially, it did not generate the slices that I want or the cuts where the parts
+
+1530
+02:03:03.570 --> 02:03:04.531
+can slip together.
+
+1531
+02:03:05.910 --> 02:03:07.951
+So a lot of debugging, testing,
+
+1532
+02:03:09.151 --> 02:03:13.711
+and labeling and alignments and different options.
+
+1533
+02:03:14.640 --> 02:03:14.970
+Then
+
+1534
+02:03:16.441 --> 02:03:21.961
+I was able to come up with a working version now, although the functions that I
+
+1535
+02:03:22.020 --> 02:03:25.651
+want for the future are not there. It is usable now.
+
+1536
+02:03:26.310 --> 02:03:31.980
+And okay, the GitHub version is nice, but it's not accessible for everyone.
+
+1537
+02:03:32.790 --> 02:03:38.670
+So there is a Vercel app, so it allows me to publish it live, and
+
+1538
+02:03:38.730 --> 02:03:40.260
+this is the app
+
+1539
+02:03:42.390 --> 02:03:48.120
+that I sort of created with the help of ChatGPT,
+
+1540
+02:03:50.070 --> 02:03:52.410
+and I will share the link.
+
+1541
+02:03:52.770 --> 02:03:54.360
+But you didn't use agents?
+
+1542
+02:03:55.620 --> 02:03:55.800
+No.
+
+1543
+02:03:56.310 --> 02:03:57.211
+You used the chat?
+
+1544
+02:03:57.750 --> 02:04:03.510
+I used the chat, and because I wanted to be able to be in control of what's
+
+1545
+02:04:03.540 --> 02:04:05.701
+happening all along the
+
+1546
+02:04:08.820 --> 02:04:14.160
+step-by-step because when I tried to, for example, do overnight
+
+1547
+02:04:15.031 --> 02:04:18.270
+executions, but then I did not know what was happening.
+
+1548
+02:04:18.901 --> 02:04:21.060
+So I was not in control of what was happening.
+
+1549
+02:04:21.360 --> 02:04:26.191
+Sometimes I even did not allow it to access my GitHub repository.
+
+1550
+02:04:26.520 --> 02:04:30.570
+I asked where I needed to change in the code, and I went to my local repository and
+
+1551
+02:04:30.630 --> 02:04:35.461
+make the changes myself and then push it to my Git repository to be able to know
+
+1552
+02:04:35.550 --> 02:04:37.260
+exactly what was going on in the app.
+
+1553
+02:04:42.240 --> 02:04:46.830
+So yeah, I was going to write this. Where is my chat?
+
+1554
+02:04:48.120 --> 02:04:49.560
+Here is the...
+
+1555
+02:04:54.901 --> 02:04:55.290
+Yes.
+
+1556
+02:04:56.910 --> 02:05:02.701
+I just saw a question. The core function of this app is you have a 3D
+
+1557
+02:05:02.760 --> 02:05:06.750
+model, but if you want to create it with
+
+1558
+02:05:12.570 --> 02:05:17.461
+a CNC machine, like with chopwood, I don't have the chopwood functionalities, but
+
+1559
+02:05:17.760 --> 02:05:23.281
+milling or laser cutting, you need to slice it in several intervals, usually the
+
+1560
+02:05:23.310 --> 02:05:26.250
+thickness of the material, so that you can
+
+1561
+02:05:29.160 --> 02:05:33.990
+give these slices to the laser cutter and then create the
+
+1562
+02:05:34.740 --> 02:05:40.110
+material objects with them, slices with them, parts with them, and then put them on
+
+1563
+02:05:40.170 --> 02:05:42.120
+top of each other, glue them on top of each other
+
+1564
+02:05:43.441 --> 02:05:45.031
+physically to have
+
+1565
+02:05:47.100 --> 02:05:47.941
+a real object.
+
+1566
+02:05:49.890 --> 02:05:53.730
+So that is the function. Was it clear or do you want me to...
+
+1567
+02:05:55.409 --> 02:06:00.750
+So, for example, for a file for an object like this, it generates the slices,
+
+1568
+02:06:02.070 --> 02:06:05.701
+and you have these slices. When you export them,
+
+1569
+02:06:07.500 --> 02:06:13.110
+it gives you the file that you need to sheet DXF or all sheets
+
+1570
+02:06:13.140 --> 02:06:13.651
+together.
+
+1571
+02:06:14.910 --> 02:06:19.020
+It gives you the files that you need to take to the laser cutter so that you can
+
+1572
+02:06:19.110 --> 02:06:21.451
+use this for laser cutting.
+
+1573
+02:06:25.201 --> 02:06:26.040
+Is that clear?
+
+1574
+02:06:28.860 --> 02:06:29.220
+Yes.
+
+1575
+02:06:32.310 --> 02:06:33.151
+Yes, exactly.
+
+1576
+02:06:37.050 --> 02:06:41.670
+Yeah, wipe coding, I like it, but as I said, it is very important.
+
+1577
+02:06:42.180 --> 02:06:47.430
+You cannot do that, and that is what I wanted to come back to.
+
+1578
+02:06:49.651 --> 02:06:54.270
+As a human, you need to identify the need. You need to specify the features.
+
+1579
+02:06:54.420 --> 02:06:59.040
+You need to evaluate the results and test implementations against real fabrication
+
+1580
+02:06:59.070 --> 02:07:02.610
+requirements and keep correcting technical and usability problems.
+
+1581
+02:07:03.000 --> 02:07:06.510
+So that is really important. If you don't have the expert knowledge, domain
+
+1582
+02:07:06.570 --> 02:07:12.000
+knowledge, experience with it, you cannot wipe code, basically.
+
+1583
+02:07:12.660 --> 02:07:15.691
+So actually the AI does the job, and we do the cleaning.
+
+1584
+02:07:16.590 --> 02:07:17.340
+No. I mean,
+
+1585
+02:07:18.630 --> 02:07:22.140
+a little bit, but you need to specify what AI needs to do.
+
+1586
+02:07:27.781 --> 02:07:32.100
+It does not automatically create waffle slabs, or even if it creates waffle
+
+1587
+02:07:32.760 --> 02:07:35.010
+structures, as I showed you,
+
+1588
+02:07:37.951 --> 02:07:38.580
+the initial
+
+1589
+02:07:40.920 --> 02:07:46.651
+operant is this, and then you need to say that, okay, all the slits need to
+
+1590
+02:07:46.711 --> 02:07:51.510
+come to the middle of each section.
+
+1591
+02:07:53.701 --> 02:07:58.470
+So you need to operate those, and you need to say that they need to be intersected
+
+1592
+02:07:58.531 --> 02:08:00.691
+with the boundary object and trimmed.
+
+1593
+02:08:03.870 --> 02:08:08.461
+So to be able to say these kind of things, you need to have the domain knowledge.
+
+1594
+02:08:08.820 --> 02:08:13.020
+And so, for example, from this to
+
+1595
+02:08:19.290 --> 02:08:22.860
+this afterwards. To be able to get there, you see,
+
+1596
+02:08:24.540 --> 02:08:27.300
+you need to be able to tell what is going on.
+
+1597
+02:08:27.570 --> 02:08:32.370
+And here you see that I have also each piece is called
+
+1598
+02:08:34.951 --> 02:08:40.380
+Written on the slits so that you can also put them back together, assemble them
+
+1599
+02:08:40.441 --> 02:08:42.480
+together, whereas you don't have them here.
+
+1600
+02:08:43.230 --> 02:08:48.270
+And to be able to say what's going on, it's not a magic tool that just generates
+
+1601
+02:08:48.330 --> 02:08:48.691
+things.
+
+1602
+02:08:57.360 --> 02:09:02.820
+FormSlice basically works similar to
+
+1603
+02:09:05.070 --> 02:09:07.711
+Slicer for Fusion, but with less
+
+1604
+02:09:08.941 --> 02:09:10.290
+features now.
+
+1605
+02:09:12.990 --> 02:09:15.961
+But if you come here, let's
+
+1606
+02:09:16.050 --> 02:09:23.340
+open
+
+1607
+02:09:23.369 --> 02:09:29.310
+it from scratch. So you can upload an STL, or you can also drop
+
+1608
+02:09:30.390 --> 02:09:36.211
+an STL file here. So let's put our last
+
+1609
+02:09:36.330 --> 02:09:38.040
+human that we dropped here,
+
+1610
+02:09:39.781 --> 02:09:40.080
+and then-
+
+1611
+02:09:40.110 --> 02:09:41.850
+Asli, do you need to share your screen?
+
+1612
+02:09:42.961 --> 02:09:43.201
+Sorry?
+
+1613
+02:09:43.980 --> 02:09:46.110
+Do you need to share your screen or-
+
+1614
+02:09:46.531 --> 02:09:48.930
+Is my screen not shared at the moment?
+
+1615
+02:09:49.620 --> 02:09:49.740
+No.
+
+1616
+02:09:50.790 --> 02:09:52.531
+It is shared. I see the-
+
+1617
+02:09:53.010 --> 02:09:54.961
+Yeah, I can see
+
+1618
+02:09:54.961 --> 02:09:56.040
+... FormSlice.
+
+1619
+02:09:57.870 --> 02:09:58.740
+Okay. Hmm.
+
+1620
+02:10:02.220 --> 02:10:06.451
+Do you see other people on Zoom? Sometimes I do that.
+
+1621
+02:10:06.781 --> 02:10:08.941
+Luiza, if that is the case-
+
+1622
+02:10:08.970 --> 02:10:09.750
+I'm seeing people.
+
+1623
+02:10:10.531 --> 02:10:16.500
+Okay. If that is the case, go to the upper edge of your Zoom screen and there's
+
+1624
+02:10:16.560 --> 02:10:19.080
+a tab there. One says Meeting.
+
+1625
+02:10:19.740 --> 02:10:20.490
+Okay. Thank you.
+
+1626
+02:10:20.550 --> 02:10:22.260
+I did that a few times, no problem.
+
+1627
+02:10:24.720 --> 02:10:29.191
+Yeah. Okay. So you drop your human, and then you choose the size.
+
+1628
+02:10:29.250 --> 02:10:31.470
+As I said, it comes with
+
+1629
+02:10:32.670 --> 02:10:34.800
+one millimeter, almost one millimeter.
+
+1630
+02:10:36.570 --> 02:10:40.441
+So we need to obviously increase the size.
+
+1631
+02:10:41.640 --> 02:10:42.451
+And
+
+1632
+02:10:48.540 --> 02:10:51.750
+then you can also rotate it however you like,
+
+1633
+02:10:53.790 --> 02:10:59.580
+and then reset it. Well, where did the guy go? Obviously, this is also gone.
+
+1634
+02:11:01.260 --> 02:11:03.330
+Let's make it 200.
+
+1635
+02:11:04.711 --> 02:11:05.130
+And
+
+1636
+02:11:06.901 --> 02:11:10.980
+you can choose here if you want stacked slices, which means that they will be
+
+1637
+02:11:11.191 --> 02:11:16.980
+stacked in one direction, or you can have waffle, which means that it will have a
+
+1638
+02:11:17.040 --> 02:11:18.240
+waffle structure.
+
+1639
+02:11:19.980 --> 02:11:23.880
+Radial slices hopefully will come next. I don't have them yet.
+
+1640
+02:11:24.300 --> 02:11:25.951
+So if you choose stacked slices,
+
+1641
+02:11:28.830 --> 02:11:32.160
+you can choose by thickness or by count.
+
+1642
+02:11:33.781 --> 02:11:38.550
+So if you choose thickness, you can think about material thickness, how much you
+
+1643
+02:11:38.610 --> 02:11:42.330
+want. You can also have space in between the slices.
+
+1644
+02:11:42.781 --> 02:11:48.031
+You can change the offset. Sometimes you need to do this by a little bit
+
+1645
+02:11:49.110 --> 02:11:50.701
+because if there is a point
+
+1646
+02:11:52.860 --> 02:11:58.020
+where the model ends, it cannot calculate with a slice.
+
+1647
+02:11:58.320 --> 02:12:01.890
+I mean, it cannot intersect with a slice, so you might need to move it slightly
+
+1648
+02:12:01.980 --> 02:12:07.531
+down or up. You can also change the order, and then curve
+
+1649
+02:12:07.590 --> 02:12:10.110
+compensation, you can leave it as it is.
+
+1650
+02:12:10.230 --> 02:12:16.080
+Curve is the material eaten away by the laser, because laser
+
+1651
+02:12:17.401 --> 02:12:18.000
+cuts by
+
+1652
+02:12:20.640 --> 02:12:23.730
+burning the material. So by that burning,
+
+1653
+02:12:24.961 --> 02:12:29.370
+a certain amount of the material is eaten away, so it's to counter that.
+
+1654
+02:12:31.170 --> 02:12:36.901
+Curve mode is auto, which means that it's on the outer side and the holes, and then
+
+1655
+02:12:36.990 --> 02:12:42.211
+this is for fabrication. So as I said, you need to be able to label
+
+1656
+02:12:42.300 --> 02:12:48.211
+each part so that you can assemble them afterwards.
+
+1657
+02:12:50.281 --> 02:12:53.790
+And then you can also specify how high, how big you want them to be.
+
+1658
+02:12:54.451 --> 02:12:56.220
+So for double holes,
+
+1659
+02:12:59.130 --> 02:12:59.970
+you need to...
+
+1660
+02:13:02.250 --> 02:13:05.941
+Sometimes when you stack slices on top of each other, with waffles, you don't have
+
+1661
+02:13:06.000 --> 02:13:08.070
+that problem because they come together like this.
+
+1662
+02:13:08.340 --> 02:13:11.941
+But with stacked slices, they can shift a little bit, so you need an inner
+
+1663
+02:13:12.000 --> 02:13:14.490
+structure, and the doubles create these inner structures.
+
+1664
+02:13:14.640 --> 02:13:17.310
+I will not go through them one by one right now.
+
+1665
+02:13:17.970 --> 02:13:20.550
+Experimental nesting is very experimental,
+
+1666
+02:13:22.201 --> 02:13:25.620
+so turn it off for now. You can also have it on.
+
+1667
+02:13:25.711 --> 02:13:29.281
+It takes a little bit longer, and it does polygonal nesting.
+
+1668
+02:13:29.790 --> 02:13:34.920
+If you know different types of nesting, it does not do a very smart nesting.
+
+1669
+02:13:35.401 --> 02:13:39.750
+I need to incorporate a nesting algorithm into it.
+
+1670
+02:13:40.980 --> 02:13:43.800
+And it only does the polygonal nesting for the big
+
+1671
+02:13:45.031 --> 02:13:46.770
+20 or 30 parts for now.
+
+1672
+02:13:48.031 --> 02:13:53.640
+And this is the sheet size. So you select the sheet size here,
+
+1673
+02:13:55.680 --> 02:14:00.990
+and you give a margin so that it does not go to the edge of the model.
+
+1674
+02:14:01.951 --> 02:14:02.880
+And then you choose
+
+1675
+02:14:05.640 --> 02:14:09.870
+part spacing, so what will be the distance between the parts if you're going to
+
+1676
+02:14:09.961 --> 02:14:10.230
+allow
+
+1677
+02:14:11.490 --> 02:14:17.281
+90-degree rotations. If you're using corrugated cardboard, I would suggest you
+
+1678
+02:14:17.340 --> 02:14:22.050
+to not allow it so that corrugations are in the same direction, and then it doesn't
+
+1679
+02:14:22.080 --> 02:14:22.201
+look
+
+1680
+02:14:23.490 --> 02:14:27.300
+awkward. And when you're ready, you can start generating slices,
+
+1681
+02:14:29.730 --> 02:14:34.230
+and then it generates the slices. And you can see it in the sheet layout.
+
+1682
+02:14:36.810 --> 02:14:38.490
+And when you're done,
+
+1683
+02:14:40.020 --> 02:14:44.790
+so it says, "Fit safe layout." As I said, it has a lot of
+
+1684
+02:14:46.560 --> 02:14:47.760
+space in between now.
+
+1685
+02:14:50.070 --> 02:14:54.660
+But yeah. This is for now what it does.
+
+1686
+02:14:54.961 --> 02:14:57.360
+And if you choose the experimental
+
+1687
+02:14:58.739 --> 02:15:04.290
+nesting, it will nest the biggest 30 parts together better, and then it will also
+
+1688
+02:15:04.350 --> 02:15:08.520
+start using these in-between parts.
+
+1689
+02:15:09.180 --> 02:15:12.211
+And when you're ready, you can go to export.
+
+1690
+02:15:12.630 --> 02:15:14.130
+You can export either
+
+1691
+02:15:15.660 --> 02:15:20.340
+all the sheets, only this sheet, or only one slice.
+
+1692
+02:15:21.510 --> 02:15:25.531
+And you can do both DXF and SVG exports here.
+
+1693
+02:15:28.531 --> 02:15:29.490
+And then now,
+
+1694
+02:15:31.050 --> 02:15:32.250
+once you download this,
+
+1695
+02:15:35.370 --> 02:15:38.490
+let's do a sheet download.
+
+1696
+02:15:40.110 --> 02:15:41.160
+This is... Or
+
+1697
+02:15:44.820 --> 02:15:49.770
+it's easier to show this one. So this SVG is ready to be
+
+1698
+02:15:50.580 --> 02:15:53.910
+used at a laser cutter of your choosing.
+
+1699
+02:15:58.500 --> 02:15:59.461
+Any other questions?
+
+1700
+02:16:02.040 --> 02:16:07.441
+A quick one. The green outline that's on the inside, that's just to show where the
+
+1701
+02:16:08.010 --> 02:16:10.201
+adjacent part is-
+
+1702
+02:16:10.320 --> 02:16:10.830
+Exactly
+
+1703
+02:16:10.860 --> 02:16:12.090
+... glued? Yep.
+
+1704
+02:16:12.151 --> 02:16:16.860
+Yeah. Engraving lines. I wanted to add them so that you know where you need to glue
+
+1705
+02:16:16.951 --> 02:16:18.480
+the next part.
+
+1706
+02:16:19.320 --> 02:16:20.281
+Yeah. This is so cool.
+
+1707
+02:16:20.790 --> 02:16:22.410
+Yeah. So what
+
+1708
+02:16:23.670 --> 02:16:24.840
+comes next is
+
+1709
+02:16:28.140 --> 02:16:34.020
+obviously add more features. One is radial slicing and also assembly preview,
+
+1710
+02:16:36.180 --> 02:16:41.100
+debugging and resolving conflicting requirements, which means that when you do one
+
+1711
+02:16:41.160 --> 02:16:45.600
+implementation, it usually creates problems in other implementations, previous
+
+1712
+02:16:45.660 --> 02:16:47.131
+implementations, so you need to
+
+1713
+02:16:50.191 --> 02:16:54.870
+go through, test it with various features together.
+
+1714
+02:16:56.520 --> 02:17:00.361
+So I need to validate it with more users and models to make sure that this is
+
+1715
+02:17:03.660 --> 02:17:08.461
+really reliable. And with every test, I can see more
+
+1716
+02:17:08.490 --> 02:17:13.951
+bugs and correct them. Now, the GitHub project, because I'm still working on it,
+
+1717
+02:17:14.040 --> 02:17:18.961
+it's private, but the idea is to make it public and open source so that other
+
+1718
+02:17:19.020 --> 02:17:19.500
+people can
+
+1719
+02:17:21.691 --> 02:17:26.100
+improve it, inspect it. But also, if they don't want to use a
+
+1720
+02:17:27.660 --> 02:17:33.540
+web app to use it, like Vercel, then they can download it and use it locally.
+
+1721
+02:17:36.031 --> 02:17:41.790
+And maybe to add an LLM-based design assistant on top of this, where you can chat
+
+1722
+02:17:41.881 --> 02:17:47.550
+and you identify, you say, "Create a waffle structure with four-millimeter plywood
+
+1723
+02:17:47.611 --> 02:17:48.451
+and prepare it for
+
+1724
+02:17:49.740 --> 02:17:55.680
+600 to 400 millimeter laser cutting sheet." So maybe to implement
+
+1725
+02:17:55.740 --> 02:18:00.870
+this so the LLM-based designer system can interpret your
+
+1726
+02:18:02.490 --> 02:18:07.020
+conversational language and interpret it as the parameters of the
+
+1727
+02:18:09.060 --> 02:18:09.361
+app.
+
+1728
+02:18:10.560 --> 02:18:12.300
+Oop. Lot of questions.
+
+1729
+02:18:13.560 --> 02:18:13.890
+Yes.
+
+1730
+02:18:18.901 --> 02:18:24.029
+Hi. Yes. So one doubt you already cleared, that preview is a new
+
+1731
+02:18:24.600 --> 02:18:27.120
+upcoming feature that you will be adding.
+
+1732
+02:18:27.720 --> 02:18:27.961
+Mm-hmm.
+
+1733
+02:18:28.020 --> 02:18:33.300
+But some of my slices on the right side panel are
+
+1734
+02:18:33.660 --> 02:18:38.430
+showing me with small amber warning symbols.
+
+1735
+02:18:38.941 --> 02:18:39.211
+Mm-hmm.
+
+1736
+02:18:39.270 --> 02:18:44.640
+And I think those slices are not generated, because in slice preview, it just shows
+
+1737
+02:18:44.701 --> 02:18:46.320
+me like a rectangle.
+
+1738
+02:18:48.330 --> 02:18:50.820
+How do we resolve that? Can I share my screen?
+
+1739
+02:18:51.660 --> 02:18:52.230
+Share it.
+
+1740
+02:18:52.951 --> 02:18:53.160
+Yeah.
+
+1741
+02:18:59.430 --> 02:18:59.730
+Okay.
+
+1742
+02:19:01.651 --> 02:19:02.281
+Can you see this?
+
+1743
+02:19:02.790 --> 02:19:03.031
+Yeah.
+
+1744
+02:19:03.840 --> 02:19:06.390
+So this warning sign-
+
+1745
+02:19:06.961 --> 02:19:07.170
+Mm-hmm
+
+1746
+02:19:07.170 --> 02:19:09.840
+... and this is the slice preview it is showing.
+
+1747
+02:19:09.930 --> 02:19:09.930
+Mm-hmm.
+
+1748
+02:19:10.050 --> 02:19:12.959
+If you click on other slices, it is showing correctly.
+
+1749
+02:19:13.651 --> 02:19:14.910
+Yeah.
+
+1750
+02:19:14.970 --> 02:19:15.691
+But this is-
+
+1751
+02:19:16.290 --> 02:19:22.050
+Okay, this is actually the parts can be printed or laser cut, but it
+
+1752
+02:19:22.201 --> 02:19:23.010
+is because
+
+1753
+02:19:24.451 --> 02:19:29.701
+the label height is too big that you cannot print a label on it or engrave a label
+
+1754
+02:19:29.760 --> 02:19:30.031
+on it.
+
+1755
+02:19:32.070 --> 02:19:32.160
+So-
+
+1756
+02:19:32.220 --> 02:19:32.550
+Oh, okay.
+
+1757
+02:19:34.080 --> 02:19:34.711
+Yeah, sorry.
+
+1758
+02:19:35.250 --> 02:19:39.151
+So if you decrease the... Oop. I will try to show it.
+
+1759
+02:19:40.410 --> 02:19:42.691
+Yeah, if you decrease the label height here,
+
+1760
+02:19:44.550 --> 02:19:45.961
+you might be able to
+
+1761
+02:19:48.451 --> 02:19:49.350
+get rid of this
+
+1762
+02:19:51.660 --> 02:19:56.040
+warning sign. It is also that the piece is too small.
+
+1763
+02:19:58.530 --> 02:19:58.740
+Okay.
+
+1764
+02:19:59.610 --> 02:20:02.131
+Yeah. Then it might also mean that the
+
+1765
+02:20:07.500 --> 02:20:13.200
+previous layer engraving and the, or the next layer engraving cannot be
+
+1766
+02:20:13.260 --> 02:20:13.590
+made.
+
+1767
+02:20:15.570 --> 02:20:16.050
+Oh, okay.
+
+1768
+02:20:16.381 --> 02:20:16.560
+Yeah.
+
+1769
+02:20:17.220 --> 02:20:18.961
+Yeah, sure. Yeah, it is that.
+
+1770
+02:20:26.250 --> 02:20:28.680
+I guess they are still too small pieces.
+
+1771
+02:20:29.010 --> 02:20:29.100
+Yeah.
+
+1772
+02:20:29.760 --> 02:20:33.000
+But this is... Can you go up a little bit? Can we see your...
+
+1773
+02:20:33.600 --> 02:20:35.461
+Yeah, it's a very small object now.
+
+1774
+02:20:35.520 --> 02:20:36.660
+It's 100-
+
+1775
+02:20:36.720 --> 02:20:37.350
+Yeah, so this is-
+
+1776
+02:20:38.700 --> 02:20:40.440
+If you look to the left-
+
+1777
+02:20:41.250 --> 02:20:41.610
+Mm-hmm
+
+1778
+02:20:41.610 --> 02:20:43.470
+... you see that the-
+
+1779
+02:20:45.180 --> 02:20:46.500
+It is small. Yeah
+
+1780
+02:20:46.500 --> 02:20:50.340
+... the size of your object is only the 10 centimeters, and you're trying to cut it
+
+1781
+02:20:50.401 --> 02:20:51.449
+to smaller pieces.
+
+1782
+02:20:53.670 --> 02:20:54.810
+Okay. I understand. Okay.
+
+1783
+02:20:55.260 --> 02:20:56.190
+Yeah. So it's because of that.
+
+1784
+02:20:57.240 --> 02:20:58.050
+Okay. Thank you.
+
+1785
+02:20:59.970 --> 02:21:00.120
+Yeah.
+
+1786
+02:21:01.620 --> 02:21:03.480
+And Silvia?
+
+1787
+02:21:04.560 --> 02:21:04.980
+I am.
+
+1788
+02:21:06.240 --> 02:21:09.690
+So first of all, thank you, Asli. I know very little about digital design, but this
+
+1789
+02:21:09.750 --> 02:21:11.220
+looked impressive, so
+
+1790
+02:21:12.901 --> 02:21:15.901
+kudos from my side. Totally impressed.
+
+1791
+02:21:17.010 --> 02:21:21.240
+So, in my case, I did the
+
+1792
+02:21:23.461 --> 02:21:28.740
+manifold of my object through Blender. It gave me the zero-zero data.
+
+1793
+02:21:29.250 --> 02:21:30.810
+But still, when importing
+
+1794
+02:21:32.131 --> 02:21:37.320
+and trying to slicing it with the same parameter that you had, it tells me that
+
+1795
+02:21:37.381 --> 02:21:38.970
+it's not manifold.
+
+1796
+02:21:39.930 --> 02:21:40.200
+Hmm.
+
+1797
+02:21:42.240 --> 02:21:42.330
+The
+
+1798
+02:21:44.040 --> 02:21:46.590
+STL needs to be further investigated.
+
+1799
+02:21:46.651 --> 02:21:51.570
+Maybe it was not manifold in Blender.
+
+1800
+02:21:52.530 --> 02:21:52.680
+So
+
+1801
+02:21:53.940 --> 02:21:54.660
+I manifold in Blender.
+
+1802
+02:21:54.660 --> 02:21:55.590
+It was not watertight.
+
+1803
+02:21:56.250 --> 02:21:56.461
+Sorry?
+
+1804
+02:21:57.810 --> 02:21:58.620
+Watertight?
+
+1805
+02:22:00.151 --> 02:22:02.220
+Oh, well, I don't know. Watertight?
+
+1806
+02:22:02.430 --> 02:22:03.240
+But yes,
+
+1807
+02:22:04.530 --> 02:22:06.480
+manifolded but not watertight. I don't know.
+
+1808
+02:22:11.401 --> 02:22:16.860
+So anyway, so I manifold it in Blender, but it's telling me through the program
+
+1809
+02:22:16.920 --> 02:22:19.560
+that is not manifolded and cannot slice it.
+
+1810
+02:22:20.100 --> 02:22:20.401
+Mm-hmm.
+
+1811
+02:22:22.470 --> 02:22:22.980
+Hmm.
+
+1812
+02:22:23.370 --> 02:22:24.690
+I'll try with something different.
+
+1813
+02:22:25.170 --> 02:22:25.381
+Yeah.
+
+1814
+02:22:25.920 --> 02:22:31.140
+I know how to solve it in Rhino easier than Blender, to be honest.
+
+1815
+02:22:31.260 --> 02:22:31.711
+I have more-
+
+1816
+02:22:32.520 --> 02:22:33.300
+Oh, yeah
+
+1817
+02:22:33.300 --> 02:22:33.300
+...
+
+1818
+02:22:34.560 --> 02:22:39.240
+more control over Rhino, but so I won't be able to answer that, honestly, in
+
+1819
+02:22:39.300 --> 02:22:39.660
+Blender.
+
+1820
+02:22:40.620 --> 02:22:41.490
+Okay. Thank you.
+
+1821
+02:22:42.030 --> 02:22:42.211
+Yeah.
+
+1822
+02:22:48.990 --> 02:22:50.010
+Any more questions?
+
+1823
+02:23:00.270 --> 02:23:06.211
+I'm sorry. It's not about the tutorial, but you said, in the beginning,
+
+1824
+02:23:06.270 --> 02:23:06.930
+you're going to
+
+1825
+02:23:08.580 --> 02:23:13.410
+put the link for a tutorial, so we can follow through in the end just to make sure
+
+1826
+02:23:13.470 --> 02:23:14.670
+we have everything.
+
+1827
+02:23:18.510 --> 02:23:20.461
+There is a link in the Miro board-
+
+1828
+02:23:21.240 --> 02:23:21.480
+Okay
+
+1829
+02:23:21.631 --> 02:23:23.401
+... she had for the Blender now.
+
+1830
+02:23:23.401 --> 02:23:25.200
+Oh, yeah. Oh, thank you, Anastasia.
+
+1831
+02:23:25.260 --> 02:23:31.140
+I was thinking this Zoom tutorial, but yes, for the Blender
+
+1832
+02:23:31.200 --> 02:23:35.640
+tutorial, there is a link on the Miro board with a YouTube video.
+
+1833
+02:23:36.870 --> 02:23:41.490
+Will the Zoom be available as a video or-
+
+1834
+02:23:41.610 --> 02:23:41.760
+Yeah
+
+1835
+02:23:42.000 --> 02:23:43.410
+... notes? Oh, great.
+
+1836
+02:23:43.800 --> 02:23:49.740
+Yes, but we would like that it is used for personal use to learn and not to
+
+1837
+02:23:49.830 --> 02:23:50.220
+be
+
+1838
+02:23:51.780 --> 02:23:56.220
+transmitted in a classroom of 200 students without credits.
+
+1839
+02:23:57.211 --> 02:23:57.750
+Sure, of course.
+
+1840
+02:23:57.810 --> 02:23:58.020
+Okay?
+
+1841
+02:24:02.850 --> 02:24:07.919
+I'm not really finding the link for the Blender tutorial. Is the...
+
+1842
+02:24:08.461 --> 02:24:09.270
+No, there's none.
+
+1843
+02:24:09.570 --> 02:24:10.980
+Are you on Miro board right now?
+
+1844
+02:24:12.211 --> 02:24:14.310
+Miro? Yeah, I have this up. Yeah.
+
+1845
+02:24:15.720 --> 02:24:17.461
+So here in the Miro board,
+
+1846
+02:24:18.961 --> 02:24:23.790
+this is the zoomed-out part, and if you go in here,
+
+1847
+02:24:25.080 --> 02:24:26.850
+how to cut a model in Blender.
+
+1848
+02:24:28.050 --> 02:24:28.980
+This is a tutorial.
+
+1849
+02:24:34.440 --> 02:24:36.270
+Do you see it now, Rita?
+
+1850
+02:24:38.070 --> 02:24:39.690
+Not really. Sorry.
+
+1851
+02:24:40.200 --> 02:24:41.430
+Do you see my screen now?
+
+1852
+02:24:41.850 --> 02:24:43.140
+Yeah, I'm seeing your screen.
+
+1853
+02:24:44.850 --> 02:24:50.640
+Okay. You need to zoom into the design, in the second phase of the
+
+1854
+02:24:50.700 --> 02:24:56.160
+design, where we do modifications, and this is a YouTube video.
+
+1855
+02:24:56.790 --> 02:24:57.810
+You need to click it.
+
+1856
+02:25:01.651 --> 02:25:03.090
+Oh, I have to zoom in. Yeah.
+
+1857
+02:25:03.330 --> 02:25:03.660
+Okay?
+
+1858
+02:25:05.730 --> 02:25:06.870
+In the design part?
+
+1859
+02:25:07.860 --> 02:25:09.480
+Yes. Under design.
+
+1860
+02:25:10.320 --> 02:25:11.220
+Yeah, under design.
+
+1861
+02:25:12.480 --> 02:25:12.961
+And
+
+1862
+02:25:14.430 --> 02:25:16.050
+3D model modification.
+
+1863
+02:25:19.200 --> 02:25:19.530
+Here.
+
+1864
+02:25:26.131 --> 02:25:28.530
+While you look at it, I will look at the chat.
+
+1865
+02:25:35.550 --> 02:25:39.780
+Asli, would you like us to provide you some feedback about this
+
+1866
+02:25:41.670 --> 02:25:45.961
+tutorial or the experience, or what feedback would you like?
+
+1867
+02:25:46.410 --> 02:25:52.080
+Yes. Thank you. Because we're tying the ends now.
+
+1868
+02:25:52.140 --> 02:25:55.770
+It's the end of the session. So first of all, thank you for joining.
+
+1869
+02:25:57.450 --> 02:26:02.070
+And it was nice because we have our reservations with AI, so it's...
+
+1870
+02:26:04.381 --> 02:26:04.980
+And
+
+1871
+02:26:06.300 --> 02:26:12.270
+so I always like to use it meaningfully and as much as I'm in control
+
+1872
+02:26:12.420 --> 02:26:18.390
+and as much as I don't forget my humanity and my human creativity and understanding
+
+1873
+02:26:18.450 --> 02:26:20.881
+my limitations, understanding AI's
+
+1874
+02:26:22.560 --> 02:26:27.840
+limitations, and working together collaboratively, rather than dumping all my
+
+1875
+02:26:27.901 --> 02:26:29.340
+thought process to it, or
+
+1876
+02:26:31.890 --> 02:26:37.110
+getting all my feedback from it, or asking it to generate miracles for it, because
+
+1877
+02:26:37.140 --> 02:26:39.060
+it cannot do it. So-
+
+1878
+02:26:41.580 --> 02:26:46.620
+So that's what I'd like to do. So I would like you to use AI responsibly first.
+
+1879
+02:26:48.570 --> 02:26:50.250
+Yeah, I agree that
+
+1880
+02:26:52.080 --> 02:26:57.360
+it's really important to demystify AI for creators and what it can do and what it
+
+1881
+02:26:57.420 --> 02:26:59.550
+cannot do, and what we still need to do.
+
+1882
+02:27:00.211 --> 02:27:04.950
+So first of all, if you can go to the Miro board and share
+
+1883
+02:27:07.830 --> 02:27:08.760
+what you have done
+
+1884
+02:27:11.160 --> 02:27:16.950
+with me here. You can also do it afterwards, but it would be cool to see it
+
+1885
+02:27:17.040 --> 02:27:17.610
+here.
+
+1886
+02:27:19.320 --> 02:27:24.450
+The ideation, so what you generated with Gemini, if you can put some photos here
+
+1887
+02:27:25.200 --> 02:27:30.151
+under design. If you can put some photos from, or
+
+1888
+02:27:30.690 --> 02:27:32.160
+screenshots from your
+
+1889
+02:27:37.290 --> 02:27:40.260
+tripod models, and also
+
+1890
+02:27:42.540 --> 02:27:43.290
+fabrication
+
+1891
+02:27:44.730 --> 02:27:48.930
+interface screenshots, that would be nice.
+
+1892
+02:27:50.310 --> 02:27:51.090
+And
+
+1893
+02:27:53.160 --> 02:27:57.270
+there is something interesting that I would like to read, and if you can put your
+
+1894
+02:27:57.300 --> 02:28:00.090
+thoughts and reflections in here, that would be also nice.
+
+1895
+02:28:00.540 --> 02:28:02.881
+And as a last request,
+
+1896
+02:28:05.461 --> 02:28:10.560
+there is the post-training survey that if I may ask you to fill in,
+
+1897
+02:28:13.140 --> 02:28:14.790
+that I will also share the
+
+1898
+02:28:17.070 --> 02:28:18.689
+link with you here on
+
+1899
+02:28:22.560 --> 02:28:24.990
+Zoom. Oh, sorry, not Signal.
+
+1900
+02:28:26.640 --> 02:28:32.280
+But where's my Zoom? Yes, in chat. Then I will be
+
+1901
+02:28:32.401 --> 02:28:32.940
+able to
+
+1902
+02:28:36.090 --> 02:28:42.060
+also provide you with an open badge of completing this tutorial
+
+1903
+02:28:42.211 --> 02:28:43.860
+afterwards. So
+
+1904
+02:28:46.440 --> 02:28:50.160
+if you have done the pre-survey and if you have done the post-survey, I can make
+
+1905
+02:28:50.220 --> 02:28:55.560
+your names and emails and then I can send you the open badge to your emails with
+
+1906
+02:28:55.620 --> 02:28:55.920
+that.
+
+1907
+02:28:57.690 --> 02:28:59.250
+And yeah. But we can
+
+1908
+02:29:01.440 --> 02:29:02.100
+talk about
+
+1909
+02:29:04.680 --> 02:29:08.190
+what you think about this, how you experience AI.
+
+1910
+02:29:08.401 --> 02:29:12.720
+Do you also have AI anxiety like I do?
+
+1911
+02:29:12.961 --> 02:29:18.390
+Because that's my work and that's also what I see everywhere now, so I'm
+
+1912
+02:29:18.450 --> 02:29:21.060
+curious to hear about your thoughts as well.
+
+1913
+02:29:33.990 --> 02:29:35.340
+Well, I can say something.
+
+1914
+02:29:35.850 --> 02:29:36.450
+Yes, please.
+
+1915
+02:29:38.010 --> 02:29:40.920
+I'm concerned about the use of AI, of course.
+
+1916
+02:29:41.670 --> 02:29:41.730
+Mm-hmm.
+
+1917
+02:29:41.881 --> 02:29:43.950
+Using a lot of resources on Earth and
+
+1918
+02:29:45.240 --> 02:29:50.940
+how it's going to change the perspective of everything in a bad way, maybe in a
+
+1919
+02:29:51.000 --> 02:29:51.660
+negative way.
+
+1920
+02:29:52.860 --> 02:29:55.860
+Taking over. We also have to use our brains still, right?
+
+1921
+02:29:56.131 --> 02:29:56.669
+Mm-hmm.
+
+1922
+02:29:57.690 --> 02:30:01.560
+So, yeah. And of course, we hear a lot about all these service centers, et cetera.
+
+1923
+02:30:03.240 --> 02:30:04.740
+The last point, please. Yeah.
+
+1924
+02:30:05.160 --> 02:30:11.010
+We also hear a lot about how much it uses for generating and all
+
+1925
+02:30:11.040 --> 02:30:14.070
+this information input you have to put in it, and yeah.
+
+1926
+02:30:14.280 --> 02:30:15.961
+I think it's a bit scary, I have to say.
+
+1927
+02:30:16.950 --> 02:30:17.490
+I agree.
+
+1928
+02:30:19.350 --> 02:30:22.410
+I think that's a very common reaction, but
+
+1929
+02:30:24.060 --> 02:30:25.651
+I don't have a lot of support for this yet.
+
+1930
+02:30:25.830 --> 02:30:31.381
+But my belief is that technology, when it rolls out, is somewhat neutral,
+
+1931
+02:30:32.010 --> 02:30:36.870
+and it's up to us to decide how it gets deployed and how it gets used.
+
+1932
+02:30:38.280 --> 02:30:39.540
+Unfortunately, capitalism
+
+1933
+02:30:41.340 --> 02:30:46.800
+usually tends to shift things. It tends to dehumanize technologies or de-skill
+
+1934
+02:30:47.310 --> 02:30:51.750
+people. But I'm part of a little collective that is right now
+
+1935
+02:30:52.890 --> 02:30:53.370
+working
+
+1936
+02:30:54.840 --> 02:31:00.631
+on workshops just like this one to help people understand that AI can be used to
+
+1937
+02:31:00.660 --> 02:31:06.600
+great benefit as well. To the extent that it's displacing people like me
+
+1938
+02:31:06.690 --> 02:31:11.490
+from-- I was a software engineer. To the extent that it's displacing people from
+
+1939
+02:31:11.550 --> 02:31:15.360
+some jobs, I think it's opening incredible new opportunities in other jobs.
+
+1940
+02:31:16.381 --> 02:31:20.790
+I'm also sort of an amateur historian of science and technology, and if you look
+
+1941
+02:31:20.850 --> 02:31:24.990
+back, going all the way back to the Steam Age, every time there was a disruptive
+
+1942
+02:31:25.080 --> 02:31:30.990
+technology that came out, there was a lot of concern about how displacing it would
+
+1943
+02:31:31.050 --> 02:31:31.260
+be.
+
+1944
+02:31:32.790 --> 02:31:38.461
+We can't necessarily predict the winners and losers, but it's important to be open
+
+1945
+02:31:38.520 --> 02:31:40.440
+to the change and to be able to roll with it.
+
+1946
+02:31:40.920 --> 02:31:41.010
+And
+
+1947
+02:31:42.540 --> 02:31:46.770
+Asli, I think this is exactly the right way to frame it, is that the human has to
+
+1948
+02:31:46.830 --> 02:31:52.110
+remain in the loop at every stage in the iteration and really
+
+1949
+02:31:52.200 --> 02:31:55.350
+understand sort of what's going on under the hood.
+
+1950
+02:31:55.830 --> 02:32:00.631
+And I think you're exactly right. It's to bring your personal
+
+1951
+02:32:01.770 --> 02:32:07.140
+expertise and knowledge and context to bear on a problem that's important to you to
+
+1952
+02:32:07.230 --> 02:32:11.881
+solve, and using the AI not as the boss, but as the assistant.
+
+1953
+02:32:12.510 --> 02:32:15.300
+And as you can see, sometimes it's not too bright.
+
+1954
+02:32:16.800 --> 02:32:22.320
+But it already knows ahead of time a lot of really interesting
+
+1955
+02:32:22.381 --> 02:32:28.020
+context. And I think if you use it as kind of a mirror to reflect back your own
+
+1956
+02:32:28.950 --> 02:32:32.461
+sensibilities and your own biases,
+
+1957
+02:32:34.890 --> 02:32:39.090
+that in a sense, AI can help us understand better what it means to be human.
+
+1958
+02:32:40.230 --> 02:32:40.381
+Yeah.
+
+1959
+02:32:40.770 --> 02:32:41.490
+My two cents.
+
+1960
+02:32:43.050 --> 02:32:45.690
+Thank you, Kerry. I agree. Only with
+
+1961
+02:32:47.970 --> 02:32:52.020
+one comment that is related to the very beginning of what you said.
+
+1962
+02:32:52.410 --> 02:32:56.550
+It's every technology born neutral.
+
+1963
+02:32:56.670 --> 02:33:02.070
+I think that is not true with AI because it used datas
+
+1964
+02:33:02.220 --> 02:33:07.680
+of people that are usually mostly represented on
+
+1965
+02:33:08.910 --> 02:33:13.649
+internet. So it does not start neutrally.
+
+1966
+02:33:14.160 --> 02:33:16.410
+So it uses
+
+1967
+02:33:19.530 --> 02:33:25.500
+English as its first language, and most data out there
+
+1968
+02:33:25.530 --> 02:33:28.260
+is also in English, and it belongs to certain
+
+1969
+02:33:29.881 --> 02:33:35.700
+cultures and certain people. So this was not born, or when it told
+
+1970
+02:33:35.760 --> 02:33:39.420
+something back at us, it was never neutral from the beginning.
+
+1971
+02:33:40.140 --> 02:33:44.461
+But apart from that, I agree that it needs to be discussed, and it needs to be,
+
+1972
+02:33:48.930 --> 02:33:54.540
+within these kind of contexts, its limits and needs to be
+
+1973
+02:33:55.920 --> 02:34:01.050
+explored, and also needs to be a little bit like, where do we end?
+
+1974
+02:34:01.170 --> 02:34:04.140
+Where does AI start or any other technology start?
+
+1975
+02:34:04.200 --> 02:34:08.881
+We need to explore that further and see in kind of collaborations we can see with
+
+1976
+02:34:08.940 --> 02:34:10.260
+it. And
+
+1977
+02:34:11.790 --> 02:34:16.860
+my husband is a software engineer, and he was also very mortified when he saw what
+
+1978
+02:34:16.980 --> 02:34:19.890
+I was able to do without knowing much.
+
+1979
+02:34:20.340 --> 02:34:21.060
+I know a little bit
+
+1980
+02:34:22.470 --> 02:34:26.550
+programming. So as I said, I'm a computational designer, so I don't start with
+
+1981
+02:34:26.610 --> 02:34:31.470
+blank slate, but I also cannot do this much of coding, obviously.
+
+1982
+02:34:33.510 --> 02:34:38.940
+But hopefully it will not replace the jobs, and we need to move towards looking
+
+1983
+02:34:38.970 --> 02:34:44.910
+into how we can mitigate short-term and long-term impacts of it
+
+1984
+02:34:45.030 --> 02:34:49.110
+in the society as well in terms of job security, too.
+
+1985
+02:34:50.190 --> 02:34:54.330
+But definitely it doesn't hurt to learn about it, because then it empowers us as
+
+1986
+02:34:54.360 --> 02:34:54.480
+well.
+
+1987
+02:34:55.711 --> 02:34:59.910
+I'm very sorry, but I missed most of what you said initially, so I would very much
+
+1988
+02:34:59.970 --> 02:35:01.050
+like to follow up after.
+
+1989
+02:35:01.711 --> 02:35:02.820
+Yeah. Let's do.
+
+1990
+02:35:02.820 --> 02:35:03.780
+Okay. That's fine. Great.
+
+1991
+02:35:03.870 --> 02:35:05.490
+And Shiva?
+
+1992
+02:35:09.120 --> 02:35:09.300
+Hi.
+
+1993
+02:35:10.620 --> 02:35:15.990
+So first of all, this was a great exploration in 3D models and
+
+1994
+02:35:16.740 --> 02:35:17.881
+gen AI to use it.
+
+1995
+02:35:19.200 --> 02:35:22.020
+I'm also quite
+
+1996
+02:35:24.420 --> 02:35:26.401
+reserved when it comes to use of AI.
+
+1997
+02:35:26.490 --> 02:35:30.420
+This might be the most amount of AI used in a month for me.
+
+1998
+02:35:32.310 --> 02:35:32.760
+But
+
+1999
+02:35:34.140 --> 02:35:39.780
+yeah, this was, again, a great demonstration of how to use AI without leaving the
+
+2000
+02:35:39.961 --> 02:35:43.560
+driver's seat, so to speak. So yeah.
+
+2001
+02:35:43.651 --> 02:35:44.190
+Thank you for that
+
+2002
+02:35:46.080 --> 02:35:49.770
+I would also like to add that nowadays,
+
+2003
+02:35:50.070 --> 02:35:54.870
+at least my personal perspective is that
+
+2004
+02:35:56.401 --> 02:36:02.070
+what the humans need to develop more are skills
+
+2005
+02:36:02.160 --> 02:36:08.131
+like policy, sociology, anthropology, so that you can
+
+2006
+02:36:08.220 --> 02:36:12.300
+actually, for example, write the rules for the AI.
+
+2007
+02:36:13.140 --> 02:36:17.550
+These kind of skills are skills that they are going to be more needed.
+
+2008
+02:36:24.660 --> 02:36:27.120
+I agree. Soft skills will be... And how to
+
+2009
+02:36:29.010 --> 02:36:33.480
+find out our human side more, or figure out, explore our human side more.
+
+2010
+02:36:33.930 --> 02:36:37.560
+Yeah, the history of all of those things,
+
+2011
+02:36:39.330 --> 02:36:45.300
+they are very essential for being able to drive the AI where
+
+2012
+02:36:45.390 --> 02:36:45.990
+it should.
+
+2013
+02:36:46.560 --> 02:36:46.830
+Mm-hmm.
+
+2014
+02:36:49.020 --> 02:36:49.470
+Melissa?
+
+2015
+02:36:51.990 --> 02:36:52.950
+Yes. Hi.
+
+2016
+02:36:54.750 --> 02:36:58.500
+I want to tell you something, because
+
+2017
+02:36:59.970 --> 02:37:02.640
+all we see in this class,
+
+2018
+02:37:05.040 --> 02:37:10.770
+come to me once a teacher told us that
+
+2019
+02:37:10.920 --> 02:37:16.320
+AI was going to replace us to the sculptors.
+
+2020
+02:37:16.980 --> 02:37:22.829
+But I think it's a work collaborate between the artist
+
+2021
+02:37:23.459 --> 02:37:29.401
+and the AI, now we can create unique pieces.
+
+2022
+02:37:30.060 --> 02:37:31.381
+And I think
+
+2023
+02:37:32.640 --> 02:37:35.881
+the people in other place, like my
+
+2024
+02:37:37.140 --> 02:37:39.390
+city, because I am from Ayacucho,
+
+2025
+02:37:41.910 --> 02:37:43.140
+we must
+
+2026
+02:37:44.490 --> 02:37:50.401
+lose the scary about these new technologies and think
+
+2027
+02:37:51.120 --> 02:37:56.700
+about the computer and was scary for the
+
+2028
+02:37:56.760 --> 02:38:00.211
+people doesn't know about the use.
+
+2029
+02:38:00.750 --> 02:38:06.631
+But now it's a complement for a lot of works and the artists
+
+2030
+02:38:06.690 --> 02:38:12.360
+like me, it's at all very
+
+2031
+02:38:12.420 --> 02:38:13.620
+important now.
+
+2032
+02:38:14.881 --> 02:38:19.020
+After this class, I have a lot of ideas
+
+2033
+02:38:20.401 --> 02:38:23.850
+for work. And that's all. Thank you.
+
+2034
+02:38:25.980 --> 02:38:28.711
+I'm happy to hear that, Melissa.
+
+2035
+02:38:30.000 --> 02:38:34.711
+I'm really happy to hear that because that was actually our intention, to introduce
+
+2036
+02:38:34.800 --> 02:38:36.030
+you to this
+
+2037
+02:38:37.890 --> 02:38:42.420
+world a little bit, not to feel ourselves lost, but to
+
+2038
+02:38:43.980 --> 02:38:45.300
+see how we can
+
+2039
+02:38:48.420 --> 02:38:50.790
+open up new opportunities if possible.
+
+2040
+02:38:51.390 --> 02:38:53.580
+And if it's not something for us, that's also fair.
+
+2041
+02:38:53.970 --> 02:38:57.961
+Once we know, we can also move on. We don't need to use it.
+
+2042
+02:38:58.200 --> 02:39:03.060
+We don't need to be part of it. But we need to know to be able to decide.
+
+2043
+02:39:06.060 --> 02:39:10.590
+Well, Melissa, nobody will replace the
+
+2044
+02:39:11.461 --> 02:39:16.950
+restoration that you are doing with the stucco plastering, with the plastering of
+
+2045
+02:39:17.040 --> 02:39:22.590
+the rehabilitation of this building. I don't think that it will be replaced by AI.
+
+2046
+02:39:22.651 --> 02:39:26.070
+No. We also do another project as well.
+
+2047
+02:39:26.610 --> 02:39:26.610
+Yes.
+
+2048
+02:39:26.700 --> 02:39:28.950
+Yeah. It's with craft people. They even-
+
+2049
+02:39:28.980 --> 02:39:30.540
+So do things with your hands
+
+2050
+02:39:30.570 --> 02:39:30.570
+...
+
+2051
+02:39:34.800 --> 02:39:35.430
+we work with craft people.
+
+2052
+02:39:35.430 --> 02:39:36.000
+Exactly.
+
+2053
+02:39:37.290 --> 02:39:43.170
+And they say that there's so much that AI can do, and they cannot create lace work,
+
+2054
+02:39:43.620 --> 02:39:46.680
+or they cannot do restoration, or they cannot...
+
+2055
+02:39:47.250 --> 02:39:50.640
+There are these things that are very human. Yeah.
+
+2056
+02:39:53.490 --> 02:39:54.151
+Yes, Julia?
+
+2057
+02:39:56.160 --> 02:40:01.560
+As you were talking about AI and restoration of buildings,
+
+2058
+02:40:02.040 --> 02:40:06.090
+our professor at work, he's working on a project where he does
+
+2059
+02:40:07.470 --> 02:40:12.090
+restoration of buildings with robots, which is programmed with AI.
+
+2060
+02:40:12.211 --> 02:40:17.940
+So, I would not say that this won't change, or
+
+2061
+02:40:18.570 --> 02:40:24.480
+I think there are so many points, so many jobs where we now can't imagine that
+
+2062
+02:40:25.230 --> 02:40:30.780
+AI and robots and new technologies are able to
+
+2063
+02:40:31.320 --> 02:40:35.131
+change those jobs. But I think nothing is
+
+2064
+02:40:37.080 --> 02:40:38.970
+unimaginable at the moment.
+
+2065
+02:40:42.300 --> 02:40:44.940
+I try not to go to those lengths yet.
+
+2066
+02:40:45.660 --> 02:40:51.360
+It kind of scares me to think about that at that moment, to think
+
+2067
+02:40:53.401 --> 02:40:54.870
+the unimaginable.
+
+2068
+02:40:56.370 --> 02:40:57.211
+I don't know. I
+
+2069
+02:40:58.950 --> 02:41:01.950
+try to ground myself on the possibilities.
+
+2070
+02:41:02.820 --> 02:41:04.020
+Yeah, but I agree that
+
+2071
+02:41:06.270 --> 02:41:10.170
+a few weeks ago, I had an anxiety about where we are going, what's going to happen
+
+2072
+02:41:10.200 --> 02:41:14.940
+in 10 years? Are we going to be around still in 10 years? But it's so hard.
+
+2073
+02:41:15.690 --> 02:41:18.870
+But I agree with Anastasia point that we need
+
+2074
+02:41:20.461 --> 02:41:21.840
+clear policy around
+
+2075
+02:41:24.300 --> 02:41:28.920
+how we handle it and how especially big tech handles it.
+
+2076
+02:41:35.370 --> 02:41:35.580
+Yes,
+
+2077
+02:41:37.110 --> 02:41:40.920
+Noel? Or Julia, did you have more points that you want to share or...
+
+2078
+02:41:43.140 --> 02:41:43.290
+Yeah.
+
+2079
+02:41:44.670 --> 02:41:44.850
+Yeah.
+
+2080
+02:41:47.640 --> 02:41:51.120
+Once again, thank you for conducting this tutorial.
+
+2081
+02:41:51.901 --> 02:41:57.000
+I'm basically an electronics engineer who do circuit designing, and I have heard
+
+2082
+02:41:57.090 --> 02:42:02.250
+about 3D modeling many times, many years, but I haven't tried
+
+2083
+02:42:03.930 --> 02:42:09.120
+on this subject. But this gave me more insight
+
+2084
+02:42:10.439 --> 02:42:16.230
+to work on more because, as a electronics engineer, I do prototyping, but
+
+2085
+02:42:16.799 --> 02:42:17.549
+mostly I use
+
+2086
+02:42:18.901 --> 02:42:24.540
+off-the-shelf enclosures for my prototyping. But this gave me more insight.
+
+2087
+02:42:25.200 --> 02:42:26.461
+It gave me
+
+2088
+02:42:28.530 --> 02:42:29.970
+an opportunity to think about to
+
+2089
+02:42:31.200 --> 02:42:33.360
+use a 3D model, customized one,
+
+2090
+02:42:35.040 --> 02:42:39.540
+which is good. And the second thing on AI.
+
+2091
+02:42:41.040 --> 02:42:45.780
+Yeah, AI will advance, but on the restoration point, a few days before I was
+
+2092
+02:42:45.840 --> 02:42:51.810
+restoring one old Sony Hi-Fi system, and AI helped me on looking on old
+
+2093
+02:42:51.901 --> 02:42:57.600
+schematics and to fix that. But again, on the restoration part, our
+
+2094
+02:42:57.660 --> 02:43:00.330
+hands has to go for the restoration.
+
+2095
+02:43:01.290 --> 02:43:06.360
+AI can support us, but AI can't take over. Yeah. Thank you. Thank you once again.
+
+2096
+02:43:06.420 --> 02:43:06.540
+Yeah.
+
+2097
+02:43:07.290 --> 02:43:07.651
+Thank you.
+
+2098
+02:43:17.010 --> 02:43:17.160
+Yeah.
+
+2099
+02:43:17.760 --> 02:43:17.850
+Yeah.
+
+2100
+02:43:19.711 --> 02:43:20.190
+All good?
+
+2101
+02:43:20.910 --> 02:43:22.890
+Yes. Thank you, everyone. Thank you.
+
+2102
+02:43:23.160 --> 02:43:23.160
+Yeah.
+
+2103
+02:43:23.190 --> 02:43:23.280
+Thanks, Natalie.
+
+2104
+02:43:23.340 --> 02:43:28.020
+I would, again, ask you to fill in the form if you feel like it.
+
+2105
+02:43:28.680 --> 02:43:31.711
+It helps me majorly, immensely. You cannot imagine.
+
+2106
+02:43:32.131 --> 02:43:37.470
+But thank you all for joining, and if you want to further the conversation, want to
+
+2107
+02:43:37.530 --> 02:43:43.440
+know more about what we do within the Renaissance project or any other projects
+
+2108
+02:43:43.500 --> 02:43:49.440
+at WAW, I give you my email here, so you can write to me, or I will also
+
+2109
+02:43:49.500 --> 02:43:52.860
+put it on the mural board so you have where to find me.
+
+2110
+02:43:55.290 --> 02:43:55.410
+Yeah.
+
+2111
+02:43:55.440 --> 02:43:59.520
+Basically, the post training is the same, but...
+
+2112
+02:44:01.740 --> 02:44:02.760
+After you have done the training.
+
+2113
+02:44:02.820 --> 02:44:04.560
+After you have done the course, no?
+
+2114
+02:44:04.860 --> 02:44:05.040
+Yeah.
+
+2115
+02:44:05.790 --> 02:44:07.110
+Okay. It's the same.
+
+2116
+02:44:07.920 --> 02:44:10.530
+It's not that lengthy as far as I remember.
+
+2117
+02:44:11.070 --> 02:44:11.070
+Okay.
+
+2118
+02:44:11.100 --> 02:44:15.810
+But it tells you how much you learned and did you learn anything?
+
+2119
+02:44:16.651 --> 02:44:16.920
+Mm-hmm.
+
+2120
+02:44:17.610 --> 02:44:18.660
+Was I helpful to you?
+
+2121
+02:44:20.850 --> 02:44:21.000
+Yeah.
+
+2122
+02:44:22.711 --> 02:44:23.550
+Great. Thank you.
+
+2123
+02:44:24.120 --> 02:44:24.570
+Yeah. Thank you.
+
+2124
+02:44:25.260 --> 02:44:25.560
+Bye.
+
+2125
+02:44:26.190 --> 02:44:26.580
+Bye-bye.
+
+2126
+02:44:27.480 --> 02:44:28.500
+Bye.
+
+2127
+02:44:28.560 --> 02:44:28.950
+Bye.
+
+2128
+02:44:32.401 --> 02:44:32.401
+Bye.

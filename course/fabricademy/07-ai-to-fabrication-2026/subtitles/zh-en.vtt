@@ -1,0 +1,10641 @@
+WEBVTT
+
+1
+00:00:00.090 --> 00:00:00.630
+我想我们得到了它。
+I think we got it.
+
+2
+00:00:02.401 --> 00:00:02.700
+摆
+Okay.
+
+3
+00:00:04.680 --> 00:00:10.380
+在阿斯利开始之前,我只需要五分钟就带你去
+Before Asli will start, I will just take five minutes to take you
+
+4
+00:00:10.440 --> 00:00:15.480
+通过我们一直使用到现在的工作流程
+through this workflow that we have been using until now in
+
+5
+00:00:16.081 --> 00:00:21.991
+(原始内容存档于2019-03-26). Slicer for Fusion 360. 然后阿斯利会带你过去
+Slicer for Fusion 360. And then Asli will take you through
+
+6
+00:00:22.050 --> 00:00:26.370
+2D到3D生成,然后制造的工作流程。
+the workflow of 2D to 3D generation, and then fabrication.
+
+7
+00:00:26.491 --> 00:00:30.210
+我们直接跳进去
+So we will jump directly in
+
+8
+00:00:32.250 --> 00:00:33.120
+教诲,
+the tutorial,
+
+9
+00:00:34.680 --> 00:00:36.330
+我将分享我的屏幕。
+and I will share my screen.
+
+10
+00:00:38.010 --> 00:00:38.460
+还有
+And
+
+11
+00:00:39.661 --> 00:00:43.981
+因此,Slicer for Fusion 360是一个非常容易和直观
+so Slicer for Fusion 360 is a very easy and intuitive
+
+12
+00:00:45.120 --> 00:00:50.970
+程序。 这就是为什么我们一直忠实地使用它,
+program. That's why also we have been using it faithfully,
+
+13
+00:00:51.180 --> 00:00:51.870
+我能说
+I can say.
+
+14
+00:00:53.340 --> 00:00:58.981
+这是一个非常简单的界面。 我只是想告诉你,它接受3D
+It is a very easy interface. I just want to tell you, it accepts 3D
+
+15
+00:00:59.100 --> 00:01:04.860
+像STL和OBJ这样的文件. 当然,它们需要防水。
+files like STL and OBJ. Of course, they need to be watertight.
+
+16
+00:01:05.670 --> 00:01:10.080
+则有四步. 这么说
+And it has four steps. So
+
+17
+00:01:11.310 --> 00:01:16.380
+在这里,你可以看到我的模型打开 和头躺下来。
+here you can see my model opens and the head is lying down.
+
+18
+00:01:16.860 --> 00:01:22.380
+所以,我会再次打开它, 我会选择Z作为一个
+So I will open it again, and I will choose Z as an
+
+19
+00:01:22.470 --> 00:01:28.080
+轴以在正确的轴中正确打开。 对
+axis to open it correctly in the correct axis. Yes.
+
+20
+00:01:28.770 --> 00:01:34.200
+则有四步. 第一步是定义
+And it has four steps. The first step is to define
+
+21
+00:01:34.740 --> 00:01:39.601
+你的激光切割器。 所以你定义了激光切割器
+your laser cutter. So you define your laser cutter
+
+22
+00:01:40.740 --> 00:01:45.840
+用毫米或英寸创建新的制造环境。
+by creating a new manufacturing setting in millimeter or inches.
+
+23
+00:01:46.351 --> 00:01:52.260
+你把尺寸,厚度, 和那些,你可以让他们零。
+You put the size, the thickness, and those ones, you can leave them zero.
+
+24
+00:01:52.380 --> 00:01:53.490
+这是比值。
+This is the margin.
+
+25
+00:01:55.801 --> 00:02:00.900
+一旦你建立了激光切割区域
+And then once you have set up your laser cutting area,
+
+26
+00:02:01.950 --> 00:02:05.101
+你可以留着它。 你可以选择它。
+you can save it. You can select it.
+
+27
+00:02:06.840 --> 00:02:11.730
+因此,你可以在这里看到它已经更新。 这些是我的板子
+So you can see down here that it has updated. These are my boards.
+
+28
+00:02:11.880 --> 00:02:13.710
+这是我材料的厚度。
+This is the thickness of my material.
+
+29
+00:02:14.760 --> 00:02:19.351
+然后,你可以选择 在堆积片,
+And then you can choose between stack slices,
+
+30
+00:02:21.150 --> 00:02:24.391
+你可以选择交叉切片,
+you can choose interlock slices,
+
+31
+00:02:25.770 --> 00:02:26.851
+你可以选择
+you can choose
+
+32
+00:02:29.101 --> 00:02:31.050
+射线片,
+radial slices,
+
+33
+00:02:33.180 --> 00:02:33.570
+和
+and
+
+34
+00:02:34.800 --> 00:02:35.940
+折叠面板.
+folded panels.
+
+35
+00:02:37.830 --> 00:02:43.620
+所以,现在在每个策略中,你
+So now in each of the strategies, you
+
+36
+00:02:43.680 --> 00:02:49.200
+可以定制它们。 如果您选择堆栈切片, 例如您
+can customize them. If you choose stack slices, for example, you
+
+37
+00:02:49.290 --> 00:02:53.940
+在这里可以看到制造的设置,所以你可以直接去激光剪切.
+can see here the manufacturing settings, so you can directly go to laser cut.
+
+38
+00:02:54.870 --> 00:03:00.000
+所以,如果你选择堆叠片,你可以
+So if you choose stack slices, you can
+
+39
+00:03:00.810 --> 00:03:03.391
+改变切片方向,
+change the slice direction,
+
+40
+00:03:07.740 --> 00:03:10.171
+它会自动更新。
+and it will automatically update.
+
+41
+00:03:11.820 --> 00:03:15.270
+你可以修改表单,让它空洞。
+You can modify the form and make it hollow.
+
+42
+00:03:18.601 --> 00:03:20.760
+对不起 你可以看见
+Sorry. And you can see
+
+43
+00:03:22.110 --> 00:03:22.710
+多少钱,
+how much,
+
+44
+00:03:25.260 --> 00:03:28.291
+并适用。 所以会更新
+and apply. So it will update
+
+45
+00:03:35.640 --> 00:03:36.421
+董事会。
+the boards.
+
+46
+00:03:39.390 --> 00:03:39.690
+是吗?
+Hmm.
+
+47
+00:03:42.300 --> 00:03:45.870
+不喜欢这么空洞,我想, 因为我去与鼻子。
+It didn't like so hollow, I think, because I went with the nose.
+
+48
+00:03:48.000 --> 00:03:48.330
+摆
+Okay.
+
+49
+00:04:02.580 --> 00:04:03.930
+好吧,有点不对劲
+Okay, there is something wrong.
+
+50
+00:04:07.351 --> 00:04:12.660
+瓳 而且,我不知道为什么它不做它空洞, 但也会让你看到。
+Oh. And also, I don't know why it doesn't do it hollow, but also it will show you.
+
+51
+00:04:12.781 --> 00:04:15.421
+它做到了,但它没有视觉化。 它有一些虫子。
+It did it, but it doesn't visualize it. It has some bugs.
+
+52
+00:04:16.050 --> 00:04:21.960
+它会告诉你的集合阶梯, 所以你可以走一个
+It will show you the assembly steps, so you can go one
+
+53
+00:04:21.990 --> 00:04:23.250
+一个和
+by one and
+
+54
+00:04:24.510 --> 00:04:25.290
+组装它。
+assemble it.
+
+55
+00:04:26.760 --> 00:04:27.120
+这么说
+So
+
+56
+00:04:29.490 --> 00:04:33.360
+在这里。 它会在纸板上直观
+here. It will visualize it in cardboard.
+
+57
+00:04:33.781 --> 00:04:39.690
+你可以改变,如果你想, 类型切片, 如果有错误,
+You can change, if you want, the type of slices, and if there are errors,
+
+58
+00:04:39.870 --> 00:04:45.630
+它会给你红色。 举个例子,你也可以
+it will give you red. And for this one, for example, you can as well
+
+59
+00:04:45.781 --> 00:04:47.670
+改变切片方向。
+change the slice direction.
+
+60
+00:04:49.560 --> 00:04:52.800
+但你也可以添加
+But you can also add
+
+61
+00:04:54.690 --> 00:05:00.600
+点击更多切片。 你可以移动你的
+more by clicking add more slices. You can move your
+
+62
+00:05:00.690 --> 00:05:02.490
+随处切片.
+slices wherever you want.
+
+63
+00:05:08.430 --> 00:05:13.800
+你可以重新设置和平衡,或者如果你想删除一些。
+And you can reset and equalize again, or you can delete some if you want.
+
+64
+00:05:15.841 --> 00:05:19.050
+那一个会输出。 你可以在这里得到计划。
+That one will export. You can get the plans here.
+
+65
+00:05:19.500 --> 00:05:23.640
+现在红了,但很多时候是红的,但有道理.
+Now it's red, but many times it is red, but it makes sense.
+
+66
+00:05:23.670 --> 00:05:27.300
+你需要看到组装过程来理解它是否有效.
+You need to see the assembly process to understand if it will work or not.
+
+67
+00:05:27.330 --> 00:05:30.600
+有时会因为空心而变红.
+Sometimes it makes it red because it's hollow.
+
+68
+00:05:31.470 --> 00:05:36.990
+你可以在这里选择DXF 以毫米计, 你准备激光切割。
+And you can choose here DXF in millimeters, and you're ready to laser cut.
+
+69
+00:05:37.951 --> 00:05:43.260
+所以这个过程非常简单
+So this is very nice and very easy process
+
+70
+00:05:44.040 --> 00:05:49.980
+使用 Slicer for Fusion 360 从 3D STL 翻译
+using the Slicer for Fusion 360 to translate from a 3D STL
+
+71
+00:05:50.010 --> 00:05:55.560
+或 OBJ, 三维模型, 水密, 到可编织文件
+or OBJ, three-dimensional model, watertight, to fabricatable files
+
+72
+00:05:56.490 --> 00:06:02.310
+直接为激光切割器。 这从我的角度来说,
+directly for the laser cutter. And that was from my part,
+
+73
+00:06:02.430 --> 00:06:04.080
+课程的第一部分。
+the first part of the tutorial.
+
+74
+00:06:08.790 --> 00:06:10.140
+现在Asli可以开始了.
+Now Asli can start.
+
+75
+00:06:10.740 --> 00:06:12.990
+哈罗,大家好。 这是阿斯利。
+Hello, everybody. This is Asli.
+
+76
+00:06:14.370 --> 00:06:18.120
+谢谢你,安娜塔西娅, 介绍斯利切融合。
+Thank you, Anastasia, for the introduction to Slicer for Fusion.
+
+77
+00:06:18.210 --> 00:06:19.951
+我觉得会很好
+I think it will be a good
+
+78
+00:06:21.841 --> 00:06:26.040
+开始,而且我们会回到它 在车间结束时。
+start, and also we'll come back to it at the end of the workshop.
+
+79
+00:06:26.759 --> 00:06:32.250
+Anastasia介绍我时 我是VAAG的
+So as Anastasia introduced me, I am from VAAG
+
+80
+00:06:32.820 --> 00:06:33.540
+在阿姆斯特丹,
+in Amsterdam,
+
+81
+00:06:35.040 --> 00:06:40.530
+从纺织实验室阿姆斯特丹节点。 在VAAG,我们是
+from Textile Lab Amsterdam node. And at VAAG, we are
+
+82
+00:06:41.820 --> 00:06:46.860
+执行名为"文艺复兴"的项目,这是一个伊拉斯谟Plus项目.
+executing a project called Renaissance, which is an Erasmus Plus project.
+
+83
+00:06:46.951 --> 00:06:50.250
+如果你在欧洲,你知道Erasmus Plus的项目。
+If you're in Europe, you know Erasmus Plus projects.
+
+84
+00:06:50.730 --> 00:06:54.660
+这是一个全欧洲
+That it is a Europe-wide
+
+85
+00:06:56.940 --> 00:06:58.410
+教育项目,
+project for education,
+
+86
+00:06:59.940 --> 00:07:05.640
+研究如何开发由人工智能驱动的制造 艺术 设计课程
+where we look into developing AI-driven curriculums for manufacturing, art, design,
+
+87
+00:07:05.701 --> 00:07:06.570
+结构
+and architecture
+
+88
+00:07:07.980 --> 00:07:13.831
+教育。 这仅仅是项目的第一年, 我们正在寻找
+educations. And this is just the first year of the project, and we're looking
+
+89
+00:07:13.920 --> 00:07:15.630
+进到我们可以执行的方法中
+into ways where we can implement
+
+90
+00:07:16.860 --> 00:07:22.770
+作为设计师、艺术家 AI支持的工作流程
+AI-supported workflows in our processes as designers, artists,
+
+91
+00:07:22.890 --> 00:07:28.081
+建筑师. 我是一个建筑师,我有背景
+architects. And I am myself an architect, and I have a background in
+
+92
+00:07:28.591 --> 00:07:32.820
+计算设计,数字设计,以及制造多年.
+computational design, digital design, and fabrication for many years.
+
+93
+00:07:32.910 --> 00:07:36.000
+我也在大学教书
+And I also teach at universities
+
+94
+00:07:37.710 --> 00:07:40.920
+在最初的几年, 但也在制造工作室。
+in the first years mostly, but also in fabrication studios.
+
+95
+00:07:41.640 --> 00:07:47.250
+所以这是课程的简介。 开始吧 直接跳进去
+So this is a brief introduction to the course. Let's start. Jump in directly.
+
+96
+00:07:47.880 --> 00:07:48.091
+首先,我们...
+First,
+
+97
+00:07:49.680 --> 00:07:50.280
+и暗
+I did the
+
+98
+00:07:54.390 --> 00:07:58.410
+在米罗板上展示 这样我就可以和你分享这个链接
+presentation in the Miro board so that afterwards I can share the link with you,
+
+99
+00:07:58.470 --> 00:08:02.820
+然后,你可以轻松地通过它自己, 链接会更容易为
+and then you can go through it easily yourself, and the links will be easier for
+
+100
+00:08:02.880 --> 00:08:07.290
+跟着你 然后我们一起做辅导
+you to follow. And then we will do the tutorials together.
+
+101
+00:08:08.280 --> 00:08:13.831
+让我从这个开始。 我们看看
+And let me start with this. So we will look
+
+102
+00:08:13.951 --> 00:08:14.610
+输入,作为
+into, as
+
+103
+00:08:16.320 --> 00:08:21.390
+Anastasia说,我们在法布学院第二周,所以这个
+Anastasia said, we are in the second week of Fab Academy, so this
+
+104
+00:08:22.620 --> 00:08:28.170
+工作流程被设计为思考 Fab Academy第二周,但它可以是
+workflow was designed thinking about the second week of Fab Academy, but it can be
+
+105
+00:08:28.260 --> 00:08:28.951
+适用于
+applied to
+
+106
+00:08:30.331 --> 00:08:33.091
+显然还有其他的情况和背景。
+other situations and contexts, obviously.
+
+107
+00:08:33.451 --> 00:08:38.640
+但是,因为我们正在做 数字机构, 所以我们正在研究 身体和我们如何
+But since we are doing the digital bodies, so we are looking into bodies and how we
+
+108
+00:08:38.701 --> 00:08:44.520
+可以从中创建2D图像,我们如何从中创建3D模型,然后
+can create 2D images out of them, how we can create 3D models out of them, and then
+
+109
+00:08:44.940 --> 00:08:49.140
+把它们变成激光切割的制造文件。
+turn them into fabrication files for laser cutting.
+
+110
+00:08:51.750 --> 00:08:57.151
+因此,它遵循一个想法 设计制造工作流程,
+So it follows an ideation to design to fabrication workflow, and in the
+
+111
+00:08:57.270 --> 00:09:02.520
+想法,我们将研究准备 2D 图像,我们将使用多模式图像
+ideation, we will look into preparing 2D visuals, and we will use multimodal image
+
+112
+00:09:02.550 --> 00:09:06.630
+生成。 因此,你会使用图像生成在
+generation. So you'll use image to image generation in
+
+113
+00:09:08.988 --> 00:09:14.448
+使用人工智能。 我们将使用文字提示来进一步解释我们想要什么。
+Using AI. And we will use text prompts as well to further explain what we want.
+
+114
+00:09:15.168 --> 00:09:17.808
+然后我们开始准备3D模型。
+And then we will move on to preparing 3D models.
+
+115
+00:09:17.868 --> 00:09:23.448
+在那里,我们将有图像 3D世代再次使用AI,
+There we will have image to 3D generation using AI again,
+
+116
+00:09:23.808 --> 00:09:27.558
+但我们是人类, 人类在循环中是非常重要的。
+but we are humans, and human in the loop is really important.
+
+117
+00:09:27.948 --> 00:09:33.469
+在开始制造我们面对现实世界后果之前
+Before we can move on to fabrication where we deal with real world consequences, we
+
+118
+00:09:33.528 --> 00:09:39.318
+需要检查我们的模型, 我们需要确保 它是实际上我们想要的
+need to check our models, and we need to make sure that it is actually what we want
+
+119
+00:09:39.378 --> 00:09:45.138
+数字化使得一切都成为可能
+to make because digital makes everything possible in the
+
+120
+00:09:45.168 --> 00:09:49.638
+数字世界,但有时在现实世界是不可能实现的.
+digital world, but they are not possible sometimes in the real world.
+
+121
+00:09:50.118 --> 00:09:54.438
+然后,我们将开始准备制造。
+And then we will move on to preparation for fabrication.
+
+122
+00:09:54.858 --> 00:10:00.078
+有,阿纳斯塔西娅说一个选项是切片机,但另一个选项是
+And there is, Anastasiia said one option is the slicer, but the other one is
+
+123
+00:10:01.758 --> 00:10:07.158
+我将介绍一个工作流程,我所遵循的工作流程是,我想制作自己的工具,
+I will introduce a workflow that I followed where I looked into making my own tool,
+
+124
+00:10:08.688 --> 00:10:09.558
+像一个切片机,
+like a slicer,
+
+125
+00:10:11.688 --> 00:10:16.788
+我会告诉你如何使用它 和得到的过程
+and I will show you how to use that one and the process of getting to that
+
+126
+00:10:17.628 --> 00:10:18.288
+使用人工智能。
+using AI.
+
+127
+00:10:19.698 --> 00:10:21.858
+故复说初义.
+So let's get back to the beginning.
+
+128
+00:10:22.608 --> 00:10:28.518
+因此,首先,在我们开始之前,我希望每个人都有机会填写
+So first, before we start, I hope everyone had a chance to fill in
+
+129
+00:10:28.578 --> 00:10:32.568
+训练前调查 这对我的项目,文艺复兴项目很重要.
+the pre-training survey. It is important for my project, Renaissance project.
+
+130
+00:10:33.168 --> 00:10:35.418
+如果你能填写,我真的很感激。
+If you were able to fill in, I'm really grateful.
+
+131
+00:10:37.458 --> 00:10:42.108
+我想给劳拉・穆斯去年的项目 发声
+And I would like to give a shout-out to Laura Muth's project from last year from
+
+132
+00:10:42.168 --> 00:10:47.748
+计算共值周。 她做了一个非常好的项目,所以
+the computational couture week. And she did a very nice project, so
+
+133
+00:10:48.078 --> 00:10:52.278
+当我跟你分享这个联系时 你可以看看她是如何结合的
+when I share the link with you, you can have a look at how she combined
+
+134
+00:10:54.408 --> 00:10:55.219
+图像和
+image and
+
+135
+00:10:59.178 --> 00:11:04.068
+文本到图像工作流程以及图像到3D
+text to image workflows and also image to 3D
+
+136
+00:11:04.668 --> 00:11:09.798
+使用AI进行设计的工作流程.
+workflows using AI for design.
+
+137
+00:11:11.118 --> 00:11:12.378
+因此,让我们开始。
+So let's start.
+
+138
+00:11:15.228 --> 00:11:20.599
+正如阿纳斯塔西娅所说,我们今天将使用Gemini和Tripo.
+As Anastasiia said, we will use today Gemini and Tripo.
+
+139
+00:11:21.618 --> 00:11:25.278
+所以如果你无法
+So if you were not able to
+
+140
+00:11:33.708 --> 00:11:36.918
+下载,或者,对不起,创建一个...
+download it or, sorry, create a...
+
+141
+00:11:40.998 --> 00:11:43.099
+对不起,我想在这里找到我的聊天。 对
+Sorry, I'm trying to find my chat here. Yeah.
+
+142
+00:11:45.378 --> 00:11:51.228
+创建链接。 你可以在这里为Gemini做。 我在聊天时分享了
+Create a linkit. You can do it here for Gemini. I shared it in the chat.
+
+143
+00:11:52.099 --> 00:11:57.708
+还有Tripo 你可以去工作室
+And also for Tripo, you can go to studio.tripo.ai
+
+144
+00:11:58.158 --> 00:12:03.288
+你应当在大地上建立一个账户, 我们将使用免费版本,和
+and create an account there. We will use the free versions, and
+
+145
+00:12:06.438 --> 00:12:08.448
+所以请不要开始使用它们。
+so please don't start using them yet.
+
+146
+00:12:09.108 --> 00:12:13.608
+但如果你想走更多开源
+But if you want to go more open source and
+
+147
+00:12:15.288 --> 00:12:19.758
+显然你可以在当地运行的模型, 如果你有一个
+models that you can run locally, obviously, given the fact that if you had a
+
+148
+00:12:19.788 --> 00:12:23.537
+强大的计算机和图形卡,你可以去 拥抱面,
+powerful computer and graphics card, you can go to Hugging Face,
+
+149
+00:12:25.458 --> 00:12:25.698
+哪个
+which
+
+150
+00:12:26.958 --> 00:12:29.838
+就像一个平台 你可以找到不同的
+is like a platform where you can find different
+
+151
+00:12:36.168 --> 00:12:40.908
+制作文本生成、语言翻译、图像生成、视频的模型
+models for making text generation, language translation, image generation, video
+
+152
+00:12:40.969 --> 00:12:46.608
+生成,3D建模. 因此,对于图像生成,你可以使用
+generation, 3D modeling. So for image generation, you can use
+
+153
+00:12:46.668 --> 00:12:52.368
+而不是Gemini或ChatGPT,你可以使用Flux 2,用于
+instead of Gemini or ChatGPT, you can use Flux.2, for
+
+154
+00:12:52.428 --> 00:12:56.089
+例如,或者用于3D建模,可以使用.
+example, or for 3D modeling, you can use...
+
+155
+00:12:59.778 --> 00:13:05.058
+在甚么处. Tradus 2号,抱歉,还有Hunyuan
+Where is it? Tradus.2, sorry, or Hunyuan
+
+156
+00:13:05.689 --> 00:13:05.928
+3D (英语).
+3D.
+
+157
+00:13:08.958 --> 00:13:13.518
+你可以使用它们。 他们网上的信用非常有限,所以你不能用
+You can use them. They have very limited credits online, so you cannot use them
+
+158
+00:13:13.578 --> 00:13:18.979
+完全当您在网上使用它们。 但如果你下载并在当地使用,那么
+fully when you use them online. But if you download them and use them locally, then
+
+159
+00:13:19.038 --> 00:13:20.418
+你可以随便用
+you can use them however you like.
+
+160
+00:13:21.678 --> 00:13:24.138
+所以,让我们搬进来,英寸
+So let's move in, in
+
+161
+00:13:25.339 --> 00:13:25.818
+Gemini。
+Gemini.
+
+162
+00:13:27.708 --> 00:13:29.089
+所以我们有一个
+So we have a
+
+163
+00:13:33.318 --> 00:13:39.198
+像这样的界面,我们可以导入图像,也可以输入
+sort of interface like this where we can import images and as well as we can
+
+164
+00:13:39.229 --> 00:13:43.848
+写出文字。 所以这里重要的是 我总是
+write text there. So what is important here is that I always,
+
+165
+00:13:45.048 --> 00:13:47.898
+以我为例 从最基本的开始
+in my example, started with a very basic
+
+166
+00:13:50.659 --> 00:13:56.328
+做个人类的模特儿 给它一些提示
+make human model and gave some prompts to it and
+
+167
+00:13:56.628 --> 00:13:58.939
+看我能从里面得到什么样的产出
+see what kind of outputs I can get out of it.
+
+168
+00:13:59.568 --> 00:14:03.469
+所以,我会走你 通过一般的即时结构 我使用。
+So I will walk you through the general prompt structure that I use.
+
+169
+00:14:03.798 --> 00:14:07.638
+在这里,不幸的促动变得有点重要。
+Here, the prompting unfortunately becomes a little bit important.
+
+170
+00:14:08.808 --> 00:14:10.998
+所以在这里你可以使用,例如,
+So here you can use, for example,
+
+171
+00:14:12.708 --> 00:14:16.128
+用你的形象,把这个人类人物变成物质。
+with your image, transform this human figure into material.
+
+172
+00:14:16.189 --> 00:14:16.368
+这么说
+So
+
+173
+00:14:17.659 --> 00:14:18.138
+木质
+wooden
+
+174
+00:14:21.528 --> 00:14:27.348
+块,保持姿势不变,不变,镜头角度
+blocks, keep the pose same, unchanged, the camera angle
+
+175
+00:14:27.439 --> 00:14:32.268
+不变,或者你也可以说 改变姿势 这一点,强调表面
+unchanged, or you can say also change the pose to this and that, emphasize surface
+
+176
+00:14:32.328 --> 00:14:37.128
+质量。 所以,你可以说,它将是纹理 或者它可以有关节或
+quality. So you can say that it will be textured or it could have joints or
+
+177
+00:14:39.439 --> 00:14:45.288
+平滑或透明,等等。 也可以说,如果你想要更多的背景。
+smooth or transparent, et cetera. And you can also say if you want more background.
+
+178
+00:14:46.159 --> 00:14:49.038
+让我们来谈谈一些例子。
+So let's go through some examples.
+
+179
+00:14:50.418 --> 00:14:50.628
+这么说
+So
+
+180
+00:14:53.508 --> 00:14:58.818
+你可以在Gemini画的上面画
+you can also draw on top of your drawings in Gemini.
+
+181
+00:14:58.969 --> 00:15:01.848
+所以当我带来
+So when I bring in
+
+182
+00:15:04.068 --> 00:15:08.659
+像这样的形象,我说... 对不起
+an image like this and I say... Sorry,
+
+183
+00:15:12.439 --> 00:15:13.038
+用这个
+just use this.
+
+184
+00:15:17.778 --> 00:15:21.498
+也可以点击你的模型,然后对它进行草图绘制.
+You can also click on your model and then sketch on it.
+
+185
+00:15:22.698 --> 00:15:23.898
+这就是我用过的。
+So this is what I used.
+
+186
+00:15:26.659 --> 00:15:27.948
+我现在就留着它
+I'm going to save it for now
+
+187
+00:15:29.868 --> 00:15:35.777
+然后回到这,然后你打 明显的屈服,然后它
+and get back to this, and then you hit obviously submit, and then it
+
+188
+00:15:35.808 --> 00:15:40.878
+将开始创建。 我用Gemini做这个的原因是 你有更多的
+will start creating. The reason that I use Gemini for this is that you have more
+
+189
+00:15:41.628 --> 00:15:45.498
+免费信用,与Gemini一起进行图像生成的日常信用.
+free credits, daily credits with Gemini for image generation.
+
+190
+00:15:45.858 --> 00:15:51.738
+但是,ChatGPT不喜欢裸体的人,虽然
+But also, ChatGPT does not like nude people, although
+
+191
+00:15:51.798 --> 00:15:52.068
+他们是
+they are
+
+192
+00:15:54.558 --> 00:15:57.078
+3D数码. 还有
+3D digital. And
+
+193
+00:15:58.638 --> 00:16:02.928
+所以它不能超越它的护栏,
+so it cannot go beyond its guardrails, and
+
+194
+00:16:05.238 --> 00:16:09.558
+即使你试图说服它, 它不允许你创造改变,
+even though you try to convince it, it doesn't allow you to create alterations,
+
+195
+00:16:09.618 --> 00:16:11.958
+对裸体的修改
+modifications on nude bodies.
+
+196
+00:16:16.098 --> 00:16:17.298
+所以,如你所见,
+So as you see,
+
+197
+00:16:20.659 --> 00:16:21.618
+它产生了
+it generated
+
+198
+00:16:23.328 --> 00:16:27.828
+图像,然后可以下载和使用。
+an image to the image that I can then download and use.
+
+199
+00:16:29.958 --> 00:16:35.298
+但正如我所说,你也可以研究不同的材料
+But as I said, you can also look into different kind of material
+
+200
+00:16:35.418 --> 00:16:36.708
+质量或
+qualities or
+
+201
+00:16:39.589 --> 00:16:44.988
+身体的分解,也包括更重要的
+defragmentations of the body and also include more important
+
+202
+00:16:45.708 --> 00:16:50.598
+有关其建筑的资料,如关节和毛巾等等,或
+information about its construction, like joints and dowels and whatnot, or
+
+203
+00:16:51.888 --> 00:16:57.498
+创造不同的结构 和更多的自然结构围绕它,
+create different kind of structures and more natural structures around it and
+
+204
+00:16:59.448 --> 00:17:02.208
+把它伸到身体本身之外一点
+extend it a little bit beyond the body itself.
+
+205
+00:17:07.368 --> 00:17:12.798
+或像这个例子,你也可以吸它
+Or like this example, you can also voxelate it
+
+206
+00:17:13.038 --> 00:17:17.328
+为了能用我想要的尺度 来吸吸它,我
+and to be able to voxelate it in the scale that I want, I
+
+207
+00:17:18.589 --> 00:17:23.959
+给人高度,然后给人数量
+gave the human height and then gave the number of
+
+208
+00:17:24.168 --> 00:17:24.918
+体素化，
+voxelation,
+
+209
+00:17:26.328 --> 00:17:30.438
+阴极立方体的大小。 Voxelation 就像是像素,但是在
+the size of the voxelation cubes. Voxelation is like pixels but in
+
+210
+00:17:30.498 --> 00:17:36.048
+三维. 因此像素在两个维度中工作,以及
+three-dimensional. So pixels work in two dimensions, and
+
+211
+00:17:36.468 --> 00:17:41.089
+voxels在三个维度工作. 但是在给出这个之前,例如,
+voxels work in three dimensions. But before giving this, for example,
+
+212
+00:17:42.318 --> 00:17:46.848
+它给了我一个Python代码 在那里我可以做到这一点在我的计算机。
+it gave me a Python code where I could do this on my computer.
+
+213
+00:17:48.678 --> 00:17:52.458
+但后来我不得不说,我想要 出现氧化,所以我
+But then I had to say that I want the appearance of voxelation, so I
+
+214
+00:17:54.258 --> 00:18:00.198
+不想实际计算出阴道 并了解那里有多少阴道
+do not want to actually compute the voxelation and understand how many voxels there
+
+215
+00:18:00.228 --> 00:18:03.738
+将会是。 所以它能给我这个输出。
+will be. So then it was able to give me this output.
+
+216
+00:18:06.438 --> 00:18:11.688
+你也可以用姿势来修改身体
+You can also modify the body with the pose itself
+
+217
+00:18:11.808 --> 00:18:17.634
+复制和粘贴身体的部分 再次,它需要一点点
+and copy and paste parts of the body Again, it needs a little bit
+
+218
+00:18:17.814 --> 00:18:19.015
+进一步定义
+further definition of
+
+219
+00:18:21.744 --> 00:18:26.274
+欲作何业. 举例来说,如果你不说, "让他们变形与
+what you want to do. And for example, if you do not say, "Make them morph with the
+
+220
+00:18:26.304 --> 00:18:29.964
+身体",然后它只是复制它, 并把它留在那里, 有时它在前面
+body," then it just copies it and leaves it there, and sometimes it's in front of
+
+221
+00:18:30.024 --> 00:18:34.194
+它,有时它就在它的旁边,但它从来没有与身体的形态.
+it, or sometimes it's next to it, but it never morphs with the body.
+
+222
+00:18:39.384 --> 00:18:41.964
+或者你可以做其他种类的
+Or you can do other kinds of
+
+223
+00:18:45.084 --> 00:18:48.954
+修改或发出不同的提示,
+modifications or give different prompts,
+
+224
+00:18:50.694 --> 00:18:56.274
+可以在身体上创建不同的纹理,也可以完成不同的纹理.
+where you can create different textures on the body and also different finishes.
+
+225
+00:18:57.265 --> 00:19:02.604
+因此,从这里开始,我不仅想
+So here, from this point onwards, I wanted to not only
+
+226
+00:19:03.714 --> 00:19:04.614
+做第一个
+do the first
+
+227
+00:19:05.874 --> 00:19:09.654
+图像生成,但也做一些进一步的修改。
+image generation but also do some further modifications on it.
+
+228
+00:19:10.794 --> 00:19:16.434
+所以,你也可以说,"增加负 凸起的金色," 这意味着
+So you can also say, "Increase negative bump in golden colors," which means is that
+
+229
+00:19:16.584 --> 00:19:22.284
+凸起是一个技术术语 有点在计算机上渲染。
+bump is a little bit of a technical term for rendering on computers.
+
+230
+00:19:22.914 --> 00:19:27.234
+用于3D模型的纹理。
+It is for the textures that they apply on the 3D models.
+
+231
+00:19:27.654 --> 00:19:33.384
+它创造了某种扩展和
+It creates sort of an extension and
+
+232
+00:19:35.784 --> 00:19:41.544
+部分的挤压。 但是如果你有负撞, 这意味着它去
+extrusion on parts. But if you have the bump negative, which means that it goes
+
+233
+00:19:41.634 --> 00:19:47.064
+内向. 所以,这里,当我产生负的冲击,它去
+inwards. So here, when I create the negative bump, it goes
+
+234
+00:19:48.084 --> 00:19:50.694
+下,或者它让 外观下降。
+down, or it gives the appearance of going down.
+
+235
+00:19:50.784 --> 00:19:54.684
+因此,由于这是一个二维图像,它不会做到这一点。
+So because this is a 2D image, it will not be able to do that.
+
+236
+00:19:56.304 --> 00:20:01.674
+所以当你说从这个更平滑的版本增加负凸起时
+So you see, when you say increase negative bump from this smoother version, it
+
+237
+00:20:01.734 --> 00:20:04.674
+继续往深处走
+moves on to a little bit deep
+
+238
+00:20:06.954 --> 00:20:07.344
+裂缝
+cracks.
+
+239
+00:20:10.884 --> 00:20:13.194
+正如我所说,你也可以改变姿势。
+You can also change the pose, as I said.
+
+240
+00:20:13.704 --> 00:20:16.884
+"给人类的啮齿动物 思想家的姿势"
+"Give the human rodents the thinker pose."
+
+241
+00:20:21.324 --> 00:20:25.644
+然后你可以说:"把背景和块块移到人类下面.
+And then you can say, "Remove the background and the blocks under the human.
+
+242
+00:20:25.975 --> 00:20:28.104
+只要保持人类。" 所以你有人类。
+Just keep the human." So you have the human.
+
+243
+00:20:28.614 --> 00:20:33.414
+然后,你也可以融入 转化,要求一些
+And then you can also incorporate transformations, ask to make some
+
+244
+00:20:34.554 --> 00:20:40.524
+转变。 所以我说,"把左脚缩小一半。"
+transformations. So I said, "Scale the left foot by half."
+
+245
+00:20:41.094 --> 00:20:45.744
+然后,你看到脚是微缩的,但它不是
+And then you see the foot is slightly scaled, but it's not
+
+246
+00:20:46.524 --> 00:20:49.284
+完全一半的原尺寸。
+exactly half of the original size.
+
+247
+00:20:49.704 --> 00:20:55.225
+所以,这意味着你可以要求 转换命令,因为它是
+So what it means is that you can ask for transformation commands because it does
+
+248
+00:20:55.344 --> 00:21:00.265
+对你说的语义评价. 它不能进行精确的转变。
+semantic evaluation of what you said. It cannot do precise transformations.
+
+249
+00:21:00.324 --> 00:21:05.544
+所以,如果你想做精确的转换, 如切,修剪,选择,和
+So if you want to do precise transformations, like cuts, trims, selections, and
+
+250
+00:21:05.604 --> 00:21:07.704
+准确的界限, 你需要回到你的
+exact boundaries, you need to go back to your
+
+251
+00:21:10.674 --> 00:21:16.644
+Photoshop 或 GIMP 或任何其他图像修改、图像的好旧工具
+good old tools of Photoshop or GIMP or any other image alteration, image
+
+252
+00:21:16.704 --> 00:21:21.684
+修改软件,然后用它,然后把它带到AI更多
+modification software you use, and then use it and then bring it to AI for more
+
+253
+00:21:21.774 --> 00:21:27.414
+解释性转变. 这是另一个失败的例子。
+interpretive transformations. So this is another example of where it fails.
+
+254
+00:21:27.594 --> 00:21:30.954
+所以我说,我把这些点在上面,然后
+So I said I put these points on it, and then
+
+255
+00:21:33.024 --> 00:21:37.314
+我要求用这些作为中心点来创造洞,但
+I asked to create holes using these as center points, but
+
+256
+00:21:39.114 --> 00:21:40.824
+我问了洞
+I asked the holes to
+
+257
+00:21:42.084 --> 00:21:47.454
+但是它无法创造出它们
+be same and uniform, but it was not able to create them in
+
+258
+00:21:48.294 --> 00:21:54.144
+大小一样 你也看到了,它给了我一点点 比我
+the same size. And you also see that it gave me a little bit more than what I
+
+259
+00:21:54.234 --> 00:22:00.144
+问. 我认为它决定 肚脐也需要是
+asked for. I think it decided that the belly button also needed to be
+
+260
+00:22:00.204 --> 00:22:00.864
+空虚了
+hollowed out.
+
+261
+00:22:03.504 --> 00:22:09.174
+或将模型切成红色,
+Or slicing the model from where it is indicated with red and
+
+262
+00:22:09.234 --> 00:22:13.584
+删除手臂、腿和头部,保持身体的纹理,
+deleting the arms, legs, and head, keep the texture of the body, make the
+
+263
+00:22:13.614 --> 00:22:17.934
+背景为白色。 所以,你看,这也 是非常解释性的,它不是
+background white. So you see that that is also very interpretive, and it's not
+
+264
+00:22:18.024 --> 00:22:18.475
+没错
+exact.
+
+265
+00:22:20.244 --> 00:22:23.484
+所以,回去,你可以的,你应该
+So going back, you can
+
+266
+00:22:24.894 --> 00:22:27.384
+考虑加入一些
+also think about adding some
+
+267
+00:22:29.304 --> 00:22:30.714
+纹理你自己
+texture yourself by
+
+268
+00:22:31.975 --> 00:22:32.694
+重叠,
+overlapping,
+
+269
+00:22:33.924 --> 00:22:38.184
+将纹理形象和人类并列
+juxtaposing a texture image and the human,
+
+270
+00:22:43.374 --> 00:22:49.074
+如你所见,然后要求
+as you see, and then ask to
+
+271
+00:22:49.194 --> 00:22:53.664
+缩放纹理,但它没有显示它,但凸起是
+scale the texture, but it does not show it, but the bump is
+
+272
+00:22:55.434 --> 00:22:56.124
+缩放在这里,
+scaled here,
+
+273
+00:22:57.954 --> 00:22:58.554
+如汝所见.
+as you see.
+
+274
+00:23:02.874 --> 00:23:03.174
+再说一遍,
+Again,
+
+275
+00:23:04.434 --> 00:23:09.954
+背景被删除。 光学幻觉作为凸起层应用.
+the background is removed. The optical illusion is applied as a bump layer.
+
+276
+00:23:10.314 --> 00:23:14.844
+这些纹理和凸起层相当重要,因为那样它们就会给
+These textures and bump layers are quite important because then they give the
+
+277
+00:23:14.904 --> 00:23:15.714
+显示
+appearance of
+
+278
+00:23:17.064 --> 00:23:21.354
+非烟雾表面。 所以当你去3D模型生成,
+non-smooth surfaces. So when you go to 3D model generation,
+
+279
+00:23:22.884 --> 00:23:26.124
+他们将在大地上更加明显,
+then they will be more apparent in the
+
+280
+00:23:27.354 --> 00:23:29.544
+您创建的 3D 模型 。
+3D model that you create.
+
+281
+00:23:34.404 --> 00:23:39.774
+或者,这是 一点点睡眠试验 看看我能不能做到这一点。
+Or this was a little bit of a sleep trial to see if I could do this.
+
+282
+00:23:40.644 --> 00:23:42.234
+还有,是的。
+And, yeah.
+
+283
+00:23:45.414 --> 00:23:51.114
+应用轮廓作为纹理. 再次,缩放纹理三次.
+Applying the ruffle as a texture. Again, scaling the texture three times.
+
+284
+00:23:51.204 --> 00:23:55.134
+复次释义. 它试图放大三次,但它并不完全
+Again, it's interpretive. It tries to scale it three times, but it's not exactly
+
+285
+00:23:55.344 --> 00:23:58.734
+3倍大。 3倍大。 它只是更大的。
+three times bigger. It's just bigger.
+
+286
+00:24:00.774 --> 00:24:01.824
+没错
+So yeah.
+
+287
+00:24:05.574 --> 00:24:07.044
+这部分是给
+This part is for the
+
+288
+00:24:08.844 --> 00:24:14.784
+2D影像,我现在就停止分享,问
+2D visuals, and I will just stop now sharing and ask
+
+289
+00:24:14.964 --> 00:24:16.164
+如果你有任何问题或
+if you have any questions or if
+
+290
+00:24:18.714 --> 00:24:21.684
+我们应该开始自己做
+we should start making our own
+
+291
+00:24:23.034 --> 00:24:28.074
+现在的模特儿。 对不起,2D视觉。 对啊
+models now. Sorry, 2D visuals. For that, yeah.
+
+292
+00:24:28.434 --> 00:24:29.394
+你有问题吗?
+Do you have any questions?
+
+293
+00:24:30.024 --> 00:24:33.234
+对 顿 首先,谢谢你的介绍。
+Yeah. Hi. So first, thanks for introduction.
+
+294
+00:24:33.354 --> 00:24:33.774
+还有
+And
+
+295
+00:24:35.094 --> 00:24:38.304
+除了Gemini还有别的选择吗? 你能提醒一下吗?
+what was the alternative to Gemini? Could you please remind?
+
+296
+00:24:39.564 --> 00:24:40.225
+是福禄.
+It's Flux.
+
+297
+00:24:40.884 --> 00:24:41.694
+奢华. 对
+Flux. Mm-hmm.
+
+298
+00:24:41.933 --> 00:24:43.254
+豪华的哈格脸。
+Flux on Hugging Face.
+
+299
+00:24:45.084 --> 00:24:47.363
+还有许多其他选择。
+There are many more alternatives.
+
+300
+00:24:47.843 --> 00:24:51.624
+如果您想要付费版本,也可以使用ChatGPT.
+If you want a paid version, you can also use ChatGPT.
+
+301
+00:24:51.714 --> 00:24:56.934
+正如我所说 它有自己的护栏 所以它不允许你修改
+As I said, it has its own guardrail, so it doesn't allow you to even modify a
+
+302
+00:24:57.024 --> 00:24:57.804
+简单
+simple
+
+303
+00:24:59.184 --> 00:25:01.494
+MakeHuman类的模特,但是是的。
+Make Human model, but yeah.
+
+304
+00:25:03.954 --> 00:25:09.834
+对于这个教程,你希望我们与人类合作, 或者我们也可以与
+For this tutorial, you would like that we work with Human, or we can work also with
+
+305
+00:25:10.015 --> 00:25:10.464
+其他...
+other-
+
+306
+00:25:11.064 --> 00:25:13.284
+随便你做什么都可以 你可以跟他们一起工作
+You can work with anything. You can work with
+
+307
+00:25:14.964 --> 00:25:18.594
+你开始工作, 或者如果你有照片,你可以
+what you have started working with, or if you have a photo of yourself, you can
+
+308
+00:25:18.684 --> 00:25:19.674
+也请它
+also ask it to
+
+309
+00:25:20.964 --> 00:25:22.644
+让他们出现
+give them appearance of a
+
+310
+00:25:25.164 --> 00:25:28.524
+数字设计的身体上没有任何纹理
+digitally designed body without any textures on it.
+
+311
+00:25:30.054 --> 00:25:32.515
+但我会再做一个"创MakeHuman类"
+But I will work on the Make Human again.
+
+312
+00:25:33.024 --> 00:25:35.034
+或者你认为像猫的照片。
+Or you think like a photo of a cat.
+
+313
+00:25:36.234 --> 00:25:37.165
+有可能,对
+Could be, yeah.
+
+314
+00:25:37.614 --> 00:25:37.944
+摆
+Okay.
+
+315
+00:25:38.394 --> 00:25:39.355
+那也是个尸体
+That's a body as well.
+
+316
+00:25:41.995 --> 00:25:47.844
+有一个问题。 是的,我会跟你分享米罗板的链接
+And there is a question. Yes, I will share the link to the Miro board with you.
+
+317
+00:25:52.254 --> 00:25:55.134
+对 还有几个
+Oh, yes. There were a few more.
+
+318
+00:25:59.064 --> 00:26:02.064
+我就跟你分享这个"创MakeHuman类"模型
+I will just share this Make Human model with you,
+
+319
+00:26:06.114 --> 00:26:11.304
+这样,如果您想要从它开始,您就可以下载并使用它。
+so that if you want to start with it, you can already download this and use it.
+
+320
+00:26:14.634 --> 00:26:18.774
+我给你五分钟时间探索
+And I will give you maybe five minutes for you to explore the
+
+321
+00:26:22.374 --> 00:26:25.884
+给自己创造 如果你有问题 我们可以一起调查
+generation yourself. And if you have questions, we can look into it together
+
+322
+00:26:27.534 --> 00:26:32.725
+以免我们在自己探索之前 踏上下一步
+so that we don't go to the next step before we look into explore it ourselves.
+
+323
+00:26:33.804 --> 00:26:36.564
+所以你想让我们去Gemini...
+So you would like us to go to the Gemini and-
+
+324
+00:26:36.624 --> 00:26:36.745
+对
+Yes
+
+325
+00:26:37.165 --> 00:26:38.995
+……试着输入提示词。
+... try to put a prompt.
+
+326
+00:26:39.774 --> 00:26:40.314
+没错
+Exactly.
+
+327
+00:26:40.944 --> 00:26:45.024
+并,是的, 改变的东西。
+And to, yeah, to transform something.
+
+328
+00:26:45.114 --> 00:26:50.784
+是啊,为了改变。 你可以产生一些东西,一件事,和
+Yeah, to transform. You can generate a few things, one thing, and
+
+329
+00:26:51.384 --> 00:26:51.804
+我会的
+I will
+
+330
+00:26:53.814 --> 00:26:59.754
+也许现在分享米罗的链接,以便你看看这些例子
+maybe share the Miro link now so that you can look at the examples
+
+331
+00:26:59.814 --> 00:27:00.684
+在那里,然后
+there, and then
+
+332
+00:27:02.965 --> 00:27:03.834
+他们会帮你的
+they will help you.
+
+333
+00:27:13.284 --> 00:27:14.154
+给你。
+There you go.
+
+334
+00:27:14.184 --> 00:27:14.454
+对不起,快问
+Sorry, quick question.
+
+335
+00:27:15.294 --> 00:27:15.324
+对
+Yep.
+
+336
+00:27:15.324 --> 00:27:18.654
+由汝声闻. 确保我等10秒。 对
+By the sound of you. Make sure I wait 10 seconds. Yeah.
+
+337
+00:27:19.134 --> 00:27:19.975
+你好,弗雷德里克。 - 你好,弗雷德里克。
+Hello, Frederick.
+
+338
+00:27:20.454 --> 00:27:20.814
+哈罗
+Hello.
+
+339
+00:27:22.284 --> 00:27:27.204
+对于初学者来说 有没有比人类容易一点的数字? 故为人.
+Is there any figure that is a bit more easy for beginners than a human? So a human.
+
+340
+00:27:29.052 --> 00:27:29.292
+或者说
+Or
+
+341
+00:27:30.912 --> 00:27:34.751
+我是一个完整的初学者。 我不是设计师 但我想学习
+I'm a complete beginner. I'm not a designer, but I want to try to learn the
+
+342
+00:27:35.352 --> 00:27:40.572
+与大赦国际一起创建模型的步骤。
+steps of generating the models with the AI.
+
+343
+00:27:41.862 --> 00:27:47.442
+正如我所说,我已经把 人类人物在这里聊天,所以你可以
+Well, as I said, I already put the human figure in the chat here, so you can
+
+344
+00:27:47.472 --> 00:27:52.692
+已经下载并上传到Gemini上。 我们正在使用Gemini。
+already download it and upload it on Gemini. And we are using Gemini right now.
+
+345
+00:27:52.781 --> 00:27:55.272
+我将分享我的屏幕,我们将
+So I will share my screen, and we will
+
+346
+00:27:56.712 --> 00:28:00.972
+将我们的数字插入到那里,这个数字是我和你聊天时分享的,然后
+insert our figure there, this figure that I shared in the chat with you, and then
+
+347
+00:28:01.033 --> 00:28:06.432
+我们会写一些提示。 你可以轻易使用米罗板的提示,
+we will write some prompts. You can use the prompts from the Miro board easily,
+
+348
+00:28:07.513 --> 00:28:11.592
+然后我们将产生它。 亚历山德罗,这回答了你的问题吗?
+and then we will generate it. So does that answer your question, Alessandro?
+
+349
+00:28:13.063 --> 00:28:17.591
+对 我会尝试与人类。 所以,我觉得更多的支持 与提示
+Yes. I will try with a human then. So I feel a bit more supported with the prompts
+
+350
+00:28:17.651 --> 00:28:18.643
+米罗板。
+of the Miro board.
+
+351
+00:28:18.942 --> 00:28:18.972
+摆
+Okay.
+
+352
+00:28:18.972 --> 00:28:19.813
+我试试看
+I will try that.
+
+353
+00:28:20.082 --> 00:28:20.232
+摆
+Okay.
+
+354
+00:28:20.322 --> 00:28:20.622
+谢谢
+Thank you.
+
+355
+00:28:21.222 --> 00:28:26.682
+是的,欢迎。 因为这真的很难 第一次得到Gemini
+Yeah, you're welcome. Because that is really difficult the first time to get Gemini
+
+356
+00:28:26.832 --> 00:28:29.862
+或其他语言模式来做你想做的事。
+or any other language model to do what you want.
+
+357
+00:28:30.402 --> 00:28:34.033
+总是结果 与你想要的有些不同,
+And always the results are a little bit different than what you want,
+
+358
+00:28:37.212 --> 00:28:39.042
+所以这是非常可以理解的。
+so that is very understandable.
+
+359
+00:28:40.242 --> 00:28:41.472
+我能问个问题吗?
+Can I ask a question?
+
+360
+00:28:42.732 --> 00:28:43.932
+对不起,是的。
+Sorry, yes.
+
+361
+00:28:47.682 --> 00:28:49.272
+有人说他们有问题吗?
+Did someone say that they have a question?
+
+362
+00:28:49.842 --> 00:28:55.632
+对 一心奉请. 当你谈论大坝,当你是
+Yeah. I'd like to ask a question. When you talked about the damping, when you were
+
+363
+00:28:55.692 --> 00:29:00.612
+描述图像,你告诉 坝,撞,我们能生成一个
+describing the image and you told the damping, the bumping, can we generate an
+
+364
+00:29:00.703 --> 00:29:05.742
+图像,我们能生成一个人类模型 而不拥有这样的坝?
+image, can we generate a human model without not having the damping like this?
+
+365
+00:29:06.311 --> 00:29:11.832
+因为你说过,我们生成和3D打印后 我们会发现一个碰撞,一个
+Because you told that after we generate and we 3D print, we will find a bumping, a
+
+366
+00:29:13.033 --> 00:29:18.912
+负颠倒. 我们能在Gemini上生成吗? 然后没有
+negative bumping. Can we generate on the Gemini and then don't get any
+
+367
+00:29:19.002 --> 00:29:22.362
+像一个完全粗糙的表面?
+damping, like a perfectly rough surface?
+
+368
+00:29:22.362 --> 00:29:26.592
+当然 对 所以如果你能说我想要一个平滑的表面, 那么它会给
+Of course. Yeah. So if you can say that I want a smooth surface, then it will give
+
+369
+00:29:26.652 --> 00:29:27.763
+你是一个平滑的表面。
+you a smooth surface.
+
+370
+00:29:28.422 --> 00:29:28.572
+对
+Oh, yeah.
+
+371
+00:29:28.572 --> 00:29:29.052
+希望是这样
+Hopefully.
+
+372
+00:29:30.402 --> 00:29:30.552
+摆
+Okay.
+
+373
+00:29:30.552 --> 00:29:35.322
+这并不总是真实的, 但有时这些东西, 这些凸起你创造
+It's not always true, but sometimes these things, these bumps that you create on
+
+374
+00:29:35.382 --> 00:29:40.063
+纹理帮助您生成一个三维效果,一个纹理
+the texture helps you with generating a more three-dimensional effect, a texture
+
+375
+00:29:40.092 --> 00:29:43.542
+在图像到3D模型时,效果。
+effect when you go to image to 3D modeling.
+
+376
+00:29:44.442 --> 00:29:44.652
+瓳
+Oh.
+
+377
+00:29:45.042 --> 00:29:49.813
+这就是为什么我想介绍它, 但如果你不想有任何类型的
+That's why I wanted to introduce it, but if you don't want to have any kind of
+
+378
+00:29:54.102 --> 00:29:57.432
+身体上的额外,你也可以使它非常光滑。
+extras on the body, you can also make it very smooth.
+
+379
+00:29:58.302 --> 00:29:59.442
+对 谢谢
+Oh, yeah. Thanks.
+
+380
+00:29:59.953 --> 00:30:01.063
+对 不用谢
+Yeah. You're welcome.
+
+381
+00:30:06.612 --> 00:30:11.472
+所以问题是,如果Gemini上产生的模型 是完全多元的
+So the question is, if the models generated on Gemini are type of fully manifold
+
+382
+00:30:11.592 --> 00:30:13.033
+对象通常。 这么说
+objects usually. So,
+
+383
+00:30:14.712 --> 00:30:19.332
+我们在Gemini上创建的模型其实不是模型,而是二维图像,所以
+the models that we create on Gemini are not actually models, they are 2D images, so
+
+384
+00:30:19.393 --> 00:30:24.792
+它们还不是流形的。 而我们制作的Tripod,Tripod是
+they are not manifold yet. And the ones that we generate on Tripod, Tripod is
+
+385
+00:30:25.182 --> 00:30:30.852
+通常都不错 如此多元意味着,如果它不是水密的。
+usually really good. So manifold means that if it is watertight or not.
+
+386
+00:30:30.942 --> 00:30:31.092
+这么说
+So
+
+387
+00:30:32.652 --> 00:30:37.902
+如果几何是多面的,那就意味着它是紧水的,然后是3D
+if the geometry is manifold, then it means that it's watertight, then it's 3D
+
+388
+00:30:37.962 --> 00:30:43.932
+可打印。 所以我想解释一下你的问题文本 让其他人
+printable. So I'm trying to interpret your question text so that other people
+
+389
+00:30:43.961 --> 00:30:47.953
+能够理解 通常,这是相当好的。
+can understand. And usually it is quite good.
+
+390
+00:30:48.763 --> 00:30:54.402
+但我们也会去Blender, 我会告诉你两个方法,你可以
+But we will also go to Blender, and I'll show you two ways where you can
+
+391
+00:30:54.462 --> 00:30:57.313
+检查对象是否是多面体或
+check if an object is manifold or
+
+392
+00:30:59.112 --> 00:31:02.563
+Blender能帮助你多变
+how Blender can help you make it manifold.
+
+393
+00:31:03.672 --> 00:31:03.912
+对不起
+Sorry.
+
+394
+00:31:05.292 --> 00:31:10.752
+我的Gemini说,"对不起,我不能产生不安全的图像。" 不知道有没有其他人
+My Gemini said, "Sorry, I cannot generate unsafe images." I wonder if other people
+
+395
+00:31:10.813 --> 00:31:14.563
+管理。 你分享的截图 我...
+managed. The screenshot that you shared, I-
+
+396
+00:31:16.332 --> 00:31:16.542
+你说什么?
+Sorry?
+
+397
+00:31:17.412 --> 00:31:17.742
+没办法
+Couldn't.
+
+398
+00:31:19.872 --> 00:31:21.372
+你能再问一次吗 路易莎?
+Can you ask again, Luisa?
+
+399
+00:31:22.152 --> 00:31:27.672
+对 我把图像,你分享的截图 送到Gemini
+Yeah. I sent the image, the screenshot that you shared, into Gemini,
+
+400
+00:31:28.302 --> 00:31:33.732
+我写了一些迅速, 它说,"对不起,我不能产生不安全的图像。"
+and I wrote some prompt, and it said, "Sorry, I can't generate unsafe images."
+
+401
+00:31:34.302 --> 00:31:35.712
+哦,还有。
+Oh, also.
+
+402
+00:31:39.192 --> 00:31:40.572
+有人驾驭吗?
+Did anybody manage?
+
+403
+00:31:41.442 --> 00:31:42.822
+哦,有趣的是,我们是...
+Oh, interesting.
+
+404
+00:31:44.862 --> 00:31:48.372
+让我找个不裸体的人 因为通常...
+Let me find a human that does not look nude, because usually-
+
+405
+00:31:48.672 --> 00:31:50.322
+这对我来说是有效的。 对不起
+It worked for me. Sorry.
+
+406
+00:31:50.862 --> 00:31:50.922
+是吗?
+Hmm?
+
+407
+00:31:50.922 --> 00:31:51.822
+这对我来说是有效的。
+It worked for me.
+
+408
+00:31:52.722 --> 00:31:52.962
+摆
+Okay.
+
+409
+00:31:55.632 --> 00:31:57.852
+但是,他们展示了一个形象
+But they show an image of a
+
+410
+00:31:59.082 --> 00:32:02.263
+人类与衣服, 我说,"脱掉衣服。"
+human with the clothes, and I say, "Take off the clothes."
+
+411
+00:32:03.042 --> 00:32:03.252
+对
+Mm-hmm.
+
+412
+00:32:03.792 --> 00:32:07.453
+我想看起来像一个娃娃一样。
+And I want to look like a doll, like, too.
+
+413
+00:32:07.482 --> 00:32:07.662
+对
+Mm-hmm.
+
+414
+00:32:08.592 --> 00:32:11.322
+并告诉为什么我要使用它。
+And told why I was using it.
+
+415
+00:32:14.682 --> 00:32:18.222
+聊天时有个问题 你怎么把图像上传给Gemini?
+There is a question in the chat. How do you upload the image to Gemini?
+
+416
+00:32:18.792 --> 00:32:22.212
+摆 我现在就去,希望如此。
+Okay. I am going there now, hopefully.
+
+417
+00:32:31.572 --> 00:32:35.502
+好了 现在我们到了 所以当你去Gemini时
+Okay, now we are here. So when you go to Gemini,
+
+418
+00:32:38.802 --> 00:32:44.682
+您可以点击此选项并上传文件并选择您的
+you can either click on this and upload files and select your
+
+419
+00:32:49.422 --> 00:32:55.152
+从菜单打开的图像, 或者有另一种方式
+image from the menu that opens up, or there is another way
+
+420
+00:32:55.813 --> 00:32:58.692
+把它拖进Gemini
+where you drag and drop it into Gemini.
+
+421
+00:32:59.022 --> 00:33:00.582
+然后在这里你写自己的
+And then here you write your own
+
+422
+00:33:04.002 --> 00:33:06.042
+电源。 比如说
+prompts. And for example,
+
+423
+00:33:07.302 --> 00:33:09.162
+我可以再带一个
+I can bring another
+
+424
+00:33:10.453 --> 00:33:11.022
+快点
+prompt.
+
+425
+00:33:28.453 --> 00:33:28.813
+呜呼。
+Whoop.
+
+426
+00:33:34.002 --> 00:33:38.772
+因此,将这个数字变成一个由半透明塑料制成的软,充气的体.
+So turn the figure into a soft, inflatable body made from semi-transparent plastic.
+
+427
+00:33:39.942 --> 00:33:42.192
+不见内道.
+I don't want to see the interiors.
+
+428
+00:33:54.732 --> 00:33:54.912
+这么说
+So
+
+429
+00:33:57.072 --> 00:34:02.322
+然后,我们可以进一步说, "删除
+then we can further say, "Remove the
+
+430
+00:34:02.682 --> 00:34:03.763
+背景情况
+background
+
+431
+00:34:05.382 --> 00:34:09.493
+并创造右手,
+and make the right hand
+
+432
+00:34:11.922 --> 00:34:15.462
+"比左手还大"
+bigger than the left hand."
+
+433
+00:34:41.592 --> 00:34:46.513
+所以,你需要进一步的修改 因为现在它显示的手。
+So you need further modifications because now it shows the hand.
+
+434
+00:34:46.632 --> 00:34:51.972
+你可以回到这里,然后点击“编辑提示”,使右手比“编辑提示”大。
+You can go back here and then click on Edit Prompt, make the right hand bigger than
+
+435
+00:34:52.033 --> 00:34:52.783
+左边的手,
+the left hand,
+
+436
+00:34:54.192 --> 00:34:54.972
+删除
+remove the
+
+437
+00:34:57.492 --> 00:34:58.482
+原文
+original
+
+438
+00:35:00.192 --> 00:35:03.373
+右手边 让我们看看这是否有效。
+right hand. Let's see if this works.
+
+439
+00:35:09.912 --> 00:35:10.182
+珃
+Whoa.
+
+440
+00:35:25.842 --> 00:35:26.742
+什么事,西华?
+Yes, Siva?
+
+441
+00:35:29.292 --> 00:35:35.172
+对 顿 它还告诉我,它不能产生不安全的图像,
+Yes. Hi. It also told me that it can't generate unsafe images,
+
+442
+00:35:36.522 --> 00:35:38.832
+所以我只是想寻找
+so I'm just trying to search for
+
+443
+00:35:40.422 --> 00:35:42.462
+另一个要尝试的图像 。
+another image to try.
+
+444
+00:35:46.752 --> 00:35:48.492
+摆 我也会寻找...
+Okay. I will also search for...
+
+445
+00:35:54.012 --> 00:35:55.422
+我有一个问题,对不起。
+I have a question, sorry.
+
+446
+00:35:55.662 --> 00:35:55.812
+对
+Yeah.
+
+447
+00:35:56.532 --> 00:36:01.362
+我试图把模型的截图上传到Gemini.
+I'm here trying to upload the screenshot of the model to Gemini.
+
+448
+00:36:01.752 --> 00:36:06.552
+但我不知道为什么我做不到 因为它说它只允许我
+But I don't know why I can't do it because it says that it only allows me to
+
+449
+00:36:06.582 --> 00:36:09.822
+如果我有Gemini的版本,就下载它。
+download it if I have the pro version of Gemini.
+
+450
+00:36:09.942 --> 00:36:11.562
+故不复修习.
+So I don't know how to do it again.
+
+451
+00:36:19.932 --> 00:36:22.272
+所以你需要下载
+So you need to download the
+
+452
+00:36:23.802 --> 00:36:24.492
+亲版?
+pro version?
+
+453
+00:36:25.092 --> 00:36:27.643
+摆 我不知道. 我在Gemini上
+Okay. I don't know. I'm on the Gemini.
+
+454
+00:36:28.992 --> 00:36:29.172
+对
+Mm-hmm.
+
+455
+00:36:30.432 --> 00:36:30.672
+摆
+Okay.
+
+456
+00:36:30.762 --> 00:36:33.132
+每次我试图上传一张照片...
+Every time I try to upload a picture...
+
+457
+00:36:33.252 --> 00:36:37.182
+你能再给我看一次吗 这样我就能知道自己做得对吗?
+Can you show me again so I know if I'm doing the right thing?
+
+458
+00:36:39.162 --> 00:36:40.362
+请 谢谢
+Please. Thank you.
+
+459
+00:36:40.782 --> 00:36:42.042
+没问题
+Yeah, no problem.
+
+460
+00:36:47.082 --> 00:36:48.732
+所以也许
+So maybe
+
+461
+00:36:57.162 --> 00:36:57.792
+我们去
+we go to
+
+462
+00:36:59.922 --> 00:37:00.672
+Gemini。
+the Gemini.
+
+463
+00:37:01.662 --> 00:37:01.812
+对
+Mm-hmm.
+
+464
+00:37:01.842 --> 00:37:05.592
+你在Gemini.google.com/app吗?
+Are you here in gemini.google.com/app?
+
+465
+00:37:07.242 --> 00:37:07.362
+对
+Mm-hmm.
+
+466
+00:37:08.592 --> 00:37:09.042
+你在吗?
+Are you there?
+
+467
+00:37:11.502 --> 00:37:16.482
+我在Gemini上 岂有异体双明.
+I was on Gemini. I don't know if there's a different version of Gemini.
+
+468
+00:37:18.192 --> 00:37:18.612
+摆
+Okay.
+
+469
+00:37:22.062 --> 00:37:26.802
+所以如果你去Gemini.google.com/app - 。
+So if you go to gemini.google.com/app-
+
+470
+00:37:27.643 --> 00:37:27.941
+对
+Mm-hmm
+
+471
+00:37:27.941 --> 00:37:29.052
+. . 这样
+... then
+
+472
+00:37:31.242 --> 00:37:37.002
+在此单击加号并上传文件,然后选择您的
+here, click on the plus sign and upload files, and then select your
+
+473
+00:37:37.123 --> 00:37:42.732
+文件要工作,然后上传到这里。
+file that you want to work on, and then upload it here.
+
+474
+00:37:48.792 --> 00:37:54.643
+然后你可以增加一些事情 你想在这里做,或者
+And then you can either add a few things that you want to do here, or
+
+475
+00:37:58.242 --> 00:38:01.782
+您可以在此写入您的提示以修改它 。
+you can write your prompt here to modify it.
+
+476
+00:38:03.042 --> 00:38:06.342
+或者你也可以从一无所有开始
+Or you can also start with nothing.
+
+477
+00:38:10.362 --> 00:38:11.802
+让我们看看我
+And let's see if I
+
+478
+00:38:18.282 --> 00:38:18.972
+制作一个
+make a
+
+479
+00:38:20.623 --> 00:38:21.222
+状态
+standing
+
+480
+00:38:22.512 --> 00:38:23.052
+人类
+human
+
+481
+00:38:25.182 --> 00:38:25.692
+图
+figure
+
+482
+00:38:29.832 --> 00:38:32.922
+以柔软充气的身体。
+with a soft inflatable body.
+
+483
+00:38:42.492 --> 00:38:48.282
+有趣的是,当你写
+The interesting part in this is that when you write
+
+484
+00:38:48.552 --> 00:38:49.482
+一个文本,
+a text,
+
+485
+00:38:51.192 --> 00:38:56.982
+模型会做什么, LLM会做什么,
+what the model will do behind, what the LLM will do,
+
+486
+00:38:57.702 --> 00:39:01.332
+它将创造出一个形象。
+is that it will create an image.
+
+487
+00:39:01.782 --> 00:39:02.862
+对
+Mm-hmm.
+
+488
+00:39:03.072 --> 00:39:08.922
+所以如果你已经开始给模型一个图像
+So if you already start with giving to the model an image,
+
+489
+00:39:09.762 --> 00:39:11.623
+你已经领先一步了
+you're already one step ahead.
+
+490
+00:39:12.012 --> 00:39:12.402
+对
+Mm-hmm.
+
+491
+00:39:16.092 --> 00:39:17.742
+所以,这就是为什么,例如,我
+So that is why, for example, I
+
+492
+00:39:19.752 --> 00:39:25.632
+无法控制这个人类的比例 但如果我给一个
+don't have much control over the proportions of this human, but if I give an
+
+493
+00:39:25.692 --> 00:39:31.362
+图像输入,然后我有一点点 控制比例,
+image input, then I have a little bit more control over the proportions,
+
+494
+00:39:31.602 --> 00:39:35.082
+姿势,一点点 关于纹理。
+the pose, a little bit about the texture as well.
+
+495
+00:39:37.602 --> 00:39:37.752
+对
+Yeah.
+
+496
+00:39:38.952 --> 00:39:44.652
+我要在聊天时贴上我们看到的两张幻灯片
+And I'm going to paste on the chat the two slides that we've seen
+
+497
+00:39:45.252 --> 00:39:47.652
+数字机构
+in the digital bodies
+
+498
+00:39:49.062 --> 00:39:52.062
+PPT,演示,课...
+PPT, the presentation, the class-
+
+499
+00:39:52.661 --> 00:39:52.902
+对
+Mm-hmm
+
+500
+00:39:52.902 --> 00:39:57.102
+模型的实际运作方式
+... of how the model actually works.
+
+501
+00:40:07.812 --> 00:40:13.272
+我从这里看到非常有趣的例子。
+I am seeing very interesting examples from the chat here.
+
+502
+00:40:14.952 --> 00:40:19.362
+我没有机会看他们。 他们很有趣。
+I haven't had a chance to look at them. They're quite interesting.
+
+503
+00:40:20.472 --> 00:40:20.952
+珃
+Wow.
+
+504
+00:40:22.272 --> 00:40:26.982
+我们是否应该说,我们所有人都可以迈出下一步?
+Should we say that we are all good to move to the next step?
+
+505
+00:40:27.373 --> 00:40:29.832
+对 还有别的问题吗?
+Yeah. Are there any other questions?
+
+506
+00:40:36.252 --> 00:40:39.852
+没有 那么我们绝对可以搬到下一个
+No. Then we can definitely move to the next
+
+507
+00:40:43.602 --> 00:40:46.632
+步骤,这是... 等等,我看看那个
+step, which is... Wait, I will just look at that.
+
+508
+00:40:48.582 --> 00:40:48.822
+对不起
+Sorry.
+
+509
+00:40:50.292 --> 00:40:51.132
+这是...
+Which is to-
+
+510
+00:40:53.472 --> 00:40:54.402
+有问.
+There's a question.
+
+511
+00:40:55.002 --> 00:40:55.662
+有问题吗?
+There's a question?
+
+512
+00:40:56.232 --> 00:40:56.772
+对 空吗?
+Yeah. Sora?
+
+513
+00:41:02.322 --> 00:41:02.742
+空吗?
+Sora?
+
+514
+00:41:07.002 --> 00:41:08.382
+有人举起手来 是的
+Somebody raised their hand, yeah.
+
+515
+00:41:10.393 --> 00:41:10.632
+顿
+Hey.
+
+516
+00:41:19.632 --> 00:41:20.442
+好吧,毫无疑问。
+Okay, no question.
+
+517
+00:41:21.012 --> 00:41:24.912
+摆 但你随时可以阻止我 我喜欢这样
+Okay. But you can stop me anytime. I prefer it like that.
+
+518
+00:41:24.972 --> 00:41:28.452
+否则,感觉就像我看着屏幕时在和虚空说话.
+Otherwise, it feels like I'm talking to the void when I'm looking at the screen.
+
+519
+00:41:28.873 --> 00:41:33.222
+所以如果你现在想要答案 就阻止我吧
+So if you feel like you want an answer now, just stop me.
+
+520
+00:41:36.042 --> 00:41:41.712
+对 接下来是调查Tripod 3D
+And yeah. So the next part is looking into Tripod 3D.
+
+521
+00:41:42.282 --> 00:41:47.442
+你在这里有链接。 我分享了这个链接吗? 我将再次分享这个链接。 呜呼。
+You have the link here. Did I share this link? I will share the link again. Whoop.
+
+522
+00:41:49.152 --> 00:41:49.482
+对不起
+Sorry.
+
+523
+00:41:55.182 --> 00:42:00.852
+所以,请,请,不要使用它 现在,因为如果你现在用这个,
+So please, please, please, do not use it now because if you use it now with this,
+
+524
+00:42:01.032 --> 00:42:03.672
+它会用很多功劳。
+it will use a lot of credits.
+
+525
+00:42:09.132 --> 00:42:09.402
+摆
+Okay.
+
+526
+00:42:11.202 --> 00:42:16.422
+所以在这里,我们将使用Tripod。 Tripo 将图像转换为
+So here we will use Tripod. Tripod turns image to
+
+527
+00:42:18.432 --> 00:42:21.552
+3D型号. 你可以下载 通常,
+3D models. You can download them. Usually,
+
+528
+00:42:23.292 --> 00:42:24.792
+游戏设计师使用这些,
+game designers use these,
+
+529
+00:42:26.292 --> 00:42:32.143
+但像我们这样的人也会使用它。 Tripo德是给你最好的
+but people like us also use it. And Tripod is the sort of the best that gives you,
+
+530
+00:42:32.623 --> 00:42:35.172
+是德克斯问的吗?
+as was it Tex who asked it?
+
+531
+00:42:36.792 --> 00:42:38.262
+最佳解决办法
+The best solutions for
+
+532
+00:42:43.272 --> 00:42:49.182
+三维印刷或制造. 比如Trellis,还有这个免费的
+3D printing or fabrication. For example, Trellis, also this free
+
+533
+00:42:49.242 --> 00:42:54.342
+我一开始建议的 拥抱脸型模型
+Hugging Face model that I suggested at the beginning,
+
+534
+00:42:55.302 --> 00:42:58.512
+也可以创建三维模型,但不能
+also can create 3D models, but it does not
+
+535
+00:43:00.402 --> 00:43:03.522
+立即让你下载一个 SCR 文件 。
+immediately let you download an SCR file.
+
+536
+00:43:04.272 --> 00:43:08.112
+它允许您下载 GLB 文件, 该文件主要用于
+It lets you download a GLB file, which is mostly used for
+
+537
+00:43:09.551 --> 00:43:15.132
+游戏设计,不是捏造. 这是给你的
+game design, not fabrication. So this is for you
+
+538
+00:43:15.252 --> 00:43:15.552
+改为:
+to
+
+539
+00:43:16.782 --> 00:43:21.942
+记得我们该做什么 但我现在就去查
+make sure that you remember what we need to do, but I will go through them now on
+
+540
+00:43:22.032 --> 00:43:27.912
+Tripo德工作室. 在这里,我们点击3D工作空间,然后我们
+Tripod Studio. So here, we click on 3D workspace, and then we
+
+541
+00:43:27.972 --> 00:43:29.742
+有这样的屏幕。
+have a screen like this.
+
+542
+00:43:31.002 --> 00:43:33.643
+给你
+There you can use
+
+543
+00:43:42.942 --> 00:43:43.752
+一个图像
+an image
+
+544
+00:43:44.982 --> 00:43:50.623
+开始。 所以,任何你的照片,你也可以使用它,但你可以
+to begin with. So any photo that you have, you can also use it, but you can
+
+545
+00:43:50.712 --> 00:43:56.352
+使用您制作的照片或模型
+use one of the photos or the models that you have made to
+
+546
+00:43:56.442 --> 00:44:02.352
+开始探索 你上传的照片在这里
+start exploring it. And you upload the photo here in
+
+547
+00:44:02.412 --> 00:44:03.192
+这个角落。
+this corner.
+
+548
+00:44:04.482 --> 00:44:06.342
+我们可以一起选择
+We can select it together.
+
+549
+00:44:13.962 --> 00:44:14.832
+自从
+And since
+
+550
+00:44:14.922 --> 00:44:20.952
+你的。
+yours
+
+551
+00:44:21.012 --> 00:44:25.332
+将会有默认设置, 它会有点不同 。
+will have the default settings, it will be slightly different than mine.
+
+552
+00:44:25.722 --> 00:44:30.012
+一定要把纹理关掉 因为当你把纹理打开时
+So make sure that you turn the texture off, because when you turn the texture on,
+
+553
+00:44:30.582 --> 00:44:35.382
+如你所见 我们用了很多功劳 但为了
+as you see, we use a lot of credits. But for
+
+554
+00:44:35.893 --> 00:44:38.532
+捏造,我们不需要纹理
+fabrication, we don't need a texture.
+
+555
+00:44:38.802 --> 00:44:41.772
+纹理是图像
+Texture is the image that is
+
+556
+00:44:43.332 --> 00:44:46.722
+适用于身体或3D型号之后
+applied to the body or a 3D model after
+
+557
+00:44:47.982 --> 00:44:53.893
+生成地形几何,例如
+the topology geometry is created, such as in the
+
+558
+00:44:54.582 --> 00:45:00.042
+我给你看的小男孩模特儿 但我们不需要纹理来制造
+small boy model that I showed you. But we don't need the texture for fabrication,
+
+559
+00:45:00.102 --> 00:45:03.702
+这样我们就可以关闭它 并节省信用。
+so we can turn it off and save on credits.
+
+560
+00:45:04.302 --> 00:45:09.792
+在地形学方面,三角地形最适合,
+And in terms of topology, triangle topology is the most suitable for,
+
+561
+00:45:11.802 --> 00:45:15.792
+又是编造出来的 所以使用三角比四网.
+again, fabrication. So use triangulation rather than quad mesh.
+
+562
+00:45:16.662 --> 00:45:22.482
+而对于多数,你知道, 或者如你所知,这是相当的
+And for the poly count, as you know, or as you might know, it is quite
+
+563
+00:45:22.572 --> 00:45:28.482
+这很重要 显然,多数越大,通常就越大
+important. Obviously, the bigger the poly count is, usually the greater
+
+564
+00:45:28.542 --> 00:45:31.002
+决议是。 但也意味着
+the resolution is. But it also means that
+
+565
+00:45:31.362 --> 00:45:37.092
+文件大小变得非常大,而且
+the file sizes get really big, and
+
+566
+00:45:37.212 --> 00:45:38.922
+也让
+also it makes
+
+567
+00:45:41.094 --> 00:45:46.374
+当你想之后去制造电脑时 电脑会落后一点
+The computer lag a little bit when you want to go to fabrication afterwards,
+
+568
+00:45:46.944 --> 00:45:52.344
+因为它意味着在模型上有很多点 它需要
+because it means that there are a lot of points on the model that it needs to
+
+569
+00:45:52.404 --> 00:45:54.234
+计算
+account for to make the
+
+570
+00:45:55.525 --> 00:45:56.484
+紧水形.
+watertight shape.
+
+571
+00:45:57.894 --> 00:46:03.414
+但是,低的多聚体意味着你 分辨率少一点,但也许在
+But low poly means that then you have a little bit less resolution, but maybe at
+
+572
+00:46:03.504 --> 00:46:05.814
+我们不是3D打印。
+this scale, we are not 3D printing.
+
+573
+00:46:06.234 --> 00:46:07.494
+我们不是用这个
+We are not using this for
+
+574
+00:46:10.914 --> 00:46:11.844
+游戏设计.
+game design.
+
+575
+00:46:13.224 --> 00:46:16.374
+我们不会把它作为数字资产,这意味着我们将
+We are not going to use it as a digital asset, which means that we are going to
+
+576
+00:46:16.434 --> 00:46:19.434
+用激光切割来编织,这样我们就可以开始
+fabricate it with laser cutting, so we can go for
+
+577
+00:46:20.664 --> 00:46:24.324
+低复数并减少文件大小。
+low poly count and decrease our file size.
+
+578
+00:46:26.454 --> 00:46:32.304
+我给你们看几件东西 比如说,这有点接近
+I will just show you a few things. So for example, this has a little bit close
+
+579
+00:46:32.394 --> 00:46:35.334
+至50万个圆顶,
+to 500,000 vertices,
+
+580
+00:46:37.704 --> 00:46:38.934
+真不错
+which is quite nice.
+
+581
+00:46:40.194 --> 00:46:40.824
+但也许
+But maybe
+
+582
+00:46:42.864 --> 00:46:48.744
+大约有22万个顶点
+this has around 220,000 vertices,
+
+583
+00:46:51.025 --> 00:46:56.724
+这显然比前一个定义少了一点
+which is obviously a little bit less defined than the previous
+
+584
+00:46:56.814 --> 00:47:02.694
+一个 不过,我们做这个不重要
+one. But also, it does not matter if we're making this
+
+585
+00:47:02.754 --> 00:47:07.824
+或用激光切割的碎片编织
+out of cardboard or fabricating it with laser-cut pieces.
+
+586
+00:47:08.724 --> 00:47:10.704
+所以我建议你去
+So I would suggest you to go for
+
+587
+00:47:12.744 --> 00:47:18.355
+可能20万,30万 如果你觉得自己不能
+maybe 200,000, 300,000, and if you feel like you cannot
+
+588
+00:47:18.414 --> 00:47:18.894
+捕获
+capture
+
+589
+00:47:20.844 --> 00:47:23.964
+所有的细节,然后你可以增加它。
+all the details, then you can increase it.
+
+590
+00:47:24.684 --> 00:47:30.264
+但很明显,当你生成一个模型, 然后失去15个
+But obviously, when you generate one model, then you lose 15
+
+591
+00:47:30.324 --> 00:47:35.004
+标志。 所以无论如何, 我想你从200。
+tokens. So anyway, and I think you start with 200.
+
+592
+00:47:36.775 --> 00:47:42.504
+好吧,Tripod的工作原理是 它得到一个
+And, okay, how Tripod works is that it gets an
+
+593
+00:47:42.594 --> 00:47:42.924
+图像,
+image,
+
+594
+00:47:44.244 --> 00:47:50.094
+它的传播模型, 所以它发送光, 然后想象什么后
+and it's diffusion modeling, so it sends in light and then imagines what the back
+
+595
+00:47:50.214 --> 00:47:54.054
+模型看起来是这样。 所以它不知道,但它想象着它。
+of the model would look like. So it doesn't know it, but it imagines it.
+
+596
+00:47:54.204 --> 00:47:58.614
+如果你喜欢,显然, 付费版本, 然后你可以增加更多的观点 在它,
+If you go for, obviously, paid versions, then you can add more views into it,
+
+597
+00:47:59.964 --> 00:48:05.664
+左边 右边 后面 但是,没有付费版本,你没有
+left, right, and back. But with the non-paid version, you don't have that
+
+598
+00:48:05.754 --> 00:48:10.644
+选项。 但如你所见,它并没有做一个真正的坏工作
+option. But as you see, it does not do a really bad job
+
+599
+00:48:11.634 --> 00:48:14.605
+一边想象后面发生了什么
+while imagining what's happening at the back.
+
+600
+00:48:16.105 --> 00:48:17.814
+或者在这里,如果你看看这个,
+Or here, if you look at this,
+
+601
+00:48:20.484 --> 00:48:24.414
+只有这个观点,它才能解释
+only having this view, it was able to interpret
+
+602
+00:48:26.514 --> 00:48:29.034
+它会是什么样子, 而且它不是那么糟糕。
+what it would look like, and it's not that bad.
+
+603
+00:48:31.014 --> 00:48:36.624
+在这里,当我们下来,再次, 它来了最好的
+And here, when we come down, again, it comes with the best
+
+604
+00:48:36.684 --> 00:48:42.564
+质量AI模型,但为了能够下载一个STL文件,您
+quality AI model, but to be able to download an STL file, you
+
+605
+00:48:42.624 --> 00:48:45.984
+需要随心所欲
+need to go with in the legacy
+
+606
+00:48:48.355 --> 00:48:49.074
+AI型号.
+AI model.
+
+607
+00:48:50.544 --> 00:48:56.183
+然后点击生成器,然后启动您的文件或3D模型
+Then you hit Generate, and then your file or your 3D model will start
+
+608
+00:48:58.855 --> 00:49:00.984
+人类的后代。 然后当它做了,
+its generation. And then when it's done,
+
+609
+00:49:02.994 --> 00:49:04.134
+它会出现在这里,
+it will appear here,
+
+610
+00:49:05.394 --> 00:49:07.314
+然后你可以绕着它旋转
+and then you can rotate around it
+
+611
+00:49:08.964 --> 00:49:11.544
+检查一下 例如,这不是一个好的。
+and check it. For example, this is not a good one.
+
+612
+00:49:12.114 --> 00:49:17.364
+也许有50个顶点, 它没有做一个好的工作。
+Maybe with 50 vertices, it did not do a good job.
+
+613
+00:49:18.084 --> 00:49:20.004
+但大约20万
+But around 200,000,
+
+614
+00:49:21.264 --> 00:49:26.574
+没那么糟 然后,一旦你完成了,你打
+it's not really that bad. And then once you're done, you hit
+
+615
+00:49:26.664 --> 00:49:32.484
+导出时,您从列表中选择 STL,以及
+Export, you select STL from this list, and
+
+616
+00:49:32.574 --> 00:49:36.414
+然后导出模型。 这将下载您的
+then export the model. This will download your
+
+617
+00:49:38.664 --> 00:49:40.314
+STL文件到您的计算机。
+STL file to your computer.
+
+618
+00:49:42.594 --> 00:49:43.944
+所以现在
+So now
+
+619
+00:49:45.894 --> 00:49:48.204
+我们可以自己试试看
+we can start trying it out ourselves.
+
+620
+00:49:48.384 --> 00:49:53.694
+所以,如果你去工作室。 Tripo.3d.ai,你可以
+So if you go to studio.tripod.3d.ai, you can
+
+621
+00:49:56.214 --> 00:49:59.244
+从图像中启动您的 3D 世代 。
+start your own 3D generations from your images.
+
+622
+00:49:59.964 --> 00:50:05.334
+如果你需要的话
+And if you need
+
+623
+00:50:05.844 --> 00:50:11.574
+我将再次分享我在这里使用的图像。
+an image to begin with, I will again share this image that I was using here.
+
+624
+00:50:13.855 --> 00:50:15.624
+为了能够记住什么
+And to be able to remember what
+
+625
+00:50:19.134 --> 00:50:23.934
+我用的设置,你可以去米罗板 看看那里的设置。
+settings I used, you can go to the Miro board and look at the settings there.
+
+626
+00:50:29.124 --> 00:50:33.444
+同时,我可以回答一些问题 如果你有任何问题。
+And meanwhile, I can answer some questions if you have any questions.
+
+627
+00:50:49.644 --> 00:50:53.694
+你能在Tripod再做一次吗? 用聊天的画面之一?
+Could you do it again in Tripod with one of the images of the chat?
+
+628
+00:50:54.654 --> 00:50:55.734
+好吧,让我看看。
+Okay, let's see.
+
+629
+00:50:57.534 --> 00:50:58.554
+和分享屏幕。
+And share the screen.
+
+630
+00:51:06.984 --> 00:51:07.254
+摆
+Okay.
+
+631
+00:51:21.984 --> 00:51:22.434
+现在,
+Now,
+
+632
+00:51:25.674 --> 00:51:26.634
+我已经下载了
+I have downloaded
+
+633
+00:51:29.634 --> 00:51:29.964
+这个
+this
+
+634
+00:51:31.674 --> 00:51:32.004
+型号,
+model,
+
+635
+00:51:36.864 --> 00:51:37.315
+这个
+this one,
+
+636
+00:51:39.565 --> 00:51:42.504
+从聊天。
+from the chat.
+
+637
+00:51:43.824 --> 00:51:49.704
+正如我所说,我们先去一般的设置, 确保纹理关闭。
+And as I said, we go to general settings first, make sure that the texture is off.
+
+638
+00:51:50.484 --> 00:51:56.454
+我们有三角形的地形, 也就是说它创造了三角面孔
+We have the triangle topology, which means that it creates triangular faces between
+
+639
+00:51:56.875 --> 00:52:02.754
+3个顶点,不是网点,是4个
+three vertices, not pod mesh, which is four
+
+640
+00:52:02.785 --> 00:52:07.913
+顶点形成面孔. 礛и蛤
+vertices form a face. And then I have, let's go with
+
+641
+00:52:08.424 --> 00:52:14.125
+30万多元计数,然后
+300,000 poly count, and then
+
+642
+00:52:15.174 --> 00:52:17.484
+下去,确保我们的
+go down, make sure that our
+
+643
+00:52:18.744 --> 00:52:22.375
+AI模型是遗产. 礛
+AI model is legacy. And then
+
+644
+00:52:23.844 --> 00:52:24.294
+让我看看。
+let's see.
+
+645
+00:53:22.884 --> 00:53:26.785
+这里有什么问题吗?
+Are there any questions while it is generating my content here?
+
+646
+00:53:30.444 --> 00:53:32.155
+事实上,是的。 对不起
+Actually, yes. Ah, sorry.
+
+647
+00:53:33.954 --> 00:53:39.924
+对不起 你利用传统模式的原因吗?
+Sorry. Is there a reason you're using the legacy model as
+
+648
+00:53:39.954 --> 00:53:43.554
+与最佳质量或最快和平衡,第三位?
+opposed to the best quality or the fastest and balanced, number three?
+
+649
+00:53:44.394 --> 00:53:45.684
+是的,因为
+Yes, because
+
+650
+00:53:47.815 --> 00:53:52.884
+我有免费的版本。 如果我使用最好的版本, 它不允许我
+I have the free version. If I use the best quality version, it doesn't allow me to
+
+651
+00:53:52.944 --> 00:53:54.924
+下载 STL 模型...
+download an STL model-
+
+652
+00:53:55.854 --> 00:53:56.125
+还好
+Okay
+
+653
+00:53:56.125 --> 00:53:57.535
+...与免费版本。
+... with the free version.
+
+654
+00:53:58.344 --> 00:53:58.764
+谢谢
+Thank you.
+
+655
+00:53:59.994 --> 00:54:03.354
+这就是我拥有的。 也许增加
+So this is what I have. Maybe increasing
+
+656
+00:54:04.764 --> 00:54:08.514
+复数会给我更好的定义
+the poly count would have given me better definition.
+
+657
+00:54:16.464 --> 00:54:19.285
+所以也许也试试看
+So maybe let's try that one as well.
+
+658
+00:54:25.375 --> 00:54:27.894
+输出时, 输出到哪里 ?
+When you export it, where do you export it to?
+
+659
+00:54:28.164 --> 00:54:30.804
+有不同的方式 你可以输出它,我可以看到。
+There's different ways you can export it, I can see.
+
+660
+00:54:40.704 --> 00:54:45.144
+在这里,你选择STL,然后
+So this here, you select the STL, and then
+
+661
+00:54:49.932 --> 00:54:53.442
+对不起 这是一个四面体模型,所以它不允许我下载。
+Sorry. This was a quad model, so it doesn't allow me to download that one.
+
+662
+00:54:55.123 --> 00:54:57.642
+所以,你输出它,
+So you export it,
+
+663
+00:55:01.512 --> 00:55:03.253
+然后它只是下载STL。
+and then it just downloads the STL.
+
+664
+00:55:07.182 --> 00:55:11.592
+你看到不同的行为了吗,蒂娜? 是你问的吗?
+Do you see a different behavior, Tina? Was it you who asked the question?
+
+665
+00:55:16.692 --> 00:55:18.822
+对不起 没事 没事 它的工作原理。
+Sorry. Yeah, no, it's fine. It works.
+
+666
+00:55:18.942 --> 00:55:19.603
+这只是...
+It was just the-
+
+667
+00:55:19.722 --> 00:55:19.902
+有用吗?
+It works
+
+668
+00:55:19.902 --> 00:55:24.492
+...下一部分被送到Blender等等。 所以,只是想知道。 问。
+... next part that was sent to Blender, et cetera. So just wondering.
+
+669
+00:55:24.762 --> 00:55:25.482
+不过是的,我明白了。
+But yeah, I see.
+
+670
+00:55:26.922 --> 00:55:26.952
+对
+Yeah.
+
+671
+00:55:26.952 --> 00:55:27.282
+谢谢
+Thanks.
+
+672
+00:55:27.972 --> 00:55:28.362
+不用谢
+You're welcome.
+
+673
+00:55:36.732 --> 00:55:38.831
+没错 现在,这个
+So yeah. Now this has
+
+674
+00:55:42.462 --> 00:55:43.362
+更多定义
+more definition
+
+675
+00:55:46.092 --> 00:55:48.342
+对它比前一个。
+to it than the previous one.
+
+676
+00:56:06.222 --> 00:56:08.592
+但我必须说天平
+But I must say that the scales on
+
+677
+00:56:11.802 --> 00:56:12.012
+联合国
+the
+
+678
+00:56:13.242 --> 00:56:17.322
+鱼部位有一点失落,这种尺度效应。
+fish part is a little bit lost, that scale effect.
+
+679
+00:56:27.131 --> 00:56:28.633
+还有别的问题吗?
+Are there any other questions?
+
+680
+00:56:29.022 --> 00:56:32.922
+是的,我有一个问题。 当我上传我的
+Yes, I have a question. When I have uploaded my
+
+681
+00:56:35.383 --> 00:56:39.582
+模型到工作空间,它现在被淡化了。
+model to the workspace, it is now dimmed out.
+
+682
+00:56:40.152 --> 00:56:41.353
+整个左面板
+The whole left panel
+
+683
+00:56:42.582 --> 00:56:46.962
+现在有点稀释了 我可以看到我上传到
+is now sort of dimmed out. I can see the model that I've uploaded onto the
+
+684
+00:56:47.022 --> 00:56:52.422
+工作空间,但我无法访问 任何东西,任何设置或任何进一步。
+workspace, but I can't access anything, any settings or anything further.
+
+685
+00:56:54.702 --> 00:56:55.332
+左边?
+On the left?
+
+686
+00:56:56.532 --> 00:57:00.103
+对 你知道当你上传你的图像...
+Yes. You know when you upload your image-
+
+687
+00:57:00.582 --> 00:57:00.853
+对
+Mm-hmm
+
+688
+00:57:00.853 --> 00:57:04.332
+放在屏幕左侧的面板上
+... it's gone into a panel on the left-hand side of the screen.
+
+689
+00:57:04.812 --> 00:57:04.992
+对
+Yep.
+
+690
+00:57:06.103 --> 00:57:09.522
+所以现在整个面板都变暗或灰了,
+So now that entire panel has become dimmed or grayed out,
+
+691
+00:57:11.472 --> 00:57:14.562
+所以我无法使用它。 我做错什么了吗?
+so I can't use it. Have I done something wrong?
+
+692
+00:57:15.012 --> 00:57:17.652
+我带来了一个JPEG, 也许它必须是PNG?
+I brought in a JPEG, maybe it had to be a PNG?
+
+693
+00:57:19.572 --> 00:57:23.472
+不,它也支持JPEG,所以它不应该是问题。
+No, it supports JPEG as well, so it should not be the problem.
+
+694
+00:57:24.042 --> 00:57:24.253
+摆
+Okay.
+
+695
+00:57:24.762 --> 00:57:27.282
+我该送你过去吗? 也许你...
+But shall I walk you through it? Maybe you-
+
+696
+00:57:27.822 --> 00:57:28.092
+当然
+Sure.
+
+697
+00:57:28.873 --> 00:57:33.853
+是啊,所以在这里,你也可以, 而不是把它在这里,你可以
+Yeah, so here, you can also, instead of dropping it here, you can
+
+698
+00:57:33.913 --> 00:57:38.952
+选择此框或单击此框
+select this box or click on this box
+
+699
+00:57:40.663 --> 00:57:41.052
+并随后
+and then
+
+700
+00:57:42.462 --> 00:57:43.962
+选择一个图像。
+select an image.
+
+701
+00:57:45.552 --> 00:57:47.322
+让我选择一个JPEG。
+Let me select a JPEG.
+
+702
+00:57:49.633 --> 00:57:51.612
+其他相当... 摆
+Other quite... Okay.
+
+703
+00:57:56.982 --> 00:57:58.663
+正如你所见,它是一个JPEG。
+As you see, it's a JPEG.
+
+704
+00:57:59.413 --> 00:57:59.682
+对
+Yeah.
+
+705
+00:58:00.432 --> 00:58:03.462
+并且它上传无问题。
+And it uploads without a problem.
+
+706
+00:58:04.151 --> 00:58:06.792
+也许是我选的照片 我会尝试一个不同的图像。
+Maybe it's the image I selected. I'll try a different image.
+
+707
+00:58:07.182 --> 00:58:07.482
+摆
+Okay.
+
+708
+00:58:13.182 --> 00:58:16.633
+还有,抱歉,我想我需要帮助
+Also, sorry, I need some help, I think.
+
+709
+00:58:16.873 --> 00:58:16.932
+对
+Yeah.
+
+710
+00:58:16.932 --> 00:58:22.123
+如果我分享我的屏幕,好吗? 因为我不能输出我的模型?
+Is that okay if I share my screen, because I cannot export my model?
+
+711
+00:58:24.342 --> 00:58:27.373
+对 对
+Yes. Mm-hmm.
+
+712
+00:58:28.182 --> 00:58:28.873
+所以说
+So I
+
+713
+00:58:31.152 --> 00:58:32.802
+创建了HD模型.
+created a HD model.
+
+714
+00:58:37.633 --> 00:58:37.962
+对
+Mm-hmm.
+
+715
+00:58:38.172 --> 00:58:43.992
+我删除了纹理,所以减少, 和多计数是
+I removed the texture, so to reduce, and the poly count is
+
+716
+00:58:44.052 --> 00:58:45.012
+好吧,在这里。
+okay right here.
+
+717
+00:58:46.422 --> 00:58:46.753
+对
+Mm-hmm.
+
+718
+00:58:47.202 --> 00:58:49.182
+还是我应该少一点?
+Or should I make it less?
+
+719
+00:58:50.202 --> 00:58:56.172
+不,但我知道你有四大地形,不是网状
+No, but I see that you have a quad topology, not a mesh
+
+720
+00:58:57.312 --> 00:58:58.482
+三角地形学.
+triangular topology.
+
+721
+00:58:59.922 --> 00:59:00.942
+对不起,我该怎么办?
+Sorry, what should I do?
+
+722
+00:59:01.663 --> 00:59:06.342
+现在你选择了三角形 但在这个模型中 你没有...
+Now you have the triangle selected, but in this model, you did not have the...
+
+723
+00:59:06.732 --> 00:59:07.812
+我可以给你看我的屏幕,
+Can I show you my screen,
+
+724
+00:59:09.222 --> 00:59:09.702
+路易莎吗?
+Luiza?
+
+725
+00:59:10.392 --> 00:59:10.633
+对
+Mm-hmm.
+
+726
+00:59:11.623 --> 00:59:11.832
+摆
+Okay.
+
+727
+00:59:18.192 --> 00:59:23.292
+所以,如你所见,这里是四角。 这是一个四面体地形。
+So this, as you see, says quad here. It is a quad topology.
+
+728
+00:59:25.452 --> 00:59:29.532
+哦,不是三角形的。 摆 不一样 但我会试着找到的 对
+Oh, not triangle. Okay. Not really the same, but I will try to find it. Uh-huh.
+
+729
+00:59:29.623 --> 00:59:32.472
+好吧,所以与四, 它是可能的输出,对不对?
+Okay, so with quad, it's possible to export, right?
+
+730
+00:59:32.652 --> 00:59:37.242
+无法出口STL. 你看,它不允许我出口
+It's not possible to export STL. As you see, it doesn't allow me to export
+
+731
+00:59:41.862 --> 00:59:42.762
+STL带四。
+STL with quad.
+
+732
+00:59:43.512 --> 00:59:43.692
+对
+Mm-hmm.
+
+733
+00:59:44.682 --> 00:59:50.142
+所以,你需要做的是 你需要再生 你的模型,但使用三角形
+So what you need to do is you need to regenerate your model, but using the triangle
+
+734
+00:59:50.202 --> 00:59:52.692
+地形学而不是四层地形学.
+topology rather than the quad topology.
+
+735
+00:59:53.262 --> 00:59:53.592
+摆
+Okay.
+
+736
+00:59:55.962 --> 01:00:01.902
+做到这一点,在你选择四边形或三角形后,你需要
+Do that, and after you select quad or triangle, you need to
+
+737
+01:00:02.172 --> 01:00:04.003
+重击生成。
+hit Generate again.
+
+738
+01:00:05.082 --> 01:00:08.322
+有没有出口的方法?
+And is there a way to export it?
+
+739
+01:00:10.422 --> 01:00:12.822
+生成模型后...
+After you generate the model-
+
+740
+01:00:13.572 --> 01:00:13.782
+对
+Mm-hmm
+
+741
+01:00:13.782 --> 01:00:19.542
+三角形的地貌,可以把它导出
+... with triangle topology, then it will allow you to export it as an
+
+742
+01:00:19.722 --> 01:00:20.082
+(原始内容存档于2017-09-21). StL.
+STL.
+
+743
+01:00:24.133 --> 01:00:24.702
+对
+Mm-hmm.
+
+744
+01:00:28.482 --> 01:00:31.482
+再次分享你的屏幕 让我可以跟着。
+Share your screen again so that I can follow along.
+
+745
+01:00:32.292 --> 01:00:37.812
+对 我的其实是一个三角形, 它已经在一个
+Yes. Mine actually was a triangle, and it was already in a
+
+746
+01:00:37.842 --> 01:00:38.892
+库拉的三角形,
+triangle in Cura,
+
+747
+01:00:40.242 --> 01:00:40.873
+和
+and
+
+748
+01:00:42.672 --> 01:00:47.262
+H 2.5,就像你说的。 我删除了纹理。
+H 2.5, as you said. And I removed the texture.
+
+749
+01:00:49.722 --> 01:00:52.482
+而多点数现在非常低。 可以吗?
+And poly count is very low now. Is it okay?
+
+750
+01:00:52.692 --> 01:00:53.442
+我是说...
+Or, I mean-
+
+751
+01:00:53.682 --> 01:00:56.472
+让我们看看。 我觉得那不会对...
+Let's see. I don't think that that would have an effect on the-
+
+752
+01:00:57.402 --> 01:00:57.792
+摆
+Okay.
+
+753
+01:01:21.253 --> 01:01:25.302
+也许我可以停止分享。 我的意思是,这只是 因为我不想采取很多
+Maybe I can stop share. I mean, it's just because I don't want to take a lot of
+
+754
+01:01:25.392 --> 01:01:29.952
+时间。 我的意思是,一开始, 它已经三角,所以
+time. I mean, at the beginning, it was already triangular, so
+
+755
+01:01:31.152 --> 01:01:35.442
+我不知道为什么它不允许。 所以,也许我现在可以停止, 你可以继续,
+I don't know why it didn't allow. So maybe I can stop now, you can continue, and
+
+756
+01:01:35.472 --> 01:01:35.892
+那么这是
+then it's
+
+757
+01:01:37.362 --> 01:01:39.282
+生成。 我还可以再分享一次
+generated. I can share again.
+
+758
+01:01:41.742 --> 01:01:43.542
+摆 因为你想...
+Okay. Because you want to-
+
+759
+01:01:45.432 --> 01:01:48.492
+瓳 现在尝试导出它。 今在此处.
+Oh. Now try to export it. It's here now.
+
+760
+01:01:50.503 --> 01:01:53.652
+对 等等,我不喜欢的东西。
+Mm-hmm. Wait, I don't like things.
+
+761
+01:01:55.663 --> 01:02:01.332
+此处导出为紫色按钮 。
+Export is the purple button here.
+
+762
+01:02:02.353 --> 01:02:03.012
+对不起
+Oh, sorry.
+
+763
+01:02:03.133 --> 01:02:04.062
+这里。
+Here.
+
+764
+01:02:04.603 --> 01:02:06.192
+现在我明白了。 对
+Now I see. Mm-hmm.
+
+765
+01:02:14.052 --> 01:02:17.142
+哦,这是很好的。 可能是因为...
+Oh, it's good. So probably it was because it had
+
+766
+01:02:18.492 --> 01:02:20.022
+电网。 是啊,这就是原因。 摆
+grids. Yeah, that's why. Okay.
+
+767
+01:02:20.982 --> 01:02:24.913
+可能是一个四面体模型。 你能回到前一个吗?
+It was a quad model probably. Can you go back to the previous one?
+
+768
+01:02:25.482 --> 01:02:26.862
+你给我看的那个...
+The one that you showed me that was a-
+
+769
+01:02:28.722 --> 01:02:30.163
+可能是这个
+It's probably this one.
+
+770
+01:02:32.562 --> 01:02:32.862
+这个 对
+This. Mm-hmm.
+
+771
+01:02:32.892 --> 01:02:35.952
+对 看这里。 你会吗?
+Yes. Look here. Do you
+
+772
+01:02:37.332 --> 01:02:39.432
+看到没? 上面说地形是四重奏
+see? It says the topology was quad.
+
+773
+01:02:40.542 --> 01:02:41.592
+哦,没关系。
+Oh, okay.
+
+774
+01:02:42.042 --> 01:02:42.853
+好吗?
+Okay?
+
+775
+01:02:42.942 --> 01:02:44.442
+摆 非常感谢
+Okay. Thank you so much.
+
+776
+01:02:45.253 --> 01:02:45.792
+没问题
+No problem.
+
+777
+01:02:50.112 --> 01:02:51.552
+好吧,还有问题吗?
+Okay, any more questions?
+
+778
+01:03:02.413 --> 01:03:04.362
+现在我们可以直接打印3D了吗?
+So now we can 3D print it directly?
+
+779
+01:03:08.292 --> 01:03:13.753
+我的意思是,是的,也许。 你需要把它带到你的切片软件。
+I mean, yes, maybe. You need to take it to your slicer software.
+
+780
+01:03:14.383 --> 01:03:19.512
+幻觉... 对不起 棱镜工很擅长修复
+Fusion... Sorry. PrusaSlicers are quite good at mending the
+
+781
+01:03:21.462 --> 01:03:27.312
+差距,所以它不应该是一个问题,而是对我们
+gaps, so it should not be a problem, but for our
+
+782
+01:03:27.402 --> 01:03:29.262
+自己来,我不知道。
+own sake, I don't know.
+
+783
+01:03:29.322 --> 01:03:34.242
+这也是如果它非常重,你可以使它在Blender非常轻.
+It's also that if it is very heavy, you can make it very light in Blender.
+
+784
+01:03:35.082 --> 01:03:35.383
+对
+Yes.
+
+785
+01:03:36.883 --> 01:03:37.003
+对
+Mm.
+
+786
+01:03:41.472 --> 01:03:42.762
+所以现在...
+So for now...
+
+787
+01:03:44.562 --> 01:03:44.892
+瓳
+Oh.
+
+788
+01:03:46.422 --> 01:03:48.792
+歌手,你的模特儿出来了
+Singer, your model came out quite nice.
+
+789
+01:03:51.163 --> 01:03:51.462
+摆
+Okay.
+
+790
+01:03:52.152 --> 01:03:53.952
+对 总之
+Yeah. So anyway.
+
+791
+01:03:55.362 --> 01:04:01.302
+Janek,你想分享你的屏幕 这样我们就可以一起翻阅
+Janek, do you want to share your screen so that we can go over it together
+
+792
+01:04:01.362 --> 01:04:01.663
+也许?
+maybe?
+
+793
+01:04:04.767 --> 01:04:05.788
+好吧,我会试试。
+Okay, I'll try it.
+
+794
+01:04:07.197 --> 01:04:07.467
+и琌
+I'm
+
+795
+01:04:08.907 --> 01:04:11.427
+只是通过两个屏幕工作。 忍着点
+just working across two screens. Bear with me.
+
+796
+01:04:12.447 --> 01:04:12.867
+没问题
+No problem.
+
+797
+01:04:35.277 --> 01:04:37.347
+你能看到我的屏幕了吗?
+Can you see my screen now?
+
+798
+01:04:41.128 --> 01:04:45.777
+是的 但我没看到... 哦,我看到了图像。
+Yes, but I don't see the... Oh, I see the image.
+
+799
+01:04:45.837 --> 01:04:48.987
+则阴虚之光. 这是我尝试过的第二个形象.
+And it's dim light. That's the second image I've tried.
+
+800
+01:04:52.137 --> 01:04:54.027
+是哪个画面? 那个
+Which image is it? The
+
+801
+01:04:57.057 --> 01:04:57.687
+经营女人?
+running woman?
+
+802
+01:04:58.167 --> 01:05:02.248
+是的,是那个跑步的女人 上一个只是西班牙舞者 穿着红色
+Yeah, it's the running woman. The previous one was just a Spanish dancer in a red
+
+803
+01:05:02.337 --> 01:05:02.817
+装束
+outfit.
+
+804
+01:05:04.288 --> 01:05:08.457
+我想,也许有太多 弹出的材料, 所以我只是尝试运行
+I thought maybe there were too many flounces of material, so I just tried a running
+
+805
+01:05:08.517 --> 01:05:08.907
+图像。
+image.
+
+806
+01:05:09.237 --> 01:05:10.347
+不过,我...
+Well, still, I
+
+807
+01:05:12.297 --> 01:05:14.817
+想象一个有面具的图像
+think a masked image which has a
+
+808
+01:05:16.197 --> 01:05:17.998
+简单的背景会更好。
+simple background would work better.
+
+809
+01:05:18.597 --> 01:05:18.807
+摆
+Okay.
+
+810
+01:05:18.957 --> 01:05:24.597
+我觉得这里很难区分什么是
+I think here it is having a hard time differentiating what is in the
+
+811
+01:05:24.657 --> 01:05:27.897
+前面和后面的东西 这可能是原因。
+front and what's in the back. That could be the reason.
+
+812
+01:05:28.557 --> 01:05:28.797
+摆
+Okay.
+
+813
+01:05:29.457 --> 01:05:31.917
+是啊,所以简单的背景工作更好。
+Yeah, so simple backgrounds work better.
+
+814
+01:05:32.758 --> 01:05:34.527
+摆 我再来一次 谢谢
+Okay. I'll give it another go. Thank you.
+
+815
+01:05:34.647 --> 01:05:35.517
+是的,欢迎。
+Yeah, you're welcome.
+
+816
+01:05:45.597 --> 01:05:47.817
+我还想... 诺埃尔,是吗?
+I also wanted to... Noel, yeah?
+
+817
+01:05:48.297 --> 01:05:48.357
+对
+Yep.
+
+818
+01:05:50.607 --> 01:05:51.207
+对 顿
+Yeah. Hi.
+
+819
+01:05:51.837 --> 01:05:52.258
+顿
+Hi.
+
+820
+01:05:52.978 --> 01:05:55.827
+我生成了.STL文件,
+I generated the .STL file,
+
+821
+01:05:57.237 --> 01:06:03.177
+我用其他软件打开它,叫做自由CAD, 我可以看到
+and I opened it in other software called Free CAD, and I could see
+
+822
+01:06:03.237 --> 01:06:08.577
+3D型号. 所以,只是一个问题,我可以
+the 3D model. So just a question, can I
+
+823
+01:06:09.478 --> 01:06:11.187
+使用此模型打印 3D 吗 ?
+use this model for a 3D printing?
+
+824
+01:06:12.597 --> 01:06:12.807
+对
+Yeah.
+
+825
+01:06:14.667 --> 01:06:14.907
+摆
+Okay.
+
+826
+01:06:17.337 --> 01:06:21.807
+检查尺寸,不过,因为它们相当小。
+Check the sizes, though, because they are quite tiny.
+
+827
+01:06:21.867 --> 01:06:25.407
+它使用一个单位作为高度,和一个单位在
+It uses one unit as height, and one unit in
+
+828
+01:06:30.538 --> 01:06:35.248
+3D打印软件通常使用毫米作为世界这边的单位,
+3D printing software usually uses millimeters as units in this side of the world,
+
+829
+01:06:35.637 --> 01:06:38.277
+这意味着它会像一毫米高。
+which means that it comes as one millimeter high.
+
+830
+01:06:38.667 --> 01:06:40.707
+所以你需要调整你的模型大小。
+So you need to resize your models.
+
+831
+01:06:42.117 --> 01:06:46.498
+摆 我是三维模型和三维打印器的新手
+Okay. I'm new to the 3D model and 3D printing.
+
+832
+01:06:46.947 --> 01:06:48.597
+所以我才刚刚想出来
+So I'm just figuring out.
+
+833
+01:06:48.897 --> 01:06:49.557
+对
+Yeah.
+
+834
+01:06:50.878 --> 01:06:51.117
+谢谢
+Thank you.
+
+835
+01:06:51.177 --> 01:06:54.508
+没问题 只是缩小范围会是一个问题。
+Yes, no problem. Just sizing will be an issue.
+
+836
+01:06:55.797 --> 01:06:56.667
+当然 对
+Sure. Yeah.
+
+837
+01:06:58.047 --> 01:07:03.927
+对 我还想谈谈目前的情况。
+Yes. I would also like to share that currently
+
+838
+01:07:04.378 --> 01:07:09.927
+Tripo有比赛
+there is a competition on Tripo. I
+
+839
+01:07:11.487 --> 01:07:15.567
+已经把它放在聊天。 它被称为特里帕森。
+have put it in the chat. It is called the Tripathon.
+
+840
+01:07:16.917 --> 01:07:22.197
+它已经打开了,直到
+And it is open already, and until the
+
+841
+01:07:22.437 --> 01:07:23.607
+10月5号,
+October 5th,
+
+842
+01:07:24.807 --> 01:07:30.777
+您可以提交您的项目。 这是
+you can submit your projects. And it is
+
+843
+01:07:30.927 --> 01:07:36.508
+也有一些巡回表演日,
+also having some tour open demo days,
+
+844
+01:07:36.807 --> 01:07:42.567
+我会把位置。 我想在巴塞罗那,
+and I will put the locations. I think in Barcelona,
+
+845
+01:07:43.467 --> 01:07:44.998
+这是在
+it's on the
+
+846
+01:07:46.467 --> 01:07:48.147
+10月17日 (中文(简体) ).
+17th of October
+
+847
+01:07:49.467 --> 01:07:50.457
+在巴塞罗那。
+in Barcelona.
+
+848
+01:07:52.767 --> 01:07:54.687
+如果你是的话
+So if you are
+
+849
+01:07:56.038 --> 01:08:01.378
+现在迷上了Tripo,你可以
+fascinated now with Tripo, you can
+
+850
+01:08:01.407 --> 01:08:07.288
+参加比赛。 我会是陪审团,所以
+participate in the competition. And I will be jury, so
+
+851
+01:08:07.797 --> 01:08:09.027
+我可以投给你。
+I can vote for you.
+
+852
+01:08:11.788 --> 01:08:12.147
+对
+Yes.
+
+853
+01:08:13.437 --> 01:08:19.228
+因此,有一个Discord社区, 和事件,你可以发现他们上
+So there is this Discord community, and the events, you can find them on the
+
+854
+01:08:19.288 --> 01:08:19.557
+链接。
+link.
+
+855
+01:08:35.487 --> 01:08:36.748
+在线参与.
+Online participation.
+
+856
+01:08:44.667 --> 01:08:47.847
+对不起,我能问一个关于比赛的问题吗?
+Sorry, can I ask a question about the competition?
+
+857
+01:08:49.468 --> 01:08:54.508
+我不太明白你说什么 我看见了联系,但我不明白是什么
+I don't really understand. I saw the link, but I don't really understand what's the
+
+858
+01:08:54.538 --> 01:08:56.968
+有关项目。 我们要提交什么?
+project about. What do we have to submit?
+
+859
+01:08:58.288 --> 01:09:00.508
+你的创造 任何东西。
+Your creations. Anything.
+
+860
+01:09:01.498 --> 01:09:01.857
+有发现吗?
+Anything?
+
+861
+01:09:02.487 --> 01:09:04.737
+最疯狂的事 你没有简报。
+The craziest things. You don't have a brief.
+
+862
+01:09:04.857 --> 01:09:10.767
+这是利用工具 来制造
+It's the use of the tool for being able to make an
+
+863
+01:09:10.917 --> 01:09:13.017
+STL 3D网格模型,不是吗?
+STL 3D mesh model, no?
+
+864
+01:09:14.517 --> 01:09:16.587
+我想如果你看着
+I think if you look at the
+
+865
+01:09:18.117 --> 01:09:23.487
+Tripo登陆网页 主页 有很多例子
+Tripo landing page, the homepage, there's a lot of examples there
+
+866
+01:09:23.878 --> 01:09:28.197
+来刺激你的想象力 但人们正在做很多不同的事情
+to sort of fuel your imagination. But people are doing a lot of different things
+
+867
+01:09:28.258 --> 01:09:28.527
+用这个
+with it.
+
+868
+01:09:30.147 --> 01:09:32.038
+但这是登陆页?
+But that's on the landing page?
+
+869
+01:09:32.847 --> 01:09:34.167
+是的,在网页上。
+Yeah, on the webpage.
+
+870
+01:09:34.978 --> 01:09:35.248
+摆
+Okay.
+
+871
+01:09:35.697 --> 01:09:39.508
+只是滚动下来。 人们已经做了很多例子。
+Just scroll down. There's tons of examples that people have done.
+
+872
+01:09:42.417 --> 01:09:42.807
+摆
+Okay.
+
+873
+01:09:48.208 --> 01:09:52.258
+我也有一个问题 关于生成的模型。
+I also have a question regarding the generated model.
+
+874
+01:09:53.458 --> 01:09:53.788
+对
+Yeah.
+
+875
+01:09:54.297 --> 01:10:00.027
+我试图下载,但我不知道
+I tried to download it, but I don't know which
+
+876
+01:10:00.057 --> 01:10:05.787
+因为下载的正常版本是
+format should I download it with, because the downloaded normal version is
+
+877
+01:10:05.968 --> 01:10:08.787
+我不知道你们怎么下载的
+paid, so I don't know how you guys are downloading it.
+
+878
+01:10:09.897 --> 01:10:10.107
+这么说
+So
+
+879
+01:10:12.567 --> 01:10:12.927
+时
+while
+
+880
+01:10:15.297 --> 01:10:16.347
+生成模型...
+generating the model-
+
+881
+01:10:17.277 --> 01:10:18.807
+对
+Mm-hmm
+
+882
+01:10:18.807 --> 01:10:19.107
+……
+...
+
+883
+01:10:21.357 --> 01:10:27.327
+在生成模型的同时 你需要从左手边下去
+while generating the model, you need to go down here on the left-hand side and
+
+884
+01:10:27.417 --> 01:10:27.927
+选择
+select
+
+885
+01:10:29.877 --> 01:10:32.218
+H2.5 遗产.
+H 2.5 Legacy.
+
+886
+01:10:32.937 --> 01:10:35.397
+哦,让我看看,如果我找到它。
+Oh, let me see if I find it.
+
+887
+01:10:35.427 --> 01:10:35.758
+对
+Yeah.
+
+888
+01:10:46.077 --> 01:10:52.047
+因为默认情况下,它与H 3.1, 和免费版本,
+Because by default, it comes with H 3.1, and with the free version,
+
+889
+01:10:52.258 --> 01:10:55.137
+不允许下载 STL 文件。
+you're not allowed to download an STL file.
+
+890
+01:10:56.337 --> 01:10:56.817
+摆
+Okay.
+
+891
+01:10:57.687 --> 01:11:01.258
+所以你需要选择遗产模型。
+So you need to select the legacy model.
+
+892
+01:11:19.647 --> 01:11:24.478
+我想我失去了我的生成模型。 我不知道现在在哪里
+I think I lost my generated model. I don't know where it is now.
+
+893
+01:11:25.077 --> 01:11:29.218
+好吧,你要去再生 模型,所以没关系。
+Well, you're going to regenerate the model again, so it doesn't matter.
+
+894
+01:11:30.147 --> 01:11:30.567
+摆
+Okay.
+
+895
+01:11:31.047 --> 01:11:36.867
+因为你需要用这个模型从图像中重新生成它,这个AI
+Because you need to regenerate it from an image again using this model, this AI
+
+896
+01:11:36.897 --> 01:11:40.317
+型号。 不是这个三维模型 我说的是人工智能模型
+model. Not this 3D model. I'm talking about this AI model.
+
+897
+01:11:43.017 --> 01:11:43.407
+所以,我...
+So I...
+
+898
+01:11:47.997 --> 01:11:52.317
+所以再上传一个图像。 确定您的纹理
+So upload an image again. Make sure that you have the texture of
+
+899
+01:11:53.637 --> 01:11:58.107
+三角形地形和任意多边形。
+triangle topology and any polygons that you want.
+
+900
+01:11:59.218 --> 01:11:59.247
+摆
+Okay.
+
+901
+01:11:59.247 --> 01:12:01.107
+然后向下滚动
+And then scroll down
+
+902
+01:12:02.758 --> 01:12:06.387
+并选择 H 2.5 遗产
+and select H 2.5 Legacy
+
+903
+01:12:08.487 --> 01:12:09.478
+在大赦国际模式下,
+under AI model,
+
+904
+01:12:11.218 --> 01:12:12.537
+然后击中生成。
+and then hit Generate.
+
+905
+01:12:14.758 --> 01:12:15.687
+所以我点击...
+So I click...
+
+906
+01:12:20.667 --> 01:12:22.228
+你能再次分享你的屏幕吗?
+Could you share your screen again?
+
+907
+01:12:22.228 --> 01:12:28.077
+对 摆 因为我认为我失去了我创造的另一个模型,或者
+Yeah. Okay. Because I think I lost the other model that I created, or
+
+908
+01:12:28.137 --> 01:12:29.037
+没有 摆
+no. Okay.
+
+909
+01:12:29.367 --> 01:12:30.267
+对 你知道为什么吗?
+Yeah. You know why?
+
+910
+01:12:32.008 --> 01:12:37.197
+因为模型是用3.0生成的.
+Because the model was generated with a 3.0.
+
+911
+01:12:37.228 --> 01:12:37.647
+对
+Yeah.
+
+912
+01:12:38.157 --> 01:12:42.447
+所以当你选择2.5时,它需要再次再生.
+So when you choose the 2.5, it needs to regenerate again.
+
+913
+01:12:42.867 --> 01:12:43.107
+对
+Mm-hmm.
+
+914
+01:12:46.437 --> 01:12:47.337
+你能分享吗? 对
+Can you share it? Yeah.
+
+915
+01:12:48.177 --> 01:12:48.837
+共'.
+It's shared.
+
+916
+01:12:50.487 --> 01:12:51.718
+我们看见了吗? 我不知道.
+Are we seeing this? I don't know.
+
+917
+01:12:56.397 --> 01:12:57.447
+你能看见...
+Can you see the-
+
+918
+01:12:57.627 --> 01:12:58.287
+是的,我们可以看到。
+Yes, we can see.
+
+919
+01:12:59.008 --> 01:13:03.027
+摆 所以,好吧,我想我是在这里。
+Okay. So, okay, I think I was going here.
+
+920
+01:13:03.987 --> 01:13:04.887
+是的,上传。
+Yeah, upload.
+
+921
+01:13:05.997 --> 01:13:06.207
+这里?
+Here?
+
+922
+01:13:06.747 --> 01:13:06.897
+对
+Yeah.
+
+923
+01:13:06.957 --> 01:13:07.557
+但是,你用 - ,
+But are you using-
+
+924
+01:13:07.557 --> 01:13:10.647
+但上传前请选择2.5
+But before you upload, choose the 2.5
+
+925
+01:13:14.109 --> 01:13:17.620
+或者当你上传,选择2.5。
+Or as soon as you upload, choose the 2.5.
+
+926
+01:13:19.269 --> 01:13:20.559
+我得先上传?
+So I have to upload it first?
+
+927
+01:13:22.569 --> 01:13:23.889
+先上传图像.
+Upload the image first.
+
+928
+01:13:24.219 --> 01:13:24.549
+摆
+Okay.
+
+929
+01:13:26.109 --> 01:13:27.339
+你在用Tripo吗?
+Are you using Tripo?
+
+930
+01:13:29.079 --> 01:13:29.679
+那个...
+Uh...
+
+931
+01:13:29.829 --> 01:13:31.599
+你在用棱镜3.1
+You're using Prism 3.1.
+
+932
+01:13:32.289 --> 01:13:35.469
+是啊,这是另一个。 Tripo来了,明白吗?
+Yeah, it's the other one. Tripo is here, you see?
+
+933
+01:13:35.679 --> 01:13:35.979
+对
+Mm-hmm.
+
+934
+01:13:36.729 --> 01:13:36.910
+这里。
+Here.
+
+935
+01:13:37.179 --> 01:13:38.709
+不,等等,别这样 对不起
+No, wait. Sorry.
+
+936
+01:13:42.309 --> 01:13:48.160
+哦,Tripo,伙计们。 对不起 Tripo在这里。 摆 上传? 对
+Oh, Tripo, guys. Sorry. Tripo here. Okay. Upload? Right.
+
+937
+01:13:48.429 --> 01:13:48.699
+摆
+Okay.
+
+938
+01:13:53.679 --> 01:13:55.120
+我要试试这个
+I'm just going to try this one.
+
+939
+01:14:03.999 --> 01:14:04.389
+这么说
+So
+
+940
+01:14:09.039 --> 01:14:13.389
+我现在在哪里点击它? 我只是先生成它, 还是我必须点击什么地方?
+where do I click it now? I just generate it first, or do I have to click somewhere?
+
+941
+01:14:17.229 --> 01:14:17.379
+那个
+Well,
+
+942
+01:14:19.599 --> 01:14:22.989
+我不知道. 我从没用过这个接口,所以...
+I don't know. I've never used this interface, so-
+
+943
+01:14:23.439 --> 01:14:23.919
+上来吧
+Go up.
+
+944
+01:14:24.039 --> 01:14:24.639
+我会...
+I'll just-
+
+945
+01:14:25.599 --> 01:14:26.919
+去一点点。 卷起来
+Go a little bit. Scroll up.
+
+946
+01:14:29.499 --> 01:14:33.009
+犹如P2. 您可以单击所有模型或
+It's like P2. Can you click All Models or
+
+947
+01:14:35.229 --> 01:14:37.660
+上面写了什么,是的,游戏准备好了?
+what it says there, yeah, Game Ready?
+
+948
+01:14:43.629 --> 01:14:44.319
+对 没有
+Yeah. No.
+
+949
+01:14:45.579 --> 01:14:45.759
+哪个?
+Which?
+
+950
+01:14:45.789 --> 01:14:48.129
+不,这是正确的一个。
+No, it's the correct one.
+
+951
+01:14:49.599 --> 01:14:49.839
+对
+Yeah.
+
+952
+01:14:50.978 --> 01:14:51.608
+是这个吗?
+It's this one?
+
+953
+01:14:52.539 --> 01:14:55.449
+但上面写着"原生的四方输出",所以不是这个.
+But it says Native Quad Output, so it's not this one.
+
+954
+01:14:55.449 --> 01:14:55.509
+没有 继续...
+No. Go to-
+
+955
+01:14:55.509 --> 01:15:00.279
+你使用从工作室。
+You're using from the studio.tripo.3d.
+
+956
+01:15:00.699 --> 01:15:00.729
+摆
+Okay.
+
+957
+01:15:00.759 --> 01:15:05.169
+我认为你在使用Git 和另一个LLM模型相连
+I think you're using Git linked to another LLM model.
+
+958
+01:15:05.979 --> 01:15:07.149
+哦,我用错了链接?
+Oh, I'm using the wrong link?
+
+959
+01:15:09.879 --> 01:15:12.189
+这是你的账户 在Tripo?
+It is your account in Tripo?
+
+960
+01:15:12.999 --> 01:15:13.479
+是吗?
+Hmm.
+
+961
+01:15:15.039 --> 01:15:19.269
+我不知道 我刚刚点击了这里谈话的链接 и琌...
+I don't know, I just clicked the link from the conversation here. I just...
+
+962
+01:15:20.529 --> 01:15:20.739
+我不知道.
+I don't know.
+
+963
+01:15:20.739 --> 01:15:21.160
+怪怪的。 怪怪的。
+Weird.
+
+964
+01:15:22.149 --> 01:15:25.989
+没有 我不知道. 所以它只是一个不同的Tripo?
+No. I don't know. So it's just a different Tripo?
+
+965
+01:15:27.429 --> 01:15:27.939
+我不知道.
+I don't know.
+
+966
+01:15:32.289 --> 01:15:34.749
+你有没有点击这个链接?
+Did you click this link?
+
+967
+01:15:35.769 --> 01:15:37.989
+你能再次发送链接 所以我 -
+Can you send the link again so I-
+
+968
+01:15:38.079 --> 01:15:38.169
+对
+Yeah
+
+969
+01:15:38.439 --> 01:15:40.149
+确保它是正确的吗?
+... make sure it's the right one?
+
+970
+01:15:41.259 --> 01:15:45.339
+因为似乎你下载了一些 有很多不同的模型。
+Because it seems that you downloaded something that has many different models.
+
+971
+01:15:45.729 --> 01:15:45.879
+对
+Yeah.
+
+972
+01:15:47.169 --> 01:15:48.489
+哦,我不知道,我还不知道
+Oh, I don't know.
+
+973
+01:15:48.549 --> 01:15:50.799
+我们实际上想知道是什么。
+We would like actually to know what it is.
+
+974
+01:15:52.389 --> 01:15:52.660
+我不知道.
+I don't know.
+
+975
+01:15:55.959 --> 01:15:56.620
+叫什么来着?
+What is the name?
+
+976
+01:15:57.639 --> 01:15:59.979
+腾讯网站.
+It's the website.
+
+977
+01:16:00.519 --> 01:16:01.689
+哦,我不知道,我还不知道 是这个
+Oh, I don't know. It's this one.
+
+978
+01:16:02.919 --> 01:16:03.459
+我不知道.
+I don't know.
+
+979
+01:16:05.889 --> 01:16:08.709
+不过好,我现在就去 摆
+But okay, I'm going here now. Okay.
+
+980
+01:16:10.089 --> 01:16:10.509
+对
+Mm-hmm.
+
+981
+01:16:12.459 --> 01:16:14.109
+所以我必须先登录,对吧?
+So I have to log in first, right?
+
+982
+01:16:16.029 --> 01:16:16.269
+对
+Yes.
+
+983
+01:16:17.019 --> 01:16:17.199
+摆
+Okay.
+
+984
+01:16:20.229 --> 01:16:22.839
+我们没看到你的屏幕 但我们不需要看到它
+Well, we don't see your screen, but we don't need to see it.
+
+985
+01:16:23.229 --> 01:16:24.939
+我们看到前一个屏幕。
+We see the previous screen.
+
+986
+01:16:25.479 --> 01:16:26.769
+哦,你看到之前的屏幕了吗?
+Oh, you see the previous screen?
+
+987
+01:16:26.919 --> 01:16:30.729
+对 我们不需要看到你的屏幕 当你做它。
+Yeah. We don't need to see your screen while you're making it.
+
+988
+01:16:31.689 --> 01:16:33.609
+对 你可以探索STL
+Yes, you can explore STL.
+
+989
+01:16:34.299 --> 01:16:34.629
+对
+Mm-hmm.
+
+990
+01:16:34.929 --> 01:16:40.899
+摆 这给了我很多选择 我点击3D印象,对不对?
+Okay. This gives me a lot of options to do. I click in the 3D impression, right?
+
+991
+01:16:45.039 --> 01:16:45.219
+没有
+No.
+
+992
+01:16:46.149 --> 01:16:46.929
+3D印象吗?
+3D impression?
+
+993
+01:16:50.799 --> 01:16:54.189
+对 让我看看能不能
+Yeah. Let me see if I can
+
+994
+01:16:56.169 --> 01:16:56.469
+份额
+share
+
+995
+01:16:59.529 --> 01:17:00.519
+作么生会.
+what I'm doing.
+
+996
+01:17:10.539 --> 01:17:12.579
+你看到了吗? 我在这里。
+Are you seeing this? I'm here.
+
+997
+01:17:14.529 --> 01:17:15.579
+是的,你必须...
+Yeah, you need to-
+
+998
+01:17:17.079 --> 01:17:17.949
+我还在这里
+I'm still here
+
+999
+01:17:17.949 --> 01:17:21.999
+...从这个盒子外的某个地方点击
+... click out of this box, somewhere outside of this box.
+
+1000
+01:17:22.959 --> 01:17:25.719
+但它只是在这里。 我不知道.
+But it just went here. I don't know.
+
+1001
+01:17:26.829 --> 01:17:27.729
+摆 点击
+Okay. Click on
+
+1002
+01:17:28.929 --> 01:17:29.949
+三维打印机.
+3D printer.
+
+1003
+01:17:30.309 --> 01:17:33.489
+我觉得... 是啊,给你。 在这个阶段,它正在问你 什么样的
+I think it... Yeah, there you go. At this stage, it's asking you what kind of
+
+1004
+01:17:33.549 --> 01:17:34.479
+设计要做的事。
+designing you want to do.
+
+1005
+01:17:34.629 --> 01:17:34.839
+对
+Yeah.
+
+1006
+01:17:35.439 --> 01:17:35.679
+还有
+And
+
+1007
+01:17:37.599 --> 01:17:39.819
+函数对象。 是啊,功能对象。
+functional objects. Yeah, functional objects.
+
+1008
+01:17:39.849 --> 01:17:41.049
+像这样还是不行?
+Like this or no?
+
+1009
+01:17:42.939 --> 01:17:44.589
+选择任何东西。 没关系
+Select anything. It doesn't matter.
+
+1010
+01:17:45.189 --> 01:17:46.120
+摆 没关系
+Okay. It doesn't matter.
+
+1011
+01:17:49.479 --> 01:17:49.719
+对
+Yes.
+
+1012
+01:17:52.539 --> 01:17:54.639
+所以我要点击一个开始。
+So I'm just going to click Create a Start.
+
+1013
+01:17:55.779 --> 01:18:01.719
+然后埃斯帕西奥3D。 选择左上角的那个
+And then Espacio 3D. Select that one on the left upper corner.
+
+1014
+01:18:01.809 --> 01:18:01.929
+瓳
+Oh.
+
+1015
+01:18:02.229 --> 01:18:04.029
+在Tripo旁边 对 没有
+Next to Tripo. Yeah. No.
+
+1016
+01:18:04.299 --> 01:18:04.749
+模特儿吗?
+Model?
+
+1017
+01:18:06.879 --> 01:18:09.219
+对 现在你和我们一样在屏幕上
+Yeah. Now you're in the same screen as us.
+
+1018
+01:18:09.669 --> 01:18:09.849
+瓳
+Oh.
+
+1019
+01:18:12.339 --> 01:18:12.910
+不错
+Great.
+
+1020
+01:18:13.029 --> 01:18:16.839
+摆 现在,我只是生成它, 还是我点击的地方先?
+Okay. Now I just generate it, or I click somewhere first?
+
+1021
+01:18:18.279 --> 01:18:22.269
+首先,你需要上传你的图像,然后,是的。
+First, you need to upload your image, and then, yes.
+
+1022
+01:18:23.379 --> 01:18:25.509
+你看,现在你有 遗产模型。
+You see, now you have the legacy model.
+
+1023
+01:18:25.569 --> 01:18:25.809
+摆
+Okay.
+
+1024
+01:18:26.169 --> 01:18:26.979
+你能够做到。
+You were able to.
+
+1025
+01:18:27.519 --> 01:18:29.259
+Gemini。
+Gemini.
+
+1026
+01:18:29.349 --> 01:18:32.319
+但是在你尝试的时候,我们还能继续吗?
+But shall we continue while you're trying this out?
+
+1027
+01:18:32.349 --> 01:18:34.089
+对 谢谢 对不起 谢谢
+Yeah. Thank you. Sorry. Thank you.
+
+1028
+01:18:34.599 --> 01:18:35.620
+不用谢 没问题
+You're welcome. No problem.
+
+1029
+01:18:36.969 --> 01:18:40.359
+我不介意我还分享屏幕 如果没关系。
+I don't mind if I'm still sharing the screen if it's okay.
+
+1030
+01:18:40.749 --> 01:18:41.139
+没关系。
+It's okay.
+
+1031
+01:18:42.879 --> 01:18:47.709
+我只是想说一些关于图像。
+I just wanted to also say something regarding the images.
+
+1032
+01:18:49.809 --> 01:18:55.449
+我在聊天时分享了模型是如何工作的, LLM是如何工作的
+I shared in the chat at some point how the model works, how the LLM
+
+1033
+01:18:55.839 --> 01:19:00.609
+生成文件,你会看到有两种方法。
+generates the file, and you will see that there are two ways.
+
+1034
+01:19:01.479 --> 01:19:07.389
+那一个,基本上它创造了不同的观点
+That the one, basically it creates different views
+
+1035
+01:19:08.829 --> 01:19:14.410
+,然后将其编成三维模型或
+of the picture, and then it composes them to a 3D model or the
+
+1036
+01:19:14.439 --> 01:19:17.410
+传播. 基本上有两个不同的算法.
+diffusion. There are two different algorithms, basically.
+
+1037
+01:19:17.679 --> 01:19:21.429
+或者另一个是它制造噪音,然后去除噪音。
+Or the other one is that it makes noise and then it de-noises.
+
+1038
+01:19:22.089 --> 01:19:27.819
+所以,这意味着,如果你想 做更精确的东西,它
+So this means that if you want to make something more precise, it
+
+1039
+01:19:27.999 --> 01:19:33.099
+如果你有更多的图片输入会更好。
+is better if you have input more pictures.
+
+1040
+01:19:33.339 --> 01:19:38.889
+譬如放顶,侧,前,后.
+Like if you put the top, the side, the front, and the back.
+
+1041
+01:19:40.179 --> 01:19:42.039
+但这种
+But this kind of
+
+1042
+01:19:43.749 --> 01:19:48.699
+计算,它有一个问题,你看到很多次你有很多
+calculation, it has this problem that you see many times that you have many
+
+1043
+01:19:48.789 --> 01:19:50.019
+手指,比如说。
+fingers, for example.
+
+1044
+01:19:51.819 --> 01:19:53.289
+这叫雅努斯问题
+This is called the Janus problem.
+
+1045
+01:19:54.910 --> 01:20:00.789
+但它总是更好 因为LLM是这样工作的, 如果你已经想要
+But it's always better because the LLM works like that, that if you already want to
+
+1046
+01:20:00.819 --> 01:20:05.559
+做一个技术设计, 你提供不同的观点。 这是一个括号。
+do a technical design, you provide the different views. That's a parenthesis.
+
+1047
+01:20:05.649 --> 01:20:06.549
+对不起,阿斯利
+Sorry, Asli.
+
+1048
+01:20:07.149 --> 01:20:12.549
+没问题 但是在自由阶梯中也不允许你输入
+No problem. But it's also not allowed in the free tier that you cannot input
+
+1049
+01:20:12.639 --> 01:20:15.489
+多视. 所以,现在,它不是
+multi-view. So at this point, it's not
+
+1050
+01:20:16.809 --> 01:20:22.149
+对我们来说是可能的,但是如果你想要更精确,你就能知道
+possible for us, but it's good to know that if you want more precision and you
+
+1051
+01:20:22.749 --> 01:20:23.229
+想要吗?
+want to
+
+1052
+01:20:24.429 --> 01:20:30.249
+准确输入背后和侧面的情况,而不是
+give the input of what's happening at the back and on the sides precisely, and not
+
+1053
+01:20:30.339 --> 01:20:36.219
+让Tripo或其他任何3D模型生成器想象一下
+let the Tripo or any other 3D model generator imagine it
+
+1054
+01:20:36.309 --> 01:20:40.299
+然后,你需要表达不同的观点 这样你就可以更好地控制
+itself, then you need to give different views so that you are more in control of
+
+1055
+01:20:40.359 --> 01:20:44.799
+物体周围发生的一切,360。 没错
+what's happening all around the object, 360. That's true.
+
+1056
+01:20:45.669 --> 01:20:47.889
+所以,让我们继续
+So let's continue with
+
+1057
+01:20:50.709 --> 01:20:53.049
+Blender有点。 这么说
+Blender a little bit. So
+
+1058
+01:20:55.299 --> 01:21:00.099
+你们都有他们可以使用的STL文件吗?
+do all of you have a sort of STL file that they can work with?
+
+1059
+01:21:02.109 --> 01:21:02.589
+不错
+Great.
+
+1060
+01:21:04.149 --> 01:21:06.219
+我们先休息,再休息?
+Shall we take a break first, bio break first?
+
+1061
+01:21:07.569 --> 01:21:08.559
+我觉得,然后...
+I think, and then-
+
+1062
+01:21:09.129 --> 01:21:11.499
+音乐生化休息,五分钟。
+Musical bio break, five minutes.
+
+1063
+01:30:50.454 --> 01:30:56.004
+在重新开始之前,马基又对STL文件提出疑问
+Before we start again, Maki has a question again about STL file
+
+1064
+01:30:56.035 --> 01:30:56.574
+导出。
+export.
+
+1065
+01:30:59.064 --> 01:31:04.974
+正如阿纳斯塔西娅所言 在你创造你的遗产之前
+You need to choose legacy, as Anastasiia put there, before you generate your
+
+1066
+01:31:05.035 --> 01:31:09.174
+型号。 如果你去米罗板,你可以看到
+model. And if you go to the Miro board, you can see
+
+1067
+01:31:12.354 --> 01:31:17.995
+怎样才能做到呢? 因此,你需要这样做 在你再次生成模型之前。
+how you can do it. So you need to do this before you generate the model again.
+
+1068
+01:31:18.114 --> 01:31:23.364
+所以你上传你的图像 然后选择遗产2.5,
+So you upload your image, and then you choose the Legacy 2.5,
+
+1069
+01:31:24.054 --> 01:31:25.554
+然后生成模型。
+and then generate the model.
+
+1070
+01:31:26.634 --> 01:31:27.594
+对 哈罗
+Yes. Hello.
+
+1071
+01:31:28.224 --> 01:31:28.554
+对
+Yeah.
+
+1072
+01:31:28.704 --> 01:31:32.245
+我选择了遗产2.5 它做到了。
+I chose Legacy 2.5 and it made it.
+
+1073
+01:31:33.144 --> 01:31:33.414
+对
+Mm-hmm.
+
+1074
+01:31:33.444 --> 01:31:35.664
+然后我试图出口
+And then I tried to export
+
+1075
+01:31:36.864 --> 01:31:37.074
+这个
+it.
+
+1076
+01:31:37.674 --> 01:31:37.944
+对
+Mm-hmm.
+
+1077
+01:31:38.424 --> 01:31:41.754
+我试图选择发送到Blender。
+And I tried to choose send to Blender.
+
+1078
+01:31:43.038 --> 01:31:44.898
+不是发到Blender。 你必须...
+Not send to Blender. You need to-
+
+1079
+01:31:44.988 --> 01:31:46.008
+哦,没关系。 只是出口吗?
+Oh, okay. Just export?
+
+1080
+01:31:46.728 --> 01:31:47.478
+对,出口
+Yeah, export.
+
+1081
+01:31:48.049 --> 01:31:48.378
+哦,没关系。
+Oh, okay.
+
+1082
+01:31:48.647 --> 01:31:50.148
+选择STL和导出 。
+Choose STL and export.
+
+1083
+01:31:50.959 --> 01:31:53.868
+而纹理分辨率是4K是罚款?
+And the texture resolution is 4K is fine?
+
+1084
+01:31:56.808 --> 01:31:57.888
+对 那个...
+Right. The-
+
+1085
+01:31:58.758 --> 01:31:58.938
+4K型车.
+4K.
+
+1086
+01:31:58.998 --> 01:32:00.078
+有几个...
+There is several-
+
+1087
+01:32:00.078 --> 01:32:00.168
+纹理.
+Texture.
+
+1088
+01:32:00.228 --> 01:32:01.549
+是啊,有好几个
+Yeah, there is several
+
+1089
+01:32:03.558 --> 01:32:06.108
+纹理分辨率选择。
+selections for texture resolution.
+
+1090
+01:32:06.498 --> 01:32:06.588
+所以说...
+So-
+
+1091
+01:32:06.647 --> 01:32:08.959
+但我们没有使用纹理,因为...
+But we are not using texture because-
+
+1092
+01:32:08.988 --> 01:32:09.049
+还好
+Okay
+
+1093
+01:32:09.049 --> 01:32:12.528
+...我们要编造它。 如果你想用纹理 那就用
+... we're going to fabricate it. Well, if you want to use texture, then you use
+
+1094
+01:32:12.588 --> 01:32:15.498
+更多的符号,然后你有图像 -
+more tokens, then you have the image-
+
+1095
+01:32:15.618 --> 01:32:15.948
+摆 这么说吧...
+Okay. So just-
+
+1096
+01:32:15.948 --> 01:32:16.818
+...缠绕着
+... wrapped around
+
+1097
+01:32:17.178 --> 01:32:18.198
+...推进。
+... push the import.
+
+1098
+01:32:19.338 --> 01:32:23.358
+是的,但如果你下载STL, 纹理信息不会随之而来。
+Yeah, but if you download STL, the texture information will not come with it.
+
+1099
+01:32:24.378 --> 01:32:27.768
+摆 没事 故无碍.
+Okay. Yeah, it's okay. So it doesn't matter.
+
+1100
+01:32:28.398 --> 01:32:28.488
+没有
+No.
+
+1101
+01:32:30.078 --> 01:32:32.358
+摆 谢谢 我可以试试
+Okay. Thank you. I can try it.
+
+1102
+01:32:32.928 --> 01:32:33.018
+对
+Yeah.
+
+1103
+01:32:34.698 --> 01:32:34.968
+摆
+Okay.
+
+1104
+01:32:36.408 --> 01:32:36.709
+这么说
+So
+
+1105
+01:32:40.728 --> 01:32:41.598
+我们能重新开始吗?
+shall we start again?
+
+1106
+01:32:45.108 --> 01:32:46.188
+然后我们会得到
+Then we will get
+
+1107
+01:32:47.628 --> 01:32:52.368
+回来... 现在我们去Blender,因为
+back... Now we will go to Blender, because
+
+1108
+01:32:53.688 --> 01:32:56.538
+如果你有一个模型,那么我们会看看我们如何
+if you have a model, then we will see how we can
+
+1109
+01:32:58.818 --> 01:33:02.418
+准备和进一步修改
+prepare it and further modify it for
+
+1110
+01:33:07.158 --> 01:33:12.738
+编造。 这里有Blender屏幕。
+fabrication. So here we have the Blender screen.
+
+1111
+01:33:14.988 --> 01:33:15.768
+我先来
+I will first
+
+1112
+01:33:18.917 --> 01:33:20.058
+导入一个模型。
+import one model.
+
+1113
+01:33:23.628 --> 01:33:29.598
+我一开始说,进口型号是一个单位 它在米,
+As I started with saying, the import model is one unit and it's in meters,
+
+1114
+01:33:29.868 --> 01:33:33.588
+所以,当我们把它送到切片机时,它就会产生效果
+so it will have an effect when we send it to the slicer
+
+1115
+01:33:36.258 --> 01:33:39.588
+用于激光切割。 但是,现在,我将保持原样。
+for laser cutting. But for now, I will leave it as it is.
+
+1116
+01:33:44.478 --> 01:33:45.078
+还有
+And
+
+1117
+01:33:47.718 --> 01:33:52.428
+然后我们的人就在这里
+then we have our person in the center here.
+
+1118
+01:33:57.588 --> 01:34:03.318
+我们需要两个加注才能准备
+We need to have two add-ons to be able to prepare
+
+1119
+01:34:03.378 --> 01:34:03.678
+这个
+this
+
+1120
+01:34:05.178 --> 01:34:06.318
+模式
+model for
+
+1121
+01:34:07.728 --> 01:34:08.538
+编造。
+fabrication.
+
+1122
+01:34:09.738 --> 01:34:14.058
+为了能够做到这一点,我们需要能够增加它们,如果我们没有它们的话。
+To be able to do that, we need to be able to add them, if we don't have them.
+
+1123
+01:34:14.718 --> 01:34:18.049
+我们需要去优惠。 我在用麦克
+We need to go to Preferences. I'm using a Mac.
+
+1124
+01:34:18.858 --> 01:34:19.608
+我不知道,如果
+I don't know if
+
+1125
+01:34:24.138 --> 01:34:27.768
+菜单位置对Mac或Windows不同,
+places of the menus are different for Mac or Windows,
+
+1126
+01:34:29.328 --> 01:34:34.068
+但我只有麦克 如果你已经使用它们, 如果你已经下载
+but I have Mac only. And if you have used them, if you have downloaded the
+
+1127
+01:34:34.128 --> 01:34:37.549
+扩展名之前,您可以到 Add-ons 并选择它们 。
+extensions before, you can go to Add-ons and select them.
+
+1128
+01:34:38.178 --> 01:34:44.118
+但如果你以前没吃过,就去享受优惠
+But if you haven't had them before, go to Get Extensions under Preferences and
+
+1129
+01:34:44.448 --> 01:34:46.098
+安装这两个
+install these two
+
+1130
+01:34:48.558 --> 01:34:52.818
+扩展,加载. 你可以找到他们
+extensions, add-ons. You can find them by
+
+1131
+01:34:54.049 --> 01:34:57.197
+寻找这里。 一是三维印等.
+searching here. One is 3D Print, blah, blah, blah.
+
+1132
+01:34:58.459 --> 01:35:00.288
+如果搜索,可以安装.
+If you search it, you can install it.
+
+1133
+01:35:01.459 --> 01:35:07.128
+自从我有了它, 它不显示安装盒在这里, 安装按钮在这里,但
+Since I have it, it doesn't show the install box here, install button here, but
+
+1134
+01:35:09.348 --> 01:35:14.748
+您需要通过点击它来安装, 或者,还有布尔工具,
+you need to install it by clicking on it or, and also the Bool Tool,
+
+1135
+01:35:15.228 --> 01:35:18.558
+它可以让我们在物体上进行布尔操作。
+which will allow us to make boolean operations on the object.
+
+1136
+01:35:18.948 --> 01:35:23.358
+第三个会确保我们有多重几何,这意味着
+And the third one will make sure that we have manifold geometry, which means a
+
+1137
+01:35:23.418 --> 01:35:25.218
+紧水几何
+watertight geometry for-
+
+1138
+01:35:25.459 --> 01:35:25.758
+对不起
+Sorry.
+
+1139
+01:35:26.448 --> 01:35:26.688
+对
+Yep.
+
+1140
+01:35:27.018 --> 01:35:30.049
+我们看不到你的喜好屏幕
+We can't see your preferences screen there.
+
+1141
+01:35:30.888 --> 01:35:32.508
+是吗? 哦,谢谢你...
+You don't? Oh, thank you for-
+
+1142
+01:35:33.108 --> 01:35:33.138
+没有
+No.
+
+1143
+01:35:33.138 --> 01:35:34.938
+摆 然后,我将分享我的全屏。
+Okay. Then I will share my full screen.
+
+1144
+01:35:39.468 --> 01:35:43.038
+摆 对 谢谢你告诉我
+Okay. Yeah. Thank you for letting me know.
+
+1145
+01:35:43.549 --> 01:35:44.268
+就像我说的,这是
+As I said, it's
+
+1146
+01:35:45.498 --> 01:35:50.628
+当你看不到别人所看到的时 很难过 我会分享我的整个屏幕。
+really hard when you don't see what others see. I will share my entire screen.
+
+1147
+01:35:50.778 --> 01:35:53.418
+忍我一会。 现在我们在正确的屏幕上。
+Bear with me for a second. Now we are in the right screen.
+
+1148
+01:35:53.718 --> 01:35:59.358
+因此,我们将去优惠。 现在你看到我的喜好屏幕了吗?
+So we will go to Preferences. Now do you see my preferences screen?
+
+1149
+01:36:01.549 --> 01:36:01.698
+对
+Yeah.
+
+1150
+01:36:02.478 --> 01:36:05.628
+好吧,冷静。 你去"获得扩展",
+Okay, cool. You go to Get Extensions,
+
+1151
+01:36:09.018 --> 01:36:13.968
+在“获取扩展”下,您可以输入扩展的名称
+and then under Get Extensions, you can type the name of the extensions that you
+
+1152
+01:36:13.998 --> 01:36:19.908
+想要,我们想要的扩展为3D打印工具箱和布尔工具。
+want, and the extensions that we want are 3D Print Toolbox and Bool Tool.
+
+1153
+01:36:20.418 --> 01:36:22.368
+所以如果你开始在这里打字,Boul工具,
+So if you start typing here, Bool Tool,
+
+1154
+01:36:23.778 --> 01:36:28.459
+它们将出现在可用的扩展名下,您需要
+they will appear under the available extensions, and you need to
+
+1155
+01:36:30.108 --> 01:36:33.768
+点击 Boul 工具旁边的安装按钮安装它们,
+install them by clicking the install button next to Bool Tool,
+
+1156
+01:36:35.178 --> 01:36:38.568
+然后在安装的区域出现
+and then they will appear on the installed area
+
+1157
+01:36:39.978 --> 01:36:44.778
+,或者移动到已安装的区域,对于3D打印工具箱,您也需要这样做。
+or move to the installed area, and you need to do the same for 3D Print Toolbox.
+
+1158
+01:36:53.028 --> 01:36:57.648
+安装后,你可以去
+And after they are installed, you can go to
+
+1159
+01:36:59.238 --> 01:37:03.738
+添加和确保它们被点击,这意味着它们作为
+Add-ons and make sure that they are clicked, which means that they are available as
+
+1160
+01:37:03.799 --> 01:37:05.478
+Blender内部的加载。
+an add-on inside Blender.
+
+1161
+01:37:09.768 --> 01:37:10.128
+接下来
+Then,
+
+1162
+01:37:17.538 --> 01:37:22.338
+我们有我们的人在这里。 自从我们创造了这个人
+we have our human here. Since we generated this guy
+
+1163
+01:37:23.808 --> 01:37:24.738
+或这个人,
+or this person,
+
+1164
+01:37:26.448 --> 01:37:31.098
+你看,它没有 平底,我也许也想...
+you see that it does not have a flat base, and I might also want to...
+
+1165
+01:37:31.608 --> 01:37:34.878
+但我想要一个平坦的基座 这样它会保持一点点
+But I would like a flat base so that it stays a little bit
+
+1166
+01:37:37.518 --> 01:37:41.898
+我把它放在桌子上,然后我编造出来。
+vertical and I put it on the table after I fabricate it.
+
+1167
+01:37:42.018 --> 01:37:46.248
+所以,我想在那里建立一个切。 我该怎么做?
+So I would like to create a cut there. How do I do it?
+
+1168
+01:37:51.408 --> 01:37:51.438
+我……
+I
+
+1169
+01:37:52.848 --> 01:37:58.218
+添加网状平面。 之前,我加,也许你可以移动
+add a mesh plane. Before I add it, maybe you can move the
+
+1170
+01:37:58.818 --> 01:38:03.858
+光标到您想要制造平面的位置,
+cursor to a location that you want to make a plane,
+
+1171
+01:38:04.788 --> 01:38:05.268
+和
+and
+
+1172
+01:38:06.768 --> 01:38:11.628
+也可以在此之后更改此位置。 但现在,我会把它放在这里。
+you can also change this location afterwards. But for now, I will put it here.
+
+1173
+01:38:12.078 --> 01:38:15.648
+实际所在. 增加梅什和梅什飞机.
+It's actually where it is. Add Mesh and Plane Mesh.
+
+1174
+01:38:16.338 --> 01:38:17.778
+我生成后,
+And after I generate it,
+
+1175
+01:38:20.328 --> 01:38:25.128
+你看,它有点低, 所以我需要移动它一点点上,以便
+you see that it is a little bit below, so I need to move it a little bit up so that
+
+1176
+01:38:25.188 --> 01:38:30.888
+它穿过我的目标 这些是这里的修饰工具,所以你可以移动,
+it cuts through my object. These are the modifier tools here, so you can move,
+
+1177
+01:38:31.158 --> 01:38:32.478
+旋转, 缩放
+rotate, scale
+
+1178
+01:38:35.058 --> 01:38:40.818
+任何几何学 我们移动它一点点,这样
+any kind of geometry you have. And we move it a little bit up so that
+
+1179
+01:38:41.358 --> 01:38:43.308
+我知道那伤了我的身体
+I know that cuts through my object.
+
+1180
+01:38:45.858 --> 01:38:49.908
+等我搞定这个... 现在这是一架飞机。
+And after I'm done with this... Now this is a plane.
+
+1181
+01:38:50.238 --> 01:38:52.218
+因此,一个平面几何是不坚实的,
+So a plane geometry is not solid,
+
+1182
+01:38:53.568 --> 01:38:59.209
+这意味着我不能用它做布尔操作, 所以我不能减去
+which means that I cannot do boolean operations with it, so that I cannot subtract
+
+1183
+01:38:59.299 --> 01:39:00.468
+或者切开我的模型
+or slice my model
+
+1184
+01:39:02.268 --> 01:39:08.209
+与这架飞机。 所以我得把这做成一个坚固的物体 就像我的飞机一样
+with this plane. So I need to make this a solid object, like my plane, like my
+
+1185
+01:39:10.338 --> 01:39:15.348
+模型,人类模型。 所以在这右边
+model, human model. So here on the right-hand side,
+
+1186
+01:39:17.418 --> 01:39:18.018
+你会的
+you will
+
+1187
+01:39:20.658 --> 01:39:20.988
+添加...
+add...
+
+1188
+01:39:24.138 --> 01:39:24.588
+对不起
+Sorry.
+
+1189
+01:39:26.358 --> 01:39:29.688
+添加修饰器、生成器和团结。
+Add Modifier, Generate, and Solidify.
+
+1190
+01:39:35.299 --> 01:39:36.528
+所以当我加上这个,
+So when I add this,
+
+1191
+01:39:37.998 --> 01:39:38.928
+你会看到
+you will see that
+
+1192
+01:39:40.459 --> 01:39:41.148
+没错
+it is
+
+1193
+01:39:43.488 --> 01:39:44.778
+有点厚了
+a little bit thicker now.
+
+1194
+01:39:46.728 --> 01:39:47.238
+礛
+And then
+
+1195
+01:39:49.308 --> 01:39:49.938
+我会打
+I will hit
+
+1196
+01:39:51.738 --> 01:39:55.788
+应用在这个下。 现在我有了这个东西。
+Apply under this. So now I have this object.
+
+1197
+01:40:00.918 --> 01:40:01.188
+摆
+Okay.
+
+1198
+01:40:03.288 --> 01:40:08.898
+所以,这个部分,我知道 这可能会有点太复杂,
+So this part, I know this could be a little bit too complicated,
+
+1199
+01:40:09.228 --> 01:40:14.628
+复杂,但这部分,我还附上了YouTube教程
+intricate, but this part, I also attached a YouTube tutorial
+
+1200
+01:40:15.888 --> 01:40:20.088
+在米罗板。 所以,如果你不能跟着现在, 你也可以这样做
+in the Miro board. So if you cannot follow along right now, you can also do it
+
+1201
+01:40:20.178 --> 01:40:22.428
+之后,在这个讲习班之后。
+afterwards, after this workshop.
+
+1202
+01:40:25.459 --> 01:40:31.098
+我们现在有这个人 和这个固化的飞机, 这是一个3D
+So we have this guy now and this solidified plane, which is a 3D
+
+1203
+01:40:31.158 --> 01:40:36.288
+而我们就要把这家伙分开
+box at the moment, and we are going to split this guy
+
+1204
+01:40:37.248 --> 01:40:39.588
+用这架飞机,让我们有一个平坦的基地。
+with this plane so that we have a flat base.
+
+1205
+01:40:40.218 --> 01:40:45.858
+我们要点击他 然后再加一个修饰符
+We are going to click on the guy and then add another modifier.
+
+1206
+01:40:47.028 --> 01:40:52.518
+因为我们加入了布尔工具 现在我们可以添加布尔
+Because we added the boolean Bool Tool, now we are able to add a boolean
+
+1207
+01:40:53.209 --> 01:40:56.028
+操作器, 修改器
+operator on it, modifier
+
+1208
+01:40:57.360 --> 01:41:01.890
+所以我们加入了布尔修饰剂。 汝见差别.
+So we add the Boolean modifier. You see the difference.
+
+1209
+01:41:02.010 --> 01:41:03.540
+将取其异.
+We're going to take the difference of it.
+
+1210
+01:41:03.630 --> 01:41:03.810
+这么说
+So
+
+1211
+01:41:07.140 --> 01:41:12.691
+然后操作器是我的对象,它被选中,
+and then the operant is my object, which is selected, and
+
+1212
+01:41:12.750 --> 01:41:18.120
+现在我要点击滴眼器工具 选择这个
+then now I'm going to click on the eyedropper tool and select this
+
+1213
+01:41:18.180 --> 01:41:18.780
+飞机
+plane.
+
+1214
+01:41:23.160 --> 01:41:27.000
+然后,你看到飞机变成了现在的物体。
+And then you see the plane becomes the object now.
+
+1215
+01:41:28.080 --> 01:41:29.100
+一旦我完成了,
+And once I'm done,
+
+1216
+01:41:31.201 --> 01:41:33.330
+我会应用这个。
+I will apply this.
+
+1217
+01:41:34.620 --> 01:41:37.500
+看来什么都没发生
+So it appears like nothing has happened
+
+1218
+01:41:38.760 --> 01:41:40.981
+因为我们还有这架飞机
+because we still have this plane here.
+
+1219
+01:41:41.370 --> 01:41:46.800
+但如果我删除这个平面,你可以删除 Blender 中的对象,如果你选择
+But if I delete this plane, and you can delete objects in Blender, if you select
+
+1220
+01:41:46.830 --> 01:41:52.800
+在键盘上按下 X, 弹出就会打开。
+the object and hit X on your keyboard, you will have this pop-up open.
+
+1221
+01:41:53.370 --> 01:41:56.701
+删除选中的对象 。 删除,现在删除.
+Delete selected objects. Delete it, and it's deleted now.
+
+1222
+01:42:00.481 --> 01:42:04.170
+所以,你可以看到,现在上下之间有分歧。
+So you see there is a split now between the top and the bottom.
+
+1223
+01:42:08.160 --> 01:42:11.820
+但当我选择物体时,它们仍然在一起。
+But when I select the object, they are still together.
+
+1224
+01:42:14.010 --> 01:42:16.920
+因此,为了能够分开他们,分开他们,
+So to be able to separate them, split them,
+
+1225
+01:42:19.650 --> 01:42:23.040
+选择对象后,我会去编辑模式。
+after selecting my object, I will go to edit mode.
+
+1226
+01:42:24.930 --> 01:42:26.760
+你会看到这里发生了什么
+You'll see something is happening here.
+
+1227
+01:42:27.300 --> 01:42:27.600
+当我
+When I
+
+1228
+01:42:29.250 --> 01:42:31.410
+按我键盘上的A
+press A on my keyboard,
+
+1229
+01:42:31.830 --> 01:42:37.531
+所有的东西
+everything
+
+1230
+01:42:38.310 --> 01:42:42.691
+中选择对象。 如果我打中了P的话 And if I hit P,
+within the object is selected. And if I hit P,
+
+1231
+01:42:44.520 --> 01:42:50.340
+然后,它将被分成若干部分,
+then it will separate by loose parts,
+
+1232
+01:42:50.850 --> 01:42:52.951
+也就是说它会把两部分分开
+which means that it will separate the two parts
+
+1233
+01:42:54.390 --> 01:42:55.140
+对象。
+of the object.
+
+1234
+01:42:56.670 --> 01:42:58.560
+现在你看到他们分开了
+Now you see that they are separated.
+
+1235
+01:43:00.570 --> 01:43:05.401
+我可以离开物体模式。 现在我有两个不同的物体。
+And I can leave the object mode. Now I have two different objects.
+
+1236
+01:43:08.100 --> 01:43:12.840
+一个是这个,另一个是这个。 我不需要这个部分,所以我可以删除它
+One is this and the other is this. And I don't need this part, so I can delete it
+
+1237
+01:43:12.930 --> 01:43:16.770
+键盘上按 X 并删除。
+by pressing X on my keyboard and deleting.
+
+1238
+01:43:19.380 --> 01:43:25.050
+现在,我的物体有一个平底。 你也可以这样
+And now my object has a flat base. You can also do these kind of
+
+1239
+01:43:25.080 --> 01:43:28.830
+变量,如果您想要删除手臂。
+variations if you want to delete the arms.
+
+1240
+01:43:28.920 --> 01:43:34.590
+正如我所说,如果你想删除模型的某些部分,那就不容易了
+As I said, if you want to delete some parts of the model, it's not easy to do it
+
+1241
+01:43:35.310 --> 01:43:41.281
+通过要求 AI 图像生成从
+by asking AI image generation to cut it exactly from
+
+1242
+01:43:41.310 --> 01:43:47.250
+随便你 但你可以在这里做到这一点, 你不需要跟着这个
+where you want. But you can do it here by, you don't need to follow along with this
+
+1243
+01:43:47.340 --> 01:43:50.701
+一,通过加网,然后
+one, by adding a mesh and then
+
+1244
+01:43:52.020 --> 01:43:54.120
+移到这里一点点,
+moving it up here a little bit,
+
+1245
+01:43:55.470 --> 01:43:58.500
+我们再放大一点
+and let's scale it a little bit,
+
+1246
+01:44:00.151 --> 01:44:01.350
+更进一步,
+scale it further,
+
+1247
+01:44:03.031 --> 01:44:05.910
+搬过来
+and move it here.
+
+1248
+01:44:07.290 --> 01:44:11.520
+对不起 然后旋转它,
+Oops, sorry. And then rotate it,
+
+1249
+01:44:14.670 --> 01:44:16.470
+我轻轻移动它。
+and I move it slightly.
+
+1250
+01:44:20.790 --> 01:44:25.951
+所以,如果我想把它切到这里, 我将无法做到这一点。
+So if I wanted it cut exactly here, I would not be able to do it in
+
+1251
+01:44:26.130 --> 01:44:31.920
+AI 生成模式,但
+AI generation mode, but
+
+1252
+01:44:32.070 --> 01:44:32.640
+我办得到
+I can do it
+
+1253
+01:44:34.441 --> 01:44:39.930
+这里在Blender。 或者,我也可以做到这一点之前,我的形象发送到
+here in Blender. Or, I could also do it before sending my image to
+
+1254
+01:44:42.810 --> 01:44:44.910
+Gemini或另一个LM.
+Gemini or another LLM.
+
+1255
+01:44:47.070 --> 01:44:51.451
+在这里,我们同样需要这样做。 我将增加一个修饰语。
+Here again, we need to do the same thing. I will add a modifier.
+
+1256
+01:44:52.860 --> 01:44:53.160
+哎哟
+Oops.
+
+1257
+01:44:55.740 --> 01:45:01.560
+结实一点厚度,这是很好的, 然后我应用它。
+Solidify a little bit of thickness, which is nice, and then I apply it.
+
+1258
+01:45:02.820 --> 01:45:05.880
+我现在有了,然后我再补充
+I have it now, and then I will add
+
+1259
+01:45:07.230 --> 01:45:13.020
+a 这里的布尔, 差数, 选择此平面对象,
+a Boolean here, difference, select this plane object,
+
+1260
+01:45:13.830 --> 01:45:16.770
+应用。 现在再说一次,我有这个
+apply. Now again, I have this
+
+1261
+01:45:19.590 --> 01:45:20.340
+分离。
+separated.
+
+1262
+01:45:21.750 --> 01:45:22.770
+我可以去这个,
+I can go to this,
+
+1263
+01:45:24.270 --> 01:45:30.000
+选择此对象, 在编辑模式下打开, 按下全部选择
+select this object, open it in edit mode, select all by pressing
+
+1264
+01:45:30.151 --> 01:45:31.320
+我键盘上的
+A on my keyboard.
+
+1265
+01:45:32.520 --> 01:45:38.100
+我按键盘上按P就可以分开 松开就可以分开
+I can separate them by pressing P on my keyboard and separate it by loose
+
+1266
+01:45:38.191 --> 01:45:40.680
+组件。 你会看到这已经分开了
+parts. You'll see that this is separated now.
+
+1267
+01:45:41.191 --> 01:45:44.910
+然后我可以退出对象编辑模式,然后
+And then I can exit the object edit mode, and then
+
+1268
+01:45:46.380 --> 01:45:51.810
+删除此松散部分。 对 所以,一旦我完成了,我有一个模型。
+delete this loose part. Yeah. So once I'm done, I have this model.
+
+1269
+01:45:52.770 --> 01:45:58.740
+现在我要查一下我能不能打印出3D还是多维
+Now I need to check if I can 3D print it, or if it's a manifold
+
+1270
+01:45:58.830 --> 01:46:01.201
+物体或紧水物体。 这么说
+object or a watertight object. So
+
+1271
+01:46:03.060 --> 01:46:06.570
+您可以打开此三维打印标签
+you can open this 3D print tab
+
+1272
+01:46:09.000 --> 01:46:10.711
+请点击这里。
+by clicking here.
+
+1273
+01:46:13.080 --> 01:46:18.360
+你看到了吗? 有时你看不到,但如果你点击这边,你可以
+Do you see it? Sometimes you don't see it, but if you click on this side, you can
+
+1274
+01:46:18.451 --> 01:46:23.010
+看见了 然后我要选择我的目标 然后
+see it. And then I am going to select my object and then
+
+1275
+01:46:24.480 --> 01:46:30.390
+说,"做多。" 你会看到它修改了一些顶点,
+say, "Make manifold." You'll see that it modified a few vertices,
+
+1276
+01:46:30.510 --> 01:46:34.740
+几边,表面使它变得多。
+a few edges, and surfaces to make it manifold.
+
+1277
+01:46:35.340 --> 01:46:37.740
+你需要按多键
+And you need to press manifold
+
+1278
+01:46:39.270 --> 01:46:39.870
+作为
+as
+
+1279
+01:46:44.910 --> 01:46:47.760
+您达到零顶点,零边缘,零面。
+you reach zero vertices, zero edges, and zero faces.
+
+1280
+01:46:47.850 --> 01:46:49.470
+那就意味着你的模特儿
+Then it means that your model is
+
+1281
+01:46:50.941 --> 01:46:51.451
+关闭。
+closed.
+
+1282
+01:46:54.901 --> 01:46:57.720
+对不起,多面和紧水一样吗?
+Sorry, manifold and watertight is the same?
+
+1283
+01:46:58.290 --> 01:46:58.470
+对
+Yeah.
+
+1284
+01:46:59.250 --> 01:47:00.360
+摆 谢谢
+Okay. Thank you.
+
+1285
+01:47:01.410 --> 01:47:01.770
+不用谢
+You're welcome.
+
+1286
+01:47:03.270 --> 01:47:08.191
+对不起,如果我们没有 3D打印选项在侧面,
+Sorry, if we don't have this 3D print option on the side,
+
+1287
+01:47:09.750 --> 01:47:11.340
+我们在哪里能找到
+where can we find
+
+1288
+01:47:14.790 --> 01:47:16.170
+做出多重选择?
+make manifold option?
+
+1289
+01:47:17.370 --> 01:47:20.640
+如果这里没有3D打印, 你找不到它 。
+You cannot find it if you don't have the 3D print here.
+
+1290
+01:47:21.989 --> 01:47:23.550
+是的,我没有,所以如何添加它?
+Yeah, I don't have, so how to add it?
+
+1291
+01:47:24.390 --> 01:47:26.580
+你需要去喜欢。
+You need to go to preferences.
+
+1292
+01:47:27.510 --> 01:47:27.719
+对
+Mm-hmm.
+
+1293
+01:47:28.050 --> 01:47:30.451
+您是否添加了 3D 打印扩展名 ?
+Did you add the 3D print extension?
+
+1294
+01:47:32.910 --> 01:47:38.490
+我下载了Blender 我和Rico一起编辑
+I downloaded Blender, and I edit with Rico
+
+1295
+01:47:38.850 --> 01:47:42.810
+MakeHuman类延伸,但除此之外,没有。
+Make Human extension, but apart from that, no.
+
+1296
+01:47:42.810 --> 01:47:48.000
+好吧,所以去得到扩展 并添加3D打印
+Okay, so go to get extensions and add 3D print
+
+1297
+01:47:48.540 --> 01:47:49.140
+工具箱 工具箱 工具箱
+toolbox.
+
+1298
+01:47:51.451 --> 01:47:55.410
+我想作一点澄清。
+I would like to make a small clarification.
+
+1299
+01:47:56.340 --> 01:48:02.130
+水紧是当没有洞, 这意味着如果你
+Watertight is when there are no holes, meaning that if you
+
+1300
+01:48:02.191 --> 01:48:07.560
+将物体淹没在水瓶中 里面没有水
+submerge the object in a bottle of water, no water goes inside,
+
+1301
+01:48:08.160 --> 01:48:09.600
+意思是关门了
+meaning that it's closed.
+
+1302
+01:48:11.490 --> 01:48:16.050
+曼尼佛和非曼尼佛不一定就是那样。
+Manifold and non-manifold is not necessarily exactly that.
+
+1303
+01:48:16.441 --> 01:48:21.720
+这也意味着没有面孔不附着。
+It also means that there are no faces that they are not attached.
+
+1304
+01:48:21.750 --> 01:48:27.180
+例如,你做了一些东西, 突然一个三角形进入你的满
+For example, you made something, and suddenly a triangle was going inside your full
+
+1305
+01:48:27.990 --> 01:48:31.380
+对象,它完全不附加。
+object, and it is not attaching at all.
+
+1306
+01:48:31.500 --> 01:48:37.380
+没有边缘是开放的, 内部墙壁,它是
+There are no edges that they're open, internal walls, and it's
+
+1307
+01:48:37.470 --> 01:48:39.330
+有点不同 不过...
+a little bit different. But just-
+
+1308
+01:48:40.140 --> 01:48:40.410
+对
+Yeah.
+
+1309
+01:48:40.860 --> 01:48:41.010
+对
+Yeah.
+
+1310
+01:48:41.701 --> 01:48:45.781
+如果你进入这个过程,你的模型中没有自我交互的部分.
+If you go into that, there are no self-intersecting parts in your model.
+
+1311
+01:48:45.810 --> 01:48:46.320
+没错
+Exactly.
+
+1312
+01:48:46.711 --> 01:48:49.560
+对 我不想让它一点点...
+Yeah. I don't want to make it a little bit-
+
+1313
+01:48:49.830 --> 01:48:49.951
+对
+Yeah
+
+1314
+01:48:50.130 --> 01:48:55.350
+更复杂 这就是为什么,为了这个, 我说他们是
+... more complicated. That's why for the sake of this, I said that they are the
+
+1315
+01:48:55.380 --> 01:48:59.430
+一样,但他们不是。 所以应该没有开口和自我交流
+same, but they are not. So there should be no openings and no self-intersecting
+
+1316
+01:48:59.490 --> 01:49:04.290
+能够称之为多重几何的部件, 但水紧是当它是
+parts to be able to call it a manifold geometry, but watertight is only when it is
+
+1317
+01:49:04.380 --> 01:49:05.220
+关闭对象。
+a closed object.
+
+1318
+01:49:06.570 --> 01:49:06.781
+对
+Yes.
+
+1319
+01:49:09.840 --> 01:49:09.990
+这么说
+So,
+
+1320
+01:49:11.580 --> 01:49:13.290
+我不知道是谁问的
+I don't know who asked the question,
+
+1321
+01:49:16.260 --> 01:49:18.151
+但你能找到那个...
+but were you able to find the-
+
+1322
+01:49:20.340 --> 01:49:24.240
+没有 也许我需要先下载 然后...
+No. Probably I need to first download, and then-
+
+1323
+01:49:26.401 --> 01:49:32.281
+是啊,你可以做到这一点非常快。 受优待,受优待
+Yeah, you can do it very quickly. It's under preferences, under get
+
+1324
+01:49:32.340 --> 01:49:34.890
+扩展。 你看到我的屏幕了吗?
+extensions. Do you see my screen now?
+
+1325
+01:49:35.610 --> 01:49:37.201
+我看得出来 不过...
+I can see. However-
+
+1326
+01:49:37.560 --> 01:49:37.590
+对
+Yeah.
+
+1327
+01:49:37.590 --> 01:49:37.830
+对
+Mm-hmm.
+
+1328
+01:49:38.520 --> 01:49:44.340
+您在此输入三维打印工具箱, 您看到的名称, 然后单击
+So you type here 3D print toolbox, the name that you see here, and then click
+
+1329
+01:49:44.401 --> 01:49:45.990
+安装,然后出现。
+install, and then it will appear.
+
+1330
+01:49:47.010 --> 01:49:51.240
+对 我无法找到它。 我搜过3D
+Yes. I cannot find it. I searched 3D.
+
+1331
+01:49:53.220 --> 01:49:54.480
+对,我找不到
+Yeah, I cannot find it.
+
+1332
+01:49:55.531 --> 01:49:59.130
+你写过指纹吗? 也许这会有所帮助。
+Did you write print? Maybe that will help.
+
+1333
+01:49:59.701 --> 01:50:05.160
+印报. 我写了3D 哦,是的,你说得对。 好吧,完美无缺。
+Print. I wrote 3D. Oh, yes, you are right. Okay, perfect.
+
+1334
+01:50:05.250 --> 01:50:06.211
+非常感谢
+Thank you so much.
+
+1335
+01:50:06.540 --> 01:50:07.080
+不用谢
+You're welcome.
+
+1336
+01:50:09.792 --> 01:50:10.782
+是的,湿婆
+Yes, Shivam
+
+1337
+01:50:13.932 --> 01:50:14.952
+对 顿
+Yes. Hi.
+
+1338
+01:50:15.222 --> 01:50:15.372
+顿
+Hi
+
+1339
+01:50:15.372 --> 01:50:20.562
+我有一些非疯狂的边缘 和交叉面孔。
+I have some non-manifold edges and intersecting faces.
+
+1340
+01:50:21.673 --> 01:50:22.152
+对
+Mm-hmm.
+
+1341
+01:50:22.992 --> 01:50:27.042
+我们如何解决这个问题? 还是下一个部分?
+How do we solve that? Or is that the next part?
+
+1342
+01:50:28.182 --> 01:50:28.452
+你说什么?
+Sorry?
+
+1343
+01:50:29.772 --> 01:50:35.502
+我们如何解决这些问题? 我有19个非疯狂的边缘和11个交叉
+How do we resolve those issues? I have 19 non-manifold edges and 11 intersecting
+
+1344
+01:50:35.593 --> 01:50:36.132
+脸
+faces.
+
+1345
+01:50:38.652 --> 01:50:43.332
+在3D打印中点击“ Make Manifold”。
+So you click on the Make Manifold on the Cleanup in 3D Print.
+
+1346
+01:50:45.372 --> 01:50:49.632
+所以你需要到这个3D打印标签...
+So you need to go to this 3D Print tab-
+
+1347
+01:50:50.652 --> 01:50:50.923
+对
+Mm-hmm
+
+1348
+01:50:50.923 --> 01:50:52.363
+去打扫一下
+... and go to Cleanup.
+
+1349
+01:50:53.532 --> 01:50:54.942
+对 是的,我这样做。
+Yeah. Yeah, I did that.
+
+1350
+01:50:55.363 --> 01:50:55.812
+礛...
+And then... Mm-hmm.
+
+1351
+01:50:55.902 --> 01:50:57.761
+然后它说,
+And then it said,
+
+1352
+01:51:00.162 --> 01:51:04.212
+在底部,加上零顶点,加上零边缘,加上零面.
+at the bottom, plus zero vertices, plus zero edges, plus zero faces.
+
+1353
+01:51:04.692 --> 01:51:06.462
+摆 那就没事了
+Okay. Then it's fine now.
+
+1354
+01:51:07.572 --> 01:51:07.872
+摆
+Okay.
+
+1355
+01:51:08.382 --> 01:51:08.562
+对
+Yeah.
+
+1356
+01:51:09.132 --> 01:51:13.062
+所以,也许这就是我的3D模型的性质,也许? 这就是原因吗?
+So maybe that is the nature of my 3D model, maybe? Is that the reason?
+
+1357
+01:51:15.103 --> 01:51:19.512
+我不知道,但我也有这个。 当我检查所有, 我也有一些问题。
+I don't know, but I also had that. When I Check All, I also had some problems.
+
+1358
+01:51:19.872 --> 01:51:25.122
+上面写着"非狂人" 但我后来把它导入了切片软件
+It said non-manifold, but I was able to import it to a slicer software afterwards
+
+1359
+01:51:25.572 --> 01:51:25.843
+当我...
+when I-
+
+1360
+01:51:26.262 --> 01:51:26.292
+还好
+Okay
+
+1361
+01:51:26.292 --> 01:51:30.853
+. . . . 因此,希望它将解决问题。
+... did the Make Manifold. So hopefully it will resolve the issues.
+
+1362
+01:51:31.902 --> 01:51:32.712
+伐 摆
+Okay, awesome. Okay.
+
+1363
+01:51:33.222 --> 01:51:35.202
+摆 还有问题吗?
+Okay. Any more questions?
+
+1364
+01:51:43.062 --> 01:51:43.812
+要我继续吗?
+Shall I continue?
+
+1365
+01:51:46.421 --> 01:51:51.312
+如果我们觉得这太大了 我们可以做点别的
+And something else that we can do, if we think that this is too big of a
+
+1366
+01:51:52.272 --> 01:51:57.613
+多计数器,我们也可以去 添加修饰器和去十进制,它会
+poly count, we can also go Add Modifier and go to Decimate, which will
+
+1367
+01:51:58.152 --> 01:52:01.542
+减少我们的综合数。 所以,你看我们现在有了
+decrease our poly count. So you see we have now
+
+1368
+01:52:03.853 --> 01:52:05.262
+94 000人
+94,000
+
+1369
+01:52:06.912 --> 01:52:10.423
+脸数,但我们可以减少
+face count, but we can decrease it
+
+1370
+01:52:11.772 --> 01:52:15.972
+如果我们想减少它。 很明显
+if we want to decrease it. So it will obviously
+
+1371
+01:52:17.382 --> 01:52:19.303
+降低我们模式的分辨率,
+decrease the resolution of our model,
+
+1372
+01:52:22.002 --> 01:52:26.502
+但与此同时,使它对切片软件更轻.
+but at the same time, make it lighter for slicing software.
+
+1373
+01:52:27.162 --> 01:52:31.212
+因此,我们需要去 这个下箭头,点击应用,
+So again, we need to go to this down arrow, click Apply,
+
+1374
+01:52:34.152 --> 01:52:39.582
+应该就是这样 然后我们再来一次 然后我们就可以走了
+and that should be it. And then let's do another manifold again, and then we can go
+
+1375
+01:52:39.642 --> 01:52:44.262
+通过选择对象,可以导出为 STL。
+to, by selecting the object, we can export it as STL.
+
+1376
+01:52:45.343 --> 01:52:47.622
+对不起 你从哪里找到Decimate的?
+Sorry. Where did you find Decimate?
+
+1377
+01:52:50.742 --> 01:52:56.292
+这里。 选择对象,然后在此属性下,
+Here. Select the object, and then here under the Properties,
+
+1378
+01:52:57.132 --> 01:53:00.343
+添加修饰器、生成器和解析器。
+Add Modifier, Generate, and Decimate.
+
+1379
+01:53:03.972 --> 01:53:04.303
+谢谢
+Thank you.
+
+1380
+01:53:06.853 --> 01:53:11.142
+你需要选择人类人物 这样修改...
+You need to have the human figure selected so that the modify-
+
+1381
+01:53:11.262 --> 01:53:11.562
+对
+Yeah.
+
+1382
+01:53:11.742 --> 01:53:14.142
+你能再展示一次吗? 对不起。
+Can you show it again? Excuse me.
+
+1383
+01:53:14.173 --> 01:53:14.502
+摆
+Okay.
+
+1384
+01:53:14.863 --> 01:53:14.982
+对
+Yeah.
+
+1385
+01:53:15.942 --> 01:53:19.662
+所以,如果你没有 modif - 哦,现在我有了,但是
+So if you do not have the modif- Oh, now I have it, but
+
+1386
+01:53:22.272 --> 01:53:27.882
+选择对象,您的人形,然后去添加修饰器,
+select the object, your human figure, and then go to Add Modifier,
+
+1387
+01:53:28.692 --> 01:53:30.792
+产生,和deimate。
+Generate, and Decimate.
+
+1388
+01:53:31.752 --> 01:53:33.162
+哦,我们没有看到它现在。
+Oh, we don't see it now.
+
+1389
+01:53:34.692 --> 01:53:35.353
+你没看见吗?
+You don't see it?
+
+1390
+01:53:35.382 --> 01:53:38.682
+单单 对,等一下 对
+Ah, wait, wait. Yeah, wait a second. Yeah.
+
+1391
+01:53:40.482 --> 01:53:40.722
+摆
+Okay.
+
+1392
+01:53:42.853 --> 01:53:43.093
+摆
+Okay.
+
+1393
+01:53:43.722 --> 01:53:49.662
+对 我的脸 我的脸
+Yeah. Under Decimate, now because I already done this, my face
+
+1394
+01:53:49.722 --> 01:53:52.332
+计数是67000。
+count is at 67,000.
+
+1395
+01:53:54.072 --> 01:53:56.262
+但如果我想,我可以,再次,改变这一点。
+But if I want, I can, again, change this.
+
+1396
+01:53:58.872 --> 01:53:59.803
+摆 现在,
+Okay. Now,
+
+1397
+01:54:01.093 --> 01:54:02.232
+我们会把它导出。
+we will export this.
+
+1398
+01:54:05.562 --> 01:54:07.992
+选择对象,然后导出,
+Select the object, and then Export,
+
+1399
+01:54:09.492 --> 01:54:14.682
+然后选择一个位置,然后写出您的名称
+and then you choose a location, and then write the name of your
+
+1400
+01:54:15.222 --> 01:54:15.673
+型号,
+model,
+
+1401
+01:54:17.532 --> 01:54:18.222
+讲习班
+Workshop
+
+1402
+01:54:19.423 --> 01:54:20.053
+人类
+Human.
+
+1403
+01:54:21.792 --> 01:54:26.652
+阿斯利,对不起。 你能再次显示导出按钮吗 ? 对
+Asli, I'm sorry. Can you show the Export button again? Yep.
+
+1404
+01:54:27.312 --> 01:54:32.022
+所以,我们在哪里 在3D打印 -嗯...
+So where we were under 3D Print- Mm-hmm ...
+
+1405
+01:54:33.072 --> 01:54:36.732
+我们有清扫...
+we had the Cleanup- Oh, okay ... Make Manifold, and then we have the Export.
+
+1406
+01:54:37.212 --> 01:54:42.012
+对 所以,你需要点击这个,然后它会打开它。 摆 谢谢
+Mm-hmm. So you need to click this, and then it will open it up. Okay. Thank you.
+
+1407
+01:54:42.072 --> 01:54:44.442
+对 然后你会出口它。
+Mm-hmm. And then you will export it.
+
+1408
+01:54:46.212 --> 01:54:46.542
+还有...
+And there-
+
+1409
+01:54:46.902 --> 01:54:48.882
+抱歉打扰了 我回来了
+Sorry to interrupt, I'm a bit back.
+
+1410
+01:54:49.332 --> 01:54:49.632
+对
+Yes.
+
+1411
+01:54:50.502 --> 01:54:56.142
+我安装了3D打印扩展,但我看不到3D
+I installed the 3D Print extension, but I don't see that 3D
+
+1412
+01:54:56.173 --> 01:54:56.682
+打印
+Print
+
+1413
+01:54:58.032 --> 01:55:01.482
+那种事情 你身边,那个。 摆
+kind of thing on the side that you have, that one. Okay.
+
+1414
+01:55:03.372 --> 01:55:08.982
+所以有时候你看不到这些 但有一个小标签
+So sometimes it happens that you don't see these here, but there is a small tab
+
+1415
+01:55:10.122 --> 01:55:13.692
+你可以看见。 如果您点击此标签, 它会立即打开 。
+that you can see. If you click this tab, it will open up right away.
+
+1416
+01:55:13.752 --> 01:55:15.613
+对 对 它就在这里。
+Oh, right. Yeah. It's in there.
+
+1417
+01:55:15.642 --> 01:55:15.762
+怎么样?
+Good?
+
+1418
+01:55:15.822 --> 01:55:16.363
+对
+Yes.
+
+1419
+01:55:16.423 --> 01:55:16.752
+对
+Yeah.
+
+1420
+01:55:16.812 --> 01:55:19.843
+对不起,所以我需要在这里的场景?
+And sorry, so the setting that I need to have here?
+
+1421
+01:55:20.742 --> 01:55:22.572
+您选择您的对象, 而这个...
+You select your object, and this-
+
+1422
+01:55:22.932 --> 01:55:23.053
+对
+Yes
+
+1423
+01:55:23.053 --> 01:55:24.972
+...这应该像这样关闭。
+... this should be closed like this.
+
+1424
+01:55:25.242 --> 01:55:30.822
+当它先打开时,点击下面的下拉菜单,放在清理旁边.
+When you have it open first, you click on the dropdown menu under, next to Cleanup.
+
+1425
+01:55:30.853 --> 01:55:31.632
+清理,是的。
+Cleanup, yeah.
+
+1426
+01:55:31.662 --> 01:55:33.042
+然后造曼i罗.
+And then Make Manifold.
+
+1427
+01:55:33.792 --> 01:55:35.173
+摆 就那样?
+Okay. Just that?
+
+1428
+01:55:35.832 --> 01:55:36.103
+对
+Yeah.
+
+1429
+01:55:36.402 --> 01:55:36.432
+摆
+Okay.
+
+1430
+01:55:36.432 --> 01:55:41.412
+然后确认... 你需要做几次,直到你看到没有
+And then make sure... You need to do it maybe several times until you see no
+
+1431
+01:55:41.472 --> 01:55:42.312
+圆顶,
+vertices,
+
+1432
+01:55:44.923 --> 01:55:45.252
+和
+and
+
+1433
+01:55:46.482 --> 01:55:52.423
+边缘和面部位于底部,你看有多少被修改,直到你
+edges and faces are at the bottom, you see how many are modified, until you
+
+1434
+01:55:52.482 --> 01:55:53.622
+见千.
+see 000.
+
+1435
+01:55:55.093 --> 01:55:57.553
+对不起,在哪里? 你能带我去我该看哪吗?
+Sorry, where? Can you show me where I should see 000?
+
+1436
+01:55:57.582 --> 01:56:00.462
+所以当你... 它只是消失得很快。
+So when you... It just disappears very quickly.
+
+1437
+01:56:01.272 --> 01:56:01.452
+做,对。 曼尼佛尔.
+Make, yeah. Manifold.
+
+1438
+01:56:01.482 --> 01:56:05.832
+但是,当你点击Make Manifold, 它应该出现在屏幕下面...
+But when you click Make Manifold, it should appear under the screen here-
+
+1439
+01:56:06.582 --> 01:56:06.882
+对
+Yeah
+
+1440
+01:56:06.582 --> 01:56:07.692
+...有情报
+... with an information.
+
+1441
+01:56:08.232 --> 01:56:08.832
+哦,没关系。
+Oh, okay.
+
+1442
+01:56:09.553 --> 01:56:09.642
+对
+Yeah.
+
+1443
+01:56:11.113 --> 01:56:11.142
+摆
+Okay.
+
+1444
+01:56:11.142 --> 01:56:11.923
+然后我们...
+And then we do-
+
+1445
+01:56:12.103 --> 01:56:13.032
+好吧,所有零号。 还好
+Okay, all zero. Okay
+
+1446
+01:56:13.032 --> 01:56:13.632
+...导出。
+... Export.
+
+1447
+01:56:15.702 --> 01:56:18.792
+我看到很多事情都发生在
+I see that there has been a lot happening in the
+
+1448
+01:56:22.272 --> 01:56:22.692
+闲聊吧
+chat.
+
+1449
+01:56:25.062 --> 01:56:25.392
+对
+Oh, yeah.
+
+1450
+01:56:32.322 --> 01:56:35.652
+对 我只是读 通过聊天。
+Mm-hmm. I'm just reading through the chat.
+
+1451
+01:56:50.053 --> 01:56:52.002
+摆 我想现在一切都得到了答案。
+Okay. I think all are answered now.
+
+1452
+01:56:53.322 --> 01:56:58.722
+我们可以继续前进。 现在我们有我们的模型STL下载。
+We can move on. Now we have our model STL downloaded.
+
+1453
+01:56:59.292 --> 01:57:01.512
+显然,我需要先选择它,然后
+Obviously, I need to first select it, and then
+
+1454
+01:57:03.192 --> 01:57:03.882
+台词
+Desktop.
+
+1455
+01:57:12.282 --> 01:57:13.902
+人类讲习班,
+Workshop Human,
+
+1456
+01:57:15.492 --> 01:57:16.332
+并导出。
+and Export.
+
+1457
+01:57:17.772 --> 01:57:20.262
+摆 现在我回去
+Okay. Now I will go back to
+
+1458
+01:57:21.553 --> 01:57:25.392
+米罗板再次告诉你我们在哪里
+the Miro board again to show you where we are in the process.
+
+1459
+01:57:25.542 --> 01:57:31.032
+如你所见,我们已经完成了二维图像生成,图像到三维
+As you see, we have done the 2D image generation, image to 3D
+
+1460
+01:57:31.093 --> 01:57:36.972
+生成、三维模型的修改和生产验证,以及
+generation, 3D model modification and verification for fabrication, and now in the
+
+1461
+01:57:37.032 --> 01:57:39.402
+制造准备过程。
+fabrication preparation process.
+
+1462
+01:57:40.843 --> 01:57:41.232
+哎哟
+Oops.
+
+1463
+01:57:44.832 --> 01:57:45.103
+对不起
+Sorry.
+
+1464
+01:57:46.843 --> 01:57:50.803
+现在我们可以用切片机做
+And now we can either do it with the slicer that
+
+1465
+01:57:52.603 --> 01:57:58.423
+Anastasia在工作室开始时出现, 但我在想,我开始
+Anastasia showed at the beginning of the workshop, but I was thinking, I started
+
+1466
+01:57:58.452 --> 01:58:04.392
+可能几个月前,因为斯利切
+thinking about this maybe a few months ago, that how, because Slicer
+
+1467
+01:58:04.423 --> 01:58:10.303
+因为Fusion 已停止, 它现在可以给错误, 或者它可以
+for Fusion is discontinued and it can give bugs now, or it can
+
+1468
+01:58:10.392 --> 01:58:15.942
+关机,现在不可靠了,我们怎么可以
+shut down, and it's not very reliable now, how can we
+
+1469
+01:58:16.843 --> 01:58:22.512
+做我们自己的版本吗? 或者我们如何使用AI 来生成我们的
+make our own version of it? Or how can we use AI to be able to generate our
+
+1470
+01:58:22.632 --> 01:58:25.572
+拥有制造工具吗?
+own fabrication tools with it?
+
+1471
+01:58:26.863 --> 01:58:29.622
+我在这里
+And here I
+
+1472
+01:58:30.942 --> 01:58:36.882
+首先问ChatGPT:"你能切一个3D模型吗?
+first asked ChatGPT, "Can you slice a 3D model
+
+1473
+01:58:37.062 --> 01:58:41.742
+用于激光切割的STL 给我XL文件?" DXF文件,对不起。
+STL for laser cutting and give me the XL file?" The DXF file, sorry.
+
+1474
+01:58:41.772 --> 01:58:42.822
+DXF是一个
+DXF is a
+
+1475
+01:58:44.142 --> 01:58:46.722
+可互换的文件格式
+file format that is an interchangeable
+
+1476
+01:58:48.252 --> 01:58:54.132
+2D 向量使用的自动桌面文件格式
+Autodesk file format that is used for 2D vectors that
+
+1477
+01:58:54.192 --> 01:58:59.772
+非常可靠,或者你也可以使用 SVG,当然, 但我发现DXF更多
+is very reliable, or you can use also SVG, of course, but I find DXF more
+
+1478
+01:58:59.803 --> 01:59:05.742
+可靠性。 ChatGPT说,"是的,我可以做到这一点,但你需要
+reliable. And ChatGPT says, "Yes, I can do that, but you need to
+
+1479
+01:59:07.032 --> 01:59:11.232
+选择这个和这个,或者选择这个和这个和那个". 然后当我看着
+select this and this, or choose this and this and that." And then when I looked at
+
+1480
+01:59:11.292 --> 01:59:16.542
+我说,“我们也许可以和他们一起工作,但后来我想
+the possibilities, I said, "We can maybe work with those, but then I think an
+
+1481
+01:59:16.603 --> 01:59:21.582
+界面可以选择这些更理想,如用于
+interface to be able to choose those would be more ideal, like a Slicer for
+
+1482
+01:59:21.673 --> 01:59:26.760
+融合"。 所以我说我想制作一个小型的网络应用软件 来做这个,并把它想象出来
+Fusion." So I said I want to create a small web app to do that and visualize it
+
+1483
+01:59:26.820 --> 01:59:31.651
+而不是通过这里选择 或写作或与这样的模型交谈
+rather than selecting it through here or writing or talking to a model like this
+
+1484
+01:59:31.770 --> 01:59:32.010
+在这里。
+here.
+
+1485
+01:59:33.660 --> 01:59:33.840
+这么说
+So
+
+1486
+01:59:35.160 --> 01:59:39.420
+我开始制作一个小网络应用 与Loveable。
+I started making a small web app with Lovable.
+
+1487
+01:59:39.660 --> 01:59:45.540
+如果你不了解Loveable,Loveable, 它允许你创造快速
+If you don't know Lovable, Lovable, it allows you to create quick
+
+1488
+01:59:45.600 --> 01:59:48.240
+网站再次使用
+websites using, again,
+
+1489
+01:59:50.220 --> 01:59:50.701
+语言
+language
+
+1490
+01:59:52.201 --> 01:59:52.890
+喜欢英语。
+like English.
+
+1491
+01:59:55.590 --> 02:00:00.060
+你不需要知道编码。 您可以使用语义语言生成模型,
+You don't need to know coding. You can use semantic languages to generate models,
+
+1492
+02:00:00.720 --> 02:00:02.701
+对不起,网站。 还有
+sorry, websites. And
+
+1493
+02:00:04.320 --> 02:00:09.840
+我们开始做一个快速的网络原型, 但有很多
+we started making a rapid first web prototype, but there were a lot of
+
+1494
+02:00:10.651 --> 02:00:16.470
+有问题 第一次也不错
+problems with it. And also it was a good first
+
+1495
+02:00:17.010 --> 02:00:22.770
+快速原型,但也没有 大部分的功能 我想要它。
+quick prototype, but also did not have most of the functions that I wanted it.
+
+1496
+02:00:23.970 --> 02:00:29.701
+是啊,很多的虫子在总体上。 然后我想继续工作
+And yeah, a lot of bugs in general. And then I wanted to continue working with
+
+1497
+02:00:30.151 --> 02:00:34.500
+喜欢,但后来我很快就用光了免费的信贷, 我不想付钱
+Lovable, but then I ran out of free credits very quickly, and I did not want to pay
+
+1498
+02:00:34.560 --> 02:00:38.340
+很明显,我更想控制它
+for it, obviously, and I want to be able to be more in control of it,
+
+1499
+02:00:39.660 --> 02:00:45.300
+并使其成为开源。 所以我说,"让我们搬到GitHub。" 所以,我们有
+and also make it open source. So I said, "Let's move to GitHub." So that we have
+
+1500
+02:00:45.360 --> 02:00:48.901
+这个第一个接口,
+this first interface,
+
+1501
+02:00:51.330 --> 02:00:57.000
+在 GitHub 上托管的网站的代码, 代码所在
+the code of the website hosted on GitHub where the code is
+
+1502
+02:00:57.090 --> 02:00:59.130
+存储,我们可以跟踪变化。
+stored, and we can track the changes.
+
+1503
+02:00:59.250 --> 02:01:01.019
+我也做了一个本地的
+And I also made a local
+
+1504
+02:01:02.701 --> 02:01:08.401
+存储器或复制器, 这样我就可以调试和查看
+repository or a clone of it so that I can debug and see
+
+1505
+02:01:08.461 --> 02:01:09.750
+易变.
+transformations easily.
+
+1506
+02:01:11.970 --> 02:01:17.730
+很明显,我不是编解码师,我不是工程师,所以我无法做到这一点
+Obviously, I'm not a coder, I'm not an engineer, so I would not be able to do this
+
+1507
+02:01:17.790 --> 02:01:23.250
+没有ChatGPT,但我一直在编织
+without ChatGPT, but I have been fabricating and
+
+1508
+02:01:23.701 --> 02:01:29.191
+在电脑上设计了这么久,我才能输入我的东西
+designing on computers for so long that I can be able to give the input of what I
+
+1509
+02:01:29.250 --> 02:01:34.920
+想要,我想要它, 什么样的特征 这东西需要,或者我可以
+want, how I want it, what kind of features this thing needs, or I can
+
+1510
+02:01:34.980 --> 02:01:39.720
+必要时也调试它。 我们需要做很多调试。
+also debug it when necessary. And we needed to do a lot of debugging.
+
+1511
+02:01:41.520 --> 02:01:42.840
+因此从这个第一个模型
+So from this first model
+
+1512
+02:01:44.250 --> 02:01:46.560
+最后一张,你先看
+to the final one, so you see that first
+
+1513
+02:01:48.120 --> 02:01:49.260
+我不得不调查
+I had to look into
+
+1514
+02:01:50.970 --> 02:01:54.240
+上传不同的几何图形. 故以花瓶为始.
+uploading different geometries. So it starts with a vase.
+
+1515
+02:01:54.630 --> 02:01:55.680
+比较容易
+It's easier to
+
+1516
+02:01:57.570 --> 02:02:01.680
+切开 你看这里的轮廓。 它会切片。
+slice it. You see the contours here. It slices.
+
+1517
+02:02:01.740 --> 02:02:05.461
+每片一个物体,没问题.
+It's one object per slice, and it's not a problem.
+
+1518
+02:02:05.550 --> 02:02:11.310
+它不给你 制造顺序或数量 零件,这是非常
+It doesn't give you the fabrication order or number of the parts, which is very
+
+1519
+02:02:11.401 --> 02:02:16.230
+对制造很重要 因为想象一下你拥有真正
+important for fabrication, because imagine that you have objects that are really
+
+1520
+02:02:16.290 --> 02:02:17.970
+大小类似。 如果你不知道的话
+similar in size. If you don't know the
+
+1521
+02:02:19.680 --> 02:02:22.620
+部件编号, 您不能将它们组合在一起 。
+parts number, you cannot put them together.
+
+1522
+02:02:22.951 --> 02:02:26.701
+于是我们开始调查,我加入了,但后来
+So we started looking into that, and I added that, but then
+
+1523
+02:02:26.820 --> 02:02:32.490
+带有多个部件的切片没有生成部件
+slices with multiple parts did not generate part
+
+1524
+02:02:32.550 --> 02:02:36.600
+数字在另一边。 所以我们调查了一下。 所以很多调试。
+numbers on the other side. So we looked into that. So a lot of debugging.
+
+1525
+02:02:36.629 --> 02:02:41.370
+然后,筑巢是另一个问题, 再次, 多个部分在一个切片。
+And then the nesting was another problem, again, with multiple parts on one slice.
+
+1526
+02:02:42.151 --> 02:02:48.090
+你怎么解决这个? 然后调查华夫饼结构
+How do you solve this? And then looking into waffle structures,
+
+1527
+02:02:48.480 --> 02:02:54.151
+这是Anastasi在开头也表现出来的另一个可能性
+that's another possibility that Anastasi also showed in the beginning with the
+
+1528
+02:02:54.240 --> 02:02:57.180
+切片器 也可以做华夫饼片。
+slicer profusion that you can also do waffle slices.
+
+1529
+02:02:58.350 --> 02:03:03.540
+最初,它没有产生 我想要的切片 或切的部分
+Initially, it did not generate the slices that I want or the cuts where the parts
+
+1530
+02:03:03.570 --> 02:03:04.531
+可以一起溜进去。
+can slip together.
+
+1531
+02:03:05.910 --> 02:03:07.951
+所以很多调试,测试,
+So a lot of debugging, testing,
+
+1532
+02:03:09.151 --> 02:03:13.711
+以及标签、对齐和不同选项。
+and labeling and alignments and different options.
+
+1533
+02:03:14.640 --> 02:03:14.970
+礛
+Then
+
+1534
+02:03:16.441 --> 02:03:21.961
+我终于想出了一个工作版本 尽管我的工作
+I was able to come up with a working version now, although the functions that I
+
+1535
+02:03:22.020 --> 02:03:25.651
+渴望未来不再存在。 现在可以了
+want for the future are not there. It is usable now.
+
+1536
+02:03:26.310 --> 02:03:31.980
+好吧,GitHub版本是不错的,但并非人人都能访问.
+And okay, the GitHub version is nice, but it's not accessible for everyone.
+
+1537
+02:03:32.790 --> 02:03:38.670
+所以有一个Vercel的应用, 所以它允许我发布它现场,
+So there is a Vercel app, so it allows me to publish it live, and
+
+1538
+02:03:38.730 --> 02:03:40.260
+这是应用程序
+this is the app
+
+1539
+02:03:42.390 --> 02:03:48.120
+我在ChatGPT的帮助下创造的,
+that I sort of created with the help of ChatGPT,
+
+1540
+02:03:50.070 --> 02:03:52.410
+我将分享这个链接。
+and I will share the link.
+
+1541
+02:03:52.770 --> 02:03:54.360
+但你没有用探员?
+But you didn't use agents?
+
+1542
+02:03:55.620 --> 02:03:55.800
+没有
+No.
+
+1543
+02:03:56.310 --> 02:03:57.211
+你用过聊天吗?
+You used the chat?
+
+1544
+02:03:57.750 --> 02:04:03.510
+我用了聊天, 因为我想能够控制什么
+I used the chat, and because I wanted to be able to be in control of what's
+
+1545
+02:04:03.540 --> 02:04:05.701
+整个过程
+happening all along the
+
+1546
+02:04:08.820 --> 02:04:14.160
+一步一步的,因为我试图,例如,一夜之间
+step-by-step because when I tried to, for example, do overnight
+
+1547
+02:04:15.031 --> 02:04:18.270
+处决,但我不知道发生了什么。
+executions, but then I did not know what was happening.
+
+1548
+02:04:18.901 --> 02:04:21.060
+所以我无法控制所发生的一切。
+So I was not in control of what was happening.
+
+1549
+02:04:21.360 --> 02:04:26.191
+有时我甚至不允许它进入我的GitHub仓库。
+Sometimes I even did not allow it to access my GitHub repository.
+
+1550
+02:04:26.520 --> 02:04:30.570
+我问在哪里我需要修改代码, 我去了我的地方仓库和
+I asked where I needed to change in the code, and I went to my local repository and
+
+1551
+02:04:30.630 --> 02:04:35.461
+我自己做改变,然后把它推到我的 Git 仓库,以便能够知道
+make the changes myself and then push it to my Git repository to be able to know
+
+1552
+02:04:35.550 --> 02:04:37.260
+程序里到底发生了什么
+exactly what was going on in the app.
+
+1553
+02:04:42.240 --> 02:04:46.830
+所以,是的,我要写这个。 我的谈话呢?
+So yeah, I was going to write this. Where is my chat?
+
+1554
+02:04:48.120 --> 02:04:49.560
+这是...
+Here is the...
+
+1555
+02:04:54.901 --> 02:04:55.290
+对
+Yes.
+
+1556
+02:04:56.910 --> 02:05:02.701
+我刚看到一个问题。 此应用程序的核心功能是您有 3D
+I just saw a question. The core function of this app is you have a 3D
+
+1557
+02:05:02.760 --> 02:05:06.750
+模型,但如果你想用
+model, but if you want to create it with
+
+1558
+02:05:12.570 --> 02:05:17.461
+一台CNC机器,就像用木头, 我没有木头的功能,但是
+a CNC machine, like with chopwood, I don't have the chopwood functionalities, but
+
+1559
+02:05:17.760 --> 02:05:23.281
+磨削或激光切割, 你需要将其切成若干个间隔,通常是
+milling or laser cutting, you need to slice it in several intervals, usually the
+
+1560
+02:05:23.310 --> 02:05:26.250
+材料的厚度,这样你就可以
+thickness of the material, so that you can
+
+1561
+02:05:29.160 --> 02:05:33.990
+将这些切片交给激光切割器,然后创建
+give these slices to the laser cutter and then create the
+
+1562
+02:05:34.740 --> 02:05:40.110
+与它们同在的物质, 与它们的切片, 与它们的零件, 然后把它们放在
+material objects with them, slices with them, parts with them, and then put them on
+
+1563
+02:05:40.170 --> 02:05:42.120
+互相顶上,互相粘上
+top of each other, glue them on top of each other
+
+1564
+02:05:43.441 --> 02:05:45.031
+体质上
+physically to have
+
+1565
+02:05:47.100 --> 02:05:47.941
+一个真正的物体。
+a real object.
+
+1566
+02:05:49.890 --> 02:05:53.730
+这就是功能。 清楚了吗 还是你想我...
+So that is the function. Was it clear or do you want me to...
+
+1567
+02:05:55.409 --> 02:06:00.750
+因此,例如,对于一个这样的对象的文件, 它生成切片,
+So, for example, for a file for an object like this, it generates the slices,
+
+1568
+02:06:02.070 --> 02:06:05.701
+你有这些切片。 当你输出时,
+and you have these slices. When you export them,
+
+1569
+02:06:07.500 --> 02:06:13.110
+它会给您一个您需要的 DXF 工作表或所有工作表的文件
+it gives you the file that you need to sheet DXF or all sheets
+
+1570
+02:06:13.140 --> 02:06:13.651
+一起来
+together.
+
+1571
+02:06:14.910 --> 02:06:19.020
+它给你的文件,你需要拿 到激光切割器,以便你可以
+It gives you the files that you need to take to the laser cutter so that you can
+
+1572
+02:06:19.110 --> 02:06:21.451
+用它来剪激光
+use this for laser cutting.
+
+1573
+02:06:25.201 --> 02:06:26.040
+明白了吗?
+Is that clear?
+
+1574
+02:06:28.860 --> 02:06:29.220
+对
+Yes.
+
+1575
+02:06:32.310 --> 02:06:33.151
+没错
+Yes, exactly.
+
+1576
+02:06:37.050 --> 02:06:41.670
+是的,擦擦编码,我喜欢它, 但正如我所说, 这是非常重要的。
+Yeah, wipe coding, I like it, but as I said, it is very important.
+
+1577
+02:06:42.180 --> 02:06:47.430
+你不能这样做, 这就是我想要回来。
+You cannot do that, and that is what I wanted to come back to.
+
+1578
+02:06:49.651 --> 02:06:54.270
+作为一个人类,你需要确定需要。 您需要指定特性 。
+As a human, you need to identify the need. You need to specify the features.
+
+1579
+02:06:54.420 --> 02:06:59.040
+你需要对照真实的捏造来评估结果和测试执行情况
+You need to evaluate the results and test implementations against real fabrication
+
+1580
+02:06:59.070 --> 02:07:02.610
+要求并不断纠正技术和可用性问题。
+requirements and keep correcting technical and usability problems.
+
+1581
+02:07:03.000 --> 02:07:06.510
+所以这很重要。 如果你没有专家知识,领域
+So that is really important. If you don't have the expert knowledge, domain
+
+1582
+02:07:06.570 --> 02:07:12.000
+知识 经验 基本上不能抹去代码
+knowledge, experience with it, you cannot wipe code, basically.
+
+1583
+02:07:12.660 --> 02:07:15.691
+所以,实际上人工智能的工作, 我们做清洁。
+So actually the AI does the job, and we do the cleaning.
+
+1584
+02:07:16.590 --> 02:07:17.340
+没有 我是说...
+No. I mean,
+
+1585
+02:07:18.630 --> 02:07:22.140
+一点点,但你需要具体说明AI需要做什么。
+a little bit, but you need to specify what AI needs to do.
+
+1586
+02:07:27.781 --> 02:07:32.100
+它不会自动产生华夫饼板,即使它制造华夫饼
+It does not automatically create waffle slabs, or even if it creates waffle
+
+1587
+02:07:32.760 --> 02:07:35.010
+正如我向你们展示的那样,
+structures, as I showed you,
+
+1588
+02:07:37.951 --> 02:07:38.580
+首页
+the initial
+
+1589
+02:07:40.920 --> 02:07:46.651
+操作是这个,然后你需要说, 好吧,所有的切片需要
+operant is this, and then you need to say that, okay, all the slits need to
+
+1590
+02:07:46.711 --> 02:07:51.510
+来到每一节的中间。
+come to the middle of each section.
+
+1591
+02:07:53.701 --> 02:07:58.470
+所以,你需要操作这些, 你需要说它们需要交叉
+So you need to operate those, and you need to say that they need to be intersected
+
+1592
+02:07:58.531 --> 02:08:00.691
+与边界对象并修剪。
+with the boundary object and trimmed.
+
+1593
+02:08:03.870 --> 02:08:08.461
+因此,为了能够说出这些事情, 你需要有域知识。
+So to be able to say these kind of things, you need to have the domain knowledge.
+
+1594
+02:08:08.820 --> 02:08:13.020
+因此,例如,从这个到
+And so, for example, from this to
+
+1595
+02:08:19.290 --> 02:08:22.860
+这之后。 要能够到达那里,你看,
+this afterwards. To be able to get there, you see,
+
+1596
+02:08:24.540 --> 02:08:27.300
+你得知道发生了什么
+you need to be able to tell what is going on.
+
+1597
+02:08:27.570 --> 02:08:32.370
+在这里,你可以看到,我也有 每一个作品叫做
+And here you see that I have also each piece is called
+
+1598
+02:08:34.951 --> 02:08:40.380
+写在切片上,这样你也可以把它们重新组合起来,组装起来
+Written on the slits so that you can also put them back together, assemble them
+
+1599
+02:08:40.441 --> 02:08:42.480
+在一起,而你没有他们在这里。
+together, whereas you don't have them here.
+
+1600
+02:08:43.230 --> 02:08:48.270
+并且为了能说出事情的真相, 它不是一个仅仅产生魔法的工具
+And to be able to say what's going on, it's not a magic tool that just generates
+
+1601
+02:08:48.330 --> 02:08:48.691
+东西。
+things.
+
+1602
+02:08:57.360 --> 02:09:02.820
+FormSlice 基本工作类似于
+FormSlice basically works similar to
+
+1603
+02:09:05.070 --> 02:09:07.711
+用于融合的刀片,但较少
+Slicer for Fusion, but with less
+
+1604
+02:09:08.941 --> 02:09:10.290
+现在。
+features now.
+
+1605
+02:09:12.990 --> 02:09:15.961
+但是如果你来到这里,让我们
+But if you come here, let's
+
+1606
+02:09:16.050 --> 02:09:23.340
+打开
+open
+
+1607
+02:09:23.369 --> 02:09:29.310
+从头开始 这样您就可以上传STL, 或者您也可以下降
+it from scratch. So you can upload an STL, or you can also drop
+
+1608
+02:09:30.390 --> 02:09:36.211
+这里有一个STL文件。 所以,让我们把最后一个
+an STL file here. So let's put our last
+
+1609
+02:09:36.330 --> 02:09:38.040
+我们掉在这里的人
+human that we dropped here,
+
+1610
+02:09:39.781 --> 02:09:40.080
+还有...
+and then-
+
+1611
+02:09:40.110 --> 02:09:41.850
+阿斯利,你需要分享你的屏幕吗?
+Asli, do you need to share your screen?
+
+1612
+02:09:42.961 --> 02:09:43.201
+你说什么?
+Sorry?
+
+1613
+02:09:43.980 --> 02:09:46.110
+您需要分享您的屏幕还是...
+Do you need to share your screen or-
+
+1614
+02:09:46.531 --> 02:09:48.930
+我的屏幕现在不共享吗?
+Is my screen not shared at the moment?
+
+1615
+02:09:49.620 --> 02:09:49.740
+没有
+No.
+
+1616
+02:09:50.790 --> 02:09:52.531
+这是共同的。 我看见...
+It is shared. I see the-
+
+1617
+02:09:53.010 --> 02:09:54.961
+是的,我看得出来
+Yeah, I can see
+
+1618
+02:09:54.961 --> 02:09:56.040
+……FormSlice。
+... FormSlice.
+
+1619
+02:09:57.870 --> 02:09:58.740
+摆 是吗?
+Okay. Hmm.
+
+1620
+02:10:02.220 --> 02:10:06.451
+你看到其他人在Zoom上吗? 有时候我会这么做
+Do you see other people on Zoom? Sometimes I do that.
+
+1621
+02:10:06.781 --> 02:10:08.941
+路易莎 如果是这样的话
+Luiza, if that is the case-
+
+1622
+02:10:08.970 --> 02:10:09.750
+我见众生.
+I'm seeing people.
+
+1623
+02:10:10.531 --> 02:10:16.500
+摆 如果是这样,去你的缩放屏幕的顶端
+Okay. If that is the case, go to the upper edge of your Zoom screen and there's
+
+1624
+02:10:16.560 --> 02:10:19.080
+那边有个标签 一个说见面。
+a tab there. One says Meeting.
+
+1625
+02:10:19.740 --> 02:10:20.490
+摆 谢谢
+Okay. Thank you.
+
+1626
+02:10:20.550 --> 02:10:22.260
+我做了几次,没问题。
+I did that a few times, no problem.
+
+1627
+02:10:24.720 --> 02:10:29.191
+对 摆 所以,你放下你的人, 然后选择大小。
+Yeah. Okay. So you drop your human, and then you choose the size.
+
+1628
+02:10:29.250 --> 02:10:31.470
+就像我说的,它来
+As I said, it comes with
+
+1629
+02:10:32.670 --> 02:10:34.800
+1毫米,几乎1毫米。
+one millimeter, almost one millimeter.
+
+1630
+02:10:36.570 --> 02:10:40.441
+因此,我们显然需要扩大规模。
+So we need to obviously increase the size.
+
+1631
+02:10:41.640 --> 02:10:42.451
+还有
+And
+
+1632
+02:10:48.540 --> 02:10:51.750
+你也可以随意旋转
+then you can also rotate it however you like,
+
+1633
+02:10:53.790 --> 02:10:59.580
+然后重设它。 那个家伙去哪了? 显然,这个也不见了。
+and then reset it. Well, where did the guy go? Obviously, this is also gone.
+
+1634
+02:11:01.260 --> 02:11:03.330
+贡举二百名.
+Let's make it 200.
+
+1635
+02:11:04.711 --> 02:11:05.130
+还有
+And
+
+1636
+02:11:06.901 --> 02:11:10.980
+您可以在此选择, 如果您想要堆叠的切片, 这意味着它们将会是
+you can choose here if you want stacked slices, which means that they will be
+
+1637
+02:11:11.191 --> 02:11:16.980
+堆放在一个方向,或者你可以有华夫饼,这意味着它会有一个
+stacked in one direction, or you can have waffle, which means that it will have a
+
+1638
+02:11:17.040 --> 02:11:18.240
+华夫饼结构.
+waffle structure.
+
+1639
+02:11:19.980 --> 02:11:23.880
+希望接下来是放射片 我还没拿到
+Radial slices hopefully will come next. I don't have them yet.
+
+1640
+02:11:24.300 --> 02:11:25.951
+所以如果你选择堆叠的切片,
+So if you choose stacked slices,
+
+1641
+02:11:28.830 --> 02:11:32.160
+您可以通过厚度或计数来选择。
+you can choose by thickness or by count.
+
+1642
+02:11:33.781 --> 02:11:38.550
+所以,如果你选择厚度,你可以思考 物质厚度,你有多少
+So if you choose thickness, you can think about material thickness, how much you
+
+1643
+02:11:38.610 --> 02:11:42.330
+想要吗? 您也可以在切片之间有空间。
+want. You can also have space in between the slices.
+
+1644
+02:11:42.781 --> 02:11:48.031
+你可以改变偏移。 有时候你需要做一点
+You can change the offset. Sometimes you need to do this by a little bit
+
+1645
+02:11:49.110 --> 02:11:50.701
+因为如果有一点
+because if there is a point
+
+1646
+02:11:52.860 --> 02:11:58.020
+如果模型结束,则无法用切片计算。
+where the model ends, it cannot calculate with a slice.
+
+1647
+02:11:58.320 --> 02:12:01.890
+我的意思是,它不能与切片相交, 所以你可能需要稍微移动它
+I mean, it cannot intersect with a slice, so you might need to move it slightly
+
+1648
+02:12:01.980 --> 02:12:07.531
+向下或向上移动。 您也可以更改顺序, 然后曲线
+down or up. You can also change the order, and then curve
+
+1649
+02:12:07.590 --> 02:12:10.110
+补偿,你可以让它保持原样。
+compensation, you can leave it as it is.
+
+1650
+02:12:10.230 --> 02:12:16.080
+曲线是被激光吃掉的物质 因为激光
+Curve is the material eaten away by the laser, because laser
+
+1651
+02:12:17.401 --> 02:12:18.000
+减少
+cuts by
+
+1652
+02:12:20.640 --> 02:12:23.730
+烧了材料。 因此,通过燃烧,
+burning the material. So by that burning,
+
+1653
+02:12:24.961 --> 02:12:29.370
+一定量的材料被吃掉,所以是为了反驳这一点.
+a certain amount of the material is eaten away, so it's to counter that.
+
+1654
+02:12:31.170 --> 02:12:36.901
+曲线模式是自动的,这意味着它位于外侧和孔,然后
+Curve mode is auto, which means that it's on the outer side and the holes, and then
+
+1655
+02:12:36.990 --> 02:12:42.211
+这是伪造的 所以正如我所说,你需要能够标注
+this is for fabrication. So as I said, you need to be able to label
+
+1656
+02:12:42.300 --> 02:12:48.211
+每一部分,以便你随后组装它们。
+each part so that you can assemble them afterwards.
+
+1657
+02:12:50.281 --> 02:12:53.790
+然后您也可以指定它们有多高,有多大。
+And then you can also specify how high, how big you want them to be.
+
+1658
+02:12:54.451 --> 02:12:56.220
+对于双孔,
+So for double holes,
+
+1659
+02:12:59.130 --> 02:12:59.970
+你必须...
+you need to...
+
+1660
+02:13:02.250 --> 02:13:05.941
+有时候,当你把切片堆在一起, 与华夫饼,你没有
+Sometimes when you stack slices on top of each other, with waffles, you don't have
+
+1661
+02:13:06.000 --> 02:13:08.070
+问题就在于他们这样聚在一起
+that problem because they come together like this.
+
+1662
+02:13:08.340 --> 02:13:11.941
+但用堆叠的切片,它们可以移动一点点,所以你需要一个内
+But with stacked slices, they can shift a little bit, so you need an inner
+
+1663
+02:13:12.000 --> 02:13:14.490
+结构,和双子创造这些内在结构.
+structure, and the doubles create these inner structures.
+
+1664
+02:13:14.640 --> 02:13:17.310
+我现在不会一个一个地经过他们。
+I will not go through them one by one right now.
+
+1665
+02:13:17.970 --> 02:13:20.550
+实验性筑巢是非常实验性的,
+Experimental nesting is very experimental,
+
+1666
+02:13:22.201 --> 02:13:25.620
+暂时关掉 你也可以穿这个
+so turn it off for now. You can also have it on.
+
+1667
+02:13:25.711 --> 02:13:29.281
+它需要稍长一点的时间,并且会做多边形的筑巢.
+It takes a little bit longer, and it does polygonal nesting.
+
+1668
+02:13:29.790 --> 02:13:34.920
+如果你知道不同种类的巢穴,它不会做一个非常聪明的巢穴.
+If you know different types of nesting, it does not do a very smart nesting.
+
+1669
+02:13:35.401 --> 02:13:39.750
+我需要把筑巢算法纳入其中
+I need to incorporate a nesting algorithm into it.
+
+1670
+02:13:40.980 --> 02:13:43.800
+而它只做多边形 筑巢为大
+And it only does the polygonal nesting for the big
+
+1671
+02:13:45.031 --> 02:13:46.770
+二三十个部分,现在。
+20 or 30 parts for now.
+
+1672
+02:13:48.031 --> 02:13:53.640
+这是床单大小。 所以你在这里选择工作表大小,
+And this is the sheet size. So you select the sheet size here,
+
+1673
+02:13:55.680 --> 02:14:00.990
+你给一个比值 以免它进入模型的边缘。
+and you give a margin so that it does not go to the edge of the model.
+
+1674
+02:14:01.951 --> 02:14:02.880
+然后你选择
+And then you choose
+
+1675
+02:14:05.640 --> 02:14:09.870
+部分间距,那么,如果您要
+part spacing, so what will be the distance between the parts if you're going to
+
+1676
+02:14:09.961 --> 02:14:10.230
+允许
+allow
+
+1677
+02:14:11.490 --> 02:14:17.281
+90度旋转. 如果你是用粗纸板 我建议你
+90-degree rotations. If you're using corrugated cardboard, I would suggest you
+
+1678
+02:14:17.340 --> 02:14:22.050
+不允许它这样, 腐蚀是相同的方向, 然后它不
+to not allow it so that corrugations are in the same direction, and then it doesn't
+
+1679
+02:14:22.080 --> 02:14:22.201
+听着
+look
+
+1680
+02:14:23.490 --> 02:14:27.300
+尴尬。 当你准备好了,你可以开始产生切片,
+awkward. And when you're ready, you can start generating slices,
+
+1681
+02:14:29.730 --> 02:14:34.230
+然后它产生切片。 你可以在工作表的布局中看到它。
+and then it generates the slices. And you can see it in the sheet layout.
+
+1682
+02:14:36.810 --> 02:14:38.490
+当你完成后,
+And when you're done,
+
+1683
+02:14:40.020 --> 02:14:44.790
+所以上面写着:"适合安全布局". 就像我说的,它有很多
+so it says, "Fit safe layout." As I said, it has a lot of
+
+1684
+02:14:46.560 --> 02:14:47.760
+间隙间.
+space in between now.
+
+1685
+02:14:50.070 --> 02:14:54.660
+不过是的 这是现在它做什么。
+But yeah. This is for now what it does.
+
+1686
+02:14:54.961 --> 02:14:57.360
+如果你选择实验
+And if you choose the experimental
+
+1687
+02:14:58.739 --> 02:15:04.290
+筑巢,它会把最大的30个部分 一起更好,然后它也会
+nesting, it will nest the biggest 30 parts together better, and then it will also
+
+1688
+02:15:04.350 --> 02:15:08.520
+开始使用这些中间部分。
+start using these in-between parts.
+
+1689
+02:15:09.180 --> 02:15:12.211
+等你准备好了 你可以去出口了
+And when you're ready, you can go to export.
+
+1690
+02:15:12.630 --> 02:15:14.130
+您也可以导出
+You can export either
+
+1691
+02:15:15.660 --> 02:15:20.340
+所有床单,只有这张床单,或者只有一张
+all the sheets, only this sheet, or only one slice.
+
+1692
+02:15:21.510 --> 02:15:25.531
+你可以在这里同时进行DXF和SVG输出.
+And you can do both DXF and SVG exports here.
+
+1693
+02:15:28.531 --> 02:15:29.490
+现在
+And then now,
+
+1694
+02:15:31.050 --> 02:15:32.250
+一旦你下载这个,
+once you download this,
+
+1695
+02:15:35.370 --> 02:15:38.490
+让我们做一个工作表下载。
+let's do a sheet download.
+
+1696
+02:15:40.110 --> 02:15:41.160
+这是... 或者说
+This is... Or
+
+1697
+02:15:44.820 --> 02:15:49.770
+这个比较容易看 所以这个SVG已经准备好了
+it's easier to show this one. So this SVG is ready to be
+
+1698
+02:15:50.580 --> 02:15:53.910
+用于你选择的激光切割器。
+used at a laser cutter of your choosing.
+
+1699
+02:15:58.500 --> 02:15:59.461
+还有别的问题吗?
+Any other questions?
+
+1700
+02:16:02.040 --> 02:16:07.441
+一个快速的。 里面的绿色轮廓 只是为了显示
+A quick one. The green outline that's on the inside, that's just to show where the
+
+1701
+02:16:08.010 --> 02:16:10.201
+相邻部分是...
+adjacent part is-
+
+1702
+02:16:10.320 --> 02:16:10.830
+没错
+Exactly
+
+1703
+02:16:10.860 --> 02:16:12.090
+胶着的? 对
+... glued? Yep.
+
+1704
+02:16:12.151 --> 02:16:16.860
+对 刻经行. 我想加入它们,让你知道 在哪里需要胶水
+Yeah. Engraving lines. I wanted to add them so that you know where you need to glue
+
+1705
+02:16:16.951 --> 02:16:18.480
+接下来的部分。
+the next part.
+
+1706
+02:16:19.320 --> 02:16:20.281
+对 这太酷了
+Yeah. This is so cool.
+
+1707
+02:16:20.790 --> 02:16:22.410
+对 那又怎样?
+Yeah. So what
+
+1708
+02:16:23.670 --> 02:16:24.840
+下一个是
+comes next is
+
+1709
+02:16:28.140 --> 02:16:34.020
+明显地增加了更多的特征。 一个是射线切片 还有组装预览
+obviously add more features. One is radial slicing and also assembly preview,
+
+1710
+02:16:36.180 --> 02:16:41.100
+调试并解决相互冲突的要求,这意味着当你做一个时
+debugging and resolving conflicting requirements, which means that when you do one
+
+1711
+02:16:41.160 --> 02:16:45.600
+执行,通常在其他执行中造成问题,以前
+implementation, it usually creates problems in other implementations, previous
+
+1712
+02:16:45.660 --> 02:16:47.131
+执行,所以你需要
+implementations, so you need to
+
+1713
+02:16:50.191 --> 02:16:54.870
+一起测试各种特征
+go through, test it with various features together.
+
+1714
+02:16:56.520 --> 02:17:00.361
+因此,我需要用更多的用户和模型验证它,以确保这是
+So I need to validate it with more users and models to make sure that this is
+
+1715
+02:17:03.660 --> 02:17:08.461
+真的很可靠,你觉得呢? 每一次测试,我都能看到更多
+really reliable. And with every test, I can see more
+
+1716
+02:17:08.490 --> 02:17:13.951
+错误并纠正它们。 现在,GitHub计划, 因为我还在做它,
+bugs and correct them. Now, the GitHub project, because I'm still working on it,
+
+1717
+02:17:14.040 --> 02:17:18.961
+这是私人的,但想法是把它公之于众 开源以便其他
+it's private, but the idea is to make it public and open source so that other
+
+1718
+02:17:19.020 --> 02:17:19.500
+人们可以
+people can
+
+1719
+02:17:21.691 --> 02:17:26.100
+改进它,检查它。 但是,如果他们不想使用
+improve it, inspect it. But also, if they don't want to use a
+
+1720
+02:17:27.660 --> 02:17:33.540
+网络应用程序用来使用,像Vercel,然后他们可以下载并在当地使用.
+web app to use it, like Vercel, then they can download it and use it locally.
+
+1721
+02:17:36.031 --> 02:17:41.790
+上面加上一个基于 LLM 的设计助理 在那里你可以聊天
+And maybe to add an LLM-based design assistant on top of this, where you can chat
+
+1722
+02:17:41.881 --> 02:17:47.550
+你用四毫米胶合板 来创造华夫饼结构
+and you identify, you say, "Create a waffle structure with four-millimeter plywood
+
+1723
+02:17:47.611 --> 02:17:48.451
+并准备它
+and prepare it for
+
+1724
+02:17:49.740 --> 02:17:55.680
+600至400毫米激光切割板". 所以也许可以执行
+600 to 400 millimeter laser cutting sheet." So maybe to implement
+
+1725
+02:17:55.740 --> 02:18:00.870
+这样基于 LLM 的设计器系统就可以解释您
+this so the LLM-based designer system can interpret your
+
+1726
+02:18:02.490 --> 02:18:07.020
+对话语言并将其解释为
+conversational language and interpret it as the parameters of the
+
+1727
+02:18:09.060 --> 02:18:09.361
+应用
+app.
+
+1728
+02:18:10.560 --> 02:18:12.300
+呜 很多问题
+Oop. Lot of questions.
+
+1729
+02:18:13.560 --> 02:18:13.890
+对
+Yes.
+
+1730
+02:18:18.901 --> 02:18:24.029
+顿 对 所以,有一个怀疑 你已经清除了, 预览是一个新的
+Hi. Yes. So one doubt you already cleared, that preview is a new
+
+1731
+02:18:24.600 --> 02:18:27.120
+您将添加的即将到来的特性 。
+upcoming feature that you will be adding.
+
+1732
+02:18:27.720 --> 02:18:27.961
+对
+Mm-hmm.
+
+1733
+02:18:28.020 --> 02:18:33.300
+但我在右侧面板上的一些切片
+But some of my slices on the right side panel are
+
+1734
+02:18:33.660 --> 02:18:38.430
+带小琥珀警告符号给我看看
+showing me with small amber warning symbols.
+
+1735
+02:18:38.941 --> 02:18:39.211
+对
+Mm-hmm.
+
+1736
+02:18:39.270 --> 02:18:44.640
+我认为这些片子没有产生, 因为片面预览中,它只是显示
+And I think those slices are not generated, because in slice preview, it just shows
+
+1737
+02:18:44.701 --> 02:18:46.320
+我就像一个矩形。
+me like a rectangle.
+
+1738
+02:18:48.330 --> 02:18:50.820
+我们如何解决这个问题? 我可以分享我的屏幕吗?
+How do we resolve that? Can I share my screen?
+
+1739
+02:18:51.660 --> 02:18:52.230
+分享这个
+Share it.
+
+1740
+02:18:52.951 --> 02:18:53.160
+对
+Yeah.
+
+1741
+02:18:59.430 --> 02:18:59.730
+摆
+Okay.
+
+1742
+02:19:01.651 --> 02:19:02.281
+你能看见吗?
+Can you see this?
+
+1743
+02:19:02.790 --> 02:19:03.031
+对
+Yeah.
+
+1744
+02:19:03.840 --> 02:19:06.390
+所以这个警示牌...
+So this warning sign-
+
+1745
+02:19:06.961 --> 02:19:07.170
+对
+Mm-hmm
+
+1746
+02:19:07.170 --> 02:19:09.840
+这是它展示的切片预览。
+... and this is the slice preview it is showing.
+
+1747
+02:19:09.930 --> 02:19:10.050
+对
+Mm-hmm.
+
+1748
+02:19:10.050 --> 02:19:12.959
+如果您点击其他切片, 它显示正确 。
+If you click on other slices, it is showing correctly.
+
+1749
+02:19:13.651 --> 02:19:14.910
+对
+Yeah.
+
+1750
+02:19:14.970 --> 02:19:15.691
+但这是...
+But this is-
+
+1751
+02:19:16.290 --> 02:19:22.050
+好吧,这是实际上 零件可以打印或激光切割,但它
+Okay, this is actually the parts can be printed or laser cut, but it
+
+1752
+02:19:22.201 --> 02:19:23.010
+因为
+is because
+
+1753
+02:19:24.451 --> 02:19:29.701
+标签高度太大, 无法打印标签或刻上标签
+the label height is too big that you cannot print a label on it or engrave a label
+
+1754
+02:19:29.760 --> 02:19:30.031
+交给我
+on it.
+
+1755
+02:19:32.070 --> 02:19:32.160
+所以说...
+So-
+
+1756
+02:19:32.220 --> 02:19:32.550
+哦,没关系。
+Oh, okay.
+
+1757
+02:19:34.080 --> 02:19:34.711
+是的,对不起。
+Yeah, sorry.
+
+1758
+02:19:35.250 --> 02:19:39.151
+所以如果你减少... 我会尝试展示它。
+So if you decrease the... Oop. I will try to show it.
+
+1759
+02:19:40.410 --> 02:19:42.691
+是的,如果你降低标签高度这里,
+Yeah, if you decrease the label height here,
+
+1760
+02:19:44.550 --> 02:19:45.961
+你也许可以
+you might be able to
+
+1761
+02:19:48.451 --> 02:19:49.350
+把这个弄掉
+get rid of this
+
+1762
+02:19:51.660 --> 02:19:56.040
+警告标志。 这也是,这块太小了。
+warning sign. It is also that the piece is too small.
+
+1763
+02:19:58.530 --> 02:19:58.740
+摆
+Okay.
+
+1764
+02:19:59.610 --> 02:20:02.131
+对 那也可能意味着
+Yeah. Then it might also mean that the
+
+1765
+02:20:07.500 --> 02:20:13.200
+上一层雕刻和下一层雕刻不能是
+previous layer engraving and the, or the next layer engraving cannot be
+
+1766
+02:20:13.260 --> 02:20:13.590
+已经做了。
+made.
+
+1767
+02:20:15.570 --> 02:20:16.050
+哦,没关系。
+Oh, okay.
+
+1768
+02:20:16.381 --> 02:20:16.560
+对
+Yeah.
+
+1769
+02:20:17.220 --> 02:20:18.961
+当然 是的,这是。
+Yeah, sure. Yeah, it is that.
+
+1770
+02:20:26.250 --> 02:20:28.680
+我猜它们还是太小了
+I guess they are still too small pieces.
+
+1771
+02:20:29.010 --> 02:20:29.100
+对
+Yeah.
+
+1772
+02:20:29.760 --> 02:20:33.000
+但这是... 你能上去一点吗? 我们能看看你的...
+But this is... Can you go up a little bit? Can we see your...
+
+1773
+02:20:33.600 --> 02:20:35.461
+是的,这是一个非常小的东西了。
+Yeah, it's a very small object now.
+
+1774
+02:20:35.520 --> 02:20:36.660
+这是100 -
+It's 100-
+
+1775
+02:20:36.720 --> 02:20:37.350
+是啊,所以这是...
+Yeah, so this is-
+
+1776
+02:20:38.700 --> 02:20:40.440
+如果你往左边看...
+If you look to the left-
+
+1777
+02:20:41.250 --> 02:20:41.610
+对
+Mm-hmm
+
+1778
+02:20:41.610 --> 02:20:43.470
+...你看见...
+... you see that the-
+
+1779
+02:20:45.180 --> 02:20:46.500
+这是小的。 对
+It is small. Yeah
+
+1780
+02:20:46.500 --> 02:20:50.340
+……你的模型只有十厘米，却要把它切开。
+... the size of your object is only the 10 centimeters, and you're trying to cut it
+
+1781
+02:20:50.401 --> 02:20:51.449
+到小块。
+to smaller pieces.
+
+1782
+02:20:53.670 --> 02:20:54.810
+摆 我理解,我懂你说什么 摆
+Okay. I understand. Okay.
+
+1783
+02:20:55.260 --> 02:20:56.190
+对 故曰因缘.
+Yeah. So it's because of that.
+
+1784
+02:20:57.240 --> 02:20:58.050
+摆 谢谢
+Okay. Thank you.
+
+1785
+02:20:59.970 --> 02:21:00.120
+对
+Yeah.
+
+1786
+02:21:01.620 --> 02:21:03.480
+西尔维娅呢?
+And Silvia?
+
+1787
+02:21:04.560 --> 02:21:04.980
+没错
+I am.
+
+1788
+02:21:06.240 --> 02:21:09.690
+所以,首先,谢谢你,阿斯利。 我对数字设计知之甚少,但这个
+So first of all, thank you, Asli. I know very little about digital design, but this
+
+1789
+02:21:09.750 --> 02:21:11.220
+看起来不错,所以...
+looked impressive, so
+
+1790
+02:21:12.901 --> 02:21:15.901
+库多斯从我这边。 让人印象深刻
+kudos from my side. Totally impressed.
+
+1791
+02:21:17.010 --> 02:21:21.240
+所以,就我的情况而言,我做了
+So, in my case, I did the
+
+1792
+02:21:23.461 --> 02:21:28.740
+我通过Blender的多个物体。 它给了我0 -0的数据。
+manifold of my object through Blender. It gave me the zero-zero data.
+
+1793
+02:21:29.250 --> 02:21:30.810
+但是,当进口时
+But still, when importing
+
+1794
+02:21:32.131 --> 02:21:37.320
+并试图用同样的参数切开它, 它告诉我
+and trying to slicing it with the same parameter that you had, it tells me that
+
+1795
+02:21:37.381 --> 02:21:38.970
+这不是多重的。
+it's not manifold.
+
+1796
+02:21:39.930 --> 02:21:40.200
+是吗?
+Hmm.
+
+1797
+02:21:42.240 --> 02:21:42.330
+那个
+The
+
+1798
+02:21:44.040 --> 02:21:46.590
+STL需要进一步调查.
+STL needs to be further investigated.
+
+1799
+02:21:46.651 --> 02:21:51.570
+也许在Blender没有多重
+Maybe it was not manifold in Blender.
+
+1800
+02:21:52.530 --> 02:21:52.680
+这么说
+So
+
+1801
+02:21:53.940 --> 02:21:54.660
+我在Blender的数位。
+I manifold in Blender.
+
+1802
+02:21:54.660 --> 02:21:55.590
+它不是紧水的。
+It was not watertight.
+
+1803
+02:21:56.250 --> 02:21:56.461
+你说什么?
+Sorry?
+
+1804
+02:21:57.810 --> 02:21:58.620
+防水吗?
+Watertight?
+
+1805
+02:22:00.151 --> 02:22:02.220
+哦,嗯,我不知道,我说不通。 防水吗?
+Oh, well, I don't know. Watertight?
+
+1806
+02:22:02.430 --> 02:22:03.240
+不过是的
+But yes,
+
+1807
+02:22:04.530 --> 02:22:06.480
+多重但又不水密 我不知道.
+manifolded but not watertight. I don't know.
+
+1808
+02:22:11.401 --> 02:22:16.860
+所以,我用Blender的倍数, 但它告诉我通过程序
+So anyway, so I manifold it in Blender, but it's telling me through the program
+
+1809
+02:22:16.920 --> 02:22:19.560
+无法切除,
+that is not manifolded and cannot slice it.
+
+1810
+02:22:20.100 --> 02:22:20.401
+对
+Mm-hmm.
+
+1811
+02:22:22.470 --> 02:22:22.980
+是吗?
+Hmm.
+
+1812
+02:22:23.370 --> 02:22:24.690
+我会尝试一些不同的东西。
+I'll try with something different.
+
+1813
+02:22:25.170 --> 02:22:25.381
+对
+Yeah.
+
+1814
+02:22:25.920 --> 02:22:31.140
+老实说,我知道如何在犀牛比Blender更容易解决
+I know how to solve it in Rhino easier than Blender, to be honest.
+
+1815
+02:22:31.260 --> 02:22:31.711
+我还有...
+I have more-
+
+1816
+02:22:32.520 --> 02:22:33.300
+对
+Oh, yeah
+
+1817
+02:22:33.300 --> 02:22:33.600
+……
+...
+
+1818
+02:22:34.560 --> 02:22:39.240
+更能控制犀牛, 但我不能回答,说实话,在
+more control over Rhino, but so I won't be able to answer that, honestly, in
+
+1819
+02:22:39.300 --> 02:22:39.660
+布莱德
+Blender.
+
+1820
+02:22:40.620 --> 02:22:41.490
+摆 谢谢
+Okay. Thank you.
+
+1821
+02:22:42.030 --> 02:22:42.211
+对
+Yeah.
+
+1822
+02:22:48.990 --> 02:22:50.010
+还有问题吗?
+Any more questions?
+
+1823
+02:23:00.270 --> 02:23:06.211
+对不起 这与教程无关 但你说在开始的时候
+I'm sorry. It's not about the tutorial, but you said, in the beginning,
+
+1824
+02:23:06.270 --> 02:23:06.930
+你会
+you're going to
+
+1825
+02:23:08.580 --> 02:23:13.410
+将链接设置为教程, 这样我们就可以跟踪到最后
+put the link for a tutorial, so we can follow through in the end just to make sure
+
+1826
+02:23:13.470 --> 02:23:14.670
+我们什么都有
+we have everything.
+
+1827
+02:23:18.510 --> 02:23:20.461
+米罗板上有一条线索
+There is a link in the Miro board-
+
+1828
+02:23:21.240 --> 02:23:21.480
+还好
+Okay
+
+1829
+02:23:21.631 --> 02:23:23.401
+她现在为Blender准备了
+... she had for the Blender now.
+
+1830
+02:23:23.401 --> 02:23:25.200
+对 谢谢你 安娜塔西亚
+Oh, yeah. Oh, thank you, Anastasia.
+
+1831
+02:23:25.260 --> 02:23:31.140
+我在想这个"缩放"的教程, 但是是的,为Blender
+I was thinking this Zoom tutorial, but yes, for the Blender
+
+1832
+02:23:31.200 --> 02:23:35.640
+教程,在米罗板上有一个链接和一个YouTube视频.
+tutorial, there is a link on the Miro board with a YouTube video.
+
+1833
+02:23:36.870 --> 02:23:41.490
+缩放会作为视频还是...
+Will the Zoom be available as a video or-
+
+1834
+02:23:41.610 --> 02:23:41.760
+对
+Yeah
+
+1835
+02:23:42.000 --> 02:23:43.410
+笔记? 哦,伟大的。
+... notes? Oh, great.
+
+1836
+02:23:43.800 --> 02:23:49.740
+是的,但我们希望它被用于个人 学习,而不是
+Yes, but we would like that it is used for personal use to learn and not to
+
+1837
+02:23:49.830 --> 02:23:50.220
+为:
+be
+
+1838
+02:23:51.780 --> 02:23:56.220
+在一个有200名学生的课堂上传播。
+transmitted in a classroom of 200 students without credits.
+
+1839
+02:23:57.211 --> 02:23:57.750
+当然可以
+Sure, of course.
+
+1840
+02:23:57.810 --> 02:23:58.020
+好吗?
+Okay?
+
+1841
+02:24:02.850 --> 02:24:07.919
+我找不到Blender教程的链接 那个...
+I'm not really finding the link for the Blender tutorial. Is the...
+
+1842
+02:24:08.461 --> 02:24:09.270
+不,没有。
+No, there's none.
+
+1843
+02:24:09.570 --> 02:24:10.980
+你现在在米罗板上吗?
+Are you on Miro board right now?
+
+1844
+02:24:12.211 --> 02:24:14.310
+米罗? 是的,我有这个。 对
+Miro? Yeah, I have this up. Yeah.
+
+1845
+02:24:15.720 --> 02:24:17.461
+在米罗板上
+So here in the Miro board,
+
+1846
+02:24:18.961 --> 02:24:23.790
+这是放大的部分, 如果你在这里,
+this is the zoomed-out part, and if you go in here,
+
+1847
+02:24:25.080 --> 02:24:26.850
+如何在 Blender 中切割一个模型。
+how to cut a model in Blender.
+
+1848
+02:24:28.050 --> 02:24:28.980
+这是一个教程。
+This is a tutorial.
+
+1849
+02:24:34.440 --> 02:24:36.270
+你看到了吗,丽塔?
+Do you see it now, Rita?
+
+1850
+02:24:38.070 --> 02:24:39.690
+没有 对不起
+Not really. Sorry.
+
+1851
+02:24:40.200 --> 02:24:41.430
+你看到我的屏幕了吗?
+Do you see my screen now?
+
+1852
+02:24:41.850 --> 02:24:43.140
+是的,我在看你的屏幕。
+Yeah, I'm seeing your screen.
+
+1853
+02:24:44.850 --> 02:24:50.640
+摆 你需要放大到设计, 在第二阶段
+Okay. You need to zoom into the design, in the second phase of the
+
+1854
+02:24:50.700 --> 02:24:56.160
+这是YouTube的视频。
+design, where we do modifications, and this is a YouTube video.
+
+1855
+02:24:56.790 --> 02:24:57.810
+你需要点击它。
+You need to click it.
+
+1856
+02:25:01.651 --> 02:25:03.090
+哦,我必须放大。 对
+Oh, I have to zoom in. Yeah.
+
+1857
+02:25:03.330 --> 02:25:03.660
+好吗?
+Okay?
+
+1858
+02:25:05.730 --> 02:25:06.870
+在设计部分?
+In the design part?
+
+1859
+02:25:07.860 --> 02:25:09.480
+对 在设计中。
+Yes. Under design.
+
+1860
+02:25:10.320 --> 02:25:11.220
+是啊,在设计。
+Yeah, under design.
+
+1861
+02:25:12.480 --> 02:25:12.961
+还有
+And
+
+1862
+02:25:14.430 --> 02:25:16.050
+三维模型修改.
+3D model modification.
+
+1863
+02:25:19.200 --> 02:25:19.530
+这里。
+Here.
+
+1864
+02:25:26.131 --> 02:25:28.530
+你看着它,我会看着聊天。
+While you look at it, I will look at the chat.
+
+1865
+02:25:35.550 --> 02:25:39.780
+阿斯利,你要我们给你一些反馈吗?
+Asli, would you like us to provide you some feedback about this
+
+1866
+02:25:41.670 --> 02:25:45.961
+教程或经验, 或者你想得到什么反馈?
+tutorial or the experience, or what feedback would you like?
+
+1867
+02:25:46.410 --> 02:25:52.080
+对 谢谢 因为我们现在在打结
+Yes. Thank you. Because we're tying the ends now.
+
+1868
+02:25:52.140 --> 02:25:55.770
+It会终. 所以,首先,谢谢你的加入。
+It's the end of the session. So first of all, thank you for joining.
+
+1869
+02:25:57.450 --> 02:26:02.070
+我们和AI订了位子 所以...
+And it was nice because we have our reservations with AI, so it's...
+
+1870
+02:26:04.381 --> 02:26:04.980
+还有
+And
+
+1871
+02:26:06.300 --> 02:26:12.270
+所以我总是喜欢用它有意义 和我在控制。
+so I always like to use it meaningfully and as much as I'm in control
+
+1872
+02:26:12.420 --> 02:26:18.390
+就像我不会忘记我的人性 和人类的创造力和理解
+and as much as I don't forget my humanity and my human creativity and understanding
+
+1873
+02:26:18.450 --> 02:26:20.881
+我的限制,理解AI的
+my limitations, understanding AI's
+
+1874
+02:26:22.560 --> 02:26:27.840
+而不是抛弃我所有的一切
+limitations, and working together collaboratively, rather than dumping all my
+
+1875
+02:26:27.901 --> 02:26:29.340
+思考过程,或
+thought process to it, or
+
+1876
+02:26:31.890 --> 02:26:37.110
+或要求它创造奇迹,因为。
+getting all my feedback from it, or asking it to generate miracles for it, because
+
+1877
+02:26:37.140 --> 02:26:39.060
+它不能做到这一点。 所以说...
+it cannot do it. So-
+
+1878
+02:26:41.580 --> 02:26:46.620
+所以,这就是我想做的。 所以我希望你先负责任地使用人工智能
+So that's what I'd like to do. So I would like you to use AI responsibly first.
+
+1879
+02:26:48.570 --> 02:26:50.250
+是的,我同意这样
+Yeah, I agree that
+
+1880
+02:26:52.080 --> 02:26:57.360
+为创造者解密AI 以及它能做什么和做什么
+it's really important to demystify AI for creators and what it can do and what it
+
+1881
+02:26:57.420 --> 02:26:59.550
+以及我们仍然需要做的事情。
+cannot do, and what we still need to do.
+
+1882
+02:27:00.211 --> 02:27:04.950
+所以,首先,如果你可以 去米罗板和分享
+So first of all, if you can go to the Miro board and share
+
+1883
+02:27:07.830 --> 02:27:08.760
+你做过的事
+what you have done
+
+1884
+02:27:11.160 --> 02:27:16.950
+和我在这里。 之后你也可以做,但可以看见它
+with me here. You can also do it afterwards, but it would be cool to see it
+
+1885
+02:27:17.040 --> 02:27:17.610
+在这里。
+here.
+
+1886
+02:27:19.320 --> 02:27:24.450
+想法,你和Gemini产生的东西, 如果你可以放一些照片在这里
+The ideation, so what you generated with Gemini, if you can put some photos here
+
+1887
+02:27:25.200 --> 02:27:30.151
+正在设计中。 如果你可以把一些照片从,或
+under design. If you can put some photos from, or
+
+1888
+02:27:30.690 --> 02:27:32.160
+您的截图
+screenshots from your
+
+1889
+02:27:37.290 --> 02:27:40.260
+Tripo 模型,以及
+tripod models, and also
+
+1890
+02:27:42.540 --> 02:27:43.290
+伪造
+fabrication
+
+1891
+02:27:44.730 --> 02:27:48.930
+界面截图, 这将很好。
+interface screenshots, that would be nice.
+
+1892
+02:27:50.310 --> 02:27:51.090
+还有
+And
+
+1893
+02:27:53.160 --> 02:27:57.270
+我想读一些有趣的东西 如果你可以把你的
+there is something interesting that I would like to read, and if you can put your
+
+1894
+02:27:57.300 --> 02:28:00.090
+在这里思考和思考, 这将是很好的。
+thoughts and reflections in here, that would be also nice.
+
+1895
+02:28:00.540 --> 02:28:02.881
+作为最后的要求,
+And as a last request,
+
+1896
+02:28:05.461 --> 02:28:10.560
+有培训后调查, 如果我可以请您填写,
+there is the post-training survey that if I may ask you to fill in,
+
+1897
+02:28:13.140 --> 02:28:14.790
+我也会分享
+that I will also share the
+
+1898
+02:28:17.070 --> 02:28:18.689
+与您联系
+link with you here on
+
+1899
+02:28:22.560 --> 02:28:24.990
+缩放 哦,对不起,不是信号。
+Zoom. Oh, sorry, not Signal.
+
+1900
+02:28:26.640 --> 02:28:32.280
+我的缩放呢? 是的,在聊天时。 那我会的
+But where's my Zoom? Yes, in chat. Then I will be
+
+1901
+02:28:32.401 --> 02:28:32.940
+能够
+able to
+
+1902
+02:28:36.090 --> 02:28:42.060
+也为您提供完成此教程的开放徽章
+also provide you with an open badge of completing this tutorial
+
+1903
+02:28:42.211 --> 02:28:43.860
+之后会的 这么说
+afterwards. So
+
+1904
+02:28:46.440 --> 02:28:50.160
+如果你做了前期调查 如果你做了后期调查 我可以
+if you have done the pre-survey and if you have done the post-survey, I can make
+
+1905
+02:28:50.220 --> 02:28:55.560
+你的名字和邮件,然后我可以给你 打开的徽章到你的电子邮件
+your names and emails and then I can send you the open badge to your emails with
+
+1906
+02:28:55.620 --> 02:28:55.920
+那个
+that.
+
+1907
+02:28:57.690 --> 02:28:59.250
+对 但我们可以
+And yeah. But we can
+
+1908
+02:29:01.440 --> 02:29:02.100
+谈谈
+talk about
+
+1909
+02:29:04.680 --> 02:29:08.190
+你对此的看法,你如何体验AI.
+what you think about this, how you experience AI.
+
+1910
+02:29:08.401 --> 02:29:12.720
+你也像我一样有AI焦虑症吗?
+Do you also have AI anxiety like I do?
+
+1911
+02:29:12.961 --> 02:29:18.390
+因为这是我的工作,也是我现在所看到的,所以我
+Because that's my work and that's also what I see everywhere now, so I'm
+
+1912
+02:29:18.450 --> 02:29:21.060
+想知道你的想法吗?
+curious to hear about your thoughts as well.
+
+1913
+02:29:33.990 --> 02:29:35.340
+我可以说点什么
+Well, I can say something.
+
+1914
+02:29:35.850 --> 02:29:36.450
+是的,请。
+Yes, please.
+
+1915
+02:29:38.010 --> 02:29:40.920
+我当然担心AI的使用.
+I'm concerned about the use of AI, of course.
+
+1916
+02:29:41.670 --> 02:29:41.730
+对
+Mm-hmm.
+
+1917
+02:29:41.881 --> 02:29:43.950
+利用地球上的大量资源
+Using a lot of resources on Earth and
+
+1918
+02:29:45.240 --> 02:29:50.940
+它会如何改变所有事物的视角 一个坏的方式,也许在一个
+how it's going to change the perspective of everything in a bad way, maybe in a
+
+1919
+02:29:51.000 --> 02:29:51.660
+阴道.
+negative way.
+
+1920
+02:29:52.860 --> 02:29:55.860
+接手 我们还得用我们的大脑,对不对?
+Taking over. We also have to use our brains still, right?
+
+1921
+02:29:56.131 --> 02:29:56.669
+对
+Mm-hmm.
+
+1922
+02:29:57.690 --> 02:30:01.560
+对 当然,我们听到了很多关于所有这些服务中心,等等。
+So, yeah. And of course, we hear a lot about all these service centers, et cetera.
+
+1923
+02:30:03.240 --> 02:30:04.740
+最后一点,请。 对
+The last point, please. Yeah.
+
+1924
+02:30:05.160 --> 02:30:11.010
+我们也听到很多关于它有多少 用于生成和所有
+We also hear a lot about how much it uses for generating and all
+
+1925
+02:30:11.040 --> 02:30:14.070
+这个信息输入 你必须放进去,是的。
+this information input you have to put in it, and yeah.
+
+1926
+02:30:14.280 --> 02:30:15.961
+我觉得有点可怕,我不得不说
+I think it's a bit scary, I have to say.
+
+1927
+02:30:16.950 --> 02:30:17.490
+и種
+I agree.
+
+1928
+02:30:19.350 --> 02:30:22.410
+我认为这是一个非常常见的反应,但
+I think that's a very common reaction, but
+
+1929
+02:30:24.060 --> 02:30:25.651
+我今尚不甚拥护.
+I don't have a lot of support for this yet.
+
+1930
+02:30:25.830 --> 02:30:31.381
+但我相信当技术推出时 技术是中立的
+But my belief is that technology, when it rolls out, is somewhat neutral,
+
+1931
+02:30:32.010 --> 02:30:36.870
+由我们来决定如何部署 如何使用
+and it's up to us to decide how it gets deployed and how it gets used.
+
+1932
+02:30:38.280 --> 02:30:39.540
+不幸的是,资本主义
+Unfortunately, capitalism
+
+1933
+02:30:41.340 --> 02:30:46.800
+通常倾向于改变事物。 它倾向于去人性化或去技能
+usually tends to shift things. It tends to dehumanize technologies or de-skill
+
+1934
+02:30:47.310 --> 02:30:51.750
+人们 但我是现在这个小集体的一员
+people. But I'm part of a little collective that is right now
+
+1935
+02:30:52.890 --> 02:30:53.370
+正在工作
+working
+
+1936
+02:30:54.840 --> 02:31:00.631
+帮助人们理解AI可以用来
+on workshops just like this one to help people understand that AI can be used to
+
+1937
+02:31:00.660 --> 02:31:06.600
+也有好处 就因为我这样的人被它取代了
+great benefit as well. To the extent that it's displacing people like me
+
+1938
+02:31:06.690 --> 02:31:11.490
+我是一个软件工程师。 以致于有人从
+from-- I was a software engineer. To the extent that it's displacing people from
+
+1939
+02:31:11.550 --> 02:31:15.360
+有些工作,我想它正在为其他工作提供令人难以置信的新机会。
+some jobs, I think it's opening incredible new opportunities in other jobs.
+
+1940
+02:31:16.381 --> 02:31:20.790
+我也算是个科技的业余历史学家 如果你看看
+I'm also sort of an amateur historian of science and technology, and if you look
+
+1941
+02:31:20.850 --> 02:31:24.990
+回到蒸汽时代 每次发生破坏
+back, going all the way back to the Steam Age, every time there was a disruptive
+
+1942
+02:31:25.080 --> 02:31:30.990
+技术的出现, 有很多担心 如何取代它
+technology that came out, there was a lot of concern about how displacing it would
+
+1943
+02:31:31.050 --> 02:31:31.260
+将。
+be.
+
+1944
+02:31:32.790 --> 02:31:38.461
+我们不一定能预测赢家和输家, 但重要的是开放
+We can't necessarily predict the winners and losers, but it's important to be open
+
+1945
+02:31:38.520 --> 02:31:40.440
+以变化而能随其转.
+to the change and to be able to roll with it.
+
+1946
+02:31:40.920 --> 02:31:41.010
+还有
+And
+
+1947
+02:31:42.540 --> 02:31:46.770
+阿斯利,我认为这完全是正确的 方法来设定它,是人类必须
+Asli, I think this is exactly the right way to frame it, is that the human has to
+
+1948
+02:31:46.830 --> 02:31:52.110
+在迭代的每个阶段都保持循环
+remain in the loop at every stage in the iteration and really
+
+1949
+02:31:52.200 --> 02:31:55.350
+了解兜帽底下发生了什么
+understand sort of what's going on under the hood.
+
+1950
+02:31:55.830 --> 02:32:00.631
+我想你说得对 是为了带回你的私事
+And I think you're exactly right. It's to bring your personal
+
+1951
+02:32:01.770 --> 02:32:07.140
+专门技能、知识和背景 影响一个对你很重要的问题
+expertise and knowledge and context to bear on a problem that's important to you to
+
+1952
+02:32:07.230 --> 02:32:11.881
+解决,并使用AI 不作为老板,而是作为助手。
+solve, and using the AI not as the boss, but as the assistant.
+
+1953
+02:32:12.510 --> 02:32:15.300
+且如所见,有时不为太明.
+And as you can see, sometimes it's not too bright.
+
+1954
+02:32:16.800 --> 02:32:22.320
+但是它已经知道很多有趣的事了
+But it already knows ahead of time a lot of really interesting
+
+1955
+02:32:22.381 --> 02:32:28.020
+上下文。 我想如果你把它当作镜子 来反射你自己的
+context. And I think if you use it as kind of a mirror to reflect back your own
+
+1956
+02:32:28.950 --> 02:32:32.461
+理智和偏见,
+sensibilities and your own biases,
+
+1957
+02:32:34.890 --> 02:32:39.090
+从某种意义上说,大赦国际可以帮助我们更好地理解成为人类意味着什么。
+that in a sense, AI can help us understand better what it means to be human.
+
+1958
+02:32:40.230 --> 02:32:40.381
+对
+Yeah.
+
+1959
+02:32:40.770 --> 02:32:41.490
+我两分钱
+My two cents.
+
+1960
+02:32:43.050 --> 02:32:45.690
+谢谢你,克里。 и種 仅与
+Thank you, Kerry. I agree. Only with
+
+1961
+02:32:47.970 --> 02:32:52.020
+一个与你所说的话的开始有关的评论。
+one comment that is related to the very beginning of what you said.
+
+1962
+02:32:52.410 --> 02:32:56.550
+每一个技术都是中性的
+It's every technology born neutral.
+
+1963
+02:32:56.670 --> 02:33:02.070
+我觉得AI不是这样的,因为它使用了数据
+I think that is not true with AI because it used datas
+
+1964
+02:33:02.220 --> 02:33:07.680
+通常占多数的
+of people that are usually mostly represented on
+
+1965
+02:33:08.910 --> 02:33:13.649
+互联网。 所以它不是中立的开始。
+internet. So it does not start neutrally.
+
+1966
+02:33:14.160 --> 02:33:16.410
+所以它用
+So it uses
+
+1967
+02:33:19.530 --> 02:33:25.500
+英语作为第一语言, 以及那里的大部分数据
+English as its first language, and most data out there
+
+1968
+02:33:25.530 --> 02:33:28.260
+也用英语,它属于某些
+is also in English, and it belongs to certain
+
+1969
+02:33:29.881 --> 02:33:35.700
+文化和某些人。 所以,这不是出生,或者当它告诉
+cultures and certain people. So this was not born, or when it told
+
+1970
+02:33:35.760 --> 02:33:39.420
+从一开始它就一直保持中立
+something back at us, it was never neutral from the beginning.
+
+1971
+02:33:40.140 --> 02:33:44.461
+但除此之外,我同意需要讨论,而且需要,
+But apart from that, I agree that it needs to be discussed, and it needs to be,
+
+1972
+02:33:48.930 --> 02:33:54.540
+限制和需要
+within these kind of contexts, its limits and needs to be
+
+1973
+02:33:55.920 --> 02:34:01.050
+探索,也需要有点像, 我们在哪里结束?
+explored, and also needs to be a little bit like, where do we end?
+
+1974
+02:34:01.170 --> 02:34:04.140
+AI是从哪里开始的或任何其他技术?
+Where does AI start or any other technology start?
+
+1975
+02:34:04.200 --> 02:34:08.881
+我们需要进一步探讨这个问题,并看到与我们的合作。
+We need to explore that further and see in kind of collaborations we can see with
+
+1976
+02:34:08.940 --> 02:34:10.260
+这个 还有
+it. And
+
+1977
+02:34:11.790 --> 02:34:16.860
+我丈夫是软件工程师 他看到什么后也感到很羞愧
+my husband is a software engineer, and he was also very mortified when he saw what
+
+1978
+02:34:16.980 --> 02:34:19.890
+我却不知所措
+I was able to do without knowing much.
+
+1979
+02:34:20.340 --> 02:34:21.060
+我知道一点
+I know a little bit
+
+1980
+02:34:22.470 --> 02:34:26.550
+编程。 所以,正如我所说,我是一个计算设计师, 所以我不从
+programming. So as I said, I'm a computational designer, so I don't start with
+
+1981
+02:34:26.610 --> 02:34:31.470
+但我显然也做不了这么多编码
+blank slate, but I also cannot do this much of coding, obviously.
+
+1982
+02:34:33.510 --> 02:34:38.940
+但希望它不会取代工作, 我们需要向前看
+But hopefully it will not replace the jobs, and we need to move towards looking
+
+1983
+02:34:38.970 --> 02:34:44.910
+如何减轻其短期和长期影响
+into how we can mitigate short-term and long-term impacts of it
+
+1984
+02:34:45.030 --> 02:34:49.110
+在社会以及就业保障方面。
+in the society as well in terms of job security, too.
+
+1985
+02:34:50.190 --> 02:34:54.330
+但了解它肯定不会伤害我们, 因为那样它就能赋予我们作为
+But definitely it doesn't hurt to learn about it, because then it empowers us as
+
+1986
+02:34:54.360 --> 02:34:54.480
+不错
+well.
+
+1987
+02:34:55.711 --> 02:34:59.910
+我很抱歉,但我错过了你最初说的大部分话 所以我非常想
+I'm very sorry, but I missed most of what you said initially, so I would very much
+
+1988
+02:34:59.970 --> 02:35:01.050
+喜欢后续跟进。
+like to follow up after.
+
+1989
+02:35:01.711 --> 02:35:02.820
+对 让我们做。
+Yeah. Let's do.
+
+1990
+02:35:02.820 --> 02:35:03.780
+摆 没关系 不错
+Okay. That's fine. Great.
+
+1991
+02:35:03.870 --> 02:35:05.490
+湿婆呢?
+And Shiva?
+
+1992
+02:35:09.120 --> 02:35:09.300
+顿
+Hi.
+
+1993
+02:35:10.620 --> 02:35:15.990
+首先,这是对三维模型的一次伟大的探索
+So first of all, this was a great exploration in 3D models and
+
+1994
+02:35:16.740 --> 02:35:17.881
+gen AI用来使用.
+gen AI to use it.
+
+1995
+02:35:19.200 --> 02:35:22.020
+我也一样
+I'm also quite
+
+1996
+02:35:24.420 --> 02:35:26.401
+在使用AI时保留。
+reserved when it comes to use of AI.
+
+1997
+02:35:26.490 --> 02:35:30.420
+这也许是我一个月里使用最多的人工智能
+This might be the most amount of AI used in a month for me.
+
+1998
+02:35:32.310 --> 02:35:32.760
+不过
+But
+
+1999
+02:35:34.140 --> 02:35:39.780
+是的,这是一次伟大的演示 如何使用AI而不离开
+yeah, this was, again, a great demonstration of how to use AI without leaving the
+
+2000
+02:35:39.961 --> 02:35:43.560
+司机的座位,所以说。 没错
+driver's seat, so to speak. So yeah.
+
+2001
+02:35:43.651 --> 02:35:44.190
+谢谢你
+Thank you for that
+
+2002
+02:35:46.080 --> 02:35:49.770
+我还要补充一点,现在,
+I would also like to add that nowadays,
+
+2003
+02:35:50.070 --> 02:35:54.870
+至少我个人的看法是
+at least my personal perspective is that
+
+2004
+02:35:56.401 --> 02:36:02.070
+人类需要更多技能
+what the humans need to develop more are skills
+
+2005
+02:36:02.160 --> 02:36:08.131
+比如政策 社会学 人类学 这样你就可以
+like policy, sociology, anthropology, so that you can
+
+2006
+02:36:08.220 --> 02:36:12.300
+例如,实际上为AI写规则.
+actually, for example, write the rules for the AI.
+
+2007
+02:36:13.140 --> 02:36:17.550
+这些技能是更需要的技能。
+These kind of skills are skills that they are going to be more needed.
+
+2008
+02:36:24.660 --> 02:36:27.120
+и種 柔软的技能是... 怎么样
+I agree. Soft skills will be... And how to
+
+2009
+02:36:29.010 --> 02:36:33.480
+更深入地探索人类的一面
+find out our human side more, or figure out, explore our human side more.
+
+2010
+02:36:33.930 --> 02:36:37.560
+是啊,所有这些事情的历史,
+Yeah, the history of all of those things,
+
+2011
+02:36:39.330 --> 02:36:45.300
+它们对于在下列地点推动大赦国际至关重要:
+they are very essential for being able to drive the AI where
+
+2012
+02:36:45.390 --> 02:36:45.990
+它应该。
+it should.
+
+2013
+02:36:46.560 --> 02:36:46.830
+对
+Mm-hmm.
+
+2014
+02:36:49.020 --> 02:36:49.470
+梅丽莎?
+Melissa?
+
+2015
+02:36:51.990 --> 02:36:52.950
+对 顿
+Yes. Hi.
+
+2016
+02:36:54.750 --> 02:36:58.500
+我想告诉你一件事,因为
+I want to tell you something, because
+
+2017
+02:36:59.970 --> 02:37:02.640
+我们班上看到的一切
+all we see in this class,
+
+2018
+02:37:05.040 --> 02:37:10.770
+有位老师告诉我
+come to me once a teacher told us that
+
+2019
+02:37:10.920 --> 02:37:16.320
+AI要取代我们成为雕塑家
+AI was going to replace us to the sculptors.
+
+2020
+02:37:16.980 --> 02:37:22.829
+但我认为这是艺术家之间的合作
+But I think it's a work collaborate between the artist
+
+2021
+02:37:23.459 --> 02:37:29.401
+和AI,现在我们可以创建独特的作品。
+and the AI, now we can create unique pieces.
+
+2022
+02:37:30.060 --> 02:37:31.381
+我觉得
+And I think
+
+2023
+02:37:32.640 --> 02:37:35.881
+其他人,就像我一样
+the people in other place, like my
+
+2024
+02:37:37.140 --> 02:37:39.390
+因为我来自阿亚库乔
+city, because I am from Ayacucho,
+
+2025
+02:37:41.910 --> 02:37:43.140
+我们必须
+we must
+
+2026
+02:37:44.490 --> 02:37:50.401
+失去这些新技术的恐惧,思考
+lose the scary about these new technologies and think
+
+2027
+02:37:51.120 --> 02:37:56.700
+对电脑来说很可怕
+about the computer and was scary for the
+
+2028
+02:37:56.760 --> 02:38:00.211
+人们不知道使用。
+people doesn't know about the use.
+
+2029
+02:38:00.750 --> 02:38:06.631
+但现在它是很多作品和艺术家的补充
+But now it's a complement for a lot of works and the artists
+
+2030
+02:38:06.690 --> 02:38:12.360
+像我一样,它是非常
+like me, it's at all very
+
+2031
+02:38:12.420 --> 02:38:13.620
+现在很重要。
+important now.
+
+2032
+02:38:14.881 --> 02:38:19.020
+上课后,我有很多想法
+After this class, I have a lot of ideas
+
+2033
+02:38:20.401 --> 02:38:23.850
+为工作。 且道个甚么. 谢谢
+for work. And that's all. Thank you.
+
+2034
+02:38:25.980 --> 02:38:28.711
+我很高兴听到这个,梅丽莎。
+I'm happy to hear that, Melissa.
+
+2035
+02:38:30.000 --> 02:38:34.711
+我真的很高兴听到这个, 因为事实上这是我们的意图, 介绍
+I'm really happy to hear that because that was actually our intention, to introduce
+
+2036
+02:38:34.800 --> 02:38:36.030
+你来这
+you to this
+
+2037
+02:38:37.890 --> 02:38:42.420
+有点世界,不是觉得我们迷失了,而是觉得
+world a little bit, not to feel ourselves lost, but to
+
+2038
+02:38:43.980 --> 02:38:45.300
+看我们如何
+see how we can
+
+2039
+02:38:48.420 --> 02:38:50.790
+如果可能,开辟新的机会。
+open up new opportunities if possible.
+
+2040
+02:38:51.390 --> 02:38:53.580
+如果这对我们没有好处 那也是公平的
+And if it's not something for us, that's also fair.
+
+2041
+02:38:53.970 --> 02:38:57.961
+一旦我们知道了,我们也可以继续前进。 我们不需要用它。
+Once we know, we can also move on. We don't need to use it.
+
+2042
+02:38:58.200 --> 02:39:03.060
+我们不需要参与其中。 但我们需要知道能够作出决定。
+We don't need to be part of it. But we need to know to be able to decide.
+
+2043
+02:39:06.060 --> 02:39:10.590
+梅丽莎 没人会取代
+Well, Melissa, nobody will replace the
+
+2044
+02:39:11.461 --> 02:39:16.950
+恢复你正在做的 Stucco 石膏, 与石膏
+restoration that you are doing with the stucco plastering, with the plastering of
+
+2045
+02:39:17.040 --> 02:39:22.590
+修复这座建筑。 我认为它不会被AI取代.
+the rehabilitation of this building. I don't think that it will be replaced by AI.
+
+2046
+02:39:22.651 --> 02:39:26.070
+没有 我们还做了另一个项目。
+No. We also do another project as well.
+
+2047
+02:39:26.610 --> 02:39:26.700
+对
+Yes.
+
+2048
+02:39:26.700 --> 02:39:28.950
+对 和工匠们在一起 他们甚至...
+Yeah. It's with craft people. They even-
+
+2049
+02:39:28.980 --> 02:39:30.540
+所以用你的手来做事情
+So do things with your hands
+
+2050
+02:39:30.570 --> 02:39:30.870
+……
+...
+
+2051
+02:39:34.800 --> 02:39:35.430
+我们和工匠一起工作
+we work with craft people.
+
+2052
+02:39:35.430 --> 02:39:36.000
+没错
+Exactly.
+
+2053
+02:39:37.290 --> 02:39:43.170
+他们说AI能做的太多了 他们无法创造蕾丝作品
+And they say that there's so much that AI can do, and they cannot create lace work,
+
+2054
+02:39:43.620 --> 02:39:46.680
+或者他们不能恢复 或者他们不能...
+or they cannot do restoration, or they cannot...
+
+2055
+02:39:47.250 --> 02:39:50.640
+有些东西是非常人性的。 对
+There are these things that are very human. Yeah.
+
+2056
+02:39:53.490 --> 02:39:54.151
+什么事,茱莉亚?
+Yes, Julia?
+
+2057
+02:39:56.160 --> 02:40:01.560
+当你在谈论AI和修复建筑物时,
+As you were talking about AI and restoration of buildings,
+
+2058
+02:40:02.040 --> 02:40:06.090
+我们的教授工作, 他正在做一个项目,他做
+our professor at work, he's working on a project where he does
+
+2059
+02:40:07.470 --> 02:40:12.090
+修复带有机器人的建筑物,这是用AI编程的.
+restoration of buildings with robots, which is programmed with AI.
+
+2060
+02:40:12.211 --> 02:40:17.940
+所以我不会说这不会改变,或
+So, I would not say that this won't change, or
+
+2061
+02:40:18.570 --> 02:40:24.480
+我认为有这么多的要点, 这么多的工作,我们现在无法想象
+I think there are so many points, so many jobs where we now can't imagine that
+
+2062
+02:40:25.230 --> 02:40:30.780
+AI和机器人以及新技术能够
+AI and robots and new technologies are able to
+
+2063
+02:40:31.320 --> 02:40:35.131
+改变那些工作。 但我觉得没什么
+change those jobs. But I think nothing is
+
+2064
+02:40:37.080 --> 02:40:38.970
+目前无法想象
+unimaginable at the moment.
+
+2065
+02:40:42.300 --> 02:40:44.940
+我尽量不走这些长度。
+I try not to go to those lengths yet.
+
+2066
+02:40:45.660 --> 02:40:51.360
+我有点害怕在那一刻想,想
+It kind of scares me to think about that at that moment, to think
+
+2067
+02:40:53.401 --> 02:40:54.870
+难以想象
+the unimaginable.
+
+2068
+02:40:56.370 --> 02:40:57.211
+我不知道.
+I don't know. I
+
+2069
+02:40:58.950 --> 02:41:01.950
+试着让自己相信可能性
+try to ground myself on the possibilities.
+
+2070
+02:41:02.820 --> 02:41:04.020
+是的,但我同意这一点
+Yeah, but I agree that
+
+2071
+02:41:06.270 --> 02:41:10.170
+几周前,我一直担心 我们要去哪里,会发生什么
+a few weeks ago, I had an anxiety about where we are going, what's going to happen
+
+2072
+02:41:10.200 --> 02:41:14.940
+十年内? 我们10年后还会在附近吗? 却甚难.
+in 10 years? Are we going to be around still in 10 years? But it's so hard.
+
+2073
+02:41:15.690 --> 02:41:18.870
+但我同意安娜塔西亚的观点 我们需要
+But I agree with Anastasia point that we need
+
+2074
+02:41:20.461 --> 02:41:21.840
+明确政策
+clear policy around
+
+2075
+02:41:24.300 --> 02:41:28.920
+我们如何处理它 如何特别大的技术处理它。
+how we handle it and how especially big tech handles it.
+
+2076
+02:41:35.370 --> 02:41:35.580
+对
+Yes,
+
+2077
+02:41:37.110 --> 02:41:40.920
+诺埃尔? 或者茱莉亚,你还有更多的分数 你想分享还是...
+Noel? Or Julia, did you have more points that you want to share or...
+
+2078
+02:41:43.140 --> 02:41:43.290
+对
+Yeah.
+
+2079
+02:41:44.670 --> 02:41:44.850
+对
+Yeah.
+
+2080
+02:41:47.640 --> 02:41:51.120
+再次感谢你主持这次辅导
+Once again, thank you for conducting this tutorial.
+
+2081
+02:41:51.901 --> 02:41:57.000
+我基本上是一个电子工程师 做电路设计, 我听说过
+I'm basically an electronics engineer who do circuit designing, and I have heard
+
+2082
+02:41:57.090 --> 02:42:02.250
+关于三维模特很多次,很多年, 但我还没有尝试
+about 3D modeling many times, many years, but I haven't tried
+
+2083
+02:42:03.930 --> 02:42:09.120
+在这个问题上。 这让我更洞察力
+on this subject. But this gave me more insight
+
+2084
+02:42:10.439 --> 02:42:16.230
+做更多的工作,因为,作为一个电子工程师, 我做原型,但
+to work on more because, as a electronics engineer, I do prototyping, but
+
+2085
+02:42:16.799 --> 02:42:17.549
+大部分时候我用
+mostly I use
+
+2086
+02:42:18.901 --> 02:42:24.540
+我原型的外壳 但这给了我更多的洞察力。
+off-the-shelf enclosures for my prototyping. But this gave me more insight.
+
+2087
+02:42:25.200 --> 02:42:26.461
+它给了我
+It gave me
+
+2088
+02:42:28.530 --> 02:42:29.970
+有机会考虑
+an opportunity to think about to
+
+2089
+02:42:31.200 --> 02:42:33.360
+使用3D型号,定制型号,
+use a 3D model, customized one,
+
+2090
+02:42:35.040 --> 02:42:39.540
+这是很好的。 还有AI上的第二件事
+which is good. And the second thing on AI.
+
+2091
+02:42:41.040 --> 02:42:45.780
+是的,AI会推进, 但是在修复点, 几天前,我是
+Yeah, AI will advance, but on the restoration point, a few days before I was
+
+2092
+02:42:45.840 --> 02:42:51.810
+恢复一个旧的索尼Hi-Fi系统 AI帮助我寻找旧的
+restoring one old Sony Hi-Fi system, and AI helped me on looking on old
+
+2093
+02:42:51.901 --> 02:42:57.600
+图表和修复。 但是,在修复方面,我们
+schematics and to fix that. But again, on the restoration part, our
+
+2094
+02:42:57.660 --> 02:43:00.330
+手必须去修复。
+hands has to go for the restoration.
+
+2095
+02:43:01.290 --> 02:43:06.360
+AI可以支持我们,但AI不能接手. 对 谢谢 再次感谢你
+AI can support us, but AI can't take over. Yeah. Thank you. Thank you once again.
+
+2096
+02:43:06.420 --> 02:43:06.540
+对
+Yeah.
+
+2097
+02:43:07.290 --> 02:43:07.651
+谢谢
+Thank you.
+
+2098
+02:43:17.010 --> 02:43:17.160
+对
+Yeah.
+
+2099
+02:43:17.760 --> 02:43:17.850
+对
+Yeah.
+
+2100
+02:43:19.711 --> 02:43:20.190
+没事吧?
+All good?
+
+2101
+02:43:20.910 --> 02:43:22.890
+对 谢谢大家 谢谢
+Yes. Thank you, everyone. Thank you.
+
+2102
+02:43:23.160 --> 02:43:23.190
+对
+Yeah.
+
+2103
+02:43:23.190 --> 02:43:23.280
+谢谢,娜塔莉。
+Thanks, Natalie.
+
+2104
+02:43:23.340 --> 02:43:28.020
+如果你愿意,我再次请你填写表格。
+I would, again, ask you to fill in the form if you feel like it.
+
+2105
+02:43:28.680 --> 02:43:31.711
+这对我有很大帮助 你无法想象
+It helps me majorly, immensely. You cannot imagine.
+
+2106
+02:43:32.131 --> 02:43:37.470
+但是,感谢大家的加入, 如果你想进一步 谈话,想
+But thank you all for joining, and if you want to further the conversation, want to
+
+2107
+02:43:37.530 --> 02:43:43.440
+更了解我们在文艺复兴项目或任何其他项目中做什么
+know more about what we do within the Renaissance project or any other projects
+
+2108
+02:43:43.500 --> 02:43:49.440
+在WAW,我给你我的邮件 在这里,所以你可以写信给我,或者我也会
+at WAW, I give you my email here, so you can write to me, or I will also
+
+2109
+02:43:49.500 --> 02:43:52.860
+把它放在壁画板上 这样你就能找到我
+put it on the mural board so you have where to find me.
+
+2110
+02:43:55.290 --> 02:43:55.410
+对
+Yeah.
+
+2111
+02:43:55.440 --> 02:43:59.520
+基本上,邮电训练是一样的,但是...
+Basically, the post training is the same, but...
+
+2112
+02:44:01.740 --> 02:44:02.760
+练完之后
+After you have done the training.
+
+2113
+02:44:02.820 --> 02:44:04.560
+在你完成课程之后,不是吗?
+After you have done the course, no?
+
+2114
+02:44:04.860 --> 02:44:05.040
+对
+Yeah.
+
+2115
+02:44:05.790 --> 02:44:07.110
+摆 亦复如是.
+Okay. It's the same.
+
+2116
+02:44:07.920 --> 02:44:10.530
+据我所知,这不是那么长。
+It's not that lengthy as far as I remember.
+
+2117
+02:44:11.070 --> 02:44:11.100
+摆
+Okay.
+
+2118
+02:44:11.100 --> 02:44:15.810
+但是它告诉你 你学到了多少,你学到了什么?
+But it tells you how much you learned and did you learn anything?
+
+2119
+02:44:16.651 --> 02:44:16.920
+对
+Mm-hmm.
+
+2120
+02:44:17.610 --> 02:44:18.660
+我帮你吗?
+Was I helpful to you?
+
+2121
+02:44:20.850 --> 02:44:21.000
+对
+Yeah.
+
+2122
+02:44:22.711 --> 02:44:23.550
+不错 谢谢
+Great. Thank you.
+
+2123
+02:44:24.120 --> 02:44:24.570
+对 谢谢
+Yeah. Thank you.
+
+2124
+02:44:25.260 --> 02:44:25.560
+再见。
+Bye.
+
+2125
+02:44:26.190 --> 02:44:26.580
+再见
+Bye-bye.
+
+2126
+02:44:27.480 --> 02:44:28.500
+再见。
+Bye.
+
+2127
+02:44:28.560 --> 02:44:28.950
+再见。
+Bye.
+
+2128
+02:44:31.980 --> 02:44:32.280
+再见。
+Bye.
