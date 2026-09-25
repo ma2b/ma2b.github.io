@@ -945,7 +945,7 @@ free credits, daily credits with Gemini for image generation.
 
 190
 00:15:45,858 --> 00:15:51,738
-但是,ChatGPT不喜欢裸体的人,虽然
+但 ChatGPT 对没有服装的人物图像有限制，尽管……
 But also, ChatGPT does not like nude people, although
 
 191
@@ -970,7 +970,7 @@ even though you try to convince it, it doesn't allow you to create alterations,
 
 195
 00:16:09,618 --> 00:16:11,958
-对裸体的修改
+对没有服装的人体模型作修改。
 modifications on nude bodies.
 
 196
@@ -2015,7 +2015,7 @@ Oh, interesting.
 
 404
 00:31:44,862 --> 00:31:48,372
-让我找个不裸体的人 因为通常...
+我找一个穿着衣服的人物，因为通常……
 Let me find a human that does not look nude, because usually-
 
 405
