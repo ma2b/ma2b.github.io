@@ -1,10 +1,18 @@
 {
   "schema_version": 1,
-  "version": "0.6.1",
-  "published_at": "2026-09-25",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.1.zip",
-  "sha256": "a77875ba7210932927ae1051ae172599c655205aba1cc4a841ab19833fbc8621",
+  "version": "0.6.2",
+  "published_at": "2026-09-26",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.2.zip",
+  "sha256": "22961b3bb0353aeb7a1e6d967af5c8aebb5bcbc76257ca79eb478789659bfe44",
   "releases": [
+    {
+      "version": "0.6.2",
+      "date": "2026-09-26",
+      "changes": [
+        "侧栏打开后显示简短加载进度线，课程笔记就绪后自动收起。",
+        "课程加载失败时保留明确提示，方便区分等待和故障。"
+      ]
+    },
     {
       "version": "0.6.1",
       "date": "2026-09-25",
