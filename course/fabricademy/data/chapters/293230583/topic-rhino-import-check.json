@@ -1,0 +1,48 @@
+{
+  "id": "topic-rhino-import-check",
+  "title": "Rhino 导入、尺度和封闭边检查",
+  "summary": "将扫描网格导入 Rhino，切换显示方式，测量人体尺寸并检查是否存在裸边。",
+  "key_points": [
+    "导入后应先核对单位和尺度，不能只凭视图大小判断。",
+    "讲师使用 Project 辅助二维投影测量，避免透视深度干扰。",
+    "没有裸边是网格封闭的证据之一，但仍须检查其他几何问题。"
+  ],
+  "terms": [
+    {
+      "term": "裸边",
+      "definition": "只属于一个网格面的边，常提示开放边界。"
+    },
+    {
+      "term": "Project",
+      "definition": "Rhino 对拾取点进行工作平面投影的选项。"
+    }
+  ],
+  "actions": [
+    "导入后切换合适显示模式并量测已知身体尺寸。",
+    "使用裸边检查确认网格封闭状态。"
+  ],
+  "start": 184.4,
+  "end": 387.2,
+  "references": [],
+  "moments": [
+    {
+      "time": 184.4,
+      "title": "导入网格"
+    },
+    {
+      "time": 260.0,
+      "title": "测量尺度"
+    },
+    {
+      "time": 340.0,
+      "title": "检查裸边"
+    }
+  ],
+  "frames": [
+    {
+      "time": 355.0,
+      "caption": "Rhino 中多视图检查人体网格及裸边状态",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/naked-edges.jpg"
+    }
+  ]
+}

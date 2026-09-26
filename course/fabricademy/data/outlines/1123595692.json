@@ -1,0 +1,374 @@
+{
+  "id": "1123595692",
+  "slug": "01-modular-fashion",
+  "title": "模块化时装：从参数化绘图到连接与组装",
+  "description": "Fabricademy Modular Fashion 教程中文笔记，按实际演示整理 Fusion、Rhino、矢量文件输出与模块连接测试。",
+  "binding_source": "extension",
+  "duration": 5059.968,
+  "page_url": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/notes.html",
+  "bilibili": {
+    "bvid": "BV1cohn6CEaZ",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-preparation",
+      "title": "课程目标与 Fusion 工作环境",
+      "start": 0.0,
+      "end": 316.005,
+      "moments": [
+        {
+          "time": 24.925,
+          "title": "本课路线与切割文件目标"
+        },
+        {
+          "time": 72.905,
+          "title": "矢量编辑软件的角色"
+        },
+        {
+          "time": 208.425,
+          "title": "Fusion 界面、单位与时间线"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-preparation.json",
+      "sha256": "f7ba1ffbcdd82698674789bac5e3b57c5cf0aed0a8f7427bf0786cfa68006a01"
+    },
+    {
+      "id": "topic-fusion-sketch",
+      "title": "Fusion 草图、尺寸与构造线",
+      "start": 316.005,
+      "end": 776.375,
+      "moments": [
+        {
+          "time": 344.135,
+          "title": "进入二维草图"
+        },
+        {
+          "time": 508.935,
+          "title": "创建圆形"
+        },
+        {
+          "time": 575.085,
+          "title": "使用尺寸约束"
+        },
+        {
+          "time": 739.455,
+          "title": "约束与构造线"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-fusion-sketch.json",
+      "sha256": "ad985eb702f26cc13fc67eb0677763e165f4b4f31d7f14ca7d67d02464b42517"
+    },
+    {
+      "id": "topic-fusion-female",
+      "title": "Fusion：用镜像与圆周阵列设计插槽",
+      "start": 776.375,
+      "end": 1127.565,
+      "moments": [
+        {
+          "time": 809.695,
+          "title": "绘制并约束半条插槽"
+        },
+        {
+          "time": 948.085,
+          "title": "镜像补全"
+        },
+        {
+          "time": 1003.315,
+          "title": "圆周阵列与联动检查"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-fusion-female.json",
+      "sha256": "0ab80d9cfc7b294ebc8f4b8d9038a81ebdd07493bfbdbd5b7fccf3cec929ba84"
+    },
+    {
+      "id": "topic-fusion-male",
+      "title": "Fusion：制作配套插接模块",
+      "start": 1127.565,
+      "end": 1421.895,
+      "moments": [
+        {
+          "time": 1146.135,
+          "title": "复制草图并说明独立性"
+        },
+        {
+          "time": 1228.845,
+          "title": "延伸与修剪线段"
+        },
+        {
+          "time": 1327.235,
+          "title": "镜像和圆周阵列"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-fusion-male.json",
+      "sha256": "cb03024d3fd32961a5282b6d5ed35c2cb897cc6e6a2e67e4f6b482d5b75f0fd5"
+    },
+    {
+      "id": "topic-fusion-export",
+      "title": "Fusion 排料与 DXF 输出检查",
+      "start": 1421.895,
+      "end": 1896.085,
+      "moments": [
+        {
+          "time": 1421.895,
+          "title": "对齐与排料"
+        },
+        {
+          "time": 1522.555,
+          "title": "矩形阵列"
+        },
+        {
+          "time": 1607.215,
+          "title": "导出 DXF"
+        },
+        {
+          "time": 1679.015,
+          "title": "发现副本并修正"
+        },
+        {
+          "time": 1736.185,
+          "title": "矢量软件中的线条与输出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-fusion-export.json",
+      "sha256": "ff2cc9f3680fc0b9355ba8ec325938ec3ef1ebc1e95142c30ba0597f8a20cd85"
+    },
+    {
+      "id": "topic-rhino-setup",
+      "title": "Rhino 工作环境与对象捕捉",
+      "start": 1896.085,
+      "end": 2161.385,
+      "moments": [
+        {
+          "time": 1940.635,
+          "title": "与 Fusion 工作方式的区别"
+        },
+        {
+          "time": 1986.555,
+          "title": "单位与捕捉设置"
+        },
+        {
+          "time": 2079.005,
+          "title": "俯视图、命令行与图层"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-rhino-setup.json",
+      "sha256": "8b5e4e0b0cd8f5102ba95a4e7a4da29def45f19a98185ddafc717ba1e0f176c3"
+    },
+    {
+      "id": "topic-rhino-outline",
+      "title": "Rhino：方形轮廓、旋转与圆角",
+      "start": 2161.385,
+      "end": 2584.945,
+      "moments": [
+        {
+          "time": 2248.205,
+          "title": "绘制有明确尺寸的正方形"
+        },
+        {
+          "time": 2346.485,
+          "title": "距离与尺寸核对"
+        },
+        {
+          "time": 2417.545,
+          "title": "旋转轮廓"
+        },
+        {
+          "time": 2498.665,
+          "title": "设置圆角"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-rhino-outline.json",
+      "sha256": "e15921ad66cb0d9dd8ec80757c03b0b3ba86a41113d6e89bf6fa9de9448e6933"
+    },
+    {
+      "id": "topic-rhino-slots",
+      "title": "Rhino：定位插槽与极轴阵列",
+      "start": 2584.945,
+      "end": 2924.205,
+      "moments": [
+        {
+          "time": 2593.265,
+          "title": "建立定位辅助线"
+        },
+        {
+          "time": 2712.845,
+          "title": "对齐与按点移动"
+        },
+        {
+          "time": 2804.225,
+          "title": "极轴阵列"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-rhino-slots.json",
+      "sha256": "074b5db6b364dc44df88627c479677a4d76d4eb801913a86706a4a76c8879f56"
+    },
+    {
+      "id": "topic-rhino-mixed",
+      "title": "Rhino：组合连接件与矩形排料",
+      "start": 2924.205,
+      "end": 3211.135,
+      "moments": [
+        {
+          "time": 2935.095,
+          "title": "复制及重叠位置说明"
+        },
+        {
+          "time": 2983.545,
+          "title": "延伸和镜像连接线"
+        },
+        {
+          "time": 3104.225,
+          "title": "旋转与矩形排料"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-rhino-mixed.json",
+      "sha256": "d1742a4d538bd74c4c863597953204197089ff4c8c3844c75e6efdeac167b260"
+    },
+    {
+      "id": "topic-rhino-export",
+      "title": "Rhino 输出与曲线清理",
+      "start": 3211.135,
+      "end": 3656.855,
+      "moments": [
+        {
+          "time": 3216.405,
+          "title": "线条与打印属性"
+        },
+        {
+          "time": 3349.295,
+          "title": "选择导出格式"
+        },
+        {
+          "time": 3441.515,
+          "title": "发现未连接路径并清理"
+        },
+        {
+          "time": 3557.765,
+          "title": "在 Inkscape 中复核"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-rhino-export.json",
+      "sha256": "330736330cf1aaaa1f1de046b59d4e48e7deeeceb200b61ffd3c34bef1c78583"
+    },
+    {
+      "id": "topic-assembly",
+      "title": "实物模块的组装与变化",
+      "start": 3656.855,
+      "end": 4113.075,
+      "moments": [
+        {
+          "time": 3656.855,
+          "title": "展示切割后的实物"
+        },
+        {
+          "time": 3721.175,
+          "title": "插接与锁定动作"
+        },
+        {
+          "time": 3842.955,
+          "title": "双连接与材料样品"
+        },
+        {
+          "time": 3962.455,
+          "title": "不同连接形态与用途"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-assembly.json",
+      "sha256": "77e5c5d6755af9cac4690d4860d78a223612d3d446445bff63a011fc8ed03baf"
+    },
+    {
+      "id": "topic-fit",
+      "title": "厚度、松紧与模块尺寸答疑",
+      "start": 4113.075,
+      "end": 4452.705,
+      "moments": [
+        {
+          "time": 4113.075,
+          "title": "软件选择与三维延伸"
+        },
+        {
+          "time": 4158.815,
+          "title": "厚材料的槽宽"
+        },
+        {
+          "time": 4226.335,
+          "title": "用测试确定接口配合"
+        },
+        {
+          "time": 4366.705,
+          "title": "避免过小的模块"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-fit.json",
+      "sha256": "990b0752ed0cd94c2a90fc1683974dd627c160cb3b99d31b7f2cc15c6988178f"
+    },
+    {
+      "id": "topic-thick-slots",
+      "title": "补充演示：矩形槽与三维延伸",
+      "start": 4452.705,
+      "end": 4680.185,
+      "moments": [
+        {
+          "time": 4495.195,
+          "title": "建立带尺寸的矩形槽"
+        },
+        {
+          "time": 4532.535,
+          "title": "阵列矩形边线"
+        },
+        {
+          "time": 4590.125,
+          "title": "挤出与网格输出说明"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-thick-slots.json",
+      "sha256": "d5b53390732992ed69b5df4829b80911b20a370703aec1ad5d76cf5d97d2964d"
+    },
+    {
+      "id": "topic-parameters",
+      "title": "Fusion 表达式与用户参数",
+      "start": 4680.185,
+      "end": 4932.945,
+      "moments": [
+        {
+          "time": 4690.575,
+          "title": "尺寸引用与数学表达式"
+        },
+        {
+          "time": 4831.915,
+          "title": "建立厚度参数"
+        },
+        {
+          "time": 4865.035,
+          "title": "引用参数并观察更新"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-parameters.json",
+      "sha256": "796edd23a903a0a292a8f76efcdac8437ee0bd17903a6d92c1a69963182bb5a1"
+    },
+    {
+      "id": "topic-next-steps",
+      "title": "参考案例、课程文件与记录",
+      "start": 4932.945,
+      "end": 5059.968,
+      "moments": [
+        {
+          "time": 4956.745,
+          "title": "把演示作为设计起点"
+        },
+        {
+          "time": 4981.055,
+          "title": "拆解与改进连接"
+        },
+        {
+          "time": 4997.605,
+          "title": "文件分享与问题反馈"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123595692/topic-next-steps.json",
+      "sha256": "7942491bbd61e43ccd21928c0cf6e927748085de61b0f1bd42013c9e54724d8a"
+    }
+  ]
+}

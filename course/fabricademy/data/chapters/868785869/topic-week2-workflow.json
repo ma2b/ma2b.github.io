@@ -1,0 +1,38 @@
+{
+  "id": "topic-week2-workflow",
+  "title": "Week 2 作业路线：从三维人体到激光切割",
+  "summary": "讲师从 Week 2 的数字身体作业出发，串起获得三维模型、修改人体、将三维转成二维切片、激光切割与组装的路线。",
+  "key_points": [
+    "三维模型可以来自 MakeHuman、扫描或自行建模。",
+    "最终制造路线要从三维模型落到可切割的二维零件。"
+  ],
+  "terms": [
+    {
+      "term": "三维到二维",
+      "definition": "将三维几何转换为可在平板材料上切割、再装配回三维形体的制造步骤。"
+    }
+  ],
+  "actions": [
+    "画出三维建模、网格编辑、切片、切割和组装的个人流程。"
+  ],
+  "start": 0.0,
+  "end": 237.96,
+  "references": [],
+  "moments": [
+    {
+      "time": 10.69,
+      "title": "完整制作路线"
+    },
+    {
+      "time": 121.95,
+      "title": "三维转二维"
+    }
+  ],
+  "frames": [
+    {
+      "time": 125.0,
+      "caption": "幻灯片列出三维建模、网格清理、二维切片、材料切割与文档化的流程",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/workflow.jpg"
+    }
+  ]
+}

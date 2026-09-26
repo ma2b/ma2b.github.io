@@ -1,0 +1,53 @@
+{
+  "id": "topic-capture-tools",
+  "title": "拍摄支架、截图与自制工具",
+  "summary": "选择清楚且有内容的照片，并区分屏幕截图与拍摄实物的工具。",
+  "key_points": [
+    "讲师建议优先利用合适的自然光，删除模糊或不能说明内容的图片。",
+    "记录电脑操作应直接截屏，避免用手机拍显示器造成反光、倾斜和文字模糊。",
+    "可从开源项目中寻找支架与灯箱的设计，按自己的设备调整；自制工具并非本周优先任务。",
+    "课程提到 Thingiverse 等资源中的 STL 文件，下载后仍需核对实际尺寸、适用性和许可。"
+  ],
+  "terms": [
+    {
+      "term": "Screenshot",
+      "definition": "由电脑直接保存屏幕画面的截图。"
+    },
+    {
+      "term": "Light Box",
+      "definition": "用于控制背景和照明的拍摄灯箱。"
+    }
+  ],
+  "actions": [
+    "对软件操作使用截图，对实物使用稳定拍摄。",
+    "确有需要时再制作支架或灯箱，检查设备是否稳固。"
+  ],
+  "start": 2613.693,
+  "end": 2789.535,
+  "references": [],
+  "moments": [
+    {
+      "time": 2624.133,
+      "title": "光线与内容选择"
+    },
+    {
+      "time": 2673.363,
+      "title": "电脑画面用截图"
+    },
+    {
+      "time": 2716.473,
+      "title": "自制支架"
+    },
+    {
+      "time": 2736.783,
+      "title": "灯箱与模型资源"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2725.0,
+      "caption": "学员自制拍摄支架案例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/capture-tools-2.jpg"
+    }
+  ]
+}

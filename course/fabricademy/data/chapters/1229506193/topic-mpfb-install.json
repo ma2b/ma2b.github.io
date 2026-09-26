@@ -1,0 +1,34 @@
+{
+  "id": "topic-mpfb-install",
+  "title": "安装并配置 MPFB",
+  "summary": "讲师说明 MakeHuman 应用和 Blender 扩展的区别，带领学员安装 MPFB、设置数据目录及资源包。",
+  "key_points": [
+    "独立 MakeHuman 应用与 Blender 内的 MPFB 扩展不是同一安装项。",
+    "资源目录和资产包需要按当前版本界面逐项核对。"
+  ],
+  "terms": [
+    {
+      "term": "MPFB",
+      "definition": "Blender 中使用 MakeHuman 人体与资产的扩展。"
+    }
+  ],
+  "actions": [
+    "按实际 Blender 与 MPFB 版本核对菜单位置，保存偏好设置。"
+  ],
+  "start": 3901.204,
+  "end": 5524.473,
+  "references": [],
+  "moments": [
+    {
+      "time": 4593.555,
+      "title": "安装并配置 MPFB"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4593.555,
+      "caption": "MPFB 扩展与资源目录",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/mpfb-install.jpg"
+    }
+  ]
+}

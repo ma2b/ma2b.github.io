@@ -1,0 +1,58 @@
+{
+  "id": "topic-git-project",
+  "title": "找到个人网站，认识 Git 版本历史",
+  "summary": "从学员目录进入个人网站和仓库，用提交历史与差异视图理解 Git，并区分网页编辑与本地工作。",
+  "key_points": [
+    "课程 Participants 目录链接到学员网站，网站和 GitLab 仓库承担不同角色。",
+    "项目首页包含文件列表、README、网站链接和最近提交状态。",
+    "Code → Commits 可查作者、时间和说明；差异视图对照修改前后的文件。",
+    "本地副本可以先编辑，再提交和推送；与网页交替编辑时要保持版本同步。"
+  ],
+  "terms": [
+    {
+      "term": "Repository",
+      "definition": "保存项目文件及版本历史的仓库。"
+    },
+    {
+      "term": "Commit / Diff",
+      "definition": "提交记录和修改前后的差异。"
+    },
+    {
+      "term": "Push",
+      "definition": "把本地提交发送到服务器。"
+    }
+  ],
+  "actions": [
+    "从学员目录找到自己的网站及仓库，打开 Web Editor。",
+    "查看一次提交的差异，确认改动了哪些文件和内容。"
+  ],
+  "start": 852.714,
+  "end": 1273.938,
+  "references": [],
+  "moments": [
+    {
+      "time": 852.714,
+      "title": "个人网站与仓库入口"
+    },
+    {
+      "time": 1058.574,
+      "title": "Git、提交历史与差异视图"
+    },
+    {
+      "time": 1199.508,
+      "title": "网页编辑与本地副本"
+    }
+  ],
+  "frames": [
+    {
+      "time": 970.0,
+      "caption": "GitLab 项目首页",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/git-project-1.jpg"
+    },
+    {
+      "time": 1130.0,
+      "caption": "提交历史与文件差异",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/git-project-2.jpg"
+    }
+  ]
+}

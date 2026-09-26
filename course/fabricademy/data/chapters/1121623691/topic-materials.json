@@ -1,0 +1,53 @@
+{
+  "id": "topic-materials",
+  "title": "金属、玻璃与局部材质分配",
+  "summary": "建立红色金属和绿色玻璃两种材质，并将第二种材质分配给部分网格面。",
+  "key_points": [
+    "创建材质后命名，调整 Base Color、Metallic 和 Roughness 观察效果。",
+    "在编辑模式中选择目标面，再对指定材质执行 Assign。",
+    "材质与渲染效果不改变用于切割的几何尺寸。"
+  ],
+  "terms": [
+    {
+      "term": "Roughness",
+      "definition": "影响表面反射粗糙程度的参数。"
+    },
+    {
+      "term": "Material Slot",
+      "definition": "供对象或选定面使用的材质槽。"
+    }
+  ],
+  "actions": [
+    "为整体设置一个基础材质并命名。",
+    "选择局部面分配另一材质，确认作用范围。"
+  ],
+  "start": 8338.685,
+  "end": 8548.145,
+  "references": [],
+  "moments": [
+    {
+      "time": 8348.785,
+      "title": "创建金属材质"
+    },
+    {
+      "time": 8418.265,
+      "title": "新增玻璃材质"
+    },
+    {
+      "time": 8487.215,
+      "title": "选择面并 Assign"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8405.0,
+      "caption": "红色金属材质",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/materials-1.jpg"
+    },
+    {
+      "time": 8525.0,
+      "caption": "局部面分配玻璃材质",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/materials-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "topic-character-blockout",
+  "title": "从低面数立方体建立角色",
+  "summary": "以 Among Us 风格角色为例，先建立粗轮廓，再逐步细化网格，避免过早增加面数。",
+  "key_points": [
+    "角色先从低面数立方体塑造轮廓。",
+    "过早细分会增加计算负担，让后续编辑更慢。"
+  ],
+  "terms": [
+    {
+      "term": "细分曲面",
+      "definition": "通过增加表面细节使模型更平滑的修改器。"
+    }
+  ],
+  "actions": [
+    "从少量面开始塑形，观察细分对模型和电脑性能的影响。"
+  ],
+  "start": 2163.861,
+  "end": 2641.749,
+  "references": [],
+  "moments": [
+    {
+      "time": 2432.379,
+      "title": "从低面数立方体建立角色"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2432.379,
+      "caption": "角色的低面数基础形体",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/character-blockout.jpg"
+    }
+  ]
+}

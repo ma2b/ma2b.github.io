@@ -1,0 +1,48 @@
+{
+  "id": "topic-rhino-setup",
+  "title": "Rhino 工作环境与对象捕捉",
+  "summary": "转入 Rhino，准备毫米单位、俯视图和对象捕捉，并认识命令行及图层。",
+  "key_points": [
+    "讲师使用 Mac 上的 Rhino 7，界面位置不应视为所有版本统一。",
+    "当前演示采用直接绘图；与 Fusion 的草图尺寸联动方式不同，Grasshopper 仅作后续课程提示。",
+    "按需要启用端点、中点、中心和交点捕捉；过多捕捉选项可能干扰定位。"
+  ],
+  "terms": [
+    {
+      "term": "Osnap",
+      "definition": "对象捕捉，定位端点、中点、中心或交点等几何特征。"
+    },
+    {
+      "term": "图层",
+      "definition": "组织对象并管理显示等属性。"
+    }
+  ],
+  "actions": [
+    "打开毫米文档并切换至 Top 视图。",
+    "检查所需捕捉选项，定位命令行和图层面板。"
+  ],
+  "start": 1896.085,
+  "end": 2161.385,
+  "references": [],
+  "moments": [
+    {
+      "time": 1940.635,
+      "title": "与 Fusion 工作方式的区别"
+    },
+    {
+      "time": 1986.555,
+      "title": "单位与捕捉设置"
+    },
+    {
+      "time": 2079.005,
+      "title": "俯视图、命令行与图层"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2120.0,
+      "caption": "Rhino 俯视工作区与工具面板",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-setup-1.jpg"
+    }
+  ]
+}

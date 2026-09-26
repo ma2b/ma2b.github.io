@@ -1,0 +1,63 @@
+{
+  "id": "topic-blender-intro",
+  "title": "Blender 学习目标与工作准备",
+  "summary": "用示例认识 Blender 的能力，同时把本课目标收敛到基础操作、简单躯干和切片。",
+  "key_points": [
+    "本课不要求复现复杂人物作品，重点是理解界面并完成有限的建模操作。",
+    "讲师提供 Notion 讲义并展示动画、渲染和几何节点案例，这些展示不等于本次都逐步教学。",
+    "本次录制提到 Blender 4.5.3 LTS；跟随时应区分录制版本、操作系统和自己的快捷键配置。",
+    "补充核对：Cycles 可以使用 CPU 渲染，兼容 GPU 可加速。不要将讲师关于硬件损坏的夸张表述当作软件要求。"
+  ],
+  "terms": [
+    {
+      "term": "LTS",
+      "definition": "长期支持版本标识。"
+    },
+    {
+      "term": "渲染",
+      "definition": "根据场景、材质、相机和光照计算图像。"
+    }
+  ],
+  "actions": [
+    "打开讲义与 Blender，先练习基础操作。",
+    "根据自己的设备选择适度的场景和渲染设置，核对键位而非一律替换 Ctrl。"
+  ],
+  "start": 1680.995,
+  "end": 2657.345,
+  "references": [
+    {
+      "title": "Blender 官方：GPU 渲染与 CPU 的关系",
+      "url": "https://docs.blender.org/manual/en/3.2/render/cycles/gpu_rendering.html"
+    }
+  ],
+  "moments": [
+    {
+      "time": 1855.845,
+      "title": "讲义与课程安排"
+    },
+    {
+      "time": 1965.945,
+      "title": "降低初次学习目标"
+    },
+    {
+      "time": 2254.975,
+      "title": "设计案例"
+    },
+    {
+      "time": 2296.345,
+      "title": "设备、版本与输入方式"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2275.0,
+      "caption": "讲师展示 Blender 设计案例",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/blender-intro-1.jpg"
+    },
+    {
+      "time": 2445.0,
+      "caption": "课程目标与示例模型",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/blender-intro-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-fusion-female",
+  "title": "Fusion：用镜像与圆周阵列设计插槽",
+  "summary": "先画半条插槽并定义位置，再通过镜像和圆周阵列复制，形成可联动调整的插槽模块。",
+  "key_points": [
+    "半条线在演示中设为 5 mm，镜像后形成 10 mm 插槽；位置示例为距圆心 14 mm。",
+    "Mirror 需要指定对象和镜像轴，不能只选择其中一项。",
+    "Circular Pattern 围绕圆心复制插槽；调整原始尺寸后检查所有实例的变化。"
+  ],
+  "terms": [
+    {
+      "term": "Mirror",
+      "definition": "沿指定轴生成镜像几何。"
+    },
+    {
+      "term": "Circular Pattern",
+      "definition": "围绕中心按数量和角度重复对象。"
+    }
+  ],
+  "actions": [
+    "绘制半槽，标注长度及其相对圆心的位置。",
+    "镜像补全插槽，再做圆周阵列并试改尺寸。"
+  ],
+  "start": 776.375,
+  "end": 1127.565,
+  "references": [],
+  "moments": [
+    {
+      "time": 809.695,
+      "title": "绘制并约束半条插槽"
+    },
+    {
+      "time": 948.085,
+      "title": "镜像补全"
+    },
+    {
+      "time": 1003.315,
+      "title": "圆周阵列与联动检查"
+    }
+  ],
+  "frames": [
+    {
+      "time": 985.0,
+      "caption": "镜像形成的插槽",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-female-1.jpg"
+    },
+    {
+      "time": 1095.0,
+      "caption": "圆周阵列后的圆形模块",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-female-2.jpg"
+    }
+  ]
+}

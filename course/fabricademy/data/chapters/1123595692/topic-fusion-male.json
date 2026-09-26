@@ -1,0 +1,48 @@
+{
+  "id": "topic-fusion-male",
+  "title": "Fusion：制作配套插接模块",
+  "summary": "复制原模块，保留可复用的几何参照，改画伸向外轮廓的切线，再镜像和阵列得到配套连接件。",
+  "key_points": [
+    "本次演示中的复制结果独立于原模块，不能假设修改一份会自动同步另一份。",
+    "利用原有轴线和插槽位置建立配套线段，用 Trim 清理多余部分。",
+    "这里的单线连接针对讲师的薄片样品；较厚材料的槽宽在后面另有补充。"
+  ],
+  "terms": [
+    {
+      "term": "Trim",
+      "definition": "裁掉不需要的曲线部分。"
+    },
+    {
+      "term": "配套连接",
+      "definition": "插入端与接收槽在位置、尺寸和材料变形上相互匹配。"
+    }
+  ],
+  "actions": [
+    "复制模块后确认编辑的是副本。",
+    "延伸、修剪线段，完成镜像和圆周阵列。"
+  ],
+  "start": 1127.565,
+  "end": 1421.895,
+  "references": [],
+  "moments": [
+    {
+      "time": 1146.135,
+      "title": "复制草图并说明独立性"
+    },
+    {
+      "time": 1228.845,
+      "title": "延伸与修剪线段"
+    },
+    {
+      "time": 1327.235,
+      "title": "镜像和圆周阵列"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1370.0,
+      "caption": "配套模块的切线与阵列",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-male-1.jpg"
+    }
+  ]
+}

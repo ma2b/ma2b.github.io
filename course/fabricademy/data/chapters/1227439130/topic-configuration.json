@@ -1,0 +1,63 @@
+{
+  "id": "topic-configuration",
+  "title": "项目文件结构与 TOML 配置",
+  "summary": "先找清配置、内容和构建文件，再修改网站名称等基本设置；本章保留配置讲解与首次编辑的完整过程。",
+  "key_points": [
+    "TOML 配置控制站点名称、字体和其他全局选项；docs/ 存放 Markdown 与图片。",
+    "index.md 对应目录首页，文件与目录结构会影响发布后的地址。",
+    ".gitlab-ci.yml 描述构建与发布流程，本课模板通常已配置好。",
+    "配置字段属于不同的节，例如 [project] 与 [project.theme.font]；注意位置和成对引号。",
+    "先修改名称、描述、作者等字段，保留模板既有的 site_url；中途还回答了密码重置问题。"
+  ],
+  "terms": [
+    {
+      "term": "TOML",
+      "definition": "用配置节和键值表达网站设置的格式。"
+    },
+    {
+      "term": "docs/",
+      "definition": "本课模板中的网站内容目录。"
+    },
+    {
+      "term": "CI 配置",
+      "definition": "告诉 GitLab 如何自动构建并发布网站的文件。"
+    }
+  ],
+  "actions": [
+    "找到 TOML、docs/index.md 和 .gitlab-ci.yml，说明三者各自用途。",
+    "修改站点名称，核对配置节和引号，随后进入下一章提交。"
+  ],
+  "start": 1273.938,
+  "end": 1769.106,
+  "references": [],
+  "moments": [
+    {
+      "time": 1273.938,
+      "title": "配置、内容与构建文件"
+    },
+    {
+      "time": 1477.548,
+      "title": "TOML 键值与配置节"
+    },
+    {
+      "time": 1682.076,
+      "title": "插入问答：找回账号密码"
+    },
+    {
+      "time": 1733.286,
+      "title": "编辑站点名称和版权信息"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1340.0,
+      "caption": "项目文件与内容目录",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/configuration-1.jpg"
+    },
+    {
+      "time": 1745.0,
+      "caption": "编辑网站基本配置",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/configuration-2.jpg"
+    }
+  ]
+}

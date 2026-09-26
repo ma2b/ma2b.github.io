@@ -1,0 +1,34 @@
+{
+  "id": "topic-gemini-image",
+  "title": "用 Gemini 迭代二维形象",
+  "summary": "示范用文字、参考图和局部涂画修改人物形象，观察姿态、背景与表面细节的变化。",
+  "key_points": [
+    "Gemini 在本课中用于生成和迭代二维参考图。",
+    "局部涂画与文字提示可改变形象，但生成图片不是三维网格。"
+  ],
+  "terms": [
+    {
+      "term": "参考图",
+      "definition": "提供外形、姿态与细节方向的二维输入。"
+    }
+  ],
+  "actions": [
+    "保存设计版本；把视觉草图视为后续建模输入，而非可打印网格。"
+  ],
+  "start": 693.708,
+  "end": 1503.954,
+  "references": [],
+  "moments": [
+    {
+      "time": 1050.498,
+      "title": "用 Gemini 迭代二维形象"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1110.0,
+      "caption": "Miro 中展示的图像修改提示与人体参考图",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/gemini-image.jpg"
+    }
+  ]
+}

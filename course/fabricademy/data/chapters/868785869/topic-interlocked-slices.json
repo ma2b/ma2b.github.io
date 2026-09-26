@@ -1,0 +1,38 @@
+{
+  "id": "topic-interlocked-slices",
+  "title": "交错切片：数量、方向和红色警告",
+  "summary": "切换 Interlocked Slices，调整切片数量、位置和方向；红色零件提示要重新审查材料范围或模型形状。",
+  "key_points": [
+    "交错切片的切片数量与方向影响形状精度和装配难度。",
+    "出现红色越界零件时应调整切片或回到网格修改。"
+  ],
+  "terms": [
+    {
+      "term": "Interlocked Slices",
+      "definition": "两组切片以卡槽互相穿插的结构。"
+    }
+  ],
+  "actions": [
+    "调整切片数量及方向，逐一处理红色越界部件。"
+  ],
+  "start": 2699.61,
+  "end": 3062.92,
+  "references": [],
+  "moments": [
+    {
+      "time": 2728.43,
+      "title": "交错切片"
+    },
+    {
+      "time": 2908.34,
+      "title": "红色越界提示"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2850.0,
+      "caption": "交错切片预览出现红色越界零件，提示应调整方案",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/interlocked.jpg"
+    }
+  ]
+}

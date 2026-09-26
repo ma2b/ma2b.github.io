@@ -1,0 +1,170 @@
+{
+  "id": "1229506193",
+  "slug": "08-blender-2026",
+  "title": "Blender 基础建模与 MakeHuman",
+  "description": "学习 Blender 的界面、网格编辑、材质和渲染，并在 MPFB 中创建与修改人体模型。",
+  "binding_source": "extension",
+  "duration": 7193.84,
+  "page_url": "https://ma2b.github.io/course/fabricademy/08-blender-2026/notes.html",
+  "bilibili": {
+    "bvid": "BV1yHhm6HE5x",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-interface",
+      "title": "Blender 界面、属性与视图",
+      "start": 0.0,
+      "end": 722.61,
+      "moments": [
+        {
+          "time": 511.74,
+          "title": "Blender 界面、属性与视图"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-interface.json",
+      "sha256": "09ea099495c38cf724b8ad72b7610de0aca39f5a6bcec18ab19bdecd0bc50a97"
+    },
+    {
+      "id": "topic-object-transform",
+      "title": "对象模式：选择、移动、旋转与缩放",
+      "start": 722.61,
+      "end": 1173.606,
+      "moments": [
+        {
+          "time": 1054.23,
+          "title": "对象模式：选择、移动、旋转与缩放"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-object-transform.json",
+      "sha256": "14ae7226da4f1412adfbc3744a78dad5b28b1a6f3cbaca98ad7c2e3ea23accb1"
+    },
+    {
+      "id": "topic-edit-mode",
+      "title": "编辑模式：顶点、面与增量保存",
+      "start": 1173.606,
+      "end": 1620.636,
+      "moments": [
+        {
+          "time": 1412.316,
+          "title": "编辑模式：顶点、面与增量保存"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-edit-mode.json",
+      "sha256": "e0899f854267caab7b0686ee09fcf75c8a4509cb30e2ba47cbb1c6ab1a78a991"
+    },
+    {
+      "id": "topic-materials-render",
+      "title": "材质、灯光与渲染输出",
+      "start": 1620.636,
+      "end": 2163.861,
+      "moments": [
+        {
+          "time": 1893.621,
+          "title": "材质、灯光与渲染输出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-materials-render.json",
+      "sha256": "47007a8a972f7ce85af78a8f8c6eca4221e31db7ec41a4f173af2fe04fe0f4af"
+    },
+    {
+      "id": "topic-character-blockout",
+      "title": "从低面数立方体建立角色",
+      "start": 2163.861,
+      "end": 2641.749,
+      "moments": [
+        {
+          "time": 2432.379,
+          "title": "从低面数立方体建立角色"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-character-blockout.json",
+      "sha256": "fb4ad59cade402928293e4ae9daff5381cad6a22508d0c79dba4f0ee547d477e"
+    },
+    {
+      "id": "topic-character-details",
+      "title": "镜像、挤出与比例编辑",
+      "start": 2641.749,
+      "end": 3181.606,
+      "moments": [
+        {
+          "time": 2850.795,
+          "title": "镜像、挤出与比例编辑"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-character-details.json",
+      "sha256": "c385bf7276fdf1e227001d4e5096df52b7908a69abc527b04600e177292f8618"
+    },
+    {
+      "id": "topic-character-finish",
+      "title": "细分、平滑和角色材质",
+      "start": 3181.606,
+      "end": 3901.204,
+      "moments": [
+        {
+          "time": 3210.826,
+          "title": "细分、平滑和角色材质"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-character-finish.json",
+      "sha256": "7eacb65b10b2c22c4251e08e7a497e169199ebd34fa519a11e7e6b358a41ae72"
+    },
+    {
+      "id": "topic-mpfb-install",
+      "title": "安装并配置 MPFB",
+      "start": 3901.204,
+      "end": 5524.473,
+      "moments": [
+        {
+          "time": 4593.555,
+          "title": "安装并配置 MPFB"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-mpfb-install.json",
+      "sha256": "30fc1f2c4bbeeae270c3a969553ba98908e4464290249db154acb3d9aaf0b642"
+    },
+    {
+      "id": "topic-human-assets",
+      "title": "创建人体并应用资源",
+      "start": 5524.473,
+      "end": 6000.573,
+      "moments": [
+        {
+          "time": 5795.613,
+          "title": "创建人体并应用资源"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-human-assets.json",
+      "sha256": "384a4f22d377f319af6577e33536d8c0bb6adcc3f9d889826ca0780e7630480f"
+    },
+    {
+      "id": "topic-clothing",
+      "title": "从人体网格尝试制作衣物",
+      "start": 6000.573,
+      "end": 6661.347,
+      "moments": [
+        {
+          "time": 6153.718,
+          "title": "从人体网格尝试制作衣物"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-clothing.json",
+      "sha256": "ba719d801e88d6f24247d795872697f92cf8df5664ea7fb564828b07800a87cf"
+    },
+    {
+      "id": "topic-mesh-convert",
+      "title": "转换网格与排查修改器问题",
+      "start": 6661.347,
+      "end": 7193.84,
+      "moments": [
+        {
+          "time": 6992.607,
+          "title": "转换网格与排查修改器问题"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1229506193/topic-mesh-convert.json",
+      "sha256": "75c191f1bb835833214fbb9611b5fa695b9bd43f79419a6475c8740cf0edc632"
+    }
+  ]
+}

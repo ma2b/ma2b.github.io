@@ -1,0 +1,34 @@
+{
+  "id": "topic-formslice-use",
+  "title": "FormSlice 的尺寸、排版与文件导出",
+  "summary": "演示设置模型尺寸和材料、调整切片排版，导出 DXF 或 SVG，并解释小零件警告。",
+  "key_points": [
+    "切片厚度、比例和排版影响实际制造尺寸。",
+    "导出的 SVG 或 DXF 要结合小零件警告和切割设备检查。"
+  ],
+  "terms": [
+    {
+      "term": "SVG",
+      "definition": "可缩放的二维矢量图格式。"
+    }
+  ],
+  "actions": [
+    "核对实际尺寸、零件间距与切割设备要求，再使用导出文件。"
+  ],
+  "start": 7802.22,
+  "end": 8764.381,
+  "references": [],
+  "moments": [
+    {
+      "time": 8076.81,
+      "title": "FormSlice 的尺寸、排版与文件导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8076.81,
+      "caption": "FormSlice 的排版与导出界面",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/formslice-use.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "topic-makehuman-appearance",
+  "title": "姿态、外观和模型细节",
+  "summary": "演示姿态、骨架和衣发等外观选项，说明本周不以动画骨架为重点，应按制造目标选择模型细节。",
+  "key_points": [
+    "Pose/Animate 提供姿态与骨架选项；本周示例主要使用静态模型。",
+    "外观选项服务于目标模型，制造前仍需确认几何与网格。"
+  ],
+  "terms": [
+    {
+      "term": "Pose/Animate",
+      "definition": "MakeHuman 中配置姿态与动画骨架的功能区。"
+    }
+  ],
+  "actions": [
+    "测试姿态和外观选项，确认模型与本周制造目标一致。"
+  ],
+  "start": 719.25,
+  "end": 1077.4,
+  "references": [],
+  "moments": [
+    {
+      "time": 859.29,
+      "title": "姿态设置"
+    },
+    {
+      "time": 960.89,
+      "title": "外观选项"
+    }
+  ],
+  "frames": [
+    {
+      "time": 905.0,
+      "caption": "MakeHuman 姿态选项将人体摆成展开的动作",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/pose.jpg"
+    }
+  ]
+}

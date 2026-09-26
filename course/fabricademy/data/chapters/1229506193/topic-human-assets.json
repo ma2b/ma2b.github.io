@@ -1,0 +1,34 @@
+{
+  "id": "topic-human-assets",
+  "title": "创建人体并应用资源",
+  "summary": "在 Blender 中生成人体，处理场景中原有立方体，并应用皮肤等资源，观察人体网格。",
+  "key_points": [
+    "场景中的原始立方体可能遮住新建人体。",
+    "皮肤网格和骨架是不同对象，属性面板会随选中对象变化。"
+  ],
+  "terms": [
+    {
+      "term": "骨架",
+      "definition": "驱动或组织角色姿态的结构对象。"
+    }
+  ],
+  "actions": [
+    "先确认选中人体网格或骨架，再使用与该对象相符的属性。"
+  ],
+  "start": 5524.473,
+  "end": 6000.573,
+  "references": [],
+  "moments": [
+    {
+      "time": 5795.613,
+      "title": "创建人体并应用资源"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5795.613,
+      "caption": "Blender 中的 MPFB 人体",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/human-assets.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-rhino-mixed",
+  "title": "Rhino：组合连接件与矩形排料",
+  "summary": "把部分接收槽转换为插入端，建立兼有两类接口的模块，再旋转并排列到片材幅面。",
+  "key_points": [
+    "复制粘贴可能把副本放在原位置，编辑前需确认对象是否重叠。",
+    "延伸线段至外轮廓、移除不用的线，再镜像形成另一侧连接。",
+    "矩形阵列按 X、Y 指定数量，二维排料的 Z 数量为 1；圆角仍会留下少量余料。"
+  ],
+  "terms": [
+    {
+      "term": "Rectangular Array",
+      "definition": "沿坐标方向重复对象的矩形阵列。"
+    },
+    {
+      "term": "混合接口模块",
+      "definition": "在同一模块上同时设计插入端和接收槽。"
+    }
+  ],
+  "actions": [
+    "完成连接线后清理重叠对象并分组。",
+    "旋转到适合片材的方向，检查阵列数量与间距。"
+  ],
+  "start": 2924.205,
+  "end": 3211.135,
+  "references": [],
+  "moments": [
+    {
+      "time": 2935.095,
+      "title": "复制及重叠位置说明"
+    },
+    {
+      "time": 2983.545,
+      "title": "延伸和镜像连接线"
+    },
+    {
+      "time": 3104.225,
+      "title": "旋转与矩形排料"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3080.0,
+      "caption": "组合连接件的轮廓",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-mixed-1.jpg"
+    },
+    {
+      "time": 3205.0,
+      "caption": "模块的矩形阵列排料",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-mixed-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "id": "topic-fusion-export",
+  "title": "Fusion 排料与 DXF 输出检查",
+  "summary": "排列两种模块，导出 DXF，再在矢量软件中检查比例、重复对象和线条设置。",
+  "key_points": [
+    "对齐圆形时可利用圆心与捕捉，再通过矩形阵列排出行列。",
+    "圆形排料会留下空隙，讲师建议思考余料能否转化为其他模块。",
+    "完成草图后再导出 DXF，并在导入矢量软件时核对毫米与 1:1 比例。",
+    "演示发现隐藏副本后返回修正；红色、0.1 mm 或 hairline 是演示设置，需按实际设备工作流程核对。"
+  ],
+  "terms": [
+    {
+      "term": "DXF",
+      "definition": "用于交换二维绘图数据的文件格式。"
+    },
+    {
+      "term": "1:1 比例",
+      "definition": "输出图形尺寸与设计的实际尺寸一致。"
+    }
+  ],
+  "actions": [
+    "排料后检查辅助线、重复对象与材料空隙。",
+    "导出并重新打开文件，测量关键尺寸后按本地设备要求整理线条。"
+  ],
+  "start": 1421.895,
+  "end": 1896.085,
+  "references": [],
+  "moments": [
+    {
+      "time": 1421.895,
+      "title": "对齐与排料"
+    },
+    {
+      "time": 1522.555,
+      "title": "矩形阵列"
+    },
+    {
+      "time": 1607.215,
+      "title": "导出 DXF"
+    },
+    {
+      "time": 1679.015,
+      "title": "发现副本并修正"
+    },
+    {
+      "time": 1736.185,
+      "title": "矢量软件中的线条与输出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1575.0,
+      "caption": "圆形模块的矩形排料",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-export-1.jpg"
+    },
+    {
+      "time": 1770.0,
+      "caption": "导出后的矢量线条设置",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-export-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "topic-stacked-slices",
+  "title": "堆叠切片与装配顺序",
+  "summary": "选择 Stacked Slices，观察右侧二维图纸、零件与三维位置的对应，以及定位销孔和装配过程。",
+  "key_points": [
+    "堆叠切片会生成多层轮廓，二维图纸可反查三维位置。",
+    "定位销孔和装配顺序需与材料及结构相配。"
+  ],
+  "terms": [
+    {
+      "term": "Stacked Slices",
+      "definition": "按层堆叠二维切片形成体积的结构。"
+    }
+  ],
+  "actions": [
+    "查看每层轮廓对应的二维图纸和装配步骤，评估定位方式。"
+  ],
+  "start": 2517.97,
+  "end": 2699.61,
+  "references": [],
+  "moments": [
+    {
+      "time": 2539.34,
+      "title": "堆叠结构"
+    },
+    {
+      "time": 2663.15,
+      "title": "装配预览"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2585.0,
+      "caption": "Slicer 堆叠切片预览与右侧生成的二维图纸",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/stacked.jpg"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "id": "topic-credit-license",
+  "title": "Creative Commons 与图片署名",
+  "summary": "理解课程展示的许可条件，并把作者、作品链接与摄影者等信息写进图注或参考清单。",
+  "key_points": [
+    "画面确认课程展示的是 CC BY-NC 4.0，强调署名与非商业使用；具体范围应看所链接的完整许可。",
+    "CC BY-NC 4.0 要求适当署名、提供许可链接并说明修改；不能把非商业条件理解成放弃版权。",
+    "不要把 BY-NC 自动写成带 ShareAlike 的 BY-NC-SA；共享方式应依据实际许可条款。",
+    "图片署名可包含作品名称、作者、来源链接、日期和摄影者；拼贴中的不同图片也应能追溯。",
+    "页面自身许可不能自动替第三方图片重新授权。"
+  ],
+  "terms": [
+    {
+      "term": "Attribution",
+      "definition": "在使用作品时提供适当的作者与来源信息。"
+    },
+    {
+      "term": "NonCommercial",
+      "definition": "许可中的非商业使用条件。"
+    }
+  ],
+  "actions": [
+    "核对网站页脚许可的名称和链接。",
+    "给图片和拼贴补齐来源，并区分作品作者与摄影者。"
+  ],
+  "start": 1502.391,
+  "end": 1654.047,
+  "references": [
+    {
+      "title": "Creative Commons：CC BY-NC 4.0",
+      "url": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+  ],
+  "moments": [
+    {
+      "time": 1515.441,
+      "title": "页脚许可"
+    },
+    {
+      "time": 1550.451,
+      "title": "署名与非商业条件"
+    },
+    {
+      "time": 1577.692,
+      "title": "图注示例"
+    },
+    {
+      "time": 1643.271,
+      "title": "摄影者署名"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1545.0,
+      "caption": "课程展示的 Creative Commons 许可",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/credit-license-1.jpg"
+    },
+    {
+      "time": 1605.0,
+      "caption": "照片及拼贴的署名示例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/credit-license-2.jpg"
+    }
+  ]
+}

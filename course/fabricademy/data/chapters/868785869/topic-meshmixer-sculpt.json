@@ -1,0 +1,38 @@
+{
+  "id": "topic-meshmixer-sculpt",
+  "title": "Meshmixer：雕刻式网格修改",
+  "summary": "简要展示 Meshmixer 的雕刻式编辑思路，作为 Rhino 之外修改人体网格的可选工具。",
+  "key_points": [
+    "Meshmixer 偏向笔刷式雕刻，适合探索不同于参数化拆分的形态。",
+    "这是可选工具，示例没有要求必须使用。"
+  ],
+  "terms": [
+    {
+      "term": "Meshmixer",
+      "definition": "用于雕刻式编辑和修整三维网格的软件。"
+    }
+  ],
+  "actions": [
+    "需要雕刻式形变时用副本在 Meshmixer 测试笔刷，不覆盖原模型。"
+  ],
+  "start": 1915.97,
+  "end": 2041.26,
+  "references": [],
+  "moments": [
+    {
+      "time": 1920.91,
+      "title": "Meshmixer 笔刷"
+    },
+    {
+      "time": 1981.82,
+      "title": "可选修改"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1950.0,
+      "caption": "Meshmixer 的雕刻工具面板与导入的人体躯干网格",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/meshmixer.jpg"
+    }
+  ]
+}

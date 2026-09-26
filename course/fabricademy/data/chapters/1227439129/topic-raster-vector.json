@@ -1,0 +1,58 @@
+{
+  "id": "topic-raster-vector",
+  "title": "位图、矢量与制造路径",
+  "summary": "区分像素图像与数学路径，并理解照片编辑和切割图形为什么需要不同处理方式。",
+  "key_points": [
+    "位图由像素组成，放大会暴露采样限制；矢量用路径和形状描述几何，区别不只是一个分辨率数值。",
+    "JPEG、PNG 常用于图像；SVG 常用于矢量。PDF 可包含矢量和位图，不能仅凭扩展名断定内部全是可切割路径。",
+    "课程把 GIMP / Photoshop 与 Inkscape / Illustrator 分别作为图像和矢量工具举例。",
+    "用于切割轮廓时应检查闭合路径与真实尺寸；照片放进矢量软件并不会自动成为可制造轮廓。"
+  ],
+  "terms": [
+    {
+      "term": "Raster / Bitmap",
+      "definition": "通过像素存储的图像。"
+    },
+    {
+      "term": "Vector",
+      "definition": "通过路径、点与形状描述的图形。"
+    }
+  ],
+  "actions": [
+    "区分待处理素材是照片还是需要制造的轮廓。",
+    "输出切割文件前检查路径、闭合性和尺度。"
+  ],
+  "start": 2088.567,
+  "end": 2253.993,
+  "references": [],
+  "moments": [
+    {
+      "time": 2104.227,
+      "title": "像素与路径"
+    },
+    {
+      "time": 2149.647,
+      "title": "常见格式"
+    },
+    {
+      "time": 2169.717,
+      "title": "对应编辑工具"
+    },
+    {
+      "time": 2201.824,
+      "title": "制造用途与闭合轮廓"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2142.0,
+      "caption": "位图与矢量放大对比",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/raster-vector-1.jpg"
+    },
+    {
+      "time": 2233.0,
+      "caption": "矢量图形用于制造的说明",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/raster-vector-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "topic-render",
+  "title": "相机、灯光与渲染排错",
+  "summary": "准备渲染引擎、相机和灯光，并通过一次错误输出理解视口隐藏与渲染隐藏的区别。",
+  "key_points": [
+    "本次切换到 Cycles 并降低采样数以加快展示，参数属于现场预览设置。",
+    "通过 Align Active Camera to View 建立构图，再调整相机视图。",
+    "第一次输出混入其他模型，随后关闭那些对象的渲染可见性并重试。",
+    "灯光的位置和方向会改变材质表现；Eevee 与 Cycles 的显示差异不能简化成所有玻璃都只能用后者。"
+  ],
+  "terms": [
+    {
+      "term": "Samples",
+      "definition": "渲染采样数量，影响计算成本与噪声表现。"
+    },
+    {
+      "term": "Render Visibility",
+      "definition": "决定对象是否出现在渲染输出中的设置。"
+    }
+  ],
+  "actions": [
+    "建立明确的相机和灯光，先做低成本测试渲染。",
+    "检查其他对象的相机图标，再调整光照与构图。"
+  ],
+  "start": 8548.145,
+  "end": 8904.995,
+  "references": [],
+  "moments": [
+    {
+      "time": 8571.155,
+      "title": "引擎与采样设置"
+    },
+    {
+      "time": 8667.605,
+      "title": "对齐相机视图"
+    },
+    {
+      "time": 8748.165,
+      "title": "误渲染其他对象及修正"
+    },
+    {
+      "time": 8788.025,
+      "title": "调整灯光"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8755.0,
+      "caption": "第一次渲染混入其他对象",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/render-1.jpg"
+    },
+    {
+      "time": 8885.0,
+      "caption": "调整可见性和灯光后的结果",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/render-2.jpg"
+    }
+  ]
+}

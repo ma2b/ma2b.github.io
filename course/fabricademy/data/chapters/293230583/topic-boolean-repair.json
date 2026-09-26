@@ -1,0 +1,52 @@
+{
+  "id": "topic-boolean-repair",
+  "title": "切分报错、扩大切割体并重试",
+  "summary": "讲师发现小范围切割留下错误几何，返回多视图调整拉伸方向和盒体大小，重做 MeshBooleanSplit 后再次导出。",
+  "key_points": [
+    "切割体若没有完全穿出网格，布尔结果可能留下很薄的残片或失败。",
+    "本段多次撤销、重做和扩大盒体，最终取得更干净的结果；中间失败版本不是成品。",
+    "导出时按后续用途决定是否包含纹理坐标。"
+  ],
+  "terms": [
+    {
+      "term": "拉伸方向",
+      "definition": "在多视图里控制切割面的空间延伸方向。"
+    },
+    {
+      "term": "Scale1D",
+      "definition": "只沿一个轴调整对象长度的 Rhino 命令。"
+    }
+  ],
+  "actions": [
+    "在右视图和透视视图同时检查切割体是否完整穿过目标。",
+    "布尔失败时先回退并加大切割体，再重新检查结果。"
+  ],
+  "start": 1927.76,
+  "end": 2392.56,
+  "references": [],
+  "moments": [
+    {
+      "time": 1970.0,
+      "title": "发现残留错误"
+    },
+    {
+      "time": 2040.0,
+      "title": "调整拉伸方向"
+    },
+    {
+      "time": 2190.0,
+      "title": "扩大切割体"
+    },
+    {
+      "time": 2373.04,
+      "title": "再次导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2110.0,
+      "caption": "Rhino 中放大查看切割后仍需修正的局部几何",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/repair-cut.jpg"
+    }
+  ]
+}

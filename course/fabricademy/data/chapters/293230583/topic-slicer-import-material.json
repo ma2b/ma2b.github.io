@@ -1,0 +1,48 @@
+{
+  "id": "topic-slicer-import-material",
+  "title": "Slicer 导入方向、单位与板材设置",
+  "summary": "把处理后的网格载入 Slicer for Fusion 360，核对模型方向和原尺寸，再设置板材长宽、厚度及制造参数。",
+  "key_points": [
+    "软件导入后把人体横放，界面所称宽高要结合实际方向理解。",
+    "课程使用毫米及 1000×600 mm、4 mm 板材作为现场示例。",
+    "应选中刚创建的自定义材料设置，不能只填写却继续使用默认参数。"
+  ],
+  "terms": [
+    {
+      "term": "Slicer for Fusion 360",
+      "definition": "将三维模型转为板材切片和装配图的工具。"
+    },
+    {
+      "term": "制造设置",
+      "definition": "板材尺寸、厚度等用于排版与接头计算的参数。"
+    }
+  ],
+  "actions": [
+    "导入后核对单位、原模型尺寸和摆放方向。",
+    "建立并选择匹配实际板材的制造设置。"
+  ],
+  "start": 2392.56,
+  "end": 2550.48,
+  "references": [],
+  "moments": [
+    {
+      "time": 2400.0,
+      "title": "导入模型"
+    },
+    {
+      "time": 2445.0,
+      "title": "毫米与原始尺寸"
+    },
+    {
+      "time": 2500.0,
+      "title": "板材设置"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2440.0,
+      "caption": "Slicer for Fusion 360 中导入的人体网格",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/slicer-import.jpg"
+    }
+  ]
+}

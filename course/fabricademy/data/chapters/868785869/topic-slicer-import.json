@@ -1,0 +1,38 @@
+{
+  "id": "topic-slicer-import",
+  "title": "Slicer：导入、朝向、单位与尺寸",
+  "summary": "转入 Slicer for Fusion 360，说明软件维护状态，并在导入时校正 Z 轴朝上、模型单位和实体尺寸。",
+  "key_points": [
+    "Slicer 曾是 Fusion 360 附加工具，视频录制时已停止维护。",
+    "导入时 Z 轴、单位和缩放都可能影响切片结果。"
+  ],
+  "terms": [
+    {
+      "term": "Slicer for Fusion 360",
+      "definition": "将三维模型转为激光切割零件与装配图纸的工具，视频指出其已停止维护。"
+    }
+  ],
+  "actions": [
+    "导入 Slicer 时选择正确朝上轴，量测实体尺寸并核对单位。"
+  ],
+  "start": 2041.26,
+  "end": 2339.3,
+  "references": [],
+  "moments": [
+    {
+      "time": 2062.13,
+      "title": "软件状态"
+    },
+    {
+      "time": 2237.27,
+      "title": "导入轴向"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2245.0,
+      "caption": "Slicer 导入后的人体模型朝向错误，需重新指定向上轴",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/slicer-import.jpg"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "topic-recovery",
+  "title": "历史恢复、构建排错与编辑冲突",
+  "summary": "围绕“改错后怎么办”，完整保留历史恢复、revert 的现场纠正、构建日志定位和旧标签页冲突处理。",
+  "key_points": [
+    "文件 History 可以找到旧内容，再将需要的部分恢复为一次新修改。",
+    "讲师先把 revert 与 reset 混淆，随后明确纠正：revert 新建反向提交，撤销指定提交。",
+    "本地预览能减少“改一点、提交一次、等待构建”的往返。",
+    "本次日志中的 footer、social 和图标名称帮助定位到此前修改过的社交链接配置。",
+    "旧标签页落后于仓库版本时，先保留未提交文字，刷新后比较与合并，避免丢失或覆盖改动。"
+  ],
+  "terms": [
+    {
+      "term": "Revert",
+      "definition": "通过新提交反向撤销指定提交，保留已有历史。"
+    },
+    {
+      "term": "构建日志",
+      "definition": "记录构建步骤与报错的输出。"
+    },
+    {
+      "term": "编辑冲突",
+      "definition": "当前编辑版本已落后于仓库，不能直接覆盖提交的情况。"
+    }
+  ],
+  "actions": [
+    "需要恢复时，先查看对应提交影响了哪些文件；少量内容可从历史中复制回来。",
+    "构建失败先定位日志关键词并核对最近改动；遇到旧标签页先备份未提交内容。"
+  ],
+  "start": 3154.44,
+  "end": 3691.509,
+  "references": [],
+  "moments": [
+    {
+      "time": 3154.44,
+      "title": "从文件历史恢复内容"
+    },
+    {
+      "time": 3250.785,
+      "title": "Revert 演示及随后纠正"
+    },
+    {
+      "time": 3306.969,
+      "title": "纠正：revert 与 reset 的区别"
+    },
+    {
+      "time": 3383.589,
+      "title": "本地预览如何减少等待"
+    },
+    {
+      "time": 3504.219,
+      "title": "用日志定位社交图标错误"
+    },
+    {
+      "time": 3612.069,
+      "title": "处理旧标签页的提交冲突"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3230.0,
+      "caption": "从历史版本找回文件内容",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/recovery-1.jpg"
+    },
+    {
+      "time": 3545.0,
+      "caption": "查看构建错误日志",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/recovery-2.jpg"
+    },
+    {
+      "time": 3635.0,
+      "caption": "编辑期间文件已改变的提示",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/recovery-3.jpg"
+    }
+  ]
+}

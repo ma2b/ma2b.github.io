@@ -1,0 +1,38 @@
+{
+  "id": "topic-radial-folded",
+  "title": "径向切片、折叠面板与可装配性",
+  "summary": "比较径向切片与折叠面板结构，用装配预览判断连接是否可行，而非只看三维外形。",
+  "key_points": [
+    "径向结构围绕中心轴布置；折叠面板依赖可折材料。",
+    "结构预览需检查小零件与装配步骤。"
+  ],
+  "terms": [
+    {
+      "term": "Radial Slices",
+      "definition": "围绕中心轴布置切片的结构。"
+    }
+  ],
+  "actions": [
+    "分别预览径向与折叠结构，检查材料和装配是否可行。"
+  ],
+  "start": 3062.92,
+  "end": 3362.03,
+  "references": [],
+  "moments": [
+    {
+      "time": 3077.76,
+      "title": "径向结构"
+    },
+    {
+      "time": 3271.72,
+      "title": "折叠面板"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3150.0,
+      "caption": "径向切片人体模型与对应的二维排料图纸",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/radial.jpg"
+    }
+  ]
+}

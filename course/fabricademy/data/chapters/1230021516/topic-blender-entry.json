@@ -1,0 +1,34 @@
+{
+  "id": "topic-blender-entry",
+  "title": "转入 Blender：导入与准备网格",
+  "summary": "休息后确认 STL 文件，并在 Blender 中查找 3D Print 与布尔工具，为模型修整做准备。",
+  "key_points": [
+    "Blender 接收前一步导出的网格文件。",
+    "3D Print 和布尔工具用于后续几何检查与切割。"
+  ],
+  "terms": [
+    {
+      "term": "3D Print 工具",
+      "definition": "Blender 用于网格可打印性检查的一组功能。"
+    }
+  ],
+  "actions": [
+    "确认导入尺寸、模型对象和所需工具实际可用。"
+  ],
+  "start": 5450.454,
+  "end": 5701.459,
+  "references": [],
+  "moments": [
+    {
+      "time": 5674.128,
+      "title": "转入 Blender：导入与准备网格"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5674.128,
+      "caption": "Blender 的导入模型与插件界面",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/blender-entry.jpg"
+    }
+  ]
+}

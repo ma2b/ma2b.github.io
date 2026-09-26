@@ -1,0 +1,63 @@
+{
+  "id": "topic-photo-story",
+  "title": "拍摄材料、步骤与使用场景",
+  "summary": "通过学员作品比较光线、角度、背景和人物互动如何帮助解释材料与成果。",
+  "key_points": [
+    "稳定的拍摄位置和光线让不同周的成果更容易比较，手机也可完成有信息价值的记录。",
+    "步骤说明可保持一致的俯拍角度，突出零件关系与操作细节。",
+    "人物或手部互动可以说明尺度和用途；黑白、透光和背景选择应服务于作品特征。",
+    "拍摄生物材料时整理台面并保留相关工具语境，避免杂乱遮挡内容。"
+  ],
+  "terms": [
+    {
+      "term": "拍摄语境",
+      "definition": "通过环境、道具和互动解释对象用途与特征。"
+    }
+  ],
+  "actions": [
+    "为一件作品拍摄整体、细节和使用过程。",
+    "固定一个便于每周复用的角度与背景。"
+  ],
+  "start": 2372.253,
+  "end": 2613.693,
+  "references": [],
+  "moments": [
+    {
+      "time": 2416.203,
+      "title": "固定拍摄环境"
+    },
+    {
+      "time": 2453.973,
+      "title": "步骤与俯拍"
+    },
+    {
+      "time": 2488.203,
+      "title": "材质和人物互动"
+    },
+    {
+      "time": 2510.013,
+      "title": "几何与光线"
+    },
+    {
+      "time": 2556.033,
+      "title": "实验台与材料"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2422.0,
+      "caption": "材料拍摄的光线与环境案例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/photo-story-1.jpg"
+    },
+    {
+      "time": 2464.0,
+      "caption": "统一角度的步骤照片",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/photo-story-2.jpg"
+    },
+    {
+      "time": 2542.0,
+      "caption": "光线突出人体模型的形态",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/photo-story-3.jpg"
+    }
+  ]
+}

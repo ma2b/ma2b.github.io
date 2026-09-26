@@ -1,0 +1,58 @@
+{
+  "id": "topic-export-pose",
+  "title": "保存模型、导出单位与姿态",
+  "summary": "保存可继续编辑的人物文件，导出网格，并选择适合后续裁切和制造的姿态。",
+  "key_points": [
+    "区分 MakeHuman 原生保存和 OBJ、STL 等网格导出，保留可修改的源文件。",
+    "导出时记录单位，导入下一软件后通过已知尺寸复核，不靠外观判断比例。",
+    "手臂展开的姿态便于后续去除手臂；口腔等内部空腔也可能影响制造前的网格处理。",
+    "服装、骨架和表情是扩展选项，本次重点是几何模型及可制造形态。"
+  ],
+  "terms": [
+    {
+      "term": "OBJ / STL",
+      "definition": "课程使用的网格交换格式。"
+    },
+    {
+      "term": "T-pose",
+      "definition": "手臂向两侧展开的人物姿态。"
+    }
+  ],
+  "actions": [
+    "保存原生文件，再导出所需网格格式并记下单位。",
+    "选择有利于后续编辑的姿态，检查空腔与附属几何。"
+  ],
+  "start": 726.285,
+  "end": 1139.985,
+  "references": [],
+  "moments": [
+    {
+      "time": 746.815,
+      "title": "原生保存与网格导出"
+    },
+    {
+      "time": 795.675,
+      "title": "导出单位"
+    },
+    {
+      "time": 915.675,
+      "title": "骨架与姿态"
+    },
+    {
+      "time": 1064.275,
+      "title": "口部空腔与再次导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 805.0,
+      "caption": "网格导出与尺度设置",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/export-pose-1.jpg"
+    },
+    {
+      "time": 1040.0,
+      "caption": "人物姿态选项",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/export-pose-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "topic-skanect-capture",
+  "title": "缩小包围盒后完成一圈扫描",
+  "summary": "讲师缩小包围盒，缓慢旋转模特，使绿色预览持续覆盖人体，暂停录制并准备重建。",
+  "key_points": [
+    "缩小范围后背景干扰减少，但仍需留意背面阴影与未扫描区域。",
+    "采集完成后先暂停，再进入重建步骤。"
+  ],
+  "terms": [
+    {
+      "term": "实时预览",
+      "definition": "采集时显示深度数据和当前跟踪状态的画面。"
+    }
+  ],
+  "actions": [
+    "以慢而稳定的速度转动一圈，持续检查预览的颜色与人体轮廓。",
+    "确认返回起点附近并保留足够覆盖后再暂停。"
+  ],
+  "start": 817.9,
+  "end": 943.3,
+  "references": [],
+  "moments": [
+    {
+      "time": 817.9,
+      "title": "缩小包围盒"
+    },
+    {
+      "time": 843.6,
+      "title": "慢速旋转"
+    },
+    {
+      "time": 920.0,
+      "title": "结束采集"
+    }
+  ],
+  "frames": [
+    {
+      "time": 855.0,
+      "caption": "Skanect 实时预览中，绿色的人体轮廓正在成形",
+      "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/working-scan.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "topic-workflow",
+  "title": "从二维构思到可制造的三维模型",
+  "summary": "讲师引出图像设计、AI 三维生成、网格清理及实际制造之间的完整路线。",
+  "key_points": [
+    "课程路线包括二维构思、三维生成、网格检查和实体制造。",
+    "数字模型看起来成立，仍需核对结构能否用真实材料制作。"
+  ],
+  "terms": [],
+  "actions": [
+    "区分屏幕上的效果与材料、设备能够实现的结构。"
+  ],
+  "start": 392.82,
+  "end": 693.708,
+  "references": [],
+  "moments": [
+    {
+      "time": 510.331,
+      "title": "从二维构思到可制造的三维模型"
+    }
+  ],
+  "frames": [
+    {
+      "time": 510.331,
+      "caption": "课程展示数字设计到制造的步骤",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/workflow.jpg"
+    }
+  ]
+}

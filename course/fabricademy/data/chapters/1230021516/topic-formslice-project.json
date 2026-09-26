@@ -1,0 +1,29 @@
+{
+  "id": "topic-formslice-project",
+  "title": "FormSlice：自制切片工具的构思",
+  "summary": "讲师介绍从快速网页原型到代码仓库的过程，说明工具要解决的切片和制造问题。",
+  "key_points": [
+    "FormSlice 是讲师展示的自制网页切片工具。",
+    "本课说明了从快速原型到可检查代码的迭代过程。"
+  ],
+  "terms": [],
+  "actions": [
+    "把目标功能、输入模型和输出文件分别记录，便于测试。"
+  ],
+  "start": 7147.032,
+  "end": 7802.22,
+  "references": [],
+  "moments": [
+    {
+      "time": 7470.63,
+      "title": "FormSlice：自制切片工具的构思"
+    }
+  ],
+  "frames": [
+    {
+      "time": 7470.63,
+      "caption": "FormSlice 的网页原型",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/formslice-project.jpg"
+    }
+  ]
+}

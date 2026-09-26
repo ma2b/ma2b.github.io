@@ -1,0 +1,57 @@
+{
+  "id": "topic-rhino-outline",
+  "title": "Rhino：方形轮廓、旋转与圆角",
+  "summary": "从有明确尺寸的正方形出发，旋转并处理圆角，建立第二组模块的外轮廓。",
+  "key_points": [
+    "演示从原点建立 40 × 40 mm 正方形，用 Distance 或 Dim 核对尺寸。",
+    "本次 Rhino 操作在绘制时输入尺寸，Dim 标注用于测量参考，不等同于 Fusion 草图驱动尺寸。",
+    "使用 Rotate 指定中心与 45° 角度，再用 Fillet 逐角处理；空格可重复上一命令。"
+  ],
+  "terms": [
+    {
+      "term": "Rotate",
+      "definition": "围绕指定中心旋转所选对象。"
+    },
+    {
+      "term": "Fillet",
+      "definition": "以指定半径在曲线间生成圆角。"
+    }
+  ],
+  "actions": [
+    "绘制并测量正方形，确认文档单位。",
+    "旋转轮廓并处理各圆角，检查曲线完整性。"
+  ],
+  "start": 2161.385,
+  "end": 2584.945,
+  "references": [],
+  "moments": [
+    {
+      "time": 2248.205,
+      "title": "绘制有明确尺寸的正方形"
+    },
+    {
+      "time": 2346.485,
+      "title": "距离与尺寸核对"
+    },
+    {
+      "time": 2417.545,
+      "title": "旋转轮廓"
+    },
+    {
+      "time": 2498.665,
+      "title": "设置圆角"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2370.0,
+      "caption": "正方形尺寸检查",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-outline-1.jpg"
+    },
+    {
+      "time": 2570.0,
+      "caption": "旋转后的圆角轮廓",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-outline-2.jpg"
+    }
+  ]
+}

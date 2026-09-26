@@ -1,0 +1,63 @@
+{
+  "id": "topic-foundations",
+  "title": "网页基础与 Zensical 模板",
+  "summary": "理解 HTML、CSS、Markdown 和站点生成器各自的作用，再用课程模板开始写作。",
+  "key_points": [
+    "HTML 描述网页内容结构，CSS 调整这些内容的显示样式。",
+    "Markdown 用标题、列表、强调和图片等简洁语法组织文档。",
+    "本课程使用 Zensical 将文档生成网站，并提供导航与文档组件。",
+    "讲师说明往届使用 MkDocs；复用旧资料时仍应核对当前模板的配置与扩展。"
+  ],
+  "terms": [
+    {
+      "term": "HTML / CSS",
+      "definition": "分别负责网页内容结构和视觉样式。"
+    },
+    {
+      "term": "Markdown",
+      "definition": "以纯文本符号组织文档的标记语言。"
+    },
+    {
+      "term": "Zensical",
+      "definition": "本课使用的文档网站生成工具；自动字幕有多种误写。"
+    }
+  ],
+  "actions": [
+    "在课程模板中辨认标题、列表、图片等 Markdown 写法。",
+    "对照源文件与网页，理解文字如何变成网站内容。"
+  ],
+  "start": 470.28,
+  "end": 852.714,
+  "references": [],
+  "moments": [
+    {
+      "time": 470.28,
+      "title": "课程模板与网页结构"
+    },
+    {
+      "time": 644.214,
+      "title": "Markdown 基础语法"
+    },
+    {
+      "time": 737.064,
+      "title": "Zensical 与往届 MkDocs 模板"
+    }
+  ],
+  "frames": [
+    {
+      "time": 550.0,
+      "caption": "HTML 与 CSS 的作用",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/foundations-1.jpg"
+    },
+    {
+      "time": 700.0,
+      "caption": "Markdown 语法示例",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/foundations-2.jpg"
+    },
+    {
+      "time": 790.0,
+      "caption": "课程使用的文档工具",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/foundations-3.jpg"
+    }
+  ]
+}

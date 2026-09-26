@@ -1,0 +1,47 @@
+{
+  "id": "topic-skanect-setup",
+  "title": "Skanect 连接、预设与扫描范围",
+  "summary": "在 Skanect 中确认 Kinect 被识别，选择 Body 预设、调整包围盒并设定录制延时。",
+  "key_points": [
+    "讲师在 Mac 上接入 Kinect；Windows 旧机器的驱动问题是本次环境经历，不能当作所有 Windows 设备的结论。",
+    "包围盒太大易把后墙纳入模型，范围应覆盖对象并尽量排除背景。"
+  ],
+  "terms": [
+    {
+      "term": "Skanect",
+      "definition": "利用深度相机捕获并处理三维模型的软件。"
+    },
+    {
+      "term": "包围盒",
+      "definition": "定义扫描对象所处空间范围的三维边界。"
+    }
+  ],
+  "actions": [
+    "确认软件实时预览出现深度影像，再选择 Body 预设并调整扫描范围。",
+    "录制前检查姿态、背景距离和延时设置。"
+  ],
+  "start": 101.9,
+  "end": 265.7,
+  "references": [],
+  "moments": [
+    {
+      "time": 104.6,
+      "title": "Skanect 与 Kinect"
+    },
+    {
+      "time": 142.0,
+      "title": "预设与范围"
+    },
+    {
+      "time": 230.5,
+      "title": "保持姿态"
+    }
+  ],
+  "frames": [
+    {
+      "time": 190.0,
+      "caption": "Skanect 的 Prepare 界面显示 Body 预设和扫描范围设置",
+      "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/kinect-settings.jpg"
+    }
+  ]
+}

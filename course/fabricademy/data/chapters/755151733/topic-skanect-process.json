@@ -1,0 +1,52 @@
+{
+  "id": "topic-skanect-process",
+  "title": "重建、封闭网格、裁剪与导出",
+  "summary": "对采集结果重建并做 watertight 封闭，裁掉底座或背景碎片，必要时简化网格，最后讨论 OBJ 与 STL 导出。",
+  "key_points": [
+    "封闭网格会补洞，但不会自动保证所有误采背景都消失。",
+    "可以裁切底面、去除较小独立部件并选择保留或移除颜色。",
+    "OBJ 可包含颜色与纹理相关信息；STL 主要保存几何，导出时还须检查单位和比例。"
+  ],
+  "terms": [
+    {
+      "term": "Watertight",
+      "definition": "没有开放边界、可用于后续制造检查的封闭网格。"
+    },
+    {
+      "term": "OBJ / STL",
+      "definition": "常见三维网格格式；本课借此比较外观信息与几何导出。"
+    }
+  ],
+  "actions": [
+    "重建后旋转查看背部、底面与背景碎片。",
+    "先保留原始扫描，再导出经过裁剪的版本并核对格式与尺度。"
+  ],
+  "start": 943.3,
+  "end": 1217.6,
+  "references": [],
+  "moments": [
+    {
+      "time": 943.3,
+      "title": "重建"
+    },
+    {
+      "time": 990.0,
+      "title": "Watertight 与补洞"
+    },
+    {
+      "time": 1080.0,
+      "title": "裁剪底面"
+    },
+    {
+      "time": 1160.0,
+      "title": "格式与尺度"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1040.0,
+      "caption": "Skanect 的 Process 页面显示扫描对象及仍需清理的底座碎片",
+      "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/cleanup.jpg"
+    }
+  ]
+}

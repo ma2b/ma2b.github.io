@@ -1,0 +1,48 @@
+{
+  "id": "topic-publish-demo",
+  "title": "完整复演：修改字体并发布",
+  "summary": "用更换字体再走一遍完整发布流程，将前面的配置、差异检查、提交和构建串起来。",
+  "key_points": [
+    "演示将字体名设为 Roboto Condensed，字符串中的空格与成对引号需要正确。",
+    "检查左侧变更列表，填写提交说明并提交到 main。",
+    "回到作业列表确认本次构建通过，再刷新网站检查字体效果。"
+  ],
+  "terms": [
+    {
+      "term": "发布核对",
+      "definition": "把配置改动、提交、构建和最终页面逐一对应。"
+    }
+  ],
+  "actions": [
+    "选择一处小改动，练习“编辑 → 检查差异 → 提交 → 构建 → 验证页面”。"
+  ],
+  "start": 5076.858,
+  "end": 5249.628,
+  "references": [],
+  "moments": [
+    {
+      "time": 5076.858,
+      "title": "以字体修改重新演示"
+    },
+    {
+      "time": 5137.308,
+      "title": "修改字体名称与查看差异"
+    },
+    {
+      "time": 5165.959,
+      "title": "提交、检查作业并刷新网站"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5145.0,
+      "caption": "修改字体配置",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/publish-demo-1.jpg"
+    },
+    {
+      "time": 5195.0,
+      "caption": "核对最新构建结果",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/publish-demo-2.jpg"
+    }
+  ]
+}

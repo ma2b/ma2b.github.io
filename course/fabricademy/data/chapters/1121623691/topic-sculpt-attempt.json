@@ -1,0 +1,44 @@
+{
+  "id": "topic-sculpt-attempt",
+  "title": "未完成的雕刻尝试",
+  "summary": "记录讲师转入 Sculpting 后未能让笔刷生效的尝试，并明确这段没有形成可复现的完整教学。",
+  "key_points": [
+    "现场尝试调整 Grab 笔刷、半径、强度和模式，但对象没有按预期变形。",
+    "讲师承认不熟悉该工具并停止尝试，问题原因未在视频里确定。",
+    "开头的浏览器雕刻演示是已展示结果的另一条路径，不要用猜测补全这里的排错。"
+  ],
+  "terms": [
+    {
+      "term": "Sculpt Mode",
+      "definition": "使用雕刻笔刷操作网格的模式。"
+    }
+  ],
+  "actions": [
+    "把本段当作问题记录，避免照抄失败操作。",
+    "需要雕刻时另查所用版本的正式教程，先用简单对象验证。"
+  ],
+  "start": 7109.265,
+  "end": 7261.595,
+  "references": [],
+  "moments": [
+    {
+      "time": 7109.265,
+      "title": "尝试 Grab 笔刷"
+    },
+    {
+      "time": 7179.395,
+      "title": "检查模式和活动对象"
+    },
+    {
+      "time": 7207.515,
+      "title": "停止未成功的演示"
+    }
+  ],
+  "frames": [
+    {
+      "time": 7190.0,
+      "caption": "雕刻模式中的未成功操作",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/sculpt-attempt-1.jpg"
+    }
+  ]
+}

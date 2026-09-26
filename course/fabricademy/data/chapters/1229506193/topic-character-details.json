@@ -1,0 +1,34 @@
+{
+  "id": "topic-character-details",
+  "title": "镜像、挤出与比例编辑",
+  "summary": "示范镜像修改、选择面并挤出面罩和背包，再用比例编辑调整角色轮廓。",
+  "key_points": [
+    "镜像可让一侧修改同步到另一侧。",
+    "挤出选中的面形成面罩、背包等局部结构。"
+  ],
+  "terms": [
+    {
+      "term": "挤出",
+      "definition": "沿指定方向从选中面生成新的几何。"
+    }
+  ],
+  "actions": [
+    "先核对镜像方向和选区，再挤出局部结构。"
+  ],
+  "start": 2641.749,
+  "end": 3181.606,
+  "references": [],
+  "moments": [
+    {
+      "time": 2850.795,
+      "title": "镜像、挤出与比例编辑"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2850.795,
+      "caption": "角色面罩与背包建模",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/character-details.jpg"
+    }
+  ]
+}

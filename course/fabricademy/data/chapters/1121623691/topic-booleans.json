@@ -1,0 +1,71 @@
+{
+  "id": "topic-booleans",
+  "title": "布尔运算、镜像与现场错误",
+  "summary": "用 Bool Tool 演示差集、并集和交集，并保留切割及应用失败的现场情况。",
+  "key_points": [
+    "选择切割对象，再将目标物体设为活动对象，确认选择关系后执行布尔运算。",
+    "Brush Boolean 保留可调整的切割对象；与立即应用的方式不同，不能把预览结果当作已固定几何。",
+    "演示还用 Mirror 和参考对象建立对称附加形状。",
+    "Slice 的结果并不清晰，Apply Cutter 随后报错且没有排除；本段不应当作已验证的平面切片或应用成功教程。"
+  ],
+  "terms": [
+    {
+      "term": "Difference / Union / Intersect",
+      "definition": "差集去除重叠部分、并集合并体积、交集保留重叠部分。"
+    },
+    {
+      "term": "切割对象",
+      "definition": "用于决定目标几何增减区域的辅助物体。"
+    }
+  ],
+  "actions": [
+    "在模型副本上分别测试差集、并集和交集。",
+    "应用前检查结果并保存版本；若出现错误，先核查活动对象和修改器状态。"
+  ],
+  "start": 6410.825,
+  "end": 7109.265,
+  "references": [],
+  "moments": [
+    {
+      "time": 6451.365,
+      "title": "启用 Bool Tool"
+    },
+    {
+      "time": 6616.825,
+      "title": "Brush 与 Auto Boolean"
+    },
+    {
+      "time": 6638.735,
+      "title": "差集与动态调整"
+    },
+    {
+      "time": 6758.785,
+      "title": "镜像、并集和交集"
+    },
+    {
+      "time": 6865.785,
+      "title": "Slice 尝试"
+    },
+    {
+      "time": 7020.345,
+      "title": "撤销说明与 Apply Cutter 报错"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6670.0,
+      "caption": "差集切割对象可继续移动",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/booleans-1.jpg"
+    },
+    {
+      "time": 6785.0,
+      "caption": "镜像生成对称附加形状",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/booleans-2.jpg"
+    },
+    {
+      "time": 7080.0,
+      "caption": "应用切割对象时的现场排错",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/booleans-3.jpg"
+    }
+  ]
+}

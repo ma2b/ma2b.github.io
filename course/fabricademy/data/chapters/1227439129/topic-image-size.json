@@ -1,0 +1,64 @@
+{
+  "id": "topic-image-size",
+  "title": "缩放、批处理与网页图片大小",
+  "summary": "认识图片缩放与压缩的不同作用，修正把网页清晰度统一归为 72 DPI 的说法。",
+  "key_points": [
+    "课程指出 GIMP 的 Image → Scale Image 可调整图片尺寸，并介绍批量处理的思路。",
+    "本录制只有讲解和示意，结尾没有实际开展 GIMP 操作演示。",
+    "本次课程以单张约 100–150 KB 为参考目标；应同时确认页面实际显示尺寸与细节可读性。",
+    "纠错：仅修改打印分辨率不会改变像素数量；网页图片应核对像素宽高、显示尺寸和导出压缩，不能用统一 72 DPI 判断清晰度。",
+    "等比例缩放可避免变形，原始高质量文件应另行保留。"
+  ],
+  "terms": [
+    {
+      "term": "像素尺寸",
+      "definition": "图像实际包含的像素宽度与高度。"
+    },
+    {
+      "term": "重采样",
+      "definition": "通过增减像素改变图像尺寸。"
+    }
+  ],
+  "actions": [
+    "按页面用途等比例缩放，再导出压缩副本。",
+    "检查小字与细节是否可读，并记录像素尺寸和文件大小。"
+  ],
+  "start": 2253.993,
+  "end": 2372.253,
+  "references": [
+    {
+      "title": "GIMP：Print Size 不改变像素数量",
+      "url": "https://docs.gimp.org/3.0/en/gimp-image-print-size.html"
+    },
+    {
+      "title": "GIMP：Scale Image 调整像素尺寸",
+      "url": "https://docs.gimp.org/3.0/en/gimp-image-scale.html"
+    }
+  ],
+  "moments": [
+    {
+      "time": 2266.413,
+      "title": "Scale Image"
+    },
+    {
+      "time": 2287.143,
+      "title": "批量处理介绍"
+    },
+    {
+      "time": 2322.813,
+      "title": "网页图片实践要求"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2274.0,
+      "caption": "GIMP 图片缩放示意",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-size-1.jpg"
+    },
+    {
+      "time": 2352.0,
+      "caption": "课程图片体积建议；72 DPI 说法见正文纠错",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-size-2.jpg"
+    }
+  ]
+}

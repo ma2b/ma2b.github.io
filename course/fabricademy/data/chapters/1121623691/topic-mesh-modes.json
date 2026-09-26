@@ -1,0 +1,48 @@
+{
+  "id": "topic-mesh-modes",
+  "title": "视图模式与网格编辑",
+  "summary": "区分显示方式和编辑方式，理解对象模式、编辑模式及点线面的选择。",
+  "key_points": [
+    "Wireframe、Solid、Material Preview、Rendered 是显示方式；Object Mode 和 Edit Mode 决定可编辑的对象层次。",
+    "对象模式移动或缩放整个对象；编辑模式可处理顶点、边和面。",
+    "本课默认键位中 1、2、3 切换点、边、面选择；G 后接 X、Y、Z 可约束移动方向。"
+  ],
+  "terms": [
+    {
+      "term": "Vertex / Edge / Face",
+      "definition": "构成网格的顶点、边和面。"
+    },
+    {
+      "term": "Object / Edit Mode",
+      "definition": "对象层级操作与内部网格编辑两种模式。"
+    }
+  ],
+  "actions": [
+    "在简单球体上分别移动整物体和局部网格。",
+    "观察点、边、面选择与视图显示模式的区别。"
+  ],
+  "start": 4714.825,
+  "end": 5159.885,
+  "references": [],
+  "moments": [
+    {
+      "time": 4719.795,
+      "title": "四种显示方式"
+    },
+    {
+      "time": 4810.035,
+      "title": "对象模式与编辑模式"
+    },
+    {
+      "time": 4968.055,
+      "title": "点、边、面的选择与移动"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5045.0,
+      "caption": "沿不同轴移动局部面与边，球体出现两个突起",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/mesh-modes-1.jpg"
+    }
+  ]
+}

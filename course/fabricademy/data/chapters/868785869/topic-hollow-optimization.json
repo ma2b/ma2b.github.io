@@ -1,0 +1,38 @@
+{
+  "id": "topic-hollow-optimization",
+  "title": "空心处理与排料优化",
+  "summary": "讲师演示空心处理减少用料，提醒 Slicer 自动排料并不充分，需另行优化二维图纸。",
+  "key_points": [
+    "空心化可减少材料消耗。",
+    "自动排料可能留下大量空白，需要人工再整理。"
+  ],
+  "terms": [
+    {
+      "term": "Hollow",
+      "definition": "使实体内部留空以减少材料或调整构造的操作。"
+    }
+  ],
+  "actions": [
+    "测试空心化，并在二维工具中重新排料以减少废料。"
+  ],
+  "start": 3362.03,
+  "end": 3601.62,
+  "references": [],
+  "moments": [
+    {
+      "time": 3375.61,
+      "title": "空心化"
+    },
+    {
+      "time": 3448.83,
+      "title": "排料优化"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3450.0,
+      "caption": "空心化后的切片轮廓与右侧二维图纸",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/hollow.jpg"
+    }
+  ]
+}

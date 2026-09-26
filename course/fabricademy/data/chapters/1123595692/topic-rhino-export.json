@@ -1,0 +1,58 @@
+{
+  "id": "topic-rhino-export",
+  "title": "Rhino 输出与曲线清理",
+  "summary": "设置输出属性，将文件送入 Illustrator 或 Inkscape，检查断开的路径和尺寸。",
+  "key_points": [
+    "讲师演示连续线型、图层颜色和 hairline 打印宽度；实际切割要求应向使用的实验室核对。",
+    "可用 Export Selected 只导出所需对象，并在矢量软件里重新检查。",
+    "本次实际遇到的是未连接的轮廓，讲师演示 Join 后再次导出；不能把所有导出问题都归为重复线。",
+    "PDF、SVG、DXF 等交换路径各有细节，导入后保持原始尺寸并检查最终曲线。"
+  ],
+  "terms": [
+    {
+      "term": "Join",
+      "definition": "将符合连接条件的曲线段连接起来；操作后仍要检查结果。"
+    },
+    {
+      "term": "Hairline",
+      "definition": "演示使用的极细打印线宽选项，设备识别方式需单独核对。"
+    }
+  ],
+  "actions": [
+    "清理并连接应连续的轮廓，保留设计需要的独立槽线。",
+    "导出到矢量软件，复核尺寸、断线和重复线后保存最终文件。"
+  ],
+  "start": 3211.135,
+  "end": 3656.855,
+  "references": [],
+  "moments": [
+    {
+      "time": 3216.405,
+      "title": "线条与打印属性"
+    },
+    {
+      "time": 3349.295,
+      "title": "选择导出格式"
+    },
+    {
+      "time": 3441.515,
+      "title": "发现未连接路径并清理"
+    },
+    {
+      "time": 3557.765,
+      "title": "在 Inkscape 中复核"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3340.0,
+      "caption": "Rhino 输出属性检查",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-export-1.jpg"
+    },
+    {
+      "time": 3590.0,
+      "caption": "在矢量软件中检查导出结果",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-export-2.jpg"
+    }
+  ]
+}

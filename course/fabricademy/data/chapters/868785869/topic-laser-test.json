@@ -1,0 +1,38 @@
+{
+  "id": "topic-laser-test",
+  "title": "先试切卡槽并核算材料",
+  "summary": "在正式批量切割前试切卡槽并确认材料厚度、切缝及机器参数，同时考虑实验室的板材配额。",
+  "key_points": [
+    "先用小样测试卡槽，再决定 slot offset 等补偿。",
+    "材料配额和机器参数要向所在实验室确认。"
+  ],
+  "terms": [
+    {
+      "term": "试切",
+      "definition": "先切小样验证卡槽、材料和机器参数的步骤。"
+    }
+  ],
+  "actions": [
+    "先试切一组卡槽，测量配合后再切完整作品。"
+  ],
+  "start": 4139.52,
+  "end": 4501.78,
+  "references": [],
+  "moments": [
+    {
+      "time": 4154.8,
+      "title": "卡槽试切"
+    },
+    {
+      "time": 4244.32,
+      "title": "材料配额"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4200.0,
+      "caption": "Rhino 中的待切割图纸；讲师提醒先用实际材料试切卡槽",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/laser-test.jpg"
+    }
+  ]
+}

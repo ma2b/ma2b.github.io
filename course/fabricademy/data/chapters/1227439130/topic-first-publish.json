@@ -1,0 +1,68 @@
+{
+  "id": "topic-first-publish",
+  "title": "首次提交与自动发布",
+  "summary": "把“编辑 → 检查差异 → 提交 → 查看构建 → 确认网站”作为一个完整流程，而不是分散到多个时间段。",
+  "key_points": [
+    "Web Editor 中的改动需要主动提交；变更数量不代表已经发布。",
+    "先比较新增、删除的行，核对字符串引号与修改范围。",
+    "写清楚提交说明，并确认本课演示使用的 main 分支。",
+    "提交后检查对应流水线和 Pages 作业，失败时把日志错误与最近改动对应。",
+    "演示最后刷新网站，确认新的站点名称已经出现。"
+  ],
+  "terms": [
+    {
+      "term": "Commit message",
+      "definition": "帮助以后查找改动的一段提交说明。"
+    },
+    {
+      "term": "Pipeline / Job",
+      "definition": "自动构建流程及其中的具体任务。"
+    }
+  ],
+  "actions": [
+    "为上一章的配置改动写提交说明，检查差异后提交。",
+    "检查最新构建状态，再刷新网站确认结果。"
+  ],
+  "start": 1769.106,
+  "end": 2131.656,
+  "references": [],
+  "moments": [
+    {
+      "time": 1769.106,
+      "title": "编辑后为何需要提交"
+    },
+    {
+      "time": 1804.326,
+      "title": "检查文件差异"
+    },
+    {
+      "time": 1855.656,
+      "title": "提交说明与 main 分支"
+    },
+    {
+      "time": 1996.446,
+      "title": "流水线和构建日志"
+    },
+    {
+      "time": 2118.876,
+      "title": "确认网站更新"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1845.0,
+      "caption": "提交前查看配置差异",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/first-publish-1.jpg"
+    },
+    {
+      "time": 1940.0,
+      "caption": "提交说明与分支选择",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/first-publish-2.jpg"
+    },
+    {
+      "time": 2055.0,
+      "caption": "查看网站构建结果",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/first-publish-3.jpg"
+    }
+  ]
+}

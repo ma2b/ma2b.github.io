@@ -1,0 +1,67 @@
+{
+  "id": "topic-slice-techniques",
+  "title": "切片结构比较与中空处理",
+  "summary": "比较堆叠、交错、径向和折叠等构造方式，理解方向、数量和材料消耗的关系。",
+  "key_points": [
+    "Stacked Slices 用逐层叠加表达体积；Interlocked Slices 形成交错插接结构。",
+    "切片方向、数量和局部分布会改变细节与用料；Radial Slices 围绕中心组织结构。",
+    "Curve 和 Folded Panels 的现场尝试并未完全解决错误，需要继续编辑曲线或接缝。",
+    "Hollow 用于生成内部空腔，但必须检查切片轮廓和装配效果，不能只看设置已勾选。"
+  ],
+  "terms": [
+    {
+      "term": "Stacked / Interlocked Slices",
+      "definition": "层叠构造与交错插接构造。"
+    },
+    {
+      "term": "Hollow",
+      "definition": "通过内部偏移等处理减少内部实体材料。"
+    }
+  ],
+  "actions": [
+    "在同一模型上比较两种切片方式的用料与结构。",
+    "检查每张板上的轮廓，结合装配预览判断可制造性。"
+  ],
+  "start": 9402.495,
+  "end": 9931.205,
+  "references": [],
+  "moments": [
+    {
+      "time": 9406.105,
+      "title": "堆叠切片与方向"
+    },
+    {
+      "time": 9518.305,
+      "title": "交错切片与局部分布"
+    },
+    {
+      "time": 9626.615,
+      "title": "曲线和径向方式"
+    },
+    {
+      "time": 9714.545,
+      "title": "折叠面板尝试"
+    },
+    {
+      "time": 9833.795,
+      "title": "中空与形态修改"
+    }
+  ],
+  "frames": [
+    {
+      "time": 9450.0,
+      "caption": "堆叠切片及板材布局",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/slice-techniques-1.jpg"
+    },
+    {
+      "time": 9560.0,
+      "caption": "交错切片结构",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/slice-techniques-2.jpg"
+    },
+    {
+      "time": 9890.0,
+      "caption": "中空处理的预览",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/slice-techniques-3.jpg"
+    }
+  ]
+}

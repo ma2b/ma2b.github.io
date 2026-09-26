@@ -1,0 +1,63 @@
+{
+  "id": "topic-interface",
+  "title": "Blender 界面、集合与属性",
+  "summary": "认识 3D Viewport、Outliner 和 Properties，并通过修改器示例理解非破坏式操作及显示控制。",
+  "key_points": [
+    "3D Viewport 用于操作场景；Outliner 列出对象和集合；Properties 设置场景及对象属性。",
+    "快捷键的作用与鼠标所在编辑器有关，不能脱离区域记忆按键。",
+    "Wireframe 修改器示例展示可先预览、再决定是否应用的工作方式。",
+    "眼睛控制视口可见性，相机图标控制是否参与渲染，两者不同。"
+  ],
+  "terms": [
+    {
+      "term": "Collection",
+      "definition": "组织场景对象的集合。"
+    },
+    {
+      "term": "Modifier",
+      "definition": "按规则处理对象的修改器，未应用时通常可继续调整。"
+    }
+  ],
+  "actions": [
+    "为模型与灯光相机建立清楚的集合组织。",
+    "分别尝试视口隐藏与渲染隐藏，找到单位和修改器面板。"
+  ],
+  "start": 3923.115,
+  "end": 4714.825,
+  "references": [],
+  "moments": [
+    {
+      "time": 3950.325,
+      "title": "三个主要编辑区域"
+    },
+    {
+      "time": 4134.075,
+      "title": "属性、单位与修改器"
+    },
+    {
+      "time": 4331.435,
+      "title": "预览与应用修改器"
+    },
+    {
+      "time": 4661.375,
+      "title": "视口和渲染可见性"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4055.0,
+      "caption": "Outliner 中的场景对象",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/interface-1.jpg"
+    },
+    {
+      "time": 4315.0,
+      "caption": "Wireframe 修改器示例",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/interface-2.jpg"
+    },
+    {
+      "time": 4675.0,
+      "caption": "对象可见性控制",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/interface-3.jpg"
+    }
+  ]
+}

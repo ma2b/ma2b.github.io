@@ -1,0 +1,38 @@
+{
+  "id": "topic-rhino-mesh-split",
+  "title": "Rhino：导入、拆分与封闭网格",
+  "summary": "在 Rhino 中导入人体网格、调整朝向，用 MeshSplit 切掉不需要的部位，并用 Cap 封闭平面切口。",
+  "key_points": [
+    "MeshSplit 用切割对象分开网格；选中人体和切割线的次序要核对命令提示。",
+    "平面切口可用 Cap 封闭；复杂曲面切口不能简单套用。"
+  ],
+  "terms": [
+    {
+      "term": "MeshSplit",
+      "definition": "Rhino 中用切割对象把网格分成多部分的命令。"
+    }
+  ],
+  "actions": [
+    "在 Rhino 中导入网格，试做 MeshSplit 并检查 Cap 后是否闭合。"
+  ],
+  "start": 1257.53,
+  "end": 1618.41,
+  "references": [],
+  "moments": [
+    {
+      "time": 1318.99,
+      "title": "导入人体"
+    },
+    {
+      "time": 1452.8,
+      "title": "拆分网格"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1452.0,
+      "caption": "Rhino 中的人体网格与切割对象位于多视图工作区",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/mesh-split.jpg"
+    }
+  ]
+}

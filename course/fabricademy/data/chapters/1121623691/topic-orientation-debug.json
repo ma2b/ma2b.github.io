@@ -1,0 +1,58 @@
+{
+  "id": "topic-orientation-debug",
+  "title": "比例、朝向与红色提示排查",
+  "summary": "回应模型尺寸疑问，重新检查朝向、板材设置和装配步骤，区分真实错误与需要进一步判断的提示。",
+  "key_points": [
+    "优先依据目标实物尺寸建模，不应只为了消除警告任意缩小模型。",
+    "板材幅面、边距、模型方向和切片方向都可能影响能否放入材料。",
+    "红色标记需要结合越界、连接关系和 Assembly Steps 检查，不能一律忽略。",
+    "本次讲师通过重导入、调整视图和选择正确板材继续诊断，没有一个通用数值可直接套用。"
+  ],
+  "terms": [
+    {
+      "term": "Assembly Steps",
+      "definition": "按步骤预览零件装配关系。"
+    },
+    {
+      "term": "模型朝向",
+      "definition": "模型坐标轴与软件及制造方向之间的对应。"
+    }
+  ],
+  "actions": [
+    "核对模型的正面、顶部、单位和真实尺寸。",
+    "查看有问题的零件及装配步骤，定位原因后再改设置。"
+  ],
+  "start": 10257.385,
+  "end": 10583.415,
+  "references": [],
+  "moments": [
+    {
+      "time": 10278.455,
+      "title": "板材边距与缩尺疑问"
+    },
+    {
+      "time": 10335.445,
+      "title": "重新导入和检查轴向"
+    },
+    {
+      "time": 10437.125,
+      "title": "回到实际制作尺度"
+    },
+    {
+      "time": 10505.445,
+      "title": "通过装配步骤检查提示"
+    }
+  ],
+  "frames": [
+    {
+      "time": 10425.0,
+      "caption": "模型朝向检查",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/orientation-debug-1.jpg"
+    },
+    {
+      "time": 10525.0,
+      "caption": "通过装配步骤检查结构",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/orientation-debug-2.jpg"
+    }
+  ]
+}

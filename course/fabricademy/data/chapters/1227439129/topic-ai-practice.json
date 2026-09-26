@@ -1,0 +1,59 @@
+{
+  "id": "topic-ai-practice",
+  "title": "AI 辅助的边界、披露与事实核对",
+  "summary": "本次课程把 AI 定位为辅助探索工具，要求保留自己的构思、判断和表达，并说明使用情况。",
+  "key_points": [
+    "讲师允许把 AI 用于已有想法的变化探索和辅助优化，并以手绘草稿再生成变体的项目说明。",
+    "本次课程要求注明 AI 使用；不允许直接复制生成内容作为自己的代码、研究或文档表达。",
+    "讲师强调先建立自己的概念与真实参考，不把个人研究和灵感选择全部交给生成工具。",
+    "课程提到语言校对工具，但不能据此把整篇代写或重写当作自己的记录。",
+    "AI 可能生成错误事实和虚构引文，需回到原网站、数据表、论文及作者核查。"
+  ],
+  "terms": [
+    {
+      "term": "使用披露",
+      "definition": "说明使用了什么工具、在哪个环节参与，以及自己的判断和修改。"
+    },
+    {
+      "term": "事实核对",
+      "definition": "通过实际存在的原始来源验证信息与引文。"
+    }
+  ],
+  "actions": [
+    "先保留自己的草图、实验和思考，再记录辅助工具的使用。",
+    "逐项打开引用来源，确认其确实支持相应内容。"
+  ],
+  "start": 1245.471,
+  "end": 1502.391,
+  "references": [],
+  "moments": [
+    {
+      "time": 1286.901,
+      "title": "说明 AI 使用"
+    },
+    {
+      "time": 1327.312,
+      "title": "手绘与生成变体案例"
+    },
+    {
+      "time": 1403.511,
+      "title": "复制与文档表达限制"
+    },
+    {
+      "time": 1467.081,
+      "title": "虚构信息与原始来源核对"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1360.0,
+      "caption": "手绘草稿与生成变体案例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/ai-practice-1.jpg"
+    },
+    {
+      "time": 1485.0,
+      "caption": "AI 信息与引文核对提醒",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/ai-practice-2.jpg"
+    }
+  ]
+}

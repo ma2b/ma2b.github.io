@@ -1,0 +1,67 @@
+{
+  "id": "topic-laser-slicer",
+  "title": "Blender Laser Slicer：安装与首次切片",
+  "summary": "建立一个测试模型，安装 Laser Slicer，设置尺寸、层间距和切片范围，再查看生成的 SVG。",
+  "key_points": [
+    "插件安装和启用后，在 N 侧栏的 Laser 页签操作；来源与版本应以课程提供的插件资料为准。",
+    "先检查 Item 中的模型尺寸，再设置切片间距及覆盖模型截面的切片平面。",
+    "指定输出目录后执行切片，在 Outliner 中区分原模型与切片结果。",
+    "该演示生成的 SVG 没有自动编号，需要后续整理顺序和排料；不能随意缩放轮廓却保持原层厚不变。"
+  ],
+  "terms": [
+    {
+      "term": "切片间距",
+      "definition": "沿切片方向相邻截面的距离，应与制作方案和材料一致。"
+    },
+    {
+      "term": "SVG",
+      "definition": "课程用于保存切片矢量轮廓的格式。"
+    }
+  ],
+  "actions": [
+    "用简单模型验证插件能生成切片和 SVG。",
+    "核对模型实际尺寸、板材厚度及切片输出比例。"
+  ],
+  "start": 2657.345,
+  "end": 3462.885,
+  "references": [],
+  "moments": [
+    {
+      "time": 2706.535,
+      "title": "建立测试几何"
+    },
+    {
+      "time": 2769.875,
+      "title": "安装与启用插件"
+    },
+    {
+      "time": 2917.335,
+      "title": "尺寸和切片参数"
+    },
+    {
+      "time": 3036.105,
+      "title": "输出目录与执行切片"
+    },
+    {
+      "time": 3181.845,
+      "title": "在 Inkscape 中检查 SVG"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2920.0,
+      "caption": "Laser Slicer 参数面板",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/laser-slicer-1.jpg"
+    },
+    {
+      "time": 3102.0,
+      "caption": "隐藏原模型查看切片",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/laser-slicer-2.jpg"
+    },
+    {
+      "time": 3248.0,
+      "caption": "切片 SVG 的轮廓排列",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/laser-slicer-3.jpg"
+    }
+  ]
+}

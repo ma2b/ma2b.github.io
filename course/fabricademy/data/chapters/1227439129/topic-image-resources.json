@@ -1,0 +1,81 @@
+{
+  "id": "topic-image-resources",
+  "title": "配色、素材、拼贴与图片处理工具",
+  "summary": "按配色、研究参考、拼贴、压缩和去背景等任务认识在线工具，并区分平台授权与课程署名要求。",
+  "key_points": [
+    "Adobe Color 与 Canva 用于配色和布局，Pinterest 用于寻找真实项目参考；引用应追溯到作品来源。",
+    "Unsplash 和 Pexels 提供各自许可下可用的素材，不等于作品没有版权或用途毫无限制。",
+    "平台可能不强制署名，但本次课程仍强调记录图片来源；免费功能与使用额度需以工具实际页面为准。",
+    "压缩、批量处理和去背景是不同任务；保留原图，检查处理后的小字、边缘和细节。",
+    "课程提到通过 WhatsApp 压缩的便捷方式，但这会影响画质，不应替代原文件归档。"
+  ],
+  "terms": [
+    {
+      "term": "素材许可",
+      "definition": "权利人或平台规定的使用条件。"
+    },
+    {
+      "term": "批量处理",
+      "definition": "对一组文件应用一致的调整并导出。"
+    }
+  ],
+  "actions": [
+    "为引用图片保存作者、作品原链接和许可信息。",
+    "选一张代表性图片试压缩，确认清晰度后再批量处理。"
+  ],
+  "start": 944.595,
+  "end": 1245.471,
+  "references": [
+    {
+      "title": "Unsplash 官方许可",
+      "url": "https://unsplash.com/license"
+    },
+    {
+      "title": "Pexels 官方许可",
+      "url": "https://www.pexels.com/license/"
+    }
+  ],
+  "moments": [
+    {
+      "time": 948.075,
+      "title": "配色与 Canva"
+    },
+    {
+      "time": 1013.235,
+      "title": "Pinterest 与来源"
+    },
+    {
+      "time": 1053.405,
+      "title": "图库素材"
+    },
+    {
+      "time": 1093.665,
+      "title": "拼贴与压缩"
+    },
+    {
+      "time": 1161.201,
+      "title": "批量处理"
+    },
+    {
+      "time": 1193.481,
+      "title": "去背景工具"
+    }
+  ],
+  "frames": [
+    {
+      "time": 960.0,
+      "caption": "在线配色资源",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-resources-1.jpg"
+    },
+    {
+      "time": 1082.0,
+      "caption": "Pexels 图片素材示例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-resources-2.jpg"
+    },
+    {
+      "time": 1174.0,
+      "caption": "批量图片处理资源",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/image-resources-3.jpg"
+    }
+  ]
+}

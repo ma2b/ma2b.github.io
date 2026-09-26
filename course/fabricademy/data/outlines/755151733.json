@@ -1,0 +1,248 @@
+{
+  "id": "755151733",
+  "slug": "05-3d-scanning-demo",
+  "title": "3D 扫描演示：Kinect、Sense 与专业扫描仪",
+  "description": "Fabricademy 2022 3D Scanning Demo：对照不同扫描设备的采集、网格清理与导出流程。",
+  "binding_source": "extension",
+  "duration": 2918.72,
+  "page_url": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/notes.html",
+  "bilibili": {
+    "bvid": "BV1jUaN6oEDp",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-scan-overview",
+      "title": "两类扫描设备与现场布置",
+      "start": 0.0,
+      "end": 101.9,
+      "moments": [
+        {
+          "time": 9.8,
+          "title": "课程范围"
+        },
+        {
+          "time": 49.2,
+          "title": "转台与模特"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-scan-overview.json",
+      "sha256": "744088ef95f1bb829c1ff1f34179b298df16c511c39e5d3cd7e1654508a986cc"
+    },
+    {
+      "id": "topic-skanect-setup",
+      "title": "Skanect 连接、预设与扫描范围",
+      "start": 101.9,
+      "end": 265.7,
+      "moments": [
+        {
+          "time": 104.6,
+          "title": "Skanect 与 Kinect"
+        },
+        {
+          "time": 142.0,
+          "title": "预设与范围"
+        },
+        {
+          "time": 230.5,
+          "title": "保持姿态"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-skanect-setup.json",
+      "sha256": "7ae1845feac5c2a9825f7497491afb668889579e5f8555a6aeffc5d747551cba"
+    },
+    {
+      "id": "topic-skanect-failures",
+      "title": "首次采集失去跟踪：背景、光线与重试",
+      "start": 265.7,
+      "end": 817.9,
+      "moments": [
+        {
+          "time": 268.7,
+          "title": "开始录制"
+        },
+        {
+          "time": 360.0,
+          "title": "模糊且含后墙的结果"
+        },
+        {
+          "time": 750.8,
+          "title": "讲师说明反复调试"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-skanect-failures.json",
+      "sha256": "cd45e4af03efbbd05e55fd9b463cf33ac592a8b53aebc101fb437c1becf56411"
+    },
+    {
+      "id": "topic-skanect-capture",
+      "title": "缩小包围盒后完成一圈扫描",
+      "start": 817.9,
+      "end": 943.3,
+      "moments": [
+        {
+          "time": 817.9,
+          "title": "缩小包围盒"
+        },
+        {
+          "time": 843.6,
+          "title": "慢速旋转"
+        },
+        {
+          "time": 920.0,
+          "title": "结束采集"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-skanect-capture.json",
+      "sha256": "9c72e904b7db7b7ba18b5e7e7807b1af136e89bc2bc81a4338ba66f514fef99f"
+    },
+    {
+      "id": "topic-skanect-process",
+      "title": "重建、封闭网格、裁剪与导出",
+      "start": 943.3,
+      "end": 1217.6,
+      "moments": [
+        {
+          "time": 943.3,
+          "title": "重建"
+        },
+        {
+          "time": 990.0,
+          "title": "Watertight 与补洞"
+        },
+        {
+          "time": 1080.0,
+          "title": "裁剪底面"
+        },
+        {
+          "time": 1160.0,
+          "title": "格式与尺度"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-skanect-process.json",
+      "sha256": "49d62ea6de5f42fa0a68859934810285aac39811013c936d72e05e8c85a01e75"
+    },
+    {
+      "id": "topic-sense-handheld",
+      "title": "Sense 手持扫描：保持目标与视角",
+      "start": 1217.6,
+      "end": 1878.7,
+      "moments": [
+        {
+          "time": 1235.3,
+          "title": "设备与软件"
+        },
+        {
+          "time": 1440.0,
+          "title": "开始手持扫描"
+        },
+        {
+          "time": 1620.0,
+          "title": "跟踪恢复"
+        },
+        {
+          "time": 1710.0,
+          "title": "裁剪与导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-sense-handheld.json",
+      "sha256": "0450da23f4a01a6ab1fd373e935a67c922b614b662d34d420a4ce3fb3f3b44b9"
+    },
+    {
+      "id": "topic-sense-second-demo",
+      "title": "旧版 Sense 再演示：尺度、跟踪与封闭",
+      "start": 1878.7,
+      "end": 2329.9,
+      "moments": [
+        {
+          "time": 1881.6,
+          "title": "旧版 Sense"
+        },
+        {
+          "time": 1920.0,
+          "title": "选择对象大小"
+        },
+        {
+          "time": 2010.0,
+          "title": "跟踪丢失"
+        },
+        {
+          "time": 2130.0,
+          "title": "Solidify"
+        },
+        {
+          "time": 2243.3,
+          "title": "导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-sense-second-demo.json",
+      "sha256": "2d6c7e5d04d74306da0caf425d7493496327ec7f5a38d4c8ce36e7cb18bd0680"
+    },
+    {
+      "id": "topic-professional-scanner",
+      "title": "专业结构光扫描：细节、分段与合并",
+      "start": 2329.9,
+      "end": 2553.6,
+      "moments": [
+        {
+          "time": 2332.4,
+          "title": "专业设备介绍"
+        },
+        {
+          "time": 2366.9,
+          "title": "细节比较"
+        },
+        {
+          "time": 2487.6,
+          "title": "自动合并"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-professional-scanner.json",
+      "sha256": "702ed04544f3be172632c750b3f8e74f89ecbc85d6c7d9bfeac826a3c81075f6"
+    },
+    {
+      "id": "topic-professional-live",
+      "title": "现场再扫：反光表面与细节展示",
+      "start": 2553.6,
+      "end": 2745.5,
+      "moments": [
+        {
+          "time": 2564.9,
+          "title": "避免反光和透明"
+        },
+        {
+          "time": 2600.0,
+          "title": "现场采集"
+        },
+        {
+          "time": 2700.0,
+          "title": "物体与模型比较"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-professional-live.json",
+      "sha256": "033da063345803a6853f6f1bc7c0ab178395e62e622c2f37a559e0630742fe54"
+    },
+    {
+      "id": "topic-alternatives-wrap",
+      "title": "问答与替代方案：手机扫描和摄影测量",
+      "start": 2745.5,
+      "end": 2918.72,
+      "moments": [
+        {
+          "time": 2752.5,
+          "title": "提问"
+        },
+        {
+          "time": 2855.0,
+          "title": "手机与照片"
+        },
+        {
+          "time": 2911.2,
+          "title": "结束"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/755151733/topic-alternatives-wrap.json",
+      "sha256": "1dc320e619d597135c29cd0b2f1792ca11f662ce9e6423f30c6b2267c7a0cb21"
+    }
+  ]
+}

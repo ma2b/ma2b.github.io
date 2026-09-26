@@ -1,0 +1,44 @@
+{
+  "id": "topic-video-embed",
+  "title": "视频托管与嵌入网页",
+  "summary": "较大的过程视频先上传视频平台，再把播放器嵌入文档中。",
+  "key_points": [
+    "本段示范 YouTube 和 Vimeo 的 Share / Embed 流程，强调嵌入代码与浏览器地址栏链接不同。",
+    "视频适合记录加工和装配等时间过程；网页中补充简短说明，帮助读者知道要观察什么。",
+    "上传完成后应检查分享权限和网页内播放是否可用。"
+  ],
+  "terms": [
+    {
+      "term": "Embed Code",
+      "definition": "用于在网页中插入播放器的代码。"
+    }
+  ],
+  "actions": [
+    "上传过程视频，从分享菜单获取嵌入代码。",
+    "在最终页面检查播放权限、尺寸与说明。"
+  ],
+  "start": 2011.408,
+  "end": 2088.567,
+  "references": [],
+  "moments": [
+    {
+      "time": 2018.518,
+      "title": "先上传视频平台"
+    },
+    {
+      "time": 2037.656,
+      "title": "嵌入代码区别"
+    },
+    {
+      "time": 2060.217,
+      "title": "加工与组装视频"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2045.0,
+      "caption": "视频平台分享与嵌入示例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/video-embed-1.jpg"
+    }
+  ]
+}

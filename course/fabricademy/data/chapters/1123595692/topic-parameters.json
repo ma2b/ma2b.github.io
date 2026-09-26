@@ -1,0 +1,53 @@
+{
+  "id": "topic-parameters",
+  "title": "Fusion 表达式与用户参数",
+  "summary": "在尺寸栏使用关系式，并建立命名参数，让材料厚度等变量驱动草图变化。",
+  "key_points": [
+    "尺寸输入可以引用其他尺寸或使用数学表达式，但结果仍需检查，演示也出现了碰撞或不合理数值。",
+    "通过 Modify 下的参数功能建立具名变量，再让槽宽引用该变量。",
+    "更改参数后观察几何联动；重复制造前应重新检查槽宽、间距和连接效果。"
+  ],
+  "terms": [
+    {
+      "term": "用户参数",
+      "definition": "由设计者命名、赋值并供尺寸引用的变量。"
+    },
+    {
+      "term": "表达式",
+      "definition": "通过运算或引用建立尺寸之间的关系。"
+    }
+  ],
+  "actions": [
+    "为材料厚度建立清楚命名的参数，并让槽宽引用它。",
+    "切换几个试验值，检查阵列是否碰撞及接口是否仍可制造。"
+  ],
+  "start": 4680.185,
+  "end": 4932.945,
+  "references": [],
+  "moments": [
+    {
+      "time": 4690.575,
+      "title": "尺寸引用与数学表达式"
+    },
+    {
+      "time": 4831.915,
+      "title": "建立厚度参数"
+    },
+    {
+      "time": 4865.035,
+      "title": "引用参数并观察更新"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4855.0,
+      "caption": "建立用户参数",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/parameters-1.jpg"
+    },
+    {
+      "time": 4885.0,
+      "caption": "在参数表中修改厚度值",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/parameters-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "topic-manifold",
+  "title": "3D Print 检查与非流形修复",
+  "summary": "使用 3D Print 工具检查非流形边和相交面，讨论 Make Manifold 等清理方法。",
+  "key_points": [
+    "非流形边与相交面会妨碍打印或后续制造。",
+    "Make Manifold 是清理手段，结果仍要重新检查。"
+  ],
+  "terms": [
+    {
+      "term": "非流形",
+      "definition": "网格连接不满足封闭实体要求的情况。"
+    }
+  ],
+  "actions": [
+    "修复后重新检查闭合性，不能只看模型外观。"
+  ],
+  "start": 6482.191,
+  "end": 7147.032,
+  "references": [],
+  "moments": [
+    {
+      "time": 6754.152,
+      "title": "3D Print 检查与非流形修复"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6930.0,
+      "caption": "Blender 中的网格检查与修复面板",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/manifold.jpg"
+    }
+  ]
+}

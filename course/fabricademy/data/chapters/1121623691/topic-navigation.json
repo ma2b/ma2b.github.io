@@ -1,0 +1,48 @@
+{
+  "id": "topic-navigation",
+  "title": "插件提示、场景组织与视图导航",
+  "summary": "整理常用插件和集合，再练习绕视、平移、缩放与轴向视图。",
+  "key_points": [
+    "Bool Tool、LoopTools 和 MPFB 是讲师提及的扩展，不需要为了本次基础练习全部安装。",
+    "讲师用 Environment 放灯光和相机、Assets 放模型，这是个人组织方式而非系统固定目录。",
+    "中键拖动绕视、Shift 加中键平移、滚轮缩放；轴向导航控件可以切换正视和俯视。"
+  ],
+  "terms": [
+    {
+      "term": "MMB",
+      "definition": "鼠标中键。"
+    },
+    {
+      "term": "Viewport Navigation",
+      "definition": "改变观察位置与角度，不等于移动模型。"
+    }
+  ],
+  "actions": [
+    "按用途整理集合并给对象命名。",
+    "练习从不同轴向观察模型，再回到自由视角。"
+  ],
+  "start": 5159.885,
+  "end": 5568.375,
+  "references": [],
+  "moments": [
+    {
+      "time": 5159.885,
+      "title": "插件与单位设置提示"
+    },
+    {
+      "time": 5220.805,
+      "title": "Environment 和 Assets 集合"
+    },
+    {
+      "time": 5280.245,
+      "title": "中键与轴向视图导航"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5330.0,
+      "caption": "视图导航与轴向控件",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/navigation-1.jpg"
+    }
+  ]
+}

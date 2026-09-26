@@ -1,0 +1,53 @@
+{
+  "id": "topic-plans-fit",
+  "title": "导出图纸、接口测试与排料",
+  "summary": "导出切割图纸，先测试两片接口的配合，再优化板材排料。",
+  "key_points": [
+    "Get Plans 导出后检查尺度和板材分布，保留零件与装配顺序的对应。",
+    "先切两处交接小样，目标是能顺利插入又不松晃，再调整 Slot Offset。",
+    "Slicer 的排料可继续手动优化；Deepnest 在课程中作为可选排料工具介绍。",
+    "讲师后来说明自己常在矢量软件中手动整理，不必把 Deepnest 视为每次必经步骤。"
+  ],
+  "terms": [
+    {
+      "term": "Nesting",
+      "definition": "将零件布局到一个或多个板材幅面中。"
+    },
+    {
+      "term": "接口小样",
+      "definition": "在批量加工前验证实际槽口配合的试件。"
+    }
+  ],
+  "actions": [
+    "导出图纸后核对比例和零件标识。",
+    "先做接口测试，再决定槽口参数及批量排料。"
+  ],
+  "start": 9931.205,
+  "end": 10257.385,
+  "references": [],
+  "moments": [
+    {
+      "time": 9938.545,
+      "title": "导出 DXF 图纸"
+    },
+    {
+      "time": 9960.915,
+      "title": "手动优化板材布局"
+    },
+    {
+      "time": 10030.595,
+      "title": "两片接口测试"
+    },
+    {
+      "time": 10113.735,
+      "title": "Deepnest 与后续答疑"
+    }
+  ],
+  "frames": [
+    {
+      "time": 10040.0,
+      "caption": "接口测试位置与槽口配合说明",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/plans-fit-1.jpg"
+    }
+  ]
+}

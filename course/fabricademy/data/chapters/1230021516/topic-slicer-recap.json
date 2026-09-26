@@ -1,0 +1,34 @@
+{
+  "id": "topic-slicer-recap",
+  "title": "Slicer for Fusion 360：三维模型到切割图纸",
+  "summary": "回顾导入三维模型、调整切片方向和数量、检查装配，再导出 DXF 图纸的流程。",
+  "key_points": [
+    "Slicer 通过切片方案把 STL 或 OBJ 模型转换为可切割零件。",
+    "DXF 输出前还要查看装配过程和错误提示。"
+  ],
+  "terms": [
+    {
+      "term": "DXF",
+      "definition": "二维 CAD 图纸格式，可用于后续切割准备。"
+    }
+  ],
+  "actions": [
+    "检查模型是否封闭，并在导出前看装配顺序与材料厚度。"
+  ],
+  "start": 0.0,
+  "end": 392.82,
+  "references": [],
+  "moments": [
+    {
+      "time": 215.64,
+      "title": "Slicer for Fusion 360：三维模型到切割图纸"
+    }
+  ],
+  "frames": [
+    {
+      "time": 215.64,
+      "caption": "Slicer 的切片与图纸设置",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/slicer-recap.jpg"
+    }
+  ]
+}

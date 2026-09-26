@@ -1,0 +1,34 @@
+{
+  "id": "topic-blender-boolean",
+  "title": "用平面与布尔运算修整底部",
+  "summary": "示范给切割平面增加厚度、执行布尔差集，并分离、删除多余几何。",
+  "key_points": [
+    "Solidify 可给切割平面增加厚度。",
+    "布尔差集后仍需删除松散部件并检查切面。"
+  ],
+  "terms": [
+    {
+      "term": "布尔差集",
+      "definition": "用一个几何体从另一个几何体中扣除体积。"
+    }
+  ],
+  "actions": [
+    "布尔操作后检查切面与残留的松散部件。"
+  ],
+  "start": 5701.459,
+  "end": 6482.191,
+  "references": [],
+  "moments": [
+    {
+      "time": 6215.31,
+      "title": "用平面与布尔运算修整底部"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6215.31,
+      "caption": "Blender 的切面和布尔处理",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/blender-boolean.jpg"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "id": "topic-character-finish",
+  "title": "细分、平滑和角色材质",
+  "summary": "通过平滑与细分曲面改善外形，为不同部件指定颜色；随后安排短暂休息。",
+  "key_points": [
+    "平滑阴影和细分曲面的效果不同。",
+    "角色不同区域可指定不同材质。"
+  ],
+  "terms": [],
+  "actions": [
+    "先检查拓扑，再增加细分层级和材质。"
+  ],
+  "start": 3181.606,
+  "end": 3901.204,
+  "references": [],
+  "moments": [
+    {
+      "time": 3210.826,
+      "title": "细分、平滑和角色材质"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3210.826,
+      "caption": "角色的细分与材质分配",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/character-finish.jpg"
+    }
+  ]
+}

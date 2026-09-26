@@ -1,0 +1,62 @@
+{
+  "id": "topic-markdown",
+  "title": "Markdown 写作与扩展组件",
+  "summary": "以每周作业模板为例，区分基础 Markdown、HTML 和扩展组件，理解提示框、按钮、表格与图片图注。",
+  "key_points": [
+    "把模板源码与渲染结果对照起来看，辨认标题、正文和可折叠提示框。",
+    "基础 Markdown 之外的提示框、按钮等可能需要先启用对应扩展。",
+    "扩展语法与工具有关，不能假定所有编辑器都能预览同样的效果。",
+    "模板混用 HTML 实现图片图注；图注与图片替代文本是不同用途。"
+  ],
+  "terms": [
+    {
+      "term": "Admonition",
+      "definition": "用于提示、说明或警告的内容框。"
+    },
+    {
+      "term": "Markdown extension",
+      "definition": "为 Markdown 增加组件或语法的扩展。"
+    },
+    {
+      "term": "Caption",
+      "definition": "显示在图片附近的图注。"
+    }
+  ],
+  "actions": [
+    "从模板中选择一个提示框，对照其源码、配置与显示结果。",
+    "找到图注示例，再阅读下一章的图片语法和路径说明。"
+  ],
+  "start": 2261.466,
+  "end": 2655.831,
+  "references": [],
+  "moments": [
+    {
+      "time": 2261.466,
+      "title": "阅读每周作业模板"
+    },
+    {
+      "time": 2339.361,
+      "title": "提示框、按钮与表格"
+    },
+    {
+      "time": 2425.851,
+      "title": "基础语法与工具扩展的区别"
+    },
+    {
+      "time": 2589.261,
+      "title": "用 HTML 添加图片图注"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2335.0,
+      "caption": "模板源码与页面效果",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/markdown-1.jpg"
+    },
+    {
+      "time": 2610.0,
+      "caption": "图片与图注示例",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/markdown-2.jpg"
+    }
+  ]
+}

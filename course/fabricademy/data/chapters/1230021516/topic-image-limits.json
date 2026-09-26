@@ -1,0 +1,29 @@
+{
+  "id": "topic-image-limits",
+  "title": "提示词、参考图与二维图像的限制",
+  "summary": "讨论图像生成的姿态和比例控制、平台限制，以及二维效果和真实三维几何的区别。",
+  "key_points": [
+    "提示词对比例或局部形体的控制可能不精确。",
+    "干净背景与明确主体有助于后续图像转三维。"
+  ],
+  "terms": [],
+  "actions": [
+    "使用背景简洁、主体清楚的参考图，并核对生成结果的局部结构。"
+  ],
+  "start": 1503.954,
+  "end": 2462.322,
+  "references": [],
+  "moments": [
+    {
+      "time": 1770.402,
+      "title": "提示词、参考图与二维图像的限制"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1770.402,
+      "caption": "学员讨论图像生成的比例、网格和平台限制",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/image-limits.jpg"
+    }
+  ]
+}

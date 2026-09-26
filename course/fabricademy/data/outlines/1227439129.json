@@ -1,0 +1,448 @@
+{
+  "id": "1227439129",
+  "slug": "03-fabricademy-opening",
+  "title": "视觉文档化：案例、素材与媒体制作",
+  "description": "Fabricademy 2026-09-16 视觉文档化课程 AI 笔记：按实际内容梳理资源、图文表达、署名许可、媒体归档、图片压缩与拍摄方法。",
+  "binding_source": "extension",
+  "duration": 3407.936,
+  "page_url": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/notes.html",
+  "bilibili": {
+    "bvid": "BV1w5h86PEPU",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-introduction",
+      "title": "视觉文档化的目标与课程路线",
+      "start": 0.0,
+      "end": 160.921,
+      "moments": [
+        {
+          "time": 21.87,
+          "title": "讲师背景"
+        },
+        {
+          "time": 64.89,
+          "title": "课程路线"
+        },
+        {
+          "time": 125.88,
+          "title": "工具准备"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-introduction.json",
+      "sha256": "598db47c0a6343d73bcc462292dab6b9de4fa7dc1c80263ca78a7e3447e09e13"
+    },
+    {
+      "id": "topic-archive-assignment",
+      "title": "Class Archive、Handbook 与第一周任务",
+      "start": 160.921,
+      "end": 410.88,
+      "moments": [
+        {
+          "time": 204.48,
+          "title": "定位个人网站"
+        },
+        {
+          "time": 242.101,
+          "title": "按周查找工具"
+        },
+        {
+          "time": 304.98,
+          "title": "手册与作业"
+        },
+        {
+          "time": 353.37,
+          "title": "第一周内容要求"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-archive-assignment.json",
+      "sha256": "a41c64225381fe8f355db98ea601b6f2c93398dfbb36279976e87ee3363e09c4"
+    },
+    {
+      "id": "topic-visual-examples",
+      "title": "从模板到个人表达：案例与信息组织",
+      "start": 410.88,
+      "end": 840.615,
+      "moments": [
+        {
+          "time": 452.88,
+          "title": "模板与信息层次"
+        },
+        {
+          "time": 516.36,
+          "title": "Markdown 速查"
+        },
+        {
+          "time": 556.785,
+          "title": "情绪板与留白"
+        },
+        {
+          "time": 657.855,
+          "title": "手绘流程与数字化"
+        },
+        {
+          "time": 718.575,
+          "title": "作业封面体系"
+        },
+        {
+          "time": 779.145,
+          "title": "信息图与材料研究"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-visual-examples.json",
+      "sha256": "751c7a7efeaa3a2d2ccd5d1020afea4269fe90059dabe3e525982f20730350b3"
+    },
+    {
+      "id": "topic-audio-motion",
+      "title": "语音记录与轻量动态媒体",
+      "start": 840.615,
+      "end": 944.595,
+      "moments": [
+        {
+          "time": 849.045,
+          "title": "语音与转录案例"
+        },
+        {
+          "time": 873.915,
+          "title": "GIF 限制"
+        },
+        {
+          "time": 911.145,
+          "title": "循环 MP4 替代方式"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-audio-motion.json",
+      "sha256": "5338e9fe1d2b968e99b3e15cf488f03fffa003b7db5555b4299d5feee93f9b08"
+    },
+    {
+      "id": "topic-image-resources",
+      "title": "配色、素材、拼贴与图片处理工具",
+      "start": 944.595,
+      "end": 1245.471,
+      "moments": [
+        {
+          "time": 948.075,
+          "title": "配色与 Canva"
+        },
+        {
+          "time": 1013.235,
+          "title": "Pinterest 与来源"
+        },
+        {
+          "time": 1053.405,
+          "title": "图库素材"
+        },
+        {
+          "time": 1093.665,
+          "title": "拼贴与压缩"
+        },
+        {
+          "time": 1161.201,
+          "title": "批量处理"
+        },
+        {
+          "time": 1193.481,
+          "title": "去背景工具"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-image-resources.json",
+      "sha256": "a989102df9770995f7b09283529a8279cdeb723ce953f4db2093df3057265130"
+    },
+    {
+      "id": "topic-ai-practice",
+      "title": "AI 辅助的边界、披露与事实核对",
+      "start": 1245.471,
+      "end": 1502.391,
+      "moments": [
+        {
+          "time": 1286.901,
+          "title": "说明 AI 使用"
+        },
+        {
+          "time": 1327.312,
+          "title": "手绘与生成变体案例"
+        },
+        {
+          "time": 1403.511,
+          "title": "复制与文档表达限制"
+        },
+        {
+          "time": 1467.081,
+          "title": "虚构信息与原始来源核对"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-ai-practice.json",
+      "sha256": "cf48e3b599e45de2041576bf6e4fa2adf1af364217ee51a9f80b7bc72df836b4"
+    },
+    {
+      "id": "topic-credit-license",
+      "title": "Creative Commons 与图片署名",
+      "start": 1502.391,
+      "end": 1654.047,
+      "moments": [
+        {
+          "time": 1515.441,
+          "title": "页脚许可"
+        },
+        {
+          "time": 1550.451,
+          "title": "署名与非商业条件"
+        },
+        {
+          "time": 1577.692,
+          "title": "图注示例"
+        },
+        {
+          "time": 1643.271,
+          "title": "摄影者署名"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-credit-license.json",
+      "sha256": "7d2353ca754613facbf205dd0779dc90aba651042e27c13fc70ca117630090b7"
+    },
+    {
+      "id": "topic-pdf-archive",
+      "title": "PDF、手册与作品集：先归档再嵌入",
+      "start": 1654.047,
+      "end": 1899.658,
+      "moments": [
+        {
+          "time": 1683.747,
+          "title": "PDF 与外部嵌入限制"
+        },
+        {
+          "time": 1721.938,
+          "title": "模板 PDF 阅读器"
+        },
+        {
+          "time": 1764.207,
+          "title": "手册案例"
+        },
+        {
+          "time": 1806.117,
+          "title": "压缩工具"
+        },
+        {
+          "time": 1863.807,
+          "title": "个人作品集展示"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-pdf-archive.json",
+      "sha256": "5c3ae906d4f503029be8c35bac3e4457519124d3c239276de50b6d4baac1037a"
+    },
+    {
+      "id": "topic-fabrication-files",
+      "title": "制造文件打包与三维模型预览",
+      "start": 1899.658,
+      "end": 2011.408,
+      "moments": [
+        {
+          "time": 1908.057,
+          "title": "模型和 Grasshopper 文件"
+        },
+        {
+          "time": 1933.047,
+          "title": "压缩文件操作"
+        },
+        {
+          "time": 1970.397,
+          "title": "三维预览与源文件"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-fabrication-files.json",
+      "sha256": "f97f7fa52f852df54251d297ce3b37f5cfb00d037480968aebdc07ce7626bfc7"
+    },
+    {
+      "id": "topic-video-embed",
+      "title": "视频托管与嵌入网页",
+      "start": 2011.408,
+      "end": 2088.567,
+      "moments": [
+        {
+          "time": 2018.518,
+          "title": "先上传视频平台"
+        },
+        {
+          "time": 2037.656,
+          "title": "嵌入代码区别"
+        },
+        {
+          "time": 2060.217,
+          "title": "加工与组装视频"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-video-embed.json",
+      "sha256": "db5434584d251fca9708fec5fb4f75c524a89b6ccfeb885c4777537721eeebe7"
+    },
+    {
+      "id": "topic-raster-vector",
+      "title": "位图、矢量与制造路径",
+      "start": 2088.567,
+      "end": 2253.993,
+      "moments": [
+        {
+          "time": 2104.227,
+          "title": "像素与路径"
+        },
+        {
+          "time": 2149.647,
+          "title": "常见格式"
+        },
+        {
+          "time": 2169.717,
+          "title": "对应编辑工具"
+        },
+        {
+          "time": 2201.824,
+          "title": "制造用途与闭合轮廓"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-raster-vector.json",
+      "sha256": "5dd0a73c8235a55a2625f04c87540c5258d947ca5e57704bf187e41e5338e719"
+    },
+    {
+      "id": "topic-image-size",
+      "title": "缩放、批处理与网页图片大小",
+      "start": 2253.993,
+      "end": 2372.253,
+      "moments": [
+        {
+          "time": 2266.413,
+          "title": "Scale Image"
+        },
+        {
+          "time": 2287.143,
+          "title": "批量处理介绍"
+        },
+        {
+          "time": 2322.813,
+          "title": "网页图片实践要求"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-image-size.json",
+      "sha256": "cb85cb302df0e3b7e3a544a9ab6790511078be88c87e1fe9e5ee5cafeaefa60c"
+    },
+    {
+      "id": "topic-photo-story",
+      "title": "拍摄材料、步骤与使用场景",
+      "start": 2372.253,
+      "end": 2613.693,
+      "moments": [
+        {
+          "time": 2416.203,
+          "title": "固定拍摄环境"
+        },
+        {
+          "time": 2453.973,
+          "title": "步骤与俯拍"
+        },
+        {
+          "time": 2488.203,
+          "title": "材质和人物互动"
+        },
+        {
+          "time": 2510.013,
+          "title": "几何与光线"
+        },
+        {
+          "time": 2556.033,
+          "title": "实验台与材料"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-photo-story.json",
+      "sha256": "88e279701cf0e2a57f609039514cffc37aba034fc24a140a91a83639b8c48a74"
+    },
+    {
+      "id": "topic-capture-tools",
+      "title": "拍摄支架、截图与自制工具",
+      "start": 2613.693,
+      "end": 2789.535,
+      "moments": [
+        {
+          "time": 2624.133,
+          "title": "光线与内容选择"
+        },
+        {
+          "time": 2673.363,
+          "title": "电脑画面用截图"
+        },
+        {
+          "time": 2716.473,
+          "title": "自制支架"
+        },
+        {
+          "time": 2736.783,
+          "title": "灯箱与模型资源"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-capture-tools.json",
+      "sha256": "37a19fe53c3c42d5d606f2ed74cfe151033493453502e0016550756fdc3d99e0"
+    },
+    {
+      "id": "topic-video-production",
+      "title": "视频剪辑、编码、素材与声音",
+      "start": 2789.535,
+      "end": 3044.866,
+      "moments": [
+        {
+          "time": 2799.616,
+          "title": "剪辑工具"
+        },
+        {
+          "time": 2842.155,
+          "title": "HandBrake 转码压缩"
+        },
+        {
+          "time": 2889.315,
+          "title": "补充画面"
+        },
+        {
+          "time": 2919.315,
+          "title": "音乐和旁白"
+        },
+        {
+          "time": 2968.545,
+          "title": "比例、分辨率与发布"
+        },
+        {
+          "time": 3014.476,
+          "title": "延伸资源"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-video-production.json",
+      "sha256": "6769913ed8d7c23e3900a9ada505f7bf937907cb935e807c7c03ef698835d3b0"
+    },
+    {
+      "id": "topic-questions-close",
+      "title": "答疑：图片尺寸、AI 辅助与课程收尾",
+      "start": 3044.866,
+      "end": 3407.936,
+      "moments": [
+        {
+          "time": 3084.135,
+          "title": "图片像素问题"
+        },
+        {
+          "time": 3146.625,
+          "title": "等比例缩放示例"
+        },
+        {
+          "time": 3180.285,
+          "title": "AI 音乐与图像处理"
+        },
+        {
+          "time": 3319.275,
+          "title": "是否开展实操"
+        },
+        {
+          "time": 3381.375,
+          "title": "休息与下一场安排"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439129/topic-questions-close.json",
+      "sha256": "841a172effe18e39e81e25cb3e33a0dbb82a2a0ef67dca13a303116915a6b29d"
+    }
+  ]
+}

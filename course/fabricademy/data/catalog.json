@@ -13,7 +13,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1227439130.json",
-      "sha256": "114b461e939891a5566d339ecc2e5c59a2c86c0fe3f36053ce04cd93d4f55848"
+      "sha256": "114b461e939891a5566d339ecc2e5c59a2c86c0fe3f36053ce04cd93d4f55848",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1227439130.json",
+      "outline_sha256": "6b3d73134e7c55666480754048e23f84c8fb2bbccf253c421acd8f5653c44dd6"
     },
     {
       "id": "1123595692",
@@ -26,7 +28,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1123595692.json",
-      "sha256": "1cad04a68c9c6111260ba6738ff4b37fcc552e237bf709eeab882c5bb2e8e974"
+      "sha256": "1cad04a68c9c6111260ba6738ff4b37fcc552e237bf709eeab882c5bb2e8e974",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1123595692.json",
+      "outline_sha256": "ca2b29ff8fede3eb051fc379868e3a1c6662e49df5ba99135e582f64bbd9abf1"
     },
     {
       "id": "1121623691",
@@ -39,7 +43,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1121623691.json",
-      "sha256": "9fc36fd2c51718d5aaf9d2ecaa8ee6a55ea4570e7b953d5d032e1d909fae1139"
+      "sha256": "9fc36fd2c51718d5aaf9d2ecaa8ee6a55ea4570e7b953d5d032e1d909fae1139",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1121623691.json",
+      "outline_sha256": "c805f50c14972abf783d1a2a6cd2050f6c61ade2c0c104a8add5a71feabbf8a4"
     },
     {
       "id": "1227439129",
@@ -52,7 +58,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1227439129.json",
-      "sha256": "e50ae8a944ae29d7d0fb31971f97095bac7509d01eab19ca64a2ff90d0b291ef"
+      "sha256": "e50ae8a944ae29d7d0fb31971f97095bac7509d01eab19ca64a2ff90d0b291ef",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1227439129.json",
+      "outline_sha256": "0653a32a569ccc4eed4cc975d9cfaa4c245eda8adf3af25d4458369bc187e6f2"
     },
     {
       "id": "868785869",
@@ -65,7 +73,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/868785869.json",
-      "sha256": "ae197a91d061d0daa6eb935204096f56d3336f6a59e6c6c2732ef2dc229b7a73"
+      "sha256": "ae197a91d061d0daa6eb935204096f56d3336f6a59e6c6c2732ef2dc229b7a73",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/868785869.json",
+      "outline_sha256": "96ffca8947c8612c993c7efc289d8ef4cae9eb41aef1bcf91f2d56584a8b2ecc"
     },
     {
       "id": "755151733",
@@ -78,7 +88,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/755151733.json",
-      "sha256": "2a154c53587033ddc2f4de854ac4c6b624eddd64cb38a7a0e44a195e8ab605dd"
+      "sha256": "2a154c53587033ddc2f4de854ac4c6b624eddd64cb38a7a0e44a195e8ab605dd",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/755151733.json",
+      "outline_sha256": "28e204478955031a327c7cf3b6efc77612eeb772c19918d7fddb960b6d9fe2f4"
     },
     {
       "id": "293230583",
@@ -91,7 +103,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/293230583.json",
-      "sha256": "7a4806b811c56d19f270172bf8f9988af362c7367e875081774584f8350f86ff"
+      "sha256": "7a4806b811c56d19f270172bf8f9988af362c7367e875081774584f8350f86ff",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/293230583.json",
+      "outline_sha256": "4077adab0a2d4a878e25855817c482207fc11101203cb887b5796e78d13d2d26"
     },
     {
       "id": "1230021516",
@@ -104,7 +118,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1230021516.json",
-      "sha256": "be21ec7b360c1764a83c940d3d43a8a6c018c5fe88214b9856d2b7afdd11164a"
+      "sha256": "be21ec7b360c1764a83c940d3d43a8a6c018c5fe88214b9856d2b7afdd11164a",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1230021516.json",
+      "outline_sha256": "2eba5006822603d83863a34ed8145df59d93b5031469010652c4e4d49adf776f"
     },
     {
       "id": "1229506193",
@@ -117,7 +133,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1229506193.json",
-      "sha256": "94732ff179b73b7b46327ec996769dd1cfe4b506ae6bf0061af7867c0d412752"
+      "sha256": "94732ff179b73b7b46327ec996769dd1cfe4b506ae6bf0061af7867c0d412752",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1229506193.json",
+      "outline_sha256": "a01c6b78793845b42490ab1cda7e99c3ffed334b1a06ed866b2037e046830368"
     }
   ]
 }

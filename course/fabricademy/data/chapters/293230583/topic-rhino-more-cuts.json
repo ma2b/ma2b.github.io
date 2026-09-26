@@ -1,0 +1,44 @@
+{
+  "id": "topic-rhino-more-cuts",
+  "title": "继续切掉手部并仅导出选中网格",
+  "summary": "讲师在多视图中创建更多切割盒，去掉不需要的手部和局部结构，保存并只导出选中的目标网格。",
+  "key_points": [
+    "切割盒要在各视图中覆盖足够厚度，避免只切到正面。",
+    "场景中可能有切割体和残留几何，导出选中对象可减少误带入。",
+    "OBJ 与 STL 选择取决于后续软件及是否需要颜色、纹理。"
+  ],
+  "terms": [
+    {
+      "term": "Export Selected",
+      "definition": "仅导出当前选中几何，避免把辅助对象一起写入文件。"
+    }
+  ],
+  "actions": [
+    "在前、侧、透视视图核对盒体贯穿目标后再切分。",
+    "导出前只选择真正要送入切片软件的模型。"
+  ],
+  "start": 1201.84,
+  "end": 1447.2,
+  "references": [],
+  "moments": [
+    {
+      "time": 1201.84,
+      "title": "处理手部"
+    },
+    {
+      "time": 1320.0,
+      "title": "再次切分"
+    },
+    {
+      "time": 1400.0,
+      "title": "仅导出选中对象"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1330.0,
+      "caption": "Rhino 多视图显示继续修整的人体网格",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/cut-hand.jpg"
+    }
+  ]
+}

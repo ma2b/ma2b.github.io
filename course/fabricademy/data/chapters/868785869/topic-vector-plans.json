@@ -1,0 +1,38 @@
+{
+  "id": "topic-vector-plans",
+  "title": "在二维绘图软件中整理切割线",
+  "summary": "在 Illustrator 或 Inkscape 一类二维工具中整理图纸，可增加雕刻细节并按本地激光机要求分配切割与雕刻线色。",
+  "key_points": [
+    "切割与雕刻线颜色依本地机器工作流设置，视频中的颜色只是实例。",
+    "二维排料、线条清理和局部雕刻在制造前完成。"
+  ],
+  "terms": [
+    {
+      "term": "矢量图纸",
+      "definition": "由二维路径构成、供排料及激光切割的图纸。"
+    }
+  ],
+  "actions": [
+    "清理图纸线条，并按本地机器约定区分切割与雕刻。"
+  ],
+  "start": 3727.84,
+  "end": 4139.52,
+  "references": [],
+  "moments": [
+    {
+      "time": 3807.91,
+      "title": "二维图纸"
+    },
+    {
+      "time": 3959.15,
+      "title": "雕刻与切割线"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3990.0,
+      "caption": "Rhino 中的二维切割路径等待整理与分配线色",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/vector-plan.jpg"
+    }
+  ]
+}

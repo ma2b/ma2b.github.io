@@ -1,0 +1,29 @@
+{
+  "id": "topic-reflection",
+  "title": "反馈与 AI 制造流程的边界",
+  "summary": "课程末尾讨论生成式 AI 的便利、资源消耗和设计控制，也回顾从图像到实体制作的学习经验。",
+  "key_points": [
+    "生成式 AI 缩短探索时间，也引出资源消耗和设计控制问题。",
+    "最终模型与切割文件需通过人工判断和实体测试。"
+  ],
+  "terms": [],
+  "actions": [
+    "把生成结果当作需要验证的草案，保留人工判断和制造测试。"
+  ],
+  "start": 8764.381,
+  "end": 9872.28,
+  "references": [],
+  "moments": [
+    {
+      "time": 8973.99,
+      "title": "反馈与 AI 制造流程的边界"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8973.99,
+      "caption": "课堂总结与反馈",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/reflection.jpg"
+    }
+  ]
+}

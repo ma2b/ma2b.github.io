@@ -1,0 +1,34 @@
+{
+  "id": "topic-materials-render",
+  "title": "材质、灯光与渲染输出",
+  "summary": "快速示范材质属性、透明效果、灯光、场景平面和渲染图片的保存。",
+  "key_points": [
+    "材质和灯光影响最终画面，不会替代几何建模。",
+    "渲染后需另行保存图像文件。"
+  ],
+  "terms": [
+    {
+      "term": "渲染",
+      "definition": "根据场景、材质和灯光生成最终图像。"
+    }
+  ],
+  "actions": [
+    "区分建模视图与最终渲染，保存输出文件时检查路径和格式。"
+  ],
+  "start": 1620.636,
+  "end": 2163.861,
+  "references": [],
+  "moments": [
+    {
+      "time": 1893.621,
+      "title": "材质、灯光与渲染输出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1893.621,
+      "caption": "材质和渲染设置",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/materials-render.jpg"
+    }
+  ]
+}

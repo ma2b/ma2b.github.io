@@ -1,0 +1,53 @@
+{
+  "id": "topic-audio-motion",
+  "title": "语音记录与轻量动态媒体",
+  "summary": "音频可以保留个人表达，动态内容则要结合课程的文件体积要求处理。",
+  "key_points": [
+    "课程展示了语音记录配文字转录的案例，方便不能收听的读者获取内容。",
+    "本次课程明确不接受 GIF，建议用压缩后的循环 MP4 表达必要的短动态内容。",
+    "讲师在这段给出的目标是不超过约 1 MB；这是本次短动态素材的要求，不是所有视频的统一限制。"
+  ],
+  "terms": [
+    {
+      "term": "转录",
+      "definition": "把语音内容写成可阅读的文字。"
+    },
+    {
+      "term": "循环 MP4",
+      "definition": "通过播放器循环播放短视频，形成重复动态。"
+    }
+  ],
+  "actions": [
+    "需要语音介绍时同时提供文字内容。",
+    "只保留有信息价值的动态过程，并检查压缩后的文件大小。"
+  ],
+  "start": 840.615,
+  "end": 944.595,
+  "references": [],
+  "moments": [
+    {
+      "time": 849.045,
+      "title": "语音与转录案例"
+    },
+    {
+      "time": 873.915,
+      "title": "GIF 限制"
+    },
+    {
+      "time": 911.145,
+      "title": "循环 MP4 替代方式"
+    }
+  ],
+  "frames": [
+    {
+      "time": 865.0,
+      "caption": "语音记录与文字转录案例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/audio-motion-1.jpg"
+    },
+    {
+      "time": 925.0,
+      "caption": "以 MP4 替代 GIF 的课程说明",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/audio-motion-2.jpg"
+    }
+  ]
+}

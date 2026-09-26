@@ -1,0 +1,48 @@
+{
+  "id": "topic-mesh-alternatives",
+  "title": "高面数转换失败与 Meshmixer、MeshLab 方案",
+  "summary": "Rhino 的 MeshToNurb 因网格面数过高而难以完成，讲师转而展示 Meshmixer 的雕刻分析与 MeshLab 的重采样和简化。",
+  "key_points": [
+    "把每个网格面转换为曲面可能使模型极其沉重，本次尝试没有成为可用工作流。",
+    "Meshmixer 可用于雕刻和分析；MeshLab 滤镜可改动网格密度，但粗糙重采样可能损害形状。",
+    "最终决定直接在 Rhino 中操作网格，不把失败转换写成成功。"
+  ],
+  "terms": [
+    {
+      "term": "MeshToNurb",
+      "definition": "Rhino 将网格面转换为 NURBS 曲面的命令；高密度网格需谨慎。"
+    },
+    {
+      "term": "重采样",
+      "definition": "重新生成网格表面元素的处理。"
+    }
+  ],
+  "actions": [
+    "在转换前查看网格面数并另存副本。",
+    "比较简化前后轮廓与细节，再决定是否使用结果。"
+  ],
+  "start": 387.2,
+  "end": 801.36,
+  "references": [],
+  "moments": [
+    {
+      "time": 392.16,
+      "title": "MeshToNurb 尝试"
+    },
+    {
+      "time": 540.0,
+      "title": "Meshmixer"
+    },
+    {
+      "time": 690.0,
+      "title": "MeshLab 滤镜"
+    }
+  ],
+  "frames": [
+    {
+      "time": 565.0,
+      "caption": "Meshmixer 中的示例网格和雕刻工具",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/meshmixer.jpg"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "topic-sphere-repeat",
+  "title": "完整复演：球体切片与编号",
+  "summary": "用球体重新走一遍尺寸检查、切片、导入 SVG 和手动编号，回应第一次演示中的疑问。",
+  "key_points": [
+    "演示将球体尺寸设为 0.4 m，即 400 mm；字幕中的“4400 mm”属于识别或口头错误。",
+    "改变层间距会改变切片数量，但实际制造不能只为减少数量而忽略材料厚度。",
+    "切片平面应覆盖球体直径；导出后按层序整理并编号。"
+  ],
+  "terms": [
+    {
+      "term": "Dimensions",
+      "definition": "Item 面板中显示对象实际外包尺寸的字段。"
+    },
+    {
+      "term": "层序",
+      "definition": "切片沿模型方向的排列次序。"
+    }
+  ],
+  "actions": [
+    "用已知尺寸的球体重复切片流程。",
+    "在 SVG 中检查大小变化规律，并标明层序。"
+  ],
+  "start": 3462.885,
+  "end": 3923.115,
+  "references": [],
+  "moments": [
+    {
+      "time": 3490.675,
+      "title": "创建球体并查看尺寸"
+    },
+    {
+      "time": 3583.065,
+      "title": "输入 0.4 m 尺寸"
+    },
+    {
+      "time": 3635.175,
+      "title": "切片参数与选择对象"
+    },
+    {
+      "time": 3810.085,
+      "title": "SVG 与编号"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3655.0,
+      "caption": "球体切片设置",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/sphere-repeat-1.jpg"
+    },
+    {
+      "time": 3805.0,
+      "caption": "隐藏原球体后显示逐层切片轮廓",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/sphere-repeat-2.jpg"
+    }
+  ]
+}

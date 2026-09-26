@@ -1,0 +1,59 @@
+{
+  "id": "topic-css",
+  "title": "用 CSS 定制网站样式",
+  "summary": "通过浏览器检查工具试调样式，再把确认有效的选择器和规则写回 extra.css。",
+  "key_points": [
+    "docs/stylesheets/extra.css 用于补充模板样式。",
+    "CSS 选择器决定哪些元素受到影响，class 是常见的匹配依据。",
+    "Inspect 可查看元素及其生效样式，并现场试调字体大小等属性。",
+    "检查工具里的试验会在刷新后消失，确认效果后需要写回 CSS 文件。",
+    "讲师建议用小练习学习 CSS，并让 AI 解释原理。"
+  ],
+  "terms": [
+    {
+      "term": "Selector / Class",
+      "definition": "CSS 匹配元素的方式及常用的类名标记。"
+    },
+    {
+      "term": "DevTools",
+      "definition": "浏览器的页面检查与调试工具。"
+    }
+  ],
+  "actions": [
+    "在检查工具中调整一个元素的字号，比较前后效果。",
+    "将有效规则写回 extra.css，重新预览并确认作用范围。"
+  ],
+  "start": 3691.509,
+  "end": 3934.194,
+  "references": [],
+  "moments": [
+    {
+      "time": 3691.509,
+      "title": "找到自定义样式文件"
+    },
+    {
+      "time": 3758.079,
+      "title": "选择器、类名与变量"
+    },
+    {
+      "time": 3792.819,
+      "title": "Inspect 试验与保存样式"
+    },
+    {
+      "time": 3907.344,
+      "title": "学习 CSS 的练习方法"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3765.0,
+      "caption": "自定义 CSS 与类名",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/css-1.jpg"
+    },
+    {
+      "time": 3845.0,
+      "caption": "浏览器内试调样式",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/css-2.jpg"
+    }
+  ]
+}

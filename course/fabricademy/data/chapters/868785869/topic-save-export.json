@@ -1,0 +1,38 @@
+{
+  "id": "topic-save-export",
+  "title": "保存切片项目并导出图纸",
+  "summary": "先保存 Slicer 项目以保留装配步骤，再导出适合后续编辑的二维图纸；红色越界图纸不应直接送去切割。",
+  "key_points": [
+    "保存原生项目才能再看装配步骤。",
+    "导出前先处理越界零件，不将红色警告忽略。"
+  ],
+  "terms": [
+    {
+      "term": "原生项目",
+      "definition": "保留软件可编辑设置和装配预览的工程文件。"
+    }
+  ],
+  "actions": [
+    "保存 Slicer 原生项目，再导出无越界警告的二维图纸。"
+  ],
+  "start": 3601.62,
+  "end": 3727.84,
+  "references": [],
+  "moments": [
+    {
+      "time": 3619.41,
+      "title": "保存工程"
+    },
+    {
+      "time": 3679.37,
+      "title": "导出图纸"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3690.0,
+      "caption": "切片图纸仍显示红色越界零件，导出前应先处理",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/plan-export.jpg"
+    }
+  ]
+}

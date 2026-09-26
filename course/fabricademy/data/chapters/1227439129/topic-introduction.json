@@ -1,0 +1,43 @@
+{
+  "id": "topic-introduction",
+  "title": "视觉文档化的目标与课程路线",
+  "summary": "Claudia Simonelli 介绍自己的设计与教学背景，说明本课将从资料入口、案例和工具走向媒体制作。",
+  "key_points": [
+    "本课关注如何把自己的过程与成果表达清楚，后续 Julian 的课程再深入网站和 Markdown。",
+    "课程包含视觉案例、软件选择、AI 使用、署名许可及媒体制作资源。",
+    "GIMP 和 Inkscape 被介绍为可探索的开源工具；本段不要求所有人更换已熟悉的软件。"
+  ],
+  "terms": [
+    {
+      "term": "视觉文档化",
+      "definition": "用图像、文字和媒体记录过程、解释结果并帮助他人理解。"
+    }
+  ],
+  "actions": [
+    "整理自己已有的照片、作品与研究材料，作为本周网站内容的起点。"
+  ],
+  "start": 0.0,
+  "end": 160.921,
+  "references": [],
+  "moments": [
+    {
+      "time": 21.87,
+      "title": "讲师背景"
+    },
+    {
+      "time": 64.89,
+      "title": "课程路线"
+    },
+    {
+      "time": 125.88,
+      "title": "工具准备"
+    }
+  ],
+  "frames": [
+    {
+      "time": 100.0,
+      "caption": "本次视觉文档化课程的内容路线",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/introduction-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "topic-examples-documentation",
+  "title": "往届案例、替代输入与作业文档",
+  "summary": "通过往届模型回顾堆叠、交错、径向与折叠结构；答疑涉及三维扫描输入、材料表现、Sketchfab 和作业文件归档。",
+  "key_points": [
+    "扫描所得三维模型也可进入同一切片路线。",
+    "文档中保留制造文件；三维模型可通过合适平台嵌入展示。"
+  ],
+  "terms": [
+    {
+      "term": "Sketchfab",
+      "definition": "可上传并嵌入展示三维模型的平台。"
+    }
+  ],
+  "actions": [
+    "对照往届案例选择结构，整理二维制造文件和三维展示链接。"
+  ],
+  "start": 4501.78,
+  "end": 4899.36,
+  "references": [],
+  "moments": [
+    {
+      "time": 4525.37,
+      "title": "往届结构示例"
+    },
+    {
+      "time": 4796.7,
+      "title": "制造文件文档"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4530.0,
+      "caption": "幻灯片展示往届学生不同切片结构的作品案例",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/examples.jpg"
+    }
+  ]
+}

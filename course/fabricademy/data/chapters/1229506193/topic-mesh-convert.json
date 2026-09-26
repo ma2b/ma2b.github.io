@@ -1,0 +1,34 @@
+{
+  "id": "topic-mesh-convert",
+  "title": "转换网格与排查修改器问题",
+  "summary": "排查骨架与皮肤对象的选择差异，将可编辑副本转换为网格，并回顾课程关键操作。",
+  "key_points": [
+    "某些 MPFB 对象在课中需要复制并转换为普通网格才能继续编辑。",
+    "删除面或使用修改器之前，要确认选中的是目标网格而非骨架。"
+  ],
+  "terms": [
+    {
+      "term": "转换为网格",
+      "definition": "把对象转为可在编辑模式直接修改的普通网格。"
+    }
+  ],
+  "actions": [
+    "在副本上验证转换结果，确保后续面删除和修改针对正确对象。"
+  ],
+  "start": 6661.347,
+  "end": 7193.84,
+  "references": [],
+  "moments": [
+    {
+      "time": 6992.607,
+      "title": "转换网格与排查修改器问题"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6992.607,
+      "caption": "Blender 中显示人体与单独选中的衣物网格",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/mesh-convert.jpg"
+    }
+  ]
+}

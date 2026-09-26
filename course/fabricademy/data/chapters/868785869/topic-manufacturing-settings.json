@@ -1,0 +1,38 @@
+{
+  "id": "topic-manufacturing-settings",
+  "title": "设置板材、厚度与切缝参数",
+  "summary": "按真实激光机和板材填写材料长宽、厚度及槽口补偿；制造参数应对应实际板材而非仅对应机器工作幅面。",
+  "key_points": [
+    "板材尺寸、厚度和槽口补偿共同决定零件能否切出及装配。",
+    "设置应以实验室实际材料为准。"
+  ],
+  "terms": [
+    {
+      "term": "slot offset",
+      "definition": "切片结构槽口的尺寸补偿，应通过实际材料试切确定。"
+    }
+  ],
+  "actions": [
+    "按手边板材填写长宽、厚度与槽口参数，保存制造预设。"
+  ],
+  "start": 2339.3,
+  "end": 2517.97,
+  "references": [],
+  "moments": [
+    {
+      "time": 2351.51,
+      "title": "尺寸与单位"
+    },
+    {
+      "time": 2428.79,
+      "title": "板材设置"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2445.0,
+      "caption": "Slicer 制造设置对话框包含板材与槽口相关参数",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/material-settings.jpg"
+    }
+  ]
+}

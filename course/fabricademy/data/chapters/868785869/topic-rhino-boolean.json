@@ -1,0 +1,38 @@
+{
+  "id": "topic-rhino-boolean",
+  "title": "布尔减法、网格检查与 STL 导出",
+  "summary": "用 MeshBooleanDifference 从人体网格减去几何体，检查闭合状态，再导出适合 Slicer 处理的 STL。",
+  "key_points": [
+    "布尔减法可从人体去掉几何区域，结果需检查是否为闭合网格。",
+    "导出时避免把开放对象当作可制造实体。"
+  ],
+  "terms": [
+    {
+      "term": "MeshBooleanDifference",
+      "definition": "Rhino 中从网格减去另一几何体的布尔命令。"
+    }
+  ],
+  "actions": [
+    "用简单几何体试做 MeshBooleanDifference，检查结果再导出 STL。"
+  ],
+  "start": 1618.41,
+  "end": 1915.97,
+  "references": [],
+  "moments": [
+    {
+      "time": 1633.5,
+      "title": "布尔减法"
+    },
+    {
+      "time": 1783.05,
+      "title": "导出 STL"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1650.0,
+      "caption": "Rhino 网格与贯穿躯干的布尔减法几何体",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/mesh-boolean.jpg"
+    }
+  ]
+}

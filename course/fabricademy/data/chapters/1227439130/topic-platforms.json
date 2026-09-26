@@ -1,0 +1,67 @@
+{
+  "id": "topic-platforms",
+  "title": "课程平台与账号登录",
+  "summary": "先认识课程使用的平台，再完成 GitLab 与 Mattermost 登录，为文档化和课程交流做好准备。",
+  "key_points": [
+    "FabLabs.io 提供网络目录与账号入口；GitLab 管理版本、编辑文件并发布网站。",
+    "课程评估系统记录每周作业与反馈，Mattermost 承担聊天、频道和通知。",
+    "GitLab 演示通过登录页的 Fab Labs 按钮跳转授权；Mattermost 演示直接填写账号密码。",
+    "手机 Mattermost 的服务器地址与网页版一致，以课程欢迎邮件和实际链接为准。"
+  ],
+  "terms": [
+    {
+      "term": "SSO",
+      "definition": "单点登录，通过统一账号入口登录其他服务。"
+    },
+    {
+      "term": "GitLab",
+      "definition": "本课用于管理网站源文件、提交记录和自动发布的平台。"
+    },
+    {
+      "term": "Mattermost",
+      "definition": "课程聊天与协作工具。"
+    }
+  ],
+  "actions": [
+    "找到课程欢迎邮件，核对账号并完成 GitLab 登录。",
+    "打开课程提供的 Mattermost 地址，确认能进入班级频道。"
+  ],
+  "start": 0.0,
+  "end": 470.28,
+  "references": [],
+  "moments": [
+    {
+      "time": 21.78,
+      "title": "课程平台与自托管基础设施"
+    },
+    {
+      "time": 240.24,
+      "title": "欢迎邮件与账号检查"
+    },
+    {
+      "time": 317.52,
+      "title": "GitLab 登录演示"
+    },
+    {
+      "time": 399.841,
+      "title": "Mattermost 与手机登录"
+    }
+  ],
+  "frames": [
+    {
+      "time": 150.0,
+      "caption": "课程平台介绍",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/platforms-1.jpg"
+    },
+    {
+      "time": 370.0,
+      "caption": "GitLab 登录演示",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/platforms-2.jpg"
+    },
+    {
+      "time": 430.0,
+      "caption": "Mattermost 登录说明",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/platforms-3.jpg"
+    }
+  ]
+}

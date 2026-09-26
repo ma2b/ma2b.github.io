@@ -1,0 +1,49 @@
+{
+  "id": "topic-modifier-demo",
+  "title": "修改器效果与已有材质复用",
+  "summary": "用新人体快速展示线框和简化修改器，并复用之前创建的材质。",
+  "key_points": [
+    "Wireframe 可把网格转为具有厚度的线框效果；通过参数观察形态变化。",
+    "现场追加 Decimate 时出现卡顿，讲师切回较轻的显示方式。",
+    "已有材质可分配给其他对象，不必重复创建。"
+  ],
+  "terms": [
+    {
+      "term": "Decimate",
+      "definition": "用于降低或调整网格复杂度的修改器。"
+    }
+  ],
+  "actions": [
+    "在副本上测试修改器组合，并观察顺序和厚度。",
+    "复用已有材质，记录形态实验与制造目标的区别。"
+  ],
+  "start": 8904.995,
+  "end": 9084.145,
+  "references": [],
+  "moments": [
+    {
+      "time": 8923.435,
+      "title": "新建人体"
+    },
+    {
+      "time": 8941.985,
+      "title": "线框与简化效果"
+    },
+    {
+      "time": 9002.445,
+      "title": "复用已创建材质"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8965.0,
+      "caption": "人体线框效果",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/modifier-demo-1.jpg"
+    },
+    {
+      "time": 9025.0,
+      "caption": "为线框人体选择已有材质；当前视图未显示材质颜色",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/modifier-demo-2.jpg"
+    }
+  ]
+}

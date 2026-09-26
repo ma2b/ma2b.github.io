@@ -1,0 +1,38 @@
+{
+  "id": "topic-scan-overview",
+  "title": "两类扫描设备与现场布置",
+  "summary": "讲师介绍用 Kinect 和另一台手持设备演示人体扫描，并展示实验室的旋转台与模特。",
+  "key_points": [
+    "Kinect 原本面向 Xbox 的动作捕捉，也可用于较粗略的三维扫描。",
+    "让被扫描物缓慢旋转可保持相机位置稳定；现场采用旋转椅改造的转台。"
+  ],
+  "terms": [
+    {
+      "term": "Kinect",
+      "definition": "微软 Xbox 的深度感知设备，在此用作三维扫描输入。"
+    }
+  ],
+  "actions": [
+    "检查被扫描对象、转台与相机的相对位置，留出完整转动空间。"
+  ],
+  "start": 0.0,
+  "end": 101.9,
+  "references": [],
+  "moments": [
+    {
+      "time": 9.8,
+      "title": "课程范围"
+    },
+    {
+      "time": 49.2,
+      "title": "转台与模特"
+    }
+  ],
+  "frames": [
+    {
+      "time": 49.0,
+      "caption": "讲师在实验室说明扫描设备与转台",
+      "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/overview.jpg"
+    }
+  ]
+}

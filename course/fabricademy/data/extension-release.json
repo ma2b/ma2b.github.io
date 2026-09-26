@@ -1,10 +1,19 @@
 {
   "schema_version": 1,
-  "version": "0.6.5",
+  "version": "0.6.6",
   "published_at": "2026-09-26",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.5.zip",
-  "sha256": "e1866841e6faca3f88fdcd4bb2e3086d5b50f83ccc7e48b234ed2ae33d57c5fd",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.6.zip",
+  "sha256": "d3a41761bb5e95cbd36287e44e44b270a07c2a4b266a33db0ba28abce519c090",
   "releases": [
+    {
+      "version": "0.6.6",
+      "date": "2026-09-26",
+      "changes": [
+        "改为按章读取：启动只获取轻量课程目录、当前课程目录和一个章节正文，其他课程不再一起下载。",
+        "切换章节时读取对应正文和图片，已读章节使用缓存；快速切换时忽略过期回复。",
+        "章节读取时显示进度，失败保留当前内容；章节搜索按标题和时间点匹配。"
+      ]
+    },
     {
       "version": "0.6.5",
       "date": "2026-09-26",

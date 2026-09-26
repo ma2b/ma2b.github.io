@@ -1,0 +1,43 @@
+{
+  "id": "topic-skanect-failures",
+  "title": "首次采集失去跟踪：背景、光线与重试",
+  "summary": "首次旋转采集不断吸入后墙并丢失人体轮廓；讲师调整光线、角度和范围，多次重试而不把失败结果当成成品。",
+  "key_points": [
+    "转动过快、阴影和背景进入扫描范围都会影响跟踪；视频展示了失败排查过程。",
+    "即使软件能重建出模糊形体，也应先检查轮廓是否满足用途。"
+  ],
+  "terms": [
+    {
+      "term": "跟踪丢失",
+      "definition": "软件无法持续把新采集帧与已有三维对象对齐。"
+    }
+  ],
+  "actions": [
+    "观察实时预览是否仍锁定目标；丢失时停下并回到可识别的角度。",
+    "记录影响结果的光线、背景和包围盒设置，再决定是否重扫。"
+  ],
+  "start": 265.7,
+  "end": 817.9,
+  "references": [],
+  "moments": [
+    {
+      "time": 268.7,
+      "title": "开始录制"
+    },
+    {
+      "time": 360.0,
+      "title": "模糊且含后墙的结果"
+    },
+    {
+      "time": 750.8,
+      "title": "讲师说明反复调试"
+    }
+  ],
+  "frames": [
+    {
+      "time": 600.0,
+      "caption": "Skanect 重建界面几乎没有有效人体几何，显示此次尝试失败",
+      "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/failed-skanect.jpg"
+    }
+  ]
+}

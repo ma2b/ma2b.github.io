@@ -1,0 +1,52 @@
+{
+  "id": "topic-sculptris-smoothing",
+  "title": "Sculptris 局部雕刻与网格交叠风险",
+  "summary": "从已封闭的扫描网格出发，用 Sculptris 的笔刷平滑、压平和局部膨胀，但避免让网格自相交。",
+  "key_points": [
+    "本课从既有扫描结果开始，不展示最初采集过程。",
+    "局部膨胀若让两片网格互相穿透，后续制造可能出现问题。",
+    "小碎片可在此前扫描软件中清理；此处侧重表面修整。"
+  ],
+  "terms": [
+    {
+      "term": "Sculptris",
+      "definition": "课程演示的数字雕刻工具。"
+    },
+    {
+      "term": "自相交",
+      "definition": "网格表面彼此穿透或重叠的几何问题。"
+    }
+  ],
+  "actions": [
+    "先保存扫描原始网格，再用低强度笔刷局部平滑。",
+    "检查调整处是否产生穿透或异常凸起。"
+  ],
+  "start": 0.0,
+  "end": 184.4,
+  "references": [],
+  "moments": [
+    {
+      "time": 17.68,
+      "title": "后处理目标"
+    },
+    {
+      "time": 43.76,
+      "title": "导入 OBJ"
+    },
+    {
+      "time": 100.08,
+      "title": "局部膨胀"
+    },
+    {
+      "time": 130.0,
+      "title": "自相交提醒"
+    }
+  ],
+  "frames": [
+    {
+      "time": 95.0,
+      "caption": "Sculptris 中的人体模型与局部雕刻笔刷",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/sculptris-brush.jpg"
+    }
+  ]
+}

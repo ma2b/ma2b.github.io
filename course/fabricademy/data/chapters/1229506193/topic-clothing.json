@@ -1,0 +1,29 @@
+{
+  "id": "topic-clothing",
+  "title": "从人体网格尝试制作衣物",
+  "summary": "讲师选取人体网格区域，示范衣物构思和修改器操作，并回答学员对象选择问题。",
+  "key_points": [
+    "衣物构思从人体网格的局部选区开始。",
+    "应用修改器前先确认作用对象，并保留原人体。"
+  ],
+  "terms": [],
+  "actions": [
+    "制作衣物前保留人体原件，避免直接破坏基础模型。"
+  ],
+  "start": 6000.573,
+  "end": 6661.347,
+  "references": [],
+  "moments": [
+    {
+      "time": 6153.718,
+      "title": "从人体网格尝试制作衣物"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6153.718,
+      "caption": "人体网格的局部选区",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/clothing.jpg"
+    }
+  ]
+}

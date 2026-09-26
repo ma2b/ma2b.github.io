@@ -1,0 +1,57 @@
+{
+  "id": "topic-torso-shape",
+  "title": "比例编辑与颈肩挤出",
+  "summary": "用比例编辑推拉腰胸曲线，再从面挤出颈部和手臂，逐步形成躯干。",
+  "key_points": [
+    "比例编辑让附近顶点按影响范围一起移动，滚轮调整影响半径。",
+    "每次操作前确认比例编辑是否开启，避免无意影响其他部位。",
+    "按正视与侧视检查胸腰形态，再从选定面挤出颈肩；课程模型只是基础练习。"
+  ],
+  "terms": [
+    {
+      "term": "Proportional Editing",
+      "definition": "按距离或衰减让邻近几何共同响应变换。"
+    },
+    {
+      "term": "Extrude",
+      "definition": "由选定元素延伸生成新的几何。"
+    }
+  ],
+  "actions": [
+    "从正面和侧面塑造躯干，检查比例编辑影响范围。",
+    "选定颈肩区域挤出，并继续用点面调整形状。"
+  ],
+  "start": 7653.125,
+  "end": 8058.335,
+  "references": [],
+  "moments": [
+    {
+      "time": 7663.185,
+      "title": "普通移动与比例编辑对比"
+    },
+    {
+      "time": 7799.005,
+      "title": "侧面和胸部塑形"
+    },
+    {
+      "time": 7871.055,
+      "title": "挤出颈部"
+    },
+    {
+      "time": 7955.045,
+      "title": "手臂与继续建模"
+    }
+  ],
+  "frames": [
+    {
+      "time": 7763.0,
+      "caption": "用比例编辑收拢腰部轮廓",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/torso-shape-1.jpg"
+    },
+    {
+      "time": 7990.0,
+      "caption": "颈部与手臂挤出后的基础躯干",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/torso-shape-2.jpg"
+    }
+  ]
+}

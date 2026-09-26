@@ -1,0 +1,58 @@
+{
+  "id": "topic-fusion-slicer-setup",
+  "title": "Slicer for Fusion 360：导入与制造设置",
+  "summary": "把处理后的网格导入 Slicer，核对方向、单位、板材尺寸与模型实际尺度。",
+  "key_points": [
+    "这里使用的是 Slicer for Fusion 360，与前面的 Blender Laser Slicer 不是同一个工具。",
+    "导入 OBJ 或 STL 后先看轴向与已知尺寸；本次模型方向和比例仍有问题，后面继续排查。",
+    "Manufacturing Settings 包含板材幅面、材料厚度、边距和槽口偏移。",
+    "600 × 300 mm、3 mm 厚度以及后续缩尺都是演示值，应换成自己的实际设备与材料。"
+  ],
+  "terms": [
+    {
+      "term": "Manufacturing Settings",
+      "definition": "描述板材和加工幅面等条件的制造设置。"
+    },
+    {
+      "term": "Slot Offset",
+      "definition": "调整交错插接槽配合的偏移参数。"
+    }
+  ],
+  "actions": [
+    "记录导出和导入单位，核对模型朝向。",
+    "测量材料厚度并输入实际可用板材尺寸。"
+  ],
+  "start": 9084.145,
+  "end": 9402.495,
+  "references": [],
+  "moments": [
+    {
+      "time": 9179.035,
+      "title": "导入网格与方向问题"
+    },
+    {
+      "time": 9252.605,
+      "title": "制造设置"
+    },
+    {
+      "time": 9315.765,
+      "title": "厚度、边距和槽口偏移"
+    },
+    {
+      "time": 9357.515,
+      "title": "模型尺度检查"
+    }
+  ],
+  "frames": [
+    {
+      "time": 9295.0,
+      "caption": "板材和制造设置",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/fusion-slicer-setup-1.jpg"
+    },
+    {
+      "time": 9385.0,
+      "caption": "模型尺寸与切片准备",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/fusion-slicer-setup-2.jpg"
+    }
+  ]
+}

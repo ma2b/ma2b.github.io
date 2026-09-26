@@ -1,0 +1,48 @@
+{
+  "id": "topic-mpfb",
+  "title": "MPFB：直接在 Blender 创建人体",
+  "summary": "通过 MPFB 在 Blender 内生成可编辑的人体网格，并说明扩展和资产准备的边界。",
+  "key_points": [
+    "MPFB 出现在侧栏，可从 New Human 创建人物并选择基础形态参数。",
+    "生成后仍是网格，可切换线框和编辑模式观察顶点。",
+    "现场没有完整演示安装流程，衣服和其他资产也可能需要额外准备；不要把尚未安装的资源视作默认可用。"
+  ],
+  "terms": [
+    {
+      "term": "MPFB",
+      "definition": "MakeHuman 的 Blender 人体创建工具。"
+    }
+  ],
+  "actions": [
+    "按课程对应版本的官方资料安装并启用 MPFB。",
+    "生成测试人物，检查尺寸、网格与对象命名。"
+  ],
+  "start": 6204.755,
+  "end": 6410.825,
+  "references": [],
+  "moments": [
+    {
+      "time": 6226.365,
+      "title": "安装说明的缺项"
+    },
+    {
+      "time": 6282.075,
+      "title": "MPFB 创建人物"
+    },
+    {
+      "time": 6327.765,
+      "title": "查看人物网格"
+    },
+    {
+      "time": 6381.855,
+      "title": "附加资产说明"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6325.0,
+      "caption": "MPFB 生成的人体模型",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/mpfb-1.jpg"
+    }
+  ]
+}

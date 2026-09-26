@@ -1,0 +1,47 @@
+{
+  "id": "topic-export-laser-layers",
+  "title": "中空选项与激光雕刻、切割图层",
+  "summary": "讲师展示 Modify Form 中的中空选项，并说明生成图纸里红色与蓝色图层分别用于雕刻和切割设置。",
+  "key_points": [
+    "中空适合某些堆叠切片及内部放灯场景，但可能让本例的装配更难。",
+    "切割文件要分辨雕刻与切透图层，并分别设置设备功率和速度；具体参数由材料测试决定。"
+  ],
+  "terms": [
+    {
+      "term": "中空",
+      "definition": "从模型内部去除材料的操作。"
+    },
+    {
+      "term": "雕刻/切割图层",
+      "definition": "为不同激光加工方式分开的矢量路径。"
+    }
+  ],
+  "actions": [
+    "按所选结构判断是否真的需要中空。",
+    "导出后核对图层用途，先用所选材料进行功率与速度测试。"
+  ],
+  "start": 3002.88,
+  "end": 3076.352,
+  "references": [],
+  "moments": [
+    {
+      "time": 3011.04,
+      "title": "中空选项"
+    },
+    {
+      "time": 3043.12,
+      "title": "生成图纸"
+    },
+    {
+      "time": 3061.68,
+      "title": "设备参数"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3030.0,
+      "caption": "Slicer 中径向切片与导出前的结构预览",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/laser-layers.jpg"
+    }
+  ]
+}

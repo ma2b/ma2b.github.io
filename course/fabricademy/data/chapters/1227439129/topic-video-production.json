@@ -1,0 +1,72 @@
+{
+  "id": "topic-video-production",
+  "title": "视频剪辑、编码、素材与声音",
+  "summary": "区分剪辑和压缩，准备合适的素材、音乐与输出规格，再通过视频平台发布。",
+  "key_points": [
+    "课程介绍 Lightworks、CapCut 等剪辑工具，以及用于转码压缩的 HandBrake；免费使用与开源是不同概念。",
+    "压缩后的体积取决于时长、画面与编码参数，不能把录制中 1 GB 到 10 MB 的说法当作固定效果。",
+    "外部视频和音乐应按各自许可使用，不把免费素材统一称为无版权；课程仍鼓励记录来源。",
+    "本次讲师偏好横向 16:9，至少达到所述 720p 级别并保持清晰；更高分辨率要结合素材与发布用途。",
+    "旁白可以由自己录制；完成后上传平台，检查嵌入播放和声音。"
+  ],
+  "terms": [
+    {
+      "term": "Encoding",
+      "definition": "按所选编码与参数转换视频。"
+    },
+    {
+      "term": "16:9",
+      "definition": "常见横向视频画面比例。"
+    }
+  ],
+  "actions": [
+    "剪出能说明过程的短片，并先检查声音与字幕。",
+    "导出后检查体积和清晰度，记录外部素材及音乐来源。"
+  ],
+  "start": 2789.535,
+  "end": 3044.866,
+  "references": [
+    {
+      "title": "Pexels 官方素材许可",
+      "url": "https://www.pexels.com/license/"
+    }
+  ],
+  "moments": [
+    {
+      "time": 2799.616,
+      "title": "剪辑工具"
+    },
+    {
+      "time": 2842.155,
+      "title": "HandBrake 转码压缩"
+    },
+    {
+      "time": 2889.315,
+      "title": "补充画面"
+    },
+    {
+      "time": 2919.315,
+      "title": "音乐和旁白"
+    },
+    {
+      "time": 2968.545,
+      "title": "比例、分辨率与发布"
+    },
+    {
+      "time": 3014.476,
+      "title": "延伸资源"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2865.0,
+      "caption": "HandBrake 视频编码工具介绍",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/video-production-1.jpg"
+    },
+    {
+      "time": 2980.0,
+      "caption": "视频画面比例与发布建议",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/video-production-2.jpg"
+    }
+  ]
+}

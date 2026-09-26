@@ -1,0 +1,48 @@
+{
+  "id": "topic-mesh-cutter",
+  "title": "在 Rhino 中创建网格切割体",
+  "summary": "讲师使用 Rhino 画出覆盖待删区域的盒体，并将实体盒转成网格，以便与扫描网格做布尔运算。",
+  "key_points": [
+    "Rhino 可通过命令、工具栏和图标完成相同操作。",
+    "本次切割前先把实体盒转成网格，再删除重合位置的原实体。",
+    "切割体应穿过目标区域，不宜刚好贴在网格表面。"
+  ],
+  "terms": [
+    {
+      "term": "Mesh",
+      "definition": "由顶点、边和面组成的网格几何。"
+    },
+    {
+      "term": "Extrusion",
+      "definition": "把二维轮廓沿方向拉伸形成的几何。"
+    }
+  ],
+  "actions": [
+    "绘制明显穿过待裁部位的盒体并转成网格。",
+    "核对场景中仅保留所需切割体，保存版本。"
+  ],
+  "start": 801.36,
+  "end": 1008.8,
+  "references": [],
+  "moments": [
+    {
+      "time": 850.0,
+      "title": "绘制盒体"
+    },
+    {
+      "time": 915.0,
+      "title": "实体与网格类型"
+    },
+    {
+      "time": 980.0,
+      "title": "转网格并删除原体"
+    }
+  ],
+  "frames": [
+    {
+      "time": 915.0,
+      "caption": "Rhino 中黄色扫描网格与待转换的白色盒体",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/rhino-box.jpg"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "topic-sculpt-remesh",
+  "title": "浏览器雕刻与均匀重网格",
+  "summary": "在浏览器网格编辑器中修改人物外形，再用均匀重网格改善雕刻后不均匀的网格分布。",
+  "key_points": [
+    "本段演示 Hyper3D 的网格编辑工具，使用笔刷半径、强度和对称选项。",
+    "Smooth 用于平缓局部起伏；雕刻需要旋转模型检查背面和整体形态。",
+    "随后在 Polygonal 在线工具中执行 Uniform Remesh；网格重建后仍应检查形状和制造适用性。"
+  ],
+  "terms": [
+    {
+      "term": "Remesh",
+      "definition": "重新构建网格的分布与连接。"
+    },
+    {
+      "term": "笔刷对称",
+      "definition": "让对应侧同时接受雕刻操作。"
+    }
+  ],
+  "actions": [
+    "在副本上试验笔刷及对称设置，保留雕刻前模型。",
+    "重网格后比较外形和细节，再导出到下一工具。"
+  ],
+  "start": 1139.985,
+  "end": 1680.995,
+  "references": [],
+  "moments": [
+    {
+      "time": 1245.095,
+      "title": "导入网格"
+    },
+    {
+      "time": 1344.505,
+      "title": "对称雕刻与平滑"
+    },
+    {
+      "time": 1519.485,
+      "title": "观察网格不均匀"
+    },
+    {
+      "time": 1591.585,
+      "title": "Uniform Remesh"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1455.0,
+      "caption": "浏览器中的雕刻操作",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/sculpt-remesh-1.jpg"
+    },
+    {
+      "time": 1605.0,
+      "caption": "均匀重网格后的模型",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/sculpt-remesh-2.jpg"
+    }
+  ]
+}

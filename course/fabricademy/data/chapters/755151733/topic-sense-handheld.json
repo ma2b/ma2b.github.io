@@ -1,0 +1,52 @@
+{
+  "id": "topic-sense-handheld",
+  "title": "Sense 手持扫描：保持目标与视角",
+  "summary": "讲师展示 Sense 设备及 Windows 上的软件，围绕模特进行手持扫描，并说明画面跟踪、上下角度、暂停与恢复。",
+  "key_points": [
+    "Sense 可以移动设备绕对象，也可以固定设备并缓慢转动对象。",
+    "软件提示停住时要等待采集；丢失跟踪后回到之前识别过的位置。",
+    "结果可做裁剪、实体化及 OBJ/STL 导出，细节质量以实际预览判断。"
+  ],
+  "terms": [
+    {
+      "term": "Sense",
+      "definition": "课程使用的手持三维扫描设备。"
+    },
+    {
+      "term": "实体化",
+      "definition": "把开放或稀疏扫描结果补成更封闭的形体。"
+    }
+  ],
+  "actions": [
+    "扫描时让目标持续位于预览中心，逐步补足顶部、底部和背面。",
+    "完成后检查缺失区域，再决定是否裁剪、实体化或重新采集。"
+  ],
+  "start": 1217.6,
+  "end": 1878.7,
+  "references": [],
+  "moments": [
+    {
+      "time": 1235.3,
+      "title": "设备与软件"
+    },
+    {
+      "time": 1440.0,
+      "title": "开始手持扫描"
+    },
+    {
+      "time": 1620.0,
+      "title": "跟踪恢复"
+    },
+    {
+      "time": 1710.0,
+      "title": "裁剪与导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1500.0,
+      "caption": "Sense 软件屏幕显示正在采集的人体模型",
+      "src": "https://ma2b.github.io/course/fabricademy/05-3d-scanning-demo/frames/sense-method.jpg"
+    }
+  ]
+}

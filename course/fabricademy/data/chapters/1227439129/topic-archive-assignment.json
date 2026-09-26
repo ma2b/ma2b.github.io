@@ -1,0 +1,58 @@
+{
+  "id": "topic-archive-assignment",
+  "title": "Class Archive、Handbook 与第一周任务",
+  "summary": "通过课程档案查找参与者、往届案例和工具，再用手册确认第一周作业要求。",
+  "key_points": [
+    "Class Archive 提供当前与往届参与者入口，网站按实验室组织；工具按周次汇总。",
+    "Handbook 用来核对学习目标和作业要求，不能只凭案例猜测本周交付。",
+    "本次第一周要求包括个人背景、过往作品、研究参考及网站记录，并开始学习 Git 版本控制。",
+    "网站个性化可以逐步完成，先让内容与结构清楚。"
+  ],
+  "terms": [
+    {
+      "term": "Class Archive",
+      "definition": "课程资源、参与者与往届学习记录的入口。"
+    },
+    {
+      "term": "Handbook",
+      "definition": "集中说明学习目标及作业要求的课程手册。"
+    }
+  ],
+  "actions": [
+    "从课程档案定位自己的页面和本周手册。",
+    "列出自我介绍、作品、研究参考和本周学习过程。"
+  ],
+  "start": 160.921,
+  "end": 410.88,
+  "references": [],
+  "moments": [
+    {
+      "time": 204.48,
+      "title": "定位个人网站"
+    },
+    {
+      "time": 242.101,
+      "title": "按周查找工具"
+    },
+    {
+      "time": 304.98,
+      "title": "手册与作业"
+    },
+    {
+      "time": 353.37,
+      "title": "第一周内容要求"
+    }
+  ],
+  "frames": [
+    {
+      "time": 218.0,
+      "caption": "课程档案中的参与者入口",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/archive-assignment-1.jpg"
+    },
+    {
+      "time": 340.0,
+      "caption": "第一周学习目标与作业要求",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/archive-assignment-2.jpg"
+    }
+  ]
+}

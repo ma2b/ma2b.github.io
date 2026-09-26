@@ -1,0 +1,38 @@
+{
+  "id": "topic-makehuman-body",
+  "title": "MakeHuman：创建与调整人体参数",
+  "summary": "在 MakeHuman 中浏览人体预设与参数，通过体型、脸部和测量选项建立初始人体模型。",
+  "key_points": [
+    "MakeHuman 的滑块可快速改变人体比例，但它不替代后续的网格编辑。",
+    "重置或随机化会改变已有设定，操作前先保存版本。"
+  ],
+  "terms": [
+    {
+      "term": "MakeHuman",
+      "definition": "通过参数快速创建和调整人体模型的软件。"
+    }
+  ],
+  "actions": [
+    "保存初始人体，再调整体型与测量参数并记录关键设定。"
+  ],
+  "start": 237.96,
+  "end": 719.25,
+  "references": [],
+  "moments": [
+    {
+      "time": 259.59,
+      "title": "参数与比例"
+    },
+    {
+      "time": 420.15,
+      "title": "人体细节"
+    }
+  ],
+  "frames": [
+    {
+      "time": 425.0,
+      "caption": "MakeHuman 界面显示人体参数与当前三维人像",
+      "src": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/frames/makehuman.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-fabrication-files",
+  "title": "制造文件打包与三维模型预览",
+  "summary": "把模型和 Grasshopper 等制造文件打包归档，在线三维预览作为补充展示。",
+  "key_points": [
+    "课程要求制造文件上传 Git，可将相关文件整理为 ZIP 并在文档中提供链接。",
+    "压缩包应保留可理解的命名和所需文件；压缩效果取决于文件内容，不能假定都会明显变小。",
+    "Sketchfab 或 p3d.in 一类预览服务可以帮助查看模型，但不替代仓库中的可下载模型。"
+  ],
+  "terms": [
+    {
+      "term": "ZIP",
+      "definition": "用于归档并可压缩一组文件的格式。"
+    },
+    {
+      "term": "三维预览",
+      "definition": "在页面中查看模型形态的展示方式。"
+    }
+  ],
+  "actions": [
+    "整理模型、参数和必要文件，解压检查后上传。",
+    "从网页测试下载，并确认预览与发布文件一致。"
+  ],
+  "start": 1899.658,
+  "end": 2011.408,
+  "references": [],
+  "moments": [
+    {
+      "time": 1908.057,
+      "title": "模型和 Grasshopper 文件"
+    },
+    {
+      "time": 1933.047,
+      "title": "压缩文件操作"
+    },
+    {
+      "time": 1970.397,
+      "title": "三维预览与源文件"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1941.0,
+      "caption": "制造文件压缩归档说明",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/fabrication-files-1.jpg"
+    },
+    {
+      "time": 1997.0,
+      "caption": "三维模型预览资源",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/fabrication-files-2.jpg"
+    }
+  ]
+}

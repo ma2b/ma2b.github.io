@@ -1,0 +1,61 @@
+{
+  "id": "topic-torso-base",
+  "title": "躯干盒式建模：细分、环切与镜像",
+  "summary": "从简单立方体建立低复杂度控制网格，用细分和镜像准备对称躯干。",
+  "key_points": [
+    "Subdivision Surface 先作为修改器预览，继续编辑原来的控制网格。",
+    "Loop Cut 增加必要的控制环；配合 X-Ray 检查前后顶点，避免漏选。",
+    "保留一侧网格，再使用 Mirror 和 Clipping 处理对称接缝；操作后检查中心线和修改器结果。"
+  ],
+  "terms": [
+    {
+      "term": "Box Modeling",
+      "definition": "从简单盒体逐步增加控制几何并塑形。"
+    },
+    {
+      "term": "Clipping",
+      "definition": "镜像编辑时帮助中心附近顶点约束到镜像平面的选项。"
+    }
+  ],
+  "actions": [
+    "从立方体添加细分预览，并建立中心环切。",
+    "制作半边网格和镜像，检查接缝后再增加需要的环切。"
+  ],
+  "start": 7261.595,
+  "end": 7653.125,
+  "references": [],
+  "moments": [
+    {
+      "time": 7267.865,
+      "title": "立方体与细分修改器"
+    },
+    {
+      "time": 7377.785,
+      "title": "中心环切"
+    },
+    {
+      "time": 7423.435,
+      "title": "X-Ray 与删除半边"
+    },
+    {
+      "time": 7485.545,
+      "title": "镜像和 Clipping"
+    },
+    {
+      "time": 7572.225,
+      "title": "增加控制环"
+    }
+  ],
+  "frames": [
+    {
+      "time": 7515.0,
+      "caption": "镜像与控制网格",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/torso-base-1.jpg"
+    },
+    {
+      "time": 7635.0,
+      "caption": "增加环切后的躯干基础",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/torso-base-2.jpg"
+    }
+  ]
+}

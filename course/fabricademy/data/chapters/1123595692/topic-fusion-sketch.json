@@ -1,0 +1,57 @@
+{
+  "id": "topic-fusion-sketch",
+  "title": "Fusion 草图、尺寸与构造线",
+  "summary": "在俯视平面建立草图，用直径尺寸约束圆形，并设置只用于定位的构造线。",
+  "key_points": [
+    "本课以二维草图为主；完成草图后仍可从草图列表或时间线重新进入。",
+    "先绘制圆，再用 Sketch Dimension（D）添加直径；演示采用 40 mm。",
+    "构造线用于建立轴线与几何关系，应与最终切割线区分。"
+  ],
+  "terms": [
+    {
+      "term": "Sketch Dimension",
+      "definition": "草图尺寸约束，用来定义几何尺寸。"
+    },
+    {
+      "term": "Construction Line",
+      "definition": "辅助定位的构造线，不是预期的切割轮廓。"
+    }
+  ],
+  "actions": [
+    "建立俯视草图，画圆并标注直径。",
+    "画经过圆心的轴线，将其设为构造线。"
+  ],
+  "start": 316.005,
+  "end": 776.375,
+  "references": [],
+  "moments": [
+    {
+      "time": 344.135,
+      "title": "进入二维草图"
+    },
+    {
+      "time": 508.935,
+      "title": "创建圆形"
+    },
+    {
+      "time": 575.085,
+      "title": "使用尺寸约束"
+    },
+    {
+      "time": 739.455,
+      "title": "约束与构造线"
+    }
+  ],
+  "frames": [
+    {
+      "time": 640.0,
+      "caption": "圆形草图的直径标注",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-sketch-1.jpg"
+    },
+    {
+      "time": 765.0,
+      "caption": "圆形与辅助轴线",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/fusion-sketch-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "topic-tripo-generation",
+  "title": "Tripo：图像生成三维网格",
+  "summary": "介绍从图片生成三维模型、设置纹理和拓扑、控制多边形数量并准备 STL 导出。",
+  "key_points": [
+    "Tripo 把二维参考图转换成可查看的三维网格。",
+    "纹理和网格拓扑分别控制表面外观与几何结构。"
+  ],
+  "terms": [
+    {
+      "term": "拓扑",
+      "definition": "网格顶点、边和面的连接结构。"
+    },
+    {
+      "term": "多边形数量",
+      "definition": "组成模型的面的数量，影响细节和文件大小。"
+    }
+  ],
+  "actions": [
+    "按目标制造方式选择拓扑与精度；不要把贴图纹理当作几何起伏。"
+  ],
+  "start": 2462.322,
+  "end": 3301.512,
+  "references": [],
+  "moments": [
+    {
+      "time": 2731.362,
+      "title": "Tripo：图像生成三维网格"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2731.362,
+      "caption": "Tripo 的模型生成参数",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/tripo-generation.jpg"
+    }
+  ]
+}

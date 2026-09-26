@@ -1,0 +1,58 @@
+{
+  "id": "topic-assembly",
+  "title": "实物模块的组装与变化",
+  "summary": "观察毛毡样品怎样插接、锁定与拆分，并通过颜色、接口和组装方向形成不同结构。",
+  "key_points": [
+    "折起插入端、适度打开接收槽，再拉入位置，检查连接是否稳定。",
+    "双槽、不同连接件和不同组装方向可改变连接强度与二维、三维形态。",
+    "讲师展示羊毛毡和薄合成毡的不同手感；样品描述不能替代具体材料的激光加工适用性确认。",
+    "模块可混搭，但连接尺寸和接合方式需要兼容。"
+  ],
+  "terms": [
+    {
+      "term": "Interlocking",
+      "definition": "通过几何接口互相卡接的连接方式。"
+    },
+    {
+      "term": "模块迭代",
+      "definition": "根据装配反馈调整模块形状、接口或数量。"
+    }
+  ],
+  "actions": [
+    "先少量制作样片，观察插入、锁定和拆卸过程。",
+    "记录材料、接口尺寸及不同组装方向的效果；加工前让实验室确认具体材料。"
+  ],
+  "start": 3656.855,
+  "end": 4113.075,
+  "references": [],
+  "moments": [
+    {
+      "time": 3656.855,
+      "title": "展示切割后的实物"
+    },
+    {
+      "time": 3721.175,
+      "title": "插接与锁定动作"
+    },
+    {
+      "time": 3842.955,
+      "title": "双连接与材料样品"
+    },
+    {
+      "time": 3962.455,
+      "title": "不同连接形态与用途"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3735.0,
+      "caption": "实物插接演示",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/assembly-1.jpg"
+    },
+    {
+      "time": 4015.0,
+      "caption": "另一种模块与连接件样品",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/assembly-2.jpg"
+    }
+  ]
+}

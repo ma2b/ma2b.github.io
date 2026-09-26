@@ -1,0 +1,49 @@
+{
+  "id": "topic-shading-save",
+  "title": "撤销、版本保存与平滑显示纠错",
+  "summary": "回应撤销步数问题，补充版本保存策略，并区分视觉平滑与实际网格精度。",
+  "key_points": [
+    "先规划下一步操作，减少无目的修改；关键阶段另存版本，比依赖很长的撤销历史更可靠。",
+    "讲师切换 Shade Smooth 改善显示，但这不会改变网格几何或自动平滑切片边界。",
+    "制造输出需核对实际网格和细分结果，不能只看渲染中的表面。"
+  ],
+  "terms": [
+    {
+      "term": "Shade Smooth",
+      "definition": "插值表面法线以改善显示，不增加真实几何细节。"
+    }
+  ],
+  "actions": [
+    "保存当前模型的独立版本。",
+    "对比平滑显示和线框，检查输出几何是否满足制作精度。"
+  ],
+  "start": 8058.335,
+  "end": 8338.685,
+  "references": [
+    {
+      "title": "Blender 官方：Shade Smooth 不改变几何",
+      "url": "https://docs.blender.org/manual/en/4.1/scene_layout/object/editing/shading.html"
+    }
+  ],
+  "moments": [
+    {
+      "time": 8067.135,
+      "title": "撤销步数答疑"
+    },
+    {
+      "time": 8168.855,
+      "title": "Shade Smooth 演示与纠错点"
+    },
+    {
+      "time": 8259.305,
+      "title": "再次强调增量保存"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8200.0,
+      "caption": "切换平滑显示后的模型",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/shading-save-1.jpg"
+    }
+  ]
+}

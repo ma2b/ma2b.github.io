@@ -1,0 +1,34 @@
+{
+  "id": "topic-tripo-troubleshooting",
+  "title": "Tripo 导出与课堂排错",
+  "summary": "学员尝试生成和下载 STL，讲师排查拓扑模式、免费额度、图片背景及形体失真。",
+  "key_points": [
+    "课中演示的免费版导出流程依赖当时的平台选项。",
+    "改变拓扑模式后需要重新生成模型，再核对 STL 是否可下载。"
+  ],
+  "terms": [
+    {
+      "term": "STL",
+      "definition": "常用的三维网格文件格式。"
+    }
+  ],
+  "actions": [
+    "按当时界面核对导出选项；平台套餐与按钮会变化。"
+  ],
+  "start": 3301.512,
+  "end": 5450.454,
+  "references": [],
+  "moments": [
+    {
+      "time": 4170.147,
+      "title": "Tripo 导出与课堂排错"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4230.0,
+      "caption": "Tripo 的生成模型与界面选项",
+      "src": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/frames/tripo-troubleshooting.jpg"
+    }
+  ]
+}

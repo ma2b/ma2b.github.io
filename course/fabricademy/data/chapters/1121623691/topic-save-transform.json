@@ -1,0 +1,67 @@
+{
+  "id": "topic-save-transform",
+  "title": "保存版本与精确变换",
+  "summary": "建立保存习惯，并用移动、缩放、旋转及数值输入控制模型尺寸和方向。",
+  "key_points": [
+    "补充纠错：Blender 有自动保存和恢复机制，仍应主动保存正式文件，并在重要节点保存独立版本。",
+    "S 后输入 0.5 表示缩放为一半；负比例不是“缩小五倍”的表达。",
+    "也可直接编辑 Dimensions；G、S、R 配合轴向与数字，分别控制位置、比例和角度。",
+    "增大撤销步数会增加资源需求，不必照抄讲师的 150 步设置，版本保存仍然重要。"
+  ],
+  "terms": [
+    {
+      "term": "Incremental Save",
+      "definition": "以递增文件名保留新的独立版本。"
+    },
+    {
+      "term": "数值变换",
+      "definition": "用轴向和数值明确控制移动、旋转或缩放。"
+    }
+  ],
+  "actions": [
+    "保存一个基础版本，再进行形态探索。",
+    "用已知尺寸测试比例缩放和 Dimensions 输入，核对旋转轴。"
+  ],
+  "start": 5568.375,
+  "end": 6204.755,
+  "references": [
+    {
+      "title": "Blender 官方：自动保存与恢复",
+      "url": "https://docs.blender.org/manual/en/4.4/troubleshooting/recover.html"
+    }
+  ],
+  "moments": [
+    {
+      "time": 5568.375,
+      "title": "保存与增量版本"
+    },
+    {
+      "time": 5748.945,
+      "title": "添加对象和移动"
+    },
+    {
+      "time": 5888.535,
+      "title": "精确比例与尺寸输入"
+    },
+    {
+      "time": 5999.945,
+      "title": "旋转与数值角度"
+    },
+    {
+      "time": 6123.665,
+      "title": "撤销设置"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5655.0,
+      "caption": "文件的增量保存演示",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/save-transform-1.jpg"
+    },
+    {
+      "time": 5990.0,
+      "caption": "直接输入模型尺寸",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/save-transform-2.jpg"
+    }
+  ]
+}

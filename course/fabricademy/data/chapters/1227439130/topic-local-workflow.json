@@ -1,0 +1,74 @@
+{
+  "id": "topic-local-workflow",
+  "title": "本地工作流：克隆、提交、预览与 SSH",
+  "summary": "连贯看完本地工作的完整演示：克隆仓库、检查修改、提交推送、运行预览，最后补充所需的 SSH 配置。",
+  "key_points": [
+    "本地保存、Git 提交、推送和网站构建是不同步骤；本地预览本身不会公开发布网站。",
+    "演示从仓库复制 SSH 地址后运行 git clone，再用 status、diff 和 add 检查并选择改动。",
+    "git commit -m 记录变化，git push 将提交送到服务器。",
+    "按项目说明准备 Python 环境并安装工具；zensical serve 在 localhost 提供预览，保存文件后查看更新。",
+    "SSH 账号设置中添加的是 .pub 公钥，私钥保留在本机；字幕中的 private key 与演示矛盾，应纠正。",
+    "视频把 SSH 设置放在演示之后；自行练习时应先完成它。往届 MkDocs 模板应使用相应的环境与配置说明。"
+  ],
+  "terms": [
+    {
+      "term": "Clone / Staging",
+      "definition": "取得仓库副本，以及选择下一次提交包含的修改。"
+    },
+    {
+      "term": "localhost",
+      "definition": "本机地址，用于本地预览。"
+    },
+    {
+      "term": "SSH 公钥",
+      "definition": "添加到 GitLab 用于识别本机的公钥，通常以 .pub 结尾。"
+    }
+  ],
+  "actions": [
+    "先配置 GitLab SSH 公钥，再克隆自己的仓库。",
+    "编辑后检查 status / diff，暂存并提交所需文件，再推送。",
+    "按模板说明运行本地预览，确认效果后检查远程构建和网站。"
+  ],
+  "start": 3934.194,
+  "end": 4642.986,
+  "references": [],
+  "moments": [
+    {
+      "time": 3934.194,
+      "title": "本地预览概念与 commit / job 问答"
+    },
+    {
+      "time": 4057.824,
+      "title": "克隆仓库与 SSH 前提"
+    },
+    {
+      "time": 4158.084,
+      "title": "检查差异、暂存、提交和推送"
+    },
+    {
+      "time": 4296.264,
+      "title": "环境准备与 Zensical 本地预览"
+    },
+    {
+      "time": 4481.526,
+      "title": "GitLab SSH 公钥设置"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4145.0,
+      "caption": "克隆仓库到本地",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/local-workflow-1.jpg"
+    },
+    {
+      "time": 4465.0,
+      "caption": "localhost 本地预览",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/local-workflow-2.jpg"
+    },
+    {
+      "time": 4580.0,
+      "caption": "SSH 公钥设置说明",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/local-workflow-3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-rhino-slots",
+  "title": "Rhino：定位插槽与极轴阵列",
+  "summary": "利用辅助轴线、精确移动和极轴阵列，在新轮廓中布置接收槽。",
+  "key_points": [
+    "用捕捉定位中点或顶点，并通过辅助线控制插槽的位置。",
+    "演示槽线为 10 mm，可用 Align 或 Move 的基点与目标点完成定位。",
+    "Polar Array 需要对象、中心、数量和角度；演示为四个实例分布一周。"
+  ],
+  "terms": [
+    {
+      "term": "Polar Array",
+      "definition": "Rhino 中围绕中心分布对象的极轴阵列。"
+    },
+    {
+      "term": "Move 基点",
+      "definition": "移动时作为对齐参照的起始点。"
+    }
+  ],
+  "actions": [
+    "定位一条插槽并测量其长度。",
+    "围绕中心阵列后检查分布，再对模块分组。"
+  ],
+  "start": 2584.945,
+  "end": 2924.205,
+  "references": [],
+  "moments": [
+    {
+      "time": 2593.265,
+      "title": "建立定位辅助线"
+    },
+    {
+      "time": 2712.845,
+      "title": "对齐与按点移动"
+    },
+    {
+      "time": 2804.225,
+      "title": "极轴阵列"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2785.0,
+      "caption": "插槽的定位与长度检查",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-slots-1.jpg"
+    },
+    {
+      "time": 2900.0,
+      "caption": "极轴阵列形成的插槽模块",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/rhino-slots-2.jpg"
+    }
+  ]
+}

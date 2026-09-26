@@ -1,0 +1,53 @@
+{
+  "id": "topic-theme",
+  "title": "字体、图标与社交链接",
+  "summary": "通过主题配置做第一轮外观定制，分别查看字体、站点图标和页脚社交链接的设置。",
+  "key_points": [
+    "从字体库选定字体后，将字体名称写入配置字符串。",
+    "站点图标使用工具提供的图标库；社交链接包括图标名称和网址。",
+    "演示中猜写的社交图标名称后来导致构建失败，选名称时应对照实际图标库。"
+  ],
+  "terms": [
+    {
+      "term": "Theme",
+      "definition": "定义网站整体外观和导航等选项的主题。"
+    },
+    {
+      "term": "Social links",
+      "definition": "页脚等位置展示的社交平台链接。"
+    }
+  ],
+  "actions": [
+    "找到模板里的字体和图标设置，一次只修改一项。",
+    "检查图标名称与目标网址，提交后确认构建是否成功。"
+  ],
+  "start": 2131.656,
+  "end": 2261.466,
+  "references": [],
+  "moments": [
+    {
+      "time": 2139.696,
+      "title": "选择字体"
+    },
+    {
+      "time": 2203.131,
+      "title": "更换站点图标"
+    },
+    {
+      "time": 2228.181,
+      "title": "添加社交链接"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2175.0,
+      "caption": "字体选择与配置",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/theme-1.jpg"
+    },
+    {
+      "time": 2245.0,
+      "caption": "社交链接与图标设置",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/theme-2.jpg"
+    }
+  ]
+}

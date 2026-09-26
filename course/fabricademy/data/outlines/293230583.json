@@ -1,0 +1,292 @@
+{
+  "id": "293230583",
+  "slug": "04-mesh-repairing",
+  "title": "网格修复：Rhino、Meshmixer、Sculptris 与 Fusion 360",
+  "description": "Fabricademy 2018 网格修复教程的中文学习笔记。",
+  "binding_source": "extension",
+  "duration": 3076.352,
+  "page_url": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/notes.html",
+  "bilibili": {
+    "bvid": "BV1qUaN6oE4b",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-sculptris-smoothing",
+      "title": "Sculptris 局部雕刻与网格交叠风险",
+      "start": 0.0,
+      "end": 184.4,
+      "moments": [
+        {
+          "time": 17.68,
+          "title": "后处理目标"
+        },
+        {
+          "time": 43.76,
+          "title": "导入 OBJ"
+        },
+        {
+          "time": 100.08,
+          "title": "局部膨胀"
+        },
+        {
+          "time": 130.0,
+          "title": "自相交提醒"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-sculptris-smoothing.json",
+      "sha256": "e082dc15cf280d2aa06f7ecaff1b7bb8164ac0dfd06daa98c89af29dd896ef8f"
+    },
+    {
+      "id": "topic-rhino-import-check",
+      "title": "Rhino 导入、尺度和封闭边检查",
+      "start": 184.4,
+      "end": 387.2,
+      "moments": [
+        {
+          "time": 184.4,
+          "title": "导入网格"
+        },
+        {
+          "time": 260.0,
+          "title": "测量尺度"
+        },
+        {
+          "time": 340.0,
+          "title": "检查裸边"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-rhino-import-check.json",
+      "sha256": "ca829e18e38480b5cd4900849726dc9590080d47c105425dd714fb1dca82cfc0"
+    },
+    {
+      "id": "topic-mesh-alternatives",
+      "title": "高面数转换失败与 Meshmixer、MeshLab 方案",
+      "start": 387.2,
+      "end": 801.36,
+      "moments": [
+        {
+          "time": 392.16,
+          "title": "MeshToNurb 尝试"
+        },
+        {
+          "time": 540.0,
+          "title": "Meshmixer"
+        },
+        {
+          "time": 690.0,
+          "title": "MeshLab 滤镜"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-mesh-alternatives.json",
+      "sha256": "57e0368f6af61c150a1e85f4be1df9470a938da883c4cc807bf7dd3381e431f4"
+    },
+    {
+      "id": "topic-mesh-cutter",
+      "title": "在 Rhino 中创建网格切割体",
+      "start": 801.36,
+      "end": 1008.8,
+      "moments": [
+        {
+          "time": 850.0,
+          "title": "绘制盒体"
+        },
+        {
+          "time": 915.0,
+          "title": "实体与网格类型"
+        },
+        {
+          "time": 980.0,
+          "title": "转网格并删除原体"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-mesh-cutter.json",
+      "sha256": "aa05b731dc058eb0a59b8f3ac4aea399c7a9e43a9d256ba881675ee15abd2bf4"
+    },
+    {
+      "id": "topic-boolean-versus-trim",
+      "title": "MeshBooleanSplit 与 Trim 的封闭性差别",
+      "start": 1008.8,
+      "end": 1201.84,
+      "moments": [
+        {
+          "time": 1008.8,
+          "title": "布尔运算种类"
+        },
+        {
+          "time": 1090.0,
+          "title": "底座切分结果"
+        },
+        {
+          "time": 1140.0,
+          "title": "与 Trim 比较"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-boolean-versus-trim.json",
+      "sha256": "cc0f8ed239fc7ee0c8e25377f5f80c7f92726902e7c6e284db8f083a7e22a91f"
+    },
+    {
+      "id": "topic-rhino-more-cuts",
+      "title": "继续切掉手部并仅导出选中网格",
+      "start": 1201.84,
+      "end": 1447.2,
+      "moments": [
+        {
+          "time": 1201.84,
+          "title": "处理手部"
+        },
+        {
+          "time": 1320.0,
+          "title": "再次切分"
+        },
+        {
+          "time": 1400.0,
+          "title": "仅导出选中对象"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-rhino-more-cuts.json",
+      "sha256": "be47125be6238367bbb633599434c488ea4baac5054df025df13028775d6d7ce"
+    },
+    {
+      "id": "topic-laser-size-and-scale",
+      "title": "激光切割床尺寸决定分段与缩放",
+      "start": 1447.2,
+      "end": 1927.76,
+      "moments": [
+        {
+          "time": 1480.0,
+          "title": "切割范围"
+        },
+        {
+          "time": 1710.0,
+          "title": "参考身高"
+        },
+        {
+          "time": 1810.0,
+          "title": "缩放与余量"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-laser-size-and-scale.json",
+      "sha256": "0ca248d9b19a075f616de0588c420b1c0d16fd1afe51e6aa19d54244ef7bdd32"
+    },
+    {
+      "id": "topic-boolean-repair",
+      "title": "切分报错、扩大切割体并重试",
+      "start": 1927.76,
+      "end": 2392.56,
+      "moments": [
+        {
+          "time": 1970.0,
+          "title": "发现残留错误"
+        },
+        {
+          "time": 2040.0,
+          "title": "调整拉伸方向"
+        },
+        {
+          "time": 2190.0,
+          "title": "扩大切割体"
+        },
+        {
+          "time": 2373.04,
+          "title": "再次导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-boolean-repair.json",
+      "sha256": "5e5f1942d54a659352c1ce43d776d3295dd3a23dcc5a7ad41a59d7216cfa2bd5"
+    },
+    {
+      "id": "topic-slicer-import-material",
+      "title": "Slicer 导入方向、单位与板材设置",
+      "start": 2392.56,
+      "end": 2550.48,
+      "moments": [
+        {
+          "time": 2400.0,
+          "title": "导入模型"
+        },
+        {
+          "time": 2445.0,
+          "title": "毫米与原始尺寸"
+        },
+        {
+          "time": 2500.0,
+          "title": "板材设置"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-slicer-import-material.json",
+      "sha256": "7fc9dc5dea1dde42b3ca12e3d1e787bc64fc51777e6a570842fa6bb09bd65f86"
+    },
+    {
+      "id": "topic-slice-size-warning",
+      "title": "切片方案、红色警告与摆放方向",
+      "start": 2550.48,
+      "end": 2761.6,
+      "moments": [
+        {
+          "time": 2550.48,
+          "title": "结构方式"
+        },
+        {
+          "time": 2600.0,
+          "title": "红色超尺寸提示"
+        },
+        {
+          "time": 2720.0,
+          "title": "方向与板材长宽"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-slice-size-warning.json",
+      "sha256": "c90a7948a878650141d8c785dae06297a5e02af45213d3aa3a771a6431899df8"
+    },
+    {
+      "id": "topic-assembly-slots",
+      "title": "切片方向、装配次序与双槽缺陷",
+      "start": 2761.6,
+      "end": 3002.88,
+      "moments": [
+        {
+          "time": 2780.88,
+          "title": "切片角度"
+        },
+        {
+          "time": 2840.0,
+          "title": "装配图"
+        },
+        {
+          "time": 2880.0,
+          "title": "双槽问题"
+        },
+        {
+          "time": 2960.0,
+          "title": "径向切片"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-assembly-slots.json",
+      "sha256": "0d32a5f56fe29e771431d8a8e11cd124632fe88c40736b4581cdf6ad6333bbff"
+    },
+    {
+      "id": "topic-export-laser-layers",
+      "title": "中空选项与激光雕刻、切割图层",
+      "start": 3002.88,
+      "end": 3076.352,
+      "moments": [
+        {
+          "time": 3011.04,
+          "title": "中空选项"
+        },
+        {
+          "time": 3043.12,
+          "title": "生成图纸"
+        },
+        {
+          "time": 3061.68,
+          "title": "设备参数"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/293230583/topic-export-laser-layers.json",
+      "sha256": "c6ea4527ba266a8a7a0aa8911fa58b10217fa9c9fe5519dfd3d301d0bde6728c"
+    }
+  ]
+}

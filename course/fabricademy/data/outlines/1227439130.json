@@ -1,0 +1,384 @@
+{
+  "id": "1227439130",
+  "slug": "00-documentation-website",
+  "title": "Fabricademy 第十期 · 文档化与个人网站",
+  "description": "",
+  "binding_source": "extension",
+  "duration": 5387.775,
+  "page_url": "https://ma2b.github.io/course/fabricademy/00-documentation-website/notes.html",
+  "bilibili": {
+    "bvid": "BV14Ehb6rEmT",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-platforms",
+      "title": "课程平台与账号登录",
+      "start": 0.0,
+      "end": 470.28,
+      "moments": [
+        {
+          "time": 21.78,
+          "title": "课程平台与自托管基础设施"
+        },
+        {
+          "time": 240.24,
+          "title": "欢迎邮件与账号检查"
+        },
+        {
+          "time": 317.52,
+          "title": "GitLab 登录演示"
+        },
+        {
+          "time": 399.841,
+          "title": "Mattermost 与手机登录"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-platforms.json",
+      "sha256": "35d7abbad20842ed3adae98f994a9f0a695299f02f691c5f5c81174e46809bad"
+    },
+    {
+      "id": "topic-foundations",
+      "title": "网页基础与 Zensical 模板",
+      "start": 470.28,
+      "end": 852.714,
+      "moments": [
+        {
+          "time": 470.28,
+          "title": "课程模板与网页结构"
+        },
+        {
+          "time": 644.214,
+          "title": "Markdown 基础语法"
+        },
+        {
+          "time": 737.064,
+          "title": "Zensical 与往届 MkDocs 模板"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-foundations.json",
+      "sha256": "fb69ed6e763dfc160d28368f32f1b041731d30c999e4bb4eded0c088fa136fd2"
+    },
+    {
+      "id": "topic-git-project",
+      "title": "找到个人网站，认识 Git 版本历史",
+      "start": 852.714,
+      "end": 1273.938,
+      "moments": [
+        {
+          "time": 852.714,
+          "title": "个人网站与仓库入口"
+        },
+        {
+          "time": 1058.574,
+          "title": "Git、提交历史与差异视图"
+        },
+        {
+          "time": 1199.508,
+          "title": "网页编辑与本地副本"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-git-project.json",
+      "sha256": "5d5fb5a981ef4ff8924bd25ec12c71f9dedf9393f42f7c57cd28661928f8f4bc"
+    },
+    {
+      "id": "topic-configuration",
+      "title": "项目文件结构与 TOML 配置",
+      "start": 1273.938,
+      "end": 1769.106,
+      "moments": [
+        {
+          "time": 1273.938,
+          "title": "配置、内容与构建文件"
+        },
+        {
+          "time": 1477.548,
+          "title": "TOML 键值与配置节"
+        },
+        {
+          "time": 1682.076,
+          "title": "插入问答：找回账号密码"
+        },
+        {
+          "time": 1733.286,
+          "title": "编辑站点名称和版权信息"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-configuration.json",
+      "sha256": "31d03bfaead1e39c0e56452815210c4710b36f01e767ce335a8b59bb153fef93"
+    },
+    {
+      "id": "topic-first-publish",
+      "title": "首次提交与自动发布",
+      "start": 1769.106,
+      "end": 2131.656,
+      "moments": [
+        {
+          "time": 1769.106,
+          "title": "编辑后为何需要提交"
+        },
+        {
+          "time": 1804.326,
+          "title": "检查文件差异"
+        },
+        {
+          "time": 1855.656,
+          "title": "提交说明与 main 分支"
+        },
+        {
+          "time": 1996.446,
+          "title": "流水线和构建日志"
+        },
+        {
+          "time": 2118.876,
+          "title": "确认网站更新"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-first-publish.json",
+      "sha256": "2a51d2ac5c243a06c9d56f09c4fd6c52d071d16384d14e99447b766323768a4d"
+    },
+    {
+      "id": "topic-theme",
+      "title": "字体、图标与社交链接",
+      "start": 2131.656,
+      "end": 2261.466,
+      "moments": [
+        {
+          "time": 2139.696,
+          "title": "选择字体"
+        },
+        {
+          "time": 2203.131,
+          "title": "更换站点图标"
+        },
+        {
+          "time": 2228.181,
+          "title": "添加社交链接"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-theme.json",
+      "sha256": "45339c9855402e4e4ac08a362527ced2e0b1089becaec83e14752c1ba4a3e427"
+    },
+    {
+      "id": "topic-markdown",
+      "title": "Markdown 写作与扩展组件",
+      "start": 2261.466,
+      "end": 2655.831,
+      "moments": [
+        {
+          "time": 2261.466,
+          "title": "阅读每周作业模板"
+        },
+        {
+          "time": 2339.361,
+          "title": "提示框、按钮与表格"
+        },
+        {
+          "time": 2425.851,
+          "title": "基础语法与工具扩展的区别"
+        },
+        {
+          "time": 2589.261,
+          "title": "用 HTML 添加图片图注"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-markdown.json",
+      "sha256": "a6d7f6a757ec66f03f0f5b38a1e905a5749aec7ca0e08c51eca73ee1b299968b"
+    },
+    {
+      "id": "topic-images",
+      "title": "图片插入、上传与提交",
+      "start": 2655.831,
+      "end": 3154.44,
+      "moments": [
+        {
+          "time": 2655.831,
+          "title": "图片语法与替代文本"
+        },
+        {
+          "time": 2707.056,
+          "title": "相对路径与目录层级"
+        },
+        {
+          "time": 2777.295,
+          "title": "Markdown 预览与路径补全"
+        },
+        {
+          "time": 2898.435,
+          "title": "上传图片与重命名"
+        },
+        {
+          "time": 3050.565,
+          "title": "提交正文和图片"
+        },
+        {
+          "time": 3090.495,
+          "title": "插入问答：右键菜单异常"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-images.json",
+      "sha256": "551f6e198f975d7d79c7d797e84e264dc1977cbc8fa0c7bff2f183c50bdbc1c9"
+    },
+    {
+      "id": "topic-recovery",
+      "title": "历史恢复、构建排错与编辑冲突",
+      "start": 3154.44,
+      "end": 3691.509,
+      "moments": [
+        {
+          "time": 3154.44,
+          "title": "从文件历史恢复内容"
+        },
+        {
+          "time": 3250.785,
+          "title": "Revert 演示及随后纠正"
+        },
+        {
+          "time": 3306.969,
+          "title": "纠正：revert 与 reset 的区别"
+        },
+        {
+          "time": 3383.589,
+          "title": "本地预览如何减少等待"
+        },
+        {
+          "time": 3504.219,
+          "title": "用日志定位社交图标错误"
+        },
+        {
+          "time": 3612.069,
+          "title": "处理旧标签页的提交冲突"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-recovery.json",
+      "sha256": "c04f7af0db3e87b6cf1df5000eaf3dc2616a1d42b2ec4ea66dc06e99e1675a85"
+    },
+    {
+      "id": "topic-css",
+      "title": "用 CSS 定制网站样式",
+      "start": 3691.509,
+      "end": 3934.194,
+      "moments": [
+        {
+          "time": 3691.509,
+          "title": "找到自定义样式文件"
+        },
+        {
+          "time": 3758.079,
+          "title": "选择器、类名与变量"
+        },
+        {
+          "time": 3792.819,
+          "title": "Inspect 试验与保存样式"
+        },
+        {
+          "time": 3907.344,
+          "title": "学习 CSS 的练习方法"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-css.json",
+      "sha256": "458955aa174e5018a5b6c1743e54a98b117ae2247c92c6f43aee7ec5d0048f15"
+    },
+    {
+      "id": "topic-local-workflow",
+      "title": "本地工作流：克隆、提交、预览与 SSH",
+      "start": 3934.194,
+      "end": 4642.986,
+      "moments": [
+        {
+          "time": 3934.194,
+          "title": "本地预览概念与 commit / job 问答"
+        },
+        {
+          "time": 4057.824,
+          "title": "克隆仓库与 SSH 前提"
+        },
+        {
+          "time": 4158.084,
+          "title": "检查差异、暂存、提交和推送"
+        },
+        {
+          "time": 4296.264,
+          "title": "环境准备与 Zensical 本地预览"
+        },
+        {
+          "time": 4481.526,
+          "title": "GitLab SSH 公钥设置"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-local-workflow.json",
+      "sha256": "b29268a6ef6d154e87e2b71daab4a5ed452567f9b423c17456da3ecab77dc983"
+    },
+    {
+      "id": "topic-questions",
+      "title": "课程资源与上传问题答疑",
+      "start": 4642.986,
+      "end": 5076.858,
+      "moments": [
+        {
+          "time": 4662.036,
+          "title": "课程手册与求助渠道"
+        },
+        {
+          "time": 4780.206,
+          "title": "上传菜单异常问答"
+        },
+        {
+          "time": 4919.826,
+          "title": "仓库页面的替代上传入口"
+        },
+        {
+          "time": 5017.578,
+          "title": "查看最新作业与服务器问题求助"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-questions.json",
+      "sha256": "69792a057b7b4e68bc0809eab5dd052502a5003147b42175ba897e94756d4cfd"
+    },
+    {
+      "id": "topic-publish-demo",
+      "title": "完整复演：修改字体并发布",
+      "start": 5076.858,
+      "end": 5249.628,
+      "moments": [
+        {
+          "time": 5076.858,
+          "title": "以字体修改重新演示"
+        },
+        {
+          "time": 5137.308,
+          "title": "修改字体名称与查看差异"
+        },
+        {
+          "time": 5165.959,
+          "title": "提交、检查作业并刷新网站"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-publish-demo.json",
+      "sha256": "16f81b1020f31ee804c9410aa87445733a90623e372dc3e5b31bc2f8cfa122b6"
+    },
+    {
+      "id": "topic-image-budget",
+      "title": "图片优化与课程收尾",
+      "start": 5249.628,
+      "end": 5387.775,
+      "moments": [
+        {
+          "time": 5249.628,
+          "title": "500 MB 额度与每周预算"
+        },
+        {
+          "time": 5288.658,
+          "title": "图片尺寸、体积与网络条件"
+        },
+        {
+          "time": 5355.049,
+          "title": "结束致谢"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1227439130/topic-image-budget.json",
+      "sha256": "f6de911ac3d03514b428e25f17a46d4630d35cfa182db9edc881e34fcf894a34"
+    }
+  ]
+}

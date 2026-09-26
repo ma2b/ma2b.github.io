@@ -1,0 +1,34 @@
+{
+  "id": "topic-object-transform",
+  "title": "对象模式：选择、移动、旋转与缩放",
+  "summary": "用默认立方体演示对象选择和整体变换，以及轴向约束与视角切换。",
+  "key_points": [
+    "对象模式下的 G、R、S 分别对应移动、旋转和缩放。",
+    "可沿指定坐标轴约束变换方向。"
+  ],
+  "terms": [
+    {
+      "term": "轴向约束",
+      "definition": "把变换限制到 X、Y 或 Z 方向。"
+    }
+  ],
+  "actions": [
+    "先确认当前是对象模式，再对整体几何执行变换。"
+  ],
+  "start": 722.61,
+  "end": 1173.606,
+  "references": [],
+  "moments": [
+    {
+      "time": 1054.23,
+      "title": "对象模式：选择、移动、旋转与缩放"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1054.23,
+      "caption": "立方体的对象级变换",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/object-transform.jpg"
+    }
+  ]
+}

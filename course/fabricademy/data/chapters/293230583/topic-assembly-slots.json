@@ -1,0 +1,52 @@
+{
+  "id": "topic-assembly-slots",
+  "title": "切片方向、装配次序与双槽缺陷",
+  "summary": "调整切片角度和数量，检查装配步骤，并指出软件有时生成物理上无法插入的一块双槽板。",
+  "key_points": [
+    "生成的装配图不是绝对可靠，必须验证板件能按现实顺序穿插。",
+    "若单片板需要同时跨过不连通的多个槽，实际可能无法装配；讲师建议在 Rhino 中人工修正。",
+    "切片密度和方向改变结构外观，也影响材料和连接。"
+  ],
+  "terms": [
+    {
+      "term": "插槽",
+      "definition": "交错切片中让板件互相嵌合的切口。"
+    },
+    {
+      "term": "装配路径",
+      "definition": "实际将一块板放入结构所需的空间运动路线。"
+    }
+  ],
+  "actions": [
+    "逐块模拟装配顺序，识别不能实际插入的双槽板。",
+    "必要时回到矢量图或 Rhino 修正插槽，再做小样验证。"
+  ],
+  "start": 2761.6,
+  "end": 3002.88,
+  "references": [],
+  "moments": [
+    {
+      "time": 2780.88,
+      "title": "切片角度"
+    },
+    {
+      "time": 2840.0,
+      "title": "装配图"
+    },
+    {
+      "time": 2880.0,
+      "title": "双槽问题"
+    },
+    {
+      "time": 2960.0,
+      "title": "径向切片"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2880.0,
+      "caption": "Slicer 中一块板的插槽与装配示意",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/slot-problem.jpg"
+    }
+  ]
+}

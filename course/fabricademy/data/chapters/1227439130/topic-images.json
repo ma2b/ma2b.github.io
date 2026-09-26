@@ -1,0 +1,72 @@
+{
+  "id": "topic-images",
+  "title": "图片插入、上传与提交",
+  "summary": "把图片替代文本、相对路径、编辑器预览、上传命名和最终提交连成一套操作。",
+  "key_points": [
+    "图片写法是 ![替代文本](路径)，替代文本描述画面而不是简单写“图片”。",
+    "从当前 Markdown 所在目录计算路径，../ 返回一级；可借助编辑器补全减少拼写错误。",
+    "Markdown 预览适合检查图片和基础排版，不一定显示站点扩展组件。",
+    "上传后使用清晰的小写文件名，并让正文中的路径与文件名一致。",
+    "检查图片文件和正文的变更后一起提交；本段末尾尝试排查右键菜单，后续答疑提供了替代入口。"
+  ],
+  "terms": [
+    {
+      "term": "Alt text",
+      "definition": "为看不到图片的人提供内容描述的替代文本。"
+    },
+    {
+      "term": "Relative path",
+      "definition": "相对当前文件位置计算的资源路径。"
+    }
+  ],
+  "actions": [
+    "上传一张优化后的图片，补充替代文本，并在预览中确认路径正确。",
+    "将图片与引用它的 Markdown 一起检查、提交并确认网页显示。"
+  ],
+  "start": 2655.831,
+  "end": 3154.44,
+  "references": [],
+  "moments": [
+    {
+      "time": 2655.831,
+      "title": "图片语法与替代文本"
+    },
+    {
+      "time": 2707.056,
+      "title": "相对路径与目录层级"
+    },
+    {
+      "time": 2777.295,
+      "title": "Markdown 预览与路径补全"
+    },
+    {
+      "time": 2898.435,
+      "title": "上传图片与重命名"
+    },
+    {
+      "time": 3050.565,
+      "title": "提交正文和图片"
+    },
+    {
+      "time": 3090.495,
+      "title": "插入问答：右键菜单异常"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2765.0,
+      "caption": "图片相对路径",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/images-1.jpg"
+    },
+    {
+      "time": 2830.0,
+      "caption": "预览与图片路径检查",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/images-2.jpg"
+    },
+    {
+      "time": 3058.0,
+      "caption": "图片与正文一起提交",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/images-3.jpg"
+    }
+  ]
+}

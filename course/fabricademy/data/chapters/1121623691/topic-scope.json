@@ -1,0 +1,48 @@
+{
+  "id": "topic-scope",
+  "title": "作业范围与完整制作路线",
+  "summary": "先明确数字身体作业的范围：对象不必是人体，也不必按原尺寸制造；本课演示从数字模型到切割文件的路径。",
+  "key_points": [
+    "MakeHuman 用于角色和人体模型创建，不是服装纸样制作软件。",
+    "扫描对象与最终制造对象可以不同，也可选择局部身体或非人类对象。",
+    "尺寸、材料及所需用途决定制作方案；课程提到可利用回收板材。"
+  ],
+  "terms": [
+    {
+      "term": "数字身体",
+      "definition": "本课包含人体、其他生物和物体的数字化表达。"
+    },
+    {
+      "term": "制作尺度",
+      "definition": "根据用途、材料和设备决定的实际输出尺寸。"
+    }
+  ],
+  "actions": [
+    "确定要扫描和要制作的对象，说明两者是否相同。",
+    "选择制造尺度并准备所需软件。"
+  ],
+  "start": 0.0,
+  "end": 354.405,
+  "references": [],
+  "moments": [
+    {
+      "time": 24.155,
+      "title": "MakeHuman 与服装纸样软件的区别"
+    },
+    {
+      "time": 102.115,
+      "title": "对象不局限于人体"
+    },
+    {
+      "time": 154.805,
+      "title": "局部、缩尺与不同材料"
+    }
+  ],
+  "frames": [
+    {
+      "time": 280.0,
+      "caption": "课程开场与 MakeHuman 启动准备",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/scope-1.jpg"
+    }
+  ]
+}

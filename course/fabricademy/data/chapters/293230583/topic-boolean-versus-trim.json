@@ -1,0 +1,48 @@
+{
+  "id": "topic-boolean-versus-trim",
+  "title": "MeshBooleanSplit 与 Trim 的封闭性差别",
+  "summary": "讲师比较布尔并集、差集和切分，使用 MeshBooleanSplit 去掉底座，并解释直接 Trim 可能留下开放边界。",
+  "key_points": [
+    "MeshBooleanSplit 保留切开的各部分，可确认结果后选择要删除的部分。",
+    "本次操作保留封闭底面；直接裁去表面可能导致开放网格。",
+    "Cap 仅适用于可平面封口的情况，曲面开口不能依赖它自动修复。"
+  ],
+  "terms": [
+    {
+      "term": "MeshBooleanSplit",
+      "definition": "Rhino 对相交网格进行布尔切分的命令。"
+    },
+    {
+      "term": "Trim",
+      "definition": "裁剪几何的命令，后续是否封闭需另外检查。"
+    }
+  ],
+  "actions": [
+    "执行切分后逐块检查结果，再删除不需要的底座。",
+    "对留下的模型重新检查裸边。"
+  ],
+  "start": 1008.8,
+  "end": 1201.84,
+  "references": [],
+  "moments": [
+    {
+      "time": 1008.8,
+      "title": "布尔运算种类"
+    },
+    {
+      "time": 1090.0,
+      "title": "底座切分结果"
+    },
+    {
+      "time": 1140.0,
+      "title": "与 Trim 比较"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1100.0,
+      "caption": "Rhino 中切分后的模型与独立底座块",
+      "src": "https://ma2b.github.io/course/fabricademy/04-mesh-repairing/frames/boolean-split.jpg"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "topic-folded-wrap",
+  "title": "折叠展开补充与课程收尾",
+  "summary": "补充折叠面板和 Pepakura 的思路，结束从人体模型到制造文件的完整路线。",
+  "key_points": [
+    "复杂曲面展开需要考虑网格和接缝，不能假设自动展开结果一定可装配。",
+    "讲师介绍 Pepakura 并尝试导入，现场仍在计算，不能将其写成完整成功的展开演示。",
+    "课程中提及的价格和软件可用性属于录制时说明，实际使用前需重新核对。"
+  ],
+  "terms": [
+    {
+      "term": "Seam",
+      "definition": "将三维表面拆成可展开部分时设置的接缝。"
+    },
+    {
+      "term": "Unfold",
+      "definition": "把三维表面转换为平面展开片的过程。"
+    }
+  ],
+  "actions": [
+    "需要折叠结构时先用简单网格验证展开与接缝。",
+    "归档模型、切片图纸、参数和接口测试结果。"
+  ],
+  "start": 10583.415,
+  "end": 10772.8,
+  "references": [],
+  "moments": [
+    {
+      "time": 10583.415,
+      "title": "复杂曲面与折叠面板"
+    },
+    {
+      "time": 10624.635,
+      "title": "Pepakura 补充介绍"
+    },
+    {
+      "time": 10680.275,
+      "title": "展开尝试与限制"
+    },
+    {
+      "time": 10739.745,
+      "title": "课程收尾"
+    }
+  ],
+  "frames": [
+    {
+      "time": 10695.0,
+      "caption": "Pepakura 中导入模型并检查方向；本段未展示完整的展开结果",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/folded-wrap-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "topic-edit-mode",
+  "title": "编辑模式：顶点、面与增量保存",
+  "summary": "切换到编辑模式调整局部几何，增加可编辑结构，并通过增量保存保留阶段版本。",
+  "key_points": [
+    "编辑模式用于调整顶点、边和面等局部结构。",
+    "在关键修改前增量保存，方便返回之前的形态。"
+  ],
+  "terms": [
+    {
+      "term": "编辑模式",
+      "definition": "编辑当前对象网格局部几何的模式。"
+    }
+  ],
+  "actions": [
+    "用顶点与面编辑形状；复杂修改前保存可回退的版本。"
+  ],
+  "start": 1173.606,
+  "end": 1620.636,
+  "references": [],
+  "moments": [
+    {
+      "time": 1412.316,
+      "title": "编辑模式：顶点、面与增量保存"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1412.316,
+      "caption": "编辑模式中的网格调整",
+      "src": "https://ma2b.github.io/course/fabricademy/08-blender-2026/frames/edit-mode.jpg"
+    }
+  ]
+}

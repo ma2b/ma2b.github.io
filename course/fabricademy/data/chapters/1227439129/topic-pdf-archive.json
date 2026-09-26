@@ -1,0 +1,63 @@
+{
+  "id": "topic-pdf-archive",
+  "title": "PDF、手册与作品集：先归档再嵌入",
+  "summary": "课程文件需要在仓库保留可下载版本；在线展示可以辅助阅读，但不能替代课程源文件。",
+  "key_points": [
+    "本次课程要求 PDF 先压缩后上传 Git 仓库，Google Slides 或 Canva 的在线嵌入不能成为唯一留档。",
+    "模板的 PDF 阅读器通过文件路径引用仓库中的 PDF，上传后要检查链接和实际文件名。",
+    "讲师以研究手册说明：平时统一整理视觉材料，有助于最后汇总成册。",
+    "PDF 压缩需要检查文字和图片质量，录制中的体积变化是示例，不能保证每个文件都有同样压缩率。",
+    "已有外部个人作品集的展示与课程作业归档要求在本段被区分说明。"
+  ],
+  "terms": [
+    {
+      "term": "Repository",
+      "definition": "存放课程文件并追踪版本的仓库。"
+    },
+    {
+      "term": "嵌入",
+      "definition": "在网页内呈现另一份文件或外部平台的内容。"
+    }
+  ],
+  "actions": [
+    "导出压缩 PDF，上传后测试下载链接和阅读器。",
+    "保留清晰的源文件与发布副本，避免只存外部展示链接。"
+  ],
+  "start": 1654.047,
+  "end": 1899.658,
+  "references": [],
+  "moments": [
+    {
+      "time": 1683.747,
+      "title": "PDF 与外部嵌入限制"
+    },
+    {
+      "time": 1721.938,
+      "title": "模板 PDF 阅读器"
+    },
+    {
+      "time": 1764.207,
+      "title": "手册案例"
+    },
+    {
+      "time": 1806.117,
+      "title": "压缩工具"
+    },
+    {
+      "time": 1863.807,
+      "title": "个人作品集展示"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1752.0,
+      "caption": "PDF 路径与页面阅读器示例",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/pdf-archive-1.jpg"
+    },
+    {
+      "time": 1852.0,
+      "caption": "PDF24 的压缩参数示意",
+      "src": "https://ma2b.github.io/course/fabricademy/03-fabricademy-opening/frames/pdf-archive-2.jpg"
+    }
+  ]
+}

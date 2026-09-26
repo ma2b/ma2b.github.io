@@ -1,0 +1,48 @@
+{
+  "id": "topic-preparation",
+  "title": "课程目标与 Fusion 工作环境",
+  "summary": "明确本课目标：设计可用于激光切割的模块，并准备 Fusion 的单位、网格和设计历史。",
+  "key_points": [
+    "本课演示两组模块：先用 Fusion 绘制圆形连接件，再用 Rhino 绘制另一种模块。",
+    "Illustrator 或 Inkscape 用于后续矢量整理与排料，软件选择服务于完整制作流程。",
+    "演示采用毫米单位，并检查底部时间线；界面位置会随系统和版本变化。"
+  ],
+  "terms": [
+    {
+      "term": "排料",
+      "definition": "把模块排列到材料幅面中，考虑间距和材料利用率。"
+    },
+    {
+      "term": "设计历史",
+      "definition": "记录 Fusion 建模过程，便于回到已有步骤继续编辑。"
+    }
+  ],
+  "actions": [
+    "准备选用的建模及矢量编辑软件。",
+    "核对文档单位、网格和时间线。"
+  ],
+  "start": 0.0,
+  "end": 316.005,
+  "references": [],
+  "moments": [
+    {
+      "time": 24.925,
+      "title": "本课路线与切割文件目标"
+    },
+    {
+      "time": 72.905,
+      "title": "矢量编辑软件的角色"
+    },
+    {
+      "time": 208.425,
+      "title": "Fusion 界面、单位与时间线"
+    }
+  ],
+  "frames": [
+    {
+      "time": 275.0,
+      "caption": "Fusion 工作环境与单位设置演示",
+      "src": "https://ma2b.github.io/course/fabricademy/01-modular-fashion/frames/preparation-1.jpg"
+    }
+  ]
+}

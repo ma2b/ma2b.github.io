@@ -1,0 +1,53 @@
+{
+  "id": "topic-makehuman",
+  "title": "MakeHuman：体型与人体测量",
+  "summary": "从默认人物开始调整整体体型和局部细节，理解测量面板与后续制造目标的关系。",
+  "key_points": [
+    "可调整年龄、肌肉、体重比例、身高和局部形态，不必改完所有滑块。",
+    "局部修改需从不同视角检查，避免只看正面。",
+    "测量面板用于设定或查看身体围度与长度；演示为了制作无头人台特意调整颈部。"
+  ],
+  "terms": [
+    {
+      "term": "形态参数",
+      "definition": "影响人物整体或局部形状的可调变量。"
+    },
+    {
+      "term": "围度",
+      "definition": "围绕指定身体截面测量的长度。"
+    }
+  ],
+  "actions": [
+    "先调整整体比例，再处理与项目有关的局部。",
+    "记录关键尺寸及准备保留或裁去的身体部分。"
+  ],
+  "start": 354.405,
+  "end": 726.285,
+  "references": [],
+  "moments": [
+    {
+      "time": 379.805,
+      "title": "整体体型参数"
+    },
+    {
+      "time": 529.775,
+      "title": "面部与身体局部细节"
+    },
+    {
+      "time": 630.485,
+      "title": "测量面板与颈部设计"
+    }
+  ],
+  "frames": [
+    {
+      "time": 425.0,
+      "caption": "整体体型与身高参数",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/makehuman-1.jpg"
+    },
+    {
+      "time": 700.0,
+      "caption": "人体测量与局部尺寸",
+      "src": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/frames/makehuman-2.jpg"
+    }
+  ]
+}

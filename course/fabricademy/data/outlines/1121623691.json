@@ -1,0 +1,658 @@
+{
+  "id": "1121623691",
+  "slug": "02-digital-bodies",
+  "title": "数字身体：MakeHuman、Blender 与切片制造",
+  "description": "Fabricademy Digital Bodies 教程：从人体网格、Blender 编辑与建模，到切片、排料和装配测试。保留现场失败演示与必要纠错。",
+  "binding_source": "extension",
+  "duration": 10772.8,
+  "page_url": "https://ma2b.github.io/course/fabricademy/02-digital-bodies/notes.html",
+  "bilibili": {
+    "bvid": "BV156h46UE9B",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-scope",
+      "title": "作业范围与完整制作路线",
+      "start": 0.0,
+      "end": 354.405,
+      "moments": [
+        {
+          "time": 24.155,
+          "title": "MakeHuman 与服装纸样软件的区别"
+        },
+        {
+          "time": 102.115,
+          "title": "对象不局限于人体"
+        },
+        {
+          "time": 154.805,
+          "title": "局部、缩尺与不同材料"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-scope.json",
+      "sha256": "e2c656ec39fb7616afe23c52788b109ad0868378cbebf3515e5e8e8a420ec214"
+    },
+    {
+      "id": "topic-makehuman",
+      "title": "MakeHuman：体型与人体测量",
+      "start": 354.405,
+      "end": 726.285,
+      "moments": [
+        {
+          "time": 379.805,
+          "title": "整体体型参数"
+        },
+        {
+          "time": 529.775,
+          "title": "面部与身体局部细节"
+        },
+        {
+          "time": 630.485,
+          "title": "测量面板与颈部设计"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-makehuman.json",
+      "sha256": "f6518d420b237de17a84e83afc4862a1c04cc077c350659c946d99aca45417ae"
+    },
+    {
+      "id": "topic-export-pose",
+      "title": "保存模型、导出单位与姿态",
+      "start": 726.285,
+      "end": 1139.985,
+      "moments": [
+        {
+          "time": 746.815,
+          "title": "原生保存与网格导出"
+        },
+        {
+          "time": 795.675,
+          "title": "导出单位"
+        },
+        {
+          "time": 915.675,
+          "title": "骨架与姿态"
+        },
+        {
+          "time": 1064.275,
+          "title": "口部空腔与再次导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-export-pose.json",
+      "sha256": "53db93fcfd647d45ae84fab66023e94fd50f68e1b97a9f4fa6cf9d247cbf8253"
+    },
+    {
+      "id": "topic-sculpt-remesh",
+      "title": "浏览器雕刻与均匀重网格",
+      "start": 1139.985,
+      "end": 1680.995,
+      "moments": [
+        {
+          "time": 1245.095,
+          "title": "导入网格"
+        },
+        {
+          "time": 1344.505,
+          "title": "对称雕刻与平滑"
+        },
+        {
+          "time": 1519.485,
+          "title": "观察网格不均匀"
+        },
+        {
+          "time": 1591.585,
+          "title": "Uniform Remesh"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-sculpt-remesh.json",
+      "sha256": "e704ebe7518651e19821b0402dfe8075cdd2ade6caf2e551bfbca1b6693e3e3f"
+    },
+    {
+      "id": "topic-blender-intro",
+      "title": "Blender 学习目标与工作准备",
+      "start": 1680.995,
+      "end": 2657.345,
+      "moments": [
+        {
+          "time": 1855.845,
+          "title": "讲义与课程安排"
+        },
+        {
+          "time": 1965.945,
+          "title": "降低初次学习目标"
+        },
+        {
+          "time": 2254.975,
+          "title": "设计案例"
+        },
+        {
+          "time": 2296.345,
+          "title": "设备、版本与输入方式"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-blender-intro.json",
+      "sha256": "594dc0c7554e81fdf30386aa2db2673048d7dcfe6e732f4d38c38cb168114af9"
+    },
+    {
+      "id": "topic-laser-slicer",
+      "title": "Blender Laser Slicer：安装与首次切片",
+      "start": 2657.345,
+      "end": 3462.885,
+      "moments": [
+        {
+          "time": 2706.535,
+          "title": "建立测试几何"
+        },
+        {
+          "time": 2769.875,
+          "title": "安装与启用插件"
+        },
+        {
+          "time": 2917.335,
+          "title": "尺寸和切片参数"
+        },
+        {
+          "time": 3036.105,
+          "title": "输出目录与执行切片"
+        },
+        {
+          "time": 3181.845,
+          "title": "在 Inkscape 中检查 SVG"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-laser-slicer.json",
+      "sha256": "6f336b3ec74fa7527b159de80528abba7a6eb60701aa0dc6051a32872b49d813"
+    },
+    {
+      "id": "topic-sphere-repeat",
+      "title": "完整复演：球体切片与编号",
+      "start": 3462.885,
+      "end": 3923.115,
+      "moments": [
+        {
+          "time": 3490.675,
+          "title": "创建球体并查看尺寸"
+        },
+        {
+          "time": 3583.065,
+          "title": "输入 0.4 m 尺寸"
+        },
+        {
+          "time": 3635.175,
+          "title": "切片参数与选择对象"
+        },
+        {
+          "time": 3810.085,
+          "title": "SVG 与编号"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-sphere-repeat.json",
+      "sha256": "403479d3dd7a44a40c9b5336db4fe3d1115aff94023e632c24553b63b74a171c"
+    },
+    {
+      "id": "topic-interface",
+      "title": "Blender 界面、集合与属性",
+      "start": 3923.115,
+      "end": 4714.825,
+      "moments": [
+        {
+          "time": 3950.325,
+          "title": "三个主要编辑区域"
+        },
+        {
+          "time": 4134.075,
+          "title": "属性、单位与修改器"
+        },
+        {
+          "time": 4331.435,
+          "title": "预览与应用修改器"
+        },
+        {
+          "time": 4661.375,
+          "title": "视口和渲染可见性"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-interface.json",
+      "sha256": "01712cf8db1674d8dcf034ee5455969ddcaad068a39f10b37b9bbf303d1dac2d"
+    },
+    {
+      "id": "topic-mesh-modes",
+      "title": "视图模式与网格编辑",
+      "start": 4714.825,
+      "end": 5159.885,
+      "moments": [
+        {
+          "time": 4719.795,
+          "title": "四种显示方式"
+        },
+        {
+          "time": 4810.035,
+          "title": "对象模式与编辑模式"
+        },
+        {
+          "time": 4968.055,
+          "title": "点、边、面的选择与移动"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-mesh-modes.json",
+      "sha256": "ac9e54d0b30a43fb72c4ae2cc1a51ff55905636ed5e8ce2584f88332928d6816"
+    },
+    {
+      "id": "topic-navigation",
+      "title": "插件提示、场景组织与视图导航",
+      "start": 5159.885,
+      "end": 5568.375,
+      "moments": [
+        {
+          "time": 5159.885,
+          "title": "插件与单位设置提示"
+        },
+        {
+          "time": 5220.805,
+          "title": "Environment 和 Assets 集合"
+        },
+        {
+          "time": 5280.245,
+          "title": "中键与轴向视图导航"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-navigation.json",
+      "sha256": "61ad5df0f66f109e309e789dcea9ae991236728895744af6b7ca71e93db52d5f"
+    },
+    {
+      "id": "topic-save-transform",
+      "title": "保存版本与精确变换",
+      "start": 5568.375,
+      "end": 6204.755,
+      "moments": [
+        {
+          "time": 5568.375,
+          "title": "保存与增量版本"
+        },
+        {
+          "time": 5748.945,
+          "title": "添加对象和移动"
+        },
+        {
+          "time": 5888.535,
+          "title": "精确比例与尺寸输入"
+        },
+        {
+          "time": 5999.945,
+          "title": "旋转与数值角度"
+        },
+        {
+          "time": 6123.665,
+          "title": "撤销设置"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-save-transform.json",
+      "sha256": "1a5f7180cc7c3553bfb41496fb028ffc01b12a27d465ba626e5d3c5dd6f4d57f"
+    },
+    {
+      "id": "topic-mpfb",
+      "title": "MPFB：直接在 Blender 创建人体",
+      "start": 6204.755,
+      "end": 6410.825,
+      "moments": [
+        {
+          "time": 6226.365,
+          "title": "安装说明的缺项"
+        },
+        {
+          "time": 6282.075,
+          "title": "MPFB 创建人物"
+        },
+        {
+          "time": 6327.765,
+          "title": "查看人物网格"
+        },
+        {
+          "time": 6381.855,
+          "title": "附加资产说明"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-mpfb.json",
+      "sha256": "f211910f517e08b4ecbf1a7b9add7e9af358af7fb21a12071fc0f502e9da4f92"
+    },
+    {
+      "id": "topic-booleans",
+      "title": "布尔运算、镜像与现场错误",
+      "start": 6410.825,
+      "end": 7109.265,
+      "moments": [
+        {
+          "time": 6451.365,
+          "title": "启用 Bool Tool"
+        },
+        {
+          "time": 6616.825,
+          "title": "Brush 与 Auto Boolean"
+        },
+        {
+          "time": 6638.735,
+          "title": "差集与动态调整"
+        },
+        {
+          "time": 6758.785,
+          "title": "镜像、并集和交集"
+        },
+        {
+          "time": 6865.785,
+          "title": "Slice 尝试"
+        },
+        {
+          "time": 7020.345,
+          "title": "撤销说明与 Apply Cutter 报错"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-booleans.json",
+      "sha256": "bd6b2978bfb314d50624d00f7160de6a2e540d321e0b855ad35dfa1fc8ebd6d5"
+    },
+    {
+      "id": "topic-sculpt-attempt",
+      "title": "未完成的雕刻尝试",
+      "start": 7109.265,
+      "end": 7261.595,
+      "moments": [
+        {
+          "time": 7109.265,
+          "title": "尝试 Grab 笔刷"
+        },
+        {
+          "time": 7179.395,
+          "title": "检查模式和活动对象"
+        },
+        {
+          "time": 7207.515,
+          "title": "停止未成功的演示"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-sculpt-attempt.json",
+      "sha256": "b5928c2bd74916c785cbcc8fca54eda578c4682b0fd060c48d53a1229e46823b"
+    },
+    {
+      "id": "topic-torso-base",
+      "title": "躯干盒式建模：细分、环切与镜像",
+      "start": 7261.595,
+      "end": 7653.125,
+      "moments": [
+        {
+          "time": 7267.865,
+          "title": "立方体与细分修改器"
+        },
+        {
+          "time": 7377.785,
+          "title": "中心环切"
+        },
+        {
+          "time": 7423.435,
+          "title": "X-Ray 与删除半边"
+        },
+        {
+          "time": 7485.545,
+          "title": "镜像和 Clipping"
+        },
+        {
+          "time": 7572.225,
+          "title": "增加控制环"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-torso-base.json",
+      "sha256": "cbe2f535feba9131a9b5e4c27045d7c838f8cea7638edb802b044807f18714e6"
+    },
+    {
+      "id": "topic-torso-shape",
+      "title": "比例编辑与颈肩挤出",
+      "start": 7653.125,
+      "end": 8058.335,
+      "moments": [
+        {
+          "time": 7663.185,
+          "title": "普通移动与比例编辑对比"
+        },
+        {
+          "time": 7799.005,
+          "title": "侧面和胸部塑形"
+        },
+        {
+          "time": 7871.055,
+          "title": "挤出颈部"
+        },
+        {
+          "time": 7955.045,
+          "title": "手臂与继续建模"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-torso-shape.json",
+      "sha256": "bd17c042ebaa6c5d74ce54bc166d6b5b147f2383f5a49c2829c95f2d34bcac93"
+    },
+    {
+      "id": "topic-shading-save",
+      "title": "撤销、版本保存与平滑显示纠错",
+      "start": 8058.335,
+      "end": 8338.685,
+      "moments": [
+        {
+          "time": 8067.135,
+          "title": "撤销步数答疑"
+        },
+        {
+          "time": 8168.855,
+          "title": "Shade Smooth 演示与纠错点"
+        },
+        {
+          "time": 8259.305,
+          "title": "再次强调增量保存"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-shading-save.json",
+      "sha256": "d2e5e099641e5c55bd81af55666d543c548fdb6a36b64aab11f53dce24b34b8a"
+    },
+    {
+      "id": "topic-materials",
+      "title": "金属、玻璃与局部材质分配",
+      "start": 8338.685,
+      "end": 8548.145,
+      "moments": [
+        {
+          "time": 8348.785,
+          "title": "创建金属材质"
+        },
+        {
+          "time": 8418.265,
+          "title": "新增玻璃材质"
+        },
+        {
+          "time": 8487.215,
+          "title": "选择面并 Assign"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-materials.json",
+      "sha256": "98d0c83d8a8be14520118dd068da95b547e0bb05f9954d52cc9c2faa2945e25e"
+    },
+    {
+      "id": "topic-render",
+      "title": "相机、灯光与渲染排错",
+      "start": 8548.145,
+      "end": 8904.995,
+      "moments": [
+        {
+          "time": 8571.155,
+          "title": "引擎与采样设置"
+        },
+        {
+          "time": 8667.605,
+          "title": "对齐相机视图"
+        },
+        {
+          "time": 8748.165,
+          "title": "误渲染其他对象及修正"
+        },
+        {
+          "time": 8788.025,
+          "title": "调整灯光"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-render.json",
+      "sha256": "c2f56a36f82038c473718c7a14a23cb46da85f44586d9b2fa161ad62dc885cf8"
+    },
+    {
+      "id": "topic-modifier-demo",
+      "title": "修改器效果与已有材质复用",
+      "start": 8904.995,
+      "end": 9084.145,
+      "moments": [
+        {
+          "time": 8923.435,
+          "title": "新建人体"
+        },
+        {
+          "time": 8941.985,
+          "title": "线框与简化效果"
+        },
+        {
+          "time": 9002.445,
+          "title": "复用已创建材质"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-modifier-demo.json",
+      "sha256": "74effbb66efdebe76fd6847ed7e1534ad81b330ff8a1c72f700d908d756f8870"
+    },
+    {
+      "id": "topic-fusion-slicer-setup",
+      "title": "Slicer for Fusion 360：导入与制造设置",
+      "start": 9084.145,
+      "end": 9402.495,
+      "moments": [
+        {
+          "time": 9179.035,
+          "title": "导入网格与方向问题"
+        },
+        {
+          "time": 9252.605,
+          "title": "制造设置"
+        },
+        {
+          "time": 9315.765,
+          "title": "厚度、边距和槽口偏移"
+        },
+        {
+          "time": 9357.515,
+          "title": "模型尺度检查"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-fusion-slicer-setup.json",
+      "sha256": "54a267b5030d9450f4c7043b930f9d65425f0f5e97a8db1d19b281d802825ec8"
+    },
+    {
+      "id": "topic-slice-techniques",
+      "title": "切片结构比较与中空处理",
+      "start": 9402.495,
+      "end": 9931.205,
+      "moments": [
+        {
+          "time": 9406.105,
+          "title": "堆叠切片与方向"
+        },
+        {
+          "time": 9518.305,
+          "title": "交错切片与局部分布"
+        },
+        {
+          "time": 9626.615,
+          "title": "曲线和径向方式"
+        },
+        {
+          "time": 9714.545,
+          "title": "折叠面板尝试"
+        },
+        {
+          "time": 9833.795,
+          "title": "中空与形态修改"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-slice-techniques.json",
+      "sha256": "ba8dc773bdc967d88b9fbab40a6c620fc13e5d6bfece853ba12be4417a143faa"
+    },
+    {
+      "id": "topic-plans-fit",
+      "title": "导出图纸、接口测试与排料",
+      "start": 9931.205,
+      "end": 10257.385,
+      "moments": [
+        {
+          "time": 9938.545,
+          "title": "导出 DXF 图纸"
+        },
+        {
+          "time": 9960.915,
+          "title": "手动优化板材布局"
+        },
+        {
+          "time": 10030.595,
+          "title": "两片接口测试"
+        },
+        {
+          "time": 10113.735,
+          "title": "Deepnest 与后续答疑"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-plans-fit.json",
+      "sha256": "b4513742ff749cea6967c6b0a7325410fefb50e6f949287d0a3333f274b8b331"
+    },
+    {
+      "id": "topic-orientation-debug",
+      "title": "比例、朝向与红色提示排查",
+      "start": 10257.385,
+      "end": 10583.415,
+      "moments": [
+        {
+          "time": 10278.455,
+          "title": "板材边距与缩尺疑问"
+        },
+        {
+          "time": 10335.445,
+          "title": "重新导入和检查轴向"
+        },
+        {
+          "time": 10437.125,
+          "title": "回到实际制作尺度"
+        },
+        {
+          "time": 10505.445,
+          "title": "通过装配步骤检查提示"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-orientation-debug.json",
+      "sha256": "fb44dff04fa7bdeace977a9b4e1765507040f5b940e93c296cc1d178e231d177"
+    },
+    {
+      "id": "topic-folded-wrap",
+      "title": "折叠展开补充与课程收尾",
+      "start": 10583.415,
+      "end": 10772.8,
+      "moments": [
+        {
+          "time": 10583.415,
+          "title": "复杂曲面与折叠面板"
+        },
+        {
+          "time": 10624.635,
+          "title": "Pepakura 补充介绍"
+        },
+        {
+          "time": 10680.275,
+          "title": "展开尝试与限制"
+        },
+        {
+          "time": 10739.745,
+          "title": "课程收尾"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1121623691/topic-folded-wrap.json",
+      "sha256": "8c63db0ea3e6d6e4c93e79ff3bbbe3363ad3bf0377729648901c790d240a95ea"
+    }
+  ]
+}

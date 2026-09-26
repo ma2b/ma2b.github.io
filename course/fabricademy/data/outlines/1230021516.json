@@ -1,0 +1,184 @@
+{
+  "id": "1230021516",
+  "slug": "07-ai-to-fabrication-2026",
+  "title": "AI 辅助从图像到数字制造",
+  "description": "从图像生成三维模型，检查网格，再准备切片、排版和激光切割文件。",
+  "binding_source": "extension",
+  "duration": 9872.28,
+  "page_url": "https://ma2b.github.io/course/fabricademy/07-ai-to-fabrication-2026/notes.html",
+  "bilibili": {
+    "bvid": "BV1rphm6DEoH",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-slicer-recap",
+      "title": "Slicer for Fusion 360：三维模型到切割图纸",
+      "start": 0.0,
+      "end": 392.82,
+      "moments": [
+        {
+          "time": 215.64,
+          "title": "Slicer for Fusion 360：三维模型到切割图纸"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-slicer-recap.json",
+      "sha256": "1d7d65daaab572d9706e5f04f7224122d98402be69862ede920b265f34566e9c"
+    },
+    {
+      "id": "topic-workflow",
+      "title": "从二维构思到可制造的三维模型",
+      "start": 392.82,
+      "end": 693.708,
+      "moments": [
+        {
+          "time": 510.331,
+          "title": "从二维构思到可制造的三维模型"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-workflow.json",
+      "sha256": "d2a4c0ce96ac9f4d3e08034c4ed6db2766323f29ec711afe97f6d470651da945"
+    },
+    {
+      "id": "topic-gemini-image",
+      "title": "用 Gemini 迭代二维形象",
+      "start": 693.708,
+      "end": 1503.954,
+      "moments": [
+        {
+          "time": 1050.498,
+          "title": "用 Gemini 迭代二维形象"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-gemini-image.json",
+      "sha256": "568bdbf8f8e34bdfb2fd133d04dc59e7043b166627a20934ede55373e390f266"
+    },
+    {
+      "id": "topic-image-limits",
+      "title": "提示词、参考图与二维图像的限制",
+      "start": 1503.954,
+      "end": 2462.322,
+      "moments": [
+        {
+          "time": 1770.402,
+          "title": "提示词、参考图与二维图像的限制"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-image-limits.json",
+      "sha256": "ae8031b6e6a519e0bba10abe7b6ef664d6911d41ff49242f6702b66a93c8e740"
+    },
+    {
+      "id": "topic-tripo-generation",
+      "title": "Tripo：图像生成三维网格",
+      "start": 2462.322,
+      "end": 3301.512,
+      "moments": [
+        {
+          "time": 2731.362,
+          "title": "Tripo：图像生成三维网格"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-tripo-generation.json",
+      "sha256": "48055ba6404e20fe9191d9d036ee2ed975d00f598f43e383c56e73854e38b14a"
+    },
+    {
+      "id": "topic-tripo-troubleshooting",
+      "title": "Tripo 导出与课堂排错",
+      "start": 3301.512,
+      "end": 5450.454,
+      "moments": [
+        {
+          "time": 4170.147,
+          "title": "Tripo 导出与课堂排错"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-tripo-troubleshooting.json",
+      "sha256": "fe3f34fc28e3ff32a640817585de991193ea7a8c98d4879d2c2e0eb385c77b65"
+    },
+    {
+      "id": "topic-blender-entry",
+      "title": "转入 Blender：导入与准备网格",
+      "start": 5450.454,
+      "end": 5701.459,
+      "moments": [
+        {
+          "time": 5674.128,
+          "title": "转入 Blender：导入与准备网格"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-blender-entry.json",
+      "sha256": "5b569d4e48bfc02497bb67592668de86d7dc67bde9ce44d4f0be2c40bdb7b5d7"
+    },
+    {
+      "id": "topic-blender-boolean",
+      "title": "用平面与布尔运算修整底部",
+      "start": 5701.459,
+      "end": 6482.191,
+      "moments": [
+        {
+          "time": 6215.31,
+          "title": "用平面与布尔运算修整底部"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-blender-boolean.json",
+      "sha256": "d93b5cdd72ef553abc857b14ae353c5363fe5e2fa36b24762dda93947b3a36c9"
+    },
+    {
+      "id": "topic-manifold",
+      "title": "3D Print 检查与非流形修复",
+      "start": 6482.191,
+      "end": 7147.032,
+      "moments": [
+        {
+          "time": 6754.152,
+          "title": "3D Print 检查与非流形修复"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-manifold.json",
+      "sha256": "54362f5461411474480a66e63a36642086da4a567aa3cd956d160e511eae5db1"
+    },
+    {
+      "id": "topic-formslice-project",
+      "title": "FormSlice：自制切片工具的构思",
+      "start": 7147.032,
+      "end": 7802.22,
+      "moments": [
+        {
+          "time": 7470.63,
+          "title": "FormSlice：自制切片工具的构思"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-formslice-project.json",
+      "sha256": "9f91c3123bc5d7c67eff2411d8b234cc3ca7db9a7f23bb0a94566a6efc8ee076"
+    },
+    {
+      "id": "topic-formslice-use",
+      "title": "FormSlice 的尺寸、排版与文件导出",
+      "start": 7802.22,
+      "end": 8764.381,
+      "moments": [
+        {
+          "time": 8076.81,
+          "title": "FormSlice 的尺寸、排版与文件导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-formslice-use.json",
+      "sha256": "314b874fa85bb77b91f3400bef67522ac1e6bbbc210f0373d9150b0d1efd1f1e"
+    },
+    {
+      "id": "topic-reflection",
+      "title": "反馈与 AI 制造流程的边界",
+      "start": 8764.381,
+      "end": 9872.28,
+      "moments": [
+        {
+          "time": 8973.99,
+          "title": "反馈与 AI 制造流程的边界"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1230021516/topic-reflection.json",
+      "sha256": "16b861745621a406cb8c98908978146ff1a710cbb882d3b2dc18f4f2e8556d2f"
+    }
+  ]
+}

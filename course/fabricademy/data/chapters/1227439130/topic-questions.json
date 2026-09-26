@@ -1,0 +1,59 @@
+{
+  "id": "topic-questions",
+  "title": "课程资源与上传问题答疑",
+  "summary": "集中整理结尾答疑：去哪里查资料、上传菜单异常时怎么办，以及如何反馈持续失败的构建。",
+  "key_points": [
+    "课程手册、每周模板和工具文档提供 Markdown、定制和操作示例。",
+    "问题可发到课程 Mattermost 对应频道，附具体错误信息。",
+    "上传菜单闪退的演示中，替代做法是进入仓库目标目录，使用加号下的 Upload File。",
+    "讲师随后确认该入口可多选文件；本地工作也可直接把文件放入目录统一提交。",
+    "持续构建失败时查看最新作业日志，必要时请课程支持协助判断服务器状态。"
+  ],
+  "terms": [
+    {
+      "term": "Upload File",
+      "definition": "仓库目录页面提供的文件上传入口。"
+    },
+    {
+      "term": "最新作业",
+      "definition": "确认本次改动是否成功构建的对应任务。"
+    }
+  ],
+  "actions": [
+    "收藏课程手册与工具文档，确认能访问课程求助频道。",
+    "如果上传菜单异常，使用仓库目录的 Upload File；构建异常时记录日志。"
+  ],
+  "start": 4642.986,
+  "end": 5076.858,
+  "references": [],
+  "moments": [
+    {
+      "time": 4662.036,
+      "title": "课程手册与求助渠道"
+    },
+    {
+      "time": 4780.206,
+      "title": "上传菜单异常问答"
+    },
+    {
+      "time": 4919.826,
+      "title": "仓库页面的替代上传入口"
+    },
+    {
+      "time": 5017.578,
+      "title": "查看最新作业与服务器问题求助"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4705.0,
+      "caption": "课程文档与功能示例",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/questions-1.jpg"
+    },
+    {
+      "time": 4940.0,
+      "caption": "仓库页面的上传入口",
+      "src": "https://ma2b.github.io/course/fabricademy/00-documentation-website/frames/topics/questions-2.jpg"
+    }
+  ]
+}

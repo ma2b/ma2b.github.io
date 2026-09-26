@@ -1,0 +1,322 @@
+{
+  "id": "868785869",
+  "slug": "06-makehuman-slicer-2023",
+  "title": "MakeHuman、Rhino 与 Fusion Slicer：数字身体制作",
+  "description": "Fabricademy 2023–24 Week 2 教程：从 MakeHuman 人体建模，经 Rhino 网格处理、Slicer 切片和二维图纸，准备激光切割与组装。",
+  "binding_source": "extension",
+  "duration": 4899.36,
+  "page_url": "https://ma2b.github.io/course/fabricademy/06-makehuman-slicer-2023/notes.html",
+  "bilibili": {
+    "bvid": "BV1txaN6kEsS",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-week2-workflow",
+      "title": "Week 2 作业路线：从三维人体到激光切割",
+      "start": 0.0,
+      "end": 237.96,
+      "moments": [
+        {
+          "time": 10.69,
+          "title": "完整制作路线"
+        },
+        {
+          "time": 121.95,
+          "title": "三维转二维"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-week2-workflow.json",
+      "sha256": "3f4e6992ead07287b46bd1ff81c270a4621c5581c1a1b57c9acb9f3667436b52"
+    },
+    {
+      "id": "topic-makehuman-body",
+      "title": "MakeHuman：创建与调整人体参数",
+      "start": 237.96,
+      "end": 719.25,
+      "moments": [
+        {
+          "time": 259.59,
+          "title": "参数与比例"
+        },
+        {
+          "time": 420.15,
+          "title": "人体细节"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-makehuman-body.json",
+      "sha256": "55451b5dfefdfad598d1fa3550c4a2c9985c89c437714f568cd270eb65493076"
+    },
+    {
+      "id": "topic-makehuman-appearance",
+      "title": "姿态、外观和模型细节",
+      "start": 719.25,
+      "end": 1077.4,
+      "moments": [
+        {
+          "time": 859.29,
+          "title": "姿态设置"
+        },
+        {
+          "time": 960.89,
+          "title": "外观选项"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-makehuman-appearance.json",
+      "sha256": "2064cea13e51acca2252edb5f26dcdf1856ceb95585ac7b4dbae1a4eee0e5277"
+    },
+    {
+      "id": "topic-makehuman-export",
+      "title": "保存 MakeHuman 项目并导出模型",
+      "start": 1077.4,
+      "end": 1257.53,
+      "moments": [
+        {
+          "time": 1093.18,
+          "title": "保存项目"
+        },
+        {
+          "time": 1187.2,
+          "title": "导出模型"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-makehuman-export.json",
+      "sha256": "47a9a856574f08be50418027f588f6ccbb7aa8d8019b253e778b3e6cfe303566"
+    },
+    {
+      "id": "topic-rhino-mesh-split",
+      "title": "Rhino：导入、拆分与封闭网格",
+      "start": 1257.53,
+      "end": 1618.41,
+      "moments": [
+        {
+          "time": 1318.99,
+          "title": "导入人体"
+        },
+        {
+          "time": 1452.8,
+          "title": "拆分网格"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-rhino-mesh-split.json",
+      "sha256": "70c4e2ab19d218c585fbaa6fc6c507f7e88ac7936e1b41de1cf50793ba8f01f3"
+    },
+    {
+      "id": "topic-rhino-boolean",
+      "title": "布尔减法、网格检查与 STL 导出",
+      "start": 1618.41,
+      "end": 1915.97,
+      "moments": [
+        {
+          "time": 1633.5,
+          "title": "布尔减法"
+        },
+        {
+          "time": 1783.05,
+          "title": "导出 STL"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-rhino-boolean.json",
+      "sha256": "85219f4b1e01d4e257572bb1e4ba455124bd66d5504bf862a16aa369cd656d3d"
+    },
+    {
+      "id": "topic-meshmixer-sculpt",
+      "title": "Meshmixer：雕刻式网格修改",
+      "start": 1915.97,
+      "end": 2041.26,
+      "moments": [
+        {
+          "time": 1920.91,
+          "title": "Meshmixer 笔刷"
+        },
+        {
+          "time": 1981.82,
+          "title": "可选修改"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-meshmixer-sculpt.json",
+      "sha256": "abdb2f724e696aa53dc895dab1de6b9beaa187bbe812bf5c721ff0ddd781fcf9"
+    },
+    {
+      "id": "topic-slicer-import",
+      "title": "Slicer：导入、朝向、单位与尺寸",
+      "start": 2041.26,
+      "end": 2339.3,
+      "moments": [
+        {
+          "time": 2062.13,
+          "title": "软件状态"
+        },
+        {
+          "time": 2237.27,
+          "title": "导入轴向"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-slicer-import.json",
+      "sha256": "4b2971a479d93ce8318c22ee6b1fdbd6d23584d7289b48a7378f3fabf986ac21"
+    },
+    {
+      "id": "topic-manufacturing-settings",
+      "title": "设置板材、厚度与切缝参数",
+      "start": 2339.3,
+      "end": 2517.97,
+      "moments": [
+        {
+          "time": 2351.51,
+          "title": "尺寸与单位"
+        },
+        {
+          "time": 2428.79,
+          "title": "板材设置"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-manufacturing-settings.json",
+      "sha256": "804c5dfe0679eb17129566567cac0f29dfe2cfc2e693a071aea3cd30e695ac06"
+    },
+    {
+      "id": "topic-stacked-slices",
+      "title": "堆叠切片与装配顺序",
+      "start": 2517.97,
+      "end": 2699.61,
+      "moments": [
+        {
+          "time": 2539.34,
+          "title": "堆叠结构"
+        },
+        {
+          "time": 2663.15,
+          "title": "装配预览"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-stacked-slices.json",
+      "sha256": "dea4fabeef451e0ade1533e9ca05306ed5440235eefa6c9a20de04afd2aa89f0"
+    },
+    {
+      "id": "topic-interlocked-slices",
+      "title": "交错切片：数量、方向和红色警告",
+      "start": 2699.61,
+      "end": 3062.92,
+      "moments": [
+        {
+          "time": 2728.43,
+          "title": "交错切片"
+        },
+        {
+          "time": 2908.34,
+          "title": "红色越界提示"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-interlocked-slices.json",
+      "sha256": "6759ab620336ef55fcc39e14fde9ee5b4193ff37b2e8ff47fbd450970323fe18"
+    },
+    {
+      "id": "topic-radial-folded",
+      "title": "径向切片、折叠面板与可装配性",
+      "start": 3062.92,
+      "end": 3362.03,
+      "moments": [
+        {
+          "time": 3077.76,
+          "title": "径向结构"
+        },
+        {
+          "time": 3271.72,
+          "title": "折叠面板"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-radial-folded.json",
+      "sha256": "65d8837fbb3ac7e77481577e09fd21705f6b0ebf5e3ce9260269823a01babe7a"
+    },
+    {
+      "id": "topic-hollow-optimization",
+      "title": "空心处理与排料优化",
+      "start": 3362.03,
+      "end": 3601.62,
+      "moments": [
+        {
+          "time": 3375.61,
+          "title": "空心化"
+        },
+        {
+          "time": 3448.83,
+          "title": "排料优化"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-hollow-optimization.json",
+      "sha256": "dfb9110c12e870c554e3fa318c558f243c2330cdd96ae338c4650d77459498ae"
+    },
+    {
+      "id": "topic-save-export",
+      "title": "保存切片项目并导出图纸",
+      "start": 3601.62,
+      "end": 3727.84,
+      "moments": [
+        {
+          "time": 3619.41,
+          "title": "保存工程"
+        },
+        {
+          "time": 3679.37,
+          "title": "导出图纸"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-save-export.json",
+      "sha256": "ddbc5ba27c88f5f5170cd386bc28b94ca7e3b0a72fe191b660fb72aacf405193"
+    },
+    {
+      "id": "topic-vector-plans",
+      "title": "在二维绘图软件中整理切割线",
+      "start": 3727.84,
+      "end": 4139.52,
+      "moments": [
+        {
+          "time": 3807.91,
+          "title": "二维图纸"
+        },
+        {
+          "time": 3959.15,
+          "title": "雕刻与切割线"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-vector-plans.json",
+      "sha256": "c7519f333edefb43149404dbfcd9bc06403f9e5742e00aee1b5a1a8120df5df8"
+    },
+    {
+      "id": "topic-laser-test",
+      "title": "先试切卡槽并核算材料",
+      "start": 4139.52,
+      "end": 4501.78,
+      "moments": [
+        {
+          "time": 4154.8,
+          "title": "卡槽试切"
+        },
+        {
+          "time": 4244.32,
+          "title": "材料配额"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-laser-test.json",
+      "sha256": "94f5d2c87bf2027635f85578bb2b254356d3dcfe395ce61a2c7a705fd8d92130"
+    },
+    {
+      "id": "topic-examples-documentation",
+      "title": "往届案例、替代输入与作业文档",
+      "start": 4501.78,
+      "end": 4899.36,
+      "moments": [
+        {
+          "time": 4525.37,
+          "title": "往届结构示例"
+        },
+        {
+          "time": 4796.7,
+          "title": "制造文件文档"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/868785869/topic-examples-documentation.json",
+      "sha256": "83570d39d67b0b1968c74db5699d8394634c09acd6c8c11a498fe82a4622a54c"
+    }
+  ]
+}
