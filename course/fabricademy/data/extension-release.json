@@ -1,10 +1,19 @@
 {
   "schema_version": 1,
-  "version": "0.6.6",
+  "version": "0.6.7",
   "published_at": "2026-09-26",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.6.zip",
-  "sha256": "d3a41761bb5e95cbd36287e44e44b270a07c2a4b266a33db0ba28abce519c090",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.7.zip",
+  "sha256": "214257af37fed979ea442195fc35fba096fb5432c0ff324d49e86dd13eea1354",
   "releases": [
+    {
+      "version": "0.6.7",
+      "date": "2026-09-26",
+      "changes": [
+        "已匹配课程的工具栏图标由 Chrome 直接打开或关闭侧栏，减少等待后台唤醒的依赖。",
+        "后台恢复课程绑定期间保留已有侧栏入口；切换到其他页面仍及时停用旧绑定。",
+        "笔记显示不再等待窗口信息和外观偏好，继续按当前课程、单个章节读取。"
+      ]
+    },
     {
       "version": "0.6.6",
       "date": "2026-09-26",
