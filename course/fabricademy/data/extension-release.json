@@ -1,10 +1,19 @@
 {
   "schema_version": 1,
-  "version": "0.6.2",
+  "version": "0.6.4",
   "published_at": "2026-09-26",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.2.zip",
-  "sha256": "22961b3bb0353aeb7a1e6d967af5c8aebb5bcbc76257ca79eb478789659bfe44",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.4.zip",
+  "sha256": "2dcebe8a27e8e703f286f534c88c19ac9110596acb2dfe180ed90f55c496e0a7",
   "releases": [
+    {
+      "version": "0.6.4",
+      "date": "2026-09-26",
+      "changes": [
+        "等待提示增加可展开的加载诊断，显示最后阶段、经过时间及具体错误；超时自动展开。",
+        "侧栏内可查看课程来自缓存还是网络、缓存读取耗时和播放器连接结果。",
+        "调整启动顺序、复用课程缓存并限制首次下载等待；正文起始时间可直接定位。"
+      ]
+    },
     {
       "version": "0.6.2",
       "date": "2026-09-26",
