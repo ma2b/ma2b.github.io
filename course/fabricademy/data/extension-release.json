@@ -1,10 +1,20 @@
 {
   "schema_version": 1,
-  "version": "0.6.4",
+  "version": "0.6.5",
   "published_at": "2026-09-26",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.4.zip",
-  "sha256": "2dcebe8a27e8e703f286f534c88c19ac9110596acb2dfe180ed90f55c496e0a7",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.5.zip",
+  "sha256": "e1866841e6faca3f88fdcd4bb2e3086d5b50f83ccc7e48b234ed2ae33d57c5fd",
   "releases": [
+    {
+      "version": "0.6.5",
+      "date": "2026-09-26",
+      "changes": [
+        "版本提示延后加载，减少首次打开侧栏时必须加载的资源。",
+        "笔记准备完成后，等待侧栏可见再收起加载提示；超过 25 秒仍保留等待进度。",
+        "重复打开复用已有笔记，课程绑定未变时减少重复配置。",
+        "增加侧栏显示与页面复用诊断，方便定位剩余等待；实际打开耗时仍待验证。"
+      ]
+    },
     {
       "version": "0.6.4",
       "date": "2026-09-26",
