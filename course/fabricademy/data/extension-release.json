@@ -1,10 +1,19 @@
 {
   "schema_version": 1,
-  "version": "0.6.7",
-  "published_at": "2026-09-26",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.7.zip",
-  "sha256": "214257af37fed979ea442195fc35fba096fb5432c0ff324d49e86dd13eea1354",
+  "version": "0.6.8",
+  "published_at": "2026-09-27",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.8.zip",
+  "sha256": "4eb060cdb7a99c7e3baffe4caeb216a7ba33e415cd9b1c9d4f8a79027f3efb87",
   "releases": [
+    {
+      "version": "0.6.8",
+      "date": "2026-09-27",
+      "changes": [
+        "章节目录默认展开，打开面板即可查看课程结构。",
+        "章节开关移至课程选择下方右侧，增加目录图标、收起与展开提示，展开时高亮显示。",
+        "收起或展开目录保留当前正文和阅读位置，支持鼠标与键盘操作。"
+      ]
+    },
     {
       "version": "0.6.7",
       "date": "2026-09-26",
