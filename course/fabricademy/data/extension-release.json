@@ -1,10 +1,19 @@
 {
   "schema_version": 1,
-  "version": "0.6.8",
-  "published_at": "2026-09-27",
-  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.8.zip",
-  "sha256": "4eb060cdb7a99c7e3baffe4caeb216a7ba33e415cd9b1c9d4f8a79027f3efb87",
+  "version": "0.6.9",
+  "published_at": "2026-09-28",
+  "download_url": "https://ma2b.github.io/course/fabricademy/downloads/fabricademy-learning-panel-v0.6.9.zip",
+  "sha256": "634df09f2e7c7ed4afee3f9582739a06d62997e5aa54c87b5f005f6653cccf49",
   "releases": [
+    {
+      "version": "0.6.9",
+      "date": "2026-09-28",
+      "changes": [
+        "修复读取缓存后误报「课程与目录不匹配」、导致学习面板启动失败的问题。",
+        "课程与章节按实际内容核对，兼容缓存字段顺序变化；已有缓存可继续使用，无需清空。",
+        "真正的数据不匹配会显示具体字段，便于排查。"
+      ]
+    },
     {
       "version": "0.6.8",
       "date": "2026-09-27",
