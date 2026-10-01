@@ -9530,7 +9530,7 @@ filing PDF, where you can have guidelines
 
 1907
 01:50:38,065 --> 01:50:41,605
-{\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}并且规定每个人 {\fn黑体\fs22\bord1\shad0\3aHBE\4aH00\fscx67\fscy66\2cHFFFFFF\3cH808080}如何最好地组装碎片
+并指导大家如何更好地组装这些模块。
 and prescribe everybody on how to best assemble the pieces.
 
 1908

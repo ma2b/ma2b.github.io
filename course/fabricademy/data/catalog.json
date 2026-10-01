@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "127bba2fe19fc35c8775f6ac1368604aade584601f1233b3fa801fa907df81b6",
+  "revision": "9e6bcae3c02b68bf3c542a8f3c211e4b81766e08fc2a7660a3986024b6b3a573",
   "courses": [
     {
       "id": "1227439130",
@@ -163,9 +163,9 @@
         "offset_seconds": 0
       },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/1015196544.json",
-      "sha256": "d9ac0998c1f168634d1df53d6daa9253405caa94ca4dbadf312f0e78cf6209e9",
+      "sha256": "874ea2fcff27cc0d90fe406efc7addd14684e78c97253d9a27213789138e197d",
       "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1015196544.json",
-      "outline_sha256": "cb8cd8527f3555635bcae3ceac6620e8bf57c78ff211019317b6632bfe05a463"
+      "outline_sha256": "50b40592434e60bf20bc4751d4183e0fd1dd14c8ed32f0a9bfef95d42e4ff0de"
     },
     {
       "id": "871099356",

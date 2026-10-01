@@ -4888,7 +4888,7 @@ window.fabricademyPlayback = {"course_id": "1121623691", "duration": 10772.8, "d
   function describe() {
     select.disabled = provider !== 'local';
     status.dataset.error = 'false';
-    status.textContent = provider === 'bilibili' ? '上传下方中文字幕到 B站后，在 B站播放器内开启字幕。' :
+    status.textContent = provider === 'bilibili' ? '字幕以平台已发布版本为准；嵌入播放器缺少入口时，请打开 B站原站开启字幕。下方可下载中文与中英双语字幕。' :
       provider === 'vimeo' ? 'Vimeo 请在播放器内选择原站提供的字幕；本课中文字幕可随本地视频播放。' :
       config.translated ? '中文由 AI 翻译，可切换英文核对；字幕随本地视频自动加载。' : '本课已提供英文字幕，中文字幕尚未生成。';
   }
