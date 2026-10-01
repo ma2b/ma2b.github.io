@@ -1,0 +1,53 @@
+{
+  "id": "topic-connector-engineering",
+  "title": "连接工程：插槽、箭头与装配方向",
+  "summary": "比较凹槽与凸形箭头，说明折叠插入、保留头部、连接间距和单模块中组合多类连接的方式。",
+  "key_points": [
+    "槽宽、头部尺寸、材料厚度和弹性共同决定装配与保持力。",
+    "一个模块可同时包含插槽和插入件，增加方向和组装可能。",
+    "更多切口可能增加可组合性，也会改变强度，必须以小样验证。"
+  ],
+  "terms": [
+    {
+      "term": "保持力",
+      "definition": "连接抵抗被拉脱的能力。"
+    },
+    {
+      "term": "装配公差",
+      "definition": "为实际材料与加工误差留出的尺寸余量。"
+    }
+  ],
+  "actions": [
+    "做一组不同槽宽与头部尺寸的小样，记录能否插入、拉脱和重复拆装。",
+    "把装配方向、正反面和顺序画成图示。"
+  ],
+  "start": 5828.665,
+  "end": 6137.575,
+  "references": [],
+  "moments": [
+    {
+      "time": 5840.0,
+      "title": "凹槽与箭头连接"
+    },
+    {
+      "time": 5952.0,
+      "title": "同一模块中组合连接"
+    },
+    {
+      "time": 6077.0,
+      "title": "服装连接演示"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5925.0,
+      "caption": "凸凹连接与折叠插入",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/connector-engineering-1.jpg"
+    },
+    {
+      "time": 6098.0,
+      "caption": "模块服装装配演示",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/connector-engineering-2.jpg"
+    }
+  ]
+}

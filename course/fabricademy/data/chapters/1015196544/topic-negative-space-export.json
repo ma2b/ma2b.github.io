@@ -1,0 +1,44 @@
+{
+  "id": "topic-negative-space-export",
+  "title": "负空间、试切与导出",
+  "summary": "观察圆形模块间的剩余材料，提出负空间再设计，并检查小批试切和 PDF／SVG 等导出方式。",
+  "key_points": [
+    "圆形密排仍留下空隙，可利用负空间设计另一个模块。",
+    "先切少量验证连接，避免整个画板失败。",
+    "导出后检查选择范围、单位和路径，不把位图预览当作矢量加工文件。"
+  ],
+  "terms": [
+    {
+      "term": "负空间",
+      "definition": "模块之间或内部没有被主体占用的区域。"
+    }
+  ],
+  "actions": [
+    "计算材料利用并绘出留下的负空间。",
+    "先保存并试切少量，再导出最终排料。"
+  ],
+  "start": 2145.495,
+  "end": 2373.805,
+  "references": [],
+  "moments": [
+    {
+      "time": 2161.0,
+      "title": "圆片之间的剩余材料"
+    },
+    {
+      "time": 2242.0,
+      "title": "试切与组装检查"
+    },
+    {
+      "time": 2303.0,
+      "title": "导出文件"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2195.0,
+      "caption": "圆形排料中的负空间",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/negative-space-export.jpg"
+    }
+  ]
+}

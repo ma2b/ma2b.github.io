@@ -1,0 +1,52 @@
+{
+  "id": "topic-fusion-slot",
+  "title": "构造线、插槽长度与中点约束",
+  "summary": "用构造轴定位插槽，再设置槽长、距中心距离和中点关系，让连接位置可控。",
+  "key_points": [
+    "构造线用于定位，不应进入最终切割路径。",
+    "只设置槽长不能固定槽的位置，还需要距离或几何约束。",
+    "课程演示 10 mm 槽及约 20 mm 定位，连接最终仍需做材料测试。"
+  ],
+  "terms": [
+    {
+      "term": "Construction",
+      "definition": "构造几何：辅助定位和约束，不作为实体切割轮廓。"
+    },
+    {
+      "term": "Midpoint",
+      "definition": "中点约束：把点或几何的中点与目标对齐。"
+    }
+  ],
+  "actions": [
+    "把参考轴改成构造线，给槽长、中心距离与中点关系分别加约束。"
+  ],
+  "start": 434.155,
+  "end": 808.155,
+  "references": [],
+  "moments": [
+    {
+      "time": 456.0,
+      "title": "轴线改为构造几何"
+    },
+    {
+      "time": 588.0,
+      "title": "槽长与距中心距离"
+    },
+    {
+      "time": 734.0,
+      "title": "中点约束"
+    }
+  ],
+  "frames": [
+    {
+      "time": 653.0,
+      "caption": "插槽尺寸与定位",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/fusion-slot-1.jpg"
+    },
+    {
+      "time": 753.0,
+      "caption": "中点约束后的槽位置",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/fusion-slot-2.jpg"
+    }
+  ]
+}

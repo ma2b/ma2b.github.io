@@ -1,0 +1,39 @@
+{
+  "id": "topic-files-and-closing",
+  "title": "文件交付、后续制作与结束",
+  "summary": "说明课程工作文件分享和求助渠道，回答二维设计如何服务后续三维探索，并结束教程。",
+  "key_points": [
+    "保存可修改的原文件与用于加工的矢量输出。",
+    "二维模块可作为后续建模起点，本课没有完成全部三维制作。",
+    "Mattermost 的文件分享和求助是当年课程安排，下载前需确认实际可用性。"
+  ],
+  "terms": [
+    {
+      "term": "源文件",
+      "definition": "保留图层、参数或母形关系，供继续修改的设计文件。"
+    }
+  ],
+  "actions": [
+    "归档原文件、导出、参数与组装照片，列出下一步试切问题。"
+  ],
+  "start": 6297.545,
+  "end": 6427.04,
+  "references": [],
+  "moments": [
+    {
+      "time": 6311.0,
+      "title": "工作文件分享"
+    },
+    {
+      "time": 6363.0,
+      "title": "后续探索与结束"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6322.0,
+      "caption": "文件分享与求助说明时的线上课堂",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/files-and-closing.jpg"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "topic-tessellation",
+  "title": "镶嵌：让模块覆盖平面",
+  "summary": "解释 tessellation 的无间隙、无重叠平面铺砌，并以自然、Escher 与几何图案作为设计参考。",
+  "key_points": [
+    "镶嵌讨论平面覆盖，模块能铺满不代表连接一定牢固。",
+    "自动字幕把 tessellation 多次写成 distillation 等词，此处依据讲解统一为“镶嵌”。",
+    "圆片之间通常留有负空间；利用负空间需要再设计。"
+  ],
+  "terms": [
+    {
+      "term": "Tessellation",
+      "definition": "镶嵌：不留间隙、不重叠地覆盖平面的图形排列。"
+    },
+    {
+      "term": "负空间",
+      "definition": "模块外或模块之间留下的空间。"
+    }
+  ],
+  "actions": [
+    "先验证模块能否平移或旋转重复覆盖，再增加连接。",
+    "区分几何铺砌、实际排料和材料切缝造成的损耗。"
+  ],
+  "start": 5668.425,
+  "end": 5828.665,
+  "references": [],
+  "moments": [
+    {
+      "time": 5686.0,
+      "title": "镶嵌的定义"
+    },
+    {
+      "time": 5748.0,
+      "title": "自然与 Escher 图案"
+    },
+    {
+      "time": 5789.0,
+      "title": "几何与重复规律"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5756.0,
+      "caption": "镶嵌与重复图案示例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/tessellation.jpg"
+    }
+  ]
+}

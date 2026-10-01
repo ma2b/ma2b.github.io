@@ -1,0 +1,44 @@
+{
+  "id": "topic-serpica-naro",
+  "title": "Serpica Naro：把时装变成公共议题",
+  "summary": "Zoe 回顾米兰劳动与媒体行动，以及 2005 年虚构设计师 Serpica Naro 如何借时装周表达劳动条件和社会议题。",
+  "key_points": [
+    "服装在案例中兼具功能、符号与传播媒介。",
+    "Serpica Naro 的身份与品牌是集体行动的一部分。",
+    "后续再设计和展览把项目从单次活动延伸为共享资源。"
+  ],
+  "terms": [
+    {
+      "term": "Serpica Naro",
+      "definition": "2005 年米兰行动中构造的设计师身份与集体品牌。"
+    }
+  ],
+  "actions": [
+    "分析一个案例怎样同时表达服装功能与社会议题。",
+    "区分作品、品牌身份、传播行动和共享方式。"
+  ],
+  "start": 561.595,
+  "end": 1214.515,
+  "references": [],
+  "moments": [
+    {
+      "time": 614.0,
+      "title": "劳动与媒体背景"
+    },
+    {
+      "time": 774.0,
+      "title": "虚构设计师与时装周行动"
+    },
+    {
+      "time": 1083.305,
+      "title": "从黑客文化走向开放设计"
+    }
+  ],
+  "frames": [
+    {
+      "time": 860.0,
+      "caption": "Serpica Naro 的服装与行动案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/serpica-naro.jpg"
+    }
+  ]
+}

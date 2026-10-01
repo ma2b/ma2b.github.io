@@ -1,0 +1,53 @@
+{
+  "id": "topic-physical-tests",
+  "title": "实体组装：拉扯、翻面与纸样",
+  "summary": "用皮革包袋、圆片和组合连接演示受力、正反面与负空间，最后鼓励用纸进行早期探索。",
+  "key_points": [
+    "拉扯测试帮助判断连接稳定，但更多槽不自动保证整体足够强。",
+    "正面、背面和额外连接件可能形成不同效果。",
+    "纸样适合初步理解；纸与最终材料性能不同，正式材料仍需再验证。"
+  ],
+  "terms": [
+    {
+      "term": "应力测试",
+      "definition": "在受力状态下观察连接失效或变形的试验。"
+    },
+    {
+      "term": "负空间",
+      "definition": "模块间留下的区域，可作为结构或图案的一部分。"
+    }
+  ],
+  "actions": [
+    "拍摄组装顺序与正反面，并记录拉脱位置。",
+    "从纸样过渡到实际材料小样，再批量切割。"
+  ],
+  "start": 4752.22,
+  "end": 5117.56,
+  "references": [],
+  "moments": [
+    {
+      "time": 4847.44,
+      "title": "拉扯与稳定性"
+    },
+    {
+      "time": 4883.01,
+      "title": "组合连接与翻面"
+    },
+    {
+      "time": 5023.0,
+      "title": "纸样探索"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4838.0,
+      "caption": "实体凸凹连接与背面",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/physical-tests-1.jpg"
+    },
+    {
+      "time": 4929.0,
+      "caption": "组装后的负空间",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/physical-tests-2.jpg"
+    }
+  ]
+}

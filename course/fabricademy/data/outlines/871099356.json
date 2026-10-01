@@ -1,0 +1,434 @@
+{
+  "id": "871099356",
+  "slug": "11-modular-zero-waste-2023",
+  "title": "模块化零废料时装设计",
+  "description": "从零废料、文化叙事和模块连接案例出发，演示 Fusion 参数与草图阵列、Illustrator 镶嵌与排料、Rhino 连接构造，并用实体样本检验装配。",
+  "binding_source": "extension",
+  "duration": 5258.16,
+  "page_url": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/notes.html",
+  "bilibili": {
+    "bvid": "BV1eZYP6REe5",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-open-design-workflow",
+      "title": "开源模块与二维制作工作流",
+      "start": 0.0,
+      "end": 266.83,
+      "moments": [
+        {
+          "time": 86.0,
+          "title": "平台参考与分享"
+        },
+        {
+          "time": 190.0,
+          "title": "二维和建模软件协作"
+        },
+        {
+          "time": 233.0,
+          "title": "纸样与连接案例"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-open-design-workflow.json",
+      "sha256": "0b3317e2570f27e0f744364f1600c31ab49ef33da228b5f83d66ee390d43071d"
+    },
+    {
+      "id": "topic-layering-kirigami",
+      "title": "叠层、单片切纸与旧材料",
+      "start": 266.83,
+      "end": 542.55,
+      "moments": [
+        {
+          "time": 302.0,
+          "title": "圆形与层叠模块"
+        },
+        {
+          "time": 413.0,
+          "title": "单片切口与空间结构"
+        },
+        {
+          "time": 506.89,
+          "title": "切纸与建筑形态"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-layering-kirigami.json",
+      "sha256": "52d18222868c29bf2d8728d4709798ebe8bcb9c560d983aa0bb0a67f0ae7b24e"
+    },
+    {
+      "id": "topic-joint-storytelling",
+      "title": "连接工程、品牌与文化叙事",
+      "start": 542.55,
+      "end": 853.04,
+      "moments": [
+        {
+          "time": 560.54,
+          "title": "模块密度与参数"
+        },
+        {
+          "time": 577.93,
+          "title": "连接厚度与结构"
+        },
+        {
+          "time": 714.28,
+          "title": "文化叙事与个人网格"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-joint-storytelling.json",
+      "sha256": "8d645affbf8e725f818b5341a4f2cd7352fffe2e7ea112cfbf0a860bdbd78170"
+    },
+    {
+      "id": "topic-tessellation-principles",
+      "title": "镶嵌原理：平移、旋转与克隆",
+      "start": 853.04,
+      "end": 1097.56,
+      "moments": [
+        {
+          "time": 866.79,
+          "title": "Escher 与几何规律"
+        },
+        {
+          "time": 927.63,
+          "title": "相对边的平移"
+        },
+        {
+          "time": 996.0,
+          "title": "旋转与克隆方法"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-tessellation-principles.json",
+      "sha256": "1e7fcd962dc2443147d3eee03018686059809a22eeee6e2ea9c9167e84b5643a"
+    },
+    {
+      "id": "topic-software-file-flow",
+      "title": "建模、矢量排料与组合连接",
+      "start": 1097.56,
+      "end": 1282.29,
+      "moments": [
+        {
+          "time": 1117.0,
+          "title": "Fusion 与矢量文件"
+        },
+        {
+          "time": 1182.0,
+          "title": "切割路径与排料"
+        },
+        {
+          "time": 1242.0,
+          "title": "凸凹连接组合"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-software-file-flow.json",
+      "sha256": "a6b5e096af896fb0b60143bc3e0e03dbcb72e165b7197b04969c7edf13035323"
+    },
+    {
+      "id": "topic-fusion-circle",
+      "title": "Fusion 草图：平面、圆与尺寸",
+      "start": 1282.29,
+      "end": 1517.29,
+      "moments": [
+        {
+          "time": 1355.0,
+          "title": "创建草图与圆"
+        },
+        {
+          "time": 1424.0,
+          "title": "尺寸与编辑"
+        },
+        {
+          "time": 1483.0,
+          "title": "参数化修改准备"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-fusion-circle.json",
+      "sha256": "8464fab18b7a89da76003e3c2f7fcac54eec2d97c403b8c474c6637ad49f62c5"
+    },
+    {
+      "id": "topic-fusion-parameters",
+      "title": "命名参数、表达式与构造轴",
+      "start": 1517.29,
+      "end": 1736.86,
+      "moments": [
+        {
+          "time": 1526.0,
+          "title": "建立命名参数"
+        },
+        {
+          "time": 1581.0,
+          "title": "尺寸表达式"
+        },
+        {
+          "time": 1671.0,
+          "title": "构造轴"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-fusion-parameters.json",
+      "sha256": "3bed6b0b6c44d8c4c096ecbd3ea1c8f253eed659c47eff6f342e34e6486bbe76"
+    },
+    {
+      "id": "topic-fusion-slots-array",
+      "title": "插槽镜像、圆周阵列与完整定位",
+      "start": 1736.86,
+      "end": 2082.59,
+      "moments": [
+        {
+          "time": 1777.81,
+          "title": "镜像插槽"
+        },
+        {
+          "time": 1848.97,
+          "title": "圆周阵列"
+        },
+        {
+          "time": 1975.01,
+          "title": "补齐位置约束"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-fusion-slots-array.json",
+      "sha256": "f7b9b2ca77d84793f908f163a02d867710c64ec7c76699da9bd5c7f26f03530b"
+    },
+    {
+      "id": "topic-fusion-combined-module",
+      "title": "凸凹组合、矩形阵列与负空间",
+      "start": 2082.59,
+      "end": 2443.43,
+      "moments": [
+        {
+          "time": 2121.93,
+          "title": "复制与连接间距"
+        },
+        {
+          "time": 2194.35,
+          "title": "修剪与凸件阵列"
+        },
+        {
+          "time": 2398.37,
+          "title": "圆形负空间再设计"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-fusion-combined-module.json",
+      "sha256": "544dcd97676b23b09fb1faa4c64b8df1ae3d224a902402aab2beda6a6a8d3d83"
+    },
+    {
+      "id": "topic-illustrator-import-clean",
+      "title": "Illustrator：毫米导入、连接与描边",
+      "start": 2443.43,
+      "end": 2732.35,
+      "moments": [
+        {
+          "time": 2479.6,
+          "title": "新建 RGB 毫米画板"
+        },
+        {
+          "time": 2610.94,
+          "title": "1:1 导入"
+        },
+        {
+          "time": 2653.26,
+          "title": "路径连接与红色描边"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-illustrator-import-clean.json",
+      "sha256": "e8d1321304a654117a2aedb7daf0fe4b7d568012c55b3e025c7f9073dcd3db5d"
+    },
+    {
+      "id": "topic-illustrator-grid",
+      "title": "复制排料与闭合轮廓检查",
+      "start": 2732.35,
+      "end": 2944.23,
+      "moments": [
+        {
+          "time": 2746.71,
+          "title": "拖动复制与方向约束"
+        },
+        {
+          "time": 2808.04,
+          "title": "Ctrl／Cmd+D 重复排料"
+        },
+        {
+          "time": 2892.85,
+          "title": "描边与闭合轮廓检查"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-illustrator-grid.json",
+      "sha256": "414bc61c1e6d50d4efe734882d648390cada695a0f0493be0ad2a350fa1650c0"
+    },
+    {
+      "id": "topic-illustrator-tessellation",
+      "title": "平移镶嵌：相对边与 Pathfinder",
+      "start": 2944.23,
+      "end": 3471.24,
+      "moments": [
+        {
+          "time": 3001.0,
+          "title": "定尺寸方形与轴"
+        },
+        {
+          "time": 3153.02,
+          "title": "钢笔与 Pathfinder"
+        },
+        {
+          "time": 3380.89,
+          "title": "对边复制与相减"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-illustrator-tessellation.json",
+      "sha256": "1f2f46e2bd39cadcae316274138730ff3a23f1c5b014a2f30bb348542644b998"
+    },
+    {
+      "id": "topic-illustrator-common-lines",
+      "title": "共边去重与 SVG／PDF 输出",
+      "start": 3471.24,
+      "end": 3715.29,
+      "moments": [
+        {
+          "time": 3498.05,
+          "title": "描边检查"
+        },
+        {
+          "time": 3526.9,
+          "title": "剪刀与重复边删除"
+        },
+        {
+          "time": 3677.07,
+          "title": "SVG 导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-illustrator-common-lines.json",
+      "sha256": "24ab4da3450ecf7fe40e5312d9d9d9324fe3dc72f3e2a6ea171289338a66098f"
+    },
+    {
+      "id": "topic-rhino-setup-square",
+      "title": "Rhino：捕捉、方形与测量尺寸",
+      "start": 3715.29,
+      "end": 3960.02,
+      "moments": [
+        {
+          "time": 3746.82,
+          "title": "捕捉与视图"
+        },
+        {
+          "time": 3868.41,
+          "title": "原点与 60 mm 方形"
+        },
+        {
+          "time": 3903.13,
+          "title": "尺寸测量"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-rhino-setup-square.json",
+      "sha256": "f29da5be1ccdcfb700d2fd35d4c14768d3c73cc8bdf78b31b279001a8ae48507"
+    },
+    {
+      "id": "topic-rhino-slot-polar",
+      "title": "Rhino 插槽：移动捕捉与极轴阵列",
+      "start": 3960.02,
+      "end": 4251.85,
+      "moments": [
+        {
+          "time": 4071.08,
+          "title": "Move 与中点捕捉"
+        },
+        {
+          "time": 4142.92,
+          "title": "ArrayPolar"
+        },
+        {
+          "time": 4217.03,
+          "title": "数量与角度"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-rhino-slot-polar.json",
+      "sha256": "99f7c47614137c2294d6c62f19f89310fdc4bb5cdcb12c9e4799abc6d0509b22"
+    },
+    {
+      "id": "topic-rhino-combined-joint",
+      "title": "Rhino 凸凹组合：延伸、偏移与 Trim",
+      "start": 4251.85,
+      "end": 4593.4,
+      "moments": [
+        {
+          "time": 4290.03,
+          "title": "延伸与参考线"
+        },
+        {
+          "time": 4329.92,
+          "title": "偏移定位"
+        },
+        {
+          "time": 4468.27,
+          "title": "Trim 选择与修剪"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-rhino-combined-joint.json",
+      "sha256": "ad804731d9626e6530fad2f26d440895f593b8d24ec676f1b3d35b5e06296c38"
+    },
+    {
+      "id": "topic-rhino-output-limit",
+      "title": "Rhino 图层、线型与导出限制",
+      "start": 4593.4,
+      "end": 4752.22,
+      "moments": [
+        {
+          "time": 4609.78,
+          "title": "线型和颜色"
+        },
+        {
+          "time": 4657.6,
+          "title": "缩放与连接变化"
+        },
+        {
+          "time": 4737.05,
+          "title": "许可证与导出限制"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-rhino-output-limit.json",
+      "sha256": "d7c822ed6c1e3d623ad067a0235688e8384ef5a800928665fc55141f079c7007"
+    },
+    {
+      "id": "topic-physical-tests",
+      "title": "实体组装：拉扯、翻面与纸样",
+      "start": 4752.22,
+      "end": 5117.56,
+      "moments": [
+        {
+          "time": 4847.44,
+          "title": "拉扯与稳定性"
+        },
+        {
+          "time": 4883.01,
+          "title": "组合连接与翻面"
+        },
+        {
+          "time": 5023.0,
+          "title": "纸样探索"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-physical-tests.json",
+      "sha256": "aff1c1cfc1c03ed2ee248f7f9c8142d8b067195bdd18b7873fdb19dd87892cf2"
+    },
+    {
+      "id": "topic-ai-reference-closing",
+      "title": "答疑：AI 参考与教程结束",
+      "start": 5117.56,
+      "end": 5258.16,
+      "moments": [
+        {
+          "time": 5129.74,
+          "title": "像素艺术与 AI 灵感"
+        },
+        {
+          "time": 5185.47,
+          "title": "配置与形状组合"
+        },
+        {
+          "time": 5223.76,
+          "title": "资料与结束"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/871099356/topic-ai-reference-closing.json",
+      "sha256": "17ad89e9ceaf5b6fd736056c0889c54c65f64f3c189739b3470e24fab3374b12"
+    }
+  ]
+}

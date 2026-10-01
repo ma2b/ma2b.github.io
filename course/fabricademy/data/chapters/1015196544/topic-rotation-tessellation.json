@@ -1,0 +1,44 @@
+{
+  "id": "topic-rotation-tessellation",
+  "title": "旋转镶嵌：三角形、曲线与捕捉",
+  "summary": "通过三角形、旋转复制和曲线连接展示旋转镶嵌，并修正中心、端点和中点捕捉造成的对齐问题。",
+  "key_points": [
+    "旋转中心和角度决定边界能否互补。",
+    "课程使用 180° 与 60° 的复制来探索三角形轮廓。",
+    "演示包含对齐修正；应检查最终端点，不把中途错位当作可用结果。"
+  ],
+  "terms": [
+    {
+      "term": "Join",
+      "definition": "连接矢量路径端点；先确认两端确实位于正确位置。"
+    }
+  ],
+  "actions": [
+    "使用明确的顶点或中点作为旋转中心。",
+    "连接路径并放大检查端点，再复制验证整片镶嵌。"
+  ],
+  "start": 5303.925,
+  "end": 5813.795,
+  "references": [],
+  "moments": [
+    {
+      "time": 5388.0,
+      "title": "三角形与曲线"
+    },
+    {
+      "time": 5550.0,
+      "title": "旋转复制"
+    },
+    {
+      "time": 5704.0,
+      "title": "端点与中心对齐修正"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5679.0,
+      "caption": "旋转复制的模块轮廓",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/rotation-tessellation.jpg"
+    }
+  ]
+}

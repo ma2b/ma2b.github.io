@@ -1,0 +1,48 @@
+{
+  "id": "topic-fusion-male-module",
+  "title": "凸连接模块：复制、镜像与修剪",
+  "summary": "复制原模块作为参考，用线、镜像和 Trim 建立凸形连接，再以圆周阵列扩展。",
+  "key_points": [
+    "复制后检查参数和约束关系，删除轮廓可能影响原约束。",
+    "凸件头部、颈部和槽长需要配合；尺寸是否保持取决于材料和装配方式。",
+    "讲师用镜像、修剪和阵列演示快速探索，并非完成了所有强度验证。"
+  ],
+  "terms": [
+    {
+      "term": "Mirror",
+      "definition": "镜像：把选定几何关于参考线对称复制。"
+    },
+    {
+      "term": "Trim",
+      "definition": "修剪：以相交几何为边界删除不需要的线段。"
+    }
+  ],
+  "actions": [
+    "把凸凹连接叠放比较间距，先制作少量测试件。",
+    "删除导出中的参考线和重复线，再保存独立文件。"
+  ],
+  "start": 1020.405,
+  "end": 1473.915,
+  "references": [],
+  "moments": [
+    {
+      "time": 1049.0,
+      "title": "复制模块与连接间距"
+    },
+    {
+      "time": 1178.0,
+      "title": "镜像与修剪凸件"
+    },
+    {
+      "time": 1356.0,
+      "title": "圆周阵列与导出检查"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1395.0,
+      "caption": "凸凹模块草图与 Save As DXF 入口",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/fusion-male-module.jpg"
+    }
+  ]
+}

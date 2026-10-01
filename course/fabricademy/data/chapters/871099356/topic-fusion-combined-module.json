@@ -1,0 +1,53 @@
+{
+  "id": "topic-fusion-combined-module",
+  "title": "凸凹组合、矩形阵列与负空间",
+  "summary": "复制模块，修剪轮廓形成凸连接，再以矩形阵列观察排料与圆片之间的剩余空间。",
+  "key_points": [
+    "Trim 删除线段可能同时移除相关约束，继续编辑时须检查。",
+    "单模块可以组合凸件与凹槽，简化所需零件种类。",
+    "圆形排料留下的负空间也可以再设计为模块。"
+  ],
+  "terms": [
+    {
+      "term": "Trim",
+      "definition": "修剪相交几何中不需要的线段。"
+    },
+    {
+      "term": "Rectangular Pattern",
+      "definition": "沿指定方向重复对象的矩形阵列。"
+    }
+  ],
+  "actions": [
+    "检查凸凹间距与方向，做纸样连接测试。",
+    "调整阵列间距排除重叠，再规划剩余材料用途。"
+  ],
+  "start": 2082.59,
+  "end": 2443.43,
+  "references": [],
+  "moments": [
+    {
+      "time": 2121.93,
+      "title": "复制与连接间距"
+    },
+    {
+      "time": 2194.35,
+      "title": "修剪与凸件阵列"
+    },
+    {
+      "time": 2398.37,
+      "title": "圆形负空间再设计"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2236.0,
+      "caption": "凸凹组合的模块草图",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-combined-module-1.jpg"
+    },
+    {
+      "time": 2407.0,
+      "caption": "圆形阵列与负空间",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-combined-module-2.jpg"
+    }
+  ]
+}

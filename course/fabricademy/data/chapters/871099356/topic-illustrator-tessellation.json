@@ -1,0 +1,53 @@
+{
+  "id": "topic-illustrator-tessellation",
+  "title": "平移镶嵌：相对边与 Pathfinder",
+  "summary": "以方形为基础，在相对边做对应添加和减去，使用钢笔、Pathfinder 和锚点工具改造轮廓。",
+  "key_points": [
+    "相对边需要保持一致的平移关系，随意拖动可能破坏匹配。",
+    "Divide、Unite 等操作前确认对象相交和选择顺序。",
+    "演示是一段探索；重复拼接后仍要放大检查精度。"
+  ],
+  "terms": [
+    {
+      "term": "Pathfinder",
+      "definition": "对矢量形状进行分割、合并或相减的工具组。"
+    },
+    {
+      "term": "锚点",
+      "definition": "决定矢量路径位置和曲线形态的节点。"
+    }
+  ],
+  "actions": [
+    "保留基础方形，将改造轮廓按明确位移复制到对边。",
+    "用至少四个副本检查互补、缝隙和重叠。"
+  ],
+  "start": 2944.23,
+  "end": 3471.24,
+  "references": [],
+  "moments": [
+    {
+      "time": 3001.0,
+      "title": "定尺寸方形与轴"
+    },
+    {
+      "time": 3153.02,
+      "title": "钢笔与 Pathfinder"
+    },
+    {
+      "time": 3380.89,
+      "title": "对边复制与相减"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3276.0,
+      "caption": "Pathfinder 分割与组合",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-tessellation-1.jpg"
+    },
+    {
+      "time": 3448.0,
+      "caption": "相对边改造后的模块拼接",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-tessellation-2.jpg"
+    }
+  ]
+}

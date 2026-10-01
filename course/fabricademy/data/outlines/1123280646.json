@@ -1,0 +1,434 @@
+{
+  "id": "1123280646",
+  "slug": "09-circular-fashion-lecture-2025",
+  "title": "开源循环时尚：理论、系统与模块设计",
+  "description": "Zoe Romano 从开放设计、共享生产与地方制造讲起；Claudia Simonelli 继续介绍模块化时装案例、连接结构、镶嵌排料和 Week 3 作业。",
+  "binding_source": "extension",
+  "duration": 6798.2,
+  "page_url": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/notes.html",
+  "bilibili": {
+    "bvid": "BV1SuYN67EMz",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-local-material-systems",
+      "title": "从地方材料到开放设计",
+      "start": 0.0,
+      "end": 561.595,
+      "moments": [
+        {
+          "time": 140.0,
+          "title": "创客空间与设计实践"
+        },
+        {
+          "time": 352.0,
+          "title": "地方羊毛的价值与机器人簇绒"
+        },
+        {
+          "time": 490.0,
+          "title": "把维修纳入设计"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-local-material-systems.json",
+      "sha256": "63015259f479b6f7df8fe414848f9f75000950598a3156e30fb3af8b0ede2f25"
+    },
+    {
+      "id": "topic-serpica-naro",
+      "title": "Serpica Naro：把时装变成公共议题",
+      "start": 561.595,
+      "end": 1214.515,
+      "moments": [
+        {
+          "time": 614.0,
+          "title": "劳动与媒体背景"
+        },
+        {
+          "time": 774.0,
+          "title": "虚构设计师与时装周行动"
+        },
+        {
+          "time": 1083.305,
+          "title": "从黑客文化走向开放设计"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-serpica-naro.json",
+      "sha256": "5e9c8bb359a69f1d50b4e86e9135575d0385b355d01752fb8757d3a9793ab3db"
+    },
+    {
+      "id": "topic-openwear",
+      "title": "Openwear：共享版型、品牌与制作能力",
+      "start": 1214.515,
+      "end": 1423.325,
+      "moments": [
+        {
+          "time": 1250.0,
+          "title": "协作版型与品牌"
+        },
+        {
+          "time": 1326.0,
+          "title": "激光切割鞋与可穿戴实验"
+        },
+        {
+          "time": 1381.0,
+          "title": "项目规模与技能限制"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-openwear.json",
+      "sha256": "234b1a257e4feb5529a4ca6c683e04487b225581a51588929ebf0bcaea7c9713"
+    },
+    {
+      "id": "topic-freedom-licenses",
+      "title": "自由软件、开放许可与时装知识产权",
+      "start": 1423.325,
+      "end": 1885.475,
+      "moments": [
+        {
+          "time": 1530.0,
+          "title": "自由软件与 free 的含义"
+        },
+        {
+          "time": 1711.0,
+          "title": "开放与共享许可"
+        },
+        {
+          "time": 1805.0,
+          "title": "服装文件与品牌权利"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-freedom-licenses.json",
+      "sha256": "f37bec4ae85f233b2d35e343562d5943a403894d01b0a1288251dacdcb009e7e"
+    },
+    {
+      "id": "topic-commons-tools",
+      "title": "公地、数字制造与共同生产",
+      "start": 1885.475,
+      "end": 2435.725,
+      "moments": [
+        {
+          "time": 1943.0,
+          "title": "RepRap 与 Arduino 的工具生态"
+        },
+        {
+          "time": 2128.0,
+          "title": "Benkler 与共同生产"
+        },
+        {
+          "time": 2305.0,
+          "title": "开放设计的制作条件"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-commons-tools.json",
+      "sha256": "980b903cb6b0d12a5fc112c4770de4925bd2866026ec12eb793e9650428aa514"
+    },
+    {
+      "id": "topic-distributed-production",
+      "title": "全球设计、本地生产与 Atacac",
+      "start": 2435.725,
+      "end": 2988.145,
+      "moments": [
+        {
+          "time": 2520.0,
+          "title": "生产系统的历史与转变"
+        },
+        {
+          "time": 2655.0,
+          "title": "全球设计与本地材料"
+        },
+        {
+          "time": 2826.0,
+          "title": "Atacac 的版型与动态定价"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-distributed-production.json",
+      "sha256": "43e8529d45f5c4c5f27a66914ffd0e2f2a12fbca93cda7236ef97fbdc14e7be0"
+    },
+    {
+      "id": "topic-deadstock",
+      "title": "库存材料与现场定制微型工厂",
+      "start": 2988.145,
+      "end": 3256.925,
+      "moments": [
+        {
+          "time": 3017.0,
+          "title": "剩余纺织品与皮革平台"
+        },
+        {
+          "time": 3137.0,
+          "title": "皮革包袋现场制作视频"
+        },
+        {
+          "time": 3195.0,
+          "title": "定制与材料选择"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-deadstock.json",
+      "sha256": "eecd3880b6ff37e58210ddf7dcca47e5f5e61270334844def47a90d39cbf692d"
+    },
+    {
+      "id": "topic-business-community",
+      "title": "产品家族、预订与共享基础设施",
+      "start": 3256.925,
+      "end": 3542.515,
+      "moments": [
+        {
+          "time": 3306.0,
+          "title": "持续演化的产品目录"
+        },
+        {
+          "time": 3377.0,
+          "title": "预订、众筹与需求"
+        },
+        {
+          "time": 3470.0,
+          "title": "合作与共享设施"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-business-community.json",
+      "sha256": "ae4771401ad345ca1431bd38c406028adca48032db4ba0c0edbff6184d62347d"
+    },
+    {
+      "id": "topic-kits-and-starting",
+      "title": "答疑：DIY 套件与小规模起步",
+      "start": 3542.515,
+      "end": 3945.215,
+      "moments": [
+        {
+          "time": 3565.0,
+          "title": "套件说明与使用者测试"
+        },
+        {
+          "time": 3750.0,
+          "title": "缺少资金时如何开始"
+        },
+        {
+          "time": 3883.0,
+          "title": "协作网络与结束语"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-kits-and-starting.json",
+      "sha256": "70be8ef981e6fd1aaa8644f5f638dfe2c71e6d86c036671ebb8e4da56f895aa4"
+    },
+    {
+      "id": "topic-modular-workflow",
+      "title": "模块化时装：从纸样到可重组结构",
+      "start": 3945.215,
+      "end": 4223.605,
+      "moments": [
+        {
+          "time": 3985.0,
+          "title": "模块、维修与重组"
+        },
+        {
+          "time": 4091.0,
+          "title": "纸样与数字制作流程"
+        },
+        {
+          "time": 4168.0,
+          "title": "学生案例的制作路径"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-modular-workflow.json",
+      "sha256": "69dc145f1ad6c410810f31c0572264d4c77e29869233d8434ac0023f12cea634"
+    },
+    {
+      "id": "topic-applications",
+      "title": "从服装到家具、包装和饰品",
+      "start": 4223.605,
+      "end": 4601.445,
+      "moments": [
+        {
+          "time": 4270.0,
+          "title": "方形互锁服装"
+        },
+        {
+          "time": 4413.0,
+          "title": "家具、地毯与皮革篮"
+        },
+        {
+          "time": 4533.0,
+          "title": "包装与饰品"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-applications.json",
+      "sha256": "15c8bfd6095014bed71d515e13e0790b9625f1d09be58c0f0c87f09872d1d622"
+    },
+    {
+      "id": "topic-community-layering",
+      "title": "学生案例：连接方向、叠层与切纸结构",
+      "start": 4601.445,
+      "end": 5023.015,
+      "moments": [
+        {
+          "time": 4645.0,
+          "title": "圆片与三角连接"
+        },
+        {
+          "time": 4771.0,
+          "title": "叠层与立体变化"
+        },
+        {
+          "time": 4939.0,
+          "title": "窗帘升级再造"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-community-layering.json",
+      "sha256": "7e46e2a6e2bacadb181f7bcfed0f48763fbfea21b652b0d88c48bb9eb2def309"
+    },
+    {
+      "id": "topic-scraps-heritage",
+      "title": "边角料、品牌叙事与文化传承",
+      "start": 5023.015,
+      "end": 5497.135,
+      "moments": [
+        {
+          "time": 5054.0,
+          "title": "边角料与材料映射"
+        },
+        {
+          "time": 5240.0,
+          "title": "可变包袋与装饰连接"
+        },
+        {
+          "time": 5347.0,
+          "title": "文化与模块化图案"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-scraps-heritage.json",
+      "sha256": "08067924df82d4293eb3894815ef86cbb32ab1014052abf48fba6464a0790f93"
+    },
+    {
+      "id": "topic-additive-biomaterials",
+      "title": "增材制造与生物材料的探索",
+      "start": 5497.135,
+      "end": 5668.425,
+      "moments": [
+        {
+          "time": 5520.0,
+          "title": "TPU 与打印结构"
+        },
+        {
+          "time": 5577.0,
+          "title": "生物基材料循环实验"
+        },
+        {
+          "time": 5621.0,
+          "title": "细菌纤维素案例"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-additive-biomaterials.json",
+      "sha256": "f615b1edb8c85bbacb211367dafe00be77b66f48a38326a8f5781d4ff2240bb5"
+    },
+    {
+      "id": "topic-tessellation",
+      "title": "镶嵌：让模块覆盖平面",
+      "start": 5668.425,
+      "end": 5828.665,
+      "moments": [
+        {
+          "time": 5686.0,
+          "title": "镶嵌的定义"
+        },
+        {
+          "time": 5748.0,
+          "title": "自然与 Escher 图案"
+        },
+        {
+          "time": 5789.0,
+          "title": "几何与重复规律"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-tessellation.json",
+      "sha256": "6f21b78dfa630fe11b334d019c865c444fa695cf878885ae41edcd86898e8426"
+    },
+    {
+      "id": "topic-connector-engineering",
+      "title": "连接工程：插槽、箭头与装配方向",
+      "start": 5828.665,
+      "end": 6137.575,
+      "moments": [
+        {
+          "time": 5840.0,
+          "title": "凹槽与箭头连接"
+        },
+        {
+          "time": 5952.0,
+          "title": "同一模块中组合连接"
+        },
+        {
+          "time": 6077.0,
+          "title": "服装连接演示"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-connector-engineering.json",
+      "sha256": "59978bee1a937889c0d4335b68da2117574386730170913e725bd76758ac20a1"
+    },
+    {
+      "id": "topic-vector-nesting",
+      "title": "纸样、矢量文件、排料与切割",
+      "start": 6137.575,
+      "end": 6458.795,
+      "moments": [
+        {
+          "time": 6160.0,
+          "title": "纸样到数字制作"
+        },
+        {
+          "time": 6259.0,
+          "title": "矢量颜色、线宽与路径"
+        },
+        {
+          "time": 6368.0,
+          "title": "排料工具与材料利用"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-vector-nesting.json",
+      "sha256": "5a8d96db98beb9350ee1f206abda302f2f8cb0ed42a887f5ef7e2d7dc629518a"
+    },
+    {
+      "id": "topic-material-checks",
+      "title": "材料厚度、边缘与加工限制",
+      "start": 6458.795,
+      "end": 6596.155,
+      "moments": [
+        {
+          "time": 6473.0,
+          "title": "厚度与材料案例"
+        },
+        {
+          "time": 6524.0,
+          "title": "散边织物与连接"
+        },
+        {
+          "time": 6554.0,
+          "title": "PVC 与材料确认"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-material-checks.json",
+      "sha256": "99dfa362042c14e49d4e1467b915939339918dd21440df24c7d8a277823cc48c"
+    },
+    {
+      "id": "topic-assignment-documentation",
+      "title": "Week 3 作业与文档交付",
+      "start": 6596.155,
+      "end": 6798.2,
+      "moments": [
+        {
+          "time": 6612.0,
+          "title": "作业步骤与连接测试"
+        },
+        {
+          "time": 6684.0,
+          "title": "平台、文件和照片"
+        },
+        {
+          "time": 6756.0,
+          "title": "次日教程软件准备与结束"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1123280646/topic-assignment-documentation.json",
+      "sha256": "4ad24210007c68e59737b8c7ba59d8025624f8d139a7b5727b430d0ac1dc8546"
+    }
+  ]
+}

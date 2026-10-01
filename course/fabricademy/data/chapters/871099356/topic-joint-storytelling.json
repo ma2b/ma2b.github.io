@@ -1,0 +1,53 @@
+{
+  "id": "topic-joint-storytelling",
+  "title": "连接工程、品牌与文化叙事",
+  "summary": "从密度参数与连接厚度转向月相、海洋品牌、巴勒斯坦刺绣和切尔克斯文化的设计表达。",
+  "key_points": [
+    "连接形状、厚度与受力需要一起测试。",
+    "同一连接可以成为重复图案或品牌符号。",
+    "文化案例的背景与署名属于设计内容；自动字幕中的误识别人名需再核对。"
+  ],
+  "terms": [
+    {
+      "term": "凸件／凹件",
+      "definition": "对应 male／female：插入的部分与容纳插入的结构。"
+    },
+    {
+      "term": "参数密度",
+      "definition": "通过参数控制模块之间间距或排列疏密。"
+    }
+  ],
+  "actions": [
+    "为连接画出尺寸、材料厚度和受力方向。",
+    "记录参考图案的来源与转化理由。"
+  ],
+  "start": 542.55,
+  "end": 853.04,
+  "references": [],
+  "moments": [
+    {
+      "time": 560.54,
+      "title": "模块密度与参数"
+    },
+    {
+      "time": 577.93,
+      "title": "连接厚度与结构"
+    },
+    {
+      "time": 714.28,
+      "title": "文化叙事与个人网格"
+    }
+  ],
+  "frames": [
+    {
+      "time": 645.0,
+      "caption": "月相连接的装饰表达",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/joint-storytelling-1.jpg"
+    },
+    {
+      "time": 758.0,
+      "caption": "文化图案与模块化设计",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/joint-storytelling-2.jpg"
+    }
+  ]
+}

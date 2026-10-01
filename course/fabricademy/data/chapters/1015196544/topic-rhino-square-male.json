@@ -1,0 +1,48 @@
+{
+  "id": "topic-rhino-square-male",
+  "title": "Rhino 方形模块：旋转、偏移与修剪",
+  "summary": "创建 50×50 mm 方形，借助旋转、Scale2D、Offset 和 Trim 建立凸形连接与参考结构。",
+  "key_points": [
+    "Rotate、Scale2D 与 Offset 是不同变换，先观察预览再确认。",
+    "参考线可放在独立图层，最后不进入加工文件。",
+    "Trim 需要选择正确的切割对象与删除线段。"
+  ],
+  "terms": [
+    {
+      "term": "Offset",
+      "definition": "偏移：生成与原曲线保持指定距离的曲线。"
+    },
+    {
+      "term": "Scale2D",
+      "definition": "在指定平面中缩放几何。"
+    }
+  ],
+  "actions": [
+    "画定尺寸方形，另存参考层，再构造一侧连接。",
+    "修剪后检查是否留下断裂或多余路径。"
+  ],
+  "start": 3350.305,
+  "end": 3863.615,
+  "references": [],
+  "moments": [
+    {
+      "time": 3360.0,
+      "title": "50 mm 方形"
+    },
+    {
+      "time": 3518.0,
+      "title": "旋转与偏移"
+    },
+    {
+      "time": 3732.0,
+      "title": "修剪连接"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3825.0,
+      "caption": "Rhino 方形凸连接的构造",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/rhino-square-male.jpg"
+    }
+  ]
+}

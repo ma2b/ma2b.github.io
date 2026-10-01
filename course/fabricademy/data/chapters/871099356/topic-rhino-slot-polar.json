@@ -1,0 +1,44 @@
+{
+  "id": "topic-rhino-slot-polar",
+  "title": "Rhino 插槽：移动捕捉与极轴阵列",
+  "summary": "画定长度的插槽，用中点捕捉精确移动，再以 ArrayPolar 沿四个方向复制。",
+  "key_points": [
+    "Move 的来源点与目标点都应明确捕捉。",
+    "极轴阵列需指定对象、中心、数量和角度。",
+    "演示使用四项、360°，不是所有模块必须采用的连接数量。"
+  ],
+  "terms": [
+    {
+      "term": "ArrayPolar",
+      "definition": "围绕中心按角度重复对象的极轴阵列。"
+    }
+  ],
+  "actions": [
+    "用中点对中定位插槽，再进行极轴阵列。",
+    "保留必要参考中心，确认后再删除辅助轴。"
+  ],
+  "start": 3960.02,
+  "end": 4251.85,
+  "references": [],
+  "moments": [
+    {
+      "time": 4071.08,
+      "title": "Move 与中点捕捉"
+    },
+    {
+      "time": 4142.92,
+      "title": "ArrayPolar"
+    },
+    {
+      "time": 4217.03,
+      "title": "数量与角度"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4236.0,
+      "caption": "Rhino 四向插槽阵列",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-slot-polar.jpg"
+    }
+  ]
+}

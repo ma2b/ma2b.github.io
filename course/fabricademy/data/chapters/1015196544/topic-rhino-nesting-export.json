@@ -1,0 +1,53 @@
+{
+  "id": "topic-rhino-nesting-export",
+  "title": "Rhino 排料、共边去重与导出限制",
+  "summary": "处理相邻模块的共边，设置加工区域和矩形阵列，再整理线条并尝试导出。",
+  "key_points": [
+    "相邻轮廓的重叠边可能导致重复切割，需删除重复路径。",
+    "矩形阵列的数量与距离必须适合材料边界，Z 方向保持单层。",
+    "本次演示因 Rhino 许可证限制未完成实际导出；讲师解释了 Export Selected 的后续步骤。"
+  ],
+  "terms": [
+    {
+      "term": "共边切割",
+      "definition": "相邻零件共享一条切割路径，须按设备和材料确认是否适用。"
+    },
+    {
+      "term": "Export Selected",
+      "definition": "只导出当前选中的对象。"
+    }
+  ],
+  "actions": [
+    "按真实床面尺寸排料，移除参考线与重叠共边。",
+    "在有有效许可证的环境导出后，重新打开核对毫米与 1:1 比例。"
+  ],
+  "start": 4091.765,
+  "end": 4632.73,
+  "references": [],
+  "moments": [
+    {
+      "time": 4110.0,
+      "title": "Explode、Join 与共边清理"
+    },
+    {
+      "time": 4314.0,
+      "title": "加工区域与矩形阵列"
+    },
+    {
+      "time": 4536.145,
+      "title": "导出尝试与许可证限制"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4413.0,
+      "caption": "Rhino 矩形阵列与排料边界",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/rhino-nesting-export-1.jpg"
+    },
+    {
+      "time": 4580.0,
+      "caption": "导出环节与许可证限制",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/rhino-nesting-export-2.jpg"
+    }
+  ]
+}

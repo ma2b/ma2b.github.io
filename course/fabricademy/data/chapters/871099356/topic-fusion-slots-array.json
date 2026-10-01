@@ -1,0 +1,53 @@
+{
+  "id": "topic-fusion-slots-array",
+  "title": "插槽镜像、圆周阵列与完整定位",
+  "summary": "建立插槽线，通过镜像和 Circular Pattern 复制，再补距中心尺寸使位置稳定。",
+  "key_points": [
+    "镜像需要对象和参考线；圆周阵列需要对象和中心。",
+    "设置槽长与阵列数之后，槽仍可能沿方向移动，需补位置约束。",
+    "重新编辑草图可以调整数量、尺寸和位置。"
+  ],
+  "terms": [
+    {
+      "term": "Circular Pattern",
+      "definition": "围绕中心重复草图几何的阵列。"
+    },
+    {
+      "term": "自由度",
+      "definition": "几何仍能移动或改变的独立方向。"
+    }
+  ],
+  "actions": [
+    "先给一条槽完整定位，再设置阵列。",
+    "拖动检查是否仍有未约束自由度，最后另存 DXF。"
+  ],
+  "start": 1736.86,
+  "end": 2082.59,
+  "references": [],
+  "moments": [
+    {
+      "time": 1777.81,
+      "title": "镜像插槽"
+    },
+    {
+      "time": 1848.97,
+      "title": "圆周阵列"
+    },
+    {
+      "time": 1975.01,
+      "title": "补齐位置约束"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1887.0,
+      "caption": "插槽的圆周阵列",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-slots-array-1.jpg"
+    },
+    {
+      "time": 2007.0,
+      "caption": "距中心尺寸与定位",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-slots-array-2.jpg"
+    }
+  ]
+}

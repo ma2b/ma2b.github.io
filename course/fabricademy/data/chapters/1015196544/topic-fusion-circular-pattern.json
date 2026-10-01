@@ -1,0 +1,48 @@
+{
+  "id": "topic-fusion-circular-pattern",
+  "title": "圆周阵列、修改与 DXF 导出",
+  "summary": "用 Circular Pattern 复制插槽，在草图中调整数量与参数，再通过草图菜单导出 DXF。",
+  "key_points": [
+    "阵列中心应与模块圆心一致。",
+    "Finish Sketch 后需重新进入草图才能修改内部几何。",
+    "导出后要检查辅助几何和重复路径，文件成功保存不等于已可切割。"
+  ],
+  "terms": [
+    {
+      "term": "Circular Pattern",
+      "definition": "圆周阵列：围绕中心重复指定的草图几何。"
+    },
+    {
+      "term": "DXF",
+      "definition": "用于交换二维绘图数据的格式。"
+    }
+  ],
+  "actions": [
+    "设置圆心与槽阵列数量，改变一次数量再检查几何。",
+    "保存草图 DXF，并在后续软件中检查比例与多余线。"
+  ],
+  "start": 808.155,
+  "end": 1020.405,
+  "references": [],
+  "moments": [
+    {
+      "time": 820.0,
+      "title": "选择槽与圆心"
+    },
+    {
+      "time": 900.0,
+      "title": "编辑阵列"
+    },
+    {
+      "time": 973.0,
+      "title": "重新进入草图与导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 884.0,
+      "caption": "圆形模块的插槽阵列",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/fusion-circular-pattern.jpg"
+    }
+  ]
+}

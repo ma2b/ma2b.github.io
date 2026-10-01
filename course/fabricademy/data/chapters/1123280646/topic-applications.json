@@ -1,0 +1,44 @@
+{
+  "id": "topic-applications",
+  "title": "从服装到家具、包装和饰品",
+  "summary": "通过方形披肩、家具、地毯、皮革篮、重复包装和饰品展示模块连接可以应用于多种尺度。",
+  "key_points": [
+    "相同连接思想可在穿着、收纳和空间中采用不同尺度。",
+    "结构与用途会改变受力方向，不能只按外观复制。",
+    "边角料的形状和尺寸也可以影响模块方案。"
+  ],
+  "terms": [
+    {
+      "term": "尺度",
+      "definition": "模块与整体用途之间的尺寸关系。"
+    }
+  ],
+  "actions": [
+    "为自己的用途列出尺寸、受力和拆装要求。",
+    "比较至少两种连接方式怎样适应同一材料。"
+  ],
+  "start": 4223.605,
+  "end": 4601.445,
+  "references": [],
+  "moments": [
+    {
+      "time": 4270.0,
+      "title": "方形互锁服装"
+    },
+    {
+      "time": 4413.0,
+      "title": "家具、地毯与皮革篮"
+    },
+    {
+      "time": 4533.0,
+      "title": "包装与饰品"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4431.0,
+      "caption": "Bolor Amgalan 的无缝模块化服装案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/applications.jpg"
+    }
+  ]
+}

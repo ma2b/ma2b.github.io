@@ -1,0 +1,53 @@
+{
+  "id": "topic-additive-biomaterials",
+  "title": "增材制造与生物材料的探索",
+  "summary": "介绍 TPU 打印结构、可再次加工的生物基材料和细菌纤维素，扩展模块化设计的材料方向。",
+  "key_points": [
+    "3D 打印结构与激光切片材采用不同成形方式。",
+    "琼脂、明胶与细菌纤维素案例需要具体配方、干燥和性能测试。",
+    "课程展示是研究案例，不能据此承诺任何同名材料都具备相同循环或加工性能。"
+  ],
+  "terms": [
+    {
+      "term": "TPU",
+      "definition": "热塑性聚氨酯，一类可用于柔性打印的材料。"
+    },
+    {
+      "term": "细菌纤维素",
+      "definition": "由微生物产生的纤维素材料。"
+    }
+  ],
+  "actions": [
+    "把配方、厚度、干燥条件和受力表现写进材料测试。",
+    "选择与现有设备、用途匹配的工艺。"
+  ],
+  "start": 5497.135,
+  "end": 5668.425,
+  "references": [],
+  "moments": [
+    {
+      "time": 5520.0,
+      "title": "TPU 与打印结构"
+    },
+    {
+      "time": 5577.0,
+      "title": "生物基材料循环实验"
+    },
+    {
+      "time": 5621.0,
+      "title": "细菌纤维素案例"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5541.0,
+      "caption": "TPU 打印连接与服装案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/additive-biomaterials-1.jpg"
+    },
+    {
+      "time": 5620.0,
+      "caption": "生物材料的无缝服装与包袋案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/additive-biomaterials-2.jpg"
+    }
+  ]
+}

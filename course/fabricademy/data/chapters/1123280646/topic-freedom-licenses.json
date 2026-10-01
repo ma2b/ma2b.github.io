@@ -1,0 +1,53 @@
+{
+  "id": "topic-freedom-licenses",
+  "title": "自由软件、开放许可与时装知识产权",
+  "summary": "从自由软件和互联网协作讨论“开放”的含义，再区分设计文件、授权、版权和品牌。",
+  "key_points": [
+    "自由软件中的 free 主要指使用、学习、修改与分享的自由，不等于价格免费。",
+    "公开可下载不自动等于获得再利用许可。",
+    "服装、版型、图案和商标的权利不能混为一谈；法律适用随地区和对象变化。"
+  ],
+  "terms": [
+    {
+      "term": "Copyleft",
+      "definition": "通过许可条款让修改和再分发继续保有相应自由。"
+    },
+    {
+      "term": "开放许可",
+      "definition": "明确授予使用、修改或分享等权利的许可。"
+    }
+  ],
+  "actions": [
+    "给要分享的文件注明许可和署名要求。",
+    "检查版型、图案、照片与品牌名称分别由谁授权。"
+  ],
+  "start": 1423.325,
+  "end": 1885.475,
+  "references": [
+    {
+      "title": "GNU：自由软件的定义",
+      "url": "https://www.gnu.org/philosophy/free-sw.html"
+    }
+  ],
+  "moments": [
+    {
+      "time": 1530.0,
+      "title": "自由软件与 free 的含义"
+    },
+    {
+      "time": 1711.0,
+      "title": "开放与共享许可"
+    },
+    {
+      "time": 1805.0,
+      "title": "服装文件与品牌权利"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1593.0,
+      "caption": "自由软件与开放许可的讲解资料",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/freedom-licenses.jpg"
+    }
+  ]
+}

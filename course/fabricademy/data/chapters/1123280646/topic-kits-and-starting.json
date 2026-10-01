@@ -1,0 +1,44 @@
+{
+  "id": "topic-kits-and-starting",
+  "title": "答疑：DIY 套件与小规模起步",
+  "summary": "回答 DIY 套件是否易用，以及缺少资金时如何先通过共享知识、空间和机器开始。",
+  "key_points": [
+    "设计者熟悉的步骤不一定对首次使用者清楚，套件需要真实试用。",
+    "图示、说明和材料配套影响能否独立组装。",
+    "讲师建议从合作与共享资源起步，再逐步获得资金与设备。"
+  ],
+  "terms": [
+    {
+      "term": "DIY 套件",
+      "definition": "提供材料或部件，由使用者依说明自行完成的产品。"
+    }
+  ],
+  "actions": [
+    "请未参与设计的人依据说明完成一次组装，记录卡点。",
+    "把当前可用的共享空间、设备和伙伴列入计划。"
+  ],
+  "start": 3542.515,
+  "end": 3945.215,
+  "references": [],
+  "moments": [
+    {
+      "time": 3565.0,
+      "title": "套件说明与使用者测试"
+    },
+    {
+      "time": 3750.0,
+      "title": "缺少资金时如何开始"
+    },
+    {
+      "time": 3883.0,
+      "title": "协作网络与结束语"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3620.0,
+      "caption": "DIY 套件答疑时的线上课堂",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/kits-and-starting.jpg"
+    }
+  ]
+}

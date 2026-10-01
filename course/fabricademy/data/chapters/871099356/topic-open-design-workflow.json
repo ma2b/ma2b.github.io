@@ -1,0 +1,48 @@
+{
+  "id": "topic-open-design-workflow",
+  "title": "开源模块与二维制作工作流",
+  "summary": "介绍 Week 3 的模块化、零废料和无缝连接目标，并以平台文件和学生纸样说明从设计到分享的路径。",
+  "key_points": [
+    "先用纸测试连接，再在建模与矢量软件之间交换文件。",
+    "开放文件应包含实际比例、制作参数和组装方法。",
+    "二维轮廓、三维模型与图片预览承担不同职责。"
+  ],
+  "terms": [
+    {
+      "term": "模块",
+      "definition": "可重复、可组合的基本单元。"
+    },
+    {
+      "term": "矢量轮廓",
+      "definition": "以路径表达形状的二维数据，用于后续加工准备。"
+    }
+  ],
+  "actions": [
+    "下载参考文件时核对比例、许可与制作说明。",
+    "先建立两个能互锁的纸模块。"
+  ],
+  "start": 0.0,
+  "end": 266.83,
+  "references": [],
+  "moments": [
+    {
+      "time": 86.0,
+      "title": "平台参考与分享"
+    },
+    {
+      "time": 190.0,
+      "title": "二维和建模软件协作"
+    },
+    {
+      "time": 233.0,
+      "title": "纸样与连接案例"
+    }
+  ],
+  "frames": [
+    {
+      "time": 239.0,
+      "caption": "纸样到数字模块的制作案例",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/open-design-workflow.jpg"
+    }
+  ]
+}

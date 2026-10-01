@@ -1,0 +1,39 @@
+{
+  "id": "topic-physical-samples",
+  "title": "实物模块：叠层、立体与不同材料",
+  "summary": "讲师用毛毡、圆片、方形和包袋样本展示数字连接落到真实材料后的组合方式。",
+  "key_points": [
+    "材料厚度、柔软度与切缘会改变实际连接。",
+    "叠层与填充可以让平面模块产生立体形态。",
+    "同一几何在不同材料上需要重新试验。"
+  ],
+  "terms": [
+    {
+      "term": "叠层",
+      "definition": "通过多片结构重叠或穿插产生厚度和空间效果。"
+    }
+  ],
+  "actions": [
+    "拍摄连接正反面，并记录厚度与装配顺序。"
+  ],
+  "start": 2373.805,
+  "end": 2611.415,
+  "references": [],
+  "moments": [
+    {
+      "time": 2401.0,
+      "title": "毛毡厚度与样本"
+    },
+    {
+      "time": 2503.0,
+      "title": "叠层与包袋结构"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2455.0,
+      "caption": "讲师在视频课堂展示实体模块连接",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/physical-samples.jpg"
+    }
+  ]
+}

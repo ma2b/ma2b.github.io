@@ -1,0 +1,48 @@
+{
+  "id": "topic-fusion-parameters",
+  "title": "命名参数、表达式与构造轴",
+  "summary": "在 Change Parameters 中建立 edge、length 等参数，用表达式关联尺寸，并把定位轴改成构造几何。",
+  "key_points": [
+    "命名参数使相关尺寸在修改时联动。",
+    "表达式如 edge/3 表示关系，不是所有模块都必须采用的比例。",
+    "构造轴提供方向与定位，不应作为切割线输出。"
+  ],
+  "terms": [
+    {
+      "term": "Change Parameters",
+      "definition": "管理参数名称、单位、数值和表达式的面板。"
+    },
+    {
+      "term": "Construction",
+      "definition": "用于参考定位的辅助草图几何。"
+    }
+  ],
+  "actions": [
+    "建立命名参数并用表达式关联槽长。",
+    "把参考轴设为构造线，修改主参数检验联动。"
+  ],
+  "start": 1517.29,
+  "end": 1736.86,
+  "references": [],
+  "moments": [
+    {
+      "time": 1526.0,
+      "title": "建立命名参数"
+    },
+    {
+      "time": 1581.0,
+      "title": "尺寸表达式"
+    },
+    {
+      "time": 1671.0,
+      "title": "构造轴"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1579.0,
+      "caption": "Fusion 命名参数与表达式",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-parameters.jpg"
+    }
+  ]
+}

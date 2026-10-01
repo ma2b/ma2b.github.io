@@ -1,0 +1,48 @@
+{
+  "id": "topic-inkscape-clones",
+  "title": "Inkscape：矢量导入与平铺克隆",
+  "summary": "先尝试导入和位图描摹，再用可编辑的矢量形状演示 Create Tiled Clones 与母形联动。",
+  "key_points": [
+    "粘贴的图像不自动变成矢量；本段初次描摹尝试未得到期望结果。",
+    "跨软件优先检查 SVG 导入与实际路径，不以图片外观判断可切割。",
+    "平铺克隆与母形关联，编辑母形会同步改变相关副本。"
+  ],
+  "terms": [
+    {
+      "term": "Create Tiled Clones",
+      "definition": "Inkscape 的平铺克隆功能，重复对象并保持与母形关联。"
+    },
+    {
+      "term": "Trace Bitmap",
+      "definition": "位图描摹：从像素图提取矢量轮廓，结果仍需人工检查。"
+    }
+  ],
+  "actions": [
+    "用 SVG 或原生矢量开始，确认对象是路径而非嵌入图片。",
+    "创建平铺克隆，修改一次母形并检查联动。"
+  ],
+  "start": 5954.645,
+  "end": 6297.545,
+  "references": [],
+  "moments": [
+    {
+      "time": 5982.0,
+      "title": "导入与描摹尝试"
+    },
+    {
+      "time": 6097.0,
+      "title": "平铺克隆设置"
+    },
+    {
+      "time": 6204.0,
+      "title": "修改母形与导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6161.0,
+      "caption": "Inkscape 平铺克隆与重复对象",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/inkscape-clones.jpg"
+    }
+  ]
+}

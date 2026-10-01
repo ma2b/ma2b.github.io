@@ -1,0 +1,48 @@
+{
+  "id": "topic-rhino-combined-joint",
+  "title": "Rhino 凸凹组合：延伸、偏移与 Trim",
+  "summary": "复制模块并延伸、偏移参考线，选择切割对象修剪轮廓，形成同时包含凸凹连接的方形。",
+  "key_points": [
+    "先建立相交关系，再用 Trim 删除明确的线段。",
+    "辅助线可帮助定位，但导出前须删除。",
+    "演示包含命令试探，笔记保留最后形成的结构与检查要求。"
+  ],
+  "terms": [
+    {
+      "term": "Trim",
+      "definition": "通过切割对象与被修剪对象删除指定线段。"
+    },
+    {
+      "term": "Offset",
+      "definition": "按指定距离偏移曲线。"
+    }
+  ],
+  "actions": [
+    "逐次修剪并保存版本，检查槽间距与凸件保持头部。",
+    "把相邻模块摆放验证方向，再做材料小样。"
+  ],
+  "start": 4251.85,
+  "end": 4593.4,
+  "references": [],
+  "moments": [
+    {
+      "time": 4290.03,
+      "title": "延伸与参考线"
+    },
+    {
+      "time": 4329.92,
+      "title": "偏移定位"
+    },
+    {
+      "time": 4468.27,
+      "title": "Trim 选择与修剪"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4540.0,
+      "caption": "凸凹组合的方形模块",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-combined-joint.jpg"
+    }
+  ]
+}

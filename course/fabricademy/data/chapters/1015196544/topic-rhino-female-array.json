@@ -1,0 +1,44 @@
+{
+  "id": "topic-rhino-female-array",
+  "title": "凹槽、极轴阵列与分组",
+  "summary": "复制方形模块，建立接收插入的槽，并用 ArrayPolar 把连接复制到四个方向。",
+  "key_points": [
+    "阵列围绕正确的中心，四项覆盖 360°。",
+    "凸凹槽的位置与方向需要一起校验。",
+    "分组和图层帮助区分参考几何与最终轮廓。"
+  ],
+  "terms": [
+    {
+      "term": "ArrayPolar",
+      "definition": "极轴阵列：围绕中心旋转复制对象。"
+    }
+  ],
+  "actions": [
+    "用中点捕捉定位凹槽，再设置 4 项、360° 的极轴阵列。",
+    "把两类模块相邻摆放，检查连接关系。"
+  ],
+  "start": 3863.615,
+  "end": 4091.765,
+  "references": [],
+  "moments": [
+    {
+      "time": 3892.0,
+      "title": "凹槽定位"
+    },
+    {
+      "time": 3987.0,
+      "title": "极轴阵列与中心"
+    },
+    {
+      "time": 4048.0,
+      "title": "分组与图层整理"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4031.0,
+      "caption": "方形模块的四向凹槽阵列",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/rhino-female-array.jpg"
+    }
+  ]
+}

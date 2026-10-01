@@ -1,0 +1,948 @@
+{
+  "id": "871099356",
+  "slug": "11-modular-zero-waste-2023",
+  "title": "模块化零废料时装设计",
+  "description": "从零废料、文化叙事和模块连接案例出发，演示 Fusion 参数与草图阵列、Illustrator 镶嵌与排料、Rhino 连接构造，并用实体样本检验装配。",
+  "binding_source": "extension",
+  "duration": 5258.16,
+  "page_url": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/notes.html",
+  "bilibili": {
+    "bvid": "BV1eZYP6REe5",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-open-design-workflow",
+      "title": "开源模块与二维制作工作流",
+      "summary": "介绍 Week 3 的模块化、零废料和无缝连接目标，并以平台文件和学生纸样说明从设计到分享的路径。",
+      "key_points": [
+        "先用纸测试连接，再在建模与矢量软件之间交换文件。",
+        "开放文件应包含实际比例、制作参数和组装方法。",
+        "二维轮廓、三维模型与图片预览承担不同职责。"
+      ],
+      "terms": [
+        {
+          "term": "模块",
+          "definition": "可重复、可组合的基本单元。"
+        },
+        {
+          "term": "矢量轮廓",
+          "definition": "以路径表达形状的二维数据，用于后续加工准备。"
+        }
+      ],
+      "actions": [
+        "下载参考文件时核对比例、许可与制作说明。",
+        "先建立两个能互锁的纸模块。"
+      ],
+      "start": 0.0,
+      "end": 266.83,
+      "references": [],
+      "moments": [
+        {
+          "time": 86.0,
+          "title": "平台参考与分享"
+        },
+        {
+          "time": 190.0,
+          "title": "二维和建模软件协作"
+        },
+        {
+          "time": 233.0,
+          "title": "纸样与连接案例"
+        }
+      ],
+      "frames": [
+        {
+          "time": 239.0,
+          "caption": "纸样到数字模块的制作案例",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/open-design-workflow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-layering-kirigami",
+      "title": "叠层、单片切纸与旧材料",
+      "summary": "用圆片包袋、层叠花形、单片切口和旧窗帘等案例展示平面材料如何形成结构。",
+      "key_points": [
+        "连接可以利用层叠、正反面和材料厚度。",
+        "Kirigami 可通过一张材料上的切口和折叠形成空间形态。",
+        "单片设计和模块互锁不同，是否零废料仍需看实际切割与边界。"
+      ],
+      "terms": [
+        {
+          "term": "Kirigami",
+          "definition": "结合切割与折叠产生形态的切纸方法。"
+        },
+        {
+          "term": "叠层",
+          "definition": "把多个片层穿插或重叠成整体。"
+        }
+      ],
+      "actions": [
+        "分别画出模块轮廓、切口和组装后的形态。",
+        "用已有材料做小样，比较正反面和层数。"
+      ],
+      "start": 266.83,
+      "end": 542.55,
+      "references": [],
+      "moments": [
+        {
+          "time": 302.0,
+          "title": "圆形与层叠模块"
+        },
+        {
+          "time": 413.0,
+          "title": "单片切口与空间结构"
+        },
+        {
+          "time": 506.89,
+          "title": "切纸与建筑形态"
+        }
+      ],
+      "frames": [
+        {
+          "time": 457.0,
+          "caption": "旧材料与切口结构案例",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/layering-kirigami-1.jpg"
+        },
+        {
+          "time": 529.0,
+          "caption": "切纸连接与空间形态",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/layering-kirigami-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-joint-storytelling",
+      "title": "连接工程、品牌与文化叙事",
+      "summary": "从密度参数与连接厚度转向月相、海洋品牌、巴勒斯坦刺绣和切尔克斯文化的设计表达。",
+      "key_points": [
+        "连接形状、厚度与受力需要一起测试。",
+        "同一连接可以成为重复图案或品牌符号。",
+        "文化案例的背景与署名属于设计内容；自动字幕中的误识别人名需再核对。"
+      ],
+      "terms": [
+        {
+          "term": "凸件／凹件",
+          "definition": "对应 male／female：插入的部分与容纳插入的结构。"
+        },
+        {
+          "term": "参数密度",
+          "definition": "通过参数控制模块之间间距或排列疏密。"
+        }
+      ],
+      "actions": [
+        "为连接画出尺寸、材料厚度和受力方向。",
+        "记录参考图案的来源与转化理由。"
+      ],
+      "start": 542.55,
+      "end": 853.04,
+      "references": [],
+      "moments": [
+        {
+          "time": 560.54,
+          "title": "模块密度与参数"
+        },
+        {
+          "time": 577.93,
+          "title": "连接厚度与结构"
+        },
+        {
+          "time": 714.28,
+          "title": "文化叙事与个人网格"
+        }
+      ],
+      "frames": [
+        {
+          "time": 645.0,
+          "caption": "月相连接的装饰表达",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/joint-storytelling-1.jpg"
+        },
+        {
+          "time": 758.0,
+          "caption": "文化图案与模块化设计",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/joint-storytelling-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-tessellation-principles",
+      "title": "镶嵌原理：平移、旋转与克隆",
+      "summary": "解释无间隙、无重叠的铺砌，并用相对边的平移和三角形旋转说明如何构造重复模块。",
+      "key_points": [
+        "平移镶嵌要求相对边以同一位移互补。",
+        "旋转镶嵌需要明确中心和角度。",
+        "本课 Inkscape 部分主要通过资料说明；讲师没有展开完整现场软件演示。"
+      ],
+      "terms": [
+        {
+          "term": "Tessellation",
+          "definition": "镶嵌：无间隙、无重叠地覆盖平面。"
+        },
+        {
+          "term": "Clone",
+          "definition": "克隆：与母形保持关联的重复对象。"
+        }
+      ],
+      "actions": [
+        "先在纸上验证相对边与旋转关系，再绘制矢量路径。"
+      ],
+      "start": 853.04,
+      "end": 1097.56,
+      "references": [],
+      "moments": [
+        {
+          "time": 866.79,
+          "title": "Escher 与几何规律"
+        },
+        {
+          "time": 927.63,
+          "title": "相对边的平移"
+        },
+        {
+          "time": 996.0,
+          "title": "旋转与克隆方法"
+        }
+      ],
+      "frames": [
+        {
+          "time": 939.0,
+          "caption": "平移镶嵌的对应边示意",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/tessellation-principles-1.jpg"
+        },
+        {
+          "time": 1051.0,
+          "caption": "90° 旋转镶嵌的示意资料",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/tessellation-principles-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-software-file-flow",
+      "title": "建模、矢量排料与组合连接",
+      "summary": "整理 Fusion 草图、矢量导出、排料与切割的流程，并说明单模块可以同时拥有凸凹连接。",
+      "key_points": [
+        "数字建模的轮廓导出后，要在矢量软件检查重复路径、比例和描边。",
+        "RGB 红色和细描边是课程设备示例，具体设置服从实验室流程。",
+        "先从简单模块开始，再增加方向和组合。"
+      ],
+      "terms": [
+        {
+          "term": "Nesting",
+          "definition": "排料：把模块布置在实际材料范围内。"
+        }
+      ],
+      "actions": [
+        "用已知尺寸检查导出文件，并标明材料、单位与路径用途。"
+      ],
+      "start": 1097.56,
+      "end": 1282.29,
+      "references": [],
+      "moments": [
+        {
+          "time": 1117.0,
+          "title": "Fusion 与矢量文件"
+        },
+        {
+          "time": 1182.0,
+          "title": "切割路径与排料"
+        },
+        {
+          "time": 1242.0,
+          "title": "凸凹连接组合"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1172.0,
+          "caption": "二维设计到切割的流程资料",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/software-file-flow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-circle",
+      "title": "Fusion 草图：平面、圆与尺寸",
+      "summary": "选择草图平面，绘制圆形模块，使用尺寸约束修改大小并介绍界面中的编辑入口。",
+      "key_points": [
+        "在选定平面上绘制二维轮廓，并检查单位。",
+        "闭合轮廓产生的区域显示与“已完全约束”是两件事，不要仅凭蓝色判断。",
+        "尺寸约束可修改几何，课程随后把尺寸改为命名参数。"
+      ],
+      "terms": [
+        {
+          "term": "草图约束",
+          "definition": "控制几何尺寸、位置或关系的条件。"
+        }
+      ],
+      "actions": [
+        "创建圆并设定直径，改变尺寸检查轮廓随之更新。"
+      ],
+      "start": 1282.29,
+      "end": 1517.29,
+      "references": [],
+      "moments": [
+        {
+          "time": 1355.0,
+          "title": "创建草图与圆"
+        },
+        {
+          "time": 1424.0,
+          "title": "尺寸与编辑"
+        },
+        {
+          "time": 1483.0,
+          "title": "参数化修改准备"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1458.0,
+          "caption": "Fusion 圆形草图与尺寸",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-circle.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-parameters",
+      "title": "命名参数、表达式与构造轴",
+      "summary": "在 Change Parameters 中建立 edge、length 等参数，用表达式关联尺寸，并把定位轴改成构造几何。",
+      "key_points": [
+        "命名参数使相关尺寸在修改时联动。",
+        "表达式如 edge/3 表示关系，不是所有模块都必须采用的比例。",
+        "构造轴提供方向与定位，不应作为切割线输出。"
+      ],
+      "terms": [
+        {
+          "term": "Change Parameters",
+          "definition": "管理参数名称、单位、数值和表达式的面板。"
+        },
+        {
+          "term": "Construction",
+          "definition": "用于参考定位的辅助草图几何。"
+        }
+      ],
+      "actions": [
+        "建立命名参数并用表达式关联槽长。",
+        "把参考轴设为构造线，修改主参数检验联动。"
+      ],
+      "start": 1517.29,
+      "end": 1736.86,
+      "references": [],
+      "moments": [
+        {
+          "time": 1526.0,
+          "title": "建立命名参数"
+        },
+        {
+          "time": 1581.0,
+          "title": "尺寸表达式"
+        },
+        {
+          "time": 1671.0,
+          "title": "构造轴"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1579.0,
+          "caption": "Fusion 命名参数与表达式",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-parameters.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-slots-array",
+      "title": "插槽镜像、圆周阵列与完整定位",
+      "summary": "建立插槽线，通过镜像和 Circular Pattern 复制，再补距中心尺寸使位置稳定。",
+      "key_points": [
+        "镜像需要对象和参考线；圆周阵列需要对象和中心。",
+        "设置槽长与阵列数之后，槽仍可能沿方向移动，需补位置约束。",
+        "重新编辑草图可以调整数量、尺寸和位置。"
+      ],
+      "terms": [
+        {
+          "term": "Circular Pattern",
+          "definition": "围绕中心重复草图几何的阵列。"
+        },
+        {
+          "term": "自由度",
+          "definition": "几何仍能移动或改变的独立方向。"
+        }
+      ],
+      "actions": [
+        "先给一条槽完整定位，再设置阵列。",
+        "拖动检查是否仍有未约束自由度，最后另存 DXF。"
+      ],
+      "start": 1736.86,
+      "end": 2082.59,
+      "references": [],
+      "moments": [
+        {
+          "time": 1777.81,
+          "title": "镜像插槽"
+        },
+        {
+          "time": 1848.97,
+          "title": "圆周阵列"
+        },
+        {
+          "time": 1975.01,
+          "title": "补齐位置约束"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1887.0,
+          "caption": "插槽的圆周阵列",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-slots-array-1.jpg"
+        },
+        {
+          "time": 2007.0,
+          "caption": "距中心尺寸与定位",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-slots-array-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-fusion-combined-module",
+      "title": "凸凹组合、矩形阵列与负空间",
+      "summary": "复制模块，修剪轮廓形成凸连接，再以矩形阵列观察排料与圆片之间的剩余空间。",
+      "key_points": [
+        "Trim 删除线段可能同时移除相关约束，继续编辑时须检查。",
+        "单模块可以组合凸件与凹槽，简化所需零件种类。",
+        "圆形排料留下的负空间也可以再设计为模块。"
+      ],
+      "terms": [
+        {
+          "term": "Trim",
+          "definition": "修剪相交几何中不需要的线段。"
+        },
+        {
+          "term": "Rectangular Pattern",
+          "definition": "沿指定方向重复对象的矩形阵列。"
+        }
+      ],
+      "actions": [
+        "检查凸凹间距与方向，做纸样连接测试。",
+        "调整阵列间距排除重叠，再规划剩余材料用途。"
+      ],
+      "start": 2082.59,
+      "end": 2443.43,
+      "references": [],
+      "moments": [
+        {
+          "time": 2121.93,
+          "title": "复制与连接间距"
+        },
+        {
+          "time": 2194.35,
+          "title": "修剪与凸件阵列"
+        },
+        {
+          "time": 2398.37,
+          "title": "圆形负空间再设计"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2236.0,
+          "caption": "凸凹组合的模块草图",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-combined-module-1.jpg"
+        },
+        {
+          "time": 2407.0,
+          "caption": "圆形阵列与负空间",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-combined-module-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-illustrator-import-clean",
+      "title": "Illustrator：毫米导入、连接与描边",
+      "summary": "导出 Fusion DXF，在毫米 RGB 画板按 1:1 打开，连接分段路径并清理辅助线。",
+      "key_points": [
+        "导入时确认原始比例与毫米，不以“看起来正确”判断尺寸。",
+        "Join 用于连接正确端点，不会自动解决所有重复路径。",
+        "课件列出 0.01 mm 描边，操作口述为约 0.1 mm；实际切割应向实验室确认，不能把两者当作通用设备规格。"
+      ],
+      "terms": [
+        {
+          "term": "Join",
+          "definition": "连接路径端点的操作，课程使用 Ctrl／Cmd+J。"
+        },
+        {
+          "term": "Artboard",
+          "definition": "画板：组织输出范围，本课按加工床尺寸建立。"
+        }
+      ],
+      "actions": [
+        "测量一个已知尺寸，删除构造残留并检查重复线。",
+        "设置无填充及实验室要求的描边。"
+      ],
+      "start": 2443.43,
+      "end": 2732.35,
+      "references": [],
+      "moments": [
+        {
+          "time": 2479.6,
+          "title": "新建 RGB 毫米画板"
+        },
+        {
+          "time": 2610.94,
+          "title": "1:1 导入"
+        },
+        {
+          "time": 2653.26,
+          "title": "路径连接与红色描边"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2616.0,
+          "caption": "Illustrator 原尺寸导入",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-import-clean-1.jpg"
+        },
+        {
+          "time": 2712.0,
+          "caption": "矢量描边与颜色设置",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-import-clean-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-illustrator-grid",
+      "title": "复制排料与闭合轮廓检查",
+      "summary": "用 Alt／Option、Shift 和重复变换铺满行列，再核对画板边界及轮廓闭合。",
+      "key_points": [
+        "先决定两件模块间距，再重复整行与整列。",
+        "最后一行可能越过材料边界，需删除或重新排布。",
+        "填色可帮助观察闭合轮廓，但加工仍要检查真实路径。"
+      ],
+      "terms": [
+        {
+          "term": "重复变换",
+          "definition": "再次执行上一次的移动或复制关系。"
+        }
+      ],
+      "actions": [
+        "完成排料后检查边界、重叠和闭合状态。",
+        "保存预览与加工版本，避免把填色一起作为切割要求。"
+      ],
+      "start": 2732.35,
+      "end": 2944.23,
+      "references": [],
+      "moments": [
+        {
+          "time": 2746.71,
+          "title": "拖动复制与方向约束"
+        },
+        {
+          "time": 2808.04,
+          "title": "Ctrl／Cmd+D 重复排料"
+        },
+        {
+          "time": 2892.85,
+          "title": "描边与闭合轮廓检查"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2863.0,
+          "caption": "模块的行列排料",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-grid.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-illustrator-tessellation",
+      "title": "平移镶嵌：相对边与 Pathfinder",
+      "summary": "以方形为基础，在相对边做对应添加和减去，使用钢笔、Pathfinder 和锚点工具改造轮廓。",
+      "key_points": [
+        "相对边需要保持一致的平移关系，随意拖动可能破坏匹配。",
+        "Divide、Unite 等操作前确认对象相交和选择顺序。",
+        "演示是一段探索；重复拼接后仍要放大检查精度。"
+      ],
+      "terms": [
+        {
+          "term": "Pathfinder",
+          "definition": "对矢量形状进行分割、合并或相减的工具组。"
+        },
+        {
+          "term": "锚点",
+          "definition": "决定矢量路径位置和曲线形态的节点。"
+        }
+      ],
+      "actions": [
+        "保留基础方形，将改造轮廓按明确位移复制到对边。",
+        "用至少四个副本检查互补、缝隙和重叠。"
+      ],
+      "start": 2944.23,
+      "end": 3471.24,
+      "references": [],
+      "moments": [
+        {
+          "time": 3001.0,
+          "title": "定尺寸方形与轴"
+        },
+        {
+          "time": 3153.02,
+          "title": "钢笔与 Pathfinder"
+        },
+        {
+          "time": 3380.89,
+          "title": "对边复制与相减"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3276.0,
+          "caption": "Pathfinder 分割与组合",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-tessellation-1.jpg"
+        },
+        {
+          "time": 3448.0,
+          "caption": "相对边改造后的模块拼接",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-tessellation-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-illustrator-common-lines",
+      "title": "共边去重与 SVG／PDF 输出",
+      "summary": "放大检查模块拼接，用剪刀断开重复边、整理连续路径，并输出矢量文件。",
+      "key_points": [
+        "共边重叠会使激光重复走同一路径，需要有意识地去重。",
+        "删除重复边后仍要确认整体轮廓和加工顺序。",
+        "导出选择范围决定输出哪些画板和对象。"
+      ],
+      "terms": [
+        {
+          "term": "共边",
+          "definition": "相邻模块轮廓共享的边界。"
+        },
+        {
+          "term": "SVG",
+          "definition": "基于路径等元素表达矢量图形的文件格式。"
+        }
+      ],
+      "actions": [
+        "标记重叠边，保留一次切割路径并复查。",
+        "导出 SVG／PDF 后重新打开检查范围和比例。"
+      ],
+      "start": 3471.24,
+      "end": 3715.29,
+      "references": [],
+      "moments": [
+        {
+          "time": 3498.05,
+          "title": "描边检查"
+        },
+        {
+          "time": 3526.9,
+          "title": "剪刀与重复边删除"
+        },
+        {
+          "time": 3677.07,
+          "title": "SVG 导出"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3558.0,
+          "caption": "重复共边的清理",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-common-lines-1.jpg"
+        },
+        {
+          "time": 3682.0,
+          "caption": "SVG 输出设置",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-common-lines-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-setup-square",
+      "title": "Rhino：捕捉、方形与测量尺寸",
+      "summary": "介绍 Mac 版 Rhino 的视图和捕捉，建立 60×60 mm 方形，并区分尺寸标注与参数化约束。",
+      "key_points": [
+        "端点、中点、中心和交点捕捉帮助精确定位。",
+        "本段普通线性标注用于测量，不会像 Fusion 草图约束一样自动驱动几何。",
+        "先确认毫米单位与 Top 视图。"
+      ],
+      "terms": [
+        {
+          "term": "Osnap",
+          "definition": "对象捕捉，用于定位几何特征。"
+        },
+        {
+          "term": "Linear Dimension",
+          "definition": "线性尺寸标注，本段用于验证长度。"
+        }
+      ],
+      "actions": [
+        "画 60 mm 方形并标注核对；验证捕捉是否命中真实端点。"
+      ],
+      "start": 3715.29,
+      "end": 3960.02,
+      "references": [],
+      "moments": [
+        {
+          "time": 3746.82,
+          "title": "捕捉与视图"
+        },
+        {
+          "time": 3868.41,
+          "title": "原点与 60 mm 方形"
+        },
+        {
+          "time": 3903.13,
+          "title": "尺寸测量"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3907.0,
+          "caption": "Rhino 方形与尺寸测量",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-setup-square.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-slot-polar",
+      "title": "Rhino 插槽：移动捕捉与极轴阵列",
+      "summary": "画定长度的插槽，用中点捕捉精确移动，再以 ArrayPolar 沿四个方向复制。",
+      "key_points": [
+        "Move 的来源点与目标点都应明确捕捉。",
+        "极轴阵列需指定对象、中心、数量和角度。",
+        "演示使用四项、360°，不是所有模块必须采用的连接数量。"
+      ],
+      "terms": [
+        {
+          "term": "ArrayPolar",
+          "definition": "围绕中心按角度重复对象的极轴阵列。"
+        }
+      ],
+      "actions": [
+        "用中点对中定位插槽，再进行极轴阵列。",
+        "保留必要参考中心，确认后再删除辅助轴。"
+      ],
+      "start": 3960.02,
+      "end": 4251.85,
+      "references": [],
+      "moments": [
+        {
+          "time": 4071.08,
+          "title": "Move 与中点捕捉"
+        },
+        {
+          "time": 4142.92,
+          "title": "ArrayPolar"
+        },
+        {
+          "time": 4217.03,
+          "title": "数量与角度"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4236.0,
+          "caption": "Rhino 四向插槽阵列",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-slot-polar.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-combined-joint",
+      "title": "Rhino 凸凹组合：延伸、偏移与 Trim",
+      "summary": "复制模块并延伸、偏移参考线，选择切割对象修剪轮廓，形成同时包含凸凹连接的方形。",
+      "key_points": [
+        "先建立相交关系，再用 Trim 删除明确的线段。",
+        "辅助线可帮助定位，但导出前须删除。",
+        "演示包含命令试探，笔记保留最后形成的结构与检查要求。"
+      ],
+      "terms": [
+        {
+          "term": "Trim",
+          "definition": "通过切割对象与被修剪对象删除指定线段。"
+        },
+        {
+          "term": "Offset",
+          "definition": "按指定距离偏移曲线。"
+        }
+      ],
+      "actions": [
+        "逐次修剪并保存版本，检查槽间距与凸件保持头部。",
+        "把相邻模块摆放验证方向，再做材料小样。"
+      ],
+      "start": 4251.85,
+      "end": 4593.4,
+      "references": [],
+      "moments": [
+        {
+          "time": 4290.03,
+          "title": "延伸与参考线"
+        },
+        {
+          "time": 4329.92,
+          "title": "偏移定位"
+        },
+        {
+          "time": 4468.27,
+          "title": "Trim 选择与修剪"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4540.0,
+          "caption": "凸凹组合的方形模块",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-combined-joint.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-rhino-output-limit",
+      "title": "Rhino 图层、线型与导出限制",
+      "summary": "设置连续线型、RGB 红色与图层属性，说明缩放、自动保存和导出，但本次许可证未允许实际输出。",
+      "key_points": [
+        "颜色与线型需要检查对象及图层的实际继承关系。",
+        "缩放改变连接尺寸，不能假设缩放后保持力不变。",
+        "讲师明确表示许可证不匹配，未完成实际 Export Selected；不记录为成功导出。"
+      ],
+      "terms": [
+        {
+          "term": "Export Selected",
+          "definition": "仅输出选中的对象。"
+        },
+        {
+          "term": "By Layer",
+          "definition": "对象属性由图层控制的方式。"
+        }
+      ],
+      "actions": [
+        "开启自动保存，检查对象属性与参考层。",
+        "在有效许可证环境输出并重新导入核对。"
+      ],
+      "start": 4593.4,
+      "end": 4752.22,
+      "references": [],
+      "moments": [
+        {
+          "time": 4609.78,
+          "title": "线型和颜色"
+        },
+        {
+          "time": 4657.6,
+          "title": "缩放与连接变化"
+        },
+        {
+          "time": 4737.05,
+          "title": "许可证与导出限制"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4625.0,
+          "caption": "Rhino 图层与颜色属性",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-output-limit.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-physical-tests",
+      "title": "实体组装：拉扯、翻面与纸样",
+      "summary": "用皮革包袋、圆片和组合连接演示受力、正反面与负空间，最后鼓励用纸进行早期探索。",
+      "key_points": [
+        "拉扯测试帮助判断连接稳定，但更多槽不自动保证整体足够强。",
+        "正面、背面和额外连接件可能形成不同效果。",
+        "纸样适合初步理解；纸与最终材料性能不同，正式材料仍需再验证。"
+      ],
+      "terms": [
+        {
+          "term": "应力测试",
+          "definition": "在受力状态下观察连接失效或变形的试验。"
+        },
+        {
+          "term": "负空间",
+          "definition": "模块间留下的区域，可作为结构或图案的一部分。"
+        }
+      ],
+      "actions": [
+        "拍摄组装顺序与正反面，并记录拉脱位置。",
+        "从纸样过渡到实际材料小样，再批量切割。"
+      ],
+      "start": 4752.22,
+      "end": 5117.56,
+      "references": [],
+      "moments": [
+        {
+          "time": 4847.44,
+          "title": "拉扯与稳定性"
+        },
+        {
+          "time": 4883.01,
+          "title": "组合连接与翻面"
+        },
+        {
+          "time": 5023.0,
+          "title": "纸样探索"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4838.0,
+          "caption": "实体凸凹连接与背面",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/physical-tests-1.jpg"
+        },
+        {
+          "time": 4929.0,
+          "caption": "组装后的负空间",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/physical-tests-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-ai-reference-closing",
+      "title": "答疑：AI 参考与教程结束",
+      "summary": "回答 AI 在设计中的用途，案例主要把 AI 作为视觉灵感输入，再由设计者选择与发展自己的模块方案。",
+      "key_points": [
+        "案例中的 AI 用于参考和组合灵感，没有直接完成加工验证。",
+        "获得视觉输入后仍需建立可编辑轮廓、连接和材料测试。",
+        "视频结束前说明当年的幻灯片与 Mattermost 求助渠道。"
+      ],
+      "terms": [
+        {
+          "term": "视觉参考",
+          "definition": "辅助构思的图像输入，不等同于可加工设计文件。"
+        }
+      ],
+      "actions": [
+        "把参考、设计选择和实际制作验证分别记录。"
+      ],
+      "start": 5117.56,
+      "end": 5258.16,
+      "references": [],
+      "moments": [
+        {
+          "time": 5129.74,
+          "title": "像素艺术与 AI 灵感"
+        },
+        {
+          "time": 5185.47,
+          "title": "配置与形状组合"
+        },
+        {
+          "time": 5223.76,
+          "title": "资料与结束"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5181.0,
+          "caption": "AI 参考答疑中展示的学生作品文档",
+          "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/ai-reference-closing.jpg"
+        }
+      ]
+    }
+  ]
+}

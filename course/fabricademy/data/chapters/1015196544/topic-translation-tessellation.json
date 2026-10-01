@@ -1,0 +1,53 @@
+{
+  "id": "topic-translation-tessellation",
+  "title": "Illustrator：平移镶嵌与路径组合",
+  "summary": "在方形的相对边做相同平移的添加与删减，通过 Pathfinder、剪刀和锚点工具构造可重复铺砌的模块。",
+  "key_points": [
+    "相对边的互补轮廓需要保持同一平移关系。",
+    "Pathfinder 的合并与减去前方用于改变主体轮廓。",
+    "先确认无缝重复，再把锁定结构整合到边界。"
+  ],
+  "terms": [
+    {
+      "term": "Pathfinder",
+      "definition": "路径查找器：对相交矢量形状进行合并、相减、分割等操作。"
+    },
+    {
+      "term": "平移镶嵌",
+      "definition": "通过重复平移同一形状覆盖平面。"
+    }
+  ],
+  "actions": [
+    "保存原方形，将一侧轮廓按边长平移到对侧。",
+    "复制至少四块检查缝隙、重叠与连接。"
+  ],
+  "start": 4632.73,
+  "end": 5303.925,
+  "references": [],
+  "moments": [
+    {
+      "time": 4716.0,
+      "title": "相对边的对应关系"
+    },
+    {
+      "time": 4873.0,
+      "title": "合并与相减轮廓"
+    },
+    {
+      "time": 5144.0,
+      "title": "复制验证与锚点调整"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5031.0,
+      "caption": "Illustrator 平移镶嵌轮廓",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/translation-tessellation-1.jpg"
+    },
+    {
+      "time": 5242.0,
+      "caption": "重复模块的拼接检查",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/translation-tessellation-2.jpg"
+    }
+  ]
+}

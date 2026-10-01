@@ -1,0 +1,43 @@
+{
+  "id": "topic-ai-reference-closing",
+  "title": "答疑：AI 参考与教程结束",
+  "summary": "回答 AI 在设计中的用途，案例主要把 AI 作为视觉灵感输入，再由设计者选择与发展自己的模块方案。",
+  "key_points": [
+    "案例中的 AI 用于参考和组合灵感，没有直接完成加工验证。",
+    "获得视觉输入后仍需建立可编辑轮廓、连接和材料测试。",
+    "视频结束前说明当年的幻灯片与 Mattermost 求助渠道。"
+  ],
+  "terms": [
+    {
+      "term": "视觉参考",
+      "definition": "辅助构思的图像输入，不等同于可加工设计文件。"
+    }
+  ],
+  "actions": [
+    "把参考、设计选择和实际制作验证分别记录。"
+  ],
+  "start": 5117.56,
+  "end": 5258.16,
+  "references": [],
+  "moments": [
+    {
+      "time": 5129.74,
+      "title": "像素艺术与 AI 灵感"
+    },
+    {
+      "time": 5185.47,
+      "title": "配置与形状组合"
+    },
+    {
+      "time": 5223.76,
+      "title": "资料与结束"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5181.0,
+      "caption": "AI 参考答疑中展示的学生作品文档",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/ai-reference-closing.jpg"
+    }
+  ]
+}

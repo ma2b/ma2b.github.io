@@ -1,0 +1,53 @@
+{
+  "id": "topic-illustrator-common-lines",
+  "title": "共边去重与 SVG／PDF 输出",
+  "summary": "放大检查模块拼接，用剪刀断开重复边、整理连续路径，并输出矢量文件。",
+  "key_points": [
+    "共边重叠会使激光重复走同一路径，需要有意识地去重。",
+    "删除重复边后仍要确认整体轮廓和加工顺序。",
+    "导出选择范围决定输出哪些画板和对象。"
+  ],
+  "terms": [
+    {
+      "term": "共边",
+      "definition": "相邻模块轮廓共享的边界。"
+    },
+    {
+      "term": "SVG",
+      "definition": "基于路径等元素表达矢量图形的文件格式。"
+    }
+  ],
+  "actions": [
+    "标记重叠边，保留一次切割路径并复查。",
+    "导出 SVG／PDF 后重新打开检查范围和比例。"
+  ],
+  "start": 3471.24,
+  "end": 3715.29,
+  "references": [],
+  "moments": [
+    {
+      "time": 3498.05,
+      "title": "描边检查"
+    },
+    {
+      "time": 3526.9,
+      "title": "剪刀与重复边删除"
+    },
+    {
+      "time": 3677.07,
+      "title": "SVG 导出"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3558.0,
+      "caption": "重复共边的清理",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-common-lines-1.jpg"
+    },
+    {
+      "time": 3682.0,
+      "caption": "SVG 输出设置",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-common-lines-2.jpg"
+    }
+  ]
+}

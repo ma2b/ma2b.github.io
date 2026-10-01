@@ -1,0 +1,47 @@
+{
+  "id": "topic-rhino-setup-square",
+  "title": "Rhino：捕捉、方形与测量尺寸",
+  "summary": "介绍 Mac 版 Rhino 的视图和捕捉，建立 60×60 mm 方形，并区分尺寸标注与参数化约束。",
+  "key_points": [
+    "端点、中点、中心和交点捕捉帮助精确定位。",
+    "本段普通线性标注用于测量，不会像 Fusion 草图约束一样自动驱动几何。",
+    "先确认毫米单位与 Top 视图。"
+  ],
+  "terms": [
+    {
+      "term": "Osnap",
+      "definition": "对象捕捉，用于定位几何特征。"
+    },
+    {
+      "term": "Linear Dimension",
+      "definition": "线性尺寸标注，本段用于验证长度。"
+    }
+  ],
+  "actions": [
+    "画 60 mm 方形并标注核对；验证捕捉是否命中真实端点。"
+  ],
+  "start": 3715.29,
+  "end": 3960.02,
+  "references": [],
+  "moments": [
+    {
+      "time": 3746.82,
+      "title": "捕捉与视图"
+    },
+    {
+      "time": 3868.41,
+      "title": "原点与 60 mm 方形"
+    },
+    {
+      "time": 3903.13,
+      "title": "尺寸测量"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3907.0,
+      "caption": "Rhino 方形与尺寸测量",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-setup-square.jpg"
+    }
+  ]
+}

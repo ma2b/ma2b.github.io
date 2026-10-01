@@ -1,0 +1,43 @@
+{
+  "id": "topic-software-file-flow",
+  "title": "建模、矢量排料与组合连接",
+  "summary": "整理 Fusion 草图、矢量导出、排料与切割的流程，并说明单模块可以同时拥有凸凹连接。",
+  "key_points": [
+    "数字建模的轮廓导出后，要在矢量软件检查重复路径、比例和描边。",
+    "RGB 红色和细描边是课程设备示例，具体设置服从实验室流程。",
+    "先从简单模块开始，再增加方向和组合。"
+  ],
+  "terms": [
+    {
+      "term": "Nesting",
+      "definition": "排料：把模块布置在实际材料范围内。"
+    }
+  ],
+  "actions": [
+    "用已知尺寸检查导出文件，并标明材料、单位与路径用途。"
+  ],
+  "start": 1097.56,
+  "end": 1282.29,
+  "references": [],
+  "moments": [
+    {
+      "time": 1117.0,
+      "title": "Fusion 与矢量文件"
+    },
+    {
+      "time": 1182.0,
+      "title": "切割路径与排料"
+    },
+    {
+      "time": 1242.0,
+      "title": "凸凹连接组合"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1172.0,
+      "caption": "二维设计到切割的流程资料",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/software-file-flow.jpg"
+    }
+  ]
+}

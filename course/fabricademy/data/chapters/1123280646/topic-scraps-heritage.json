@@ -1,0 +1,53 @@
+{
+  "id": "topic-scraps-heritage",
+  "title": "边角料、品牌叙事与文化传承",
+  "summary": "从皮革边角料和可变包袋，延伸到月相连接、装饰性扣合以及巴勒斯坦刺绣和切尔克斯文化的模块化表达。",
+  "key_points": [
+    "连接件既可以承担受力，也可以形成图案或品牌符号。",
+    "零废料要结合实际材料边界与切割损耗评估，不只是重复图案的外观。",
+    "文化案例强调研究、背景与个人叙事；自动字幕中的人名不可直接当作准确来源。"
+  ],
+  "terms": [
+    {
+      "term": "升级再造",
+      "definition": "通过设计使旧材料获得新的用途或价值。"
+    },
+    {
+      "term": "模块化叙事",
+      "definition": "把故事或文化图案嵌入可连接模块的表达方式。"
+    }
+  ],
+  "actions": [
+    "记录图案来源、个人关系和设计转化过程。",
+    "画出边角料的实际轮廓，再测试模块能否排入。"
+  ],
+  "start": 5023.015,
+  "end": 5497.135,
+  "references": [],
+  "moments": [
+    {
+      "time": 5054.0,
+      "title": "边角料与材料映射"
+    },
+    {
+      "time": 5240.0,
+      "title": "可变包袋与装饰连接"
+    },
+    {
+      "time": 5347.0,
+      "title": "文化与模块化图案"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5263.0,
+      "caption": "多配置包袋的模块系统",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/scraps-heritage-1.jpg"
+    },
+    {
+      "time": 5411.0,
+      "caption": "文化图案与模块化表达",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/scraps-heritage-2.jpg"
+    }
+  ]
+}

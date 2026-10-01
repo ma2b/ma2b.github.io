@@ -1,0 +1,38 @@
+{
+  "id": "topic-fusion-circle",
+  "title": "圆形模块与尺寸约束",
+  "summary": "在草图中建立圆形轮廓，通过 Sketch Dimension 指定演示尺寸并调整视图。",
+  "key_points": [
+    "尺寸约束控制几何大小，而不是只放一个标注。",
+    "演示采用 50 mm 圆；实际模块尺寸按用途和材料确定。"
+  ],
+  "terms": [
+    {
+      "term": "Sketch Dimension",
+      "definition": "草图尺寸约束；课程用 D 调出。"
+    }
+  ],
+  "actions": [
+    "画圆后设置直径，并再次编辑尺寸检查变化。"
+  ],
+  "start": 192.995,
+  "end": 434.155,
+  "references": [],
+  "moments": [
+    {
+      "time": 223.0,
+      "title": "创建圆形草图"
+    },
+    {
+      "time": 312.0,
+      "title": "指定尺寸与缩放视图"
+    }
+  ],
+  "frames": [
+    {
+      "time": 332.0,
+      "caption": "带尺寸的圆形草图",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/fusion-circle.jpg"
+    }
+  ]
+}

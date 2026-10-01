@@ -1,0 +1,7785 @@
+WEBVTT
+
+1
+00:00:00.145 --> 00:00:00.365
+Yes.
+
+2
+00:00:02.875 --> 00:00:06.255
+And welcome to week three, open source, circular Fashion
+
+3
+00:00:06.405 --> 00:00:07.615
+with Zoe Romano.
+
+4
+00:00:07.895 --> 00:00:10.835
+I give you the floor so that you can
+
+5
+00:00:11.885 --> 00:00:12.695
+Okay. Thank
+
+6
+00:00:12.995 --> 00:00:13.995
+Us. Everything about
+
+7
+00:00:13.995 --> 00:00:15.255
+Yes. Thank you.
+
+8
+00:00:15.835 --> 00:00:17.575
+And welcome to this new class.
+
+9
+00:00:17.905 --> 00:00:22.615
+Happy to, to see all these new faces for the,
+
+10
+00:00:23.245 --> 00:00:24.775
+this edition of Fabric Academy.
+
+11
+00:00:24.995 --> 00:00:27.015
+Now I share my screen.
+
+12
+00:00:30.905 --> 00:00:31.905
+Yes. This one?
+
+13
+00:00:36.015 --> 00:00:39.475
+Mm-hmm. Can you see Yes,
+
+14
+00:00:40.495 --> 00:00:41.495
+Yes. If you had
+
+15
+00:00:41.495 --> 00:00:43.755
+videos. Did you have videos in
+
+16
+00:00:43.755 --> 00:00:44.755
+Your presentation? Yes, but
+
+17
+00:00:44.755 --> 00:00:47.795
+the sound is not, is not necessary, so, okay,
+
+18
+00:00:47.795 --> 00:00:48.795
+Perfect.
+
+19
+00:00:50.245 --> 00:00:53.225
+Uh, let me see if I can, okay. Hello.
+
+20
+00:00:54.465 --> 00:00:57.325
+So I'm glad to be here for the ninth year,
+
+21
+00:00:57.985 --> 00:01:01.045
+and since the beginning of this, uh, adventure venture,
+
+22
+00:01:02.665 --> 00:01:06.705
+I felt myself, uh, very comfortable with, um,
+
+23
+00:01:07.405 --> 00:01:08.745
+the approach of fabric academy
+
+24
+00:01:09.375 --> 00:01:13.625
+because I'm a kind of, um, weird, uh,
+
+25
+00:01:14.275 --> 00:01:17.905
+let's say maker because my background is in philosophy.
+
+26
+00:01:18.565 --> 00:01:23.225
+But, uh, I had a master in media science and technology.
+
+27
+00:01:24.365 --> 00:01:27.585
+And, but I, I work mainly at the beginning.
+
+28
+00:01:27.765 --> 00:01:30.305
+My professional, uh, life started
+
+29
+00:01:31.655 --> 00:01:34.665
+with the working in strategic communication.
+
+30
+00:01:35.725 --> 00:01:39.905
+And, uh, I mean, it was more for the digital, uh,
+
+31
+00:01:40.525 --> 00:01:44.345
+um, digital becoming of companies
+
+32
+00:01:45.005 --> 00:01:47.705
+moving from the leaflet to the website.
+
+33
+00:01:48.645 --> 00:01:52.505
+And then I also, while I was working, I was doing that job,
+
+34
+00:01:52.825 --> 00:01:55.385
+I, I worked at as a media activist.
+
+35
+00:01:56.005 --> 00:01:58.465
+And I will tell you a bit about this approach.
+
+36
+00:01:59.785 --> 00:02:04.285
+Uh, after that, I worked for Arduino team for four years
+
+37
+00:02:04.905 --> 00:02:07.525
+and to manage the communication
+
+38
+00:02:08.545 --> 00:02:13.405
+and also a bit of community and wearable technology.
+
+39
+00:02:14.225 --> 00:02:17.325
+And then in 2014, I co-founded one
+
+40
+00:02:17.325 --> 00:02:20.005
+of the first maker spaces here in Milam
+
+41
+00:02:20.515 --> 00:02:23.925
+that was focused especially on design and fashion.
+
+42
+00:02:25.645 --> 00:02:29.985
+So, uh, since 2019, uh, I'm a freelancer,
+
+43
+00:02:30.565 --> 00:02:33.225
+so I left the managing of the makerspace.
+
+44
+00:02:33.485 --> 00:02:37.745
+And I'm actually in, I'm more able to
+
+45
+00:02:38.515 --> 00:02:39.985
+focus on projects.
+
+46
+00:02:40.645 --> 00:02:44.465
+I'm more able to focus on specific vertical project,
+
+47
+00:02:44.675 --> 00:02:48.105
+especially funded by, uh, European Commission.
+
+48
+00:02:49.375 --> 00:02:52.035
+And, uh, and usually they are, uh,
+
+49
+00:02:53.915 --> 00:02:58.675
+touching topics like, uh, social impact, um,
+
+50
+00:02:59.095 --> 00:03:02.245
+being driven by, uh, open source
+
+51
+00:03:02.705 --> 00:03:07.685
+and digital technologies in, uh, especially right now,
+
+52
+00:03:08.035 --> 00:03:11.325
+because when I say this, the definition where I work,
+
+53
+00:03:11.605 --> 00:03:12.885
+I say, yes, but what do you do?
+
+54
+00:03:12.885 --> 00:03:16.965
+Basically, for example, right now I'm working on this, uh,
+
+55
+00:03:16.965 --> 00:03:20.765
+woodshed project that is based on the alpine space,
+
+56
+00:03:20.905 --> 00:03:23.565
+on the mountains, on the Northern Italy
+
+57
+00:03:23.665 --> 00:03:25.445
+and other four countries in Europe.
+
+58
+00:03:26.145 --> 00:03:29.565
+And we are looking at how to solve the issue
+
+59
+00:03:29.785 --> 00:03:31.885
+of coarse wool.
+
+60
+00:03:32.545 --> 00:03:36.885
+So we, in the alpine spaces, we have a lot of sheep,
+
+61
+00:03:37.305 --> 00:03:39.205
+and we sheep we have sheep
+
+62
+00:03:39.205 --> 00:03:44.165
+because we, uh, they are good animals
+
+63
+00:03:44.305 --> 00:03:46.285
+to manage the landscape,
+
+64
+00:03:46.545 --> 00:03:49.885
+but also we eat the meat of the, of the sheep
+
+65
+00:03:49.905 --> 00:03:51.845
+and make cheese outta their milk.
+
+66
+00:03:52.745 --> 00:03:56.805
+And the specific of this, uh, ship is
+
+67
+00:03:56.805 --> 00:04:01.405
+that their wool is not really soft as the merino wool
+
+68
+00:04:01.405 --> 00:04:05.485
+that is the most used wool in, in the fashion system,
+
+69
+00:04:06.345 --> 00:04:08.245
+but is a wool that is thicker
+
+70
+00:04:08.465 --> 00:04:11.605
+and is, uh, coarser is stronger, is more richy.
+
+71
+00:04:12.025 --> 00:04:16.585
+And so we are finding way to, to work on it and use it.
+
+72
+00:04:16.585 --> 00:04:19.945
+Otherwise, it's been treated as a, as, um,
+
+73
+00:04:21.235 --> 00:04:23.465
+waste instead of being a resource.
+
+74
+00:04:24.165 --> 00:04:25.745
+We have a tradition in Italy,
+
+75
+00:04:25.805 --> 00:04:28.985
+but also in the other aine spaces where this school was
+
+76
+00:04:29.705 --> 00:04:33.705
+considered a, a special precious material
+
+77
+00:04:33.705 --> 00:04:38.345
+because it has a lot of, um, features that,
+
+78
+00:04:38.455 --> 00:04:43.185
+that makes them, makes it a very, um, precious
+
+79
+00:04:43.815 --> 00:04:47.305
+regarding being able not to get into fire,
+
+80
+00:04:48.075 --> 00:04:52.305
+being sustainable, being, uh, soft
+
+81
+00:04:52.685 --> 00:04:56.185
+and can be used to keep the heat, for example,
+
+82
+00:04:56.245 --> 00:04:58.945
+inside the houses, so many, many features.
+
+83
+00:04:59.245 --> 00:05:03.225
+So what we are trying to see if, how in which way we can use
+
+84
+00:05:03.405 --> 00:05:05.665
+and make other products out of this tool.
+
+85
+00:05:05.965 --> 00:05:08.505
+For example, here, I collaborated
+
+86
+00:05:08.645 --> 00:05:13.265
+and made a little research case study on, uh, how
+
+87
+00:05:13.265 --> 00:05:16.865
+to tuft, you know, the tufting technology when you shoot
+
+88
+00:05:16.975 --> 00:05:20.385
+with a gun, the gun that I like, the guns that shoot wool.
+
+89
+00:05:21.005 --> 00:05:23.945
+And, um, we attached together
+
+90
+00:05:23.945 --> 00:05:28.465
+with local studio in Madrid, we attached this, um,
+
+91
+00:05:29.865 --> 00:05:31.585
+tufting gun to a robot,
+
+92
+00:05:31.685 --> 00:05:34.785
+and we started to test all the wool
+
+93
+00:05:34.895 --> 00:05:36.625
+that I brought from Italy
+
+94
+00:05:36.885 --> 00:05:38.865
+of different type of, of breed of ship.
+
+95
+00:05:38.885 --> 00:05:43.385
+And so we are understanding if we can work on a concept
+
+96
+00:05:43.405 --> 00:05:48.345
+of microfactory in the alpine space that can,
+
+97
+00:05:49.085 --> 00:05:50.745
+uh, manufacture the wool
+
+98
+00:05:50.765 --> 00:05:53.225
+and also create products at a higher value.
+
+99
+00:05:53.605 --> 00:05:58.165
+So this idea, this approach is a kind
+
+100
+00:05:58.165 --> 00:06:01.885
+of systemic design approach in which you think a problem,
+
+101
+00:06:02.145 --> 00:06:04.525
+an issue, a material that is precious
+
+102
+00:06:04.825 --> 00:06:07.685
+and in which way you can have this material
+
+103
+00:06:07.865 --> 00:06:12.365
+to be used locally and not moving it around in the country,
+
+104
+00:06:12.465 --> 00:06:15.725
+but being there, being able to create a more,
+
+105
+00:06:15.885 --> 00:06:17.125
+a small supply chain
+
+106
+00:06:17.345 --> 00:06:22.165
+and use digital fabrication in order to engage young people
+
+107
+00:06:22.705 --> 00:06:25.205
+in making up startups
+
+108
+00:06:25.305 --> 00:06:28.805
+or small companies that can create these type of,
+
+109
+00:06:29.065 --> 00:06:30.685
+um, products.
+
+110
+00:06:31.665 --> 00:06:34.325
+And, uh, um, in,
+
+111
+00:06:34.865 --> 00:06:39.485
+in within this cons concept, I also teach
+
+112
+00:06:40.265 --> 00:06:44.565
+in inside the Theus Academy, I, I make a course
+
+113
+00:06:44.565 --> 00:06:47.205
+that is called Cradle to Cradle Fashion Making.
+
+114
+00:06:47.545 --> 00:06:50.735
+And it's about how to apply making,
+
+115
+00:06:51.275 --> 00:06:54.535
+so digital fabrication technology within the idea
+
+116
+00:06:54.835 --> 00:06:59.175
+of fashion manufacturing with a sustainability, uh,
+
+117
+00:06:59.575 --> 00:07:02.015
+a sustainability, um, approach.
+
+118
+00:07:02.875 --> 00:07:07.255
+So being able to have products in which,
+
+119
+00:07:07.835 --> 00:07:11.095
+you know, what happens to the products at the end of life.
+
+120
+00:07:12.885 --> 00:07:17.145
+Um, recently I took part, uh, actually last year I took part
+
+121
+00:07:17.165 --> 00:07:20.145
+to this, uh, conference that is called,
+
+122
+00:07:20.455 --> 00:07:22.625
+that was titled Commons in Design,
+
+123
+00:07:23.245 --> 00:07:24.425
+and actually was trying
+
+124
+00:07:24.425 --> 00:07:29.105
+to understanding which way we can apply design, uh,
+
+125
+00:07:29.205 --> 00:07:31.585
+within the framework of the commons.
+
+126
+00:07:32.365 --> 00:07:36.625
+And I, in, in this book, there is a, a paper, uh,
+
+127
+00:07:37.535 --> 00:07:40.265
+like a chapter that I wrote that is called Low Tech,
+
+128
+00:07:40.565 --> 00:07:41.625
+is the New High Tech.
+
+129
+00:07:42.005 --> 00:07:45.075
+So in which way, somehow we are trying
+
+130
+00:07:45.075 --> 00:07:49.355
+to merge the traditional manufacturing system with
+
+131
+00:07:49.935 --> 00:07:54.035
+the, uh, contemporary manufacturing system to find a balance
+
+132
+00:07:54.385 --> 00:07:58.915
+between the two and find solution that can be conceived
+
+133
+00:07:59.655 --> 00:08:02.715
+as digital, uh, distributed manufacturing.
+
+134
+00:08:03.215 --> 00:08:07.515
+And during this lesson, I will try to, um,
+
+135
+00:08:08.865 --> 00:08:12.715
+dive you into, into this concept, understanding
+
+136
+00:08:12.785 --> 00:08:16.315
+what does it mean digital, uh, distributor manufacturing,
+
+137
+00:08:16.575 --> 00:08:18.275
+in which way the commons
+
+138
+00:08:18.295 --> 00:08:20.995
+and the concept of openness is really important
+
+139
+00:08:21.855 --> 00:08:24.395
+for this new framework of production.
+
+140
+00:08:25.655 --> 00:08:29.605
+Um, one of the, another paper that I wrote,
+
+141
+00:08:29.795 --> 00:08:32.965
+this is older, but I think is still valuable
+
+142
+00:08:33.065 --> 00:08:37.885
+and interesting, is the, um, idea that
+
+143
+00:08:38.865 --> 00:08:43.325
+the new designers are, um, need to
+
+144
+00:08:43.885 --> 00:08:47.885
+conceive and design products that are easily repairable.
+
+145
+00:08:48.665 --> 00:08:52.925
+And the easy of repair is for us,
+
+146
+00:08:53.325 --> 00:08:55.605
+a design a DL in the sense that
+
+147
+00:08:56.235 --> 00:08:58.285
+repairing shouldn't be something
+
+148
+00:08:58.355 --> 00:09:01.925
+that someone else think about when a product is broken,
+
+149
+00:09:02.465 --> 00:09:05.805
+but it's something that can increase the
+
+150
+00:09:05.925 --> 00:09:07.445
+lifespan of products.
+
+151
+00:09:07.705 --> 00:09:11.925
+So first responsibility of designer is to conceive
+
+152
+00:09:12.565 --> 00:09:17.205
+products that have this, um, easy easiness
+
+153
+00:09:17.425 --> 00:09:21.595
+of, uh, uh, repairing in.
+
+154
+00:09:21.595 --> 00:09:25.025
+Uh, but how did I arrive here?
+
+155
+00:09:25.245 --> 00:09:29.255
+In which way I, I, I,
+
+156
+00:09:29.865 --> 00:09:33.775
+let's say, discovered the idea of openness.
+
+157
+00:09:34.115 --> 00:09:36.655
+Um, first of all, I talk about,
+
+158
+00:09:36.815 --> 00:09:40.255
+I talk about in which way the idea of openness, um,
+
+159
+00:09:43.095 --> 00:09:47.675
+uh, helped us, uh, conceive a new way of,
+
+160
+00:09:47.895 --> 00:09:51.915
+uh, thinking about fashion, especially Milan.
+
+161
+00:09:52.365 --> 00:09:55.675
+Milan is a city, I mean, that is full of fashion and design.
+
+162
+00:09:56.205 --> 00:09:58.515
+There are design weeks
+
+163
+00:09:58.655 --> 00:10:02.595
+and fashion weeks, um, more than once time a, a, a year.
+
+164
+00:10:03.415 --> 00:10:07.905
+And most of my friends, um, at the beginning
+
+165
+00:10:07.905 --> 00:10:12.035
+of the century was really, uh,
+
+166
+00:10:12.035 --> 00:10:13.075
+working for this.
+
+167
+00:10:13.355 --> 00:10:16.915
+I mean, when you are 20 years old, when you want to work
+
+168
+00:10:16.915 --> 00:10:19.795
+with, um, uh, you're studying
+
+169
+00:10:20.015 --> 00:10:23.355
+and maybe you need to have some kind of job, you go
+
+170
+00:10:23.355 --> 00:10:27.235
+and work for like fashion catwalk or things like that.
+
+171
+00:10:27.655 --> 00:10:29.115
+And there is a lot, and you realize
+
+172
+00:10:29.115 --> 00:10:31.195
+that there is a lot of exploiting.
+
+173
+00:10:31.495 --> 00:10:35.675
+So the exploiting is not just outside
+
+174
+00:10:35.855 --> 00:10:38.995
+of in the countries where we manufacture the fashion,
+
+175
+00:10:39.455 --> 00:10:43.835
+but is also in the window of fashion, in the branding,
+
+176
+00:10:44.015 --> 00:10:47.635
+in the, all the communication, uh,
+
+177
+00:10:48.575 --> 00:10:52.075
+in all the communication, um, situation.
+
+178
+00:10:52.245 --> 00:10:56.635
+Sorry, my phone. I thought it, it was okay, my phone.
+
+179
+00:10:57.775 --> 00:10:59.235
+Um, and,
+
+180
+00:10:59.335 --> 00:11:03.805
+and so we discussed a lot about,
+
+181
+00:11:04.265 --> 00:11:06.165
+in which way, as activists,
+
+182
+00:11:06.265 --> 00:11:10.245
+we were working a lot in thinking about the precariousness
+
+183
+00:11:10.245 --> 00:11:14.205
+of life, the precariousness of having always to deal
+
+184
+00:11:14.205 --> 00:11:15.525
+with the, um,
+
+185
+00:11:17.155 --> 00:11:19.205
+with the temporary jobs.
+
+186
+00:11:20.145 --> 00:11:24.925
+And in this, uh, in this framework, we decided to
+
+187
+00:11:26.115 --> 00:11:28.415
+create a fake fashion designer
+
+188
+00:11:30.005 --> 00:11:33.415
+that entered the official calendar of the fashion week
+
+189
+00:11:34.035 --> 00:11:35.375
+to somehow disrupt
+
+190
+00:11:36.035 --> 00:11:38.935
+and denounce the exploiting of creative workers
+
+191
+00:11:39.075 --> 00:11:40.255
+during the fashion week.
+
+192
+00:11:41.235 --> 00:11:42.335
+Um, we did it
+
+193
+00:11:42.335 --> 00:11:46.255
+because we had the skills to create high quality
+
+194
+00:11:46.975 --> 00:11:50.255
+communication and high quality, um, designs.
+
+195
+00:11:51.035 --> 00:11:55.565
+And, uh, we actually created a big event
+
+196
+00:11:56.185 --> 00:11:57.485
+in 2005.
+
+197
+00:11:57.745 --> 00:12:01.085
+So this year we celebrate 20 years of activity.
+
+198
+00:12:02.025 --> 00:12:05.165
+Uh, and during that event, we actually
+
+199
+00:12:06.355 --> 00:12:08.045
+were reflecting, and this is a book,
+
+200
+00:12:08.045 --> 00:12:09.245
+talking, talking about us.
+
+201
+00:12:09.305 --> 00:12:12.765
+If you want to know more about the,
+
+202
+00:12:14.825 --> 00:12:19.125
+the, let's say the reflection of some, uh, academics
+
+203
+00:12:19.125 --> 00:12:20.125
+around our work.
+
+204
+00:12:21.385 --> 00:12:25.205
+Uh, we created a big event in which, uh, we
+
+205
+00:12:25.955 --> 00:12:30.205
+presented the 10 allegorical garments to reveal
+
+206
+00:12:30.785 --> 00:12:34.245
+the, the exploitation in the Milan creative industries.
+
+207
+00:12:34.625 --> 00:12:39.045
+But we did it first creating a fake fashion designer
+
+208
+00:12:39.075 --> 00:12:40.885
+that applied to the official calendar.
+
+209
+00:12:41.425 --> 00:12:43.445
+And then when it was accepted,
+
+210
+00:12:43.445 --> 00:12:45.125
+because actually the official calendar
+
+211
+00:12:45.125 --> 00:12:48.925
+of the fashion week didn't ask to see any garment,
+
+212
+00:12:49.235 --> 00:12:51.765
+they just wanted immaterial stuff.
+
+213
+00:12:51.915 --> 00:12:55.765
+They wanted the, the brand, the trademark.
+
+214
+00:12:56.275 --> 00:12:59.525
+They wanted the, the book, a digital book
+
+215
+00:12:59.555 --> 00:13:01.205
+with all the designs that we wanted.
+
+216
+00:13:01.305 --> 00:13:03.885
+Of course, we didn't, we didn't give them this one,
+
+217
+00:13:04.345 --> 00:13:06.445
+but we gave them fake.
+
+218
+00:13:06.545 --> 00:13:08.925
+We did a fake book, uh, look book.
+
+219
+00:13:09.785 --> 00:13:14.525
+And that was well done, uh, and, um, but with fake garments,
+
+220
+00:13:15.465 --> 00:13:17.405
+and we were accepted officially,
+
+221
+00:13:17.945 --> 00:13:21.365
+and we created a catwalk in which instead of showing
+
+222
+00:13:21.945 --> 00:13:25.485
+the right garments that we presented in the Look book,
+
+223
+00:13:26.145 --> 00:13:29.845
+we created this allegorical garments
+
+224
+00:13:31.065 --> 00:13:35.245
+in which you see, for example, the garments to hide the,
+
+225
+00:13:35.505 --> 00:13:38.685
+the, uh, to hide the pregnancy,
+
+226
+00:13:38.685 --> 00:13:41.245
+because where they know that you're pregnant, they fire you,
+
+227
+00:13:41.665 --> 00:13:45.165
+or the, the job of like having double,
+
+228
+00:13:46.075 --> 00:13:48.525
+when you have a double shift during the day, you need
+
+229
+00:13:48.525 --> 00:13:52.365
+to change during the day or the garments when you need to.
+
+230
+00:13:52.475 --> 00:13:54.365
+They ask for a woman and they,
+
+231
+00:13:54.945 --> 00:13:58.685
+or they ask for a male to be, to take the job.
+
+232
+00:13:59.225 --> 00:14:03.565
+So we made this 10 garments in order to
+
+233
+00:14:05.225 --> 00:14:09.675
+present in which way our exploitation was happening in,
+
+234
+00:14:09.695 --> 00:14:11.235
+uh, in, in Milan.
+
+235
+00:14:12.135 --> 00:14:16.315
+But this was, uh, full of people because we created a fake.
+
+236
+00:14:16.375 --> 00:14:18.155
+Uh, also, um,
+
+237
+00:14:21.135 --> 00:14:24.435
+we pretended that the activist of
+
+238
+00:14:25.335 --> 00:14:29.515
+the Milan scene were going against this designer
+
+239
+00:14:29.785 --> 00:14:31.835
+because she pretended
+
+240
+00:14:31.895 --> 00:14:36.475
+and she offered the activist some money to have the catwalk
+
+241
+00:14:36.655 --> 00:14:39.475
+inside an occupied space, a squat.
+
+242
+00:14:40.135 --> 00:14:44.435
+And so this thing, uh, made the journalist very curious
+
+243
+00:14:44.695 --> 00:14:45.835
+to understand why
+
+244
+00:14:46.375 --> 00:14:49.115
+and why there was this fight between the activists
+
+245
+00:14:49.175 --> 00:14:53.605
+and the fashion designer, but both of them were us.
+
+246
+00:14:53.825 --> 00:14:55.365
+So, I mean, it, it's a long story,
+
+247
+00:14:55.465 --> 00:15:00.405
+but you, you understand the, the, the main story.
+
+248
+00:15:00.985 --> 00:15:03.845
+And the, the day after it was, we were all in,
+
+249
+00:15:03.985 --> 00:15:06.645
+in all the newspapers, and they talked about us
+
+250
+00:15:06.865 --> 00:15:09.965
+and workers on the catwalk.
+
+251
+00:15:10.145 --> 00:15:14.525
+Um, I mean, there was a lot of, a lot of talking
+
+252
+00:15:14.705 --> 00:15:19.475
+and gossiping, and most of the, um,
+
+253
+00:15:20.105 --> 00:15:23.435
+most of the newspapers talked about us,
+
+254
+00:15:23.975 --> 00:15:28.235
+but the Chamber of Fashion sent, um, a message
+
+255
+00:15:28.935 --> 00:15:31.755
+to all the fashion magazines to,
+
+256
+00:15:32.015 --> 00:15:33.915
+and told them not to talk about us
+
+257
+00:15:34.065 --> 00:15:38.875
+because they had, they felt ashamed
+
+258
+00:15:39.145 --> 00:15:42.555
+that they accepted us in the,
+
+259
+00:15:42.775 --> 00:15:44.355
+in the official calendar.
+
+260
+00:15:45.135 --> 00:15:48.715
+And, and so I guess that a couple of years
+
+261
+00:15:48.725 --> 00:15:53.075
+after they changed the way to apply to the fashion week,
+
+262
+00:15:53.855 --> 00:15:58.715
+but since then, we created, um, uh,
+
+263
+00:15:59.095 --> 00:16:02.755
+an association, an open, an association that kept doing
+
+264
+00:16:03.375 --> 00:16:07.875
+and reflecting upon the garments that reflected upon,
+
+265
+00:16:08.655 --> 00:16:12.515
+um, how to make fashion in a different way,
+
+266
+00:16:12.695 --> 00:16:15.835
+in which way the patterns could be open source
+
+267
+00:16:16.615 --> 00:16:19.955
+and in which way people could learn how to make things.
+
+268
+00:16:20.455 --> 00:16:24.635
+We also experimented with technology here, for example, one
+
+269
+00:16:24.635 --> 00:16:28.395
+of the, uh, workshop that we do is, uh,
+
+270
+00:16:28.615 --> 00:16:30.835
+making laser cut stencil.
+
+271
+00:16:31.135 --> 00:16:35.155
+And then we, we have these events of upcycling,
+
+272
+00:16:35.415 --> 00:16:37.315
+so you can come with your old garments
+
+273
+00:16:37.655 --> 00:16:42.355
+and you can, uh, create your own, uh, upcycling as upcycled,
+
+274
+00:16:43.255 --> 00:16:46.435
+um, garment with our, uh, designs.
+
+275
+00:16:46.825 --> 00:16:51.555
+This is, you use a roll with the silk print, uh, ink,
+
+276
+00:16:51.815 --> 00:16:53.595
+and then you just did do it.
+
+277
+00:16:53.595 --> 00:16:55.235
+And it's like happening. It's very nice.
+
+278
+00:16:56.835 --> 00:17:00.655
+Recently we opened up, uh,
+
+279
+00:17:02.055 --> 00:17:05.455
+actually this year to celebrate the 20th years we had,
+
+280
+00:17:06.435 --> 00:17:08.815
+we have a gallery now in Milan,
+
+281
+00:17:09.435 --> 00:17:12.855
+and we use it as an empty, like, it's like a shop,
+
+282
+00:17:13.795 --> 00:17:15.855
+and we use it to make exhibitions
+
+283
+00:17:16.435 --> 00:17:20.935
+and to make, to invite, uh, designers
+
+284
+00:17:21.365 --> 00:17:26.355
+that are, uh, like more ecological and more ethical,
+
+285
+00:17:26.895 --> 00:17:29.955
+and they don't have, and they have usually small production,
+
+286
+00:17:30.095 --> 00:17:33.595
+and they don't have the money to rent a shop in Milan
+
+287
+00:17:33.665 --> 00:17:35.195
+because it's really expensive.
+
+288
+00:17:35.295 --> 00:17:39.755
+The rents for, also for exhibitions are skyrocketing.
+
+289
+00:17:40.255 --> 00:17:43.755
+So the idea to was to make, uh,
+
+290
+00:17:44.115 --> 00:17:48.675
+a community space in which to present, um, new
+
+291
+00:17:49.725 --> 00:17:52.965
+projects that were focused on al fashion
+
+292
+00:17:53.145 --> 00:17:55.205
+and a new approach to, to fashion.
+
+293
+00:17:56.185 --> 00:17:59.605
+And it's open. You can join the community and come
+
+294
+00:17:59.665 --> 00:18:02.525
+and exhibit in, in, in the center of Milan.
+
+295
+00:18:03.305 --> 00:18:07.885
+And, uh, this idea actually in this 10 years, 20 years
+
+296
+00:18:07.885 --> 00:18:12.445
+of activity, the, the, the path that we took was
+
+297
+00:18:13.145 --> 00:18:15.925
+to move from the hack, the hacking practice.
+
+298
+00:18:16.345 --> 00:18:19.565
+The hacking is about when you have a product,
+
+299
+00:18:19.835 --> 00:18:23.405
+when you have an object that you are not happy about it,
+
+300
+00:18:23.665 --> 00:18:28.085
+you hack it, so you break it or you, you, you open it
+
+301
+00:18:28.865 --> 00:18:31.365
+and you, it's a kind of reaction of something
+
+302
+00:18:31.365 --> 00:18:32.965
+that you are not happy with,
+
+303
+00:18:33.345 --> 00:18:37.085
+and you make a customization maybe, or an
+
+304
+00:18:37.225 --> 00:18:39.325
+or open up something to fix it.
+
+305
+00:18:39.865 --> 00:18:43.045
+So this is the first act of openness.
+
+306
+00:18:43.305 --> 00:18:46.685
+You physically open the object, understand how it works,
+
+307
+00:18:47.185 --> 00:18:48.285
+and you make some changes.
+
+308
+00:18:49.235 --> 00:18:50.725
+Then we have the second phase
+
+309
+00:18:50.785 --> 00:18:53.685
+and is about the making That started when digital
+
+310
+00:18:54.075 --> 00:18:56.205
+fabrication became more widespread,
+
+311
+00:18:56.585 --> 00:19:00.245
+and actually is the attitude to discover, to learn,
+
+312
+00:19:00.925 --> 00:19:05.885
+activate processes for the creation of, we say useless
+
+313
+00:19:06.145 --> 00:19:07.285
+and useful devices.
+
+314
+00:19:07.285 --> 00:19:08.605
+Because a lot
+
+315
+00:19:08.605 --> 00:19:12.325
+of learning comes when you also create useless
+
+316
+00:19:13.115 --> 00:19:16.765
+objects, because you learn in the process, you learn
+
+317
+00:19:16.865 --> 00:19:19.325
+by your errors, and this is,
+
+318
+00:19:19.465 --> 00:19:22.285
+you can do it when you can share an infrastructure,
+
+319
+00:19:22.905 --> 00:19:24.365
+an infrastructure together.
+
+320
+00:19:25.265 --> 00:19:28.845
+And it's a part of the process of prototyping new ideas,
+
+321
+00:19:29.685 --> 00:19:32.605
+prototyping something that usually the for-profit
+
+322
+00:19:33.245 --> 00:19:34.245
+companies are not making.
+
+323
+00:19:35.065 --> 00:19:38.485
+And we think that the final step of this growth
+
+324
+00:19:39.265 --> 00:19:42.685
+to think about openness is about open design.
+
+325
+00:19:42.795 --> 00:19:46.605
+That is the, the discipline in which as a designer,
+
+326
+00:19:47.145 --> 00:19:50.525
+you really create objects that are maker friendly,
+
+327
+00:19:51.755 --> 00:19:53.165
+that are, they can be digital
+
+328
+00:19:53.545 --> 00:19:56.285
+and physical devices embedded potential.
+
+329
+00:19:56.675 --> 00:20:01.085
+They have the potential in their being, in their design
+
+330
+00:20:01.145 --> 00:20:05.005
+to be modified, to be fixed, to be improved by others.
+
+331
+00:20:05.225 --> 00:20:08.645
+So is a systemic way to approach openness.
+
+332
+00:20:08.945 --> 00:20:12.605
+And we think for us, this is the design that we like.
+
+333
+00:20:14.515 --> 00:20:19.015
+Uh, after, uh, CICA narrow, I, I started
+
+334
+00:20:19.115 --> 00:20:23.615
+to make my first open, uh, uh, sorry, my first, uh,
+
+335
+00:20:24.115 --> 00:20:27.535
+um, EU funded project that it was open wear.
+
+336
+00:20:28.075 --> 00:20:32.655
+And this open wear project was, uh, a way to
+
+337
+00:20:33.745 --> 00:20:36.695
+bring to the designers the concept
+
+338
+00:20:36.965 --> 00:20:39.295
+that came from Anaro project.
+
+339
+00:20:40.075 --> 00:20:43.655
+And so we created a new open source brand.
+
+340
+00:20:44.525 --> 00:20:46.375
+There's, that was called Open Wear.
+
+341
+00:20:47.385 --> 00:20:49.605
+We made a collaborative collection
+
+342
+00:20:50.505 --> 00:20:55.325
+and we create a license to use the, the, the brand.
+
+343
+00:20:55.745 --> 00:20:58.005
+And also we shared all the patterns.
+
+344
+00:20:58.705 --> 00:21:02.685
+It was around 2009, 2009 and 10.
+
+345
+00:21:03.345 --> 00:21:06.965
+But what was the issue since in those years
+
+346
+00:21:08.135 --> 00:21:11.225
+that I realized only afterwards that most
+
+347
+00:21:11.245 --> 00:21:14.025
+of the education in the fashion schools
+
+348
+00:21:14.645 --> 00:21:19.025
+was about making patterns by hand with pencil and paper,
+
+349
+00:21:19.405 --> 00:21:24.305
+and very few designers, fashion designer knew how to draw
+
+350
+00:21:24.695 --> 00:21:28.025
+with digital tools, with digital softwares.
+
+351
+00:21:28.725 --> 00:21:31.625
+And so we couldn't reach the critical mass
+
+352
+00:21:32.005 --> 00:21:33.945
+to have this community to grow.
+
+353
+00:21:34.445 --> 00:21:36.785
+And that's why I'm really happy
+
+354
+00:21:36.855 --> 00:21:38.825
+that this academy is happening
+
+355
+00:21:38.825 --> 00:21:40.985
+because there is a lot of lack.
+
+356
+00:21:41.595 --> 00:21:45.145
+There is a lot of lack of knowledge
+
+357
+00:21:45.145 --> 00:21:47.065
+and skills in the fashion.
+
+358
+00:21:47.525 --> 00:21:52.185
+Um, schools around digital fabrication now is a bit,
+
+359
+00:21:52.405 --> 00:21:53.745
+uh, it's a bit better.
+
+360
+00:21:54.485 --> 00:21:57.785
+Uh, and one of the, also, the
+
+361
+00:21:58.995 --> 00:22:02.545
+collection that we did was open source accessories
+
+362
+00:22:02.965 --> 00:22:07.065
+and wearables that were this pattern that were digitalized
+
+363
+00:22:07.095 --> 00:22:09.705
+that could be used directly on the laser card.
+
+364
+00:22:09.705 --> 00:22:13.185
+There was the, they were the templates in which you could
+
+365
+00:22:13.235 --> 00:22:16.665
+start from learning how to work with
+
+366
+00:22:17.295 --> 00:22:20.105
+digital technology, and especially laser cut.
+
+367
+00:22:20.295 --> 00:22:23.665
+This, for example, was a workshop that we did during
+
+368
+00:22:24.315 --> 00:22:26.425
+Milan design week in 2000,
+
+369
+00:22:26.765 --> 00:22:29.825
+and I think it was, uh, 10 or 11.
+
+370
+00:22:30.605 --> 00:22:34.985
+And we brought the laser cut in the, the design week,
+
+371
+00:22:34.985 --> 00:22:39.865
+and we did with felt this shoes that were just flat,
+
+372
+00:22:40.125 --> 00:22:43.865
+but you could, um, fold it and sew it,
+
+373
+00:22:45.045 --> 00:22:49.705
+and it was also useful to prototype wearable technology.
+
+374
+00:22:50.265 --> 00:22:51.345
+I made this workshop,
+
+375
+00:22:51.365 --> 00:22:55.065
+and that's how I, I met Massimo Bandi from Arduino.
+
+376
+00:22:55.425 --> 00:22:59.265
+I brought my knowledge about this digital pattern.
+
+377
+00:22:59.525 --> 00:23:01.385
+And then Arduino
+
+378
+00:23:01.445 --> 00:23:04.425
+and Massimo Banzi was working with students.
+
+379
+00:23:04.645 --> 00:23:08.065
+It was a summer school, uh, was working with student in
+
+380
+00:23:08.915 --> 00:23:13.225
+developing and prototyping, um, open source devices
+
+381
+00:23:13.655 --> 00:23:18.025
+with, uh, Lily Duino and another, and other boards.
+
+382
+00:23:18.925 --> 00:23:22.665
+Um, and I was helping the student to make the wearable part.
+
+383
+00:23:24.245 --> 00:23:28.065
+Um, in later, I also talked to, uh,
+
+384
+00:23:28.285 --> 00:23:30.425
+at the Parsons School in New York.
+
+385
+00:23:30.665 --> 00:23:34.905
+I was invited to talk about all these, all these, uh,
+
+386
+00:23:35.175 --> 00:23:37.225
+experiences that we made.
+
+387
+00:23:37.225 --> 00:23:39.785
+There is still some paper
+
+388
+00:23:39.925 --> 00:23:42.545
+and a journal around this if you are interested.
+
+389
+00:23:43.325 --> 00:23:46.285
+So all started with this idea
+
+390
+00:23:46.465 --> 00:23:49.245
+of openness definition, actually.
+
+391
+00:23:49.425 --> 00:23:51.125
+Um, I was working
+
+392
+00:23:51.505 --> 00:23:56.325
+and being active in, um, in, at the end
+
+393
+00:23:56.345 --> 00:23:57.685
+of like the century.
+
+394
+00:23:57.945 --> 00:24:01.285
+So 98 to 99, I was, uh,
+
+395
+00:24:01.385 --> 00:24:03.845
+in hacker spaces here in Milan.
+
+396
+00:24:04.425 --> 00:24:08.045
+And in those years, it was the term blogosphere,
+
+397
+00:24:08.285 --> 00:24:10.965
+I don't know, it's not used so much now,
+
+398
+00:24:11.105 --> 00:24:14.245
+but in, in those years was very used.
+
+399
+00:24:14.305 --> 00:24:16.925
+It was the first idea of, uh,
+
+400
+00:24:18.145 --> 00:24:21.285
+it was actually a neologism, a new word
+
+401
+00:24:21.825 --> 00:24:26.765
+to express the real of the internet, self-published blogs
+
+402
+00:24:27.015 --> 00:24:29.765
+where people share the text, images
+
+403
+00:24:29.985 --> 00:24:33.525
+and links in order to pre freely accessible
+
+404
+00:24:33.665 --> 00:24:34.885
+and read by others.
+
+405
+00:24:35.305 --> 00:24:37.925
+So this idea of sharing online.
+
+406
+00:24:38.825 --> 00:24:39.845
+So the idea
+
+407
+00:24:39.845 --> 00:24:43.445
+of openness has since then become an umbrella concept
+
+408
+00:24:44.315 --> 00:24:47.485
+referring to increased accessibility of knowledge,
+
+409
+00:24:47.775 --> 00:24:49.725
+technology and other resources.
+
+410
+00:24:49.785 --> 00:24:54.085
+But also it came to signify, uh, a different approach
+
+411
+00:24:54.305 --> 00:24:56.605
+to the production of knowledge itself.
+
+412
+00:24:57.465 --> 00:25:01.485
+So pushing us to reflect on the transparency of action
+
+413
+00:25:02.705 --> 00:25:06.005
+of any organization, recognizing that
+
+414
+00:25:06.005 --> 00:25:09.965
+to foster the diversity of contributions, it was necessary
+
+415
+00:25:10.465 --> 00:25:13.885
+to reach a high permeability of structures, how
+
+416
+00:25:13.885 --> 00:25:17.965
+to take decision in which way decision are taken within a,
+
+417
+00:25:18.505 --> 00:25:19.565
+uh, institution.
+
+418
+00:25:20.225 --> 00:25:23.725
+So the political implication of this new environment started
+
+419
+00:25:23.785 --> 00:25:26.725
+to be discussed within the hacker counterculture,
+
+420
+00:25:27.425 --> 00:25:30.765
+and it happened since the mid eighties, right,
+
+421
+00:25:30.765 --> 00:25:32.085
+where the ideas of free
+
+422
+00:25:32.085 --> 00:25:35.725
+and open source software drove most
+
+423
+00:25:35.725 --> 00:25:37.605
+of the material infrastructures
+
+424
+00:25:37.715 --> 00:25:41.485
+that turned the internet into a worldwide medium.
+
+425
+00:25:41.745 --> 00:25:44.085
+So the first concept of openness,
+
+426
+00:25:44.185 --> 00:25:46.245
+and it was about free software.
+
+427
+00:25:47.155 --> 00:25:48.975
+And so, uh, actually,
+
+428
+00:25:48.975 --> 00:25:52.015
+Richard Stahlman within the Free Software Foundation
+
+429
+00:25:52.375 --> 00:25:56.455
+invented and popularized the concept of copy left
+
+430
+00:25:57.235 --> 00:26:00.575
+and the, um, uh, that is a legal mechanism
+
+431
+00:26:00.915 --> 00:26:03.015
+to protect the modification.
+
+432
+00:26:03.315 --> 00:26:06.735
+And there is distribution rights for free software.
+
+433
+00:26:07.115 --> 00:26:09.175
+So he start, he studied at Harvard
+
+434
+00:26:09.715 --> 00:26:12.575
+and then became a programmer at MIT
+
+435
+00:26:13.125 --> 00:26:15.175
+joining the Hacker debate,
+
+436
+00:26:15.265 --> 00:26:18.255
+especially clarifying the meaning of the world.
+
+437
+00:26:18.485 --> 00:26:21.735
+Free. Thus, free software is a matter
+
+438
+00:26:21.795 --> 00:26:23.695
+of liberty and not price.
+
+439
+00:26:24.035 --> 00:26:25.215
+It is not just a, it is not
+
+440
+00:26:25.215 --> 00:26:27.255
+that you just download free software,
+
+441
+00:26:27.755 --> 00:26:32.215
+but the, the, the, the liberty within the concept of free
+
+442
+00:26:33.115 --> 00:26:36.735
+is more similar to the idea of free speech,
+
+443
+00:26:37.435 --> 00:26:38.615
+not as free beer.
+
+444
+00:26:39.435 --> 00:26:42.415
+So we sometimes called it Libre software.
+
+445
+00:26:42.555 --> 00:26:47.485
+Taking the word Libre from French and uh, uh,
+
+446
+00:26:48.305 --> 00:26:52.965
+and also free is a kind of freedom to show
+
+447
+00:26:53.195 --> 00:26:57.805
+that we do not mean the software is gratis is for free.
+
+448
+00:26:58.385 --> 00:27:02.765
+So the ambiguity of the term free anyhow generated
+
+449
+00:27:03.325 --> 00:27:04.965
+a lot of misunderstandings
+
+450
+00:27:05.385 --> 00:27:09.005
+and many coders chose to use an alternative
+
+451
+00:27:09.595 --> 00:27:10.925
+that is open source
+
+452
+00:27:11.275 --> 00:27:15.925
+because that became a more widespread, widespread, um,
+
+453
+00:27:16.505 --> 00:27:18.565
+and less political option,
+
+454
+00:27:18.575 --> 00:27:20.565
+especially in the commercial field,
+
+455
+00:27:21.275 --> 00:27:24.725
+even if it shares many practical features
+
+456
+00:27:25.595 --> 00:27:26.645
+with free software.
+
+457
+00:27:26.785 --> 00:27:29.165
+It focuses more on the technical issues
+
+458
+00:27:29.185 --> 00:27:30.645
+of software development
+
+459
+00:27:31.265 --> 00:27:34.925
+and also avoiding themes around user freedom and and ethics.
+
+460
+00:27:35.425 --> 00:27:40.085
+So this, this concept than gave the opportunity
+
+461
+00:27:40.265 --> 00:27:44.365
+to create new licenses to share
+
+462
+00:27:44.885 --> 00:27:47.405
+a piece of code that you can share online.
+
+463
+00:27:49.065 --> 00:27:52.845
+So he, he, this is a table that you can find online.
+
+464
+00:27:53.745 --> 00:27:56.325
+So free is a matter of liberty, not price.
+
+465
+00:27:56.635 --> 00:28:00.605
+Open doesn't mean access to the source code free refers
+
+466
+00:28:00.605 --> 00:28:03.925
+to price, while freedom of the use is restricted by creator.
+
+467
+00:28:04.065 --> 00:28:06.405
+So there are different type of licenses
+
+468
+00:28:06.715 --> 00:28:08.165
+that you can explore.
+
+469
+00:28:08.545 --> 00:28:13.365
+And the most open one is, is the public domain software
+
+470
+00:28:14.475 --> 00:28:17.765
+that is belongs to the public as a whole,
+
+471
+00:28:18.745 --> 00:28:21.485
+and it doesn't have any copyright law.
+
+472
+00:28:22.825 --> 00:28:26.685
+But also we have a new type of licenses
+
+473
+00:28:26.875 --> 00:28:31.445
+that are referring to a different type of content on data.
+
+474
+00:28:32.025 --> 00:28:35.445
+So if we take a, if we don't talk about
+
+475
+00:28:36.485 --> 00:28:39.765
+software anymore, but we want to deal with content
+
+476
+00:28:41.025 --> 00:28:44.725
+and it's pictures, any content related to creativity
+
+477
+00:28:44.905 --> 00:28:49.405
+and covered by copyright or data, but also design.
+
+478
+00:28:49.585 --> 00:28:52.925
+So we have more restrictive and
+
+479
+00:28:53.065 --> 00:28:55.765
+or less re restrictive licensees
+
+480
+00:28:55.765 --> 00:28:59.765
+that you can choose when you want to share your,
+
+481
+00:29:00.145 --> 00:29:01.485
+um, idea.
+
+482
+00:29:01.595 --> 00:29:04.845
+Your design in fashion
+
+483
+00:29:05.525 --> 00:29:07.125
+actually is a bit different
+
+484
+00:29:07.125 --> 00:29:11.205
+because the pattern of fashion are not covered by copyright,
+
+485
+00:29:12.345 --> 00:29:15.205
+uh, because it is, uh,
+
+486
+00:29:15.235 --> 00:29:17.645
+serving purely a functional and purpose.
+
+487
+00:29:18.575 --> 00:29:19.925
+While the laws
+
+488
+00:29:20.745 --> 00:29:24.125
+is different in different country, it changes a lot.
+
+489
+00:29:24.225 --> 00:29:27.765
+So if you want to go into that, you can follow this link
+
+490
+00:29:27.945 --> 00:29:30.765
+and explore if you're very interested.
+
+491
+00:29:31.335 --> 00:29:33.325
+There are some kind of best practices.
+
+492
+00:29:34.185 --> 00:29:37.475
+And in, uh,
+
+493
+00:29:38.905 --> 00:29:40.915
+ideally, so the idea
+
+494
+00:29:42.145 --> 00:29:46.125
+of intellectual properties in the fashion industry actually
+
+495
+00:29:47.025 --> 00:29:50.725
+is not used, not just because it is utilitarian, but also
+
+496
+00:29:50.725 --> 00:29:55.685
+because registering something is takes too
+
+497
+00:29:55.795 --> 00:29:57.965
+slow, is too slow for fashion,
+
+498
+00:29:58.755 --> 00:30:01.405
+because you have a lot of production
+
+499
+00:30:01.405 --> 00:30:03.005
+that happens every six months.
+
+500
+00:30:03.865 --> 00:30:08.045
+And, uh, so it doesn't keep up with the shortlived trends
+
+501
+00:30:08.345 --> 00:30:09.765
+of the seasonal collection.
+
+502
+00:30:10.465 --> 00:30:14.325
+And so what brand use usually is the trademark.
+
+503
+00:30:14.945 --> 00:30:19.405
+And so when you put a trademark on something, it becomes,
+
+504
+00:30:19.865 --> 00:30:23.285
+uh, covered by a type of intellectual property
+
+505
+00:30:23.875 --> 00:30:27.885
+that is helpful not to let the,
+
+506
+00:30:28.945 --> 00:30:33.325
+the consumer be confused about who is producing that object.
+
+507
+00:30:35.375 --> 00:30:40.035
+Um, the, in 2011, this book
+
+508
+00:30:40.665 --> 00:30:45.595
+that is called Open Design now, was published in,
+
+509
+00:30:45.615 --> 00:30:49.155
+um, in, uh, hall the Land in the Netherlands,
+
+510
+00:30:49.815 --> 00:30:53.395
+and also is still a nice resource if you want
+
+511
+00:30:53.395 --> 00:30:58.075
+to explore in which way designer were thinking
+
+512
+00:30:58.135 --> 00:31:02.195
+to create new business model related to releasing
+
+513
+00:31:02.805 --> 00:31:04.795
+blueprints of objects,
+
+514
+00:31:05.215 --> 00:31:09.435
+or that could be fashion, that could be, uh, furniture
+
+515
+00:31:09.455 --> 00:31:12.515
+or anything under some kind of license,
+
+516
+00:31:12.885 --> 00:31:14.075
+given the possibility
+
+517
+00:31:14.375 --> 00:31:19.155
+and the freedom to others to digitally, um, modify
+
+518
+00:31:19.735 --> 00:31:23.995
+and locally produce these, um, type of objects.
+
+519
+00:31:25.475 --> 00:31:30.075
+So, um, from the idea of openness, uh,
+
+520
+00:31:30.095 --> 00:31:33.475
+we moved also in this idea of the commons
+
+521
+00:31:33.985 --> 00:31:38.555
+because this idea of openness we,
+
+522
+00:31:38.585 --> 00:31:42.395
+that we talked about until now is really related to digital,
+
+523
+00:31:44.105 --> 00:31:47.765
+to digital objects, something that you can share online.
+
+524
+00:31:48.265 --> 00:31:51.965
+But when you move to digital fabrication, when you move
+
+525
+00:31:52.265 --> 00:31:56.285
+to something that you make physically, uh,
+
+526
+00:31:56.315 --> 00:32:01.285
+something has to change, something has to, uh, be,
+
+527
+00:32:01.505 --> 00:32:03.605
+um, reflected upon.
+
+528
+00:32:04.265 --> 00:32:07.925
+So actually, digital fabrication became very widespread,
+
+529
+00:32:08.575 --> 00:32:12.645
+especially for the, uh, the creation
+
+530
+00:32:12.665 --> 00:32:13.925
+of two main tools.
+
+531
+00:32:14.185 --> 00:32:18.685
+One is the Arno controllers, the Arduino controllers
+
+532
+00:32:18.685 --> 00:32:20.325
+that were very easy to use
+
+533
+00:32:20.385 --> 00:32:24.805
+and accessible in price were used inside
+
+534
+00:32:25.315 --> 00:32:29.045
+many other machine, like for example, 3D printers.
+
+535
+00:32:30.545 --> 00:32:33.125
+And there were also on the base of this
+
+536
+00:32:33.185 --> 00:32:36.565
+and the creation of this new objects, a lot
+
+537
+00:32:36.565 --> 00:32:38.125
+of new communities came up.
+
+538
+00:32:38.305 --> 00:32:40.245
+So the idea of makerspace
+
+539
+00:32:40.425 --> 00:32:45.045
+and FabLab, we had make magazine and maker fairs happening,
+
+540
+00:32:45.785 --> 00:32:49.645
+and then, uh, fab, uh, uh,
+
+541
+00:32:50.345 --> 00:32:52.005
+fab academy and, and, and,
+
+542
+00:32:52.065 --> 00:32:54.845
+and, uh, fab conferences happening,
+
+543
+00:32:55.865 --> 00:33:00.835
+but all started, especially with the
+
+544
+00:33:01.345 --> 00:33:05.595
+beginning and the, uh, becoming accessible
+
+545
+00:33:05.695 --> 00:33:07.115
+of 3D printing technology.
+
+546
+00:33:07.695 --> 00:33:11.435
+So the wrap wrap project was, I would say it's the mother
+
+547
+00:33:11.575 --> 00:33:14.755
+of all the 3D printers, rep wrap,
+
+548
+00:33:14.755 --> 00:33:17.875
+meaning replicating rapid prototyping
+
+549
+00:33:18.585 --> 00:33:22.355
+because it was an initiative that,
+
+550
+00:33:23.655 --> 00:33:28.315
+uh, could print 80%
+
+551
+00:33:28.615 --> 00:33:32.435
+of the pieces that you could use to make a new machine.
+
+552
+00:33:33.055 --> 00:33:37.915
+So you actually had the parent, um, 3D printer
+
+553
+00:33:38.135 --> 00:33:39.955
+and the child 3D printer,
+
+554
+00:33:40.415 --> 00:33:44.955
+and it was running on Arduino, the family tree from this,
+
+555
+00:33:45.255 --> 00:33:47.795
+you can find it on Wikipedia or,
+
+556
+00:33:47.895 --> 00:33:50.755
+or some other wiki that you can find.
+
+557
+00:33:51.025 --> 00:33:55.715
+From this first example of documentation
+
+558
+00:33:56.055 --> 00:34:00.515
+of this machine released online, a lot
+
+559
+00:34:00.535 --> 00:34:04.075
+of all the machines started to replicate.
+
+560
+00:34:04.175 --> 00:34:07.315
+And so you can see the timeline from 2006
+
+561
+00:34:07.935 --> 00:34:09.715
+to 2011.
+
+562
+00:34:09.935 --> 00:34:11.395
+Of course, we had other 10 years,
+
+563
+00:34:11.735 --> 00:34:16.315
+but I just to say that these were the first 3D printer
+
+564
+00:34:16.425 --> 00:34:19.305
+that managed to be created,
+
+565
+00:34:19.685 --> 00:34:24.425
+and not all of them were just documentation on,
+
+566
+00:34:24.605 --> 00:34:29.345
+on internet, but they became businesses that would sell,
+
+567
+00:34:30.125 --> 00:34:33.865
+uh, kits that you could buy online and,
+
+568
+00:34:34.085 --> 00:34:38.345
+and with instruction to create your own 3D printer.
+
+569
+00:34:39.005 --> 00:34:43.475
+So, uh, in the same years,
+
+570
+00:34:44.045 --> 00:34:48.955
+there is this other thinker that is called yo, um, UI Bank.
+
+571
+00:34:50.015 --> 00:34:52.875
+Uh, he wrote the Wealth of Network,
+
+572
+00:34:53.375 --> 00:34:57.715
+and this professor, he created this term common based
+
+573
+00:34:58.265 --> 00:35:02.515
+peer production to describe wherever and
+
+574
+00:35:02.835 --> 00:35:05.195
+whenever people freely associate
+
+575
+00:35:05.455 --> 00:35:08.715
+and create digital commons together,
+
+576
+00:35:09.365 --> 00:35:13.555
+which then become shared resources that are maintained
+
+577
+00:35:13.895 --> 00:35:16.715
+by a community or a group of stakeholders
+
+578
+00:35:17.185 --> 00:35:19.595
+through their own rules and norms.
+
+579
+00:35:20.455 --> 00:35:23.875
+The peer aspect refers to the level of openness,
+
+580
+00:35:24.055 --> 00:35:26.555
+or rather the capacity of people
+
+581
+00:35:27.055 --> 00:35:31.955
+to join these open networks of value creation without asking
+
+582
+00:35:32.815 --> 00:35:34.355
+for formal permission.
+
+583
+00:35:34.895 --> 00:35:38.445
+So this idea of sharing all the knowledge,
+
+584
+00:35:38.585 --> 00:35:40.365
+no one ask you who are you?
+
+585
+00:35:40.745 --> 00:35:44.205
+Are you a designer? Are you an engineer? No, anyone.
+
+586
+00:35:44.545 --> 00:35:45.725
+You could be in your home.
+
+587
+00:35:45.825 --> 00:35:49.365
+You could be a student, you can download all the
+
+588
+00:35:49.605 --> 00:35:52.565
+documentation and you can replicate your own 3D printer.
+
+589
+00:35:53.705 --> 00:35:56.805
+You have any issue, you write on the forum,
+
+590
+00:35:57.065 --> 00:35:59.085
+you join a community, no one,
+
+591
+00:35:59.185 --> 00:36:00.525
+you don't need to ask permission.
+
+592
+00:36:01.425 --> 00:36:06.205
+So, and in, in this, in this idea
+
+593
+00:36:08.265 --> 00:36:12.085
+of not asking for permission, it means also that you can
+
+594
+00:36:12.795 --> 00:36:17.725
+also create, um, you can create some kind of economy.
+
+595
+00:36:18.665 --> 00:36:20.765
+And in fact, that the peer-to-peer foundation,
+
+596
+00:36:20.765 --> 00:36:23.285
+that is another, uh, nonprofit organization
+
+597
+00:36:23.745 --> 00:36:28.365
+and global network that is dedicated to the, this idea
+
+598
+00:36:28.465 --> 00:36:33.005
+of common oriented, uh, manufacturing production
+
+599
+00:36:33.145 --> 00:36:34.165
+or solutions.
+
+600
+00:36:35.235 --> 00:36:37.725
+They wrote, we believe that a new type
+
+601
+00:36:37.785 --> 00:36:41.925
+of economy will be evolving whereby open design are combined
+
+602
+00:36:42.035 --> 00:36:45.685
+with distributed physical production, the capability
+
+603
+00:36:45.865 --> 00:36:48.485
+by individuals, designers to produce design,
+
+604
+00:36:48.635 --> 00:36:51.845
+have them produced by 3D printers in a physical format
+
+605
+00:36:52.745 --> 00:36:54.165
+and with access to local
+
+606
+00:36:54.265 --> 00:36:56.685
+or distributor labor for producing them.
+
+607
+00:36:57.065 --> 00:37:01.965
+So somehow a new economy came out
+
+608
+00:37:02.345 --> 00:37:04.565
+of this, a new economy
+
+609
+00:37:04.755 --> 00:37:07.725
+that is based on open design principle.
+
+610
+00:37:08.825 --> 00:37:12.165
+So there there's been, uh, a reflection
+
+611
+00:37:12.425 --> 00:37:16.165
+of coming up with a open design definition.
+
+612
+00:37:16.665 --> 00:37:19.965
+So open design is a design artifact
+
+613
+00:37:20.735 --> 00:37:25.005
+whose documentation is publicly available, uh,
+
+614
+00:37:25.345 --> 00:37:29.745
+but also, uh, is not just that.
+
+615
+00:37:29.765 --> 00:37:33.905
+It is not just that you publish the file, it's not enough,
+
+616
+00:37:34.765 --> 00:37:39.025
+but it, it should be made or it should be created.
+
+617
+00:37:39.845 --> 00:37:44.225
+You should create it using readily available components
+
+618
+00:37:44.285 --> 00:37:48.905
+and materials, standard processes, open infrastructures
+
+619
+00:37:49.365 --> 00:37:50.545
+and restrict content
+
+620
+00:37:51.205 --> 00:37:54.425
+and open source digital tool to maximize the ability
+
+621
+00:37:54.445 --> 00:37:57.145
+of individuals to make and use hardware.
+
+622
+00:37:57.525 --> 00:38:02.025
+So right now, one of the platform that is really pushing
+
+623
+00:38:02.285 --> 00:38:06.345
+to make this happen and create an event around this
+
+624
+00:38:06.405 --> 00:38:10.505
+and is the distributed design project in
+
+625
+00:38:10.505 --> 00:38:11.785
+where they're publishing
+
+626
+00:38:12.085 --> 00:38:15.065
+and understanding in which way there is, uh,
+
+627
+00:38:15.475 --> 00:38:19.585
+there should be an ecosystem to make this, um,
+
+628
+00:38:20.765 --> 00:38:23.665
+um, new world of objects happen.
+
+629
+00:38:24.055 --> 00:38:27.845
+Because let's remember these things,
+
+630
+00:38:28.595 --> 00:38:33.245
+this type, this new ecosystem don't happen if you work
+
+631
+00:38:33.455 --> 00:38:36.885
+alone, don't happen if you just stay in your home
+
+632
+00:38:37.025 --> 00:38:39.045
+and you just do your things.
+
+633
+00:38:39.395 --> 00:38:42.885
+It's really important to network with peers, to network
+
+634
+00:38:43.035 --> 00:38:45.285
+with other people like you
+
+635
+00:38:45.705 --> 00:38:49.205
+and to share infrastructure, to share knowledge.
+
+636
+00:38:50.225 --> 00:38:53.085
+And, and in 2005, um,
+
+637
+00:38:53.615 --> 00:38:58.285
+after all these, let's say years of thinking about openness,
+
+638
+00:38:58.985 --> 00:39:00.405
+we have this idea
+
+639
+00:39:00.625 --> 00:39:05.485
+and the, the explosion in the good sense of, uh,
+
+640
+00:39:05.805 --> 00:39:08.605
+makerspace and FabLab in a global network.
+
+641
+00:39:09.625 --> 00:39:13.085
+And the idea of digital fabrication
+
+642
+00:39:13.835 --> 00:39:18.485
+move from being just, you have an input design, uh,
+
+643
+00:39:19.565 --> 00:39:21.565
+a file, you share the file,
+
+644
+00:39:21.705 --> 00:39:23.525
+and then you put it in a 3D printer,
+
+645
+00:39:23.705 --> 00:39:27.245
+and you have your object in some type
+
+646
+00:39:27.245 --> 00:39:32.165
+of interactive fabrication in which the designer is not the
+
+647
+00:39:32.165 --> 00:39:34.445
+person that creates the objects,
+
+648
+00:39:34.825 --> 00:39:36.845
+but the designer, it is the person
+
+649
+00:39:36.995 --> 00:39:40.205
+that creates an interface, a framework
+
+650
+00:39:40.705 --> 00:39:45.685
+of a parametric design that can be modified by the user
+
+651
+00:39:46.865 --> 00:39:50.445
+to reach the, the ability
+
+652
+00:39:50.825 --> 00:39:54.565
+of the object in term of small changes.
+
+653
+00:39:55.705 --> 00:39:59.585
+And after that, you can click a button
+
+654
+00:39:59.885 --> 00:40:04.105
+and order the object through that type
+
+655
+00:40:04.125 --> 00:40:07.505
+of fabricated object that is customized and personalized.
+
+656
+00:40:09.085 --> 00:40:12.865
+Uh, and the, this interactive fabrication somehow
+
+657
+00:40:13.485 --> 00:40:17.425
+is the one that has been, uh, has been
+
+658
+00:40:18.255 --> 00:40:21.105
+celebrating a lot of change
+
+659
+00:40:21.165 --> 00:40:26.065
+and a lot of in interesting projects
+
+660
+00:40:26.165 --> 00:40:30.465
+around it just to frame this, uh,
+
+661
+00:40:30.985 --> 00:40:33.745
+envision this approach in a, in a,
+
+662
+00:40:33.765 --> 00:40:35.225
+in a longer period of time.
+
+663
+00:40:35.725 --> 00:40:37.265
+If we think of manufacturing
+
+664
+00:40:37.525 --> 00:40:42.305
+and production from the pre, uh, pre-industrial
+
+665
+00:40:43.185 --> 00:40:47.345
+revolution in which we had local workshop in which
+
+666
+00:40:48.045 --> 00:40:49.345
+you had craft
+
+667
+00:40:49.765 --> 00:40:52.385
+and craft lab creating objects,
+
+668
+00:40:53.765 --> 00:40:57.265
+we move into the centralized
+
+669
+00:40:58.165 --> 00:40:59.705
+on the first industrial revolution,
+
+670
+00:41:00.165 --> 00:41:01.905
+the second industrial revolution,
+
+671
+00:41:02.485 --> 00:41:04.705
+the third industrial revolution in which
+
+672
+00:41:05.405 --> 00:41:08.465
+all the production is still very centralized.
+
+673
+00:41:09.015 --> 00:41:12.865
+What it changes is the capacity of,
+
+674
+00:41:14.445 --> 00:41:19.265
+uh, not wasting too much time in setting up
+
+675
+00:41:20.005 --> 00:41:23.985
+the, the, the production.
+
+676
+00:41:25.005 --> 00:41:28.545
+And, uh, you move you
+
+677
+00:41:28.965 --> 00:41:31.865
+and you have a low cost of the products, and you have,
+
+678
+00:41:31.865 --> 00:41:33.205
+but you have high number
+
+679
+00:41:33.865 --> 00:41:35.925
+and you can really control
+
+680
+00:41:36.505 --> 00:41:39.245
+the production also depending on
+
+681
+00:41:39.245 --> 00:41:42.885
+what the consumer is consuming in at the end
+
+682
+00:41:42.885 --> 00:41:46.945
+of the supply chain, but is still linear
+
+683
+00:41:48.155 --> 00:41:52.275
+and is also, uh, not
+
+684
+00:41:53.065 --> 00:41:57.195
+very fitted on the final user.
+
+685
+00:41:58.815 --> 00:42:00.905
+What we like about the new situation
+
+686
+00:42:00.925 --> 00:42:04.225
+and what we see as an opportunity is the first industrial
+
+687
+00:42:04.585 --> 00:42:08.705
+revolution because you can have local factory that,
+
+688
+00:42:09.055 --> 00:42:13.465
+that are very high, uh, high um, technology.
+
+689
+00:42:14.375 --> 00:42:17.145
+They, they can contain high technology like robots,
+
+690
+00:42:17.485 --> 00:42:20.145
+but the setup cost is not super high.
+
+691
+00:42:21.405 --> 00:42:24.505
+And you can create many type of products
+
+692
+00:42:25.255 --> 00:42:28.365
+that can be mask customized and,
+
+693
+00:42:28.625 --> 00:42:33.565
+and is especially, um, focused
+
+694
+00:42:34.025 --> 00:42:37.965
+and managed through open design and data led design.
+
+695
+00:42:40.265 --> 00:42:44.745
+Um, of course, when we make objects,
+
+696
+00:42:45.005 --> 00:42:47.145
+it means that we need to use materials
+
+697
+00:42:47.805 --> 00:42:51.545
+and which type of materials should we, shall we use,
+
+698
+00:42:51.965 --> 00:42:54.025
+is not something that we cannot think about.
+
+699
+00:42:54.925 --> 00:42:57.625
+And one of the objectives
+
+700
+00:42:57.625 --> 00:43:01.065
+of the fab city globalist initiative is also
+
+701
+00:43:01.085 --> 00:43:05.945
+to understand in which way our cities could become
+
+702
+00:43:07.205 --> 00:43:10.345
+places in which we can produce
+
+703
+00:43:11.405 --> 00:43:14.545
+almost everything that we, that we consume locally,
+
+704
+00:43:15.565 --> 00:43:17.025
+of course, is not something
+
+705
+00:43:17.025 --> 00:43:19.665
+that we can create in like 10 years,
+
+706
+00:43:20.045 --> 00:43:22.425
+but it's something that it will take some years.
+
+707
+00:43:23.205 --> 00:43:25.905
+But the idea is that we can
+
+708
+00:43:28.515 --> 00:43:29.865
+share globally
+
+709
+00:43:30.325 --> 00:43:34.745
+and produce locally taking the resources of materials
+
+710
+00:43:34.815 --> 00:43:36.505
+that we can find locally
+
+711
+00:43:38.045 --> 00:43:42.945
+and find ways to reuse what could be considered waste.
+
+712
+00:43:43.245 --> 00:43:46.945
+And here we go back, of course, you don't,
+
+713
+00:43:47.085 --> 00:43:49.345
+you shouldn't think just of the city,
+
+714
+00:43:49.605 --> 00:43:51.745
+but for example, the project that I told you about,
+
+715
+00:43:51.835 --> 00:43:55.025
+about the wool, this is, this is something that I'm trying
+
+716
+00:43:55.025 --> 00:43:58.465
+to apply in a rural area in which we have,
+
+717
+00:43:58.465 --> 00:44:00.225
+there is a resource that is a material,
+
+718
+00:44:00.605 --> 00:44:04.625
+and we could use digital fabrication to create locally
+
+719
+00:44:05.215 --> 00:44:07.905
+product that can be consumed by local people,
+
+720
+00:44:09.575 --> 00:44:11.785
+because now it's really important
+
+721
+00:44:11.925 --> 00:44:14.225
+to think about the supply chain.
+
+722
+00:44:15.285 --> 00:44:20.265
+We cannot make something that is sustainable if we don't
+
+723
+00:44:21.575 --> 00:44:24.465
+reflect upon the supply chain and this supply chain.
+
+724
+00:44:24.605 --> 00:44:29.295
+Of course, we know that circularity is a kind of,
+
+725
+00:44:29.565 --> 00:44:33.245
+also, we have a lot of greenwashing in that we know
+
+726
+00:44:33.245 --> 00:44:35.885
+that most of the plastic cannot be recyclable.
+
+727
+00:44:36.745 --> 00:44:38.205
+Uh, I'm not going into that,
+
+728
+00:44:38.385 --> 00:44:42.205
+but it is really important to focus on the material
+
+729
+00:44:42.205 --> 00:44:46.485
+that you use and what are the marketplace
+
+730
+00:44:46.585 --> 00:44:49.705
+of this new type of products.
+
+731
+00:44:50.365 --> 00:44:52.305
+The new products that are based on openness
+
+732
+00:44:52.325 --> 00:44:53.425
+and micro factories.
+
+733
+00:44:54.455 --> 00:44:57.225
+It's what we call the long tail model
+
+734
+00:44:57.415 --> 00:45:00.625
+that can help you understand how to position our products.
+
+735
+00:45:01.605 --> 00:45:05.595
+So if we consider the niche products, the one
+
+736
+00:45:05.595 --> 00:45:09.195
+that are luxury, high-end with, um,
+
+737
+00:45:10.105 --> 00:45:14.955
+with many, uh, also like craftsmen making it,
+
+738
+00:45:15.385 --> 00:45:19.795
+that if they are made by high,
+
+739
+00:45:21.085 --> 00:45:24.425
+uh, mainstream brand are highly products,
+
+740
+00:45:24.565 --> 00:45:28.735
+but made in niche products,
+
+741
+00:45:29.075 --> 00:45:33.695
+we can position ourself in this sort of kind of popular
+
+742
+00:45:34.275 --> 00:45:39.235
+in which there are unique products that are created
+
+743
+00:45:39.375 --> 00:45:43.755
+and customizable locally, in which there are many type
+
+744
+00:45:43.755 --> 00:45:46.795
+of products that can be created on demand
+
+745
+00:45:47.175 --> 00:45:48.635
+on specific territories.
+
+746
+00:45:50.535 --> 00:45:55.475
+Um, so some example, uh,
+
+747
+00:45:56.335 --> 00:46:00.475
+one of, I mean, this project is, is not, uh,
+
+748
+00:46:00.855 --> 00:46:04.475
+is is not working anymore, but it's still a nice example.
+
+749
+00:46:05.035 --> 00:46:08.675
+I mean, it is 10 years. Uh, I liked their approach.
+
+750
+00:46:08.775 --> 00:46:11.915
+And so I give you, I give you this an, an example,
+
+751
+00:46:12.055 --> 00:46:14.875
+but it's also understand is under, is nice
+
+752
+00:46:14.875 --> 00:46:16.995
+to understand why it does it didn't work.
+
+753
+00:46:18.745 --> 00:46:22.445
+Uh, so, uh, they shared, um,
+
+754
+00:46:22.935 --> 00:46:26.765
+laser cut, um, designs in
+
+755
+00:46:26.795 --> 00:46:31.365
+that could be produced in, um, in local maker spaces.
+
+756
+00:46:31.505 --> 00:46:33.885
+So they create also network of maker spaces
+
+757
+00:46:33.955 --> 00:46:36.725
+that could produce these, uh, garments.
+
+758
+00:46:37.985 --> 00:46:41.805
+Um, another project that is interesting that you can look
+
+759
+00:46:41.925 --> 00:46:43.765
+through is the open footwear.
+
+760
+00:46:44.825 --> 00:46:46.925
+Uh, I, I'm recently,
+
+761
+00:46:48.185 --> 00:46:50.605
+I'm recently using barefoot shoes,
+
+762
+00:46:50.865 --> 00:46:54.725
+and so I'm really curious to try this new approach to
+
+763
+00:46:56.165 --> 00:46:59.485
+barefoot also here it's a shoe
+
+764
+00:46:59.485 --> 00:47:01.565
+that you can make in a makerspace.
+
+765
+00:47:03.905 --> 00:47:07.725
+Um, then we have Atak that is, uh,
+
+766
+00:47:08.405 --> 00:47:12.205
+a project in which they created an area
+
+767
+00:47:12.425 --> 00:47:15.725
+of the website that is called Shareware
+
+768
+00:47:16.275 --> 00:47:20.925
+that you can explore and they made,
+
+769
+00:47:20.945 --> 00:47:25.325
+and they're sharing some nice pattern
+
+770
+00:47:25.555 --> 00:47:26.645
+that you can download.
+
+771
+00:47:27.505 --> 00:47:30.365
+You can give like, uh, some contribution,
+
+772
+00:47:30.385 --> 00:47:32.325
+but also you can download them for free.
+
+773
+00:47:33.325 --> 00:47:35.695
+They suggest a price, but you can download it for free
+
+774
+00:47:36.035 --> 00:47:39.175
+and it's nice to, uh, as a starting point
+
+775
+00:47:39.195 --> 00:47:42.255
+to explore open source pattern.
+
+776
+00:47:42.385 --> 00:47:46.695
+There is also, this is a 3D camo is a hoodie in which
+
+777
+00:47:47.315 --> 00:47:50.015
+you buy a construction kit
+
+778
+00:47:50.315 --> 00:47:54.415
+and you can, um, compose
+
+779
+00:47:54.475 --> 00:47:58.095
+and assemble your hoodie at home
+
+780
+00:47:58.875 --> 00:48:01.615
+and is losing, is using interlocking
+
+781
+00:48:02.355 --> 00:48:04.935
+as you will do in this exercise of this week.
+
+782
+00:48:06.475 --> 00:48:10.975
+But what I like about attack C price model is that
+
+783
+00:48:12.285 --> 00:48:16.655
+they have an increasing price in, in the sense that you,
+
+784
+00:48:16.675 --> 00:48:19.775
+if you pre-order, you pay, uh,
+
+785
+00:48:19.785 --> 00:48:21.775
+66% of the price.
+
+786
+00:48:22.195 --> 00:48:26.255
+If it's in production, it then the, it goes on.
+
+787
+00:48:26.835 --> 00:48:28.775
+And this stock, if it's in stock.
+
+788
+00:48:29.195 --> 00:48:31.095
+So that means if you already order,
+
+789
+00:48:32.435 --> 00:48:35.015
+if they already produce the object,
+
+790
+00:48:35.475 --> 00:48:38.495
+you're gonna pay the a hundred percent of price because,
+
+791
+00:48:38.995 --> 00:48:43.055
+and this is a nice idea to really think also
+
+792
+00:48:43.195 --> 00:48:46.855
+of the production, uh, ways, the,
+
+793
+00:48:47.955 --> 00:48:52.465
+the ways in which on demand production can happen
+
+794
+00:48:52.765 --> 00:48:54.105
+on short, uh,
+
+795
+00:48:54.925 --> 00:48:59.545
+or small batches of, um, production can be, can be used
+
+796
+00:48:59.545 --> 00:49:01.785
+that are interesting, uh,
+
+797
+00:49:01.985 --> 00:49:05.225
+because we come from a world in which
+
+798
+00:49:06.045 --> 00:49:08.265
+the price is fixed.
+
+799
+00:49:09.315 --> 00:49:10.855
+But somehow I think
+
+800
+00:49:10.855 --> 00:49:15.015
+that right now we are in a moment in which it's important
+
+801
+00:49:16.035 --> 00:49:20.935
+to really, um, let's say benefit people
+
+802
+00:49:21.325 --> 00:49:25.775
+that are bringing some support to the project.
+
+803
+00:49:27.075 --> 00:49:29.375
+And bringing some support means, uh,
+
+804
+00:49:29.375 --> 00:49:32.815
+having faith on something and pre-ordering
+
+805
+00:49:33.155 --> 00:49:35.615
+and being transparent also with the price,
+
+806
+00:49:36.005 --> 00:49:40.455
+showing people in which way we are, uh, in which way we are,
+
+807
+00:49:40.995 --> 00:49:43.495
+um, composing the price
+
+808
+00:49:43.515 --> 00:49:46.345
+of the object that we sell.
+
+809
+00:49:48.145 --> 00:49:51.645
+Um, going back to the materials,
+
+810
+00:49:54.775 --> 00:49:59.145
+it's, uh, thanks also to the new rules by European Union.
+
+811
+00:49:59.405 --> 00:50:01.665
+Of course here we, I'm talking about European Union
+
+812
+00:50:02.135 --> 00:50:03.705
+because that's where I live.
+
+813
+00:50:04.125 --> 00:50:08.025
+And, and there are new, a lot of new norms
+
+814
+00:50:08.415 --> 00:50:09.785
+regarding sustainability.
+
+815
+00:50:10.325 --> 00:50:15.145
+And now brands cannot throw away or burn leftovers.
+
+816
+00:50:16.925 --> 00:50:18.765
+So a lot
+
+817
+00:50:18.925 --> 00:50:23.605
+of new shops online are happening in which you can find
+
+818
+00:50:25.665 --> 00:50:27.605
+leftovers of textiles.
+
+819
+00:50:28.365 --> 00:50:31.135
+This non project is, um,
+
+820
+00:50:32.135 --> 00:50:36.615
+a big conglomerate of fashion, uh, um,
+
+821
+00:50:38.545 --> 00:50:40.725
+oh, let's say
+
+822
+00:50:41.605 --> 00:50:45.685
+platform in which they sell the leftovers of their textile.
+
+823
+00:50:46.065 --> 00:50:49.045
+So it's really high quality good,
+
+824
+00:50:49.185 --> 00:50:53.785
+and it cost, uh, a fraction compared
+
+825
+00:50:53.805 --> 00:50:55.105
+to buying it directly.
+
+826
+00:50:56.325 --> 00:50:59.105
+And this is the opportunity that new designers,
+
+827
+00:50:59.105 --> 00:51:03.985
+contemporary designers can have to reach
+
+828
+00:51:04.815 --> 00:51:08.945
+high quality textile without having
+
+829
+00:51:09.165 --> 00:51:11.105
+to spend too much.
+
+830
+00:51:13.835 --> 00:51:15.655
+You don't have it only with textile,
+
+831
+00:51:15.715 --> 00:51:18.175
+but you can have it also with leather.
+
+832
+00:51:19.355 --> 00:51:24.095
+So this, uh, French, uh, platform allows you to
+
+833
+00:51:24.875 --> 00:51:28.655
+buy leftovers of leather mainly.
+
+834
+00:51:29.245 --> 00:51:30.735
+They also have some fabrics,
+
+835
+00:51:30.995 --> 00:51:35.935
+but they are recovering all the leftovers from
+
+836
+00:51:36.535 --> 00:51:38.015
+companies that are working with leather.
+
+837
+00:51:38.595 --> 00:51:42.895
+And so you can buy some pieces to
+
+838
+00:51:43.805 --> 00:51:46.775
+make your own, uh, limited edition objects.
+
+839
+00:51:48.025 --> 00:51:51.635
+Like, uh, this is one example I've been working, uh,
+
+840
+00:51:51.695 --> 00:51:55.395
+in the past years of, uh, on ideas
+
+841
+00:51:55.575 --> 00:51:58.355
+of micro factories, the idea
+
+842
+00:51:58.355 --> 00:52:03.115
+of micro factories about moving from a digital design
+
+843
+00:52:03.815 --> 00:52:05.235
+of a customized product,
+
+844
+00:52:05.675 --> 00:52:09.515
+customizable product in which a client enter the shop
+
+845
+00:52:10.015 --> 00:52:14.795
+and you make thanks to technology, the the object
+
+846
+00:52:15.555 --> 00:52:16.755
+directly in the store.
+
+847
+00:52:17.315 --> 00:52:18.435
+I wanted to show you a video.
+
+848
+00:52:23.785 --> 00:52:25.705
+I mean, there is a sound, but I mean,
+
+849
+00:53:05.265 --> 00:53:10.005
+So here the idea was having a family of bags
+
+850
+00:53:10.755 --> 00:53:11.845
+that could be made.
+
+851
+00:53:11.985 --> 00:53:15.405
+So you imagine a client that enters the shop
+
+852
+00:53:16.035 --> 00:53:18.085
+chooses the color of the leather.
+
+853
+00:53:18.265 --> 00:53:22.165
+So we have like a hanger with many different colors
+
+854
+00:53:22.225 --> 00:53:23.685
+of leather leftovers.
+
+855
+00:53:23.865 --> 00:53:28.085
+Of course you choose one, we laser cut the part
+
+856
+00:53:28.195 --> 00:53:32.645
+that is the, let's say the the raise, and then we attach it,
+
+857
+00:53:32.665 --> 00:53:35.245
+and then you choose the bladder cord
+
+858
+00:53:36.025 --> 00:53:39.805
+and you have the, um,
+
+859
+00:53:40.675 --> 00:53:42.645
+weaving of the bag directly.
+
+860
+00:53:42.745 --> 00:53:47.245
+So we, in one hour you can create your basket,
+
+861
+00:53:48.275 --> 00:53:50.965
+your bus basket, leather back.
+
+862
+00:53:52.055 --> 00:53:53.915
+So this idea came
+
+863
+00:53:54.545 --> 00:53:57.195
+because this idea
+
+864
+00:53:57.535 --> 00:54:02.235
+of having a service for companies that wanted to
+
+865
+00:54:02.745 --> 00:54:06.995
+have their own shop to make directly
+
+866
+00:54:08.695 --> 00:54:11.195
+an object, an accessory in the store,
+
+867
+00:54:11.575 --> 00:54:14.515
+and we could sell this service to clients.
+
+868
+00:54:16.925 --> 00:54:21.785
+Um, so what is the,
+
+869
+00:54:22.245 --> 00:54:23.425
+the, the idea
+
+870
+00:54:23.685 --> 00:54:27.905
+and the alternative model that we want to provide
+
+871
+00:54:28.005 --> 00:54:31.905
+and we want to, uh, experiment with?
+
+872
+00:54:32.085 --> 00:54:37.075
+And we want to figure out in which
+
+873
+00:54:37.095 --> 00:54:39.755
+way this can be possible if in the city,
+
+874
+00:54:40.175 --> 00:54:43.035
+if in the countryside is to move
+
+875
+00:54:43.625 --> 00:54:46.595
+from the traditional way to conceiving
+
+876
+00:54:47.435 --> 00:54:50.635
+a fashion accessory of a fashion or a fashion product.
+
+877
+00:54:52.685 --> 00:54:56.145
+And, uh, we want to do this moving from
+
+878
+00:54:56.695 --> 00:54:59.305
+stop conceiving the idea of the product,
+
+879
+00:55:01.245 --> 00:55:05.765
+but, um, conceiving a
+
+880
+00:55:06.085 --> 00:55:10.845
+platform instead of a product, a family of, uh,
+
+881
+00:55:11.105 --> 00:55:13.565
+of products with the same, more
+
+882
+00:55:13.565 --> 00:55:17.285
+or less the same design, a strong idea that can, uh, open up
+
+883
+00:55:17.305 --> 00:55:19.925
+to different type of customization.
+
+884
+00:55:20.995 --> 00:55:25.605
+Instead of thinking of seasonal collection, you can think
+
+885
+00:55:25.825 --> 00:55:29.725
+of an evolving catalog based on open codes
+
+886
+00:55:30.585 --> 00:55:31.845
+and the openness.
+
+887
+00:55:31.905 --> 00:55:35.645
+The idea of openness is not about, I share my design
+
+888
+00:55:35.785 --> 00:55:37.965
+so people can really make it for free.
+
+889
+00:55:38.485 --> 00:55:41.285
+I mean, you would love that people make it for free
+
+890
+00:55:41.285 --> 00:55:45.405
+because usually when you share it, only 1%
+
+891
+00:55:45.405 --> 00:55:46.565
+of people are doing it.
+
+892
+00:55:46.865 --> 00:55:49.205
+All the others, if they like, they buy it.
+
+893
+00:55:50.255 --> 00:55:52.795
+And also this idea of
+
+894
+00:55:54.695 --> 00:55:56.945
+mass production, the only way
+
+895
+00:55:58.095 --> 00:56:01.475
+to stop the pollution of the is, um,
+
+896
+00:56:01.815 --> 00:56:05.315
+the fashion industry is to limit
+
+897
+00:56:06.345 --> 00:56:10.015
+mass production and move
+
+898
+00:56:10.235 --> 00:56:13.055
+to an on demand or small batches production.
+
+899
+00:56:13.755 --> 00:56:17.175
+So we don't have leftovers, we don't have to burn,
+
+900
+00:56:17.955 --> 00:56:20.615
+we don't have to like throw away
+
+901
+00:56:20.915 --> 00:56:22.495
+and we don't have to recycle
+
+902
+00:56:22.955 --> 00:56:25.685
+because all these are not good for the planet.
+
+903
+00:56:27.815 --> 00:56:31.835
+So distribution in stores, this idea, we know
+
+904
+00:56:31.835 --> 00:56:35.955
+that when we move, when the cost
+
+905
+00:56:36.305 --> 00:56:40.395
+that we pay to produce an object, for example,
+
+906
+00:56:40.695 --> 00:56:42.715
+you produce a bag
+
+907
+00:56:43.255 --> 00:56:46.075
+and from the idea to the production, it cost
+
+908
+00:56:47.025 --> 00:56:50.675
+life cost is a hundred euros in the store,
+
+909
+00:56:51.295 --> 00:56:54.635
+the cost will be 300 or 400.
+
+910
+00:56:54.905 --> 00:56:59.275
+Because having something in the shop costs per k,
+
+911
+00:56:59.275 --> 00:57:03.275
+because the shops have high costs, pay a lot of taxes,
+
+912
+00:57:03.985 --> 00:57:06.955
+they have someone to stay in the store all day.
+
+913
+00:57:07.295 --> 00:57:10.035
+So it is not something that, because they're greedy,
+
+914
+00:57:10.055 --> 00:57:13.795
+but really you need a lot of, you need a lot of, um,
+
+915
+00:57:15.075 --> 00:57:16.595
+expenses to have a store.
+
+916
+00:57:17.295 --> 00:57:21.795
+So one solution to have lower prices is to sell
+
+917
+00:57:22.475 --> 00:57:25.955
+directly online or locally creating
+
+918
+00:57:26.475 --> 00:57:29.675
+situation in which maybe you have a place
+
+919
+00:57:30.045 --> 00:57:34.715
+where you can store your prototypes, your templates,
+
+920
+00:57:34.815 --> 00:57:36.355
+and then people go online
+
+921
+00:57:36.855 --> 00:57:39.515
+and order a version, a customized version.
+
+922
+00:57:40.535 --> 00:57:45.275
+So, and this, you can do it in collaboration with others.
+
+923
+00:57:46.615 --> 00:57:48.835
+That's why I always say you need to network.
+
+924
+00:57:49.175 --> 00:57:51.995
+You need to contribute and collaborate with others.
+
+925
+00:57:53.855 --> 00:57:58.195
+And instead of having venture capital to fund
+
+926
+00:58:00.905 --> 00:58:03.105
+a lot of, uh, in a lot
+
+927
+00:58:03.105 --> 00:58:05.985
+of situations we have crowdfunding
+
+928
+00:58:06.125 --> 00:58:07.785
+or pre-selling that works.
+
+929
+00:58:09.005 --> 00:58:12.185
+So you launch a product like the example that I gave you,
+
+930
+00:58:12.605 --> 00:58:16.465
+and you have and you have, uh,
+
+931
+00:58:17.565 --> 00:58:21.455
+clients that are ordering it because you know you're ready.
+
+932
+00:58:21.795 --> 00:58:24.575
+You created a community of people that know,
+
+933
+00:58:24.885 --> 00:58:27.815
+know about your work because you also share the design.
+
+934
+00:58:28.595 --> 00:58:33.375
+So more than having like, like a company
+
+935
+00:58:33.685 --> 00:58:37.255
+that just think about the, the object
+
+936
+00:58:37.355 --> 00:58:42.095
+and the distribution is a kind of community of users
+
+937
+00:58:42.275 --> 00:58:45.295
+and early users that support your work
+
+938
+00:58:45.635 --> 00:58:48.815
+and are ready to give a contribution when
+
+939
+00:58:49.675 --> 00:58:52.575
+and when you produce and when you manufacture.
+
+940
+00:58:53.635 --> 00:58:57.935
+And in this way, I think there are some ingredients
+
+941
+00:58:58.045 --> 00:59:01.055
+that you can take from to create your own ideas.
+
+942
+00:59:02.515 --> 00:59:04.215
+And thank you very much.
+
+943
+00:59:05.195 --> 00:59:08.575
+If you have any question, I will stop sharing.
+
+944
+00:59:14.555 --> 00:59:15.915
+Probably there are some questions
+
+945
+00:59:16.175 --> 00:59:16.395
+or
+
+946
+00:59:21.365 --> 00:59:21.715
+Hello.
+
+947
+00:59:21.815 --> 00:59:26.635
+Wow. Hearts a lot of logos.
+
+948
+00:59:29.855 --> 00:59:34.715
+Mm. Shall I check the page of the question? Okay.
+
+949
+00:59:40.345 --> 00:59:42.685
+Is anyone, uh, not, uh, Alex,
+
+950
+00:59:43.385 --> 00:59:44.385
+Can I ask a question?
+
+951
+00:59:45.625 --> 00:59:47.005
+Yes. I'm curious.
+
+952
+00:59:47.605 --> 00:59:49.165
+I see a renaissance in young people
+
+953
+00:59:49.315 --> 00:59:50.725
+wanting to learn how to sew.
+
+954
+00:59:51.175 --> 00:59:55.485
+Would any of these, um, uh, these, uh, ways of thinking
+
+955
+00:59:55.485 --> 00:59:58.765
+of manufacturing include bringing people in to make some
+
+956
+00:59:58.765 --> 01:00:01.565
+of the parts themselves so that people could be trained in?
+
+957
+01:00:01.865 --> 01:00:02.925
+Yes, handcraft,
+
+958
+01:00:03.865 --> 01:00:06.525
+Yes, of course there is somehow
+
+959
+01:00:08.185 --> 01:00:11.685
+you can really design your products in which
+
+960
+01:00:12.335 --> 01:00:15.605
+maybe you already sell a kit of pieces.
+
+961
+01:00:16.475 --> 01:00:20.525
+That with also the tools to finish some parts.
+
+962
+01:00:21.465 --> 01:00:26.365
+But the important thing is to have, uh, tutorials online,
+
+963
+01:00:26.535 --> 01:00:28.485
+maybe a video on how to do it,
+
+964
+01:00:28.705 --> 01:00:32.805
+or maybe you can use the laser cut to really say in which,
+
+965
+01:00:33.135 --> 01:00:34.845
+where to put the needle, you know,
+
+966
+01:00:34.845 --> 01:00:37.125
+because sometimes it, there is a,
+
+967
+01:00:37.705 --> 01:00:40.125
+you feel disappointed when you create something
+
+968
+01:00:40.185 --> 01:00:44.005
+and then when you see it say, oh, my hand, were not so good.
+
+969
+01:00:44.105 --> 01:00:47.685
+And it is bad. So you as a designer, you have to make it
+
+970
+01:00:47.745 --> 01:00:51.605
+as easy as possible in order to the final customer
+
+971
+01:00:51.985 --> 01:00:55.645
+to make something that is good, that is the objective
+
+972
+01:00:55.645 --> 01:00:58.765
+of the designer, the, the purpose of the designer to
+
+973
+01:00:59.405 --> 01:01:03.365
+simplify the process in order to do it.
+
+974
+01:01:03.505 --> 01:01:07.485
+So when, uh, there is, uh, a project
+
+975
+01:01:07.555 --> 01:01:10.125
+that is called another shoe that is, uh,
+
+976
+01:01:10.195 --> 01:01:13.725
+like also there 10 years ago in which we did it in,
+
+977
+01:01:14.305 --> 01:01:17.445
+we did a workshop of this other shoe that you could make
+
+978
+01:01:17.675 --> 01:01:18.725
+with laser cut.
+
+979
+01:01:19.025 --> 01:01:21.205
+And they were coming to my makerspace
+
+980
+01:01:21.385 --> 01:01:23.685
+and they were testing with users
+
+981
+01:01:24.865 --> 01:01:26.725
+how they were assembling the shoes.
+
+982
+01:01:27.345 --> 01:01:31.405
+So before launching the product, they were doing some kind
+
+983
+01:01:31.405 --> 01:01:35.085
+of focus group and see how much the, how, how is difficult
+
+984
+01:01:35.185 --> 01:01:38.885
+to me because maybe as a designer you think is easy,
+
+985
+01:01:39.265 --> 01:01:42.325
+but then you try it and make a, a group
+
+986
+01:01:42.705 --> 01:01:44.485
+and you test it and say, oh my god, no.
+
+987
+01:01:44.485 --> 01:01:49.365
+And you can see how the people interpret the tutorial
+
+988
+01:01:49.935 --> 01:01:52.605
+guidelines and see what is the outcome.
+
+989
+01:01:52.865 --> 01:01:56.605
+And so it helps you as a designer to draft and,
+
+990
+01:01:56.785 --> 01:02:00.205
+and create a tutorial that is really going
+
+991
+01:02:00.425 --> 01:02:04.685
+to the right direction to fulfill also the, the people
+
+992
+01:02:04.685 --> 01:02:07.405
+that are not really good with their hands.
+
+993
+01:02:09.055 --> 01:02:09.485
+Thank you.
+
+994
+01:02:14.075 --> 01:02:17.045
+Any other question? Don't be shy.
+
+995
+01:02:20.975 --> 01:02:23.795
+Uh, thanks for the lecture. It was very inspiring.
+
+996
+01:02:24.435 --> 01:02:26.715
+I wanted to ask, some of the projects that you mentioned
+
+997
+01:02:26.715 --> 01:02:30.195
+that are, uh, based in the European Union are mostly
+
+998
+01:02:30.975 --> 01:02:33.635
+or in part government, uh, funded.
+
+999
+01:02:34.415 --> 01:02:37.315
+I'm curious to know if you have an opinion on, uh,
+
+1000
+01:02:39.005 --> 01:02:41.415
+what can we do on in countries
+
+1001
+01:02:41.435 --> 01:02:42.455
+or you know, places
+
+1002
+01:02:42.545 --> 01:02:44.735
+where we don't have this kind of support.
+
+1003
+01:02:45.205 --> 01:02:47.895
+Like what is the landscape looking like, looking like
+
+1004
+01:02:48.155 --> 01:02:51.735
+and what are others doing so we can, uh, make this work?
+
+1005
+01:02:52.605 --> 01:02:55.175
+Okay, so yes, um, for sure.
+
+1006
+01:02:56.015 --> 01:02:57.375
+I mean, not all the things
+
+1007
+01:02:57.375 --> 01:02:59.935
+that I showed you are government funded.
+
+1008
+01:03:00.555 --> 01:03:05.175
+So, so some of them, um, for example,
+
+1009
+01:03:05.475 --> 01:03:08.655
+the, when I set up my makerspace in Milan,
+
+1010
+01:03:08.905 --> 01:03:10.015
+there was no funds.
+
+1011
+01:03:10.595 --> 01:03:13.895
+So I had to go and talk with people, make events
+
+1012
+01:03:14.195 --> 01:03:18.175
+and fight people that would like to invest in a maker space.
+
+1013
+01:03:18.715 --> 01:03:21.135
+And so we put together the resources.
+
+1014
+01:03:21.795 --> 01:03:25.935
+So the idea is to see what do you have in your country
+
+1015
+01:03:26.165 --> 01:03:27.415
+that could support you?
+
+1016
+01:03:27.925 --> 01:03:31.015
+Sometimes they can give you some funds for technology.
+
+1017
+01:03:31.485 --> 01:03:35.775
+They give you some funds for like, uh, I don't know, spaces.
+
+1018
+01:03:36.665 --> 01:03:39.135
+There are many things that you need to start a project.
+
+1019
+01:03:39.955 --> 01:03:42.855
+So when you lack on something, you can have on other things.
+
+1020
+01:03:43.275 --> 01:03:47.175
+But before launching into a venture that, uh,
+
+1021
+01:03:48.165 --> 01:03:52.135
+that needs money is good to test it in,
+
+1022
+01:03:52.155 --> 01:03:56.295
+in m in a small environment, for example, this idea
+
+1023
+01:03:56.295 --> 01:04:00.455
+of the shoe, for example, you before setting up
+
+1024
+01:04:00.675 --> 01:04:03.495
+and buying a laser cut, you can go
+
+1025
+01:04:03.595 --> 01:04:07.535
+and have a membership in a maker space and test and, and
+
+1026
+01:04:07.635 --> 01:04:10.135
+and prototype the, the objects.
+
+1027
+01:04:10.315 --> 01:04:13.655
+And then when you have a very strong concept,
+
+1028
+01:04:14.515 --> 01:04:17.975
+you can start, uh, like the venture
+
+1029
+01:04:18.995 --> 01:04:23.375
+in a makerspace and only when the business goes you can say,
+
+1030
+01:04:23.525 --> 01:04:26.575
+okay, I can buy my own laser cut because it works.
+
+1031
+01:04:27.315 --> 01:04:29.095
+So there is always step by step,
+
+1032
+01:04:29.195 --> 01:04:33.215
+and it depends a lot on understanding in
+
+1033
+01:04:33.445 --> 01:04:35.095
+what they give you in your country.
+
+1034
+01:04:35.925 --> 01:04:38.615
+Sometimes they give you acceleration programs,
+
+1035
+01:04:38.615 --> 01:04:41.975
+sometimes they give you, I dunno, many things.
+
+1036
+01:04:42.465 --> 01:04:44.415
+There are always money is out there.
+
+1037
+01:04:44.915 --> 01:04:49.775
+So somehow money, money, not the means they give you money,
+
+1038
+01:04:50.115 --> 01:04:54.615
+but resources in the sense spaces, knowledge sharing,
+
+1039
+01:04:54.885 --> 01:04:58.335
+machine sharing, um, these type of things.
+
+1040
+01:04:58.725 --> 01:05:01.815
+Usually there are so never work alone.
+
+1041
+01:05:02.275 --> 01:05:04.415
+The you should, you should find some Ali.
+
+1042
+01:05:07.245 --> 01:05:10.035
+Thank you. Thank you, thank you Zoe.
+
+1043
+01:05:10.935 --> 01:05:15.635
+Uh, uh, we can um, now move on, uh,
+
+1044
+01:05:15.635 --> 01:05:19.365
+because we will have to continue
+
+1045
+01:05:19.395 --> 01:05:23.045
+with the more technical part of the presentation.
+
+1046
+01:05:24.145 --> 01:05:28.125
+Um, but um, yeah, many.
+
+1047
+01:05:28.515 --> 01:05:29.925
+Okay, thank you. Yes, thank you.
+
+1048
+01:05:29.925 --> 01:05:33.005
+So I will be next week in, uh, reviewing the work.
+
+1049
+01:05:33.665 --> 01:05:35.845
+Yes. Okay. See you next Tuesday.
+
+1050
+01:05:36.355 --> 01:05:37.765
+Okay. Thank you very much.
+
+1051
+01:05:38.105 --> 01:05:40.165
+And if you have any questions,
+
+1052
+01:05:40.165 --> 01:05:42.285
+just write me an email or whatever.
+
+1053
+01:05:42.555 --> 01:05:45.005
+Okay. Have a good week. Bye-bye.
+
+1054
+01:05:45.215 --> 01:05:49.695
+Thank you. Bye. Yeah, bye. So,
+
+1055
+01:05:52.955 --> 01:05:54.765
+Okay, I think you can see my screen.
+
+1056
+01:05:57.415 --> 01:05:59.475
+Uh, let me know if you cannot hear me.
+
+1057
+01:05:59.495 --> 01:06:01.235
+My connection is not that great today.
+
+1058
+01:06:04.285 --> 01:06:07.625
+So I think it's time to move on with the more practical part
+
+1059
+01:06:07.765 --> 01:06:09.905
+of this open source circular fashion lecture
+
+1060
+01:06:10.495 --> 01:06:12.425
+that will focus on an integration
+
+1061
+01:06:12.425 --> 01:06:15.065
+with the digital fabrication technologies specifically.
+
+1062
+01:06:15.175 --> 01:06:16.505
+Once again, the laser cut.
+
+1063
+01:06:17.245 --> 01:06:20.625
+So today in this presentation we'll talk about, um,
+
+1064
+01:06:20.825 --> 01:06:24.225
+patterns, materials, fabrics, and of course digital design.
+
+1065
+01:06:26.145 --> 01:06:29.025
+Specifically, we will focus, um, seamless patterns.
+
+1066
+01:06:29.025 --> 01:06:31.505
+So we'll exploring, um, clothing systems
+
+1067
+01:06:31.655 --> 01:06:35.225
+that can be designed to be modular, adaptable, uh,
+
+1068
+01:06:35.545 --> 01:06:38.385
+reconfigurable and of course designed to be disassembled.
+
+1069
+01:06:39.165 --> 01:06:42.505
+We we'll have a look at aspirations at many applications at
+
+1070
+01:06:42.505 --> 01:06:44.705
+the state of the art, and of course at project
+
+1071
+01:06:44.705 --> 01:06:47.745
+that you may be already based on our open catalog
+
+1072
+01:06:48.015 --> 01:06:50.065
+that is open source secret fashion.com.
+
+1073
+01:06:50.535 --> 01:06:52.385
+That also many projects
+
+1074
+01:06:52.385 --> 01:06:54.825
+that have been done in this past nine years
+
+1075
+01:06:54.825 --> 01:06:58.185
+of fabric academy, but also from people that contributed
+
+1076
+01:06:58.615 --> 01:07:00.145
+that were outside of the community.
+
+1077
+01:07:00.685 --> 01:07:02.385
+And this is actually the location where
+
+1078
+01:07:02.395 --> 01:07:04.785
+after this week your creation will be uploaded.
+
+1079
+01:07:07.635 --> 01:07:12.325
+When we, um, look at the patterns, I also want
+
+1080
+01:07:12.325 --> 01:07:13.885
+to bring back a couple of things.
+
+1081
+01:07:13.905 --> 01:07:17.845
+And so I highlighted in the presentation, so it's 2025,
+
+1082
+01:07:18.145 --> 01:07:19.845
+and we all know that it's time
+
+1083
+01:07:19.845 --> 01:07:22.005
+to rethink the way we consume, we produce
+
+1084
+01:07:22.185 --> 01:07:25.485
+and we dispose materials, uh, goods
+
+1085
+01:07:25.705 --> 01:07:26.725
+and specifically fashion.
+
+1086
+01:07:26.985 --> 01:07:29.605
+So we are all in different locations of the world
+
+1087
+01:07:29.705 --> 01:07:33.645
+and we're still all surrounded by trash, but landfills
+
+1088
+01:07:34.105 --> 01:07:38.925
+and fashion scrubs, uh, this older the, um, model
+
+1089
+01:07:38.985 --> 01:07:41.925
+of taking, using and discarding materials
+
+1090
+01:07:41.925 --> 01:07:43.005
+that really work anymore.
+
+1091
+01:07:43.265 --> 01:07:46.245
+So trying to embrace here, um, this concept
+
+1092
+01:07:46.465 --> 01:07:48.885
+of circular economy, this is what we,
+
+1093
+01:07:49.305 --> 01:07:51.485
+we should really take into account.
+
+1094
+01:07:51.545 --> 01:07:55.525
+So trying to keep the material in use for as long
+
+1095
+01:07:55.525 --> 01:07:58.525
+as possible and making clothes that can easily, um,
+
+1096
+01:07:58.605 --> 01:08:02.405
+repaired, remained, um, closing the loop so
+
+1097
+01:08:02.405 --> 01:08:03.845
+that nothing really goes to waste
+
+1098
+01:08:05.885 --> 01:08:07.785
+and only this patterns.
+
+1099
+01:08:07.785 --> 01:08:09.025
+With this kind of clothing
+
+1100
+01:08:09.285 --> 01:08:12.425
+and systems in mind, I would like to show you a couple
+
+1101
+01:08:12.425 --> 01:08:14.345
+of principles and approaches
+
+1102
+01:08:14.345 --> 01:08:16.205
+that we can implement in our workflow,
+
+1103
+01:08:16.665 --> 01:08:20.005
+and they're all independent interdependent from one another.
+
+1104
+01:08:20.265 --> 01:08:24.785
+So, um, we, the use of laser cut this week, this is
+
+1105
+01:08:24.785 --> 01:08:27.865
+what will make possible to create modular patterns without,
+
+1106
+01:08:28.445 --> 01:08:29.865
+uh, any waste or at least
+
+1107
+01:08:29.865 --> 01:08:31.945
+to minimize the waste as much as possible.
+
+1108
+01:08:33.125 --> 01:08:36.305
+Uh, we, we'll, uh, not use any stitches, any seams.
+
+1109
+01:08:36.305 --> 01:08:38.225
+So we'll produce seamless garments
+
+1110
+01:08:38.335 --> 01:08:42.265
+that can be imaged without, um, a sewing machine
+
+1111
+01:08:42.295 --> 01:08:44.745
+that can be reconfigurable through,
+
+1112
+01:08:45.045 --> 01:08:46.225
+um, through interlocking.
+
+1113
+01:08:46.245 --> 01:08:49.345
+So like a puzzle like Lego brick that made of soft materials
+
+1114
+01:08:49.845 --> 01:08:52.865
+so that every piece in the system can be adopted,
+
+1115
+01:08:53.125 --> 01:08:57.545
+can be also upgraded, repaired, uh, replaced, uh,
+
+1116
+01:08:57.545 --> 01:08:59.345
+without the need of replacing the old garment
+
+1117
+01:08:59.445 --> 01:09:01.025
+or just buying a new one.
+
+1118
+01:09:02.395 --> 01:09:04.615
+Uh, when you talk also about digital fabrication,
+
+1119
+01:09:04.835 --> 01:09:07.335
+we talk about open design for local production.
+
+1120
+01:09:07.475 --> 01:09:10.495
+So a design that can be shared all over the world
+
+1121
+01:09:11.075 --> 01:09:12.895
+and where different people can contribute.
+
+1122
+01:09:13.695 --> 01:09:16.535
+A design can, can be remixed in, uh,
+
+1123
+01:09:16.535 --> 01:09:18.095
+human location overseas,
+
+1124
+01:09:18.235 --> 01:09:20.495
+and that can be customized also on demand so
+
+1125
+01:09:20.495 --> 01:09:22.135
+that you don't need any physical stock.
+
+1126
+01:09:23.315 --> 01:09:25.815
+So all these approaches together really contribute
+
+1127
+01:09:25.835 --> 01:09:29.175
+to make fashion more adaptable, accessible,
+
+1128
+01:09:29.235 --> 01:09:30.695
+and more sustainable.
+
+1129
+01:09:33.155 --> 01:09:35.885
+This is a sneak peek at the workflow of
+
+1130
+01:09:35.885 --> 01:09:37.245
+what you will be doing this week.
+
+1131
+01:09:38.355 --> 01:09:40.445
+It's one of the earliest example
+
+1132
+01:09:40.475 --> 01:09:43.445
+that we have in Fabric Academy by an aluminum set.
+
+1133
+01:09:43.465 --> 01:09:47.725
+I'm Jessica Stanley, and, uh, what I want to say here is
+
+1134
+01:09:47.725 --> 01:09:49.925
+that this important also to look at the module,
+
+1135
+01:09:50.225 --> 01:09:53.205
+but also to look beyond it at the old system
+
+1136
+01:09:53.335 --> 01:09:56.565
+where every piece, um, somehow a meaning can integrate,
+
+1137
+01:09:56.825 --> 01:09:59.045
+can fit in, can interlock, and can evolve.
+
+1138
+01:10:00.385 --> 01:10:03.845
+Uh, this then this week you'll be coming up your own
+
+1139
+01:10:03.845 --> 01:10:05.005
+module with your idea.
+
+1140
+01:10:05.185 --> 01:10:09.325
+We will digitalize it through a two vector file, uh, design
+
+1141
+01:10:09.585 --> 01:10:11.445
+or, uh, 3D modeling software.
+
+1142
+01:10:12.135 --> 01:10:15.645
+We'll laser cut, um, like you can see here in the picture,
+
+1143
+01:10:16.085 --> 01:10:18.685
+ensuring there is no waste, no scraps left,
+
+1144
+01:10:19.105 --> 01:10:21.525
+and we'll assemble in many possible ways.
+
+1145
+01:10:23.605 --> 01:10:25.985
+So let's have a look now at some projects
+
+1146
+01:10:27.185 --> 01:10:29.995
+that have been developed in fabric that also, uh,
+
+1147
+01:10:30.465 --> 01:10:31.475
+were out there before
+
+1148
+01:10:31.475 --> 01:10:32.835
+because the concept
+
+1149
+01:10:32.895 --> 01:10:35.795
+of seamless clothing is actually something, uh,
+
+1150
+01:10:35.795 --> 01:10:37.595
+that was there more than 10 years ago.
+
+1151
+01:10:38.345 --> 01:10:40.195
+This is one of my favorite collection.
+
+1152
+01:10:40.255 --> 01:10:41.715
+It was made in 2013
+
+1153
+01:10:41.975 --> 01:10:44.795
+and made its first appearance at the Tokyo Design Week.
+
+1154
+01:10:45.815 --> 01:10:48.035
+Uh, it's made by Croatian designers
+
+1155
+01:10:48.335 --> 01:10:51.195
+and very much focused on the module of a square.
+
+1156
+01:10:51.295 --> 01:10:54.115
+So it's only one module, uh, laser cut
+
+1157
+01:10:54.535 --> 01:10:57.715
+and to at different scales, able to interlock
+
+1158
+01:10:57.715 --> 01:11:01.155
+with similar modules to create, uh, this 3D stunning
+
+1159
+01:11:01.295 --> 01:11:02.875
+and intricate configuration.
+
+1160
+01:11:04.095 --> 01:11:05.755
+And with the same kids, it's interesting
+
+1161
+01:11:05.755 --> 01:11:09.475
+how we can build not just a punch, but actually accessories
+
+1162
+01:11:09.495 --> 01:11:10.755
+and garment at the same time.
+
+1163
+01:11:12.975 --> 01:11:14.755
+Uh, so I talked briefly about that.
+
+1164
+01:11:14.855 --> 01:11:18.115
+So this is the Prosecutor collective initiative, a project
+
+1165
+01:11:18.415 --> 01:11:20.835
+of more than 10 years ago in the Netherlands.
+
+1166
+01:11:21.345 --> 01:11:24.635
+That was the first time was introduced in the concept of,
+
+1167
+01:11:24.975 --> 01:11:27.715
+um, open design, modular design
+
+1168
+01:11:27.935 --> 01:11:30.315
+for fashion in a fab lab in MakeSpace.
+
+1169
+01:11:30.495 --> 01:11:35.235
+So we, uh, we could go to produce and laser cut
+
+1170
+01:11:35.235 --> 01:11:37.035
+or CNCA chair for the first time.
+
+1171
+01:11:37.735 --> 01:11:41.635
+Uh, the, the maker, um, community there could have access
+
+1172
+01:11:41.655 --> 01:11:45.155
+to templates they were ready to cut for making your own, uh,
+
+1173
+01:11:45.155 --> 01:11:49.315
+fabric, a different range of materials, uh,
+
+1174
+01:11:49.315 --> 01:11:52.595
+moving forward with different kinds of modules.
+
+1175
+01:11:52.995 --> 01:11:54.555
+I always appreciate the work.
+
+1176
+01:11:54.835 --> 01:11:56.355
+I mean, in Japan by zuki,
+
+1177
+01:11:57.545 --> 01:12:01.155
+it's a single module cloned over and over the same size.
+
+1178
+01:12:01.535 --> 01:12:05.075
+And it is also interesting here that we can, we,
+
+1179
+01:12:05.095 --> 01:12:07.835
+the same module, you're able to recreate, um,
+
+1180
+01:12:07.835 --> 01:12:10.195
+different kinds of items of garments
+
+1181
+01:12:10.295 --> 01:12:12.035
+and this, for example, living cocoon.
+
+1182
+01:12:12.055 --> 01:12:15.035
+So something that actually goes out of the silhouette
+
+1183
+01:12:15.035 --> 01:12:17.875
+of the body and expand in multiple directions.
+
+1184
+01:12:20.375 --> 01:12:22.115
+Uh, speaking about modules
+
+1185
+01:12:22.115 --> 01:12:25.395
+and kit, this is a nice example by in Soho, uh,
+
+1186
+01:12:25.985 --> 01:12:26.995
+very polygonal
+
+1187
+01:12:26.995 --> 01:12:29.675
+and very geometrical, um, different, um,
+
+1188
+01:12:30.315 --> 01:12:32.475
+triangles at different sizes, still able
+
+1189
+01:12:32.475 --> 01:12:33.635
+to interlock with one another.
+
+1190
+01:12:34.495 --> 01:12:36.035
+And we can see here an example
+
+1191
+01:12:36.055 --> 01:12:39.435
+of custom customization also at another level,
+
+1192
+01:12:39.775 --> 01:12:41.795
+we had different materials, different colors,
+
+1193
+01:12:41.795 --> 01:12:45.875
+different textures and different ways to distribute the, um,
+
+1194
+01:12:46.455 --> 01:12:48.595
+the modules in different locations of the body.
+
+1195
+01:12:50.215 --> 01:12:54.595
+Um, we're not of course limited to use, um, straight lines,
+
+1196
+01:12:55.315 --> 01:12:57.075
+polygons, or regular shapes.
+
+1197
+01:12:57.075 --> 01:12:59.435
+So this is the same, uh, designing,
+
+1198
+01:12:59.435 --> 01:13:01.715
+but of course a completely different approach.
+
+1199
+01:13:01.905 --> 01:13:04.915
+Also here, the laser cut is used to produce kind
+
+1200
+01:13:04.915 --> 01:13:08.235
+of a decoration perforation in some modules that is started
+
+1201
+01:13:08.235 --> 01:13:13.035
+of being, uh, based on, uh, geometric lines and polygons.
+
+1202
+01:13:13.255 --> 01:13:16.035
+Uh, you can see here more introduction of, uh,
+
+1203
+01:13:16.035 --> 01:13:18.835
+naturalistic elements or more organic lines.
+
+1204
+01:13:21.615 --> 01:13:25.315
+Um, we're still speaking about modules and constructions.
+
+1205
+01:13:25.575 --> 01:13:29.235
+Uh, uh, favorite of mine is the work, uh, collection
+
+1206
+01:13:29.235 --> 01:13:31.995
+of metabolism of 2015.
+
+1207
+01:13:32.135 --> 01:13:34.035
+So we're still 10 years ago in Japan.
+
+1208
+01:13:34.575 --> 01:13:38.795
+Uh, Ola Ang I made a great collection based on the module
+
+1209
+01:13:38.815 --> 01:13:40.795
+of a square, and I also invite
+
+1210
+01:13:40.815 --> 01:13:43.635
+to have a look at this extensive research, my hand.
+
+1211
+01:13:44.145 --> 01:13:46.435
+Then you can find it on the website where you can see
+
+1212
+01:13:46.435 --> 01:13:49.275
+how the sketches are turned into this module
+
+1213
+01:13:49.745 --> 01:13:52.955
+that allows itself to be fully closed and become 3D.
+
+1214
+01:13:53.615 --> 01:13:56.235
+And the same module allows you to create this kind
+
+1215
+01:13:56.235 --> 01:13:59.755
+of reconfigurable, um, jacket, but also skirt
+
+1216
+01:13:59.935 --> 01:14:02.315
+and a bag, all according
+
+1217
+01:14:02.495 --> 01:14:05.315
+and inspired by this Japanese movement of the sixties,
+
+1218
+01:14:05.765 --> 01:14:08.355
+about the configurable architecture were
+
+1219
+01:14:08.355 --> 01:14:09.435
+initial integration.
+
+1220
+01:14:10.855 --> 01:14:12.215
+But of course, you're not limited
+
+1221
+01:14:12.355 --> 01:14:14.975
+to apply this constant technique, uh, fashion.
+
+1222
+01:14:15.315 --> 01:14:17.895
+We can also talk about furniture, for example.
+
+1223
+01:14:19.125 --> 01:14:20.815
+Keep in mind this picture on the right,
+
+1224
+01:14:20.815 --> 01:14:23.935
+because I went back to it, uh, in a couple of slides.
+
+1225
+01:14:24.715 --> 01:14:25.775
+Uh, so it's interesting
+
+1226
+01:14:25.775 --> 01:14:29.335
+how here you can also develop this kind of flat patterns
+
+1227
+01:14:29.335 --> 01:14:32.295
+that can be allow you to cover, uh, furniture in the house
+
+1228
+01:14:33.045 --> 01:14:36.015
+like VAs, uh, objects, couches,
+
+1229
+01:14:36.015 --> 01:14:38.765
+chairs, and of course carpet.
+
+1230
+01:14:38.945 --> 01:14:42.245
+So imagine a carpet that can grow in any size according
+
+1231
+01:14:42.265 --> 01:14:45.325
+to the size of the room that also welcomes, uh,
+
+1232
+01:14:45.325 --> 01:14:48.725
+different quality elements that can become 3D at any point.
+
+1233
+01:14:51.995 --> 01:14:54.495
+Or another good example is, for example, bags,
+
+1234
+01:14:54.595 --> 01:14:55.775
+basket collections.
+
+1235
+01:14:56.055 --> 01:14:58.375
+I really appreciate the work of Oscar mascara
+
+1236
+01:14:59.115 --> 01:15:01.935
+and this is using a sort of leather scraps.
+
+1237
+01:15:01.955 --> 01:15:05.135
+So it's also nice how through open design, digital design
+
+1238
+01:15:05.195 --> 01:15:07.575
+and fabrication, we can also make use
+
+1239
+01:15:08.315 --> 01:15:10.495
+and rethink, um, traditional.
+
+1240
+01:15:10.555 --> 01:15:14.895
+So next, this example, um, it was getting inspired
+
+1241
+01:15:14.915 --> 01:15:19.015
+by weaving and we can adjust design for creating these kind
+
+1242
+01:15:19.015 --> 01:15:21.775
+of modules that don't need other supportive material
+
+1243
+01:15:21.835 --> 01:15:23.415
+to interlock and create kind
+
+1244
+01:15:23.415 --> 01:15:26.255
+of cell closing baskets and containers.
+
+1245
+01:15:29.605 --> 01:15:31.865
+And on the same concept of packaging,
+
+1246
+01:15:32.265 --> 01:15:34.505
+I always appreciate the work of km.
+
+1247
+01:15:34.575 --> 01:15:38.185
+That was also the win or one of the red of the word in 2019.
+
+1248
+01:15:38.935 --> 01:15:40.865
+This is a very clever idea, I believe.
+
+1249
+01:15:41.005 --> 01:15:44.025
+Um, this kind of reusable packaging that is made
+
+1250
+01:15:44.165 --> 01:15:46.025
+to fit any item basically.
+
+1251
+01:15:46.405 --> 01:15:49.785
+So from the bottle to the book, um, all the way to grocery,
+
+1252
+01:15:50.685 --> 01:15:54.865
+it is one single module that interlocks in an easy way.
+
+1253
+01:15:54.885 --> 01:15:57.825
+And you can see here on top of the slide, like kind
+
+1254
+01:15:57.825 --> 01:16:00.905
+of a detail, uh, to fit any item,
+
+1255
+01:16:03.935 --> 01:16:06.245
+um, to the resolution.
+
+1256
+01:16:06.625 --> 01:16:08.485
+Um, the laser cut, let's say,
+
+1257
+01:16:08.625 --> 01:16:10.565
+and the precision that we can work with,
+
+1258
+01:16:11.375 --> 01:16:12.955
+but also the vector file.
+
+1259
+01:16:13.065 --> 01:16:16.475
+Were of course able to also work at the very tiny, uh,
+
+1260
+01:16:16.475 --> 01:16:18.355
+scale, like in the case of jewelry.
+
+1261
+01:16:19.295 --> 01:16:21.825
+This were also, uh, different leftovers
+
+1262
+01:16:21.825 --> 01:16:22.865
+of different materials.
+
+1263
+01:16:23.565 --> 01:16:25.865
+Um, is approached also in the Netherland
+
+1264
+01:16:25.865 --> 01:16:28.105
+around five years ago that launched this kind
+
+1265
+01:16:28.105 --> 01:16:31.585
+of collection featuring accessories like hats, bracelet,
+
+1266
+01:16:31.585 --> 01:16:34.265
+earrings, and necklace that you can customize
+
+1267
+01:16:34.265 --> 01:16:35.505
+with any material color
+
+1268
+01:16:36.205 --> 01:16:38.585
+and let them grow in different locations.
+
+1269
+01:16:41.445 --> 01:16:43.785
+Uh, we're moving now to see what the Community
+
+1270
+01:16:43.785 --> 01:16:47.665
+and Fabric academy, uh, made in these past years, not just
+
+1271
+01:16:47.665 --> 01:16:49.825
+during the secular fashion week,
+
+1272
+01:16:49.845 --> 01:16:51.345
+but actually during workshops.
+
+1273
+01:16:51.605 --> 01:16:52.785
+Uh, event boot come.
+
+1274
+01:16:53.445 --> 01:16:55.985
+And I always like to begin, uh, with this project.
+
+1275
+01:16:56.145 --> 01:16:58.265
+I really appreciate fact textiles
+
+1276
+01:16:58.405 --> 01:17:01.145
+and, um, university Veritas in Costa Rica.
+
+1277
+01:17:01.735 --> 01:17:06.265
+It's a growing point show there is, uh, quite intricate,
+
+1278
+01:17:06.325 --> 01:17:09.165
+but is actually made of a single module that is repeated
+
+1279
+01:17:09.225 --> 01:17:12.605
+and cloned over and over a module of composed
+
+1280
+01:17:12.745 --> 01:17:15.645
+of two circles, like a chain that are joined together,
+
+1281
+01:17:16.415 --> 01:17:18.645
+which, uh, where one as an opening
+
+1282
+01:17:18.905 --> 01:17:21.805
+and one as a full shape that goes inside like a chain.
+
+1283
+01:17:24.795 --> 01:17:27.615
+Um, we can talk about, um, traditions.
+
+1284
+01:17:27.635 --> 01:17:30.735
+Arabic patterns are also a common source
+
+1285
+01:17:30.735 --> 01:17:32.055
+of inspiration in public academy.
+
+1286
+01:17:32.975 --> 01:17:35.095
+I appreciate, uh, the two versions.
+
+1287
+01:17:35.235 --> 01:17:37.895
+Uh, they're based on the same module of a triangle here
+
+1288
+01:17:38.435 --> 01:17:40.815
+and made in completely different locations
+
+1289
+01:17:40.875 --> 01:17:41.895
+by two different students.
+
+1290
+01:17:41.995 --> 01:17:44.535
+So in the first case, we have a address that was created
+
+1291
+01:17:44.565 --> 01:17:47.855
+with this kind of, uh, decoration on the back.
+
+1292
+01:17:48.515 --> 01:17:51.735
+And the second option is, uh, basically material
+
+1293
+01:17:52.235 --> 01:17:55.975
+and, uh, mod that we cut to produce these long sleeves.
+
+1294
+01:18:00.025 --> 01:18:02.765
+Uh, we have a lot of example of bags in fabric academy.
+
+1295
+01:18:03.185 --> 01:18:06.365
+So, um, with the same 2D models, we are actually able
+
+1296
+01:18:06.365 --> 01:18:09.045
+to convert them in something 3D to something
+
+1297
+01:18:09.125 --> 01:18:10.165
+that fully closes.
+
+1298
+01:18:10.265 --> 01:18:12.445
+Uh, we're talking here about, uh, male
+
+1299
+01:18:12.465 --> 01:18:13.525
+and female connections.
+
+1300
+01:18:14.025 --> 01:18:17.085
+We have two example of bugs, one made in mold, uh,
+
+1301
+01:18:17.335 --> 01:18:21.205
+three years ago and one of last year, uh, in FBLA Barcelona.
+
+1302
+01:18:21.505 --> 01:18:22.805
+You can see how, for example,
+
+1303
+01:18:22.905 --> 01:18:24.965
+the same model can actually be used to provide
+
+1304
+01:18:25.805 --> 01:18:27.885
+s additional material like the handle.
+
+1305
+01:18:28.585 --> 01:18:32.645
+Or in the second case you can add the rope towards, um,
+
+1306
+01:18:33.315 --> 01:18:36.395
+including multiple materials in the design.
+
+1307
+01:18:36.615 --> 01:18:39.755
+Um, this is the slide I was referring earlier when showing
+
+1308
+01:18:40.415 --> 01:18:43.315
+the application on furniture So you can look at
+
+1309
+01:18:43.315 --> 01:18:44.435
+here, the modules.
+
+1310
+01:18:44.615 --> 01:18:46.475
+One is the front, the one is the back.
+
+1311
+01:18:46.705 --> 01:18:48.875
+Sometimes the back can also be the front.
+
+1312
+01:18:49.775 --> 01:18:51.595
+So we have the same modules.
+
+1313
+01:18:52.025 --> 01:18:53.955
+It's a combination of female part
+
+1314
+01:18:54.225 --> 01:18:56.555
+with male parts in a single module
+
+1315
+01:18:56.555 --> 01:18:57.955
+that is closed over and over.
+
+1316
+01:18:59.455 --> 01:19:02.675
+Um, this modules become 3D
+
+1317
+01:19:02.975 --> 01:19:05.755
+by bringing tensions in different location of the module.
+
+1318
+01:19:05.895 --> 01:19:08.835
+For example, here when you can see this, these lots
+
+1319
+01:19:09.005 --> 01:19:11.435
+where material is stacked on top of each other.
+
+1320
+01:19:12.415 --> 01:19:14.915
+And in some cases where you have this kind of perforation
+
+1321
+01:19:14.915 --> 01:19:19.675
+with the laser cutter, you can also, um, ing
+
+1322
+01:19:19.675 --> 01:19:21.675
+because you can always, uh,
+
+1323
+01:19:21.935 --> 01:19:25.915
+add additional material like rope, um, uh, threads.
+
+1324
+01:19:26.055 --> 01:19:28.035
+So you can bring extra tension
+
+1325
+01:19:28.295 --> 01:19:31.195
+and you can let this configuration to be pulled
+
+1326
+01:19:31.375 --> 01:19:34.275
+to create something that can actually close completely.
+
+1327
+01:19:36.395 --> 01:19:38.015
+And this is the case of a bag.
+
+1328
+01:19:38.235 --> 01:19:39.935
+So it's a very similar construction.
+
+1329
+01:19:40.715 --> 01:19:43.335
+Uh, you know how this sphere is made, so it's kind
+
+1330
+01:19:43.415 --> 01:19:45.855
+of a different, uh, pentagons together.
+
+1331
+01:19:46.395 --> 01:19:49.895
+And this is the base, the pinkish base of this new print bag
+
+1332
+01:19:49.925 --> 01:19:51.015
+that is laser cut.
+
+1333
+01:19:51.555 --> 01:19:53.695
+And I think that this project is very clever
+
+1334
+01:19:53.695 --> 01:19:58.255
+because in order to hide the interlocking joints here, uh,
+
+1335
+01:19:58.615 --> 01:20:02.775
+m mine maona was uh, able to also integrate these more, um,
+
+1336
+01:20:03.385 --> 01:20:06.375
+istic objects inspired by the ville flower
+
+1337
+01:20:07.185 --> 01:20:11.205
+and stuck on top of the connection, um, this kind of basis
+
+1338
+01:20:12.015 --> 01:20:15.905
+towards, so make the bag, um, more personalized,
+
+1339
+01:20:15.905 --> 01:20:18.335
+more catchy, more towards the team.
+
+1340
+01:20:19.675 --> 01:20:22.175
+Uh, layering is also one of the technique, uh,
+
+1341
+01:20:22.445 --> 01:20:26.135
+used when we talk about seamless models, seamless garments.
+
+1342
+01:20:26.715 --> 01:20:29.615
+We have many options of kind of poncho kind
+
+1343
+01:20:29.615 --> 01:20:32.255
+of colors in fabric academy, uh, using the male
+
+1344
+01:20:32.255 --> 01:20:33.255
+and female connections.
+
+1345
+01:20:33.995 --> 01:20:36.095
+And in Montreal was creating this kind
+
+1346
+01:20:36.095 --> 01:20:39.615
+of feather feather poncho using one module
+
+1347
+01:20:40.035 --> 01:20:42.415
+and different stripes, like if it was,
+
+1348
+01:20:43.155 --> 01:20:46.095
+if they were interwoven, uh, within each other.
+
+1349
+01:20:46.515 --> 01:20:49.095
+So there are rows of alternated modules
+
+1350
+01:20:49.095 --> 01:20:50.615
+that are closed in the back.
+
+1351
+01:20:51.635 --> 01:20:53.815
+And in the second case here, uh,
+
+1352
+01:20:53.815 --> 01:20:57.655
+demon Jordan was creating this color with a similar idea
+
+1353
+01:20:57.655 --> 01:20:59.055
+of creating a feder poncho
+
+1354
+01:20:59.325 --> 01:21:01.175
+with a different construction technique.
+
+1355
+01:21:01.755 --> 01:21:04.775
+So you can see here in detail, there are two, three,
+
+1356
+01:21:04.995 --> 01:21:08.135
+and four modules that are actually able to join together
+
+1357
+01:21:08.205 --> 01:21:11.175
+through another module that you can see hidden here.
+
+1358
+01:21:11.675 --> 01:21:12.735
+So it's kind of across
+
+1359
+01:21:12.805 --> 01:21:15.695
+that brings them together onto different rows and columns.
+
+1360
+01:21:19.525 --> 01:21:23.665
+Ami um, ami is a Japanese word that stands for, uh, cut
+
+1361
+01:21:23.685 --> 01:21:27.825
+and fold and is a technique can also be implemented in your
+
+1362
+01:21:28.425 --> 01:21:30.105
+seamless clothing, seamless models.
+
+1363
+01:21:31.435 --> 01:21:33.435
+I appreciate the work of Beana here.
+
+1364
+01:21:33.485 --> 01:21:36.275
+Clear inspired by architecture by Za Hadid.
+
+1365
+01:21:36.575 --> 01:21:39.435
+And you can see here detail of the module on the sketch.
+
+1366
+01:21:39.575 --> 01:21:42.515
+So it's solely one module that allows the connection
+
+1367
+01:21:42.535 --> 01:21:44.875
+to be formed in multiple locations.
+
+1368
+01:21:45.305 --> 01:21:47.915
+That has kind of a b that is laser cut
+
+1369
+01:21:48.055 --> 01:21:50.475
+and allows at the same time, one part the module
+
+1370
+01:21:50.735 --> 01:21:52.395
+to sub close on itself
+
+1371
+01:21:52.975 --> 01:21:54.595
+and bring a connection with the others.
+
+1372
+01:21:55.545 --> 01:21:58.445
+So it's only one module repeated over and over again.
+
+1373
+01:22:00.975 --> 01:22:02.275
+And we talk about kigami
+
+1374
+01:22:02.615 --> 01:22:04.595
+to talk about collapsible structures.
+
+1375
+01:22:04.655 --> 01:22:06.795
+So you might have seen this, uh,
+
+1376
+01:22:06.795 --> 01:22:08.715
+during the first day of fabric.
+
+1377
+01:22:09.065 --> 01:22:11.715
+This is also another approach that we can use
+
+1378
+01:22:11.735 --> 01:22:13.395
+to produce zero waste bottles.
+
+1379
+01:22:13.625 --> 01:22:15.675
+Imagine if you have one sheet of material
+
+1380
+01:22:15.675 --> 01:22:19.385
+that can actually become something, uh, like your outfit
+
+1381
+01:22:19.455 --> 01:22:20.585
+that is ready to wear.
+
+1382
+01:22:21.625 --> 01:22:24.145
+I dunno if you can see from far away here at the bottom
+
+1383
+01:22:24.235 --> 01:22:27.665
+there is, uh, the digital design, how a series
+
+1384
+01:22:27.805 --> 01:22:31.505
+of lines like the living ingested your plug on wood in order
+
+1385
+01:22:31.565 --> 01:22:34.305
+to be banned that are concentric,
+
+1386
+01:22:34.315 --> 01:22:38.785
+where the only waste in this drawing is actually a circle in
+
+1387
+01:22:38.785 --> 01:22:41.225
+the middle where you're supposed to, to put your neck.
+
+1388
+01:22:45.305 --> 01:22:47.245
+Uh, still speaking about kigami
+
+1389
+01:22:47.585 --> 01:22:49.805
+and going to see some example
+
+1390
+01:22:49.875 --> 01:22:51.805
+that actually make use of upcycling.
+
+1391
+01:22:52.545 --> 01:22:55.645
+Uh, I want to mention the work of giant, uh, haja farm.
+
+1392
+01:22:55.745 --> 01:22:58.885
+So inspired by waves, by oceans,
+
+1393
+01:22:59.385 --> 01:23:03.485
+the scrub up was actually, um, the final result
+
+1394
+01:23:04.225 --> 01:23:08.765
+of a big three meters square curtain, uh, in velvet
+
+1395
+01:23:08.955 --> 01:23:10.125
+that she had in the hand.
+
+1396
+01:23:11.385 --> 01:23:15.365
+Um, so this curtain was laser cut into different stripes
+
+1397
+01:23:15.585 --> 01:23:17.565
+and through a series of cuts
+
+1398
+01:23:17.565 --> 01:23:21.565
+and fold, like, uh, car C explains, she was able
+
+1399
+01:23:21.565 --> 01:23:23.685
+to combine them together without the use
+
+1400
+01:23:23.685 --> 01:23:25.165
+of any additional materials.
+
+1401
+01:23:25.865 --> 01:23:28.485
+And what is interesting to look at here is actually
+
+1402
+01:23:28.485 --> 01:23:31.805
+that even though the models were laser cut flat,
+
+1403
+01:23:32.035 --> 01:23:34.245
+what she actually uses is the back.
+
+1404
+01:23:34.665 --> 01:23:38.205
+So this side along the thickness of each of the sides here.
+
+1405
+01:23:43.015 --> 01:23:46.475
+Um, so I was speaking early, so we're all surrounded
+
+1406
+01:23:46.535 --> 01:23:47.555
+by a lot of trash
+
+1407
+01:23:47.555 --> 01:23:51.205
+that we can convert into treasure sometimes, uh,
+
+1408
+01:23:51.265 --> 01:23:53.925
+in our home, in the lab, the make spaces.
+
+1409
+01:23:54.305 --> 01:23:56.765
+And this was the project of here in Jordan.
+
+1410
+01:23:56.985 --> 01:23:59.365
+So she had a lot of different little pieces
+
+1411
+01:23:59.425 --> 01:24:01.485
+and scraps from different material available.
+
+1412
+01:24:02.585 --> 01:24:05.325
+And, um, it, it was great what she did.
+
+1413
+01:24:05.665 --> 01:24:07.325
+So she, uh, mapped them,
+
+1414
+01:24:07.345 --> 01:24:09.525
+she traced all the dimension of each of them.
+
+1415
+01:24:10.225 --> 01:24:11.285
+She laser cut them,
+
+1416
+01:24:12.065 --> 01:24:15.325
+and she created this beautiful hut, uh, colorful hu
+
+1417
+01:24:18.265 --> 01:24:20.885
+Um, s about cycling, an interesting project.
+
+1418
+01:24:21.385 --> 01:24:24.365
+Um, this case, we are in Florence, uh, with Philippe
+
+1419
+01:24:24.945 --> 01:24:26.205
+in the academy at that time.
+
+1420
+01:24:27.145 --> 01:24:29.885
+And he had access to a lot of industry waste,
+
+1421
+01:24:29.995 --> 01:24:34.005
+like fashion waste from leather of, uh, Ganon Fendi.
+
+1422
+01:24:35.065 --> 01:24:37.205
+And he created this beautiful kind
+
+1423
+01:24:37.205 --> 01:24:41.885
+of animal snake resembling the, the python, uh,
+
+1424
+01:24:42.055 --> 01:24:45.965
+distilling this kind of, uh, shapes in a perfect way
+
+1425
+01:24:46.355 --> 01:24:48.925
+that they applied later on, um, to the boot.
+
+1426
+01:24:49.265 --> 01:24:52.005
+And on the way to this final project together
+
+1427
+01:24:52.005 --> 01:24:56.225
+with 3D printing, Uh,
+
+1428
+01:24:56.355 --> 01:24:57.905
+still about upcycling, uh,
+
+1429
+01:24:58.045 --> 01:25:00.105
+one more project in the Middle East, uh,
+
+1430
+01:25:00.105 --> 01:25:03.825
+where there are a lot of disposable bags like single use
+
+1431
+01:25:03.825 --> 01:25:04.865
+bags and plastic.
+
+1432
+01:25:06.265 --> 01:25:09.305
+I appreciate here the work of Naim, that he converted this,
+
+1433
+01:25:09.365 --> 01:25:14.035
+um, this trash, this plastic bag into an activity for kids,
+
+1434
+01:25:14.855 --> 01:25:16.075
+um, with guidelines.
+
+1435
+01:25:16.375 --> 01:25:18.115
+And we provided them in order
+
+1436
+01:25:18.115 --> 01:25:20.635
+to create their own animals, their own mats.
+
+1437
+01:25:21.455 --> 01:25:24.395
+Uh, so there are these kind of five modules, uh,
+
+1438
+01:25:24.395 --> 01:25:25.715
+that interlock within each other.
+
+1439
+01:25:26.015 --> 01:25:29.475
+And at the same time, they were able to create this kind of,
+
+1440
+01:25:29.575 --> 01:25:32.435
+um, colorful lamps for their bedrooms.
+
+1441
+01:25:37.675 --> 01:25:39.935
+If you master any of the, um, genetic
+
+1442
+01:25:40.235 --> 01:25:43.335
+or matic, um, design software,
+
+1443
+01:25:43.995 --> 01:25:47.855
+you can also simulate in advance what your final assembly,
+
+1444
+01:25:47.865 --> 01:25:49.775
+final configuration can look like.
+
+1445
+01:25:50.435 --> 01:25:53.695
+And this example of the work, what has done also, uh,
+
+1446
+01:25:53.695 --> 01:25:56.055
+getting inspired by Arabic patterns.
+
+1447
+01:25:56.155 --> 01:25:57.935
+So this was a wall partition
+
+1448
+01:25:58.555 --> 01:26:02.495
+and appreciate here the use of op, for example,
+
+1449
+01:26:02.795 --> 01:26:06.285
+to create together with the laser cutter, this kind of, um,
+
+1450
+01:26:06.725 --> 01:26:08.525
+perforations in the moles.
+
+1451
+01:26:08.585 --> 01:26:11.965
+So you could allow the light to come in at any point,
+
+1452
+01:26:15.325 --> 01:26:17.585
+uh, hoping to see, um, joints.
+
+1453
+01:26:17.805 --> 01:26:20.105
+Uh, joints can also be a sort of decorations.
+
+1454
+01:26:20.925 --> 01:26:24.345
+The example here is research of in
+
+1455
+01:26:25.245 --> 01:26:27.625
+and, um, it's a great example of a t-shirt.
+
+1456
+01:26:27.725 --> 01:26:29.265
+So we are not talking about models,
+
+1457
+01:26:29.355 --> 01:26:33.785
+we're talking about replication to bigger pieces we can see.
+
+1458
+01:26:33.805 --> 01:26:37.505
+Now here, um, on the left there, the four pieces
+
+1459
+01:26:37.505 --> 01:26:40.705
+that are actually composed this t-shirt that is clear by,
+
+1460
+01:26:40.845 --> 01:26:42.025
+by weaving technique.
+
+1461
+01:26:42.645 --> 01:26:43.705
+And what I appreciate
+
+1462
+01:26:43.705 --> 01:26:45.705
+that you can also check on a documentation
+
+1463
+01:26:45.965 --> 01:26:47.745
+is research behind.
+
+1464
+01:26:47.965 --> 01:26:50.825
+So lot of tests is disability with leather.
+
+1465
+01:26:51.525 --> 01:26:54.465
+So you really have to make, uh, the connection work
+
+1466
+01:26:54.565 --> 01:26:56.305
+for the kind of material that you have at your hand.
+
+1467
+01:27:00.405 --> 01:27:03.545
+And then I have, uh, the product I really want to showcase,
+
+1468
+01:27:03.635 --> 01:27:05.545
+which is the work of sterman.
+
+1469
+01:27:05.725 --> 01:27:08.145
+So you can have a logo, you can have a picture,
+
+1470
+01:27:08.245 --> 01:27:11.185
+you can have, um, an inspiration that you can convert,
+
+1471
+01:27:12.045 --> 01:27:13.265
+uh, into a module.
+
+1472
+01:27:13.525 --> 01:27:15.625
+And this, for example, where the moon phases
+
+1473
+01:27:16.405 --> 01:27:18.815
+that we're serving at the same time as a decoration,
+
+1474
+01:27:18.835 --> 01:27:21.695
+but actually a technical module of female
+
+1475
+01:27:21.755 --> 01:27:24.695
+and male parts that interlock with the other two grade,
+
+1476
+01:27:24.765 --> 01:27:28.415
+this top living top, but also cape.
+
+1477
+01:27:29.265 --> 01:27:31.525
+And I also like to look at the back here
+
+1478
+01:27:31.545 --> 01:27:34.885
+and to see that this kind of illustration comes back.
+
+1479
+01:27:40.485 --> 01:27:43.065
+Um, there's a project of a steer now believe I will
+
+1480
+01:27:43.335 --> 01:27:44.425
+also still connecting.
+
+1481
+01:27:44.535 --> 01:27:46.745
+It's connected here. Um,
+
+1482
+01:27:48.305 --> 01:27:51.885
+so a student had made use of personal grids
+
+1483
+01:27:52.945 --> 01:27:56.245
+and this project was part of a final project was this, um,
+
+1484
+01:27:57.245 --> 01:27:59.445
+seamless bag inspired by the shape,
+
+1485
+01:27:59.465 --> 01:28:01.405
+the texture of the beetle.
+
+1486
+01:28:02.105 --> 01:28:05.765
+So also like the way, um, that he was, uh, going back
+
+1487
+01:28:05.765 --> 01:28:09.365
+through bio mcr, trying to resemble through pixel art
+
+1488
+01:28:09.425 --> 01:28:13.165
+as well, uh, different locations of the body, of the color
+
+1489
+01:28:13.305 --> 01:28:17.165
+of the animal, and trying to match this, uh, with pieces
+
+1490
+01:28:17.395 --> 01:28:20.165
+that could hide the interlocking parts on the back.
+
+1491
+01:28:22.895 --> 01:28:26.835
+And together with this, you also made, um, jackets
+
+1492
+01:28:27.055 --> 01:28:31.395
+and let's say, um, that are kind of kids that are puzzles.
+
+1493
+01:28:31.395 --> 01:28:33.755
+There are actually 735 pieces
+
+1494
+01:28:34.065 --> 01:28:37.035
+that can help you make 21 different pieces.
+
+1495
+01:28:38.095 --> 01:28:41.195
+And you can see, uh, a little bit the work here.
+
+1496
+01:28:41.275 --> 01:28:45.075
+There are three different models, uh, that have female parts
+
+1497
+01:28:45.345 --> 01:28:46.395
+with different cuts
+
+1498
+01:28:46.395 --> 01:28:51.305
+and male parts that allow you, um, uh,
+
+1499
+01:28:51.305 --> 01:28:53.345
+to be stuck together in different locations.
+
+1500
+01:28:53.645 --> 01:28:57.465
+And I have a video, uh, later on that also we showcase this,
+
+1501
+01:28:57.605 --> 01:29:01.645
+uh, uh, clever application that somehow was resembles
+
+1502
+01:29:02.745 --> 01:29:04.885
+in 3D mdo one animal skin.
+
+1503
+01:29:07.535 --> 01:29:08.815
+I also appreciate the work
+
+1504
+01:29:08.955 --> 01:29:11.855
+of Vivian in New Montreal a couple of years ago.
+
+1505
+01:29:12.115 --> 01:29:15.135
+So using a grid to create a modular smoking.
+
+1506
+01:29:15.275 --> 01:29:18.375
+So how we can reshape, how we can manipulate the fabric
+
+1507
+01:29:19.135 --> 01:29:21.535
+together with the digital design and the leather cut.
+
+1508
+01:29:22.515 --> 01:29:25.695
+So imagine if instead of buying 10 different outfits
+
+1509
+01:29:25.695 --> 01:29:28.295
+and different dress, so you can just create your own, uh,
+
+1510
+01:29:28.445 --> 01:29:29.535
+variation every time.
+
+1511
+01:29:30.195 --> 01:29:33.055
+And I think that this is a very clever idea to share
+
+1512
+01:29:33.055 --> 01:29:34.615
+what you have a base
+
+1513
+01:29:34.885 --> 01:29:38.695
+with a different perforations in this case holds squares.
+
+1514
+01:29:39.075 --> 01:29:43.185
+And you have a kit of different shapes that can be inserted
+
+1515
+01:29:43.185 --> 01:29:44.345
+to bring distinction
+
+1516
+01:29:45.045 --> 01:29:46.705
+or to let the fabric fold
+
+1517
+01:29:47.325 --> 01:29:49.465
+in different designs in different way.
+
+1518
+01:29:53.035 --> 01:29:56.135
+Had a student also work, uh, a similar concept,
+
+1519
+01:29:56.315 --> 01:29:58.695
+but more towards, um,
+
+1520
+01:29:58.965 --> 01:30:01.655
+what we can call mod uh, modular heritage.
+
+1521
+01:30:01.675 --> 01:30:04.215
+Mm-hmm. Um, this is very,
+
+1522
+01:30:04.955 --> 01:30:07.895
+it is a great project about Palestinian embroidery
+
+1523
+01:30:07.955 --> 01:30:10.135
+and how we can redesign these motives
+
+1524
+01:30:10.245 --> 01:30:11.895
+that have been taught only traditionally
+
+1525
+01:30:11.955 --> 01:30:15.375
+for such a long time and made them at the same time, uh,
+
+1526
+01:30:15.805 --> 01:30:17.935
+more accessible to the younger community.
+
+1527
+01:30:18.675 --> 01:30:21.815
+So it is a project that, uh, in a similar way
+
+1528
+01:30:21.915 --> 01:30:24.295
+of the previous, uh, project as a lot
+
+1529
+01:30:24.295 --> 01:30:26.095
+of preparation is black vest.
+
+1530
+01:30:26.875 --> 01:30:29.455
+And you have a kit of different small modules
+
+1531
+01:30:29.525 --> 01:30:32.535
+that can be insert in grid to create, um,
+
+1532
+01:30:32.805 --> 01:30:34.015
+many kinds of motives.
+
+1533
+01:30:35.055 --> 01:30:38.835
+So I, I'd say this, um, this project also has a sort of a,
+
+1534
+01:30:39.725 --> 01:30:41.585
+of a value in terms of education.
+
+1535
+01:30:41.645 --> 01:30:43.545
+So the kids were at the same time learning
+
+1536
+01:30:43.795 --> 01:30:45.065
+about their lost heritage.
+
+1537
+01:30:46.735 --> 01:30:49.275
+And there is another one that became a final project
+
+1538
+01:30:50.055 --> 01:30:51.395
+is the work of Allic.
+
+1539
+01:30:51.615 --> 01:30:55.915
+Um, is actually, um, talks about the story of Allah.
+
+1540
+01:30:56.245 --> 01:30:59.155
+Allah was, and this project talks about the genocide
+
+1541
+01:30:59.155 --> 01:31:01.875
+that happened at the SEC Cassian people.
+
+1542
+01:31:02.185 --> 01:31:05.515
+They were the Muslim museum part of Russia many years ago.
+
+1543
+01:31:06.095 --> 01:31:08.595
+And I appreciate here how Allah have been struggling
+
+1544
+01:31:08.595 --> 01:31:13.485
+to find documentation of motives of patents.
+
+1545
+01:31:14.185 --> 01:31:16.365
+Um, they used to be present on their costumes,
+
+1546
+01:31:16.385 --> 01:31:17.445
+as you can see in the picture.
+
+1547
+01:31:17.825 --> 01:31:21.845
+And, um, she digitalized during our experience
+
+1548
+01:31:21.845 --> 01:31:24.405
+of fabric academy, these basic motives,
+
+1549
+01:31:24.985 --> 01:31:27.125
+and they were reconnecting her with all roots.
+
+1550
+01:31:27.345 --> 01:31:30.605
+And there are now part of this costume designs, uh,
+
+1551
+01:31:30.745 --> 01:31:33.245
+of these sleeves that were used for performances.
+
+1552
+01:31:37.135 --> 01:31:40.955
+Um, same software, same designs,
+
+1553
+01:31:41.135 --> 01:31:43.475
+but opposite fabrication technologies.
+
+1554
+01:31:43.695 --> 01:31:46.195
+We have been seeing some example about subtractive
+
+1555
+01:31:46.225 --> 01:31:48.435
+fabrication technology like Lisa Cutter.
+
+1556
+01:31:48.775 --> 01:31:49.995
+And we can see now an example
+
+1557
+01:31:50.175 --> 01:31:52.195
+of application to, to keep printing.
+
+1558
+01:31:52.375 --> 01:31:53.915
+So additive manufacturing.
+
+1559
+01:31:54.415 --> 01:31:56.635
+And this is the work of Bridget Co.
+
+1560
+01:31:56.935 --> 01:31:59.885
+Um, their brand of variable sims, who was one
+
+1561
+01:31:59.885 --> 01:32:01.925
+of the first students that we had in public academy.
+
+1562
+01:32:02.915 --> 01:32:06.055
+So it's interesting here how you can use the same file
+
+1563
+01:32:06.055 --> 01:32:07.415
+that we can produce this week
+
+1564
+01:32:08.275 --> 01:32:10.095
+and, uh, able
+
+1565
+01:32:10.115 --> 01:32:13.335
+to produce in the computational wick at the same time,
+
+1566
+01:32:13.445 --> 01:32:14.695
+your own TPU fabric.
+
+1567
+01:32:14.835 --> 01:32:16.575
+So something that also can be elastic
+
+1568
+01:32:16.635 --> 01:32:19.015
+and behave like a textile.
+
+1569
+01:32:19.635 --> 01:32:22.815
+And at the same time a modular, uh, kit
+
+1570
+01:32:23.435 --> 01:32:24.815
+to create your own collection.
+
+1571
+01:32:27.175 --> 01:32:30.555
+Uh, TPU of course also comes in sheets, so it's something
+
+1572
+01:32:30.555 --> 01:32:32.235
+that you can get at your hand
+
+1573
+01:32:32.575 --> 01:32:36.705
+and you can laser cut if you're interested in this kind of,
+
+1574
+01:32:36.765 --> 01:32:39.545
+uh, configuration is a material that is quite stiff
+
+1575
+01:32:39.845 --> 01:32:41.025
+so it stays in place.
+
+1576
+01:32:41.975 --> 01:32:43.465
+It's less bendable than fabric
+
+1577
+01:32:44.125 --> 01:32:45.985
+and it comes also in different thicknesses.
+
+1578
+01:32:46.165 --> 01:32:48.225
+So this is the work called RAF colada.
+
+1579
+01:32:48.485 --> 01:32:51.865
+And we had a nice activity this year in plague, uh,
+
+1580
+01:32:51.865 --> 01:32:53.065
+at the fabric conference.
+
+1581
+01:32:54.125 --> 01:32:55.265
+And you can see also,
+
+1582
+01:32:55.385 --> 01:32:58.505
+I can maybe recognize now there is a kigami signed
+
+1583
+01:32:58.565 --> 01:33:02.185
+or there is a connection, um, that is made
+
+1584
+01:33:02.185 --> 01:33:05.105
+through this arrow that allows the models to interlock
+
+1585
+01:33:05.885 --> 01:33:08.265
+in this, uh, um, in this part of the module,
+
+1586
+01:33:11.115 --> 01:33:15.165
+Of course, um, you can close the loop, uh,
+
+1587
+01:33:15.345 --> 01:33:18.285
+you can apply the same techniques, use the same vector file
+
+1588
+01:33:19.225 --> 01:33:21.685
+and uh, on your own material for example.
+
+1589
+01:33:21.945 --> 01:33:24.845
+So we're gonna approach some believe it's week
+
+1590
+01:33:24.845 --> 01:33:26.765
+seven by your materials.
+
+1591
+01:33:26.765 --> 01:33:29.285
+So you can also think of applying, uh,
+
+1592
+01:33:29.285 --> 01:33:31.685
+what you're gonna produce this week, uh,
+
+1593
+01:33:31.825 --> 01:33:33.125
+to your own materials,
+
+1594
+01:33:33.125 --> 01:33:36.125
+whether they are a gag based or gelatin base.
+
+1595
+01:33:36.465 --> 01:33:39.325
+So at the end, uh, of their life,
+
+1596
+01:33:39.625 --> 01:33:43.405
+if they com they compose it, they, um, can be discarded.
+
+1597
+01:33:43.405 --> 01:33:46.365
+If there are damaged, you can always recoup them into a new
+
+1598
+01:33:46.365 --> 01:33:50.485
+sheet and fabricate new system, new outfits, new models.
+
+1599
+01:33:51.145 --> 01:33:54.285
+And of course the same thing is also true for, um,
+
+1600
+01:33:54.565 --> 01:33:56.605
+bacteria cellose in the this case.
+
+1601
+01:33:56.625 --> 01:34:00.285
+For example, we have a, an example here of a Kobocha bank
+
+1602
+01:34:04.005 --> 01:34:06.345
+and uh, last panelist is a project
+
+1603
+01:34:06.485 --> 01:34:08.505
+of Eduard de Loreto Bio Q tools.
+
+1604
+01:34:08.525 --> 01:34:12.225
+So it's also an application, um, bio materials, uh,
+
+1605
+01:34:12.305 --> 01:34:14.665
+from Ros using the same module
+
+1606
+01:34:14.805 --> 01:34:17.065
+to produce different kinds of outputs.
+
+1607
+01:34:19.215 --> 01:34:23.085
+So a combination of biomaterials, bio fabrication
+
+1608
+01:34:23.665 --> 01:34:24.805
+and digital publication.
+
+1609
+01:34:28.425 --> 01:34:31.405
+Um, there was a concept that I showed earlier in the slides.
+
+1610
+01:34:31.465 --> 01:34:35.635
+So the distillation, the selection basically means
+
+1611
+01:34:36.465 --> 01:34:39.795
+it's a process of fitting, uh, shapes together in a combine,
+
+1612
+01:34:39.795 --> 01:34:44.035
+in a board a material, and ensuring there is no gaps
+
+1613
+01:34:44.335 --> 01:34:46.235
+or overlap at any point.
+
+1614
+01:34:47.575 --> 01:34:50.035
+Um, it's also what we call the dramatic division
+
+1615
+01:34:50.055 --> 01:34:52.555
+of a plane in tile work, Zas.
+
+1616
+01:34:52.735 --> 01:34:55.515
+And the two picture that you see here at the bottom are
+
+1617
+01:34:55.755 --> 01:34:57.720
+actually two perfect examples of the distillation.
+
+1618
+01:34:58.195 --> 01:35:00.965
+When there is no gaps, there's no space in between
+
+1619
+01:35:01.745 --> 01:35:04.725
+and there is no overlapping at all in the same way,
+
+1620
+01:35:04.725 --> 01:35:08.405
+for example, of course triangles always are perfect example
+
+1621
+01:35:08.425 --> 01:35:12.535
+of the distillations, uh, regular polygons,
+
+1622
+01:35:13.265 --> 01:35:14.815
+likes and so on.
+
+1623
+01:35:17.135 --> 01:35:21.555
+The ations is everywhere, is around us, is inside us.
+
+1624
+01:35:22.335 --> 01:35:24.685
+There are many examples from the natural world,
+
+1625
+01:35:24.685 --> 01:35:28.725
+natural phenomenon in the animals of the, in the skin
+
+1626
+01:35:28.725 --> 01:35:30.845
+of the animals, in the pattern of the animals,
+
+1627
+01:35:30.985 --> 01:35:32.725
+in the plants, in the leaves at,
+
+1628
+01:35:32.785 --> 01:35:36.565
+of course at the microscopical level and also on the minors.
+
+1629
+01:35:37.665 --> 01:35:40.045
+If we put our skin on the lens of the microscope,
+
+1630
+01:35:40.545 --> 01:35:43.245
+we might find kind a desolated oid.
+
+1631
+01:35:43.385 --> 01:35:47.365
+And this is also what happens in the small parts of the body
+
+1632
+01:35:47.745 --> 01:35:50.445
+or at the, the wing looking at the wings of a dragon fly.
+
+1633
+01:35:51.105 --> 01:35:55.325
+So I also use this, uh, slide as a reminder, uh, to think
+
+1634
+01:35:55.325 --> 01:35:57.205
+of the diversity of disciplines
+
+1635
+01:35:57.205 --> 01:35:58.685
+that we work in fabric academy
+
+1636
+01:35:59.705 --> 01:36:04.125
+and how we can also, um, take from biology, from the math,
+
+1637
+01:36:04.945 --> 01:36:08.085
+uh, from design and also from computation emerge all
+
+1638
+01:36:08.085 --> 01:36:09.285
+these aspects together.
+
+1639
+01:36:12.105 --> 01:36:13.925
+Of course, uh, we can also talk about art
+
+1640
+01:36:14.015 --> 01:36:17.085
+where tessellations have been present since Asher was
+
+1641
+01:36:17.285 --> 01:36:18.805
+creating his mar masterpieces.
+
+1642
+01:36:20.105 --> 01:36:23.525
+And there is a couple of tricks, uh, to produce this kind
+
+1643
+01:36:23.525 --> 01:36:26.565
+of tessellation using your own drawings of patterns.
+
+1644
+01:36:27.065 --> 01:36:31.365
+So Asher was using a series of, um, mathematical rules
+
+1645
+01:36:31.365 --> 01:36:33.565
+that can be also translated into symmetries.
+
+1646
+01:36:34.625 --> 01:36:38.085
+And uh, we can definitely look at the tomorrow
+
+1647
+01:36:38.265 --> 01:36:41.475
+during the tutorial in the same way.
+
+1648
+01:36:41.815 --> 01:36:44.915
+Um, in the Arab world, in the Middle East, in Spain
+
+1649
+01:36:45.135 --> 01:36:48.795
+or wherever you are in the world, maybe you have traces of
+
+1650
+01:36:49.545 --> 01:36:51.435
+Islamic patterns, Arabic patterns,
+
+1651
+01:36:51.615 --> 01:36:53.515
+and these are all definitely great
+
+1652
+01:36:53.515 --> 01:36:54.795
+example of the installations.
+
+1653
+01:36:56.975 --> 01:36:59.745
+Something that you can definitely recreate with any
+
+1654
+01:36:59.745 --> 01:37:03.265
+of the 3D modeling software, um, blender,
+
+1655
+01:37:03.985 --> 01:37:05.825
+fusion, RH or software.
+
+1656
+01:37:08.665 --> 01:37:10.535
+Let's have a look now at the patterns.
+
+1657
+01:37:10.555 --> 01:37:14.335
+So what happens behind, how can they really connect?
+
+1658
+01:37:15.515 --> 01:37:20.045
+So, um, I like to start simple
+
+1659
+01:37:20.545 --> 01:37:24.085
+and start identify, define two, um,
+
+1660
+01:37:24.585 --> 01:37:27.645
+two different patterns as you see here in the picture.
+
+1661
+01:37:28.385 --> 01:37:29.765
+And start from the female.
+
+1662
+01:37:30.065 --> 01:37:33.725
+So we can look at those, uh, two parts that get together
+
+1663
+01:37:33.905 --> 01:37:37.605
+and they block because in the end you should able to pull
+
+1664
+01:37:37.745 --> 01:37:41.925
+and they should be put, they shouldn't be assembled.
+
+1665
+01:37:42.105 --> 01:37:44.045
+So, uh, let's have a look at the female.
+
+1666
+01:37:45.025 --> 01:37:47.685
+Uh, we can take a, a circle as a reference here
+
+1667
+01:37:47.865 --> 01:37:51.165
+and see a female object, like something
+
+1668
+01:37:51.165 --> 01:37:53.885
+that has cutting lines, something
+
+1669
+01:37:53.885 --> 01:37:55.845
+that will open once laser cut
+
+1670
+01:37:56.105 --> 01:38:00.075
+or slots, something with an opening, uh, for some material
+
+1671
+01:38:00.255 --> 01:38:01.515
+to, um, be put in.
+
+1672
+01:38:02.335 --> 01:38:06.355
+And I like to look at the mail here, like, um, apart
+
+1673
+01:38:06.355 --> 01:38:09.235
+with four different, um,
+
+1674
+01:38:10.705 --> 01:38:12.355
+like t-bones, like arrows.
+
+1675
+01:38:12.615 --> 01:38:15.235
+So this is the material that will be folded
+
+1676
+01:38:15.745 --> 01:38:18.275
+like in this picture will be inserted
+
+1677
+01:38:18.465 --> 01:38:20.715
+because the textile is something flexible.
+
+1678
+01:38:20.715 --> 01:38:23.555
+And so you're allowed to do that and then will be released.
+
+1679
+01:38:24.215 --> 01:38:27.555
+And this part, because it is definitely bigger than this lot
+
+1680
+01:38:27.555 --> 01:38:30.315
+that you have, this two together will be blocked.
+
+1681
+01:38:33.195 --> 01:38:35.655
+Um, if you're ready, reach this level,
+
+1682
+01:38:35.755 --> 01:38:38.095
+you can definitely start iterating your module
+
+1683
+01:38:38.275 --> 01:38:40.295
+and create something that is actually a
+
+1684
+01:38:40.295 --> 01:38:41.615
+combination of the two together.
+
+1685
+01:38:42.195 --> 01:38:45.335
+So we have two slots for a female module
+
+1686
+01:38:45.595 --> 01:38:49.015
+and two parts for the male.
+
+1687
+01:38:49.155 --> 01:38:52.975
+So instead of producing a laser cutting two full sheets
+
+1688
+01:38:53.075 --> 01:38:54.895
+of female parts and two sheets
+
+1689
+01:38:55.515 --> 01:38:57.735
+or male parts, you can just definitely go
+
+1690
+01:38:57.735 --> 01:38:58.735
+for the third option.
+
+1691
+01:38:58.795 --> 01:39:01.055
+So you can use one module, uh,
+
+1692
+01:39:01.195 --> 01:39:02.895
+to recreate the same scenario here.
+
+1693
+01:39:04.265 --> 01:39:07.805
+And if you master any of the 2D graphic software,
+
+1694
+01:39:07.865 --> 01:39:10.485
+you can actually preview in advance how
+
+1695
+01:39:11.145 --> 01:39:13.925
+the modules can get together, what kind of assembly,
+
+1696
+01:39:14.155 --> 01:39:16.005
+what kind of configuration you can create.
+
+1697
+01:39:17.505 --> 01:39:20.845
+So this is the same two, uh, circle that you saw here
+
+1698
+01:39:20.955 --> 01:39:23.725
+that used in the previous slide, the same connection,
+
+1699
+01:39:23.985 --> 01:39:28.325
+the male and the female that's also here.
+
+1700
+01:39:28.505 --> 01:39:32.405
+So, um, what changes is just the outside of the shape
+
+1701
+01:39:32.405 --> 01:39:35.565
+that sometimes changes their system, their mood,
+
+1702
+01:39:35.565 --> 01:39:37.725
+their whole idea or their whole application.
+
+1703
+01:39:39.755 --> 01:39:42.295
+The way they connect together is basically the same.
+
+1704
+01:39:44.175 --> 01:39:47.305
+This is an example, um, gons
+
+1705
+01:39:48.905 --> 01:39:51.605
+and of course you're not limited to use only two.
+
+1706
+01:39:53.175 --> 01:39:55.795
+We see an example of stacking modules together
+
+1707
+01:39:56.015 --> 01:39:59.635
+or welcoming different shapes, not regular, more organic.
+
+1708
+01:39:59.855 --> 01:40:03.075
+So you can also add on top of each other,
+
+1709
+01:40:03.175 --> 01:40:05.755
+but also, um, in between them.
+
+1710
+01:40:05.815 --> 01:40:08.585
+On the back you can create your own system,
+
+1711
+01:40:08.725 --> 01:40:11.425
+you can cut out things, you can create fruition,
+
+1712
+01:40:11.445 --> 01:40:13.185
+you can engrave things with the laser cut.
+
+1713
+01:40:18.215 --> 01:40:20.235
+And this is also another sneak peek to
+
+1714
+01:40:20.235 --> 01:40:21.795
+what you will be asked to do this week.
+
+1715
+01:40:21.935 --> 01:40:25.395
+So, um, while uploading your file in open source secure
+
+1716
+01:40:25.395 --> 01:40:26.955
+fashion together with pictures
+
+1717
+01:40:27.415 --> 01:40:29.035
+and showcasing your beautiful government,
+
+1718
+01:40:29.035 --> 01:40:32.475
+you can actually add a couple of guidelines to somehow
+
+1719
+01:40:33.035 --> 01:40:36.195
+prescribe how to battery interlock the pieces together
+
+1720
+01:40:36.415 --> 01:40:38.115
+to recreate, uh, your project.
+
+1721
+01:40:39.135 --> 01:40:41.595
+And you can find this once again on the documentation
+
+1722
+01:40:41.595 --> 01:40:42.595
+of Jessica Stanley.
+
+1723
+01:40:44.075 --> 01:40:47.135
+And what I want to say here is that the more slots,
+
+1724
+01:40:47.135 --> 01:40:48.615
+so the marketing lines that you add
+
+1725
+01:40:48.675 --> 01:40:51.175
+and the more possibilities you are prescribing
+
+1726
+01:40:51.595 --> 01:40:53.015
+for the models to get together.
+
+1727
+01:40:54.625 --> 01:40:59.045
+And if this cuts, if the cutting line, if these lots are,
+
+1728
+01:40:59.345 --> 01:41:00.885
+uh, in the center of the model,
+
+1729
+01:41:02.115 --> 01:41:04.285
+most likely you're gonna end up with something
+
+1730
+01:41:04.285 --> 01:41:05.285
+that looks like an animals.
+
+1731
+01:41:05.545 --> 01:41:06.925
+So you're gonna have a lot of pieces
+
+1732
+01:41:07.475 --> 01:41:08.765
+layered on top of each other.
+
+1733
+01:41:17.565 --> 01:41:19.705
+And this is the video I was talking about earlier.
+
+1734
+01:41:19.885 --> 01:41:21.945
+So this is the project of ra.
+
+1735
+01:41:22.535 --> 01:41:25.535
+It's kind of a jacket that is made
+
+1736
+01:41:25.755 --> 01:41:27.375
+of three different modules.
+
+1737
+01:41:27.995 --> 01:41:32.205
+And this is, uh, I think the resolution, yeah,
+
+1738
+01:41:32.945 --> 01:41:37.275
+it's locked this to give an idea
+
+1739
+01:41:37.335 --> 01:41:39.355
+how we can assemble and the many
+
+1740
+01:41:40.525 --> 01:41:42.335
+different possibilities that we have.
+
+1741
+01:41:42.475 --> 01:41:46.895
+So we have this, uh, male part that gets folded, insert
+
+1742
+01:41:46.895 --> 01:41:50.015
+of the way inside and then gets released to block the piece.
+
+1743
+01:41:52.815 --> 01:41:56.555
+And in this way you can definitely create connections
+
+1744
+01:41:56.655 --> 01:41:59.675
+but also, uh, 3D sort of manipulations
+
+1745
+01:41:59.675 --> 01:42:02.315
+because you're bringing tensions in different
+
+1746
+01:42:02.525 --> 01:42:03.675
+parts of the module.
+
+1747
+01:42:17.575 --> 01:42:19.235
+So what is the workflow of the week?
+
+1748
+01:42:20.335 --> 01:42:22.285
+We'll definitely start with inspiration.
+
+1749
+01:42:22.345 --> 01:42:27.245
+So having an idea, translating them, um, through sketches,
+
+1750
+01:42:27.535 --> 01:42:31.445
+paper C and then moving on to digitalizing through
+
+1751
+01:42:31.505 --> 01:42:33.885
+to the vector design or 3D modeling software.
+
+1752
+01:42:34.345 --> 01:42:35.765
+You're gonna test the connection
+
+1753
+01:42:35.765 --> 01:42:38.125
+before, um, printing out on the laser
+
+1754
+01:42:38.425 --> 01:42:41.285
+or the way all your models we're gonna nest.
+
+1755
+01:42:41.745 --> 01:42:44.885
+So, so as everybody comes to the sation, we're gonna try
+
+1756
+01:42:44.885 --> 01:42:48.445
+to reduce as much as possible, all the waste,
+
+1757
+01:42:48.825 --> 01:42:50.845
+reduce also the machine time at the same time.
+
+1758
+01:42:50.985 --> 01:42:53.445
+And then we finally laser cut it and assemble it.
+
+1759
+01:42:54.345 --> 01:42:56.685
+And one of the, one of my favorite project,
+
+1760
+01:42:56.925 --> 01:43:01.405
+I think is this one by Susan that really, uh, showcases
+
+1761
+01:43:01.405 --> 01:43:03.165
+what the profit workflow looks like.
+
+1762
+01:43:05.565 --> 01:43:08.505
+Uh, we start with the idea in this case was an inspiration
+
+1763
+01:43:08.505 --> 01:43:09.905
+ticket, I believe, in a temple.
+
+1764
+01:43:10.805 --> 01:43:14.265
+And we started recreating them with very simple material.
+
+1765
+01:43:14.445 --> 01:43:17.905
+If you cannot do it on the paper, you will never be, um,
+
+1766
+01:43:17.965 --> 01:43:21.105
+be able to do it on fabric as paper really believe, um,
+
+1767
+01:43:21.525 --> 01:43:23.185
+behave like textile.
+
+1768
+01:43:23.805 --> 01:43:27.305
+So it's interesting how, um, to see also
+
+1769
+01:43:28.255 --> 01:43:33.045
+at the different steps how, um, through just the circle
+
+1770
+01:43:33.145 --> 01:43:36.325
+and a square she was able to get back to the idea.
+
+1771
+01:43:36.945 --> 01:43:39.685
+And this is what I believe is a perfect installation.
+
+1772
+01:43:39.705 --> 01:43:44.565
+So there is a module that is made of male part
+
+1773
+01:43:44.825 --> 01:43:47.485
+and a female part that allows the connection to happen
+
+1774
+01:43:47.485 --> 01:43:48.485
+between the modules
+
+1775
+01:43:48.585 --> 01:43:51.085
+and everything fits perfectly in a square.
+
+1776
+01:43:52.575 --> 01:43:56.035
+And this is how it looks like when it's laser cutted sort
+
+1777
+01:43:56.035 --> 01:44:00.115
+of rows and column and it's been clothed all over the board.
+
+1778
+01:44:01.725 --> 01:44:03.065
+And last thing to mention is
+
+1779
+01:44:03.065 --> 01:44:05.585
+that I think it's very interesting how this, uh, kind
+
+1780
+01:44:05.585 --> 01:44:06.985
+of carpet looks like in the end
+
+1781
+01:44:06.985 --> 01:44:11.345
+because you can also see in the negative part appearing this
+
+1782
+01:44:11.345 --> 01:44:13.345
+kind of cross that was actually used
+
+1783
+01:44:13.685 --> 01:44:15.465
+as inspiration for the assignment.
+
+1784
+01:44:19.495 --> 01:44:21.195
+And I also want to say
+
+1785
+01:44:21.195 --> 01:44:23.715
+that the software is definitely a matter of workflow.
+
+1786
+01:44:24.015 --> 01:44:26.395
+So I I actually use the for them together.
+
+1787
+01:44:26.395 --> 01:44:30.135
+Sometimes you have many options this week, um,
+
+1788
+01:44:30.555 --> 01:44:33.815
+you have been using for now 3D modeling software
+
+1789
+01:44:33.915 --> 01:44:36.335
+and of course vector design to nest your file.
+
+1790
+01:44:36.475 --> 01:44:40.015
+So, um, you can definitely create your own workflow
+
+1791
+01:44:40.315 --> 01:44:43.855
+or give it a try, um, to paramedic modeling, for example.
+
+1792
+01:44:44.075 --> 01:44:48.455
+So either, uh, fusion 360 or uh, glass software for Rhino
+
+1793
+01:44:49.155 --> 01:44:51.935
+or, um, one of the add-ons for blender
+
+1794
+01:44:51.995 --> 01:44:53.535
+and start doing that from scratch.
+
+1795
+01:44:54.575 --> 01:44:57.475
+The advantage of starting with the 3D modeling software is
+
+1796
+01:44:57.475 --> 01:45:00.155
+that once you have the file there, you can work for example,
+
+1797
+01:45:00.215 --> 01:45:02.355
+at the same time for the 3D printer later on,
+
+1798
+01:45:03.695 --> 01:45:05.475
+or, uh, you can do the other way around
+
+1799
+01:45:05.575 --> 01:45:09.795
+and import later on the PNG, the the SVG and the PDF
+
+1800
+01:45:10.215 --> 01:45:12.275
+and then proceeding to extrude them.
+
+1801
+01:45:14.675 --> 01:45:18.815
+Uh, couple of things were the laser cutter, uh, so
+
+1802
+01:45:19.625 --> 01:45:21.295
+we're gonna work with vector fi.
+
+1803
+01:45:21.475 --> 01:45:25.735
+So, uh, very important to set the, uh, for example,
+
+1804
+01:45:25.995 --> 01:45:28.755
+the color space of the vector
+
+1805
+01:45:28.775 --> 01:45:30.315
+design software that you'll be using.
+
+1806
+01:45:30.315 --> 01:45:31.995
+Either Inscape illustrator
+
+1807
+01:45:32.215 --> 01:45:35.995
+or any other open source software that handles, um,
+
+1808
+01:45:36.295 --> 01:45:37.475
+colors vectors.
+
+1809
+01:45:37.495 --> 01:45:42.235
+So setting them to LGB, creating of course closet loops
+
+1810
+01:45:42.375 --> 01:45:44.715
+for the laser card to be able to cut out
+
+1811
+01:45:45.295 --> 01:45:48.355
+and set the stroke line to 0.1 millimeter
+
+1812
+01:45:48.455 --> 01:45:49.995
+or hairline when possible.
+
+1813
+01:45:52.405 --> 01:45:54.815
+This is what a perfect nesting looks like.
+
+1814
+01:45:54.925 --> 01:45:56.935
+This is a project of Stephanie Johnson in
+
+1815
+01:45:56.935 --> 01:45:58.135
+Amsterdam couple of years ago.
+
+1816
+01:45:58.235 --> 01:46:01.975
+So you can see, um, the laser cutting bed
+
+1817
+01:46:02.125 --> 01:46:04.975
+with all the modules together and the outcome.
+
+1818
+01:46:07.665 --> 01:46:09.725
+So no gaps, no relapsing at all.
+
+1819
+01:46:09.945 --> 01:46:12.125
+And be sure also to remove the double lines.
+
+1820
+01:46:16.115 --> 01:46:18.695
+Uh, we are speaking about this earlier, so
+
+1821
+01:46:18.695 --> 01:46:21.455
+of course there are many ways, there are many applications
+
+1822
+01:46:21.455 --> 01:46:24.215
+that actually, uh, nowadays take care of the nesting.
+
+1823
+01:46:24.215 --> 01:46:29.095
+For us. This is more useful, um, for the CNC machine,
+
+1824
+01:46:29.115 --> 01:46:31.455
+for example, where we have also different sizes.
+
+1825
+01:46:32.375 --> 01:46:34.695
+I usually do the nesting, uh, by myself
+
+1826
+01:46:34.715 --> 01:46:37.615
+or there is a catheter, but of course you're welcome to use
+
+1827
+01:46:37.715 --> 01:46:39.055
+and try out many software
+
+1828
+01:46:39.055 --> 01:46:40.855
+that are available on the internet.
+
+1829
+01:46:41.855 --> 01:46:45.655
+SVG Nest, uh, works very good for SSVG
+
+1830
+01:46:45.735 --> 01:46:48.535
+and vector files as well as deepness to io.
+
+1831
+01:46:52.565 --> 01:46:54.705
+And finally, um, laser cutting file.
+
+1832
+01:46:57.835 --> 01:47:00.455
+Um, laser cutting will not take forever.
+
+1833
+01:47:00.845 --> 01:47:03.095
+What will take forever is actually the sample part.
+
+1834
+01:47:03.395 --> 01:47:05.735
+So, um, once you have your kit,
+
+1835
+01:47:05.875 --> 01:47:08.575
+you can explore different configuration, different ways,
+
+1836
+01:47:08.605 --> 01:47:10.495
+different applications also.
+
+1837
+01:47:10.495 --> 01:47:13.255
+So this is a very nice example of loose gers.
+
+1838
+01:47:13.485 --> 01:47:17.535
+This is our kit made of different, um, ware shapes,
+
+1839
+01:47:18.155 --> 01:47:21.655
+all the different sizes they were able to interlock, um,
+
+1840
+01:47:22.035 --> 01:47:26.425
+in different, uh, in different ways, creating also, uh,
+
+1841
+01:47:26.425 --> 01:47:27.545
+3D configurations.
+
+1842
+01:47:27.765 --> 01:47:30.225
+So at the same time when the kit, you are able
+
+1843
+01:47:30.345 --> 01:47:32.865
+to produce colored pieces, shoulder pieces,
+
+1844
+01:47:33.085 --> 01:47:34.505
+and different kinds of hus.
+
+1845
+01:47:38.795 --> 01:47:40.535
+And last thing about materials.
+
+1846
+01:47:40.555 --> 01:47:43.735
+So of course, um, there are many materials that are suitable
+
+1847
+01:47:43.835 --> 01:47:46.775
+for the laser cut, but it's also true that are materials
+
+1848
+01:47:46.965 --> 01:47:49.615
+that can contain PBC that should be banned.
+
+1849
+01:47:50.555 --> 01:47:55.175
+So anything containing PVC that is poly chloride, uh,
+
+1850
+01:47:55.395 --> 01:47:58.175
+can be toxic because it'll release chlorine
+
+1851
+01:47:58.175 --> 01:47:59.215
+gas when laser are cut.
+
+1852
+01:47:59.805 --> 01:48:02.735
+This is not, uh, harmful for the machine itself,
+
+1853
+01:48:02.755 --> 01:48:04.815
+but also for your health and for the environment.
+
+1854
+01:48:05.945 --> 01:48:09.685
+So always be sure, um, to detect the kind
+
+1855
+01:48:09.685 --> 01:48:11.165
+of material you have at your hand
+
+1856
+01:48:11.265 --> 01:48:13.485
+and try to work with a thickness, uh,
+
+1857
+01:48:13.485 --> 01:48:15.045
+between one or two millimeters.
+
+1858
+01:48:16.525 --> 01:48:18.385
+Uh, synthetic felt wood felt.
+
+1859
+01:48:18.805 --> 01:48:21.985
+Um, it's definitely good to be used for prototyping,
+
+1860
+01:48:22.315 --> 01:48:26.305
+scuba diving, fabric, print fiber, uh, velvet
+
+1861
+01:48:26.485 --> 01:48:30.995
+and also vegetable d, genuine leather when it comes
+
+1862
+01:48:31.015 --> 01:48:33.115
+to cotton linein dan name.
+
+1863
+01:48:33.585 --> 01:48:36.355
+This materials can definitely be laser cut,
+
+1864
+01:48:36.575 --> 01:48:38.595
+but they, they will tear bit.
+
+1865
+01:48:38.595 --> 01:48:39.715
+They're not very good
+
+1866
+01:48:39.715 --> 01:48:42.075
+and suitable for creating interlocking systems.
+
+1867
+01:48:43.385 --> 01:48:45.365
+You can also make use of, um,
+
+1868
+01:48:45.825 --> 01:48:48.165
+you've been talking about sustainability upcycling,
+
+1869
+01:48:48.265 --> 01:48:50.965
+so you can also start collecting fabric waste
+
+1870
+01:48:51.025 --> 01:48:52.685
+and scraps you have at your location.
+
+1871
+01:48:53.145 --> 01:48:55.485
+Always be sure of the kind of material that you have,
+
+1872
+01:48:55.825 --> 01:48:56.925
+uh, before laser cutting.
+
+1873
+01:48:57.025 --> 01:49:00.325
+The full garment, uh, biomaterials of course,
+
+1874
+01:49:00.665 --> 01:49:02.205
+um, can also be used.
+
+1875
+01:49:02.585 --> 01:49:05.245
+And what cannot be used is vinyl
+
+1876
+01:49:06.845 --> 01:49:07.965
+materials containing PBC.
+
+1877
+01:49:08.025 --> 01:49:09.885
+So foam polyester fabric
+
+1878
+01:49:10.225 --> 01:49:13.885
+and also fabrics that are made of mesh.
+
+1879
+01:49:14.425 --> 01:49:17.205
+And the ones that are made in woven, it doesn't really work,
+
+1880
+01:49:17.905 --> 01:49:19.605
+uh, for making interlocking systems.
+
+1881
+01:49:22.675 --> 01:49:25.895
+Uh, I'll not play the video, um, because we're late,
+
+1882
+01:49:25.915 --> 01:49:29.215
+but you cannot always, uh, do what we call a burn test
+
+1883
+01:49:29.875 --> 01:49:30.895
+in order to detect
+
+1884
+01:49:31.195 --> 01:49:33.495
+and understand the kind of material you have at your hand.
+
+1885
+01:49:33.675 --> 01:49:36.135
+Um, there are many tutorials, there are many tables
+
+1886
+01:49:36.165 --> 01:49:37.855
+that compare different materials
+
+1887
+01:49:37.915 --> 01:49:41.695
+or you can just do a simple trick burning a little bit
+
+1888
+01:49:41.695 --> 01:49:43.335
+of the edge of a material with a lighter
+
+1889
+01:49:43.555 --> 01:49:45.935
+and look at the color of the flame that you have.
+
+1890
+01:49:46.515 --> 01:49:50.405
+If it's green in most of the cases it'll contain B, B, C.
+
+1891
+01:49:50.505 --> 01:49:53.365
+So something that you cannot lose a cut at all.
+
+1892
+01:49:56.155 --> 01:49:58.695
+And in short, to summarize, so this is
+
+1893
+01:49:58.805 --> 01:50:00.535
+what your assignment would be.
+
+1894
+01:50:00.715 --> 01:50:03.615
+So your be asked to design prototype also with paper
+
+1895
+01:50:03.615 --> 01:50:07.135
+and scissors, your modular configurations, your modules,
+
+1896
+01:50:07.135 --> 01:50:09.215
+your garment, or whatever you want in
+
+1897
+01:50:09.215 --> 01:50:10.255
+mind that you want to make.
+
+1898
+01:50:11.395 --> 01:50:14.575
+Uh, you'll be asked to document, of course the workflow, um,
+
+1899
+01:50:14.795 --> 01:50:17.295
+the parameter, the tests on the different fabric
+
+1900
+01:50:17.835 --> 01:50:20.855
+and the laser cutting modules, but also the nesting
+
+1901
+01:50:21.235 --> 01:50:22.455
+before assembling.
+
+1902
+01:50:23.395 --> 01:50:25.575
+So it'll be asked also to upload your creation
+
+1903
+01:50:26.475 --> 01:50:28.815
+in this distributed platform, open source,
+
+1904
+01:50:28.915 --> 01:50:30.495
+so secure fashion.com
+
+1905
+01:50:31.475 --> 01:50:34.735
+and provide your best features together with a short, um,
+
+1906
+01:50:35.545 --> 01:50:37.845
+filing PDF, where you can have guidelines
+
+1907
+01:50:38.065 --> 01:50:41.605
+and prescribe everybody on how to best assemble the pieces.
+
+1908
+01:50:46.925 --> 01:50:51.625
+And I think, uh, you can get inspired by what's been there
+
+1909
+01:50:52.325 --> 01:50:56.265
+by all these, uh, creators for academies that shared, uh,
+
+1910
+01:50:56.535 --> 01:50:58.105
+with us for more than nine years.
+
+1911
+01:50:58.245 --> 01:51:03.085
+Uh, um, the creation, there is a lot of other projects
+
+1912
+01:51:03.085 --> 01:51:05.045
+that we can, uh, discuss about.
+
+1913
+01:51:06.065 --> 01:51:09.365
+And, uh, you can find all the documentation linked, um,
+
+1914
+01:51:09.545 --> 01:51:10.765
+on this great platform.
+
+1915
+01:51:10.945 --> 01:51:13.485
+So I really am looking forward
+
+1916
+01:51:13.585 --> 01:51:15.685
+to seeing your creations in a week.
+
+1917
+01:51:17.145 --> 01:51:18.875
+And, uh, thank you.
+
+1918
+01:51:20.015 --> 01:51:23.755
+You also find application linked, uh, the class archive
+
+1919
+01:51:25.365 --> 01:51:26.985
+as well as the, uh, guidelines
+
+1920
+01:51:26.985 --> 01:51:28.585
+that recap, uh, the assignment.
+
+1921
+01:51:37.695 --> 01:51:41.875
+And if, uh, there is questions you can also, um,
+
+1922
+01:51:42.175 --> 01:51:45.535
+unmute yourself or write in the chat.
+
+1923
+01:51:45.775 --> 01:51:47.575
+I was not looking at it.
+
+1924
+01:51:49.745 --> 01:51:52.435
+Yeah, so the material is the most important thing.
+
+1925
+01:51:52.435 --> 01:51:53.835
+Please, uh, double check
+
+1926
+01:52:02.535 --> 01:52:03.355
+fabric waste.
+
+1927
+01:52:03.495 --> 01:52:06.875
+It depends where you, you can bring it to the lab tomorrow.
+
+1928
+01:52:06.975 --> 01:52:08.075
+We can have a look together.
+
+1929
+01:52:11.625 --> 01:52:14.805
+Uh, tomorrow we will be meeting together again at 3:00 PM
+
+1930
+01:52:15.065 --> 01:52:16.085
+CT for our tutorial.
+
+1931
+01:52:16.265 --> 01:52:19.605
+So it can also, um, start downloading a software.
+
+1932
+01:52:20.725 --> 01:52:22.765
+I will put it again on mamos.
+
+1933
+01:52:22.765 --> 01:52:25.725
+We're gonna do something in between Fusion 360 and,
+
+1934
+01:52:25.745 --> 01:52:27.445
+and Rhino for creating a model.
+
+1935
+01:52:28.545 --> 01:52:30.365
+And we'll be also using, um,
+
+1936
+01:52:30.955 --> 01:52:33.525
+Inscape Illustrator, uh, for nesting.
+
+1937
+01:52:35.495 --> 01:52:38.835
+So you have, um, an option at least one
+
+1938
+01:52:38.835 --> 01:52:40.995
+of those four software.
+
+1939
+01:52:44.325 --> 01:52:46.255
+So we'll put, be putting the links there,
+
+1940
+01:52:46.275 --> 01:52:47.575
+we can download the software.
+
+1941
+01:52:48.035 --> 01:52:50.455
+And uh, yeah, if you don't have any questions,
+
+1942
+01:52:50.715 --> 01:52:52.735
+I'm very sorry because I know it's a bit late.
+
+1943
+01:52:57.905 --> 01:53:01.555
+So get inspired, look at the others,
+
+1944
+01:53:02.065 --> 01:53:06.635
+what has been there, look at your wardrobe
+
+1945
+01:53:12.025 --> 01:53:15.485
+and see you next week with the review on open source,
+
+1946
+01:53:15.485 --> 01:53:16.125
+secure fashion.

@@ -1,0 +1,5846 @@
+WEBVTT
+
+1
+00:00:02.900 --> 00:00:06.050
+大家好，这是第三周的
+Hello everyone. Uh, this is, uh, week, uh,
+
+2
+00:00:06.260 --> 00:00:08.290
+开源循环时尚课程。
+three open source circular fashion,
+
+3
+00:00:08.990 --> 00:00:13.050
+我们将进行一个实用教程，
+and we are going to have a helpful tutorial, uh,
+
+4
+00:00:13.110 --> 00:00:16.130
+讲解设计工作流，
+for the workflow for, for designing, uh,
+
+5
+00:00:16.230 --> 00:00:19.770
+由 Claudia Simonelli 讲解开源循环时尚的激光切割设计。
+for os circular fashion for laser cutting from Claudius Mon.
+
+6
+00:00:23.170 --> 00:00:26.880
+大家好 欢迎收看这个新教程
+Hello everyone. Welcome to this, uh, new tutorial. Uh,
+
+7
+00:00:26.880 --> 00:00:31.160
+我们开始分享我的屏幕
+we start us sharing my screen and
+
+8
+00:00:31.670 --> 00:00:34.800
+从我们昨天看到的情况中，
+with a little presentation picking up from what we saw yesterday,
+
+9
+00:00:34.990 --> 00:00:39.150
+还有佐伊的演讲 所以 当然
+also from the lecture of Zoe. So, um, of course,
+
+10
+00:00:39.150 --> 00:00:43.990
+本周的目标将提出一系列，呃，
+the objective of this week will be coming up with a series of, uh,
+
+11
+00:00:44.100 --> 00:00:48.220
+零废料、模块化设计和镶嵌。
+zero waste or modular design and de distillations. Uh,
+
+12
+00:00:48.230 --> 00:00:51.700
+当然会有激光切割
+there will be of course, uh, laser cut. Uh,
+
+13
+00:00:51.790 --> 00:00:54.180
+这些也被称为无缝模式。
+these are called also seamless pattern.
+
+14
+00:00:55.090 --> 00:00:59.100
+他们将会是开源 然后上传到我们的平台上
+They will be open source and uploaded afterwards on our platform,
+
+15
+00:00:59.100 --> 00:01:01.540
+这叫时尚 com
+which is called o fashion.com,
+
+16
+00:01:03.180 --> 00:01:05.250
+你实际上可以浏览，嗯，
+where you actually can already browse, um,
+
+17
+00:01:05.640 --> 00:01:09.050
+各种各样的模式和创作 从前额，
+wide range of patterns and creation from previous uh,
+
+18
+00:01:09.330 --> 00:01:13.210
+如果你点击他们每个人，
+students in the Fabric Academy. Uh, if you click on each of them,
+
+19
+00:01:13.310 --> 00:01:17.890
+你可以看到，嗯， 材料推荐，过程。
+you can actually see, um, the materials recommendation, the processes.
+
+20
+00:01:17.910 --> 00:01:22.730
+所以，这实际上是向其他人学习的方法 下载
+So it's actually a way to learn from the others downloading the
+
+21
+00:01:22.730 --> 00:01:25.650
+并经历这种方式，
+pattern, and also experience this kind of way of,
+
+22
+00:01:25.710 --> 00:01:30.530
+组装和拆卸不同的模块 来创造更大的，嗯，
+of assembling and dis assembling different modules to create bigger, um,
+
+23
+00:01:30.530 --> 00:01:35.050
+进一步创作。
+further creations. Uh,
+
+24
+00:01:35.230 --> 00:01:40.210
+当然，所以你也可以看到新的更新 和新的，嗯，添加。
+of course, so you can also see the new updates and the new, um, additions.
+
+25
+00:01:40.570 --> 00:01:43.010
+我本周也建议
+I also suggested during this week, uh,
+
+26
+00:01:43.240 --> 00:01:47.890
+你们大部分人已经可以拍好照片上传了 呃
+most of you will be already able to take nice pictures and upload, uh,
+
+27
+00:01:48.550 --> 00:01:52.170
+嗯，你的档案和文档图片。
+um, your files along with documentation pictures.
+
+28
+00:01:55.560 --> 00:01:58.920
+我也想从昨天做的那事上接过来
+I also want to pick up from what, uh, uh, done yesterday.
+
+29
+00:01:58.940 --> 00:02:03.640
+当然，这是工作流程。
+So of course this is gonna be the workflow. Uh, we're gonna start, uh, also, um,
+
+30
+00:02:03.640 --> 00:02:08.200
+今天晚些时候用一些软件进行数字设计的实验.
+later on today with a couple of software to experiment with digital design.
+
+31
+00:02:08.860 --> 00:02:12.760
+我们上周还看到 我们主要要使用矢量
+We also saw from last week that we're gonna mainly basically use the vectors
+
+32
+00:02:12.770 --> 00:02:14.440
+既然我们要用激光切割器
+since we're gonna use the laser cutter.
+
+33
+00:02:15.370 --> 00:02:17.980
+这是过去学生的榜样，嗯，
+This is an example from past student to see, um,
+
+34
+00:02:18.280 --> 00:02:22.500
+我们从2D开始 走向真正的装配服装
+how from two D we're moving towards a real assembled garment.
+
+35
+00:02:23.320 --> 00:02:28.070
+这当然是零浪费，我想说，是的，
+Uh, this, of course, it's completely zero waste. Uh, I would say, yeah,
+
+36
+00:02:28.350 --> 00:02:32.760
+软件是一个工作流程问题， 所以它并不真正重要的是，嗯，
+software is a matter of workflow, so it doesn't really matter which, um,
+
+37
+00:02:33.340 --> 00:02:36.880
+基于矢量设计的程序 或三个D建模器 你实际使用，
+vector design based program or three D modeler you're actually using,
+
+38
+00:02:37.220 --> 00:02:40.080
+他们都会带领你，呃，
+all of them are gonna lead you, uh,
+
+39
+00:02:41.140 --> 00:02:45.280
+说到这周的目标 你其实可以
+to the objective of the week, let's say. Uh, and you can actually, um,
+
+40
+00:02:45.940 --> 00:02:48.750
+试着把它们融合在一起，嗯，
+try to blend them together and, uh,
+
+41
+00:02:49.740 --> 00:02:53.680
+创建矢量之间的这种协作，但也创建模型软件.
+create this collaboration between Vector, but also the model software.
+
+42
+00:02:55.450 --> 00:02:58.550
+当然 对于那些更熟悉矢量设计的人来说
+So of course, for the ones that are more familiar with vector based design,
+
+43
+00:02:58.630 --> 00:03:02.120
+我建议接下来使用 Illustrator 或 Inkscape，
+I would, I would recommend, uh, to keep going with Illustrator on Inscape,
+
+44
+00:03:02.620 --> 00:03:04.720
+开源版本，呃，
+the open source version, uh,
+
+45
+00:03:04.780 --> 00:03:09.280
+但从参数模型的角度来说，Fusion其实很有帮助
+but also Fusion in terms of parametric modeling actually is helpful
+
+46
+00:03:09.580 --> 00:03:11.840
+如果我们想开始，呃，呃，
+if we want to start, uh, uh,
+
+47
+00:03:11.840 --> 00:03:15.360
+直接考虑政府的实际规模 所以规模
+thinking directly in the real size of the government. So for the scale,
+
+48
+00:03:15.380 --> 00:03:19.600
+一对一其实是我的建议 当然
+one to one is actually, uh, my recommendation and of course,
+
+49
+00:03:19.850 --> 00:03:24.560
+Rhino或更好的软件 那些已经有点熟悉，
+rhino or better software for the ones that are already a little bit familiar,
+
+50
+00:03:25.460 --> 00:03:28.180
+用这种软件
+uh, with this kind of software. Uh,
+
+51
+00:03:28.260 --> 00:03:32.620
+我想这里的例子苏珊娜 从几年前在法国，呃，
+I think the example here of Susanna from a couple of years ago in France, uh,
+
+52
+00:03:33.100 --> 00:03:34.300
+其实，嗯，
+actually, um,
+
+53
+00:03:35.250 --> 00:03:39.110
+打破所有导致这个步骤，呃，
+breaks down all the steps that lead to this, uh,
+
+54
+00:03:39.680 --> 00:03:43.910
+交织的挂毯
+interwoven kind of, um, tapestry. So, um,
+
+55
+00:03:44.510 --> 00:03:49.110
+我想我们这周的大部分工作 肯定都是为了找到一个伟大的
+I think most of our work this week will be definitely on finding a great
+
+56
+00:03:49.110 --> 00:03:49.943
+灵感
+inspiration.
+
+57
+00:03:51.090 --> 00:03:55.590
+我想说，Ani的其中之一 实际上是最好的例子 同时展示，
+And I would say the one of Ani is actually the best example to also showcase,
+
+58
+00:03:56.450 --> 00:03:57.283
+额...
+um,
+
+59
+00:03:57.690 --> 00:04:02.190
+如何把灵感从纸上 一直转换成零浪费
+how this inspiration can be translated from paper all the way to a zero waste,
+
+60
+00:04:02.890 --> 00:04:07.720
+为激光切割机准备的设计。例如这里，
+uh, design from the laser catheter. So, as you can see here, for example,
+
+61
+00:04:09.530 --> 00:04:10.900
+有一个零平方。
+there's a zero squares.
+
+62
+00:04:11.040 --> 00:04:15.140
+因此，她实际上能够重新设计 在那里，她看到在一个寺庙
+So she was actually able to redesign where she saw in a temple
+
+63
+00:04:15.690 --> 00:04:20.660
+翻译为纸，然后到 感觉最小化所有废物，
+translate to paper, and then afterwards onto felt minimizing all the waste,
+
+64
+00:04:20.880 --> 00:04:24.140
+尽可能多，但是机器时间
+uh, as much as possible. But also the machine times,
+
+65
+00:04:26.830 --> 00:04:30.370
+嗯，我们昨天看到一点点， 有原则背后，
+uh, we saw yesterday a little bit, there are the principle behind,
+
+66
+00:04:30.550 --> 00:04:33.370
+但记住还有...
+but it's good to keep in mind that there's are also, um,
+
+67
+00:04:34.120 --> 00:04:35.290
+它们都互相关联
+they all relate to each other.
+
+68
+00:04:36.200 --> 00:04:40.300
+所以，我们当然在谈论 很多关于零浪费，嗯，
+So of course we are talking about a lot about zero waste, um,
+
+69
+00:04:40.530 --> 00:04:45.020
+模块化时装、镶嵌，以及
+modular fashion tessellation, and also, um,
+
+70
+00:04:45.660 --> 00:04:46.860
+无缝互锁衣服.
+seamless interlocking garments.
+
+71
+00:04:51.180 --> 00:04:56.000
+嗯，他们只是，呃，嗯， 小灵感说话 从昨天到，嗯，
+Uh, they're just, uh, um, little inspirations speaking up from yesterday to, um,
+
+72
+00:04:56.630 --> 00:05:00.800
+仅仅给出一些评论 关于最佳做法，呃，
+just give some comments about best practices, uh,
+
+73
+00:05:01.450 --> 00:05:05.920
+加入，呃， 看去年的学生，例如，
+joins, uh, looking at the students of last year, for example,
+
+74
+00:05:06.030 --> 00:05:09.800
+那是摩尔多瓦的例子 我想我们可以
+that was an example from Moldova. Uh, I think we can,
+
+75
+00:05:09.900 --> 00:05:14.200
+我们可以调整，有时甚至我们有一个非常基本的模式，
+we can align how sometimes even we have a very basic pattern,
+
+76
+00:05:14.970 --> 00:05:19.920
+这其实是自我重复，所以只是一个圆圈。
+which is actually a repetition of this itself. So just a circle. Uh,
+
+77
+00:05:20.100 --> 00:05:22.120
+我们还可以，呃，
+we can still, uh,
+
+78
+00:05:22.230 --> 00:05:26.840
+大量研究如何把这些部件组装在一起 来创建甚至三个D
+work a lot on how these pieces can be assembled together to create even three D
+
+79
+00:05:27.000 --> 00:05:30.320
+结构，或两个D和三个D同时结合。
+structures, or two D and three D that combine at the same time.
+
+80
+00:05:31.300 --> 00:05:35.840
+这里其实很有趣 这个袋子是如何可以关闭自己的。
+And here is actually interesting how this bag is actually able to close itself.
+
+81
+00:05:38.640 --> 00:05:43.100
+我在上面放了一些关键词
+Um, I put some keywords here on top. So, uh, for example,
+
+82
+00:05:43.370 --> 00:05:48.020
+模拟是本周很有帮助的工具
+also, uh, simulations are tools that are help quite helpful for this week.
+
+83
+00:05:49.240 --> 00:05:53.020
+嗯，这是使用，我想，一个矢量软件 例如，
+Um, this is using, I guess, a vector software like, for example,
+
+84
+00:05:53.050 --> 00:05:57.020
+Illustrator和已经在软件里玩过
+illustrator and already playing inside the software,
+
+85
+00:05:57.980 --> 00:05:59.800
+嗯，也是一个方法，
+um, is also a way to,
+
+86
+00:06:00.620 --> 00:06:05.400
+从形状的角度思考 并分配不同的颜色 会引导你，嗯，
+to think in terms of shape and assign different colors will lead you to, um,
+
+87
+00:06:05.550 --> 00:06:10.160
+进一步探索以不同方式配置和
+explore further the way in different ways of configure and
+
+88
+00:06:10.440 --> 00:06:14.470
+重组，呃，你的形状，呃，
+reconfigure, uh, the shapes that you have, uh,
+
+89
+00:06:14.510 --> 00:06:18.830
+分层是另一种技术 所以在这种情况下
+layering is another technique. So in this case, um,
+
+90
+00:06:19.130 --> 00:06:22.630
+我们以前和过去都见过，呃，
+we also saw it previously and in the past tutorial, uh,
+
+91
+00:06:23.250 --> 00:06:28.230
+因此，我们正在从更多的，呃， 让我们说几何形状 变成更多的，嗯，
+so we are moving from more, uh, let's say geometrical shape into more, um,
+
+92
+00:06:28.570 --> 00:06:32.950
+液体和有机物 当然 灵感可以...
+fluids and organic ones. So of course, uh, inspirations can be, uh,
+
+93
+00:06:33.140 --> 00:06:34.430
+还有花本性
+also flower nature.
+
+94
+00:06:34.650 --> 00:06:39.270
+而在这种情况下， 也很有趣 看到如何在一个猫，
+And in this case is also interesting to see how in one single cat,
+
+95
+00:06:39.290 --> 00:06:43.030
+一个单一的旅程 我们可以将两块或多块连在一起
+one single journey we can actually interlock two or more pieces together.
+
+96
+00:06:43.860 --> 00:06:48.560
+这当然也取决于材料的厚度，但是，呃，
+It also depends, of course, on the thickness of the material, but also, uh,
+
+97
+00:06:48.740 --> 00:06:52.660
+在图案上。
+on the pattern. Adjo itself, uh,
+
+98
+00:06:52.800 --> 00:06:57.460
+也想说一个零浪费的方法，嗯，
+wanted to say that also a zero waste approach, um,
+
+99
+00:06:57.800 --> 00:07:00.580
+可用于更大的工作表。例如，
+can be applied to a larger sheet. For example,
+
+100
+00:07:01.150 --> 00:07:04.940
+去年巴塞罗纳有一个例子
+there is example of ve from Barcelona of last year, uh,
+
+101
+00:07:04.940 --> 00:07:08.620
+这当然是完全零 废物不是由不同的模型制造的
+where this is of course completely zero waste is not made of different models
+
+102
+00:07:08.980 --> 00:07:10.740
+在一起，但仍，呃，
+together, but still, uh,
+
+103
+00:07:10.740 --> 00:07:13.940
+有一个单一的图案 然后你可以看到这里的底部，
+there is one single pattern then you can see here at the bottom,
+
+104
+00:07:15.280 --> 00:07:17.060
+只不过...
+and it's just, uh, uh,
+
+105
+00:07:17.130 --> 00:07:20.740
+用激光打印出来 在表上面。
+printed out with the laser on top of the sheet.
+
+106
+00:07:20.840 --> 00:07:22.620
+结果是，呃，
+So the result is this, uh,
+
+107
+00:07:22.620 --> 00:07:25.780
+那种可折叠的结构 你实际上可以穿作为一件裙子。
+kind of collapsible structure that you can actually wear as a dress.
+
+108
+00:07:29.920 --> 00:07:34.630
+嗯，我稍后会分享幻灯片 这样你就可以，呃，
+Um, I'll share the slides later so you can actually, uh,
+
+109
+00:07:34.720 --> 00:07:37.510
+按下链接，查找所附的所有文件。
+press on the link and find all the documentation attached.
+
+110
+00:07:38.860 --> 00:07:41.500
+我觉得骑自行车也是这个星期的关键词
+I think upcycling is also a key word for this week,
+
+111
+00:07:41.560 --> 00:07:43.780
+有个汉宁的例子
+and there was an example of Hanin, um,
+
+112
+00:07:44.260 --> 00:07:48.660
+几年前在这里的科技工作 她骑自行车，嗯，
+a couple of years ago here in tech works that she was up cycling, um,
+
+113
+00:07:49.020 --> 00:07:53.860
+一个非常大的窗帘 从房子 用天鹅绒做 并获得灵感
+a very big curtain from the house that was made in velvet and getting inspired
+
+114
+00:07:53.930 --> 00:07:55.620
+从海洋生物。
+from sea creatures.
+
+115
+00:07:55.640 --> 00:07:59.660
+海洋实际上能够工作，嗯，
+And the ocean was actually able to work, um,
+
+116
+00:08:00.240 --> 00:08:04.180
+试探这种窗帘 还有利用边缘
+to testate this kind of curtain. Also using the edge,
+
+117
+00:08:04.360 --> 00:08:06.420
+不只是前方的图案，
+not only just the front of the back of the pattern,
+
+118
+00:08:06.520 --> 00:08:10.740
+还有厚度本身 来创造这种垂直的，呃，
+but also the thickness itself to create this kind of vertical, uh,
+
+119
+00:08:11.100 --> 00:08:15.590
+配置。因此，如果你探索这个， 例如，在循环时尚，
+configuration. So if you explore this, for example, on a circular fashion,
+
+120
+00:08:15.650 --> 00:08:18.390
+您也可以找到所有不同步骤的小册子。
+you can also find the booklet with all the different steps.
+
+121
+00:08:19.170 --> 00:08:23.070
+如果你可以的话，这个也不错，嗯，
+And this is something that can be also nice if you're able to, and, uh,
+
+122
+00:08:23.070 --> 00:08:25.030
+如果你能在一周内上传
+if you manage to upload it during the week,
+
+123
+00:08:26.890 --> 00:08:31.460
+另一种技术可以和日本艺术家Kigami有关
+another technique can be related to the kigami, the Japanese of art,
+
+124
+00:08:31.680 --> 00:08:35.660
+剪折纸，这是...
+of, uh, cutting a folding paper. And this is the,
+
+125
+00:08:35.740 --> 00:08:38.380
+我认为最好的例子 是由蒂安娜。
+I think the best example is given by Tiana.
+
+126
+00:08:39.120 --> 00:08:43.810
+然后她明显被哈迪德和建筑形状所监视
+Then she was clearly spied by the hadid and architectural shapes to
+
+127
+00:08:44.080 --> 00:08:47.890
+将关节和图案结合起来。所以这里的底部，再次，
+combine a joint together with a pattern. So here the bottom, again,
+
+128
+00:08:47.890 --> 00:08:51.410
+有一个很好的例子，呃，加入。
+there is a nice example, uh, of join.
+
+129
+00:08:52.420 --> 00:08:55.440
+一个模块重复，实际上，嗯，
+And one single module repeated can actually, actually, um,
+
+130
+00:08:55.540 --> 00:09:00.320
+创造这样的契约，呃， 一个有趣的配置，
+create this kind of deed, uh, an interesting configuration,
+
+131
+00:09:02.550 --> 00:09:04.530
+嗯，对于那些已经
+um, for the ones that are already
+
+132
+00:09:06.160 --> 00:09:09.610
+也建议继续探索
+also suggest to keep going and explore, uh,
+
+133
+00:09:09.610 --> 00:09:14.050
+不同的滑动器和可能性。
+different sliders and possibility. That was the work of a tool, um,
+
+134
+00:09:14.120 --> 00:09:16.370
+几年前也从科技公司买的
+from tech as well a couple of years ago.
+
+135
+00:09:16.630 --> 00:09:19.890
+我很高兴看到她...
+And I think here is nice to see how she, um,
+
+136
+00:09:20.540 --> 00:09:22.370
+添加这种密度参数 。
+added this kind of parameter of density.
+
+137
+00:09:22.630 --> 00:09:26.050
+所以她控制着不同目标之间的空间
+So she was controlling the space in between the different gons.
+
+138
+00:09:27.500 --> 00:09:32.320
+再说一次，如果你点击照片， 你会看到，呃，全面探索。
+And again, if you click on the picture, you gonna see, uh, the full exploration.
+
+139
+00:09:34.280 --> 00:09:37.620
+嗯，一个话题 同时，嗯，
+Um, one topic also to, um,
+
+140
+00:09:37.930 --> 00:09:41.620
+说到的服务是 设计联合，
+that service to be talking about is to engineer the joint,
+
+141
+00:09:43.030 --> 00:09:46.970
+比如说 材料的厚度
+um, taking top count, for example, the, uh, thickness of the material,
+
+142
+00:09:46.990 --> 00:09:50.370
+还有你总能改进的形状，嗯，
+but also the shape you can always improve, um,
+
+143
+00:09:51.550 --> 00:09:54.530
+两块是怎样连接在一起的，还是三块.
+how the two pieces are connected together, or the three pieces.
+
+144
+00:09:55.190 --> 00:09:59.100
+所以，这是一个例子 可能你也看到，嗯，
+So this is an example of might where you also see, um,
+
+145
+00:09:59.440 --> 00:10:04.420
+她如何从连接两块 一路应用，嗯，
+how she moved from connecting two pieces all the way to apply, um,
+
+146
+00:10:04.760 --> 00:10:09.180
+然后在一件T恤的不同部分克隆一个单关节 来创造，呃，
+and cloning a single joint on different part of one t-shirt to create, uh,
+
+147
+00:10:09.650 --> 00:10:14.340
+不同的交织配置趋势，不是，呃，
+different interwoven configurations trend, not, uh,
+
+148
+00:10:14.340 --> 00:10:18.840
+完全对称，比如说，从前面或后面。
+completely symmatic, for example, from the front or the back. So in this case,
+
+149
+00:10:18.840 --> 00:10:21.880
+比如说，她把床单当作游乐场
+for example, she's using a sheet as a playground.
+
+150
+00:10:22.420 --> 00:10:24.760
+所以，她已经同意在哪里，
+So she has kind of agreed where the,
+
+151
+00:10:24.820 --> 00:10:29.340
+她可以玩正负的空间。
+she can play with positive and negative spaces. Uh,
+
+152
+00:10:29.560 --> 00:10:34.420
+关节也可以是装饰 我们有很多学生的例子
+joints can also be decoration. We have many examples in the students. Um,
+
+153
+00:10:34.900 --> 00:10:38.740
+我最喜欢的就是这个月亮面孔
+a favorite of mine, I think is this one, is the moon faces, uh,
+
+154
+00:10:38.740 --> 00:10:41.900
+很明显的灵感来自月球
+clearly inspired by, um, by the moons.
+
+155
+00:10:43.290 --> 00:10:45.230
+我觉得很有趣...
+And I think it's interesting how, um,
+
+156
+00:10:45.260 --> 00:10:49.350
+安娜正在翻译和重新设计这种...
+Anna in this case was translating and redesigning this kind of, uh,
+
+157
+00:10:50.410 --> 00:10:51.243
+额...
+um,
+
+158
+00:10:52.170 --> 00:10:55.970
+月球上的配置成一个图案，用作组合.
+configuration on the moon into a pattern to be used as a join.
+
+159
+00:10:56.110 --> 00:10:58.770
+甚至连接更大的床单，
+And even connecting bigger sheets together,
+
+160
+00:11:01.540 --> 00:11:04.920
+比如说，加入也可以和品牌有关
+um, joins can also relate to branding, for example.
+
+161
+00:11:05.180 --> 00:11:09.720
+这是Lara校区的情况，你第一次看到，嗯，
+And this is the case of a Lara campus, where you saw on first time, um,
+
+162
+00:11:10.780 --> 00:11:15.760
+介绍一下 说说讲故事的概念吧
+um, introducing, let's say the, um, concept of storytelling. So it's nice.
+
+163
+00:11:15.940 --> 00:11:19.280
+嗯，我想说画可以 由两个不同的元素塑造。
+Uh, I would say the drawing can be shaped by two different element.
+
+164
+00:11:20.720 --> 00:11:23.500
+例如，我们有一个凹连接件和一个凸连接件。
+And we have a female and a male, for example. Um,
+
+165
+00:11:23.920 --> 00:11:28.820
+他们可以编曲和代表
+the moment interlock each other. They're actually able to compose and represent,
+
+166
+00:11:28.840 --> 00:11:29.673
+额，嗯，
+uh, um,
+
+167
+00:11:30.100 --> 00:11:34.660
+可以在具体部分应用的标志或有趣的设计，
+a logo or an interesting design that can be applied in specific parts,
+
+168
+00:11:35.800 --> 00:11:40.300
+嗯，一个床单，呃，一个小马 和这个案例的例子，呃，
+um, of a sheet, uh, of a poncho and example in this case, uh,
+
+169
+00:11:40.540 --> 00:11:45.280
+鱼或项目的标志，所以那是一只小马，嗯，
+a fish or a logo of the project. So that was a pon that was, um,
+
+170
+00:11:45.430 --> 00:11:50.040
+所以我也给你留下了链接
+raising awareness about ocean. So I also leave you the link, uh,
+
+171
+00:11:50.260 --> 00:11:53.880
+以进一步探索这个故事。
+to explore further the story. Uh,
+
+172
+00:11:54.280 --> 00:11:59.200
+个人网格也可以探索。
+personal grids can also be explored. And, um, modular heritage, I think, um,
+
+173
+00:11:59.420 --> 00:12:03.320
+至少对于这个实验室来说 技术工作是一个话题 我们，
+at least for this lab here in tech works is a topic that we,
+
+174
+00:12:03.530 --> 00:12:04.600
+每年我们探索。
+every year we explore.
+
+175
+00:12:05.710 --> 00:12:09.960
+这是米亚姆在任务期间最后的项目
+This is the final project of Miam that was actually born during the assignment
+
+176
+00:12:09.960 --> 00:12:11.800
+第三个星期，这里，
+of the third week. And here's,
+
+177
+00:12:12.380 --> 00:12:16.500
+所以她把社区带入项目的方式，嗯，
+so the way she brings the community inside the project, um,
+
+178
+00:12:18.080 --> 00:12:22.190
+以数字化的方式重建巴勒斯坦刺绣
+recreating the Palestinian embroidery in a more, um, digital way.
+
+179
+00:12:24.010 --> 00:12:28.790
+比如说，她可以用同一个网格来做其他不同的图案。
+So for example, she could use the same grid for, um, other different patterns.
+
+180
+00:12:28.810 --> 00:12:30.750
+她还设计了，嗯，
+And she also crafted, um,
+
+181
+00:12:31.220 --> 00:12:34.990
+这种藏品显然来自我们自己的遗产。
+this kind of collections clearly inspired by our own heritage.
+
+182
+00:12:36.670 --> 00:12:40.290
+嗯，你当然看到了阿拉的例子， 而且，嗯，
+Um, of course you saw the example of Allah, and it's also, um,
+
+183
+00:12:40.420 --> 00:12:43.850
+伟大的工程例子 关节，还有，嗯，
+great example of engineering the joints and also, um,
+
+184
+00:12:43.900 --> 00:12:47.170
+印着这种故事 在整个项目。
+imprinting this kind of storytelling all over the project.
+
+185
+00:12:47.790 --> 00:12:50.130
+如你所见，在这个叶子，嗯，
+So as you can see here in this leaf, um,
+
+186
+00:12:50.390 --> 00:12:54.950
+他从一个纯正的平面图案，呃，
+he was shifted from a pure square pattern, uh,
+
+187
+00:12:55.130 --> 00:12:58.310
+一路嵌入不同的，嗯，
+all the way to embedding different, um,
+
+188
+00:12:58.900 --> 00:13:01.670
+玛丽时尚史上典型的动机
+motives that were typical from Mary fashion history.
+
+189
+00:13:04.460 --> 00:13:06.200
+所以她开始，嗯，
+So she was starting, um,
+
+190
+00:13:06.230 --> 00:13:10.480
+平坦地读了方块 然后渐渐地伸展
+just having a plain read of squares and then step by step iterating,
+
+191
+00:13:11.580 --> 00:13:13.520
+有些地方 比如说
+uh, in some parts. For example,
+
+192
+00:13:13.550 --> 00:13:17.880
+在这里你已经可以看到这种花 或太阳，
+here already you can see this kind of flowers or the sun,
+
+193
+00:13:18.340 --> 00:13:21.760
+这些都回溯到切尔克斯传统服饰。
+and all of them go back to the traditional dress code of secretions.
+
+194
+00:13:25.370 --> 00:13:29.310
+最后一个图案列表 也有可能包含不同的材料
+Um, last pattern list. Uh, it's also possible to include different materials.
+
+195
+00:13:29.310 --> 00:13:33.710
+所以我们，嗯，邀请你 探索不仅连接，
+So we also, um, invite you to explore not only connections,
+
+196
+00:13:33.850 --> 00:13:37.300
+但是，嗯，举个例子，
+but uh, um, for example,
+
+197
+00:13:37.360 --> 00:13:42.060
+你有一个可以连接到你的设计 或可能是
+you have something to upcycle that can connect somehow to your design or can be
+
+198
+00:13:42.060 --> 00:13:44.820
+我们这里，嗯，
+integrated. And here we have, um,
+
+199
+00:13:45.100 --> 00:13:48.860
+一个伟大的例子 从我们有它今年做的 由
+a great example from the bootcamp we had it made this year that was made by
+
+200
+00:13:48.860 --> 00:13:53.070
+参与者，嗯，完全从零开始。
+participants, um, completely from scratch.
+
+201
+00:13:53.730 --> 00:13:57.110
+我们循环这种睡衣帐篷
+We upcycle this kind of bedwin tent. Uh,
+
+202
+00:13:57.110 --> 00:14:01.430
+实验室里有张大床单 所以实际上一切都是...
+it was a large sheet available at the lab, so everything is actually, uh,
+
+203
+00:14:01.430 --> 00:14:06.290
+零浪费 基地是方形的 其余是金色的
+zero waste. The base was square, um, and the rest is gold. That was, uh,
+
+204
+00:14:06.630 --> 00:14:11.630
+在墙上，呃，在实验室。
+in the wall here, uh, at the lab. Um,
+
+205
+00:14:13.040 --> 00:14:15.980
+我马上回Ellation 当然
+I'm going back one second to Ellation. And of course,
+
+206
+00:14:15.980 --> 00:14:20.260
+昨天，我们得知，这是一个过程 固定的形状在一起，
+yesterday we had learned that was a process of fixing the shape together,
+
+207
+00:14:20.800 --> 00:14:24.780
+完全没有重叠的空隙
+of tiling completely a plane without gaps of, um, overlapping.
+
+208
+00:14:26.790 --> 00:14:29.850
+呃，阿舍，呃，是这里的主人。
+Uh, Asher, uh, was the master in this.
+
+209
+00:14:30.630 --> 00:14:35.490
+现在我们实际上可以做，呃，我们自己 在一瞬间的事情，呃，嗯，秒。
+And now we are actually able to do, uh, ourselves in a matter, uh, of seconds.
+
+210
+00:14:36.070 --> 00:14:40.450
+因此，我们实际上能够解码，呃， 这种模式回到数学。
+So we are actually able to decode, uh, this kind of patterns going back to math.
+
+211
+00:14:41.070 --> 00:14:45.570
+有一个不错的方法，呃，还有空间 在网格上，
+And there's a nice way, uh, there also space on the grid,
+
+212
+00:14:45.660 --> 00:14:50.450
+角度上的空间，纯粹的数学上的空间，是适用于每一个，
+space on angles, space on pure math. It's the same one that applied to every,
+
+213
+00:14:50.550 --> 00:14:54.160
+例如，阿拉伯图案，还有，嗯，
+for example, Arabic patterns and also, um,
+
+214
+00:14:55.690 --> 00:14:58.920
+嗯，所有的戏剧性的 全世界。
+uh, all the dramatical ones all over the world. Um,
+
+215
+00:14:59.150 --> 00:15:03.880
+这里有一个图表 也清晰地，比如，用颜色
+here is a schematic also made a clear, for example, into colors
+
+216
+00:15:05.820 --> 00:15:08.360
+或我们能看到的东西，嗯， 一点点后。
+or what we can actually see, uh, a little bit later.
+
+217
+00:15:09.220 --> 00:15:13.730
+Inkscape 或 Illustrator 都能创建
+So either Inscape or Illustrator can actually create, uh,
+
+218
+00:15:14.090 --> 00:15:18.130
+像这样的配置 对于那些想探索，呃，零浪费，
+configurations like this for the ones that want to explore, uh, zero waste,
+
+219
+00:15:18.990 --> 00:15:23.270
+嗯，嗯，图案，比如说，为了制造，
+um, uh, pattern. For example, for the fabrication,
+
+220
+00:15:23.270 --> 00:15:27.630
+这显然很重要 基本上通过原则
+this is something clearly important that basically through principles to take
+
+221
+00:15:27.630 --> 00:15:31.870
+第一，是否通过翻译实现异化？
+into account. One, is it isation through translation? That means,
+
+222
+00:15:32.590 --> 00:15:36.170
+我们有一个起点，比如说，这里是一个广场
+uh, we have a starting point. This can be, um, a square, for example.
+
+223
+00:15:36.470 --> 00:15:40.210
+上面发生的事情 我们把它带到底部
+And what happens on top, uh, we take it to the bottom.
+
+224
+00:15:40.320 --> 00:15:43.090
+右边发生什么，我们把它左边。
+What happens on the right, we take it to the left.
+
+225
+00:15:43.430 --> 00:15:47.610
+所以，如果我输出 除了广场 我拖它一路到底部，
+So if I export apart from the square and I drag it all the way to the bottom,
+
+226
+00:15:48.030 --> 00:15:51.680
+我们做同样的事情，呃， 从左到右，
+we do the same thing on, uh, from left to right,
+
+227
+00:15:52.540 --> 00:15:53.960
+基本上我有一个形状
+and I basically have a shape
+
+228
+00:15:56.360 --> 00:16:00.090
+我可以克隆到不同的行 并创建一个模式。
+that I can clone onto different rows and create a pattern.
+
+229
+00:16:00.900 --> 00:16:03.650
+我们稍后再谈
+We're gonna have a little, uh, look later.
+
+230
+00:16:05.190 --> 00:16:08.490
+同样的事情，呃，例如在三角形的底部。
+And the same thing happens, uh, for example, on the base of triangle.
+
+231
+00:16:08.590 --> 00:16:13.330
+因此，在这种情况下，我们可以旋转一个形状 应用这个，呃，呃，
+So in this case, we can rotate a shape and applying this, uh, uh,
+
+232
+00:16:13.400 --> 00:16:15.410
+像三角形一样 所以60度
+like a triangle. So 60 degrees,
+
+233
+00:16:15.630 --> 00:16:20.170
+我们可以有一个形状， 铺设和完全填满，
+we can have a shape that teates and completely fills,
+
+234
+00:16:20.590 --> 00:16:21.450
+嗯，我们的飞机。
+uh, our plane.
+
+235
+00:16:25.680 --> 00:16:30.380
+这个也是用 Illustrator 完成的，遵循相同的工作流。
+This again, was done illustrator, and follows the same workflow.
+
+236
+00:16:37.020 --> 00:16:39.130
+有一个很好的，呃，在线发电机，
+There is a nice, uh, online generator,
+
+237
+00:16:39.270 --> 00:16:44.010
+我敢打赌，还有许多其他 你可以找到，嗯，只是浏览在线。
+and I bet there are many others that you can find, um, just browsing online.
+
+238
+00:16:45.100 --> 00:16:47.920
+呃，在这里你可以只是玩 一个特定的形状，
+Uh, here you can just play with a given shape,
+
+239
+00:16:47.920 --> 00:16:52.360
+就像一个三角形的矩形 在Gon， 通过编辑角 在边缘，
+like a triangle rectangle on gon, and by editing the corners on the edge,
+
+240
+00:16:53.020 --> 00:16:57.520
+你实际上能够自动，呃， 创建这种，呃，
+you actually able automatically to, uh, create this kind of, uh,
+
+241
+00:16:57.680 --> 00:17:02.000
+因此，它也是，呃，
+patterns into colors or three colors. So it's also, uh,
+
+242
+00:17:02.000 --> 00:17:04.040
+很高兴得到第一个，呃，
+very good to get the first, uh,
+
+243
+00:17:04.650 --> 00:17:09.030
+进入镶嵌的世界。当然，
+steps into the words of tessellation. Of course,
+
+244
+00:17:09.090 --> 00:17:14.030
+您可以探索自己的网格 并创建不同的创新
+you can explore your own grid and also create different innovations for
+
+245
+00:17:14.140 --> 00:17:15.750
+有很多图案
+many patterns. And
+
+246
+00:17:17.870 --> 00:17:22.110
+你真正应用到颜色的那一刻 就是你能看到，呃，
+the moment you really apply to colors is the moment you can see, uh,
+
+247
+00:17:22.210 --> 00:17:24.550
+不仅是单一模块，还有大局
+not only the single module, but the big picture.
+
+248
+00:17:29.960 --> 00:17:34.030
+这些是另一个例子，还有，嗯，放个链接。
+These are another example. Also, um, put a link. Some refers to papers,
+
+249
+00:17:34.180 --> 00:17:38.810
+有些讲的是很好的教程，还有，
+some refer to nice tutorials. There is also,
+
+250
+00:17:39.030 --> 00:17:42.450
+我们上次玩得很开心
+um, a nice one in Inscape. We had a big last time,
+
+251
+00:17:42.470 --> 00:17:46.730
+所以这里不现场演示 Inkscape，我们稍后直接继续。
+so I'm not gonna show Inscape, but we directly moved later.
+
+252
+00:17:47.490 --> 00:17:52.120
+我把链接留在这儿，你可以点击看看。
+I leave you the link here, so you can just click and see. Um, it's, um,
+
+253
+00:17:53.230 --> 00:17:57.490
+需要10分钟的时间 才能创造出这样的东西
+it takes, uh, for example, 10 minutes steps to create something like that.
+
+254
+00:17:58.320 --> 00:18:01.970
+这是通过 命令克隆。
+This is through, uh, command cloning. So basically what happens,
+
+255
+00:18:02.710 --> 00:18:06.730
+你修改一个单一物体的方式， 时刻是，嗯，
+and the way you modify one single object, the moment is, um,
+
+256
+00:18:07.000 --> 00:18:08.290
+和许多其他人有关
+connected to many others.
+
+257
+00:18:08.630 --> 00:18:12.610
+所有你应用到单行的转换 都将被应用，呃，
+All the transformation that you apply to one single line will be applied, uh,
+
+258
+00:18:12.610 --> 00:18:13.443
+相应.
+accordingly.
+
+259
+00:18:17.560 --> 00:18:20.910
+我们正在转到直接的Themic笔记。
+We're moving to the directly Themic note. Um,
+
+260
+00:18:21.150 --> 00:18:26.110
+我先从Fusion开始，只是...
+I think I will start with fusion here. Just, uh, a couple of slides to drop.
+
+261
+00:18:26.110 --> 00:18:28.390
+我要做的，嗯，一个。
+What I'm gonna do, um, in one.
+
+262
+00:18:29.260 --> 00:18:31.320
+故Fusion为三D.
+So fusion is a three D.
+
+263
+00:18:31.320 --> 00:18:36.200
+参数建模器是控制参数的最好方法之一，也是
+Parametric modeler is one of the best to control parameters and also
+
+264
+00:18:36.200 --> 00:18:40.080
+在设计中建立元素之间的关系
+to establish relationships between the elements, uh, in a design.
+
+265
+00:18:42.810 --> 00:18:46.630
+嗯，这是第一次练习，我想。
+Um, that's the first exercise, I think. Uh, also the first, uh,
+
+266
+00:18:46.820 --> 00:18:49.710
+感觉你可以创造这种模式。
+feeling that you can have creating this kind of patterns.
+
+267
+00:18:50.170 --> 00:18:54.270
+通常我们先创建凸凹连接，再探索它们怎样
+So usually we start creating a female and a male and explore the way they
+
+268
+00:18:54.270 --> 00:18:57.350
+互相连接
+connect between each other. Um,
+
+269
+00:18:57.690 --> 00:19:01.150
+要么是软件Fusion 要么是其中之一 所以 抱歉
+either software fusion or either, so, um, sorry,
+
+270
+00:19:01.430 --> 00:19:04.380
+Fusion 或 Rhino。
+fusion or rhino. Uh,
+
+271
+00:19:04.410 --> 00:19:08.220
+让你有可能保存草图
+give you the possibility to save the sketch. Uh,
+
+272
+00:19:08.220 --> 00:19:10.100
+作为矢量的设计。
+the design as as a vector.
+
+273
+00:19:10.200 --> 00:19:14.780
+因此，作为一个PDF或DAF， 例如，对于排料，
+So as a P D F or DAF for, for the nesting, for example,
+
+274
+00:19:14.960 --> 00:19:17.060
+以及 Illustrator 或 Inkscape。
+and illustrator on scap.
+
+275
+00:19:20.800 --> 00:19:24.460
+记住的一件事是， 就像，呃，数字体。
+And one thing to keep in mind is, again, like, uh, the digital body.
+
+276
+00:19:25.120 --> 00:19:28.580
+当然，我们说的是 RGB 色彩空间。
+So of course we're talking about, uh, um, our g b space.
+
+277
+00:19:29.380 --> 00:19:33.890
+举例来说，我们将使用红色作为标准颜色来切割.
+We're gonna use, for example, the red as a standard color to cut.
+
+278
+00:19:35.210 --> 00:19:38.830
+所以这一百五十五零是红色的密码
+So the hundred 55 0 0 is the code for the red and
+
+279
+00:19:38.900 --> 00:19:41.870
+0.1，0.01毫米口径.
+0.1, 0.01 millimeters.
+
+280
+00:19:42.060 --> 00:19:45.750
+这是要应用在全部切割零件上的描边。
+It's gonna be the stroke that we applied to all the pieces that we want to cut.
+
+281
+00:19:49.260 --> 00:19:52.480
+嗯，如你所知， 这是所谓的排料，
+Um, as you learn previously, this is called nesting,
+
+282
+00:19:52.540 --> 00:19:56.000
+这是一种吃东西和安排空间的方式。
+and that's a way to kind of ate and organize the space.
+
+283
+00:19:57.130 --> 00:20:01.630
+所以我们尽量减少浪费， 但也减少机械时间。
+So we minimize the waste as much as possible. But also the machining time.
+
+284
+00:20:05.930 --> 00:20:10.030
+我们昨天看到了一点，呃， 这是一个很好的开始方式，
+We saw yesterday a little bit that, uh, it's a good way to start simple,
+
+285
+00:20:10.490 --> 00:20:14.190
+让凸件和凹件互相连接，
+having a female and a male connecting, uh, each other,
+
+286
+00:20:18.090 --> 00:20:19.910
+但是，我们也可以永远地提炼它。
+but also we can always iterate it.
+
+287
+00:20:19.970 --> 00:20:24.390
+因此，还有一种方法可以把它们结合起来，放在一个单一的模块中。
+So there is also a way to combine that them together in a single module.
+
+288
+00:20:25.050 --> 00:20:29.910
+或者我还可以有其他添加剂的朋友形状来使用，呃，
+Or I can also have other additive friend shapes to use, uh,
+
+289
+00:20:29.910 --> 00:20:33.620
+和它们结合
+in combination with them. Mm.
+
+290
+00:20:35.280 --> 00:20:39.930
+再说一遍 如果你对Illustrator和矢量文件有点熟悉
+This again, if you are a bit familiar with Illustrator and vector file, uh,
+
+291
+00:20:39.930 --> 00:20:41.170
+画得真好
+well drawing yourself,
+
+292
+00:20:42.080 --> 00:20:46.730
+这是一个很好的方法 探索和模拟 不同类型，呃，
+it's a good way to explore and simulate beforehand different kind of, uh,
+
+293
+00:20:47.240 --> 00:20:51.190
+我觉得也很有趣
+patterns. I think it's also fun to see, um,
+
+294
+00:20:51.890 --> 00:20:52.830
+如何重叠
+how they overlap
+
+295
+00:20:55.170 --> 00:20:57.510
+以及他们在数字世界能创造的东西。
+and what they can create in digital world.
+
+296
+00:20:59.700 --> 00:21:04.570
+他们都跟随凹连接件加凸连接件的联系 设计会改变
+They all follow a female plus male connection, and the design will change,
+
+297
+00:21:04.630 --> 00:21:05.770
+嗯，根据形状，
+uh, according to the shape,
+
+298
+00:21:06.430 --> 00:21:11.250
+但你也可以增加三四个连接
+but you can also add three or four, uh, connection.
+
+299
+00:21:11.250 --> 00:21:14.250
+当然，这很难想象
+Of course, it's gonna be just a little bit harder to visualize this. Uh,
+
+300
+00:21:14.270 --> 00:21:15.930
+在两个D空间，
+in a two D space,
+
+301
+00:21:22.290 --> 00:21:25.330
+我想我可以直接搬到，嗯，Fusion，
+I think I can move directly to, um, fusion,
+
+302
+00:21:25.390 --> 00:21:30.160
+我希望你们还能看到我的屏幕
+and I hope you can still see my screen. Um, I'm using a Mac,
+
+303
+00:21:30.180 --> 00:21:33.760
+所以，如果你使用一个Windows， 空间可能有点不同。
+so if you're using a Windows, the space may be a little bit different.
+
+304
+00:21:35.300 --> 00:21:39.440
+呃，这基本上是接口。
+Uh, this is basically the interface. So the moment you, uh, launch Fusion,
+
+305
+00:21:40.100 --> 00:21:43.680
+你会有，呃，呃， 这个在你眼前。
+you're gonna have, uh, uh, this in front of your eyes.
+
+306
+00:21:44.220 --> 00:21:48.360
+你有一个仪表板 你总是可以，嗯，倒在左边。
+You have a dashboard that you can always, um, collapse here on the left.
+
+307
+00:21:49.410 --> 00:21:53.940
+空文件是这样出现的，嗯，
+And this is how appears the empty file, um,
+
+308
+00:21:54.420 --> 00:21:58.540
+Fusion工作，嗯， 像不同的，呃，参数化软件。
+fusion works, um, like different, uh, parametric software.
+
+309
+00:21:59.210 --> 00:22:02.060
+基本上我们从哪里开始的 是一个草图。
+Basically where we start from is creating a sketch.
+
+310
+00:22:02.760 --> 00:22:07.640
+草图是我们两架D飞机 首先
+The sketch is our two D plane. So to begin with, we,
+
+311
+00:22:07.900 --> 00:22:11.200
+我们点击第一个周期， 这个周期被完全称为创建Sketch，
+we click on the first cycle, which is called exactly Create Sketch,
+
+312
+00:22:12.580 --> 00:22:17.430
+我们选择立方体的顶部。当然，我总是可以旋转视图，
+and we select the top of the cube. Of course, I can always rotate the view,
+
+313
+00:22:19.310 --> 00:22:24.210
+我只是点击输入，这就是我们所谓的草图模式。
+and I just click to enter. This is what we call sketch mode. Uh,
+
+314
+00:22:24.230 --> 00:22:28.630
+第一个图标，好吧，我这样做，呃，嗯，再次，
+the first icon, okay, I do it, uh, uh, again,
+
+315
+00:22:29.250 --> 00:22:34.050
+而当我真正做到这一点， 和一个图标在这里，按钮出现。
+and the moment I actually do it, and one icon here, the button appears.
+
+316
+00:22:34.230 --> 00:22:38.890
+这是我的，嗯，草图记录在时间线上。
+So this is my, um, sketch recorded in the timeline.
+
+317
+00:22:39.070 --> 00:22:43.190
+那么，嗯，如果我想回去的话，
+So, um, if I want to go back,
+
+318
+00:22:43.780 --> 00:22:47.550
+基本上，我双击图标 并再次进入草图模式，
+basically I double click on the icon and enter the sketch mode again,
+
+319
+00:22:47.660 --> 00:22:50.750
+进一步控制zi， 它是什么，
+further control z i, it is what it,
+
+320
+00:22:51.950 --> 00:22:53.770
+我再次退出 草图模式
+and I exit. Again, the sketch mode.
+
+321
+00:22:56.300 --> 00:22:59.850
+键盘上有很多快捷键 你可以使用，呃，与Fusion，
+There are so many shortcuts on the keyboard that you can use, uh, with Fusion,
+
+322
+00:23:00.710 --> 00:23:05.290
+比如说，像Rhino等其他软件。
+uh, like many other software like Rhino, for example. So, uh, suite, again,
+
+323
+00:23:05.310 --> 00:23:09.810
+我点击图标，我点击上面
+we create a sketch. I click on the icon and I click here on the top. Now,
+
+324
+00:23:09.930 --> 00:23:14.850
+我用一套工具在上面，呃，会在我的眼前。
+I use set of tools on top, uh, will be in front of my eyes. So for example,
+
+325
+00:23:14.950 --> 00:23:18.210
+我们想开始创造这个，嗯，两个圈子，
+we want to start creating this, um, two circles,
+
+326
+00:23:18.290 --> 00:23:22.710
+用于激光切割的凸凹连接件。
+a male and female interacting each other for laser cutting. So, um,
+
+327
+00:23:24.170 --> 00:23:28.530
+正如我在上面看到的，我已经看到，呃，工具，嗯，
+as I can see here on top, I already see, uh, tools, um,
+
+328
+00:23:28.800 --> 00:23:33.390
+工具箱，我可以看到一个圆圈，我也可以在这里找到它们。
+toolbox. I can see a circle and I can, I can also find them here.
+
+329
+00:23:34.150 --> 00:23:36.430
+我可以具体说明，如果我想，呃，
+I can specify if I want them, uh,
+
+330
+00:23:36.530 --> 00:23:41.150
+从中心开始，或者从我通常开始，嗯，
+to be starting from the center or from the point I usually start, um,
+
+331
+00:23:41.300 --> 00:23:46.240
+从中央，只是个人偏好，我可以说明
+from the center. It's just, uh, a personal preference and I can specify it,
+
+332
+00:23:46.620 --> 00:23:50.740
+嗯，不管在这个网格上我想替换什么。
+uh, whatever on this grid I wanted to replaced. So again,
+
+333
+00:23:50.900 --> 00:23:54.900
+我可以点击图标， 我点击任何地方我想，嗯，
+I can click on the icon, I click anywhere I want to, um,
+
+334
+00:23:55.680 --> 00:23:59.550
+圆圈在我的网格， 我点击和释放。
+the circle to be on my grid, and I click and I release.
+
+335
+00:24:00.610 --> 00:24:04.190
+嗯，如果船是蓝色的， 这意味着一个衣柜环，
+Um, if the ship is blue, means is a closet loop,
+
+336
+00:24:06.210 --> 00:24:09.110
+我又来了，我点击圆圈
+I do it again. I click on the circle,
+
+337
+00:24:09.430 --> 00:24:14.120
+我随意点击然后放出来
+I click randomly and I release it. Uh,
+
+338
+00:24:14.360 --> 00:24:17.200
+正如我们之前所说，Fusion是一个很好的软件，嗯，
+fusion, as we said earlier, is a nice software, um,
+
+339
+00:24:17.300 --> 00:24:21.520
+工作的各个方面，并联系《公约》各不同部分之间的关系
+to work with dimensions and relate relationships between different parts of the
+
+340
+00:24:21.520 --> 00:24:24.880
+所以，呃，这将会是，呃，
+design. So, uh, this is gonna be, uh,
+
+341
+00:24:25.820 --> 00:24:29.700
+你的一个好朋友，嗯，草图维度或d 在键盘。
+a good friend of yours, uh, sketch dimension or d in the keyboard.
+
+342
+00:24:31.000 --> 00:24:35.990
+我们帮你给形状或设计定一个具体值。
+We'll help you assign a specific value to a shape or to a design. So,
+
+343
+00:24:36.170 --> 00:24:37.470
+嗯，再说一遍，
+um, again,
+
+344
+00:24:37.610 --> 00:24:41.950
+如果我点击D或Sketch维度并选择我形状的边缘，
+if I click on D or Sketch Dimension and select the edge of my shape,
+
+345
+00:24:42.650 --> 00:24:47.270
+我实际上可以给它一个价值。
+I'm actually able to give a value to this. So for example, let's say, um,
+
+346
+00:24:47.450 --> 00:24:49.110
+当然，我工作 在毫米。
+of course I'm working in millimeters.
+
+347
+00:24:49.140 --> 00:24:51.590
+这是您可以在首选项中指定的东西 。
+This is something you can specify in the preferences.
+
+348
+00:24:52.480 --> 00:24:56.940
+这么说吧，我想这个是60， 这是我的6厘米圆圈，嗯，
+So let's say I want this to be 60, this is my six centimeter circle, uh,
+
+349
+00:24:56.940 --> 00:25:00.270
+像Rhino一样
+created. And like Rhino,
+
+350
+00:25:00.350 --> 00:25:05.270
+我只能说，即使之后， 我希望这是五，
+I can only say even afterwards that I want this to be instead five,
+
+351
+00:25:05.410 --> 00:25:09.910
+嗯，厘米，我可以，嗯，双击 值和改变
+uh, centimeters, and I can just, uh, double click on the value and change
+
+352
+00:25:11.830 --> 00:25:16.160
+量度，改变尺寸。
+the measure, change the dimension. Um,
+
+353
+00:25:17.290 --> 00:25:21.500
+有更好的方法做到这一点， 分配这种价值，
+there is a better way to do this, to assign this kind of values,
+
+354
+00:25:21.680 --> 00:25:26.260
+所以，嗯，通常，
+and it's gonna be here under modify. So, um, usually,
+
+355
+00:25:26.260 --> 00:25:30.780
+这也可以融入你的工作流程
+and this is can be also integrated in your workflow, uh,
+
+356
+00:25:30.780 --> 00:25:33.500
+您可以修改并单击更改参数。
+you go to modify and click on change parameters.
+
+357
+00:25:34.280 --> 00:25:38.740
+这是可以定义你价值的地方
+And this is the place where you can define your, um, values. Um,
+
+358
+00:25:40.570 --> 00:25:44.230
+你可以给它一个名字， 你可以给它一个表达或只是一个数字。
+you can give it a name, you can give it an expression or just a number.
+
+359
+00:25:44.370 --> 00:25:48.470
+例如，我想，嗯，如果我有很多多边形，
+So for example, I want, uh, if I have many polygons,
+
+360
+00:25:48.710 --> 00:25:52.630
+我可以叫它边缘，我可以给它， 例如，60毫米。
+I can call it edge and I can give it, for example, 60 millimeters.
+
+361
+00:25:53.070 --> 00:25:56.750
+我可以发表评论 也可以在这里创造
+I can give it a comment or not, and okay, just to create it here.
+
+362
+00:25:57.400 --> 00:25:59.110
+每次我想改变任何价值
+Every time I want to change any value,
+
+363
+00:25:59.270 --> 00:26:03.830
+我只是双击数字，我的尺寸会相应改变。
+I just double click on the number and my dimension will change accordingly.
+
+364
+00:26:06.250 --> 00:26:09.270
+我又创造了一个 比如说，我叫长度
+Um, I create another one. For example, I call length.
+
+365
+00:26:11.850 --> 00:26:16.290
+我可以用它做我的边缘，呃， 或者定义另一个具体的，呃，
+I can use it for my edge, uh, or to define another specific, uh,
+
+366
+00:26:16.400 --> 00:26:19.730
+维度，我可以，例如，嗯，
+dimension. And I can, for example, um,
+
+367
+00:26:22.180 --> 00:26:24.680
+20，所以两厘米，
+20, so two centimeters,
+
+368
+00:26:26.580 --> 00:26:29.640
+我基本上领导他们来到这里。
+and I basically lead them here. The moment I want to modify them, again,
+
+369
+00:26:29.800 --> 00:26:34.400
+我去，呃，前顶， 修改和改变参数， 我这里有它们。
+I go to, uh, front top, modify and change parameters, and I have them here.
+
+370
+00:26:35.670 --> 00:26:39.930
+所以我现在可以改变这个 边缘和仍然，嗯，
+So I can change now this to edge and still, um,
+
+371
+00:26:40.510 --> 00:26:44.800
+功能，它说这是50， 我也可以，例如，
+the function, it says it's 50. I can also, for example,
+
+372
+00:26:45.020 --> 00:26:49.120
+说我要这个，嗯，边缘除以3。
+say I want this to be, um, edge divided by three.
+
+373
+00:26:49.300 --> 00:26:53.790
+所以现在这当然是20了 比较一下，我和60了
+So now of course this is gonna be 20. Contrast it, I'm fine with 60.
+
+374
+00:26:56.560 --> 00:26:58.020
+嗯，然后，呃，嗯，我说，
+Um, then, uh,
+
+375
+00:26:58.020 --> 00:27:01.740
+菜单上有一个很好的工具
+there's a nice tool here on top confusion in the menu,
+
+376
+00:27:01.950 --> 00:27:06.930
+这是限制和素描调色板 这就是...
+which is the constraint and the sketch palette. This is where, um,
+
+377
+00:27:07.150 --> 00:27:11.810
+您可以在您的
+you can actually assign relationship between different lines and shapes in your
+
+378
+00:27:11.810 --> 00:27:16.290
+画布，我们想创造这种关节
+canvas. Um, let's say we want to create this kind of joints.
+
+379
+00:27:17.660 --> 00:27:22.320
+所以，基本上会有，嗯，简单的切口。
+So there will be basically, um, simple cuts.
+
+380
+00:27:22.390 --> 00:27:27.200
+意思是，作为剪切， 我通常开始创作，嗯，
+That means lines where as a cutting, I usually start creating, um,
+
+381
+00:27:27.860 --> 00:27:32.400
+访问，呃，实际上不会是 部分，呃，例如，嗯，
+access that, uh, actually will not be part, uh, for example, um,
+
+382
+00:27:32.500 --> 00:27:36.520
+为此，我将点击线路。
+of the design. To do so, I will be clicking on the line.
+
+383
+00:27:37.530 --> 00:27:41.230
+如果你和老鼠在一起， 你接近一些点，例如，
+And if you are over with a mouse, you near some points, for example,
+
+384
+00:27:41.410 --> 00:27:45.630
+所以Fusion已经...
+you can see sort of snaps. So fusion is already, um,
+
+385
+00:27:45.780 --> 00:27:48.350
+感觉这里有条直线
+sensing somehow that here, there is a straight line.
+
+386
+00:27:49.580 --> 00:27:51.630
+这是我的极限
+Here is the limitation of my edge,
+
+387
+00:27:53.440 --> 00:27:58.380
+我可以在曲线上指定一个点。
+that I can specify a point here along the curve. So as you can see here,
+
+388
+00:27:58.600 --> 00:28:02.940
+我可以看到一条直线，我可以去创建我的通道。
+I'm able to see a straight line. I can just go and create my access.
+
+389
+00:28:04.090 --> 00:28:08.010
+我点击，我点击第二点， 我在这里确认，嗯，
+I click, I click the second point, and I confirm here with, um,
+
+390
+00:28:08.150 --> 00:28:13.060
+从键盘上逃出，我逃脱了选择。所以现在没有选择。
+escape on the keyboard, I escape the selection. So now nothing is selected.
+
+391
+00:28:15.090 --> 00:28:19.460
+我可以决定我的轴线是不是一部分 或者我的设计
+Uh, I can decide my axis to be part or not, or my design.
+
+392
+00:28:19.600 --> 00:28:23.940
+所以如果我把它留在现在， 我可以看到我有两个不同的衣柜循环。
+So if I leave it as it is now, I can see I have two different closet loops.
+
+393
+00:28:24.080 --> 00:28:27.940
+所以如果我用激光切断它， 我最终会有一个圆形分裂成，
+So if I laser cut this, I'm gonna end up having a circle split into,
+
+394
+00:28:29.080 --> 00:28:30.900
+嗯，为了避免这个，
+uh, to avoid this,
+
+395
+00:28:31.180 --> 00:28:35.340
+我点击边缘或任何线 我不想成为我设计的一部分。
+I click on the edge or any line I want not to be part of my design.
+
+396
+00:28:35.920 --> 00:28:38.260
+我在这里签了建筑型号
+And I sign, uh, construction type here.
+
+397
+00:28:38.800 --> 00:28:43.260
+所以现在我的进入完全没有干扰任何形状。
+So now my access is not interfering at all with any of the shape.
+
+398
+00:28:44.850 --> 00:28:46.750
+例如，我们可以说，嗯，
+So for example, we can say, um,
+
+399
+00:28:47.600 --> 00:28:51.620
+让我们尝试建立这个，嗯，凹连接件连接。
+let's try to create this, um, female connection.
+
+400
+00:28:53.000 --> 00:28:55.860
+现在我有一个轴作为参考点
+So now I have an axis as a reference point,
+
+401
+00:28:56.860 --> 00:29:01.040
+我可以沿着圆圈的中间线走
+and I can go on this, uh, middle line of the circle to place. For example,
+
+402
+00:29:01.340 --> 00:29:03.880
+我的第一个，呃，呃，连接。
+my first, uh, uh, connection.
+
+403
+00:29:04.040 --> 00:29:07.960
+我希望这个完全在中间 这样我就可以使用任何我想要访问
+I want this to be exactly in the middle so I can use any access I want to
+
+404
+00:29:07.960 --> 00:29:12.600
+指明方向，但也指明维度。
+specify, uh, directions, but also dimensions. I, again,
+
+405
+00:29:12.840 --> 00:29:16.400
+我点击一个随机行 因为我更喜欢在以后签署数值。
+I click a random line 'cause I prefer to sign the value later.
+
+406
+00:29:17.070 --> 00:29:21.200
+这意味着我可以去创造，并且再次，
+That means that I can go to create and again,
+
+407
+00:29:21.540 --> 00:29:26.400
+草图维度。
+sketch dimension. So I want the, this one for example, to be, uh,
+
+408
+00:29:29.070 --> 00:29:34.030
+比如说，通过，嗯，
+can say linked for example, by, uh,
+
+409
+00:29:34.030 --> 00:29:36.470
+拆了两块，20块，现在完成了
+split by two. So it was 20, now it's done.
+
+410
+00:29:37.810 --> 00:29:42.200
+我这样做只是为了告诉你一些命令。
+And I'm doing this just to show you a couple of commands. So for example,
+
+411
+00:29:42.450 --> 00:29:43.680
+这里有个镜子
+there is a mirror here,
+
+412
+00:29:45.850 --> 00:29:47.910
+你也可以在他们的需要下找到它。
+and you can also find it under their needs. So
+
+413
+00:29:50.010 --> 00:29:51.430
+以类似的方式，现在，
+in a similar way of right now,
+
+414
+00:29:51.550 --> 00:29:55.510
+Fusion是告诉你你想看到的物体是什么 是什么
+fusion is telling you what are the objects that you want to mirror and which is
+
+415
+00:29:55.510 --> 00:29:59.030
+镜子线，所以我们当然需要 有东西在中间。
+the mirror line. So of course we need to have something in between.
+
+416
+00:30:01.780 --> 00:30:05.690
+我又做了一次，我点击物体，我去看镜子
+And I do it again. I click on the object. I went to mirror. Um,
+
+417
+00:30:06.040 --> 00:30:08.330
+这里的软件告诉我一个被选中，
+here the software is telling me one is selected,
+
+418
+00:30:09.410 --> 00:30:13.810
+我点击镜像线，我还得到实时评论。
+I click on the mirror line and I also get a review in real time.
+
+419
+00:30:13.950 --> 00:30:18.930
+所以现在我有镜像 我的线和Fusion 是添加这个
+So now I have mirror my line and fusion is adding this
+
+420
+00:30:18.930 --> 00:30:21.970
+那种图标提醒我，我做到了。
+kind of icons to remind me I did, I did this.
+
+421
+00:30:24.140 --> 00:30:27.880
+嗯，现在我已经定义了我的凹连接件， 让我们假设，我想，呃，
+Uh, now that I have already defined my female, let's say I want, uh,
+
+422
+00:30:28.020 --> 00:30:32.440
+所有圆圈都充满了，呃， 凹连接件的连接和这些类型的线条。
+all the circle be full of, uh, female connections and these kind of lines.
+
+423
+00:30:33.060 --> 00:30:37.600
+嗯，当然有很多方法可以做 你可以复制粘贴，
+Uh, of course there are many ways to do it there. You can always copy paste it,
+
+424
+00:30:38.020 --> 00:30:42.840
+你可以复制它 你可以复制它
+you can clone it. Um, you can it,
+
+425
+00:30:43.530 --> 00:30:48.350
+但你也可以创造一个模式 这样你就可以不用做双重工作了
+but you can also create a pattern so you don't have to do double job. Um,
+
+426
+00:30:48.970 --> 00:30:53.270
+您可以在创建中创建命令。例如，这里可以找到命令，
+you can create under create. Here you can find a command, for example,
+
+427
+00:30:53.540 --> 00:30:56.710
+圆圈，我创造的圆圈图案
+it's a circle. So circular pattern I create,
+
+428
+00:30:56.910 --> 00:30:59.110
+我选择我要重复的台词
+I select the line I want to repeat,
+
+429
+00:31:01.010 --> 00:31:04.230
+就像我需要选择某一点之前
+and like before I need to select a certain point,
+
+430
+00:31:04.730 --> 00:31:09.660
+然后，我就可以，嗯，
+the center of my circle. And then I'm able to, um,
+
+431
+00:31:10.700 --> 00:31:14.600
+正如我在预览中看到的， 来指定数量，
+as I can see here in the preview, to specify the number of,
+
+432
+00:31:14.940 --> 00:31:19.780
+重复我的台词，创造平等空间
+say repetition of my line and create equally spaced
+
+433
+00:31:21.110 --> 00:31:24.320
+比方说，你想，我们很高兴有四个
+different cuts. For example, you want, we're happy with four,
+
+434
+00:31:24.900 --> 00:31:28.840
+我们希望他们，你知道， 甚至三个 使它有点不同。
+we want them to be, you know, even three to make it a little bit different.
+
+435
+00:31:29.620 --> 00:31:33.360
+而现在，呃，当我们按， 好吧，我们有这种模式，
+And now, uh, the moment we press, okay, we have this kind of pattern,
+
+436
+00:31:34.590 --> 00:31:39.430
+嗯，重复一遍，确定这是，嗯， 也记录下来。
+uh, repeated to be sure this is, uh, also recorded. Here we have the icon.
+
+437
+00:31:39.450 --> 00:31:41.750
+所以，当我想改变这一点的时候，
+So the moment I want to change this,
+
+438
+00:31:41.930 --> 00:31:45.510
+我不再有3个一，4个
+and I'm not okay anymore by having three by one, four,
+
+439
+00:31:46.190 --> 00:31:50.400
+我可以来这里更新我的设计
+I can just go here and update my design. Um,
+
+440
+00:31:50.540 --> 00:31:53.920
+当我点击，我点击完成我的草图。
+the moment I click, I click finish my sketch. This is the,
+
+441
+00:31:53.940 --> 00:31:58.580
+如果我想再做一次改变，结果会怎样？
+the result if I want to make any change again. Now this is kind of blocked,
+
+442
+00:31:58.640 --> 00:32:03.560
+所以我必须回到草图模式上 我可以看到上面
+so I have to go back in the sketch mode and I can see here on top because
+
+443
+00:32:03.560 --> 00:32:08.220
+还有这个工具 再说一次 我可以...
+there is this, uh, tool. And again, I can make, uh,
+
+444
+00:32:08.760 --> 00:32:12.180
+任何改变我的设计。
+any change to my design. I want five,
+
+445
+00:32:13.790 --> 00:32:18.590
+我要3个，否则我改变主意，我要这个
+I want three, or I change my mind. I want this to be
+
+446
+00:32:20.260 --> 00:32:24.560
+30. 因此，现在基本上一切都是相应的。
+30. So everything now is basically accordingly.
+
+447
+00:32:24.580 --> 00:32:26.280
+所以他们当然不适合
+So of course they won't fit.
+
+448
+00:32:28.000 --> 00:32:30.600
+我可以回到另一个维度
+I can go back and specify in another dimension.
+
+449
+00:32:34.460 --> 00:32:38.680
+现在，我的联系，呃，呃， 空间在另一种方式，
+And now my connection is, uh, uh, spaced in a different way of,
+
+450
+00:32:39.690 --> 00:32:44.030
+当然，我在这里只指定了参数。
+of course I only, uh, specified the parameter here. I'm still able to move this,
+
+451
+00:32:44.700 --> 00:32:49.640
+嗯，沿着中间点 因为我没有，我没有说明，呃，
+uh, along the middle point because I don't have, I didn't have specified, uh,
+
+452
+00:32:49.960 --> 00:32:54.910
+中间和我的线之间的距离
+distance between the center and my line.
+
+453
+00:32:55.010 --> 00:32:57.310
+所以，如果我想百分百准确，
+So if I want to be a hundred percent precise,
+
+454
+00:32:57.590 --> 00:33:02.230
+我已经很清楚我的最终形状 我的最终模式会如何
+I already have clear idea on how my final shape, my final pattern is gonna be.
+
+455
+00:33:03.310 --> 00:33:05.990
+我还可以，呃，把最后一个限制。
+I can also, uh, place the last constraint.
+
+456
+00:33:06.330 --> 00:33:10.150
+所以，现在我的设计是要去固定 而我实际上不能，呃，
+So now my design is gonna be fixed and I cannot actually, uh,
+
+457
+00:33:10.180 --> 00:33:14.350
+通过拖拖拉拉的玩耍 我的形状在柜台上
+play around by dragging and um, my shape all over the counter.
+
+458
+00:33:15.130 --> 00:33:18.470
+为了做到这一点，我确实创造了草图维度，
+So to do that, I do create sketch dimension,
+
+459
+00:33:18.530 --> 00:33:23.470
+从中心到线的任何一个点，我可以表示，
+and from the center to any of the point of my line, I can place,
+
+460
+00:33:24.170 --> 00:33:25.190
+嗯，我的价值。
+um, my value.
+
+461
+00:33:25.450 --> 00:33:30.270
+所以我希望这是2010年 一切都会是
+So I want this to be 2010 and everything will be
+
+462
+00:33:30.270 --> 00:33:32.660
+空间相应。
+spaced accordingly. Or again,
+
+463
+00:33:32.740 --> 00:33:36.860
+我可以创建一个新的参数 并将此连接到另一个。
+I can create a new parameter and I connect this somehow to the other.
+
+464
+00:33:37.220 --> 00:33:39.100
+我可以说边缘，乘以2，
+I can say edge, multiply two,
+
+465
+00:33:43.420 --> 00:33:44.350
+这太大了
+it's quite too big.
+
+466
+00:33:49.570 --> 00:33:53.510
+所以现在它也给了我 价值的名字是五，也许
+So now it gives me also the name of the value is placed by five, maybe
+
+467
+00:33:55.990 --> 00:33:59.990
+3，我得到了多少，嗯，同样的一个。
+three, and I kind of got more or less, um, the same one.
+
+468
+00:34:06.550 --> 00:34:08.130
+嗯，这里的菜单，
+Uh, here on the menu,
+
+469
+00:34:08.310 --> 00:34:12.870
+您可以在文件夹中找到带有草图和你自己的草图。
+you can find in the folder with sketches and your own sketch.
+
+470
+00:34:12.870 --> 00:34:16.750
+所以当一切都是，嗯， 你的草图被选中，隐藏，
+So the moment everything is, um, your sketch is selected, hidden,
+
+471
+00:34:18.290 --> 00:34:23.230
+你也可以看到，嗯，你的设计 进入下面，呃，
+you can also see the, um, your design coming in below, uh,
+
+472
+00:34:23.230 --> 00:34:25.470
+双击，你也可以...
+double click. You can also, um,
+
+473
+00:34:26.740 --> 00:34:31.130
+再次输入空格或双击底部。
+enter again the space or double click at the bottom.
+
+474
+00:34:31.430 --> 00:34:35.480
+当然，右键可以重命名为圆形
+And of course right click, you can rename it the circle
+
+475
+00:34:37.060 --> 00:34:39.320
+或者直接另存为 DXF。
+or you can just proceed to save as d xf.
+
+476
+00:34:42.590 --> 00:34:46.370
+譬如说，我们如何做第二个， 所以我们做了凹连接件，我们可以，嗯，
+How do we make the second, for example, so we made the female, we can make, um,
+
+477
+00:34:46.630 --> 00:34:50.660
+凸连接件部分，还有许多方法
+the male part. Uh, there are again, many ways to do it.
+
+478
+00:34:51.000 --> 00:34:52.580
+为了做到这一点。
+To do it. Um,
+
+479
+00:34:53.880 --> 00:34:58.580
+我们可以从复制粘贴开始
+we can start simple by copy pasting everything. So just, uh, selecting, um,
+
+480
+00:34:59.880 --> 00:35:03.990
+做，呃，对比C，控制V或右击移动，
+doing, uh, contrast C, control V or right click move,
+
+481
+00:35:04.500 --> 00:35:08.520
+移动副本是一起的 所以两个对比 反V
+move copy is together. So two contrast, C contra V.
+
+482
+00:35:08.740 --> 00:35:13.590
+我可以拿一份我的设计，这样我就可以用这个
+And I can have a copy of my design. So I can use actually this,
+
+483
+00:35:14.130 --> 00:35:18.030
+嗯，作为一个模式，如果我们在开始时做一些非常简单的事情，
+uh, as a pattern. If we're doing something very simple at the beginning,
+
+484
+00:35:18.180 --> 00:35:21.550
+这是非常建议这样做。
+this is very suggested to do so. Uh,
+
+485
+00:35:21.930 --> 00:35:26.750
+最好让凸凹连接的相应间距保持一致，
+the best practice will be keeping the same distance for the female of the male
+
+486
+00:35:26.800 --> 00:35:31.630
+所以，如果我们想有，
+consistent. So if we want to just have,
+
+487
+00:35:31.810 --> 00:35:34.840
+嗯，不错，嗯，紧，嗯，
+um, nice, uh, tight, um,
+
+488
+00:35:34.840 --> 00:35:39.770
+两个形状之间的稳定关节， 我们可以仅仅创造例如，
+stable joint between two shapes, we can just create for example,
+
+489
+00:35:41.510 --> 00:35:41.830
+那个...
+uh,
+
+490
+00:35:41.830 --> 00:35:46.830
+这里之间的线条，直到元圆或
+the lines in between here until the meta circle or
+
+491
+00:35:46.830 --> 00:35:50.350
+甚至在形状之外一直保持线条
+even continuing the line all the way outside of the shape.
+
+492
+00:35:51.360 --> 00:35:55.900
+接着使用类似 Rhino 中 Trim 的修剪命令。
+And then introducing, for example, um, commands like streaming rhino.
+
+493
+00:35:56.440 --> 00:35:58.380
+当你选择图标时，
+And the moment you select the icon,
+
+494
+00:35:58.440 --> 00:36:01.660
+您实际上可以删除行。
+you are actually able to delete the lines.
+
+495
+00:36:01.660 --> 00:36:04.750
+你当然不想参与设计
+You don't want to be part of the design, of course, uh,
+
+496
+00:36:04.780 --> 00:36:07.830
+设计的某些部分可能与前一个部分有关联.
+some parts may of the design may be linked to the previous one.
+
+497
+00:36:07.850 --> 00:36:12.070
+所以，当你删除一些行， 你删除，呃，一些限制。
+So the moment you delete some lines, you are deleting, uh, some constraints.
+
+498
+00:36:12.580 --> 00:36:13.910
+他们以前是联系在一起的，
+They were previously linked,
+
+499
+00:36:18.460 --> 00:36:22.790
+说我们还在探索软件，没关系
+say we're still, uh, exploring the software, that's fine. So, uh,
+
+500
+00:36:22.930 --> 00:36:27.570
+我其实不关心这个 我只是想让你...
+I'm not actually caring of that. I just want you to, um,
+
+501
+00:36:28.650 --> 00:36:31.310
+告诉你，我可以做 我以前一样的事情。
+to show you that I can do the same thing I did before.
+
+502
+00:36:31.370 --> 00:36:34.230
+所以，如果我不想这些线 成为我设计的一部分，
+So if I don't want these lines to be part of my design,
+
+503
+00:36:34.350 --> 00:36:35.950
+我只是用梦想摆脱他们。
+I just get rid of them with dream.
+
+504
+00:36:36.850 --> 00:36:41.430
+然后我创造了模式 复制，呃，
+And then I create instead the pattern to replicate, uh,
+
+505
+00:36:41.930 --> 00:36:42.763
+关键部分。
+the main part.
+
+506
+00:36:46.810 --> 00:36:50.390
+所以我回去创造一个安全模式。
+So I go back to create a secure pattern.
+
+507
+00:36:50.750 --> 00:36:52.390
+我选了台词
+I select the lines,
+
+508
+00:36:56.820 --> 00:36:59.140
+一个，嗯，中心点，
+a certain, um, center point,
+
+509
+00:36:59.840 --> 00:37:04.780
+我已经能看到一个预览 如果我
+and already I can see a preview of what's gonna happen if I
+
+510
+00:37:04.780 --> 00:37:08.780
+回答二，三或更多，呃，行。
+answer two, three or more, uh, lines. So now
+
+511
+00:37:10.350 --> 00:37:11.640
+有办法有
+there's a way of having
+
+512
+00:37:13.330 --> 00:37:18.230
+让凸凹连接结合。当然，这里还没有完全约束，
+a female and a male part gather. Of course, again, this is not, uh,
+
+513
+00:37:18.230 --> 00:37:21.510
+所以，呃，当我移动，嗯，
+linked. So, uh, the moment I move, um,
+
+514
+00:37:23.320 --> 00:37:27.440
+我需要另一个维度来修复这个强加。所以我再来一次。
+I need another dimension to fix this imposition. So I do it again.
+
+515
+00:37:28.120 --> 00:37:29.480
+创建圆周阵列。
+I create a secret pattern,
+
+516
+00:37:29.680 --> 00:37:33.680
+我创建的线 我想复制所有。
+I create the lines I want to replicate all over.
+
+517
+00:37:34.100 --> 00:37:36.680
+而现在这个工具，例如，匹配，
+And now this tool, for example, match,
+
+518
+00:37:37.730 --> 00:37:42.330
+举例来说，如果我出口这个，嗯，
+I can get rid of the axis. So for example, if I'm exporting this, um,
+
+519
+00:37:43.370 --> 00:37:46.370
+任何地方都不会成为我计划的一部分
+anywhere will not be part, will not consider as part of my design.
+
+520
+00:37:47.030 --> 00:37:51.540
+如果我对结果很满意 我可以把素描写完
+And if I'm quite happy with the result, I can uh, just finish my sketch.
+
+521
+00:37:53.100 --> 00:37:56.780
+我也可以选择一切 我可以选择
+I can also select everything. I can select,
+
+522
+00:37:57.050 --> 00:38:01.800
+如果我想排料的话， 还要移动， 把这个太靠近
+also move and bring this too closer if I'm thinking of nesting everything
+
+523
+00:38:01.860 --> 00:38:05.000
+在Fusion，呃，如果我想这样做，
+in fusion, uh, if I want to do that,
+
+524
+00:38:06.180 --> 00:38:10.060
+我也可以一起选择一切 而不是尖叫模式
+I can also select everything together and instead of the squeal pattern,
+
+525
+00:38:10.120 --> 00:38:14.740
+创建长方形模式。所以我的所有设计都会自动复制，
+create a rectangular pattern. So all my design will be automatically replicated,
+
+526
+00:38:16.040 --> 00:38:17.540
+嗯，在不同的画
+uh, on different draw
+
+527
+00:38:21.020 --> 00:38:24.510
+根据我，呃，不同的参数。
+according to my, uh, to different parameters.
+
+528
+00:38:24.610 --> 00:38:27.470
+因此，我还可以补充更多的内容。
+So I can also add more.
+
+529
+00:38:29.370 --> 00:38:30.510
+这取决于我的需求，
+It depends on my needs,
+
+530
+00:38:40.380 --> 00:38:44.640
+当然，和现在一样，我留下了一些重叠， 但是，呃，在这个软件，
+of course, like before now, I left some overlapping, but uh, in this software,
+
+531
+00:38:44.640 --> 00:38:49.400
+一切都被记录下来，一切可以调整
+everything is, uh, is recorded and everything can be adjusted. So I just go back
+
+532
+00:38:51.560 --> 00:38:54.660
+有的时候我有很多
+on the icon of my pattern. Sometime I have too many,
+
+533
+00:38:54.780 --> 00:38:58.860
+我只要找到合适的一个 和某个地方。
+I just have to find the right one with, with somewhere.
+
+534
+00:39:02.060 --> 00:39:04.790
+当然，这个国家确实做到了，呃，
+Of course, the country did z uh,
+
+535
+00:39:05.700 --> 00:39:08.270
+撤销和重做也在这里。
+undo and redo are also here on top.
+
+536
+00:39:08.450 --> 00:39:11.070
+它适用于许多软件。
+And it was apply to to many software.
+
+537
+00:39:18.390 --> 00:39:20.670
+我没看见圣像，再做一次给你看
+I don't see the icon. Just do it again to show you.
+
+538
+00:39:20.970 --> 00:39:25.710
+因此，从创建角图案， 我选择我想，呃，
+So from create angular pattern, I select the ones I want to, uh,
+
+539
+00:39:25.810 --> 00:39:29.230
+给克隆人，我可以加5
+to clone. I can put five,
+
+540
+00:39:31.670 --> 00:39:33.430
+我也可以选择方向
+I can select also the direction
+
+541
+00:39:36.180 --> 00:39:40.810
+或插入一个值
+and the space. Either, uh, inserting a value,
+
+542
+00:39:40.920 --> 00:39:43.170
+只是 呃 利用这个功能
+just uh, using the snap function.
+
+543
+00:39:58.370 --> 00:40:02.540
+所以这是种，嗯， 让我们假设隔离 '因为它是一个浪费，
+So this is kind of, um, let's say isolated 'cause it's a waste,
+
+544
+00:40:03.200 --> 00:40:05.060
+不完全是圆的
+not really, it's a circle.
+
+545
+00:40:05.360 --> 00:40:09.500
+所以，你当然会 最终有这样的空间 在之间
+So of course you are gonna end up having this kind of space in between the
+
+546
+00:40:09.500 --> 00:40:14.140
+形状，例如，可以决定重新使用或不用于设计。
+shapes that you can decide to reuse it or not for your design, for example.
+
+547
+00:40:14.360 --> 00:40:18.300
+所以，一旦你最后 有类似的东西，呃，一些 少过，
+So the moment you end up having something like this, uh, some less over,
+
+548
+00:40:18.400 --> 00:40:22.420
+你也可以想到，呃，为什么不再创造，
+you can also think of, uh, why not creating again,
+
+549
+00:40:23.430 --> 00:40:25.030
+我不知道，这里有轴
+I dunno, an axi here
+
+550
+00:40:29.460 --> 00:40:33.910
+然后再加入几个，然后你可以，呃，
+and then a couple of joins. Then you can just, uh,
+
+551
+00:40:34.340 --> 00:40:39.230
+甚至复制粘贴或图案，然后通过图案复制
+even copy paste or pattern all over and then replicate through a pattern
+
+552
+00:40:39.930 --> 00:40:41.750
+并适用于所有工作表。
+and apply to, to all the sheet.
+
+553
+00:40:43.430 --> 00:40:47.460
+假设这次我们想用另一个软件 来更好地，嗯，
+Let's say we want to use another software this time to better, um,
+
+554
+00:40:48.010 --> 00:40:52.980
+排料造型。
+nest the shapes. So now I can call this, uh,
+
+555
+00:40:53.280 --> 00:40:54.580
+凸凹连接圆片。
+female male circles
+
+556
+00:40:57.300 --> 00:41:00.920
+我就可以把它出口出去 这样我就能把他们保存成XF
+and I can proceed to export it so I can save them as the XF
+
+557
+00:41:02.230 --> 00:41:07.170
+下一个顶部，好，圆圈就位
+next top. Okay, circles in place
+
+558
+00:41:09.780 --> 00:41:12.000
+我转向Illustrator。
+and I move to illustrator.
+
+559
+00:41:14.370 --> 00:41:18.980
+Illustrator 是 Adobe 的矢量软件。
+Illustrator is a vector file is a, sorry, is a vector software from um, Adobe.
+
+560
+00:41:19.600 --> 00:41:23.740
+从文件、新文档创建新文件的那一刻，
+The moment you create a new file from file, new document,
+
+561
+00:41:23.740 --> 00:41:28.210
+嗯，我总是说，
+this is how the interface appears. Um, I always put,
+
+562
+00:41:28.340 --> 00:41:30.290
+尤其是因为在这里的实验室里
+especially because in the lab here,
+
+563
+00:41:30.290 --> 00:41:34.680
+我们使用Illustrator 也与，例如，
+we use illustrators also to communicate with the, so for example,
+
+564
+00:41:35.100 --> 00:41:37.440
+例如，我总是说，呃，
+so for example, I always put, uh,
+
+565
+00:41:38.260 --> 00:41:40.520
+激光切割器床的尺寸，
+the dimension of the bed of the laser cutter here,
+
+566
+00:41:41.180 --> 00:41:46.080
+我决定这个港口要600毫米左右
+and I decide I want this port to be around one meter by 600 millimeters,
+
+567
+00:41:46.080 --> 00:41:50.960
+我要一个机场
+which is exactly the dimension of the bed. Uh, I want one airport, uh,
+
+568
+00:41:51.390 --> 00:41:56.120
+横向画板，颜色模式使用 RGB。
+orientation will be horizonal and the color mode will be, uh, R G b.
+
+569
+00:41:58.060 --> 00:42:02.140
+我不需要这个，我的皮肤是672 所以我可以留着这个，嗯，
+I don't need this. My skin is 6 72, so I can keep this, uh,
+
+570
+00:42:02.200 --> 00:42:05.260
+作为下一个，嗯，
+as a default for the next, um,
+
+571
+00:42:07.020 --> 00:42:10.460
+因此，这是如何，嗯，
+explorations. So this is how, um,
+
+572
+00:42:10.760 --> 00:42:14.810
+界面在我创建新文档时就在这里，
+the interface is here the moment I create a new document and
+
+573
+00:42:15.850 --> 00:42:20.640
+我总是把规则放在上面
+I always begin enabling the rules here on top.
+
+574
+00:42:20.780 --> 00:42:25.000
+因此，有了Ctrl R常见的R，我可以创建这个，呃，
+So with the Ctrl R common R I'm able to create this, uh,
+
+575
+00:42:25.920 --> 00:42:28.360
+让他们有磁性规则 我可以，呃，
+enabling them magnetic rules that I can just, uh,
+
+576
+00:42:28.910 --> 00:42:33.370
+拖着我的账户，嗯，
+drag and drop on my account to, um,
+
+577
+00:42:34.000 --> 00:42:38.570
+要不然就把事情搞砸 要不然就更清楚点
+snap things to the grid or have a better understanding
+
+578
+00:42:38.830 --> 00:42:42.650
+嗯，嗯，可以放在我的床单上
+on how things, uh, uh, can be placed. Um, on my sheet
+
+579
+00:42:45.840 --> 00:42:50.520
+我可以进口，例如， 或者你可以，呃，甚至打开，
+I can import, for example, or you can just, uh, even open,
+
+580
+00:42:52.010 --> 00:42:55.090
+嗯，我的圆圈。
+um, my circles.
+
+581
+00:43:01.760 --> 00:43:03.570
+好，不是这个
+Okay? Okay, it's not this one
+
+582
+00:43:07.790 --> 00:43:08.623
+圆圈。
+circles.
+
+583
+00:43:15.560 --> 00:43:19.480
+我可能已经有一个叫圆圈， 所以我可以再做一次。
+I might have already one called circles, so I can do it again.
+
+584
+00:43:21.110 --> 00:43:24.160
+嗯，好吧，所以两个，
+Um, okay, so two,
+
+585
+00:43:30.940 --> 00:43:35.590
+这是我的文件，选择用 Illustrator 打开，
+this is my, I can just do open with illustrator and I always,
+
+586
+00:43:35.850 --> 00:43:39.070
+嗯，选择一对一的原尺寸和，呃，
+um, choose one-to-one original size and, uh,
+
+587
+00:43:39.210 --> 00:43:42.270
+确定你的设计要用毫米
+be sure your design wants to be to be in millimeters.
+
+588
+00:43:44.060 --> 00:43:48.480
+呃，这就是Fusion出口的方式。
+Uh, so this is how from fusion got exported. One thing,
+
+589
+00:43:48.500 --> 00:43:50.440
+从三个D型号导出到
+the moment you export from a three D model to,
+
+590
+00:43:50.440 --> 00:43:53.920
+要考虑的矢量文件也是，嗯，
+to a vector file to consider is also, um,
+
+591
+00:43:54.220 --> 00:43:55.640
+如果有双线或不。
+if there are double lines or not.
+
+592
+00:43:57.740 --> 00:44:01.940
+我用量子来创造这些线
+I created this lines infusion by metering each of them
+
+593
+00:44:02.340 --> 00:44:06.380
+所以现在我当然不会单行
+separately. So of course now I don't end up with a single line,
+
+594
+00:44:06.440 --> 00:44:08.580
+但是在管理员，呃，
+but in administrator, uh,
+
+595
+00:44:08.700 --> 00:44:12.500
+我总是可以轻易摆脱 或加入线在一起。
+I can always easily get rid or join lines together.
+
+596
+00:44:13.260 --> 00:44:16.030
+通过它，我选择了两行。
+Through that, I select the two lines. For example,
+
+597
+00:44:16.190 --> 00:44:19.070
+我一个加入，我选择，嗯，
+I one to join and I select, um,
+
+598
+00:44:19.460 --> 00:44:22.110
+从键盘命令J或控制J.
+from the keyboard Command J or control J.
+
+599
+00:44:22.290 --> 00:44:25.030
+所以现在一切都是，呃，
+So now everything is, uh,
+
+600
+00:44:25.030 --> 00:44:27.870
+我只能走这条线
+this is only one line that I'm able to move around.
+
+601
+00:44:29.070 --> 00:44:31.760
+我对他们都一样 Sol
+I do the same for all of them, Sol,
+
+602
+00:44:34.150 --> 00:44:38.800
+JLJ，这个可能是轴心国留下的
+JL J. And uh, this might be left over from Axis,
+
+603
+00:44:38.820 --> 00:44:43.750
+所以，我其实不需要他们， 但如果我想继续，呃，
+so I actually don't need them, but if I want to proceed, uh,
+
+604
+00:44:43.750 --> 00:44:47.910
+用激光切割这个，我可以，呃，嗯，列出它们。
+with the laser cutting for this, I can just, uh, uh, list them.
+
+605
+00:44:48.650 --> 00:44:53.240
+比如，我可以把他们组成G组
+For example, I can group them, group G
+
+606
+00:44:54.810 --> 00:44:59.430
+可以给它应用红色描边，
+and I can apply, read a stroke for one, uh,
+
+607
+00:44:59.430 --> 00:45:01.070
+0.1毫米口径.
+0.1 millimeters.
+
+608
+00:45:01.790 --> 00:45:05.510
+在这里双击描边颜色。
+I double click on the stroke in my color here.
+
+609
+00:45:05.670 --> 00:45:08.910
+我敢肯定，这是，呃，网络颜色，RGB，
+I be sure this is, uh, web colors, R G B,
+
+610
+00:45:09.970 --> 00:45:11.150
+我只是把红色，
+and I just put red,
+
+611
+00:45:12.440 --> 00:45:16.300
+确认这里是 RGB 红色，255、0、0。
+so I always be sure here is red 255, 0 0,
+
+612
+00:45:17.710 --> 00:45:21.770
+这是标准 如果我真的看不到我的设计
+and this is the standard. If I'm not actually able to see my design,
+
+613
+00:45:22.010 --> 00:45:24.570
+为了便于查看，暂时也可以使用不同描边。
+I can apply a different stroke for the moment.
+
+614
+00:45:26.440 --> 00:45:30.300
+现在它是一个团体。所以我实际上可以移动它们，嗯，周围。
+And now it's a group. So I'm actually able to move them, um, around.
+
+615
+00:45:32.350 --> 00:45:37.230
+在 Illustrator 中很容易把形状排在一起。
+And Illustrator is quite easy to nest shapes together. I,
+
+616
+00:45:37.510 --> 00:45:39.750
+我可以做，嗯，例如， 从键盘，
+I can do, um, for example, from the keyboard,
+
+617
+00:45:39.900 --> 00:45:44.590
+这个基于矢量的软件有很多快捷键
+there's many shortcuts to work with this, uh, vector based software. So, uh,
+
+618
+00:45:44.690 --> 00:45:46.230
+如果你按 例如，嗯，
+if you press for example, um,
+
+619
+00:45:46.710 --> 00:45:51.360
+或选择Mac，你拖着丢掉一个形状，
+alt or option for Mac and you drag and drop one shape,
+
+620
+00:45:51.780 --> 00:45:56.040
+你实际上能够创造，嗯， 他们的克隆。
+you're actually able to create, um, a clone of them.
+
+621
+00:45:56.380 --> 00:46:00.820
+如果你继续按班子，你可以动了
+And if you keep pressing shift, you can move
+
+622
+00:46:02.460 --> 00:46:07.280
+所以一轴是锁着的 所以我无法移动
+on the same direction. So one axis is actually locked, so I'm not able to move,
+
+623
+00:46:08.000 --> 00:46:10.940
+嗯，上下，但我只能直走，你可以看到这里
+uh, up and down, but I can only go straight. So you can see here
+
+624
+00:46:13.310 --> 00:46:18.290
+我选了小组，我以前选了
+I'm selecting the group. I previously, uh, did and I select,
+
+625
+00:46:18.770 --> 00:46:22.850
+我点击我的键盘选择或选项，我选对夫妇
+I click on my keyboard alt or option. I select the couple
+
+626
+00:46:25.440 --> 00:46:29.980
+我拉开它，还有从环境，snaps，呃，
+and I space it. I have also from the settings, the snaps, uh,
+
+627
+00:46:30.050 --> 00:46:30.600
+启用 。
+enabled.
+
+628
+00:46:30.600 --> 00:46:35.410
+因此，我也很容易找到什么是切合点或
+So I can also find easily what are the tangent points or
+
+629
+00:46:35.410 --> 00:46:38.050
+当两分相遇，嗯，在我的设计，
+when two points meet, um, in my design,
+
+630
+00:46:42.620 --> 00:46:46.900
+我再说一遍，还有...
+I do it again. And there is, uh,
+
+631
+00:46:47.050 --> 00:46:47.883
+一旦我这样做，
+once I do this,
+
+632
+00:46:48.040 --> 00:46:52.820
+我要是想完成 吃饱我肚子
+if I want to have it done and ate kind of sating my full
+
+633
+00:46:52.820 --> 00:46:56.660
+端口，我也可以，呃， 从键盘 重复这个，呃，
+port, I can also, uh, from the keyboard repeat this, uh,
+
+634
+00:46:57.490 --> 00:47:00.580
+命令，呃，按命令D，Orl D。
+command, uh, pressing command D, orl D.
+
+635
+00:47:01.430 --> 00:47:04.370
+所以控制D允许我，嗯，
+So control D is allowing me to, um,
+
+636
+00:47:05.070 --> 00:47:09.010
+所以当我用键盘按它时
+to repeat the previous command. So the moment I press it in my keyboard,
+
+637
+00:47:09.110 --> 00:47:11.850
+而实际上有整排 在一秒钟，
+and actually to have the full row in just one second,
+
+638
+00:47:12.390 --> 00:47:15.130
+现在我可以做同样的事情 所以我可以选择
+and now I can just do the same thing. So I can select
+
+639
+00:47:18.000 --> 00:47:22.370
+我剪断了旧的排， 再说一次，我可以做，嗯，
+I clip the old row, and again, I can do, um,
+
+640
+00:47:23.070 --> 00:47:26.810
+我一点击我键盘中的左键或选项， 我有这个，呃，
+the moment I click alt or option in my keyboard, I have this, uh,
+
+641
+00:47:27.120 --> 00:47:31.040
+图标在这里，其他两个在一起。
+icon here of the two others together. So I,
+
+642
+00:47:32.230 --> 00:47:35.550
+我按命令，呃，对不起， 我按所有的两种选择我，
+I press command, uh, sorry, I press all two option I,
+
+643
+00:47:35.950 --> 00:47:39.830
+我按着转动，所以它不动。
+I press shift together so it doesn't move. And again,
+
+644
+00:47:40.470 --> 00:47:43.070
+我继续做，呃，指挥d，
+I keep doing, uh, command d,
+
+645
+00:47:43.180 --> 00:47:47.230
+CTRL D 让我完全添加选中的工作表。
+CTRL D to have my completely add select sheet.
+
+646
+00:47:48.840 --> 00:47:53.820
+现在我们可以看到最后的例子了 嗯，它不适合我的激光剪床
+Now we can see the last drop example. Um, it doesn't fit on my laser cut bed,
+
+647
+00:47:54.280 --> 00:47:57.100
+当然，我假设，呃，一个满板。
+of course, I was assuming to have, uh, a full board.
+
+648
+00:47:57.730 --> 00:47:59.980
+大多数项目不会是这样的
+This won't be the case for most of the projects.
+
+649
+00:48:00.000 --> 00:48:04.130
+我们可能最后会加入这样的东西。
+So we probably end up adding something like this. Uh,
+
+650
+00:48:04.810 --> 00:48:05.450
+我回来
+I go back,
+
+651
+00:48:05.450 --> 00:48:10.450
+我选择所有有共同控制A的东西 或者只是选择
+I select everything with common A control A or just selecting
+
+652
+00:48:11.040 --> 00:48:12.770
+带着我的老鼠 再说一遍
+with my mouse. And again,
+
+653
+00:48:12.850 --> 00:48:16.890
+把描边设为 0.1 mm。
+I just apply a stroke to B 0.1 millimeters.
+
+654
+00:48:18.560 --> 00:48:21.180
+进去的时候，我确定我的台词在哪里
+And at in, I make sure where my lines are here
+
+655
+00:48:23.220 --> 00:48:25.760
+确定你最终也会有一个封闭的循环。
+to be sure that also you end up having a closed loop.
+
+656
+00:48:25.860 --> 00:48:30.320
+激光会形成一个圆形 你就能导出
+So the laser is gonna actually create a circle and you'll be able to export
+
+657
+00:48:30.780 --> 00:48:31.920
+材料从董事会。
+the material outta the board.
+
+658
+00:48:31.980 --> 00:48:36.770
+你可以把颜色和那一刻，嗯，
+You can just reverse the color and the moment, um,
+
+659
+00:48:38.030 --> 00:48:42.850
+把描边和填充颜色交换后，可以
+you, you feel the color is shaped from the stroke, you can actually,
+
+660
+00:48:43.310 --> 00:48:47.450
+请你确认一下 你有一个封闭的循环
+uh, have the confirmation that you are being, uh, that you have a closed loop.
+
+661
+00:48:53.830 --> 00:48:57.610
+嗯，如果有关于这个问题， 我想你可以只是，呃，
+Um, if there are questions about this, I think you can just, uh,
+
+662
+00:48:57.830 --> 00:49:02.170
+别冲动，大声说话 因为我看不见聊天
+unmute yourself and speak up. 'cause I'm not able to see the chat. Uh,
+
+663
+00:49:02.440 --> 00:49:04.090
+否则我把它放在这里。
+otherwise I leave it here.
+
+664
+00:49:04.230 --> 00:49:09.210
+我只是做我之前在幻灯片上承诺的事
+And I just do what I was promising earlier in the slides. This there, um,
+
+665
+00:49:09.920 --> 00:49:14.210
+配方，所以我这里有另一个艺术板，我可以创造它，
+that ation, so I have another art board here. I can just create it,
+
+666
+00:49:14.790 --> 00:49:18.570
+嗯，通过这个图标，它叫做艺术板， 或者只是，呃，
+um, through this icon. It's called the art board, or just, uh,
+
+667
+00:49:18.570 --> 00:49:22.430
+创建一个新的文档。
+create a new document. And again, adding a new, uh,
+
+668
+00:49:22.440 --> 00:49:24.270
+通过图标，我可以只是
+sheet through the icon, I can just
+
+669
+00:49:25.890 --> 00:49:30.250
+放大或缩小 所以，让我们，
+enlarge or make it smaller. So let's,
+
+670
+00:49:30.250 --> 00:49:34.330
+Illustrator 比较方便，也很有帮助。
+illustrator is a, is a bit friendliness. It's, uh, quite helpful
+
+671
+00:49:37.460 --> 00:49:42.120
+我做了一个类似的方式 我在Fusion， 我创造了一个形状。
+and I do in a similar way as I was doing in Fusion, I create a shape.
+
+672
+00:49:43.230 --> 00:49:46.070
+如你所见
+So as you can see here,
+
+673
+00:49:46.290 --> 00:49:48.950
+您有不同设计工具的调色板。
+you have a palette with different tools for to d design.
+
+674
+00:49:49.150 --> 00:49:54.150
+我可以看到如果我继续按， 我发现一个方形，一个唇，多边形，
+I can see if I keep pressing, I find a square, a lips, polygon,
+
+675
+00:49:54.730 --> 00:49:59.070
+诸如此类 所以我想开始
+et cetera, et cetera. So I want to start, uh,
+
+676
+00:49:59.180 --> 00:50:03.030
+所以，我点击矩形， 或者你可以看到，呃，
+with a simple one. So I click on the rectangle, or as you can see here, uh,
+
+677
+00:50:03.270 --> 00:50:08.030
+m在键盘中。所以我点击它，我有两个选择。
+m in the keyboard. So I click it and I have two options.
+
+678
+00:50:08.160 --> 00:50:12.800
+再说一遍，我可以选择第一点，并释放它。
+Again, I can select the first point and release it.
+
+679
+00:50:13.300 --> 00:50:16.560
+所以，呃，现在我不知道我的尺寸。
+So, uh, now I have no idea what my size is.
+
+680
+00:50:17.740 --> 00:50:18.980
+我可以去，比如说，
+I can go, for example,
+
+681
+00:50:19.120 --> 00:50:23.940
+来塑造、改造、观察和控制它
+to shape and transform and see and control it from here. So there are these,
+
+682
+00:50:23.940 --> 00:50:28.420
+这个，嗯，在这里说菜单 你可以，呃，
+this, um, say menu here that you can, uh,
+
+683
+00:50:28.420 --> 00:50:31.940
+甚至把它拖到画布上
+even drag and drop it closely to your canvas.
+
+684
+00:50:32.200 --> 00:50:36.020
+您也可以在此指定一个数字。 例如，30，
+And you can also specify a number here. So for example, again, 30,
+
+685
+00:50:36.760 --> 00:50:41.620
+还有5060 如果这很重要的话
+but also 50 60, if that matters,
+
+686
+00:50:42.280 --> 00:50:44.740
+或点亮正方形的瞬间，
+or the moment you click up square,
+
+687
+00:50:45.960 --> 00:50:49.540
+你可以点击任何地方 从零开始分配，呃，维度。
+you can click anywhere and assign from scratch, uh, dimension.
+
+688
+00:50:50.650 --> 00:50:53.350
+结果结果完全一样
+So you end up having, uh, exactly the same result.
+
+689
+00:50:55.490 --> 00:50:58.870
+现在不使用描边，而是给形状填色。
+I'm not working with the stroke, so I have it. My shape field,
+
+690
+00:51:00.540 --> 00:51:02.310
+这只是安装的一个例子。
+this is just an example of the installation.
+
+691
+00:51:02.310 --> 00:51:06.990
+所以我用这个方块作为基地 有个不错的
+So I'm using this square just as a base, and there is, uh, this nice,
+
+692
+00:51:07.250 --> 00:51:10.830
+嗯，非常友好的对齐工具 我听到上面。
+uh, very friendly alignment tools that I hear on top.
+
+693
+00:51:10.890 --> 00:51:15.030
+所以我总是确定我的设计 在我的画布的中心。
+So I always be sure my design is actually at the center of my, my canvas.
+
+694
+00:51:16.740 --> 00:51:21.080
+如果我点击我的形状，
+And again, I can, uh, create an axis. If I click on my shape,
+
+695
+00:51:21.280 --> 00:51:25.600
+我看到这种捆绑，呃， 那种任何地方，特别是在中点。
+I see this kind of bundles, uh, kind of everywhere, especially at the mid point.
+
+696
+00:51:25.860 --> 00:51:28.930
+所以我可以拖着，呃，
+So I can just drag, uh,
+
+697
+00:51:28.990 --> 00:51:33.210
+中间的磁性规则 并创建坎瓦轴。
+the magnetic rule here in the middle and create Canva axis.
+
+698
+00:51:35.410 --> 00:51:38.750
+然后，我们又在努力做我们在这张幻灯片上早些时候看到的。
+And then again, we're trying to do what we saw earlier in this slide.
+
+699
+00:51:38.850 --> 00:51:43.830
+所以，如果上面发生什么事情，我们会发生在底部，反之亦然。
+So if something happens on top, we're gonna happen at the bottom and vice versa.
+
+700
+00:51:43.850 --> 00:51:47.880
+所以从左到右或右到左
+So from left to right or right to left, uh,
+
+701
+00:51:48.160 --> 00:51:51.960
+我有很多工具可以选在调色板上
+I have many tools that I can choose from in the palette here. I can also, um,
+
+702
+00:51:53.210 --> 00:51:56.800
+使用这个被称为，呃，开拓者，
+use this that are called, uh, Pathfinder,
+
+703
+00:51:56.800 --> 00:52:00.760
+类似的东西，你看到 在Rhino结合 不同的形状
+something similar that you saw in the in rhino to combine different shapes
+
+704
+00:52:00.920 --> 00:52:02.600
+与众生同受崇拜，并加以减少，
+together, but also to subtract them,
+
+705
+00:52:06.510 --> 00:52:09.870
+我真的可以做，嗯， 无论我想做什么 所以我可以，呃，
+I can really do, um, whatever I want so I can, uh,
+
+706
+00:52:10.380 --> 00:52:14.080
+保持我的形状 从边缘，呃，
+keep iterating my shape from the edge, uh,
+
+707
+00:52:14.910 --> 00:52:17.840
+和锅，例如，和关节。
+with a pan, for example, and joint.
+
+708
+00:52:17.900 --> 00:52:22.320
+我的形状会由不同的点组成
+So my shape would be composed of different points. Uh,
+
+709
+00:52:23.740 --> 00:52:28.120
+我们可以减去东西， 我们可以，嗯，使用锅， 我们可以使用，
+we can subtract things, we can, um, use the pan, we can use the,
+
+710
+00:52:28.190 --> 00:52:31.960
+其它多边形。举例来说，我可以添加一个圆形。
+another polygon. So example, I, I can add a circle.
+
+711
+00:52:33.020 --> 00:52:36.560
+假设我们可以，我们看到多边形准备好了，我们，
+Uh, let's say we can, we saw the polygons ready, we,
+
+712
+00:52:36.940 --> 00:52:40.760
+我们可以试着用锅，把键盘或锅的图标放在这
+we can try to use the pan. So pin the keyboard or the pan icon here,
+
+713
+00:52:42.680 --> 00:52:46.710
+你可以通过点击创建，嗯，
+and you can create, um, by just clicking
+
+714
+00:52:49.890 --> 00:52:51.500
+不同点，我再来一次
+different points. I do it again.
+
+715
+00:52:55.770 --> 00:53:00.150
+你可以随心所欲地放进去 这只是个测试
+You can actually place them whatever you want. This is just, um, a test.
+
+716
+00:53:00.570 --> 00:53:03.660
+所以，然后创造，呃，类似的东西。
+So then create, uh, something like this.
+
+717
+00:53:05.140 --> 00:53:10.060
+如果你看不到你所做的，你可以通过点击来改变颜色
+If you don't see what you actually did, you can change the color by click
+
+718
+00:53:12.770 --> 00:53:15.630
+注意你的颜色，不要动，要蓝色
+on your color. So stay, want this to be blue,
+
+719
+00:53:19.650 --> 00:53:22.170
+更简单 保持在线
+actually make it more simple. Stay on the line.
+
+720
+00:53:33.460 --> 00:53:36.100
+我做了别的事 比如在另一边
+I do something else. Uh, for example, on the other side.
+
+721
+00:53:38.000 --> 00:53:41.940
+所以当我也用笔点击的时候
+So the moment I'll also click with the pen. I, uh,
+
+722
+00:53:41.940 --> 00:53:44.140
+如果我打开鼠标旁边的一点，
+if I open with the mouse next to a point,
+
+723
+00:53:44.570 --> 00:53:46.860
+这将会被突出 一种锚。
+this will be highlighted kind of a anchor.
+
+724
+00:53:47.440 --> 00:53:50.860
+这样我就能轻松地安顿一下我的，呃，
+So I can also place easily just napping my, uh,
+
+725
+00:53:51.880 --> 00:53:53.790
+这里的笔。
+pen here.
+
+726
+00:53:56.760 --> 00:54:00.800
+现在我有两个有点不同的循环
+And now I have, uh, two slightly different loops.
+
+727
+00:54:05.700 --> 00:54:10.520
+例如，我可以选择我想要的两个
+So for example, I can, uh, select the two I want to,
+
+728
+00:54:10.580 --> 00:54:15.400
+互相交流 互相交织 我选了两艘船
+um, interact and intersect with. And I select the two ships that I made.
+
+729
+00:54:15.820 --> 00:54:18.560
+举例来说，我选择了任何一个寻找者。
+And I, for example, choose any of the pathfinders.
+
+730
+00:54:22.910 --> 00:54:26.610
+我不知道是否清楚 我选了他们两个
+So I didn't know if it was clear. Um, I select the two of them.
+
+731
+00:54:28.320 --> 00:54:32.320
+我想用一个变形器。所以，红色和蓝色。
+I want to apply the a transformation on. So the, the, the red and the blue.
+
+732
+00:54:32.800 --> 00:54:35.670
+我点击这个图标，它叫做分裂。
+I click on this icon, it's called divide.
+
+733
+00:54:35.810 --> 00:54:39.420
+所以，基本上我要有一个分裂。
+So basically I'm gonna have a split.
+
+734
+00:54:39.930 --> 00:54:43.300
+这默认是一组的 所以我也可以使用，呃，
+This by default comes in a group. So I can also use, uh,
+
+735
+00:54:43.310 --> 00:54:48.080
+右键单击并取消组合。基本上我已经完成了
+right click and do ungroup. And basically I already have this done
+
+736
+00:54:51.750 --> 00:54:55.370
+如果我想再做一次，我也可以选择他们两个 并做好，
+if I want to do it again, I can also select them both and do okay,
+
+737
+00:54:55.560 --> 00:54:59.360
+只要他们稍稍拦截一下
+join them together. As long as they intercept a little bit,
+
+738
+00:54:59.500 --> 00:55:02.840
+子程序可以合并或分割它们。
+the sub is able to merge them or split them. Um,
+
+739
+00:55:03.460 --> 00:55:07.600
+如果你有一个分裂， 所以像一条线或形状本身。
+if you have a split into, so like a line or a shape itself.
+
+740
+00:55:08.700 --> 00:55:12.880
+所以，我把它拆开，我可以，嗯，放在这里 例如，
+So I split it and I can, uh, put it here for example,
+
+741
+00:55:13.020 --> 00:55:17.520
+我可以这样，嗯，加入这两个
+and I can do this way, um, join this two
+
+742
+00:55:19.240 --> 00:55:22.090
+自动的 你知道它加入是因为
+automatically. Uh, you know that it's joined because, uh,
+
+743
+00:55:22.310 --> 00:55:24.770
+采用第二个形状的新颜色。
+the new color of the second shape is adopted.
+
+744
+00:55:25.190 --> 00:55:28.410
+因此，重做这将是菜单的新形状。
+So redo this will be a menu new shape.
+
+745
+00:55:29.670 --> 00:55:32.250
+所以它只是一个，再一次
+So it is just one. And again,
+
+746
+00:55:32.680 --> 00:55:36.330
+到底发生了什么 在上，上，下，
+what happens at the bottom up in the top, up at the bottom,
+
+747
+00:55:37.560 --> 00:55:41.490
+虽然我的形状不是完全的， 它不是非常惊人，我也可以，
+while my shape is not totally, it's not very amazing, I can also,
+
+748
+00:55:42.870 --> 00:55:45.950
+比如说 操纵
+um, for example, manipulate,
+
+749
+00:55:46.950 --> 00:55:51.070
+应用一种感觉或角度来修改。
+applying kind of a feel it or angle to modify. Furthermore, the shape,
+
+750
+00:55:52.170 --> 00:55:56.990
+或者，如果我点击这里的第二个箭头， 我实际上可以，呃，
+or if I click on the second arrow here, I'm actually able to, uh,
+
+751
+00:55:57.090 --> 00:56:01.510
+双击顶点，再次操纵，呃，
+double click on the vertex and manipulate again, uh,
+
+752
+00:56:01.570 --> 00:56:05.300
+不同的方式，我的形状。
+in a different way, my shape.
+
+753
+00:56:06.280 --> 00:56:08.580
+在这里，我可以做，嗯，
+And here again, I can do, um,
+
+754
+00:56:13.490 --> 00:56:17.620
+嗯，一旦完成了，我很高兴，再次，
+many things. Um, once this is done, I'm quite happy with that. Again,
+
+755
+00:56:17.780 --> 00:56:20.340
+我也可以做同样的事 或者只是做，嗯，
+I can do the same or can just do, um,
+
+756
+00:56:20.890 --> 00:56:25.060
+复制粘贴，或者像我们以前一样， 我们拖下来，
+copy paste it or like we did before, we drag it down,
+
+757
+00:56:25.060 --> 00:56:29.100
+复制一个复制品。所以复制它 选择或选择全部下来。
+making a copy. So clone it with option or alt all the way down.
+
+758
+00:56:30.630 --> 00:56:34.870
+我也可以选择一切 并隐藏它。
+I can also select everything and hide it.
+
+759
+00:56:34.870 --> 00:56:37.830
+所以我现在可以看见了，嗯，
+So I'm actually able now to see, uh,
+
+760
+00:56:38.020 --> 00:56:41.870
+我复制，然后我可以再做一次。
+that I copied and then I can do it again.
+
+761
+00:56:42.140 --> 00:56:43.910
+这个要删掉
+This is gonna be subtracted
+
+762
+00:56:47.980 --> 00:56:49.640
+这将会是添加的。
+and this is gonna be added. So
+
+763
+00:56:51.190 --> 00:56:53.600
+这将会是同一个形状的一部分，
+this is gonna be part of the same shape and
+
+764
+00:56:58.260 --> 00:57:03.200
+我可以试着放下这个。
+I can try to put this down.
+
+765
+00:57:03.340 --> 00:57:06.120
+右键，呃，让我们从后面走
+So right click, uh, let's range it to the back.
+
+766
+00:57:06.180 --> 00:57:08.640
+所以我真的可以接受第二个
+So I'm actually able to take the second,
+
+767
+00:57:11.520 --> 00:57:16.050
+给它一个颜色，只是为了区分他们俩。
+give it a color just to distinguish the two of them. And we can say, I,
+
+768
+00:57:16.210 --> 00:57:18.990
+我想再减这个
+I want to subtract this. Uh, again,
+
+769
+00:57:19.110 --> 00:57:23.230
+我可以摆脱轴线 现在我的形状已经定了
+I can get rid of the axis and now my shape is kind of defined,
+
+770
+00:57:23.370 --> 00:57:28.350
+所以我可以把它复制出来 看看这有多完美
+so I can just clone it and see how perfectly this
+
+771
+00:57:28.350 --> 00:57:31.310
+是，呃， 隔离我的空间。
+is. Uh, desolating my space.
+
+772
+00:57:35.870 --> 00:57:37.180
+再说一遍，我选择一切
+Again, I select everything
+
+773
+00:57:39.410 --> 00:57:43.010
+我可以空闲，也可以拖走它们
+I can space or I can just drag and drop them.
+
+774
+00:57:51.240 --> 00:57:53.780
+当然，你真的可以 准确的一针。
+Of course, you can really be precise with a snap.
+
+775
+00:57:55.320 --> 00:57:56.420
+随你何时
+The moment you have to.
+
+776
+00:57:59.730 --> 00:58:00.670
+你们也可以确定
+You can also be sure
+
+777
+00:58:03.760 --> 00:58:08.010
+这不太精确，你也可以点击某个点。
+this is not very precise. You can also click, um, on a certain point.
+
+778
+00:58:08.110 --> 00:58:12.020
+所以，你实际上可以 打破像素。
+So you're actually able to snap the pixel.
+
+779
+00:58:13.530 --> 00:58:17.790
+确认只使用描边，而不使用填充。
+We want to be sure you apply just the stroke and not the feeling.
+
+780
+00:58:18.050 --> 00:58:21.990
+┮┮Τ狥「常睲贰и稱 type
+So everything is cleaner. And I want to type your listing.
+
+781
+00:58:22.100 --> 00:58:26.710
+这基本上是有时 当你有关闭循环和模式，
+That is basically sometimes when you have closed loop and patterns,
+
+782
+00:58:27.490 --> 00:58:32.350
+嗯，就像在这种情况下， 你真的想优化 机器时间。
+uh, like in this case, you really want to optimize also the machine time.
+
+783
+00:58:32.570 --> 00:58:35.740
+而且，呃，有时你会有，
+And, uh, sometimes you are gonna have,
+
+784
+00:58:36.230 --> 00:58:40.340
+特别是如果你像这样排料 双线
+especially if you nest the pieces like this, uh, a double line. So you have
+
+785
+00:58:41.950 --> 00:58:46.720
+这个边缘会被复制到上面 所以大多数情况下
+this edge is gonna be replicated on top of this one. So in most of the cases,
+
+786
+00:58:46.900 --> 00:58:50.880
+帮助知道，嗯，一个叫做切 在你的，
+useful to know, um, a command called cut in your,
+
+787
+00:58:51.420 --> 00:58:55.400
+你可以通过它，嗯，通过点击这里，剪刀。
+you can access through it, um, by clicking here, the scissors.
+
+788
+00:58:56.100 --> 00:58:58.200
+所以如果你点击两个不同的点
+So if you just click on two different points,
+
+789
+00:58:58.740 --> 00:59:02.400
+你实际上能够打破循环 摆脱双线。
+you're actually able to break the loop and get rid of the double line.
+
+790
+00:59:02.420 --> 00:59:05.720
+所以，现在你的搭档，呃， 让我们说更正确。
+So now your partner will be, uh, let's say more correct.
+
+791
+00:59:07.620 --> 00:59:09.040
+再说一遍 你可以...
+And again, you can just, uh,
+
+792
+00:59:09.800 --> 00:59:14.750
+带着像素，在回去的路上移动它。
+take the pixel and move it on the way back as it was before. So again,
+
+793
+00:59:15.060 --> 00:59:18.010
+这，呃，将是共同的。
+this, uh, is gonna be in common.
+
+794
+00:59:18.150 --> 00:59:20.610
+所以我也可以读到这个。
+So I can also get read of this one.
+
+795
+00:59:22.340 --> 00:59:26.120
+现在，我保留，我可以 克隆我的按钮了。
+And now I kept, I can keep cloning my button all over.
+
+796
+00:59:26.990 --> 00:59:28.030
+我可以重复同样的话
+I can repeat the same
+
+797
+00:59:31.540 --> 00:59:35.280
+甚至改造和加入，嗯， 在一起只有一行，
+and even transform and join, um, together in only one line,
+
+798
+00:59:35.780 --> 00:59:39.200
+所有底线和所有，嗯，顶线一起。
+all the bottom lines and all the, um, top lines together.
+
+799
+00:59:41.030 --> 00:59:45.770
+然后，我也可以这样做，当然，我也可以这样做 在结尾。我删除，
+And then I can do the same, of course, I can also do it at the end. I delete,
+
+800
+00:59:45.770 --> 00:59:49.210
+所有的人 我创造了一条新线 一条新的连续线
+uh, all of them. I create a new line, uh, a new continuous line.
+
+801
+00:59:49.230 --> 00:59:53.250
+所以很多设计师，呃， 更干净，同样，嗯，
+So many designers will be, uh, much more clean also in terms of, uh,
+
+802
+00:59:53.600 --> 00:59:56.960
+编造，然后，
+fabrication. Then again,
+
+803
+00:59:57.120 --> 00:59:59.560
+我可以应用描边。
+I can apply a stroke. Can,
+
+804
+01:00:00.760 --> 01:00:03.760
+我认为从这里选 或者双击柱。
+I think pick it from here or double click on the column.
+
+805
+01:00:05.980 --> 01:00:09.080
+因此，它会再次是红色， 255，0，0。
+So it is gonna be red again, 2 55, 0, 0.
+
+806
+01:00:14.130 --> 01:00:14.710
+当然
+Of course,
+
+807
+01:00:14.710 --> 01:00:19.350
+我甚至可以把这里的东西都拼凑起来
+I can group everything even here now with the a integrated
+
+808
+01:00:19.690 --> 01:00:22.430
+或者我也可以操纵它
+ai. Or I can also, uh, manipulate it.
+
+809
+01:00:22.430 --> 01:00:27.280
+所以我绝对可以 放大或下
+So I can definitely scale it up or down the
+
+810
+01:00:27.280 --> 01:00:30.800
+颜色，我也可以做一些事情
+color. I can also do, um, a couple of things
+
+811
+01:00:32.330 --> 01:00:37.140
+或只是，嗯，说，我很高兴 设计，为了最后敲定它，
+more or just, uh, say I'm happy with the design and in order to finalize it,
+
+812
+01:00:37.260 --> 01:00:41.260
+我可以把这个放回去0.1毫米
+I can just apply this back to be 0.1 millimeters
+
+813
+01:00:42.240 --> 01:00:46.500
+比如说，呃，当然，保存它和出口，
+and, uh, of course save it and export, for example,
+
+814
+01:00:46.800 --> 01:00:49.660
+作为 PD F 或任何其他矢量文件
+as a P D F or any other vector file for
+
+815
+01:00:52.480 --> 01:00:55.900
+如果你的 Illustrator 可以直接连接激光设备，
+in case illustrator in your case is connected directly to the laser.
+
+816
+01:00:56.040 --> 01:00:59.860
+你可以去打印 并发送到，嗯，画，
+You can just go to print and send it to, um, draw,
+
+817
+01:01:00.960 --> 01:01:04.340
+工作控制或任何软件
+uh, job control or any of the software there. So
+
+818
+01:01:09.610 --> 01:01:12.600
+再说一次，我可以做出口
+again, I can just do export as
+
+819
+01:01:17.070 --> 01:01:21.230
+连SV G圈，两个导出
+even S V G circles. Two export.
+
+820
+01:01:22.410 --> 01:01:25.970
+你可以把缺省留在这儿，当然，它说Vg。
+You can keep the default here. Of course, it says vg.
+
+821
+01:01:25.970 --> 01:01:29.800
+所以现在你知道 有一个代码，呃，
+So now you know that there is actually a code and, uh,
+
+822
+01:01:29.800 --> 01:01:32.760
+在文档中按“好”键。您可以将其链接为“a，
+press okay in your documentation. You can link it as a,
+
+823
+01:01:32.760 --> 01:01:36.600
+作为文件再次作为PDF，或者Daf。
+as a file as a P D F again, or daf. You can just, uh,
+
+824
+01:01:36.660 --> 01:01:40.040
+放在文件文件夹里 放在文档里
+put it in the files folder, uh, inside the documentation.
+
+825
+01:01:41.780 --> 01:01:44.520
+所以你的文件会放在这
+So your file is gonna be placed here.
+
+826
+01:01:46.420 --> 01:01:48.900
+其实我选择了一切
+I actually selected, um, everything.
+
+827
+01:01:48.920 --> 01:01:51.900
+所以两块板子都在我的大设计里
+So both of the boards will be in our part of my big design.
+
+828
+01:01:55.290 --> 01:01:59.230
+嗯，我们可以快速移动，呃，到Rhino 只是，嗯，
+Um, we can quickly move, uh, onto Rhino just to, um,
+
+829
+01:01:59.340 --> 01:02:03.060
+很快看到Fusion的区别
+quickly see the difference between Fusion. Uh, again,
+
+830
+01:02:03.060 --> 01:02:07.020
+这是Rhino在Mac上的版本 所以可能有点...
+this is Rhino version on the Mac, so it might be a little bit, uh,
+
+831
+01:02:08.020 --> 01:02:10.150
+可能和Windows不同
+even more than little bit maybe different from Windows.
+
+832
+01:02:11.090 --> 01:02:12.630
+当然，命令是一样的。
+But of course the commands are the same.
+
+833
+01:02:12.630 --> 01:02:17.470
+上面有菜单，还有边菜单
+There is a top menu and there is a side one. Uh, we're gonna use,
+
+834
+01:02:17.810 --> 01:02:22.440
+嗯，大部分只是你在这里看到的评论。
+um, mostly just the comments that you see here. And I think to begin with,
+
+835
+01:02:22.950 --> 01:02:26.720
+嗯，你可以看到，呃，
+it's good to light that. Uh, as you can see here, uh,
+
+836
+01:02:26.820 --> 01:02:31.630
+左边是一个很好的做法 拥有这些，嗯，
+on the left is a good practice to have most of these, um,
+
+837
+01:02:32.700 --> 01:02:35.870
+所以，呃，当你看到之前，
+snap enabled. So, uh, when you saw before,
+
+838
+01:02:36.500 --> 01:02:41.190
+当我走近一条线或，嗯， 某些形状的我的老鼠，
+when I go nearby a line or, um, certain shape of my mouse,
+
+839
+01:02:41.390 --> 01:02:42.910
+и痷稱垛
+I really want to, um,
+
+840
+01:02:43.730 --> 01:02:48.150
+确定我点击特定像素的某个特定点。
+to be sure I click onto a specific pixel on a specific point.
+
+841
+01:02:48.290 --> 01:02:52.430
+所以我会保持，嗯，终点，中点，
+So I'm gonna keep, um, the end point, the midpoint,
+
+842
+01:02:52.530 --> 01:02:54.030
+中间的交叉点，
+the center intersection,
+
+843
+01:02:54.370 --> 01:02:58.750
+作为我设计的默认
+and as a default in my design. Uh,
+
+844
+01:02:58.930 --> 01:03:01.990
+我们可以尝试做一些类似的事情 我们做了，呃，Fusion。
+and we can try to do something similar that we did, uh, with Fusion.
+
+845
+01:03:02.250 --> 01:03:06.590
+所以，现在我们要看到 参数模型与，呃，
+So now we're gonna see the difference of between a parametric modeler and, uh,
+
+846
+01:03:07.150 --> 01:03:11.510
+Rhino这样的软件能处理几何问题
+a software like Rhino that handles geometries. Uh, but not only, uh,
+
+847
+01:03:11.860 --> 01:03:16.240
+例如，我们可以用方形矩形做一个例子。
+we can do an example with squares rectangle, for example. So,
+
+848
+01:03:17.950 --> 01:03:21.410
+这是我们正在研究的界面 这是我的视角
+uh, this is the interface we'll be working on, and this is my view.
+
+849
+01:03:21.650 --> 01:03:24.090
+我不需要点击像Fusion，呃，
+I don't have to click like fusion, uh,
+
+850
+01:03:24.120 --> 01:03:28.370
+从头开始，在我的顶部，呃，或左边，
+already from the beginning on my top front, uh, or left,
+
+851
+01:03:29.550 --> 01:03:31.810
+嗯，通过这个图标，我可以完全看到。
+uh, through this icon I can see altogether.
+
+852
+01:03:31.910 --> 01:03:36.610
+所以这里会发生什么 发生在前面和右边
+So what happens here is gonna happen, uh, in the front and in the right,
+
+853
+01:03:36.990 --> 01:03:40.650
+当然，也从各自的观点和角度出发。
+of course, at the respective views and also in the perspective.
+
+854
+01:03:41.650 --> 01:03:46.610
+我可以点击其中任何一个 放大，放大模式 看它们是否，嗯，
+I can click on any of them to zoom, zoom mode to see if they're, um,
+
+855
+01:03:46.720 --> 01:03:49.850
+连线，我可以点击顶部
+connected. And I can just, uh, click on the top.
+
+856
+01:03:50.450 --> 01:03:54.130
+因为我基本上要研究这个 所以这是...
+'cause I'm gonna work basically into this. So this is the, um,
+
+857
+01:03:54.230 --> 01:03:56.930
+永远确定你的工作 从上方。
+always be sure you're working from the top side.
+
+858
+01:03:59.450 --> 01:04:03.150
+嗯，再次， 我们可以创建长方形 类似的方式Fusion。
+Uh, again, we can create a rectangular in a similar way of fusion.
+
+859
+01:04:03.290 --> 01:04:08.020
+所以点击这里的图标， 我可以，呃，嗯，
+So clicking on the icon here, and I can just, uh, uh,
+
+860
+01:04:08.070 --> 01:04:12.260
+Rhino告诉我，从哪里开始，坐标是什么？
+rhino is telling me, uh, where to begin. So what are the coordinates? Where,
+
+861
+01:04:12.390 --> 01:04:16.100
+我的第一点会放在画布上吗？
+where is my first point gonna be on the canvas? Um,
+
+862
+01:04:16.960 --> 01:04:18.620
+我被训练成产品设计师
+I'm trained as a product designer,
+
+863
+01:04:18.800 --> 01:04:23.660
+所以，当然我的飞机也会，呃，例如，嗯，
+so of course my plane also is gonna be, uh, for example, um,
+
+864
+01:04:23.830 --> 01:04:27.950
+所以，我通常从中间开始，嗯，
+coordinate. So I usually begin at the center, um,
+
+865
+01:04:28.410 --> 01:04:33.190
+所以，我只是输入0，嗯，
+of my grid that is actually given here. So I just input zero, um,
+
+866
+01:04:33.410 --> 01:04:37.770
+跟我的出身一样是零
+common zero as my origin. Uh,
+
+867
+01:04:38.030 --> 01:04:42.800
+我创建，嗯，基本上可以， 我可以指定长度，
+and I create, um, basically can, I can specify the length,
+
+868
+01:04:43.580 --> 01:04:47.080
+边缘，角落，所以我也可以说，这个，
+the edge, the corner. So I can also say, again, this,
+
+869
+01:04:47.110 --> 01:04:50.160
+有60比60作为方块，
+have it 60 by 60 as a square,
+
+870
+01:04:51.390 --> 01:04:55.890
+我可以确定这其实是60，呃， 通过看上面。
+and I can be sure this actually 60, uh, by looking on top.
+
+871
+01:04:56.390 --> 01:04:58.130
+我可以继续维度。
+And I can go on dimension.
+
+872
+01:04:59.950 --> 01:05:03.030
+我可以看到有一个命令叫做衬线维度。
+I can see there is a command called liner dimension.
+
+873
+01:05:03.130 --> 01:05:07.350
+从这里我可以看到，这其实是60。
+And I can see from here to here, this is actually 60.
+
+874
+01:05:08.720 --> 01:05:12.780
+这有点误导人 不像Fusion
+Um, it is a bit misleading. It is not like fusion,
+
+875
+01:05:12.920 --> 01:05:14.740
+所以这样不行
+so it doesn't work, uh, like that.
+
+876
+01:05:14.980 --> 01:05:19.360
+我不能双击并相应更改数值，我也可以，呃，
+I cannot double click and change the value accordingly. I can also just, uh,
+
+877
+01:05:19.450 --> 01:05:23.440
+校验我的尺寸是六厘米
+debug and verify that my dimension is actually six centimeters.
+
+878
+01:05:24.410 --> 01:05:28.510
+当然 如果你的线不是毫米
+Of course. Uh, please, if your line is not a millimeters,
+
+879
+01:05:29.330 --> 01:05:30.750
+回到那个...
+go back to uh,
+
+880
+01:05:31.020 --> 01:05:35.670
+5，并探索解剖， 确定这是在两毫米多。
+five and explore the dissecting and be sure this is at two millimeters more.
+
+881
+01:05:36.030 --> 01:05:40.870
+因为我们在处理，呃，小物体， 但也，嗯，
+'cause we're dealing with, uh, small objects, but also, um,
+
+882
+01:05:41.580 --> 01:05:44.710
+0.1，0.2毫米，尤其是这个星期.
+0.1, 0.2 millimeters, especially for this week.
+
+883
+01:05:47.500 --> 01:05:51.680
+嗯，所以再次，这个， 我，我发现它在，呃，维度，
+Um, so again, this, I, I found it on the, uh, dimension,
+
+884
+01:05:51.680 --> 01:05:53.800
+Leonard的维度，我只是点击，嗯，
+Leonard dimension, and I just click, um,
+
+885
+01:05:54.060 --> 01:05:56.840
+几点来说明我的距离。
+couple of points to specify my distance.
+
+886
+01:06:00.020 --> 01:06:04.520
+嗯，有很多方法， 当然还有RiNo来创造，比如，嗯，
+Um, there are many ways, of course also RiNo to create something like, uh,
+
+887
+01:06:04.850 --> 01:06:09.120
+这些模式，我们可以开始，嗯，
+these patterns. We can start, um,
+
+888
+01:06:11.960 --> 01:06:13.560
+例如创建访问。
+creating an access, for example. And again,
+
+889
+01:06:13.560 --> 01:06:17.360
+我们可以看到，根据我们选择的坐标，
+we can see here that according to the snaps that we selected,
+
+890
+01:06:17.500 --> 01:06:21.120
+所以如果我靠近边缘
+we can have sort of guidelines. So if I go closer to the edge,
+
+891
+01:06:21.320 --> 01:06:22.840
+我可以强调中间的摩。
+I can highlight the mid mo.
+
+892
+01:06:22.860 --> 01:06:26.800
+所以我可以在这里点击 并在这里创建一条线。
+So I can just click here and create a line all the way here.
+
+893
+01:06:29.690 --> 01:06:32.850
+我可以通过键盘确认 逃脱或箭头。
+I can confirm through the keyboard and escape or the arrow.
+
+894
+01:06:33.070 --> 01:06:34.250
+为了逃避任何选择
+So to escape any selection,
+
+895
+01:06:39.230 --> 01:06:43.390
+我也可以选择忽略轴线 然后继续
+I can also choose, for example, to ignore the axis and just proceed, uh,
+
+896
+01:06:43.710 --> 01:06:45.230
+创建一条线像我们以前一样。
+creating a line like we did before.
+
+897
+01:06:48.690 --> 01:06:52.270
+再说一遍，我要用质量线，我可以创造
+So again, I'm gonna use the quality line. I can create
+
+898
+01:06:55.250 --> 01:06:58.100
+先放一点，再放第二句
+placing one point first, and then the second a line,
+
+899
+01:06:58.160 --> 01:07:01.300
+如果我已经知道它的价值， 它是，它会是 更容易让我知道。
+if I already know the value, it's, it's gonna be easier for me to know.
+
+900
+01:07:02.120 --> 01:07:05.700
+因此，我们可以再次设定两个20。
+So again, we can set two 20.
+
+901
+01:07:05.880 --> 01:07:10.260
+所以我可以把第一点放在某个地方 说
+So I can place the first point somewhere and just say,
+
+902
+01:07:10.380 --> 01:07:12.140
+我希望这是20。
+I want this to be 20.
+
+903
+01:07:15.100 --> 01:07:15.933
+好吗？
+Okay?
+
+904
+01:07:18.660 --> 01:07:21.280
+如果我想在后面 只是确保它是20，再次，
+If I want to the back just to make sure it's 20, again,
+
+905
+01:07:21.360 --> 01:07:26.270
+我访问两个维度并点击线性维度并选择两个点
+I access two dimension and click on linear dimension and select two points
+
+906
+01:07:26.290 --> 01:07:27.270
+其实是20岁
+and is actually 20,
+
+907
+01:07:28.730 --> 01:07:32.650
+我并不需要这个，我可以删除它。
+I don't really need this and I can just delete it. Uh,
+
+908
+01:07:32.670 --> 01:07:36.300
+团结是组织起来的好方法
+united is a nice way to, um, organize.
+
+909
+01:07:36.360 --> 01:07:41.020
+所以我可以移动它 或通过这里的 gi，形状，
+So I can just move this around or through the gimbal here, the shapes,
+
+910
+01:07:41.760 --> 01:07:45.420
+嗯，为了正确放置这个， 让我们至少说，呃，
+uh, to place this correctly, let's say at least, uh,
+
+911
+01:07:45.800 --> 01:07:48.300
+在我的中轴线，我也可以
+at the middle here of my axis, I can also
+
+912
+01:07:51.080 --> 01:07:52.940
+选择行。我想移动
+select line. I want to move
+
+913
+01:07:54.790 --> 01:07:58.730
+在命令行右侧，移动更多的曲线。
+right in the command line, move more curve.
+
+914
+01:07:59.430 --> 01:08:02.490
+既然我把这东西放下了 我现在不需要中心了
+And since I have this alighted, I don't need the center now,
+
+915
+01:08:03.270 --> 01:08:04.970
+能够保持点中点。
+can keep the point midpoint.
+
+916
+01:08:05.290 --> 01:08:10.090
+我只想看看中间点的确切位置 这样我就可以从点到点
+I just need to see exactly where the midpoint is so I can move from point to
+
+917
+01:08:10.090 --> 01:08:14.820
+从点到边 从中间
+point, from point to edge, from the middle of this
+
+918
+01:08:18.220 --> 01:08:21.760
+任何地点，任何我想要的地方。
+to any place, any location I want this to be. So for example, here
+
+919
+01:08:24.140 --> 01:08:27.770
+再说一遍，我不需要这些台词，所以我可以把它扔掉。
+again, I don't really need these lines, so I can just get rid of it.
+
+920
+01:08:28.710 --> 01:08:32.810
+再说一次，我可以创造出类似的方式 就像我们Fusion一样，呃，一种模式，
+And again, I can create a similar way like we did fusion, uh, a pattern,
+
+921
+01:08:33.610 --> 01:08:38.410
+循环图案 如你所见 软件真的不重要
+a circular pattern. So as you can see, uh, the software really doesn't matter.
+
+922
+01:08:38.510 --> 01:08:41.950
+工作流程基本一样
+The workflow is mostly the same. Uh,
+
+923
+01:08:41.970 --> 01:08:46.810
+你可以选择行 并写，嗯，阵列在，嗯，
+you can select the line and write, um, array in, um,
+
+924
+01:08:47.740 --> 01:08:51.230
+每一个软件 作为一个不同的，嗯，嗯，
+every software as a different, um, um,
+
+925
+01:08:51.650 --> 01:08:54.980
+一套可以选择的规则和命令。
+set of rules and commands that you can choose from. Um,
+
+926
+01:08:55.640 --> 01:08:57.860
+你可以开始打字的东西，嗯，
+you can start typing something and, uh,
+
+927
+01:08:57.860 --> 01:09:02.620
+您也可以访问这里所有不同的命令。
+you can also already accessing all the different, uh, commands here. Uh,
+
+928
+01:09:02.920 --> 01:09:07.830
+我将使用 ArrayPolar，即极轴阵列。
+I'm gonna use the one called the ray polar. So, um, right now,
+
+929
+01:09:08.120 --> 01:09:12.830
+再说一次，它告诉我，嗯， 具体我要做什么。
+again, it's telling me, um, to specify what I want to do. So,
+
+930
+01:09:13.450 --> 01:09:17.550
+嗯，我也可以从命令开始 然后，呃，
+uh, I can also begin with the command and then, uh,
+
+931
+01:09:17.550 --> 01:09:22.070
+之后只是选择线条 这样我就可以再写一遍 阵列颜色
+afterwards just selecting the line so I can write again, array color,
+
+932
+01:09:23.130 --> 01:09:26.630
+选择对象到数组。 我按下输入 。
+select objects to array. I press enter when down.
+
+933
+01:09:26.650 --> 01:09:31.330
+所以大多数命令都会这样
+So most of the commands will work this way. And,
+
+934
+01:09:31.590 --> 01:09:35.730
+中心，我很幸运能有它
+uh, the center, I'm lucky enough to have it here. So I,
+
+935
+01:09:37.770 --> 01:09:42.740
+我删除了访问权限，所以我需要它。
+well, I deleted the access, so I actually needed it. I go back in time.
+
+936
+01:09:42.740 --> 01:09:44.860
+幸运的是，呃，这是允许的。
+Fortunately, uh, that's allowed.
+
+937
+01:09:45.220 --> 01:09:49.960
+我回去先点击我的台词 或者再输入命令
+I go back to click my line first or just input the command again.
+
+938
+01:09:50.880 --> 01:09:54.660
+在 Rhino 中，按键盘上的——
+Um, rhino, if you press, um, backspace,
+
+939
+01:09:56.340 --> 01:09:58.440
+嗯，空间栏 在你的键盘，
+um, the space bars are in your keyboard,
+
+940
+01:09:58.500 --> 01:10:02.400
+你可以重复上一个命令，这样比较容易
+you can actually repeat the previous command. So it's just easier, um,
+
+941
+01:10:02.700 --> 01:10:05.640
+因此，
+to work with keyboards sometimes in this kind of software. So again,
+
+942
+01:10:05.780 --> 01:10:08.120
+选择对象到阵列将是我的线条。
+select objects to array is gonna be my line.
+
+943
+01:10:08.500 --> 01:10:11.690
+把一个小点 指定中心
+And turn one down and specify the center.
+
+944
+01:10:12.110 --> 01:10:16.930
+和Fusion类似
+So this is gonna be in the center. And uh, again, similar to fusion,
+
+945
+01:10:17.030 --> 01:10:20.490
+之前我们加了三个
+how many items we want to put. Previously we added three.
+
+946
+01:10:20.550 --> 01:10:23.770
+现在我们要四点，等我完事
+Now we're gonna go for four. So when I'm done,
+
+947
+01:10:24.690 --> 01:10:28.170
+我曾经确认，我可以说明角度。
+I used to confirm and I can specify the angle.
+
+948
+01:10:28.310 --> 01:10:31.320
+因此，它会是所有的圆。
+So it's gonna be all over circle.
+
+949
+01:10:31.460 --> 01:10:34.920
+所以设为 360°。
+So three under 60 degree, I press it here
+
+950
+01:10:36.990 --> 01:10:41.050
+这是我的预览，我很高兴
+and here is my, uh, preview. So I'm happy with that. Yes,
+
+951
+01:10:41.690 --> 01:10:45.270
+我点击，我，
+I clicked on, I,
+
+952
+01:10:45.430 --> 01:10:48.950
+我能读到其他不需要的台词
+I can just get read the, um, the other lines that I don't need.
+
+953
+01:10:51.850 --> 01:10:55.590
+当然，再次， 创造凸连接件的部分或组合，
+Of course, again, to create the male part or a combination,
+
+954
+01:10:55.680 --> 01:10:58.110
+说到凹连接件和凸连接件
+let's say of female and male part, uh,
+
+955
+01:10:58.170 --> 01:11:01.830
+你可以做chondro CDL V 复制同样的一个。
+you can do chondro CDL V and clone the same one.
+
+956
+01:11:03.130 --> 01:11:07.380
+嗯，有很多方法可以做到这一点。
+Um, there are many ways to do it. For example,
+
+957
+01:11:07.400 --> 01:11:11.620
+我们想有其他的连接在这里， 类似于嗯，
+we want to have the other connections here, similar to um,
+
+958
+01:11:11.650 --> 01:11:13.440
+此形状和垂直部分。
+this shape and the vertical part.
+
+959
+01:11:14.380 --> 01:11:19.360
+因此，艾诺可以做这样的事情。我可以选择两行。
+So Aino can actually do something like this. I can just select the two lines.
+
+960
+01:11:19.600 --> 01:11:24.420
+我可以，嗯，继续线 这样我就可以，呃，
+I can, um, continue the line so I can, uh,
+
+961
+01:11:25.040 --> 01:11:29.350
+嗯，选择这种图标。
+um, select this kind of icon.
+
+962
+01:11:30.030 --> 01:11:34.340
+如果你已经知道了 我可以决定把一个因素 向大方向扩展
+I can decide to scale a factor in wide direction if you already know.
+
+963
+01:11:34.360 --> 01:11:36.340
+或者，我可以只是，呃，呃，
+Or I can just, uh, uh,
+
+964
+01:11:36.520 --> 01:11:41.050
+让他们到处走 以防我需要修剪线路
+let them go all over the shape in case I need to trim the line
+
+965
+01:11:41.250 --> 01:11:42.730
+与其他线路交叉
+intersecting with other lines
+
+966
+01:11:46.010 --> 01:11:50.910
+并试图做这样的事情。
+and trying to do something like this. I can actually do, um,
+
+967
+01:11:51.820 --> 01:11:56.750
+复制粘贴，我以后可以创造一个图案来获得我的，我的，我的形状.
+copy paste. I can create a pattern later to get my, my, my shape.
+
+968
+01:11:57.610 --> 01:12:00.840
+有很多办法，我也可以...
+There are many ways to do it. I can also, uh,
+
+969
+01:12:00.840 --> 01:12:05.840
+在此创建一条线作为参考，然后将一些线改为
+create a line here as a reference and then some instead of
+
+970
+01:12:05.840 --> 01:12:09.080
+比如说，复制粘贴，我可以做类似，呃，
+copy pasting, for example, I can do similar like, uh,
+
+971
+01:12:09.920 --> 01:12:14.260
+与设置的护理相反 我可以决定，
+opposite of set care and I can decide,
+
+972
+01:12:15.370 --> 01:12:15.930
+额...
+um,
+
+973
+01:12:15.930 --> 01:12:20.710
+从这里到这里的距离或指点
+the distance or point to point from this one to the,
+
+974
+01:12:20.730 --> 01:12:22.750
+到另一个点，比如说。
+to the other point, like this for example.
+
+975
+01:12:26.770 --> 01:12:31.590
+也就是说我以某种价值移动了
+So I just opposite one line. That means I moved, uh, at a certain value,
+
+976
+01:12:33.160 --> 01:12:36.900
+我的台词有参考文献， 现在我可以决定，嗯，
+my line to have reference, and now I can just decide to, um,
+
+977
+01:12:38.010 --> 01:12:42.150
+不管有没有，我也可以加入
+to have it part of my design or not. I can also add it if I want.
+
+978
+01:12:42.370 --> 01:12:45.470
+通过这个图标，实际上能够， 把它放回去，
+And through this icon actually able to, to put it back,
+
+979
+01:12:49.120 --> 01:12:50.600
+我做我以前做过的事
+I do what I was doing before.
+
+980
+01:12:50.840 --> 01:12:55.650
+我也可以通过这个计划来移动一下
+I can also move it a little bit through this scheme,
+
+981
+01:12:55.710 --> 01:12:58.970
+但我选了他们两个 我希望他们...
+but I select them both. I want them to be, uh,
+
+982
+01:12:59.150 --> 01:13:02.330
+现在不是设计的一部分，它们会造成一些混乱
+not part now of my design. They can create some confusion.
+
+983
+01:13:03.490 --> 01:13:06.770
+我选择这样继续排行
+I choose to continue the lines this way.
+
+984
+01:13:07.430 --> 01:13:10.250
+现在我想知道我的台词在哪里。
+And now I want to know where actually my lines were.
+
+985
+01:13:12.280 --> 01:13:16.210
+举个例子 我想修剪它
+Okay, so for example, uh, I want to, I want to trim it.
+
+986
+01:13:16.240 --> 01:13:17.610
+基本上我有过
+Basically I had
+
+987
+01:13:22.090 --> 01:13:25.420
+像这样，我想...
+Something like this here. Now, um, I'm trying to make,
+
+988
+01:13:25.880 --> 01:13:30.080
+正如你们在物体里看到的 其他部分我可以...
+as you can see here in the object, uh, the other parts I can just, uh,
+
+989
+01:13:30.190 --> 01:13:34.750
+与凹连接件部分相交 所以这将是一个模块，呃，
+intersect with the female part. So it's gonna be a module, uh,
+
+990
+01:13:34.980 --> 01:13:39.590
+它同时有凹槽这样的凹连接，以及凸连接。
+that has together female parts like these cats and male at the same time.
+
+991
+01:13:39.930 --> 01:13:44.430
+所以，呃，在一种或另一种 不同的方式与Fusion，
+So, uh, in an or and in a different way from fusion,
+
+992
+01:13:44.620 --> 01:13:48.190
+从呃，呃，一个更好的 数学方式在一个多，
+from uh, uh, a better way of math in a more,
+
+993
+01:13:48.280 --> 01:13:51.030
+假设我还在集思广益
+let's say I'm still brainstorming my shape. I just, uh,
+
+994
+01:13:51.060 --> 01:13:55.030
+探索不同的指令，这是允许的
+exploring different commands. So that's so kind of allowed.
+
+995
+01:13:56.170 --> 01:13:59.870
+呃，我可以再次使用修剪 如果我不知道在哪里的图标，
+Uh, I can use trim again if I don't know where's the icon,
+
+996
+01:14:00.880 --> 01:14:01.710
+它会在这里，
+it's gonna be here,
+
+997
+01:14:01.710 --> 01:14:06.610
+但我有时可以更舒服 修剪，现在我有线
+but I can just more comfortable sometimes with the trim now that I have lines
+
+998
+01:14:06.760 --> 01:14:10.730
+互相交织，我可以...
+intersect with it's intersecting between each other. I can just, uh,
+
+999
+01:14:10.840 --> 01:14:15.780
+我想修剪哪条线
+side which kind of lines I want to trim. Um,
+
+1000
+01:14:17.880 --> 01:14:18.760
+我想脱身
+I want to remove
+
+1001
+01:14:20.850 --> 01:14:25.260
+基本上，这里的线 在中间，只是离开这个部分。
+basically the lines here in between and just leave this part. So again,
+
+1002
+01:14:25.900 --> 01:14:27.690
+我可以选择，嗯，
+I can select, um,
+
+1003
+01:14:28.270 --> 01:14:32.970
+再次命令，软件告诉我 选择剪切对象。
+the command again and the software is telling me select the cutting object.
+
+1004
+01:14:34.280 --> 01:14:38.710
+所以，嗯，我想创造这样的东西。
+So, um, I want to create something like this.
+
+1005
+01:14:39.050 --> 01:14:41.790
+两条线横向会是我的切口对象.
+The two lines horizontal will be my cutting object.
+
+1006
+01:14:43.440 --> 01:14:47.150
+按下输入一个并选择您想要梦想的对象 。
+Press enter one down and select the objects you want to dream.
+
+1007
+01:14:47.290 --> 01:14:49.670
+所以我想在这里做梦
+So I want to dream the ones here.
+
+1008
+01:14:52.810 --> 01:14:55.830
+再说一次，我做同样的事情 或者可以只是，呃，
+And again, I do the same thing or can just, uh,
+
+1009
+01:14:55.830 --> 01:14:59.750
+缩短我不需要的其他人
+shorten the others that I really don't need. So again,
+
+1010
+01:15:00.640 --> 01:15:04.470
+空间条剪，我也可以做同样的事情。
+space bar trim and I can do the same.
+
+1011
+01:15:04.530 --> 01:15:08.450
+选择剪切对象，这个输入
+So select the cutting object. This one enter,
+
+1012
+01:15:29.480 --> 01:15:30.700
+再说一次，我可以决定
+and again, I can decide
+
+1013
+01:15:32.410 --> 01:15:36.230
+以缩短去掉一条我不需要的线。
+to make it shorter to remove a line that I don't need.
+
+1014
+01:15:36.850 --> 01:15:39.350
+基本上这就是我的计划。
+And basically this is what I plan to do.
+
+1015
+01:15:40.150 --> 01:15:44.490
+因此这个方形同时包含凸件与凹连接。
+So I have a square that is together, male part, female part and male part.
+
+1016
+01:15:45.710 --> 01:15:50.290
+当然，我也可以，如果我想隔离 在Rhino，呃，
+And of course I can also, if I want isolate in rhino, uh,
+
+1017
+01:15:50.510 --> 01:15:53.330
+因为某种原因，当我试图复制粘贴，呃，
+for some reason the moment I try to copy paste, uh,
+
+1018
+01:15:53.990 --> 01:15:58.650
+我的复制命令不会因为这种版本而禁用。
+my copy command is not disabled for this kind of version. So, um,
+
+1019
+01:15:59.330 --> 01:16:02.250
+这里尝试用 Offset，
+I always try to play around and do offset
+
+1020
+01:16:03.910 --> 01:16:08.100
+选择要偏移的曲线。
+and I can also, uh, select on the curve I want to offset.
+
+1021
+01:16:13.540 --> 01:16:17.070
+是啊，它的工作原理相同， 但通常我只是更舒适 在，嗯，
+Yeah, it works the same, but usually I'm just more comfortable in, um,
+
+1022
+01:16:17.210 --> 01:16:20.710
+这就是我建议做的，嗯，这种，嗯，
+and that's what I recommend to do, um, this kind of, um,
+
+1023
+01:16:21.100 --> 01:16:25.510
+任何软件上都没有嵌入丝
+nesting sation in none of the software either scape or
+
+1024
+01:16:25.510 --> 01:16:28.030
+Illustrator。因此我可以继续，
+illustrator. So I can just go, uh,
+
+1025
+01:16:28.030 --> 01:16:31.830
+并告诉布莱恩 当我完成我的设计工具出口，
+and tell Brian when I'm done with my design tool export,
+
+1026
+01:16:33.400 --> 01:16:37.180
+也许最后一件事 我们可以在这里做 在软件，
+the maybe last thing that we can do here in the software,
+
+1027
+01:16:37.240 --> 01:16:41.980
+您可以选择所有的东西， 确定在此层中
+you can select everything and be sure also here in this layers
+
+1028
+01:16:42.150 --> 01:16:44.660
+面板为嗯，
+panel to um,
+
+1029
+01:16:45.040 --> 01:16:49.620
+调整线条或激光切割。
+adjust the line or laser cutting. So we're ready in, uh,
+
+1030
+01:16:49.780 --> 01:16:53.340
+RGB 色彩空间，也可以通过点击图层确认。
+R G B space, we can make sure also clicking on the layer.
+
+1031
+01:16:55.410 --> 01:16:59.590
+我们这里有线型 所以我们得确定这是连续的
+Uh, here we have, uh, line type. So we have to be sure this is continuous.
+
+1032
+01:17:01.300 --> 01:17:04.680
+我们有一个默认值，这是我们要删除的电话
+We have a default. This is the call we want to set to red.
+
+1033
+01:17:04.980 --> 01:17:09.980
+这里可以设置 RGB，
+So let's be sure here we can put R R G B 20,
+
+1034
+01:17:10.280 --> 01:17:12.940
+红色为 255。
+um, 55 red.
+
+1035
+01:17:15.790 --> 01:17:20.450
+如果这能帮助你视线，你就可以，嗯，
+And also if this helps you to visualize the thread, you can actually, um,
+
+1036
+01:17:22.570 --> 01:17:25.990
+选中此项并更改层本身的外观。
+select this and change the appearance of the layer itself.
+
+1037
+01:17:26.050 --> 01:17:30.870
+所以现在它会是100%的 外表和呃，
+So now it's gonna be hundred percent the appearance and uh,
+
+1038
+01:17:31.370 --> 01:17:35.520
+红色的属性，当然，嗯，
+um, the attribute of the color red, of course, um,
+
+1039
+01:17:37.600 --> 01:17:41.250
+说到做到，说到做到
+you can scale, you can decide a point
+
+1040
+01:17:44.350 --> 01:17:47.490
+或百分比或距离。
+or percentage or a distance. So example here,
+
+1041
+01:17:47.830 --> 01:17:50.050
+你还想玩 嗯，规模。
+you want also to play with um, scale.
+
+1042
+01:17:50.250 --> 01:17:53.610
+我认为Rhino是一个非常好的软件来做到这一点。
+I think Rhino is a very good software to do that.
+
+1043
+01:17:55.110 --> 01:17:59.980
+或者可以缩放重复命令。例如，
+Or you can scale repeating the command. For example,
+
+1044
+01:18:00.050 --> 01:18:03.980
+从这一点，您可以输入一个像8厘米的数字。
+from this point, you can input a number like eight centimeter.
+
+1045
+01:18:04.160 --> 01:18:05.260
+现在它会更大
+Now it's gonna be bigger
+
+1046
+01:18:08.940 --> 01:18:10.880
+你可以旋转它，
+or et et cetera. You can rotate it,
+
+1047
+01:18:12.580 --> 01:18:16.720
+可以结合其他多边形，其他形状。你可以创建，
+you can combine other polygons, other shapes. You can create,
+
+1048
+01:18:17.660 --> 01:18:20.200
+嗯，其他凹连接件连接。
+um, other female connections.
+
+1049
+01:18:20.300 --> 01:18:24.720
+因此，越像切 你拥有的几何， 例如，越多，
+So the more like cuts you have inside of geometry, for example, the more,
+
+1050
+01:18:25.380 --> 01:18:28.040
+嗯，有空间玩和交叉 不同的模块，你有。
+uh, room to play and intersect different modules you have.
+
+1051
+01:18:31.760 --> 01:18:35.220
+嗯，我猜就是这样，所以，
+Um, and that's it I guess. So again,
+
+1052
+01:18:35.330 --> 01:18:38.970
+最后一件事，就去存档。
+last thing and just go to file. Of course,
+
+1053
+01:18:39.330 --> 01:18:42.610
+我也建议你自动节省开支
+I also recommend you to enable the automatic savings.
+
+1054
+01:18:42.750 --> 01:18:45.850
+所以偶尔我知道我们会为你做这个工作
+So every once in a while I know we'll do this job for you.
+
+1055
+01:18:45.950 --> 01:18:49.770
+你不必担心失去任何文件 我们就可以...
+You don't have to be worried of losing any file and we can just, uh,
+
+1056
+01:18:52.180 --> 01:18:55.280
+当然，如果想要，则导出选中。
+export selected if just you want that. Of course. Um,
+
+1057
+01:18:57.050 --> 01:19:01.450
+我有两个不同的许可证，现在用的不是正确的那个，
+I have two different license. Um, I'm not using the correct one,
+
+1058
+01:19:01.510 --> 01:19:06.410
+因此不能导出，但后续工作流基本上
+so I am not able to export it, but uh, the workflow is gonna be basically, uh,
+
+1059
+01:19:06.410 --> 01:19:07.690
+测试其他软件。
+testing of the other software.
+
+1060
+01:19:12.220 --> 01:19:15.900
+我想我可以停止，嗯，屏幕共享
+I think I can stop, um, screen sharing
+
+1061
+01:19:20.640 --> 01:19:25.020
+和嗯，检查 聊天或呃，只是想，嗯，
+and um, check the chat or uh, just want to um,
+
+1062
+01:19:25.270 --> 01:19:28.540
+如果你有问题的话，请说清楚
+speak up in case you have questions. I hoped it was quite clear,
+
+1063
+01:19:35.270 --> 01:19:39.670
+我不知道，如果你试图 同时对我做，或，嗯，
+I dunno if you were trying at the same time to do it with me or, um,
+
+1064
+01:19:40.750 --> 01:19:42.110
+我还有其他疑问
+I raised any other doubts
+
+1065
+01:19:45.000 --> 01:19:48.320
+我面前还有一些例子。
+I also have here in front of me, for example, some of the examples.
+
+1066
+01:19:48.340 --> 01:19:51.870
+这就是我们讨论的幻灯片上的那个。
+So that was the one in the slide we talked about.
+
+1067
+01:19:52.050 --> 01:19:56.120
+它是一个大床单，被回收在一个模块
+It was a big sheet that was recycled in a modular
+
+1068
+01:19:57.800 --> 01:20:02.310
+组装是，嗯，
+assembly that was, um,
+
+1069
+01:20:02.550 --> 01:20:06.110
+一个由不同方块组成的袋子。所以基本上这就是我们所做的。
+a bag made of different squares together. So basically this is what we did.
+
+1070
+01:20:06.130 --> 01:20:09.480
+现在，在软件 真正需要，呃，
+Now in the, in the software that actually takes, uh,
+
+1071
+01:20:09.480 --> 01:20:11.960
+当你开始练习 大约10分钟，
+the moment you start practicing around 10 minutes,
+
+1072
+01:20:11.960 --> 01:20:15.400
+20分钟后再处理这些测地仪
+20 minutes to deal with these geometers, again,
+
+1073
+01:20:15.460 --> 01:20:19.470
+所以当你有一条线的时候
+you can see them as a pattern. So the moment you have one line,
+
+1074
+01:20:20.090 --> 01:20:23.390
+您可以在边沿的图案上排列相同的线条。
+you can array on pattern the same line all over the edges.
+
+1075
+01:20:25.340 --> 01:20:28.540
+圆圈也一样
+The same happen for, um, the circle.
+
+1076
+01:20:29.120 --> 01:20:32.330
+因此，这是一个凹连接件的部分连接
+So that was a female part connecting to
+
+1077
+01:20:34.610 --> 01:20:38.130
+凸连接件部分，也许背面比较清楚
+a male part. Maybe it's more clear from the back.
+
+1078
+01:20:38.390 --> 01:20:43.320
+你可以看到这种箭头连接在内部。
+You can see this sort of arrows connecting inside.
+
+1079
+01:20:47.440 --> 01:20:51.900
+测试形状后，如果能做这样的
+If you are able, after you test your shape to do this kind of test, like, uh,
+
+1080
+01:20:52.820 --> 01:20:57.520
+拉扯和受力测试，就说明
+cool and stress, that means that uh, your joint is actually quite stable.
+
+1081
+01:20:57.660 --> 01:21:00.280
+它可以向前移动，嗯，是削减。
+It can just move forward, um, to is cutting.
+
+1082
+01:21:01.660 --> 01:21:02.800
+所以如果可以的话
+So if that's okay,
+
+1083
+01:21:03.300 --> 01:21:06.200
+当然，当你有4个 在你有8，
+of course the moment you have four at the moment you have eight,
+
+1084
+01:21:06.700 --> 01:21:08.520
+那会更稳定
+that's gonna be way much more stable.
+
+1085
+01:21:13.100 --> 01:21:16.080
+这对圈子来说是类似的
+That's a similar, um, for the circles.
+
+1086
+01:21:18.370 --> 01:21:22.350
+我也有我们以前通过木头看到的例子
+And I also have an example of what we saw before through the kigami,
+
+1087
+01:21:22.410 --> 01:21:23.010
+举个例子
+for example.
+
+1088
+01:21:23.010 --> 01:21:27.750
+所以有一个部分是凹连接件 包含在内
+So there is one part which is a female that includes inside
+
+1089
+01:21:28.070 --> 01:21:31.670
+里面包含凸件，所以不需要额外片材或另一套模块。
+a male part. So I don't need an extra sheet, an extra pattern.
+
+1090
+01:21:31.950 --> 01:21:35.950
+我可以翻转我的连接 插入
+I can just flip my connection and inserted
+
+1091
+01:21:36.750 --> 01:21:41.450
+换成另一个形状，没有这个形状 基本上是一样的。
+onto another shape, which is basically the same without this one.
+
+1092
+01:21:41.590 --> 01:21:45.890
+所以我用里面的连接，对不起，我的背景。
+So I use the connection inside, sorry, my background.
+
+1093
+01:21:47.240 --> 01:21:48.073
+摆
+Okay.
+
+1094
+01:21:48.300 --> 01:21:52.690
+所以我可以把两者结合起来
+So I can just combine this two together
+
+1095
+01:21:57.570 --> 01:22:00.710
+我最后有这种，呃，
+and uh, I end up having this kind of, uh,
+
+1096
+01:22:02.610 --> 01:22:06.640
+空的空间，负的空间，实际上可以，呃，帮助
+empty space, negative space that can actually be, uh, helpful
+
+1097
+01:22:08.440 --> 01:22:09.300
+来创造一些东西
+to create something
+
+1098
+01:22:14.540 --> 01:22:17.920
+或同但别.
+or same but different.
+
+1099
+01:22:18.600 --> 01:22:23.400
+这是一个小部分，也可以以另一种方式孤立，
+That's a little part that can be also isolated in another way,
+
+1100
+01:22:23.900 --> 01:22:26.760
+但还是和这个完全一样
+but still as the same exactly connection of this one.
+
+1101
+01:22:26.820 --> 01:22:31.280
+所以我也可以说 我想使用，呃，额外的材料，
+So I can also say I want to use, uh, an extra material,
+
+1102
+01:22:31.540 --> 01:22:35.000
+一个额外的模式 不同的，呃，
+an ex an extra pattern with a different, uh,
+
+1103
+01:22:35.110 --> 01:22:39.290
+以不同的连接连接，嗯，
+inch with a different connection to connect the, um,
+
+1104
+01:22:39.390 --> 01:22:43.960
+以不同的方式或者在后面显示某种东西。
+two shapes in a different way or to display something in the back.
+
+1105
+01:22:44.220 --> 01:22:46.680
+所以我总是试着不要在前面思考
+So I always try not to think just in the front.
+
+1106
+01:22:46.680 --> 01:22:51.240
+有时候最有趣的部分 其实是你没有计划
+Sometimes the most interesting part is actually the one that you're not planning
+
+1107
+01:22:51.380 --> 01:22:53.910
+以图案或显示。
+to pattern or to display.
+
+1108
+01:22:59.090 --> 01:23:02.510
+还有我之前在网格方面展示的例子
+Uh, also the example that I showed before in terms of the grid.
+
+1109
+01:23:02.610 --> 01:23:06.840
+所以有时你可能会，嗯，嗯， 想要创建一个，
+So sometimes you might actually, um, um, want to create a,
+
+1110
+01:23:07.180 --> 01:23:09.720
+你有一个更大的床单， 你想只是利用它。
+you have a bigger sheet and you want just make use of that.
+
+1111
+01:23:09.900 --> 01:23:11.880
+所以，你可以有像一个
+So you can have something like a
+
+1112
+01:23:13.420 --> 01:23:17.780
+小型激光剪线，呃，
+small laser cut lines that uh,
+
+1113
+01:23:17.840 --> 01:23:22.220
+可以像游乐场 你只有这种箭
+can be like a playground and you have just this kind of arrows that can be
+
+1114
+01:23:22.440 --> 01:23:25.480
+插入以显示 。
+insert to display. Like a picture,
+
+1115
+01:23:25.630 --> 01:23:28.480
+就像一个更大的情况 在这个案件中是一个很大的模式。
+like a bigger picture in this case was a big pattern.
+
+1116
+01:23:33.220 --> 01:23:37.920
+但你也可以像那些条纹 更像编织技术
+But you can also have like on those stripes more like a woven technique
+
+1117
+01:23:39.170 --> 01:23:40.003
+可视化.
+visualized.
+
+1118
+01:23:43.000 --> 01:23:46.260
+当然，你还没有材料，但你想做实验。
+And of course you don't have material yet, but you want to experiment. I also,
+
+1119
+01:23:46.360 --> 01:23:50.860
+嗯，挑战你玩 玩一点点纸。
+um, challenge you to play to play a little bit with paper.
+
+1120
+01:23:51.080 --> 01:23:52.420
+如果哪张纸不行
+If which paper doesn't work,
+
+1121
+01:23:52.600 --> 01:23:55.980
+如果纸样连接失败，最终材料也可能失败。[材料词识别不清]
+it is not gonna work on oxide because paper is more or less, uh,
+
+1122
+01:23:55.980 --> 01:23:56.940
+类似材料。
+similar materials.
+
+1123
+01:23:57.000 --> 01:24:01.620
+所以，无论是灵活性还是属性，嗯，
+So either in terms of flexibility or properties is um,
+
+1124
+01:24:02.270 --> 01:24:06.480
+相当相似，很坚硬，厚度差不多
+quite similar. It's quite stiff. It's more or less the same thickness. So,
+
+1125
+01:24:07.220 --> 01:24:12.000
+这种设计也能成为我过去的学生的例子
+uh, this kind designs can also is an example of my past student who, uh,
+
+1126
+01:24:12.060 --> 01:24:16.850
+两年前在这周里被迷住了 所以她真的做了任务
+got covid two years ago during this week. So she actually did assignment, um,
+
+1127
+01:24:17.560 --> 01:24:20.530
+发烧，嗯，通过手， 不是激光切割。
+with fever, um, by hands, not the laser cutting.
+
+1128
+01:24:21.230 --> 01:24:25.980
+所以一切都是有可能的 并且可以相互连接
+So everything is actually possible and uh, can be interlocked.
+
+1129
+01:24:27.270 --> 01:24:31.470
+当然我们不推荐
+Of course we do not recommend it. Um,
+
+1130
+01:24:32.290 --> 01:24:36.750
+但是，这是一个很好的方法， 得到的感觉玩的材料。
+but it's uh, a good way to, to get the feeling of playing with material.
+
+1131
+01:24:37.330 --> 01:24:40.990
+当然，你，如果你是有限的 而且你甚至没有，嗯，彩色的纸张，
+Of course, you, if you're limited and you don't even have, um, colored paper,
+
+1132
+01:24:41.080 --> 01:24:43.470
+假设你最终会...
+let's say you are end up, um,
+
+1133
+01:24:43.550 --> 01:24:47.430
+将小空间涂在两者之间，只是为了区分形状.
+coloring the little space in between just to distinguish the shape.
+
+1134
+01:24:49.430 --> 01:24:52.690
+现在还有很多工具，AI和，呃，等等，
+Now also there are many tools, AI and, uh, et cetera,
+
+1135
+01:24:52.750 --> 01:24:57.660
+因此，
+et cetera that can be incorporated in work workflow. So,
+
+1136
+01:24:57.760 --> 01:25:00.860
+嗯，只是，呃， 非常期待什么，呃，
+um, just, uh, very much looking forward to what, uh,
+
+1137
+01:25:00.920 --> 01:25:02.220
+这周你会去探险
+you're gonna explore this week.
+
+1138
+01:25:03.710 --> 01:25:06.810
+你永远可以以安全的方式发展
+And you can always build upon what's been done in secure fashion
+
+1139
+01:25:08.910 --> 01:25:12.450
+和呃，玩呃， 材料连接。
+and uh, play with uh, materials connection.
+
+1140
+01:25:17.560 --> 01:25:22.220
+我有个问题 你刚才说要加入Ai
+Uh, I have a question. You just talked about, uh, incorporating ai.
+
+1141
+01:25:22.440 --> 01:25:26.900
+琌或稱
+How, um, exactly are you, uh, thinking of that? Just like, uh,
+
+1142
+01:25:26.900 --> 01:25:29.740
+视觉灵感还是什么的
+visual inspiration or, or is it something
+
+1143
+01:25:29.740 --> 01:25:33.140
+是的，可以的，比如说，我有个学生 我想，呃，
+Yeah, just can be done. For example, I had a student I think, uh,
+
+1144
+01:25:33.250 --> 01:25:36.750
+去年她真的这么做了
+last year that she actually did that. Um,
+
+1145
+01:25:37.200 --> 01:25:41.870
+也许可以描述机器，我的屏幕，嗯，在这里。
+maybe can describe machine, my screen just um, um, here. Um,
+
+1146
+01:25:43.620 --> 01:25:46.550
+是的，这正是我想的 所以，嗯，
+yeah, that's exactly what I was thinking of. So, um,
+
+1147
+01:25:46.970 --> 01:25:51.190
+举例来说，她用的是...
+in terms of reference inspiration, for example, she was using, um,
+
+1148
+01:25:51.810 --> 01:25:55.790
+她想用像素艺术做点什么
+she wanted to do something in the direction of a pixel art. So she was actually,
+
+1149
+01:25:56.050 --> 01:26:01.050
+尝试通过，嗯，ai，嗯，
+um, trying through, um, the ai, um,
+
+1150
+01:26:02.750 --> 01:26:07.750
+获取一些投入，嗯，视觉 她有。
+to get some inputs in terms of, um, visuals she had. Um, oh, okay,
+
+1151
+01:26:07.750 --> 01:26:10.270
+好，那可是个好仓库
+okay. Great repository for that. Um,
+
+1152
+01:26:11.500 --> 01:26:15.070
+然后她决定不使用，嗯，任何一种。
+then she decided not to use actually, um, any of them.
+
+1153
+01:26:15.770 --> 01:26:18.830
+结果实际上是，呃，一些东西，
+And the result is actually, uh, something that,
+
+1154
+01:26:19.330 --> 01:26:21.790
+所以在这幻灯片之前，所以
+so before in this slide, so
+
+1155
+01:26:23.760 --> 01:26:25.290
+有些人只是使用，嗯，
+some people just use, um,
+
+1156
+01:26:25.470 --> 01:26:29.900
+获取更多关于配置或如何不同，嗯，
+the tool to get more inputs on the configuration or how different, um,
+
+1157
+01:26:30.000 --> 01:26:34.750
+形状可以重合
+shapes mm-hmm. Can be overlapped together. Okay.
+
+1158
+01:26:34.850 --> 01:26:39.120
+当然，如果你看看文件...
+To create things. And of course if you look at the documentation also of, um,
+
+1159
+01:26:40.260 --> 01:26:44.490
+以变化论，你有，嗯，
+of dine in terms of variations, you have, um,
+
+1160
+01:26:45.050 --> 01:26:49.690
+这是一个很好的构思阶段。好的，谢谢。
+a great brainstorming phase. Okay, thank you.
+
+1161
+01:26:55.730 --> 01:27:00.250
+我不知道之前有没有问题
+I don't know if there were questions before. Okay. No,
+
+1162
+01:27:00.430 --> 01:27:03.690
+那孩子找牙医，没关系
+the kid to the dentist. Um, it's okay.
+
+1163
+01:27:03.760 --> 01:27:06.090
+此会录制，嗯，
+This session is recorded and, um,
+
+1164
+01:27:08.710 --> 01:27:12.050
+这是幻灯片，所以你可以了
+here's is the slides. So you can already,
+
+1165
+01:27:12.710 --> 01:27:17.040
+对这里的人来说，至少有一个很大的，呃，演示。
+for the ones here at least have a big, uh, presentation. Uh,
+
+1166
+01:27:17.180 --> 01:27:22.000
+回到我主人身上，或者，嗯，做我们中的任何一个，嗯，
+get back to me on master most or, um, do any of us with, uh,
+
+1167
+01:27:22.600 --> 01:27:26.640
+麻烦，否则，嗯，我们希望你能探索一下
+troubles. Otherwise, um, we wish you'll have exploration.
+
+1168
+01:27:28.690 --> 01:27:32.660
+谢谢，谢谢
+Thank you. Thank you.
+
+1169
+01:27:33.440 --> 01:27:35.180
+再见大家 再见
+Bye everyone. Bye.

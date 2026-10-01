@@ -1,0 +1,48 @@
+{
+  "id": "topic-community-layering",
+  "title": "学生案例：连接方向、叠层与切纸结构",
+  "summary": "通过圆片披肩、三角模块、包袋与叠层结构，观察插槽、连接件和材料之间的关系。",
+  "key_points": [
+    "包袋与服装受到的拉力不同，凸凹连接应按用途测试。",
+    "叠层、折叠和切口能把平面模块变为空间结构。",
+    "旧窗帘等材料案例说明再利用也需要处理边缘和排料。"
+  ],
+  "terms": [
+    {
+      "term": "凸连接件／凹连接件",
+      "definition": "对应课程 male／female：插入的部分与接收插入的槽或结构。"
+    },
+    {
+      "term": "Kirigami",
+      "definition": "结合切割与折叠产生形态的切纸技法。"
+    }
+  ],
+  "actions": [
+    "分别记录模块正反面与组装顺序。",
+    "做拉扯和反复拆装的小样，再调整连接件。"
+  ],
+  "start": 4601.445,
+  "end": 5023.015,
+  "references": [],
+  "moments": [
+    {
+      "time": 4645.0,
+      "title": "圆片与三角连接"
+    },
+    {
+      "time": 4771.0,
+      "title": "叠层与立体变化"
+    },
+    {
+      "time": 4939.0,
+      "title": "窗帘升级再造"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4835.0,
+      "caption": "叠层与切纸结构案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/community-layering.jpg"
+    }
+  ]
+}

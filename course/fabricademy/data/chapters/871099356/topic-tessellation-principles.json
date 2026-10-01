@@ -1,0 +1,52 @@
+{
+  "id": "topic-tessellation-principles",
+  "title": "镶嵌原理：平移、旋转与克隆",
+  "summary": "解释无间隙、无重叠的铺砌，并用相对边的平移和三角形旋转说明如何构造重复模块。",
+  "key_points": [
+    "平移镶嵌要求相对边以同一位移互补。",
+    "旋转镶嵌需要明确中心和角度。",
+    "本课 Inkscape 部分主要通过资料说明；讲师没有展开完整现场软件演示。"
+  ],
+  "terms": [
+    {
+      "term": "Tessellation",
+      "definition": "镶嵌：无间隙、无重叠地覆盖平面。"
+    },
+    {
+      "term": "Clone",
+      "definition": "克隆：与母形保持关联的重复对象。"
+    }
+  ],
+  "actions": [
+    "先在纸上验证相对边与旋转关系，再绘制矢量路径。"
+  ],
+  "start": 853.04,
+  "end": 1097.56,
+  "references": [],
+  "moments": [
+    {
+      "time": 866.79,
+      "title": "Escher 与几何规律"
+    },
+    {
+      "time": 927.63,
+      "title": "相对边的平移"
+    },
+    {
+      "time": 996.0,
+      "title": "旋转与克隆方法"
+    }
+  ],
+  "frames": [
+    {
+      "time": 939.0,
+      "caption": "平移镶嵌的对应边示意",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/tessellation-principles-1.jpg"
+    },
+    {
+      "time": 1051.0,
+      "caption": "90° 旋转镶嵌的示意资料",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/tessellation-principles-2.jpg"
+    }
+  ]
+}

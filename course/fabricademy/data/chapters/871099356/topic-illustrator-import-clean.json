@@ -1,0 +1,53 @@
+{
+  "id": "topic-illustrator-import-clean",
+  "title": "Illustrator：毫米导入、连接与描边",
+  "summary": "导出 Fusion DXF，在毫米 RGB 画板按 1:1 打开，连接分段路径并清理辅助线。",
+  "key_points": [
+    "导入时确认原始比例与毫米，不以“看起来正确”判断尺寸。",
+    "Join 用于连接正确端点，不会自动解决所有重复路径。",
+    "课件列出 0.01 mm 描边，操作口述为约 0.1 mm；实际切割应向实验室确认，不能把两者当作通用设备规格。"
+  ],
+  "terms": [
+    {
+      "term": "Join",
+      "definition": "连接路径端点的操作，课程使用 Ctrl／Cmd+J。"
+    },
+    {
+      "term": "Artboard",
+      "definition": "画板：组织输出范围，本课按加工床尺寸建立。"
+    }
+  ],
+  "actions": [
+    "测量一个已知尺寸，删除构造残留并检查重复线。",
+    "设置无填充及实验室要求的描边。"
+  ],
+  "start": 2443.43,
+  "end": 2732.35,
+  "references": [],
+  "moments": [
+    {
+      "time": 2479.6,
+      "title": "新建 RGB 毫米画板"
+    },
+    {
+      "time": 2610.94,
+      "title": "1:1 导入"
+    },
+    {
+      "time": 2653.26,
+      "title": "路径连接与红色描边"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2616.0,
+      "caption": "Illustrator 原尺寸导入",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-import-clean-1.jpg"
+    },
+    {
+      "time": 2712.0,
+      "caption": "矢量描边与颜色设置",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-import-clean-2.jpg"
+    }
+  ]
+}

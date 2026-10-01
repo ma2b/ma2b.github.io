@@ -1,0 +1,58 @@
+{
+  "id": "topic-deadstock",
+  "title": "库存材料与现场定制微型工厂",
+  "summary": "以剩余纺织品、皮革交易和现场制作包袋的案例讨论如何把库存转为设计资源。",
+  "key_points": [
+    "库存材料可成为小批量设计的起点，但数量、品质与补货不一定稳定。",
+    "现场制作案例将选择材料、定制、切割与组装连接起来。",
+    "法规核对（2026-10-01）：欧盟对大型企业销毁未售服装、服饰附件及鞋类的禁令自 2026-07-19 适用，中型企业自 2030-07-19 适用，并有法定例外。课程 2025 年的概括不能当作当时所有企业已受同一禁令约束。"
+  ],
+  "terms": [
+    {
+      "term": "Deadstock",
+      "definition": "未被使用或售出的库存材料。"
+    },
+    {
+      "term": "按需定制",
+      "definition": "收到需求后按选择生产，而非先制造大量库存。"
+    }
+  ],
+  "actions": [
+    "先清点库存材料，再决定可持续供应的产品范围。",
+    "记录材料批次、来源与制作方式。"
+  ],
+  "start": 2988.145,
+  "end": 3256.925,
+  "references": [
+    {
+      "title": "欧盟委员会：未售衣鞋销毁禁令的适用日期与范围",
+      "url": "https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en"
+    }
+  ],
+  "moments": [
+    {
+      "time": 3017.0,
+      "title": "剩余纺织品与皮革平台"
+    },
+    {
+      "time": 3137.0,
+      "title": "皮革包袋现场制作视频"
+    },
+    {
+      "time": 3195.0,
+      "title": "定制与材料选择"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3060.0,
+      "caption": "库存材料作为再设计资源",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/deadstock-1.jpg"
+    },
+    {
+      "time": 3165.0,
+      "caption": "现场包袋制作案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/deadstock-2.jpg"
+    }
+  ]
+}

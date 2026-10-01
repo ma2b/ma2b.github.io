@@ -1,0 +1,47 @@
+{
+  "id": "topic-rhino-setup",
+  "title": "Rhino：毫米、俯视与对象捕捉",
+  "summary": "进入 Mac 版 Rhino，确认单位和俯视，启用端点、中点、中心和交点捕捉。",
+  "key_points": [
+    "捕捉帮助精确定位，不以肉眼拖放代替尺寸。",
+    "本段展示 Mac 版界面；其他系统菜单位置可能不同。",
+    "屏幕共享曾短暂停滞，后续恢复；停滞画面不当作新操作结果。"
+  ],
+  "terms": [
+    {
+      "term": "Osnap",
+      "definition": "对象捕捉：定位几何的端点、中点、中心等特征。"
+    },
+    {
+      "term": "Gumball",
+      "definition": "Rhino 中用于移动、旋转和缩放对象的操控器。"
+    }
+  ],
+  "actions": [
+    "确认毫米单位与 Top 视图，再启用需要的捕捉。"
+  ],
+  "start": 2927.955,
+  "end": 3350.305,
+  "references": [],
+  "moments": [
+    {
+      "time": 2967.0,
+      "title": "文档单位与视图"
+    },
+    {
+      "time": 3081.0,
+      "title": "捕捉与操控器"
+    },
+    {
+      "time": 3275.0,
+      "title": "共享恢复与继续"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3159.0,
+      "caption": "Rhino 俯视与对象捕捉",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/rhino-setup.jpg"
+    }
+  ]
+}

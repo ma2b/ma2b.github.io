@@ -1,0 +1,53 @@
+{
+  "id": "topic-vector-nesting",
+  "title": "纸样、矢量文件、排料与切割",
+  "summary": "整理从纸样和数字建模，到矢量清理、排料、激光切割和组装的工作流。",
+  "key_points": [
+    "Fusion、Rhino 或 Blender 的模型需要导出适合后续软件的矢量轮廓。",
+    "RGB 红色和细线宽是本课设备示例，不能当作所有激光机通用的功率或分辨率设置。",
+    "删除构造线和重复路径，核对单位、闭合轮廓、边界与排料。"
+  ],
+  "terms": [
+    {
+      "term": "Nesting",
+      "definition": "排料：在给定材料轮廓内布置切割零件。"
+    },
+    {
+      "term": "DXF／SVG",
+      "definition": "可交换二维矢量轮廓的文件格式，导入后仍需核对单位和路径。"
+    }
+  ],
+  "actions": [
+    "按 1:1 毫米导入，并测量一个已知尺寸确认缩放。",
+    "先切两三件检验连接，再批量排料；保留参数记录。"
+  ],
+  "start": 6137.575,
+  "end": 6458.795,
+  "references": [],
+  "moments": [
+    {
+      "time": 6160.0,
+      "title": "纸样到数字制作"
+    },
+    {
+      "time": 6259.0,
+      "title": "矢量颜色、线宽与路径"
+    },
+    {
+      "time": 6368.0,
+      "title": "排料工具与材料利用"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6289.0,
+      "caption": "二维矢量设计与建模软件的工作流选择",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/vector-nesting-1.jpg"
+    },
+    {
+      "time": 6396.0,
+      "caption": "排料与重复路径处理",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/vector-nesting-2.jpg"
+    }
+  ]
+}

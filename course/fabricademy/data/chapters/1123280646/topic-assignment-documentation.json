@@ -1,0 +1,49 @@
+{
+  "id": "topic-assignment-documentation",
+  "title": "Week 3 作业与文档交付",
+  "summary": "总结纸样、激光参数测试、模块服装组装及开源文件和照片上传，并以第二天教程的软件准备结束。",
+  "key_points": [
+    "先用纸验证模块和锁，再记录材料与激光参数、组装和拉扯测试。",
+    "上传按比例的 PDF 与 1–5 张成品照片，配套说明组装与参数。",
+    "素材是 2025–26 课程；其中“明天”的软件准备及当年安排不是 2026 年的新截止日期。"
+  ],
+  "terms": [
+    {
+      "term": "开源交付",
+      "definition": "把他人复用所需的文件、参数、组装方法与许可一起提供。"
+    }
+  ],
+  "actions": [
+    "按官方手册逐项记录设计、纸样、参数、连接、排料和组装。",
+    "准备可复用的矢量文件、照片和说明，明确署名与许可。"
+  ],
+  "start": 6596.155,
+  "end": 6798.2,
+  "references": [
+    {
+      "title": "Fabricademy Week 3 官方作业手册",
+      "url": "https://fabricademy.fabcloud.io/handbook/classes/03_circular_fashion/"
+    }
+  ],
+  "moments": [
+    {
+      "time": 6612.0,
+      "title": "作业步骤与连接测试"
+    },
+    {
+      "time": 6684.0,
+      "title": "平台、文件和照片"
+    },
+    {
+      "time": 6756.0,
+      "title": "次日教程软件准备与结束"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6642.0,
+      "caption": "Week 3 作业与文档要求",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/assignment-documentation.jpg"
+    }
+  ]
+}

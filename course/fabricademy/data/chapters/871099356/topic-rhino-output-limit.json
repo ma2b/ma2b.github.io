@@ -1,0 +1,48 @@
+{
+  "id": "topic-rhino-output-limit",
+  "title": "Rhino 图层、线型与导出限制",
+  "summary": "设置连续线型、RGB 红色与图层属性，说明缩放、自动保存和导出，但本次许可证未允许实际输出。",
+  "key_points": [
+    "颜色与线型需要检查对象及图层的实际继承关系。",
+    "缩放改变连接尺寸，不能假设缩放后保持力不变。",
+    "讲师明确表示许可证不匹配，未完成实际 Export Selected；不记录为成功导出。"
+  ],
+  "terms": [
+    {
+      "term": "Export Selected",
+      "definition": "仅输出选中的对象。"
+    },
+    {
+      "term": "By Layer",
+      "definition": "对象属性由图层控制的方式。"
+    }
+  ],
+  "actions": [
+    "开启自动保存，检查对象属性与参考层。",
+    "在有效许可证环境输出并重新导入核对。"
+  ],
+  "start": 4593.4,
+  "end": 4752.22,
+  "references": [],
+  "moments": [
+    {
+      "time": 4609.78,
+      "title": "线型和颜色"
+    },
+    {
+      "time": 4657.6,
+      "title": "缩放与连接变化"
+    },
+    {
+      "time": 4737.05,
+      "title": "许可证与导出限制"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4625.0,
+      "caption": "Rhino 图层与颜色属性",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/rhino-output-limit.jpg"
+    }
+  ]
+}

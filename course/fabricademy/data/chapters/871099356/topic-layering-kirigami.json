@@ -1,0 +1,53 @@
+{
+  "id": "topic-layering-kirigami",
+  "title": "叠层、单片切纸与旧材料",
+  "summary": "用圆片包袋、层叠花形、单片切口和旧窗帘等案例展示平面材料如何形成结构。",
+  "key_points": [
+    "连接可以利用层叠、正反面和材料厚度。",
+    "Kirigami 可通过一张材料上的切口和折叠形成空间形态。",
+    "单片设计和模块互锁不同，是否零废料仍需看实际切割与边界。"
+  ],
+  "terms": [
+    {
+      "term": "Kirigami",
+      "definition": "结合切割与折叠产生形态的切纸方法。"
+    },
+    {
+      "term": "叠层",
+      "definition": "把多个片层穿插或重叠成整体。"
+    }
+  ],
+  "actions": [
+    "分别画出模块轮廓、切口和组装后的形态。",
+    "用已有材料做小样，比较正反面和层数。"
+  ],
+  "start": 266.83,
+  "end": 542.55,
+  "references": [],
+  "moments": [
+    {
+      "time": 302.0,
+      "title": "圆形与层叠模块"
+    },
+    {
+      "time": 413.0,
+      "title": "单片切口与空间结构"
+    },
+    {
+      "time": 506.89,
+      "title": "切纸与建筑形态"
+    }
+  ],
+  "frames": [
+    {
+      "time": 457.0,
+      "caption": "旧材料与切口结构案例",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/layering-kirigami-1.jpg"
+    },
+    {
+      "time": 529.0,
+      "caption": "切纸连接与空间形态",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/layering-kirigami-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "topic-commons-tools",
+  "title": "公地、数字制造与共同生产",
+  "summary": "结合 RepRap、Arduino、Fab Lab 与分布式设计，说明共享知识如何支持小规模参与和共同生产。",
+  "key_points": [
+    "数字文件是共享资源的一部分，材料、设备和知识决定能否实际使用。",
+    "共同生产依靠协作规则、反馈和持续维护。",
+    "参数化或交互设计可以让使用者调整作品，而非只复制一个固定结果。"
+  ],
+  "terms": [
+    {
+      "term": "Commons",
+      "definition": "公地：由共同规则维护、使用的共享资源。"
+    },
+    {
+      "term": "RepRap",
+      "definition": "推动可复制、开放式桌面 3D 打印机发展的项目。"
+    },
+    {
+      "term": "共同生产",
+      "definition": "多人围绕共享资源组织协作生产的方式。"
+    }
+  ],
+  "actions": [
+    "为共享设计补齐材料、工具和可修改参数。",
+    "明确谁维护文件、如何反馈问题和贡献改进。"
+  ],
+  "start": 1885.475,
+  "end": 2435.725,
+  "references": [],
+  "moments": [
+    {
+      "time": 1943.0,
+      "title": "RepRap 与 Arduino 的工具生态"
+    },
+    {
+      "time": 2128.0,
+      "title": "Benkler 与共同生产"
+    },
+    {
+      "time": 2305.0,
+      "title": "开放设计的制作条件"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2010.0,
+      "caption": "开放制造工具案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/commons-tools-1.jpg"
+    },
+    {
+      "time": 2358.0,
+      "caption": "Fab Lab、创客空间与数字制作流程",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/commons-tools-2.jpg"
+    }
+  ]
+}

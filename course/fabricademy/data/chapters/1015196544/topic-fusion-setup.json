@@ -1,0 +1,38 @@
+{
+  "id": "topic-fusion-setup",
+  "title": "Fusion：单位、俯视与草图工作区",
+  "summary": "开场说明模块二维设计的目标，并在 Fusion 中确认毫米、俯视方向和时间轴。",
+  "key_points": [
+    "激光切割主要使用二维轮廓，先在同一平面绘制。",
+    "单位与视角在开始时确认，减少导出后的比例错误。"
+  ],
+  "terms": [
+    {
+      "term": "Sketch",
+      "definition": "草图：在指定平面上绘制二维几何和约束。"
+    }
+  ],
+  "actions": [
+    "新建毫米文档，选择俯视草图平面，确认导航与时间轴。"
+  ],
+  "start": 0.0,
+  "end": 192.995,
+  "references": [],
+  "moments": [
+    {
+      "time": 37.0,
+      "title": "本课工具与工作流"
+    },
+    {
+      "time": 129.0,
+      "title": "单位、视图与时间轴"
+    }
+  ],
+  "frames": [
+    {
+      "time": 143.0,
+      "caption": "Fusion 工作区与草图准备",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/fusion-setup.jpg"
+    }
+  ]
+}

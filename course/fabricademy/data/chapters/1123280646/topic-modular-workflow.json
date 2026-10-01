@@ -1,0 +1,48 @@
+{
+  "id": "topic-modular-workflow",
+  "title": "模块化时装：从纸样到可重组结构",
+  "summary": "Claudia 将开放循环设计转为模块化制作流程，说明无缝连接、拆装、维修与重组的目标。",
+  "key_points": [
+    "模块不是孤立的装饰片，连接系统决定整体能否成立。",
+    "无缝在此主要指通过互锁组装，不能据此推断所有案例都完全不使用其他连接。",
+    "从纸样、小样到数字绘图与激光切割，逐步验证比直接大量切割更可靠。"
+  ],
+  "terms": [
+    {
+      "term": "互锁",
+      "definition": "通过形状之间的插入、折叠或扣合形成连接。"
+    },
+    {
+      "term": "模块化",
+      "definition": "用可重复、可组合的单元构成整体。"
+    }
+  ],
+  "actions": [
+    "先做两个能互锁的纸模块，再尝试增加方向与层数。",
+    "记录每次连接失败发生在形状、间隙还是材料上。"
+  ],
+  "start": 3945.215,
+  "end": 4223.605,
+  "references": [],
+  "moments": [
+    {
+      "time": 3985.0,
+      "title": "模块、维修与重组"
+    },
+    {
+      "time": 4091.0,
+      "title": "纸样与数字制作流程"
+    },
+    {
+      "time": 4168.0,
+      "title": "学生案例的制作路径"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4103.0,
+      "caption": "模块化制作步骤与实例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/modular-workflow.jpg"
+    }
+  ]
+}

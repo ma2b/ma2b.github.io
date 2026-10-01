@@ -1,0 +1,44 @@
+{
+  "id": "topic-business-community",
+  "title": "产品家族、预订与共享基础设施",
+  "summary": "Zoe 总结可逐步发展的产品系统、按需小批量生产，以及预订、社区和共享设施对项目的支持。",
+  "key_points": [
+    "可持续经营不仅靠一个作品，也靠产品家族、使用者反馈和生产机制。",
+    "预订与小批量降低库存，但需要可靠交付与沟通。",
+    "协作可以共享设备、场地、技能和获客渠道。"
+  ],
+  "terms": [
+    {
+      "term": "产品家族",
+      "definition": "围绕相同系统或部件逐步扩展的一组产品。"
+    }
+  ],
+  "actions": [
+    "从一个可制作的模块或产品开始，明确下一次迭代。",
+    "列出适合共享的设施和需要合作的能力。"
+  ],
+  "start": 3256.925,
+  "end": 3542.515,
+  "references": [],
+  "moments": [
+    {
+      "time": 3306.0,
+      "title": "持续演化的产品目录"
+    },
+    {
+      "time": 3377.0,
+      "title": "预订、众筹与需求"
+    },
+    {
+      "time": 3470.0,
+      "title": "合作与共享设施"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3388.0,
+      "caption": "替代生产与经营方式的总结",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/business-community.jpg"
+    }
+  ]
+}

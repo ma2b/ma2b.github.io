@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "af276c41c3f945f81f5c9d09e39ad2344fc7ecf2fa77618f412a32f0a793510c",
+  "revision": "127bba2fe19fc35c8775f6ac1368604aade584601f1233b3fa801fa907df81b6",
   "courses": [
     {
       "id": "1227439130",
@@ -136,6 +136,51 @@
       "sha256": "94732ff179b73b7b46327ec996769dd1cfe4b506ae6bf0061af7867c0d412752",
       "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1229506193.json",
       "outline_sha256": "a01c6b78793845b42490ab1cda7e99c3ffed334b1a06ed866b2037e046830368"
+    },
+    {
+      "id": "1123280646",
+      "title": "开源循环时尚：理论、系统与模块设计",
+      "duration": 6798.2,
+      "page_url": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/notes.html",
+      "bilibili": {
+        "bvid": "BV1SuYN67EMz",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/1123280646.json",
+      "sha256": "dad255c369ab529a31677a3db3be012247bb93da000adb7463dbdc836b7932f8",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1123280646.json",
+      "outline_sha256": "0ac70f83cda88fdb4e31fc3e55732c04942ba5dd399eb8137abd8012dca417c8"
+    },
+    {
+      "id": "1015196544",
+      "title": "模块化时装二维设计：Fusion、Rhino、Illustrator 与 Inkscape",
+      "duration": 6427.04,
+      "page_url": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/notes.html",
+      "bilibili": {
+        "bvid": "BV1hTYN6UEhj",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/1015196544.json",
+      "sha256": "d9ac0998c1f168634d1df53d6daa9253405caa94ca4dbadf312f0e78cf6209e9",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1015196544.json",
+      "outline_sha256": "cb8cd8527f3555635bcae3ceac6620e8bf57c78ff211019317b6632bfe05a463"
+    },
+    {
+      "id": "871099356",
+      "title": "模块化零废料时装设计",
+      "duration": 5258.16,
+      "page_url": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/notes.html",
+      "bilibili": {
+        "bvid": "BV1eZYP6REe5",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/871099356.json",
+      "sha256": "b54f5be6b5875e415c15691cbc8d20e76f2b12f51894f4c68ff7153c7a0681f2",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/871099356.json",
+      "outline_sha256": "d051b231cb3d0eb7d7b366eaf77369456ebe8312761c435bb7fb7c2a2561d3d9"
     }
   ]
 }

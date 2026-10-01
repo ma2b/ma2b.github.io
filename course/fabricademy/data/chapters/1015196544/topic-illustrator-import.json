@@ -1,0 +1,53 @@
+{
+  "id": "topic-illustrator-import",
+  "title": "Illustrator：1:1 导入与切割路径设置",
+  "summary": "建立毫米 RGB 画板，按原尺寸导入 DXF，清理、分组并设置演示激光机所用的描边。",
+  "key_points": [
+    "导入时核对 1 个单位对应 1 mm，再用已知尺寸测量。",
+    "RGB(255,0,0) 与约 0.01 mm 的细描边是本次设备流程示例，不是通用激光功率设置。",
+    "无填充与细描边适合检查切割路径；显示用填色需与加工文件区分。"
+  ],
+  "terms": [
+    {
+      "term": "RGB",
+      "definition": "红绿蓝颜色模式；本课用红色区分切割轮廓。"
+    },
+    {
+      "term": "Stroke",
+      "definition": "描边：矢量路径的线条属性。"
+    }
+  ],
+  "actions": [
+    "设置画板为材料或加工床尺寸，导入后检查尺寸与构造线。",
+    "向所在实验室确认颜色、线宽与驱动要求。"
+  ],
+  "start": 1473.915,
+  "end": 1874.025,
+  "references": [],
+  "moments": [
+    {
+      "time": 1494.0,
+      "title": "新文档与毫米 RGB"
+    },
+    {
+      "time": 1587.0,
+      "title": "DXF 原尺寸导入"
+    },
+    {
+      "time": 1748.0,
+      "title": "描边颜色与线宽"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1655.0,
+      "caption": "DXF 导入设置",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/illustrator-import-1.jpg"
+    },
+    {
+      "time": 1819.0,
+      "caption": "切割轮廓的颜色与描边",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/illustrator-import-2.jpg"
+    }
+  ]
+}

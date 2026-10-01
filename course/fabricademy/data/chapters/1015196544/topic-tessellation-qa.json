@@ -1,0 +1,38 @@
+{
+  "id": "topic-tessellation-qa",
+  "title": "答疑：纸折、对称与文化图案",
+  "summary": "讨论用纸验证对称关系，以及如何从不同文化和建筑图案探索新的镶嵌与连接。",
+  "key_points": [
+    "旋转与平移原则可用纸样直观验证。",
+    "图案参考需要转化为可制作的轮廓与连接，不能只复制视觉效果。"
+  ],
+  "terms": [
+    {
+      "term": "对称轴",
+      "definition": "使图形镜像对应的参考线。"
+    }
+  ],
+  "actions": [
+    "选一个图案，标出其对称轴、旋转中心或平移向量。"
+  ],
+  "start": 5813.795,
+  "end": 5954.645,
+  "references": [],
+  "moments": [
+    {
+      "time": 5821.0,
+      "title": "纸折与对称"
+    },
+    {
+      "time": 5888.0,
+      "title": "文化图案与探索"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5900.0,
+      "caption": "答疑中用纸样讨论对称与图案",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/tessellation-qa.jpg"
+    }
+  ]
+}

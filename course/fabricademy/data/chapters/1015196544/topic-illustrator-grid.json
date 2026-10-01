@@ -1,0 +1,44 @@
+{
+  "id": "topic-illustrator-grid",
+  "title": "复制变换与整行排料",
+  "summary": "利用 Alt／Option 拖动、Shift 方向约束和 Ctrl／Cmd+D 重复变换排列模块，再用填色预览组合。",
+  "key_points": [
+    "重复变换复制的是前一次移动关系，先确认首对模块的间距。",
+    "排满一行后可整体复制到下一行。",
+    "组合预览中的填色和透明度服务于观察，不应直接替代加工路径设置。"
+  ],
+  "terms": [
+    {
+      "term": "重复变换",
+      "definition": "在 Illustrator 中再次执行上一次变换，课程使用 Ctrl／Cmd+D。"
+    }
+  ],
+  "actions": [
+    "排两件确认边界与间距，再重复整行和整列。",
+    "把预览版本与切割版本另存。"
+  ],
+  "start": 1874.025,
+  "end": 2145.495,
+  "references": [],
+  "moments": [
+    {
+      "time": 1890.0,
+      "title": "复制与约束方向"
+    },
+    {
+      "time": 1987.0,
+      "title": "重复整行整列"
+    },
+    {
+      "time": 2063.0,
+      "title": "填色与透明度预览"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2020.0,
+      "caption": "圆形模块的成行排料",
+      "src": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/frames/illustrator-grid.jpg"
+    }
+  ]
+}

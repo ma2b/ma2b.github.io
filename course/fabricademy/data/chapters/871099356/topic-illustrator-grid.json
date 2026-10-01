@@ -1,0 +1,44 @@
+{
+  "id": "topic-illustrator-grid",
+  "title": "复制排料与闭合轮廓检查",
+  "summary": "用 Alt／Option、Shift 和重复变换铺满行列，再核对画板边界及轮廓闭合。",
+  "key_points": [
+    "先决定两件模块间距，再重复整行与整列。",
+    "最后一行可能越过材料边界，需删除或重新排布。",
+    "填色可帮助观察闭合轮廓，但加工仍要检查真实路径。"
+  ],
+  "terms": [
+    {
+      "term": "重复变换",
+      "definition": "再次执行上一次的移动或复制关系。"
+    }
+  ],
+  "actions": [
+    "完成排料后检查边界、重叠和闭合状态。",
+    "保存预览与加工版本，避免把填色一起作为切割要求。"
+  ],
+  "start": 2732.35,
+  "end": 2944.23,
+  "references": [],
+  "moments": [
+    {
+      "time": 2746.71,
+      "title": "拖动复制与方向约束"
+    },
+    {
+      "time": 2808.04,
+      "title": "Ctrl／Cmd+D 重复排料"
+    },
+    {
+      "time": 2892.85,
+      "title": "描边与闭合轮廓检查"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2863.0,
+      "caption": "模块的行列排料",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/illustrator-grid.jpg"
+    }
+  ]
+}

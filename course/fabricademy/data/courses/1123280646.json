@@ -1,0 +1,968 @@
+{
+  "id": "1123280646",
+  "slug": "09-circular-fashion-lecture-2025",
+  "title": "开源循环时尚：理论、系统与模块设计",
+  "description": "Zoe Romano 从开放设计、共享生产与地方制造讲起；Claudia Simonelli 继续介绍模块化时装案例、连接结构、镶嵌排料和 Week 3 作业。",
+  "binding_source": "extension",
+  "duration": 6798.2,
+  "page_url": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/notes.html",
+  "bilibili": {
+    "bvid": "BV1SuYN67EMz",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-local-material-systems",
+      "title": "从地方材料到开放设计",
+      "summary": "开场介绍 Zoe Romano 的媒体、设计和创客经历，并以地方羊毛、机器人簇绒与微型工厂说明材料和生产系统的关系。",
+      "key_points": [
+        "循环设计从材料来源、制造、维修到再使用整体考虑。",
+        "地方羊毛案例讨论的是如何为既有资源建立用途与合作网络。",
+        "“低技术”与数字工具可以结合；工具先进本身不保证循环性。"
+      ],
+      "terms": [
+        {
+          "term": "Cradle to Cradle",
+          "definition": "“从摇篮到摇篮”：让材料在适合的循环中继续使用的设计思想。"
+        },
+        {
+          "term": "微型工厂",
+          "definition": "以较小规模和共享工具组织本地生产的方式。"
+        }
+      ],
+      "actions": [
+        "画出自己的材料来源、加工、使用、修理与回收路径。",
+        "把设计中的维修和拆解方式提前写入方案。"
+      ],
+      "start": 0.0,
+      "end": 561.595,
+      "references": [],
+      "moments": [
+        {
+          "time": 140.0,
+          "title": "创客空间与设计实践"
+        },
+        {
+          "time": 352.0,
+          "title": "地方羊毛的价值与机器人簇绒"
+        },
+        {
+          "time": 490.0,
+          "title": "把维修纳入设计"
+        }
+      ],
+      "frames": [
+        {
+          "time": 393.0,
+          "caption": "地方羊毛与制造案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/local-material-systems-1.jpg"
+        },
+        {
+          "time": 527.0,
+          "caption": "以便于维修为设计目标的讲解资料",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/local-material-systems-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-serpica-naro",
+      "title": "Serpica Naro：把时装变成公共议题",
+      "summary": "Zoe 回顾米兰劳动与媒体行动，以及 2005 年虚构设计师 Serpica Naro 如何借时装周表达劳动条件和社会议题。",
+      "key_points": [
+        "服装在案例中兼具功能、符号与传播媒介。",
+        "Serpica Naro 的身份与品牌是集体行动的一部分。",
+        "后续再设计和展览把项目从单次活动延伸为共享资源。"
+      ],
+      "terms": [
+        {
+          "term": "Serpica Naro",
+          "definition": "2005 年米兰行动中构造的设计师身份与集体品牌。"
+        }
+      ],
+      "actions": [
+        "分析一个案例怎样同时表达服装功能与社会议题。",
+        "区分作品、品牌身份、传播行动和共享方式。"
+      ],
+      "start": 561.595,
+      "end": 1214.515,
+      "references": [],
+      "moments": [
+        {
+          "time": 614.0,
+          "title": "劳动与媒体背景"
+        },
+        {
+          "time": 774.0,
+          "title": "虚构设计师与时装周行动"
+        },
+        {
+          "time": 1083.305,
+          "title": "从黑客文化走向开放设计"
+        }
+      ],
+      "frames": [
+        {
+          "time": 860.0,
+          "caption": "Serpica Naro 的服装与行动案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/serpica-naro.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-openwear",
+      "title": "Openwear：共享版型、品牌与制作能力",
+      "summary": "介绍 Openwear 的协作服装、开放品牌和数字制作尝试，也讨论参与者技能不足对共同生产的限制。",
+      "key_points": [
+        "共享版型与品牌机制需要清楚的使用许可。",
+        "下载文件之后还需要制作工具、知识和材料。",
+        "未形成足够参与者是讲师回顾项目时指出的现实限制。"
+      ],
+      "terms": [
+        {
+          "term": "Openwear",
+          "definition": "讲师参与的协作服装与开放品牌项目。"
+        },
+        {
+          "term": "临界规模",
+          "definition": "让合作网络能够持续运作所需的参与量与能力。"
+        }
+      ],
+      "actions": [
+        "把共享资源的许可、工具要求和制作步骤一起列出。",
+        "检验陌生使用者能否依说明完成制作。"
+      ],
+      "start": 1214.515,
+      "end": 1423.325,
+      "references": [],
+      "moments": [
+        {
+          "time": 1250.0,
+          "title": "协作版型与品牌"
+        },
+        {
+          "time": 1326.0,
+          "title": "激光切割鞋与可穿戴实验"
+        },
+        {
+          "time": 1381.0,
+          "title": "项目规模与技能限制"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1330.0,
+          "caption": "Openwear 的制作案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/openwear.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-freedom-licenses",
+      "title": "自由软件、开放许可与时装知识产权",
+      "summary": "从自由软件和互联网协作讨论“开放”的含义，再区分设计文件、授权、版权和品牌。",
+      "key_points": [
+        "自由软件中的 free 主要指使用、学习、修改与分享的自由，不等于价格免费。",
+        "公开可下载不自动等于获得再利用许可。",
+        "服装、版型、图案和商标的权利不能混为一谈；法律适用随地区和对象变化。"
+      ],
+      "terms": [
+        {
+          "term": "Copyleft",
+          "definition": "通过许可条款让修改和再分发继续保有相应自由。"
+        },
+        {
+          "term": "开放许可",
+          "definition": "明确授予使用、修改或分享等权利的许可。"
+        }
+      ],
+      "actions": [
+        "给要分享的文件注明许可和署名要求。",
+        "检查版型、图案、照片与品牌名称分别由谁授权。"
+      ],
+      "start": 1423.325,
+      "end": 1885.475,
+      "references": [
+        {
+          "title": "GNU：自由软件的定义",
+          "url": "https://www.gnu.org/philosophy/free-sw.html"
+        }
+      ],
+      "moments": [
+        {
+          "time": 1530.0,
+          "title": "自由软件与 free 的含义"
+        },
+        {
+          "time": 1711.0,
+          "title": "开放与共享许可"
+        },
+        {
+          "time": 1805.0,
+          "title": "服装文件与品牌权利"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1593.0,
+          "caption": "自由软件与开放许可的讲解资料",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/freedom-licenses.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-commons-tools",
+      "title": "公地、数字制造与共同生产",
+      "summary": "结合 RepRap、Arduino、Fab Lab 与分布式设计，说明共享知识如何支持小规模参与和共同生产。",
+      "key_points": [
+        "数字文件是共享资源的一部分，材料、设备和知识决定能否实际使用。",
+        "共同生产依靠协作规则、反馈和持续维护。",
+        "参数化或交互设计可以让使用者调整作品，而非只复制一个固定结果。"
+      ],
+      "terms": [
+        {
+          "term": "Commons",
+          "definition": "公地：由共同规则维护、使用的共享资源。"
+        },
+        {
+          "term": "RepRap",
+          "definition": "推动可复制、开放式桌面 3D 打印机发展的项目。"
+        },
+        {
+          "term": "共同生产",
+          "definition": "多人围绕共享资源组织协作生产的方式。"
+        }
+      ],
+      "actions": [
+        "为共享设计补齐材料、工具和可修改参数。",
+        "明确谁维护文件、如何反馈问题和贡献改进。"
+      ],
+      "start": 1885.475,
+      "end": 2435.725,
+      "references": [],
+      "moments": [
+        {
+          "time": 1943.0,
+          "title": "RepRap 与 Arduino 的工具生态"
+        },
+        {
+          "time": 2128.0,
+          "title": "Benkler 与共同生产"
+        },
+        {
+          "time": 2305.0,
+          "title": "开放设计的制作条件"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2010.0,
+          "caption": "开放制造工具案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/commons-tools-1.jpg"
+        },
+        {
+          "time": 2358.0,
+          "caption": "Fab Lab、创客空间与数字制作流程",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/commons-tools-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-distributed-production",
+      "title": "全球设计、本地生产与 Atacac",
+      "summary": "讨论集中生产与分布式制造，再以开放鞋履和 Atacac Sharewear 说明共享版型、预售与按需生产。",
+      "key_points": [
+        "“全球共享设计、本地生产”仍要解决材料供应、技能和维修。",
+        "Atacac 的共享版型与预售价格用于说明另一种生产组织方式。",
+        "课程引用部分历史项目，讲师也指出有些网站或业务已停止；不可视为当前购买推荐。"
+      ],
+      "terms": [
+        {
+          "term": "Fab City",
+          "definition": "围绕本地生产与全球知识共享展开的城市网络理念。"
+        },
+        {
+          "term": "Sharewear",
+          "definition": "Atacac 案例中共享服装版型的做法。"
+        }
+      ],
+      "actions": [
+        "把库存生产与预订后生产的成本、时间和浪费作比较。",
+        "核对案例当前状态后再使用其文件或联系渠道。"
+      ],
+      "start": 2435.725,
+      "end": 2988.145,
+      "references": [],
+      "moments": [
+        {
+          "time": 2520.0,
+          "title": "生产系统的历史与转变"
+        },
+        {
+          "time": 2655.0,
+          "title": "全球设计与本地材料"
+        },
+        {
+          "time": 2826.0,
+          "title": "Atacac 的版型与动态定价"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2600.0,
+          "caption": "本地生产与全球知识流动示意",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/distributed-production-1.jpg"
+        },
+        {
+          "time": 2895.0,
+          "caption": "Atacac Sharewear 与价格案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/distributed-production-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-deadstock",
+      "title": "库存材料与现场定制微型工厂",
+      "summary": "以剩余纺织品、皮革交易和现场制作包袋的案例讨论如何把库存转为设计资源。",
+      "key_points": [
+        "库存材料可成为小批量设计的起点，但数量、品质与补货不一定稳定。",
+        "现场制作案例将选择材料、定制、切割与组装连接起来。",
+        "法规核对（2026-10-01）：欧盟对大型企业销毁未售服装、服饰附件及鞋类的禁令自 2026-07-19 适用，中型企业自 2030-07-19 适用，并有法定例外。课程 2025 年的概括不能当作当时所有企业已受同一禁令约束。"
+      ],
+      "terms": [
+        {
+          "term": "Deadstock",
+          "definition": "未被使用或售出的库存材料。"
+        },
+        {
+          "term": "按需定制",
+          "definition": "收到需求后按选择生产，而非先制造大量库存。"
+        }
+      ],
+      "actions": [
+        "先清点库存材料，再决定可持续供应的产品范围。",
+        "记录材料批次、来源与制作方式。"
+      ],
+      "start": 2988.145,
+      "end": 3256.925,
+      "references": [
+        {
+          "title": "欧盟委员会：未售衣鞋销毁禁令的适用日期与范围",
+          "url": "https://environment.ec.europa.eu/news/ban-destruction-unsold-clothes-and-shoes-enters-application-2026-07-17_en"
+        }
+      ],
+      "moments": [
+        {
+          "time": 3017.0,
+          "title": "剩余纺织品与皮革平台"
+        },
+        {
+          "time": 3137.0,
+          "title": "皮革包袋现场制作视频"
+        },
+        {
+          "time": 3195.0,
+          "title": "定制与材料选择"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3060.0,
+          "caption": "库存材料作为再设计资源",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/deadstock-1.jpg"
+        },
+        {
+          "time": 3165.0,
+          "caption": "现场包袋制作案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/deadstock-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-business-community",
+      "title": "产品家族、预订与共享基础设施",
+      "summary": "Zoe 总结可逐步发展的产品系统、按需小批量生产，以及预订、社区和共享设施对项目的支持。",
+      "key_points": [
+        "可持续经营不仅靠一个作品，也靠产品家族、使用者反馈和生产机制。",
+        "预订与小批量降低库存，但需要可靠交付与沟通。",
+        "协作可以共享设备、场地、技能和获客渠道。"
+      ],
+      "terms": [
+        {
+          "term": "产品家族",
+          "definition": "围绕相同系统或部件逐步扩展的一组产品。"
+        }
+      ],
+      "actions": [
+        "从一个可制作的模块或产品开始，明确下一次迭代。",
+        "列出适合共享的设施和需要合作的能力。"
+      ],
+      "start": 3256.925,
+      "end": 3542.515,
+      "references": [],
+      "moments": [
+        {
+          "time": 3306.0,
+          "title": "持续演化的产品目录"
+        },
+        {
+          "time": 3377.0,
+          "title": "预订、众筹与需求"
+        },
+        {
+          "time": 3470.0,
+          "title": "合作与共享设施"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3388.0,
+          "caption": "替代生产与经营方式的总结",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/business-community.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-kits-and-starting",
+      "title": "答疑：DIY 套件与小规模起步",
+      "summary": "回答 DIY 套件是否易用，以及缺少资金时如何先通过共享知识、空间和机器开始。",
+      "key_points": [
+        "设计者熟悉的步骤不一定对首次使用者清楚，套件需要真实试用。",
+        "图示、说明和材料配套影响能否独立组装。",
+        "讲师建议从合作与共享资源起步，再逐步获得资金与设备。"
+      ],
+      "terms": [
+        {
+          "term": "DIY 套件",
+          "definition": "提供材料或部件，由使用者依说明自行完成的产品。"
+        }
+      ],
+      "actions": [
+        "请未参与设计的人依据说明完成一次组装，记录卡点。",
+        "把当前可用的共享空间、设备和伙伴列入计划。"
+      ],
+      "start": 3542.515,
+      "end": 3945.215,
+      "references": [],
+      "moments": [
+        {
+          "time": 3565.0,
+          "title": "套件说明与使用者测试"
+        },
+        {
+          "time": 3750.0,
+          "title": "缺少资金时如何开始"
+        },
+        {
+          "time": 3883.0,
+          "title": "协作网络与结束语"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3620.0,
+          "caption": "DIY 套件答疑时的线上课堂",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/kits-and-starting.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-modular-workflow",
+      "title": "模块化时装：从纸样到可重组结构",
+      "summary": "Claudia 将开放循环设计转为模块化制作流程，说明无缝连接、拆装、维修与重组的目标。",
+      "key_points": [
+        "模块不是孤立的装饰片，连接系统决定整体能否成立。",
+        "无缝在此主要指通过互锁组装，不能据此推断所有案例都完全不使用其他连接。",
+        "从纸样、小样到数字绘图与激光切割，逐步验证比直接大量切割更可靠。"
+      ],
+      "terms": [
+        {
+          "term": "互锁",
+          "definition": "通过形状之间的插入、折叠或扣合形成连接。"
+        },
+        {
+          "term": "模块化",
+          "definition": "用可重复、可组合的单元构成整体。"
+        }
+      ],
+      "actions": [
+        "先做两个能互锁的纸模块，再尝试增加方向与层数。",
+        "记录每次连接失败发生在形状、间隙还是材料上。"
+      ],
+      "start": 3945.215,
+      "end": 4223.605,
+      "references": [],
+      "moments": [
+        {
+          "time": 3985.0,
+          "title": "模块、维修与重组"
+        },
+        {
+          "time": 4091.0,
+          "title": "纸样与数字制作流程"
+        },
+        {
+          "time": 4168.0,
+          "title": "学生案例的制作路径"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4103.0,
+          "caption": "模块化制作步骤与实例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/modular-workflow.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-applications",
+      "title": "从服装到家具、包装和饰品",
+      "summary": "通过方形披肩、家具、地毯、皮革篮、重复包装和饰品展示模块连接可以应用于多种尺度。",
+      "key_points": [
+        "相同连接思想可在穿着、收纳和空间中采用不同尺度。",
+        "结构与用途会改变受力方向，不能只按外观复制。",
+        "边角料的形状和尺寸也可以影响模块方案。"
+      ],
+      "terms": [
+        {
+          "term": "尺度",
+          "definition": "模块与整体用途之间的尺寸关系。"
+        }
+      ],
+      "actions": [
+        "为自己的用途列出尺寸、受力和拆装要求。",
+        "比较至少两种连接方式怎样适应同一材料。"
+      ],
+      "start": 4223.605,
+      "end": 4601.445,
+      "references": [],
+      "moments": [
+        {
+          "time": 4270.0,
+          "title": "方形互锁服装"
+        },
+        {
+          "time": 4413.0,
+          "title": "家具、地毯与皮革篮"
+        },
+        {
+          "time": 4533.0,
+          "title": "包装与饰品"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4431.0,
+          "caption": "Bolor Amgalan 的无缝模块化服装案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/applications.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-community-layering",
+      "title": "学生案例：连接方向、叠层与切纸结构",
+      "summary": "通过圆片披肩、三角模块、包袋与叠层结构，观察插槽、连接件和材料之间的关系。",
+      "key_points": [
+        "包袋与服装受到的拉力不同，凸凹连接应按用途测试。",
+        "叠层、折叠和切口能把平面模块变为空间结构。",
+        "旧窗帘等材料案例说明再利用也需要处理边缘和排料。"
+      ],
+      "terms": [
+        {
+          "term": "凸连接件／凹连接件",
+          "definition": "对应课程 male／female：插入的部分与接收插入的槽或结构。"
+        },
+        {
+          "term": "Kirigami",
+          "definition": "结合切割与折叠产生形态的切纸技法。"
+        }
+      ],
+      "actions": [
+        "分别记录模块正反面与组装顺序。",
+        "做拉扯和反复拆装的小样，再调整连接件。"
+      ],
+      "start": 4601.445,
+      "end": 5023.015,
+      "references": [],
+      "moments": [
+        {
+          "time": 4645.0,
+          "title": "圆片与三角连接"
+        },
+        {
+          "time": 4771.0,
+          "title": "叠层与立体变化"
+        },
+        {
+          "time": 4939.0,
+          "title": "窗帘升级再造"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4835.0,
+          "caption": "叠层与切纸结构案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/community-layering.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-scraps-heritage",
+      "title": "边角料、品牌叙事与文化传承",
+      "summary": "从皮革边角料和可变包袋，延伸到月相连接、装饰性扣合以及巴勒斯坦刺绣和切尔克斯文化的模块化表达。",
+      "key_points": [
+        "连接件既可以承担受力，也可以形成图案或品牌符号。",
+        "零废料要结合实际材料边界与切割损耗评估，不只是重复图案的外观。",
+        "文化案例强调研究、背景与个人叙事；自动字幕中的人名不可直接当作准确来源。"
+      ],
+      "terms": [
+        {
+          "term": "升级再造",
+          "definition": "通过设计使旧材料获得新的用途或价值。"
+        },
+        {
+          "term": "模块化叙事",
+          "definition": "把故事或文化图案嵌入可连接模块的表达方式。"
+        }
+      ],
+      "actions": [
+        "记录图案来源、个人关系和设计转化过程。",
+        "画出边角料的实际轮廓，再测试模块能否排入。"
+      ],
+      "start": 5023.015,
+      "end": 5497.135,
+      "references": [],
+      "moments": [
+        {
+          "time": 5054.0,
+          "title": "边角料与材料映射"
+        },
+        {
+          "time": 5240.0,
+          "title": "可变包袋与装饰连接"
+        },
+        {
+          "time": 5347.0,
+          "title": "文化与模块化图案"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5263.0,
+          "caption": "多配置包袋的模块系统",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/scraps-heritage-1.jpg"
+        },
+        {
+          "time": 5411.0,
+          "caption": "文化图案与模块化表达",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/scraps-heritage-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-additive-biomaterials",
+      "title": "增材制造与生物材料的探索",
+      "summary": "介绍 TPU 打印结构、可再次加工的生物基材料和细菌纤维素，扩展模块化设计的材料方向。",
+      "key_points": [
+        "3D 打印结构与激光切片材采用不同成形方式。",
+        "琼脂、明胶与细菌纤维素案例需要具体配方、干燥和性能测试。",
+        "课程展示是研究案例，不能据此承诺任何同名材料都具备相同循环或加工性能。"
+      ],
+      "terms": [
+        {
+          "term": "TPU",
+          "definition": "热塑性聚氨酯，一类可用于柔性打印的材料。"
+        },
+        {
+          "term": "细菌纤维素",
+          "definition": "由微生物产生的纤维素材料。"
+        }
+      ],
+      "actions": [
+        "把配方、厚度、干燥条件和受力表现写进材料测试。",
+        "选择与现有设备、用途匹配的工艺。"
+      ],
+      "start": 5497.135,
+      "end": 5668.425,
+      "references": [],
+      "moments": [
+        {
+          "time": 5520.0,
+          "title": "TPU 与打印结构"
+        },
+        {
+          "time": 5577.0,
+          "title": "生物基材料循环实验"
+        },
+        {
+          "time": 5621.0,
+          "title": "细菌纤维素案例"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5541.0,
+          "caption": "TPU 打印连接与服装案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/additive-biomaterials-1.jpg"
+        },
+        {
+          "time": 5620.0,
+          "caption": "生物材料的无缝服装与包袋案例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/additive-biomaterials-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-tessellation",
+      "title": "镶嵌：让模块覆盖平面",
+      "summary": "解释 tessellation 的无间隙、无重叠平面铺砌，并以自然、Escher 与几何图案作为设计参考。",
+      "key_points": [
+        "镶嵌讨论平面覆盖，模块能铺满不代表连接一定牢固。",
+        "自动字幕把 tessellation 多次写成 distillation 等词，此处依据讲解统一为“镶嵌”。",
+        "圆片之间通常留有负空间；利用负空间需要再设计。"
+      ],
+      "terms": [
+        {
+          "term": "Tessellation",
+          "definition": "镶嵌：不留间隙、不重叠地覆盖平面的图形排列。"
+        },
+        {
+          "term": "负空间",
+          "definition": "模块外或模块之间留下的空间。"
+        }
+      ],
+      "actions": [
+        "先验证模块能否平移或旋转重复覆盖，再增加连接。",
+        "区分几何铺砌、实际排料和材料切缝造成的损耗。"
+      ],
+      "start": 5668.425,
+      "end": 5828.665,
+      "references": [],
+      "moments": [
+        {
+          "time": 5686.0,
+          "title": "镶嵌的定义"
+        },
+        {
+          "time": 5748.0,
+          "title": "自然与 Escher 图案"
+        },
+        {
+          "time": 5789.0,
+          "title": "几何与重复规律"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5756.0,
+          "caption": "镶嵌与重复图案示例",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/tessellation.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-connector-engineering",
+      "title": "连接工程：插槽、箭头与装配方向",
+      "summary": "比较凹槽与凸形箭头，说明折叠插入、保留头部、连接间距和单模块中组合多类连接的方式。",
+      "key_points": [
+        "槽宽、头部尺寸、材料厚度和弹性共同决定装配与保持力。",
+        "一个模块可同时包含插槽和插入件，增加方向和组装可能。",
+        "更多切口可能增加可组合性，也会改变强度，必须以小样验证。"
+      ],
+      "terms": [
+        {
+          "term": "保持力",
+          "definition": "连接抵抗被拉脱的能力。"
+        },
+        {
+          "term": "装配公差",
+          "definition": "为实际材料与加工误差留出的尺寸余量。"
+        }
+      ],
+      "actions": [
+        "做一组不同槽宽与头部尺寸的小样，记录能否插入、拉脱和重复拆装。",
+        "把装配方向、正反面和顺序画成图示。"
+      ],
+      "start": 5828.665,
+      "end": 6137.575,
+      "references": [],
+      "moments": [
+        {
+          "time": 5840.0,
+          "title": "凹槽与箭头连接"
+        },
+        {
+          "time": 5952.0,
+          "title": "同一模块中组合连接"
+        },
+        {
+          "time": 6077.0,
+          "title": "服装连接演示"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5925.0,
+          "caption": "凸凹连接与折叠插入",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/connector-engineering-1.jpg"
+        },
+        {
+          "time": 6098.0,
+          "caption": "模块服装装配演示",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/connector-engineering-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-vector-nesting",
+      "title": "纸样、矢量文件、排料与切割",
+      "summary": "整理从纸样和数字建模，到矢量清理、排料、激光切割和组装的工作流。",
+      "key_points": [
+        "Fusion、Rhino 或 Blender 的模型需要导出适合后续软件的矢量轮廓。",
+        "RGB 红色和细线宽是本课设备示例，不能当作所有激光机通用的功率或分辨率设置。",
+        "删除构造线和重复路径，核对单位、闭合轮廓、边界与排料。"
+      ],
+      "terms": [
+        {
+          "term": "Nesting",
+          "definition": "排料：在给定材料轮廓内布置切割零件。"
+        },
+        {
+          "term": "DXF／SVG",
+          "definition": "可交换二维矢量轮廓的文件格式，导入后仍需核对单位和路径。"
+        }
+      ],
+      "actions": [
+        "按 1:1 毫米导入，并测量一个已知尺寸确认缩放。",
+        "先切两三件检验连接，再批量排料；保留参数记录。"
+      ],
+      "start": 6137.575,
+      "end": 6458.795,
+      "references": [],
+      "moments": [
+        {
+          "time": 6160.0,
+          "title": "纸样到数字制作"
+        },
+        {
+          "time": 6259.0,
+          "title": "矢量颜色、线宽与路径"
+        },
+        {
+          "time": 6368.0,
+          "title": "排料工具与材料利用"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6289.0,
+          "caption": "二维矢量设计与建模软件的工作流选择",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/vector-nesting-1.jpg"
+        },
+        {
+          "time": 6396.0,
+          "caption": "排料与重复路径处理",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/vector-nesting-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-material-checks",
+      "title": "材料厚度、边缘与加工限制",
+      "summary": "比较毛毡、皮革、织物等材料的厚度和边缘表现，并保留 PVC 等材料的激光加工限制。",
+      "key_points": [
+        "课程的 1–2 mm 小样是示例，连接尺寸仍需针对自己的材料调整。",
+        "容易散边的材料与不易散边的片材，需要不同的结构和边缘处理。",
+        "加工前查材料成分与设备要求；PVC、含六价铬的皮革或人造皮革不宜激光加工。燃烧外观不能替代可靠成分资料与实验室确认。"
+      ],
+      "terms": [
+        {
+          "term": "切缘",
+          "definition": "材料切割后的边界状态，包括散边、焦化或熔融。"
+        }
+      ],
+      "actions": [
+        "取得材料成分资料并向实验室确认可加工性。",
+        "记录厚度、切缘、受力与反复拆装表现。"
+      ],
+      "start": 6458.795,
+      "end": 6596.155,
+      "references": [
+        {
+          "title": "Trotec：不适合激光加工的材料",
+          "url": "https://www.troteclaser.com/en/resources/faqs/unsuitable-materials-laser-processing"
+        }
+      ],
+      "moments": [
+        {
+          "time": 6473.0,
+          "title": "厚度与材料案例"
+        },
+        {
+          "time": 6524.0,
+          "title": "散边织物与连接"
+        },
+        {
+          "time": 6554.0,
+          "title": "PVC 与材料确认"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6494.0,
+          "caption": "模块制作的材料选择资料",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/material-checks.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-assignment-documentation",
+      "title": "Week 3 作业与文档交付",
+      "summary": "总结纸样、激光参数测试、模块服装组装及开源文件和照片上传，并以第二天教程的软件准备结束。",
+      "key_points": [
+        "先用纸验证模块和锁，再记录材料与激光参数、组装和拉扯测试。",
+        "上传按比例的 PDF 与 1–5 张成品照片，配套说明组装与参数。",
+        "素材是 2025–26 课程；其中“明天”的软件准备及当年安排不是 2026 年的新截止日期。"
+      ],
+      "terms": [
+        {
+          "term": "开源交付",
+          "definition": "把他人复用所需的文件、参数、组装方法与许可一起提供。"
+        }
+      ],
+      "actions": [
+        "按官方手册逐项记录设计、纸样、参数、连接、排料和组装。",
+        "准备可复用的矢量文件、照片和说明，明确署名与许可。"
+      ],
+      "start": 6596.155,
+      "end": 6798.2,
+      "references": [
+        {
+          "title": "Fabricademy Week 3 官方作业手册",
+          "url": "https://fabricademy.fabcloud.io/handbook/classes/03_circular_fashion/"
+        }
+      ],
+      "moments": [
+        {
+          "time": 6612.0,
+          "title": "作业步骤与连接测试"
+        },
+        {
+          "time": 6684.0,
+          "title": "平台、文件和照片"
+        },
+        {
+          "time": 6756.0,
+          "title": "次日教程软件准备与结束"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6642.0,
+          "caption": "Week 3 作业与文档要求",
+          "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/assignment-documentation.jpg"
+        }
+      ]
+    }
+  ]
+}

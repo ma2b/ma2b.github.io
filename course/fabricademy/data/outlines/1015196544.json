@@ -1,0 +1,414 @@
+{
+  "id": "1015196544",
+  "slug": "10-modular-fashion-2024",
+  "title": "模块化时装二维设计：Fusion、Rhino、Illustrator 与 Inkscape",
+  "description": "用 Fusion 创建可调整的模块连接，在 Illustrator 清理与排料；再用 Rhino 构造方形模块，并演示平移／旋转镶嵌和 Inkscape 克隆。",
+  "binding_source": "extension",
+  "duration": 6427.04,
+  "page_url": "https://ma2b.github.io/course/fabricademy/10-modular-fashion-2024/notes.html",
+  "bilibili": {
+    "bvid": "BV1hTYN6UEhj",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-fusion-setup",
+      "title": "Fusion：单位、俯视与草图工作区",
+      "start": 0.0,
+      "end": 192.995,
+      "moments": [
+        {
+          "time": 37.0,
+          "title": "本课工具与工作流"
+        },
+        {
+          "time": 129.0,
+          "title": "单位、视图与时间轴"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-fusion-setup.json",
+      "sha256": "94939166016ccf33f28eae0f50230b30885b2dfd9d3b0531372d71ebf7e31090"
+    },
+    {
+      "id": "topic-fusion-circle",
+      "title": "圆形模块与尺寸约束",
+      "start": 192.995,
+      "end": 434.155,
+      "moments": [
+        {
+          "time": 223.0,
+          "title": "创建圆形草图"
+        },
+        {
+          "time": 312.0,
+          "title": "指定尺寸与缩放视图"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-fusion-circle.json",
+      "sha256": "458cafdabbde48f1032b13776c56c0e484d47f0b03b0766c2efab8e30f1264e0"
+    },
+    {
+      "id": "topic-fusion-slot",
+      "title": "构造线、插槽长度与中点约束",
+      "start": 434.155,
+      "end": 808.155,
+      "moments": [
+        {
+          "time": 456.0,
+          "title": "轴线改为构造几何"
+        },
+        {
+          "time": 588.0,
+          "title": "槽长与距中心距离"
+        },
+        {
+          "time": 734.0,
+          "title": "中点约束"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-fusion-slot.json",
+      "sha256": "cfc7f8e6df95fd9b5d04b8a9e6bdebc90ef0397f58d70306ec2930ed86e00b81"
+    },
+    {
+      "id": "topic-fusion-circular-pattern",
+      "title": "圆周阵列、修改与 DXF 导出",
+      "start": 808.155,
+      "end": 1020.405,
+      "moments": [
+        {
+          "time": 820.0,
+          "title": "选择槽与圆心"
+        },
+        {
+          "time": 900.0,
+          "title": "编辑阵列"
+        },
+        {
+          "time": 973.0,
+          "title": "重新进入草图与导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-fusion-circular-pattern.json",
+      "sha256": "8d919a54dd739a9f1152fe8b74fec87745d89c4cb16053f909214ea8170a391b"
+    },
+    {
+      "id": "topic-fusion-male-module",
+      "title": "凸连接模块：复制、镜像与修剪",
+      "start": 1020.405,
+      "end": 1473.915,
+      "moments": [
+        {
+          "time": 1049.0,
+          "title": "复制模块与连接间距"
+        },
+        {
+          "time": 1178.0,
+          "title": "镜像与修剪凸件"
+        },
+        {
+          "time": 1356.0,
+          "title": "圆周阵列与导出检查"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-fusion-male-module.json",
+      "sha256": "d29ebdae2cb8750d07d03e94fc1f6f15f3235a3fb464776c4ebcfa8188622abc"
+    },
+    {
+      "id": "topic-illustrator-import",
+      "title": "Illustrator：1:1 导入与切割路径设置",
+      "start": 1473.915,
+      "end": 1874.025,
+      "moments": [
+        {
+          "time": 1494.0,
+          "title": "新文档与毫米 RGB"
+        },
+        {
+          "time": 1587.0,
+          "title": "DXF 原尺寸导入"
+        },
+        {
+          "time": 1748.0,
+          "title": "描边颜色与线宽"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-illustrator-import.json",
+      "sha256": "e7fa4bb2e6ed49c68c3b4b893f212c094310b67820016afdd3ff4b177b0bf506"
+    },
+    {
+      "id": "topic-illustrator-grid",
+      "title": "复制变换与整行排料",
+      "start": 1874.025,
+      "end": 2145.495,
+      "moments": [
+        {
+          "time": 1890.0,
+          "title": "复制与约束方向"
+        },
+        {
+          "time": 1987.0,
+          "title": "重复整行整列"
+        },
+        {
+          "time": 2063.0,
+          "title": "填色与透明度预览"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-illustrator-grid.json",
+      "sha256": "4d5a0440db3b284badaeee53b477b0b60d1bf8bb7f303c643124522d08f1588c"
+    },
+    {
+      "id": "topic-negative-space-export",
+      "title": "负空间、试切与导出",
+      "start": 2145.495,
+      "end": 2373.805,
+      "moments": [
+        {
+          "time": 2161.0,
+          "title": "圆片之间的剩余材料"
+        },
+        {
+          "time": 2242.0,
+          "title": "试切与组装检查"
+        },
+        {
+          "time": 2303.0,
+          "title": "导出文件"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-negative-space-export.json",
+      "sha256": "bf0a54aca348098bd06a53fbfa5796325704361376066b3f51cc883b2a193fd5"
+    },
+    {
+      "id": "topic-physical-samples",
+      "title": "实物模块：叠层、立体与不同材料",
+      "start": 2373.805,
+      "end": 2611.415,
+      "moments": [
+        {
+          "time": 2401.0,
+          "title": "毛毡厚度与样本"
+        },
+        {
+          "time": 2503.0,
+          "title": "叠层与包袋结构"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-physical-samples.json",
+      "sha256": "0fffeaeba78f4d04fe6f4a423d0ac5a626e17630830fed9871da15ba91bf7dc7"
+    },
+    {
+      "id": "topic-circularity-qa",
+      "title": "答疑：新材料、边角料与作业边界",
+      "start": 2611.415,
+      "end": 2927.955,
+      "moments": [
+        {
+          "time": 2626.0,
+          "title": "使用新材料的疑问"
+        },
+        {
+          "time": 2747.0,
+          "title": "边角料与缩放连接"
+        },
+        {
+          "time": 2830.0,
+          "title": "作业与激光制作"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-circularity-qa.json",
+      "sha256": "61a2e3a89c5a27893a8a7e34fec5c0783bcc5209a577b71e3e9954fceafee5be"
+    },
+    {
+      "id": "topic-rhino-setup",
+      "title": "Rhino：毫米、俯视与对象捕捉",
+      "start": 2927.955,
+      "end": 3350.305,
+      "moments": [
+        {
+          "time": 2967.0,
+          "title": "文档单位与视图"
+        },
+        {
+          "time": 3081.0,
+          "title": "捕捉与操控器"
+        },
+        {
+          "time": 3275.0,
+          "title": "共享恢复与继续"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-rhino-setup.json",
+      "sha256": "7db53f85a9dbbad6708d7709304fb3402f6b14144411ac51ffd8edaaa57e4aca"
+    },
+    {
+      "id": "topic-rhino-square-male",
+      "title": "Rhino 方形模块：旋转、偏移与修剪",
+      "start": 3350.305,
+      "end": 3863.615,
+      "moments": [
+        {
+          "time": 3360.0,
+          "title": "50 mm 方形"
+        },
+        {
+          "time": 3518.0,
+          "title": "旋转与偏移"
+        },
+        {
+          "time": 3732.0,
+          "title": "修剪连接"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-rhino-square-male.json",
+      "sha256": "a95da7b240c4fb05a6ba97bc2098583265636a8bd6ad9664acd770c2a14f6f45"
+    },
+    {
+      "id": "topic-rhino-female-array",
+      "title": "凹槽、极轴阵列与分组",
+      "start": 3863.615,
+      "end": 4091.765,
+      "moments": [
+        {
+          "time": 3892.0,
+          "title": "凹槽定位"
+        },
+        {
+          "time": 3987.0,
+          "title": "极轴阵列与中心"
+        },
+        {
+          "time": 4048.0,
+          "title": "分组与图层整理"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-rhino-female-array.json",
+      "sha256": "46cb93781ed27b3051932c80b686780018079abf7dac0f700a67fc18548bd7d4"
+    },
+    {
+      "id": "topic-rhino-nesting-export",
+      "title": "Rhino 排料、共边去重与导出限制",
+      "start": 4091.765,
+      "end": 4632.73,
+      "moments": [
+        {
+          "time": 4110.0,
+          "title": "Explode、Join 与共边清理"
+        },
+        {
+          "time": 4314.0,
+          "title": "加工区域与矩形阵列"
+        },
+        {
+          "time": 4536.145,
+          "title": "导出尝试与许可证限制"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-rhino-nesting-export.json",
+      "sha256": "82ebe14e6039739bff2c78d0f769dc5b875eb9851dc373b9ba335a61cb364ab0"
+    },
+    {
+      "id": "topic-translation-tessellation",
+      "title": "Illustrator：平移镶嵌与路径组合",
+      "start": 4632.73,
+      "end": 5303.925,
+      "moments": [
+        {
+          "time": 4716.0,
+          "title": "相对边的对应关系"
+        },
+        {
+          "time": 4873.0,
+          "title": "合并与相减轮廓"
+        },
+        {
+          "time": 5144.0,
+          "title": "复制验证与锚点调整"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-translation-tessellation.json",
+      "sha256": "b48b8b10a272089d042fa455dac52e3d4dd14dc63702390d9e3db309b04f1759"
+    },
+    {
+      "id": "topic-rotation-tessellation",
+      "title": "旋转镶嵌：三角形、曲线与捕捉",
+      "start": 5303.925,
+      "end": 5813.795,
+      "moments": [
+        {
+          "time": 5388.0,
+          "title": "三角形与曲线"
+        },
+        {
+          "time": 5550.0,
+          "title": "旋转复制"
+        },
+        {
+          "time": 5704.0,
+          "title": "端点与中心对齐修正"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-rotation-tessellation.json",
+      "sha256": "90650f686b6fa61bd2829f9e98b25d86c823efeee88d4e7c4af8a35ee3fa3a92"
+    },
+    {
+      "id": "topic-tessellation-qa",
+      "title": "答疑：纸折、对称与文化图案",
+      "start": 5813.795,
+      "end": 5954.645,
+      "moments": [
+        {
+          "time": 5821.0,
+          "title": "纸折与对称"
+        },
+        {
+          "time": 5888.0,
+          "title": "文化图案与探索"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-tessellation-qa.json",
+      "sha256": "24c2a256c09922cb2deb4e56940c15d20d8d453cbbb1514e4811874e47e1cfff"
+    },
+    {
+      "id": "topic-inkscape-clones",
+      "title": "Inkscape：矢量导入与平铺克隆",
+      "start": 5954.645,
+      "end": 6297.545,
+      "moments": [
+        {
+          "time": 5982.0,
+          "title": "导入与描摹尝试"
+        },
+        {
+          "time": 6097.0,
+          "title": "平铺克隆设置"
+        },
+        {
+          "time": 6204.0,
+          "title": "修改母形与导出"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-inkscape-clones.json",
+      "sha256": "377b3ffd28b7fb9559f180eb1111bec68681b59c2418de5589b84639cc39e143"
+    },
+    {
+      "id": "topic-files-and-closing",
+      "title": "文件交付、后续制作与结束",
+      "start": 6297.545,
+      "end": 6427.04,
+      "moments": [
+        {
+          "time": 6311.0,
+          "title": "工作文件分享"
+        },
+        {
+          "time": 6363.0,
+          "title": "后续探索与结束"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1015196544/topic-files-and-closing.json",
+      "sha256": "3eefa3cc9fb594959ddb4b0c423c416a85290605e7b0d26c55dd776e789693ab"
+    }
+  ]
+}

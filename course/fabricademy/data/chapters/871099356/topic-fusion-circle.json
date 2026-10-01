@@ -1,0 +1,43 @@
+{
+  "id": "topic-fusion-circle",
+  "title": "Fusion 草图：平面、圆与尺寸",
+  "summary": "选择草图平面，绘制圆形模块，使用尺寸约束修改大小并介绍界面中的编辑入口。",
+  "key_points": [
+    "在选定平面上绘制二维轮廓，并检查单位。",
+    "闭合轮廓产生的区域显示与“已完全约束”是两件事，不要仅凭蓝色判断。",
+    "尺寸约束可修改几何，课程随后把尺寸改为命名参数。"
+  ],
+  "terms": [
+    {
+      "term": "草图约束",
+      "definition": "控制几何尺寸、位置或关系的条件。"
+    }
+  ],
+  "actions": [
+    "创建圆并设定直径，改变尺寸检查轮廓随之更新。"
+  ],
+  "start": 1282.29,
+  "end": 1517.29,
+  "references": [],
+  "moments": [
+    {
+      "time": 1355.0,
+      "title": "创建草图与圆"
+    },
+    {
+      "time": 1424.0,
+      "title": "尺寸与编辑"
+    },
+    {
+      "time": 1483.0,
+      "title": "参数化修改准备"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1458.0,
+      "caption": "Fusion 圆形草图与尺寸",
+      "src": "https://ma2b.github.io/course/fabricademy/11-modular-zero-waste-2023/frames/fusion-circle.jpg"
+    }
+  ]
+}

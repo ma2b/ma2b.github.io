@@ -1,0 +1,49 @@
+{
+  "id": "topic-material-checks",
+  "title": "材料厚度、边缘与加工限制",
+  "summary": "比较毛毡、皮革、织物等材料的厚度和边缘表现，并保留 PVC 等材料的激光加工限制。",
+  "key_points": [
+    "课程的 1–2 mm 小样是示例，连接尺寸仍需针对自己的材料调整。",
+    "容易散边的材料与不易散边的片材，需要不同的结构和边缘处理。",
+    "加工前查材料成分与设备要求；PVC、含六价铬的皮革或人造皮革不宜激光加工。燃烧外观不能替代可靠成分资料与实验室确认。"
+  ],
+  "terms": [
+    {
+      "term": "切缘",
+      "definition": "材料切割后的边界状态，包括散边、焦化或熔融。"
+    }
+  ],
+  "actions": [
+    "取得材料成分资料并向实验室确认可加工性。",
+    "记录厚度、切缘、受力与反复拆装表现。"
+  ],
+  "start": 6458.795,
+  "end": 6596.155,
+  "references": [
+    {
+      "title": "Trotec：不适合激光加工的材料",
+      "url": "https://www.troteclaser.com/en/resources/faqs/unsuitable-materials-laser-processing"
+    }
+  ],
+  "moments": [
+    {
+      "time": 6473.0,
+      "title": "厚度与材料案例"
+    },
+    {
+      "time": 6524.0,
+      "title": "散边织物与连接"
+    },
+    {
+      "time": 6554.0,
+      "title": "PVC 与材料确认"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6494.0,
+      "caption": "模块制作的材料选择资料",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/material-checks.jpg"
+    }
+  ]
+}

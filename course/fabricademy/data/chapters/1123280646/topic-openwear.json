@@ -1,0 +1,48 @@
+{
+  "id": "topic-openwear",
+  "title": "Openwear：共享版型、品牌与制作能力",
+  "summary": "介绍 Openwear 的协作服装、开放品牌和数字制作尝试，也讨论参与者技能不足对共同生产的限制。",
+  "key_points": [
+    "共享版型与品牌机制需要清楚的使用许可。",
+    "下载文件之后还需要制作工具、知识和材料。",
+    "未形成足够参与者是讲师回顾项目时指出的现实限制。"
+  ],
+  "terms": [
+    {
+      "term": "Openwear",
+      "definition": "讲师参与的协作服装与开放品牌项目。"
+    },
+    {
+      "term": "临界规模",
+      "definition": "让合作网络能够持续运作所需的参与量与能力。"
+    }
+  ],
+  "actions": [
+    "把共享资源的许可、工具要求和制作步骤一起列出。",
+    "检验陌生使用者能否依说明完成制作。"
+  ],
+  "start": 1214.515,
+  "end": 1423.325,
+  "references": [],
+  "moments": [
+    {
+      "time": 1250.0,
+      "title": "协作版型与品牌"
+    },
+    {
+      "time": 1326.0,
+      "title": "激光切割鞋与可穿戴实验"
+    },
+    {
+      "time": 1381.0,
+      "title": "项目规模与技能限制"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1330.0,
+      "caption": "Openwear 的制作案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/openwear.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-distributed-production",
+  "title": "全球设计、本地生产与 Atacac",
+  "summary": "讨论集中生产与分布式制造，再以开放鞋履和 Atacac Sharewear 说明共享版型、预售与按需生产。",
+  "key_points": [
+    "“全球共享设计、本地生产”仍要解决材料供应、技能和维修。",
+    "Atacac 的共享版型与预售价格用于说明另一种生产组织方式。",
+    "课程引用部分历史项目，讲师也指出有些网站或业务已停止；不可视为当前购买推荐。"
+  ],
+  "terms": [
+    {
+      "term": "Fab City",
+      "definition": "围绕本地生产与全球知识共享展开的城市网络理念。"
+    },
+    {
+      "term": "Sharewear",
+      "definition": "Atacac 案例中共享服装版型的做法。"
+    }
+  ],
+  "actions": [
+    "把库存生产与预订后生产的成本、时间和浪费作比较。",
+    "核对案例当前状态后再使用其文件或联系渠道。"
+  ],
+  "start": 2435.725,
+  "end": 2988.145,
+  "references": [],
+  "moments": [
+    {
+      "time": 2520.0,
+      "title": "生产系统的历史与转变"
+    },
+    {
+      "time": 2655.0,
+      "title": "全球设计与本地材料"
+    },
+    {
+      "time": 2826.0,
+      "title": "Atacac 的版型与动态定价"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2600.0,
+      "caption": "本地生产与全球知识流动示意",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/distributed-production-1.jpg"
+    },
+    {
+      "time": 2895.0,
+      "caption": "Atacac Sharewear 与价格案例",
+      "src": "https://ma2b.github.io/course/fabricademy/09-circular-fashion-lecture-2025/frames/distributed-production-2.jpg"
+    }
+  ]
+}
