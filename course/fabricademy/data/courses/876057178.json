@@ -3,10 +3,14 @@
   "slug": "13-electronics-soft-sensors-2023",
   "title": "电子学与软传感器：万用表、电路与制作实操",
   "description": "从万用表测量、电路与LED限流，到按钮、Velostat压力传感器和分压读出，按连续操作学习电子纺织基础。",
-  "binding_source": "course",
+  "binding_source": "extension",
   "duration": 10546.28,
   "page_url": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/notes.html",
-  "bilibili": null,
+  "bilibili": {
+    "bvid": "BV1D1pz6sEyn",
+    "p": 1,
+    "offset_seconds": 0
+  },
   "chapters": [
     {
       "id": "topic-learning-route",

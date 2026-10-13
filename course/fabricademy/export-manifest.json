@@ -423,14 +423,14 @@
     "13-electronics-soft-sensors-2023/frames/thread-comparison-1.jpg": "4f8dd695fef3dc7deea8d7133fcac21adebe8eb5a40c07187af38fe98a576ff9",
     "13-electronics-soft-sensors-2023/frames/voltage-divider-1.jpg": "00dc252102231798d49ea684cd94cb93d704f89029347548857c3502b3029ee9",
     "13-electronics-soft-sensors-2023/frames/voltage-meter-1.jpg": "96775ff5f10a37a6475393bdf5f01efd844b9327500c4ad3f669cee8d53b19e6",
-    "13-electronics-soft-sensors-2023/notes.html": "aad472309af90f381b48514d5eb5ab8ba66198aa98b8016e8622bbb2dd62eeab",
+    "13-electronics-soft-sensors-2023/notes.html": "d05c1fb0c6e34a2c4d4e3d94024a6b7d9207aeaf58026a07c2184ebfc373fe89",
     "13-electronics-soft-sensors-2023/source.en-x-autogen.vtt": "8028eac4a58afb1c5fa3576bd9989c457368c8fd2075b4271b0795fb3f80d4dc",
     "13-electronics-soft-sensors-2023/source.jpg": "40b4764ea670a97d98924075b88fda8f9773b87867aa973c3b64b3c429d6e965",
     "13-electronics-soft-sensors-2023/subtitles/zh-CN.srt": "c4e73093433f8349de65bfbe6cbada38e6a8729b5ae78116cf6d8213e4198a29",
     "13-electronics-soft-sensors-2023/subtitles/zh-CN.vtt": "dccff76bd4c93afc81fce928548ca51121620174d26b6542f36809e264df5e02",
     "13-electronics-soft-sensors-2023/subtitles/zh-en.srt": "2155d84999aec43263abd141a935ab5267ee0a48982e64e3af0ffe8ce88a3b98",
     "13-electronics-soft-sensors-2023/subtitles/zh-en.vtt": "0f35ce07b943ee1fd492142344b27837173e1cb6afa472f7c10d887957000243",
-    "data/catalog.json": "3f1b38535051a03cdc124720081e9a533b5c2f34de322268fc6e67595eab2c76",
+    "data/catalog.json": "b27af19ee2514c9352a7ddffff405b2e36993e217aa08a190d872f48cf731fc4",
     "data/chapters/1015196544/topic-circularity-qa.json": "61a2e3a89c5a27893a8a7e34fec5c0783bcc5209a577b71e3e9954fceafee5be",
     "data/chapters/1015196544/topic-files-and-closing.json": "3eefa3cc9fb594959ddb4b0c423c416a85290605e7b0d26c55dd776e789693ab",
     "data/chapters/1015196544/topic-fusion-circle.json": "458cafdabbde48f1032b13776c56c0e484d47f0b03b0766c2efab8e30f1264e0",
@@ -673,7 +673,7 @@
     "data/courses/755151733.json": "2a154c53587033ddc2f4de854ac4c6b624eddd64cb38a7a0e44a195e8ab605dd",
     "data/courses/868785869.json": "ae197a91d061d0daa6eb935204096f56d3336f6a59e6c6c2732ef2dc229b7a73",
     "data/courses/871099356.json": "b54f5be6b5875e415c15691cbc8d20e76f2b12f51894f4c68ff7153c7a0681f2",
-    "data/courses/876057178.json": "386fcad738eaa3b3c36774450f708bb0b3ecd331b7b18cd519e65511d859e4e2",
+    "data/courses/876057178.json": "c34903fe389ce505ef73739d3191674f524d5660dbd3a7e0eca17023a5ef8af6",
     "data/extension-release.json": "c4e9d4daf73fd06746f3d1fcd2008a0c132102d31d8eb20f74224cf872ceba0d",
     "data/outlines/1015196544.json": "50b40592434e60bf20bc4751d4183e0fd1dd14c8ed32f0a9bfef95d42e4ff0de",
     "data/outlines/1121623691.json": "c805f50c14972abf783d1a2a6cd2050f6c61ade2c0c104a8add5a71feabbf8a4",
@@ -688,8 +688,8 @@
     "data/outlines/755151733.json": "28e204478955031a327c7cf3b6efc77612eeb772c19918d7fddb960b6d9fe2f4",
     "data/outlines/868785869.json": "96ffca8947c8612c993c7efc289d8ef4cae9eb41aef1bcf91f2d56584a8b2ecc",
     "data/outlines/871099356.json": "d051b231cb3d0eb7d7b366eaf77369456ebe8312761c435bb7fb7c2a2561d3d9",
-    "data/outlines/876057178.json": "d8107aac1a98b70f1e59d5e9040a396e41a45f8eaabf28f5b24d281b03800dd3",
+    "data/outlines/876057178.json": "4159cce6d174b8142a1ef2249b0c2699fe5244f9511ecdaa2ca51898350a7996",
     "downloads/fabricademy-learning-panel-v0.6.9.zip": "634df09f2e7c7ed4afee3f9582739a06d62997e5aa54c87b5f005f6653cccf49",
-    "index.html": "7277f96ce8f557a8694acf43986f835bb2f42674730fcbed86cb0e3080ea9be6"
+    "index.html": "9dac04c37f2ed72957418045e005692964be81944ebfe880092e41e8914769c2"
   }
 }

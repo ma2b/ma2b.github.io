@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "c120d4e4e8a46011025b3c9f2ec0ee20925d0eaf7cd5547f75f4b579ee934cd1",
+  "revision": "e4ca6d75364b717690eaa0a7e7ff52b00c69eab7848345447bdd5aa610698c19",
   "courses": [
     {
       "id": "1227439130",
@@ -202,11 +202,15 @@
       "title": "电子学与软传感器：万用表、电路与制作实操",
       "duration": 10546.28,
       "page_url": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/notes.html",
-      "bilibili": null,
+      "bilibili": {
+        "bvid": "BV1D1pz6sEyn",
+        "p": 1,
+        "offset_seconds": 0
+      },
       "url": "https://ma2b.github.io/course/fabricademy/data/courses/876057178.json",
-      "sha256": "386fcad738eaa3b3c36774450f708bb0b3ecd331b7b18cd519e65511d859e4e2",
+      "sha256": "c34903fe389ce505ef73739d3191674f524d5660dbd3a7e0eca17023a5ef8af6",
       "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/876057178.json",
-      "outline_sha256": "d8107aac1a98b70f1e59d5e9040a396e41a45f8eaabf28f5b24d281b03800dd3"
+      "outline_sha256": "4159cce6d174b8142a1ef2249b0c2699fe5244f9511ecdaa2ca51898350a7996"
     }
   ]
 }
