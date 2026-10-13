@@ -1,0 +1,518 @@
+{
+  "id": "1127247169",
+  "slug": "12-etextiles-lecture-2025",
+  "title": "电子纺织：材料、软传感器与交互编程",
+  "description": "Liza Stark 从电路基础、导电材料与软传感器出发，介绍硬软连接、Arduino输入与传感数据处理。",
+  "binding_source": "extension",
+  "duration": 6707.92,
+  "page_url": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/notes.html",
+  "bilibili": {
+    "bvid": "BV1G6pz6ZE1z",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-orientation",
+      "title": "电子纺织的起点、案例与开放资源",
+      "start": 0.0,
+      "end": 490.455,
+      "moments": [
+        {
+          "time": 184.165,
+          "title": "电子纺织的定义与案例"
+        },
+        {
+          "time": 362.915,
+          "title": "开放文档与材料知识"
+        },
+        {
+          "time": 428.165,
+          "title": "电子学、制作与编程的学习顺序"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-orientation.json",
+      "sha256": "161814152ac096bc83935c61688899e3d5fc63c1ad7ef07e905ce1ea2cb09d0f"
+    },
+    {
+      "id": "topic-circuit-voltage",
+      "title": "电路、电源与电压：先认识闭合路径",
+      "start": 490.455,
+      "end": 744.215,
+      "moments": [
+        {
+          "time": 503.455,
+          "title": "闭合电路与负载"
+        },
+        {
+          "time": 625.765,
+          "title": "电压、电池和工作条件"
+        },
+        {
+          "time": 701.465,
+          "title": "万用表作为测量工具"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-circuit-voltage.json",
+      "sha256": "9be6cf0557fa7dec523787198135a2605e12431d33ef88ad06a21de929c529c0"
+    },
+    {
+      "id": "topic-led-current",
+      "title": "LED 正向压降、电流与数据手册",
+      "start": 744.215,
+      "end": 998.005,
+      "moments": [
+        {
+          "time": 744.215,
+          "title": "LED正向压降"
+        },
+        {
+          "time": 820.335,
+          "title": "电流与过流风险"
+        },
+        {
+          "time": 904.735,
+          "title": "查阅数据手册"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-led-current.json",
+      "sha256": "89273b31fdea1251aec299ec38513323a96b41f2fc49605fcb4f9f59db1d5c5e"
+    },
+    {
+      "id": "topic-resistance-short",
+      "title": "电阻、欧姆定律与短路",
+      "start": 998.005,
+      "end": 1197.625,
+      "moments": [
+        {
+          "time": 1006.445,
+          "title": "电阻与元件封装"
+        },
+        {
+          "time": 1083.935,
+          "title": "欧姆定律"
+        },
+        {
+          "time": 1109.355,
+          "title": "铜布跨接LED的判断题"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-resistance-short.json",
+      "sha256": "73b49060472f025246f7a6e8df41a3b6ae914f6da4ab6ac78d2af3af89e7f262"
+    },
+    {
+      "id": "topic-series-parallel",
+      "title": "串联、并联与不同颜色 LED",
+      "start": 1197.625,
+      "end": 1489.595,
+      "moments": [
+        {
+          "time": 1197.625,
+          "title": "串联与并联"
+        },
+        {
+          "time": 1231.395,
+          "title": "颜色与正向压降"
+        },
+        {
+          "time": 1382.335,
+          "title": "添加电阻的工作量答疑"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-series-parallel.json",
+      "sha256": "b1c778cbff69920d506bbfad5e69dda92edb12003b9fb157928a1c5abebc43ef"
+    },
+    {
+      "id": "topic-materials-tools",
+      "title": "导电布、导电线、油墨与工具选择",
+      "start": 1489.595,
+      "end": 1910.245,
+      "moments": [
+        {
+          "time": 1503.905,
+          "title": "材料选型的属性"
+        },
+        {
+          "time": 1608.945,
+          "title": "导电线的构成与长度"
+        },
+        {
+          "time": 1738.135,
+          "title": "油墨、胶带和工具"
+        },
+        {
+          "time": 1839.665,
+          "title": "机器与电子工具"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-materials-tools.json",
+      "sha256": "996c6f33f26b798ec9cbc4a47ac947fa2db92028e3a07ad88c13034881df5f9c"
+    },
+    {
+      "id": "topic-traces",
+      "title": "制作柔性走线：热熔粘合、缝纫与刺绣",
+      "start": 1910.245,
+      "end": 2180.495,
+      "moments": [
+        {
+          "time": 1912.375,
+          "title": "什么是走线"
+        },
+        {
+          "time": 1967.885,
+          "title": "导电布与热熔粘合"
+        },
+        {
+          "time": 2072.435,
+          "title": "机缝、手缝和链式针迹"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-traces.json",
+      "sha256": "235dae37c9af47e80ac2d1a64c7e2b2332fb6b826a92289bad906b859bc43762"
+    },
+    {
+      "id": "topic-material-testing",
+      "title": "材料试验、普通缝纫机与耐汗耐洗答疑",
+      "start": 2180.495,
+      "end": 2351.245,
+      "moments": [
+        {
+          "time": 2206.245,
+          "title": "以材料试验为基础"
+        },
+        {
+          "time": 2237.025,
+          "title": "普通缝纫机答疑"
+        },
+        {
+          "time": 2263.355,
+          "title": "汗液、防水与清洗"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-material-testing.json",
+      "sha256": "a9410d80db915ee953f678be8caf8bb2bbe6b2c48abead7a0e7b5fe9f3194e47"
+    },
+    {
+      "id": "topic-digital-switches",
+      "title": "数字输入：按钮、按扣、拉链、抚触与倾斜开关",
+      "start": 2351.245,
+      "end": 2682.665,
+      "moments": [
+        {
+          "time": 2372.715,
+          "title": "数字与模拟输入"
+        },
+        {
+          "time": 2421.745,
+          "title": "开关与按钮"
+        },
+        {
+          "time": 2507.855,
+          "title": "按扣与拉链"
+        },
+        {
+          "time": 2576.625,
+          "title": "抚触与倾斜开关"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-digital-switches.json",
+      "sha256": "3375e0c000f62f956a99deb77489f7638e964c7c58986d97fc622f54ed8af3eb"
+    },
+    {
+      "id": "topic-analog-principles",
+      "title": "模拟感测：长度、接触与导电面积",
+      "start": 2682.665,
+      "end": 3014.505,
+      "moments": [
+        {
+          "time": 2702.495,
+          "title": "用电阻变化影响输出"
+        },
+        {
+          "time": 2816.365,
+          "title": "长度、接触与面积"
+        },
+        {
+          "time": 2910.845,
+          "title": "针迹与有效连接面积"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-analog-principles.json",
+      "sha256": "02193a78764d66a5dfdd9008f7020dd1c197449fd1586d8702fe48da2169eaa1"
+    },
+    {
+      "id": "topic-resistive-materials",
+      "title": "导电纱、Velostat 与电阻织物",
+      "start": 3014.505,
+      "end": 3293.075,
+      "moments": [
+        {
+          "time": 3014.505,
+          "title": "电阻材料概览"
+        },
+        {
+          "time": 3060.625,
+          "title": "Velostat薄膜"
+        },
+        {
+          "time": 3126.935,
+          "title": "材料功能化探索"
+        },
+        {
+          "time": 3196.605,
+          "title": "按压与LED亮度预测"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-resistive-materials.json",
+      "sha256": "0bdaf2c8b2795656273805c75ac03bce8774a711275f74a02cf4edbb783cc29d"
+    },
+    {
+      "id": "topic-sensor-construction",
+      "title": "压力、弯曲、拉伸与电位器的结构",
+      "start": 3293.075,
+      "end": 3773.665,
+      "moments": [
+        {
+          "time": 3311.785,
+          "title": "压力传感器与矩阵"
+        },
+        {
+          "time": 3470.465,
+          "title": "弯曲传感器"
+        },
+        {
+          "time": 3583.795,
+          "title": "针织拉伸传感器"
+        },
+        {
+          "time": 3630.835,
+          "title": "电位器与制作资源"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-sensor-construction.json",
+      "sha256": "993c7bdd96100da370c42aea48a33c230ccc666635af68b6ea78c1098b0dcddb"
+    },
+    {
+      "id": "topic-design-context",
+      "title": "使用情境、灵敏度、尺度与作品参考",
+      "start": 3773.665,
+      "end": 4119.565,
+      "moments": [
+        {
+          "time": 3788.935,
+          "title": "项目情境"
+        },
+        {
+          "time": 3847.415,
+          "title": "灵敏度与电极面积"
+        },
+        {
+          "time": 3959.435,
+          "title": "尺度"
+        },
+        {
+          "time": 3995.665,
+          "title": "声音界面与样本交流"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-design-context.json",
+      "sha256": "619d2df0013f19e24369d7713b7e965648bc4d0a5f07e7770820ad303c131ddf"
+    },
+    {
+      "id": "topic-trace-measurement",
+      "title": "答疑：按实际长度测量导电线",
+      "start": 4119.565,
+      "end": 4315.805,
+      "moments": [
+        {
+          "time": 4168.515,
+          "title": "如何测量一段导电线"
+        },
+        {
+          "time": 4219.815,
+          "title": "万用表接到线材两端"
+        },
+        {
+          "time": 4247.455,
+          "title": "阻值与项目情境"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-trace-measurement.json",
+      "sha256": "1001df7584781eb3020ed831f9fe18327abf4fd44e6cee946a3c03a59c1218e4"
+    },
+    {
+      "id": "topic-connections",
+      "title": "硬软连接：缝合、焊接、压接与可拆卸接口",
+      "start": 4315.805,
+      "end": 4708.495,
+      "moments": [
+        {
+          "time": 4402.095,
+          "title": "永久连接"
+        },
+        {
+          "time": 4494.985,
+          "title": "表面贴装元件"
+        },
+        {
+          "time": 4591.645,
+          "title": "线材与压接珠"
+        },
+        {
+          "time": 4636.625,
+          "title": "临时和可拆卸连接"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-connections.json",
+      "sha256": "f3b48897fe43f296512678391602ef0534fcd90c23a8e9eb22758dc7be9a59a7"
+    },
+    {
+      "id": "topic-insulation-continuity",
+      "title": "交叉走线绝缘、线结固定与通断排查",
+      "start": 4708.495,
+      "end": 4996.915,
+      "moments": [
+        {
+          "time": 4708.495,
+          "title": "交叉线路的绝缘"
+        },
+        {
+          "time": 4802.165,
+          "title": "牢固连接与通断档"
+        },
+        {
+          "time": 4893.145,
+          "title": "水消笔和万用表标志答疑"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-insulation-continuity.json",
+      "sha256": "dbefc3cda4e0567f6b8f48f2563a445fa6e29de94e90c00fea3764d3494cff9a"
+    },
+    {
+      "id": "topic-boards-pins",
+      "title": "微控制器、Arduino 与引脚图",
+      "start": 4996.915,
+      "end": 5505.175,
+      "moments": [
+        {
+          "time": 5101.425,
+          "title": "输入—处理—输出与微控制器"
+        },
+        {
+          "time": 5177.575,
+          "title": "Arduino与可穿戴板卡"
+        },
+        {
+          "time": 5288.115,
+          "title": "引脚类型"
+        },
+        {
+          "time": 5400.715,
+          "title": "引脚图与XIAO扩展板"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-boards-pins.json",
+      "sha256": "bd2e28463c866f6534dc41476ca2ac96cfc266eff52272a6a5211c4efec90928"
+    },
+    {
+      "id": "topic-ide-program-flow",
+      "title": "连接电脑、Arduino IDE 与程序执行",
+      "start": 5505.175,
+      "end": 5946.735,
+      "moments": [
+        {
+          "time": 5509.845,
+          "title": "数据线与基础工具"
+        },
+        {
+          "time": 5628.455,
+          "title": "IDE界面"
+        },
+        {
+          "time": 5708.765,
+          "title": "程序流程"
+        },
+        {
+          "time": 5797.315,
+          "title": "函数与Blink"
+        },
+        {
+          "time": 5927.945,
+          "title": "选择板卡和端口"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-ide-program-flow.json",
+      "sha256": "be1fda3a663d76c9228f516423cb5b6c275ecd927e36106471d4b80ff9a8716f"
+    },
+    {
+      "id": "topic-pullup-buttons",
+      "title": "读取按钮：下拉、内部上拉与逻辑反转",
+      "start": 5946.735,
+      "end": 6110.395,
+      "moments": [
+        {
+          "time": 5963.095,
+          "title": "外部下拉与悬空"
+        },
+        {
+          "time": 6042.005,
+          "title": "内部上拉"
+        },
+        {
+          "time": 6086.695,
+          "title": "INPUT_PULLUP与条件判断"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-pullup-buttons.json",
+      "sha256": "b6536f2fac5c2043df4588c010b5628c4bed90c5ab4a03f799df5e6b0fe640f9"
+    },
+    {
+      "id": "topic-analog-data",
+      "title": "分压、串口与传感数据处理",
+      "start": 6110.395,
+      "end": 6465.665,
+      "moments": [
+        {
+          "time": 6125.955,
+          "title": "用分压读取电阻传感器"
+        },
+        {
+          "time": 6250.735,
+          "title": "串口观察数值"
+        },
+        {
+          "time": 6360.765,
+          "title": "映射、限幅与平滑"
+        },
+        {
+          "time": 6455.815,
+          "title": "调试检查表"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-analog-data.json",
+      "sha256": "a78bf09c8fbc301c847b8a475497ee8c61467c25989e009fb4d3a7792c60da5c"
+    },
+    {
+      "id": "topic-assignment",
+      "title": "作业要求、从小样起步与课程收尾",
+      "start": 6465.665,
+      "end": 6707.92,
+      "moments": [
+        {
+          "time": 6470.725,
+          "title": "制作、读取与输出控制"
+        },
+        {
+          "time": 6491.565,
+          "title": "集成到织物小样"
+        },
+        {
+          "time": 6623.415,
+          "title": "从小规模实验开始"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/1127247169/topic-assignment.json",
+      "sha256": "5349f47e71e5e522229bde8e84c86e740cf461bed2143b3ed125d6200fee3f3e"
+    }
+  ]
+}

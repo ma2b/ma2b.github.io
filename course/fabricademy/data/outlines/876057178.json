@@ -1,0 +1,482 @@
+{
+  "id": "876057178",
+  "slug": "13-electronics-soft-sensors-2023",
+  "title": "电子学与软传感器：万用表、电路与制作实操",
+  "description": "从万用表测量、电路与LED限流，到按钮、Velostat压力传感器和分压读出，按连续操作学习电子纺织基础。",
+  "binding_source": "course",
+  "duration": 10546.28,
+  "page_url": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/notes.html",
+  "bilibili": null,
+  "chapters": [
+    {
+      "id": "topic-learning-route",
+      "title": "教程目标：先搭电路，再接微控制器",
+      "start": 0.0,
+      "end": 599.95,
+      "moments": [
+        {
+          "time": 151.24,
+          "title": "教程内容与实操目标"
+        },
+        {
+          "time": 282.03,
+          "title": "互动系统的共同元素"
+        },
+        {
+          "time": 496.23,
+          "title": "微控制器的作用"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-learning-route.json",
+      "sha256": "228ced4993cb1dc75bb60c39761738bb5ba3647a63428e2d7ce6aa7fcdd55196"
+    },
+    {
+      "id": "topic-charge-current",
+      "title": "从电荷到电流：单位与数量级",
+      "start": 599.95,
+      "end": 1511.77,
+      "moments": [
+        {
+          "time": 719.95,
+          "title": "电能与物质模型"
+        },
+        {
+          "time": 1150.07,
+          "title": "电流定义"
+        },
+        {
+          "time": 1259.84,
+          "title": "小型LED的电流"
+        },
+        {
+          "time": 1408.6,
+          "title": "毫安换算"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-charge-current.json",
+      "sha256": "cd7f334bbda86f67b4b1397a9e87751d44e7df3ac991bf58ff1259c0301336bd"
+    },
+    {
+      "id": "topic-power-voltage",
+      "title": "电源、VCC、GND 与电路符号",
+      "start": 1511.77,
+      "end": 2000.92,
+      "moments": [
+        {
+          "time": 1548.25,
+          "title": "电源推动电荷流动"
+        },
+        {
+          "time": 1667.01,
+          "title": "两端与节点命名"
+        },
+        {
+          "time": 1771.19,
+          "title": "电池额定值"
+        },
+        {
+          "time": 1912.06,
+          "title": "用符号表达电源"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-power-voltage.json",
+      "sha256": "bb82c29c6d191d29060dbcdb8f95df5db4dc9b308e104b65c7f7b43485681301"
+    },
+    {
+      "id": "topic-voltage-meter",
+      "title": "万用表实操：插孔、档位、量程与极性",
+      "start": 2000.92,
+      "end": 2563.37,
+      "moments": [
+        {
+          "time": 2061.34,
+          "title": "表笔与仪表结构"
+        },
+        {
+          "time": 2159.59,
+          "title": "COM及电压插孔"
+        },
+        {
+          "time": 2221.66,
+          "title": "选择电压量程"
+        },
+        {
+          "time": 2361.48,
+          "title": "超量程"
+        },
+        {
+          "time": 2473.87,
+          "title": "正负读数与表笔方向"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-voltage-meter.json",
+      "sha256": "d65e29beb6c5cd434ad12c6e9ccac0b4f3bab215dc2d772c0876afe0d2e0c013"
+    },
+    {
+      "id": "topic-supply-polarity",
+      "title": "USB 与适配器低压输出的极性确认",
+      "start": 2563.37,
+      "end": 2899.38,
+      "moments": [
+        {
+          "time": 2596.86,
+          "title": "USB作为供电来源"
+        },
+        {
+          "time": 2694.28,
+          "title": "颜色不能代替测量"
+        },
+        {
+          "time": 2840.7,
+          "title": "适配器低压输出的两根线"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-supply-polarity.json",
+      "sha256": "6d83952c2ea00ef4c2c2f21c0bec73686de018ffd15aec0cceaaae1a24c901e9"
+    },
+    {
+      "id": "topic-closed-circuit",
+      "title": "闭合电路、负载与电池保护",
+      "start": 2899.38,
+      "end": 3268.59,
+      "moments": [
+        {
+          "time": 2916.76,
+          "title": "闭合电路和短路"
+        },
+        {
+          "time": 3043.32,
+          "title": "加入负载"
+        },
+        {
+          "time": 3125.33,
+          "title": "便携电源与保护"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-closed-circuit.json",
+      "sha256": "b0cfbc70ab584cb0a08c4910b292fd1ed7e86e137be3b57b1ab7c94e579f32c1"
+    },
+    {
+      "id": "topic-continuity-materials",
+      "title": "通断测试：逐个检验导电材料与连接",
+      "start": 3268.59,
+      "end": 3685.16,
+      "moments": [
+        {
+          "time": 3337.28,
+          "title": "切换到通断档"
+        },
+        {
+          "time": 3431.89,
+          "title": "不同材料测试"
+        },
+        {
+          "time": 3638.68,
+          "title": "分段定位断路"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-continuity-materials.json",
+      "sha256": "08e801debdc98c2c8cc3d8425ba91710268af6f353fb04b570f9782b09665635"
+    },
+    {
+      "id": "topic-resistor-measurement",
+      "title": "电阻元件、封装、欧姆单位与测量",
+      "start": 3685.16,
+      "end": 4210.4,
+      "moments": [
+        {
+          "time": 3714.89,
+          "title": "电阻与封装"
+        },
+        {
+          "time": 3867.14,
+          "title": "符号和单位"
+        },
+        {
+          "time": 3964.68,
+          "title": "万用表电阻测量"
+        },
+        {
+          "time": 4162.17,
+          "title": "色环与读数"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-resistor-measurement.json",
+      "sha256": "4b6b3b3ab093b29f5bcc27f7d5dec7ff30a1e8311d94d0ddff9e7ac8af4ff812"
+    },
+    {
+      "id": "topic-ohms-law",
+      "title": "欧姆定律：把电压、电流与电阻联系起来",
+      "start": 4210.4,
+      "end": 4588.11,
+      "moments": [
+        {
+          "time": 4210.4,
+          "title": "完整电路图"
+        },
+        {
+          "time": 4302.84,
+          "title": "V、I、R的关系"
+        },
+        {
+          "time": 4422.56,
+          "title": "斜坡与障碍类比"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-ohms-law.json",
+      "sha256": "b375c37e4a803b0b97234e2fe11f4f0bce5b660b96bcfffab6cd23a0e766005f"
+    },
+    {
+      "id": "topic-led-circuit",
+      "title": "LED 极性、额定值与限流计算",
+      "start": 4588.11,
+      "end": 5312.25,
+      "moments": [
+        {
+          "time": 4653.43,
+          "title": "LED类型与极性"
+        },
+        {
+          "time": 4834.21,
+          "title": "正向电压和电流"
+        },
+        {
+          "time": 5011.3,
+          "title": "限流计算"
+        },
+        {
+          "time": 5184.21,
+          "title": "电池与LED示范"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-led-circuit.json",
+      "sha256": "efd5f7dd32e079a11c11c5cb0b46e78208a98b9f31470819fce2e5873fdcde5b"
+    },
+    {
+      "id": "topic-soft-circuit-intro",
+      "title": "把已验证电路转换为织物小样",
+      "start": 5312.25,
+      "end": 5646.19,
+      "moments": [
+        {
+          "time": 5320.65,
+          "title": "鳄鱼夹原型"
+        },
+        {
+          "time": 5392.6,
+          "title": "导电布与导电线"
+        },
+        {
+          "time": 5496.09,
+          "title": "先从简单小样开始"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-soft-circuit-intro.json",
+      "sha256": "97ddc39c6d99e2caff90124ab93b671d609254721c8ee2c90f050297d39d266a"
+    },
+    {
+      "id": "topic-thread-comparison",
+      "title": "答疑实测：导电线长度、股数和阻值",
+      "start": 5646.19,
+      "end": 6236.52,
+      "moments": [
+        {
+          "time": 5677.97,
+          "title": "两股与三股线"
+        },
+        {
+          "time": 5788.27,
+          "title": "读取供应商规格"
+        },
+        {
+          "time": 5883.14,
+          "title": "等长样本测量"
+        },
+        {
+          "time": 6138.34,
+          "title": "比较不同固定方式"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-thread-comparison.json",
+      "sha256": "39834d876dcb0f0c21072d4e78c7cd1bfa01a1df295952225f2c389ade81d510"
+    },
+    {
+      "id": "topic-sewn-components",
+      "title": "答疑：把电阻与 LED 固定到织物上",
+      "start": 6236.52,
+      "end": 6475.95,
+      "moments": [
+        {
+          "time": 6241.24,
+          "title": "织物电路能否加入电阻"
+        },
+        {
+          "time": 6334.14,
+          "title": "引脚绕环"
+        },
+        {
+          "time": 6405.64,
+          "title": "缝合及胶固定示例"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-sewn-components.json",
+      "sha256": "c930e7a96dd8cd1a5d03de3cdac5bfe5db5bf54e360ad8eb73b90bb8ac3eef48"
+    },
+    {
+      "id": "topic-digital-analog",
+      "title": "传感器怎样产生交互：数字与模拟信号",
+      "start": 6475.95,
+      "end": 6837.66,
+      "moments": [
+        {
+          "time": 6502.42,
+          "title": "引入交互输入"
+        },
+        {
+          "time": 6613.9,
+          "title": "数字与模拟"
+        },
+        {
+          "time": 6750.93,
+          "title": "三伏系统中的模拟范围"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-digital-analog.json",
+      "sha256": "6e06e770c9164f58dc5d76571592907cfc64c12a2ace05f6085f7295704c45e1"
+    },
+    {
+      "id": "topic-make-button",
+      "title": "制作织物按钮原型：隔层、导电面与通断测试",
+      "start": 6837.66,
+      "end": 7760.04,
+      "moments": [
+        {
+          "time": 6837.66,
+          "title": "数字开关原理"
+        },
+        {
+          "time": 7051.4,
+          "title": "按钮分层结构"
+        },
+        {
+          "time": 7171.16,
+          "title": "裁剪、端子和组装"
+        },
+        {
+          "time": 7614.3,
+          "title": "通断测试"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-make-button.json",
+      "sha256": "582f1aed1a2abdb107369927c198a55624f428d00f182c4b1e22273207200b54"
+    },
+    {
+      "id": "topic-button-readout",
+      "title": "按钮接 LED，再用上拉电路读电压",
+      "start": 7760.04,
+      "end": 8417.41,
+      "moments": [
+        {
+          "time": 7761.23,
+          "title": "按钮控制LED"
+        },
+        {
+          "time": 7886.63,
+          "title": "检查电池电压"
+        },
+        {
+          "time": 7983.46,
+          "title": "切换为微控制器输入思路"
+        },
+        {
+          "time": 8226.15,
+          "title": "测量上拉节点"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-button-readout.json",
+      "sha256": "2350de8b8a899d16b3aaaaba823b3e4a99850169e91419ab232e37b8872c29d7"
+    },
+    {
+      "id": "topic-make-pressure",
+      "title": "制作 Velostat 压力传感器并测量响应",
+      "start": 8417.41,
+      "end": 9475.64,
+      "moments": [
+        {
+          "time": 8461.67,
+          "title": "模拟输入与可变电阻"
+        },
+        {
+          "time": 8601.13,
+          "title": "Velostat材料测试"
+        },
+        {
+          "time": 8810.35,
+          "title": "选择结构与组装"
+        },
+        {
+          "time": 9133.59,
+          "title": "阻值测试"
+        },
+        {
+          "time": 9287.0,
+          "title": "LED响应及不亮的原因"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-make-pressure.json",
+      "sha256": "38083f62f1c669f1fe8849068a3805bcf32526bb9e7748bb4e32034da84aacb9"
+    },
+    {
+      "id": "topic-voltage-divider",
+      "title": "分压实操：把压力变化转换成电压",
+      "start": 9475.64,
+      "end": 9807.39,
+      "moments": [
+        {
+          "time": 9524.56,
+          "title": "分压原理"
+        },
+        {
+          "time": 9602.33,
+          "title": "替换元件搭电路"
+        },
+        {
+          "time": 9721.26,
+          "title": "对地测量"
+        },
+        {
+          "time": 9763.88,
+          "title": "按压与释放结果"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-voltage-divider.json",
+      "sha256": "f35c00e9e85614762914e99852b53a2fc550db6b103cb9e3f09e552266f4786e"
+    },
+    {
+      "id": "topic-final-questions",
+      "title": "总结与答疑：柔性基材、金属固定件及组合传感器",
+      "start": 9807.39,
+      "end": 10546.28,
+      "moments": [
+        {
+          "time": 9854.69,
+          "title": "逐步实践与资源"
+        },
+        {
+          "time": 10071.65,
+          "title": "透明塑料基材"
+        },
+        {
+          "time": 10161.85,
+          "title": "金属固定件"
+        },
+        {
+          "time": 10247.96,
+          "title": "组合数字与模拟传感器"
+        }
+      ],
+      "url": "https://ma2b.github.io/course/fabricademy/data/chapters/876057178/topic-final-questions.json",
+      "sha256": "23f7881ac9b2b010d23c223aa3aa4c491582dad98f565376304dbc4c7805ed19"
+    }
+  ]
+}

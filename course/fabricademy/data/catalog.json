@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "revision": "9e6bcae3c02b68bf3c542a8f3c211e4b81766e08fc2a7660a3986024b6b3a573",
+  "revision": "c120d4e4e8a46011025b3c9f2ec0ee20925d0eaf7cd5547f75f4b579ee934cd1",
   "courses": [
     {
       "id": "1227439130",
@@ -181,6 +181,32 @@
       "sha256": "b54f5be6b5875e415c15691cbc8d20e76f2b12f51894f4c68ff7153c7a0681f2",
       "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/871099356.json",
       "outline_sha256": "d051b231cb3d0eb7d7b366eaf77369456ebe8312761c435bb7fb7c2a2561d3d9"
+    },
+    {
+      "id": "1127247169",
+      "title": "电子纺织：材料、软传感器与交互编程",
+      "duration": 6707.92,
+      "page_url": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/notes.html",
+      "bilibili": {
+        "bvid": "BV1G6pz6ZE1z",
+        "p": 1,
+        "offset_seconds": 0
+      },
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/1127247169.json",
+      "sha256": "4200cdac8c6141b98d45b7d1cdaee8560f06ad5db68009ff51fdfb0a1a2c0cf6",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/1127247169.json",
+      "outline_sha256": "ba2adea392b6c4ac06ae62a12551eccbba35931f9bdff9df53e115ff23e72371"
+    },
+    {
+      "id": "876057178",
+      "title": "电子学与软传感器：万用表、电路与制作实操",
+      "duration": 10546.28,
+      "page_url": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/notes.html",
+      "bilibili": null,
+      "url": "https://ma2b.github.io/course/fabricademy/data/courses/876057178.json",
+      "sha256": "386fcad738eaa3b3c36774450f708bb0b3ecd331b7b18cd519e65511d859e4e2",
+      "outline_url": "https://ma2b.github.io/course/fabricademy/data/outlines/876057178.json",
+      "outline_sha256": "d8107aac1a98b70f1e59d5e9040a396e41a45f8eaabf28f5b24d281b03800dd3"
     }
   ]
 }

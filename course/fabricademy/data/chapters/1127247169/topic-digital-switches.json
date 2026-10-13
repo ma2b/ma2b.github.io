@@ -1,0 +1,57 @@
+{
+  "id": "topic-digital-switches",
+  "title": "数字输入：按钮、按扣、拉链、抚触与倾斜开关",
+  "summary": "从开关的通断原理出发，展示多个利用导电材料接触形成的织物开关。",
+  "key_points": [
+    "本课数字开关对应通断两个状态。",
+    "按钮用带孔绝缘隔层分开两片导电面，按压时接触。",
+    "拉链与珠子等结构必须确认接触部件本身导电。"
+  ],
+  "terms": [
+    {
+      "term": "Momentary switch",
+      "definition": "只有持续按压或触发时才保持状态的瞬时开关。"
+    },
+    {
+      "term": "Toggle switch",
+      "definition": "可以保持在开或关状态的开关。"
+    }
+  ],
+  "actions": [
+    "用剖面图标出导电层、隔层和端子。",
+    "检查松开时断开、触发时导通，避免边缘常闭。"
+  ],
+  "start": 2351.245,
+  "end": 2682.665,
+  "references": [],
+  "moments": [
+    {
+      "time": 2372.715,
+      "title": "数字与模拟输入"
+    },
+    {
+      "time": 2421.745,
+      "title": "开关与按钮"
+    },
+    {
+      "time": 2507.855,
+      "title": "按扣与拉链"
+    },
+    {
+      "time": 2576.625,
+      "title": "抚触与倾斜开关"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2490.0,
+      "caption": "织物按钮的分层结构",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/digital-switches-1.jpg"
+    },
+    {
+      "time": 2635.0,
+      "caption": "导电珠形成的倾斜开关",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/digital-switches-2.jpg"
+    }
+  ]
+}

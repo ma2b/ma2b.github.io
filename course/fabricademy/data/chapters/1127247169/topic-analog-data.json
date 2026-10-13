@@ -1,0 +1,62 @@
+{
+  "id": "topic-analog-data",
+  "title": "分压、串口与传感数据处理",
+  "summary": "通过分压把电阻变化转成电压，用串口观察数值，再介绍映射、限制范围、平滑和调试。",
+  "key_points": [
+    "ADC读取电压；分压节点对GND测量，传感器上下位置决定变化方向。",
+    "固定电阻需要匹配传感器量程，10 kΩ只是示例。",
+    "map改变范围，constrain限制范围，平均平滑降低跳动但引入响应延迟。"
+  ],
+  "terms": [
+    {
+      "term": "Voltage divider",
+      "definition": "两个串联电阻形成的分压电路，中点电压取决于阻值比。"
+    },
+    {
+      "term": "Serial monitor",
+      "definition": "用于观察微控制器串口输出的工具。"
+    }
+  ],
+  "actions": [
+    "先用串口记录松开和触发范围，再映射到输出。",
+    "逐项检查硬件连接、程序参数和实际响应。"
+  ],
+  "start": 6110.395,
+  "end": 6465.665,
+  "references": [
+    {
+      "title": "SparkFun：分压电路与公式",
+      "url": "https://learn.sparkfun.com/tutorials/voltage-dividers/ideal-voltage-divider"
+    }
+  ],
+  "moments": [
+    {
+      "time": 6125.955,
+      "title": "用分压读取电阻传感器"
+    },
+    {
+      "time": 6250.735,
+      "title": "串口观察数值"
+    },
+    {
+      "time": 6360.765,
+      "title": "映射、限幅与平滑"
+    },
+    {
+      "time": 6455.815,
+      "title": "调试检查表"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6184.0,
+      "caption": "分压原理与固定电阻",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/analog-data-1.jpg"
+    },
+    {
+      "time": 6396.0,
+      "caption": "传感数值的限幅处理",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/analog-data-2.jpg"
+    }
+  ]
+}

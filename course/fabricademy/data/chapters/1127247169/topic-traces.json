@@ -1,0 +1,53 @@
+{
+  "id": "topic-traces",
+  "title": "制作柔性走线：热熔粘合、缝纫与刺绣",
+  "summary": "说明走线是电流的实体路径，并比较导电布贴合、曲线布线、机缝与手绣。",
+  "key_points": [
+    "低阻、牢固、可弯曲的走线需要电气与机械性能同时合格。",
+    "过高熨烫温度可能破坏材料导电性能，温度应由材料规格和样片测试决定。",
+    "导电线磨损与散丝会改变连接质量并增加短路机会。"
+  ],
+  "terms": [
+    {
+      "term": "Trace",
+      "definition": "电路中连接元件的导电路径。"
+    },
+    {
+      "term": "Heat-bonding",
+      "definition": "通过热熔粘合层把导电布固定到基材。"
+    }
+  ],
+  "actions": [
+    "为同一走线尝试两种固定方式并比较阻值。",
+    "反复弯折后复测，检查散丝和相邻线路间距。"
+  ],
+  "start": 1910.245,
+  "end": 2180.495,
+  "references": [],
+  "moments": [
+    {
+      "time": 1912.375,
+      "title": "什么是走线"
+    },
+    {
+      "time": 1967.885,
+      "title": "导电布与热熔粘合"
+    },
+    {
+      "time": 2072.435,
+      "title": "机缝、手缝和链式针迹"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2061.0,
+      "caption": "可变形的曲线走线",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/traces-1.jpg"
+    },
+    {
+      "time": 2104.0,
+      "caption": "不同导电线缝合方式",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/traces-2.jpg"
+    }
+  ]
+}

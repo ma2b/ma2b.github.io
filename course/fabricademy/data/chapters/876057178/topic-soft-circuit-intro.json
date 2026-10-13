@@ -1,0 +1,44 @@
+{
+  "id": "topic-soft-circuit-intro",
+  "title": "把已验证电路转换为织物小样",
+  "summary": "从鳄鱼夹原型转到导电布和导电线，讨论元件连接并引出输入装置。",
+  "key_points": [
+    "先确定电气连接，再替换为柔性材料。",
+    "制作技术需要跟元件形式及连接方式匹配。",
+    "录制中提到休息，但随后直接进入答疑；不人为添加休息或删去内容。"
+  ],
+  "terms": [
+    {
+      "term": "Soft circuit",
+      "definition": "以柔性导电材料实现的电路。"
+    }
+  ],
+  "actions": [
+    "把同一个LED电路分别画成原理图与织物布局。",
+    "标出所有需要焊接、缝合或绝缘的连接点。"
+  ],
+  "start": 5312.25,
+  "end": 5646.19,
+  "references": [],
+  "moments": [
+    {
+      "time": 5320.65,
+      "title": "鳄鱼夹原型"
+    },
+    {
+      "time": 5392.6,
+      "title": "导电布与导电线"
+    },
+    {
+      "time": 5496.09,
+      "title": "先从简单小样开始"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5410.0,
+      "caption": "以导电材料实现电路走线",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/soft-circuit-intro-1.jpg"
+    }
+  ]
+}

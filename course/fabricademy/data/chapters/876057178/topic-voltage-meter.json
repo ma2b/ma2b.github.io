@@ -1,0 +1,56 @@
+{
+  "id": "topic-voltage-meter",
+  "title": "万用表实操：插孔、档位、量程与极性",
+  "summary": "完整演示把黑表笔接COM、红表笔接电压测量孔，选择量程测电池，解释超量程和负读数。",
+  "key_points": [
+    "表笔插孔与旋钮档位都必须正确；测电压不能把表笔误插电流孔后跨接电源。",
+    "OL等标志需结合档位判断，本例是测量值超出所选范围。",
+    "负读数表示相对测量方向，与电池是否损坏不是同一问题。"
+  ],
+  "terms": [
+    {
+      "term": "COM",
+      "definition": "万用表公共参考端，通常接黑表笔。"
+    },
+    {
+      "term": "OL",
+      "definition": "常用于表示超量程或开路，含义取决于测量模式。"
+    }
+  ],
+  "actions": [
+    "先断开待测对象，检查表笔插孔与电压档。",
+    "选择覆盖预期电压的量程，测量后记录单位与极性。"
+  ],
+  "start": 2000.92,
+  "end": 2563.37,
+  "references": [],
+  "moments": [
+    {
+      "time": 2061.34,
+      "title": "表笔与仪表结构"
+    },
+    {
+      "time": 2159.59,
+      "title": "COM及电压插孔"
+    },
+    {
+      "time": 2221.66,
+      "title": "选择电压量程"
+    },
+    {
+      "time": 2361.48,
+      "title": "超量程"
+    },
+    {
+      "time": 2473.87,
+      "title": "正负读数与表笔方向"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2206.0,
+      "caption": "万用表插孔与测量说明；右上角为操作画面",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/voltage-meter-1.jpg"
+    }
+  ]
+}

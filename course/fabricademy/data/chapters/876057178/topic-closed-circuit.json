@@ -1,0 +1,48 @@
+{
+  "id": "topic-closed-circuit",
+  "title": "闭合电路、负载与电池保护",
+  "summary": "解释为什么不能把电池两端直接相连，再加入负载组成电路，并简述便携电源及锂电保护。",
+  "key_points": [
+    "短接电源会产生大电流和热，负载需要符合额定条件。",
+    "纠错：常见单节锂聚合物电池标称约3.7 V，原字幕2.7 V不可作为选型依据。",
+    "锂电池充放电必须使用匹配的充电与保护方案。"
+  ],
+  "terms": [
+    {
+      "term": "Load",
+      "definition": "消耗或转换电能的负载。"
+    },
+    {
+      "term": "Protection circuit",
+      "definition": "用于限制过充、过放等异常状态的保护电路。"
+    }
+  ],
+  "actions": [
+    "画出电源—负载—回流的完整路径。",
+    "核对电池、保护板和充电器型号是否匹配。"
+  ],
+  "start": 2899.38,
+  "end": 3268.59,
+  "references": [],
+  "moments": [
+    {
+      "time": 2916.76,
+      "title": "闭合电路和短路"
+    },
+    {
+      "time": 3043.32,
+      "title": "加入负载"
+    },
+    {
+      "time": 3125.33,
+      "title": "便携电源与保护"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3096.0,
+      "caption": "电源、走线和负载组成闭合电路",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/closed-circuit-1.jpg"
+    }
+  ]
+}

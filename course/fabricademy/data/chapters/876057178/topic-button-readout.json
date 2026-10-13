@@ -1,0 +1,53 @@
+{
+  "id": "topic-button-readout",
+  "title": "按钮接 LED，再用上拉电路读电压",
+  "summary": "把按钮接入电池与LED演示通断，再用固定电阻和开关构成上拉电路，测量中点电压。",
+  "key_points": [
+    "点亮LED的串联开关电路与Arduino输入电路不是同一接法。",
+    "本例上拉使松开时节点接近电源电压、按下时接近GND。",
+    "万用表测量节点相对GND的电压；微控制器随后读取同一信息。"
+  ],
+  "terms": [
+    {
+      "term": "Pull-up resistor",
+      "definition": "将输入节点在开关断开时拉向电源的电阻。"
+    }
+  ],
+  "actions": [
+    "分别画出LED开关电路和上拉输入电路。",
+    "记录按下、松开的节点电压和预期逻辑状态。"
+  ],
+  "start": 7760.04,
+  "end": 8417.41,
+  "references": [
+    {
+      "title": "Arduino：上拉与下拉输入",
+      "url": "https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/"
+    }
+  ],
+  "moments": [
+    {
+      "time": 7761.23,
+      "title": "按钮控制LED"
+    },
+    {
+      "time": 7886.63,
+      "title": "检查电池电压"
+    },
+    {
+      "time": 7983.46,
+      "title": "切换为微控制器输入思路"
+    },
+    {
+      "time": 8226.15,
+      "title": "测量上拉节点"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8274.0,
+      "caption": "上拉电路示意与节点电压测量",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/button-readout-2.jpg"
+    }
+  ]
+}

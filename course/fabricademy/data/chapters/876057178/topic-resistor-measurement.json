@@ -1,0 +1,57 @@
+{
+  "id": "topic-resistor-measurement",
+  "title": "电阻元件、封装、欧姆单位与测量",
+  "summary": "比较通孔与表贴电阻，认识符号、Ω和kΩ，再演示量程选择及色环读数。",
+  "key_points": [
+    "1 kΩ = 1000 Ω，4.7 kΩ = 4700 Ω。",
+    "封装不同不代表电阻工作原理不同。",
+    "电阻表读数应结合显示单位与量程，不能把kΩ当Ω。"
+  ],
+  "terms": [
+    {
+      "term": "THT / SMD",
+      "definition": "通孔与表面贴装两类常见器件形式。"
+    },
+    {
+      "term": "kΩ",
+      "definition": "千欧，等于1000欧姆。"
+    }
+  ],
+  "actions": [
+    "断电测量两个不同阻值的电阻。",
+    "用色环或标记与实测结果交叉核对。"
+  ],
+  "start": 3685.16,
+  "end": 4210.4,
+  "references": [],
+  "moments": [
+    {
+      "time": 3714.89,
+      "title": "电阻与封装"
+    },
+    {
+      "time": 3867.14,
+      "title": "符号和单位"
+    },
+    {
+      "time": 3964.68,
+      "title": "万用表电阻测量"
+    },
+    {
+      "time": 4162.17,
+      "title": "色环与读数"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3822.0,
+      "caption": "通孔与表贴器件对比",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/resistor-measurement-1.jpg"
+    },
+    {
+      "time": 4144.0,
+      "caption": "电阻量程与测量说明；实物操作位于右上角",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/resistor-measurement-2.jpg"
+    }
+  ]
+}

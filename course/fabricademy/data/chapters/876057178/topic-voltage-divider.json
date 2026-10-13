@@ -1,0 +1,53 @@
+{
+  "id": "topic-voltage-divider",
+  "title": "分压实操：把压力变化转换成电压",
+  "summary": "用固定电阻替换LED，与压力传感器串联；万用表对地测量中点电压，观察按压引起的变化。",
+  "key_points": [
+    "分压测量的是两电阻中点相对于GND的电压。",
+    "本例传感器位于下侧，按压降低阻值时输出下降；换接位置可能反向。",
+    "固定电阻需按传感器范围选择，输入不得超过板卡允许电压。"
+  ],
+  "terms": [
+    {
+      "term": "Voltage divider",
+      "definition": "Vout = Vin × R下 / (R上 + R下) 的两电阻分压结构。"
+    }
+  ],
+  "actions": [
+    "画出电源、固定电阻、传感器、GND与测量点。",
+    "测量最小最大响应，再规划接入板卡。"
+  ],
+  "start": 9475.64,
+  "end": 9807.39,
+  "references": [
+    {
+      "title": "SparkFun：理想分压公式",
+      "url": "https://learn.sparkfun.com/tutorials/voltage-dividers/ideal-voltage-divider"
+    }
+  ],
+  "moments": [
+    {
+      "time": 9524.56,
+      "title": "分压原理"
+    },
+    {
+      "time": 9602.33,
+      "title": "替换元件搭电路"
+    },
+    {
+      "time": 9721.26,
+      "title": "对地测量"
+    },
+    {
+      "time": 9763.88,
+      "title": "按压与释放结果"
+    }
+  ],
+  "frames": [
+    {
+      "time": 9562.0,
+      "caption": "固定电阻和传感器组成分压电路",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/voltage-divider-1.jpg"
+    }
+  ]
+}

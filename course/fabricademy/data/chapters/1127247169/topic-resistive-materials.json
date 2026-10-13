@@ -1,0 +1,57 @@
+{
+  "id": "topic-resistive-materials",
+  "title": "导电纱、Velostat 与电阻织物",
+  "summary": "介绍用于传感的纱线、碳填充薄膜与电阻织物，并以按压实验说明接触变化。",
+  "key_points": [
+    "Velostat是本课使用的电阻薄膜，名称在原字幕中有多种误识别。",
+    "高阻材料可能需要分压及微控制器读取，不能仅凭LED不亮判断传感器失败。",
+    "课程提到的材料供应情况属于授课时背景，当前供货未逐项核实。"
+  ],
+  "terms": [
+    {
+      "term": "Velostat",
+      "definition": "含碳的电阻性薄膜，常用于压力传感原型。"
+    },
+    {
+      "term": "EeonTex",
+      "definition": "课程提及的电阻纺织材料系列，具体性质依产品而异。"
+    }
+  ],
+  "actions": [
+    "按材料和结构制作小样，记录静态与触发阻值。",
+    "为采购保留正式名称和产品规格，避免按字幕音译搜索。"
+  ],
+  "start": 3014.505,
+  "end": 3293.075,
+  "references": [],
+  "moments": [
+    {
+      "time": 3014.505,
+      "title": "电阻材料概览"
+    },
+    {
+      "time": 3060.625,
+      "title": "Velostat薄膜"
+    },
+    {
+      "time": 3126.935,
+      "title": "材料功能化探索"
+    },
+    {
+      "time": 3196.605,
+      "title": "按压与LED亮度预测"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3077.0,
+      "caption": "电阻薄膜与纺织材料",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/resistive-materials-1.jpg"
+    },
+    {
+      "time": 3268.0,
+      "caption": "按压传感器改变LED亮度的演示",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/resistive-materials-2.jpg"
+    }
+  ]
+}

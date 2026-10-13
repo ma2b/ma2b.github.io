@@ -1,0 +1,57 @@
+{
+  "id": "topic-connections",
+  "title": "硬软连接：缝合、焊接、压接与可拆卸接口",
+  "summary": "比较永久与临时连接，展示引脚绕环、表贴元件、洞洞板、压接珠和按扣等方法。",
+  "key_points": [
+    "先用临时连接确认电路，再固定最终结构。",
+    "机械牢固和电气导通需要分别验证，胶用于固定与绝缘，不能代替电接触。",
+    "可拆卸结构方便移动模块、维护和清洁。"
+  ],
+  "terms": [
+    {
+      "term": "SMD",
+      "definition": "表面贴装器件，体积较小，连接操作要求更精细。"
+    },
+    {
+      "term": "Crimp bead",
+      "definition": "压接珠，可用于固定线材并形成转接点。"
+    }
+  ],
+  "actions": [
+    "为一个元件绘制导电接触与机械固定的细节图。",
+    "用轻拉与弯折测试接口，再复测导通。"
+  ],
+  "start": 4315.805,
+  "end": 4708.495,
+  "references": [],
+  "moments": [
+    {
+      "time": 4402.095,
+      "title": "永久连接"
+    },
+    {
+      "time": 4494.985,
+      "title": "表面贴装元件"
+    },
+    {
+      "time": 4591.645,
+      "title": "线材与压接珠"
+    },
+    {
+      "time": 4636.625,
+      "title": "临时和可拆卸连接"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4451.0,
+      "caption": "引脚绕环后与导电线缝合",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/connections-1.jpg"
+    },
+    {
+      "time": 4668.0,
+      "caption": "可拆卸连接方式",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/connections-2.jpg"
+    }
+  ]
+}

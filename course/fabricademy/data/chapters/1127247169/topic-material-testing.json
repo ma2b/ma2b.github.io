@@ -1,0 +1,44 @@
+{
+  "id": "topic-material-testing",
+  "title": "材料试验、普通缝纫机与耐汗耐洗答疑",
+  "summary": "提醒学习材料的机械和电气行为，并回答普通缝纫机、运动服防护与清洗问题。",
+  "key_points": [
+    "材料不能只按“能否导电”二分，需测试实际使用状态。",
+    "耐汗、防雨与清洗能力取决于材料、绝缘、连接和可拆卸设计。",
+    "视频中的清洗经验不能替代具体材料及电子模块的维护要求。"
+  ],
+  "terms": [
+    {
+      "term": "Insulation",
+      "definition": "用非导电材料隔离电路或相邻导电路径。"
+    }
+  ],
+  "actions": [
+    "列出项目会接触的汗液、水和弯折条件。",
+    "按实际材料规格设计防护与可拆卸部分。"
+  ],
+  "start": 2180.495,
+  "end": 2351.245,
+  "references": [],
+  "moments": [
+    {
+      "time": 2206.245,
+      "title": "以材料试验为基础"
+    },
+    {
+      "time": 2237.025,
+      "title": "普通缝纫机答疑"
+    },
+    {
+      "time": 2263.355,
+      "title": "汗液、防水与清洗"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2287.0,
+      "caption": "答疑时屏幕已停留在输入类型标题页",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/material-testing-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "id": "topic-led-circuit",
+  "title": "LED 极性、额定值与限流计算",
+  "summary": "识别LED长短脚和符号，解释正向电压、电流，并用9 V电源与在线计算器选择限流电阻。",
+  "key_points": [
+    "LED长脚通常为阳极，剪脚后应通过封装和资料确认。",
+    "按R = (电源电压 − LED正向压降) / 目标电流计算，并核对电阻功率。",
+    "课例9 V、2 V、20 mA得到350 Ω；实际选值还需考虑标准阻值和容差。",
+    "纠错：钮扣电池直点LED的演示不构成所有3 V电源都无需限流的规则。"
+  ],
+  "terms": [
+    {
+      "term": "Anode / cathode",
+      "definition": "LED阳极与阴极。"
+    },
+    {
+      "term": "Forward current",
+      "definition": "LED正向工作电流，须按器件规格限制。"
+    }
+  ],
+  "actions": [
+    "用具体LED规格重算限流电阻。",
+    "确认极性后先搭最简单的可验证电路。"
+  ],
+  "start": 4588.11,
+  "end": 5312.25,
+  "references": [
+    {
+      "title": "Adafruit：LED限流电路",
+      "url": "https://learn.adafruit.com/lets-put-leds-in-things/from-scratch"
+    }
+  ],
+  "moments": [
+    {
+      "time": 4653.43,
+      "title": "LED类型与极性"
+    },
+    {
+      "time": 4834.21,
+      "title": "正向电压和电流"
+    },
+    {
+      "time": 5011.3,
+      "title": "限流计算"
+    },
+    {
+      "time": 5184.21,
+      "title": "电池与LED示范"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4763.0,
+      "caption": "LED的阳极与阴极",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/led-circuit-1.jpg"
+    },
+    {
+      "time": 5138.0,
+      "caption": "LED限流电阻计算",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/led-circuit-2.jpg"
+    }
+  ]
+}

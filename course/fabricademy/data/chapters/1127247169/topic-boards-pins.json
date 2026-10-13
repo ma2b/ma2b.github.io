@@ -1,0 +1,57 @@
+{
+  "id": "topic-boards-pins",
+  "title": "微控制器、Arduino 与引脚图",
+  "summary": "建立输入—处理—输出模型，介绍Arduino及可穿戴板卡、数字和模拟引脚、PWM与引脚图。",
+  "key_points": [
+    "Arduino既包括硬件也包括开发工具；不同板卡不能直接沿用同一引脚、电压与电流限制。",
+    "UNO示例的引脚数量与ADC/PWM范围不代表所有板卡。",
+    "原字幕中的jowl、Seed等指向Seeed Studio XIAO系列，具体型号以画面和板卡标识核对。"
+  ],
+  "terms": [
+    {
+      "term": "GPIO",
+      "definition": "通用输入输出引脚。"
+    },
+    {
+      "term": "PWM",
+      "definition": "脉宽调制，用占空比变化控制平均输出效果。"
+    }
+  ],
+  "actions": [
+    "找到自己板卡的官方引脚图并标出GND、电源、模拟输入和PWM。",
+    "确认板卡逻辑电压及输入允许范围。"
+  ],
+  "start": 4996.915,
+  "end": 5505.175,
+  "references": [],
+  "moments": [
+    {
+      "time": 5101.425,
+      "title": "输入—处理—输出与微控制器"
+    },
+    {
+      "time": 5177.575,
+      "title": "Arduino与可穿戴板卡"
+    },
+    {
+      "time": 5288.115,
+      "title": "引脚类型"
+    },
+    {
+      "time": 5400.715,
+      "title": "引脚图与XIAO扩展板"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5350.0,
+      "caption": "Arduino引脚类型",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/boards-pins-1.jpg"
+    },
+    {
+      "time": 5432.0,
+      "caption": "XIAO ESP32-C3引脚图",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/boards-pins-2.jpg"
+    }
+  ]
+}

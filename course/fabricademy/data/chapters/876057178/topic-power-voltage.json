@@ -1,0 +1,52 @@
+{
+  "id": "topic-power-voltage",
+  "title": "电源、VCC、GND 与电路符号",
+  "summary": "解释电池两端、正负极、参考地和电压，演示识别电池标识，再介绍原理图符号。",
+  "key_points": [
+    "电压始终是两点间的量。",
+    "VCC与GND在本教程的简单电路中分别对应正电源和参考地。",
+    "原理图表达电气关系，不要求和元件实际形状一致。"
+  ],
+  "terms": [
+    {
+      "term": "VCC",
+      "definition": "本课用作正电源节点名称。"
+    },
+    {
+      "term": "Schematic",
+      "definition": "用标准符号表达元件及连接关系的电路原理图。"
+    }
+  ],
+  "actions": [
+    "在电池标识上确认正负极与标称电压。",
+    "画出电源符号并标明参考地。"
+  ],
+  "start": 1511.77,
+  "end": 2000.92,
+  "references": [],
+  "moments": [
+    {
+      "time": 1548.25,
+      "title": "电源推动电荷流动"
+    },
+    {
+      "time": 1667.01,
+      "title": "两端与节点命名"
+    },
+    {
+      "time": 1771.19,
+      "title": "电池额定值"
+    },
+    {
+      "time": 1912.06,
+      "title": "用符号表达电源"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1848.0,
+      "caption": "电源、电池电压与原理图符号",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/power-voltage-1.jpg"
+    }
+  ]
+}

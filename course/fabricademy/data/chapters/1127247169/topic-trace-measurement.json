@@ -1,0 +1,44 @@
+{
+  "id": "topic-trace-measurement",
+  "title": "答疑：按实际长度测量导电线",
+  "summary": "通过A到B的走线示意，说明先量长度、再用万用表测量该段线材的阻值。",
+  "key_points": [
+    "材料规格不能代替实际长度和连接后的测量。",
+    "讲师提出2–3 Ω是个人项目经验，不是所有电路的通用合格线。",
+    "空白原字幕1418保留编号与时间；不据此编造问答。"
+  ],
+  "terms": [
+    {
+      "term": "Voltage drop",
+      "definition": "电流经过阻性路径时产生的电压下降。"
+    }
+  ],
+  "actions": [
+    "量出实际布线路径并截取等长样本。",
+    "把测得阻值与负载电流、允许压降一起评估。"
+  ],
+  "start": 4119.565,
+  "end": 4315.805,
+  "references": [],
+  "moments": [
+    {
+      "time": 4168.515,
+      "title": "如何测量一段导电线"
+    },
+    {
+      "time": 4219.815,
+      "title": "万用表接到线材两端"
+    },
+    {
+      "time": 4247.455,
+      "title": "阻值与项目情境"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4235.0,
+      "caption": "提问页上的 A—B 走线示意；讲师说明测量方法",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/trace-measurement-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "topic-sensor-construction",
+  "title": "压力、弯曲、拉伸与电位器的结构",
+  "summary": "比较不同电极和电阻层布局，展示压力矩阵、弯曲、针织拉伸和电位器式界面。",
+  "key_points": [
+    "压力传感器两电极不能绕过电阻层直接接触，否则会退化为开关或短接。",
+    "弯曲、拉伸与压力的响应取决于结构，不宜把某个样品的趋势套给所有材料。",
+    "电位器式结构需要理解接触位置、电阻路径与读出方式。"
+  ],
+  "terms": [
+    {
+      "term": "Pressure sensor",
+      "definition": "把按压动作转化为可测电气变化的结构。"
+    },
+    {
+      "term": "Wiper",
+      "definition": "电位器中沿电阻路径移动的接触端。"
+    }
+  ],
+  "actions": [
+    "先做一种传感器，再改变电极面积比较灵敏度。",
+    "固定电阻层和端子，防止操作时层间错位。"
+  ],
+  "start": 3293.075,
+  "end": 3773.665,
+  "references": [],
+  "moments": [
+    {
+      "time": 3311.785,
+      "title": "压力传感器与矩阵"
+    },
+    {
+      "time": 3470.465,
+      "title": "弯曲传感器"
+    },
+    {
+      "time": 3583.795,
+      "title": "针织拉伸传感器"
+    },
+    {
+      "time": 3630.835,
+      "title": "电位器与制作资源"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3373.0,
+      "caption": "压力传感器的隔层与电极",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/sensor-construction-1.jpg"
+    },
+    {
+      "time": 3658.0,
+      "caption": "直线与环形电位器等软传感器结构示例",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/sensor-construction-2.jpg"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "id": "topic-materials-tools",
+  "title": "导电布、导电线、油墨与工具选择",
+  "summary": "按阻值、可焊性、弹性、触感和制作方式比较材料，介绍手工、缝纫与电子工具。",
+  "key_points": [
+    "导电材料仍有电阻，长距离走线需按实际长度测量。",
+    "铜箔胶带适合部分原型，反复弯折会影响可靠性。",
+    "导电线放底梭是讲师所述实践经验，机器和线材兼容性须先做样片。"
+  ],
+  "terms": [
+    {
+      "term": "Conductive thread",
+      "definition": "可导电的线材，阻值和可焊性因组成而异。"
+    },
+    {
+      "term": "Resistive material",
+      "definition": "具有可用于感测或发热的电阻特性的材料。"
+    }
+  ],
+  "actions": [
+    "建立材料样本卡，记录长度、阻值和连接方法。",
+    "先在边角料上验证焊接、熨烫或缝纫工艺。"
+  ],
+  "start": 1489.595,
+  "end": 1910.245,
+  "references": [],
+  "moments": [
+    {
+      "time": 1503.905,
+      "title": "材料选型的属性"
+    },
+    {
+      "time": 1608.945,
+      "title": "导电线的构成与长度"
+    },
+    {
+      "time": 1738.135,
+      "title": "油墨、胶带和工具"
+    },
+    {
+      "time": 1839.665,
+      "title": "机器与电子工具"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1547.0,
+      "caption": "导电织物的材料选型",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/materials-tools-1.jpg"
+    },
+    {
+      "time": 1828.0,
+      "caption": "电子纺织常用手工工具",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/materials-tools-2.jpg"
+    }
+  ]
+}

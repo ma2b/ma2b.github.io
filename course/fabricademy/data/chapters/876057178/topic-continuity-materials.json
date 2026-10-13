@@ -1,0 +1,44 @@
+{
+  "id": "topic-continuity-materials",
+  "title": "通断测试：逐个检验导电材料与连接",
+  "summary": "用万用表通断档测试跳线、铝箔、布料和导电线，并说明怎样沿电路逐段排查。",
+  "key_points": [
+    "通断蜂鸣是粗略判断，不能代替精确阻值及负载下压降测量。",
+    "同种材料因涂层、接触和长度不同，表现可能不同。",
+    "通断与电阻测试应在断电状态进行。"
+  ],
+  "terms": [
+    {
+      "term": "Continuity mode",
+      "definition": "检查两点之间是否形成低阻路径的测量模式。"
+    }
+  ],
+  "actions": [
+    "准备等长材料样本并标明连接方式。",
+    "先短接表笔验证仪表，再测样本两端。"
+  ],
+  "start": 3268.59,
+  "end": 3685.16,
+  "references": [],
+  "moments": [
+    {
+      "time": 3337.28,
+      "title": "切换到通断档"
+    },
+    {
+      "time": 3431.89,
+      "title": "不同材料测试"
+    },
+    {
+      "time": 3638.68,
+      "title": "分段定位断路"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3507.0,
+      "caption": "导电材料与通断测试说明；右上角为操作画面",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/continuity-materials-1.jpg"
+    }
+  ]
+}

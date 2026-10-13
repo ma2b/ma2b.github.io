@@ -1,0 +1,48 @@
+{
+  "id": "topic-circuit-voltage",
+  "title": "电路、电源与电压：先认识闭合路径",
+  "summary": "以电池、鳄鱼夹和 LED 认识电路，再用电源额定值和水流类比解释电压，并引入万用表。",
+  "key_points": [
+    "电路需要闭合路径、电源及负载。",
+    "纠错：电流是电荷流动的速率，不是电能本身；约定电流方向与金属中电子漂移方向相反。",
+    "电压是两点间电势差，测量时必须说明参考点。"
+  ],
+  "terms": [
+    {
+      "term": "Voltage / V",
+      "definition": "两点间电势差，单位为伏特。"
+    },
+    {
+      "term": "GND",
+      "definition": "电路的参考地；在本课简单电池电路中接负极。"
+    }
+  ],
+  "actions": [
+    "画出电源、负载和回流路径。",
+    "在电源与板卡资料中找出允许工作电压。"
+  ],
+  "start": 490.455,
+  "end": 744.215,
+  "references": [],
+  "moments": [
+    {
+      "time": 503.455,
+      "title": "闭合电路与负载"
+    },
+    {
+      "time": 625.765,
+      "title": "电压、电池和工作条件"
+    },
+    {
+      "time": 701.465,
+      "title": "万用表作为测量工具"
+    }
+  ],
+  "frames": [
+    {
+      "time": 526.0,
+      "caption": "电池、LED 与连接路径示意",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/circuit-voltage-1.jpg"
+    }
+  ]
+}

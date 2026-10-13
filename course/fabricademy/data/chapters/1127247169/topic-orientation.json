@@ -1,0 +1,48 @@
+{
+  "id": "topic-orientation",
+  "title": "电子纺织的起点、案例与开放资源",
+  "summary": "Liza Stark 从声音拼布、互动服装和软界面案例出发，介绍电子纺织的历史与学习路线。课程依次连接电子学、制作和编程，并鼓励从材料实验开始。",
+  "key_points": [
+    "软材料同时承担结构、触感与电气功能。",
+    "案例与文档是理解结构的入口，不能只复制外观。",
+    "原字幕中的 Koba 等识别指向 KOBAKANT；相关资源名称在笔记中规范，原字幕保留。"
+  ],
+  "terms": [
+    {
+      "term": "E-textiles",
+      "definition": "把导电材料、传感器和电子元件融入纺织结构的实践。"
+    },
+    {
+      "term": "KOBAKANT",
+      "definition": "分享电子纺织材料实验和制作教程的开放资源。"
+    }
+  ],
+  "actions": [
+    "记录一个感兴趣的互动方式和所需的输入、输出。",
+    "按电子学、制作、编程三部分整理问题。"
+  ],
+  "start": 0.0,
+  "end": 490.455,
+  "references": [],
+  "moments": [
+    {
+      "time": 184.165,
+      "title": "电子纺织的定义与案例"
+    },
+    {
+      "time": 362.915,
+      "title": "开放文档与材料知识"
+    },
+    {
+      "time": 428.165,
+      "title": "电子学、制作与编程的学习顺序"
+    }
+  ],
+  "frames": [
+    {
+      "time": 252.0,
+      "caption": "电子纺织与软界面案例",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/orientation-1.jpg"
+    }
+  ]
+}

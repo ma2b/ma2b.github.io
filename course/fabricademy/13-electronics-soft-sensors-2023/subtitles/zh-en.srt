@@ -1,0 +1,10169 @@
+1
+00:00:12,080 --> 00:00:16,040
+没有静音了，谢谢。好的。
+Is not muted. Thank you. Okay,
+
+2
+00:00:16,900 --> 00:00:20,280
+大家好，我的
+so hello everyone. My, uh,
+
+3
+00:00:20,470 --> 00:00:22,000
+名字是 Emma Pareschi，
+name Isky,
+
+4
+00:00:22,700 --> 00:00:27,560
+今天给大家讲电子学和传感器教程。
+and I'm here to give a tutorial about electronics and sensors.
+
+5
+00:00:28,980 --> 00:00:31,420
+先简单介绍自己。
+A little bit about myself. Uh,
+
+6
+00:00:31,980 --> 00:00:35,420
+我有技术和电子学背景。
+I do have a technical and electronic background.
+
+7
+00:00:36,340 --> 00:00:41,140
+曾经做电子工程师，后来接触到
+I worked as electronic engineer and then I found
+
+8
+00:00:41,160 --> 00:00:44,620
+阿姆斯特丹的 Fab Lab 和数字制造。
+out about, uh, FabLabs Digital Fabrication in Amsterdam.
+
+9
+00:00:45,600 --> 00:00:47,300
+于是我
+So I, um,
+
+10
+00:00:48,340 --> 00:00:51,300
+参加了 Fab Academy 学习项目，
+I took the Fab Academy as educational program,
+
+11
+00:00:52,200 --> 00:00:56,100
+之后开始在阿姆斯特丹 Fab Lab 工作。
+and then I started to work, uh, in Fab Amsterdam.
+
+12
+00:00:57,160 --> 00:00:58,060
+那么，
+So, um,
+
+13
+00:01:00,190 --> 00:01:03,730
+在 Fabricademy 项目中，
+within Fabric Academy, uh, program,
+
+14
+00:01:04,950 --> 00:01:09,450
+我参与电子纺织相关的
+I'm involved to give tutorials and workshops related
+
+15
+00:01:09,990 --> 00:01:11,130
+教程和工作坊。
+to it textile.
+
+16
+00:01:11,710 --> 00:01:15,250
+凡是涉及电子学、
+So everything that requires electronics,
+
+17
+00:01:16,590 --> 00:01:20,450
+编程和柔性硬件的内容，
+uh, programming and soft hardware.
+
+18
+00:01:21,360 --> 00:01:25,970
+我多少都会参与。所以很高兴来到这里，
+Somehow I'm involved, so I'm happy to be here. Also,
+
+19
+00:01:26,230 --> 00:01:30,530
+参加本届课程，
+uh, this edition of the program and, um,
+
+20
+00:01:32,360 --> 00:01:37,020
+在第一个电子学学习周，也就是电子纺织
+and for this first week of electronics, so it textile,
+
+21
+00:01:37,600 --> 00:01:40,700
+周，给大家做一场教程，
+uh, week, I would like to give editorial
+
+22
+00:01:42,220 --> 00:01:47,130
+涵盖 Liza 在
+covering some of the topics that Liza showed, uh,
+
+23
+00:01:47,950 --> 00:01:50,050
+讲座中展示的一些主题。
+during the, uh, during the lecture,
+
+24
+00:01:51,760 --> 00:01:55,660
+那真是一场精彩的讲座，
+let me say the fantastic lecture that, um,
+
+25
+00:01:56,410 --> 00:01:58,980
+Liza 提供了大量信息。
+Liza gave full of information.
+
+26
+00:02:00,160 --> 00:02:02,940
+所以我希望
+So what I would like, uh, uh,
+
+27
+00:02:03,120 --> 00:02:06,700
+和大家一起学习，
+to do with you is to go, uh, to cover,
+
+28
+00:02:06,920 --> 00:02:11,260
+当然不会涵盖所有内容，
+of course not all the topics, but uh,
+
+29
+00:02:11,590 --> 00:02:14,780
+而是重点关注
+focus on some, uh,
+
+30
+00:02:14,950 --> 00:02:19,430
+电子学的基础，以及
+basic aspect of electronics and tools
+
+31
+00:02:20,700 --> 00:02:21,533
+操作中
+that are
+
+32
+00:02:23,230 --> 00:02:27,350
+需要用到的工具。
+required when you work with electronics. So
+
+33
+00:02:31,240 --> 00:02:34,460
+今天的安排是，
+The program, the agenda of today is to go,
+
+34
+00:02:35,040 --> 00:02:38,420
+真正从电子学基础开始。
+so to really start from the basics of electronics,
+
+35
+00:02:39,130 --> 00:02:40,980
+有哪些
+what are the, uh,
+
+36
+00:02:41,160 --> 00:02:45,430
+电子学的核心概念，
+the main concept related to the
+
+37
+00:02:45,620 --> 00:02:48,630
+以及哪些概念
+electronics and related, uh,
+
+38
+00:02:48,730 --> 00:02:51,630
+与基础电路搭建相关。
+to the construction of a basic circuit.
+
+39
+00:02:52,290 --> 00:02:57,110
+包括电流、电压和电阻的定义，
+So the definitions of current voltage resistance and
+
+40
+00:02:57,450 --> 00:03:01,110
+这些信息，
+how these informations are related,
+
+41
+00:03:01,280 --> 00:03:03,430
+这些量之间如何关联，
+these quantities are related,
+
+42
+00:03:04,010 --> 00:03:07,940
+以及怎样实际地
+and actually how you can practically
+
+43
+00:03:08,260 --> 00:03:13,020
+测量、了解电路中各个元件，
+characterize each element of your circuit using a
+
+44
+00:03:13,180 --> 00:03:17,380
+使用一种叫万用表的专用工具。之后，
+specific tool called multimeter. After this part,
+
+45
+00:03:18,270 --> 00:03:23,060
+我们再看传感器，
+we'll have a look to, um, to the sensors,
+
+46
+00:03:23,960 --> 00:03:27,700
+也就是我所说的输入设备。
+uh, what I also call input devices,
+
+47
+00:03:28,840 --> 00:03:32,900
+会讲两种传感器，
+and we'll look at two kind of sensors,
+
+48
+00:03:32,900 --> 00:03:34,260
+数字式和模拟式，
+digital and analog,
+
+49
+00:03:34,640 --> 00:03:39,140
+以及如何在不使用
+and how you can test them without
+
+50
+00:03:39,510 --> 00:03:44,420
+微控制器、不使用 Arduino 的情况下测试它们，
+using a microcontroller, without using Arduino, and
+
+51
+00:03:46,000 --> 00:03:50,580
+从电学角度看，它们怎样
+how actually they work in terms of electronics
+
+52
+00:03:50,760 --> 00:03:52,340
+在电路中工作。
+within a circuit.
+
+53
+00:03:52,770 --> 00:03:56,740
+因为传感器要真正发挥感知作用，
+Because the sensors to actually be used as sensors,
+
+54
+00:03:57,050 --> 00:04:00,140
+就需要一个电路。所以我想
+they need a circuit. So I would like to go, uh,
+
+55
+00:04:00,140 --> 00:04:05,060
+通过动手活动，讲解这部分内容，并分享
+through this aspect with some hands-on activities and good
+
+56
+00:04:05,380 --> 00:04:10,060
+各个主题的良好实践。如果有问题，
+practice per each topic. If you have questions,
+
+57
+00:04:10,240 --> 00:04:14,770
+可以写在聊天区。
+you can write your questions in the chat items.
+
+58
+00:04:14,770 --> 00:04:19,010
+不过，我不总是
+I don't have always, uh, I don't have,
+
+59
+00:04:21,320 --> 00:04:24,960
+能看到聊天消息。所以，
+I don't see always the, the chat. So if, uh,
+
+60
+00:04:25,140 --> 00:04:29,480
+如果发现我漏掉你的问题，请直接说，
+if you see that I'm missing your question, please just speak up,
+
+61
+00:04:30,380 --> 00:04:33,840
+打开麦克风提问。
+unmute and ask what you would like to ask.
+
+62
+00:04:36,470 --> 00:04:38,090
+那我们开始。
+So let's start.
+
+63
+00:04:42,030 --> 00:04:44,370
+说到电子学，
+So when we speak about electronics,
+
+64
+00:04:46,390 --> 00:04:50,660
+我们通常会说到互动
+we usually speak about interactive
+
+65
+00:04:51,050 --> 00:04:55,330
+项目，也就是电子项目，
+project. So project, electronic project,
+
+66
+00:04:56,150 --> 00:05:01,050
+它具有某些特定组成部分，
+uh, that have some specific element that allows,
+
+67
+00:05:01,310 --> 00:05:06,210
+让我们能够与项目互动。
+uh, us to actually interact with our project,
+
+68
+00:05:07,230 --> 00:05:08,063
+不过，
+but
+
+69
+00:05:09,030 --> 00:05:13,700
+互动项目或者电子项目，
+there are some common and shared element characteristics
+
+70
+00:05:14,720 --> 00:05:17,580
+都有一些共同的组成和特征。
+of interactive project or electronic project.
+
+71
+00:05:18,320 --> 00:05:21,420
+这些组成在某种程度上是必需的。
+And these element are somehow necessary.
+
+72
+00:05:23,460 --> 00:05:24,293
+它们
+They, uh,
+
+73
+00:05:24,330 --> 00:05:28,710
+可以用不同方式开发和实现，
+can be developed and implemented in different ways,
+
+74
+00:05:29,170 --> 00:05:34,110
+但总会有一个
+but you always find for sure a
+
+75
+00:05:34,230 --> 00:05:36,950
+电源部分，也就是供电来源，
+power element. So your power source,
+
+76
+00:05:38,700 --> 00:05:43,270
+为电路中的
+that part of the secret that gives the energy
+
+77
+00:05:44,280 --> 00:05:45,113
+项目提供能量。
+to your project.
+
+78
+00:05:46,490 --> 00:05:49,980
+再说互动项目，
+Then when we speak about interactive project,
+
+79
+00:05:51,770 --> 00:05:56,510
+通常有一个输入设备，
+we usually have an input device or a
+
+80
+00:05:56,510 --> 00:06:01,250
+也就是传感器。输入设备是什么？
+so-called sensor. What are the input devices?
+
+81
+00:06:01,500 --> 00:06:04,250
+这些设备是
+These devices are, uh,
+
+82
+00:06:04,250 --> 00:06:08,370
+能够根据
+element that are capable to,
+
+83
+00:06:09,390 --> 00:06:12,420
+周围环境的交互，
+um, to generate an,
+
+84
+00:06:12,720 --> 00:06:17,620
+产生一个
+an electric signal based on the interaction with
+
+85
+00:06:17,960 --> 00:06:21,780
+电信号的元件。什么意思？例如，
+the environment, what it means. It means, for example,
+
+86
+00:06:22,760 --> 00:06:27,420
+有一个触摸传感器。
+you have a, uh, a touch sensor. So the sensor,
+
+87
+00:06:27,560 --> 00:06:32,220
+它能够产生或改变
+the touch sensor is capable to generate or manipulate an
+
+88
+00:06:32,580 --> 00:06:37,120
+电信号，依据的是
+electric signal based on the touch on
+
+89
+00:06:37,440 --> 00:06:42,290
+与它的实际接触。再普遍一点，
+physical touch with it. More in general,
+
+90
+00:06:43,090 --> 00:06:44,170
+比如温度传感器。
+a temperature sensor.
+
+91
+00:06:44,770 --> 00:06:49,410
+温度传感器是一种根据温度
+A temperature sensor is a device that based on the temperature
+
+92
+00:06:50,460 --> 00:06:51,293
+产生
+generator,
+
+93
+00:06:52,190 --> 00:06:55,990
+相应电信号的设备。
+electric signal that depend on the temperature.
+
+94
+00:06:57,470 --> 00:07:00,770
+所以，输入设备产生信号。
+So input devices generate a signal.
+
+95
+00:07:02,660 --> 00:07:05,230
+互动项目的另一部分，
+Then part of an interactive project,
+
+96
+00:07:05,930 --> 00:07:09,190
+是输出设备，也叫执行器。
+you also have an output device or activator.
+
+97
+00:07:09,900 --> 00:07:11,790
+什么是输出设备？
+What is an output device?
+
+98
+00:07:12,130 --> 00:07:16,750
+它是一种利用
+An auto device is something that using an
+
+99
+00:07:17,110 --> 00:07:20,230
+电信号来改变
+electric signal can change the space,
+
+100
+00:07:20,450 --> 00:07:24,600
+所在空间或环境的装置。
+the environment where it's implemented.
+
+101
+00:07:26,000 --> 00:07:30,720
+简单例子是光源，灯光会改变空间。
+A simple example, a source of light, a light change the space,
+
+102
+00:07:32,470 --> 00:07:34,590
+扬声器，通过扬声器，
+a speaker through a speaker,
+
+103
+00:07:34,890 --> 00:07:38,210
+可以产生噪声或声音，
+you generate noise or sound,
+
+104
+00:07:38,950 --> 00:07:42,160
+改变环境。还有电机，
+it change the environment. A matter,
+
+105
+00:07:43,000 --> 00:07:47,360
+电机可以带动物体，
+a matter can move things so it create
+
+106
+00:07:48,120 --> 00:07:49,840
+造成空间中的变化。
+a change in the space.
+
+107
+00:07:51,810 --> 00:07:53,260
+有了这三个部分，
+With these three element,
+
+108
+00:07:53,800 --> 00:07:58,420
+其实就能创建互动项目，当然，
+you actually can create an interactive project connecting of course,
+
+109
+00:07:58,510 --> 00:08:03,460
+必须正确连接。你们会看到，
+these three element in the right way. You will see actually,
+
+110
+00:08:03,520 --> 00:08:08,400
+其实 Liza 的讲座里已经展示过，
+you already saw during lies lecture that
+
+111
+00:08:08,630 --> 00:08:13,160
+互动项目中常常
+many times there is an extra element in an
+
+112
+00:08:13,160 --> 00:08:14,200
+还有一个额外部分，
+interactive project
+
+113
+00:08:16,230 --> 00:08:20,360
+就是 Arduino 这样的微控制器。
+that is a microcontroller like the Arduino.
+
+114
+00:08:22,330 --> 00:08:26,020
+采用这种结构时，
+So with this structure,
+
+115
+00:08:26,610 --> 00:08:30,460
+项目就有电源、
+your interactive project will have a power,
+
+116
+00:08:31,400 --> 00:08:36,060
+输入设备、输出设备和微控制器。
+an input device, an output device, and a microcontroller.
+
+117
+00:08:36,730 --> 00:08:38,430
+那么，
+What um,
+
+118
+00:08:39,500 --> 00:08:43,730
+微控制器做什么呢？
+what does the microcontroller do? Well,
+
+119
+00:08:43,750 --> 00:08:46,930
+它可以采集
+the microcontroller can collect the data
+
+120
+00:08:49,060 --> 00:08:52,590
+输入设备的数据，并处理这些数据，
+from the input device process. This data,
+
+121
+00:08:52,850 --> 00:08:54,550
+再根据这些数据，
+and based on this data,
+
+122
+00:08:55,220 --> 00:08:58,280
+控制输出设备。
+can then control the output device.
+
+123
+00:08:59,910 --> 00:09:04,610
+这样的系统不仅多一个元件，
+Such a system requires not only an extra element,
+
+124
+00:09:04,960 --> 00:09:06,050
+也就是微控制器，
+such a micro control,
+
+125
+00:09:06,350 --> 00:09:11,290
+还需要一些编程技能，
+but it also requires some coding skills to be able
+
+126
+00:09:11,350 --> 00:09:13,730
+来读取、处理数据，
+to read the data, process them,
+
+127
+00:09:14,390 --> 00:09:17,970
+再向输出设备发送信息。
+and then send out the information for the output device.
+
+128
+00:09:19,390 --> 00:09:24,130
+所以，取决于你的项目、
+So, um, depending on your project,
+
+129
+00:09:24,470 --> 00:09:28,450
+应用、想学习和实验的内容，
+on your application, on what you want to learn and experiment,
+
+130
+00:09:28,830 --> 00:09:30,930
+你可以决定
+you can decide
+
+131
+00:09:32,750 --> 00:09:37,360
+哪种方案最适合。
+what is the best solution for, uh, for your project.
+
+132
+00:09:37,980 --> 00:09:41,440
+并不总是需要微控制器，
+You don't always need a microcontroller,
+
+133
+00:09:42,310 --> 00:09:47,100
+尤其在刚开始学习电子纺织工具、
+especially at the beginning, to, to learn a textile tools,
+
+134
+00:09:47,620 --> 00:09:49,060
+材料和实践的时候。
+materials, practices.
+
+135
+00:09:50,200 --> 00:09:54,420
+我建议，先关注这三个
+My suggestion is focus on these three
+
+136
+00:09:54,770 --> 00:09:57,580
+组成部分。
+element, well,
+
+137
+00:09:59,950 --> 00:10:04,320
+既然想做电子学，
+saying that we wanted to work with electronics.
+
+138
+00:10:04,980 --> 00:10:06,360
+那从哪里开始？
+So from where to start,
+
+139
+00:10:08,280 --> 00:10:11,120
+我很喜欢从
+I really like to start from
+
+140
+00:10:12,850 --> 00:10:16,440
+最初的起点，第零步开始。
+the beginning, step zero.
+
+141
+00:10:18,050 --> 00:10:19,870
+我，
+So I, um,
+
+142
+00:10:21,350 --> 00:10:25,750
+喜欢这样思考身边的交互，
+I like to think about the interaction around us,
+
+143
+00:10:27,240 --> 00:10:29,060
+借助
+um, from a, um,
+
+144
+00:10:30,680 --> 00:10:35,410
+现代化学之父的一句话：
+with a quote of the father of modern chemistry that
+
+145
+00:10:35,440 --> 00:10:38,850
+在吃与被吃之间，
+says, among those who eat and those were eaten,
+
+146
+00:10:38,960 --> 00:10:41,930
+没有任何东西被创造，也没有任何东西被毁灭，
+nothing is created and nothing is destroyed,
+
+147
+00:10:42,310 --> 00:10:46,250
+一切都在转化。
+but everything is transformed. Well,
+
+148
+00:10:47,090 --> 00:10:48,530
+我喜欢
+I like to, um,
+
+149
+00:10:50,430 --> 00:10:52,930
+把这句话延伸，
+to move this quote
+
+150
+00:10:54,800 --> 00:10:58,900
+理解为，
+and to think as, uh,
+
+151
+00:10:59,360 --> 00:11:04,260
+任何交互都包含某种转化与交换。
+any kind of interaction has a transformation and exchange
+
+152
+00:11:04,640 --> 00:11:06,700
+交换什么？能量。
+of what, of energy.
+
+153
+00:11:07,800 --> 00:11:10,140
+当我们从事电子制作，
+And when we work with electronics,
+
+154
+00:11:11,480 --> 00:11:15,930
+实际上在使用一种特定能量。
+well actually we are using a specific kind of energy.
+
+155
+00:11:16,670 --> 00:11:20,290
+通过不同的设备，
+We use it and through the devices,
+
+156
+00:11:20,550 --> 00:11:24,690
+电子设备，这种能量被转化，
+the electronic device, this energy is transformed,
+
+157
+00:11:25,150 --> 00:11:30,130
+转化成光、热、运动。
+is transformed in light, in heat, in motion,
+
+158
+00:11:31,230 --> 00:11:34,810
+例如，再想想传感器。
+or for example, thinking about the sensors.
+
+159
+00:11:36,000 --> 00:11:40,490
+让我举个例子。
+When I, uh, let me, uh, let me make an example.
+
+160
+00:11:41,030 --> 00:11:44,770
+如果有一个触摸传感器，动作，
+If we have a touch sensor, the motion,
+
+161
+00:11:45,990 --> 00:11:49,610
+也就是我的触摸，一种行为、运动，
+the my touch, that is an action, a movement
+
+162
+00:11:51,180 --> 00:11:52,390
+会被转换，
+will be transformed
+
+163
+00:11:54,200 --> 00:11:57,860
+成为电能。
+and given to electric energy.
+
+164
+00:11:59,950 --> 00:12:03,000
+所以做电子制作时，
+So when we work with electronics,
+
+165
+00:12:03,260 --> 00:12:07,890
+我们使用电能。那
+we work with electric energy from where
+
+166
+00:12:09,480 --> 00:12:11,730
+电能从哪里来？
+this electric energy comes from.
+
+167
+00:12:14,580 --> 00:12:18,570
+需要深入看看
+While, well, we need to look really, uh,
+
+168
+00:12:18,910 --> 00:12:21,140
+物质
+at how the matter
+
+169
+00:12:23,100 --> 00:12:24,040
+如何构成。
+is made.
+
+170
+00:12:25,370 --> 00:12:28,830
+假设拿显微镜仔细观察，
+So if we take a microscope and we really look,
+
+171
+00:12:30,090 --> 00:12:34,310
+不断放大身边的物体，
+we zoom in to an object around us,
+
+172
+00:12:35,410 --> 00:12:40,050
+就会发现物质
+we would find that the matter is
+
+173
+00:12:40,280 --> 00:12:42,010
+由原子构成。
+made of atoms.
+
+174
+00:12:44,760 --> 00:12:46,740
+原子是一种
+The atom is a structure
+
+175
+00:12:48,500 --> 00:12:49,790
+由粒子组成的结构。
+made of particles.
+
+176
+00:12:51,570 --> 00:12:55,430
+可以把原子的结构
+We can simplify the structure of the atom
+
+177
+00:12:56,790 --> 00:12:57,650
+简化成这样。
+in such a way.
+
+178
+00:12:58,150 --> 00:13:03,090
+中间有一个由粒子组成的核，
+So there is a core made of particles
+
+179
+00:13:03,510 --> 00:13:07,610
+周围还有其他粒子，
+and around this core there are some other particles floating
+
+180
+00:13:08,190 --> 00:13:11,930
+在附近运动。中间，
+around, flying around. In the middle,
+
+181
+00:13:12,310 --> 00:13:16,730
+原子核里有一种粒子，叫
+in the core there is a particle called, um,
+
+182
+00:13:17,070 --> 00:13:18,370
+质子。
+called proton.
+
+183
+00:13:19,600 --> 00:13:22,770
+它带有电荷，
+This particle has a charge
+
+184
+00:13:24,310 --> 00:13:25,610
+我们
+and we, um,
+
+185
+00:13:27,110 --> 00:13:31,890
+规定这种电荷为正电荷，
+we say that this charge is positive, is positive,
+
+186
+00:13:32,230 --> 00:13:35,090
+所以质子带正电。
+so the proton are positively charged.
+
+187
+00:13:36,400 --> 00:13:39,420
+它在中心位置。
+And this is in the center found.
+
+188
+00:13:40,680 --> 00:13:44,430
+另一种粒子叫电子。
+There are other particles called electrons.
+
+189
+00:13:45,990 --> 00:13:48,890
+电子带负电。
+The electrons are negatively charged.
+
+190
+00:13:50,150 --> 00:13:54,530
+所以中心为正，外围为负。
+So the core is positive around is negative
+
+191
+00:13:57,880 --> 00:14:00,420
+两个粒子，或者两个
+two particles or two,
+
+192
+00:14:00,720 --> 00:14:04,140
+带相同电荷的物体，
+two particles or two element of the same charge.
+
+193
+00:14:05,560 --> 00:14:07,490
+会相互排斥，
+They reject each other's,
+
+194
+00:14:08,310 --> 00:14:11,850
+因此不倾向于靠得太近。
+so they cannot stay too close to each other's.
+
+195
+00:14:12,360 --> 00:14:16,210
+它们有相互推开的作用力。
+They tend to really force away
+
+196
+00:14:19,140 --> 00:14:22,000
+而带不同电荷的两个粒子，
+two particles of two different charges.
+
+197
+00:14:22,420 --> 00:14:26,920
+一个正、一个负，会相互吸引。
+So one positive and one negative. They attract each others,
+
+198
+00:14:29,330 --> 00:14:33,820
+类似磁铁，具有两个
+like we, we do with magnet that has two, um,
+
+199
+00:14:34,960 --> 00:14:38,700
+磁极，北极和南极，
+two side negative and positive. North and south,
+
+200
+00:14:40,190 --> 00:14:43,500
+北极与北极排斥，北极与南极
+north, north they reject north south,
+
+201
+00:14:43,690 --> 00:14:48,060
+吸引。好，所以负与负，
+they attract each other's. Okay? So minus,
+
+202
+00:14:48,190 --> 00:14:51,920
+正与正，不喜欢彼此；负与
+minus plus plus. They don't like each other's minus,
+
+203
+00:14:52,030 --> 00:14:53,720
+正，就喜欢彼此。
+plus they like each other's.
+
+204
+00:14:55,770 --> 00:14:57,510
+回到原子。
+If let's go back to the atom.
+
+205
+00:14:57,930 --> 00:15:01,230
+如果数一数原子中
+If we look at the ATO and we count
+
+206
+00:15:02,890 --> 00:15:06,030
+正负电荷的数量，
+the amount of negative and positive charges,
+
+207
+00:15:06,490 --> 00:15:10,780
+就能判断原子是
+we can say if the atom is, uh,
+
+208
+00:15:11,220 --> 00:15:15,380
+带正电、带负电，还是两者都不是。
+positive charged, negatively charged on neither the two.
+
+209
+00:15:16,080 --> 00:15:20,940
+质子与电子数量相同的原子，
+So in atom with the same amount of protons and electrons
+
+210
+00:15:21,200 --> 00:15:22,140
+整体不带电。
+is not charged.
+
+211
+00:15:23,780 --> 00:15:27,730
+从这个
+If we start from these,
+
+212
+00:15:28,910 --> 00:15:29,230
+例子开始，
+uh,
+
+213
+00:15:29,230 --> 00:15:34,010
+取走不带电原子中的一个电子，
+no charge atom and we remove one electron,
+
+214
+00:15:36,740 --> 00:15:40,670
+就会剩下两个质子、一个电子。
+well, we would have two protons, one electron.
+
+215
+00:15:40,820 --> 00:15:43,910
+这个原子就带正电。
+This atom is positively charged.
+
+216
+00:15:45,450 --> 00:15:49,430
+如果给一个不带电的原子增加
+If from an no charged atom we add
+
+217
+00:15:50,730 --> 00:15:55,270
+一个电子，这里就有三个
+an electron, we would have, in this case, three
+
+218
+00:15:56,950 --> 00:15:58,230
+负
+negative, uh,
+
+219
+00:15:58,500 --> 00:16:02,210
+电荷，以及两个正电荷。
+charges and two positive one.
+
+220
+00:16:02,950 --> 00:16:06,450
+所以它带负电。
+So this atom is negatively charged.
+
+221
+00:16:09,820 --> 00:16:14,500
+这，
+Well, this, um, this,
+
+222
+00:16:14,880 --> 00:16:16,180
+这两种情况，
+uh, two situations,
+
+223
+00:16:17,050 --> 00:16:22,010
+代表了两种
+they represent two cases in which the
+
+224
+00:16:22,330 --> 00:16:24,570
+电荷不平衡的状态。
+electric energy is not balanced
+
+225
+00:16:28,870 --> 00:16:29,703
+那么，
+well.
+
+226
+00:16:33,560 --> 00:16:38,050
+当存在电能，
+When there is a presence of electric
+
+227
+00:16:38,350 --> 00:16:43,330
+而我们能够使用它时，就会谈到
+energy and we are able to use it while we speak about
+
+228
+00:16:44,010 --> 00:16:44,843
+电。
+electricity,
+
+229
+00:16:47,660 --> 00:16:50,130
+电有两种情况：
+there are two kind of electricity,
+
+230
+00:16:50,670 --> 00:16:52,890
+静态与动态。
+static and dynamic.
+
+231
+00:16:54,080 --> 00:16:58,930
+我们要使用的是动态的电。
+What we'll use is the dynamic electricity.
+
+232
+00:17:03,670 --> 00:17:08,250
+怎样获得它？什么是动态
+How can we have dynamic electricity and what is dynamic
+
+233
+00:17:09,130 --> 00:17:13,250
+的电？让我
+electricity? Well, let me
+
+234
+00:17:15,340 --> 00:17:17,360
+举个例子。
+uh, bring, uh, an example.
+
+235
+00:17:17,850 --> 00:17:20,520
+假设这里有一根导线。
+Let's suppose that I do have this wire.
+
+236
+00:17:22,380 --> 00:17:26,790
+这是用于搭建原型的线，
+This wire is a wire used to make, um, prototypes.
+
+237
+00:17:27,220 --> 00:17:28,870
+叫跳线。
+This is called the jumper wires.
+
+238
+00:17:30,440 --> 00:17:32,940
+如果看进这根线里面，
+If we look inside this wire,
+
+239
+00:17:33,440 --> 00:17:37,500
+会看到很多原子，现在它们
+we would see a lot of atoms that right now,
+
+240
+00:17:38,650 --> 00:17:39,483
+就像这样——
+like,
+
+241
+00:17:41,750 --> 00:17:45,010
+这根导线还没有连接任何东西。
+so this wire not connected to anything.
+
+242
+00:17:46,940 --> 00:17:50,440
+没有电流流过它。
+It doesn't have any kind of electricity going through it.
+
+243
+00:17:51,770 --> 00:17:56,110
+所有原子目前都处于平衡状态，不过，
+All. The atoms are quite all good, but
+
+244
+00:17:58,470 --> 00:17:59,930
+如果从
+if from
+
+245
+00:18:02,150 --> 00:18:06,090
+最后一个原子中取走一个电子，
+the last atom we take out one electron,
+
+246
+00:18:07,540 --> 00:18:12,390
+会发生什么？最后这个原子就会
+what does it happen? While it happens that this last atom will be
+
+247
+00:18:14,010 --> 00:18:14,843
+带正电，
+positively charged
+
+248
+00:18:18,410 --> 00:18:23,360
+并吸引电子，
+and will attract the electron,
+
+249
+00:18:24,020 --> 00:18:26,600
+吸引前一个原子的电子。
+the electron from the previous atom.
+
+250
+00:18:30,850 --> 00:18:32,430
+于是这个电子
+So the electron
+
+251
+00:18:35,170 --> 00:18:38,250
+就会跳过去，使
+would jump leaving
+
+252
+00:18:39,830 --> 00:18:42,010
+原来的原子带正电，
+its old atom positively charged,
+
+253
+00:18:43,630 --> 00:18:48,290
+它又会吸引再前一个原子的电子。
+so it'll attract the elector from the previous atom.
+
+254
+00:18:50,780 --> 00:18:54,230
+因此，通过这第一次跳跃，
+So with this first jump,
+
+255
+00:18:54,930 --> 00:18:58,350
+我们创造了一种条件，
+we are creating a condition in which
+
+256
+00:18:59,720 --> 00:19:04,620
+使导线中的电子开始
+the electrons through your wire will start
+
+257
+00:19:04,720 --> 00:19:08,020
+跳跃，朝同一个方向移动。
+to jump and to move in one direction.
+
+258
+00:19:10,070 --> 00:19:15,060
+当电子在物质中流动，
+When the electrons flow in the matter
+
+259
+00:19:16,120 --> 00:19:17,540
+比如在导线中流动时，
+in a wire, for example,
+
+260
+00:19:20,200 --> 00:19:24,460
+我们就称之为电流，
+we speak about current electric current
+
+261
+00:19:25,600 --> 00:19:26,460
+也就可以
+and we can
+
+262
+00:19:28,750 --> 00:19:32,040
+讨论流动的电了。
+then speak about dynamic electricity.
+
+263
+00:19:33,580 --> 00:19:37,800
+简单来说，电流就是电荷的流动，
+Simply the current is the flow of electric charges,
+
+264
+00:19:39,510 --> 00:19:43,770
+也就是这里所说的电子。
+lec, um, electron, um, electrons.
+
+265
+00:19:46,400 --> 00:19:50,020
+怎样测量这种流动，也就是电流？
+How do we measure the current this flow?
+
+266
+00:19:50,760 --> 00:19:55,140
+我们根据流过的电子数量来测量，
+We measure it with the amount of electrons that flows
+
+267
+00:19:56,780 --> 00:19:57,613
+也就是导线中的电子。
+in a wire.
+
+268
+00:20:00,440 --> 00:20:05,180
+计量单位是安培，符号是大写 A，
+The unit of measure is amper, the symbol is a capital A,
+
+269
+00:20:05,800 --> 00:20:07,500
+也常简称 amps。
+and we also call it amps.
+
+270
+00:20:10,670 --> 00:20:15,210
+1 安培有多大？1 安培是很大的电流。
+How much is one amper? One amper is a lot.
+
+271
+00:20:17,460 --> 00:20:18,480
+所以这些，
+So these,
+
+272
+00:20:22,660 --> 00:20:25,450
+这么多电子，
+these number of electrons,
+
+273
+00:20:28,150 --> 00:20:31,280
+就对应 1 安培，
+they uh, they are actually one ampire,
+
+274
+00:20:33,720 --> 00:20:36,480
+不过在实际应用中，
+but um, in a practical world,
+
+275
+00:20:39,670 --> 00:20:43,850
+1 安培到底有多大呢？
+how much is one ampire? Well,
+
+276
+00:20:45,070 --> 00:20:49,120
+1 安培相当大，所以实际上，
+um, uh, one, one amper is a lot. So actually
+
+277
+00:20:50,960 --> 00:20:51,580
+我想，
+I don't think,
+
+278
+00:20:51,580 --> 00:20:56,360
+今天我们肯定不会处理
+and for sure today we are not going to work with current
+
+279
+00:20:56,900 --> 00:20:58,720
+安培量级的电流。
+in the range of amperes.
+
+280
+00:20:59,840 --> 00:21:03,420
+我们实际会使用这些 LED。
+We will work actually with these ladies.
+
+281
+00:21:06,800 --> 00:21:11,310
+它们消耗多少电流？它们，
+How much they consume. Well, they, uh,
+
+282
+00:21:11,460 --> 00:21:16,390
+消耗的电流从 0.00，
+they consume from zero.zero
+
+283
+00:21:16,500 --> 00:21:20,910
+也就是 0.005 安培，到 0.02 安培。
+zero five amper up to zero two amper.
+
+284
+00:21:21,290 --> 00:21:25,380
+我来修正一下这个零。
+Let me fix this, this zero.
+
+285
+00:21:28,000 --> 00:21:28,833
+好了。
+Here we are
+
+286
+00:21:37,420 --> 00:21:40,720
+也就是千分之一安培这个量级。
+so 1000th of an amper,
+
+287
+00:21:43,430 --> 00:21:46,350
+还有超高亮度的，
+um, the super
+
+288
+00:21:48,020 --> 00:21:52,870
+用于灯具中的 LED。
+brights that are implemented in, uh, in lamps.
+
+289
+00:21:54,020 --> 00:21:58,760
+现在可以买到 LED 灯，它们耗电
+Now we can find l e d lamps. They consume, uh,
+
+290
+00:21:58,990 --> 00:22:02,080
+较少，亮度却很高。
+less, they are, uh, really strong.
+
+291
+00:22:02,710 --> 00:22:06,440
+能发出很强的光。它们消耗多少电流？
+They can generate really strong light how much they consume.
+
+292
+00:22:06,750 --> 00:22:10,960
+不到 1 安培，大约零点
+They consume less than one amper around zero dot
+
+293
+00:22:11,050 --> 00:22:13,120
+三五零安培，也就是 0.350 安培。
+350 amper,
+
+294
+00:22:15,540 --> 00:22:19,180
+小型水泵，比如
+a small water pump. The one, uh,
+
+295
+00:22:19,890 --> 00:22:21,740
+鱼缸里用的那种，
+used in aquarium,
+
+296
+00:22:22,570 --> 00:22:27,460
+耗电流也不到 1 安培，大约 0.2 安培。
+they consume less than one amper, 0.2 amper.
+
+297
+00:22:29,690 --> 00:22:34,350
+这与振动电机类似。振动电机，
+Um, similar to the uh, vibration motors. The vibration motors,
+
+298
+00:22:34,350 --> 00:22:38,550
+这就是一个振动电机，通常安装在
+this is a vibration motor. Uh, typically use the inside,
+
+299
+00:22:39,330 --> 00:22:44,170
+手机里面，用来产生振动。而
+uh, phones to create the vibration. While
+
+300
+00:22:46,890 --> 00:22:49,660
+家用电器消耗的电流就很大，
+appliance, they consume a lot of current,
+
+301
+00:22:50,580 --> 00:22:54,460
+微波炉的电流可以达到 8 安培，
+a microwave that can consume a tamer
+
+302
+00:22:55,650 --> 00:22:56,550
+最高达到 8 安培。
+up to a tamer.
+
+303
+00:22:58,050 --> 00:23:02,730
+吹风机甚至可以消耗微波炉两倍的电流，
+A air dryer can even consume double than a microwave
+
+304
+00:23:03,030 --> 00:23:06,960
+达到 16 安培。所以，
+up to 16 amper. So
+
+305
+00:23:09,940 --> 00:23:14,350
+还是要根据具体器件、
+depending again, uh, by the device,
+
+306
+00:23:15,060 --> 00:23:18,390
+你的项目和应用场景，
+your project, um, your application,
+
+307
+00:23:19,060 --> 00:23:23,470
+事先了解你将使用
+it's always good to have an idea of how much current
+
+308
+00:23:24,090 --> 00:23:25,630
+多大的电流，总是有帮助的。
+you are going to use.
+
+309
+00:23:28,600 --> 00:23:33,300
+这里我再补充一点，
+Let me add a note about this. Um,
+
+310
+00:23:33,870 --> 00:23:35,140
+关于数值的表示方法。
+about the annotation.
+
+311
+00:23:36,490 --> 00:23:41,380
+当我们处理很小的电流，
+When we work with small amount of current in the
+
+312
+00:23:41,380 --> 00:23:42,213
+也就是零点几这样的量级时，
+range of zero,
+
+313
+00:23:46,810 --> 00:23:49,390
+我们通常，
+we usually, um,
+
+314
+00:23:52,220 --> 00:23:53,053
+嗯，
+uh,
+
+315
+00:23:53,830 --> 00:23:58,120
+用带有 milli，也就是“毫”这个前缀的单位表示电流。
+name the parent with an annotation that is Millie.
+
+316
+00:23:59,730 --> 00:24:03,200
+因此，1 毫安，
+So one Millie amper
+
+317
+00:24:04,890 --> 00:24:07,410
+也就是，
+that is, uh,
+
+318
+00:24:07,470 --> 00:24:10,930
+写成小写 m 和大写 A，
+marked as small M and capital A.
+
+319
+00:24:11,400 --> 00:24:14,170
+它表示毫安。
+This stand for million amper.
+
+320
+00:24:14,470 --> 00:24:17,330
+所以 1 毫安等于
+So 1 million per is equal to
+
+321
+00:24:17,600 --> 00:24:21,050
+0.001 安培。
+0.001 amper.
+
+322
+00:24:22,950 --> 00:24:27,560
+说 1 毫安或 5 毫安更方便，
+It's just easier to say 1 million per or 5 million per
+
+323
+00:24:27,870 --> 00:24:31,760
+比说 0.005 或
+then 0.005 or
+
+324
+00:24:31,760 --> 00:24:36,480
+0.001 更方便。那么 5 毫安、20 毫安，
+0 0 1. So 5 million per 20 million per
+
+325
+00:24:36,690 --> 00:24:41,680
+还有 350 毫安，
+300 million. Per that,
+
+326
+00:24:41,710 --> 00:24:46,040
+分别等于 0.005，
+they are going to be equal to 0.005
+
+327
+00:24:46,700 --> 00:24:51,040
+或 0.02，或 0.350 安培。
+or 0 0 2 or zero 350.
+
+328
+00:24:51,100 --> 00:24:55,050
+我们只需要乘以，
+So we just need to multiply, um,
+
+329
+00:24:56,350 --> 00:25:00,370
+10 的负三次方，这就是“毫”的含义。
+10 elevated minus three, and this is 10 million.
+
+330
+00:25:01,350 --> 00:25:05,290
+所以电流就是
+So electric current flows of
+
+331
+00:25:07,040 --> 00:25:07,873
+电子的流动。
+electrons.
+
+332
+00:25:11,770 --> 00:25:12,603
+那么，
+Well,
+
+333
+00:25:14,270 --> 00:25:18,730
+我们说过，当电子
+we said that we have current when the electrons
+
+334
+00:25:19,980 --> 00:25:24,820
+在导线中移动时，就有了电流。
+moves in, um, in our wire.
+
+335
+00:25:26,490 --> 00:25:27,323
+所以第一个，
+So the first,
+
+336
+00:25:28,470 --> 00:25:31,870
+必须先有第一个电子跳过去。
+a first electron must jump.
+
+337
+00:25:34,610 --> 00:25:39,350
+电子为什么会移动？为什么要移动呢？
+Why the electron should move. Why should the electrons move?
+
+338
+00:25:39,530 --> 00:25:41,750
+第一个电子为什么会动？
+Why should the first electron move?
+
+339
+00:25:44,520 --> 00:25:45,353
+好，
+Well,
+
+340
+00:25:48,250 --> 00:25:52,500
+我们利用电源来
+we use the power source to
+
+341
+00:25:54,220 --> 00:25:58,550
+启动这种流动，并维持
+start the flow to start and keep
+
+342
+00:25:59,790 --> 00:26:04,210
+电子的流动。这就是电源。
+the flow of electrons. A power source.
+
+343
+00:26:08,280 --> 00:26:10,700
+我也来修正一下这里。好了。
+Let me fix also this one here. We're,
+
+344
+00:26:17,110 --> 00:26:21,050
+因此，一个电源，
+so a power source ha, um,
+
+345
+00:26:21,670 --> 00:26:25,530
+总有两端，或者说两个端子，
+has always two side or two terminals,
+
+346
+00:26:27,170 --> 00:26:32,030
+一端称为正极，另一端
+one that we call positive and one that is
+
+347
+00:26:32,030 --> 00:26:34,590
+称为负极。为什么？因为
+called negative. Why? Because
+
+348
+00:26:38,080 --> 00:26:42,700
+电源有两个端子。
+the power source, they um, they have two terminals.
+
+349
+00:26:43,500 --> 00:26:47,530
+一个端子带正电，
+One terminal is positively charged
+
+350
+00:26:48,790 --> 00:26:53,250
+这一端会吸引电子。
+and this part will attract the electrons.
+
+351
+00:26:55,150 --> 00:26:56,210
+另一端，
+The other side,
+
+352
+00:26:56,950 --> 00:27:01,890
+也就是另一个端子带负电，它是电子的来源，
+the other terminal is negatively charged and is gonna be the source
+
+353
+00:27:01,910 --> 00:27:02,810
+提供电子，
+of electrons
+
+354
+00:27:05,500 --> 00:27:10,120
+使它们在电路中移动。
+that travel in our circuit.
+
+355
+00:27:16,090 --> 00:27:18,070
+比如电池，
+For example, a battery,
+
+356
+00:27:18,910 --> 00:27:23,730
+电池就是一种电源。如果我们
+A battery is a power source and if we would
+
+357
+00:27:23,800 --> 00:27:25,410
+观察电池内部，
+look inside a battery,
+
+358
+00:27:25,950 --> 00:27:29,650
+会发现两个区域，
+we would find two area to,
+
+359
+00:27:29,830 --> 00:27:31,450
+两个彼此分开的空间，
+to two separate spaces,
+
+360
+00:27:35,010 --> 00:27:39,420
+一边吸引电子，另一边
+one to attract electrons and the other one
+
+361
+00:27:39,800 --> 00:27:42,540
+提供电子。
+to provide electrons.
+
+362
+00:27:47,010 --> 00:27:51,880
+如我所说，电源，
+The power source, as I said, a power source
+
+363
+00:27:53,590 --> 00:27:58,320
+比如电池，都有一个负极和一个
+like a battery has a negative and a
+
+364
+00:27:58,560 --> 00:27:59,720
+正极端子。
+positive terminal.
+
+365
+00:28:01,340 --> 00:28:04,030
+我们在，
+We like in the
+
+366
+00:28:05,700 --> 00:28:09,180
+讨论电子学时，会使用一些标准，
+speaking about electronics, we use some standard,
+
+367
+00:28:09,880 --> 00:28:11,980
+至少会尽量遵循标准。
+or at least we try to use some standard.
+
+368
+00:28:12,600 --> 00:28:15,100
+对于电源，
+And in the case of the power source,
+
+369
+00:28:17,560 --> 00:28:18,330
+我们，
+we uh,
+
+370
+00:28:18,330 --> 00:28:22,980
+通常会给这两个端子命名，
+usually give a name to these two terminals
+
+371
+00:28:23,680 --> 00:28:28,180
+也给连接到这些端子的走线
+and to the traces that we will connect to, to these uh,
+
+372
+00:28:28,580 --> 00:28:29,413
+命名。
+terminals.
+
+373
+00:28:30,170 --> 00:28:34,900
+正极端子称为 VCC。
+Deposit positive terminal is gonna be called V C C.
+
+374
+00:28:36,770 --> 00:28:41,270
+负极用减号标识，
+The negative one identified with a minus
+
+375
+00:28:42,910 --> 00:28:44,880
+称为地，也就是 ground。
+will be called ground.
+
+376
+00:28:46,880 --> 00:28:51,700
+地和 VCC 可以看作两种
+Ground and V C C can be considered as a
+
+377
+00:28:51,700 --> 00:28:56,580
+信号，在你的电路中，它们可能是
+signal and in your circuit are gonna be maybe
+
+378
+00:28:56,680 --> 00:29:01,480
+最重要的信号，
+the most important signal, uh,
+
+379
+00:29:01,620 --> 00:29:02,720
+也就是这个项目里的重要信号。
+of the projector.
+
+380
+00:29:04,510 --> 00:29:08,920
+电源有方向性，并且能够
+It has an orientation and it has the capability
+
+381
+00:29:09,340 --> 00:29:13,080
+在两点之间推动电荷移动。
+to move charges between two point.
+
+382
+00:29:14,110 --> 00:29:18,920
+这种能力称为电压，
+This capability is called voltage and the
+
+383
+00:29:18,990 --> 00:29:22,080
+计量单位是伏特，
+unit of measure is vault
+
+384
+00:29:23,670 --> 00:29:27,960
+我们用大写字母 V 表示。
+that we, um, and we use capital letter V
+
+385
+00:29:31,190 --> 00:29:35,470
+比如说，电池，
+for example. For example, the batteries
+
+386
+00:29:37,580 --> 00:29:39,380
+包括充电电池和不可充电电池，
+rechargeable and not rechargeable.
+
+387
+00:29:40,050 --> 00:29:43,910
+都有特定的电压。
+They come with a specific voltage.
+
+388
+00:29:45,820 --> 00:29:49,840
+所以电池电压并不是由我们来决定的，
+So we don't decide what is the voltage of the battery
+
+389
+00:29:50,980 --> 00:29:52,480
+我们买到的电池就有固定规格。比如，
+we buy. For example,
+
+390
+00:29:55,880 --> 00:29:56,713
+看这里，
+here we are,
+
+391
+00:29:57,390 --> 00:30:02,170
+拿这块大电池来说，它是
+we take this big battery and this battery is
+
+392
+00:30:02,290 --> 00:30:03,810
+一块 9 伏电池。
+a nine volt battery.
+
+393
+00:30:06,600 --> 00:30:08,930
+通常会写着，对，上面写着。
+Usually it's, yes, it's written.
+
+394
+00:30:10,170 --> 00:30:13,630
+如果查看电池外包装，这里，
+If you look at the package of the battery, uh, here,
+
+395
+00:30:13,780 --> 00:30:16,150
+这里的字写得很小，
+it's written very small here,
+
+396
+00:30:17,050 --> 00:30:21,730
+但通常能找到电池的电压标识，
+but usually you find what is the voltage of the battery,
+
+397
+00:30:22,740 --> 00:30:25,730
+这是第一项信息。还有，
+first information and other. Um,
+
+398
+00:30:26,900 --> 00:30:29,670
+另外需要留意的，
+another things that you need to uh,
+
+399
+00:30:30,090 --> 00:30:32,430
+就是两个端子。
+to look are the two terminals.
+
+400
+00:30:33,170 --> 00:30:37,950
+这块电池的两个端子都位于
+The two terminals of these package are placed both on
+
+401
+00:30:37,970 --> 00:30:41,910
+同一侧，形状各不相同，
+one side. They do have two different shapes,
+
+402
+00:30:42,290 --> 00:30:44,630
+当然，它们有方向之分。
+of course they do, they have an orientation,
+
+403
+00:30:45,880 --> 00:30:50,380
+怎么知道哪个是正极、哪个是负极？标识写在
+how to know which is the positive and which is the negative while it's written
+
+404
+00:30:50,760 --> 00:30:54,400
+外包装上。一边有个减号，
+on the package. On one side there is a minus,
+
+405
+00:30:54,900 --> 00:30:57,720
+另一边有个加号。
+and on the other side there is a plus.
+
+406
+00:30:59,880 --> 00:31:03,450
+电池不同，电压也不同。
+Depending on the battery, the voltage is different. The,
+
+407
+00:31:03,460 --> 00:31:07,690
+这些电池是 9 伏的。
+these batteries, they uh, they are nine volt.
+
+408
+00:31:08,180 --> 00:31:10,690
+这些纽扣电池，
+These coin batteries,
+
+409
+00:31:11,700 --> 00:31:14,430
+是 3 伏电池。
+they are three volt battery.
+
+410
+00:31:16,590 --> 00:31:20,600
+接着再补充一点信息，
+Then let me give you another information
+
+411
+00:31:22,700 --> 00:31:25,430
+也就是，
+that is, um, that,
+
+412
+00:31:25,780 --> 00:31:28,470
+一种很常用的做法，
+that is something very used
+
+413
+00:31:30,670 --> 00:31:33,730
+在处理电子项目时会用到。
+in electronics when you work with an electronics,
+
+414
+00:31:33,730 --> 00:31:38,450
+当你构思电子项目，
+when you need to create the concept of your electronic project
+
+415
+00:31:40,250 --> 00:31:44,670
+想弄清楚所有东西该怎样连接，
+and you want to understand how to connect everything and
+
+416
+00:31:46,250 --> 00:31:49,220
+或者想分享项目时，
+when you want to share your project.
+
+417
+00:31:52,060 --> 00:31:56,630
+要表示自己的电路或项目，
+When we, uh, want to represent our circuit or our project,
+
+418
+00:31:57,690 --> 00:31:59,390
+我们会使用符号。
+we use symbols.
+
+419
+00:32:01,170 --> 00:32:04,030
+比如表示电源，
+So to represent the power source.
+
+420
+00:32:04,500 --> 00:32:08,150
+它可以是电池，也可以是一般的电源，
+That can be the battery or can be a general power source.
+
+421
+00:32:09,820 --> 00:32:14,320
+我们不画出电池的外形，而是用符号，
+We don't draw the shape of the battery, but we use a symbol,
+
+422
+00:32:15,300 --> 00:32:20,280
+用原理图的方式表示
+we use a schematic representation of
+
+423
+00:32:20,480 --> 00:32:21,313
+这个元件。
+that element.
+
+424
+00:32:23,910 --> 00:32:25,490
+对于电源，
+In the case of the power source,
+
+425
+00:32:27,370 --> 00:32:29,000
+这两个符号
+these two symbols
+
+426
+00:32:31,060 --> 00:32:35,830
+都可以用来表示电源。
+can be used to represent your power source.
+
+427
+00:32:38,680 --> 00:32:43,180
+这个红色的符号通常，
+These, this one, this red symbol is usually,
+
+428
+00:32:43,880 --> 00:32:44,713
+嗯，
+um,
+
+429
+00:32:44,880 --> 00:32:49,340
+很适合用来表示电池。
+it fit well when you want to represent a battery.
+
+430
+00:32:51,030 --> 00:32:55,130
+可以看到，它有一个加号和一个减号，
+As you can see, there is a plus and a minus.
+
+431
+00:32:55,560 --> 00:32:59,770
+表示电源的两个端子。
+They do represent the two terminals of your power source.
+
+432
+00:33:00,640 --> 00:33:04,130
+这个圆形符号更加通用一些，
+This round symbol is a little bit more generic,
+
+433
+00:33:05,720 --> 00:33:10,670
+不过也包含了最重要的信息，V，
+but it has the main important information, B,
+
+434
+00:33:10,710 --> 00:33:15,110
+CC、地，以及正号和负号。那么，
+C, c, ground plus and minus. So
+
+435
+00:33:20,920 --> 00:33:25,340
+电压能不能测量呢？
+voltage, can we measure the voltage?
+
+436
+00:33:27,590 --> 00:33:28,423
+好，
+Well,
+
+437
+00:33:29,370 --> 00:33:33,470
+可以，使用一种叫作
+yes we can using a tool called
+
+438
+00:33:34,000 --> 00:33:34,833
+万用表的工具。
+multimeter.
+
+439
+00:33:37,290 --> 00:33:40,880
+万用表应该，
+The multimeter should, should, uh,
+
+440
+00:33:41,220 --> 00:33:43,040
+成为你最好的伙伴。
+become your best friend.
+
+441
+00:33:43,990 --> 00:33:46,800
+在学习电子学时，
+When you work with electronics,
+
+442
+00:33:48,420 --> 00:33:51,650
+你会接触不同类型的万用表，
+there are different kind of multimeters
+
+443
+00:33:53,870 --> 00:33:55,050
+它们，
+and, um,
+
+444
+00:33:57,190 --> 00:34:01,890
+基本上都具备相同的功能。
+but ma they do all have the same features.
+
+445
+00:34:04,020 --> 00:34:06,280
+主要功能有，
+The main features, there are, uh,
+
+446
+00:34:06,410 --> 00:34:11,330
+万用表有三个主要功能，我们先从
+three main features of the multimeter and we start
+
+447
+00:34:12,040 --> 00:34:13,250
+其中的，
+with, uh,
+
+448
+00:34:13,790 --> 00:34:18,530
+测量电压开始。
+the possibility to measure voltage.
+
+449
+00:34:21,340 --> 00:34:23,650
+来看看万用表。
+Let's have a look to the multimeter.
+
+450
+00:34:31,720 --> 00:34:36,020
+好，让我切换一下。不对，
+Okay, lemme change. Nope,
+
+451
+00:34:38,920 --> 00:34:42,590
+让我换个视图。好了，这就是
+lemme change a view. Here we are. This is,
+
+452
+00:34:44,730 --> 00:34:48,670
+我正在用的万用表。这是一台数字万用表，
+uh, the multimeter that I'm using. It's a digital multimeter,
+
+453
+00:34:48,730 --> 00:34:50,350
+所以有一个显示屏。
+so it has a display,
+
+454
+00:34:51,870 --> 00:34:55,000
+然后中间这里有
+then it has here in the middle
+
+455
+00:34:58,530 --> 00:35:00,530
+一个可以旋转的旋钮。
+a knob that can rotate.
+
+456
+00:35:05,900 --> 00:35:06,733
+我该怎么，
+How can I,
+
+457
+00:35:12,790 --> 00:35:15,730
+好了，它可以旋转。
+okay, that can rotate.
+
+458
+00:35:15,950 --> 00:35:20,650
+这样就能选择要用万用表做什么。
+So I can select what I wanna do with the multimeter.
+
+459
+00:35:21,720 --> 00:35:22,553
+然后，
+Then
+
+460
+00:35:25,130 --> 00:35:28,870
+如果你的万用表和这台类似，就会在
+if your multimeter is similar to this one, you'll find
+
+461
+00:35:30,460 --> 00:35:32,400
+万用表下部看到
+in the lower part of the multimeter,
+
+462
+00:35:32,750 --> 00:35:37,590
+一些插孔，可以连接，
+some port where you can connect what
+
+463
+00:35:37,690 --> 00:35:40,150
+连接表笔。
+you can connect your probes.
+
+464
+00:35:41,270 --> 00:35:45,730
+表笔就是这些线，通常是一根黑色、一根红色，
+Probes are these cables usually one black and one red
+
+465
+00:35:49,870 --> 00:35:52,600
+需要把它们接到万用表上。
+that we need to connect to the multimeter.
+
+466
+00:35:53,180 --> 00:35:56,640
+如何连接表笔呢？
+How to connect the probes to the multimeter while
+
+467
+00:35:57,910 --> 00:35:59,160
+一种良好的做法，
+good practice.
+
+468
+00:35:59,590 --> 00:36:04,520
+其实最好的做法，是把黑色表笔
+Best actually best practice to connect the black cable
+
+469
+00:36:06,060 --> 00:36:08,920
+接到标有 COM 的插孔上，
+to the port called com
+
+470
+00:36:16,700 --> 00:36:20,680
+然后把另一根表笔
+and then to connect the other cable
+
+471
+00:36:21,540 --> 00:36:25,810
+接到那个，
+to the port where you, uh,
+
+472
+00:36:26,070 --> 00:36:28,650
+你能看到，
+you can uh, see a,
+
+473
+00:36:28,890 --> 00:36:33,410
+通常标有相应符号
+a port that is usually marked with the symbols
+
+474
+00:36:33,790 --> 00:36:38,410
+和测量单位的插孔上。在这里，
+and the unit of measure of what you want to measure. In this case,
+
+475
+00:36:38,410 --> 00:36:39,730
+我们要测量电压，
+we wanted to measure voltage,
+
+476
+00:36:40,390 --> 00:36:43,890
+所以找 V，也就是大写 V。
+so it's a V is a capital V.
+
+477
+00:36:44,550 --> 00:36:49,550
+幻灯片上也能看到，我会
+So as you can see also in the slide, I'm going to
+
+478
+00:36:51,080 --> 00:36:55,740
+把红色表笔插到标有
+plug the red lead to the portal with
+
+479
+00:36:55,880 --> 00:36:56,940
+大写 V 的插孔上。
+the capital V
+
+480
+00:37:01,660 --> 00:37:04,600
+这是第一步。然后，
+and this is the first step. Then
+
+481
+00:37:06,480 --> 00:37:10,560
+需要选择要测量什么。在这里，
+I need to select what I wanted to measure. In this case,
+
+482
+00:37:10,640 --> 00:37:12,400
+我要测电压。
+I want to measure voltage.
+
+483
+00:37:14,820 --> 00:37:17,240
+所以我会旋转
+So I'm going to rotate
+
+484
+00:37:20,080 --> 00:37:24,830
+旋钮，转到 V 这一部分，
+the knob in the section V
+
+485
+00:37:28,350 --> 00:37:31,810
+然后选择，可以选择不同的数字。
+and I'm going to select, I can select different numbers.
+
+486
+00:37:32,670 --> 00:37:36,810
+这里有量程，可以选择不同数值。
+So there is a scale and I can select different numbers.
+
+487
+00:37:36,910 --> 00:37:37,930
+这些数字是什么意思？
+So what are these numbers?
+
+488
+00:37:38,500 --> 00:37:42,690
+这些数字表示这个档位下
+These numbers represent the maximum voltage
+
+489
+00:37:43,400 --> 00:37:47,010
+能够测量的最大电压。比如，
+that I can measure in that position. For example,
+
+490
+00:37:47,550 --> 00:37:51,490
+现在我选择 6 伏，
+if now I select six volt,
+
+491
+00:37:52,600 --> 00:37:56,500
+就意味着最大只能测量 6 伏。
+it means that I can measure maximum six volt.
+
+492
+00:37:57,970 --> 00:38:01,230
+如果我想测量，比如说，
+If I want to measure a, for example,
+
+493
+00:38:01,790 --> 00:38:06,390
+12 伏的汽车电池，
+a the battery of the car that is 12 volt,
+
+494
+00:38:07,070 --> 00:38:09,110
+就需要更改量程。
+I need to change the scale.
+
+495
+00:38:09,570 --> 00:38:13,710
+因此我会调到 60 伏量程，
+So I would go to the 60 volt range,
+
+496
+00:38:20,380 --> 00:38:24,390
+然后拿起电源，
+then I take the power, uh, the, the power source,
+
+497
+00:38:25,090 --> 00:38:28,630
+这里是要检查的电池。
+the battery in this case that I want to to check.
+
+498
+00:38:31,200 --> 00:38:32,300
+接下来怎么做？
+And what do I do?
+
+499
+00:38:32,660 --> 00:38:37,560
+只需用两支表笔接触电池的两个端子，
+I just touch the two terminals of the battery with two
+
+500
+00:38:38,560 --> 00:38:39,393
+像这样。
+probes
+
+501
+00:38:42,910 --> 00:38:45,650
+读数是九点，
+and I read nine dot
+
+502
+00:38:46,540 --> 00:38:51,400
+[小数读数不清]，
+54 9
+
+503
+00:38:51,680 --> 00:38:56,000
+伏。它并不是精确的 9 伏，没关系，
+volt. It's not precise. Nine volt, it's okay,
+
+504
+00:38:56,230 --> 00:38:59,520
+这很正常。9 伏只是标称值。
+it's normal. Nine volt is just nominal value.
+
+505
+00:39:00,910 --> 00:39:05,690
+内部电压是通过化学反应产生的，
+The voltage here inside is generated through chemical reaction.
+
+506
+00:39:07,040 --> 00:39:11,260
+所以要靠化学反应提供
+So it's difficult to actually provide through a chemical reaction.
+
+507
+00:39:11,740 --> 00:39:16,300
+精确的 9 伏很难。9.5 伏已经很好了。
+A accurate nine volt, 9.5 is really good.
+
+508
+00:39:17,610 --> 00:39:18,980
+这说明是新的，是一块新电池。
+It's new, it's a new battery.
+
+509
+00:39:21,480 --> 00:39:24,910
+再补充两点。
+Lemme add other two things. Well,
+
+510
+00:39:26,020 --> 00:39:30,670
+这是一块 9 伏电池，我演示给大家看。
+this is a nine volt battery. Let me show you something.
+
+511
+00:39:30,870 --> 00:39:34,030
+我刚刚改变了万用表的量程，
+I just changed the scale of the multimeter
+
+512
+00:39:36,320 --> 00:39:39,740
+选到了 6 伏档。
+and I selected the scale six volt.
+
+513
+00:39:41,810 --> 00:39:44,920
+现在接触这两个端子，
+If I touch now the two terminals,
+
+514
+00:39:46,540 --> 00:39:50,540
+就读不到数值了。实际上，显示的是 OL，
+I don't read anything. I actually, I do read ol
+
+515
+00:39:52,220 --> 00:39:56,550
+表示超量程。这是什么意思？
+that stand for overload. What it means,
+
+516
+00:39:56,690 --> 00:40:01,630
+就是我正试图测量的电压
+it means that I'm trying to measure a voltage that is
+
+517
+00:40:01,850 --> 00:40:06,750
+高于所选择的
+higher than the range I selected on the
+
+518
+00:40:06,760 --> 00:40:11,550
+万用表量程。确实，我选的是 6 伏档。
+multimeter. Indeed, I selected the range six.
+
+519
+00:40:12,570 --> 00:40:17,400
+因此，要读出电池电压，
+So to, to actually read the voltage of the battery,
+
+520
+00:40:17,800 --> 00:40:21,760
+需要调整量程，往上提高一档。
+I need to move the scale and go one step higher.
+
+521
+00:40:25,330 --> 00:40:26,700
+通常，使用万用表时，
+Usually the multimeters,
+
+522
+00:40:26,700 --> 00:40:30,500
+如果要测量的值超出了量程，
+when you try to measure something that is out of the scale,
+
+523
+00:40:31,950 --> 00:40:33,690
+超出了所选量程，
+out of the selected scale,
+
+524
+00:40:34,990 --> 00:40:39,610
+就会显示 OL，或者写成 0L，表示超量程，或者只显示数字
+you read OL or zero L overload or just the number
+
+525
+00:40:39,870 --> 00:40:40,703
+1。
+one.
+
+526
+00:40:42,700 --> 00:40:47,300
+所以，如果看到这两种
+So if you see one of these two, um,
+
+527
+00:40:47,770 --> 00:40:52,420
+显示中的一种，就知道需要调整量程了。
+information on the multimeter, you know that you need to change the scale.
+
+528
+00:40:55,530 --> 00:41:00,470
+还有一个，
+Then another, uh,
+
+529
+00:41:01,150 --> 00:41:02,710
+有意思的现象。
+interesting, interesting factor.
+
+530
+00:41:09,570 --> 00:41:10,890
+我需要改一下量程。
+I need to change the scale.
+
+531
+00:41:13,870 --> 00:41:14,990
+测量电压，
+I measure the voltage
+
+532
+00:41:17,580 --> 00:41:20,000
+不知道大家能不能看清。
+and I don't know if you can read it.
+
+533
+00:41:21,990 --> 00:41:26,250
+看到的方向正常，还是镜像的？能看到 9 吗？
+Do you read it right or do you read it mirror? Can you read nine?
+
+534
+00:41:30,550 --> 00:41:35,270
+好，很好。我这里实际读到的，
+Okay, nice. So what I actually read here,
+
+535
+00:41:35,460 --> 00:41:37,710
+是负 9。
+it's a minus nine.
+
+536
+00:41:41,500 --> 00:41:46,200
+如果交换表笔，也就是，
+If I change the, the probes, so I, um,
+
+537
+00:41:46,520 --> 00:41:47,720
+交换所接触的端子，
+I change the terminals.
+
+538
+00:41:49,120 --> 00:41:52,880
+就读到 9 伏。这意味着什么？
+I read nine vault. What it means,
+
+539
+00:41:54,610 --> 00:41:57,790
+如果读到的是正数，
+it means that if I read the positive number,
+
+540
+00:41:59,050 --> 00:42:03,230
+说明接到 COM 插孔上的黑色表笔，
+it means that the black probe connected to co com.
+
+541
+00:42:03,410 --> 00:42:08,090
+也就是 COM 端的表笔，接触的是负极，
+The port com is touching the negative,
+
+542
+00:42:12,100 --> 00:42:14,320
+是负极端子，
+The negative, uh, terminal
+
+543
+00:42:16,600 --> 00:42:18,660
+电源或电池的负极。
+of your power source of your battery.
+
+544
+00:42:19,770 --> 00:42:24,270
+而红色表笔接触的是正极。
+And the red one is on the, um, positive one.
+
+545
+00:42:24,850 --> 00:42:26,750
+如果把它们交换一下，
+If I just change this one,
+
+546
+00:42:28,630 --> 00:42:30,070
+就会得到一个负数。
+I will get a negative number.
+
+547
+00:42:30,970 --> 00:42:35,470
+这就意味着黑色表笔接触的是
+So it means that the black probe is touching
+
+548
+00:42:36,050 --> 00:42:39,100
+正极，
+the positive, uh,
+
+549
+00:42:40,040 --> 00:42:41,300
+正极端子。
+the positive terminal.
+
+550
+00:42:43,370 --> 00:42:48,230
+这什么时候有用？
+When this is useful, well it's useful.
+
+551
+00:42:48,810 --> 00:42:53,630
+比如你有一个电源，
+For example, if you have a power source and you,
+
+552
+00:42:54,010 --> 00:42:58,590
+有两个端子，却不知道哪个
+you have two terminals, but you don't know which is the,
+
+553
+00:42:58,730 --> 00:43:02,270
+是地，哪个是 VCC，
+the ground and which one is V C C,
+
+554
+00:43:03,440 --> 00:43:05,150
+我来举个例子。
+lemme make an example.
+
+555
+00:43:07,800 --> 00:43:09,590
+它在哪儿？在这里。
+Where is it? Here? It's
+
+556
+00:43:13,560 --> 00:43:14,393
+比如，
+for example,
+
+557
+00:43:16,860 --> 00:43:19,970
+假设你想在项目中使用
+let's suppose that you want to use in your project
+
+558
+00:43:23,720 --> 00:43:28,260
+一个 USB，不对，一个，
+A, um, A U S B, no, uh, a, um,
+
+559
+00:43:29,580 --> 00:43:32,700
+移动电源来给项目供电。
+a power bank to supply your project.
+
+560
+00:43:34,080 --> 00:43:36,260
+那么你会用一根 USB 线。
+So you are going to use a U SS B cable.
+
+561
+00:43:41,650 --> 00:43:46,190
+举个例子，如果我，
+Let me make an example. So if I,
+
+562
+00:43:46,650 --> 00:43:51,550
+把这个 USB 接口插到电脑上，
+uh, plug this U S B port to my computer,
+
+563
+00:43:54,920 --> 00:43:57,280
+我没有空余的 USB 接口了。
+I don't have available U S B port.
+
+564
+00:43:58,290 --> 00:44:01,280
+看看能拔掉哪一个。好，就这个。
+Let's see which one I can remove. Okay, this one.
+
+565
+00:44:04,690 --> 00:44:08,070
+现在 USB 线已经插到了
+So now the U SS B cable is plugged
+
+566
+00:44:09,840 --> 00:44:14,830
+电脑上，在这里。不过，
+oh, to my computer here it's, but
+
+567
+00:44:18,190 --> 00:44:21,880
+你可以用 USB 线供电，把线剪开，
+Well, you can use A U S B cable as a power source. If you cut it,
+
+568
+00:44:22,540 --> 00:44:26,560
+剥开外皮，取出其中两根导线。
+you open it and you extract two wires
+
+569
+00:44:27,180 --> 00:44:31,560
+USB 线里通常有四根导线。
+inside A U S B cable. Usually you find four wires.
+
+570
+00:44:33,430 --> 00:44:36,650
+两根用来供电，
+Two, uh, two are used to power,
+
+571
+00:44:37,470 --> 00:44:40,370
+两根用于数据，另外两根用于供电。
+two are used for data and the other two for power.
+
+572
+00:44:40,590 --> 00:44:44,770
+你可以用这两根电源线为项目供电。
+And you can use these two power wires to supply your project.
+
+573
+00:44:45,220 --> 00:44:49,810
+它会提供 5 伏，USB 接口，
+It'll give you five vault U ss b uh, u s b uh, port.
+
+574
+00:44:50,560 --> 00:44:53,250
+通常提供 5 伏。
+They always provide five volt.
+
+575
+00:44:54,280 --> 00:44:58,890
+通常，剥开 USB 线，
+Then usually when you open a U S B cable
+
+576
+00:44:59,190 --> 00:45:01,050
+观察里面的导线，
+and you look at the wires inside,
+
+577
+00:45:01,360 --> 00:45:04,370
+会发现它们有不同颜色，这也是一种标准。
+they do have colors and this is another standard.
+
+578
+00:45:05,320 --> 00:45:09,970
+通常红线是 VCC，黑线
+Usually the red wire is V C C and the black wire
+
+579
+00:45:10,270 --> 00:45:11,370
+是地。
+is ground.
+
+580
+00:45:11,950 --> 00:45:16,450
+但是不要完全相信颜色，因为它们不一定
+But don't trust the colors because they are not always used
+
+581
+00:45:16,910 --> 00:45:19,490
+总按规范使用。最好的方式，
+in the proper way. The best way,
+
+582
+00:45:20,530 --> 00:45:25,510
+实际上，唯一能够确认
+actually the only way to be sure that you, uh,
+
+583
+00:45:25,510 --> 00:45:29,460
+你使用的是正确的，
+you are using the right, using uh, the,
+
+584
+00:45:29,560 --> 00:45:33,140
+正确的供电导线，
+the right wires to supply to power.
+
+585
+00:45:33,210 --> 00:45:37,980
+来为项目供电的方法，就是万用表。这里，
+Your project is the multimeter. So in this case,
+
+586
+00:45:40,310 --> 00:45:44,280
+可以怎么做？我刚把 USB 线连接到电脑上。
+what can I do? I just connected the U S B cable to the computer.
+
+587
+00:45:44,880 --> 00:45:45,713
+这里有
+I have
+
+588
+00:45:47,200 --> 00:45:52,100
+从 USB 线中引出的两根导线，
+the two wires coming out from the U SS B cable
+
+589
+00:45:52,680 --> 00:45:56,390
+然后使用，让我这样做，
+and the use, let me do this,
+
+590
+00:46:01,350 --> 00:46:05,650
+让我实际试一下。
+actually, let me try this. So,
+
+591
+00:46:11,610 --> 00:46:15,870
+好，我读到了一个电压，
+okay, and I read a voltage,
+
+592
+00:46:16,550 --> 00:46:19,190
+电压是负的，
+I read a voltage that is minus
+
+593
+00:46:20,060 --> 00:46:23,030
+负 5.05 伏。这是什么意思？
+5 0 5. What it means,
+
+594
+00:46:23,290 --> 00:46:28,010
+就是现在，
+it means that right now, right now
+
+595
+00:46:29,530 --> 00:46:33,110
+黑色表笔正在
+the um, the black probe is
+
+596
+00:46:34,810 --> 00:46:38,290
+接触 VCC 端。
+touching the V C C terminal.
+
+597
+00:46:40,300 --> 00:46:43,870
+再检查一下，交换
+So double check, I change
+
+598
+00:46:45,660 --> 00:46:48,840
+两支表笔所接触的导线，
+the probes on the wires
+
+599
+00:46:53,190 --> 00:46:55,890
+就能读到 5 伏了。
+and I can read five vault.
+
+600
+00:46:57,430 --> 00:47:02,410
+现在我确定这个方向是正确的。在这个
+Now I'm sure that this is the right orientation in this
+
+601
+00:47:02,410 --> 00:47:05,330
+例子里，红色导线确实，
+case. The red wire is actually,
+
+602
+00:47:07,200 --> 00:47:11,890
+确实是 VCC，而黑线确实是
+is actually V C C and the black is actually
+
+603
+00:47:12,030 --> 00:47:12,863
+地。
+ground.
+
+604
+00:47:20,700 --> 00:47:24,150
+再举一个例子，
+Then let me make another example.
+
+605
+00:47:24,750 --> 00:47:28,440
+还是关于电源的。
+Speaking about power source.
+
+606
+00:47:31,050 --> 00:47:35,260
+这是一个墙插电源适配器，它能够产生，
+This is a, a wall adapter that can generate,
+
+607
+00:47:36,040 --> 00:47:40,760
+产生电压，当然，它也是一种电源。
+uh, generate a vault, of course as a power source.
+
+608
+00:47:44,270 --> 00:47:47,440
+这里我同样剪开了
+Also, in this case, I just cut it
+
+609
+00:47:49,130 --> 00:47:51,270
+电缆，现在有
+the cable, I do have
+
+610
+00:47:53,300 --> 00:47:54,650
+这两个线头，
+these two end,
+
+611
+00:47:55,580 --> 00:47:59,410
+哪根是地，哪根是 VCC？
+which one is ground and which one is uh, V C C?
+
+612
+00:47:59,960 --> 00:48:01,890
+可以怎么做？我可以
+What can I do? Well, I can
+
+613
+00:48:03,650 --> 00:48:07,250
+把适配器插到墙上插座，
+connect the adapter to the wall,
+
+614
+00:48:08,620 --> 00:48:09,640
+使用万用表，
+use my multimeter,
+
+615
+00:48:09,900 --> 00:48:14,480
+检查哪根是地、哪根是 VCC。
+and I check which one is ground and which one is V C C
+
+616
+00:48:19,380 --> 00:48:24,210
+好，到目前为止，我们讨论了，
+Tai. So, so far we spoke about,
+
+617
+00:48:29,570 --> 00:48:34,070
+讨论了电压和电流。
+we spoke about, um, voltage and current.
+
+618
+00:48:36,760 --> 00:48:41,580
+接下来可以讲电路了。什么是电路？
+Then we are ready to speak of circuit. What is the circuit?
+
+619
+00:48:42,500 --> 00:48:46,020
+电路是利用电能的系统，
+Circuit is a system in which we use electric energy
+
+620
+00:48:47,890 --> 00:48:52,230
+是电子能够在其中移动的闭合回路。
+is a closed loop in which electrons can travel in.
+
+621
+00:48:56,990 --> 00:49:01,920
+所以我们需要一个电源，比如电池，
+So we need a power source, like a battery,
+
+622
+00:49:03,700 --> 00:49:06,640
+它是电子的来源。
+and that is the source of the electrons.
+
+623
+00:49:06,860 --> 00:49:10,840
+还需要电子可以通过的东西，
+And then we need something in which the electrons cannot travel
+
+624
+00:49:11,590 --> 00:49:15,610
+比如一根普通导线。不过，
+like a simple wire. Well,
+
+625
+00:49:17,100 --> 00:49:19,280
+如果做成这样的电路，
+if you do such a circuit,
+
+626
+00:49:20,580 --> 00:49:25,110
+也就是用一根导线把电池的两个
+so the battery with a wire here that connected the two
+
+627
+00:49:25,470 --> 00:49:29,650
+端子连接起来，就会造成短路，
+terminals, you make a short circuit, a short,
+
+628
+00:49:30,180 --> 00:49:34,850
+这会损坏电池，产生
+these damage your battery, uh, generate,
+
+629
+00:49:35,630 --> 00:49:36,650
+大量热量，
+uh, high heat
+
+630
+00:49:38,160 --> 00:49:41,220
+甚至会烧坏电池，
+and it can actually burn your battery
+
+631
+00:49:44,360 --> 00:49:47,170
+还可能冒烟、起火。
+with also some, uh, smoke and some fire.
+
+632
+00:49:47,990 --> 00:49:52,970
+所以一定要避免把电源的两个
+So always avoid to short the two
+
+633
+00:49:53,290 --> 00:49:55,970
+端子短接。
+terminals of your power source.
+
+634
+00:50:00,200 --> 00:50:02,930
+因此，这种，
+So this,
+
+635
+00:50:03,240 --> 00:50:07,490
+并不是一个能正常工作的电路。
+this actually is not a functional circuit,
+
+636
+00:50:08,930 --> 00:50:10,710
+所以我们需要，
+so we need to,
+
+637
+00:50:10,710 --> 00:50:14,110
+需要一个不会烧坏的电路。
+to have a circuit that doesn't burn.
+
+638
+00:50:15,590 --> 00:50:19,010
+我们需要，其实先解释一下，为什么会烧？
+We need, and actually let me say something, why this burn?
+
+639
+00:50:20,040 --> 00:50:24,410
+因为电子可以移动得非常，
+Because the electrons are capable, can travel so,
+
+640
+00:50:24,430 --> 00:50:26,610
+非常快，在移动的同时，
+so quickly and while traveling,
+
+641
+00:50:26,760 --> 00:50:31,360
+会迅速释放能量，
+they are releasing their energy so quickly that
+
+642
+00:50:31,760 --> 00:50:35,950
+产生大量热量。问题就在于，
+generate high heat. So that is the problem,
+
+643
+00:50:36,990 --> 00:50:39,710
+给电子提供了一条不受限制的通路。
+a free path for the electrons to travel.
+
+644
+00:50:43,320 --> 00:50:44,420
+那么我们需要什么？
+So what do we need?
+
+645
+00:50:44,530 --> 00:50:49,300
+需要在电路中放入某种东西，
+Then we need to put in our circuit something
+
+646
+00:50:49,770 --> 00:50:50,603
+它能够
+that can
+
+647
+00:50:52,360 --> 00:50:56,550
+阻挡电子，或者说避免短路，
+block the electrons or let's say avoid the short,
+
+648
+00:50:57,220 --> 00:50:59,950
+让电子慢下来。
+slow down the electrons.
+
+649
+00:51:01,790 --> 00:51:02,623
+我们称它为，
+We call it.
+
+650
+00:51:04,260 --> 00:51:08,800
+一般把这种元件称为负载。
+The general way to call this element is load
+
+651
+00:51:13,770 --> 00:51:18,580
+在这幅略接近实物的示意图中，
+that in this representation, realistic representation somehow
+
+652
+00:51:20,120 --> 00:51:24,100
+它只是一个写着“负载”的矩形块。
+is just rectangle a block with the text load.
+
+653
+00:51:24,400 --> 00:51:26,900
+这是偏向实物的表示方式，
+So this is a kind of realistic representation.
+
+654
+00:51:27,610 --> 00:51:30,540
+而这是原理图的表示方式。
+This is a schematic representation.
+
+655
+00:51:31,330 --> 00:51:35,820
+熟悉这些符号和原理图视图很重要。
+It's important to get used to these symbols and the schematic view.
+
+656
+00:51:39,680 --> 00:51:40,513
+所以，
+So
+
+657
+00:51:42,170 --> 00:51:45,220
+有了这三个要素：电源、走线，
+with these three element of our source traces
+
+658
+00:51:46,950 --> 00:51:51,840
+也就是连接各元件、供电子流动的路径，以及负载，
+that connect different element and where the electrons can flow and a load,
+
+659
+00:51:54,060 --> 00:51:57,960
+你就有了一个电路，可以使用
+you have a circuit and you can use
+
+660
+00:51:59,470 --> 00:52:03,020
+电能了。接着看电源。
+electric energy power source.
+
+661
+00:52:05,330 --> 00:52:08,780
+这里展示一些便携式的方案，
+Here I'm just showing some portable solutions,
+
+662
+00:52:09,280 --> 00:52:13,580
+上面是电压不同的不可充电电池，
+not rechargeable batteries on top with different voltages.
+
+663
+00:52:14,170 --> 00:52:17,340
+9 伏、1.5 伏和 3 伏。
+Nine volt, 1.5 and three volt.
+
+664
+00:52:18,500 --> 00:52:23,360
+下面是可充电电池。移动电源，
+And in the bottom side there are rechargeable batteries. Power bank,
+
+665
+00:52:24,680 --> 00:52:27,890
+通过 USB 接口提供 5 伏电压。
+they give you five volt through a u ss B port.
+
+666
+00:52:28,510 --> 00:52:31,490
+不过，如果看一下移动电源内部，
+But actually if we look inside a power bank,
+
+667
+00:52:31,510 --> 00:52:36,490
+就会发现这些电芯，锂聚合物电池。
+we would find these cells, lithium polymer batteries,
+
+668
+00:52:36,800 --> 00:52:40,490
+它们可以充电，电压为 3.7 伏。
+they are rechargeable, they generate 2.7 volt,
+
+669
+00:52:41,390 --> 00:52:43,570
+它们很不错，
+but they're really nice. They are,
+
+670
+00:52:43,640 --> 00:52:46,970
+可以做得很小，具体取决于所需电流，
+they can be small depending on how much current you need
+
+671
+00:52:49,240 --> 00:52:51,700
+而且，
+and mm,
+
+672
+00:52:53,010 --> 00:52:57,810
+可以很小，也可以充电。不过，这些电池的缺点，
+they can be small and they're rechargeable disadvantage of
+
+673
+00:52:57,810 --> 00:52:58,650
+这些电池，
+these batteries.
+
+674
+00:52:59,110 --> 00:53:03,950
+缺点在于，不能把它们的电量
+The the disadvantage of these batteries are the fact that you cannot
+
+675
+00:53:06,150 --> 00:53:10,100
+完全耗尽。为什么？
+empty them completely. Why?
+
+676
+00:53:10,400 --> 00:53:14,340
+如果把这种电池彻底放空，
+If you discharge completely this battery,
+
+677
+00:53:15,360 --> 00:53:20,300
+就可能无法再次充电。
+you risk to, uh, not be able to charge it again,
+
+678
+00:53:21,710 --> 00:53:25,060
+这是第一个缺点。第二个缺点，
+first disadvantage, second disadvantage.
+
+679
+00:53:28,300 --> 00:53:32,670
+没电或快没电、需要充电的时候，
+When it is empty or almost empty and you need to recharge it,
+
+680
+00:53:33,170 --> 00:53:36,990
+不能过度充电。一旦充满，
+you cannot overcharge it. Once it's full,
+
+681
+00:53:37,330 --> 00:53:41,170
+就应该停止充电。
+you should stop the charging action.
+
+682
+00:53:42,580 --> 00:53:44,640
+为什么？因为过度充电，
+Why? Because overcharging,
+
+683
+00:53:44,980 --> 00:53:48,000
+也就是电池已经充满却还继续充电，
+so keeping a charging while the battery is full,
+
+684
+00:53:48,460 --> 00:53:53,320
+可能会损坏电池，让它过热，甚至烧起来，
+you risk to damage and over it and burn the
+
+685
+00:53:53,320 --> 00:53:54,153
+烧坏电池。
+battery.
+
+686
+00:53:55,760 --> 00:54:00,420
+如何避免这两种情况？需要额外的硬件。
+How can you avoid these two situations? You need extra hardware.
+
+687
+00:54:00,600 --> 00:54:01,400
+因此，你，
+So you,
+
+688
+00:54:01,400 --> 00:54:05,900
+可以买到一些小电路板，
+you find in the market small board that
+
+689
+00:54:07,130 --> 00:54:09,980
+负责处理这两方面的问题，
+take care of both, of both.
+
+690
+00:54:10,520 --> 00:54:13,540
+也就是充电电池的这两个方面。
+The aspect of these rechargeable batteries,
+
+691
+00:54:18,210 --> 00:54:21,950
+以上简单介绍了，
+and this is a quick overview of, um,
+
+692
+00:54:22,350 --> 00:54:24,150
+便携式电源，
+portable power sources,
+
+693
+00:54:26,270 --> 00:54:27,600
+它是电路的一部分。
+part of your circuit.
+
+694
+00:54:28,590 --> 00:54:33,560
+电路中的另一个要素是走线。
+Then another element of your circuit are the traces.
+
+695
+00:54:34,920 --> 00:54:39,740
+走线就是连接各处的实体线路，
+The traces are actually the connections, the physical lines
+
+696
+00:54:41,990 --> 00:54:44,010
+电子可以沿着它们移动。
+in which the electrons can travel.
+
+697
+00:54:46,150 --> 00:54:47,460
+这些走线，
+These traces,
+
+698
+00:54:48,850 --> 00:54:51,700
+并不是任何材料都能做。
+they cannot be made of any material.
+
+699
+00:54:52,350 --> 00:54:55,380
+有些材料，
+There are some materials that, uh,
+
+700
+00:54:55,440 --> 00:54:59,460
+叫作导体，它们，
+are called conductors and they, uh,
+
+701
+00:54:59,910 --> 00:55:03,960
+能让电子非常，
+allow the electrons to flow very,
+
+702
+00:55:03,990 --> 00:55:05,600
+非常顺畅地流动，
+very smoothly and very,
+
+703
+00:55:05,600 --> 00:55:10,000
+很容易通过，不会给
+very easy without creating any obstacle due to, uh,
+
+704
+00:55:11,140 --> 00:55:16,090
+电子造成多少阻碍。比如银、金，
+to the electrons. Some examples, silver, gold,
+
+705
+00:55:16,090 --> 00:55:20,330
+铜、海水，都是导体。所以电子，
+copper seal seawater. They are con conductors. So the electrons,
+
+706
+00:55:20,510 --> 00:55:24,490
+也就是电流，可以通过。怎样才能，
+the current can flow. How can you,
+
+707
+00:55:26,070 --> 00:55:31,050
+知道手边的一种材料能不能
+how can you know if a material you have around can be
+
+708
+00:55:31,050 --> 00:55:32,610
+用作走线呢？
+used as a trace?
+
+709
+00:55:33,630 --> 00:55:37,050
+也就是，这种材料是不是导体？
+So if this material is a, a conductor,
+
+710
+00:55:37,280 --> 00:55:39,610
+可以使用万用表，
+well you can use the multimeter,
+
+711
+00:55:40,630 --> 00:55:45,370
+用它的另一种模式，
+you can use the multimeter in a different mode from
+
+712
+00:55:45,590 --> 00:55:48,410
+与前面不同，是通断测试模式。
+before. In a continuity mode,
+
+713
+00:55:49,690 --> 00:55:50,760
+通断测试模式，
+continuity mode,
+
+714
+00:55:51,660 --> 00:55:55,520
+可以在万用表上选择，
+you can select the continuity mode of the multimeter
+
+715
+00:56:01,190 --> 00:56:02,023
+通过转动，
+moving,
+
+716
+00:56:10,210 --> 00:56:10,520
+嗯，
+uh,
+
+717
+00:56:10,520 --> 00:56:15,310
+通过万用表上的旋钮，转到
+using the knob on the multimeter and going to
+
+718
+00:56:16,560 --> 00:56:20,300
+这个声音，
+the point where there is this sound,
+
+719
+00:56:21,980 --> 00:56:22,890
+声音符号所在的位置，
+sound symbol,
+
+720
+00:56:25,720 --> 00:56:27,930
+这个蜂鸣标记。
+this noise mark.
+
+721
+00:56:31,930 --> 00:56:34,970
+如果，
+And if,
+
+722
+00:56:37,990 --> 00:56:42,450
+在这个模式下，
+If I touch in this mode,
+
+723
+00:56:42,830 --> 00:56:47,090
+让万用表的两支表笔
+if I touch the two probes of the
+
+724
+00:56:47,580 --> 00:56:50,770
+碰在一起，就会发出蜂鸣。为什么？
+multimeter, there will beep. Why?
+
+725
+00:56:50,770 --> 00:56:55,730
+因为它们通过，
+Because they're con uh, connected through, um,
+
+726
+00:56:57,670 --> 00:56:58,930
+因为，让我，
+be because let me uh,
+
+727
+00:56:58,990 --> 00:57:03,370
+换个更清楚的说法，因为电子能够
+say it better because the electrons can
+
+728
+00:57:04,700 --> 00:57:09,640
+很容易地从一支表笔流到另一支。
+easily travel from one probe to the other one.
+
+729
+00:57:11,890 --> 00:57:16,750
+所以拿这根跳线来说，如果接触
+So if I take this jumper wire and i I touch
+
+730
+00:57:17,250 --> 00:57:20,150
+这根跳线的两端，
+the two end of this jumper wire,
+
+731
+00:57:21,130 --> 00:57:25,030
+万用表就会响。这意味着什么？
+the multimeter will beep what it means, it means that
+
+732
+00:57:27,110 --> 00:57:29,950
+意味着可以用这根线
+I can use this wire
+
+733
+00:57:31,580 --> 00:57:33,880
+制作电路中的走线。
+to make a trace in my circuit.
+
+734
+00:57:34,910 --> 00:57:39,240
+这个导电，而纸是不导电的。
+This is conductive paper is not conductive.
+
+735
+00:57:42,220 --> 00:57:46,580
+让我看看。
+Let me see, let me see.
+
+736
+00:57:49,180 --> 00:57:53,650
+铝箔，铝箔，
+Aluminum fo foil, aluminum foil,
+
+737
+00:57:57,390 --> 00:57:59,670
+铝箔是导电的。
+aluminum foil is conductive.
+
+738
+00:58:02,340 --> 00:58:04,470
+再看其他例子，比如木头，
+Some other examples, wood,
+
+739
+00:58:08,100 --> 00:58:11,310
+这里的木头。我的桌子就是木头的。
+wood here. Well, I I, my table is wood. Um,
+
+740
+00:58:12,460 --> 00:58:14,310
+这卷胶带，
+this tape,
+
+741
+00:58:15,780 --> 00:58:17,750
+这种胶带完全不导电。
+this tape is not conductive at all.
+
+742
+00:58:19,840 --> 00:58:21,500
+再拿一个例子。
+Let me take another example.
+
+743
+00:58:24,870 --> 00:58:29,210
+银导电布，它是导电的。
+Silver fabric. This is conductive.
+
+744
+00:58:29,990 --> 00:58:32,730
+所以，这是一块银，
+So this is a silver, uh,
+
+745
+00:58:32,750 --> 00:58:35,490
+银导电布，可以使用。实际上，
+fabric that can be used. Actually,
+
+746
+00:58:35,490 --> 00:58:40,250
+这是很不错的材料，因为，
+this is a very nice solution because
+
+747
+00:58:40,690 --> 00:58:43,990
+它其实是一种胶带。
+actually this is tape.
+
+748
+00:58:45,760 --> 00:58:47,700
+所以有一面带胶，
+So on one side there is a glue,
+
+749
+00:58:51,130 --> 00:58:51,963
+嗯，
+uh,
+
+750
+00:58:56,490 --> 00:59:00,340
+对，好。揭掉背面的白色离型纸，就能看到胶。
+yeah, okay. If you remove the white film on the back, there is glue.
+
+751
+00:59:00,340 --> 00:59:01,900
+它可以当作胶带使用。
+It can be used as a tape.
+
+752
+00:59:01,960 --> 00:59:06,900
+因此可以剪出你所需要的
+So you can cut the shape of the traces that you
+
+753
+00:59:06,900 --> 00:59:11,500
+走线形状。它是导电的。另一个例子，
+need. And this is a conductive. Another example,
+
+754
+00:59:14,670 --> 00:59:15,530
+铜导电布。
+Copper fabric.
+
+755
+00:59:22,160 --> 00:59:22,993
+好，
+Well,
+
+756
+00:59:25,550 --> 00:59:30,550
+看到了吗？让我看看。
+You see, let me see, let me see.
+
+757
+00:59:35,150 --> 00:59:38,380
+我想得拿一块小一点的。
+I need to take a smaller piece I guess.
+
+758
+00:59:39,850 --> 00:59:40,683
+好了。
+Here we are.
+
+759
+00:59:43,950 --> 00:59:46,640
+这是铜导电布，
+This is copper fabric
+
+760
+00:59:48,350 --> 00:59:51,730
+可以用来制作走线。
+and can be used as a trace
+
+761
+00:59:56,120 --> 00:59:57,310
+导电线，
+conductive thread,
+
+762
+01:00:07,440 --> 01:00:11,930
+这是导电线，万用表正在响。
+disease conductive thread, and it's a beeping.
+
+763
+01:00:19,030 --> 01:00:19,863
+所以，
+So
+
+764
+01:00:22,580 --> 01:00:26,640
+万用表的这个模式，
+the multimeter can actually, in this mode gives,
+
+765
+01:00:26,990 --> 01:00:31,080
+能够帮助我们了解材料及其
+give us an idea on the material and its
+
+766
+01:00:32,320 --> 01:00:34,720
+电学特性。
+electric, um, characteristics.
+
+767
+01:00:38,680 --> 01:00:43,340
+通断测试模式还可以用来寻找，
+The continu continuity mode is, uh, also used to find,
+
+768
+01:00:44,240 --> 01:00:45,073
+嗯，
+um,
+
+769
+01:00:45,460 --> 01:00:49,380
+项目和电路中的错误。
+mistakes in our project and in our circuit.
+
+770
+01:00:50,080 --> 01:00:54,320
+比如电路搭好了，却不能正常工作，
+So for example, you have your circuit, it's not working,
+
+771
+01:00:55,790 --> 01:00:56,623
+该怎么办？
+what do you do?
+
+772
+01:00:56,780 --> 01:01:01,720
+将万用表调到通断测试模式，然后逐个部分
+You take the multimeter in continuity mode and you check part by
+
+773
+01:01:01,720 --> 01:01:02,010
+检查，
+part,
+
+774
+01:01:02,010 --> 01:01:06,840
+检查那些本应连接在一起的部分，看看
+which are the part that are supposed to be connected to see if
+
+775
+01:01:07,210 --> 01:01:08,360
+有没有接错。
+there is a mistake.
+
+776
+01:01:08,580 --> 01:01:13,560
+有些元件可能没有实际连接起来，这可能就是
+So some element are not physically connected and that could be the reason
+
+777
+01:01:14,460 --> 01:01:19,200
+电路不工作的原因。
+of the, the reason of, uh, the fact that the secret is not working.
+
+778
+01:01:25,160 --> 01:01:25,993
+现在，
+Now
+
+779
+01:01:27,700 --> 01:01:31,950
+这是电路中的第三个要素，负载，
+this is the third element of our circuit. The load
+
+780
+01:01:34,980 --> 01:01:37,340
+就是刚才提到的负载。最，
+I just mentioned. The load the most,
+
+781
+01:01:43,020 --> 01:01:44,680
+最常用的，
+the most used,
+
+782
+01:01:46,360 --> 01:01:51,150
+或者说电子学中最常用来
+let's say one of the most used device in electronics to,
+
+783
+01:01:51,650 --> 01:01:54,790
+控制电子的器件之一，
+um, to control the electrons.
+
+784
+01:01:54,890 --> 01:01:59,750
+也就是控制电路中电流的器件，是电阻器。
+So to control the current in your circuit is the resistor.
+
+785
+01:02:01,360 --> 01:02:06,220
+电阻器实际上用来阻碍电流，
+The resistor is actually used to impede a flow of current
+
+786
+01:02:07,640 --> 01:02:12,340
+控制电压。这一点会，
+to control the voltage and, uh, it's gonna be more clear,
+
+787
+01:02:12,590 --> 01:02:16,940
+稍后会讲得更清楚。电阻器，
+clear later there resistor. There.
+
+788
+01:02:17,020 --> 01:02:18,860
+电阻器是，
+Resistor is,
+
+789
+01:02:20,440 --> 01:02:24,860
+一种在硬，
+is an element that in the, uh, hard, uh,
+
+790
+01:02:25,220 --> 01:02:28,140
+硬件电子学领域中，
+hardware, word of electronics
+
+791
+01:02:30,240 --> 01:02:34,230
+有一个主体，
+has, has a body,
+
+792
+01:02:36,270 --> 01:02:41,050
+有主体和两个端子的元件，也就是两根长引脚。
+has a body with two terminals. So with the two long legs,
+
+793
+01:02:42,500 --> 01:02:46,120
+不过电阻器还有其他外形。
+but you can find the resistors also in another shape.
+
+794
+01:02:47,400 --> 01:02:49,080
+比如小方块，非常，
+A small blocks, really,
+
+795
+01:02:49,180 --> 01:02:53,680
+非常小，封装尺寸只有几毫米，
+really small few millimeters size package
+
+796
+01:02:55,500 --> 01:03:00,310
+也有两个端子，只是封装不同。
+with a two terminal, but just with a different package.
+
+797
+01:03:00,490 --> 01:03:04,950
+它仍然是电阻器，只是封装不同。这种情况，
+So it's still a resistor, just a different package. And this is quite valid.
+
+798
+01:03:05,930 --> 01:03:09,950
+在各种电子器件中都很常见。
+Mm. With, um, with all electronic devices,
+
+799
+01:03:10,340 --> 01:03:14,830
+电子器件通常会有这两种
+usually the electronic device devices are made with these two
+
+800
+01:03:15,980 --> 01:03:16,813
+形态，
+shapes,
+
+801
+01:03:17,260 --> 01:03:21,640
+一种带引脚，一种是扁平的，没有长脚，只有端子。
+one with the legs and one flat without legs only with the terminals.
+
+802
+01:03:23,700 --> 01:03:24,960
+带有引脚的
+The devices
+
+803
+01:03:26,510 --> 01:03:30,640
+器件使用通孔技术，
+with the legs are called through whole technology.
+
+804
+01:03:31,060 --> 01:03:35,550
+也就是 THT 器件。而这些，
+So t h t devices. This,
+
+805
+01:03:35,810 --> 01:03:38,920
+很小的器件，
+the tiny devices,
+
+806
+01:03:39,820 --> 01:03:41,720
+那些扁平的器件，
+the one that are flat,
+
+807
+01:03:42,960 --> 01:03:47,320
+使用的是表面贴装技术，
+actually they are called surface mounted technology,
+
+808
+01:03:47,920 --> 01:03:51,440
+也就是 SMT，或者叫 SMD，表面贴装器件。
+S m t or ss m d surface mounted devices.
+
+809
+01:03:53,620 --> 01:03:58,120
+哪种最好呢？它们都是电阻器，
+So which one is the best? Well, they, they are both resistor.
+
+810
+01:03:58,120 --> 01:03:59,280
+工作原理一样。
+They work in the same way.
+
+811
+01:04:00,180 --> 01:04:04,400
+一种通常用于带有
+One is used usually when on your board there are
+
+812
+01:04:04,850 --> 01:04:07,880
+通孔的电路板，更容易焊接，
+holes. It's easier to soldier,
+
+813
+01:04:08,380 --> 01:04:10,680
+但占用更多空间。
+but it occupies more space.
+
+814
+01:04:11,620 --> 01:04:16,600
+SMT 器件较小，所以不会占用
+The s m T devices are smaller so they don't o occupy
+
+815
+01:04:16,640 --> 01:04:18,600
+太多空间，不过，
+a lot of space, but it's even,
+
+816
+01:04:19,740 --> 01:04:22,120
+会更难，
+but it's more difficult to, uh,
+
+817
+01:04:22,450 --> 01:04:25,280
+更难安装和焊接。
+embed them equipped to soldier them.
+
+818
+01:04:27,140 --> 01:04:31,520
+当然，电阻器有自己的原理图符号。
+Of course, the resistors, they have a symbol, a schematic symbol.
+
+819
+01:04:32,750 --> 01:04:37,570
+不止一种，而是有两种可用的符号。
+Of course there is not only one, but we do have two possible symbols.
+
+820
+01:04:37,990 --> 01:04:42,530
+一种是锯齿线，另一种是一个方框，
+One is a sit zg and the other one is just a, uh, a block,
+
+821
+01:04:42,530 --> 01:04:43,363
+一个空心方框。
+an empty block.
+
+822
+01:04:43,720 --> 01:04:48,650
+原理图里通常会在这个元件旁边标一个 R，
+Usually in the schematic you will find a r close to this element
+
+823
+01:04:49,630 --> 01:04:51,960
+说明它是电阻器。
+to specify this is a resistor.
+
+824
+01:04:54,160 --> 01:04:58,420
+刚才说过，电阻器能够阻碍
+The resistor we said has the capability to impede
+
+825
+01:04:59,360 --> 01:05:00,860
+电子的流动。
+the flow of the electrons.
+
+826
+01:05:01,330 --> 01:05:06,020
+这种能力称为电阻，其计量单位
+This capability is called resistance and is measured
+
+827
+01:05:06,520 --> 01:05:07,540
+是欧姆，
+in homes
+
+828
+01:05:09,060 --> 01:05:12,390
+用希腊字母 Ω 表示，欧姆。
+with the omega Greek symbol homes.
+
+829
+01:05:14,590 --> 01:05:17,600
+所以我们会说 100 欧姆，
+So we speak about 100 homes,
+
+830
+01:05:18,420 --> 01:05:19,920
+1000 欧姆，
+1000 homes,
+
+831
+01:05:20,470 --> 01:05:24,200
+5000 欧姆。像前面一样，
+5,000 homes like we do with the,
+
+832
+01:05:24,620 --> 01:05:29,440
+我们使用简写，不说 1000 欧姆，
+we use a notation. So instead of say 1000 homes,
+
+833
+01:05:29,980 --> 01:05:33,920
+而是用 kilo，也就是 1k，1 千欧，
+we use kilo one k, one kilo,
+
+834
+01:05:34,580 --> 01:05:39,170
+1 千欧就是 1000 欧姆。
+one kilo is 1000 homes,
+
+835
+01:05:40,800 --> 01:05:44,810
+4.7 千欧等于，
+four seven kilos is equal to
+
+836
+01:05:46,780 --> 01:05:48,440
+4.7 千欧，
+one seven kilos. Um,
+
+837
+01:05:48,900 --> 01:05:51,880
+就是 4700 欧姆。
+is 4,700 homes.
+
+838
+01:05:55,650 --> 01:06:00,080
+千欧这个单位经常用到。那么，
+Ki is used quite a lot. Then
+
+839
+01:06:04,680 --> 01:06:07,220
+实际怎样测量呢？猜猜看，
+how do we actually measure it? Guess what?
+
+840
+01:06:08,220 --> 01:06:10,240
+我们还是要用万用表。
+We are going to use the multimeter.
+
+841
+01:06:14,730 --> 01:06:18,110
+怎么用万用表呢？
+The multimeter, how well
+
+842
+01:06:20,690 --> 01:06:24,880
+需要选择正确的模式。
+we need to select the right mode,
+
+843
+01:06:25,580 --> 01:06:28,640
+如何选择？在哪里找？
+how to select the right mode, where to find it. Well,
+
+844
+01:06:28,700 --> 01:06:33,320
+把万用表调到欧姆符号，也就是 Ω 的位置，
+you need to go with the multimeter to the symbol home omega,
+
+845
+01:06:49,720 --> 01:06:51,060
+让我切换摄像头。
+let me change camera.
+
+846
+01:06:53,970 --> 01:06:57,110
+我这里有一个电阻器，
+So I have the resistor here.
+
+847
+01:07:00,340 --> 01:07:01,740
+把它放到桌子上，
+I place it on the table,
+
+848
+01:07:03,470 --> 01:07:06,150
+在万用表上选择
+I select with the multimeter
+
+849
+01:07:09,600 --> 01:07:10,433
+欧姆档，
+at home,
+
+850
+01:07:13,250 --> 01:07:16,420
+然后用表笔接触两个端子，
+and I touch the two terminals
+
+851
+01:07:18,160 --> 01:07:21,590
+会读到什么？
+with the probe. And what do I read?
+
+852
+01:07:24,340 --> 01:07:29,250
+我把灯打开，这样大家也许能看得更清楚。
+Let me turn on the light. Maybe you can also see it better.
+
+853
+01:07:35,020 --> 01:07:38,780
+好了。
+Uh, here we are. Okay,
+
+854
+01:07:40,830 --> 01:07:43,630
+测到多少？
+what do I measure?
+
+855
+01:07:44,590 --> 01:07:48,910
+我测到 149 点……[原文不清]。
+I measure 149. Do oh one.
+
+856
+01:07:49,700 --> 01:07:52,190
+对，这个，
+Yeah, the, the,
+
+857
+01:07:52,290 --> 01:07:57,030
+数字不稳定，因为我的手没拿稳。
+the number is not steady because my hands are not okay,
+
+858
+01:07:57,450 --> 01:08:00,970
+所以可以说是，
+so I would say one, uh,
+
+859
+01:08:01,030 --> 01:08:02,850
+150 欧姆。
+150 home.
+
+860
+01:08:03,830 --> 01:08:07,250
+不需要精确到小数。
+You don't need to be accurately with decimals.
+
+861
+01:08:07,390 --> 01:08:12,130
+可以把欧姆数取个整。让我，
+You can round the number of homes that me
+
+862
+01:08:15,280 --> 01:08:16,490
+再拿一个。
+take another one.
+
+863
+01:08:26,990 --> 01:08:31,040
+好，我在这里尝试测量，但只读到了，
+Okay, here I try to measure something, but I just read,
+
+864
+01:08:35,570 --> 01:08:39,450
+只显示 OL，超量程。
+I just read ol overload.
+
+865
+01:08:39,830 --> 01:08:44,070
+这说明需要调整量程。有些万用表，
+It means that I need to change the scale. Some of the multimeters,
+
+866
+01:08:44,140 --> 01:08:47,950
+会自动切换量程，你就不必
+they change automatically this the scale so you don't have
+
+867
+01:08:49,170 --> 01:08:50,590
+自己调整了。
+to take care of it.
+
+868
+01:08:53,480 --> 01:08:55,950
+还是超量程。再调高一档。
+Still overload. Let's go higher.
+
+869
+01:09:00,250 --> 01:09:01,870
+好了，
+So here we are,
+
+870
+01:09:02,650 --> 01:09:05,710
+220 千欧。
+220 kilo homes.
+
+871
+01:09:07,410 --> 01:09:10,450
+我刚才选的是 600 千欧量程。
+I just selected the scale 600 kilo.
+
+872
+01:09:10,790 --> 01:09:15,010
+所以显示屏上的所有数字，都需要
+So all the numbers that I read on the display must be
+
+873
+01:09:15,690 --> 01:09:20,330
+按千欧理解。也就是 220 千欧。
+multiplied by kilo home. So 220 kilo home.
+
+874
+01:09:22,170 --> 01:09:25,260
+另一种知道，抱歉，
+Another way to know, sorry.
+
+875
+01:09:25,690 --> 01:09:29,920
+另一种确定电阻器阻值的方法，
+Another way to know the value of your resistor
+
+876
+01:09:31,650 --> 01:09:36,630
+是读取色环。所以电阻器，
+is to read the color band. So the resistors,
+
+877
+01:09:36,780 --> 01:09:39,310
+使用这种封装的电阻器，
+when they, uh, uh, this package,
+
+878
+01:09:39,940 --> 01:09:43,550
+外壳上有不同颜色的环，
+they do have colors lines on the package,
+
+879
+01:09:45,170 --> 01:09:49,920
+这些颜色属于一套编码，
+and these colors are part of a code,
+
+880
+01:09:50,840 --> 01:09:53,760
+用色环编码来标识。
+a color band code to identify.
+
+881
+01:09:55,070 --> 01:09:58,810
+每种颜色都有相应的数值。
+So each color has, um, has a value.
+
+882
+01:09:59,150 --> 01:10:03,210
+所以能够根据颜色读出电阻的阻值。
+So you can actually see the value of the resistor through the colors.
+
+883
+01:10:04,650 --> 01:10:05,930
+我更喜欢用万用表。
+I prefer the multimeter.
+
+884
+01:10:10,400 --> 01:10:14,290
+有了这三个要素，
+So with these three element,
+
+885
+01:10:17,310 --> 01:10:18,143
+一个电源，
+a power source,
+
+886
+01:10:19,460 --> 01:10:24,430
+一些走线和一个负载，这里是电阻器，
+some traces and a loading, in this case a resistor.
+
+887
+01:10:24,430 --> 01:10:26,390
+我们就有了一个电路。
+We have a circuit, we have a sea.
+
+888
+01:10:27,540 --> 01:10:32,310
+这里可以看到一种接近实物的
+Here you can see a kind of your realistic representation of the
+
+889
+01:10:32,310 --> 01:10:36,890
+电路表示。在幻灯片上，还能
+circuit. In the slide, you can
+
+890
+01:10:38,900 --> 01:10:40,110
+看到两张，
+then see two
+
+891
+01:10:42,040 --> 01:10:46,110
+同一个电路的原理图。这里，
+schematic of the same circuit. Here,
+
+892
+01:10:46,200 --> 01:10:48,230
+没有使用电源符号，
+there is not a symbol for the power source,
+
+893
+01:10:48,490 --> 01:10:51,270
+而是标出了 VCC 和地。
+but there are V C C and ground.
+
+894
+01:10:53,420 --> 01:10:56,920
+在这些图中，
+And in these um, representations,
+
+895
+01:10:57,340 --> 01:10:58,840
+还画出了，
+we also have
+
+896
+01:11:00,420 --> 01:11:05,280
+从正极流向
+the representation of the current that goes from the positive to the
+
+897
+01:11:06,040 --> 01:11:07,120
+负极的电流方向。
+negative terminal.
+
+898
+01:11:11,000 --> 01:11:15,940
+所以电压是两点之间的电荷差异，
+So the voltage is the difference in charge between two
+
+899
+01:11:15,940 --> 01:11:17,180
+始终是两点之间。
+point always,
+
+900
+01:11:17,200 --> 01:11:22,100
+电压总是相对于两点而言，
+the voltage is referred to two point between the
+
+901
+01:11:22,100 --> 01:11:24,460
+是两个点之间的电压。
+voltage, between two point.
+
+902
+01:11:25,720 --> 01:11:30,100
+电流是流过的电子数量，而
+The current is the amount of electrons that flow and
+
+903
+01:11:30,640 --> 01:11:32,100
+电阻，
+the resistance.
+
+904
+01:11:32,520 --> 01:11:37,450
+电阻器在这里起阻碍作用，
+So the resistor is there to impede and
+
+905
+01:11:37,560 --> 01:11:41,490
+对电子的流动产生阻力。
+provide resistance to the flow of the electrons.
+
+906
+01:11:42,840 --> 01:11:46,450
+这三个量之间有什么
+What is the relation between these three
+
+907
+01:11:47,180 --> 01:11:52,170
+关系？这个，
+quantities? This is,
+
+908
+01:11:53,120 --> 01:11:57,730
+这种关系由欧姆，
+this relation is expressed, expressed in homes
+
+909
+01:12:01,020 --> 01:12:04,430
+由欧姆定律表达。抱歉，是欧姆定律。
+with homes law. Sorry, homes law.
+
+910
+01:12:05,560 --> 01:12:08,570
+它说什么呢？它说，
+What does it say? It says that the voltage
+
+911
+01:12:10,660 --> 01:12:13,560
+电阻器两端的电压，
+across a resistor
+
+912
+01:12:15,440 --> 01:12:19,900
+等于电流 I 乘以
+is equal to the current I times
+
+913
+01:12:21,790 --> 01:12:25,810
+电阻，也就是这个电阻器的阻值。
+the resistance. So the value of that resistor,
+
+914
+01:12:30,330 --> 01:12:34,100
+这是什么意思？就是，
+what does it mean? It means that
+
+915
+01:12:37,010 --> 01:12:41,680
+阻值越高，
+If no higher is the value
+
+916
+01:12:41,980 --> 01:12:46,650
+电流越小。
+of the resistor, lower is the current.
+
+917
+01:12:47,190 --> 01:12:49,210
+所以电阻越大，
+So higher is the resistance.
+
+918
+01:12:49,590 --> 01:12:53,250
+也就是阻碍电子流动的能力越强，
+So the capability to block the electrons
+
+919
+01:12:55,450 --> 01:12:57,480
+流过的电子就越少。
+lower will be the electrons.
+
+920
+01:12:58,460 --> 01:13:00,600
+因此电流就越小。
+So lower is gonna be the current,
+
+921
+01:13:02,800 --> 01:13:04,710
+电阻越小，
+lower is the resistor.
+
+922
+01:13:05,010 --> 01:13:09,590
+也就是低阻值的电阻器，会产生
+So low values of resistors provide
+
+923
+01:13:11,440 --> 01:13:16,130
+较大的电流，因为它对
+high current because they impede less the flow of
+
+924
+01:13:16,390 --> 01:13:17,570
+电子流动的阻碍较小。
+the electrons.
+
+925
+01:13:25,260 --> 01:13:29,160
+那么，怎样使用欧姆定律？
+Now how do we use these homes? Law?
+
+926
+01:13:30,940 --> 01:13:33,920
+让我讲完这最后一部分。
+Let me go through this last part.
+
+927
+01:13:42,560 --> 01:13:42,990
+好，
+Well,
+
+928
+01:13:42,990 --> 01:13:47,730
+我来简单说明一下，
+let me just give you an indication on
+
+929
+01:13:47,830 --> 01:13:50,970
+我怎样形象地理解欧姆定律。
+how I visualize homes law.
+
+930
+01:13:51,290 --> 01:13:55,210
+我知道很多人会用水流来类比，
+I know a lot of people they use the similar similarity with water flow,
+
+931
+01:13:55,670 --> 01:13:57,890
+但我实际上用的是这种方法，
+but this is actually what I, I use,
+
+932
+01:14:00,520 --> 01:14:04,160
+我喜欢把电路想象成，
+I like to think of the, of a circuit,
+
+933
+01:14:06,770 --> 01:14:08,500
+像是，其实，
+like, um, what actually,
+
+934
+01:14:08,780 --> 01:14:13,640
+我喜欢把电子想象成平面上的小球。
+I like to think electrons like small ball on a flat
+
+935
+01:14:13,640 --> 01:14:17,400
+如果这个，
+surface. So if the, um,
+
+936
+01:14:17,750 --> 01:14:22,520
+表面是平的，这些球就不会移动，
+surface is flat, these spheres, they don't move,
+
+937
+01:14:22,630 --> 01:14:25,920
+没有理由移动。这些就是电子。
+they don't have a reason to move. These are the electrons.
+
+938
+01:14:26,420 --> 01:14:31,240
+但如果把一侧抬起来，就提供了
+But if I move up one side, so I provide
+
+939
+01:14:33,190 --> 01:14:37,750
+让它们移动的原因。在电路中，这就是电池。
+a reason to move in the, in the circuit is the battery.
+
+940
+01:14:38,330 --> 01:14:43,190
+所以把斜坡的一侧接到电池
+So I connect one side of the slope to the positive terminal of
+
+941
+01:14:43,190 --> 01:14:47,550
+正极，就形成了斜坡。那么这些球，
+the battery. I create the slope. While the these balls,
+
+942
+01:14:47,890 --> 01:14:51,150
+这些电子，就可以开始非常，
+the electrons could start to move very,
+
+943
+01:14:51,150 --> 01:14:53,350
+非常快地向地面移动。
+very quickly to ground.
+
+944
+01:14:54,060 --> 01:14:58,760
+也就是电池的负极。这个，
+That is the negative terminal of the battery. These
+
+945
+01:15:00,930 --> 01:15:03,910
+过快的流动就是短路。
+two quick flow is shorter.
+
+946
+01:15:05,840 --> 01:15:07,700
+所以我们只会
+So we would just
+
+947
+01:15:10,000 --> 01:15:13,500
+看到电子全都流走，却没有真正利用它们。
+see all the electrons flowing without actually using them.
+
+948
+01:15:14,200 --> 01:15:15,300
+那可以怎么做？
+So what can we do?
+
+949
+01:15:15,680 --> 01:15:19,580
+可以在斜坡上放一些障碍物。
+We can put on this slope some obstacles.
+
+950
+01:15:22,760 --> 01:15:27,310
+如果放的是小障碍物，
+Well, if we put small obstacle,
+
+951
+01:15:27,930 --> 01:15:29,910
+也就是小阻值的电阻器，
+so small resistors doors,
+
+952
+01:15:32,230 --> 01:15:34,670
+就能有很多电子流过。
+a lot of electrons can flow.
+
+953
+01:15:38,050 --> 01:15:42,070
+如果放一个大的障碍物，
+And if we make a big obstacle,
+
+954
+01:15:42,610 --> 01:15:47,310
+也就是高阻值电阻器，这些球，
+so a high value resistor, the these both,
+
+955
+01:15:47,450 --> 01:15:50,130
+也就是电子，流动就会
+so the electrons would flow
+
+956
+01:15:52,220 --> 01:15:56,870
+慢得多。当然，这种流动就是电流。
+much lower. And the flow of course is the current.
+
+957
+01:15:57,530 --> 01:16:00,190
+所以电阻越大，
+So higher is the resistor higher,
+
+958
+01:16:00,330 --> 01:16:05,030
+障碍越大，电流就越小，
+the the obstacle lower is the current less
+
+959
+01:16:06,110 --> 01:16:07,230
+能流过的电子就越少。
+electrons can flow.
+
+960
+01:16:08,920 --> 01:16:13,120
+电阻越小，也就是障碍物越小，
+Lower is the resistor. So smaller is the obstacle.
+
+961
+01:16:13,820 --> 01:16:18,720
+能穿过障碍物的电子数量就越多。
+Higher is the amount of electrons that can go through the obstacle.
+
+962
+01:16:18,900 --> 01:16:20,680
+所以电流就越大。
+So higher is the current,
+
+963
+01:16:22,990 --> 01:16:26,880
+这就是我喜欢用来表示欧姆定律的方式。
+this is how I like to represent homes. Uh, low.
+
+964
+01:16:28,110 --> 01:16:28,943
+好，
+Well,
+
+965
+01:16:29,050 --> 01:16:33,940
+我们继续，来，
+let's go ahead and let's
+
+966
+01:16:34,340 --> 01:16:37,940
+真正做点有意思的东西，因为，
+actually make something interesting because
+
+967
+01:16:39,600 --> 01:16:43,580
+我刚才展示的那个基本电路，最简单的，
+the circuit that I just showed, the basic one, the simpler,
+
+968
+01:16:45,830 --> 01:16:47,970
+最简单的电路，
+the simplest circuit driver,
+
+969
+01:16:48,770 --> 01:16:52,570
+一个电池、两根导线和一个电阻器，其实也是没有什么用的，
+a battery to wires and the resistor is also the useless,
+
+970
+01:16:53,610 --> 01:16:58,060
+是个很没用的电路。为什么？虽然有电流，
+a very useless circuit. Why? Because I do have current,
+
+971
+01:16:58,560 --> 01:17:02,620
+虽然在消耗电源的电量，但没有把这些能量用于
+I'm using the charge of the power source, but I don't use that energy
+
+972
+01:17:04,770 --> 01:17:08,620
+任何事情。所以下一步，
+with anything. So the next step,
+
+973
+01:17:11,540 --> 01:17:16,240
+对，好，
+yeah. Okay,
+
+974
+01:17:17,620 --> 01:17:21,600
+下一步是，
+so the next step is going to
+
+975
+01:17:23,090 --> 01:17:25,290
+真正做点有意思的东西，
+actually make something interesting,
+
+976
+01:17:26,960 --> 01:17:29,770
+比如点亮一盏灯。
+like to turn on a light.
+
+977
+01:17:33,430 --> 01:17:37,130
+我们要使用的灯是，
+And the light that we are going to use is
+
+978
+01:17:40,580 --> 01:17:41,413
+一个 LED。
+analytic.
+
+979
+01:17:45,740 --> 01:17:46,720
+让我，
+Let me just
+
+980
+01:17:49,050 --> 01:17:51,440
+再给我五分钟，然后我们休息一下。
+gimme five minutes and then we take a break.
+
+981
+01:17:52,380 --> 01:17:55,160
+先简单讲一下 LED。
+Let me just explain a little bit about the A.
+
+982
+01:17:55,940 --> 01:18:00,440
+LED 是一种器件，
+So the A are element are devices that generate
+
+983
+01:18:00,840 --> 01:18:03,200
+当有电流
+a light when there is current
+
+984
+01:18:04,760 --> 01:18:07,370
+流过它时，就会发光。
+that flows through, uh, through them
+
+985
+01:18:10,000 --> 01:18:11,300
+然后，
+and uh,
+
+986
+01:18:12,920 --> 01:18:16,380
+当然，LED 有不同颜色，
+of course you can find the LEDs in different colors,
+
+987
+01:18:16,450 --> 01:18:20,900
+不同尺寸，也有通孔
+different sizes and as a through hole
+
+988
+01:18:20,970 --> 01:18:24,900
+元件，也就是带引脚的，另有扁平的，
+component. So with the legs, but also flat,
+
+989
+01:18:27,070 --> 01:18:30,270
+SMD 形式，
+s m d, um, ss m d uh,
+
+990
+01:18:30,400 --> 01:18:33,310
+也就是表面贴装器件。
+shape surface mounted devices.
+
+991
+01:18:37,500 --> 01:18:42,360
+发光二极管有一个很重要的特点，
+One important things of the light meeting diode,
+
+992
+01:18:42,990 --> 01:18:44,280
+它具有方向性。
+they do have an orientation.
+
+993
+01:18:45,020 --> 01:18:48,840
+如果看一下 LED 的封装，
+So if you look at the package of an L E D
+
+994
+01:18:51,320 --> 01:18:54,500
+以通孔封装为例，
+and uh, in the case of the through hole package,
+
+995
+01:18:56,410 --> 01:18:58,670
+你可以看到，
+you um, you can see,
+
+996
+01:19:02,170 --> 01:19:03,003
+嗯，
+hmm,
+
+997
+01:19:03,110 --> 01:19:07,610
+其中一根引脚比另一根长。
+you can see that one leg is longer than the other one.
+
+998
+01:19:08,360 --> 01:19:10,420
+这就已经，
+This already, uh,
+
+999
+01:19:10,750 --> 01:19:14,260
+告诉你这个器件有方向性，
+tells you that this device has an orientation,
+
+1000
+01:19:14,320 --> 01:19:19,190
+不能随意连接。所以这个方向，
+so you cannot plug it as you want. So the orientation,
+
+1001
+01:19:19,450 --> 01:19:21,550
+也决定了电流的方向。
+the orientation also of the current,
+
+1002
+01:19:22,690 --> 01:19:25,870
+长引脚，也就是正极，
+so the long leg or the plus
+
+1003
+01:19:27,850 --> 01:19:29,150
+称为阳极。
+is called anode.
+
+1004
+01:19:31,650 --> 01:19:34,270
+短引脚称为阴极。
+The short one is called cathode.
+
+1005
+01:19:38,630 --> 01:19:39,463
+电流，
+The current
+
+1006
+01:19:41,530 --> 01:19:44,280
+实际上，要让它发光，
+flows actually to generate the light,
+
+1007
+01:19:44,700 --> 01:19:46,680
+电流必须
+the current master
+
+1008
+01:19:48,530 --> 01:19:53,020
+从长引脚流向短引脚。
+flow from the long lag to the short one.
+
+1009
+01:19:55,420 --> 01:19:59,440
+如果强行让电流沿相反方向流动，
+If you try to force current in the other, uh, direction,
+
+1010
+01:19:59,660 --> 01:20:04,400
+不会发光，而且时间一长，可能会损坏
+you don't get light and over time you risk to damage
+
+1011
+01:20:05,020 --> 01:20:05,853
+这个器件。
+the device.
+
+1012
+01:20:07,320 --> 01:20:10,980
+当然，LED 也有符号，
+Of course the l e D has a symbol that is,
+
+1013
+01:20:11,410 --> 01:20:12,460
+就是这个，
+that is this one
+
+1014
+01:20:14,410 --> 01:20:17,650
+一个类似箭头、带一道横线的图形，
+a kind of arrow with a line that,
+
+1015
+01:20:19,290 --> 01:20:22,110
+提供了方向信息。
+uh, gives you the information about orientation.
+
+1016
+01:20:23,210 --> 01:20:27,890
+因此电流只能沿一个
+So the current can flow only in one
+
+1017
+01:20:28,320 --> 01:20:31,900
+方向流动，在这张图中是从上往下。
+direction in this case from top to down.
+
+1018
+01:20:34,210 --> 01:20:36,150
+另外，LED，
+Then the l e d,
+
+1019
+01:20:36,580 --> 01:20:39,470
+还有另外两项规格。
+they come with other two specifications.
+
+1020
+01:20:40,810 --> 01:20:42,390
+一项是电压，
+One is the voltage,
+
+1021
+01:20:43,960 --> 01:20:48,660
+也就是所谓的正向电压，另一项是电流，
+the so-called forward voltage, and the other one is the current,
+
+1022
+01:20:49,120 --> 01:20:52,240
+也就是正向电流。所以，
+the forward current. So
+
+1023
+01:20:53,750 --> 01:20:58,250
+需要在 LED 两端施加
+across the L e d you have to apply
+
+1024
+01:20:59,410 --> 01:21:04,150
+特定的电压。这个电压是多少？
+a specific voltage. What is this specific voltage?
+
+1025
+01:21:04,660 --> 01:21:05,910
+这不是由你决定的。
+Well, you don't decide.
+
+1026
+01:21:06,490 --> 01:21:10,150
+它由所使用的 LED 器件本身决定。
+It comes with the l e d with the device that you are using.
+
+1027
+01:21:12,130 --> 01:21:16,710
+而且正向电压并不是只有一种。
+And uh, there is not just one forward voltage.
+
+1028
+01:21:18,780 --> 01:21:21,930
+这些适合爱好者使用的通孔 LED，
+These through hole hobby LEDs,
+
+1029
+01:21:22,360 --> 01:21:27,170
+正向电压通常在 2 伏到 3
+they do have a forward voltage that goes from two vault up to three
+
+1030
+01:21:27,450 --> 01:21:31,470
+伏之间。主要取决于颜色，
+volt. These mostly depend on the color,
+
+1031
+01:21:32,380 --> 01:21:35,360
+也就是内部所用的材料。
+so the material used inside.
+
+1032
+01:21:36,670 --> 01:21:40,890
+所以首先要施加适当电压。其次，
+So first you need to apply the right voltage. Second,
+
+1033
+01:21:41,350 --> 01:21:46,250
+要让适量的电流流过
+you need to have the correct amount of current through D L
+
+1034
+01:21:46,250 --> 01:21:50,140
+LED。如果，
+E D. If, um,
+
+1035
+01:21:50,800 --> 01:21:55,140
+电流太低，就不会发光。
+if the current is too low, there is no light.
+
+1036
+01:21:55,840 --> 01:21:58,940
+电流太高，就会烧坏。
+If the current is too high, you burn.
+
+1037
+01:22:00,650 --> 01:22:03,500
+最低和最高电流是多少？
+What is the minimum and what is the maximum amount of current?
+
+1038
+01:22:05,180 --> 01:22:09,630
+对于这类 LED，有一个大致范围，
+This is a general rule for these kind of
+
+1039
+01:22:09,980 --> 01:22:10,813
+这类 LED，
+LEDs.
+
+1040
+01:22:11,570 --> 01:22:15,580
+最低电流 5 毫安，
+Minimum current 5 million per
+
+1041
+01:22:16,330 --> 01:22:20,210
+最高电流 20 毫安。
+maximum current 20 million per
+
+1042
+01:22:22,900 --> 01:22:27,880
+具体取决于 LED。举个例子，
+it depend on the e Let me make an example with
+
+1043
+01:22:27,880 --> 01:22:32,800
+这个高功率 LED，正向电压为 3 伏。
+this. High power ladies. The forward voltage is three volt.
+
+1044
+01:22:33,540 --> 01:22:38,200
+电流是 300 毫安，
+The current is 300 million per,
+
+1045
+01:22:39,960 --> 01:22:40,793
+它，
+that is
+
+1046
+01:22:43,500 --> 01:22:48,310
+远高于这些低功率 LED。
+much higher than these, uh, low power led.
+
+1047
+01:22:51,230 --> 01:22:55,460
+这些都意味着什么？
+So what does, um, all of this mean?
+
+1048
+01:22:57,260 --> 01:22:59,300
+就是说，如果，
+It means that if
+
+1049
+01:23:04,410 --> 01:23:05,640
+如果你有，
+if you have
+
+1050
+01:23:08,250 --> 01:23:12,550
+一个 LED，把它直接连接，
+an analogy and you connected directly
+
+1051
+01:23:13,410 --> 01:23:17,870
+连接到一块 9 伏电池上，就会烧坏 LED。
+to a nine volt battery, you burn the L e d,
+
+1052
+01:23:18,570 --> 01:23:23,190
+会直接烧坏，不能这样做，因为 LED，
+you just burn it. You cannot do that because the l e d,
+
+1053
+01:23:23,880 --> 01:23:27,910
+假设只能承受 3 伏，你却施加了 9 伏。
+let's say can get a three volt and you apply nine down.
+
+1054
+01:23:28,290 --> 01:23:30,110
+所以就会发生这样的事。
+So this is what happens.
+
+1055
+01:23:31,300 --> 01:23:36,270
+需要做的是限制电流，减小电流，并且，
+What you need to do is to block the current to reduce the current and to
+
+1056
+01:23:36,270 --> 01:23:38,550
+降低电压。为此，
+the reduce the voltage. To do that
+
+1057
+01:23:40,120 --> 01:23:41,900
+要用到电阻器。
+you use the resistor.
+
+1058
+01:23:45,750 --> 01:23:49,770
+怎样计算合适的电阻值？
+How to calculate the right resistor. Well
+
+1059
+01:23:51,790 --> 01:23:53,570
+使用欧姆定律。
+you use home slope.
+
+1060
+01:23:54,510 --> 01:23:56,930
+这里我讲得稍微快一点，
+Let me go a little bit quicker here
+
+1061
+01:23:59,500 --> 01:24:00,510
+使用这个公式。
+with this formula.
+
+1062
+01:24:01,820 --> 01:24:06,230
+知道电源的
+So knowing what is your power
+
+1063
+01:24:06,460 --> 01:24:08,470
+电压是 9 伏，
+voltage nine volt,
+
+1064
+01:24:09,140 --> 01:24:11,830
+知道 LED 的正向电压，
+knowing what is the forward voltage
+
+1065
+01:24:14,600 --> 01:24:19,500
+以及知道所需的电流，
+of the L E d and knowing what is the current that
+
+1066
+01:24:19,520 --> 01:24:22,440
+通过这个公式，
+you want through this formula,
+
+1067
+01:24:23,260 --> 01:24:26,520
+就可以算出电阻器的阻值。
+you can calculate the value of the resistor
+
+1068
+01:24:31,460 --> 01:24:35,400
+如果不想自己计算，
+if you don't want to, to, to do the calculation by yourself.
+
+1069
+01:24:36,540 --> 01:24:38,030
+可以找到，
+Well, you can find
+
+1070
+01:24:41,350 --> 01:24:45,770
+网上的计算器，在里面调整，
+calculators online where you can adjust,
+
+1071
+01:24:46,550 --> 01:24:51,090
+输入你所掌握的信息，
+insert the informations that you have related
+
+1072
+01:24:52,540 --> 01:24:56,520
+根据实验室或家里现有的，
+to your availability that you have in the lab at home,
+
+1073
+01:24:56,660 --> 01:25:01,560
+现有的器件，计算器会帮你完成计算。
+the devices that you have, and this will make the calculator for you.
+
+1074
+01:25:01,900 --> 01:25:06,360
+比如说，我的电源电压，
+So let's say I do have a source voltage
+
+1075
+01:25:06,650 --> 01:25:08,320
+电源提供 9 伏，
+power source of nine voltage,
+
+1076
+01:25:09,810 --> 01:25:12,470
+LED 的压降，
+the voltage drop from the lead.
+
+1077
+01:25:12,610 --> 01:25:17,590
+也就是 LED 的正向电压，我们说是 2 伏。
+So this is the forward voltage of the lead we said to vault.
+
+1078
+01:25:18,570 --> 01:25:20,590
+流过 LED 的，
+The current through g uh,
+
+1079
+01:25:20,910 --> 01:25:25,800
+电流，我想要 20 毫安，
+l e d is I want 20 million per,
+
+1080
+01:25:35,240 --> 01:25:40,180
+它就会自动计算出合适的
+and it's automatically calculate that the right value of the
+
+1081
+01:25:40,180 --> 01:25:44,740
+电阻应为350欧姆。
+resistor is 350 million per um, homes,
+
+1082
+01:25:45,270 --> 01:25:47,900
+350欧姆。如果
+350 homes. If
+
+1083
+01:25:49,660 --> 01:25:50,860
+我希望电流更小，
+I want less current,
+
+1084
+01:25:55,420 --> 01:26:00,420
+可以使用1400
+I can use a resistor of 1,400
+
+1085
+01:26:00,830 --> 01:26:03,200
+欧姆的电阻，也就是
+homes or
+
+1086
+01:26:05,760 --> 01:26:07,620
+1.4千欧。
+one outta four kilo homes.
+
+1087
+01:26:17,530 --> 01:26:18,363
+所以，
+So
+
+1088
+01:26:24,210 --> 01:26:29,140
+如果有一节9伏电池，想点亮
+if you have a nine volt battery and you want to turn on
+
+1089
+01:26:29,300 --> 01:26:32,480
+一个LED，就需要电阻。
+A L E D, you need a resistor.
+
+1090
+01:26:33,750 --> 01:26:38,600
+一种方法就是串入电阻。
+This is one of the solution that you have, you add a resistor,
+
+1091
+01:26:39,100 --> 01:26:42,680
+但如果用3伏电池，
+but if you're working with three volt battery,
+
+1092
+01:26:44,320 --> 01:26:46,170
+就不一定需要，
+well you don't really,
+
+1093
+01:26:48,210 --> 01:26:51,710
+可以不用电阻。
+you can avoid the use of the resistor.
+
+1094
+01:26:52,130 --> 01:26:53,870
+LED当中，
+The LEDs are, uh,
+
+1095
+01:26:53,870 --> 01:26:57,470
+几乎都能在3伏下工作。
+almost all of them are capable to work at three volt.
+
+1096
+01:26:57,770 --> 01:27:02,230
+因此只要注意方向，
+So actually you can adjust, connect with the right orientation,
+
+1097
+01:27:05,070 --> 01:27:09,490
+把LED的引脚接到电池上，
+The, um, the legs of the l e d to your battery
+
+1098
+01:27:12,070 --> 01:27:15,730
+LED就会发光。
+and the light and the, the L e D turns on.
+
+1099
+01:27:19,640 --> 01:27:21,820
+例如，我切换一下摄像头。
+For example, let me change the camera
+
+1100
+01:27:26,680 --> 01:27:28,820
+现在快速演示一下，
+now to make it quickly,
+
+1101
+01:27:31,300 --> 01:27:35,690
+这里有一节纽扣电池，电压3伏。
+I do have j a coin battery, a three volt battery.
+
+1102
+01:27:37,180 --> 01:27:41,730
+这类电池的两个接线端就是
+These batteries, the two terminals of these batteries are the two, uh,
+
+1103
+01:27:42,160 --> 01:27:46,830
+纽扣的两面，也就是两个表面。
+side of the coin. The two surfaces.
+
+1104
+01:27:47,010 --> 01:27:51,670
+一面为正极，通常标着加号，
+One is the plus, and usually there is, there is the mark plus
+
+1105
+01:27:53,470 --> 01:27:56,250
+另一面为负极。
+and the other is the negative one.
+
+1106
+01:27:56,750 --> 01:28:01,730
+可以用万用表测量电压，然后拿起LED，
+You can use the multimeter to measure the voltage and you can take the l e
+
+1107
+01:28:01,770 --> 01:28:02,690
+调整一下，
+d adjust,
+
+1108
+01:28:02,690 --> 01:28:07,350
+像这样放上去，
+just place it like this and
+
+1109
+01:28:07,610 --> 01:28:08,630
+灯就亮
+the light turns
+
+1110
+01:28:08,930 --> 01:28:09,763
+了。
+On.
+
+1111
+01:28:25,290 --> 01:28:26,470
+嗯，对。
+Uh, yeah.
+
+1112
+01:28:32,250 --> 01:28:33,083
+现在，
+Now,
+
+1113
+01:28:40,650 --> 01:28:41,790
+用
+so using
+
+1114
+01:28:44,570 --> 01:28:49,570
+电池、鳄鱼夹以及这些通孔
+a battery alligator clips these through hole holes
+
+1115
+01:28:49,570 --> 01:28:52,330
+元件，就可以搭建电路，
+element. You can make your circuit
+
+1116
+01:28:54,450 --> 01:28:55,860
+像这张幻灯片上这样，
+like in this slide
+
+1117
+01:29:02,450 --> 01:29:06,150
+或者这张这样。如果
+Or in this slide. This is if you,
+
+1118
+01:29:06,530 --> 01:29:08,750
+你从未接触过电子学，
+if you have never worked with electronics,
+
+1119
+01:29:09,690 --> 01:29:13,670
+我建议从这些非常简单的电路开始。
+my suggestion is start with these really simple circuit
+
+1120
+01:29:14,850 --> 01:29:18,950
+因为一旦
+because once you, uh,
+
+1121
+01:29:19,330 --> 01:29:22,960
+能熟练使用这些材料和工具，
+you can work with these, uh, materials and tools,
+
+1122
+01:29:25,550 --> 01:29:29,810
+就可以转到纺织品上。
+you can then move to, uh, a textile.
+
+1123
+01:29:30,190 --> 01:29:33,850
+也就是说，不再使用传统原型制作
+So instead of using classic prototype
+
+1124
+01:29:36,400 --> 01:29:39,870
+工具，比如夹子、导线，
+tools like the clips and wires
+
+1125
+01:29:42,850 --> 01:29:47,530
+以及方便用夹子连接的通孔器件，
+and through hole devices easily to connect
+
+1126
+01:29:47,680 --> 01:29:52,410
+还可以用什么呢？
+with the clips, you can work with what?
+
+1127
+01:29:52,600 --> 01:29:54,410
+可以制作电路，
+Well, you can make your circuit
+
+1128
+01:29:56,740 --> 01:30:01,220
+用导电布形成
+using conductive fabric to create
+
+1129
+01:30:01,600 --> 01:30:02,433
+走线，
+the traces.
+
+1130
+01:30:03,480 --> 01:30:07,750
+也就是为
+So to create the physical path for the
+
+1131
+01:30:08,190 --> 01:30:09,470
+电子的移动提供实际通路。
+electrons to move,
+
+1132
+01:30:13,000 --> 01:30:14,900
+也可以使用导电线，
+you can use a conductive thread
+
+1133
+01:30:16,910 --> 01:30:21,040
+像这两个例子一样形成走线。
+like in these two examples to create the traces.
+
+1134
+01:30:28,100 --> 01:30:32,190
+接下来仍然要根据
+Then depending again, um,
+
+1135
+01:30:33,050 --> 01:30:35,950
+所使用的器件，
+by the, on the, uh, devices that you are using,
+
+1136
+01:30:36,450 --> 01:30:40,830
+练习把这些元件接入
+you'll need to practice the way to connect this element
+
+1137
+01:30:42,530 --> 01:30:46,750
+电路的方法：焊接，或者缝合。
+in your circuit to soldier it, just to sew it.
+
+1138
+01:30:51,370 --> 01:30:55,410
+我相信Liza已经介绍了很多有用的信息，
+I believe that Liza gave a lot of good informations
+
+1139
+01:30:56,900 --> 01:31:01,480
+也展示了很多好例子，说明如何整合、
+and good examples on ways to integrate,
+
+1140
+01:31:02,090 --> 01:31:07,070
+嵌入这些元件到纺织品中，
+embed these element with textile
+
+1141
+01:31:07,610 --> 01:31:11,110
+包括相应材料与技法。
+in terms of materials and techniques.
+
+1142
+01:31:13,690 --> 01:31:18,510
+所以，确定想做的电路，
+So once you know the circuit that you want to make and you
+
+1143
+01:31:18,510 --> 01:31:22,670
+明确要用哪些元件，
+know the component that you want to use,
+
+1144
+01:31:24,060 --> 01:31:28,670
+LED是通孔还是表贴、数量多少、放在哪里，
+LEDs through those ss, m d, how many, where to place them,
+
+1145
+01:31:30,810 --> 01:31:34,990
+就可以练习使用这些材料和工具。
+you can practice with these materials and tools.
+
+1146
+01:31:36,090 --> 01:31:38,550
+我认为第一步，
+And I believe the first step,
+
+1147
+01:31:39,180 --> 01:31:43,190
+为了初步熟悉
+nice first step to get a little bit familiar
+
+1148
+01:31:44,310 --> 01:31:46,440
+这些技法，可以先制作
+with these techniques is to make
+
+1149
+01:31:47,950 --> 01:31:50,790
+这样一个简单的例子，
+a simple example like this one,
+
+1150
+01:31:51,190 --> 01:31:53,070
+一个带灯的电路。
+a secret with a lighter.
+
+1151
+01:31:58,540 --> 01:32:01,760
+通常我们会在教程中制作
+So usually during the tutorial we make
+
+1152
+01:32:03,790 --> 01:32:07,970
+这种电路，但我进度落后了。
+these circuit, but I'm late.
+
+1153
+01:32:09,880 --> 01:32:13,430
+讲解花了太多时间。所以，
+It took too much time speaking. So
+
+1154
+01:32:15,170 --> 01:32:16,003
+我想说，
+let me say,
+
+1155
+01:32:16,570 --> 01:32:21,110
+理解电子学基础并学会使用
+to understand the basic of electronics and how to use the
+
+1156
+01:32:21,200 --> 01:32:26,020
+万用表，我认为非常重要。
+multimeter from my point of view is really important.
+
+1157
+01:32:26,120 --> 01:32:29,100
+它会很有帮助。
+It helps a lot. Um,
+
+1158
+01:32:33,510 --> 01:32:38,010
+到目前为止，我们看到的是简单电路，以及
+and what we saw so far is actually the simple circuit and what are the
+
+1159
+01:32:38,320 --> 01:32:41,850
+它的主要特征和性质：
+main features and the characteristics of the circuit.
+
+1160
+01:32:43,290 --> 01:32:46,370
+电池、LED，以及必要时使用的电阻，
+A battery allowed in case you need a resistor,
+
+1161
+01:32:47,020 --> 01:32:50,210
+电阻放在哪里、为什么要用电阻。
+where to put the resistor and why you use the resistor.
+
+1162
+01:32:50,670 --> 01:32:55,490
+但这种电路有一个很大的局限，
+But this is, uh, this is a circuit with a big limit,
+
+1163
+01:32:55,950 --> 01:32:58,130
+就是你无法与它互动。
+the fact that you cannot interact with it.
+
+1164
+01:33:00,220 --> 01:33:05,000
+因此下一步，要为电路增加
+So the next step is to add to this circuit
+
+1165
+01:33:06,240 --> 01:33:10,480
+交互方式，增加一个
+a way of interaction, a system, uh,
+
+1166
+01:33:10,540 --> 01:33:11,680
+交互系统。
+of interaction.
+
+1167
+01:33:15,390 --> 01:33:20,330
+如何与电路互动？通过输入器件，也就是传感器。
+How do we interact with our circuit with input devices with cell
+
+1168
+01:33:20,330 --> 01:33:24,170
+现在我们可以休息一下，
+source? So now we can take a break
+
+1169
+01:33:25,980 --> 01:33:30,560
+然后看看传感器，
+and then we can have a look to the sensors, uh, to the sensors,
+
+1170
+01:33:30,860 --> 01:33:34,680
+了解它们如何工作，以及电路是什么样，
+how, how they work and what are the circuit,
+
+1171
+01:33:35,060 --> 01:33:38,960
+看看这两类传感器所需的具体电路：
+the specific circuit for these two kind of sensors,
+
+1172
+01:33:38,990 --> 01:33:40,560
+数字传感器和模拟传感器。
+digital and analog.
+
+1173
+01:33:41,260 --> 01:33:45,540
+现在休息，我建议休息15
+So we can take a break and I would say 15
+
+1174
+01:33:46,000 --> 01:33:50,110
+分钟，然后
+minute break so we can
+
+1175
+01:33:51,770 --> 01:33:56,430
+4点55分回来。
+be back at four and 55.
+
+1176
+01:34:06,190 --> 01:34:07,023
+好。
+Okay,
+
+1177
+01:34:08,180 --> 01:34:11,620
+这里有一个问题。
+so I see a question here.
+
+1178
+01:34:12,760 --> 01:34:17,020
+怎样决定导电线的粗细，以及长度
+How do we decide the thickness of the conductive thread and how long
+
+1179
+01:34:17,650 --> 01:34:22,230
+应该是多少？好，关于
+must it be? Okay, so about the, uh, the uh,
+
+1180
+01:34:22,380 --> 01:34:26,790
+导电线的粗细，
+thickness idea about the, uh, thickness.
+
+1181
+01:34:27,060 --> 01:34:31,070
+有时可以选择，有时无法选择。
+Sometimes you can decide it some other times not. Uh,
+
+1182
+01:34:31,130 --> 01:34:35,710
+这取决于供应商能提供什么。
+it depend on, uh, what you can get from which supplier.
+
+1183
+01:34:37,970 --> 01:34:42,630
+说到导电线，
+So, uh, thinking about really conductive thread,
+
+1184
+01:34:43,350 --> 01:34:46,070
+我可以展示一下，例如我手上的这款。
+I can show you, for example, this is what I have
+
+1185
+01:34:47,860 --> 01:34:52,830
+让我共享屏幕。好了。
+and this is, let me share my screen. Here we are.
+
+1186
+01:34:53,930 --> 01:34:55,630
+这就是，
+And this is, yeah,
+
+1187
+01:34:55,810 --> 01:35:00,520
+我所用的两股不锈钢导电线。
+the one that I have that is a stainless thin conductive thread to
+
+1188
+01:35:00,520 --> 01:35:01,680
+“两股”是什么意思？
+apply what it means,
+
+1189
+01:35:01,900 --> 01:35:06,880
+就是由两根导电的
+it means that it is made of two conductive, uh,
+
+1190
+01:35:06,900 --> 01:35:10,120
+线股组成，里面有两股。
+uh, the conductive thread inside R two
+
+1191
+01:35:11,960 --> 01:35:16,140
+也可以买到
+and um, you can also find
+
+1192
+01:35:18,100 --> 01:35:21,660
+三股导电线。
+actually three ply conductive thread.
+
+1193
+01:35:23,570 --> 01:35:27,080
+从电子学角度看，
+What is the best one, uh,
+
+1194
+01:35:27,270 --> 01:35:30,080
+哪一种更好呢？
+from the electronic point of view?
+
+1195
+01:35:32,390 --> 01:35:32,980
+就是，
+Well,
+
+1196
+01:35:32,980 --> 01:35:37,760
+电阻更小的那种，因为它们虽然
+the one with less resistance because they are
+
+1197
+01:35:37,770 --> 01:35:41,720
+能导电，但有一点刚才没有说：
+conductive, but this is something I didn't say before,
+
+1198
+01:35:42,380 --> 01:35:46,480
+我们使用的任何材料，包括跳线、
+any material that we're using. Also the jumper wires,
+
+1199
+01:35:47,030 --> 01:35:51,810
+铜线，都有一定电阻，
+also copper wires, they do have some resistance,
+
+1200
+01:35:53,040 --> 01:35:56,660
+都会在一定程度上阻碍电子运动。
+so somehow they block the electrons,
+
+1201
+01:35:57,440 --> 01:36:01,020
+只是它们的电阻很小，
+but their resistance is so low
+
+1202
+01:36:02,470 --> 01:36:06,200
+可以忽略，
+that we can just skip it.
+
+1203
+01:36:06,570 --> 01:36:11,140
+不必考虑。而导电线，
+Don't consider it. In the case of the conductive thread,
+
+1204
+01:36:12,020 --> 01:36:16,380
+我会选择电阻
+I would go with the one with less
+
+1205
+01:36:17,780 --> 01:36:21,970
+更小的那种。那么，
+resistance. How,
+
+1206
+01:36:23,100 --> 01:36:27,840
+怎样测量、怎样知道它的电阻呢？
+um, um, how to measure it, how to know what is the resistance?
+
+1207
+01:36:28,270 --> 01:36:31,920
+比如我这里，
+Well, in this case, in my case,
+
+1208
+01:36:32,680 --> 01:36:35,800
+我知道导电线是从哪里买来的，
+I know where I got the conductive thread.
+
+1209
+01:36:36,360 --> 01:36:40,040
+就可以查看材料规格。
+I can read the specifications of the material.
+
+1210
+01:36:40,860 --> 01:36:45,070
+看这里，
+If I read, saw it here, here, it,
+
+1211
+01:36:45,210 --> 01:36:50,010
+它说电阻相当低，
+it says it also has a fairly low resistivity,
+
+1212
+01:36:50,720 --> 01:36:52,850
+每英尺16欧姆。
+16 homes per foot.
+
+1213
+01:36:53,630 --> 01:36:58,370
+因此可以用它驱动LED以及其他
+So you can use it to drive LEDs and other electronic
+
+1214
+01:36:58,370 --> 01:37:02,250
+电流低于50毫安的电子元件。
+component that use under 50 million per,
+
+1215
+01:37:03,120 --> 01:37:04,060
+也就是说，它的电阻是
+so it has
+
+1216
+01:37:06,050 --> 01:37:08,260
+每英尺16欧姆。
+16 homes per foot.
+
+1217
+01:37:10,530 --> 01:37:15,190
+再与三股线比较，
+If I make a comparison with three ply thread,
+
+1218
+01:37:17,260 --> 01:37:21,590
+这种是每英尺10欧姆，
+well this one has 10 homes per foot,
+
+1219
+01:37:22,850 --> 01:37:26,270
+电阻更小，
+so it's less, less resistivity,
+
+1220
+01:37:27,010 --> 01:37:29,030
+对电路而言更好。
+better it's for your circuit.
+
+1221
+01:37:34,170 --> 01:37:37,540
+还有另一种办法。
+Another, um, another way,
+
+1222
+01:37:39,860 --> 01:37:44,240
+刚才说的是，你知道
+and this is if you know, uh, the um,
+
+1223
+01:37:44,980 --> 01:37:49,800
+材料的来源和特性，
+um, from, from where if you know the characteristics of your material,
+
+1224
+01:37:50,620 --> 01:37:52,560
+可以在网上查看规格。
+you can read the specifications online,
+
+1225
+01:37:53,070 --> 01:37:57,560
+否则也可以用
+otherwise you can test them with the
+
+1226
+01:37:57,560 --> 01:38:00,920
+万用表测试。我演示一下。
+multimeter. Let me show you,
+
+1227
+01:38:03,140 --> 01:38:03,973
+例如，
+for example,
+
+1228
+01:38:07,030 --> 01:38:09,670
+我刚剪下了这一段，
+I just cut it. This is
+
+1229
+01:38:12,060 --> 01:38:16,740
+这是一段导电线。通常我会这样做：
+A piece of conductive thread water. I usually do.
+
+1230
+01:38:17,500 --> 01:38:18,333
+就是，
+I just,
+
+1231
+01:38:18,730 --> 01:38:23,700
+这是个很好的练习，可以用家里现有的材料来做。
+this is a very nice practice that you can do with the material that you have
+
+1232
+01:38:23,700 --> 01:38:28,340
+拿一块纸板、硬纸板，
+at home. You take a piece of cardboard, paper aboard,
+
+1233
+01:38:30,960 --> 01:38:35,900
+把想测试的材料剪成
+you cut a standard length of materials that you
+
+1234
+01:38:36,140 --> 01:38:37,180
+统一的长度。
+want to test.
+
+1235
+01:38:37,570 --> 01:38:42,460
+这里有导电线，还有
+Here I have a conductive threat and I also have
+
+1236
+01:38:42,690 --> 01:38:46,860
+这根铜带，也就是吸锡带。
+this copper, this sold wire. So this is,
+
+1237
+01:38:48,380 --> 01:38:53,150
+通常用它来清除焊点上的焊锡，
+this is used usually to remove sold joint
+
+1238
+01:38:53,540 --> 01:38:57,910
+拆焊元件，但它是铜的，所以可以当作走线。
+sold component, but it's copper, so you can use it as a trace.
+
+1239
+01:38:58,890 --> 01:39:03,510
+我记得Liza展示过一些例子。
+And I believe Liza showed some examples.
+
+1240
+01:39:04,050 --> 01:39:08,150
+我取差不多相同的长度，
+So let me take the same length more or less.
+
+1241
+01:39:17,330 --> 01:39:20,340
+这里大约18厘米长。
+This is about 18 centimeters long.
+
+1242
+01:39:29,910 --> 01:39:32,990
+拿起万用表，选择欧姆档，
+I take the multimeter, I select foam,
+
+1243
+01:39:34,070 --> 01:39:36,670
+调到最低量程。
+I go to the lower scale.
+
+1244
+01:39:44,710 --> 01:39:45,543
+好。
+Okay,
+
+1245
+01:39:50,870 --> 01:39:54,240
+接下来，
+what I do, okay,
+
+1246
+01:39:56,240 --> 01:40:00,240
+测量它的电阻，
+I just measure the resistance
+
+1247
+01:40:01,460 --> 01:40:05,160
+读数是6、6、6。
+and I read 6, 6, 6.
+
+1248
+01:40:11,080 --> 01:40:13,300
+也就是6，6。
+So this is six, six.
+
+1249
+01:40:17,620 --> 01:40:20,710
+然后测这一种，
+Then I try this one,
+
+1250
+01:40:35,730 --> 01:40:39,670
+读数很不稳定，让我
+and this is really unstable. So let me
+
+1251
+01:40:42,680 --> 01:40:44,580
+换一下，这样做。
+change, let's do this
+
+1252
+01:40:50,400 --> 01:40:51,233
+大约2，
+about two,
+
+1253
+01:40:54,990 --> 01:40:56,250
+约2欧姆。
+around two homes.
+
+1254
+01:41:00,560 --> 01:41:04,740
+所以它的导电性更强，
+So this is more conductive,
+
+1255
+01:41:05,080 --> 01:41:09,860
+电阻更小。这是铜，
+it has less, uh, resistance. So the, this is a copper,
+
+1256
+01:41:10,520 --> 01:41:15,380
+所以我并不意外。从
+so I'm not surprised of this. So from the, um,
+
+1257
+01:41:15,940 --> 01:41:18,740
+电学角度看，铜更好，
+electric point of view, the copper is better,
+
+1258
+01:41:20,350 --> 01:41:25,330
+不过这种导电线每18厘米约6欧姆，
+but the conductive thread with six home per
+
+1259
+01:41:25,970 --> 01:41:30,850
+用作走线已经很好。
+18 centimeters is really good to be used as a trace.
+
+1260
+01:41:32,080 --> 01:41:35,780
+那么这里该如何选择？
+So, uh, what is the best choice in this case?
+
+1261
+01:41:35,880 --> 01:41:40,300
+两种都可以，取决于你想用什么工艺
+You can use both then depending on the process that you want
+
+1262
+01:41:40,960 --> 01:41:44,620
+制作走线。比如这种，
+to use to make the trace. So this one,
+
+1263
+01:41:44,880 --> 01:41:49,660
+导电线可以机缝，也可以
+the thread can be used with the machines and you can
+
+1264
+01:41:49,800 --> 01:41:50,633
+手缝。
+sew by hand.
+
+1265
+01:41:52,250 --> 01:41:55,570
+而这种铜带不能，
+This copper wire cannot,
+
+1266
+01:41:56,690 --> 01:42:01,230
+不适合用来缝，也不能放进
+cannot be used to sew or it cannot be used in any
+
+1267
+01:42:01,230 --> 01:42:05,390
+缝纫机里。所以在这里，
+machine. So in, in this case,
+
+1268
+01:42:05,610 --> 01:42:09,950
+主要区别是如何
+the main difference is, um, the way to
+
+1269
+01:42:12,000 --> 01:42:14,960
+把它整合进你的电子纺织项目。
+embedded in your project, your it textile.
+
+1270
+01:42:18,340 --> 01:42:22,320
+比如看这个例子。
+Let me show for example, this one.
+
+1271
+01:42:29,470 --> 01:42:32,910
+对。
+Yeah. Um,
+
+1272
+01:42:33,850 --> 01:42:38,170
+这里有，
+in this case, for example, there are,
+
+1273
+01:42:38,950 --> 01:42:39,783
+嗯，
+um,
+
+1274
+01:42:41,160 --> 01:42:46,010
+用不同方式装上、固定的材料。
+different materials applied, so attached,
+
+1275
+01:42:47,500 --> 01:42:52,490
+抱歉，我还没共享屏幕。好了，这里。
+sorry, I'm not sharing my screen. Okay, here we are. So here,
+
+1276
+01:42:52,590 --> 01:42:53,210
+可以看到，
+as you can see,
+
+1277
+01:42:53,210 --> 01:42:57,910
+不同材料的样品，
+there are different samples of different materials
+
+1278
+01:42:59,230 --> 01:43:00,710
+用不同方式固定。
+attached in different ways.
+
+1279
+01:43:03,330 --> 01:43:07,000
+哪种最好呢？我，
+What is the best one? I would, I,
+
+1280
+01:43:07,160 --> 01:43:10,320
+仅凭看这些，没办法判断。
+I cannot really tell you. Looking at these,
+
+1281
+01:43:10,880 --> 01:43:15,680
+我会拿万用表，测量
+I would take the multimeter and I would measure the
+
+1282
+01:43:15,920 --> 01:43:19,650
+电阻。如果只有几欧姆，
+resistance. If it's a few homes,
+
+1283
+01:43:20,480 --> 01:43:24,320
+就可以。如果有
+it's fine. If it's got
+
+1284
+01:43:26,440 --> 01:43:29,130
+几百欧姆，就有问题了。
+hundred homes, that is the problem.
+
+1285
+01:43:42,120 --> 01:43:43,580
+这回答了你的问题吗？
+Did I answer your questions?
+
+1286
+01:43:52,110 --> 01:43:54,030
+我有没有回答你的问题？
+I, I didn't. Did I answer your question?
+
+1287
+01:43:56,520 --> 01:44:00,860
+是的，谢谢Emma。还有一个问题，
+Uh, yes, yes. Thank you, Emma. Uh, just another question. Should, uh,
+
+1288
+01:44:01,240 --> 01:44:05,980
+这种用导电线的电路里，可以加电阻吗？
+can we add a resistor, uh, in this circuit with the threads?
+
+1289
+01:44:08,210 --> 01:44:10,830
+可以，可以……
+Uh, yes, you can, uh, cut it.
+
+1290
+01:44:13,150 --> 01:44:17,730
+你是说这种电阻吗？这种？对。
+Do do you mean these, these kind of resistors? These, yeah. Yes.
+
+1291
+01:44:17,880 --> 01:44:21,450
+对，没错。比如，
+Yeah. Yes, yes, yes. Um, for example,
+
+1292
+01:44:24,160 --> 01:44:28,500
+我再共享一下屏幕。好。
+let me share the screen again. Okay.
+
+1293
+01:44:30,330 --> 01:44:34,220
+这里，可能看不清楚，画面不是很清楚。
+Here, yeah, you don't see it. It's not really clear.
+
+1294
+01:44:34,840 --> 01:44:39,470
+能看到有一个电阻，
+Are you see that there is a resistor that has been
+
+1295
+01:44:41,370 --> 01:44:46,090
+已经接进了电路吗？让我
+used in the circuit? Let me
+
+1296
+01:44:49,450 --> 01:44:50,430
+找找看，
+see, let see
+
+1297
+01:44:52,720 --> 01:44:56,660
+这里是否还有其他例子。
+if I do have another example
+
+1298
+01:44:58,130 --> 01:45:01,980
+这里没有例子，
+here. No, I don't have an example here,
+
+1299
+01:45:02,800 --> 01:45:05,420
+但当然可以，
+but yes, absolutely you can,
+
+1300
+01:45:07,780 --> 01:45:12,160
+可以加一个电阻，也可以自己做一个。
+uh, you can add a resistor or you can make one,
+
+1301
+01:45:15,940 --> 01:45:20,920
+至于添加电阻所用的技法、工具和
+how to add a resistor in terms of techniques and tools and the
+
+1302
+01:45:20,920 --> 01:45:25,320
+工艺，可以看Liza的演示文稿。
+process. Look at LSA presentation.
+
+1303
+01:45:26,580 --> 01:45:31,560
+翻看她的幻灯片，就会找到例子和
+Go through her slide and you will find examples and
+
+1304
+01:45:31,630 --> 01:45:33,840
+方法。也就是说，
+ways. I mean, there are not,
+
+1305
+01:45:34,140 --> 01:45:37,960
+如果使用带引脚的通孔元件，
+if you are going to use a through hole component with the legs,
+
+1306
+01:45:39,030 --> 01:45:43,920
+通常可以把
+usually what you do, you, you make rings with the,
+
+1307
+01:45:44,100 --> 01:45:46,600
+电阻的引脚弯成环，
+uh, terminals with the legs of the resistor,
+
+1308
+01:45:48,490 --> 01:45:53,370
+然后缝在这些环上，
+and then you sue on the rings that
+
+1309
+01:45:53,370 --> 01:45:55,770
+电阻两端各有一个环。
+are the two side of the resistor.
+
+1310
+01:45:58,540 --> 01:46:03,240
+如果用表贴元件，对，比如
+If you use a, uh, SS m d, uh, yes, like,
+
+1311
+01:46:03,510 --> 01:46:08,380
+这里这样，可以这样处理，
+like in this case here, you do it,
+
+1312
+01:46:08,560 --> 01:46:10,540
+就像处理LED一样。
+uh, like you can do with the LEDs.
+
+1313
+01:46:11,000 --> 01:46:15,580
+把引脚弯成环，然后焊接，
+You do rings and then you can solve them or
+
+1314
+01:46:16,640 --> 01:46:20,080
+或者缝合。这来自Liza的演示文稿。
+sue them. This comes from laser presentation,
+
+1315
+01:46:22,190 --> 01:46:26,490
+对表贴元件也是一样，
+and this is the same also with s m D component
+
+1316
+01:46:27,270 --> 01:46:29,490
+包括LED和电阻。
+in terms of l e D and also resistors.
+
+1317
+01:46:30,540 --> 01:46:34,610
+它们固定起来会稍微
+These are a little bit trickier to
+
+1318
+01:46:35,220 --> 01:46:36,053
+麻烦一点，
+apply,
+
+1319
+01:46:36,270 --> 01:46:40,250
+但最终效果会很漂亮，
+but then the result is really nice,
+
+1320
+01:46:40,670 --> 01:46:45,610
+非常漂亮。我展示一下。
+really nice. Let me show you.
+
+1321
+01:46:45,640 --> 01:46:49,730
+对，这里还有一个例子。
+Yeah, I do have another example here, here.
+
+1322
+01:46:55,410 --> 01:46:59,270
+这个元件也可以是电阻，
+So in this case, the component, this could be a resistor.
+
+1323
+01:46:59,270 --> 01:47:03,270
+这里用的是LED，两端各弯了一个环。
+In this case it's lead. It has two rings on both side.
+
+1324
+01:47:04,090 --> 01:47:08,230
+走线用铜……银色布料，
+The traces are made of copper, um, silver fabric,
+
+1325
+01:47:09,340 --> 01:47:10,970
+导电银布做成，
+conductive silver fabric,
+
+1326
+01:47:11,790 --> 01:47:16,690
+然后用
+and they are sued with a
+
+1327
+01:47:16,690 --> 01:47:17,650
+导电线缝合。
+conductive thread.
+
+1328
+01:47:19,880 --> 01:47:24,650
+之后最好再加一滴
+Good practice then is to add a drop of
+
+1329
+01:47:24,960 --> 01:47:28,570
+胶，可以是布用胶或热熔胶。
+glue, fabric, glue or hot glue on top.
+
+1330
+01:47:29,250 --> 01:47:31,250
+我建议用布用胶。
+I suggest fabric glue.
+
+1331
+01:47:31,700 --> 01:47:34,730
+这样能使接点牢固，
+These make the junction robust
+
+1332
+01:47:37,850 --> 01:47:39,390
+不会移动。
+so it doesn't move.
+
+1333
+01:47:55,950 --> 01:47:59,610
+抱歉，还有一个问题。是否该加
+Uh, sorry. Um, just another question. Should we add, uh, um,
+
+1334
+01:48:00,610 --> 01:48:04,050
+一个按钮，用来接通和断开电路？
+a button to just like to turn it on and turn it off the circuit?
+
+1335
+01:48:04,950 --> 01:48:07,410
+我们接下来就要讲传感器。
+Uh, no, we are going to speak about the sensors.
+
+1336
+01:48:08,320 --> 01:48:09,530
+好的，谢谢。
+Okay, thanks.
+
+1337
+01:48:09,640 --> 01:48:13,850
+你的问题其实正好
+Your question actually, it's um, it,
+
+1338
+01:48:13,950 --> 01:48:17,250
+让我引出下一个
+it ask me to introduce then the next
+
+1339
+01:48:18,710 --> 01:48:19,543
+主题：
+topic.
+
+1340
+01:48:22,420 --> 01:48:26,910
+如何创建……我讲到哪里了？
+That is how do we create, where am I,
+
+1341
+01:48:28,930 --> 01:48:32,590
+如何创建交互？怎样
+how do we create an interaction? So how can,
+
+1342
+01:48:33,410 --> 01:48:34,243
+让我们
+how can we
+
+1343
+01:48:35,940 --> 01:48:38,660
+以灯光为例，通过交互控制
+interact in the case of the light control,
+
+1344
+01:48:38,800 --> 01:48:42,300
+电路中的灯光？
+the light through interaction with the secret?
+
+1345
+01:48:47,370 --> 01:48:48,203
+那么，
+Well,
+
+1346
+01:48:51,570 --> 01:48:55,910
+需要在电路中增加
+We need to add an extra element to our
+
+1347
+01:48:56,180 --> 01:48:58,950
+一个元件。这个元件
+circuit. This element
+
+1348
+01:49:01,430 --> 01:49:04,570
+就是输入器件，也就是传感器。
+is an input device sensor.
+
+1349
+01:49:06,940 --> 01:49:09,940
+我们有……稍等。
+We have, wait, so
+
+1350
+01:49:12,240 --> 01:49:13,073
+当我们使用，
+when we use,
+
+1351
+01:49:13,510 --> 01:49:17,370
+使用传感器进行交互时，
+we use a sensor with the interaction because
+
+1352
+01:49:18,770 --> 01:49:23,570
+改变这个器件的状态，
+changing the status of this device and, um,
+
+1353
+01:49:24,910 --> 01:49:28,730
+在本周的内容里，
+in this, in this week, they, um,
+
+1354
+01:49:29,690 --> 01:49:32,130
+改变状态指的是
+changing the status. It, it means really to,
+
+1355
+01:49:32,870 --> 01:49:36,810
+实际触摸、操作这个传感器，
+to touch this sensor, to manipulate the sensor,
+
+1356
+01:49:37,390 --> 01:49:42,080
+推它、弯折它，或者按压它。
+to push it, to bend it, to to press it.
+
+1357
+01:49:43,310 --> 01:49:46,320
+从电学角度看，发生了什么？
+What do you do from the electric point of view?
+
+1358
+01:49:48,310 --> 01:49:53,010
+你改变了电路中的某些状态，进而改变了
+You change something in the circuit and you change
+
+1359
+01:49:53,970 --> 01:49:54,803
+电压。
+a voltage.
+
+1360
+01:49:57,680 --> 01:49:59,300
+所以我们要产生
+So we are going to generate
+
+1361
+01:50:00,970 --> 01:50:05,430
+电信号，改变电信号，
+an electric signal to change an electric signal that
+
+1362
+01:50:06,950 --> 01:50:10,450
+让电压发生变化。
+brings a change of voltage.
+
+1363
+01:50:13,900 --> 01:50:18,160
+不过在详细讲传感器之前，
+But before, to speak about the details of a sensor,
+
+1364
+01:50:19,460 --> 01:50:22,640
+先讲一讲
+let me, uh, speak about
+
+1365
+01:50:24,450 --> 01:50:28,270
+两个主要的类别，
+two main categories, um,
+
+1366
+01:50:30,010 --> 01:50:34,440
+或者说两个概念。
+of, uh, of, of the word I would say.
+
+1367
+01:50:34,900 --> 01:50:38,920
+我要讲的是数字传感器和模拟传感器。
+So I'm going to speak about digital and analog sensors.
+
+1368
+01:50:39,550 --> 01:50:41,200
+数字与模拟。
+Digital and analog.
+
+1369
+01:50:42,440 --> 01:50:45,930
+数字和模拟不仅用于电子学，
+Digital and analog are used not only in electronics,
+
+1370
+01:50:46,550 --> 01:50:50,370
+不仅用于描述传感器，
+but uh, not only speaking about sensors,
+
+1371
+01:50:50,830 --> 01:50:55,080
+也用于描述信号和电压。
+but also speaking about signals and also voltages.
+
+1372
+01:50:56,630 --> 01:51:01,600
+说到数字，指的是
+When we speak about digital, we mean the,
+
+1373
+01:51:01,860 --> 01:51:02,693
+嗯，
+um,
+
+1374
+01:51:04,320 --> 01:51:09,180
+只有两种可能的
+the fact that there are only two possible
+
+1375
+01:51:09,360 --> 01:51:11,060
+状态。
+status available.
+
+1376
+01:51:11,840 --> 01:51:16,020
+也就是说，只能有两种状态：
+So you can work only with two possible conditions.
+
+1377
+01:51:17,940 --> 01:51:22,550
+断开或闭合、低或高，
+Open or close, low or high,
+
+1378
+01:51:23,700 --> 01:51:28,440
+0或1、GND或VCC，
+zero or one ground or V c, c,
+
+1379
+01:51:30,110 --> 01:51:32,630
+0伏或3伏。
+zero volt, three volt.
+
+1380
+01:51:33,970 --> 01:51:38,570
+这就是数字信号。数字信号的典型
+This is a digital and the typical representation
+
+1381
+01:51:39,030 --> 01:51:41,410
+表示方式就是这种
+of digital is this signal
+
+1382
+01:51:43,500 --> 01:51:46,750
+方形脉冲，
+made of passes squared passes,
+
+1383
+01:51:47,460 --> 01:51:51,950
+高或低、高或低，没有中间状态。
+high or low, high or low, nothing in the middle.
+
+1384
+01:51:52,650 --> 01:51:56,510
+这就是数字。另一方面，
+And this is digital. On the other side,
+
+1385
+01:51:57,010 --> 01:51:59,870
+我们还可以使用模拟信号。模拟
+we can work with analog. Analog.
+
+1386
+01:52:00,010 --> 01:52:04,950
+意味着可以使用
+It means that we can work with all the
+
+1387
+01:52:04,950 --> 01:52:08,670
+最小值和最大值之间的所有值。
+values between the minimum and the maximum.
+
+1388
+01:52:11,320 --> 01:52:13,520
+说到信号，
+Speaking about sickness
+
+1389
+01:52:15,400 --> 01:52:17,540
+比如以电压为例，
+in terms for example of voltage,
+
+1390
+01:52:19,890 --> 01:52:23,590
+电压可以是0，
+we can have a voltage that is zero,
+
+1391
+01:52:23,740 --> 01:52:25,070
+也可以是VCC，
+that can be V C C,
+
+1392
+01:52:25,370 --> 01:52:29,950
+还可以是两者之间的
+but can also be any value in
+
+1393
+01:52:29,950 --> 01:52:30,783
+任何值。
+between.
+
+1394
+01:52:30,930 --> 01:52:35,430
+如果使用3伏电源，
+If we are working with a power supply of three volt,
+
+1395
+01:52:35,940 --> 01:52:39,080
+比如电池，
+like the battery well
+
+1396
+01:52:40,940 --> 01:52:43,120
+在模拟电路里，
+in analog circuit,
+
+1397
+01:52:44,130 --> 01:52:48,400
+例如使用模拟传感器时，
+using a analog sensor for example, we can,
+
+1398
+01:52:50,040 --> 01:52:51,860
+可以产生
+um, we can have
+
+1399
+01:52:53,530 --> 01:52:55,900
+1伏的信号，
+signals of one volt,
+
+1400
+01:52:56,750 --> 01:53:00,280
+0.5伏或者2伏，
+zero dot five volt of two volt,
+
+1401
+01:53:00,820 --> 01:53:05,680
+不只是0伏和3伏，也就是GND和VCC，
+not only zero and three volt, so ground and V C C.
+
+1402
+01:53:06,260 --> 01:53:08,040
+还包括中间的所有值。
+But everything in between
+
+1403
+01:53:10,080 --> 01:53:14,740
+模拟传感器的典型表示，或者说
+the typical representation of a analog sensor or
+
+1404
+01:53:14,800 --> 01:53:17,300
+模拟信号，抱歉，就是这样一条波形，
+analog, sorry, signal is this wave
+
+1405
+01:53:19,030 --> 01:53:20,200
+它上下变化，
+that goes up and down,
+
+1406
+01:53:20,770 --> 01:53:25,640
+经过最小值与最大值之间的所有值。
+going through all the values between the minimum and the maximum.
+
+1407
+01:53:27,280 --> 01:53:30,300
+因此说到传感器，
+So also when we speak about sensors,
+
+1408
+01:53:30,680 --> 01:53:35,060
+也分数字和模拟两类。数字，
+we will have digital and we'll have analog digital.
+
+1409
+01:53:35,620 --> 01:53:40,060
+我想它对传感器来说是什么意思，比较容易理解：
+I believe it's quite easy to think what it means in terms of
+
+1410
+01:53:41,050 --> 01:53:44,860
+断开或者闭合。而模拟，
+sensors open or close. In the case of the analog,
+
+1411
+01:53:46,800 --> 01:53:51,010
+需要引入一个新概念，
+it's um, we need to introduce a new concept,
+
+1412
+01:53:51,450 --> 01:53:55,090
+变量，一会儿会讲到。
+a variable, but we'll arrive there.
+
+1413
+01:53:57,660 --> 01:54:01,210
+先从数字传感器开始。
+Let's start with digital sensor. So
+
+1414
+01:54:04,100 --> 01:54:07,700
+数字传感器是
+a digital sensors are devices, uh,
+
+1415
+01:54:07,850 --> 01:54:11,580
+只有开和关两种状态的器件。
+with only two possible status on and off.
+
+1416
+01:54:12,440 --> 01:54:17,340
+把它放进电路里，
+So once you place them in your circuit,
+
+1417
+01:54:18,400 --> 01:54:21,900
+比如用它开灯和关灯，
+so if you want to use them to turn on off the light,
+
+1418
+01:54:22,360 --> 01:54:25,820
+就把它放在电路回路中。
+you place them in the loop of your circuit.
+
+1419
+01:54:27,160 --> 01:54:27,993
+典型的，
+The classic,
+
+1420
+01:54:28,960 --> 01:54:33,540
+数字传感器，或者说这里的开关，典型的符号
+the classic symbol of a digital sensor of a switch
+
+1421
+01:54:34,040 --> 01:54:38,660
+就是这个。为什么？因为它有两个
+in this case is this one y because it has two
+
+1422
+01:54:38,980 --> 01:54:39,813
+接线端，
+terminals
+
+1423
+01:54:40,750 --> 01:54:44,050
+上面还有一条线。
+and with a line on top,
+
+1424
+01:54:45,100 --> 01:54:48,050
+这两个接线端就是
+these two terminals that are the two part that you can,
+
+1425
+01:54:48,200 --> 01:54:52,490
+可以连接到电路其余部分、接入回路的位置。
+that you can connect to the rest of your circuit in the loop.
+
+1426
+01:54:54,030 --> 01:54:55,600
+如果你没有，
+Well, if you don't,
+
+1427
+01:54:56,660 --> 01:54:59,320
+没有操作这个传感器，
+if you don't interact with the sensor,
+
+1428
+01:54:59,790 --> 01:55:02,680
+通常这两个接线端
+usually these two terminals are not
+
+1429
+01:55:04,810 --> 01:55:09,300
+没有短接，也没有连通。这时，
+shorted are not connected. So in this case,
+
+1430
+01:55:12,010 --> 01:55:15,470
+看电路回路，会发现有一个缺口。
+in the loop, if I look at the loop, there is a gap.
+
+1431
+01:55:16,170 --> 01:55:20,790
+这时我们说传感器处于断开状态，
+So this sensor, we call, we call this sensor open,
+
+1432
+01:55:21,850 --> 01:55:26,750
+电子无法流动，因此没有电流，
+and the electrons cannot flow. So there is no current,
+
+1433
+01:55:27,160 --> 01:55:28,150
+灯也不亮。
+there is no light.
+
+1434
+01:55:29,600 --> 01:55:34,220
+如果操作传感器，
+If we interact with the sensor and we
+
+1435
+01:55:34,950 --> 01:55:37,700
+让它闭合，我们做了什么？
+close the sensor, what do we do?
+
+1436
+01:55:37,840 --> 01:55:42,420
+只是把传感器的两个部分，
+We are just connecting the two part of the sensor,
+
+1437
+01:55:42,640 --> 01:55:46,960
+两个接线端连接起来，为
+the two terminals creating a path for
+
+1438
+01:55:47,740 --> 01:55:52,200
+电子提供通路。这是一个实际的连接，
+the electrodes to flow. This is a physical connection,
+
+1439
+01:55:52,620 --> 01:55:56,800
+也就是让两个部分真正接触。
+so you're really taking the two part and you touch them physically.
+
+1440
+01:55:59,690 --> 01:56:04,550
+电子可以沿回路流动，灯就亮了。
+The electrons can flow in the loop. So you have light.
+
+1441
+01:56:08,470 --> 01:56:12,540
+数字传感器有很多种。
+There are different kind of digital sensors.
+
+1442
+01:56:14,340 --> 01:56:18,990
+主要是开关，比如瞬时开关，也就是按钮。
+They are mostly switch, momentary switch. So push button.
+
+1443
+01:56:20,300 --> 01:56:23,770
+按下时，
+So when you press them, you um,
+
+1444
+01:56:24,990 --> 01:56:27,170
+两个接线端就短接了。
+you short the two terminals,
+
+1445
+01:56:29,490 --> 01:56:32,550
+还有保持式开关，
+toggle switch. So these, uh,
+
+1446
+01:56:32,550 --> 01:56:35,830
+有两个位置：闭合，
+they do have two positions close,
+
+1447
+01:56:36,490 --> 01:56:40,750
+就保持闭合；断开，就保持断开。
+and it stays closed. If you open, it stays open.
+
+1448
+01:56:41,160 --> 01:56:41,993
+这种，
+These,
+
+1449
+01:56:42,880 --> 01:56:47,310
+这种扣件很适合做保持式开关。
+these clips are perfect for toggle switch.
+
+1450
+01:56:52,300 --> 01:56:55,200
+还可以做倾斜开关，
+You can make a tilt switch
+
+1451
+01:56:57,000 --> 01:57:01,750
+其中有一根触点，
+where actually there is one pin that
+
+1452
+01:57:02,820 --> 01:57:05,950
+会随着倾斜而移动，从而断开，
+with the tilt moves. So it opens,
+
+1453
+01:57:06,490 --> 01:57:09,830
+或者闭合电路回路。
+it opens and close the, um, the loop.
+
+1454
+01:57:11,600 --> 01:57:16,580
+也可以做抚摸开关，抚摸时，
+But you can also make a stroke switch. So something that if you stroke,
+
+1455
+01:57:17,240 --> 01:57:21,910
+传感器闭合，回路也就接通，
+you close the, um, the sensor, you close the loop.
+
+1456
+01:57:22,210 --> 01:57:23,830
+于是产生电流。
+So there is current,
+
+1457
+01:57:31,400 --> 01:57:36,290
+对，瞬时开关。怎么做一个瞬时开关呢？
+yeah, momentary switch. How can we make a momentary switch?
+
+1458
+01:57:36,720 --> 01:57:41,290
+这只是一个例子。在
+This is just one example. Then in, uh,
+
+1459
+01:57:41,910 --> 01:57:46,540
+Liza的演示文稿中，特别是最后，
+in LSA presentations, especially at the end,
+
+1460
+01:57:46,760 --> 01:57:49,740
+附录里面，
+in the appendix, there are, uh,
+
+1461
+01:57:49,970 --> 01:57:54,500
+有介绍这些传感器的很好的幻灯片。
+some very nice slide of each of these sensors.
+
+1462
+01:57:54,560 --> 01:57:56,860
+在KOBAKANT网站上，
+And also in a cover account website,
+
+1463
+01:57:57,000 --> 01:58:00,580
+也能找到很多例子，以及
+you can find a lot of example with a lot with instructions,
+
+1464
+01:58:01,040 --> 01:58:02,380
+制作说明。
+how to make one.
+
+1465
+01:58:04,110 --> 01:58:08,590
+我认为最容易制作的数字传感器是瞬时开关。
+I think that the easier digital sensor that you can make is a aary switch.
+
+1466
+01:58:09,220 --> 01:58:11,390
+它其实就是一个夹层结构。
+That is actually a sandwich.
+
+1467
+01:58:13,650 --> 01:58:17,090
+夹层的一面是导电片，
+A sandwich where you have a conductive pad,
+
+1468
+01:58:19,980 --> 01:58:22,820
+中间还有一层，
+You have a extra layer,
+
+1469
+01:58:23,250 --> 01:58:25,780
+就是这片带孔的白色材料。
+this white layer with some holes.
+
+1470
+01:58:27,400 --> 01:58:30,250
+这一层不导电。
+This layer is not conductive.
+
+1471
+01:58:30,910 --> 01:58:33,730
+另一面则是另一块，
+And on the other side you have another,
+
+1472
+01:58:34,630 --> 01:58:39,170
+另一块导电片。把这个夹层的两面
+the other conductive pad. When you close these two
+
+1473
+01:58:41,010 --> 01:58:44,940
+合起来时，两块导电片
+part of the sandwich, the two conductive pad,
+
+1474
+01:58:46,460 --> 01:58:50,890
+被中间这层，
+they are separated by these, um,
+
+1475
+01:58:51,270 --> 01:58:55,010
+白色隔层分开。但是一按压，
+middle layer, white layer. But if you push,
+
+1476
+01:58:56,570 --> 01:58:59,270
+就会让两面穿过孔，
+you are forcing through the horse,
+
+1477
+01:59:00,670 --> 01:59:01,770
+也就是两侧的
+the two side,
+
+1478
+01:59:03,280 --> 01:59:05,780
+导电片互相接触，
+the two pad conductive pad to touch
+
+1479
+01:59:11,340 --> 01:59:12,173
+像这样。
+like this.
+
+1480
+01:59:15,230 --> 01:59:20,110
+所以，如果你已经做了一个，
+So we can actually, if you already have one,
+
+1481
+01:59:20,500 --> 01:59:23,510
+很好。如果还没有，
+perfect. If you don't have any,
+
+1482
+01:59:24,490 --> 01:59:28,070
+我们可以很快做一个。
+we can very quickly make one
+
+1483
+01:59:31,160 --> 01:59:32,140
+怎么做呢？
+how? Well
+
+1484
+01:59:41,520 --> 01:59:44,290
+用泡棉、
+with foam
+
+1485
+01:59:45,810 --> 01:59:50,650
+铝箔、导电线和一点胶带。
+aluminum foil, collective thread and some tape.
+
+1486
+02:00:06,570 --> 02:00:07,403
+好。
+Okay?
+
+1487
+02:00:11,720 --> 02:00:12,553
+嗯。
+Um,
+
+1488
+02:00:21,860 --> 02:00:25,530
+好，我有……放在哪里了？
+okay, so I have, where am I?
+
+1489
+02:00:26,790 --> 02:00:28,540
+这块泡棉。
+These piece of foam.
+
+1490
+02:00:28,610 --> 02:00:33,060
+这是洗碗用的普通海绵。
+This is just a sponge of the one that you use for dishes. Uh,
+
+1491
+02:00:33,170 --> 02:00:34,540
+它比较厚，
+it's quite thick,
+
+1492
+02:00:34,880 --> 02:00:39,580
+所以我要把它剖成两半，
+so I'm going to cut it in half to
+
+1493
+02:00:39,580 --> 02:00:41,460
+减小厚度。
+reduce the thickness.
+
+1494
+02:00:44,210 --> 02:00:45,043
+好了。
+Here we are,
+
+1495
+02:00:48,620 --> 02:00:52,870
+中间这里已经开了一个孔。
+well in the middle. I already made a hole here.
+
+1496
+02:00:57,490 --> 02:01:00,690
+接下来需要什么？需要
+Then what do I need? I need
+
+1497
+02:01:04,200 --> 02:01:05,033
+铝箔。
+the aluminum.
+
+1498
+02:01:10,150 --> 02:01:10,983
+我，
+I'm
+
+1499
+02:01:41,400 --> 02:01:44,340
+大概这样，其实，
+more or less a little bit, actually,
+
+1500
+02:01:44,340 --> 02:01:49,290
+它们应该比
+they should be a little bit smaller than the, uh,
+
+1501
+02:01:49,670 --> 02:01:51,210
+泡棉或海绵稍微小一点。
+the foam or the sponge.
+
+1502
+02:01:58,940 --> 02:02:02,200
+好，但不能太小。
+Okay, I'm going but not too small.
+
+1503
+02:02:10,190 --> 02:02:14,720
+好，其实我想要，
+Okay, well, actually I want it,
+
+1504
+02:02:21,010 --> 02:02:25,450
+再小一点。
+okay, a little bit smaller.
+
+1505
+02:02:28,830 --> 02:02:32,120
+好，像这样。我需要两片。
+Okay? Like this. I need to,
+
+1506
+02:02:39,560 --> 02:02:40,393
+好。
+Okay,
+
+1507
+02:02:45,910 --> 02:02:50,170
+然后还有，
+then I have,
+
+1508
+02:02:51,630 --> 02:02:55,520
+用导电线吧。
+let me use the conductive thread.
+
+1509
+02:03:00,710 --> 02:03:03,480
+在这里，需要两段。
+Here we are, I need two pieces,
+
+1510
+02:03:13,420 --> 02:03:16,920
+好，用胶带
+okay? I'm going to use tape
+
+1511
+02:03:37,590 --> 02:03:41,810
+把导电线固定到
+to attach the conductive thread to
+
+1512
+02:03:43,130 --> 02:03:46,880
+铝箔上。好。
+the aluminum oil. Okay?
+
+1513
+02:03:48,490 --> 02:03:51,230
+一边一根。
+One and one.
+
+1514
+02:03:55,920 --> 02:03:59,070
+一块导电片，
+So one pad,
+
+1515
+02:04:04,270 --> 02:04:08,890
+放在泡棉的一面，另一块导电片
+we place one pad on one side of the foam and the other pad
+
+1516
+02:04:09,070 --> 02:04:12,610
+放在另一面，像这样。
+on the other side like this.
+
+1517
+02:04:18,420 --> 02:04:23,400
+其实，就算
+Now, I, I actually, I could work even with,
+
+1518
+02:04:23,860 --> 02:04:28,490
+这三个部分
+um, or these three part, um,
+
+1519
+02:04:29,080 --> 02:04:33,050
+像这样散放着，也能用，但我不太喜欢。
+free like these, but I don't like it a lot.
+
+1520
+02:04:33,950 --> 02:04:35,370
+所以怎么办？
+So what do I do?
+
+1521
+02:04:38,900 --> 02:04:40,100
+我拿一段
+I just take
+
+1522
+02:04:43,750 --> 02:04:44,710
+胶带。
+a piece of tape.
+
+1523
+02:04:47,170 --> 02:04:51,010
+也可以用橡皮筋。再强调一下，这只是
+I could also take an elastic band. Again, this is really,
+
+1524
+02:04:52,580 --> 02:04:55,520
+一个快速、粗略制作的
+let me call it a quick and dirty, um,
+
+1525
+02:04:57,610 --> 02:05:01,080
+传感器，好吗？
+sensor, okay?
+
+1526
+02:05:03,940 --> 02:05:06,440
+所以别把它直接当作业提交。
+So don't do this as an assignment,
+
+1527
+02:05:14,450 --> 02:05:15,283
+好？
+okay?
+
+1528
+02:05:21,200 --> 02:05:24,700
+我把这个夹层合起来。
+I just close this sandwich.
+
+1529
+02:05:32,030 --> 02:05:35,040
+只要确保铝箔，
+Just be sure that the aluminum foil,
+
+1530
+02:05:35,140 --> 02:05:39,960
+也就是导电片，正对着孔。
+so the conductive pad are placed on top of the hole.
+
+1531
+02:05:40,700 --> 02:05:41,560
+好，这里就是，
+Hey, here, it's
+
+1532
+02:05:49,570 --> 02:05:54,020
+这个。例如，
+this one. Mm. Or for example,
+
+1533
+02:05:54,880 --> 02:05:56,180
+我再展示一下。啊，这里，
+let show you, ah, here
+
+1534
+02:05:58,750 --> 02:06:01,870
+还有另一个例子。
+I do have another example here,
+
+1535
+02:06:12,410 --> 02:06:17,020
+这里，这个例子没有用铜箔，
+here. So in this case, instead of using copper foil,
+
+1536
+02:06:17,100 --> 02:06:21,060
+而是用了两块铜织物，
+I used two pieces of copper fabric
+
+1537
+02:06:23,430 --> 02:06:25,460
+粘在布上，
+glued on the fabric,
+
+1538
+02:06:28,000 --> 02:06:31,100
+再焊上跳线。
+and then I soldered the jumper wires.
+
+1539
+02:06:33,740 --> 02:06:37,120
+当然，中间需要一个隔层。
+And of course, in the middle you need a spacer.
+
+1540
+02:06:50,280 --> 02:06:52,700
+那么，
+Okay? So
+
+1541
+02:06:54,300 --> 02:06:55,800
+怎样测试它呢？
+how you can test it.
+
+1542
+02:07:02,740 --> 02:07:06,080
+当然用万用表来测试。
+You test it, of course, with the multimeter,
+
+1543
+02:07:16,520 --> 02:07:17,460
+怎么做？
+how well
+
+1544
+02:07:27,010 --> 02:07:28,670
+用通断档。
+in continuity mode.
+
+1545
+02:07:34,350 --> 02:07:38,140
+现在，
+So, uh, now, so,
+
+1546
+02:07:42,130 --> 02:07:46,650
+好，这样做吧。
+uh, okay, let's do like this.
+
+1547
+02:07:48,520 --> 02:07:52,530
+试试这样。
+Let's try like this.
+
+1548
+02:07:53,390 --> 02:07:58,140
+现在需要帮手，如果有辅助夹具就用上。
+Now I need, if you have an extra hand, use it.
+
+1549
+02:07:59,560 --> 02:08:02,580
+我用这个夹子帮忙。
+Let me have myself with this clip.
+
+1550
+02:08:10,390 --> 02:08:14,080
+好，打开，这样应该能接上，
+Okay, let's open, put that this is making a connection
+
+1551
+02:08:20,800 --> 02:08:22,900
+但还没有接好。
+and it's not making a connection.
+
+1552
+02:08:26,490 --> 02:08:31,040
+试试这样，再试这样。
+Let's try like this, and let's write like this.
+
+1553
+02:08:33,540 --> 02:08:36,490
+好了，这里我正拿着，
+Okay, here I'm keeping,
+
+1554
+02:08:37,350 --> 02:08:39,860
+把两根导电线
+I'm attaching the two thread
+
+1555
+02:08:42,390 --> 02:08:45,840
+分别接到两支表笔上，然后按压，
+with the two probes, and I'm just pressing,
+
+1556
+02:08:46,590 --> 02:08:51,560
+按在中间，那里是孔的位置，
+pushing in the middle where I know there is the hole and
+
+1557
+02:08:51,560 --> 02:08:52,380
+会发生什么呢？
+what happens.
+
+1558
+02:08:52,380 --> 02:08:57,080
+按压时两块导电片
+It happens that when I press the two pad,
+
+1559
+02:08:58,870 --> 02:09:03,750
+互相接触，形成短接，
+they touch each other's. So they make a short, so the, the,
+
+1560
+02:09:03,850 --> 02:09:08,490
+万用表就能检测到导通。
+the multimeter can measure continuity.
+
+1561
+02:09:20,040 --> 02:09:20,873
+那么，
+So
+
+1562
+02:09:21,230 --> 02:09:26,050
+如果把它用到电路里，
+If I use this one in my circuit
+
+1563
+02:09:28,500 --> 02:09:32,860
+现在试试看能不能接好。
+now, now let me see if I'm capable.
+
+1564
+02:09:40,650 --> 02:09:41,483
+好。
+Okay.
+
+1565
+02:09:58,080 --> 02:10:02,020
+我想用
+I'm just trying to keep in place
+
+1566
+02:10:05,580 --> 02:10:10,240
+鳄鱼夹把导电线固定住。
+the conductive thread with, okay, delegator clip.
+
+1567
+02:10:10,910 --> 02:10:14,400
+好，然后拿一个LED。
+Okay, then I take analogy.
+
+1568
+02:10:17,770 --> 02:10:21,210
+接好这一边。很好。
+Do this one side. Perfect.
+
+1569
+02:10:22,120 --> 02:10:26,570
+然后拿一节电池。
+Then let me take a battery.
+
+1570
+02:10:34,180 --> 02:10:38,120
+好，我，
+Okay, I,
+
+1571
+02:10:39,420 --> 02:10:42,030
+这里，
+uh, here,
+
+1572
+02:10:48,410 --> 02:10:51,470
+好，接好了。
+okay, here we are.
+
+1573
+02:10:52,330 --> 02:10:54,910
+方向很重要。
+The orientation is important.
+
+1574
+02:10:55,330 --> 02:10:59,700
+长脚接VCC。
+So long leg to V C C.
+
+1575
+02:11:11,220 --> 02:11:12,053
+好。
+Okay?
+
+1576
+02:11:19,860 --> 02:11:20,693
+现在，
+Now,
+
+1577
+02:11:26,630 --> 02:11:31,160
+让我检查一下电池是否
+okay, let me just check if the battery is
+
+1578
+02:11:33,820 --> 02:11:36,940
+有电。怎么检查？用万用表。
+actually full. How do I do that? I use the multimeter.
+
+1579
+02:11:38,720 --> 02:11:39,553
+嗯。
+Mm.
+
+1580
+02:11:41,870 --> 02:11:44,450
+检查电池两端的电压。
+And I check the voltage on the battery.
+
+1581
+02:11:46,000 --> 02:11:46,990
+把它打开。
+Let's turn it on.
+
+1582
+02:11:53,380 --> 02:11:57,430
+对，是3伏。你们可能看不清，
+Yeah, it's a three volt. Well, maybe you don't read it,
+
+1583
+02:11:57,450 --> 02:12:01,970
+但我在万用表上能读到。
+but I can read on the multimeter. Yeah,
+
+1584
+02:12:03,340 --> 02:12:04,173
+是3伏。
+the three volt,
+
+1585
+02:12:17,540 --> 02:12:22,170
+所以我确定电池有电。
+these. So I'm sure that the battery is full.
+
+1586
+02:12:28,270 --> 02:12:32,110
+按下时，回路闭合，
+And when I press, I close the loop,
+
+1587
+02:12:33,010 --> 02:12:34,390
+灯就亮了。
+the light goes on.
+
+1588
+02:12:46,520 --> 02:12:50,800
+这也适用于，
+And this is, and this is valid for, um,
+
+1589
+02:12:52,940 --> 02:12:55,520
+数字传感器的开关状态：
+for the digital sensors on off,
+
+1590
+02:12:57,290 --> 02:13:00,730
+有通路，或者没有通路。现在，
+there is a path. There is not. Now
+
+1591
+02:13:03,460 --> 02:13:07,630
+实际应该使用什么电路呢？
+How do we, what, what is actually the, the, the circuit?
+
+1592
+02:13:09,360 --> 02:13:10,610
+因为，
+Because you know, I,
+
+1593
+02:13:10,690 --> 02:13:15,210
+我刚展示了如何把传感器接进电路，
+I just show you how you can integrate the sensor in your circuit,
+
+1594
+02:13:15,790 --> 02:13:20,700
+但你们会用Arduino，会发现
+but you will work with Arduino and you will see that you are not
+
+1595
+02:13:20,700 --> 02:13:23,460
+Arduino不是接这种电路。
+going to make this circuit with Arduino.
+
+1596
+02:13:23,890 --> 02:13:26,940
+这种方法很适合学习，
+This is a great way to learn,
+
+1597
+02:13:27,120 --> 02:13:28,900
+练习和实验。
+to practice and to experiment.
+
+1598
+02:13:29,480 --> 02:13:33,480
+但使用Arduino时，会略有不同。
+But when you will use Arduino is gonna be slightly different.
+
+1599
+02:13:37,160 --> 02:13:39,380
+我想给你们展示一下。
+And I want to show you something.
+
+1600
+02:13:40,330 --> 02:13:45,300
+这才是，
+This is actually the secret to,
+
+1601
+02:13:45,600 --> 02:13:50,460
+使用Arduino时的电路。这里发生了什么？
+um, um, that, that you use with Arduino. What happens here?
+
+1602
+02:13:50,650 --> 02:13:54,710
+有什么？有一个电源。
+What do we have? We have a power source.
+
+1603
+02:13:56,310 --> 02:14:00,290
+现在看幻灯片：有电源、
+Now I'm looking at the slide. We have a power source,
+
+1604
+02:14:01,450 --> 02:14:04,840
+一个电阻，然后是开关。
+a resistor, and then a switch.
+
+1605
+02:14:07,270 --> 02:14:11,080
+这样接的电阻，
+This resistor placed in this way.
+
+1606
+02:14:11,590 --> 02:14:14,360
+叫作上拉电阻。
+It's called pull up resistor.
+
+1607
+02:14:17,170 --> 02:14:21,860
+最初讲传感器时，我说过，
+What we, at the beginning when I spoke about the sensors, I said,
+
+1608
+02:14:22,970 --> 02:14:27,860
+与传感器互动，就会改变一些东西。
+when we interact with a sensor, we change something.
+
+1609
+02:14:29,010 --> 02:14:32,020
+改变什么？改变电压。
+What do we change? We change a voltage.
+
+1610
+02:14:33,320 --> 02:14:37,780
+这一点很重要，因为使用
+And this is important because when you work with
+
+1611
+02:14:37,970 --> 02:14:39,710
+Arduino时，
+Arduino, well,
+
+1612
+02:14:39,780 --> 02:14:44,190
+实际上是在读取电压。
+what you do with Arduino is actually reading a voltage.
+
+1613
+02:14:45,370 --> 02:14:49,830
+如果传感器改变电压，而Arduino能够
+So if you sensor change the voltage and Arduino can
+
+1614
+02:14:50,220 --> 02:14:51,230
+读取电压，
+read a voltage,
+
+1615
+02:14:53,690 --> 02:14:57,910
+就可以通过Arduino读取你对传感器的操作。
+you can read with the Arduino, the interaction with your sensor,
+
+1616
+02:14:59,280 --> 02:15:02,890
+就像用万用表测量电压，
+like we're measuring the voltages with the multimeter. Also,
+
+1617
+02:15:03,120 --> 02:15:04,410
+Arduino也能做到。
+Arduino can do that.
+
+1618
+02:15:06,180 --> 02:15:11,160
+要读取随数字传感器变化的电压，
+And how to read the voltage that change with
+
+1619
+02:15:11,160 --> 02:15:15,440
+就需要搭建这样的电路。
+the digital sensor, you need to make such a circuit.
+
+1620
+02:15:20,680 --> 02:15:21,513
+那么，
+And
+
+1621
+02:15:24,950 --> 02:15:26,350
+我想演示一下，
+I just want to show you
+
+1622
+02:15:28,450 --> 02:15:32,420
+搭好这个电路后会发生什么。
+what happens here if I make this circuit.
+
+1623
+02:15:36,200 --> 02:15:38,380
+需要一个电阻，
+So I need a resistor
+
+1624
+02:15:40,380 --> 02:15:42,350
+我这里正好有。
+that I have read here,
+
+1625
+02:15:48,460 --> 02:15:49,293
+好。
+okay?
+
+1626
+02:15:54,190 --> 02:15:56,280
+好，现在看到的，
+Okay. So what do you see here
+
+1627
+02:15:58,580 --> 02:16:01,520
+就是根据这个
+is actually the circuit of these
+
+1628
+02:16:03,350 --> 02:16:04,183
+电路图接出的实际电路。
+schematic.
+
+1629
+02:16:09,640 --> 02:16:14,530
+我要通过传感器
+What what is the voltage that I'm going to
+
+1630
+02:16:14,540 --> 02:16:19,490
+改变的电压，
+manipulate to change with the sensor is
+
+1631
+02:16:19,510 --> 02:16:21,410
+就是
+the voltage between
+
+1632
+02:16:23,260 --> 02:16:26,890
+电阻与传感器连接点的电压。
+the resistor and the sensor.
+
+1633
+02:16:31,140 --> 02:16:34,400
+这里有
+So here I have
+
+1634
+02:16:37,660 --> 02:16:41,750
+电池，这里有
+the battery. Here I have
+
+1635
+02:16:43,320 --> 02:16:48,260
+电阻，这里是开关。
+the resistor, and here I have the switch.
+
+1636
+02:16:55,640 --> 02:16:59,160
+我想知道这里的电压，
+I want to know the voltage here
+
+1637
+02:17:00,810 --> 02:17:03,180
+电阻与开关连接点的电压。
+between the resistor and the switch.
+
+1638
+02:17:06,150 --> 02:17:10,450
+怎样测量呢？当然
+If now, how to, to, to measure this voltage. Of course,
+
+1639
+02:17:10,520 --> 02:17:12,630
+用万用表。
+with a multimeter. So
+
+1640
+02:17:14,390 --> 02:17:16,970
+我在测相对于地的电压，
+I'm measuring the voltage between ground,
+
+1641
+02:17:17,590 --> 02:17:19,610
+也就是这一点
+so between this point
+
+1642
+02:17:22,400 --> 02:17:23,260
+和这一点之间的电压。
+and this one,
+
+1643
+02:17:30,940 --> 02:17:35,120
+测得多少？3伏。
+and what do I measure? I measure three volt.
+
+1644
+02:17:35,660 --> 02:17:38,600
+所以，不碰传感器时，
+So if I don't touch the sensor,
+
+1645
+02:17:39,340 --> 02:17:44,160
+这里的电压是3伏。现在，
+the voltage here is three volt. Now,
+
+1646
+02:17:46,330 --> 02:17:51,050
+这样做，如果
+now I do this. Now if
+
+1647
+02:17:53,510 --> 02:17:58,390
+按下开关，电压就变成0。
+I press the switch, the voltage goes to zero.
+
+1648
+02:17:58,770 --> 02:18:03,160
+可以看到，3伏，0伏。
+You see three volt, zero volt.
+
+1649
+02:18:09,500 --> 02:18:12,900
+松开是3伏，按下是0伏。
+I release three volt, zero volt.
+
+1650
+02:18:14,370 --> 02:18:15,203
+因此，
+So
+
+1651
+02:18:18,680 --> 02:18:21,850
+用Arduino连接传感器时，
+when you will use the sensor with Arduino,
+
+1652
+02:18:22,480 --> 02:18:27,330
+Arduino读取的就是这个电压，
+Arduino will read exactly this voltage that
+
+1653
+02:18:27,670 --> 02:18:28,503
+它会
+change
+
+1654
+02:18:29,870 --> 02:18:34,640
+随着你对
+depending on the interaction with the
+
+1655
+02:18:34,640 --> 02:18:35,473
+传感器的操作而变化。
+sensor.
+
+1656
+02:18:45,350 --> 02:18:49,570
+使用Arduino时，要一直记住，
+And when you will work with Arduino, always remember that the arwin,
+
+1657
+02:18:49,950 --> 02:18:54,330
+Arduino的引脚可以读取电压，
+the pin of the arwin can read voltages
+
+1658
+02:18:55,280 --> 02:18:59,890
+这就是使用传感器、输入器件时的工作方式。
+when you work with sensors with input devices.
+
+1659
+02:19:05,830 --> 02:19:06,663
+好。
+Okay?
+
+1660
+02:19:11,880 --> 02:19:13,180
+当然，我进度有点晚了，
+Course I'm late, but,
+
+1661
+02:19:24,490 --> 02:19:29,100
+好，就是这样。
+okay, so, and here it is.
+
+1662
+02:19:30,200 --> 02:19:32,890
+这就是刚才展示的内容：
+This is exactly what I just showed to you,
+
+1663
+02:19:34,000 --> 02:19:35,450
+用万用表，
+that with the multimeter,
+
+1664
+02:19:35,830 --> 02:19:39,530
+可以实际看到电压如何变化，
+you can actually see how the voltage change
+
+1665
+02:19:43,240 --> 02:19:48,230
+电路使用的是上拉电阻和数字传感器。
+using a pull up resistor and a digital sensor.
+
+1666
+02:19:51,080 --> 02:19:55,100
+所以，通过万用表，可以完成这些
+So the use of the multimeter, you, you can do all of these
+
+1667
+02:19:56,660 --> 02:19:57,890
+小的
+small, uh,
+
+1668
+02:19:58,100 --> 02:20:01,730
+检查，用传感器和万用表就能做。
+check with your sensor and with your multimeter.
+
+1669
+02:20:03,150 --> 02:20:07,630
+其中最重要的，其实是通断档。如果，
+I will say that the most important one is actually the continuity mold. If,
+
+1670
+02:20:09,210 --> 02:20:10,390
+它发出蜂鸣声，
+uh, if it beeps,
+
+1671
+02:20:12,050 --> 02:20:14,590
+说明传感器能够导通工作。
+it means that your sensor will work.
+
+1672
+02:20:17,410 --> 02:20:19,640
+这些是数字传感器。那么，
+These are digital sensors. Now,
+
+1673
+02:20:25,130 --> 02:20:28,470
+数字传感器的局限是什么？
+um, what is the limit of a digital sensor?
+
+1674
+02:20:28,730 --> 02:20:31,070
+只有开、关两种可能。
+You only have two possibilities on off.
+
+1675
+02:20:31,610 --> 02:20:34,310
+如果把传感器
+If you put your sensor
+
+1676
+02:20:36,750 --> 02:20:38,810
+和LED接在同一个回路中，
+in, uh, uh, in the loop with the lead,
+
+1677
+02:20:38,910 --> 02:20:43,770
+LED只能亮或灭，只有两种状态。
+the lead turns on and off only to possible status.
+
+1678
+02:20:45,610 --> 02:20:48,680
+假设想要更
+Let's say that you want to have a more
+
+1679
+02:20:50,460 --> 02:20:53,890
+丰富的交互，
+interesting interaction, well,
+
+1680
+02:20:54,920 --> 02:20:58,890
+那就应该使用模拟传感器。
+then you should use a analog sensor.
+
+1681
+02:21:01,670 --> 02:21:04,120
+那么，什么是模拟传感器？
+Well, what is a analog sensor?
+
+1682
+02:21:07,770 --> 02:21:12,190
+模拟传感器，就是你们在
+Analog sensor? The one that you saw, uh,
+
+1683
+02:21:12,480 --> 02:21:16,310
+Liza的演示里看到的，以及我接下来要展示的，
+analyzer's presentations, and the one that I'm going to show you
+
+1684
+02:21:17,910 --> 02:21:18,743
+简单
+is very
+
+1685
+02:21:20,450 --> 02:21:25,110
+来说，就是可变电阻。
+simply is a variable resistor.
+
+1686
+02:21:25,490 --> 02:21:28,550
+所以，这种模拟传感器是一个电阻。
+So a analog sensor is a resistor.
+
+1687
+02:21:30,170 --> 02:21:32,790
+也就是说，它做什么呢？
+So what it means, what, what does it do?
+
+1688
+02:21:34,290 --> 02:21:39,110
+它阻碍电子流动，
+It impede the flow of electrons,
+
+1689
+02:21:41,680 --> 02:21:45,380
+但它的阻值可变。什么意思呢？
+but it's a variable. One. What it means, it means that
+
+1690
+02:21:47,410 --> 02:21:50,900
+看这个器件，
+if this divide,
+
+1691
+02:21:50,900 --> 02:21:54,340
+刚才用的电阻有固定阻值。
+the resistor that I just used has a fixed value.
+
+1692
+02:21:54,690 --> 02:21:59,020
+这是一个5千欧电阻。而模拟传感器，
+This is a five kilo home resistor, a analog sensor,
+
+1693
+02:22:00,860 --> 02:22:02,760
+它的数值，
+the value of the, um,
+
+1694
+02:22:03,900 --> 02:22:07,560
+它的阻值会变化。
+of the analog sensor, it change
+
+1695
+02:22:09,450 --> 02:22:14,030
+怎样变化？通过对材料的实际操作来改变。
+how it change with the physical manipulation of the material.
+
+1696
+02:22:16,560 --> 02:22:21,140
+这里看到的符号，这条带箭头的折线，
+The, the, the symbol that you see here, this, this zigzag with arrow.
+
+1697
+02:22:23,010 --> 02:22:27,720
+就是可变电阻的典型
+Well, this is a typical example of a variable
+
+1698
+02:22:28,000 --> 02:22:32,980
+符号，说明它的数值，
+resistor. So it explains the fact that the value,
+
+1699
+02:22:33,600 --> 02:22:38,060
+也就是器件的电阻，并不固定，而是可以变化。
+the resistance of that device is not fixed. It cannot change.
+
+1700
+02:22:40,790 --> 02:22:45,030
+它有两个接线端，
+They do have two terminals and, uh,
+
+1701
+02:22:45,610 --> 02:22:49,280
+并非总是可行，但可以试着
+you can not always, but you can try,
+
+1702
+02:22:49,860 --> 02:22:53,860
+把它接入电路，
+you can place it in the circuit,
+
+1703
+02:22:54,360 --> 02:22:59,300
+与LED组成回路，然后改变
+in your loop with the lead and changing the value of
+
+1704
+02:22:59,300 --> 02:23:02,860
+电阻值。改变电阻值会发生什么？
+the resistor. What do you do change the value of the resistor.
+
+1705
+02:23:03,040 --> 02:23:05,380
+电流大小会改变，
+You change the amount of current,
+
+1706
+02:23:06,120 --> 02:23:11,020
+从而改变LED
+so you change the amount of light that the l
+
+1707
+02:23:11,060 --> 02:23:13,300
+发出的光的强弱。
+e D will generate.
+
+1708
+02:23:21,130 --> 02:23:25,350
+怎么做一个可变电阻呢？
+How can we make a variable resistor? Well,
+
+1709
+02:23:25,410 --> 02:23:29,310
+使用特殊材料，也就是压阻材料。
+we use a special material, a p resistive material.
+
+1710
+02:23:34,710 --> 02:23:37,770
+我这里用的叫Velostat，
+The one that I have is called velostar.
+
+1711
+02:23:41,220 --> 02:23:45,100
+就是这片有光泽的薄膜。
+That is this lucid, uh, film.
+
+1712
+02:23:47,870 --> 02:23:51,210
+它含有碳，
+Uh, it con it contains carbon.
+
+1713
+02:23:51,920 --> 02:23:54,610
+因此能够，
+This is why actually it allows,
+
+1714
+02:23:55,360 --> 02:23:59,410
+它并非完全导电，而是像电阻一样工作。
+it's not fully conductive, but it behaves like a resistor.
+
+1715
+02:24:03,360 --> 02:24:04,193
+所以，
+So
+
+1716
+02:24:05,780 --> 02:24:08,720
+电流能够流过，
+the current can flow,
+
+1717
+02:24:09,220 --> 02:24:12,400
+但这种材料，
+but this material will, uh,
+
+1718
+02:24:12,670 --> 02:24:15,160
+根据尺寸、大小和形状，
+depending on the size dimension, the shape,
+
+1719
+02:24:16,980 --> 02:24:21,030
+会对电流产生一定的阻碍。
+this material will block some current.
+
+1720
+02:24:28,180 --> 02:24:30,880
+我用万用表演示一下。
+Let me show you with the multimeter.
+
+1721
+02:24:36,040 --> 02:24:40,780
+这是我手上的Velostat，
+If this is the piece of velostar that I have,
+
+1722
+02:24:43,000 --> 02:24:46,700
+它的作用像电阻，
+so this behave, this behaves like a resistor,
+
+1723
+02:24:47,540 --> 02:24:51,340
+要测量电阻，就调到欧姆档。
+I want to measure resistance. I go to home.
+
+1724
+02:24:51,990 --> 02:24:53,140
+看看测得多少。
+Let's see what I got.
+
+1725
+02:25:03,710 --> 02:25:08,690
+50，50，50千欧。
+50, 50, 50 kilo homes.
+
+1726
+02:25:12,650 --> 02:25:16,210
+所以，如果连接，
+So this, if I connect,
+
+1727
+02:25:16,390 --> 02:25:21,290
+把这两个角当作接线端，
+if I use these two corners, uh, as a terminals,
+
+1728
+02:25:22,400 --> 02:25:26,820
+它就相当于，
+this is, it's like, uh,
+
+1729
+02:25:27,060 --> 02:25:31,720
+一个50千欧的电阻。现在，
+a resistor of 50 K. Now,
+
+1730
+02:25:33,910 --> 02:25:36,570
+要怎么做呢？我看看。
+how can I do this? Let's see.
+
+1731
+02:25:38,760 --> 02:25:39,780
+现在如果，
+Now if,
+
+1732
+02:25:57,320 --> 02:25:58,153
+好，
+okay,
+
+1733
+02:26:03,140 --> 02:26:06,090
+当然，先看看，
+now of course, let's see,
+
+1734
+02:26:08,080 --> 02:26:10,130
+好，70千欧。
+okay, 70 kilogram,
+
+1735
+02:26:15,850 --> 02:26:19,310
+如果弯曲它，
+if I bend it,
+
+1736
+02:26:19,810 --> 02:26:22,070
+阻值会变化几欧姆，
+it change of few homes,
+
+1737
+02:26:33,660 --> 02:26:34,493
+变化不大，
+not a lot,
+
+1738
+02:26:34,740 --> 02:26:39,440
+这是因为我用的是这两个
+but this is due to the fact that I'm using these two,
+
+1739
+02:26:39,620 --> 02:26:43,860
+角。我会演示，
+uh, corners. I will show you, um,
+
+1740
+02:26:44,720 --> 02:26:48,700
+等做成传感器后会看得更清楚。
+you will see it better with the sensor that we are going to make.
+
+1741
+02:26:50,350 --> 02:26:55,130
+那么，怎样用这种材料制作
+So how can you use this material to make a
+
+1742
+02:26:55,550 --> 02:26:58,690
+模拟传感器，也就是可变电阻？
+analog sensor? So a variable resistor,
+
+1743
+02:27:03,570 --> 02:27:08,030
+可以做压力传感器、弯曲传感器，
+you can make a pressure sensor, a band sensor,
+
+1744
+02:27:08,750 --> 02:27:09,830
+拉伸传感器，
+a stretch sensor,
+
+1745
+02:27:16,610 --> 02:27:19,870
+还可以做电位器，
+and also a, um, well, a pot potentiometer,
+
+1746
+02:27:20,210 --> 02:27:22,950
+不过我没时间详细讲电位器的例子了。
+but I don't have time to go through the pot potentiometer case.
+
+1747
+02:27:23,680 --> 02:27:26,270
+来看看模拟传感器，
+Let's have a look to the analog sensor,
+
+1748
+02:27:28,020 --> 02:27:31,560
+最常见的那种，怎样做一个
+the classic one, how to make a, uh,
+
+1749
+02:27:31,650 --> 02:27:34,640
+快速制作的，
+quick and, um, yeah,
+
+1750
+02:27:34,980 --> 02:27:39,010
+不算精美的压力传感器。
+not really nice pressure sensor. Well,
+
+1751
+02:27:41,810 --> 02:27:44,550
+拿一片Velostat，
+you take a piece of a t and
+
+1752
+02:27:46,790 --> 02:27:49,290
+在两面分别固定
+you attach on both side
+
+1753
+02:27:52,550 --> 02:27:56,530
+导电线，
+the, um, conductive thread
+
+1754
+02:28:00,660 --> 02:28:03,000
+用胶带固定在两面。
+on both side using tape.
+
+1755
+02:28:09,410 --> 02:28:11,630
+我们来做一下。
+So let's do, let's do it
+
+1756
+02:28:30,060 --> 02:28:30,893
+其实，
+actually,
+
+1757
+02:28:32,140 --> 02:28:36,550
+我想试试，对，
+what I would like to try, yeah,
+
+1758
+02:28:37,240 --> 02:28:38,073
+看看。
+let's see.
+
+1759
+02:28:39,830 --> 02:28:43,960
+不用导电线，
+Instead of using conductive thread,
+
+1760
+02:28:45,150 --> 02:28:48,490
+我想试试用铝
+I want to try to use aluminum
+
+1761
+02:28:51,450 --> 02:28:55,280
+箔。现在来试。
+foil. And I'm trying here,
+
+1762
+02:28:55,660 --> 02:29:00,080
+如你们所见，我要用，
+as you can see here, I'm going to use, um,
+
+1763
+02:29:03,450 --> 02:29:07,290
+拿一片铝箔，
+I try to take a piece of aluminum foil, um,
+
+1764
+02:29:08,070 --> 02:29:12,690
+做得和Velostat差不多大。
+bigger as the velo start piece.
+
+1765
+02:29:13,510 --> 02:29:14,343
+为什么？因为
+Why? Because
+
+1766
+02:29:16,090 --> 02:29:21,000
+接线端与Velostat之间的接触
+wider is the surface between the terminal and
+
+1767
+02:29:21,020 --> 02:29:21,920
+面积越大，
+the velo. Start
+
+1768
+02:29:24,480 --> 02:29:27,680
+我们能检测到的
+better is gonna be the, um,
+
+1769
+02:29:28,020 --> 02:29:32,560
+电阻变化就会越明显。
+the change of resistance that we are going to detect.
+
+1770
+02:29:40,030 --> 02:29:44,890
+我这里还有几个例子，比如，
+I do have a few examples, for example.
+
+1771
+02:29:47,330 --> 02:29:48,780
+好，那么，
+Okay, so,
+
+1772
+02:30:38,120 --> 02:30:42,070
+对，这是一面。
+right, and this is one side.
+
+1773
+02:30:43,580 --> 02:30:45,520
+现在做另一面。
+Now let's make the other one.
+
+1774
+02:30:58,670 --> 02:31:00,370
+我，
+So I'm,
+
+1775
+02:31:16,400 --> 02:31:20,050
+好，这就是另一
+okay, so this is gonna be the other
+
+1776
+02:31:21,620 --> 02:31:22,453
+面。
+side.
+
+1777
+02:31:47,430 --> 02:31:49,730
+好，所以，
+Okay, so
+
+1778
+02:32:00,740 --> 02:32:01,573
+这个，
+this one,
+
+1779
+02:32:09,520 --> 02:32:10,353
+好。
+okay,
+
+1780
+02:32:13,590 --> 02:32:17,280
+怎么测试呢？猜猜看。
+how to test it. Guess what?
+
+1781
+02:32:17,980 --> 02:32:19,960
+我们又要用万用表。
+We are going to use the multimeter.
+
+1782
+02:32:22,460 --> 02:32:27,420
+用什么档位？电阻档。
+In which mode? Well, resistance.
+
+1783
+02:32:28,440 --> 02:32:30,780
+我们要测量电阻。
+We want to measure the resistance.
+
+1784
+02:32:31,900 --> 02:32:36,160
+这里测得大约30，
+So what I do measure about 30,
+
+1785
+02:32:37,720 --> 02:32:42,380
+看看，对，现在能用了，很高兴。
+and let's see, yeah, now it's working. I'm really happy.
+
+1786
+02:32:43,240 --> 02:32:46,290
+如果，
+So if
+
+1787
+02:32:51,910 --> 02:32:54,230
+先不操作，再按压，
+I don't do anything, I press,
+
+1788
+02:32:55,010 --> 02:32:58,190
+看电阻下降了多少。
+you see how much the resistance goes down.
+
+1789
+02:33:14,160 --> 02:33:18,000
+不错，不错。
+So not bad, not bad.
+
+1790
+02:33:19,750 --> 02:33:22,150
+从大约20千欧，
+I go from around 20 kilo
+
+1791
+02:33:25,720 --> 02:33:28,900
+降到半，
+down to half
+
+1792
+02:33:30,690 --> 02:33:33,320
+半欧……半千欧。
+alpha, uh, half home, half kilo.
+
+1793
+02:33:35,420 --> 02:33:36,330
+看看能不能
+Let's see if I can
+
+1794
+02:33:39,150 --> 02:33:40,670
+更好地测出它的特性。
+characterize it better.
+
+1795
+02:33:46,490 --> 02:33:50,310
+用这些夹子，
+So using these clips
+
+1796
+02:33:51,960 --> 02:33:56,580
+把表笔固定住。好了。
+to keep in place the probes of here, we,
+
+1797
+02:34:00,300 --> 02:34:04,480
+现在大约13。按下后，
+now it's about 13. If I press it,
+
+1798
+02:34:05,810 --> 02:34:08,790
+降到200欧姆。
+it goes down to 200 homes.
+
+1799
+02:34:15,050 --> 02:34:18,090
+对，它可以工作。
+Yeah, it is working.
+
+1800
+02:34:24,480 --> 02:34:26,420
+所以怎么做呢？还是做一个夹层结构。
+So what do you do? Again? You make a sandwich.
+
+1801
+02:34:27,080 --> 02:34:29,820
+做一个带两个接线端的夹层，
+You make a sandwich with two terminals,
+
+1802
+02:34:30,200 --> 02:34:34,740
+中间放Velostat。电流就会
+and in the middle you put the value start. So the current
+
+1803
+02:34:36,650 --> 02:34:37,960
+流过
+flows through
+
+1804
+02:34:39,810 --> 02:34:43,680
+起电阻作用的Velostat。
+the value start that is this resistor.
+
+1805
+02:34:47,000 --> 02:34:49,290
+结果如何呢？
+What is the result?
+
+1806
+02:34:51,740 --> 02:34:53,020
+我们可以看一看。
+I guess we can see it.
+
+1807
+02:34:59,580 --> 02:35:00,413
+那么，
+So
+
+1808
+02:35:00,860 --> 02:35:01,693
+拿回
+Let's take
+
+1809
+02:35:06,420 --> 02:35:10,940
+刚才的电路，好了。
+back here we are,
+
+1810
+02:35:20,570 --> 02:35:21,403
+好。
+okay?
+
+1811
+02:35:22,610 --> 02:35:26,790
+始终检查
+Always check the orientation of your
+
+1812
+02:35:27,520 --> 02:35:31,430
+电源的极性以及LED的方向。
+power source, the orientation of the L e d.
+
+1813
+02:35:31,570 --> 02:35:36,220
+如果使用LED，这里，
+If you are using LEDs, here,
+
+1814
+02:35:36,270 --> 02:35:39,120
+接好了。
+we're, and here we are.
+
+1815
+02:35:40,160 --> 02:35:45,150
+不知道你们是否看得见，
+So I don't know if you can see,
+
+1816
+02:35:46,330 --> 02:35:49,570
+现在有一点亮光。
+but there is some light.
+
+1817
+02:35:52,590 --> 02:35:57,540
+看看。好，现在按压，
+Let's see. Okay, now if I press,
+
+1818
+02:36:01,950 --> 02:36:02,490
+看，
+you see,
+
+1819
+02:36:02,490 --> 02:36:07,290
+我可以改变LED的亮度。
+I cannot change the brightness of g e d.
+
+1820
+02:36:07,640 --> 02:36:11,710
+这意味着电流正在改变，
+What it means I'm changing the current, um,
+
+1821
+02:36:12,070 --> 02:36:13,990
+也就是流过的电子数量改变了。
+changing the amount of electrodes.
+
+1822
+02:36:18,160 --> 02:36:22,990
+做出模拟传感器之后，
+If you make your analog sensor,
+
+1823
+02:36:23,890 --> 02:36:26,110
+用万用表测试，
+you test it with the multimeter.
+
+1824
+02:36:26,770 --> 02:36:29,630
+检查
+So you cha you check the, um,
+
+1825
+02:36:30,590 --> 02:36:32,190
+传感器的电阻，
+resistance of your sensor,
+
+1826
+02:36:33,010 --> 02:36:35,710
+看到它会随着
+and you see a change
+
+1827
+02:36:37,380 --> 02:36:39,670
+你的操作而变化。
+when you manipulate your sensor.
+
+1828
+02:36:40,300 --> 02:36:45,030
+接着搭好这个电路，哪怕像这样用鳄鱼
+Then you make this circuit even like this with the alligator
+
+1829
+02:36:45,240 --> 02:36:46,073
+夹连接，
+clips,
+
+1830
+02:36:49,290 --> 02:36:52,030
+但灯却没有
+but the light doesn't turn
+
+1831
+02:36:54,600 --> 02:36:57,400
+亮，这并不代表传感器坏了。
+on. It doesn't mean that your sensor is broken.
+
+1832
+02:36:59,270 --> 02:37:03,610
+可能是传感器的
+It could be that the value of the resistance
+
+1833
+02:37:04,390 --> 02:37:06,410
+电阻值太大。
+of your sensor is too high.
+
+1834
+02:37:08,540 --> 02:37:12,760
+如果电阻值太大，
+If the value of the resistor is too high,
+
+1835
+02:37:14,340 --> 02:37:15,250
+电流就会
+there will be
+
+1836
+02:37:17,110 --> 02:37:22,110
+非常小，小到
+very low current solo that the light
+
+1837
+02:37:22,700 --> 02:37:24,310
+无法点亮LED。
+doesn't turn on
+
+1838
+02:37:28,350 --> 02:37:31,530
+怎样改变
+how to change the value, uh,
+
+1839
+02:37:31,670 --> 02:37:36,250
+模拟传感器的电阻值？改变形状，
+the resistance value of your analog sensor. You change the shape,
+
+1840
+02:37:37,150 --> 02:37:41,210
+改变形状，改变传感器尺寸。
+you change the shape, you change the size of the sensor.
+
+1841
+02:37:41,710 --> 02:37:46,650
+也可以把不同层叠在一起。
+You place, you can place different layers on top of each other.
+
+1842
+02:37:46,830 --> 02:37:50,160
+所以需要稍微试验一下。
+So you need to play a little bit.
+
+1843
+02:37:55,640 --> 02:37:56,473
+那么，
+So
+
+1844
+02:37:58,030 --> 02:38:01,950
+其实我只剩一分钟了，
+actually I do have just one minute left,
+
+1845
+02:38:03,240 --> 02:38:04,500
+我想，
+and I want to,
+
+1846
+02:38:07,890 --> 02:38:10,670
+结束这部分，
+to close this, uh, um,
+
+1847
+02:38:13,420 --> 02:38:17,830
+像数字传感器那样，为模拟传感器做一个总结。
+this overview of the analog sensor has a lead with the digital sensor. So
+
+1848
+02:38:19,810 --> 02:38:23,890
+前面已经展示了，通过数字传感器，
+I, I showed to you before that with a digital sensor,
+
+1849
+02:38:26,710 --> 02:38:29,010
+可以改变一个电压，
+you are capable to change a voltage
+
+1850
+02:38:30,640 --> 02:38:33,890
+而使用Arduino时，这正是关键。
+that when you will use Arduino, that is the point.
+
+1851
+02:38:36,030 --> 02:38:38,930
+模拟传感器怎样实现同样的效果？
+How can you do the same with analog sensor?
+
+1852
+02:38:39,830 --> 02:38:43,490
+需要搭建正确的电路。
+You need to create the right circuit.
+
+1853
+02:38:44,560 --> 02:38:47,690
+什么电路呢？就是这个，
+What is the right circuit is this one?
+
+1854
+02:38:49,470 --> 02:38:52,640
+叫作分压电路。
+It's called voltage divider.
+
+1855
+02:38:55,460 --> 02:38:59,840
+只需拿两个电阻，
+You just take two resistors and you place them
+
+1856
+02:39:00,500 --> 02:39:02,240
+依次串联起来，
+one after the other one,
+
+1857
+02:39:06,280 --> 02:39:07,780
+然后，
+and yeah,
+
+1858
+02:39:08,920 --> 02:39:13,660
+测量两个电阻连接点的
+and you measure the voltage in between the two
+
+1859
+02:39:13,690 --> 02:39:14,523
+电压。
+resistors.
+
+1860
+02:39:19,360 --> 02:39:24,260
+直接看这张。这里有电源，
+Let me just go directly to this one. Here we have your power source,
+
+1861
+02:39:25,660 --> 02:39:30,030
+一个固定电阻，然后是传感器。
+a fixed resistor, and then your sensor.
+
+1862
+02:39:34,060 --> 02:39:39,050
+改变其中一个电阻的阻值，
+If you change the value of one of these resistor,
+
+1863
+02:39:39,510 --> 02:39:40,850
+就会改变电压。
+you'll change the voltage.
+
+1864
+02:39:43,730 --> 02:39:47,310
+刚才说过，这种模拟传感器就是可变电阻。
+And we just said that analog sensor is a variable resistor.
+
+1865
+02:39:47,610 --> 02:39:50,990
+所以，把固定电阻和传感器接在一起，
+So if I use the fix the resistor and my sensor,
+
+1866
+02:39:52,010 --> 02:39:56,300
+操作传感器时，就会改变这个电压。
+when I mean manipulate the sensor, I will change this voltage.
+
+1867
+02:40:02,330 --> 02:40:04,270
+我来演示一下。
+Let me just show to you this.
+
+1868
+02:40:18,030 --> 02:40:18,863
+那么，
+So
+
+1869
+02:40:21,390 --> 02:40:26,280
+这里需要一个电阻。实际上，把LED拿掉，
+I need a resistor here, actually, instead of the L E d,
+
+1870
+02:40:26,480 --> 02:40:28,640
+换成电阻就行。很好。
+I put a resistor. Perfect.
+
+1871
+02:40:31,920 --> 02:40:32,753
+现在，
+Now
+
+1872
+02:40:34,210 --> 02:40:37,690
+把一支表笔接到这里，
+I place one probe here
+
+1873
+02:40:40,570 --> 02:40:42,590
+接地。让我，
+to ground. And let me,
+
+1874
+02:40:45,910 --> 02:40:47,780
+看看能不能这样接。可以。
+let's see if I can do this. Yes,
+
+1875
+02:40:56,930 --> 02:41:00,820
+看看读数是不是更清楚了。
+let's see if you read better, maybe.
+
+1876
+02:41:02,850 --> 02:41:03,683
+好。
+Okay,
+
+1877
+02:41:04,620 --> 02:41:05,453
+这里，
+So here,
+
+1878
+02:41:13,330 --> 02:41:17,410
+好，其实让我，
+okay, actually let me
+
+1879
+02:41:18,910 --> 02:41:21,960
+这样。现在这里有什么？
+this, so here, what do I have?
+
+1880
+02:41:22,520 --> 02:41:24,120
+有电池，
+I have my battery,
+
+1881
+02:41:27,570 --> 02:41:31,330
+有一个固定电阻，
+I have a fixed resistor,
+
+1882
+02:41:32,200 --> 02:41:36,830
+这里还有传感器。
+and then here I have the sensor.
+
+1883
+02:41:46,370 --> 02:41:50,920
+我要做的就是
+And what I'm going to do is to
+
+1884
+02:41:51,190 --> 02:41:52,023
+观察
+look
+
+1885
+02:41:53,720 --> 02:41:57,230
+电阻与传感器
+at the voltage in between the,
+
+1886
+02:41:57,450 --> 02:41:59,390
+连接点的电压。
+the resistor and the sensor.
+
+1887
+02:42:01,260 --> 02:42:05,400
+把一支表笔放好，
+So let me place one probe,
+
+1888
+02:42:05,700 --> 02:42:08,960
+始终要用两支表笔，也就是两个测量点，
+always two probes. So always two point,
+
+1889
+02:42:10,080 --> 02:42:12,830
+通常测量时，
+and usually you measure
+
+1890
+02:42:14,740 --> 02:42:16,110
+以地作为参考。
+referring to ground.
+
+1891
+02:42:20,940 --> 02:42:25,440
+现在测得2.6伏。
+And I measure 2.6 vault.
+
+1892
+02:42:26,390 --> 02:42:27,223
+看得到吗？
+Read it,
+
+1893
+02:42:33,850 --> 02:42:34,683
+对。
+Yeah,
+
+1894
+02:42:38,830 --> 02:42:41,800
+现在2.8、2.7。
+yeah. Now 2.8, 2.7.
+
+1895
+02:42:43,880 --> 02:42:47,000
+好，现在我，
+Okay. Now I,
+
+1896
+02:42:47,320 --> 02:42:52,200
+按压压力传感器，电压就下降，
+I press on my pressure sensor and the voltage goes down,
+
+1897
+02:42:53,690 --> 02:42:57,430
+下降很多，降到0.1伏。
+really down, down to 0.1 volt.
+
+1898
+02:42:57,990 --> 02:43:02,190
+松开后，又回到2.6。
+I release and it goes back to two six.
+
+1899
+02:43:03,450 --> 02:43:07,750
+我在改变电压。使用Arduino时，
+I'm changing a voltage. So when you use your Arduino,
+
+1900
+02:43:08,820 --> 02:43:10,680
+读取的就是这个电压。
+you will read this voltage.
+
+1901
+02:43:27,390 --> 02:43:31,330
+其实不必对传感器做全部
+Well, you don't really need to do all these,
+
+1902
+02:43:31,580 --> 02:43:34,730
+这些检查，
+check all these checks with your sensors
+
+1903
+02:43:37,100 --> 02:43:40,160
+但当然，
+and, um, for sure
+
+1904
+02:43:41,700 --> 02:43:46,160
+至少要做其中一项：用万用表检查通断，
+at least one, the one with the multimeter, checking the continuity and
+
+1905
+02:43:48,040 --> 02:43:48,920
+以及检查，
+checking, uh,
+
+1906
+02:43:49,100 --> 02:43:53,330
+分别针对数字与模拟传感器检查电阻。
+the resistance in both case digital and analog.
+
+1907
+02:43:57,090 --> 02:43:58,870
+当然，还需要
+And of course, you will need to, to,
+
+1908
+02:43:59,010 --> 02:44:03,030
+用电子纺织材料进行试验，
+to experiment and to try with e textile.
+
+1909
+02:44:03,690 --> 02:44:08,590
+使用手头的各种材料，制作
+So with all the materials that are available to make
+
+1910
+02:44:08,710 --> 02:44:12,180
+柔性电路。
+a soft, soft circuit.
+
+1911
+02:44:14,690 --> 02:44:18,470
+我想说，对，
+And let me say, um, yeah,
+
+1912
+02:44:21,060 --> 02:44:24,510
+这很大程度上依赖尝试和练习。
+it's a lot about, uh, trying and practicing.
+
+1913
+02:44:24,930 --> 02:44:29,710
+建议尽量多尝试。
+My suggestion is try as much as you can.
+
+1914
+02:44:31,370 --> 02:44:36,190
+看看Fabricademy资料库，以及KOBAKANT网站，
+Go through fabric academy archive, go through coba and website,
+
+1915
+02:44:37,780 --> 02:44:42,730
+挑一种传感器，尝试制作，
+pick one sensor up and try to make it,
+
+1916
+02:44:44,500 --> 02:44:45,300
+把它做出来，
+to make it,
+
+1917
+02:44:45,300 --> 02:44:49,840
+用万用表测量它的特性，再把它接到，
+to characterize it with the millimeter and to connect it to your,
+
+1918
+02:44:49,860 --> 02:44:53,120
+Arduino上。相关教程很多。
+to Arduino. There are a lot of tutorials around.
+
+1919
+02:44:59,050 --> 02:45:03,070
+其实原本想给你们展示一些例子，
+And, uh, actually my plan was to show you some examples,
+
+1920
+02:45:04,050 --> 02:45:07,230
+不过恐怕没有时间了。
+but I guess I don't have time,
+
+1921
+02:45:08,770 --> 02:45:11,910
+可以在这里的幻灯片中找到。
+so you can find them here in the slide.
+
+1922
+02:45:12,010 --> 02:45:14,390
+我会分享相关链接，
+I'm going to share the link to these.
+
+1923
+02:45:16,730 --> 02:45:20,470
+把这套幻灯片的链接发给大家。
+I'm going to, to share the link to this slide.
+
+1924
+02:45:22,740 --> 02:45:27,280
+这个项目没有制作文档，
+The, this, this project is not documented.
+
+1925
+02:45:27,380 --> 02:45:29,640
+你们找不到它的说明，
+You don't find the documentation of these,
+
+1926
+02:45:30,220 --> 02:45:34,920
+它是为Fabricademy训练营
+but this was made for the bootcamp Fabric Academy
+
+1927
+02:45:35,080 --> 02:45:35,913
+制作的。
+Bootcamp,
+
+1928
+02:45:35,960 --> 02:45:40,720
+这是一个模块化系统，每个模块分别承担一种功能：
+a modular system where each module was all a,
+
+1929
+02:45:40,860 --> 02:45:45,600
+电源、传感器、输出器件，或者仅仅是一段走线。
+the power source, a sensor in output, and just a trace.
+
+1930
+02:45:49,160 --> 02:45:53,890
+好，那么，
+Yeah, okay. But, um, yeah,
+
+1931
+02:45:58,420 --> 02:46:03,390
+保持好奇，多做研究，多去看看，
+just be curious. Just do a lot of research. Go around and, uh,
+
+1932
+02:46:03,940 --> 02:46:04,950
+找一找，
+look at, uh,
+
+1933
+02:46:05,820 --> 02:46:10,320
+找到你认为有趣、漂亮的东西，
+find something that you find interesting and beautiful
+
+1934
+02:46:11,960 --> 02:46:12,793
+然后去尝试。
+and go with that.
+
+1935
+02:46:22,500 --> 02:46:26,810
+谢谢。好，我停止录制。
+Thank you. Yeah. Well, let me stop the recording.
+
+1936
+02:46:27,760 --> 02:46:29,530
+等等，还有问题吗？
+I'll wait. Are there any questions?
+
+1937
+02:46:52,310 --> 02:46:56,770
+“看起来很容易。”对，如果一步步来，
+You wait, it looks so easy. Yeah, well, if you do step by step,
+
+1938
+02:46:57,950 --> 02:47:02,930
+是的。不过它并不容易。我是说，做电子电路时，
+yes. No, it's not easy. I mean, uh, when you work with electronics,
+
+1939
+02:47:03,440 --> 02:47:07,210
+很多时候做出来的东西一开始并不能工作。
+most of the time you make something is not gonna work.
+
+1940
+02:47:08,200 --> 02:47:13,070
+我也会遇到这种情况。所以，
+And this happens also to me. So take,
+
+1941
+02:47:13,450 --> 02:47:17,510
+慢慢来，一步一步做。
+um, take your time step by step.
+
+1942
+02:47:18,700 --> 02:47:23,610
+不要试图一次把所有东西做好、全部连接起来，
+Don't try to make everything to connect everything together and to make
+
+1943
+02:47:23,610 --> 02:47:27,610
+然后就期待它能工作。先做一个传感器，
+it work. So no, take a sensor, make the sensor,
+
+1944
+02:47:28,400 --> 02:47:32,170
+测试它，然后围绕它搭建电路，
+test it, and then you create a circuit around it,
+
+1945
+02:47:32,710 --> 02:47:35,770
+最后再接Arduino。
+and then you connect it to the Arduino.
+
+1946
+02:47:38,260 --> 02:47:39,880
+不要做完传感器，
+You don't make sense the sensor,
+
+1947
+02:47:40,220 --> 02:47:44,160
+未经万用表测试就直接接上Arduino，
+and you connect it to the Arduino without testing with the multimeter.
+
+1948
+02:47:44,540 --> 02:47:46,120
+先弄清楚它怎样工作、是否能工作。
+How it works. And if it works,
+
+1949
+02:47:51,650 --> 02:47:55,150
+可以用透明塑料代替布料吗？
+can we work with a transparent plastic instead of fabric?
+
+1950
+02:47:56,390 --> 02:47:59,990
+我觉得可以。透明塑料可以作为
+I think so the transparent plastic would be, uh,
+
+1951
+02:48:00,560 --> 02:48:04,750
+基底，作为绝缘的
+would be your substrate, your isolating, um,
+
+1952
+02:48:05,380 --> 02:48:08,510
+电路支撑材料。它仍然是半，
+support for the que. It's still semi,
+
+1953
+02:48:09,220 --> 02:48:13,350
+不是完全刚性的，实际上可以弯曲。
+it's not completely rigid, actually, it's flexible.
+
+1954
+02:48:13,810 --> 02:48:17,470
+因此，例如，可以考虑用
+So you could, for example, think, uh, to use
+
+1955
+02:48:18,970 --> 02:48:23,150
+这种材料制作走线，
+to make the traces, uh,
+
+1956
+02:48:23,250 --> 02:48:25,990
+铜箔胶带。这是一种胶带，
+copper tape. This is a tape.
+
+1957
+02:48:27,280 --> 02:48:30,780
+一面是铜，另一面有胶，
+So on one side there is a copper. On the other side, there is a glue
+
+1958
+02:48:32,660 --> 02:48:36,870
+揭掉背纸就能用。
+that you can adjust, remove.
+
+1959
+02:48:39,040 --> 02:48:41,720
+今天我怎么什么胶带都揭不开。好了。
+I cannot remove any tape today. Here it is.
+
+1960
+02:48:44,060 --> 02:48:48,590
+直接贴上就行。
+And it just stick, yeah,
+
+1961
+02:48:48,690 --> 02:48:50,510
+当然，这是用来做走线的，
+for the traces, of course,
+
+1962
+02:48:50,530 --> 02:48:53,830
+你仍然需要做两个软传感器。
+you need to make two soft sensors.
+
+1963
+02:49:05,100 --> 02:49:06,110
+好，我，
+Okay, I,
+
+1964
+02:49:08,750 --> 02:49:13,210
+让我看看，
+so let me, um, check,
+
+1965
+02:49:15,450 --> 02:49:16,283
+嗯。
+um,
+
+1966
+02:49:21,850 --> 02:49:26,070
+如果用金属铆钉，会影响电路吗？
+uh, if we use stad, does that influence the circuit?
+
+1967
+02:49:26,330 --> 02:49:30,500
+它会导电，我想它是导电的。所以，
+It is conductive. I think it's conductive. So, uh,
+
+1968
+02:49:30,600 --> 02:49:34,380
+需要确保它不会，
+you need to be sure that it's not going to, um,
+
+1969
+02:49:36,950 --> 02:49:40,370
+不会造成短路。
+uh, that is not going to create a short,
+
+1970
+02:49:41,970 --> 02:49:44,950
+我不太确定你打算怎样用，
+I'm not sure how you are planning to use it, but
+
+1971
+02:49:46,540 --> 02:49:48,760
+但如果想象一下，
+if I think about, imagine,
+
+1972
+02:49:49,820 --> 02:49:53,160
+我可以解释一下吗？假设有两层塑料。
+Can I just explain you imagine two layers of plastic.
+
+1973
+02:49:53,630 --> 02:49:54,463
+塑料，对。
+Plastic, yeah.
+
+1974
+02:49:54,500 --> 02:49:58,840
+然后用铆钉把四角固定起来，
+And well, I, I fix them in the corners with studs,
+
+1975
+02:49:59,060 --> 02:50:03,240
+比如说，如果铆钉没有，
+for example. Uh, if the studs does not, uh, inf um,
+
+1976
+02:50:03,970 --> 02:50:07,680
+接触电路，就不会影响，对吧？
+touch on the circuit, it's not going to influence, right?
+
+1977
+02:50:08,680 --> 02:50:09,470
+完全正确。
+Absolutely.
+
+1978
+02:50:09,470 --> 02:50:13,960
+好，因为我想问的是，我是否需要，
+Okay. Uh, because my answer was, uh, if I had to,
+
+1979
+02:50:14,420 --> 02:50:19,160
+放一些，比如绝缘胶带，
+um, put some kind of, uh, a tape, isolating tape,
+
+1980
+02:50:19,700 --> 02:50:23,680
+垫在下面，还是只要不接触就够了？
+uh, behead them, or if they don't touch, it's enough.
+
+1981
+02:50:25,350 --> 02:50:29,010
+只要不接触电路其余部分就可以。
+If they don't touch the rest of the silk width is, is fine.
+
+1982
+02:50:29,310 --> 02:50:31,810
+如果不碰走线，
+If it's not touching the traces,
+
+1983
+02:50:32,350 --> 02:50:34,450
+如果没有碰到，
+if they are not touching the,
+
+1984
+02:50:37,030 --> 02:50:37,863
+就没问题。
+it's fine.
+
+1985
+02:50:42,120 --> 02:50:45,520
+“我得先走了，谢谢，很有帮助。”好的，再见，Vivian。
+I have to run. Thank you. Very helpful. Nice vibe, Vivian.
+
+1986
+02:50:47,000 --> 02:50:47,833
+那么，
+And, uh,
+
+1987
+02:50:47,960 --> 02:50:52,180
+能在同一个电路里结合数字传感器和模拟传感器吗？
+can we mix a digital sensor and a analog sensor in one circuit?
+
+1988
+02:50:54,610 --> 02:50:59,590
+可以，当然可以。
+Yes. My, I, yes, of course. Well,
+
+1989
+02:51:01,240 --> 02:51:06,030
+比如，让我看看。
+let, let me for example. Mm,
+
+1990
+02:51:08,780 --> 02:51:11,150
+稍等，稍等。
+wait, wait, wait, wait, wait, wait, wait, wait, wait.
+
+1991
+02:51:14,170 --> 02:51:17,390
+好，这里停止共享。
+Not, yeah, stop sharing here. Mm.
+
+1992
+02:51:22,620 --> 02:51:25,390
+这里可以有，
+Here you could have,
+
+1993
+02:51:27,010 --> 02:51:30,100
+这是电源，
+this is your power source.
+
+1994
+02:51:31,460 --> 02:51:35,700
+然后这里可以放
+And then you can have here your
+
+1995
+02:51:36,900 --> 02:51:40,190
+数字传感器，你想用的任一种数字传感器。
+digital sensor and digital sensor that you want.
+
+1996
+02:51:45,720 --> 02:51:50,570
+接着可以放
+Then you can have your
+
+1997
+02:51:52,940 --> 02:51:57,540
+可变电阻，也就是模拟传感器。
+variable resistor, that is your analog sensor.
+
+1998
+02:51:59,250 --> 02:52:04,220
+如果想要灯光，再接一个LED。
+And then you can have your l e d if you want light.
+
+1999
+02:52:05,920 --> 02:52:09,140
+所以，也许，
+So actually maybe,
+
+2000
+02:52:11,480 --> 02:52:13,940
+也许，
+maybe, mm,
+
+2001
+02:52:15,520 --> 02:52:20,420
+让我看看能不能搭一个。
+let me see if I can make it one.
+
+2002
+02:52:24,340 --> 02:52:25,173
+试试看。
+Let's see.
+
+2003
+02:52:33,470 --> 02:52:34,303
+好。
+Okay,
+
+2004
+02:52:38,390 --> 02:52:42,770
+看看，这个能配上。对，好。
+let's see. This is compatible. Yeah. Okay.
+
+2005
+02:52:48,840 --> 02:52:51,910
+这个没完全接合。
+Okay. This doesn't fit completely.
+
+2006
+02:52:54,970 --> 02:52:59,850
+嗯，啊。
+Mm. Ah,
+
+2007
+02:52:59,920 --> 02:53:04,090
+好了，对。所以这个，
+here it is. Yeah. So this,
+
+2008
+02:53:04,120 --> 02:53:07,080
+这个就是，
+this is actually what did,
+
+2009
+02:53:07,100 --> 02:53:09,560
+数字传感器加模拟传感器，
+did a digital sensor and analog sensor,
+
+2010
+02:53:10,630 --> 02:53:13,350
+就像电路图里一样。
+like this schematic.
+
+2011
+02:53:15,940 --> 02:53:19,320
+这里有电池，
+So here I have the battery. You have the battery,
+
+2012
+02:53:19,870 --> 02:53:24,580
+然后接到数字传感器，
+then it goes to the, um, a digital sensor.
+
+2013
+02:53:25,890 --> 02:53:29,340
+再接到这里，这就是模拟传感器，
+Then it goes, this is a analog sensor.
+
+2014
+02:53:31,290 --> 02:53:35,420
+这块Velostat接到灯上，
+This is the velo stat that goes to a light.
+
+2015
+02:53:36,280 --> 02:53:40,900
+再从下面的线路回到电池，形成闭合回路。
+And then from the bottom line, it close the loop to the battery.
+
+2016
+02:53:43,600 --> 02:53:47,100
+现在要点亮灯，还得稍微操作一下。
+So now to turn on the light, I need to play a little bit.
+
+2017
+02:53:48,370 --> 02:53:51,350
+需要按住数字开关。
+So I need to press the digital switch.
+
+2018
+02:53:55,210 --> 02:53:59,700
+对，这样能否改变灯光……[原文待核对]。
+Yeah. And I cannot change the light.
+
+2019
+02:54:00,530 --> 02:54:05,420
+这是一个大功率LED，普通LED我觉得
+This is a high power l e d with a normal l e d I don't
+
+2020
+02:54:05,420 --> 02:54:06,300
+可能不行。
+think it's gonna work.
+
+2021
+02:54:08,080 --> 02:54:11,860
+松开开关，灯当然就灭了。
+So if then I release the switch, of course the light goes off.
+
+2022
+02:54:25,060 --> 02:54:30,060
+对，让我试一下，
+Yeah. Let me try
+
+2023
+02:54:31,690 --> 02:54:32,900
+换一个，
+with a different,
+
+2024
+02:54:43,900 --> 02:54:48,220
+对，好，我这里有，
+yeah, yeah. Well, I do have,
+
+2025
+02:54:48,290 --> 02:54:50,100
+这个角接不上。
+this corner doesn't fit.
+
+2026
+02:54:54,190 --> 02:54:57,370
+不行，所以得用手把它固定住。看，
+No. So I need to, to, to keep it in place. You see,
+
+2027
+02:54:57,390 --> 02:55:02,090
+牢固的接点非常重要。试试看。
+robust junction are really important. So let's see.
+
+2028
+02:55:02,760 --> 02:55:05,160
+对，换这个灯也能工作，
+Yeah, it works also with this light,
+
+2029
+02:55:14,280 --> 02:55:17,210
+所以当然可以，把两种传感器结合起来，
+so Absolutely. Yes, you can combine.
+
+2030
+02:55:19,920 --> 02:55:20,753
+没问题。
+No problem.
+
+2031
+02:55:28,640 --> 02:55:30,840
+好，那么，
+Okay, well
+
+2032
+02:55:33,370 --> 02:55:36,830
+如果没有其他问题，
+if are not, if there are not questions,
+
+2033
+02:55:37,610 --> 02:55:42,190
+我就停止录制了。
+I'm going to stop recording.
+
+2034
+02:55:44,340 --> 02:55:45,680
+停止录制。
+Uh, stop recording.

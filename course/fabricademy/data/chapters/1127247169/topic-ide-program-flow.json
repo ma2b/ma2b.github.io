@@ -1,0 +1,61 @@
+{
+  "id": "topic-ide-program-flow",
+  "title": "连接电脑、Arduino IDE 与程序执行",
+  "summary": "介绍数据线、跳线、面包板及IDE，解释setup、loop、函数参数、Blink逻辑和板卡端口选择。",
+  "key_points": [
+    "能供电的USB线不一定支持数据通信。",
+    "setup通常运行一次，loop重复执行；编译器生成程序，实际指令由微控制器执行。",
+    "pinMode、digitalWrite与delay需保留准确拼写。"
+  ],
+  "terms": [
+    {
+      "term": "setup() / loop()",
+      "definition": "初始化与重复执行的两部分程序入口。"
+    },
+    {
+      "term": "IDE",
+      "definition": "集成开发环境，用于编辑、编译、上传和查看串口信息。"
+    }
+  ],
+  "actions": [
+    "确认数据线与开发板端口可识别。",
+    "阅读Blink例程，解释每一行如何改变LED状态。"
+  ],
+  "start": 5505.175,
+  "end": 5946.735,
+  "references": [],
+  "moments": [
+    {
+      "time": 5509.845,
+      "title": "数据线与基础工具"
+    },
+    {
+      "time": 5628.455,
+      "title": "IDE界面"
+    },
+    {
+      "time": 5708.765,
+      "title": "程序流程"
+    },
+    {
+      "time": 5797.315,
+      "title": "函数与Blink"
+    },
+    {
+      "time": 5927.945,
+      "title": "选择板卡和端口"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5663.0,
+      "caption": "Arduino IDE中的板卡、端口与工具",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/ide-program-flow-1.jpg"
+    },
+    {
+      "time": 5848.0,
+      "caption": "函数与Blink示例代码",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/ide-program-flow-2.jpg"
+    }
+  ]
+}

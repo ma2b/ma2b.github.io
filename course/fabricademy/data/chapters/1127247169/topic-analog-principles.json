@@ -1,0 +1,44 @@
+{
+  "id": "topic-analog-principles",
+  "title": "模拟感测：长度、接触与导电面积",
+  "summary": "用可变电阻解释模拟输入，讨论距离、接触条件与导电结构如何改变阻值。",
+  "key_points": [
+    "本课重点为电阻式传感器，并不代表所有模拟传感器都靠电阻变化。",
+    "纠错：同材质同截面导体越长，电阻通常越大；原字幕47:33的lower与前后说明矛盾。",
+    "密集针迹的有效连接可能形成更多并行路径，应以测量确认。"
+  ],
+  "terms": [
+    {
+      "term": "Variable resistor",
+      "definition": "阻值随位置、压力或其他条件变化的元件或结构。"
+    }
+  ],
+  "actions": [
+    "固定材料与长度，只改变一个结构变量进行比较。",
+    "记录按压前后阻值及重复性。"
+  ],
+  "start": 2682.665,
+  "end": 3014.505,
+  "references": [],
+  "moments": [
+    {
+      "time": 2702.495,
+      "title": "用电阻变化影响输出"
+    },
+    {
+      "time": 2816.365,
+      "title": "长度、接触与面积"
+    },
+    {
+      "time": 2910.845,
+      "title": "针迹与有效连接面积"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2960.0,
+      "caption": "不同针迹与电阻变化的结构比较",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/analog-principles-1.jpg"
+    }
+  ]
+}

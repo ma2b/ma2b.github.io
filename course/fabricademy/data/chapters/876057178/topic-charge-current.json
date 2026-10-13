@@ -1,0 +1,52 @@
+{
+  "id": "topic-charge-current",
+  "title": "从电荷到电流：单位与数量级",
+  "summary": "以原子、电荷与导线的简化模型解释电流，并比较小型LED、电机和其他负载的数量级。",
+  "key_points": [
+    "原子与电子跳跃图是入门类比，不是完整的微观导电模型。",
+    "电流是单位时间通过截面的电荷量，单位A；1 mA = 0.001 A。",
+    "原字幕million per等误识别在本课语境中通常是milliampere，即毫安。"
+  ],
+  "terms": [
+    {
+      "term": "Current / A",
+      "definition": "电流及其单位安培。"
+    },
+    {
+      "term": "Charge",
+      "definition": "电荷；同号排斥、异号吸引。"
+    }
+  ],
+  "actions": [
+    "把5 mA、20 mA换算成A。",
+    "用具体元件规格确认工作电流，不照抄通用示例。"
+  ],
+  "start": 599.95,
+  "end": 1511.77,
+  "references": [],
+  "moments": [
+    {
+      "time": 719.95,
+      "title": "电能与物质模型"
+    },
+    {
+      "time": 1150.07,
+      "title": "电流定义"
+    },
+    {
+      "time": 1259.84,
+      "title": "小型LED的电流"
+    },
+    {
+      "time": 1408.6,
+      "title": "毫安换算"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1468.0,
+      "caption": "毫安与安培的换算示例",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/charge-current-1.jpg"
+    }
+  ]
+}

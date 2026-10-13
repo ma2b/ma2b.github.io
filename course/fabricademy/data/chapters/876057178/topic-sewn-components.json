@@ -1,0 +1,44 @@
+{
+  "id": "topic-sewn-components",
+  "title": "答疑：把电阻与 LED 固定到织物上",
+  "summary": "展示把通孔器件引脚绕环后缝合，比较表贴器件并说明用织物胶加固接点。",
+  "key_points": [
+    "电阻也能以类似LED的方法接到织物电路。",
+    "先形成可靠电接触，再使用胶固定。",
+    "机械固定不良会导致间歇故障。"
+  ],
+  "terms": [
+    {
+      "term": "Junction",
+      "definition": "元件和导电路径之间的接点。"
+    }
+  ],
+  "actions": [
+    "用废料练习引脚绕环与缝合。",
+    "固定前后分别检查导通并轻拉测试。"
+  ],
+  "start": 6236.52,
+  "end": 6475.95,
+  "references": [],
+  "moments": [
+    {
+      "time": 6241.24,
+      "title": "织物电路能否加入电阻"
+    },
+    {
+      "time": 6334.14,
+      "title": "引脚绕环"
+    },
+    {
+      "time": 6405.64,
+      "title": "缝合及胶固定示例"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6431.0,
+      "caption": "表贴元件焊接示例；讲师同时回答接点加固问题",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/sewn-components-1.jpg"
+    }
+  ]
+}

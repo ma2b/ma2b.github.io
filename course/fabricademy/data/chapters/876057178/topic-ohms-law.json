@@ -1,0 +1,49 @@
+{
+  "id": "topic-ohms-law",
+  "title": "欧姆定律：把电压、电流与电阻联系起来",
+  "summary": "通过完整电路和斜坡障碍类比解释 V = I × R，说明相同电压下改变电阻的结果。",
+  "key_points": [
+    "欧姆定律用于本章的欧姆性电阻。",
+    "同一供电条件下，增大电阻通常减小电流。",
+    "斜坡与小球用于理解关系，不应把类比中的运动等同于真实电路细节。"
+  ],
+  "terms": [
+    {
+      "term": "Ohm’s law",
+      "definition": "欧姆定律：电阻两端电压等于电流与电阻之积。"
+    }
+  ],
+  "actions": [
+    "用一致单位计算一个电阻支路电流。",
+    "区分电路图中的约定电流方向和电子运动方向。"
+  ],
+  "start": 4210.4,
+  "end": 4588.11,
+  "references": [],
+  "moments": [
+    {
+      "time": 4210.4,
+      "title": "完整电路图"
+    },
+    {
+      "time": 4302.84,
+      "title": "V、I、R的关系"
+    },
+    {
+      "time": 4422.56,
+      "title": "斜坡与障碍类比"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4336.0,
+      "caption": "欧姆定律公式",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/ohms-law-1.jpg"
+    },
+    {
+      "time": 4540.0,
+      "caption": "电阻与电流的类比示意",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/ohms-law-2.jpg"
+    }
+  ]
+}

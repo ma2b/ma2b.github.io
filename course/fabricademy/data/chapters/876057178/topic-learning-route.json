@@ -1,0 +1,43 @@
+{
+  "id": "topic-learning-route",
+  "title": "教程目标：先搭电路，再接微控制器",
+  "summary": "介绍电子学基础、万用表和软传感器的学习路线；用电源、输入、输出说明互动项目的组成。",
+  "key_points": [
+    "本教程先用电池和万用表验证电路，不以编程为前提。",
+    "微控制器负责采集、处理与控制，但不是每个入门实验都必需。"
+  ],
+  "terms": [
+    {
+      "term": "Input / output",
+      "definition": "输入获取交互信息，输出产生光、声或运动等响应。"
+    }
+  ],
+  "actions": [
+    "画出电源、输入和输出的关系。",
+    "把项目拆成可独立测试的小单元。"
+  ],
+  "start": 0.0,
+  "end": 599.95,
+  "references": [],
+  "moments": [
+    {
+      "time": 151.24,
+      "title": "教程内容与实操目标"
+    },
+    {
+      "time": 282.03,
+      "title": "互动系统的共同元素"
+    },
+    {
+      "time": 496.23,
+      "title": "微控制器的作用"
+    }
+  ],
+  "frames": [
+    {
+      "time": 513.0,
+      "caption": "互动系统中的电源、输入、处理与输出",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/learning-route-1.jpg"
+    }
+  ]
+}

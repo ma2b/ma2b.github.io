@@ -1,0 +1,52 @@
+{
+  "id": "topic-thread-comparison",
+  "title": "答疑实测：导电线长度、股数和阻值",
+  "summary": "比较两股与三股线的规格，并以约18厘米样本测量导电线与铜编织带，讨论制作方式的取舍。",
+  "key_points": [
+    "每单位长度阻值可用于初步估算，但最终应测实际路径。",
+    "本次样本读数属于演示结果，不能当作所有同名线材的常数。",
+    "低阻与可缝性、柔软性需要综合选择。"
+  ],
+  "terms": [
+    {
+      "term": "Ply",
+      "definition": "组成线材的股数。"
+    },
+    {
+      "term": "Ω per foot",
+      "definition": "每英尺电阻，使用前需统一长度单位。"
+    }
+  ],
+  "actions": [
+    "把相同长度材料固定到样本卡，记录阻值与连接方式。",
+    "按实际走线长度和负载估算压降。"
+  ],
+  "start": 5646.19,
+  "end": 6236.52,
+  "references": [],
+  "moments": [
+    {
+      "time": 5677.97,
+      "title": "两股与三股线"
+    },
+    {
+      "time": 5788.27,
+      "title": "读取供应商规格"
+    },
+    {
+      "time": 5883.14,
+      "title": "等长样本测量"
+    },
+    {
+      "time": 6138.34,
+      "title": "比较不同固定方式"
+    }
+  ],
+  "frames": [
+    {
+      "time": 5806.0,
+      "caption": "导电线规格与单位长度电阻",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/thread-comparison-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "topic-supply-polarity",
+  "title": "USB 与适配器低压输出的极性确认",
+  "summary": "通过USB供电线和适配器输出线说明不能只按颜色猜极性，应测量两端电压。",
+  "key_points": [
+    "课程演示的是外部低压输出线，不是打开或测量市电输入侧。",
+    "红黑颜色只是常见约定，仍需测量确认。",
+    "操作前断电整理导线，隔离裸露端，避免短接电脑或电源输出。"
+  ],
+  "terms": [
+    {
+      "term": "Polarity",
+      "definition": "电源或元件的正负方向。"
+    }
+  ],
+  "actions": [
+    "优先使用有标识的低压转接模块。",
+    "记录正负读数对应的端子，并在断电后做好标识。"
+  ],
+  "start": 2563.37,
+  "end": 2899.38,
+  "references": [],
+  "moments": [
+    {
+      "time": 2596.86,
+      "title": "USB作为供电来源"
+    },
+    {
+      "time": 2694.28,
+      "title": "颜色不能代替测量"
+    },
+    {
+      "time": 2840.7,
+      "title": "适配器低压输出的两根线"
+    }
+  ],
+  "frames": [
+    {
+      "time": 2814.0,
+      "caption": "正负电压读数示意与低压极性测量说明",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/supply-polarity-1.jpg"
+    }
+  ]
+}

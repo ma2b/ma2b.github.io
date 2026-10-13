@@ -1,0 +1,48 @@
+{
+  "id": "topic-digital-analog",
+  "title": "传感器怎样产生交互：数字与模拟信号",
+  "summary": "从开关问题引入输入设备，解释两态数字信号和连续范围模拟信号。",
+  "key_points": [
+    "输入改变电路中的可测状态，后续读出需使用匹配电路。",
+    "数字描述逻辑状态；模拟描述连续范围，不能把“模拟”理解成虚假数据。",
+    "本课使用0与3 V作示例，其他板卡应按其逻辑电压。"
+  ],
+  "terms": [
+    {
+      "term": "Digital",
+      "definition": "本课中指两种逻辑状态。"
+    },
+    {
+      "term": "Analog",
+      "definition": "在一定范围内连续变化的信号。"
+    }
+  ],
+  "actions": [
+    "写下项目需要开关判断还是连续程度。",
+    "画出预期的数字或模拟响应随动作变化。"
+  ],
+  "start": 6475.95,
+  "end": 6837.66,
+  "references": [],
+  "moments": [
+    {
+      "time": 6502.42,
+      "title": "引入交互输入"
+    },
+    {
+      "time": 6613.9,
+      "title": "数字与模拟"
+    },
+    {
+      "time": 6750.93,
+      "title": "三伏系统中的模拟范围"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6700.0,
+      "caption": "数字与模拟信号的示意",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/digital-analog-1.jpg"
+    }
+  ]
+}

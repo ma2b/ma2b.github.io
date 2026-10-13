@@ -1,0 +1,44 @@
+{
+  "id": "topic-assignment",
+  "title": "作业要求、从小样起步与课程收尾",
+  "summary": "总结软开关、模拟传感器、板卡读数、输出控制和织物小样集成，保留最后提问与后续教程提醒。",
+  "key_points": [
+    "先制作和测量单个输入，再连接板卡与输出。",
+    "课程示例中的LED或振动电机需按器件与板卡能力配置驱动。",
+    "按授课当年要求记录小样结构、连接和代码；当前学年的正式作业以手册为准。"
+  ],
+  "terms": [
+    {
+      "term": "Hard–soft connection",
+      "definition": "硬质电子器件与柔性导电材料之间的连接。"
+    }
+  ],
+  "actions": [
+    "整理一个数字开关和一个模拟传感器的材料、结构与测量记录。",
+    "保存电路图、代码和触发前后的结果照片或视频。"
+  ],
+  "start": 6465.665,
+  "end": 6707.92,
+  "references": [],
+  "moments": [
+    {
+      "time": 6470.725,
+      "title": "制作、读取与输出控制"
+    },
+    {
+      "time": 6491.565,
+      "title": "集成到织物小样"
+    },
+    {
+      "time": 6623.415,
+      "title": "从小规模实验开始"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6491.0,
+      "caption": "本周作业与织物小样集成要求",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/assignment-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "topic-design-context",
+  "title": "使用情境、灵敏度、尺度与作品参考",
+  "summary": "根据穿戴或装置、日用或表演等情境选择结构，比较灵敏度与尺度，并浏览声音界面和样本交换项目。",
+  "key_points": [
+    "小尺寸与大尺寸作品面临不同的连接与电阻问题。",
+    "灵敏度应以目标动作和测试阈值描述，不能简单等同于传感器好坏。",
+    "共享样本应同时记录材料、结构和电气结果。"
+  ],
+  "terms": [
+    {
+      "term": "Sensitivity",
+      "definition": "输入变化引起输出变化的程度；需结合测量方法表述。"
+    },
+    {
+      "term": "Swatch",
+      "definition": "用于测试和交流材料、结构与功能的小样。"
+    }
+  ],
+  "actions": [
+    "写出目标动作、使用尺度和期望响应。",
+    "把一次材料试验整理成可复现样本记录。"
+  ],
+  "start": 3773.665,
+  "end": 4119.565,
+  "references": [],
+  "moments": [
+    {
+      "time": 3788.935,
+      "title": "项目情境"
+    },
+    {
+      "time": 3847.415,
+      "title": "灵敏度与电极面积"
+    },
+    {
+      "time": 3959.435,
+      "title": "尺度"
+    },
+    {
+      "time": 3995.665,
+      "title": "声音界面与样本交流"
+    }
+  ],
+  "frames": [
+    {
+      "time": 3895.0,
+      "caption": "不同电极结构的灵敏度比较",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/design-context-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-pullup-buttons",
+  "title": "读取按钮：下拉、内部上拉与逻辑反转",
+  "summary": "比较外部下拉电阻和内部上拉的开关输入，解释悬空输入和条件判断。",
+  "key_points": [
+    "外部下拉的典型接法是松开LOW、按下HIGH。",
+    "INPUT_PULLUP的典型接法是按钮接输入与GND，松开HIGH、按下LOW。",
+    "纠错：上拉电阻连接电源，按下时按钮把输入拉向地；原字幕对方向的表述需结合电路图阅读。"
+  ],
+  "terms": [
+    {
+      "term": "Pull-up / pull-down",
+      "definition": "上拉或下拉电阻让输入在开关断开时处于确定状态。"
+    },
+    {
+      "term": "INPUT_PULLUP",
+      "definition": "在支持的板卡上启用内部上拉的输入模式。"
+    }
+  ],
+  "actions": [
+    "画出两种接法，分别写明松开和按下时读数。",
+    "修改判断条件以保持期望的LED行为。"
+  ],
+  "start": 5946.735,
+  "end": 6110.395,
+  "references": [
+    {
+      "title": "Arduino：INPUT与INPUT_PULLUP",
+      "url": "https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/"
+    }
+  ],
+  "moments": [
+    {
+      "time": 5963.095,
+      "title": "外部下拉与悬空"
+    },
+    {
+      "time": 6042.005,
+      "title": "内部上拉"
+    },
+    {
+      "time": 6086.695,
+      "title": "INPUT_PULLUP与条件判断"
+    }
+  ],
+  "frames": [
+    {
+      "time": 6094.0,
+      "caption": "内部上拉与按键判断示例",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/pullup-buttons-1.jpg"
+    }
+  ]
+}

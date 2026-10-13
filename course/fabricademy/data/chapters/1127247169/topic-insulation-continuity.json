@@ -1,0 +1,49 @@
+{
+  "id": "topic-insulation-continuity",
+  "title": "交叉走线绝缘、线结固定与通断排查",
+  "summary": "展示用绝缘层隔开交叉导线、整理线结，并用万用表通断档检查连接；保留水消笔答疑。",
+  "key_points": [
+    "交叉处有电接触需求与无接触需求要在图纸上明确。",
+    "散丝、松结、折叠后的接触都可能引起故障。",
+    "断电后分段检查通断，测量前确认表笔插孔和档位。"
+  ],
+  "terms": [
+    {
+      "term": "Continuity",
+      "definition": "通断测试，用于检查两点是否形成低阻连接。"
+    }
+  ],
+  "actions": [
+    "在电路图上标出交叉但不相连的位置。",
+    "按电源到负载的路径分段检查连接。"
+  ],
+  "start": 4708.495,
+  "end": 4996.915,
+  "references": [],
+  "moments": [
+    {
+      "time": 4708.495,
+      "title": "交叉线路的绝缘"
+    },
+    {
+      "time": 4802.165,
+      "title": "牢固连接与通断档"
+    },
+    {
+      "time": 4893.145,
+      "title": "水消笔和万用表标志答疑"
+    }
+  ],
+  "frames": [
+    {
+      "time": 4777.0,
+      "caption": "整理并固定线结以防散丝短路",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/insulation-continuity-1.jpg"
+    },
+    {
+      "time": 4958.0,
+      "caption": "万用表通断档标志",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/insulation-continuity-2.jpg"
+    }
+  ]
+}

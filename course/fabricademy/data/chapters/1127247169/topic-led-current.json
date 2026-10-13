@@ -1,0 +1,53 @@
+{
+  "id": "topic-led-current",
+  "title": "LED 正向压降、电流与数据手册",
+  "summary": "以 LED 和电池的匹配说明过流风险，介绍电流单位、元件额定值和数据手册。",
+  "key_points": [
+    "LED 的正向压降和额定电流取决于具体型号。",
+    "纠错：不能用“把电压用完”判断安全，也不能把多个 LED 串起来就视为可靠限流。",
+    "引脚允许电流须按具体板卡资料核对；课中的20 mA是示例。"
+  ],
+  "terms": [
+    {
+      "term": "Forward voltage",
+      "definition": "LED导通时的正向压降，随器件和工作电流变化。"
+    },
+    {
+      "term": "mA",
+      "definition": "毫安，1 mA = 0.001 A。"
+    }
+  ],
+  "actions": [
+    "找出手头LED的数据手册与推荐工作电流。",
+    "对照电源与LED压降，规划限流元件。"
+  ],
+  "start": 744.215,
+  "end": 998.005,
+  "references": [
+    {
+      "title": "Adafruit：LED电路与限流计算",
+      "url": "https://learn.adafruit.com/lets-put-leds-in-things/from-scratch"
+    }
+  ],
+  "moments": [
+    {
+      "time": 744.215,
+      "title": "LED正向压降"
+    },
+    {
+      "time": 820.335,
+      "title": "电流与过流风险"
+    },
+    {
+      "time": 904.735,
+      "title": "查阅数据手册"
+    }
+  ],
+  "frames": [
+    {
+      "time": 874.0,
+      "caption": "LED及其他负载的电流示例",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/led-current-1.jpg"
+    }
+  ]
+}

@@ -1,0 +1,1114 @@
+{
+  "id": "1127247169",
+  "slug": "12-etextiles-lecture-2025",
+  "title": "电子纺织：材料、软传感器与交互编程",
+  "description": "Liza Stark 从电路基础、导电材料与软传感器出发，介绍硬软连接、Arduino输入与传感数据处理。",
+  "binding_source": "extension",
+  "duration": 6707.92,
+  "page_url": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/notes.html",
+  "bilibili": {
+    "bvid": "BV1G6pz6ZE1z",
+    "p": 1,
+    "offset_seconds": 0
+  },
+  "chapters": [
+    {
+      "id": "topic-orientation",
+      "title": "电子纺织的起点、案例与开放资源",
+      "summary": "Liza Stark 从声音拼布、互动服装和软界面案例出发，介绍电子纺织的历史与学习路线。课程依次连接电子学、制作和编程，并鼓励从材料实验开始。",
+      "key_points": [
+        "软材料同时承担结构、触感与电气功能。",
+        "案例与文档是理解结构的入口，不能只复制外观。",
+        "原字幕中的 Koba 等识别指向 KOBAKANT；相关资源名称在笔记中规范，原字幕保留。"
+      ],
+      "terms": [
+        {
+          "term": "E-textiles",
+          "definition": "把导电材料、传感器和电子元件融入纺织结构的实践。"
+        },
+        {
+          "term": "KOBAKANT",
+          "definition": "分享电子纺织材料实验和制作教程的开放资源。"
+        }
+      ],
+      "actions": [
+        "记录一个感兴趣的互动方式和所需的输入、输出。",
+        "按电子学、制作、编程三部分整理问题。"
+      ],
+      "start": 0.0,
+      "end": 490.455,
+      "references": [],
+      "moments": [
+        {
+          "time": 184.165,
+          "title": "电子纺织的定义与案例"
+        },
+        {
+          "time": 362.915,
+          "title": "开放文档与材料知识"
+        },
+        {
+          "time": 428.165,
+          "title": "电子学、制作与编程的学习顺序"
+        }
+      ],
+      "frames": [
+        {
+          "time": 252.0,
+          "caption": "电子纺织与软界面案例",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/orientation-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-circuit-voltage",
+      "title": "电路、电源与电压：先认识闭合路径",
+      "summary": "以电池、鳄鱼夹和 LED 认识电路，再用电源额定值和水流类比解释电压，并引入万用表。",
+      "key_points": [
+        "电路需要闭合路径、电源及负载。",
+        "纠错：电流是电荷流动的速率，不是电能本身；约定电流方向与金属中电子漂移方向相反。",
+        "电压是两点间电势差，测量时必须说明参考点。"
+      ],
+      "terms": [
+        {
+          "term": "Voltage / V",
+          "definition": "两点间电势差，单位为伏特。"
+        },
+        {
+          "term": "GND",
+          "definition": "电路的参考地；在本课简单电池电路中接负极。"
+        }
+      ],
+      "actions": [
+        "画出电源、负载和回流路径。",
+        "在电源与板卡资料中找出允许工作电压。"
+      ],
+      "start": 490.455,
+      "end": 744.215,
+      "references": [],
+      "moments": [
+        {
+          "time": 503.455,
+          "title": "闭合电路与负载"
+        },
+        {
+          "time": 625.765,
+          "title": "电压、电池和工作条件"
+        },
+        {
+          "time": 701.465,
+          "title": "万用表作为测量工具"
+        }
+      ],
+      "frames": [
+        {
+          "time": 526.0,
+          "caption": "电池、LED 与连接路径示意",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/circuit-voltage-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-led-current",
+      "title": "LED 正向压降、电流与数据手册",
+      "summary": "以 LED 和电池的匹配说明过流风险，介绍电流单位、元件额定值和数据手册。",
+      "key_points": [
+        "LED 的正向压降和额定电流取决于具体型号。",
+        "纠错：不能用“把电压用完”判断安全，也不能把多个 LED 串起来就视为可靠限流。",
+        "引脚允许电流须按具体板卡资料核对；课中的20 mA是示例。"
+      ],
+      "terms": [
+        {
+          "term": "Forward voltage",
+          "definition": "LED导通时的正向压降，随器件和工作电流变化。"
+        },
+        {
+          "term": "mA",
+          "definition": "毫安，1 mA = 0.001 A。"
+        }
+      ],
+      "actions": [
+        "找出手头LED的数据手册与推荐工作电流。",
+        "对照电源与LED压降，规划限流元件。"
+      ],
+      "start": 744.215,
+      "end": 998.005,
+      "references": [
+        {
+          "title": "Adafruit：LED电路与限流计算",
+          "url": "https://learn.adafruit.com/lets-put-leds-in-things/from-scratch"
+        }
+      ],
+      "moments": [
+        {
+          "time": 744.215,
+          "title": "LED正向压降"
+        },
+        {
+          "time": 820.335,
+          "title": "电流与过流风险"
+        },
+        {
+          "time": 904.735,
+          "title": "查阅数据手册"
+        }
+      ],
+      "frames": [
+        {
+          "time": 874.0,
+          "caption": "LED及其他负载的电流示例",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/led-current-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-resistance-short",
+      "title": "电阻、欧姆定律与短路",
+      "summary": "把电压、电流、电阻联系起来，通过铜布跨接 LED 的提问辨认短路。",
+      "key_points": [
+        "对欧姆性电阻有 V = I × R；相同电压下电阻越大，电流越小。",
+        "短路会使电流绕过预定负载，不能通过故意短接电池来验证。",
+        "电阻阻值与额定功率是不同参数。"
+      ],
+      "terms": [
+        {
+          "term": "Ohm / Ω",
+          "definition": "电阻的单位，欧姆。"
+        },
+        {
+          "term": "Short circuit",
+          "definition": "意外形成低阻通路，可能引起过流和发热。"
+        }
+      ],
+      "actions": [
+        "用纸面电路判断哪里可能意外短接。",
+        "在断电状态测量电阻并记录单位。"
+      ],
+      "start": 998.005,
+      "end": 1197.625,
+      "references": [],
+      "moments": [
+        {
+          "time": 1006.445,
+          "title": "电阻与元件封装"
+        },
+        {
+          "time": 1083.935,
+          "title": "欧姆定律"
+        },
+        {
+          "time": 1109.355,
+          "title": "铜布跨接LED的判断题"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1160.0,
+          "caption": "铜布跨接LED的短路示意",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/resistance-short-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-series-parallel",
+      "title": "串联、并联与不同颜色 LED",
+      "summary": "比较串并联结构、不同颜色LED的正向压降，并保留接入电阻的答疑。",
+      "key_points": [
+        "串联支路电流相同，各元件压降相加；并联支路共享端电压。",
+        "不同颜色LED不能仅凭封装大小判断压降。",
+        "纠错：3 V供电也不意味着一律免限流，仍需考虑电源内阻、LED参数和电流。"
+      ],
+      "terms": [
+        {
+          "term": "Series",
+          "definition": "串联：元件位于同一条电流路径。"
+        },
+        {
+          "term": "Parallel",
+          "definition": "并联：不同支路连接在相同的两个节点之间。"
+        }
+      ],
+      "actions": [
+        "画出两只LED的串联和并联方案。",
+        "为各并联LED支路检查独立限流需求。"
+      ],
+      "start": 1197.625,
+      "end": 1489.595,
+      "references": [
+        {
+          "title": "Adafruit：LED电路与限流计算",
+          "url": "https://learn.adafruit.com/lets-put-leds-in-things/from-scratch"
+        }
+      ],
+      "moments": [
+        {
+          "time": 1197.625,
+          "title": "串联与并联"
+        },
+        {
+          "time": 1231.395,
+          "title": "颜色与正向压降"
+        },
+        {
+          "time": 1382.335,
+          "title": "添加电阻的工作量答疑"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1314.0,
+          "caption": "串并联中的电压与电流比较",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/series-parallel-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-materials-tools",
+      "title": "导电布、导电线、油墨与工具选择",
+      "summary": "按阻值、可焊性、弹性、触感和制作方式比较材料，介绍手工、缝纫与电子工具。",
+      "key_points": [
+        "导电材料仍有电阻，长距离走线需按实际长度测量。",
+        "铜箔胶带适合部分原型，反复弯折会影响可靠性。",
+        "导电线放底梭是讲师所述实践经验，机器和线材兼容性须先做样片。"
+      ],
+      "terms": [
+        {
+          "term": "Conductive thread",
+          "definition": "可导电的线材，阻值和可焊性因组成而异。"
+        },
+        {
+          "term": "Resistive material",
+          "definition": "具有可用于感测或发热的电阻特性的材料。"
+        }
+      ],
+      "actions": [
+        "建立材料样本卡，记录长度、阻值和连接方法。",
+        "先在边角料上验证焊接、熨烫或缝纫工艺。"
+      ],
+      "start": 1489.595,
+      "end": 1910.245,
+      "references": [],
+      "moments": [
+        {
+          "time": 1503.905,
+          "title": "材料选型的属性"
+        },
+        {
+          "time": 1608.945,
+          "title": "导电线的构成与长度"
+        },
+        {
+          "time": 1738.135,
+          "title": "油墨、胶带和工具"
+        },
+        {
+          "time": 1839.665,
+          "title": "机器与电子工具"
+        }
+      ],
+      "frames": [
+        {
+          "time": 1547.0,
+          "caption": "导电织物的材料选型",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/materials-tools-1.jpg"
+        },
+        {
+          "time": 1828.0,
+          "caption": "电子纺织常用手工工具",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/materials-tools-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-traces",
+      "title": "制作柔性走线：热熔粘合、缝纫与刺绣",
+      "summary": "说明走线是电流的实体路径，并比较导电布贴合、曲线布线、机缝与手绣。",
+      "key_points": [
+        "低阻、牢固、可弯曲的走线需要电气与机械性能同时合格。",
+        "过高熨烫温度可能破坏材料导电性能，温度应由材料规格和样片测试决定。",
+        "导电线磨损与散丝会改变连接质量并增加短路机会。"
+      ],
+      "terms": [
+        {
+          "term": "Trace",
+          "definition": "电路中连接元件的导电路径。"
+        },
+        {
+          "term": "Heat-bonding",
+          "definition": "通过热熔粘合层把导电布固定到基材。"
+        }
+      ],
+      "actions": [
+        "为同一走线尝试两种固定方式并比较阻值。",
+        "反复弯折后复测，检查散丝和相邻线路间距。"
+      ],
+      "start": 1910.245,
+      "end": 2180.495,
+      "references": [],
+      "moments": [
+        {
+          "time": 1912.375,
+          "title": "什么是走线"
+        },
+        {
+          "time": 1967.885,
+          "title": "导电布与热熔粘合"
+        },
+        {
+          "time": 2072.435,
+          "title": "机缝、手缝和链式针迹"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2061.0,
+          "caption": "可变形的曲线走线",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/traces-1.jpg"
+        },
+        {
+          "time": 2104.0,
+          "caption": "不同导电线缝合方式",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/traces-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-material-testing",
+      "title": "材料试验、普通缝纫机与耐汗耐洗答疑",
+      "summary": "提醒学习材料的机械和电气行为，并回答普通缝纫机、运动服防护与清洗问题。",
+      "key_points": [
+        "材料不能只按“能否导电”二分，需测试实际使用状态。",
+        "耐汗、防雨与清洗能力取决于材料、绝缘、连接和可拆卸设计。",
+        "视频中的清洗经验不能替代具体材料及电子模块的维护要求。"
+      ],
+      "terms": [
+        {
+          "term": "Insulation",
+          "definition": "用非导电材料隔离电路或相邻导电路径。"
+        }
+      ],
+      "actions": [
+        "列出项目会接触的汗液、水和弯折条件。",
+        "按实际材料规格设计防护与可拆卸部分。"
+      ],
+      "start": 2180.495,
+      "end": 2351.245,
+      "references": [],
+      "moments": [
+        {
+          "time": 2206.245,
+          "title": "以材料试验为基础"
+        },
+        {
+          "time": 2237.025,
+          "title": "普通缝纫机答疑"
+        },
+        {
+          "time": 2263.355,
+          "title": "汗液、防水与清洗"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2287.0,
+          "caption": "答疑时屏幕已停留在输入类型标题页",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/material-testing-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-digital-switches",
+      "title": "数字输入：按钮、按扣、拉链、抚触与倾斜开关",
+      "summary": "从开关的通断原理出发，展示多个利用导电材料接触形成的织物开关。",
+      "key_points": [
+        "本课数字开关对应通断两个状态。",
+        "按钮用带孔绝缘隔层分开两片导电面，按压时接触。",
+        "拉链与珠子等结构必须确认接触部件本身导电。"
+      ],
+      "terms": [
+        {
+          "term": "Momentary switch",
+          "definition": "只有持续按压或触发时才保持状态的瞬时开关。"
+        },
+        {
+          "term": "Toggle switch",
+          "definition": "可以保持在开或关状态的开关。"
+        }
+      ],
+      "actions": [
+        "用剖面图标出导电层、隔层和端子。",
+        "检查松开时断开、触发时导通，避免边缘常闭。"
+      ],
+      "start": 2351.245,
+      "end": 2682.665,
+      "references": [],
+      "moments": [
+        {
+          "time": 2372.715,
+          "title": "数字与模拟输入"
+        },
+        {
+          "time": 2421.745,
+          "title": "开关与按钮"
+        },
+        {
+          "time": 2507.855,
+          "title": "按扣与拉链"
+        },
+        {
+          "time": 2576.625,
+          "title": "抚触与倾斜开关"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2490.0,
+          "caption": "织物按钮的分层结构",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/digital-switches-1.jpg"
+        },
+        {
+          "time": 2635.0,
+          "caption": "导电珠形成的倾斜开关",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/digital-switches-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-analog-principles",
+      "title": "模拟感测：长度、接触与导电面积",
+      "summary": "用可变电阻解释模拟输入，讨论距离、接触条件与导电结构如何改变阻值。",
+      "key_points": [
+        "本课重点为电阻式传感器，并不代表所有模拟传感器都靠电阻变化。",
+        "纠错：同材质同截面导体越长，电阻通常越大；原字幕47:33的lower与前后说明矛盾。",
+        "密集针迹的有效连接可能形成更多并行路径，应以测量确认。"
+      ],
+      "terms": [
+        {
+          "term": "Variable resistor",
+          "definition": "阻值随位置、压力或其他条件变化的元件或结构。"
+        }
+      ],
+      "actions": [
+        "固定材料与长度，只改变一个结构变量进行比较。",
+        "记录按压前后阻值及重复性。"
+      ],
+      "start": 2682.665,
+      "end": 3014.505,
+      "references": [],
+      "moments": [
+        {
+          "time": 2702.495,
+          "title": "用电阻变化影响输出"
+        },
+        {
+          "time": 2816.365,
+          "title": "长度、接触与面积"
+        },
+        {
+          "time": 2910.845,
+          "title": "针迹与有效连接面积"
+        }
+      ],
+      "frames": [
+        {
+          "time": 2960.0,
+          "caption": "不同针迹与电阻变化的结构比较",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/analog-principles-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-resistive-materials",
+      "title": "导电纱、Velostat 与电阻织物",
+      "summary": "介绍用于传感的纱线、碳填充薄膜与电阻织物，并以按压实验说明接触变化。",
+      "key_points": [
+        "Velostat是本课使用的电阻薄膜，名称在原字幕中有多种误识别。",
+        "高阻材料可能需要分压及微控制器读取，不能仅凭LED不亮判断传感器失败。",
+        "课程提到的材料供应情况属于授课时背景，当前供货未逐项核实。"
+      ],
+      "terms": [
+        {
+          "term": "Velostat",
+          "definition": "含碳的电阻性薄膜，常用于压力传感原型。"
+        },
+        {
+          "term": "EeonTex",
+          "definition": "课程提及的电阻纺织材料系列，具体性质依产品而异。"
+        }
+      ],
+      "actions": [
+        "按材料和结构制作小样，记录静态与触发阻值。",
+        "为采购保留正式名称和产品规格，避免按字幕音译搜索。"
+      ],
+      "start": 3014.505,
+      "end": 3293.075,
+      "references": [],
+      "moments": [
+        {
+          "time": 3014.505,
+          "title": "电阻材料概览"
+        },
+        {
+          "time": 3060.625,
+          "title": "Velostat薄膜"
+        },
+        {
+          "time": 3126.935,
+          "title": "材料功能化探索"
+        },
+        {
+          "time": 3196.605,
+          "title": "按压与LED亮度预测"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3077.0,
+          "caption": "电阻薄膜与纺织材料",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/resistive-materials-1.jpg"
+        },
+        {
+          "time": 3268.0,
+          "caption": "按压传感器改变LED亮度的演示",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/resistive-materials-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-sensor-construction",
+      "title": "压力、弯曲、拉伸与电位器的结构",
+      "summary": "比较不同电极和电阻层布局，展示压力矩阵、弯曲、针织拉伸和电位器式界面。",
+      "key_points": [
+        "压力传感器两电极不能绕过电阻层直接接触，否则会退化为开关或短接。",
+        "弯曲、拉伸与压力的响应取决于结构，不宜把某个样品的趋势套给所有材料。",
+        "电位器式结构需要理解接触位置、电阻路径与读出方式。"
+      ],
+      "terms": [
+        {
+          "term": "Pressure sensor",
+          "definition": "把按压动作转化为可测电气变化的结构。"
+        },
+        {
+          "term": "Wiper",
+          "definition": "电位器中沿电阻路径移动的接触端。"
+        }
+      ],
+      "actions": [
+        "先做一种传感器，再改变电极面积比较灵敏度。",
+        "固定电阻层和端子，防止操作时层间错位。"
+      ],
+      "start": 3293.075,
+      "end": 3773.665,
+      "references": [],
+      "moments": [
+        {
+          "time": 3311.785,
+          "title": "压力传感器与矩阵"
+        },
+        {
+          "time": 3470.465,
+          "title": "弯曲传感器"
+        },
+        {
+          "time": 3583.795,
+          "title": "针织拉伸传感器"
+        },
+        {
+          "time": 3630.835,
+          "title": "电位器与制作资源"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3373.0,
+          "caption": "压力传感器的隔层与电极",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/sensor-construction-1.jpg"
+        },
+        {
+          "time": 3658.0,
+          "caption": "直线与环形电位器等软传感器结构示例",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/sensor-construction-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-design-context",
+      "title": "使用情境、灵敏度、尺度与作品参考",
+      "summary": "根据穿戴或装置、日用或表演等情境选择结构，比较灵敏度与尺度，并浏览声音界面和样本交换项目。",
+      "key_points": [
+        "小尺寸与大尺寸作品面临不同的连接与电阻问题。",
+        "灵敏度应以目标动作和测试阈值描述，不能简单等同于传感器好坏。",
+        "共享样本应同时记录材料、结构和电气结果。"
+      ],
+      "terms": [
+        {
+          "term": "Sensitivity",
+          "definition": "输入变化引起输出变化的程度；需结合测量方法表述。"
+        },
+        {
+          "term": "Swatch",
+          "definition": "用于测试和交流材料、结构与功能的小样。"
+        }
+      ],
+      "actions": [
+        "写出目标动作、使用尺度和期望响应。",
+        "把一次材料试验整理成可复现样本记录。"
+      ],
+      "start": 3773.665,
+      "end": 4119.565,
+      "references": [],
+      "moments": [
+        {
+          "time": 3788.935,
+          "title": "项目情境"
+        },
+        {
+          "time": 3847.415,
+          "title": "灵敏度与电极面积"
+        },
+        {
+          "time": 3959.435,
+          "title": "尺度"
+        },
+        {
+          "time": 3995.665,
+          "title": "声音界面与样本交流"
+        }
+      ],
+      "frames": [
+        {
+          "time": 3895.0,
+          "caption": "不同电极结构的灵敏度比较",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/design-context-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-trace-measurement",
+      "title": "答疑：按实际长度测量导电线",
+      "summary": "通过A到B的走线示意，说明先量长度、再用万用表测量该段线材的阻值。",
+      "key_points": [
+        "材料规格不能代替实际长度和连接后的测量。",
+        "讲师提出2–3 Ω是个人项目经验，不是所有电路的通用合格线。",
+        "空白原字幕1418保留编号与时间；不据此编造问答。"
+      ],
+      "terms": [
+        {
+          "term": "Voltage drop",
+          "definition": "电流经过阻性路径时产生的电压下降。"
+        }
+      ],
+      "actions": [
+        "量出实际布线路径并截取等长样本。",
+        "把测得阻值与负载电流、允许压降一起评估。"
+      ],
+      "start": 4119.565,
+      "end": 4315.805,
+      "references": [],
+      "moments": [
+        {
+          "time": 4168.515,
+          "title": "如何测量一段导电线"
+        },
+        {
+          "time": 4219.815,
+          "title": "万用表接到线材两端"
+        },
+        {
+          "time": 4247.455,
+          "title": "阻值与项目情境"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4235.0,
+          "caption": "提问页上的 A—B 走线示意；讲师说明测量方法",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/trace-measurement-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-connections",
+      "title": "硬软连接：缝合、焊接、压接与可拆卸接口",
+      "summary": "比较永久与临时连接，展示引脚绕环、表贴元件、洞洞板、压接珠和按扣等方法。",
+      "key_points": [
+        "先用临时连接确认电路，再固定最终结构。",
+        "机械牢固和电气导通需要分别验证，胶用于固定与绝缘，不能代替电接触。",
+        "可拆卸结构方便移动模块、维护和清洁。"
+      ],
+      "terms": [
+        {
+          "term": "SMD",
+          "definition": "表面贴装器件，体积较小，连接操作要求更精细。"
+        },
+        {
+          "term": "Crimp bead",
+          "definition": "压接珠，可用于固定线材并形成转接点。"
+        }
+      ],
+      "actions": [
+        "为一个元件绘制导电接触与机械固定的细节图。",
+        "用轻拉与弯折测试接口，再复测导通。"
+      ],
+      "start": 4315.805,
+      "end": 4708.495,
+      "references": [],
+      "moments": [
+        {
+          "time": 4402.095,
+          "title": "永久连接"
+        },
+        {
+          "time": 4494.985,
+          "title": "表面贴装元件"
+        },
+        {
+          "time": 4591.645,
+          "title": "线材与压接珠"
+        },
+        {
+          "time": 4636.625,
+          "title": "临时和可拆卸连接"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4451.0,
+          "caption": "引脚绕环后与导电线缝合",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/connections-1.jpg"
+        },
+        {
+          "time": 4668.0,
+          "caption": "可拆卸连接方式",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/connections-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-insulation-continuity",
+      "title": "交叉走线绝缘、线结固定与通断排查",
+      "summary": "展示用绝缘层隔开交叉导线、整理线结，并用万用表通断档检查连接；保留水消笔答疑。",
+      "key_points": [
+        "交叉处有电接触需求与无接触需求要在图纸上明确。",
+        "散丝、松结、折叠后的接触都可能引起故障。",
+        "断电后分段检查通断，测量前确认表笔插孔和档位。"
+      ],
+      "terms": [
+        {
+          "term": "Continuity",
+          "definition": "通断测试，用于检查两点是否形成低阻连接。"
+        }
+      ],
+      "actions": [
+        "在电路图上标出交叉但不相连的位置。",
+        "按电源到负载的路径分段检查连接。"
+      ],
+      "start": 4708.495,
+      "end": 4996.915,
+      "references": [],
+      "moments": [
+        {
+          "time": 4708.495,
+          "title": "交叉线路的绝缘"
+        },
+        {
+          "time": 4802.165,
+          "title": "牢固连接与通断档"
+        },
+        {
+          "time": 4893.145,
+          "title": "水消笔和万用表标志答疑"
+        }
+      ],
+      "frames": [
+        {
+          "time": 4777.0,
+          "caption": "整理并固定线结以防散丝短路",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/insulation-continuity-1.jpg"
+        },
+        {
+          "time": 4958.0,
+          "caption": "万用表通断档标志",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/insulation-continuity-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-boards-pins",
+      "title": "微控制器、Arduino 与引脚图",
+      "summary": "建立输入—处理—输出模型，介绍Arduino及可穿戴板卡、数字和模拟引脚、PWM与引脚图。",
+      "key_points": [
+        "Arduino既包括硬件也包括开发工具；不同板卡不能直接沿用同一引脚、电压与电流限制。",
+        "UNO示例的引脚数量与ADC/PWM范围不代表所有板卡。",
+        "原字幕中的jowl、Seed等指向Seeed Studio XIAO系列，具体型号以画面和板卡标识核对。"
+      ],
+      "terms": [
+        {
+          "term": "GPIO",
+          "definition": "通用输入输出引脚。"
+        },
+        {
+          "term": "PWM",
+          "definition": "脉宽调制，用占空比变化控制平均输出效果。"
+        }
+      ],
+      "actions": [
+        "找到自己板卡的官方引脚图并标出GND、电源、模拟输入和PWM。",
+        "确认板卡逻辑电压及输入允许范围。"
+      ],
+      "start": 4996.915,
+      "end": 5505.175,
+      "references": [],
+      "moments": [
+        {
+          "time": 5101.425,
+          "title": "输入—处理—输出与微控制器"
+        },
+        {
+          "time": 5177.575,
+          "title": "Arduino与可穿戴板卡"
+        },
+        {
+          "time": 5288.115,
+          "title": "引脚类型"
+        },
+        {
+          "time": 5400.715,
+          "title": "引脚图与XIAO扩展板"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5350.0,
+          "caption": "Arduino引脚类型",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/boards-pins-1.jpg"
+        },
+        {
+          "time": 5432.0,
+          "caption": "XIAO ESP32-C3引脚图",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/boards-pins-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-ide-program-flow",
+      "title": "连接电脑、Arduino IDE 与程序执行",
+      "summary": "介绍数据线、跳线、面包板及IDE，解释setup、loop、函数参数、Blink逻辑和板卡端口选择。",
+      "key_points": [
+        "能供电的USB线不一定支持数据通信。",
+        "setup通常运行一次，loop重复执行；编译器生成程序，实际指令由微控制器执行。",
+        "pinMode、digitalWrite与delay需保留准确拼写。"
+      ],
+      "terms": [
+        {
+          "term": "setup() / loop()",
+          "definition": "初始化与重复执行的两部分程序入口。"
+        },
+        {
+          "term": "IDE",
+          "definition": "集成开发环境，用于编辑、编译、上传和查看串口信息。"
+        }
+      ],
+      "actions": [
+        "确认数据线与开发板端口可识别。",
+        "阅读Blink例程，解释每一行如何改变LED状态。"
+      ],
+      "start": 5505.175,
+      "end": 5946.735,
+      "references": [],
+      "moments": [
+        {
+          "time": 5509.845,
+          "title": "数据线与基础工具"
+        },
+        {
+          "time": 5628.455,
+          "title": "IDE界面"
+        },
+        {
+          "time": 5708.765,
+          "title": "程序流程"
+        },
+        {
+          "time": 5797.315,
+          "title": "函数与Blink"
+        },
+        {
+          "time": 5927.945,
+          "title": "选择板卡和端口"
+        }
+      ],
+      "frames": [
+        {
+          "time": 5663.0,
+          "caption": "Arduino IDE中的板卡、端口与工具",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/ide-program-flow-1.jpg"
+        },
+        {
+          "time": 5848.0,
+          "caption": "函数与Blink示例代码",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/ide-program-flow-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-pullup-buttons",
+      "title": "读取按钮：下拉、内部上拉与逻辑反转",
+      "summary": "比较外部下拉电阻和内部上拉的开关输入，解释悬空输入和条件判断。",
+      "key_points": [
+        "外部下拉的典型接法是松开LOW、按下HIGH。",
+        "INPUT_PULLUP的典型接法是按钮接输入与GND，松开HIGH、按下LOW。",
+        "纠错：上拉电阻连接电源，按下时按钮把输入拉向地；原字幕对方向的表述需结合电路图阅读。"
+      ],
+      "terms": [
+        {
+          "term": "Pull-up / pull-down",
+          "definition": "上拉或下拉电阻让输入在开关断开时处于确定状态。"
+        },
+        {
+          "term": "INPUT_PULLUP",
+          "definition": "在支持的板卡上启用内部上拉的输入模式。"
+        }
+      ],
+      "actions": [
+        "画出两种接法，分别写明松开和按下时读数。",
+        "修改判断条件以保持期望的LED行为。"
+      ],
+      "start": 5946.735,
+      "end": 6110.395,
+      "references": [
+        {
+          "title": "Arduino：INPUT与INPUT_PULLUP",
+          "url": "https://docs.arduino.cc/language-reference/en/variables/constants/inputOutputPullup/"
+        }
+      ],
+      "moments": [
+        {
+          "time": 5963.095,
+          "title": "外部下拉与悬空"
+        },
+        {
+          "time": 6042.005,
+          "title": "内部上拉"
+        },
+        {
+          "time": 6086.695,
+          "title": "INPUT_PULLUP与条件判断"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6094.0,
+          "caption": "内部上拉与按键判断示例",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/pullup-buttons-1.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-analog-data",
+      "title": "分压、串口与传感数据处理",
+      "summary": "通过分压把电阻变化转成电压，用串口观察数值，再介绍映射、限制范围、平滑和调试。",
+      "key_points": [
+        "ADC读取电压；分压节点对GND测量，传感器上下位置决定变化方向。",
+        "固定电阻需要匹配传感器量程，10 kΩ只是示例。",
+        "map改变范围，constrain限制范围，平均平滑降低跳动但引入响应延迟。"
+      ],
+      "terms": [
+        {
+          "term": "Voltage divider",
+          "definition": "两个串联电阻形成的分压电路，中点电压取决于阻值比。"
+        },
+        {
+          "term": "Serial monitor",
+          "definition": "用于观察微控制器串口输出的工具。"
+        }
+      ],
+      "actions": [
+        "先用串口记录松开和触发范围，再映射到输出。",
+        "逐项检查硬件连接、程序参数和实际响应。"
+      ],
+      "start": 6110.395,
+      "end": 6465.665,
+      "references": [
+        {
+          "title": "SparkFun：分压电路与公式",
+          "url": "https://learn.sparkfun.com/tutorials/voltage-dividers/ideal-voltage-divider"
+        }
+      ],
+      "moments": [
+        {
+          "time": 6125.955,
+          "title": "用分压读取电阻传感器"
+        },
+        {
+          "time": 6250.735,
+          "title": "串口观察数值"
+        },
+        {
+          "time": 6360.765,
+          "title": "映射、限幅与平滑"
+        },
+        {
+          "time": 6455.815,
+          "title": "调试检查表"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6184.0,
+          "caption": "分压原理与固定电阻",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/analog-data-1.jpg"
+        },
+        {
+          "time": 6396.0,
+          "caption": "传感数值的限幅处理",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/analog-data-2.jpg"
+        }
+      ]
+    },
+    {
+      "id": "topic-assignment",
+      "title": "作业要求、从小样起步与课程收尾",
+      "summary": "总结软开关、模拟传感器、板卡读数、输出控制和织物小样集成，保留最后提问与后续教程提醒。",
+      "key_points": [
+        "先制作和测量单个输入，再连接板卡与输出。",
+        "课程示例中的LED或振动电机需按器件与板卡能力配置驱动。",
+        "按授课当年要求记录小样结构、连接和代码；当前学年的正式作业以手册为准。"
+      ],
+      "terms": [
+        {
+          "term": "Hard–soft connection",
+          "definition": "硬质电子器件与柔性导电材料之间的连接。"
+        }
+      ],
+      "actions": [
+        "整理一个数字开关和一个模拟传感器的材料、结构与测量记录。",
+        "保存电路图、代码和触发前后的结果照片或视频。"
+      ],
+      "start": 6465.665,
+      "end": 6707.92,
+      "references": [],
+      "moments": [
+        {
+          "time": 6470.725,
+          "title": "制作、读取与输出控制"
+        },
+        {
+          "time": 6491.565,
+          "title": "集成到织物小样"
+        },
+        {
+          "time": 6623.415,
+          "title": "从小规模实验开始"
+        }
+      ],
+      "frames": [
+        {
+          "time": 6491.0,
+          "caption": "本周作业与织物小样集成要求",
+          "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/assignment-1.jpg"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "id": "topic-resistance-short",
+  "title": "电阻、欧姆定律与短路",
+  "summary": "把电压、电流、电阻联系起来，通过铜布跨接 LED 的提问辨认短路。",
+  "key_points": [
+    "对欧姆性电阻有 V = I × R；相同电压下电阻越大，电流越小。",
+    "短路会使电流绕过预定负载，不能通过故意短接电池来验证。",
+    "电阻阻值与额定功率是不同参数。"
+  ],
+  "terms": [
+    {
+      "term": "Ohm / Ω",
+      "definition": "电阻的单位，欧姆。"
+    },
+    {
+      "term": "Short circuit",
+      "definition": "意外形成低阻通路，可能引起过流和发热。"
+    }
+  ],
+  "actions": [
+    "用纸面电路判断哪里可能意外短接。",
+    "在断电状态测量电阻并记录单位。"
+  ],
+  "start": 998.005,
+  "end": 1197.625,
+  "references": [],
+  "moments": [
+    {
+      "time": 1006.445,
+      "title": "电阻与元件封装"
+    },
+    {
+      "time": 1083.935,
+      "title": "欧姆定律"
+    },
+    {
+      "time": 1109.355,
+      "title": "铜布跨接LED的判断题"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1160.0,
+      "caption": "铜布跨接LED的短路示意",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/resistance-short-1.jpg"
+    }
+  ]
+}

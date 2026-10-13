@@ -1,0 +1,52 @@
+{
+  "id": "topic-final-questions",
+  "title": "总结与答疑：柔性基材、金属固定件及组合传感器",
+  "summary": "强调先测量后集成，再回答透明塑料基材、金属铆钉隔离和数字模拟组合；最后用实体模块验证组合电路。",
+  "key_points": [
+    "可靠流程是制作单件、测量、搭电路、最后接微控制器。",
+    "金属固定件应避免接触不应相连的走线。",
+    "数字开关可控制通断，模拟传感器可调节程度；组合后仍需检查供电与接点。"
+  ],
+  "terms": [
+    {
+      "term": "Substrate",
+      "definition": "承载电路的基材，可以是合适的绝缘柔性材料。"
+    },
+    {
+      "term": "Modular circuit",
+      "definition": "通过可连接模块组合电源、输入、输出和走线。"
+    }
+  ],
+  "actions": [
+    "保留单件测量记录后再组合。",
+    "按压、松开与移动时检查接点是否牢固。"
+  ],
+  "start": 9807.39,
+  "end": 10546.28,
+  "references": [],
+  "moments": [
+    {
+      "time": 9854.69,
+      "title": "逐步实践与资源"
+    },
+    {
+      "time": 10071.65,
+      "title": "透明塑料基材"
+    },
+    {
+      "time": 10161.85,
+      "title": "金属固定件"
+    },
+    {
+      "time": 10247.96,
+      "title": "组合数字与模拟传感器"
+    }
+  ],
+  "frames": [
+    {
+      "time": 10411.0,
+      "caption": "讲师在上排中间展示组合模块；细节可回看原视频",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/final-questions-1.jpg"
+    }
+  ]
+}

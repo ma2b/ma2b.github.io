@@ -1,0 +1,57 @@
+{
+  "id": "topic-make-button",
+  "title": "制作织物按钮原型：隔层、导电面与通断测试",
+  "summary": "从瞬时、保持、倾斜和抚触开关的原理讲起，完整演示用海绵、铝箔、导电线和胶带做按钮并测试。",
+  "key_points": [
+    "带孔隔层让导电面在松开时分离、按压时接触。",
+    "演示中的快速铝箔原型用于理解原理，讲师明确不建议直接作为最终作业。",
+    "完成后先用断电通断测试验证，再接电源与LED。"
+  ],
+  "terms": [
+    {
+      "term": "Spacer",
+      "definition": "让两导电面保持分离的间隔层。"
+    },
+    {
+      "term": "Momentary switch",
+      "definition": "按压时闭合、释放时断开的瞬时开关。"
+    }
+  ],
+  "actions": [
+    "制作按钮并检查边缘不会常闭短接。",
+    "测试按压、释放及多次循环后的导通状态。"
+  ],
+  "start": 6837.66,
+  "end": 7760.04,
+  "references": [],
+  "moments": [
+    {
+      "time": 6837.66,
+      "title": "数字开关原理"
+    },
+    {
+      "time": 7051.4,
+      "title": "按钮分层结构"
+    },
+    {
+      "time": 7171.16,
+      "title": "裁剪、端子和组装"
+    },
+    {
+      "time": 7614.3,
+      "title": "通断测试"
+    }
+  ],
+  "frames": [
+    {
+      "time": 7453.0,
+      "caption": "按钮原型与材料清单；右上角继续组装",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/make-button-2.jpg"
+    },
+    {
+      "time": 7727.0,
+      "caption": "按压按钮进行通断测试",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/make-button-3.jpg"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "topic-series-parallel",
+  "title": "串联、并联与不同颜色 LED",
+  "summary": "比较串并联结构、不同颜色LED的正向压降，并保留接入电阻的答疑。",
+  "key_points": [
+    "串联支路电流相同，各元件压降相加；并联支路共享端电压。",
+    "不同颜色LED不能仅凭封装大小判断压降。",
+    "纠错：3 V供电也不意味着一律免限流，仍需考虑电源内阻、LED参数和电流。"
+  ],
+  "terms": [
+    {
+      "term": "Series",
+      "definition": "串联：元件位于同一条电流路径。"
+    },
+    {
+      "term": "Parallel",
+      "definition": "并联：不同支路连接在相同的两个节点之间。"
+    }
+  ],
+  "actions": [
+    "画出两只LED的串联和并联方案。",
+    "为各并联LED支路检查独立限流需求。"
+  ],
+  "start": 1197.625,
+  "end": 1489.595,
+  "references": [
+    {
+      "title": "Adafruit：LED电路与限流计算",
+      "url": "https://learn.adafruit.com/lets-put-leds-in-things/from-scratch"
+    }
+  ],
+  "moments": [
+    {
+      "time": 1197.625,
+      "title": "串联与并联"
+    },
+    {
+      "time": 1231.395,
+      "title": "颜色与正向压降"
+    },
+    {
+      "time": 1382.335,
+      "title": "添加电阻的工作量答疑"
+    }
+  ],
+  "frames": [
+    {
+      "time": 1314.0,
+      "caption": "串并联中的电压与电流比较",
+      "src": "https://ma2b.github.io/course/fabricademy/12-etextiles-lecture-2025/frames/series-parallel-1.jpg"
+    }
+  ]
+}

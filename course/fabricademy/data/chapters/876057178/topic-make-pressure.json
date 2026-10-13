@@ -1,0 +1,67 @@
+{
+  "id": "topic-make-pressure",
+  "title": "制作 Velostat 压力传感器并测量响应",
+  "summary": "把模拟传感器解释为可变电阻，先测薄膜，再用较大导电面夹住薄膜，测按压前后阻值并接LED。",
+  "key_points": [
+    "两电极必须通过电阻薄膜连接，不能在边缘直接接触。",
+    "阻值变化与电极面积、夹持方式及材料有关，应做重复测量。",
+    "LED不亮可能因为阻值过高，不等于传感器没有响应。",
+    "原字幕cannot与部分单位可能误识别，演示结果应结合画面核对。"
+  ],
+  "terms": [
+    {
+      "term": "Piezoresistive",
+      "definition": "受机械作用时电阻发生变化的特性。"
+    },
+    {
+      "term": "Velostat",
+      "definition": "含碳电阻薄膜，用于本课压力传感器原型。"
+    }
+  ],
+  "actions": [
+    "记录松开、轻压、重压的阻值及复位情况。",
+    "固定端子与电极，区分连接松动和材料响应。"
+  ],
+  "start": 8417.41,
+  "end": 9475.64,
+  "references": [],
+  "moments": [
+    {
+      "time": 8461.67,
+      "title": "模拟输入与可变电阻"
+    },
+    {
+      "time": 8601.13,
+      "title": "Velostat材料测试"
+    },
+    {
+      "time": 8810.35,
+      "title": "选择结构与组装"
+    },
+    {
+      "time": 9133.59,
+      "title": "阻值测试"
+    },
+    {
+      "time": 9287.0,
+      "title": "LED响应及不亮的原因"
+    }
+  ],
+  "frames": [
+    {
+      "time": 8684.0,
+      "caption": "Velostat 材料说明及右上角的测量演示",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/make-pressure-1.jpg"
+    },
+    {
+      "time": 9172.0,
+      "caption": "薄膜电极结构示例与右上角测量演示",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/make-pressure-2.jpg"
+    },
+    {
+      "time": 9357.0,
+      "caption": "模拟传感器测试接法与右上角 LED 演示",
+      "src": "https://ma2b.github.io/course/fabricademy/13-electronics-soft-sensors-2023/frames/make-pressure-3.jpg"
+    }
+  ]
+}
